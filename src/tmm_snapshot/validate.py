@@ -10,23 +10,280 @@ contiguous from 1.
 
 Reports every failure with file and JSON path rather than stopping at the
 first, and exits non-zero if there were any.
-
-ARCHITECTURE.md does not fix signatures for this module beyond the CLI entry
-point, so the placeholders below are suggestions and T10 may replace them.
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import sys
+from datetime import date, datetime
+from functools import lru_cache
 from pathlib import Path
+from typing import Any, Iterator
+
+from jsonschema import Draft202012Validator
 
 from tmm_snapshot import config
+
+#: Retired pages are validated too. They stay in the snapshot precisely so that
+#: old citations keep resolving, and a citation resolving to a malformed record
+#: is no better than one that does not resolve at all.
+RETIRED_SEGMENT = "_retired"
+
+#: Fields the schema declares as `format: date` and `format: date-time`.
+#: jsonschema treats a format it cannot check as valid and says nothing, unless
+#: extra packages are installed — so these are checked here rather than left to
+#: a dependency this repo has not agreed to take on.
+_DATE_FIELDS = ("date_published", "last_amended")
+_DATE_TIME_FIELDS = ("crawled_at",)
+
+
+@lru_cache(maxsize=None)
+def _validator(path: Path) -> Draft202012Validator:
+    return Draft202012Validator(json.loads(Path(path).read_text(encoding="utf-8")))
+
+
+def _where(path: Path, root: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
+def _schema_failures(
+    document: Any, validator: Draft202012Validator, where: str
+) -> list[str]:
+    """Every schema violation in one record, not just the first."""
+    return [
+        f"{where}: {error.json_path}: {error.message}"
+        for error in sorted(validator.iter_errors(document), key=lambda e: str(e.path))
+    ]
+
+
+def _date_failures(page: dict[str, Any], where: str) -> list[str]:
+    failures: list[str] = []
+    for name in _DATE_FIELDS:
+        value = page.get(name)
+        if value is None:
+            continue
+        try:
+            date.fromisoformat(str(value))
+        except (TypeError, ValueError):
+            failures.append(f"{where}: page.{name}: {value!r} is not a date")
+
+    for name in _DATE_TIME_FIELDS:
+        value = page.get(name)
+        if value is None:
+            continue
+        try:
+            parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        except (TypeError, ValueError):
+            failures.append(f"{where}: page.{name}: {value!r} is not a date-time")
+            continue
+        if parsed.tzinfo is None:
+            failures.append(
+                f"{where}: page.{name}: {value!r} carries no timezone, so it "
+                "names a different instant to every reader"
+            )
+    return failures
+
+
+def _page_documents(root: Path) -> Iterator[tuple[Path, dict[str, Any] | None]]:
+    """Every page file under the snapshot, retired ones included, sorted."""
+    pages = Path(root) / "pages"
+    if not pages.is_dir():
+        return
+    for path in sorted(pages.rglob("*.json")):
+        try:
+            document = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            yield path, None
+            continue
+        yield path, document if isinstance(document, dict) else None
+
+
+def _inventory_refs(root: Path) -> set[str]:
+    """page_refs from snapshot/sitemap.json, or an empty set if there is none.
+
+    The inventory is part of the snapshot, and it is what the chunker resolved
+    cross references against — so a reference naming a page the inventory holds
+    is resolvable even in a snapshot that has not crawled that page yet. A
+    reference naming nothing in *either* is what this check is for: it means
+    the extractor invented a target, which is the failure that puts a broken
+    citation in front of a reader.
+    """
+    try:
+        document = json.loads((Path(root) / "sitemap.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    pages = document.get("pages", []) if isinstance(document, dict) else []
+    return {
+        page["page_ref"]
+        for page in pages
+        if isinstance(page, dict) and isinstance(page.get("page_ref"), str)
+    }
+
+
+def _location_failures(
+    path: Path, where: str, page_ref: str, part_id: Any
+) -> list[str]:
+    """Is the record filed where its own fields say it should be?
+
+    The filename is derived from the page_ref and the directory from the
+    part_id (ARCHITECTURE.md §Snapshot layout). When they disagree the file is
+    findable by neither, and a Part has quietly acquired a page belonging to
+    another one — the failure this repo guards against above all others.
+    """
+    failures: list[str] = []
+    expected = f"{page_ref.replace('/', '-')}.json"
+    if path.name != expected:
+        failures.append(f"{where}: page_ref {page_ref} belongs in a file named {expected}")
+
+    if not isinstance(part_id, str):
+        return failures
+    if path.parent.name not in (part_id, RETIRED_SEGMENT):
+        failures.append(
+            f"{where}: part_id {part_id} belongs in pages/{part_id}/, not "
+            f"pages/{path.parent.name}/"
+        )
+    if page_ref.split("/")[1:2] != [part_id]:
+        failures.append(f"{where}: page_ref {page_ref} does not name part_id {part_id}")
+    return failures
+
+
+def _has_crawled(root: Path) -> bool:
+    """Has a crawl ever written here?
+
+    A snapshot that has never been crawled holds nothing to validate, and
+    saying so is not the same as passing: `snapshot/` is empty in a fresh
+    checkout, and a validator that fails there is a validator everybody learns
+    to ignore. A snapshot that *has* been crawled and holds no pages is the
+    opposite — a run that wrote a manifest and nothing else — and that is a
+    failure loud enough to stop a commit.
+    """
+    return (root / "manifest.json").exists()
 
 
 def validate_snapshot(root: Path) -> list[str]:
     """Return a list of human-readable failures. Empty means valid."""
-    raise NotImplementedError("T10")
+    root = Path(root)
+    if not (root / "pages").is_dir():
+        if _has_crawled(root):
+            return [
+                f"{root}: manifest.json records a crawl, but there is no "
+                "pages/ directory for it to have written"
+            ]
+        return []
+
+    page_validator = _validator(config.PAGE_SCHEMA_PATH)
+    chunk_validator = _validator(config.CHUNK_SCHEMA_PATH)
+
+    failures: list[str] = []
+    page_refs: dict[str, str] = {}
+    chunk_refs: dict[str, str] = {}
+
+    #: Everything a cross reference is allowed to resolve to.
+    targets: set[str] = _inventory_refs(root)
+
+    #: Cross references, held back until every file has been read: a reference
+    #: forward to a page not yet walked is perfectly legal.
+    pending: list[tuple[str, str]] = []
+
+    for path, document in _page_documents(root):
+        where = _where(path, root)
+
+        if document is None:
+            failures.append(f"{where}: not readable as a JSON object")
+            continue
+
+        page = document.get("page")
+        chunks = document.get("chunks")
+
+        if not isinstance(page, dict):
+            failures.append(f"{where}: no 'page' object")
+            continue
+        if not isinstance(chunks, list):
+            failures.append(f"{where}: 'chunks' is not a list")
+            chunks = []
+
+        failures.extend(_schema_failures(page, page_validator, f"{where} page"))
+        failures.extend(_date_failures(page, where))
+
+        page_ref = page.get("page_ref")
+        if not isinstance(page_ref, str):
+            failures.append(f"{where}: page.page_ref is missing or not a string")
+            continue
+
+        failures.extend(_location_failures(path, where, page_ref, page.get("part_id")))
+
+        if page_ref in page_refs:
+            failures.append(
+                f"{where}: page_ref {page_ref} is already claimed by "
+                f"{page_refs[page_ref]}"
+            )
+        page_refs[page_ref] = where
+        targets.add(page_ref)
+
+        ordinals: list[int] = []
+        for index, chunk in enumerate(chunks):
+            at = f"{where} chunks[{index}]"
+            if not isinstance(chunk, dict):
+                failures.append(f"{at}: not an object")
+                continue
+
+            failures.extend(_schema_failures(chunk, chunk_validator, at))
+
+            chunk_ref = chunk.get("chunk_ref")
+            if isinstance(chunk_ref, str):
+                if chunk_ref in chunk_refs:
+                    failures.append(
+                        f"{at}: chunk_ref {chunk_ref} is already claimed by "
+                        f"{chunk_refs[chunk_ref]}; a chunk_ref is a citation, "
+                        "and two passages cannot share one"
+                    )
+                chunk_refs[chunk_ref] = at
+                targets.add(chunk_ref)
+
+            if chunk.get("page_ref") != page_ref:
+                failures.append(
+                    f"{at}: page_ref {chunk.get('page_ref')!r} does not match "
+                    f"the record it is filed with ({page_ref})"
+                )
+
+            ordinal = chunk.get("ordinal")
+            if isinstance(ordinal, int) and not isinstance(ordinal, bool):
+                ordinals.append(ordinal)
+
+            references = chunk.get("internal_refs")
+            if isinstance(references, list):
+                pending.extend(
+                    (at, ref) for ref in references if isinstance(ref, str)
+                )
+
+        expected = list(range(1, len(ordinals) + 1))
+        if ordinals != expected:
+            failures.append(
+                f"{where}: ordinals are {ordinals}, expected {expected} — "
+                "position on the page is what gives previous and next by "
+                "arithmetic, and a gap in it silently breaks adjacency"
+            )
+
+    for at, ref in pending:
+        if ref not in targets:
+            failures.append(
+                f"{at}: internal_ref {ref} names no page or chunk in this "
+                "snapshot or its sitemap; an unresolvable reference is "
+                "dropped, not stored, because a consumer will try to follow it"
+            )
+
+    if not page_refs and _has_crawled(root):
+        failures.append(
+            f"{root}: manifest.json records a crawl, but pages/ holds no page "
+            "records"
+        )
+
+    return failures
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -49,12 +306,21 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    failures = validate_snapshot(args.snapshot)
+    root = Path(args.snapshot)
+    failures = validate_snapshot(root)
+
     for failure in failures:
         print(failure, file=sys.stderr)
     if failures:
         print(f"{len(failures)} validation failure(s)", file=sys.stderr)
         return 1
+
+    if not _has_crawled(root):
+        print(f"{root}: nothing crawled yet, nothing to validate", file=sys.stderr)
+        return 0
+
+    pages = len(list((root / "pages").rglob("*.json")))
+    print(f"{root}: {pages} page file(s) valid")
     return 0
 
 

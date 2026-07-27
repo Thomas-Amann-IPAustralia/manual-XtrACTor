@@ -444,23 +444,46 @@ different count — a moved page count is usually a restructure, not an edit.
 | Parts | 54 |
 | Pages | 502 |
 | Non-page nav links | 1 (see §13) |
+| Nav links that 404 | 1 (see §14) |
 | Mean page size | 88.4 KB (n=20, median 84.6 KB, range 81–109 KB) |
 | Extrapolated `snapshot/raw/` | ~44 MB |
 
 Well inside the gigabyte at which `ARCHITECTURE.md` says to stop and reconsider,
 and it only grows by the pages that actually change.
 
-**T7 owes the manifest these numbers.** `write_manifest` does not exist yet, so
-they live here for now; they belong in `snapshot/manifest.json` once it does.
+These numbers are now measured by every run and written to
+`snapshot/manifest.json` under `corpus` (T7). The table stays as the reading
+taken on the day, to compare a later run against.
 
 ### Settled since
 
 - **`robots.txt`.** Stock Drupal. Disallows `/core/`, `/admin/`, `/user/login`
   and friends; says nothing about `/trademark`, and sets no `Crawl-delay`. Still
   check it on every run — this is a snapshot of one day, not a licence.
-- **ETag / Last-Modified.** Both sent on every response, and both honoured:
-  `If-None-Match` and `If-Modified-Since` each return `304` on their own. Gate 1
-  of the skip logic works, and a re-crawl costs the site almost nothing.
+- **ETag / Last-Modified.** Both sent on every response. Both are honoured *on
+  their own* — and sending both at once is answered `200` every time. Corrected
+  27 July 2026 (T7), having found gate 1 firing on nothing:
+
+  ```
+  If-None-Match: "1785133603-gzip"           -> 200
+  If-None-Match: "1785133603"                -> 304
+  If-Modified-Since: <date>                  -> 304
+  If-Modified-Since: <date> + If-None-Match  -> 200
+  ```
+
+  Two separate things are going on. The Manual is served by Apache with
+  mod_deflate, which appends `-gzip` to the ETag it sends but compares an
+  incoming `If-None-Match` against the unsuffixed value — so echoing back the
+  ETag the server itself gave us can never match. And RFC 9110 gives
+  `If-None-Match` precedence, so a request carrying both has its date check
+  ignored. Sending both is therefore not belt and braces: the broken validator
+  silently disables the working one, for every page.
+
+  `fetch.py` sends `If-Modified-Since` alone where a `Last-Modified` is known,
+  and falls back to `If-None-Match` only where one is not. It does not strip
+  the `-gzip` suffix: that would be guessing at a server's bug from the outside
+  and would break the day the server stopped having it. Gate 1 now returns
+  `304` for every unchanged page, and a re-crawl costs the site almost nothing.
 - **Raw HTML is stable between fetches.** Two fetches of the same unchanged page
   were byte-identical — no per-request tokens, no rotating asset URLs, at least
   while `x-drupal-cache: HIT`. Normalise before hashing anyway: the guarantee is
@@ -495,3 +518,37 @@ path, rather than being discovered at parse time on every crawl. This is the one
 place the pipeline drops something rather than raising, and it is narrow on
 purpose: the rule is a whitelist of one path, so anything genuinely surprising
 still surfaces as a missing page rather than as a mangled one.
+
+---
+
+## 14. The nav links to a page that is not there
+
+Part 1 links *"Part 1.3. Practice Change Procedure"* to a URL that 404s:
+
+```
+/trademark/1.5   ->   404
+```
+
+Not a redirect, not a moved page — the Manual's own sidebar pointing at nothing.
+Found on the first live run of the orchestration (T7, 27 July 2026), where it
+aborted the crawl on the third page of the first Part.
+
+This is distinct from §13. There the nav points at something real that is not a
+page, and the target is excluded by path before anything is fetched. Here the
+nav points at a page-shaped URL that the site will not serve, and there is no
+way to know that without asking.
+
+So the crawler records it and carries on. A 404 hands us nothing, which means
+nothing can be silently wrong — rule 3's failure mode is not available — while
+abandoning 501 good pages to protect against it is simply losing the snapshot.
+The run names the page in its report and in `manifest.json` under
+`run.unreachable`, no record is written for it, and any record already held is
+left exactly as it was. The page stays in the nav, so it is *not* retired:
+retirement means gone from the inventory, and this is present but unserved.
+
+Two things this deliberately does not do. It does not guess a substitute URL —
+`1.5` looks like it wants to be a dotted address, and acting on that is exactly
+the inference rule 1 forbids. And it does not shrug off a site-wide failure: a
+run where *nothing* in scope could be fetched raises, because that is not a
+rotted link, that is the site refusing us, and a manifest reporting a successful
+crawl of nothing would be a lie.

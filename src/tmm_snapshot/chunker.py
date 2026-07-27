@@ -316,12 +316,3 @@ def chunk_body(
             )
 
     return chunks
-
-
-def content_hash(text: str) -> str:
-    """SHA-256 of the chunk's normalised text.
-
-    Of the text alone, unlike the page hash: a chunk that reads identically
-    after a class attribute changed has not changed.
-    """
-    return f"sha256:{hashlib.sha256(text.encode('utf-8')).hexdigest()}"

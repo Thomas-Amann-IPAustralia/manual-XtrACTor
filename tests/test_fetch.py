@@ -97,17 +97,46 @@ def test_a_200_returns_the_html_and_stores_the_validators(tmp_path, clock):
 
 
 def test_the_second_request_is_conditional(tmp_path, clock):
-    """Gate 1 of the skip logic. Verified against the live site on 27 July
-    2026: both validators are sent and both are honoured with a 304."""
+    """Gate 1 of the skip logic."""
     site = Site(ok(ETag='"abc"', **{"Last-Modified": "Mon, 27 Jul 2026 05:50:38 GMT"}))
     with build(tmp_path, site) as fetcher:
         fetcher.get(URL)
         fetcher.get(URL)
 
     first, second = site.requests
-    assert "If-None-Match" not in first.headers
-    assert second.headers["If-None-Match"] == '"abc"'
+    assert "If-Modified-Since" not in first.headers
     assert second.headers["If-Modified-Since"] == "Mon, 27 Jul 2026 05:50:38 GMT"
+
+
+def test_only_one_validator_is_sent_and_the_date_wins(tmp_path, clock):
+    """Both together is not belt and braces — it is a 200 every time.
+
+    The Manual is served by Apache with mod_deflate, whose `-gzip` ETag suffix
+    never matches an incoming If-None-Match, and RFC 9110 has If-None-Match
+    suppress the date check when both are present. Measured against the live
+    site on 27 July 2026; see fetch._cached_validators and SOURCE_NOTES.md §12.
+    """
+    site = Site(
+        ok(
+            ETag='"1785133603-gzip"',
+            **{"Last-Modified": "Mon, 27 Jul 2026 06:26:43 GMT"},
+        )
+    )
+    with build(tmp_path, site) as fetcher:
+        fetcher.get(URL)
+        fetcher.get(URL)
+
+    assert "If-None-Match" not in site.requests[1].headers
+
+
+def test_an_etag_is_the_fallback_when_there_is_no_date(tmp_path, clock):
+    site = Site(ok(ETag='"abc"'))
+    with build(tmp_path, site) as fetcher:
+        fetcher.get(URL)
+        fetcher.get(URL)
+
+    assert site.requests[1].headers["If-None-Match"] == '"abc"'
+    assert "If-Modified-Since" not in site.requests[1].headers
 
 
 def test_a_304_carries_no_html(tmp_path, clock):

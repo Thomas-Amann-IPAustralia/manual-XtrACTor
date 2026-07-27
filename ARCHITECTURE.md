@@ -49,16 +49,24 @@ snapshot/               THE DELIVERABLE — see below
 snapshot/
   manifest.json                       run metadata; the only file that changes every run
   sitemap.json                        the nav tree as inventory
+  retired.json                        what vanished, and in which run
   pages/
     Part22/
       TMM-Part22-1.json               page record + its chunks
       TMM-Part22-15.json
     Part32B/
       TMM-Part32B-2-3.json
+    _retired/
+      Part32B/
+        TMM-Part32B-2-3.json          gone from the nav, kept so citations resolve
   raw/
     Part22/
       TMM-Part22-1.html               verbatim source, unmodified
 ```
+
+`retired.json` sits at the snapshot root rather than inside `pages/_retired/`
+so that everything under `pages/` is a page file and the validator can walk the
+tree without special cases.
 
 **Why page-level files.** One file per chunk gives thousands of tiny files and a
 diff that is hard to read. One file for everything gives a diff that is
@@ -90,9 +98,13 @@ accident.
   newline. Always.
 - Arrays sorted by a stable key: provisions by `id`, cases by `id`,
   `internal_refs` lexically. Chunks by `ordinal` (already stable).
-- **No run timestamp in a page file.** `crawled_at` belongs in `manifest.json`.
-  A page record may carry a `first_seen`-style date, but only if it is written
-  once and never rewritten while content is unchanged.
+- **No run timestamp in a page file.** A page record may carry a
+  `first_seen`-style date, but only if it is written once and never rewritten
+  while content is unchanged. `page.schema.json` requires a `crawled_at`, and
+  that is how it is satisfied: the writer carries the stored value forward
+  whenever every other field in the document matches, so it means *when this
+  version of the page was first seen*. When the run happened is a property of
+  the run, and lives in `manifest.json`.
 - The writer must compare against the existing file and skip the write entirely
   when bytes are identical. Do not rely on git to notice — rely on git to notice
   *nothing*, because you did not touch the file.
@@ -213,8 +225,16 @@ def write_manifest(root: Path, stats: dict) -> None:
 Three gates, cheapest first:
 
 1. **HTTP 304.** Conditional request returned not-modified. Skip everything.
-2. **Page hash unchanged.** Fetched, but the normalised body hashes the same as
-   the stored record. Skip parsing and writing.
+2. **Page record unchanged.** Fetched and parsed, but every field of the record
+   — the normalised body hash included — already says what the stored record
+   says. Skip chunking, extraction and writing.
+
+   The hash alone is not enough, and that is worth stating because it looks
+   like it should be. A Part renamed in the nav changes `nav_title` and
+   `part_id` without touching a word of the body; a hash-only gate skips the
+   page and leaves the snapshot asserting the old name indefinitely. The saving
+   this gate exists for is chunking and citation extraction, and comparing ten
+   more strings does not touch it.
 3. **Chunk hash unchanged.** Page changed somewhere, but this chunk did not.
    Still written (it lives in the page file), but flagged as unchanged in the
    run report so the diff tooling can summarise "3 of 14 paragraphs amended".
@@ -235,6 +255,17 @@ A page that disappears from the nav is not deleted. Move it to
 `snapshot/pages/_retired/` and record the run in which it vanished. Old citations
 must stay resolvable, and a Part being restructured is exactly the event you most
 want a record of.
+
+Only a complete crawl may retire anything. A run filtered by `--part` or
+`--limit` has not seen the inventory it would be drawing conclusions from, and
+retiring from one would empty the snapshot.
+
+Retirement means *gone from the nav*. A page still in the nav that the site
+will not serve is a different thing — see `SOURCE_NOTES.md` §14 — and is
+recorded in the run report and `manifest.json` under `run.unreachable`, with
+whatever record we already hold left untouched. The raw HTML of a retired page
+also stays where it is: it is the evidence for what the Manual said on a date,
+and that does not stop being true when the page goes.
 
 ## CI
 
