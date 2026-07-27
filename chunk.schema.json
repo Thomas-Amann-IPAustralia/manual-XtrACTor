@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ipaustralia.gov.au/schemas/tmm/chunk/1.0.0",
+  "title": "Manual chunk — deterministic core",
+  "description": "Output of the ETL pipeline. Every field is derivable from source HTML by regex, href parsing or structural traversal. Page-level metadata (url, title, publication and amendment dates) lives on the page record and is joined at query time — see page.schema.json. Nothing here may be produced by a language model.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["chunk_ref", "page_ref", "text", "heading_path", "ordinal", "content_hash"],
+
+  "properties": {
+    "chunk_ref": {
+      "type": "string",
+      "description": "Stable address, and the id. Do not add a separate opaque id: a sequential id is a citation that breaks silently when a paragraph is inserted upstream.",
+      "pattern": "^TMM/Part[0-9]{1,3}[A-Z]?/[A-Za-z0-9/#~.-]+$",
+      "examples": ["TMM/Part22/1/1/2", "TMM/Part26/6#3~2"]
+    },
+
+    "page_ref": {
+      "type": "string",
+      "description": "FK to the page record. Everything page-level is joined from there rather than copied here.",
+      "examples": ["TMM/Part22/1"]
+    },
+
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Verbatim, whitespace-normalised. No summarisation or reordering — this is what gets quoted back."
+    },
+
+    "heading_path": {
+      "type": "array",
+      "description": "Full ancestry, outermost first. Prepended to the text when the chunk enters a prompt so it is self-describing. The leaf heading is the last element; do not store it separately.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+
+    "ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Position within the page. Gives you previous/next by arithmetic, so adjacency needs no stored pointers."
+    },
+
+    "content_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Of the normalised text. Drives selective re-embedding — without it every crawl re-embeds the whole corpus."
+    },
+
+    "kind": {
+      "enum": ["body", "landing", "annex", "note", "table"],
+      "default": "body",
+      "description": "'landing' marks Relevant Legislation pages, which are mappings not prose and should usually be excluded from applicant-facing answers."
+    },
+
+    "fragment": {
+      "type": ["object", "null"],
+      "description": "Present only when an over-long section was split on paragraph boundaries.",
+      "additionalProperties": false,
+      "required": ["index", "count"],
+      "properties": {
+        "index": { "type": "integer", "minimum": 1 },
+        "count": { "type": "integer", "minimum": 2 }
+      }
+    },
+
+    "provisions": {
+      "type": "array",
+      "description": "Statutory references. This is the filtering mechanism, so it carries how each edge was found.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "extraction"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,8}[0-9]{4}/[sr][0-9.]+[A-Z]?(\\([0-9a-zA-Z]{1,3}\\))*$",
+            "description": "Instrument and root are both parseable from this — TMA1995/s44(3)(a) yields instrument TMA1995 and root TMA1995/s44. Derive them in SQL as generated columns rather than storing them.",
+            "examples": ["TMA1995/s41", "TMA1995/s44(3)(a)", "AIA1901/s7"]
+          },
+          "extraction": {
+            "enum": ["href", "regex"],
+            "description": "The Manual hyperlinks Act sections to AustLII, so href edges are near-certain and regex edges are inferences. Only href edges should hydrate primary law into an answer."
+          },
+          "certainty": {
+            "enum": ["explicit", "default", "ambiguous"],
+            "description": "For regex edges. 'explicit' = instrument named adjacent. 'default' = bare 'section N', assumed Trade Marks Act. 'ambiguous' = several instruments in scope, e.g. 'section 26 of the Act' in a paragraph about the 1955 Act. Route ambiguous to review; never hydrate from it."
+          },
+          "mention": {
+            "type": ["string", "null"],
+            "description": "Surface form. Keep while building — it is how you debug a bad edge. Droppable once the extractor is stable."
+          }
+        }
+      }
+    },
+
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "citation"],
+        "properties": {
+          "id": { "type": "string", "examples": ["CASE/2018/FCAFC/109"] },
+          "citation": { "type": "string", "examples": ["[2018] FCAFC 109"] }
+        }
+      }
+    },
+
+    "internal_refs": {
+      "type": "array",
+      "description": "Manual-internal cross references, resolved to chunk or page refs. Unresolvable targets are dropped, not guessed.",
+      "items": { "type": "string" }
+    }
+  }
+}

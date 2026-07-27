@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ipaustralia.gov.au/schemas/tmm/page/1.0.0",
+  "title": "Manual page",
+  "description": "One record per Manual page. Holds everything that is constant across the chunks cut from it, so those fields are stored once and joined rather than copied onto every chunk.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["page_ref", "part_id", "url", "nav_title", "content_hash", "crawled_at", "extractor_version"],
+
+  "properties": {
+    "page_ref": {
+      "type": "string",
+      "pattern": "^TMM/Part[0-9]{1,3}[A-Z]?/[A-Za-z0-9/#.-]+$",
+      "examples": ["TMM/Part22/1"]
+    },
+
+    "part_id": {
+      "type": "string",
+      "pattern": "^Part[0-9]{1,3}[A-Z]?$",
+      "description": "From the sidebar nav tree ONLY. Never inferred from the URL slug — slugs collide across Parts (32A.2.3 and 32B.2.3 share one, distinguished by a trailing '1')."
+    },
+
+    "url": { "type": "string", "format": "uri" },
+
+    "nav_title": {
+      "type": "string",
+      "description": "As it appears in the sidebar."
+    },
+
+    "h1": {
+      "type": ["string", "null"],
+      "examples": ["22.1. Registrability under section 41 of the Trade Marks Act 1995"]
+    },
+
+    "content_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Whole-page hash. Cheap gate for the crawler: unchanged page, skip chunking entirely."
+    },
+
+    "date_published": { "type": ["string", "null"], "format": "date" },
+
+    "last_amended": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Most recent date in the page's 'Amended Reasons' table."
+    },
+
+    "amendment_note": {
+      "type": ["string", "null"],
+      "description": "IP Australia's own words for the most recent change — 'Minor updates.', 'Update hyperlinks'. Lets a reviewer separate substantive practice change from cosmetic edits without reading the diff.",
+      "examples": ["Minor updates."]
+    },
+
+    "crawled_at": { "type": "string", "format": "date-time" },
+
+    "extractor_version": {
+      "type": "string",
+      "description": "When this changes, chunks may need rebuilding even though the source text did not.",
+      "examples": ["ingest/0.3.1"]
+    }
+  }
+}
