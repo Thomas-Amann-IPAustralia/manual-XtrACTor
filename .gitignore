@@ -1,0 +1,16 @@
+# Conditional-request cache (ETag / Last-Modified). Cache, not deliverable.
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

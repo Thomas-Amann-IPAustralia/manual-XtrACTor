@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmm-snapshot"
+version = "0.1.0"
+description = "Deterministic offline snapshot of the IP Australia Trade Marks Manual of Practice and Procedure"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+# Adding a dependency here is a decision to raise, not to make. See CLAUDE.md.
+dependencies = [
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/Thomas-Amann-IPAustralia/manual-XtrACTor"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Fixtures are data, not tests. Keep the collector out of them.
+norecursedirs = ["tests/fixtures"]
