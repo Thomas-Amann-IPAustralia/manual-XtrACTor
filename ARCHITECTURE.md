@@ -74,9 +74,12 @@ gzipped file diffs as a binary blob.
 **Filenames.** Derive from `page_ref` by replacing `/` with `-`. `TMM/Part22/1`
 becomes `TMM-Part22-1.json`. Deterministic, sortable, no collisions.
 
-**Size.** Unmeasured. Establish it in Task 2 and record it in `manifest.json`. If
-the repo passes roughly a gigabyte, raise it rather than reaching for Git LFS
-unilaterally — a separate data repo may be the better answer.
+**Size.** Measured in Task 2: 502 pages averaging 88 KB, so `snapshot/raw/` is
+about 44 MB, and after the first crawl only changed pages are rewritten. See
+`SOURCE_NOTES.md` §12; the numbers move into `manifest.json` when
+`write_manifest` lands. If the repo ever passes roughly a gigabyte, raise it
+rather than reaching for Git LFS unilaterally — a separate data repo may be the
+better answer.
 
 ## Byte-stability
 
@@ -208,9 +211,15 @@ Three gates, cheapest first:
    Still written (it lives in the page file), but flagged as unchanged in the
    run report so the diff tooling can summarise "3 of 14 paragraphs amended".
 
-Gate 2 must compare the *normalised body*, not the raw HTML. Drupal emits
-per-request tokens and rotating asset URLs; raw HTML differs on every fetch even
-when the content is identical. Normalise first, then hash.
+Gate 2 must compare the *normalised body*, not the raw HTML.
+
+As measured in July 2026 the raw HTML happens to be byte-stable between fetches
+(`SOURCE_NOTES.md` §12), so this is not currently load-bearing for the reason
+originally given — but normalise anyway, for two that outlast it. The stability
+is the CMS's to withdraw without telling us. And normalisation is what lets the
+hash ignore the classes and ids Drupal rewrites while still noticing a changed
+`href` — which matters, because *"Update hyperlinks"* is one of the Manual's own
+amendment reasons and a text-only hash would skip those pages entirely.
 
 ## Retirement
 

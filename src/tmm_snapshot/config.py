@@ -106,6 +106,13 @@ EXTRACTOR_VERSION: Final[str] = "ingest/0.1.0"
 #: Reference prefix for every page_ref and chunk_ref: 'TMM/Part22/1'.
 REF_PREFIX: Final[str] = "TMM"
 
+#: BeautifulSoup parser, everywhere. Not a preference — the sidebar nav puts a
+#: child <ul> *after* its parent <li> rather than inside it (SOURCE_NOTES.md
+#: §2), which is invalid HTML. 'html.parser' preserves that shape as written;
+#: lxml and html5lib "correct" it into a different tree and the Part ancestry
+#: comes out wrong. Change this and the sitemap silently misattributes pages.
+HTML_PARSER: Final[str] = "html.parser"
+
 #: Serialisation settings for every JSON file this pipeline writes. Rule 2 —
 #: byte-stability — depends on these being applied uniformly, so pass them
 #: rather than restating them.
