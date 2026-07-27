@@ -152,18 +152,40 @@ class Fetcher:
         return self.cache_dir / f"{digest}.json"
 
     def _cached_validators(self, url: str) -> dict[str, str]:
-        """Stored ETag / Last-Modified for `url`, as conditional headers."""
+        """Stored validators for `url`, as one conditional header.
+
+        **One, not both, and Last-Modified for preference.** The Manual is
+        served by Apache with mod_deflate, which appends `-gzip` to the ETag it
+        sends but compares incoming `If-None-Match` against the *unsuffixed*
+        value. Echoing back the ETag the server itself gave us therefore never
+        matches, and always answers 200. Measured 27 July 2026:
+
+            If-None-Match: "1785133603-gzip"              -> 200
+            If-None-Match: "1785133603"                   -> 304
+            If-Modified-Since: <date>                     -> 304
+            If-Modified-Since: <date> + If-None-Match     -> 200
+
+        That last line is the trap, and it is why this sends one header rather
+        than two: RFC 9110 gives If-None-Match precedence and has the server
+        ignore the date entirely when both are present. Sending both is not
+        belt and braces — the broken ETag silently disables the validator that
+        works, and with it gate 1 for the whole corpus.
+
+        The ETag is kept as the fallback for a URL that carries no
+        Last-Modified, and is sent verbatim. Stripping `-gzip` to make it match
+        would be guessing at the server's bug from the outside, and would break
+        the day the server stopped having it.
+        """
         try:
             stored = json.loads(self._cache_path(url).read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             return {}
 
-        headers = {}
-        if etag := stored.get("etag"):
-            headers["If-None-Match"] = etag
         if last_modified := stored.get("last_modified"):
-            headers["If-Modified-Since"] = last_modified
-        return headers
+            return {"If-Modified-Since": last_modified}
+        if etag := stored.get("etag"):
+            return {"If-None-Match": etag}
+        return {}
 
     def _store_validators(
         self, url: str, etag: str | None, last_modified: str | None

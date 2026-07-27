@@ -14,6 +14,7 @@ work can build against a fixed, versioned corpus rather than a live website.
 ```
 snapshot/manifest.json     run metadata
 snapshot/sitemap.json      the Manual's structure
+snapshot/retired.json      pages that left the Manual, and when
 snapshot/pages/            page records with their chunks, one file per page
 snapshot/raw/              verbatim source HTML
 ```
@@ -45,9 +46,15 @@ Anything built on this snapshot should preserve that distinction.
 ```bash
 pip install -e .
 python -m tmm_snapshot.crawl --dry-run --limit 5
+python -m tmm_snapshot.crawl --part Part22   # one Part
 python -m tmm_snapshot.crawl --from-raw      # re-parse without touching the network
 python -m tmm_snapshot.validate
 ```
+
+Requests are serial, rate limited and conditional, and `robots.txt` is checked
+on every run. A re-crawl of an unchanged Manual costs the site 502 `304`s and
+nothing else. Do not run a full crawl on a whim — use `--limit`, or let
+scheduled CI do it.
 
 Scheduled crawls open a pull request when anything changes. They are never
 auto-merged — the human review is the audit trail.

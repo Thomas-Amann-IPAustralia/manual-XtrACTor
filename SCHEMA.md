@@ -46,9 +46,26 @@ hyperlinks"*. Paired with a hash diff this separates substantive practice change
 from cosmetic edits, which is the judgement a human reviewer needs to make on
 every crawl PR. It is the most valuable metadata on the page.
 
+**`crawled_at`** — when *this version of the page* was first seen. Not when the
+crawler last looked: that is a property of the run and lives in
+`manifest.json`.
+
+The distinction is not pedantry, it is rule 2. A field that moved on every
+crawl would rewrite all 502 page files every week and bury the amendment log in
+noise. So it is written once and carried forward unchanged for as long as
+everything else in the record is unchanged; only a crawl that actually altered
+the page moves it. Read alongside `last_amended` it gives you both dates that
+matter — when IP Australia says they changed the page, and when we first saw
+that they had.
+
 **`extractor_version`** — which version of this pipeline produced the record. When
 a parser bug is fixed, this tells you which snapshots need rebuilding from
 `raw/`.
+
+Because it sits in the record, a bump to it changes every page file on the next
+run whether or not the Manual moved. That is intended — it is the signal that
+the corpus was rebuilt — but it means bumping it is a decision about a
+thousand-file diff, not a version-string tidy-up.
 
 ---
 
