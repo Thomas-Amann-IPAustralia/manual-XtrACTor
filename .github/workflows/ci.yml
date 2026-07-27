@@ -1,0 +1,51 @@
+# Tests and schema validation, on every push.
+#
+# Deliberately offline. CLAUDE.md's pre-commit list ends with
+# `crawl --dry-run --limit 5`, and that one is not here: it is a live fetch of
+# a Commonwealth agency site, and running it on every push to every branch is
+# exactly the "whim" the courtesy rules rule out. Run it locally before you
+# commit; the scheduled crawl is what exercises the network path in CI.
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # The floor the project declares, and the version CI crawls on.
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: pip install -e '.[test]'
+
+      - name: Tests
+        run: pytest -q
+
+      - name: Snapshot validates against schema/
+        # Passes quietly on a checkout that has never been crawled: an empty
+        # snapshot/ is the state of a fresh clone, and a validator that fails
+        # there is a validator everybody learns to ignore.
+        run: python -m tmm_snapshot.validate
+
+      - name: CLI loads
+        run: python -m tmm_snapshot.crawl --help

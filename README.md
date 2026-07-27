@@ -49,7 +49,12 @@ python -m tmm_snapshot.crawl --dry-run --limit 5
 python -m tmm_snapshot.crawl --part Part22   # one Part
 python -m tmm_snapshot.crawl --from-raw      # re-parse without touching the network
 python -m tmm_snapshot.validate
+python -m tmm_snapshot.diff --before /path/to/previous/snapshot
 ```
+
+`diff` renders the change report between two snapshot states — what was added,
+retired, amended and restructured, with IP Australia's own reason for each
+amendment. It is what a scheduled crawl puts in the body of its pull request.
 
 Requests are serial, rate limited and conditional, and `robots.txt` is checked
 on every run. A re-crawl of an unchanged Manual costs the site 502 `304`s and

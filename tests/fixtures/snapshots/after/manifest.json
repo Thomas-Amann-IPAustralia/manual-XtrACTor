@@ -1,0 +1,41 @@
+{
+  "corpus": {
+    "mean_raw_bytes": 90112,
+    "pages": 8,
+    "parts": 3,
+    "raw_bytes": 720896,
+    "raw_files": 8
+  },
+  "crawled_at": "2026-07-27T18:03:07Z",
+  "extractor_version": "ingest/0.1.0",
+  "finished_at": "2026-07-27T18:03:07Z",
+  "run": {
+    "chunks": 12,
+    "chunks_changed": 4,
+    "complete": true,
+    "force": false,
+    "from_raw": false,
+    "limit": null,
+    "not_modified": 0,
+    "pages_fetched": 8,
+    "pages_in_scope": 8,
+    "pages_parsed": 8,
+    "pages_written": 6,
+    "part": null,
+    "raw_written": 6,
+    "retired": [],
+    "skipped_not_modified": 0,
+    "unchanged": 2,
+    "unreachable": [
+      {
+        "page_ref": "TMM/Part1/3",
+        "status": 404,
+        "url": "https://manuals.ipaustralia.gov.au/trademark/1.5"
+      }
+    ]
+  },
+  "source": {
+    "manual_root": "https://manuals.ipaustralia.gov.au/trademark",
+    "seed": "https://manuals.ipaustralia.gov.au/trademark"
+  }
+}
