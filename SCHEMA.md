@@ -185,34 +185,45 @@ by a person opening the Manual at that address.
 
 ## Worked example
 
-Real text, from Part 22.1 heading 1.2:
+Part 22.1 heading 1.2, exactly as the pipeline emits it:
 
 ```json
 {
   "chunk_ref": "TMM/Part22/1/1/2",
   "page_ref": "TMM/Part22/1",
-  "text": "Section 41 of the Trade Marks Act 1995 was amended by the Intellectual Property Laws Amendment (Raising the Bar) Act 2012. The repealed section 41 is set out in full in Annex A1 to this Part of the Manual. Raising the Bar came into effect on 15 April 2013. It does not contain an application or savings provision in relation to the amendments to section 41. As such the application of section 41 is regulated by section 7 of the Acts Interpretation Act 1901.",
+  "text": "Section 41 of the Trade Marks Act 1995 was amended by the Intellectual Property Laws Amendment (Raising the Bar) Act 2012. The repealed section 41 is set out in full in Annex A1 to this Part of the Manual. Raising the Bar came into effect on 15 April 2013. It does not contain an application or savings provision in relation to the amendments to section 41. As such the application of section 41 is regulated by section 7 of the Acts Interpretation Act 1901. Note: Section 6 of the Act defines the filing date of a divisional application as the filing date of the parent application. For more information in relation to Raising the Bar and divisional applications see: • Part 12 Divisional Applications – 9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
   "heading_path": [
     "Part 22 Section 41 - Capable of Distinguishing",
     "22.1. Registrability under section 41 of the Trade Marks Act 1995",
     "1.2 Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
   ],
   "ordinal": 3,
-  "content_hash": "sha256:0dffb00c...",
+  "content_hash": "sha256:883e53ab...",
   "kind": "body",
   "fragment": null,
   "provisions": [
-    { "id": "TMA1995/s41", "extraction": "href", "mention": "Section 41" },
     { "id": "AIA1901/s7", "extraction": "regex", "certainty": "explicit",
-      "mention": "section 7 of the Acts Interpretation Act 1901" }
+      "mention": "section 7 of the Acts Interpretation Act 1901" },
+    { "id": "TMA1995/s41", "extraction": "href", "mention": "Section 41" },
+    { "id": "TMA1995/s6", "extraction": "href", "mention": "Section 6" }
   ],
   "cases": [],
-  "internal_refs": ["TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"]
+  "internal_refs": [
+    "TMM/Part12/9",
+    "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+  ]
 }
 ```
 
-Note the third provision that is **not** there. `section 41` appears four times in
-this passage; it is one edge, not four. And `AIA1901/s7` is correctly attributed
-away from the Trade Marks Act by the adjacent instrument name — which is exactly
-the mechanism that fails on the anaphoric `"section 26 of the Act"` case, and why
-`certainty` exists.
+Note the fourth provision that is **not** there. `section 41` appears four times in
+this passage; it is one edge, not four, and the hyperlink is the evidence for it.
+And `AIA1901/s7` is correctly attributed away from the Trade Marks Act by the
+adjacent instrument name — which is exactly the mechanism that fails on the
+anaphoric `"section 26 of the Act"` case, and why `certainty` exists.
+
+The chunk runs on past the section's last paragraph into the *Note* below it,
+which the CMS renders in a `div.zone` of its own. That is deliberate: zones are
+layout, not structure (`SOURCE_NOTES.md` §7), and the Note is prose belonging to
+heading 1.2 — it is where `TMA1995/s6` and `TMM/Part12/9` come from. Arrays are
+sorted by id, so the reading order of the provisions is not the order they appear
+in the text.

@@ -132,6 +132,23 @@ The db fragment identifies the instrument:
 These give near-certain Manual→provision edges straight from the markup, with no
 inference. Record them with `extraction: "href"`.
 
+The link addresses a whole section; the **link's own words carry the
+subsection**, and sometimes more than one:
+
+```html
+<a href=".../tma1995121/s41.html">sections 41(3) or 41(4)</a>
+```
+
+That is two provisions, both stated by the authors. Read the numbers out of the
+anchor text and keep only those whose section matches the href — an anchor
+reading "here" or "this provision" then falls back to the bare section.
+
+Not every legislative link is AustLII. `legislation.gov.au` links appear too, and
+they address instruments by an opaque series id (`C2004A02362`) with no
+deterministic route back to an abbreviation. They produce no href edge; the
+surrounding prose usually names the instrument anyway, so the regex layer picks
+them up.
+
 **Consequence for tooling:** do not run the body through a generic
 HTML-to-markdown or text-extraction library before extracting citations. Those
 libraries discard or flatten hrefs, and the entire high-confidence citation layer
@@ -173,6 +190,36 @@ will.**
 
 A wrong edge that knows it might be wrong is fine. A wrong edge that looks
 certain is not.
+
+### The lookahead needs two brakes, not one
+
+Sixty characters is wide enough to reach backwards into the *next* reference's
+instrument. In Part 22.1:
+
+> "...in relation to the amendments to **section 41**. As such the application of
+> section 41 is regulated by **section 7 of the Acts Interpretation Act 1901**."
+
+The Acts Interpretation Act sits about sixty characters after the second
+`section 41`, so a plain window attributes it to `AIA1901/s41`. Cut the window at
+the next reference, and at the next full stop — no instrument title contains one.
+
+### An instrument title contains a keyword and a number
+
+`Trade Mark Regulations 1995` — note the Manual's own singular *Mark*, on the
+Part 32B landing text — matches any pattern looking for *regulation* followed by a
+number, and yields the phantom provision `TMR1995/r1995`. A reference falling
+wholly inside a named instrument's title is part of the title. Drop it before
+anything else looks at it, or it also truncates the lookahead of the real
+reference in front of it.
+
+### 'the 1995 Act' is a name; 'the Act' is not
+
+The year picks the instrument out, so `section 41 of the 1995 Act` is explicit.
+`section 26 of the Act` is the anaphora above. Both forms count towards *how many
+instruments are in scope*, which is what turns a bare reference from an
+assumption into an ambiguity — and so does a title we do not recognise, such as
+the `Wine Australia Act 2013` on the Part 32B page. Erring towards ambiguity puts
+a reference in front of a human; erring the other way does not.
 
 ---
 
@@ -264,6 +311,14 @@ The prose carries stray zero-width spaces (`U+200B`) — the opening line of Par
 22.1 has seven consecutively — and non-breaking spaces. Strip the former and
 fold the latter when normalising, or they show up in the text and in the hash.
 
+`get_text()` is wrong for this corpus whichever separator you give it. Instrument
+names are wrapped in nested inline elements mid-sentence —
+`<span><i><i>Trade Marks Act 1955</i></i></span>.` — so `get_text(" ")` produces
+*"Trade Marks Act 1955 ."*, and the text stops matching the Manual's own words.
+`get_text("")` fixes that and welds adjacent paragraphs and list items into one
+word instead. Break on block elements only; the source's own whitespace already
+sits inside the text nodes.
+
 ---
 
 ## 7. Heading numbering is inconsistent across Parts
@@ -284,6 +339,24 @@ Derive `page_ref` from the nav title's leading number where present, and fall
 back to a slug-derived form for unnumbered pages (Relevant Legislation, Glossary,
 Annexes). Never fall back to the raw slug alone — see §2.
 
+### Headings are the only boundary the Manual asserts
+
+`div.zone` looks like structure and is not. Zones break wherever the page author
+pressed a button: around a call-out, around a single line of example text
+(`FANTASIA Dianthus 'Londaison'`), around nothing at all — Part 32A.2.3 has
+fourteen of them, four empty. Cutting on zones produces chunks of two words.
+
+Two consequences for the chunker. It cuts on `<h2>`–`<h4>` and on nothing else,
+which means a call-out in its own zone stays in the chunk of the heading it falls
+under. And a *sub*-heading is sometimes not a heading element at all —
+`2.3.5(b) Evidence of use` is a bare `div` in its own zone — so it is not a
+boundary, because there is no deterministic way to tell it from a line of
+emphasised prose.
+
+Note also that the page's opening prose frequently belongs to a numbered heading
+that has no heading element: Part 32A.2.3 prints no `<h3>` for 2.3.1 even though
+2.3.2 through 2.3.5 are all there. That prose addresses by position, not number.
+
 ---
 
 ## 8. Cross references come in two forms
@@ -294,10 +367,19 @@ Hyperlinked:
 <a href="http://manuals.ipaustralia.gov.au/trademark/annex-a1-...">Annex A1</a>
 ```
 
-And bare text: `see part 22.15.7`, lowercase, no link. Both are worth capturing.
-Resolve hyperlinked ones through the sitemap. For bare textual ones, resolve the
-dotted address to a `page_ref` if one exists; if it does not resolve, **drop it**
-rather than storing an unresolvable string.
+And bare text: `see part 22.15.7`, lowercase, no link (Part 32B.2.3). Both are
+worth capturing. Resolve hyperlinked ones through the sitemap — by URL, never by
+slug or title, because slugs collide across Parts.
+
+**Bare references address headings, not pages.** No page has the address
+`22.15.7`: pages in the inventory bottom out at `TMM/Part22/15`, and `.7` is a
+heading on it. Resolving the full address alone therefore drops nearly every bare
+reference. Shorten the address one component at a time until a page in the
+inventory matches, and stop before the Part — `TMM/Part22` is not a page. If
+nothing matches, **drop it** rather than storing an unresolvable string.
+
+A reference like `Part 22 of this Manual` names a Part and not a page, so
+requiring at least one dotted component keeps it out.
 
 ---
 
