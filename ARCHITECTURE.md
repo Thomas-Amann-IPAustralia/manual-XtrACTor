@@ -220,6 +220,21 @@ def write_raw(page_ref: str, html: str, root: Path) -> bool:
 def write_manifest(root: Path, stats: dict) -> None:
 ```
 
+### `diff.py`
+
+```python
+def read_snapshot(root: Path) -> Snapshot:      # a directory, loaded for comparison
+def compare(before: Snapshot, after: Snapshot) -> Changes:
+def render_report(before: Path, after: Path) -> str:
+```
+
+Added by T8; `render_report` is the signature the skeleton carried. A pure
+function of two directories — no clock, no network, no git — so the same pair
+renders the same bytes twice. Reading and comparing are separate from
+rendering because the comparison is the part with an opinion: what counts as
+retirement, what counts as a page merely renamed in the nav, and what a
+partial run is not allowed to conclude.
+
 ## Skip logic
 
 Three gates, cheapest first:
@@ -277,3 +292,24 @@ confirms whether an amendment was substantive practice change or a hyperlink
 tidy-up, using the Manual's own `amendment_note` as the clue.
 
 Never auto-merge. The point is the human read.
+
+Three things about how it is wired (T9):
+
+- **The 'before' state is a copy of `snapshot/` taken from the checkout before
+  the crawl runs.** The report therefore describes exactly what the pull
+  request's own diff shows, including — when last week's crawl is still
+  unmerged and this week's branches from the same base — both weeks at once.
+  That is the honest answer to "what would merging this change".
+- **A run where only `manifest.json` moved opens nothing.** The manifest
+  carries the run timestamp and so differs on every crawl; a pull request for
+  it would be a pull request with nothing to review, every week, and the habit
+  that teaches a reviewer is the one this arrangement exists to prevent.
+- **`.cache/` is carried between runs.** It holds the `Last-Modified` and
+  `ETag` values that make gate 1 fire, and without it every scheduled crawl
+  costs the site 502 full responses instead of 502 `304`s.
+
+`.github/workflows/ci.yml` runs `pytest` and the validator on every push. It
+does not run `crawl --dry-run --limit 5`, which CLAUDE.md lists as the third
+pre-commit check: that one is a live fetch of a Commonwealth agency site, and
+firing it on every push to every branch is the whim the courtesy rules rule
+out. Run it locally; the scheduled crawl is what exercises the network in CI.

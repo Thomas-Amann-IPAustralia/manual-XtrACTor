@@ -1,0 +1,164 @@
+# Scheduled crawl. Opens a pull request when the Manual moved; never merges it.
+#
+# The human review is the audit trail. Somebody confirms whether an amendment
+# is substantive practice change or a hyperlink tidy-up, using the Manual's own
+# `amendment_note` as the clue — that judgement is the reason this repository
+# exists in the form it does. There is no auto-merge here and there must not be.
+#
+# Each run branches from the default branch and opens its own pull request, so
+# an unmerged crawl does not swallow the next one. The report is always a diff
+# against that base, which is to say against the pull request's own diff: if
+# last week's is still open, this week's report describes both weeks, correctly.
+name: crawl
+
+on:
+  schedule:
+    # Sundays 19:00 UTC — Monday morning in Canberra. Weekly is a guess; the
+    # Manual's real amendment cadence is unmeasured (SOURCE_NOTES.md §12).
+    # Tune it once two months of runs have shown what it actually is.
+    - cron: "0 19 * * 0"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Stop after N pages (leave empty for the whole Manual)"
+        required: false
+        type: string
+      part:
+        description: "Restrict to one Part, e.g. Part22"
+        required: false
+        type: string
+      dry_run:
+        description: "Fetch and parse, report, write nothing"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# One crawl at a time, and never cancel one in flight: a half-finished run
+# leaves the conditional cache claiming pages the snapshot does not hold.
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    # 502 pages at one request per second, plus parsing. Two hours is slack,
+    # not an estimate.
+    timeout-minutes: 120
+
+    # A fork should not crawl a Commonwealth agency site on our schedule.
+    # Dispatch still works anywhere, because that is somebody choosing to.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.repository == 'Thomas-Amann-IPAustralia/manual-XtrACTor'
+
+    env:
+      # Surfaced in the User-Agent so the site operator can reach a person
+      # rather than a log file. Falls back to the issue tracker.
+      TMM_CONTACT: ${{ secrets.TMM_CONTACT }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e '.[test]'
+
+      - name: Tests
+        # Before the network, not after. A parser regression that reaches the
+        # snapshot has already cost the site a full crawl to produce records
+        # that have to be thrown away.
+        run: pytest -q
+
+      - name: Restore the conditional-request cache
+        # ETag and Last-Modified from the previous run. This is what makes a
+        # re-crawl cost the site 502 `304`s and nothing else — see
+        # SOURCE_NOTES.md §12 on why only one validator is sent at a time.
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: tmm-http-cache-${{ github.run_id }}
+          restore-keys: tmm-http-cache-
+
+      - name: Copy the snapshot aside
+        # The 'before' state for the change report. Taken from the checkout,
+        # so the report describes exactly what the pull request will show.
+        run: cp -a snapshot "${RUNNER_TEMP}/snapshot-before"
+
+      - name: Crawl
+        env:
+          LIMIT: ${{ inputs.limit }}
+          PART: ${{ inputs.part }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          # Inputs arrive as environment variables rather than being pasted
+          # into the script: a Part id is user input, and user input does not
+          # get to be shell.
+          args=()
+          if [ -n "${LIMIT:-}" ]; then args+=(--limit "$LIMIT"); fi
+          if [ -n "${PART:-}" ]; then args+=(--part "$PART"); fi
+          if [ "${DRY_RUN:-false}" = "true" ]; then args+=(--dry-run); fi
+          python -m tmm_snapshot.crawl ${args[@]+"${args[@]}"}
+
+      - name: Validate
+        # Between the crawl and the pull request, deliberately. A snapshot that
+        # does not validate is not offered for review, it is a failed run.
+        run: python -m tmm_snapshot.validate
+
+      - name: Render the change report
+        run: |
+          set -euo pipefail
+          python -m tmm_snapshot.diff \
+            --before "${RUNNER_TEMP}/snapshot-before" \
+            --out "${RUNNER_TEMP}/report.md"
+          cat "${RUNNER_TEMP}/report.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Did the Manual move?
+        id: changed
+        run: |
+          set -euo pipefail
+          # manifest.json is excluded on purpose: it carries the run timestamp
+          # and so differs on every crawl. Opening a pull request for it would
+          # train reviewers to merge crawl PRs without reading them, which is
+          # the one habit this whole arrangement exists to prevent.
+          if [ -n "$(git status --porcelain -- snapshot ':(exclude)snapshot/manifest.json')" ]; then
+            echo "moved=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "moved=false" >> "$GITHUB_OUTPUT"
+            echo "The Manual says today what it said last time we looked." \
+              >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Open a pull request
+        if: steps.changed.outputs.moved == 'true' && inputs.dry_run != true
+        run: |
+          set -euo pipefail
+          branch="crawl/$(date -u +%Y-%m-%d)-r${GITHUB_RUN_NUMBER}"
+          title="$(head -n 1 "${RUNNER_TEMP}/report.md" | sed 's/^# //')"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add snapshot
+          git commit -m "snapshot: ${title#Manual snapshot: }"
+
+          for attempt in 1 2 3 4; do
+            git push -u origin "$branch" && break
+            sleep $((2 ** attempt))
+          done
+
+          gh pr create \
+            --base "${GITHUB_REF_NAME}" \
+            --head "$branch" \
+            --title "$title" \
+            --body-file "${RUNNER_TEMP}/report.md"
