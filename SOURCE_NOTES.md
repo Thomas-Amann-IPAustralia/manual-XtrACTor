@@ -203,6 +203,45 @@ The Acts Interpretation Act sits about sixty characters after the second
 `section 41`, so a plain window attributes it to `AIA1901/s41`. Cut the window at
 the next reference, and at the next full stop — no instrument title contains one.
 
+### Two brakes are not enough either: the Relevant Legislation pages
+
+**Known defect, unfixed. Found on the first live crawl, 27 July 2026.**
+
+Both brakes above are prose brakes, and the Relevant Legislation landing pages
+are not prose. They are a list: one provision per block, no full stops anywhere,
+each instrument's name appearing as a *heading above its own group*. Normalisation
+joins those blocks with single spaces, so by the time the regex layer sees the
+text the boundaries are gone. On Part 4's page:
+
+> "...Paragraph 231(2)(e) Remission of fee **Section 256** Fees (transitional
+> provision) **Trade Marks Regulations 1995 (Cth)** Reg 21.21 What fees are
+> payable..."
+
+`Section 256` is the last entry under the *Act*. `Trade Marks Regulations 1995`
+is the heading of the group that follows it. No full stop separates them and no
+reference intervenes, so neither brake fires, and the window attributes an Act
+section to the Regulations — emitting `TMR1995/s256` with
+`certainty: "explicit"`. An `s` provision under a Regulations instrument is a
+contradiction in terms, and "explicit" is the strongest claim the schema can
+make. This is the exact failure §4 opens by warning about: a wrong edge that
+looks certain.
+
+The missing brake is a **block boundary**. The information exists — the DOM has
+it, and `extract_provisions` already receives the body fragment — but it is
+destroyed before the regex layer runs, so the fix is a decision about where
+normalisation happens rather than a regex tweak, and it is left for a human:
+
+- Deriving a block-aware string inside `citations.py` keeps `text` and every
+  `content_hash` untouched, but duplicates `page.py`'s normalisation contract in
+  a second place, which is how the two drift apart.
+- Preserving a separator in the normalised text is cleaner and fixes it once,
+  but changes every `content_hash` in the corpus — a full re-crawl and a
+  thousand-file diff. Cheap now, while the snapshot is unseeded; expensive later.
+
+A cheap interim guard, if the above is deferred: an `s` provision resolving to a
+Regulations instrument (or `r` to an Act) is structurally impossible — reject it,
+or downgrade it to `ambiguous`, rather than publishing it as explicit.
+
 ### An instrument title contains a keyword and a number
 
 `Trade Mark Regulations 1995` — note the Manual's own singular *Mark*, on the

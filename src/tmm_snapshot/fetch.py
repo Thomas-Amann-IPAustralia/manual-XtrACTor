@@ -67,10 +67,15 @@ class Fetcher:
         ua: str = config.USER_AGENT,
         *,
         transport: httpx.BaseTransport | None = None,
+        store_validators: bool = True,
     ) -> None:
         self.cache_dir = Path(cache_dir)
         self.delay_s = delay_s
         self.ua = ua
+        #: Whether a 200 records its validators for the next run. False for a
+        #: dry run, which must leave the cache exactly as it found it — see
+        #: `_store_validators`.
+        self.store_validators = store_validators
         self._last_request_ended: float | None = None
         self._client = httpx.Client(
             headers={"User-Agent": ua},
@@ -190,6 +195,18 @@ class Fetcher:
     def _store_validators(
         self, url: str, etag: str | None, last_modified: str | None
     ) -> None:
+        """Record this URL's validators so the next run can send them.
+
+        Skipped entirely on a dry run. The cache and the snapshot are one
+        state, not two: a stored validator is a claim that `snapshot/raw/`
+        holds the body that goes with it. A dry run fetches but writes no raw,
+        so persisting validators here would leave the cache asserting bodies
+        that were never saved — and the next real crawl gets a 304 with
+        nothing to fall back on and dies. CLAUDE.md's own pre-commit checklist
+        ends with a dry run, so this is the ordinary path, not a corner case.
+        """
+        if not self.store_validators:
+            return
         if etag is None and last_modified is None:
             return
         self.cache_dir.mkdir(parents=True, exist_ok=True)

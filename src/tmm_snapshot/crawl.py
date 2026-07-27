@@ -463,7 +463,9 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
             sitemap = _sitemap_from_raw(root)
         else:
             if fetcher is None:
-                fetcher = owned = Fetcher(config.CACHE_DIR)
+                fetcher = owned = Fetcher(
+                    config.CACHE_DIR, store_validators=not args.dry_run
+                )
             fetcher.check_robots()
             sitemap = _sitemap_from_site(fetcher, root)
 
