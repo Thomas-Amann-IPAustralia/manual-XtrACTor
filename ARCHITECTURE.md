@@ -177,8 +177,16 @@ class Chunk:
     cases: list[dict]
     internal_refs: list[str]
 
-def chunk_body(body: Tag, page: PageRecord, nav: NavPage) -> list[Chunk]:
+def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
+               sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
 ```
+
+The `sitemap` argument is an addition made by T5, not part of the original
+contract. `internal_refs` are resolved through the inventory and dropped when
+they do not resolve, so the chunker cannot produce them without it. It is
+optional and defaults to none-resolvable, so the three-argument form still
+works — but a caller that omits it gets empty `internal_refs`, and the only
+caller that should is a test.
 
 ### `citations.py`
 

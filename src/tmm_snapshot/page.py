@@ -77,6 +77,40 @@ _STRIP_SELECTORS = (
 #: real amendment reason, and a hash over text alone would skip the page.
 _MEANINGFUL_ATTRS = ("alt", "colspan", "datetime", "href", "name", "rowspan", "src")
 
+#: Elements that separate words from their neighbours. Everything not listed
+#: is inline — `<span>`, `<i>`, `<a>`, `<strong>` — and must not introduce a
+#: space, because the CMS wraps instrument names in nested inline elements
+#: mid-sentence. See flatten_text.
+_TEXT_BREAK_TAGS = frozenset(
+    {
+        "address",
+        "blockquote",
+        "br",
+        "dd",
+        "div",
+        "dl",
+        "dt",
+        "figcaption",
+        "figure",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "hr",
+        "li",
+        "ol",
+        "p",
+        "pre",
+        "table",
+        "td",
+        "th",
+        "tr",
+        "ul",
+    }
+)
+
 #: Zero-width characters. The CMS sprinkles these through the prose — the
 #: opening line of Part 22.1 carries seven consecutive ZWSPs — and they are
 #: invisible noise in both the text and the hash.
@@ -111,6 +145,41 @@ def normalise_text(text: str) -> str:
     verbatim: no summarising, no reordering, no expanding abbreviations.
     """
     return " ".join(text.translate(_ZERO_WIDTH).replace("\xa0", " ").split())
+
+
+def flatten_text(node: Tag) -> str:
+    """Element to normalised text, breaking on block elements only.
+
+    `get_text(" ")` is wrong for this corpus in both directions. With a
+    separator it inserts a space inside a sentence, because the CMS wraps
+    instrument names in nested `<span><i><i>` and the separator lands before
+    the following full stop: *'Trade Marks Act 1955 .'*. Without one it welds
+    adjacent list items and paragraphs into a single word.
+
+    Inline elements therefore contribute no separator — the source's own
+    whitespace already sits inside the text nodes — and block elements
+    contribute one on each side.
+    """
+    parts: list[str] = []
+
+    def visit(item: object) -> None:
+        if isinstance(item, Comment):
+            return
+        if isinstance(item, NavigableString):
+            parts.append(str(item))
+            return
+        if not isinstance(item, Tag):
+            return
+        breaks = item.name in _TEXT_BREAK_TAGS
+        if breaks:
+            parts.append(" ")
+        for child in item.children:
+            visit(child)
+        if breaks:
+            parts.append(" ")
+
+    visit(node)
+    return normalise_text("".join(parts))
 
 
 def resolve_nav(url: str, sitemap: dict[str, NavPage]) -> NavPage:
