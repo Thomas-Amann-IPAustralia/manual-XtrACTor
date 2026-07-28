@@ -14,3 +14,6 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Viewer build output. Derived from snapshot/, rebuilt on deploy.
+viz/dist/

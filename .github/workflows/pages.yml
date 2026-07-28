@@ -1,0 +1,56 @@
+# Publish the snapshot viewer to GitHub Pages.
+#
+# The viewer is built from snapshot/ at deploy time and never committed: it is
+# derived data, and committing it would put a thousand-file diff in front of
+# every reviewer of a crawl. Nothing here writes to the repository.
+#
+# This workflow needs Settings → Pages → Source set to "GitHub Actions" once.
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "snapshot/**"
+      - "viz/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; a queued crawl should not race a manual run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Standard library only — the builder deliberately has no dependencies,
+      # so the deploy path cannot drift from what a reader can run locally.
+      - name: Build the viewer
+        run: python viz/build.py --snapshot snapshot --out viz/dist
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: viz/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
