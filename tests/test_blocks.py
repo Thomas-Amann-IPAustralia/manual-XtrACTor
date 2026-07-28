@@ -50,7 +50,9 @@ def test_every_chunk_of_every_real_page_adds_back_up(name, sitemap):
     record, body = parse_page(page_html(name), nav)
 
     for chunk in chunk_body(body, record, nav, sitemap):
-        joined = " ".join(block["text"] for block in chunk.blocks)
+        # An image block carries no `text` and contributes no words — the same
+        # blocks the join in `validate._block_failures` steps over.
+        joined = " ".join(block["text"] for block in chunk.blocks if "text" in block)
         assert joined == chunk.text, chunk.chunk_ref
 
 
@@ -131,3 +133,75 @@ def test_an_empty_element_contributes_no_block():
     assert blocks("<p></p><p>   </p><p>Prose.</p>") == [
         {"kind": "paragraph", "text": "Prose."}
     ]
+
+
+# -- the CMS's own wrappers ------------------------------------------------
+
+
+def test_a_table_inside_a_figure_is_a_table_block():
+    """CKEditor wraps every table the Manual writes in
+    `<figure class="table canvasRteResponsiveTable">`. While that figure was
+    opaque, `flatten_text` swallowed the whole grid into one 'text' block:
+    106 of the corpus's 121 tables were recorded as run-on prose."""
+    found = blocks(
+        '<figure class="table canvasRteResponsiveTable">'
+        "<table><tbody><tr><td>Owner</td><td>Name</td></tr></tbody></table>"
+        "</figure>"
+    )
+
+    assert [block["kind"] for block in found] == ["table"]
+
+
+def test_a_figure_is_transparent_but_a_table_is_still_one_unit():
+    """The asymmetry with `chunker._CONTAINER_TAGS` is deliberate: to the
+    chunker the figure is one unit, which is what stops a table being split
+    across a fragment boundary."""
+    found = blocks(
+        '<p>Before.</p><figure class="table"><table><tbody>'
+        "<tr><td>A cell.</td></tr></tbody></table></figure><p>After.</p>"
+    )
+
+    assert [block["kind"] for block in found] == [
+        "paragraph",
+        "table",
+        "paragraph",
+    ]
+
+
+# -- an image ---------------------------------------------------------------
+
+
+def test_an_image_is_recorded_where_it_sits():
+    """169 images sit loose in layout divs. `PageRecord.images` says a page
+    has them; only this says where in the prose they fell."""
+    found = blocks(
+        '<p>Before.</p><img src="/sites/default/files/flowchart.png"><p>After.</p>'
+    )
+
+    assert [block["kind"] for block in found] == ["paragraph", "image", "paragraph"]
+    assert found[1]["src"] == "/sites/default/files/flowchart.png"
+
+
+def test_an_image_block_carries_no_text():
+    """The only block without one. A block carrying '' would put a stray
+    space into the join that reconstructs the chunk."""
+    found = blocks('<img src="/sites/default/files/flowchart.png">')
+
+    assert "text" not in found[0]
+
+
+def test_an_image_does_not_disturb_the_join():
+    body = fragment('<p>Before.</p><img src="/a.png"><p>After.</p>')
+    found = extract_blocks(body)
+
+    joined = " ".join(block["text"] for block in found if "text" in block)
+    assert joined == flatten_text(body) == "Before. After."
+
+
+def test_alt_text_is_recorded_only_where_the_manual_wrote_one():
+    """Across 169 images it never has, and nothing here invents one."""
+    with_alt = blocks('<img src="/a.png" alt="A flowchart.">')
+    without = blocks('<img src="/a.png">')
+
+    assert with_alt[0]["alt"] == "A flowchart."
+    assert "alt" not in without[0]

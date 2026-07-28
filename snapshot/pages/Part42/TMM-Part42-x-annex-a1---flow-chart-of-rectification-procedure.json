@@ -3,6 +3,10 @@
     {
       "blocks": [
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/part_42_-_rectification_process_flow_chart.gif"
+        },
+        {
           "kind": "text",
           "text": "Effective Date: 24 August 2020"
         }
@@ -15,6 +19,7 @@
         "Part 42 Rectification of the Register",
         "42. Annex A1 - Flow chart of rectification procedure"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "annex",
       "ordinal": 1,
@@ -28,9 +33,9 @@
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
     "content_hash": "sha256:3f272043e36667c6a4b6c627cf2dba3972c424ebdeda5079c32740b7ad59091b",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-11-06",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "42. Annex A1 - Flow chart of rectification procedure",
     "images": [
       {

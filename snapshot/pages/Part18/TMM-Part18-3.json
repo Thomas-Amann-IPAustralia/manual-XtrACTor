@@ -27,6 +27,7 @@
         "Part 18 Finalisation of Application for Registration",
         "Part 18.3. Rejection of an application for registration"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -112,28 +113,18 @@
           "depth": 1,
           "kind": "list_item",
           "text": "submissions that are not persuasive, do not contain evidence of use or do not detail other relevant circumstances overcoming the ground for rejection may result in a Notice of Intention to Reject being issued."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.1.2 Rejection at the first report"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Reg 4.8 of the Trade Mark Regulations 1995 requires the Registrar to issue an adverse report to the applicant if they reasonably believe that a ground for rejection exists under the Trade Marks Act 1995 or that the application has not been made in accordance with the Act or Regulations. The application must then be rejected if the Registrar is satisfied that a ground for rejection exists."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part18/3/3/1~1",
-      "content_hash": "sha256:a0890f451c571a41463977c46b1c3a9fcc8ca41db20dade3ab1a3c52f2fe1325",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part18/3/3/1",
+      "content_hash": "sha256:490c4b85fb46426206c0bf4c5d4b47b16299fe11eb40fba98133d53a44056ac6",
+      "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
         "Part 18.3. Rejection of an application for registration",
         "3.1 When to consider rejection of an application"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -150,19 +141,17 @@
           "extraction": "regex",
           "id": "TMA1995/s44",
           "mention": "section 41 or 44"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/r4.8",
-          "mention": "Reg 4.8 of the Trade Mark Regulations 1995"
         }
       ],
       "tables": [],
-      "text": "Generally, the following conditions would prevail before examination of an application could be considered to have reached an impasse: all grounds for rejection have been raised and clearly explained; the applicant has been advised of available options for overcoming the grounds for rejection; all submissions have been fully considered and have been responded to; evidence of use, if provided, has been insufficient to overcome the grounds for rejection; and it does not appear any further progress can be made. It may sometimes be appropriate to include a serious warning about the possibility of rejection in the initial examination report. Such action should be considered in the following circumstances: i. When a new application is lodged and examination reveals strong grounds for rejection under section 41 or 44 and no prospects for overcoming the grounds for rejection by a restriction of the goods and/or services. ii. When a divisional application is lodged for a trade mark and an impasse had previously been reached in the examination of the parent. iii. When a new application is lodged which is substantially identical to one which has been or is currently subject to a hearing. Such a warning should convey the following information: although the applicant may make submissions on the correctness of the examiner’s decision, it appears unlikely such submissions will be persuasive. the applicant should consider providing substantial evidence of use or detailing other relevant circumstances if they wish to pursue the application submissions that are not persuasive, do not contain evidence of use or do not detail other relevant circumstances overcoming the ground for rejection may result in a Notice of Intention to Reject being issued. 3.1.2 Rejection at the first report Reg 4.8 of the Trade Mark Regulations 1995 requires the Registrar to issue an adverse report to the applicant if they reasonably believe that a ground for rejection exists under the Trade Marks Act 1995 or that the application has not been made in accordance with the Act or Regulations. The application must then be rejected if the Registrar is satisfied that a ground for rejection exists."
+      "text": "Generally, the following conditions would prevail before examination of an application could be considered to have reached an impasse: all grounds for rejection have been raised and clearly explained; the applicant has been advised of available options for overcoming the grounds for rejection; all submissions have been fully considered and have been responded to; evidence of use, if provided, has been insufficient to overcome the grounds for rejection; and it does not appear any further progress can be made. It may sometimes be appropriate to include a serious warning about the possibility of rejection in the initial examination report. Such action should be considered in the following circumstances: i. When a new application is lodged and examination reveals strong grounds for rejection under section 41 or 44 and no prospects for overcoming the grounds for rejection by a restriction of the goods and/or services. ii. When a divisional application is lodged for a trade mark and an impasse had previously been reached in the examination of the parent. iii. When a new application is lodged which is substantially identical to one which has been or is currently subject to a hearing. Such a warning should convey the following information: although the applicant may make submissions on the correctness of the examiner’s decision, it appears unlikely such submissions will be persuasive. the applicant should consider providing substantial evidence of use or detailing other relevant circumstances if they wish to pursue the application submissions that are not persuasive, do not contain evidence of use or do not detail other relevant circumstances overcoming the ground for rejection may result in a Notice of Intention to Reject being issued."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.8 of the Trade Mark Regulations 1995 requires the Registrar to issue an adverse report to the applicant if they reasonably believe that a ground for rejection exists under the Trade Marks Act 1995 or that the application has not been made in accordance with the Act or Regulations. The application must then be rejected if the Registrar is satisfied that a ground for rejection exists."
+        },
         {
           "kind": "paragraph",
           "text": "Generally the Registrar will not be satisfied that a ground for rejection exists without first giving an applicant the opportunity to contest the findings set out in the first report. In the majority of cases it will therefore not be appropriate to issue a Notice of Intention to Reject at the first report."
@@ -181,24 +170,30 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part18/3/3/1~2",
-      "content_hash": "sha256:a4e66ad70530c9a523871a7e60d8590e2cf77092b246add1d62f444483e49e40",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part18/3/3/1/2",
+      "content_hash": "sha256:46ca753283deeda71894fa6d3586ac5840989e02b258b01c3e020269b6d67192",
+      "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
         "Part 18.3. Rejection of an application for registration",
-        "3.1 When to consider rejection of an application"
+        "3.1 When to consider rejection of an application",
+        "3.1.2 Rejection at the first report"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
       "page_ref": "TMM/Part18/3",
-      "provisions": [],
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "Reg 4.8 of the Trade Mark Regulations 1995"
+        }
+      ],
       "tables": [],
-      "text": "Generally the Registrar will not be satisfied that a ground for rejection exists without first giving an applicant the opportunity to contest the findings set out in the first report. In the majority of cases it will therefore not be appropriate to issue a Notice of Intention to Reject at the first report. A divisional application may include a Notice of Intention to Reject in the first report where the parent application/s have come to an impasse and this has been communicated to the applicant previously. Examiners should be certain that the impasse communicated previously is applicable to the goods/services remaining in the child application. A standard application may include a Notice of Intention to Reject in the first report where there is a substantially identical trade mark application which has been heard or reached an impasse and this has been communicated to the applicant previously. Examiners should be certain that the impasse communicated previously is applicable and it is encouraged that the relevant hearing officer or Quality, Practice and Customers is consulted. Note: Rejection of an application at the first report will only be appropriate in instances where evidence of use after the priority date will not assist the applicant in overcoming the ground for rejection."
+      "text": "Reg 4.8 of the Trade Mark Regulations 1995 requires the Registrar to issue an adverse report to the applicant if they reasonably believe that a ground for rejection exists under the Trade Marks Act 1995 or that the application has not been made in accordance with the Act or Regulations. The application must then be rejected if the Registrar is satisfied that a ground for rejection exists. Generally the Registrar will not be satisfied that a ground for rejection exists without first giving an applicant the opportunity to contest the findings set out in the first report. In the majority of cases it will therefore not be appropriate to issue a Notice of Intention to Reject at the first report. A divisional application may include a Notice of Intention to Reject in the first report where the parent application/s have come to an impasse and this has been communicated to the applicant previously. Examiners should be certain that the impasse communicated previously is applicable to the goods/services remaining in the child application. A standard application may include a Notice of Intention to Reject in the first report where there is a substantially identical trade mark application which has been heard or reached an impasse and this has been communicated to the applicant previously. Examiners should be certain that the impasse communicated previously is applicable and it is encouraged that the relevant hearing officer or Quality, Practice and Customers is consulted. Note: Rejection of an application at the first report will only be appropriate in instances where evidence of use after the priority date will not assist the applicant in overcoming the ground for rejection."
     },
     {
       "blocks": [
@@ -240,6 +235,7 @@
         "3.1 When to consider rejection of an application",
         "3.2 Notification of intention to reject an application"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -253,11 +249,29 @@
         {
           "kind": "paragraph",
           "text": "The applicant is allowed two months from the dispatch date to respond to a Notice of Intention to Reject."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.3.1"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part18/3/3/3",
+      "content_hash": "sha256:7b72fe6abe6cc6ad1342d070b9234f161917a348f37ffdb89720dcb0d2324be2",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.3. Rejection of an application for registration",
+        "3.1 When to consider rejection of an application",
+        "3.3 Applicant's response to Notice of Intention to Reject"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part18/3",
+      "provisions": [],
+      "tables": [],
+      "text": "The applicant is allowed two months from the dispatch date to respond to a Notice of Intention to Reject."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applicant does not respond"
@@ -274,11 +288,32 @@
         {
           "kind": "paragraph",
           "text": "The applicant may request a Statement of Reasons once the application is rejected. If the applicant makes such a request, the examiner will prepare written reasons for the decision to reject the application."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.3.2"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part18/3/3/3/1",
+      "content_hash": "sha256:4ba0d7942663f7804629dced73bdb89b95f2632ea76c9d24e735b349637b5151",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.3. Rejection of an application for registration",
+        "3.1 When to consider rejection of an application",
+        "3.3 Applicant's response to Notice of Intention to Reject",
+        "3.3.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part52/5"
+      ],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part18/3",
+      "provisions": [],
+      "tables": [],
+      "text": "Applicant does not respond If the applicant does not respond within the time allowed the application is rejected. A Rejection Notice will then be sent to the applicant with advice than an appeal from the decision to reject lies with the Federal Court or the Federal Circuit Court. The rejection is then published in Australian Trade Mark Search. Part 52 Hearings, Decisions, Reasons and Appeals - 5. Rights of appeal from decisions of the Registrar The applicant may request a Statement of Reasons once the application is rejected. If the applicant makes such a request, the examiner will prepare written reasons for the decision to reject the application."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applicant requests a hearing"
@@ -286,11 +321,30 @@
         {
           "kind": "paragraph",
           "text": "If the applicant requests a hearing the case file is taken over by the Opposition and Hearings Section."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.3.3"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part18/3/3/3/2",
+      "content_hash": "sha256:196da6be629544327088ddd956b4d97ac7c2564753dd82a9b6c846f362c7df69",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.3. Rejection of an application for registration",
+        "3.1 When to consider rejection of an application",
+        "3.3 Applicant's response to Notice of Intention to Reject",
+        "3.3.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part18/3",
+      "provisions": [],
+      "tables": [],
+      "text": "Applicant requests a hearing If the applicant requests a hearing the case file is taken over by the Opposition and Hearings Section."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applicant makes further submissions"
@@ -298,11 +352,30 @@
         {
           "kind": "paragraph",
           "text": "If the applicant does not request a hearing or does not elect to withdraw the application, but makes a submission in response to the Notice of Intention to Reject AND that submission does not overcome the ground for rejection, the examiner will need to acknowledge and address the submissions and advise that the applicant must request a hearing otherwise rejection will proceed. The applicant should be given at least two weeks from the date of the response to their submissions to request a hearing and pay the relevant fee, even if this period extends beyond the initial deadline to respond to the Notice of Intention to Reject (however, it remains the applicant’s responsibility to ensure the application does not lapse in the intervening period.)"
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.3.4"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part18/3/3/3/3",
+      "content_hash": "sha256:63bbb21af0db8e231cdbaf9c6e956f662e0469bd9f7ae09e2bec4e7845bc7695",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.3. Rejection of an application for registration",
+        "3.1 When to consider rejection of an application",
+        "3.3 Applicant's response to Notice of Intention to Reject",
+        "3.3.3"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part18/3",
+      "provisions": [],
+      "tables": [],
+      "text": "Applicant makes further submissions If the applicant does not request a hearing or does not elect to withdraw the application, but makes a submission in response to the Notice of Intention to Reject AND that submission does not overcome the ground for rejection, the examiner will need to acknowledge and address the submissions and advise that the applicant must request a hearing otherwise rejection will proceed. The applicant should be given at least two weeks from the date of the response to their submissions to request a hearing and pay the relevant fee, even if this period extends beyond the initial deadline to respond to the Notice of Intention to Reject (however, it remains the applicant’s responsibility to ensure the application does not lapse in the intervening period.)"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applicant requests withdrawal"
@@ -318,25 +391,26 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part18/3/3/3",
-      "content_hash": "sha256:d6935fad3cfa478d5d93a0cb4ba74f1207fd0a417e1ce1ba46dc46b569e8f63e",
+      "chunk_ref": "TMM/Part18/3/3/3/4",
+      "content_hash": "sha256:9215b4b64777e90e86e11d46cbc4b0e2f56b0ed561a93ba048fc4dd0ee154e08",
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
         "Part 18.3. Rejection of an application for registration",
         "3.1 When to consider rejection of an application",
-        "3.3 Applicant's response to Notice of Intention to Reject"
+        "3.3 Applicant's response to Notice of Intention to Reject",
+        "3.3.4"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
-        "TMM/Part52/5",
         "TMM/Part7/1"
       ],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 9,
       "page_ref": "TMM/Part18/3",
       "provisions": [],
       "tables": [],
-      "text": "The applicant is allowed two months from the dispatch date to respond to a Notice of Intention to Reject. 3.3.1 Applicant does not respond If the applicant does not respond within the time allowed the application is rejected. A Rejection Notice will then be sent to the applicant with advice than an appeal from the decision to reject lies with the Federal Court or the Federal Circuit Court. The rejection is then published in Australian Trade Mark Search. Part 52 Hearings, Decisions, Reasons and Appeals - 5. Rights of appeal from decisions of the Registrar The applicant may request a Statement of Reasons once the application is rejected. If the applicant makes such a request, the examiner will prepare written reasons for the decision to reject the application. 3.3.2 Applicant requests a hearing If the applicant requests a hearing the case file is taken over by the Opposition and Hearings Section. 3.3.3 Applicant makes further submissions If the applicant does not request a hearing or does not elect to withdraw the application, but makes a submission in response to the Notice of Intention to Reject AND that submission does not overcome the ground for rejection, the examiner will need to acknowledge and address the submissions and advise that the applicant must request a hearing otherwise rejection will proceed. The applicant should be given at least two weeks from the date of the response to their submissions to request a hearing and pay the relevant fee, even if this period extends beyond the initial deadline to respond to the Notice of Intention to Reject (however, it remains the applicant’s responsibility to ensure the application does not lapse in the intervening period.) 3.3.4 Applicant requests withdrawal If the applicant chooses to withdraw the application, rejection plays no further part in the finalisation of the application. Part 7 Withdrawal of Applications, Notices and Requests"
+      "text": "Applicant requests withdrawal If the applicant chooses to withdraw the application, rejection plays no further part in the finalisation of the application. Part 7 Withdrawal of Applications, Notices and Requests"
     },
     {
       "blocks": [
@@ -345,7 +419,7 @@
           "text": "Provisions in the Trade Marks Act, 1995 pertaining to the rejection of applications include the following:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "para 33(3)(b) If the Registrar is satisfied that there are grounds for rejecting an application then he or she must reject the application. Section 206 A person who has been delegated by a signed instrument of the Registrar may reject a trade mark application. sub-section 33(4) The Registrar cannot reject an application without giving an applicant an opportunity to be heard. paras 204(a),(b) paras 204 (a),(b) The Registrar is to do an act or thing as soon as practicable in circumstances where the Act requires him or her to do any act or thing and no time period is provided for in the Act; paras 34(a),(b) The Registrar must notify the applicant of his or her decision to reject an application and publish the decision. para 35(b) The applicant may appeal to the Federal Court or the Federal Circuit Court against a decision by the Registrar to reject the application."
         },
         {
@@ -364,11 +438,12 @@
         "3.1 When to consider rejection of an application",
         "3.4 Legislation"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part52/1"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 10,
       "page_ref": "TMM/Part18/3",
       "provisions": [
         {
@@ -449,9 +524,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:366627f0741f54301b8f98c591acef83b232de5e8ac7421ec0633be291e38eb4",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Part 18.3. Rejection of an application for registration",
     "images": [],
     "last_amended": "2025-02-10",

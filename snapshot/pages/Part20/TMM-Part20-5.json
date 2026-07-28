@@ -19,6 +19,7 @@
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -58,11 +59,34 @@
         {
           "kind": "paragraph",
           "text": "Section 39 relates to certain signs that may not be registered as trade marks."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/1",
+      "content_hash": "sha256:831405e7d7b931839c20bb89f61ec12a694ba556c60e342a9e1ef7faea210193",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.1 Section 39 - Prohibited and prescribed signs"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "5.1.1"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s39",
+          "mention": "Section 39"
+        }
+      ],
+      "tables": [],
+      "text": "Section 39 relates to certain signs that may not be registered as trade marks."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Subsection 39(1) refers to trade marks which must be rejected because they incorporate signs that are prohibited from use as trade marks. Section 18 of the Act provides for prohibited signs of this kind to be specified in the regulations but to date no such signs have been specified in the regulations. A number of signs are prohibited from use as trade marks under other legislation. If a trade mark contains or consists of one of these signs, an application for its registration must be rejected under the “contrary to law” provisions of paragraph 42(b)."
@@ -71,11 +95,47 @@
           "depth": 1,
           "kind": "list_item",
           "text": "Part 30 Signs that are Scandalous and Contrary to Law"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/1/1",
+      "content_hash": "sha256:4c7faddba5915edeaf3e4d4f021c181a7852c71e551ad20c42785e455ef31e54",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.1 Section 39 - Prohibited and prescribed signs",
+        "5.1.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part30/1"
+      ],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s18",
+          "mention": "Section 18"
         },
         {
-          "kind": "paragraph",
-          "text": "5.1.2"
+          "extraction": "href",
+          "id": "TMA1995/s39(1)",
+          "mention": "Subsection 39(1)"
         },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s42(b)",
+          "mention": "paragraph 42(b)"
+        }
+      ],
+      "tables": [],
+      "text": "Subsection 39(1) refers to trade marks which must be rejected because they incorporate signs that are prohibited from use as trade marks. Section 18 of the Act provides for prohibited signs of this kind to be specified in the regulations but to date no such signs have been specified in the regulations. A number of signs are prohibited from use as trade marks under other legislation. If a trade mark contains or consists of one of these signs, an application for its registration must be rejected under the “contrary to law” provisions of paragraph 42(b). Part 30 Signs that are Scandalous and Contrary to Law"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Subsection 39(2) relates to trade marks that may be rejected because they contain or consist of any of the signs prescribed in regulation 4.15 for the purposes of this subsection. The practice to be applied in deciding whether a ground for rejection exists under subsection 39(2) is given in detail in Part 31 of this manual. The practice aims at keeping in mind the presumption that trade marks are registrable unless there is a clear ground for rejection. The mere presence of a prescribed sign as part of a trade mark may not be sufficient reason to raise a ground for rejection, especially if it is unlikely that the presence of that sign will give rise to deception or confusion."
@@ -87,46 +147,27 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part20/5/5/1",
-      "content_hash": "sha256:9e72aaf9f6b4a6dfccdc487bc6cf5591fb3d9eaa4d23d9ffcc31d97a271493c7",
+      "chunk_ref": "TMM/Part20/5/5/1/2",
+      "content_hash": "sha256:d1696783cf84a05b026b498cf301ba60233f51cd369720b19f85d60b195d03ed",
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability",
-        "5.1 Section 39 - Prohibited and prescribed signs"
+        "5.1 Section 39 - Prohibited and prescribed signs",
+        "5.1.2"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
-        "TMM/Part30/1",
         "TMM/Part31/1"
       ],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 4,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
           "extraction": "href",
-          "id": "TMA1995/s18",
-          "mention": "Section 18"
-        },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s39",
-          "mention": "Section 39"
-        },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s39(1)",
-          "mention": "Subsection 39(1)"
-        },
-        {
-          "extraction": "href",
           "id": "TMA1995/s39(2)",
           "mention": "Subsection 39(2)"
-        },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s42(b)",
-          "mention": "paragraph 42(b)"
         },
         {
           "extraction": "href",
@@ -135,7 +176,7 @@
         }
       ],
       "tables": [],
-      "text": "Section 39 relates to certain signs that may not be registered as trade marks. 5.1.1 Subsection 39(1) refers to trade marks which must be rejected because they incorporate signs that are prohibited from use as trade marks. Section 18 of the Act provides for prohibited signs of this kind to be specified in the regulations but to date no such signs have been specified in the regulations. A number of signs are prohibited from use as trade marks under other legislation. If a trade mark contains or consists of one of these signs, an application for its registration must be rejected under the “contrary to law” provisions of paragraph 42(b). Part 30 Signs that are Scandalous and Contrary to Law 5.1.2 Subsection 39(2) relates to trade marks that may be rejected because they contain or consist of any of the signs prescribed in regulation 4.15 for the purposes of this subsection. The practice to be applied in deciding whether a ground for rejection exists under subsection 39(2) is given in detail in Part 31 of this manual. The practice aims at keeping in mind the presumption that trade marks are registrable unless there is a clear ground for rejection. The mere presence of a prescribed sign as part of a trade mark may not be sufficient reason to raise a ground for rejection, especially if it is unlikely that the presence of that sign will give rise to deception or confusion. Part 31 Prohibited and Prescribed Signs"
+      "text": "Subsection 39(2) relates to trade marks that may be rejected because they contain or consist of any of the signs prescribed in regulation 4.15 for the purposes of this subsection. The practice to be applied in deciding whether a ground for rejection exists under subsection 39(2) is given in detail in Part 31 of this manual. The practice aims at keeping in mind the presumption that trade marks are registrable unless there is a clear ground for rejection. The mere presence of a prescribed sign as part of a trade mark may not be sufficient reason to raise a ground for rejection, especially if it is unlikely that the presence of that sign will give rise to deception or confusion. Part 31 Prohibited and Prescribed Signs"
     },
     {
       "blocks": [
@@ -163,12 +204,13 @@
         "20.5. Grounds for rejection and the presumption of registrability",
         "5.2 Section 40 - Graphical representation of a trade mark"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part10/3",
         "TMM/Part21/5"
       ],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 5,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
@@ -185,19 +227,60 @@
         {
           "kind": "paragraph",
           "text": "A trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s designated goods and/or services from the goods and/or services of other persons. The matters to be considered under section 41, in determining whether a trade mark is capable of distinguishing the applicant’s goods and/or services, are dealt with in detail in Part 22 of this manual."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/3",
+      "content_hash": "sha256:aee03b72efd861e18da9f413b8599a2c147d4cad93186c039dc8930a169d1786",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.3 Section 41 - Trade marks not capable of distinguishing"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "5.3.1"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "tables": [],
+      "text": "A trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s designated goods and/or services from the goods and/or services of other persons. The matters to be considered under section 41, in determining whether a trade mark is capable of distinguishing the applicant’s goods and/or services, are dealt with in detail in Part 22 of this manual."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Where the Registrar or their delegate is satisfied on the balance of probabilities that the trade mark has insufficient inherent adaptation to distinguish for it to be considered prima facie capable of distinguishing, the reasons for that decision must be clearly stated and documented. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.3.2"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/3/1",
+      "content_hash": "sha256:c547f9f236db89250c2ef602972d1393c903e3945a1506d011f94a737ba436b1",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.3 Section 41 - Trade marks not capable of distinguishing",
+        "5.3.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [],
+      "tables": [],
+      "text": "Where the Registrar or their delegate is satisfied on the balance of probabilities that the trade mark has insufficient inherent adaptation to distinguish for it to be considered prima facie capable of distinguishing, the reasons for that decision must be clearly stated and documented. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Where the Registrar or their delegate is satisfied that there is a clear ground for rejecting an application under section 41, the applicant may attempt to overcome that ground for rejection by providing evidence of use or other circumstances. When evidence is required, the onus reverts to the applicant to demonstrate that the trade mark is, or may be taken to be, capable of distinguishing the applicants' goods or services."
@@ -209,19 +292,21 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part20/5/5/3",
-      "content_hash": "sha256:13ff722c7bf696d127b9cf2380e30275f367a8a421bf98b3448fa1d7a628f782",
+      "chunk_ref": "TMM/Part20/5/5/3/2",
+      "content_hash": "sha256:0394ee4bf9fcd3e53e480348d030667ca8c5da22db837eb7b5580364ef846350",
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability",
-        "5.3 Section 41 - Trade marks not capable of distinguishing"
+        "5.3 Section 41 - Trade marks not capable of distinguishing",
+        "5.3.2"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part22/1"
       ],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 8,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
@@ -231,46 +316,29 @@
         }
       ],
       "tables": [],
-      "text": "A trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s designated goods and/or services from the goods and/or services of other persons. The matters to be considered under section 41, in determining whether a trade mark is capable of distinguishing the applicant’s goods and/or services, are dealt with in detail in Part 22 of this manual. 5.3.1 Where the Registrar or their delegate is satisfied on the balance of probabilities that the trade mark has insufficient inherent adaptation to distinguish for it to be considered prima facie capable of distinguishing, the reasons for that decision must be clearly stated and documented. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised. 5.3.2 Where the Registrar or their delegate is satisfied that there is a clear ground for rejecting an application under section 41, the applicant may attempt to overcome that ground for rejection by providing evidence of use or other circumstances. When evidence is required, the onus reverts to the applicant to demonstrate that the trade mark is, or may be taken to be, capable of distinguishing the applicants' goods or services. Part 22 Section 41- Capable of Distinguishing"
+      "text": "Where the Registrar or their delegate is satisfied that there is a clear ground for rejecting an application under section 41, the applicant may attempt to overcome that ground for rejection by providing evidence of use or other circumstances. When evidence is required, the onus reverts to the applicant to demonstrate that the trade mark is, or may be taken to be, capable of distinguishing the applicants' goods or services. Part 22 Section 41- Capable of Distinguishing"
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "5.4.1"
-        },
-        {
-          "kind": "paragraph",
           "text": "Under paragraph 42(a) a trade mark application must be rejected if the subject trade mark contains or consists of scandalous matter. The Registrar or their delegate must evaluate the mark in the context of the ordinary people it might offend, and the merits of each case will be assessed on the basis of the trade mark, the goods or services to which it will be applied and the acceptance of the proposed mark within the general Australian population. The presumption of registrability must again be taken into account in applying the guidelines given in section 2 of Part 30 of this manual. However, if the Registrar or their delegate is satisfied that the ground for rejection exists, the presumption no longer applies."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.4.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Under subsection 42(b) a trade mark must be rejected if its use would be contrary to law. In general, this will happen when the trade mark contains or consists of any sign the use of which is precluded by a piece of legislation. If this is the case, there can be no doubt that the application must be rejected. Examples of legislation which may trigger the provisions of subsection 42(b) are listed in the Annex A1 in Part 30."
-        },
-        {
-          "depth": 1,
-          "kind": "list_item",
-          "text": "Part 30 Signs that are Scandalous and Contrary to Law"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part20/5/5/4",
-      "content_hash": "sha256:0c3f1188f4c06257f8cb9e64d97e3595b47900ad592cea1f5bb931e9bf992d9c",
+      "chunk_ref": "TMM/Part20/5/5/4/1",
+      "content_hash": "sha256:f79a60d460d8f1b540a082771fb127575954ebd2e2bac489c309861ce3e6be84",
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability",
-        "5.4 Section 42 - Trade marks that are scandalous or contrary to law"
+        "5.4 Section 42 - Trade marks that are scandalous or contrary to law",
+        "5.4.1"
       ],
-      "internal_refs": [
-        "TMM/Part30/x-annex-a1---examples-of-legislation-which-may-trigger-the-provisions-of-section-42b"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 9,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
@@ -284,7 +352,41 @@
           "extraction": "regex",
           "id": "TMA1995/s42(a)",
           "mention": "paragraph 42(a)"
+        }
+      ],
+      "tables": [],
+      "text": "Under paragraph 42(a) a trade mark application must be rejected if the subject trade mark contains or consists of scandalous matter. The Registrar or their delegate must evaluate the mark in the context of the ordinary people it might offend, and the merits of each case will be assessed on the basis of the trade mark, the goods or services to which it will be applied and the acceptance of the proposed mark within the general Australian population. The presumption of registrability must again be taken into account in applying the guidelines given in section 2 of Part 30 of this manual. However, if the Registrar or their delegate is satisfied that the ground for rejection exists, the presumption no longer applies."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under subsection 42(b) a trade mark must be rejected if its use would be contrary to law. In general, this will happen when the trade mark contains or consists of any sign the use of which is precluded by a piece of legislation. If this is the case, there can be no doubt that the application must be rejected. Examples of legislation which may trigger the provisions of subsection 42(b) are listed in the Annex A1 in Part 30."
         },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 30 Signs that are Scandalous and Contrary to Law"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/4/2",
+      "content_hash": "sha256:f767fa73148e9145671c4a3da2dea15d8d9f180bd9c4218f772215d1ca1e7d04",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.4 Section 42 - Trade marks that are scandalous or contrary to law",
+        "5.4.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part30/x-annex-a1---examples-of-legislation-which-may-trigger-the-provisions-of-section-42b"
+      ],
+      "kind": "body",
+      "ordinal": 10,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
           "extraction": "href",
           "id": "TMA1995/s42(b)",
@@ -292,26 +394,73 @@
         }
       ],
       "tables": [],
-      "text": "5.4.1 Under paragraph 42(a) a trade mark application must be rejected if the subject trade mark contains or consists of scandalous matter. The Registrar or their delegate must evaluate the mark in the context of the ordinary people it might offend, and the merits of each case will be assessed on the basis of the trade mark, the goods or services to which it will be applied and the acceptance of the proposed mark within the general Australian population. The presumption of registrability must again be taken into account in applying the guidelines given in section 2 of Part 30 of this manual. However, if the Registrar or their delegate is satisfied that the ground for rejection exists, the presumption no longer applies. 5.4.2 Under subsection 42(b) a trade mark must be rejected if its use would be contrary to law. In general, this will happen when the trade mark contains or consists of any sign the use of which is precluded by a piece of legislation. If this is the case, there can be no doubt that the application must be rejected. Examples of legislation which may trigger the provisions of subsection 42(b) are listed in the Annex A1 in Part 30. Part 30 Signs that are Scandalous and Contrary to Law"
+      "text": "Under subsection 42(b) a trade mark must be rejected if its use would be contrary to law. In general, this will happen when the trade mark contains or consists of any sign the use of which is precluded by a piece of legislation. If this is the case, there can be no doubt that the application must be rejected. Examples of legislation which may trigger the provisions of subsection 42(b) are listed in the Annex A1 in Part 30. Part 30 Signs that are Scandalous and Contrary to Law"
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Under section 43 of the Act an application for registration of a trade mark for particular goods or services must be rejected if, because of some connotation that the trade mark has, the use of the trade mark in relation to those goods would be likely to deceive or cause confusion. The connotation may result from the whole trade mark or a sign included in it. Grounds for rejection under this section are “absolute” grounds in that the likely deception or confusion results from the nature of the trade mark. Section 43 does not apply to instances of deception and confusion that might arise from conflict between similar trade marks."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/5",
+      "content_hash": "sha256:7cbf6c69b31fc08ddbd66b589334a4f7f8fa6eba22a6badedda36d75e0591276",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.5 Section 43 - Trade marks likely to deceive or cause confusion"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 11,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "5.5.1"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "tables": [],
+      "text": "Under section 43 of the Act an application for registration of a trade mark for particular goods or services must be rejected if, because of some connotation that the trade mark has, the use of the trade mark in relation to those goods would be likely to deceive or cause confusion. The connotation may result from the whole trade mark or a sign included in it. Grounds for rejection under this section are “absolute” grounds in that the likely deception or confusion results from the nature of the trade mark. Section 43 does not apply to instances of deception and confusion that might arise from conflict between similar trade marks."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The practice to be applied in relation to section 43 is dealt with in Part 29 of this manual. The presumption of registrability must be taken into account and a ground for rejecting an application will only be raised when, because of its nature, use of the trade mark would result in a real danger of deception or confusion occurring."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/5/1",
+      "content_hash": "sha256:c4d3f4b181621895afd3e1b0260b70edfef458291d98d4e49081e6c7a08dd306",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.5 Section 43 - Trade marks likely to deceive or cause confusion",
+        "5.5.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 12,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "5.5.2"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "tables": [],
+      "text": "The practice to be applied in relation to section 43 is dealt with in Part 29 of this manual. The presumption of registrability must be taken into account and a ground for rejecting an application will only be raised when, because of its nature, use of the trade mark would result in a real danger of deception or confusion occurring."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "In many instances a ground for rejecting an application under section 43 can be overcome by restricting the specification of goods and services so that the application only covers goods for which the connotation in the trade mark is not deceptive or confusing. Where the trade mark contains or consists of a name or representation which is likely to lead the purchaser to the conclusion that there is a connection between a particular person or organisation and the goods or services bearing the trade mark, evidence that there is such a connection would usually be sufficient to overcome the ground for rejection."
@@ -323,19 +472,21 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part20/5/5/5",
-      "content_hash": "sha256:8b970b9ad85b4f8af7bf9ddc7cf2db82cb9dadef6b8073fe42fa415a4b02084a",
+      "chunk_ref": "TMM/Part20/5/5/5/2",
+      "content_hash": "sha256:bfede9ef80be529e53b457c7751b65988533273f026bd8328e64948c691943db",
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability",
-        "5.5 Section 43 - Trade marks likely to deceive or cause confusion"
+        "5.5 Section 43 - Trade marks likely to deceive or cause confusion",
+        "5.5.2"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part29/1"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 13,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
@@ -345,50 +496,28 @@
         }
       ],
       "tables": [],
-      "text": "Under section 43 of the Act an application for registration of a trade mark for particular goods or services must be rejected if, because of some connotation that the trade mark has, the use of the trade mark in relation to those goods would be likely to deceive or cause confusion. The connotation may result from the whole trade mark or a sign included in it. Grounds for rejection under this section are “absolute” grounds in that the likely deception or confusion results from the nature of the trade mark. Section 43 does not apply to instances of deception and confusion that might arise from conflict between similar trade marks. 5.5.1 The practice to be applied in relation to section 43 is dealt with in Part 29 of this manual. The presumption of registrability must be taken into account and a ground for rejecting an application will only be raised when, because of its nature, use of the trade mark would result in a real danger of deception or confusion occurring. 5.5.2 In many instances a ground for rejecting an application under section 43 can be overcome by restricting the specification of goods and services so that the application only covers goods for which the connotation in the trade mark is not deceptive or confusing. Where the trade mark contains or consists of a name or representation which is likely to lead the purchaser to the conclusion that there is a connection between a particular person or organisation and the goods or services bearing the trade mark, evidence that there is such a connection would usually be sufficient to overcome the ground for rejection. Part 29 Trade Marks Likely to Deceive or Cause Confusion"
+      "text": "In many instances a ground for rejecting an application under section 43 can be overcome by restricting the specification of goods and services so that the application only covers goods for which the connotation in the trade mark is not deceptive or confusing. Where the trade mark contains or consists of a name or representation which is likely to lead the purchaser to the conclusion that there is a connection between a particular person or organisation and the goods or services bearing the trade mark, evidence that there is such a connection would usually be sufficient to overcome the ground for rejection. Part 29 Trade Marks Likely to Deceive or Cause Confusion"
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Section 44 deals with the “relative” grounds for rejection which must be considered as part of the examination of a trade mark application. These are the grounds which result from the existence of conflicting trade marks of earlier priority date."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.6.1"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Under subsections 44(1) and 44(2) there are grounds for rejecting an application if the trade mark is substantially identical or deceptively similar to another trade mark the subject of an application or registration and is to be used in respect of goods or services, similar to goods or services covered by that other application or registration, or goods that are closely related to those other services or services that are closely related to those other goods."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.6.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The practice in relation to citation of applications and registrations of earlier priority date is detailed in Part 26 of this manual. This includes the tests for deciding, firstly, whether the goods and services of the possible citations are similar or closely related and, secondly, whether the trade marks in question are substantially identical or deceptively similar. Given the presumption of registrability, a critical approach must be taken in applying these tests so that only soundly based citations are raised. However, it the Registrar or their delegate is satisfied, on the balance of probabilities, that the provisions of section 44 are relevant to the application then the ground for rejection should be raised. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised."
-        },
-        {
-          "depth": 1,
-          "kind": "list_item",
-          "text": "Part 26 Conflict with other Signs"
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part20/5/5/6",
-      "content_hash": "sha256:2e0d3c42ea49eaff6aa0c42389693826cd85df99c4ea48020ad3e67eaae32e14",
+      "content_hash": "sha256:5534d429032866904b121a28dea887cb76f840aacf7a7fc2e83bb76c39b74e57",
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
         "20.5. Grounds for rejection and the presumption of registrability",
         "5.6 Section 44 - Conflict with other trade marks"
       ],
-      "internal_refs": [
-        "TMM/Part26/1"
-      ],
+      "heading_source": "markup",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 14,
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
@@ -396,7 +525,34 @@
           "extraction": "regex",
           "id": "TMA1995/s44",
           "mention": "Section 44"
-        },
+        }
+      ],
+      "tables": [],
+      "text": "Section 44 deals with the “relative” grounds for rejection which must be considered as part of the examination of a trade mark application. These are the grounds which result from the existence of conflicting trade marks of earlier priority date."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under subsections 44(1) and 44(2) there are grounds for rejecting an application if the trade mark is substantially identical or deceptively similar to another trade mark the subject of an application or registration and is to be used in respect of goods or services, similar to goods or services covered by that other application or registration, or goods that are closely related to those other services or services that are closely related to those other goods."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/6/1",
+      "content_hash": "sha256:135958d31e67cdecb3d990c4c05085c8f408f4ceb46e6e579eefe78042ae8f05",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.6 Section 44 - Conflict with other trade marks",
+        "5.6.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 15,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
         {
           "certainty": "default",
           "extraction": "regex",
@@ -411,16 +567,56 @@
         }
       ],
       "tables": [],
-      "text": "Section 44 deals with the “relative” grounds for rejection which must be considered as part of the examination of a trade mark application. These are the grounds which result from the existence of conflicting trade marks of earlier priority date. 5.6.1 Under subsections 44(1) and 44(2) there are grounds for rejecting an application if the trade mark is substantially identical or deceptively similar to another trade mark the subject of an application or registration and is to be used in respect of goods or services, similar to goods or services covered by that other application or registration, or goods that are closely related to those other services or services that are closely related to those other goods. 5.6.2 The practice in relation to citation of applications and registrations of earlier priority date is detailed in Part 26 of this manual. This includes the tests for deciding, firstly, whether the goods and services of the possible citations are similar or closely related and, secondly, whether the trade marks in question are substantially identical or deceptively similar. Given the presumption of registrability, a critical approach must be taken in applying these tests so that only soundly based citations are raised. However, it the Registrar or their delegate is satisfied, on the balance of probabilities, that the provisions of section 44 are relevant to the application then the ground for rejection should be raised. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised. Part 26 Conflict with other Signs"
+      "text": "Under subsections 44(1) and 44(2) there are grounds for rejecting an application if the trade mark is substantially identical or deceptively similar to another trade mark the subject of an application or registration and is to be used in respect of goods or services, similar to goods or services covered by that other application or registration, or goods that are closely related to those other services or services that are closely related to those other goods."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The practice in relation to citation of applications and registrations of earlier priority date is detailed in Part 26 of this manual. This includes the tests for deciding, firstly, whether the goods and services of the possible citations are similar or closely related and, secondly, whether the trade marks in question are substantially identical or deceptively similar. Given the presumption of registrability, a critical approach must be taken in applying these tests so that only soundly based citations are raised. However, it the Registrar or their delegate is satisfied, on the balance of probabilities, that the provisions of section 44 are relevant to the application then the ground for rejection should be raised. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 26 Conflict with other Signs"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part20/5/5/6/2",
+      "content_hash": "sha256:0792b093308cbcafaf62d755845ba6610951492132fc271dbf1293420db6a9f6",
+      "fragment": null,
+      "heading_path": [
+        "Part 20 Definition of a Trade Mark and Presumption of Registrability",
+        "20.5. Grounds for rejection and the presumption of registrability",
+        "5.6 Section 44 - Conflict with other trade marks",
+        "5.6.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part26/1"
+      ],
+      "kind": "body",
+      "ordinal": 16,
+      "page_ref": "TMM/Part20/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "section 44"
+        }
+      ],
+      "tables": [],
+      "text": "The practice in relation to citation of applications and registrations of earlier priority date is detailed in Part 26 of this manual. This includes the tests for deciding, firstly, whether the goods and services of the possible citations are similar or closely related and, secondly, whether the trade marks in question are substantially identical or deceptively similar. Given the presumption of registrability, a critical approach must be taken in applying these tests so that only soundly based citations are raised. However, it the Registrar or their delegate is satisfied, on the balance of probabilities, that the provisions of section 44 are relevant to the application then the ground for rejection should be raised. If there is a doubt that a ground for rejection exists, then the Registrar or their delegate is not satisfied and the ground for rejection should not be raised. Part 26 Conflict with other Signs"
     }
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:df65d1beff71a14f33dc5d8fece1f797ad8c9d786ec3a1f26ebbdbf005373cdd",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "20.5. Grounds for rejection and the presumption of registrability",
     "images": [],
     "last_amended": "2022-04-20",

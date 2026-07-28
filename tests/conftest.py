@@ -46,6 +46,16 @@ PAGE_SLUGS = {
     ),
     "part32a_2_3": "2.3-section-41--capacity-to-distinguish",
     "part32b_2_3": "2.3-section-41--capacity-to-distinguish1",
+    # A footnote set as an <h4> with the marker in a <sup>, so the flattened
+    # heading opens '2 See AKT Consultants...' and used to take the address
+    # TMM/Part55/2/2 — the parent of this page's real sections.
+    # SOURCE_NOTES.md §26. Saved 28 July 2026 from the 0.5.0 snapshot.
+    "part55_2": "2.-award-of-costs",
+    # 36 numbered subsections, every one of them a bold paragraph rather than
+    # a heading, so the whole page used to arrive as nine chunks with no
+    # heading_path at all. The corpus's worst case. SOURCE_NOTES.md §25.
+    # Saved 28 July 2026 from the 0.5.0 snapshot.
+    "part10_3": "3.-representation-of-the-trade-mark---general",
 }
 
 

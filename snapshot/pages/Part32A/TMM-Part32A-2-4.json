@@ -32,6 +32,7 @@
         "32A.2.4 Section 43: Deception and Confusion",
         "2.4.1 Specific plant material considerations"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -65,15 +66,36 @@
         {
           "kind": "paragraph",
           "text": "However, where there is a connotation present within the trade mark that is directly contradicted by the specification, there is a high likelihood of consumers being deceived or confused and s43 grounds for rejection would be appropriate. See the relevant practice at Part 29.4.10."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/2/4/2/4/2",
+      "content_hash": "sha256:4fe9213868a012cedf52bb41a8debc3ab2913d426b3024a9e8392394a51f3449",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A.2.4 Section 43: Deception and Confusion",
+        "2.4.2 General considerations"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [
+        "TMM/Part29/4"
+      ],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part32A/2/4",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "2.4.3 Overcoming a section 43 ground for rejection"
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.4.3(a) Amending the goods"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "tables": [],
+      "text": "Regarding material in a trade mark that is not likely to trigger section 43, trade marks in Class 31 are treated no differently to trade marks in other classes. That is, a ground for rejection should not be raised when: the trade mark contains a descriptive plant term, other than a variety or synonym (e.g. ”apples” or “cuttings”) and the specification has the scope to encompass goods described by that term. However, where there is a connotation present within the trade mark that is directly contradicted by the specification, there is a high likelihood of consumers being deceived or confused and s43 grounds for rejection would be appropriate. See the relevant practice at Part 29.4.10."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the problem goods (either by excluding the plant type or by restricting the goods to a different plant type/s)."
@@ -134,39 +156,34 @@
         {
           "kind": "paragraph",
           "text": "Amending the specification should only be proposed if the examiner is satisfied that use of the trade mark will not mislead. Confusion between bulbs, seeds, rootstocks or plants of different types is highly likely where the purchaser is not familiar with the goods, or where the appearance of the goods is similar."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.4.3(b) Examples of use"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part32A/2/4/2/4/2~1",
-      "content_hash": "sha256:9a2ff02d3bf2a00821672e84ffa5419563b708996124d6b08d1424dde04f7e05",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part32A/2/4/2-4-3-a-amending-the-goods",
+      "content_hash": "sha256:680df9d1909d942de70850b4123cc9994f9905a8e8c917fd95e4b0be77c397fa",
+      "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
         "32A.2.4 Section 43: Deception and Confusion",
-        "2.4.2 General considerations"
+        "2.4.2 General considerations",
+        "2.4.3 Overcoming a section 43 ground for rejection",
+        "2.4.3(a) Amending the goods"
       ],
-      "internal_refs": [
-        "TMM/Part29/4"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 3,
       "page_ref": "TMM/Part32A/2/4",
       "provisions": [
         {
-          "extraction": "href",
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s43",
           "mention": "section 43"
         }
       ],
       "tables": [],
-      "text": "Regarding material in a trade mark that is not likely to trigger section 43, trade marks in Class 31 are treated no differently to trade marks in other classes. That is, a ground for rejection should not be raised when: the trade mark contains a descriptive plant term, other than a variety or synonym (e.g. ”apples” or “cuttings”) and the specification has the scope to encompass goods described by that term. However, where there is a connotation present within the trade mark that is directly contradicted by the specification, there is a high likelihood of consumers being deceived or confused and s43 grounds for rejection would be appropriate. See the relevant practice at Part 29.4.10. 2.4.3 Overcoming a section 43 ground for rejection 2.4.3(a) Amending the goods If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the problem goods (either by excluding the plant type or by restricting the goods to a different plant type/s). Example: A trade mark application for DELTA is filed in Class 31 for plants. Research shows that ‘Delta’ is the name of particular varieties of Rosa and Capsicum. A section 43 ground for rejection should be taken as the trade mark claim notionally includes Rosa and Capsicum plants. To overcome the objection, the applicant could amend their claim to: plants, none of the foregoing being of the genera Capsicum or Rosa or plants, [of a type other than the problem genera – e.g.] being plants grown from bulbs If the trade mark is a composite1 that has no problems under other parts of the legislation, the applicant could amend their claim to: plants, being Rosa ‘Delta’ or plants, being Capsicum ‘Delta’ . Note: If the trade mark connotes a particular variety in many genera, it is preferable for the owner to refine their claim to the genus/genera and variety/ies of interest. (e.g. “all of the foregoing being varieties of Gladiolus”). This is in keeping with office practice to ensure that goods or services are described clearly and accurately. Amending the specification should only be proposed if the examiner is satisfied that use of the trade mark will not mislead. Confusion between bulbs, seeds, rootstocks or plants of different types is highly likely where the purchaser is not familiar with the goods, or where the appearance of the goods is similar. 2.4.3(b) Examples of use"
+      "text": "If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the problem goods (either by excluding the plant type or by restricting the goods to a different plant type/s). Example: A trade mark application for DELTA is filed in Class 31 for plants. Research shows that ‘Delta’ is the name of particular varieties of Rosa and Capsicum. A section 43 ground for rejection should be taken as the trade mark claim notionally includes Rosa and Capsicum plants. To overcome the objection, the applicant could amend their claim to: plants, none of the foregoing being of the genera Capsicum or Rosa or plants, [of a type other than the problem genera – e.g.] being plants grown from bulbs If the trade mark is a composite1 that has no problems under other parts of the legislation, the applicant could amend their claim to: plants, being Rosa ‘Delta’ or plants, being Capsicum ‘Delta’ . Note: If the trade mark connotes a particular variety in many genera, it is preferable for the owner to refine their claim to the genus/genera and variety/ies of interest. (e.g. “all of the foregoing being varieties of Gladiolus”). This is in keeping with office practice to ensure that goods or services are described clearly and accurately. Amending the specification should only be proposed if the examiner is satisfied that use of the trade mark will not mislead. Confusion between bulbs, seeds, rootstocks or plants of different types is highly likely where the purchaser is not familiar with the goods, or where the appearance of the goods is similar."
     },
     {
       "blocks": [
@@ -208,20 +225,20 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part32A/2/4/2/4/2~2",
+      "chunk_ref": "TMM/Part32A/2/4/2-4-3-b-examples-of-use",
       "content_hash": "sha256:7660075024fe812030bdc6c83431516f9e78e7d6ba3c6c20700e18094ff11b9c",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
         "32A.2.4 Section 43: Deception and Confusion",
-        "2.4.2 General considerations"
+        "2.4.2 General considerations",
+        "2.4.3 Overcoming a section 43 ground for rejection",
+        "2.4.3(b) Examples of use"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 4,
       "page_ref": "TMM/Part32A/2/4",
       "provisions": [
         {
@@ -259,9 +276,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:be2803a3d03bf51ed3c212922c56d8f4e5c88c978fbf9049bcff16ab7c0467c5",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "32A.2.4 Section 43: Deception and Confusion",
     "images": [],
     "last_amended": "2022-04-20",

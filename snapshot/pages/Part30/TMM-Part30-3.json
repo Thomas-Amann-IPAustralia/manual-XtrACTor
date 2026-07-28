@@ -15,6 +15,7 @@
         "Part 30 Signs that are Scandalous and Use Contrary to Law",
         "30.3. Use contrary to law"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -61,6 +62,7 @@
         "30.3. Use contrary to law",
         "3.1"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -85,6 +87,7 @@
         "30.3. Use contrary to law",
         "3.2"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -116,6 +119,7 @@
         "30.3. Use contrary to law",
         "3.3"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part30/x-annex-a1---examples-of-legislation-which-may-trigger-the-provisions-of-section-42b"
       ],
@@ -131,11 +135,33 @@
         {
           "kind": "paragraph",
           "text": "Following the decision in Advantage Rent-a-Car Inc v Advantage Car Rental Pty Ltd [2001] FCA 683 (‘Advantage Rent-a-Car’) it became clear that the Registrar was obliged in certain circumstances to give consideration to legislation such as the Copyright Act 1968 (Cth) and the Trade Practices Act 1974 (Cth) (now the Competition and Consumer Act 2010 (Cth)). Consideration of these types of issues is unlikely to occur in the examination stages, but may become relevant during opposition proceedings. However, if an examiner is provided with definite information indicating that a particular trade mark would be contrary to any relevant legislation, a ground for rejection must be raised."
-        },
+        }
+      ],
+      "cases": [
         {
-          "kind": "paragraph",
-          "text": "3.4.1 Aboriginal and Torres Strait Islander flags"
-        },
+          "citation": "[2001] FCA 683",
+          "id": "CASE/2001/FCA/683"
+        }
+      ],
+      "chunk_ref": "TMM/Part30/3/3/4",
+      "content_hash": "sha256:2c8214ea19293f370ba4ab1e0a1844f6565169d1f87468324a10acd209315c24",
+      "fragment": null,
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.4 Copyright Act 1968; Competition and Consumer Act 2010"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [],
+      "tables": [],
+      "text": "Following the decision in Advantage Rent-a-Car Inc v Advantage Car Rental Pty Ltd [2001] FCA 683 (‘Advantage Rent-a-Car’) it became clear that the Registrar was obliged in certain circumstances to give consideration to legislation such as the Copyright Act 1968 (Cth) and the Trade Practices Act 1974 (Cth) (now the Competition and Consumer Act 2010 (Cth)). Consideration of these types of issues is unlikely to occur in the examination stages, but may become relevant during opposition proceedings. However, if an examiner is provided with definite information indicating that a particular trade mark would be contrary to any relevant legislation, a ground for rejection must be raised."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Prime Minister and Cabinet website of the Honours, Symbols and Legal Policy Branch states that the Australian Aboriginal Flag and Torres Strait Islander Flag are protected by copyright."
@@ -157,36 +183,33 @@
           "text": "Note: Grounds for rejection may also arise under section 39 in relation to the Aboriginal and Torres Strait Islander flags – see Part 31 Prescribed and Prohibited Signs for more information."
         }
       ],
-      "cases": [
-        {
-          "citation": "[2001] FCA 683",
-          "id": "CASE/2001/FCA/683"
-        }
-      ],
-      "chunk_ref": "TMM/Part30/3/3/4",
-      "content_hash": "sha256:31163b4f57c59cfffb6d593463bb8209c071bc68a9e89ad14efce1d7e79efd81",
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/4/1",
+      "content_hash": "sha256:c831fbcd5388f4dd0385d48c76e12f3d0e825bda41e047d87ad3cbe4e2c6ea84",
       "fragment": null,
       "heading_path": [
         "Part 30 Signs that are Scandalous and Use Contrary to Law",
         "30.3. Use contrary to law",
-        "3.4 Copyright Act 1968; Competition and Consumer Act 2010"
+        "3.4 Copyright Act 1968; Competition and Consumer Act 2010",
+        "3.4.1 Aboriginal and Torres Strait Islander flags"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part31/4"
       ],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 6,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s39",
           "mention": "section 39"
         }
       ],
       "tables": [],
-      "text": "Following the decision in Advantage Rent-a-Car Inc v Advantage Car Rental Pty Ltd [2001] FCA 683 (‘Advantage Rent-a-Car’) it became clear that the Registrar was obliged in certain circumstances to give consideration to legislation such as the Copyright Act 1968 (Cth) and the Trade Practices Act 1974 (Cth) (now the Competition and Consumer Act 2010 (Cth)). Consideration of these types of issues is unlikely to occur in the examination stages, but may become relevant during opposition proceedings. However, if an examiner is provided with definite information indicating that a particular trade mark would be contrary to any relevant legislation, a ground for rejection must be raised. 3.4.1 Aboriginal and Torres Strait Islander flags The Prime Minister and Cabinet website of the Honours, Symbols and Legal Policy Branch states that the Australian Aboriginal Flag and Torres Strait Islander Flag are protected by copyright. The Commonwealth owns the copyright in the Aboriginal flag, and allows the design to be freely reproduced by the public except on flags and pennants, banners and buntings. Carroll & Richardson-Flagworld Pty Ltd is the exclusive licensed manufacturer and provider of the Aboriginal Flag on flags and pennants, banners and buntings, and permission to use the Aboriginal Flag in trade marks claiming those goods will need to be sought from them (see the Prime Minister and Cabinet website for contact information). Permission is required from the copyright holder to use the Torres Strait Islander flag in any trade marks claiming any goods or services. Permission can be sought from the Torres Strait Island Regional Council (see the Prime Minister and Cabinet website for contact information). Examiners should consult the IK SME group in relation to any applications which contain the Aboriginal or Torres Strait Islander flags or similar images. Note: Grounds for rejection may also arise under section 39 in relation to the Aboriginal and Torres Strait Islander flags – see Part 31 Prescribed and Prohibited Signs for more information."
+      "text": "The Prime Minister and Cabinet website of the Honours, Symbols and Legal Policy Branch states that the Australian Aboriginal Flag and Torres Strait Islander Flag are protected by copyright. The Commonwealth owns the copyright in the Aboriginal flag, and allows the design to be freely reproduced by the public except on flags and pennants, banners and buntings. Carroll & Richardson-Flagworld Pty Ltd is the exclusive licensed manufacturer and provider of the Aboriginal Flag on flags and pennants, banners and buntings, and permission to use the Aboriginal Flag in trade marks claiming those goods will need to be sought from them (see the Prime Minister and Cabinet website for contact information). Permission is required from the copyright holder to use the Torres Strait Islander flag in any trade marks claiming any goods or services. Permission can be sought from the Torres Strait Island Regional Council (see the Prime Minister and Cabinet website for contact information). Examiners should consult the IK SME group in relation to any applications which contain the Aboriginal or Torres Strait Islander flags or similar images. Note: Grounds for rejection may also arise under section 39 in relation to the Aboriginal and Torres Strait Islander flags – see Part 31 Prescribed and Prohibited Signs for more information."
     },
     {
       "blocks": [
@@ -226,20 +249,40 @@
           "text": "(a) the emblem of a red cross with vertical and horizontal arms of the same length on, and completely surrounded by, a white ground, or the designation \"Red Cross\" or \"Geneva Cross\";"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/21892-image.png"
+        },
+        {
           "kind": "paragraph",
           "text": "(b) the emblem of a red crescent moon on, and completely surrounded by, a white ground, or the designation \"Red Crescent\"."
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/9534-image.png"
         },
         {
           "kind": "paragraph",
           "text": "(c) the following emblem in red on, and completely surrounded by, a white ground, that is to say, a lion passing from right to left of, and with its face turned towards, the observer, holding erect in its raised right forepaw a scimitar, with, appearing above the lion's back, the upper half of the sun shooting forth rays, or the designation \"Red Lion and Sun\";"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/82862-image.png"
+        },
+        {
           "kind": "paragraph",
           "text": "(ca) the emblem of a red frame in the shape of a square on edge on a white ground, or the designation “Red Crystal”;"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/41499-image.png"
+        },
+        {
           "kind": "paragraph",
           "text": "(d) the emblem of a white or silver cross with vertical and horizontal arms of the same length on, and completely surrounded by, a red ground, being the heraldic emblem of the Swiss Confederation\";"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/red_cross_-_swiss.png"
         },
         {
           "kind": "paragraph",
@@ -258,7 +301,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~1",
       "content_hash": "sha256:ba0d617b10e3df75ac3878e9018895d93fa2a5cf1aa28a3708ced84e068d5d4f",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 1
       },
       "heading_path": [
@@ -266,6 +309,7 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part29/1",
         "TMM/Part30/x-annex-a1---examples-of-legislation-which-may-trigger-the-provisions-of-section-42b",
@@ -273,7 +317,7 @@
         "TMM/Part32B/1"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 7,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -331,7 +375,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~2",
       "content_hash": "sha256:3c5bfaf84c38a6e865819effe3630fd00685aa8ab93e46baf7a2578c8507f916",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 2
       },
       "heading_path": [
@@ -339,9 +383,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 8,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -423,7 +468,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~3",
       "content_hash": "sha256:2725de904ef0b1349e6fe8ca9eaf271a33953b10406595d4c68ce3b7509fe509",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 3
       },
       "heading_path": [
@@ -431,9 +476,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 8,
+      "ordinal": 9,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -501,7 +547,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~4",
       "content_hash": "sha256:5c634b1cd3292b88b3e5bc068433da46fdd37b84ba4cb5b28690bdfaafab7ba3",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 4
       },
       "heading_path": [
@@ -509,9 +555,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 9,
+      "ordinal": 10,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -573,7 +620,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~5",
       "content_hash": "sha256:44f96f2f2fe033cc2a28bd90f294785fdb9b8ae593e7858596a5217d89500c93",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 5
       },
       "heading_path": [
@@ -581,9 +628,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 10,
+      "ordinal": 11,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -726,7 +774,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~6",
       "content_hash": "sha256:9ee8fcfcad283895acfde2c5fb66d0c584c8065feb39df9fbe64810d65d17a85",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 6
       },
       "heading_path": [
@@ -734,15 +782,16 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part30/x-relevant-legislation41",
         "TMM/Part31/4",
         "TMM/Part31/4/4/4",
         "TMM/Part31/x-relevant-legislation42",
-        "TMM/Part60/4/7/4/7/10~1"
+        "TMM/Part60/4/7/4/7/10"
       ],
       "kind": "body",
-      "ordinal": 11,
+      "ordinal": 12,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -833,7 +882,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~7",
       "content_hash": "sha256:f428b3c9dc9ec7274542fee37e9d8042b9b8ed7055d71ea528d397051d0f1f5d",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 7
       },
       "heading_path": [
@@ -841,9 +890,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 12,
+      "ordinal": 13,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -932,7 +982,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~8",
       "content_hash": "sha256:11610a5b4a01100822f7e7e97e5a6942dbe106d4f6feeb7b18bea3dce0387957",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 8
       },
       "heading_path": [
@@ -940,9 +990,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 13,
+      "ordinal": 14,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -1023,7 +1074,7 @@
       "chunk_ref": "TMM/Part30/3/3/5~9",
       "content_hash": "sha256:3a5aa45dc281b2d33ca1d7a27fcd7e414a12ce33cbc524cb3ec13dff0fae48ea",
       "fragment": {
-        "count": 14,
+        "count": 10,
         "index": 9
       },
       "heading_path": [
@@ -1031,9 +1082,10 @@
         "30.3. Use contrary to law",
         "3.5 Legislation with particular implications for examination of trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 14,
+      "ordinal": 15,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -1059,11 +1111,50 @@
         {
           "kind": "paragraph",
           "text": "Use of the protected words or images will not be contrary to law if the trade mark applicant is an event body for the relevant major sporting event or the trade mark applicant has written authorisation from the event body (or a person authorised on behalf of the event body) to use the protected word or image. Annex A4 contains a list of event bodies (Major Sporting Events Act section 16)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/5~10",
+      "content_hash": "sha256:6412e8632c2afaaed9665fc77c7bb33fe468a36c392f750d7fd3237f7541001c",
+      "fragment": {
+        "count": 10,
+        "index": 10
+      },
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.5 Legislation with particular implications for examination of trade marks"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 16,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s16",
+          "mention": "section 16"
         },
         {
-          "kind": "paragraph",
-          "text": "3.5.5 Protection of word 'ANZAC' Regulations"
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s16(6)",
+          "mention": "section 16(6)"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s9",
+          "mention": "section 9"
+        }
+      ],
+      "tables": [],
+      "text": "The words protected in relation to the sporting event are set out in Schedule 1 of the Major Sporting Events Act. Annex A4 of this Part of the Manual contains a list of the protected words. The protection extends to words that so closely resemble the protected words that a reasonable person is likely to mistake them for the protected words (Major Sporting Events Act section 16(6)). The images protected in relation to each sporting event are any visual or aural representation that in the circumstances would suggest to a reasonable person a connection with the event (Major Sporting Events Act section 9). Use of the protected words or images will not be contrary to law if the trade mark applicant is an event body for the relevant major sporting event or the trade mark applicant has written authorisation from the event body (or a person authorised on behalf of the event body) to use the protected word or image. Annex A4 contains a list of event bodies (Major Sporting Events Act section 16)."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Protection of Word 'Anzac' Act 1920 (Cth) and Protection of Word ‘Anzac’ Regulations relate to use of the word ANZAC. They are quite specific in banning the use of the word ANZAC in trade marks of any kind, unless the applicant can demonstrate Ministerial consent to use of the word. The Regulations, defines prohibition of use in trade of the word ANZAC as follows:"
@@ -1087,55 +1178,7 @@
         {
           "kind": "paragraph",
           "text": "(a) refuse to register as a trade mark any word the assumption or use of which in connexion with any trade, business, calling or profession is prohibited under subregulation (1) of this regulation; and"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part30/3/3/5~10",
-      "content_hash": "sha256:754a7e05496fab651f4cfdd274ca38a48e9e61212093e1183c159d66abafb364",
-      "fragment": {
-        "count": 14,
-        "index": 10
-      },
-      "heading_path": [
-        "Part 30 Signs that are Scandalous and Use Contrary to Law",
-        "30.3. Use contrary to law",
-        "3.5 Legislation with particular implications for examination of trade marks"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 15,
-      "page_ref": "TMM/Part30/3",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s16",
-          "mention": "section 16"
         },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s16(6)",
-          "mention": "section 16(6)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s9",
-          "mention": "section 9"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2(3)",
-          "mention": "subregulation 2(3)"
-        }
-      ],
-      "tables": [],
-      "text": "The words protected in relation to the sporting event are set out in Schedule 1 of the Major Sporting Events Act. Annex A4 of this Part of the Manual contains a list of the protected words. The protection extends to words that so closely resemble the protected words that a reasonable person is likely to mistake them for the protected words (Major Sporting Events Act section 16(6)). The images protected in relation to each sporting event are any visual or aural representation that in the circumstances would suggest to a reasonable person a connection with the event (Major Sporting Events Act section 9). Use of the protected words or images will not be contrary to law if the trade mark applicant is an event body for the relevant major sporting event or the trade mark applicant has written authorisation from the event body (or a person authorised on behalf of the event body) to use the protected word or image. Annex A4 contains a list of event bodies (Major Sporting Events Act section 16). 3.5.5 Protection of word 'ANZAC' Regulations The Protection of Word 'Anzac' Act 1920 (Cth) and Protection of Word ‘Anzac’ Regulations relate to use of the word ANZAC. They are quite specific in banning the use of the word ANZAC in trade marks of any kind, unless the applicant can demonstrate Ministerial consent to use of the word. The Regulations, defines prohibition of use in trade of the word ANZAC as follows: 2 Prohibition of use in the trade etc of word ‘Anzac’ (1) No person shall, without the authority of the Minister, proof whereof shall lie upon the person accused, assume or use the word ‘Anzac’ or any word resembling the word ‘Anzac’ in connexion with any trade, business, calling or profession or in connexion with any entertainment or any lottery or art union or as the name or part of the name of any private residence, boat, vehicle or charitable or other institution, or any building in connexion therewith. The Regulations, at subregulation 2(3), specify particular actions of the Registrar of Trade marks as follows: (3) The Registrar of Trade Marks shall: (a) refuse to register as a trade mark any word the assumption or use of which in connexion with any trade, business, calling or profession is prohibited under subregulation (1) of this regulation; and"
-    },
-    {
-      "blocks": [
         {
           "kind": "paragraph",
           "text": "(b) unless otherwise directed by the Minister, cancel any existing registration of any such word as a trade mark, and refuse to take any step or further step in connexion with any application for the use of any such word as a trade mark."
@@ -1163,7 +1206,63 @@
         {
           "kind": "paragraph",
           "text": "Section 83(7) defines “defence emblem” as an emblem of the Defence Force or an arm of the Defence Force and \"emblem\" includes a badge, a regimental or other similar distinctive trade mark, an armlet or accoutrements."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/5/5~1",
+      "content_hash": "sha256:9100e3e74a461dfe30b3ea55590d9bfb40c46275ebf4392b5b84dc6ae31c35c0",
+      "fragment": {
+        "count": 4,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.5 Legislation with particular implications for examination of trade marks",
+        "3.5.5 Protection of word 'ANZAC' Regulations"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 17,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s42(b)",
+          "mention": "section 42(b)"
         },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s83",
+          "mention": "Section 83"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s83(1)",
+          "mention": "section 83(1)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s83(7)",
+          "mention": "Section 83(7)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2(3)",
+          "mention": "subregulation 2(3)"
+        }
+      ],
+      "tables": [],
+      "text": "The Protection of Word 'Anzac' Act 1920 (Cth) and Protection of Word ‘Anzac’ Regulations relate to use of the word ANZAC. They are quite specific in banning the use of the word ANZAC in trade marks of any kind, unless the applicant can demonstrate Ministerial consent to use of the word. The Regulations, defines prohibition of use in trade of the word ANZAC as follows: 2 Prohibition of use in the trade etc of word ‘Anzac’ (1) No person shall, without the authority of the Minister, proof whereof shall lie upon the person accused, assume or use the word ‘Anzac’ or any word resembling the word ‘Anzac’ in connexion with any trade, business, calling or profession or in connexion with any entertainment or any lottery or art union or as the name or part of the name of any private residence, boat, vehicle or charitable or other institution, or any building in connexion therewith. The Regulations, at subregulation 2(3), specify particular actions of the Registrar of Trade marks as follows: (3) The Registrar of Trade Marks shall: (a) refuse to register as a trade mark any word the assumption or use of which in connexion with any trade, business, calling or profession is prohibited under subregulation (1) of this regulation; and (b) unless otherwise directed by the Minister, cancel any existing registration of any such word as a trade mark, and refuse to take any step or further step in connexion with any application for the use of any such word as a trade mark. It is clear from this that use of the word ANZAC in any form in a trade mark is contrary to law, and grounds for rejection must be raised under section 42(b). 3.5.6 Defence Act 1903 Section 83 of the Defence Act 1903 (Cth) refers to unauthorised use, possession or supply of emblems or flags. Under section 83(1) \"a person who is not a member of the Defence Force is guilty of an offence if: (a) the person uses or wears a defence emblem or an emblem so nearly resembling a defence emblem as to be capable of being mistaken for such an emblem; and (b) the person does not have the written authority of the Minister, or of a person authorised in writing by the Minister to do so.\" Section 83(7) defines “defence emblem” as an emblem of the Defence Force or an arm of the Defence Force and \"emblem\" includes a badge, a regimental or other similar distinctive trade mark, an armlet or accoutrements."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "A number of emblems of the Australian Army, Royal Australian Air Force and Royal Australian Navy have been included on the Trade Marks database, and will be found as -9000000 signs during normal searching."
@@ -1183,66 +1282,7 @@
         {
           "kind": "paragraph",
           "text": "In relation to the letters, grounds for rejection will only be raised where the letters appear as a recognisably separate element, rather than contained within a word where they do not retain a separate identity. For example, the prohibited letters ARA would give rise to grounds for rejection when they appear in the trade mark ARA-X, but not when they appear in the trade mark MARAUDER CARAVANS."
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part30/3/3/5~11",
-      "content_hash": "sha256:18f4b3de367364d20922adcabf5562b0cd277fa960f4bbd7870daf1038fd9d26",
-      "fragment": {
-        "count": 14,
-        "index": 11
-      },
-      "heading_path": [
-        "Part 30 Signs that are Scandalous and Use Contrary to Law",
-        "30.3. Use contrary to law",
-        "3.5 Legislation with particular implications for examination of trade marks"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 16,
-      "page_ref": "TMM/Part30/3",
-      "provisions": [
-        {
-          "extraction": "href",
-          "id": "DR2016/r74",
-          "mention": "Defence Regulation 2016 (Cth)"
         },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s42(b)",
-          "mention": "section 42(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s83",
-          "mention": "Section 83"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s83(1)",
-          "mention": "section 83(1)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s83(7)",
-          "mention": "Section 83(7)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2016",
-          "mention": "Regulation 2016"
-        }
-      ],
-      "tables": [],
-      "text": "(b) unless otherwise directed by the Minister, cancel any existing registration of any such word as a trade mark, and refuse to take any step or further step in connexion with any application for the use of any such word as a trade mark. It is clear from this that use of the word ANZAC in any form in a trade mark is contrary to law, and grounds for rejection must be raised under section 42(b). 3.5.6 Defence Act 1903 Section 83 of the Defence Act 1903 (Cth) refers to unauthorised use, possession or supply of emblems or flags. Under section 83(1) \"a person who is not a member of the Defence Force is guilty of an offence if: (a) the person uses or wears a defence emblem or an emblem so nearly resembling a defence emblem as to be capable of being mistaken for such an emblem; and (b) the person does not have the written authority of the Minister, or of a person authorised in writing by the Minister to do so.\" Section 83(7) defines “defence emblem” as an emblem of the Defence Force or an arm of the Defence Force and \"emblem\" includes a badge, a regimental or other similar distinctive trade mark, an armlet or accoutrements. A number of emblems of the Australian Army, Royal Australian Air Force and Royal Australian Navy have been included on the Trade Marks database, and will be found as -9000000 signs during normal searching. Grounds for rejection should be raised under section 42(b) if one of these emblems, or something which could be taken as the emblem is included within the trade mark, and the applicant is not obviously entitled to use it. Written consent from the Minister will be required for the application to proceed. 3.5.7 Defence Regulation 2016, part 14 A trade mark containing or consisting of a term prohibited by the Defence Regulation 2016 (Cth) will attract grounds for rejection under section 42(b). In relation to the letters, grounds for rejection will only be raised where the letters appear as a recognisably separate element, rather than contained within a word where they do not retain a separate identity. For example, the prohibited letters ARA would give rise to grounds for rejection when they appear in the trade mark ARA-X, but not when they appear in the trade mark MARAUDER CARAVANS."
-    },
-    {
-      "blocks": [
         {
           "kind": "paragraph",
           "text": "Where a ground for rejection is raised, evidence of the Defence Minister's consent to the applicant's use of the term will be required before the trade mark can be accepted for registration."
@@ -1272,7 +1312,64 @@
           "depth": 1,
           "kind": "list_item",
           "text": "For subregulation (1): captured image includes an image that was not captured for a commercial purpose or in contravention of the Act or these Regulations."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/5/5~2",
+      "content_hash": "sha256:bbdf560d27b33eb382d4f810760da1ac3479bec42e8cb583d9fd7330f7045a2b",
+      "fragment": {
+        "count": 4,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.5 Legislation with particular implications for examination of trade marks",
+        "3.5.5 Protection of word 'ANZAC' Regulations"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part30/x-annex-a3---defence-force-prohibited-terms-and-emblems"
+      ],
+      "kind": "body",
+      "ordinal": 18,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "DR2016/r74",
+          "mention": "Defence Regulation 2016 (Cth)"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s42(b)",
+          "mention": "section 42(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r12.38",
+          "mention": "Regulation 12.38"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2016",
+          "mention": "Regulation 2016"
+        }
+      ],
+      "tables": [],
+      "text": "A number of emblems of the Australian Army, Royal Australian Air Force and Royal Australian Navy have been included on the Trade Marks database, and will be found as -9000000 signs during normal searching. Grounds for rejection should be raised under section 42(b) if one of these emblems, or something which could be taken as the emblem is included within the trade mark, and the applicant is not obviously entitled to use it. Written consent from the Minister will be required for the application to proceed. 3.5.7 Defence Regulation 2016, part 14 A trade mark containing or consisting of a term prohibited by the Defence Regulation 2016 (Cth) will attract grounds for rejection under section 42(b). In relation to the letters, grounds for rejection will only be raised where the letters appear as a recognisably separate element, rather than contained within a word where they do not retain a separate identity. For example, the prohibited letters ARA would give rise to grounds for rejection when they appear in the trade mark ARA-X, but not when they appear in the trade mark MARAUDER CARAVANS. Where a ground for rejection is raised, evidence of the Defence Minister's consent to the applicant's use of the term will be required before the trade mark can be accepted for registration. Annex A3 contains a list of prohibited terms relevant to the Defence Regulations, as well as some of the emblems. Note: It is only the use of the terms themselves that is prohibited, and not the use of terms that would be substantially identical or deceptively similar. For example, use of AUS DEFFENCE FORSE would not give rise to a section 42(b) objection based on the Regulation. Examiners should consider grounds for rejection under section 43 where use of similar words or letters would be likely to deceive or cause confusion due to indicating a connection with the Australian Defence Force. 3.5.8 Environment Protection and Biodiversity Conservation Act 1999 Regulation 12.38 of the Environment Protection and Biodiversity Conservation Regulations 2000 (Cth) (supporting the above Act) reads as follows: A person must not use a captured image of a Commonwealth reserve to derive commercial gain. For subregulation (1): captured image includes an image that was not captured for a commercial purpose or in contravention of the Act or these Regulations."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "‘Capture’ is defined in the regulations as recording the image by artistic representation, or on film, videotape or electronic medium. A ground for rejection will therefore need to be raised in relation to any application that contains photographic images of well-known Commonwealth reserves or features within those reserves e.g. Uluru, or Kata Tjuta."
@@ -1292,57 +1389,7 @@
         {
           "kind": "paragraph",
           "text": "3.5.9 Tobacco Plain Packaging Act 2011 (TPP Act)"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part30/3/3/5~12",
-      "content_hash": "sha256:ebfbb8245257dc7c6b596aca5340b9bb5d58647e4652937b8310140691b10ace",
-      "fragment": {
-        "count": 14,
-        "index": 12
-      },
-      "heading_path": [
-        "Part 30 Signs that are Scandalous and Use Contrary to Law",
-        "30.3. Use contrary to law",
-        "3.5 Legislation with particular implications for examination of trade marks"
-      ],
-      "internal_refs": [
-        "TMM/Part30/x-annex-a3---defence-force-prohibited-terms-and-emblems"
-      ],
-      "kind": "body",
-      "ordinal": 17,
-      "page_ref": "TMM/Part30/3",
-      "provisions": [
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s42(b)",
-          "mention": "section 42(b)"
         },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s43",
-          "mention": "section 43"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r12.2",
-          "mention": "reg 12.2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r12.38",
-          "mention": "Regulation 12.38"
-        }
-      ],
-      "tables": [],
-      "text": "Where a ground for rejection is raised, evidence of the Defence Minister's consent to the applicant's use of the term will be required before the trade mark can be accepted for registration. Annex A3 contains a list of prohibited terms relevant to the Defence Regulations, as well as some of the emblems. Note: It is only the use of the terms themselves that is prohibited, and not the use of terms that would be substantially identical or deceptively similar. For example, use of AUS DEFFENCE FORSE would not give rise to a section 42(b) objection based on the Regulation. Examiners should consider grounds for rejection under section 43 where use of similar words or letters would be likely to deceive or cause confusion due to indicating a connection with the Australian Defence Force. 3.5.8 Environment Protection and Biodiversity Conservation Act 1999 Regulation 12.38 of the Environment Protection and Biodiversity Conservation Regulations 2000 (Cth) (supporting the above Act) reads as follows: A person must not use a captured image of a Commonwealth reserve to derive commercial gain. For subregulation (1): captured image includes an image that was not captured for a commercial purpose or in contravention of the Act or these Regulations. ‘Capture’ is defined in the regulations as recording the image by artistic representation, or on film, videotape or electronic medium. A ground for rejection will therefore need to be raised in relation to any application that contains photographic images of well-known Commonwealth reserves or features within those reserves e.g. Uluru, or Kata Tjuta. Grounds for rejection will also need to be considered in relation to drawings or paintings of these images. Where a ground for rejection is raised on the basis of prohibited use under reg 12.38, the applicant may be able to overcome the ground for rejection if it satisfies one of the circumstances listed under reg 12.2. These circumstances include appropriate authorisation through a permit or specific use in accordance with a management plan. Information regarding prohibited activities, permit fees and conditions is available in the Australian Government, Director of National Parks for Uluru-Kata Tjuta National Park Guidelines for commercial image capture, use and commercial sound recording, including contact details for further information. 3.5.9 Tobacco Plain Packaging Act 2011 (TPP Act)"
-    },
-    {
-      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Tobacco Plain Packaging Act 2011 (Cth) restricts the way trade marks are used in relation to tobacco products. However, section 28(2) of the TPP Act states that use of a trade mark in relation to tobacco products is NOT contrary to law for the purposes of section 42(b) of the Trade Marks Act 1995."
@@ -1354,7 +1401,57 @@
         {
           "kind": "paragraph",
           "text": "The Country of Origin Food Labelling Information Standard 2016 (Information Standard) protects the use of the Australian Made Australian Grown (AMAG) logo and bar chart from 1 July 2016, applied as labelling on food and/or drink sold in Australia."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/5/5~3",
+      "content_hash": "sha256:ed18a29ee2a865fee4099970e543b456f001b8de018dbe8c4f159d63093f9efc",
+      "fragment": {
+        "count": 4,
+        "index": 3
+      },
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.5 Legislation with particular implications for examination of trade marks",
+        "3.5.5 Protection of word 'ANZAC' Regulations"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 19,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s28(2)",
+          "mention": "section 28(2)"
         },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s42(b)",
+          "mention": "section 42(b) of the Trade Marks Act 1995"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r12.2",
+          "mention": "reg 12.2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r12.38",
+          "mention": "reg 12.38"
+        }
+      ],
+      "tables": [],
+      "text": "‘Capture’ is defined in the regulations as recording the image by artistic representation, or on film, videotape or electronic medium. A ground for rejection will therefore need to be raised in relation to any application that contains photographic images of well-known Commonwealth reserves or features within those reserves e.g. Uluru, or Kata Tjuta. Grounds for rejection will also need to be considered in relation to drawings or paintings of these images. Where a ground for rejection is raised on the basis of prohibited use under reg 12.38, the applicant may be able to overcome the ground for rejection if it satisfies one of the circumstances listed under reg 12.2. These circumstances include appropriate authorisation through a permit or specific use in accordance with a management plan. Information regarding prohibited activities, permit fees and conditions is available in the Australian Government, Director of National Parks for Uluru-Kata Tjuta National Park Guidelines for commercial image capture, use and commercial sound recording, including contact details for further information. 3.5.9 Tobacco Plain Packaging Act 2011 (TPP Act) The Tobacco Plain Packaging Act 2011 (Cth) restricts the way trade marks are used in relation to tobacco products. However, section 28(2) of the TPP Act states that use of a trade mark in relation to tobacco products is NOT contrary to law for the purposes of section 42(b) of the Trade Marks Act 1995. 3.5.10 Country of Origin Food Labelling Information Standard 2016 The Country of Origin Food Labelling Information Standard 2016 (Information Standard) protects the use of the Australian Made Australian Grown (AMAG) logo and bar chart from 1 July 2016, applied as labelling on food and/or drink sold in Australia."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Under the Information Standard, the AMAG logo represents food and/or drink which is of Australian origin (i.e. meets the definition to claim grown, produced or made in Australia). The bar chart indicates the proportion (by ingoing weight) of Australian ingredients within a food and/or drink product, regardless of the country of origin of the food product. Under the Information Standard, these graphics are embedded within standard marks which are required to be applied to the labels of ‘priority foods’. These marks can also be voluntarily applied to the labels of ‘non-priority foods’, but if used, the AMAG logo and/or bar chart must be applied in accordance with marks outlined in the Information Standard."
@@ -1364,79 +1461,21 @@
           "text": "Section 29(1) of the Information Standard indicates that a person must not use the AMAG logo or bar chart in relation to food sold in Australia unless it is permitted. Section 10 provides a representation of the AMAG logo and the appropriate bar chart. See below examples:"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/australian_made.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Bar chart examples:"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/bar_chart_example.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Trade marks that contain the AMAG logo and/or bar chart, or contain material that closely resembles the AMAG logo and/or bar chart may attract grounds for rejection under sections 42, 43 and/or 44. Whilst the Information Standard references food that includes this labelling, the AMAG logo is also a registered certification trade mark, claiming all goods in classes 1 – 34 and a ground for rejection under section 44 should be considered. Section 43 should be considered if use of the AMAG image(s) would lead the consumer to be deceived or confused as to the origin of the products they are purchasing."
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part30/3/3/5~13",
-      "content_hash": "sha256:cee3f5d1fae723af27ff02d6e35034ee8545992bddbdbd50a3208cbe8f7c3451",
-      "fragment": {
-        "count": 14,
-        "index": 13
-      },
-      "heading_path": [
-        "Part 30 Signs that are Scandalous and Use Contrary to Law",
-        "30.3. Use contrary to law",
-        "3.5 Legislation with particular implications for examination of trade marks"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 18,
-      "page_ref": "TMM/Part30/3",
-      "provisions": [
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s10",
-          "mention": "Section 10"
         },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s28(2)",
-          "mention": "section 28(2)"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s29(1)",
-          "mention": "Section 29(1)"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s42",
-          "mention": "sections 42, 43"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMA1995/s42(b)",
-          "mention": "section 42(b) of the Trade Marks Act 1995"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s43",
-          "mention": "sections 42, 43"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s44",
-          "mention": "section 44"
-        }
-      ],
-      "tables": [],
-      "text": "The Tobacco Plain Packaging Act 2011 (Cth) restricts the way trade marks are used in relation to tobacco products. However, section 28(2) of the TPP Act states that use of a trade mark in relation to tobacco products is NOT contrary to law for the purposes of section 42(b) of the Trade Marks Act 1995. 3.5.10 Country of Origin Food Labelling Information Standard 2016 The Country of Origin Food Labelling Information Standard 2016 (Information Standard) protects the use of the Australian Made Australian Grown (AMAG) logo and bar chart from 1 July 2016, applied as labelling on food and/or drink sold in Australia. Under the Information Standard, the AMAG logo represents food and/or drink which is of Australian origin (i.e. meets the definition to claim grown, produced or made in Australia). The bar chart indicates the proportion (by ingoing weight) of Australian ingredients within a food and/or drink product, regardless of the country of origin of the food product. Under the Information Standard, these graphics are embedded within standard marks which are required to be applied to the labels of ‘priority foods’. These marks can also be voluntarily applied to the labels of ‘non-priority foods’, but if used, the AMAG logo and/or bar chart must be applied in accordance with marks outlined in the Information Standard. Section 29(1) of the Information Standard indicates that a person must not use the AMAG logo or bar chart in relation to food sold in Australia unless it is permitted. Section 10 provides a representation of the AMAG logo and the appropriate bar chart. See below examples: Bar chart examples: Trade marks that contain the AMAG logo and/or bar chart, or contain material that closely resembles the AMAG logo and/or bar chart may attract grounds for rejection under sections 42, 43 and/or 44. Whilst the Information Standard references food that includes this labelling, the AMAG logo is also a registered certification trade mark, claiming all goods in classes 1 – 34 and a ground for rejection under section 44 should be considered. Section 43 should be considered if use of the AMAG image(s) would lead the consumer to be deceived or confused as to the origin of the products they are purchasing."
-    },
-    {
-      "blocks": [
         {
           "kind": "paragraph",
           "text": "A contrary to law ground for rejection should be considered where a trade mark consists of this labelling (or material that closely resembles this labelling), and the application claims goods in classes 29, 30, 31, 32 and/or 33, and/or specific food and drink related services in classes 35 and/or 43."
@@ -1444,11 +1483,63 @@
         {
           "kind": "paragraph",
           "text": "If a ground for rejection has been raised under section 42, the applicant has the option to seek permission to use the AMAG logo and/or bar chart. This permission is supplied by the Department of Industry, Innovation and Science. Their contact details should be supplied to the applicant as part of the 1st report."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part30/3/3/5/5~4",
+      "content_hash": "sha256:46b96eec47bec6f775dc8120ec1250959a958926f0f9b356f001451dfc682eb2",
+      "fragment": {
+        "count": 4,
+        "index": 4
+      },
+      "heading_path": [
+        "Part 30 Signs that are Scandalous and Use Contrary to Law",
+        "30.3. Use contrary to law",
+        "3.5 Legislation with particular implications for examination of trade marks",
+        "3.5.5 Protection of word 'ANZAC' Regulations"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 20,
+      "page_ref": "TMM/Part30/3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "Section 10"
         },
         {
-          "kind": "paragraph",
-          "text": "3.5.11 Australian Currency"
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)",
+          "mention": "Section 29(1)"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s42",
+          "mention": "sections 42, 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "sections 42, 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "section 44"
+        }
+      ],
+      "tables": [],
+      "text": "Under the Information Standard, the AMAG logo represents food and/or drink which is of Australian origin (i.e. meets the definition to claim grown, produced or made in Australia). The bar chart indicates the proportion (by ingoing weight) of Australian ingredients within a food and/or drink product, regardless of the country of origin of the food product. Under the Information Standard, these graphics are embedded within standard marks which are required to be applied to the labels of ‘priority foods’. These marks can also be voluntarily applied to the labels of ‘non-priority foods’, but if used, the AMAG logo and/or bar chart must be applied in accordance with marks outlined in the Information Standard. Section 29(1) of the Information Standard indicates that a person must not use the AMAG logo or bar chart in relation to food sold in Australia unless it is permitted. Section 10 provides a representation of the AMAG logo and the appropriate bar chart. See below examples: Bar chart examples: Trade marks that contain the AMAG logo and/or bar chart, or contain material that closely resembles the AMAG logo and/or bar chart may attract grounds for rejection under sections 42, 43 and/or 44. Whilst the Information Standard references food that includes this labelling, the AMAG logo is also a registered certification trade mark, claiming all goods in classes 1 – 34 and a ground for rejection under section 44 should be considered. Section 43 should be considered if use of the AMAG image(s) would lead the consumer to be deceived or confused as to the origin of the products they are purchasing. A contrary to law ground for rejection should be considered where a trade mark consists of this labelling (or material that closely resembles this labelling), and the application claims goods in classes 29, 30, 31, 32 and/or 33, and/or specific food and drink related services in classes 35 and/or 43. If a ground for rejection has been raised under section 42, the applicant has the option to seek permission to use the AMAG logo and/or bar chart. This permission is supplied by the Department of Industry, Innovation and Science. Their contact details should be supplied to the applicant as part of the 1st report."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "A trade mark resembling or containing imagery of Australian currency may trigger a section 42(b) ground for rejection under the Copyright Act 1968 (Cth) and/or the Crimes (Currency) Act 1981 (Cth)."
@@ -1467,20 +1558,19 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part30/3/3/5~14",
-      "content_hash": "sha256:393f1c969a82d0f20577e154e408aa39a64ff4867b6a5acc9cdc317f52cd1204",
-      "fragment": {
-        "count": 14,
-        "index": 14
-      },
+      "chunk_ref": "TMM/Part30/3/3/5/11",
+      "content_hash": "sha256:c0d5867ebcfba09f6cc25834f6b988d79d5080d9324eb3d0271789edd22f9f5a",
+      "fragment": null,
       "heading_path": [
         "Part 30 Signs that are Scandalous and Use Contrary to Law",
         "30.3. Use contrary to law",
-        "3.5 Legislation with particular implications for examination of trade marks"
+        "3.5 Legislation with particular implications for examination of trade marks",
+        "3.5.11 Australian Currency"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 19,
+      "ordinal": 21,
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
@@ -1498,12 +1588,6 @@
         {
           "certainty": "ambiguous",
           "extraction": "regex",
-          "id": "TMA1995/s42",
-          "mention": "section 42"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
           "id": "TMA1995/s42(b)",
           "mention": "section 42(b)"
         },
@@ -1515,16 +1599,16 @@
         }
       ],
       "tables": [],
-      "text": "A contrary to law ground for rejection should be considered where a trade mark consists of this labelling (or material that closely resembles this labelling), and the application claims goods in classes 29, 30, 31, 32 and/or 33, and/or specific food and drink related services in classes 35 and/or 43. If a ground for rejection has been raised under section 42, the applicant has the option to seek permission to use the AMAG logo and/or bar chart. This permission is supplied by the Department of Industry, Innovation and Science. Their contact details should be supplied to the applicant as part of the 1st report. 3.5.11 Australian Currency A trade mark resembling or containing imagery of Australian currency may trigger a section 42(b) ground for rejection under the Copyright Act 1968 (Cth) and/or the Crimes (Currency) Act 1981 (Cth). The website of the Royal Australian Mint under the Treasury portfolio states that the Commonwealth owns copyright in the designs and images used on Australian currency coins created after 1 May 1969. Permission to use and reproduce its coin designs can be sought through their website. However, approval generally will not be granted on articles to be commercially reproduced. Similarly, the Reserve Bank of Australia holds copyright in relation to Australian banknotes and has issued guidance on acceptable use of its imagery. Included in the conditions are requirements that the reproductions must not be capable of misleading people to believe they are genuine banknotes and must not be changed or distorted in an inappropriate or derogatory manner or used in an inappropriate or offensive context. The Reserve Bank of Australia does not grant approval for specific reproductions or images and reserves the right to object to any use considered in contravention of its guidelines on acceptable use. It is an offence under the Crimes (Currency) Act 1981 section 6 to make any article that resembles Australian currency including both coins and paper money. Under section 19, it is an offence to design, make, print or distribute material that so resembles current paper money as to be capable of misleading a person to believe that it is current paper money. However, consent may be sought under section 19(2) for the use of such material."
+      "text": "A trade mark resembling or containing imagery of Australian currency may trigger a section 42(b) ground for rejection under the Copyright Act 1968 (Cth) and/or the Crimes (Currency) Act 1981 (Cth). The website of the Royal Australian Mint under the Treasury portfolio states that the Commonwealth owns copyright in the designs and images used on Australian currency coins created after 1 May 1969. Permission to use and reproduce its coin designs can be sought through their website. However, approval generally will not be granted on articles to be commercially reproduced. Similarly, the Reserve Bank of Australia holds copyright in relation to Australian banknotes and has issued guidance on acceptable use of its imagery. Included in the conditions are requirements that the reproductions must not be capable of misleading people to believe they are genuine banknotes and must not be changed or distorted in an inappropriate or derogatory manner or used in an inappropriate or offensive context. The Reserve Bank of Australia does not grant approval for specific reproductions or images and reserves the right to object to any use considered in contravention of its guidelines on acceptable use. It is an offence under the Crimes (Currency) Act 1981 section 6 to make any article that resembles Australian currency including both coins and paper money. Under section 19, it is an offence to design, make, print or distribute material that so resembles current paper money as to be capable of misleading a person to believe that it is current paper money. However, consent may be sought under section 19(2) for the use of such material."
     }
   ],
   "page": {
     "amendment_note": "Updated content at 3.4.1 in relation to copyright in the Aboriginal and Torres Strait Islander flags.",
     "archived": false,
     "content_hash": "sha256:eea9d48547b05d1e161442ac7d3f3a30e359a489d9f894dba4420ccc2d8dc38c",
-    "crawled_at": "2026-07-28T16:02:30Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2026-07-21",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "30.3. Use contrary to law",
     "images": [
       {

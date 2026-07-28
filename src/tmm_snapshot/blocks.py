@@ -37,7 +37,16 @@ from tmm_snapshot.page import flatten_text, normalise_text
 #: Walked through rather than recorded. The same set `chunker._units` walks,
 #: for the same reason: Drupal's `div.zone > div.section12 > div` scaffolding
 #: is layout, and a layout div is not a block a reader sees.
-_TRANSPARENT = frozenset({"div", "section", "article", "aside", "main"})
+#:
+#: `figure` is here and deliberately *not* in `chunker._CONTAINER_TAGS`, and the
+#: asymmetry is the point. The CMS wraps every table it writes in
+#: `<figure class="table canvasRteResponsiveTable">`. To the chunker that
+#: figure is one unit, which is what stops a table being split across a
+#: fragment boundary. To this module it is scaffolding: leaving it opaque made
+#: `flatten_text` swallow the whole grid into a single `text` block, so 106 of
+#: the corpus's 121 tables were recorded as run-on prose and only 18 as tables.
+#: See SOURCE_NOTES.md §23.
+_TRANSPARENT = frozenset({"div", "section", "article", "aside", "main", "figure"})
 
 #: Lists are containers of blocks, not blocks. The list item is the unit a
 #: reader sees, and the list is how deep it sits.
@@ -75,6 +84,30 @@ def _own_text(item: Tag) -> str:
     return flatten_text(holder)
 
 
+def _image(child: Tag) -> dict:
+    """An image, recorded where it sits and nowhere near the words.
+
+    The only block with no `text`, because an `<img>` contributes no words and
+    a block carrying `""` would put a stray space into the join that
+    reconstructs the chunk. Its absence is what the join skips over, so the
+    contract in `validate._block_failures` still holds exactly.
+
+    The bytes are not in the snapshot and the Manual writes no `alt`, so this
+    says *an image sat here* and no more. That is strictly more than the page
+    record can say: `PageRecord.images` establishes that a page has images,
+    and only this establishes where in the prose they fell. See
+    SOURCE_NOTES.md §24.
+    """
+    block: dict = {"kind": "image"}
+    src = child.get("src")
+    if isinstance(src, str) and src.strip():
+        block["src"] = src.strip()
+    alt = child.get("alt")
+    if isinstance(alt, str) and alt.strip():
+        block["alt"] = alt.strip()
+    return block
+
+
 def extract_blocks(fragment: Tag) -> list[dict]:
     """The blocks of one chunk, in document order.
 
@@ -94,6 +127,9 @@ def extract_blocks(fragment: Tag) -> list[dict]:
             if not isinstance(child, Tag):
                 continue
 
+            if child.name == "img":
+                found.append(_image(child))
+                continue
             if child.name in _LIST_TAGS:
                 visit(child, depth + 1)
                 continue

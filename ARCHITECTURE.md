@@ -236,18 +236,35 @@ class Chunk:
     internal_refs: list[str]
     tables: list[dict] = field(default_factory=list)   # added by the 0.3.0 review
     blocks: list[dict] = field(default_factory=list)   # added by the 0.5.0 review
+    heading_source: str | None = None                  # added by the 0.6.0 review
 
 def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
                sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
 ```
 
-`tables`, `blocks` and `PageRecord.images` are additions made after reviewing a
-complete crawl, and all three are defaulted, so every existing caller and every
-existing test still compiles against the original shape. What they are for is in
-`SOURCE_NOTES.md` §§16–19: the pipeline was dropping 121 tables' worth of
-structure and 169 images on the floor, eight pages whose entire content is an
-image were recording as indistinguishable from blank, and 18,735 paragraphs and
-list items were flattening into 2,151 undifferentiated strings.
+`tables`, `blocks`, `heading_source` and `PageRecord.images` are additions made
+after reviewing a complete crawl, and all four are defaulted, so every existing
+caller and every existing test still compiles against the original shape. What
+they are for is in `SOURCE_NOTES.md` §§16–19 and §§23–27: the pipeline was
+dropping 121 tables' worth of structure and 169 images on the floor, eight
+pages whose entire content is an image were recording as indistinguishable from
+blank, and 18,735 paragraphs and list items were flattening into 2,151
+undifferentiated strings.
+
+**`heading_source` is the one field recording an inference, and it is why the
+inference is allowed.** 456 of the Manual's numbered subsections are set as
+bold paragraphs rather than `<h2>`–`<h4>`, so cutting on markup alone left 39%
+of the corpus text with no heading at all. The chunker now promotes a bold
+paragraph whose number extends the page's own number, and marks every chunk cut
+that way `"emphasis"` rather than `"markup"`. A consumer that wants strictly
+what the Manual marked up filters on the field and loses nothing it was
+entitled to. `SOURCE_NOTES.md` §25 for the rule and the one case it declines.
+
+One consequence for anyone changing `chunker._sections`: heading ancestry is
+now keyed on an explicit **level**, not on the tag name, because an inferred
+heading has no tag name to read a depth from. For an `<h2>`–`<h4>` the level is
+still the digit in the tag, so a page with no inferred headings cuts exactly as
+before.
 
 The `sitemap` argument is an addition made by T5, not part of the original
 contract. `internal_refs` are resolved through the inventory and dropped when
@@ -301,6 +318,14 @@ Joining the blocks' text reproduces `chunk.text` exactly. That is asserted in
 `validate.py` over the whole snapshot and in `tests/test_blocks.py` over every
 saved page, and it is what stops `blocks` drifting into a second, differently
 worded copy of the chunk. `SOURCE_NOTES.md` §19.
+
+Two things about the walk, both found by the 0.6.0 review. `<figure>` is
+transparent here and **opaque** in `chunker._CONTAINER_TAGS`: the CMS wraps
+every table in one, so to the chunker the figure is a single unit that cannot
+be split across a fragment boundary, while to this module it is scaffolding
+hiding the grid. And an `image` block is the only block with no `text` — an
+`<img>` contributes no words, and a block carrying `""` would put a stray space
+into the join above. `SOURCE_NOTES.md` §§23–24.
 
 ### `writer.py`
 

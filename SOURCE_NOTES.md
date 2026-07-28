@@ -1100,3 +1100,205 @@ Two things to know when reading the result:
 
 32 references now address a chunk. It is a small number and it is the honest
 one: it is every anchor whose target this snapshot can actually confirm.
+
+---
+
+## 23. Every table the Manual writes is wrapped in a `<figure>`
+
+Found in the 0.6.0 review. The CMS's editor emits this:
+
+```html
+<figure class="table canvasRteResponsiveTable"><table class="ck-table-resized">
+  <colgroup>…</colgroup><tbody><tr><td>Argentina</td>…</tr></tbody>
+</table></figure>
+```
+
+106 of the corpus's 121 tables sit inside one. `figure` was in neither
+`blocks._TRANSPARENT` nor `blocks._KINDS`, so `extract_blocks` fell through to
+its catch-all and recorded the whole grid as a single `text` block: a 29-row
+table arrived as one run-on line. Only 18 of 121 tables produced a `table`
+block, and of the 104 chunks holding a table only 17 said so.
+
+`chunk.tables` was unaffected throughout — `tables.py` finds the `<table>`
+wherever it sits — so this was never a loss of the grid. It was a loss of
+*where the grid goes*: a consumer reading `blocks` to lay a chunk out had the
+table's words in the running order and the table's structure in a separate
+array, with nothing to join them by.
+
+`figure` is now transparent to `blocks.py` and still opaque to
+`chunker._CONTAINER_TAGS`, and the asymmetry is deliberate. To the chunker the
+figure is one unit, which is what stops a table being split across a fragment
+boundary. To the block reader it is scaffolding. All 121 tables now record as
+`table` blocks, and the count matches `chunk.tables` exactly.
+
+---
+
+## 24. An image has a place in the prose, and had nowhere to say so
+
+`PageRecord.images` (§16) records that a page has images. It cannot record
+*where* — and the Manual uses images inline, mid-argument, as the worked
+examples of Parts 13, 19A and 26.
+
+Two things were dropping them. `extract_blocks` recorded a block only when the
+element flattened to some text, and an `<img>` flattens to none. Before that,
+`chunker._group` measured every unit by its text length and discarded the
+empty ones, so a loose `<img>` never reached the fragment at all.
+
+Both now keep it, and an `image` block carries `src`, and `alt` where the
+Manual wrote one — which across all 169 images it never has. **It is the only
+block with no `text`.** That is not an oversight: `blocks` must join back to
+`chunk.text` exactly, and a block carrying `""` would put a stray space into
+the join. Its absence is what the join steps over, in `validate.py` and in
+`tests/test_blocks.py` alike.
+
+93 of the 169 images now have a position. The other 76 are in sections with no
+words at all — 8 pages *are* an image and nothing else (§16) — and a chunk
+needs text to exist, so those stay recorded at page level only. The image
+bytes are still not in the snapshot, and no alt text is invented for them.
+
+---
+
+## 25. The Manual sets most of its subsections in bold, not in headings
+
+The largest finding of the 0.6.0 review, and the only one that required
+reading something the markup does not declare.
+
+**456 numbered subsections across 88 pages are `<p><strong>3.1 …</strong></p>`
+rather than `<h2>`–`<h4>`.** The chunker cuts on headings and nothing else, so
+none of them was a boundary and none reached a `heading_path`. The effect was
+not marginal: 39% of the corpus text sat under an empty heading path, 311
+pages had no heading at all, and Part 10.3 — which prints 36 numbered
+subsections — arrived as nine addressless chunks. Part 47.1 printed 19 across
+27,599 characters.
+
+Typography alone cannot decide this. The corpus has **898 wholly bold
+paragraphs and only 471 are headings**; the rest are labels, callouts and
+emphasised sentences. What makes it decidable is that the Manual numbers its
+subsections against the page's own number, so the test is not "does this look
+like a heading" but "does this continue this page's numbering":
+
+1. the unit's entire content is one `<strong>` or `<b>` — a `<p>` wrapping
+   one, or a bare one loose in a layout div (Part 35.1 does that);
+2. it opens with a dotted number of at least two components, bounded by
+   whitespace, a colon or end of string; and
+3. that number extends **this page's** number by at least one component —
+   `3.1` and `3.1.1` on page 3, `2.4.1` on page 2.4.
+
+Rule 3 is the whole control, and it is nearly total: across the corpus it
+admits 471 candidates and rejects **exactly one** dotted bold paragraph —
+Part 60.4.25's `4.24.5 No Request for Transformation`, whose number belongs to
+a different page. That one stays in the prose, because a heading whose number
+contradicts its page is precisely what rule 3 of `CLAUDE.md` says not to
+resolve.
+
+Three further things worth knowing:
+
+- **The level comes from the number, not the typography.** `3.1` is two
+  components and sits where an `<h3>` sits; `3.1.1` where an `<h4>` does. A
+  paragraph letter is one level deeper again, which the corpus confirms:
+  Part 32A sets `2.1.2(a)` directly under a real `<h3>2.1.2</h3>`.
+- **A subsection number with no title is still a heading.** Part 33.1 prints
+  `1.1`, `1.2`, `1.3` and then `1.4 Definition of an association`. Twelve
+  candidates are a bare number, and they are the Manual's own addresses.
+- **Every chunk cut this way is marked `heading_source: "emphasis"`.** This is
+  the one inference in the pipeline, and that field is what keeps it honest.
+  A consumer wanting strictly the Manual's own structure filters to `markup`
+  and knows exactly what it gave up.
+
+491 chunks across 89 pages are now cut on an inferred heading. Text with no
+heading fell from 39% to 29%, and pages with no heading at all from 311 to 264.
+
+---
+
+## 26. A footnote marker is not a heading number
+
+Parts 49, 52 and 55 set their footnotes as an `<h4>`, with the marker in a
+`<sup>`:
+
+```html
+<h4><span class="fontSizeMedium"><sup>2</sup> See&nbsp;AKT Consultants Pty Ltd
+    v Alfa Laval Lund AB&nbsp;(2006) 70 IPR 347.</span></h4>
+```
+
+`_heading_address` reads the heading through `flatten_text` (§7), which gives
+`2 See AKT Consultants…`, and `_LEADING_ADDRESS` matched the `2`. So footnote 2
+took the address `TMM/Part55/2/2` — which reads as *heading 2 of page 55.2*,
+and is the parent of that page's real sections `TMM/Part55/2/2/1` through
+`/2/2/5`. A citation to the section resolved to a footnote. Part 49.2's
+footnote held `TMM/Part49/2/1` and Part 52.4's held `TMM/Part52/4/5` the same
+way.
+
+This is a wrong address rather than a weak one, which is the failure
+`SCHEMA.md`'s "a serial number is a citation that breaks silently" argument
+exists to prevent — and the markup already draws the distinction needed to
+avoid it. **`<sup>` appears in exactly three headings in the corpus and is a
+footnote marker in all three; no heading number the Manual prints is
+superscript.** A leading number that came out of a `<sup>` is therefore not
+read as an address, and the heading falls through to the slug form like any
+other heading the Manual did not number.
+
+`TMM/Part55/2/2` now addresses section 2.2, as it always read.
+
+The footnotes still inherit the ancestry the markup gives them — they are
+`<h4>`s following the last `<h3>`, so they hang under the section above them.
+That is faithful to the source and visibly odd in a tree; it is recorded here
+rather than corrected, because moving them would be inventing a structure the
+Manual has not written.
+
+---
+
+## 27. A heading that only names the sections below it
+
+The heading-as-content branch (§19) exists for the heading that *is* the
+proposition — Part 61.3 states two of its four sections entirely in their own
+heading. It was firing on a second, different case: a heading whose content
+lives in the subsections beneath it.
+
+The Part 14 A13 glossary sets `A`, `B`, `C` … over the terms filed under each,
+and produced 22 chunks whose entire text was one letter. Part 5's device
+constituents added three; Part 28 one. Promoting the bold subsections of §25
+made it much worse, since a heading immediately followed by its own first
+subsection has no content of its own — the count went to 52.
+
+Such a heading did not hold its section's content, so the branch's own reason
+does not reach it, and every one of its children already carries the words in
+`heading_path`. It is therefore not chunked, and **nothing is announced**,
+because nothing leaves the corpus.
+
+That leaves the case where a heading holds only a marker and has no
+subsections to carry it: Part 23.2 prints a bare `<h3>2.2</h3>` whose `2.2.1`
+and `2.2.2` are `<h3>` siblings in the markup (§28), so they are not its
+children and the words really would vanish. Headings shorter than
+`MIN_HEADING_CHUNK_CHARS` are dropped **loudly**, as a `SuppressedHeading`
+warning naming the page and the text. Five characters sits above every marker
+in the corpus and below every real proposition — the shortest of those is
+Part 32A's `Divisions I: Principles`.
+
+Exactly one heading in the corpus is dropped this way, and it is the only
+place in 500 pages where a word of body text is not in the snapshot.
+
+---
+
+## 28. Numbering and markup disagree about nesting on three pages
+
+Nine numbered parent/child pairs, out of 33 in the corpus, where the Manual's
+own numbering says one heading is under another and the markup makes them
+siblings — both are `<h3>`.
+
+| Page | The Manual's numbering | The markup |
+|---|---|---|
+| Part 2.3 | 2.3.2.1 under 2.3.2 | both `<h3>` |
+| Part 23.2 | 2.2.1 under 2.2 | both `<h3>` |
+| Part 55.2 | the footnote of §26 | `<h4>` after the last `<h3>` |
+
+`heading_path` follows the markup, because the markup is what the pipeline is
+allowed to read. The disagreement is the Manual's, and it is recorded rather
+than reconciled.
+
+**For a reader building a tree, `snapshot/sitemap.json` is authoritative.** It
+is the Manual's own navigation, it is the only reliable source of Part
+membership (§2), and it settles the page hierarchy — including the three-level
+pages like `TMM/Part60/4/7`. Within a page, `heading_path` gives the structure
+the markup asserts and `chunk_ref` gives the number the Manual prints; where
+those two disagree they disagree because the source does, and the three pages
+above are the whole of it.

@@ -11,7 +11,7 @@
           "text": "By way of example:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark No. Applicant Date filed Priority date TM 1 ABC Inc. 1/8/2000 1/5/2000 (US convention claim). TM 2 (Divisional of TM 1) ABC Inc. 1/11/2001 1/5/2000 if a claim to convention priority is made on TM 2 but 1/8/2000 if a claim to convention priority is not made on TM 2. TM 3 (Divisional of TM 2) ABC Inc. 1/2/2003 1/5/2000 if a claim to convention priority is made on TM 3 but 1/8/2000 if a claim to convention priority is not made on TM 3."
         }
       ],
@@ -23,6 +23,7 @@
         "Part 12 Divisional Applications",
         "5. Convention claims and divisional applications"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -112,9 +113,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:ef7c5a12aeb9f7d471ca68932e36562e656068e4068c618fbc3a20fa0de133ca",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "5. Convention claims and divisional applications",
     "images": [],
     "last_amended": "2026-07-20",

@@ -7,7 +7,7 @@
           "text": "Answer YES or NO to each of the questions in the following checklist."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "If the answer to any of the questions 1-5 is NO, it is not a valid divisional application. Yes/No Section 1. Is the applicant of the divisional application the same as the current applicant of the parent application? s45 2. Was the divisional filed while the parent was still pending? Pending includes status “accepted” and status “opposed”. s45 3. Is the trade mark the same as the trade mark of the parent? s46 4. Are the goods/services of the divisional some only of the goods/services of the parent? s45 5. Has the applicant specified the goods/services that are to remain in the parent application? s46 If the answer to ALL of the questions above (1-5) was YES AND the parent application has not lapsed proceed to question 6. 6. Are any of the goods/services of the divisional duplicated in or encompassed by the goods/services specified to remain in the parent? If the answer to question 6 is yes, the applicant must generally either: a. if possible, agree to the goods or services of the parent and/or child being restricted so as to eliminate any duplication (i.e. goods/services that are in substance the same) between the goods and/or services of the parent and child; OR b. delete reference to the divisional priority date. If the answer to question 6 is no, and the divisional application is valid and complete, the examiner must (as soon as practicable) process the amendment to the specification of the parent application to exclude the claimed goods and/or services of the divisional application. The parent application should then be reassessed in light of the amended goods and/or services."
         }
       ],
@@ -19,6 +19,7 @@
         "Part 12 Divisional Applications",
         "Annex A1 Divisional Checklist (for divisional applications filed on or after 27 March 2007)"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "annex",
       "ordinal": 1,
@@ -148,9 +149,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:7e36d5a33b2c5c0b805d5319797a821d71c2200016ab85565122b6b19635177d",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Annex A1 Divisional Checklist (for divisional applications filed on or after 27 March 2007)",
     "images": [],
     "last_amended": "2026-07-20",

@@ -15,6 +15,7 @@
         "Part 22 Section 41 - Capable of Distinguishing",
         "22.13. Common formats for trade marks"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -49,6 +50,7 @@
         "22.13. Common formats for trade marks",
         "13.1 Mr, Mrs, Miss etc. trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part22/16"
       ],
@@ -98,6 +100,7 @@
         "22.13. Common formats for trade marks",
         "13.2 Dr trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part22/16"
       ],
@@ -128,7 +131,7 @@
           "text": "When considering whether a phrase containing the word “MY” is capable of distinguishing (see table below), consideration must be given to the ordinary signification of the phrase. Whether or not the trade mark is capable of distinguishing, will depend upon if the phrase is something ‘other traders are likely, in the ordinary course of their business and without any improper motive, to desire to use the same phrase, or some phrase so nearly resembling it’. Trade marks containing the word “MY” that form an expression that is not considered capable of distinguishing will require evidence of use to achieve acceptance under the provisions of section 41 of the Act. See examples in table below:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade mark Goods and/or services Section 41 PAY MY DEBT Class 36: Financial services Yes, indicates to the consumer that the trader’s financial services allow the consumer to pay their debt. FIX MY COMPUTER Class 37: Maintenance and repair services Yes, indicates to the consumer that the trader provides maintenance and repair services that fix the consumer’s computer. MY FLORIST, MY CHOICE Class 44: Floristry services No, the expression as a whole does not indicate the nature of the services being provided. MY DAY, MY WAY Class 44: Arranging of wedding services No, the expression does not indicate the nature of the services being provided."
         }
       ],
@@ -141,6 +144,7 @@
         "22.13. Common formats for trade marks",
         "13.3 My trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -253,6 +257,7 @@
         "22.13. Common formats for trade marks",
         "13.4 Ultra trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 5,
@@ -272,7 +277,7 @@
           "text": "However WORLD or LAND trade marks which form an expression commonly used to define a particular field of interest or activity will usually possess insufficient capacity to distinguish goods or services in that field. Such trade marks will usually need evidence of use to achieve acceptance."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade mark Goods and/or services Section 41 CHEESEWORLD Class 29: Dairy products, including cheese Class 35: Retailing of cheeses and, dairy products No – the trade mark is the combination of WORLD and CHEESE which is a direct reference to the goods / services. LAND OF SHOES Class 25: Footwear Class 35: Retailing of footwear No – the trade mark is the combination of LAND and SHOES which is a direct reference to the goods / services. THEATRICAL WORLD Class 41: Entertainment services Yes – the expression is commonly used in relation to the field of dramatic arts and should legitimately be open for use by others. WORLD OF BIG BUSINESS Class 36: Financial services Yes – the expression is commonly used in relation to business, commerce and finance and should legitimately be open for use by others."
         }
       ],
@@ -285,6 +290,7 @@
         "22.13. Common formats for trade marks",
         "13.5 World and land trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 6,
@@ -387,6 +393,7 @@
         "22.13. Common formats for trade marks",
         "13.6 Trade marks that contain a unit of time"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 7,
@@ -398,7 +405,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade mark Goods and/or services Section 41 Australian Art Day Class 41: Entertainment services including arrangement of exhibitions and events. Yes - ground for rejection likely to be appropriate as the phrase indicates entertainment services including events relating to/ enjoying/viewing Australian art. Sick Kids Day Class 14: Charity wrist bands; decorative pins Class 26: Decorative ribbons Class 28: Board Games Class 36: Charitable fundraising Class 41: Organisation of entertainment events for children. Yes - ground for rejection likely to be appropriate as the services are indicative of the type and target audience of charitable fundraising in class 36 and entertainment in class 41. The goods claimed in classes 14, 26 are goods that are commonly associated with such events and are therefore also likely to attract a section 41 ground for rejection. Beautiful Smiles Day Class 16: Printed matter and publications relating to dental care and health care Class 41: Education and entertainment services relating to dental care and health care. No - ground for rejection not likely to be appropriate as the goods and services in classes 16 and 41 do not provide you with or enable you to have a beautiful smile. European Fashion Week Class 41: Fashion shows; production of fashion shows (entertainment). Yes - ground for rejection likely to be appropriate as the entertainment services in class 41 relate to a week long event which features or showcases European fashion. Melancholic Depression Week Class 16: Printed matter relating to health education. Class 41: Education and training in relation to mental health. Class 44: Providing information in relation to mental health. Yes - ground for rejection likely to be appropriate as all goods/services claimed in classes 16, 41 and 44 relate to a week long event which focuses on promotion/awareness of mental illness, specifically melancholic depression. Reach Out Week Class 36: Charitable fundraising in relation to making contact with old friends/lost family. No - ground for rejection not likely to be appropriate as while it may allude to the purpose of the services, the phrase does not have a descriptive meaning in relation to the charitable services."
         }
       ],
@@ -414,6 +421,7 @@
         "22.13. Common formats for trade marks",
         "13.6 Trade marks that contain a unit of time"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 8,
@@ -520,9 +528,9 @@
     "amendment_note": "Accessibility fix - remove empty headings",
     "archived": false,
     "content_hash": "sha256:55a74c96e7240fe8ecf3bc94a7826cff1f6705c222b97b06ba594d7b6c8d11fc",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "22.13. Common formats for trade marks",
     "images": [],
     "last_amended": "2025-10-24",

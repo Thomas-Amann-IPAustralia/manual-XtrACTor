@@ -23,6 +23,7 @@
         "Part 10 Details of Formality Requirements",
         "10.5. Specification of goods and/or services"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -49,41 +50,18 @@
         {
           "kind": "paragraph",
           "text": "The applicant must specify, in the manner set out in the regulations (reg 4.4), the goods and/or services in respect of which the registration is sought (paragraph 27(3)(b))."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.1.1"
-        },
-        {
-          "kind": "paragraph",
-          "text": "A class number must be nominated for each group of goods and/or services (subreg 4.4(4)). Where the application is in respect of more than one class the goods and/or services must be grouped together according to class number and the groups of goods and/or services must be presented in ascending numerical order of the class number (subregs 4.4(3) and (5))."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.1.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "As far as practicable, the applicant should specify the goods and/or services for which registration is sought in terms appearing in the NICE Classification or Office Determinations (subreg 4.4(6)). These listings are available on the IP Australia website."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.1.3"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Adequate information regarding the goods and/or services should accompany any specification where the goods and/or services cannot be described using the terms preferred at 5.1.2 above (subreg 4.4(7))."
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/1",
-      "content_hash": "sha256:421a189f312cc51d1f9103784d462afaf00a75b840192f692f92cbe138f20044",
+      "content_hash": "sha256:ebba9d751d96b2f385ea7d3cd1300419ddb35571f15fd5035d6339743ca52f51",
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
         "10.5. Specification of goods and/or services",
         "5.1 Setting out the specification of goods and/or services"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -103,7 +81,85 @@
         }
       ],
       "tables": [],
-      "text": "The applicant must specify, in the manner set out in the regulations (reg 4.4), the goods and/or services in respect of which the registration is sought (paragraph 27(3)(b)). 5.1.1 A class number must be nominated for each group of goods and/or services (subreg 4.4(4)). Where the application is in respect of more than one class the goods and/or services must be grouped together according to class number and the groups of goods and/or services must be presented in ascending numerical order of the class number (subregs 4.4(3) and (5)). 5.1.2 As far as practicable, the applicant should specify the goods and/or services for which registration is sought in terms appearing in the NICE Classification or Office Determinations (subreg 4.4(6)). These listings are available on the IP Australia website. 5.1.3 Adequate information regarding the goods and/or services should accompany any specification where the goods and/or services cannot be described using the terms preferred at 5.1.2 above (subreg 4.4(7))."
+      "text": "The applicant must specify, in the manner set out in the regulations (reg 4.4), the goods and/or services in respect of which the registration is sought (paragraph 27(3)(b))."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A class number must be nominated for each group of goods and/or services (subreg 4.4(4)). Where the application is in respect of more than one class the goods and/or services must be grouped together according to class number and the groups of goods and/or services must be presented in ascending numerical order of the class number (subregs 4.4(3) and (5))."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/1/1",
+      "content_hash": "sha256:7c6735b25fe81cb9768619d9f958170aced572485d9663b1c75308ef800e2079",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.1 Setting out the specification of goods and/or services",
+        "5.1.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [],
+      "tables": [],
+      "text": "A class number must be nominated for each group of goods and/or services (subreg 4.4(4)). Where the application is in respect of more than one class the goods and/or services must be grouped together according to class number and the groups of goods and/or services must be presented in ascending numerical order of the class number (subregs 4.4(3) and (5))."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "As far as practicable, the applicant should specify the goods and/or services for which registration is sought in terms appearing in the NICE Classification or Office Determinations (subreg 4.4(6)). These listings are available on the IP Australia website."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/1/2",
+      "content_hash": "sha256:6b24b6772339bc663b6ef58ba41ce90d1af2a8efc3ba156ac14c3a6cd522fc0d",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.1 Setting out the specification of goods and/or services",
+        "5.1.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [],
+      "tables": [],
+      "text": "As far as practicable, the applicant should specify the goods and/or services for which registration is sought in terms appearing in the NICE Classification or Office Determinations (subreg 4.4(6)). These listings are available on the IP Australia website."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Adequate information regarding the goods and/or services should accompany any specification where the goods and/or services cannot be described using the terms preferred at 5.1.2 above (subreg 4.4(7))."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/1/3",
+      "content_hash": "sha256:5dfd63e25108c8570d12b86551308029e9659faa2eb2cd32e1057be81183f3c9",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.1 Setting out the specification of goods and/or services",
+        "5.1.3"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [],
+      "tables": [],
+      "text": "Adequate information regarding the goods and/or services should accompany any specification where the goods and/or services cannot be described using the terms preferred at 5.1.2 above (subreg 4.4(7))."
     },
     {
       "blocks": [
@@ -130,27 +186,21 @@
         {
           "kind": "paragraph",
           "text": "This provision is set out in subsection 120(2) and is much broader than that which existed under the Trade Marks Act 1955. The 1955 Act limited infringement actions to cases where the goods or services in relation to which the unauthorised use occurred were exactly the same as the goods or services for which registration was granted. It is therefore anticipated that applicants will now restrict their specifications to goods and/or services that reflect their current and/or intended future trading activities. To do otherwise would be to their own detriment in that they would leave their registrations open to non-use actions, in which the onus now lies on the registered owner to show that they have used or there is an intention, in good faith, to use the trade mark on all the goods and/or services specified."
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.2.1"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part10/5/5/2~1",
-      "content_hash": "sha256:c774b6bc25b855af51474518beb447d60874d93e5e29f5fc3b98be09020263e5",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part10/5/5/2",
+      "content_hash": "sha256:f680152dbeaa06295bca380b19ce71a0987df4011e9917a7c1d9d4a5b2a224bc",
+      "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
         "10.5. Specification of goods and/or services",
         "5.2 Restrictions on the specification"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 6,
       "page_ref": "TMM/Part10/5",
       "provisions": [
         {
@@ -161,7 +211,7 @@
         }
       ],
       "tables": [],
-      "text": "Restrictions exist as to the scope of the goods and/or services that may be claimed in a specification. These restrictions have been included in the legislation in light of the fact that infringement action under the provisions of the Trade Marks Act 1995 may be taken in respect of unauthorised use of a trade mark on: a. goods of the same description as that of goods (registered goods) in respect of which the trade mark is registered; or b. services that are closely related to registered goods; or c. services of the same description as that of services (registered services) in respect of which the trade mark is registered; or d. goods that are closely related to registered services. This provision is set out in subsection 120(2) and is much broader than that which existed under the Trade Marks Act 1955. The 1955 Act limited infringement actions to cases where the goods or services in relation to which the unauthorised use occurred were exactly the same as the goods or services for which registration was granted. It is therefore anticipated that applicants will now restrict their specifications to goods and/or services that reflect their current and/or intended future trading activities. To do otherwise would be to their own detriment in that they would leave their registrations open to non-use actions, in which the onus now lies on the registered owner to show that they have used or there is an intention, in good faith, to use the trade mark on all the goods and/or services specified. 5.2.1"
+      "text": "Restrictions exist as to the scope of the goods and/or services that may be claimed in a specification. These restrictions have been included in the legislation in light of the fact that infringement action under the provisions of the Trade Marks Act 1995 may be taken in respect of unauthorised use of a trade mark on: a. goods of the same description as that of goods (registered goods) in respect of which the trade mark is registered; or b. services that are closely related to registered goods; or c. services of the same description as that of services (registered services) in respect of which the trade mark is registered; or d. goods that are closely related to registered services. This provision is set out in subsection 120(2) and is much broader than that which existed under the Trade Marks Act 1955. The 1955 Act limited infringement actions to cases where the goods or services in relation to which the unauthorised use occurred were exactly the same as the goods or services for which registration was granted. It is therefore anticipated that applicants will now restrict their specifications to goods and/or services that reflect their current and/or intended future trading activities. To do otherwise would be to their own detriment in that they would leave their registrations open to non-use actions, in which the onus now lies on the registered owner to show that they have used or there is an intention, in good faith, to use the trade mark on all the goods and/or services specified."
     },
     {
       "blocks": [
@@ -173,11 +223,36 @@
           "depth": 1,
           "kind": "list_item",
           "text": "Part 3 Filing Requirement for a Trade Mark Application - 10.4 Other filing requirements"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/2/1",
+      "content_hash": "sha256:04e4519ed68a5ca0c80e1bca35e2c791b702e1b7f95fddcdaeeff12e48ed0033",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.2 Restrictions on the specification",
+        "5.2.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "5.2.2"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.4(2)",
+          "mention": "Regulation 4.4(2)"
+        }
+      ],
+      "tables": [],
+      "text": "Regulation 4.4(2) prohibits the use of the expressions “all goods”, “all services”, “all other goods” and “all other services” in a specification of goods and/or services in respect of which registration is sought. Use of these expressions or equivalent expressions such as “all items” or “all products” will not be accepted as the whole or part of a specification if unqualified. Where an application is made in respect of specific goods and/or services but also includes one of the above non-specific expressions in the specification, that application will be taken as filed but the applicant will be requested, as soon as practicable after filing, to delete the prohibited expression if unqualified. If, at the time of examination, the expression has not been deleted, the examiner will again require the expression to be deleted. Additional items within the class claimed may be entered in place of the prohibited terms. Part 3 Filing Requirement for a Trade Mark Application - 10.4 Other filing requirements"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applications whose specifications consist only of a prohibited expression or a similar expression which has the same effect eg “all goods in class 10” or “all items in class 10” do not meet the minimum filing requirements."
@@ -186,39 +261,50 @@
           "depth": 1,
           "kind": "list_item",
           "text": "Part 3 Filing Requirements for a Trade Mark Application - 6.5 Specify the goods and/or services for which registration is sought"
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.2.3"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/2/2",
+      "content_hash": "sha256:a1fe8b2181b99aa6f6e5594866be5d6e0962a6a9199d859146aa06b4e3546358",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.2 Restrictions on the specification",
+        "5.2.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [],
+      "tables": [],
+      "text": "Applications whose specifications consist only of a prohibited expression or a similar expression which has the same effect eg “all goods in class 10” or “all items in class 10” do not meet the minimum filing requirements. Part 3 Filing Requirements for a Trade Mark Application - 6.5 Specify the goods and/or services for which registration is sought"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Under the provisions of subregulation 4.8(3) the Registrar has the discretion to query broad claims for goods and services. This discretion will not usually be exercised."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part10/5/5/2~2",
-      "content_hash": "sha256:6917c4017a6b065f1527bcc830e60bdf1068b0bba8b7fb0f96d94a8bb44a33a6",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part10/5/5/2/3",
+      "content_hash": "sha256:4b9c018cbfb3ad9b50a2a81c8e731f8b1cdedcc58b681237ac9d2fab3632ef01",
+      "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
         "10.5. Specification of goods and/or services",
-        "5.2 Restrictions on the specification"
+        "5.2 Restrictions on the specification",
+        "5.2.3"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 9,
       "page_ref": "TMM/Part10/5",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r4.4(2)",
-          "mention": "Regulation 4.4(2)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -227,7 +313,7 @@
         }
       ],
       "tables": [],
-      "text": "Regulation 4.4(2) prohibits the use of the expressions “all goods”, “all services”, “all other goods” and “all other services” in a specification of goods and/or services in respect of which registration is sought. Use of these expressions or equivalent expressions such as “all items” or “all products” will not be accepted as the whole or part of a specification if unqualified. Where an application is made in respect of specific goods and/or services but also includes one of the above non-specific expressions in the specification, that application will be taken as filed but the applicant will be requested, as soon as practicable after filing, to delete the prohibited expression if unqualified. If, at the time of examination, the expression has not been deleted, the examiner will again require the expression to be deleted. Additional items within the class claimed may be entered in place of the prohibited terms. Part 3 Filing Requirement for a Trade Mark Application - 10.4 Other filing requirements 5.2.2 Applications whose specifications consist only of a prohibited expression or a similar expression which has the same effect eg “all goods in class 10” or “all items in class 10” do not meet the minimum filing requirements. Part 3 Filing Requirements for a Trade Mark Application - 6.5 Specify the goods and/or services for which registration is sought 5.2.3 Under the provisions of subregulation 4.8(3) the Registrar has the discretion to query broad claims for goods and services. This discretion will not usually be exercised."
+      "text": "Under the provisions of subregulation 4.8(3) the Registrar has the discretion to query broad claims for goods and services. This discretion will not usually be exercised."
     },
     {
       "blocks": [
@@ -243,11 +329,30 @@
         {
           "kind": "paragraph",
           "text": "The following problems may arise:"
-        },
-        {
-          "kind": "paragraph",
-          "text": "5.3.1"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part10/5/5/3",
+      "content_hash": "sha256:6f5ef196f6e524679be9eec444b2f4056152df12b45d272649a7a9b08027b1f2",
+      "fragment": null,
+      "heading_path": [
+        "Part 10 Details of Formality Requirements",
+        "10.5. Specification of goods and/or services",
+        "5.3 Problems with a specification"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [
+        "TMM/Part14/1"
+      ],
+      "kind": "body",
+      "ordinal": 10,
+      "page_ref": "TMM/Part10/5",
+      "provisions": [],
+      "tables": [],
+      "text": "While a preliminary check of classification is made as part of the check for compliance with minimum filing requirements, it is the examiner’s responsibility to ensure that the goods and/or services have been properly specified and classified. For a single class application, this includes checking that the goods or the services are in the class that has been nominated for the application. For a multi-class application the examiner must check that the goods or the services grouped within each of the nominated classes are properly classified. The principles and practice for classifying goods or services are dealt with in Part 14. Part 14 Classification The following problems may arise:"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "If only one class has been nominated but some of the goods and/or services specified fall not in that class but in other classes, the applicant has the option of either deleting the goods and/or services which do not fall in the nominated class, or of adding additional classes to cover those items. Additional fees will be required to add further classes to cover the specified goods and/or services."
@@ -258,32 +363,32 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part10/5/5/3",
-      "content_hash": "sha256:caf10300b87adbb493ee040d130648b216f05b53f839b9a7152036cb3695f3c9",
+      "chunk_ref": "TMM/Part10/5/5/3/1",
+      "content_hash": "sha256:d092f51290c5c92fb7b55bcf81a2979d45c80c3f4d2c6b079039da30d859de80",
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
         "10.5. Specification of goods and/or services",
-        "5.3 Problems with a specification"
+        "5.3 Problems with a specification",
+        "5.3.1"
       ],
-      "internal_refs": [
-        "TMM/Part14/1"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 11,
       "page_ref": "TMM/Part10/5",
       "provisions": [],
       "tables": [],
-      "text": "While a preliminary check of classification is made as part of the check for compliance with minimum filing requirements, it is the examiner’s responsibility to ensure that the goods and/or services have been properly specified and classified. For a single class application, this includes checking that the goods or the services are in the class that has been nominated for the application. For a multi-class application the examiner must check that the goods or the services grouped within each of the nominated classes are properly classified. The principles and practice for classifying goods or services are dealt with in Part 14. Part 14 Classification The following problems may arise: 5.3.1 If only one class has been nominated but some of the goods and/or services specified fall not in that class but in other classes, the applicant has the option of either deleting the goods and/or services which do not fall in the nominated class, or of adding additional classes to cover those items. Additional fees will be required to add further classes to cover the specified goods and/or services. The examiner should inform the applicant of these options. If the applicant chooses to add classes, the examiner should advise what additional fees are required."
+      "text": "If only one class has been nominated but some of the goods and/or services specified fall not in that class but in other classes, the applicant has the option of either deleting the goods and/or services which do not fall in the nominated class, or of adding additional classes to cover those items. Additional fees will be required to add further classes to cover the specified goods and/or services. The examiner should inform the applicant of these options. If the applicant chooses to add classes, the examiner should advise what additional fees are required."
     }
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
     "content_hash": "sha256:5022d09f139703af21f67830970c1ded58f016556a2350d7932544610eecb808",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "10.5. Specification of goods and/or services",
     "images": [],
     "last_amended": "2025-01-21",

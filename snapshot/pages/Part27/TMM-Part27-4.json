@@ -19,6 +19,7 @@
         "Part 27 Overcoming Grounds for Rejection under Section 44",
         "27.4. Negotiation with owner/s of conflicting trade mark/s"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -49,6 +50,7 @@
         "27.4. Negotiation with owner/s of conflicting trade mark/s",
         "4.1 Amendment of the conflicting application or registration"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -90,19 +92,72 @@
         {
           "kind": "paragraph",
           "text": "Consent will therefore generally be considered persuasive even in those cases where the trade marks are substantially identical, the goods or services are the same and the trade marks are used in the same markets."
-        },
+        }
+      ],
+      "cases": [
         {
-          "kind": "paragraph",
-          "text": "4.2.1"
-        },
+          "citation": "[1999] FCA 1020",
+          "id": "CASE/1999/FCA/1020"
+        }
+      ],
+      "chunk_ref": "TMM/Part27/4/4/2",
+      "content_hash": "sha256:f5c565ef259b609c4dec0624865c7b6f0c57bb54f002a7e34fe5af1ce630b3bc",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "para 44 (3)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "Where the matter is being resolved between the parties, the Registrar may give considerable weight to a letter of consent from the owner of the conflicting trade mark. The Registrar has the discretion to accept an application under the provisions of para 44 (3)(b) on the basis of “other circumstances”. Consent to the registration of the later application by the owner of the prior rights may fall within the ambit of these provisions. In this respect, the comments of Justice French in Registrar of Trade Marks v Woolworths [1999] FCA 1020 at [47] are useful: … The policy of the 1995 Act can be said to some extent to have shifted the balance of the objectives of trade mark law more towards the identification and protection of commercial products and services than the protection of consumers, although the latter remains an objective. Since the parties involved in a consent situation are in a position to gauge market realities and the likelihood of deception or confusion resulting from the use of the two trade marks, the Registrar is likely to consider a letter of consent as persuasive of the applicant’s right to registration. Consent will therefore generally be considered persuasive even in those cases where the trade marks are substantially identical, the goods or services are the same and the trade marks are used in the same markets."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Letters of consent should not contain any conditions, since the Registrar is not in a position to ensure that any conditions about the use of the trade mark are met. However, a restriction to a particular geographical area is acceptable provided the application is restricted to accord with this. If the specification included in the letter of consent is narrower than that required to accept the application under the provisions of s44(3)(b), the specification should be amended to reflect only those goods to which the consent applies. It must be clear that the applicant agrees to these restrictions before making any amendments."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/4/4/2/1",
+      "content_hash": "sha256:b60521b297d1f91c6be803af4dc0f597ea35bc58b87e1bb4f9ffc48824bf8c55",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent",
+        "4.2.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "4.2.2"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(3)(b)",
+          "mention": "s44(3)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "Letters of consent should not contain any conditions, since the Registrar is not in a position to ensure that any conditions about the use of the trade mark are met. However, a restriction to a particular geographical area is acceptable provided the application is restricted to accord with this. If the specification included in the letter of consent is narrower than that required to accept the application under the provisions of s44(3)(b), the specification should be amended to reflect only those goods to which the consent applies. It must be clear that the applicant agrees to these restrictions before making any amendments."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Letters of consent must include sufficient information for the examiner to conclude that both parties are well aware of the implication and details of acceptance under s 44(3)(b). This information may include:"
@@ -129,46 +184,7 @@
         {
           "kind": "paragraph",
           "text": "Details of the conflicting trade mark:"
-        }
-      ],
-      "cases": [
-        {
-          "citation": "[1999] FCA 1020",
-          "id": "CASE/1999/FCA/1020"
-        }
-      ],
-      "chunk_ref": "TMM/Part27/4/4/2~1",
-      "content_hash": "sha256:094cffe7bb71f08ec8de2a005508630adb678d1e1b000bb7abe294f2e260033b",
-      "fragment": {
-        "count": 3,
-        "index": 1
-      },
-      "heading_path": [
-        "Part 27 Overcoming Grounds for Rejection under Section 44",
-        "27.4. Negotiation with owner/s of conflicting trade mark/s",
-        "4.2 Letters of consent"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 3,
-      "page_ref": "TMM/Part27/4",
-      "provisions": [
-        {
-          "extraction": "href",
-          "id": "TMA1995/s44",
-          "mention": "para 44 (3)(b)"
         },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s44(3)(b)",
-          "mention": "s 44(3)(b)"
-        }
-      ],
-      "tables": [],
-      "text": "Where the matter is being resolved between the parties, the Registrar may give considerable weight to a letter of consent from the owner of the conflicting trade mark. The Registrar has the discretion to accept an application under the provisions of para 44 (3)(b) on the basis of “other circumstances”. Consent to the registration of the later application by the owner of the prior rights may fall within the ambit of these provisions. In this respect, the comments of Justice French in Registrar of Trade Marks v Woolworths [1999] FCA 1020 at [47] are useful: … The policy of the 1995 Act can be said to some extent to have shifted the balance of the objectives of trade mark law more towards the identification and protection of commercial products and services than the protection of consumers, although the latter remains an objective. Since the parties involved in a consent situation are in a position to gauge market realities and the likelihood of deception or confusion resulting from the use of the two trade marks, the Registrar is likely to consider a letter of consent as persuasive of the applicant’s right to registration. Consent will therefore generally be considered persuasive even in those cases where the trade marks are substantially identical, the goods or services are the same and the trade marks are used in the same markets. 4.2.1 Letters of consent should not contain any conditions, since the Registrar is not in a position to ensure that any conditions about the use of the trade mark are met. However, a restriction to a particular geographical area is acceptable provided the application is restricted to accord with this. If the specification included in the letter of consent is narrower than that required to accept the application under the provisions of s44(3)(b), the specification should be amended to reflect only those goods to which the consent applies. It must be clear that the applicant agrees to these restrictions before making any amendments. 4.2.2 Letters of consent must include sufficient information for the examiner to conclude that both parties are well aware of the implication and details of acceptance under s 44(3)(b). This information may include: Details of the application: application number representation of the trade mark the goods/services to which the owner of the conflicting trade mark is consenting. Details of the conflicting trade mark:"
-    },
-    {
-      "blocks": [
         {
           "depth": 1,
           "kind": "list_item",
@@ -182,11 +198,37 @@
         {
           "kind": "paragraph",
           "text": "An example of an acceptable letter of consent is given in Annex A1."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/4/4/2/2",
+      "content_hash": "sha256:14b317b98269e10fef9dc22134c49ef7298988677449159dc97f0eaa727d8b29",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent",
+        "4.2.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part27/x-annex-a1---an-example-of-a-letter-of-consent"
+      ],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "4.2.3"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s44(3)(b)",
+          "mention": "s 44(3)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "Letters of consent must include sufficient information for the examiner to conclude that both parties are well aware of the implication and details of acceptance under s 44(3)(b). This information may include: Details of the application: application number representation of the trade mark the goods/services to which the owner of the conflicting trade mark is consenting. Details of the conflicting trade mark: application/registration number representation of the trade mark An example of an acceptable letter of consent is given in Annex A1."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "When recommending acceptance on the basis of a letter of consent, the examiner should ensure that:"
@@ -213,49 +255,22 @@
         {
           "kind": "paragraph",
           "text": "Even though the letter of consent has been provided, the owner of the conflicting trade mark must be notified of the acceptance of the application (except where there is no Australian or New Zealand address for service) in the usual way for applications accepted under s 44."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.2.4"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Where the owner of the conflicting trade mark is a deregistered company or is a company in liquidation, ASIC becomes the vested owner of the trade mark."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.2.5"
-        },
-        {
-          "kind": "paragraph",
-          "text": "A general letter of consent confirming that one party is prepared to consent to any trade mark applications made by another party may be considered."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The general letter of consent must meet the same requirements as a specific letter of consent in relation to the name of the owner providing the consent and to the signatory of the letter (detailed above) and should not contain any conditions (see 3.2.1). It must also identify the applicant to whom the general consent is being given. However, the general consent document need not identify the applicant’s trade mark or the specific goods and services being claimed."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.2.6"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part27/4/4/2~2",
-      "content_hash": "sha256:8d93bd9caaadd662f872588a0ad4c29644a85777056fc299710c289fab91106f",
-      "fragment": {
-        "count": 3,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part27/4/4/2/3",
+      "content_hash": "sha256:c28e6f58e862a26691450b3824fcb2eb05de09207e80ffbbe2cb1f0f62f0f49b",
+      "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
         "27.4. Negotiation with owner/s of conflicting trade mark/s",
-        "4.2 Letters of consent"
+        "4.2 Letters of consent",
+        "4.2.3"
       ],
-      "internal_refs": [
-        "TMM/Part27/x-annex-a1---an-example-of-a-letter-of-consent"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 6,
       "page_ref": "TMM/Part27/4",
       "provisions": [
         {
@@ -271,18 +286,92 @@
         }
       ],
       "tables": [],
-      "text": "application/registration number representation of the trade mark An example of an acceptable letter of consent is given in Annex A1. 4.2.3 When recommending acceptance on the basis of a letter of consent, the examiner should ensure that: the name of the owner supplying “consent” corresponds to the name on the data base. The letter may only be taken into account if the names are the same; the signatory to the letter is the owner of the conflicting trade mark or a person authorised to sign on behalf of that person; an endorsement in the following terms is entered at acceptance: Provisions of para 44(3)(b) and/or reg 4.15A(3)(b) applied. Even though the letter of consent has been provided, the owner of the conflicting trade mark must be notified of the acceptance of the application (except where there is no Australian or New Zealand address for service) in the usual way for applications accepted under s 44. 4.2.4 Where the owner of the conflicting trade mark is a deregistered company or is a company in liquidation, ASIC becomes the vested owner of the trade mark. 4.2.5 A general letter of consent confirming that one party is prepared to consent to any trade mark applications made by another party may be considered. The general letter of consent must meet the same requirements as a specific letter of consent in relation to the name of the owner providing the consent and to the signatory of the letter (detailed above) and should not contain any conditions (see 3.2.1). It must also identify the applicant to whom the general consent is being given. However, the general consent document need not identify the applicant’s trade mark or the specific goods and services being claimed. 4.2.6"
+      "text": "When recommending acceptance on the basis of a letter of consent, the examiner should ensure that: the name of the owner supplying “consent” corresponds to the name on the data base. The letter may only be taken into account if the names are the same; the signatory to the letter is the owner of the conflicting trade mark or a person authorised to sign on behalf of that person; an endorsement in the following terms is entered at acceptance: Provisions of para 44(3)(b) and/or reg 4.15A(3)(b) applied. Even though the letter of consent has been provided, the owner of the conflicting trade mark must be notified of the acceptance of the application (except where there is no Australian or New Zealand address for service) in the usual way for applications accepted under s 44."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where the owner of the conflicting trade mark is a deregistered company or is a company in liquidation, ASIC becomes the vested owner of the trade mark."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/4/4/2/4",
+      "content_hash": "sha256:8c0f7539d6c2bda21ba15e0336f645b33e58d87df8bf5831f6295c2d67dd0666",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent",
+        "4.2.4"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [],
+      "tables": [],
+      "text": "Where the owner of the conflicting trade mark is a deregistered company or is a company in liquidation, ASIC becomes the vested owner of the trade mark."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A general letter of consent confirming that one party is prepared to consent to any trade mark applications made by another party may be considered."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The general letter of consent must meet the same requirements as a specific letter of consent in relation to the name of the owner providing the consent and to the signatory of the letter (detailed above) and should not contain any conditions (see 3.2.1). It must also identify the applicant to whom the general consent is being given. However, the general consent document need not identify the applicant’s trade mark or the specific goods and services being claimed."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/4/4/2/5",
+      "content_hash": "sha256:633d54d5e62f4c6a638f23d008d1451f750b6d3982b77e0a0fe6142c494c5ad0",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent",
+        "4.2.5"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [],
+      "tables": [],
+      "text": "A general letter of consent confirming that one party is prepared to consent to any trade mark applications made by another party may be considered. The general letter of consent must meet the same requirements as a specific letter of consent in relation to the name of the owner providing the consent and to the signatory of the letter (detailed above) and should not contain any conditions (see 3.2.1). It must also identify the applicant to whom the general consent is being given. However, the general consent document need not identify the applicant’s trade mark or the specific goods and services being claimed."
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
           "text": "As an alternative to a letter of consent, the applicant may choose to supply a copy of an agreement between the two parties. Such an agreement will only be acceptable if it includes the information required for a letter of consent and does not include any conditions on use of the trade mark. Redacted agreements may be accepted provided that any redactions do not raise doubt regarding the scope of any consent provided by one party to the other in the agreement. For example, if parts of the agreement specifically dealing with the consent are redacted, this may indicate that consent is conditional and therefore not sufficient for acceptance by the Registrar. An explanation of the reasons for the redaction and confirmation that the redactions do not relate to conditions of use may be sufficient for the agreement to be accepted."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.2.7"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/4/4/2/6",
+      "content_hash": "sha256:d9409929d056f9b10f7979753c0f0ff8332d7b7667f0e0320b5ebf03f942c113",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.4. Negotiation with owner/s of conflicting trade mark/s",
+        "4.2 Letters of consent",
+        "4.2.6"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 9,
+      "page_ref": "TMM/Part27/4",
+      "provisions": [],
+      "tables": [],
+      "text": "As an alternative to a letter of consent, the applicant may choose to supply a copy of an agreement between the two parties. Such an agreement will only be acceptable if it includes the information required for a letter of consent and does not include any conditions on use of the trade mark. Redacted agreements may be accepted provided that any redactions do not raise doubt regarding the scope of any consent provided by one party to the other in the agreement. For example, if parts of the agreement specifically dealing with the consent are redacted, this may indicate that consent is conditional and therefore not sufficient for acceptance by the Registrar. An explanation of the reasons for the redaction and confirmation that the redactions do not relate to conditions of use may be sufficient for the agreement to be accepted."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "In the case where there is a commercial relationship between the parties, information from a reliable source (attorney, agent, owner or authorised representative of the owner) clarifying this relationship and the use of the trade mark may be sufficient to allow the trade marks to co-exist under the provisions of s44(3)(b). For example, if the applicant company is a wholly owned subsidiary of the proprietor of the conflicting trade mark, information advising of this relationship would be relevant. However, the information would need to be specific as to the relationship, and be provided by a source who is clearly able to give evidence as to the facts and is prepared to take responsibility for the accuracy of the information provided."
@@ -294,22 +383,21 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part27/4/4/2~3",
-      "content_hash": "sha256:888d4fda5097f2c28f22b0869a914db8034ce3f6e017d2612a863d98d0d8cb2c",
-      "fragment": {
-        "count": 3,
-        "index": 3
-      },
+      "chunk_ref": "TMM/Part27/4/4/2/7",
+      "content_hash": "sha256:86fce1bfd25bb7404af3f1ae9ca0de5b6c3a92c6b46377911fda0af2f883dc58",
+      "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
         "27.4. Negotiation with owner/s of conflicting trade mark/s",
-        "4.2 Letters of consent"
+        "4.2 Letters of consent",
+        "4.2.7"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part28/4"
       ],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 10,
       "page_ref": "TMM/Part27/4",
       "provisions": [
         {
@@ -320,7 +408,7 @@
         }
       ],
       "tables": [],
-      "text": "As an alternative to a letter of consent, the applicant may choose to supply a copy of an agreement between the two parties. Such an agreement will only be acceptable if it includes the information required for a letter of consent and does not include any conditions on use of the trade mark. Redacted agreements may be accepted provided that any redactions do not raise doubt regarding the scope of any consent provided by one party to the other in the agreement. For example, if parts of the agreement specifically dealing with the consent are redacted, this may indicate that consent is conditional and therefore not sufficient for acceptance by the Registrar. An explanation of the reasons for the redaction and confirmation that the redactions do not relate to conditions of use may be sufficient for the agreement to be accepted. 4.2.7 In the case where there is a commercial relationship between the parties, information from a reliable source (attorney, agent, owner or authorised representative of the owner) clarifying this relationship and the use of the trade mark may be sufficient to allow the trade marks to co-exist under the provisions of s44(3)(b). For example, if the applicant company is a wholly owned subsidiary of the proprietor of the conflicting trade mark, information advising of this relationship would be relevant. However, the information would need to be specific as to the relationship, and be provided by a source who is clearly able to give evidence as to the facts and is prepared to take responsibility for the accuracy of the information provided. Part 28 Honest Concurrent Use, Prior Use or Other Circumstances - 4. Other circumstances - para 44(3)(b)"
+      "text": "In the case where there is a commercial relationship between the parties, information from a reliable source (attorney, agent, owner or authorised representative of the owner) clarifying this relationship and the use of the trade mark may be sufficient to allow the trade marks to co-exist under the provisions of s44(3)(b). For example, if the applicant company is a wholly owned subsidiary of the proprietor of the conflicting trade mark, information advising of this relationship would be relevant. However, the information would need to be specific as to the relationship, and be provided by a source who is clearly able to give evidence as to the facts and is prepared to take responsibility for the accuracy of the information provided. Part 28 Honest Concurrent Use, Prior Use or Other Circumstances - 4. Other circumstances - para 44(3)(b)"
     },
     {
       "blocks": [
@@ -348,12 +436,13 @@
         "27.4. Negotiation with owner/s of conflicting trade mark/s",
         "4.3 Cancellation of the conflicting trade mark"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part41/1",
         "TMM/Part60/4/19"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 11,
       "page_ref": "TMM/Part27/4",
       "provisions": [],
       "tables": [],
@@ -389,12 +478,13 @@
         "27.4. Negotiation with owner/s of conflicting trade mark/s",
         "4.4 Assignment of the application or conflicting trade mark"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part43/1",
         "TMM/Part60/4/24"
       ],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 12,
       "page_ref": "TMM/Part27/4",
       "provisions": [
         {
@@ -416,9 +506,9 @@
     "amendment_note": "Formatting correction.",
     "archived": false,
     "content_hash": "sha256:33f07432c767172dd115a03be4408787d73123ed33afab30ae301b35623684fe",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "27.4. Negotiation with owner/s of conflicting trade mark/s",
     "images": [],
     "last_amended": "2023-10-10",

@@ -15,7 +15,7 @@
           "text": "By way of example:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 1 ABC Pty Ltd 1/8/2010 1/8/2010 Pre-amendment S41(5) or (6) TM 2 ABC Pty Ltd 1/6/2013 1/8/2010 (claimed from TM 1) Pre-amendment S41(5) or (6)"
         },
         {
@@ -23,7 +23,7 @@
           "text": "Where TM 2 is a valid divisional application of TM 1"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 3 XYZ Pty Ltd 1/6/2013 1/6/2013 Post-amendment S41(4) or (3) TM 4 XYZ Pty Ltd 1/2/2014 1/6/2013 (claimed from TM 3) Post-amendment S41(4) or (3)"
         },
         {
@@ -51,6 +51,7 @@
         "Part 12 Divisional Applications",
         "9. Divisional applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -213,9 +214,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:ab310eb7d8034fd7ec0bc5355ce9471937f211296bb79e6bf3ae6e5f720277ff",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "9. Divisional applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
     "images": [],
     "last_amended": "2026-07-20",

@@ -4,10 +4,6 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "1.1 Overview"
-        },
-        {
-          "kind": "paragraph",
           "text": "Examination of trade mark applications filed in Class 31 in respect of plants and plant material involves consideration of additional requirements arising from the Plant Breeder’s Rights Act 1994 (PBR Act) as amended by the Intellectual Property Laws Amendment Act 2006 (No. 106)."
         },
         {
@@ -29,47 +25,23 @@
         {
           "kind": "paragraph",
           "text": "This part of the Manual also discusses considerations in relation to sections 39, 41, 43 and 44 of the TM Act."
-        },
-        {
-          "kind": "paragraph",
-          "text": "1.2 The Plant Breeder’s Rights Act 1994"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The PBR Act governs the granting of proprietary rights to breeders of new varieties of plants and fungi. The scope of Plant Breeder’s Rights primarily applies to propagating material (section 11), but also in some circumstances harvested material (section 14) and products obtained from harvested material (section 15), (see Annex 1)"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part32A/1#1",
-      "content_hash": "sha256:8a5a398b43238ed49fba1033d7e331eecc0ef58bf710463e1d2086bd3adc308b",
+      "chunk_ref": "TMM/Part32A/1/1/1",
+      "content_hash": "sha256:7238aa84d5fea3ba2fb958326d534a9ba14720077aee6c2ffc0539867fbcdace",
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
-        "32A.1. Introduction"
+        "32A.1. Introduction",
+        "1.1 Overview"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
       "page_ref": "TMM/Part32A/1",
       "provisions": [
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s11",
-          "mention": "section 11"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s14",
-          "mention": "section 14"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s15",
-          "mention": "section 15"
-        },
         {
           "extraction": "href",
           "id": "TMA1995/s39",
@@ -97,7 +69,51 @@
         }
       ],
       "tables": [],
-      "text": "1.1 Overview Examination of trade mark applications filed in Class 31 in respect of plants and plant material involves consideration of additional requirements arising from the Plant Breeder’s Rights Act 1994 (PBR Act) as amended by the Intellectual Property Laws Amendment Act 2006 (No. 106). The PBR Act protects the names of plant varieties and their synonyms. The examiner must consider whether a trade mark is the same as, or included in,a plant name protected under the PBR Act or if use of the trade mark would infringe the PBR, and hence whether a contrary to law ground for rejection applies under section 42 of the Trade Marks Act 1995 (TM Act). Applications with a claim in Class 31 which includes plants or plant material need to be considered in terms of the PBR Act. Plant material includes all parts of the plant, such as fruit, flowers, seeds, vegetative cuttings and other live plant tissues. “Animal foodstuffs”, “litter”, “mulch” and similar claims need to be considered in terms of the PBR Act as they notionally include propagating or harvested plant material. Plant nomenclature, and particularly the concept of variety/cultivar/synonym (whether on the PBR Register or unregistered use in the marketplace), is also important to the consideration of s41 and s43 in relation to specifications covering plants and plant material. This part of the Manual also discusses considerations in relation to sections 39, 41, 43 and 44 of the TM Act. 1.2 The Plant Breeder’s Rights Act 1994 The PBR Act governs the granting of proprietary rights to breeders of new varieties of plants and fungi. The scope of Plant Breeder’s Rights primarily applies to propagating material (section 11), but also in some circumstances harvested material (section 14) and products obtained from harvested material (section 15), (see Annex 1)"
+      "text": "Examination of trade mark applications filed in Class 31 in respect of plants and plant material involves consideration of additional requirements arising from the Plant Breeder’s Rights Act 1994 (PBR Act) as amended by the Intellectual Property Laws Amendment Act 2006 (No. 106). The PBR Act protects the names of plant varieties and their synonyms. The examiner must consider whether a trade mark is the same as, or included in,a plant name protected under the PBR Act or if use of the trade mark would infringe the PBR, and hence whether a contrary to law ground for rejection applies under section 42 of the Trade Marks Act 1995 (TM Act). Applications with a claim in Class 31 which includes plants or plant material need to be considered in terms of the PBR Act. Plant material includes all parts of the plant, such as fruit, flowers, seeds, vegetative cuttings and other live plant tissues. “Animal foodstuffs”, “litter”, “mulch” and similar claims need to be considered in terms of the PBR Act as they notionally include propagating or harvested plant material. Plant nomenclature, and particularly the concept of variety/cultivar/synonym (whether on the PBR Register or unregistered use in the marketplace), is also important to the consideration of s41 and s43 in relation to specifications covering plants and plant material. This part of the Manual also discusses considerations in relation to sections 39, 41, 43 and 44 of the TM Act."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The PBR Act governs the granting of proprietary rights to breeders of new varieties of plants and fungi. The scope of Plant Breeder’s Rights primarily applies to propagating material (section 11), but also in some circumstances harvested material (section 14) and products obtained from harvested material (section 15), (see Annex 1)"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/1/1/2",
+      "content_hash": "sha256:f92044b5b37b16b5960e1ec0fec042f32e31d51f6dca7dcd667d1b2d62e665c4",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A.1. Introduction",
+        "1.2 The Plant Breeder’s Rights Act 1994"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part32A/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11",
+          "mention": "section 11"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s14",
+          "mention": "section 14"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s15",
+          "mention": "section 15"
+        }
+      ],
+      "tables": [],
+      "text": "The PBR Act governs the granting of proprietary rights to breeders of new varieties of plants and fungi. The scope of Plant Breeder’s Rights primarily applies to propagating material (section 11), but also in some circumstances harvested material (section 14) and products obtained from harvested material (section 15), (see Annex 1)"
     },
     {
       "blocks": [
@@ -119,9 +135,10 @@
         "32A.1. Introduction",
         "1.3 The Register of Plant Varieties"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 3,
       "page_ref": "TMM/Part32A/1",
       "provisions": [],
       "tables": [
@@ -218,28 +235,21 @@
         {
           "kind": "table",
           "text": "Genus (pl. genera) A taxonomic grouping of similar species. Similar genera are grouped into families. Species The basic category of biological classification, intended to designate a single kind of plant, any variations existing among the individuals being regarded as not affecting their essential sameness. Similar species are grouped into genera. Variety A category within a species. May refer to either a naturally occurring subspecies (which is indicated by the use of “var.” before the name, or to a cultivated variety (cultivar). Synonym An official name that is included in a PBR application in addition to the name of the variety. Alternate name An unofficial synonym. Trade designation A name that has been used for marketing a plant variety in place of its official name. Trade name A name associated with a plant variety for marketing purposes. Trade reference A name which can be nominated in a PBR application, indicating a name to be used for marketing the variety, but is not an official name covered by the PBR registration."
-        },
-        {
-          "kind": "paragraph",
-          "text": "1.5 Plant taxonomy hierarchy"
-        },
-        {
-          "kind": "table",
-          "text": "Taxonomic hierarchy Examples: Two types of Banksia Kingdom Plantae Division (aka Phylum) Magnoliophyta Class Magnoliopsida Order Proteales Family proteaceae Genus (plural genera) Banksia Species ericifolia x spinulosa (hybrid) integrifolia Subspecies (var.) N/A var. integrifolia Cultivar or variety ‘Giant Candles’ N/A"
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part32A/1/1/4",
-      "content_hash": "sha256:cb43f9634dc548979bb456e0f05ca54975fc49658d1da7bd1f30367d090cabfd",
+      "content_hash": "sha256:70255008562082373de5fed09c560538552095f2eedf7795e5337c7e41067a7b",
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
         "32A.1. Introduction",
         "1.4 Glossary of terms used in this chapter"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 4,
       "page_ref": "TMM/Part32A/1",
       "provisions": [],
       "tables": [
@@ -314,7 +324,33 @@
           "header_row": null,
           "ordinal": 1,
           "rows": 8
-        },
+        }
+      ],
+      "text": "Genus (pl. genera) A taxonomic grouping of similar species. Similar genera are grouped into families. Species The basic category of biological classification, intended to designate a single kind of plant, any variations existing among the individuals being regarded as not affecting their essential sameness. Similar species are grouped into genera. Variety A category within a species. May refer to either a naturally occurring subspecies (which is indicated by the use of “var.” before the name, or to a cultivated variety (cultivar). Synonym An official name that is included in a PBR application in addition to the name of the variety. Alternate name An unofficial synonym. Trade designation A name that has been used for marketing a plant variety in place of its official name. Trade name A name associated with a plant variety for marketing purposes. Trade reference A name which can be nominated in a PBR application, indicating a name to be used for marketing the variety, but is not an official name covered by the PBR registration."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "table",
+          "text": "Taxonomic hierarchy Examples: Two types of Banksia Kingdom Plantae Division (aka Phylum) Magnoliophyta Class Magnoliopsida Order Proteales Family proteaceae Genus (plural genera) Banksia Species ericifolia x spinulosa (hybrid) integrifolia Subspecies (var.) N/A var. integrifolia Cultivar or variety ‘Giant Candles’ N/A"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/1/1/5",
+      "content_hash": "sha256:d13f5d99d031ea472c8f4518350cfb54522e3d01f02bc076bc1a05e5dc4d46fd",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A.1. Introduction",
+        "1.5 Plant taxonomy hierarchy"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part32A/1",
+      "provisions": [],
+      "tables": [
         {
           "cells": [
             [
@@ -416,20 +452,20 @@
           ],
           "columns": 3,
           "header_row": null,
-          "ordinal": 2,
+          "ordinal": 1,
           "rows": 10
         }
       ],
-      "text": "Genus (pl. genera) A taxonomic grouping of similar species. Similar genera are grouped into families. Species The basic category of biological classification, intended to designate a single kind of plant, any variations existing among the individuals being regarded as not affecting their essential sameness. Similar species are grouped into genera. Variety A category within a species. May refer to either a naturally occurring subspecies (which is indicated by the use of “var.” before the name, or to a cultivated variety (cultivar). Synonym An official name that is included in a PBR application in addition to the name of the variety. Alternate name An unofficial synonym. Trade designation A name that has been used for marketing a plant variety in place of its official name. Trade name A name associated with a plant variety for marketing purposes. Trade reference A name which can be nominated in a PBR application, indicating a name to be used for marketing the variety, but is not an official name covered by the PBR registration. 1.5 Plant taxonomy hierarchy Taxonomic hierarchy Examples: Two types of Banksia Kingdom Plantae Division (aka Phylum) Magnoliophyta Class Magnoliopsida Order Proteales Family proteaceae Genus (plural genera) Banksia Species ericifolia x spinulosa (hybrid) integrifolia Subspecies (var.) N/A var. integrifolia Cultivar or variety ‘Giant Candles’ N/A"
+      "text": "Taxonomic hierarchy Examples: Two types of Banksia Kingdom Plantae Division (aka Phylum) Magnoliophyta Class Magnoliopsida Order Proteales Family proteaceae Genus (plural genera) Banksia Species ericifolia x spinulosa (hybrid) integrifolia Subspecies (var.) N/A var. integrifolia Cultivar or variety ‘Giant Candles’ N/A"
     }
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:5e9551095898e322042f65949ef535da264e72b1899ca639b95dce7bf64bad4a",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "32A.1. Introduction",
     "images": [],
     "last_amended": "2022-04-20",
