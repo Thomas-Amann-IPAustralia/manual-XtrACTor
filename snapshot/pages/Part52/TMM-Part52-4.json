@@ -1,6 +1,67 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar performs the function of an administrative tribunal and therefore exercises an administrative, rather than a judicial, role in matters arising from the administration of the Act (see R v Quinn: Ex Parte Consolidated Foods Corporation [1977] HCA 62). The proceedings are less formal than in a court and the Registrar’s primary concern is that all parties concerned have adequate opportunity to present their case to the Registrar’s delegate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.16 outlines the Registrar’s powers in relation to a hearing. The Hearing Officer, as the Registrar’s delegate, assumes full authority over the proceedings. Under sub-reg 21.15(4), the Registrar is not bound by the rules of evidence, as are the courts. In the words of Lord Denning MR in T.A. Miller Ltd v The Minister for Housing and Local Government, [1969] RPC 91,"
+        },
+        {
+          "kind": "paragraph",
+          "text": "“A tribunal (of this kind) is master of its own procedure, provided that the rules of natural justice are applied. … Tribunals are entitled to act on any material which is logically probative, even though it is not evidence in a court of law,…. Hearsay is clearly admissible before a tribunal. No doubt in admitting it, the tribunal must observe the rules of natural justice, but this does not mean that it must be tested by cross-examination. It only means that the tribunal must give the other side a fair opportunity of commenting on it and of contradicting it … ” 5"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Certain powers of the Registrar under section 202 are relevant to hearing procedures. Under this section the Registrar may, for the purposes of the Act:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "summon witnesses;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "receive written or oral evidence on oath or affirmation;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "require production of documents or articles;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "award costs against a party to proceedings brought before the Registrar;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "notify, as he or she considers fit, any person of any matter that, in his or her opinion, should be brought to the person’s notice."
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "Part 54 Subponeas, Summonses and Production of Documents"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "Part 55 Costs"
+        }
+      ],
       "cases": [
         {
           "citation": "[1969] RPC 91",
@@ -27,19 +88,19 @@
       "page_ref": "TMM/Part52/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s202",
           "mention": "section 202"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.15(4)",
           "mention": "reg 21.15(4)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.16",
           "mention": "Reg 21.16"
@@ -47,15 +108,39 @@
       ],
       "tables": [],
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 The Registrar performs the function of an administrative tribunal and therefore exercises an administrative, rather than a judicial, role in matters arising from the administration of the Act (see R v Quinn: Ex Parte Consolidated Foods Corporation [1977] HCA 62). The proceedings are less formal than in a court and the Registrar’s primary concern is that all parties concerned have adequate opportunity to present their case to the Registrar’s delegate. Reg 21.16 outlines the Registrar’s powers in relation to a hearing. The Hearing Officer, as the Registrar’s delegate, assumes full authority over the proceedings. Under sub-reg 21.15(4), the Registrar is not bound by the rules of evidence, as are the courts. In the words of Lord Denning MR in T.A. Miller Ltd v The Minister for Housing and Local Government, [1969] RPC 91, “A tribunal (of this kind) is master of its own procedure, provided that the rules of natural justice are applied. … Tribunals are entitled to act on any material which is logically probative, even though it is not evidence in a court of law,…. Hearsay is clearly admissible before a tribunal. No doubt in admitting it, the tribunal must observe the rules of natural justice, but this does not mean that it must be tested by cross-examination. It only means that the tribunal must give the other side a fair opportunity of commenting on it and of contradicting it … ” 5 Certain powers of the Registrar under section 202 are relevant to hearing procedures. Under this section the Registrar may, for the purposes of the Act: summon witnesses; receive written or oral evidence on oath or affirmation; require production of documents or articles; award costs against a party to proceedings brought before the Registrar; notify, as he or she considers fit, any person of any matter that, in his or her opinion, should be brought to the person’s notice. Part 54 Subponeas, Summonses and Production of Documents Part 55 Costs"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "5 The matter of admissibility of evidence is discussed further at 15.2035 of Shanahan's, Australian Law of Trade Marks and Passing Off. (5th ed), Davison, Mark & Horak, Ian, (2012), Thomson Reuters (Professional) Australia Ltd, Pyrmont, NSW."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part52/4/5",
+      "content_hash": "sha256:cbce2820c4a0fbb0fdc9d79fd09dda0d61d35800bb9d93145d963dec5dad925d",
+      "fragment": null,
+      "heading_path": [
+        "Part 52 Hearings, Decisions, Reasons and Appeals",
+        "Part 52.4. Role and powers of the Registrar in hearings",
+        "5 The matter of admissibility of evidence is discussed further at 15.2035 of Shanahan's, Australian Law of Trade Marks and Passing Off. (5th ed), Davison, Mark & Horak, Ian, (2012), Thomson Reuters (Professional) Australia Ltd, Pyrmont, NSW."
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part52/4",
+      "provisions": [],
+      "tables": [],
+      "text": "5 The matter of admissibility of evidence is discussed further at 15.2035 of Shanahan's, Australian Law of Trade Marks and Passing Off. (5th ed), Davison, Mark & Horak, Ian, (2012), Thomson Reuters (Professional) Australia Ltd, Pyrmont, NSW."
     }
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:44f5575306fb132952d50f0e28360a7e9c9817313e3500698da834f966d283f4",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 52.4. Role and powers of the Registrar in hearings",
     "images": [],
     "last_amended": "2025-04-02",

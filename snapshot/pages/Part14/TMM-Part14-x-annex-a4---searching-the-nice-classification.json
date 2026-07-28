@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Please see Annex A5 for information on using the Goods and Services Search Engine."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a4---searching-the-nice-classification#1",
       "content_hash": "sha256:cd4f064e5dc7871af9472ebea2c13d8ef685cb3ebff0360cfaa3445d086a011b",
@@ -24,9 +30,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:e2ffecdb86305516877a6c966ab24b88452e492a09714de46adaf9d9e7b876e9",
-    "crawled_at": "2026-07-28T08:53:41Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "14. Annex A4 - Searching the NICE classification",
     "images": [],
     "last_amended": "2022-04-20",

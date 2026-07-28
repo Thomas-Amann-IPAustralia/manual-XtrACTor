@@ -1,6 +1,64 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions - \"filing date\", \"date of registration\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 29 Application for registration of a trade mark whose registration has been sought in a Convention country—claim for priority"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Division 3 of Part 4 Divisional applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 52 Opposition"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Division 1 of Part 7 Initial registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 241 Application for registration of a trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 243 More than one application lodged on the same day for the same trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 5.2 Extension of time for filing - grounds"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 7.1 Period in which a trade mark can be registered"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 7.2 Particulars to be entered in the Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.21 What fees are payable"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 22.2 Fees payable in relation to certain matters"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part39/x-relevant-legislation17#1",
       "content_hash": "sha256:93a7834e88f5df31f90a8725877144a99fe1e742a52b5b9afa4a47a59d030295",
@@ -15,61 +73,61 @@
       "page_ref": "TMM/Part39/x-relevant-legislation17",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s241",
           "mention": "Section 241"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s243",
           "mention": "Section 243"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29",
           "mention": "Section 29"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s52",
           "mention": "Section 52"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.21",
           "mention": "Reg 21.21"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r22.2",
           "mention": "Reg 22.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.2",
           "mention": "Reg 5.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.1",
           "mention": "Reg 7.1"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.2",
           "mention": "Reg 7.2"
@@ -83,9 +141,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:a65a6caa5568f7ae04aa13294e57d4d514221777dae954548fe014a839359a5a",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 39. Landing Page",
     "images": [],
     "last_amended": "2025-06-04",

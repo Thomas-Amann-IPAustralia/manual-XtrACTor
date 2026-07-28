@@ -1,6 +1,37 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Cross Class Search List is a list of classes which are associated as they are most likely to contain goods or services that are similar or closely related. It should be used as a guide only."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Searches for conflicting marks are usually refined by restricting the search to the associated classes of the cross class search list."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "A top-level search which covers all classes and statuses is made before restricting searches to the associated classes in order to find conflicts not addressed in this list or outside of the associated classes in a risk management approach."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The list crosses classes where it is likely that similar or closely related goods or services will be found. The current Cross Class Search List can be found in the Annex to Part 14 of the Trade Marks Examiners’ Manual."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Although this list is a useful tool in refining searches there are circumstances where similar or closely related goods and services are found outside these crossed classes."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The tests for determining whether the goods/services in question are similar or closely related are detailed in Part 26.4 of the Trade Marks Manual."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part26/3#1",
       "content_hash": "sha256:53b5357160c67fddbf9bc42d2a31b73b7f51f99246c3ecb7855d3ae1899b385d",
@@ -24,9 +55,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:4c3ef2e2e3326c3b05abbb8efc809c243dbe4a540a20443f7d9df93f8f33f469",
-    "crawled_at": "2026-07-28T08:53:49Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "26.3. Cross Class Search List",
     "images": [],
     "last_amended": "2022-04-20",

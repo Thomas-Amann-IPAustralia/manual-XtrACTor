@@ -1,6 +1,37 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Evidence to support a claim for prior use should consist of a leading declaration usually provided by a competent member of the applicant organisation. The declaration should contain a history of the trade mark with information as to the first known use of the trade mark by the applicant or the applicant's predecessor. The applicant needs to provide sufficient statements of fact supported by annexed examples (which should be submitted in electronic format via the online services page) showing the trade mark in actual use, which will be able to satisfy the examiner that use occurred before the priority date of the cited trade mark. Again, the applicant must provide material that allows the examiner to be satisfied that this use has been continuous"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The use relied on must be in Australia in the course of trade (see Part 19A)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The extent of use of the trade mark is not a relevant factor. Provided that there is continuous genuine commercial use during the relevant period, this can suffice to establish prior and continuous use"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Statements such as ‘the trade mark was first used in 1990’, carry little weight, without further supporting information and/or materials demonstrating what this ‘use’ actually entailed"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: It may be necessary to restrict the specification of an application before allowing it to proceed under this paragraph if the information demonstrates use on goods and/or services less than those originally claimed in the application."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "A useful summary of the type of evidence to support honest concurrent use and prior use is attached to this part as Annex A1. This is a copy of an information sheet provided to applicants."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part28/7#1",
       "content_hash": "sha256:ca4545c5ad5b293312dddbb5f4f8419c808cc3ac74bda104b6f5b7f75de0086a",
@@ -24,9 +55,9 @@
     "amendment_note": "Content updated.",
     "archived": false,
     "content_hash": "sha256:afca54d703d886315154fc0e8df53bed5b31301d23def213de6b6a87e065cb32",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "28.7. Examining evidence of prior use",
     "images": [],
     "last_amended": "2023-10-10",

@@ -788,6 +788,31 @@ are off by one against the annex numbers. That is the source's own numbering,
 not a mis-parse — the `src` is recorded exactly as written, and anyone matching
 images to annexes by filename will get it wrong.
 
+### How a reader should render one (decided 0.5.0)
+
+**A placeholder, not the image.** Naming the page, saying its content is a
+figure this archive has not captured, and linking out to the live page. Not an
+`<img>` pointed at `manuals.ipaustralia.gov.au`.
+
+Two reasons, and the second is the one that matters. Hotlinking would make
+every view of the archive a request to a Commonwealth agency's servers, which
+§Courtesy to the source in `CLAUDE.md` rules out for the crawler and should
+equally rule out for anything reading its output. And it would render as
+though the archive held the content when it does not: the snapshot has the
+`src` and nothing behind it, so a live-loading image shows a reader something
+this repository cannot vouch for and will silently show them nothing at all
+once the path moves.
+
+The three states a reader must tell apart are already fully determined by the
+record, and no field needs adding to say so — `SCHEMA.md` §What is deliberately
+absent applies:
+
+| `archived` | `chunks` | `images` | Render as |
+|---|---|---|---|
+| `true` | `[]` | `[]` | withdrawn by IP Australia; show `amendment_note` |
+| `false` | `[]` | non-empty | a figure, uncaptured; placeholder + link out |
+| `false` | `[]` | `[]` | a stub in the source (Part 39 Annex A1 alone) |
+
 ---
 
 ## 17. Tables are content, and flattening loses half of them
@@ -916,3 +941,162 @@ Don't. Deriving `15.5` for an unnumbered heading that follows `15.4` is
 inventing an address the Manual does not print, and the next crawl will invent
 a different one when a heading is inserted between them. The slug says only
 what the heading says.
+
+---
+
+## 19. A heading can be the whole section
+
+Found in the 0.5.0 review, by counting headings in the cleaned bodies against
+headings reaching a `heading_path`. Fourteen did not, across ten pages, and
+the reason was the same in every case: the `<h2>`–`<h4>` had no content
+element after it, so the chunker produced no chunk and the heading's words
+went nowhere.
+
+Three shapes, all real.
+
+**The Manual states the proposition in the heading.** Part 61.3 has four
+sections and two of them are written this way:
+
+```html
+<h3>3.2 Documents that are not made available for public inspection can be
+    requested under the Freedom of Information Act.</h3>
+<h3>3.3 A request can be made under the FOI Act for any of the documents
+    listed at paragraph 3.1.</h3>
+<p>To the extent that these documents contain sensitive business …</p>
+```
+
+3.3 survived because a paragraph follows it. 3.2 and 3.4 did not, so the
+snapshot held half of a page about what the Registrar will and will not
+disclose. Not a formatting quirk — those are statements of practice.
+
+**Footnotes are set as headings.** Parts 49.2, 52.4 and 55.2 close with an
+`<h4>` holding a numbered footnote. They carry citations, and the citations
+went with them: Part 55.2's reference to *AKT Consultants Pty Ltd v Alfa Laval
+Lund AB* (2006) 70 IPR 347 reached no case list at all, and Part 49.2's to
+s 25C of the *Acts Interpretation Act 1901* reached no provision list.
+
+**The heading is a label inside an example.** Part 29.9 sets the applicant of
+each worked example as `<h4>XYZ Company</h4>` with the mark below it as an
+`<h3>`. Nothing is lost in prose terms — but see below, because these are what
+made the fix bite.
+
+### What 0.5.0 does
+
+A heading with no content under it is chunked as its own content. The words are
+on the page and belong to no other section, so `text` is the heading and the
+leaf of `heading_path` equals it. An *empty* heading — six pages have an `<h3>`
+holding only a stripped image or a non-breaking space — is still skipped;
+there is nothing in one to record.
+
+### The collision this uncovered, and why a label is not a number
+
+Emitting those sections immediately raised `ChunkRefCollision` on Part 29.9:
+both examples are headed `XYZ Company`, both sections are heading-only, and both
+derived `TMM/Part29/9/xyz-company`. Part 29.4 does the same with the specimen
+mark `PLATYPUS`.
+
+§18 says a repeated heading *number* raises, and that stays true — the Manual's
+numbering is what a citation rests on, and two `8.1`s is a defect a human should
+take up with its authors. A repeated *label* is different. The Manual never
+promised that a label would identify a section, only that a number would, so
+there is no defect to report and nobody to report it to; and raising would mean
+this corpus could not be snapshotted at all.
+
+So the page is read before it is addressed. `_repeated_labels` counts the
+slug-derived addresses on a page, and a heading whose label the page prints more
+than once falls back to the positional form. Four sections across two Part 29
+pages take it. `ChunkRefCollision` still guards everything downstream.
+
+---
+
+## 20. A three-column table, flattened, reads as one sentence
+
+Found in the 0.5.0 review by asking a question the schema cannot: does the
+instrument in a provision id hold the kind of provision the id names?
+
+Twenty did not. Every one had the shape `TMR1995/s224` — section 224 of the
+*Regulations*, which does not exist; s 224 is in the Act. Every one was recorded
+`certainty: "explicit"`, the confident end of the scale, the only regex tier
+`SCHEMA.md` says may hydrate primary law into an answer.
+
+The cause is §17 meeting §4. A Relevant Legislation page is a three-column
+table:
+
+| Section 224 | Extension of time | Trade Marks Regulations 1995 |
+
+`chunk.text` renders it as a run of cell text, so those three cells become one
+line, and the 60-character instrument lookahead that hangs off `Section 224`
+reaches straight past two column boundaries into the instrument column of the
+same row.
+
+The fix is not a wider or narrower window — any window can cross a boundary the
+flattened text no longer marks. It is that **an Act holds sections and
+Regulations hold regulations, and neither ever holds the other's**. The
+reference word and the instrument title are two independent readings of one
+fact, so where they disagree the title is not this reference's instrument, and
+it is discarded. The reference then falls through to the same treatment as an
+unqualified one: `TMA1995/s224` at `default`.
+
+Discarded rather than raised on, because the row is not malformed. It says
+exactly what it means to a reader who still has the columns.
+
+`validate.py` now asserts the invariant over the whole snapshot, so a future
+extractor cannot reintroduce it quietly.
+
+---
+
+## 21. Naming the Act and the Regulations together is not an ambiguity
+
+Also 0.5.0. 757 of 1939 regex provision edges — 39% — carried
+`certainty: "ambiguous"`, a bucket `SCHEMA.md` says never to hydrate from. That
+is not a corpus that is 39% doubtful; it is a rule firing on the wrong thing.
+
+The rule was: more than one instrument named anywhere in the chunk makes a bare
+reference ambiguous. But nearly every page of the Manual names both the Act and
+the Regulations, because the Relevant Legislation preamble lists them together
+at the top. So `section 41` on a page that also mentions reg 4.15 was called
+ambiguous — when `section` already says, on its own, that the reference is to an
+Act.
+
+Only an instrument that could *hold* the reference competes for it. Filtering
+the scope by the reference's own kind before counting leaves 134 ambiguous
+edges, and they are the ones the flag exists for: 1955-vs-1995 Act passages,
+the Raising the Bar annexes, the Acts Interpretation Act overlaps.
+
+The Part 22.1 anaphora case of §4 — `section 26 of the Act`, in a paragraph
+about the 1955 Act — has two *Acts* in scope and still comes out ambiguous.
+That is the test that pins this, and it must not be allowed to pass by
+accident.
+
+---
+
+## 22. An internal link can name a heading, not just a page
+
+Also 0.5.0. Of the Manual's 524 internal hyperlinks, 137 carry a `#fragment`:
+
+```
+/trademark/4.-classification-procedures-in-examination#4.5-goods-or-services-to-be-grouped-together-by-class-number
+```
+
+The fragment is the Drupal slug of the target heading, and 47 of them open with
+the number the Manual prints. That number is exactly what the chunker builds
+the target's `chunk_ref` from, so `TMM/Part14/4/4/5` is determined, not guessed.
+The other 90 anchor on a single letter — the Part 5 glossary and the Part 14
+A13 index — and address no heading, so they stay page-level.
+
+All 399 `internal_refs` in the 0.4.0 snapshot were page-level, because a single
+pass cannot check a heading on a page it has not read. `ARCHITECTURE.md` §Two
+phases is what changed to make it checkable.
+
+Two things to know when reading the result:
+
+- **A section long enough to split owns no bare address.** `TMM/Part14/4/4/8`
+  is held by `…~1` through `…~4`, and a link to the heading is aimed at where
+  the section starts, which is `~1` by construction. 27 of the 47 land here.
+- **A heading that has gone coarsens, it does not vanish.** The page half of
+  the reference was established by URL and is still true. Two of the 47 are
+  this, on Parts 9.4 and 27.3, where the Manual has renumbered since the link
+  was written.
+
+32 references now address a chunk. It is a small number and it is the honest
+one: it is every anchor whose target this snapshot can actually confirm.

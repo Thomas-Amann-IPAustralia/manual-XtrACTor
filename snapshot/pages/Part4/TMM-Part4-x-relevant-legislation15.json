@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published 13 May 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 223 Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 223AA Approved means of paying a fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Paragraph 231(2)(d) Refund of fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Paragraph 231(2)(e) Remission of fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 256 Fees (transitional provision)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.21 What fees are payable"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.21A No action permitted until fee paid"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.22 How fees are to be paid"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.23 Notice of non-payment of fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.24 Refunds etc. of fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 22.2 Fees payable in relation to certain matters (transitional provisions)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schedule 9 Fees"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/x-relevant-legislation15#1",
       "content_hash": "sha256:d1c6f2ecf5716b71d6493ce53644bb8fca2751fbc6474b312e71110be74c83c2",
@@ -15,70 +77,70 @@
       "page_ref": "TMM/Part4/x-relevant-legislation15",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s223",
           "mention": "Section 223"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s223A",
           "mention": "Section 223A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s231(2)(d)",
           "mention": "Paragraph 231(2)(d)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s231(2)(e)",
           "mention": "Paragraph 231(2)(e)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s256",
+          "mention": "Section 256"
+        },
+        {
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.21",
           "mention": "Reg 21.21"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.21A",
           "mention": "Reg 21.21A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.22",
           "mention": "Reg 21.22"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.23",
           "mention": "Reg 21.23"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.24",
           "mention": "Reg 21.24"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r22.2",
           "mention": "Reg 22.2"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/s256",
-          "mention": "Section 256 Fees (transitional provision) Trade Marks Regulations 1995"
         }
       ],
       "tables": [],
@@ -89,9 +151,9 @@
     "amendment_note": "Page renamed and links updated.",
     "archived": false,
     "content_hash": "sha256:3a5abfb24f1beabef7660ba3405642dcc76985f93739eedac9cc7db1d0b43b2c",
-    "crawled_at": "2026-07-28T08:53:36Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "4. Landing Page",
     "images": [],
     "last_amended": "2025-05-14",

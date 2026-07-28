@@ -1,6 +1,44 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a certification trade mark is registered, the rules may be varied with the approval of the Commission (section 178)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.1 The owner of a registered certification trade mark can apply to the Commission to vary the rules governing the use of the trade mark (reg 16.8). The application must be in writing and include a copy of the rules showing the proposed variations (reg 16.8(2)). The application is made to the Commission not the Registrar."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.2 The rules may not be varied without the approval of the Commission (section 178(2))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.3 Before approving a variation to the rules, the Commission must be satisfied that the rules as varied would not be to the detriment of the public and that they satisfy section 175(2) (reg 16.10(1))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.4 The Commission undertakes the same assessment process as outlined in Part 35.6 of this Manual."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.5 If the variation is approved, the Commission must certify, in writing, that it is satisfied that the rules as varied meet the requirements of section 178(3). The Commission must notify the registered owner and send a copy of the certificate to the Registrar as well as a certified copy of the rules as varied. The variation is published and the rules are republished on the IP Australia website."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.6 An application may be made to the Administrative Review Tribunal for a review of a decision of the Commission to approve or not to approve a variation of the rules (section 178(5))."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part35/8#1",
       "content_hash": "sha256:39ff95b6f9ab0dab80ca28305380c02e5c8a38cfe58479d24657109c8c1f1b44",
@@ -65,9 +103,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:2ad9dbec703c57d859e525d96695e541ec48b6a74da0fc96fcdb7beb92fb7cbd",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "35.8. Variation of rules",
     "images": [],
     "last_amended": "2026-02-11",

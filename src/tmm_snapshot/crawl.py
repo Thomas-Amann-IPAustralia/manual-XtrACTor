@@ -17,9 +17,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from tmm_snapshot import config, writer
-from tmm_snapshot.chunker import chunk_body
+from tmm_snapshot.chunker import Chunk, chunk_body
+from tmm_snapshot.citations import resolve_internal_refs
 from tmm_snapshot.fetch import Fetcher
-from tmm_snapshot.page import parse_page
+from tmm_snapshot.page import PageRecord, parse_page
 from tmm_snapshot.sitemap import NavPage, build_sitemap, write_sitemap
 
 #: Matches the part_id form the schema requires: Part22, Part19A, Part32B.
@@ -310,6 +311,25 @@ def _html_for(
     return None
 
 
+@dataclass
+class Prepared:
+    """A page cut and waiting for the run to finish reading the others.
+
+    Writing cannot follow chunking directly, because a chunk's `internal_refs`
+    may address a heading on a page this run has not reached yet. See
+    `_resolve_refs`.
+    """
+
+    nav: NavPage
+    record: PageRecord
+    chunks: list[Chunk]
+    #: chunk_ref -> content_hash as the stored file had them, for gate 3. Kept
+    #: rather than the whole stored document so that holding 500 pages back
+    #: costs the run a couple of megabytes and not the snapshot.
+    was: dict[str, str]
+    seen_before: bool
+
+
 def _process(
     nav: NavPage,
     sitemap: dict[str, NavPage],
@@ -317,7 +337,7 @@ def _process(
     fetcher: Fetcher | None,
     args: argparse.Namespace,
     stats: Stats,
-) -> None:
+) -> Prepared | None:
     """One page, through all three gates."""
     stored = writer.read_page_file(writer.page_path(nav.page_ref, nav.part_id, root))
 
@@ -331,7 +351,7 @@ def _process(
         have_stored_record=stored is not None,
     )
     if html is None:
-        return
+        return None
 
     record, body = parse_page(html, nav)
     stats.parsed += 1
@@ -350,35 +370,103 @@ def _process(
     stored_page = stored.get("page") if stored else None
     if not args.force and writer.page_fields_unchanged(stored_page, record):
         stats.unchanged += 1
-        return
+        return None
 
     chunks = chunk_body(body, record, nav, sitemap)
     stats.chunks_cut += len(chunks)
 
+    return Prepared(
+        nav=nav,
+        record=record,
+        chunks=chunks,
+        was={
+            str(chunk.get("chunk_ref")): str(chunk.get("content_hash"))
+            for chunk in (stored.get("chunks", []) if stored else [])
+            if isinstance(chunk, dict)
+        },
+        seen_before=stored is not None,
+    )
+
+
+def _chunk_inventory(root: Path, prepared: list[Prepared]) -> frozenset[str]:
+    """Every chunk_ref the snapshot will hold once this run has written.
+
+    A page cut by this run contributes the refs it just produced; every other
+    page contributes the refs already on disk, which are still current because
+    a page whose chunks moved is a page that failed gate 2 and was re-cut. The
+    two together are the state an internal reference has to resolve against,
+    and neither alone is.
+    """
+    refs = {
+        chunk.chunk_ref for page in prepared for chunk in page.chunks
+    }
+    rewritten = {page.record.page_ref for page in prepared}
+
+    for path in writer.iter_page_files(root):
+        document = writer.read_page_file(path)
+        if document is None:
+            continue
+        page = document.get("page")
+        if not isinstance(page, dict) or page.get("page_ref") in rewritten:
+            continue
+        refs.update(
+            str(chunk.get("chunk_ref"))
+            for chunk in document.get("chunks", [])
+            if isinstance(chunk, dict) and chunk.get("chunk_ref")
+        )
+
+    return frozenset(refs)
+
+
+def _resolve_refs(
+    prepared: list[Prepared],
+    chunk_refs: frozenset[str],
+    page_refs: frozenset[str],
+) -> None:
+    """Settle every chunk's `internal_refs` against the finished inventory.
+
+    The chunker can only get an internal reference as far as a candidate: a
+    link to `#4.5-goods-or-services-to-be-grouped-together-by-class-number`
+    names a heading on another page, and whether that heading is still there is
+    not a question the page holding the link can answer. Deferring it to here
+    is what lets the reference land on the chunk rather than being coarsened to
+    the whole page, which is what all 399 of them were before.
+    """
+    for page in prepared:
+        for chunk in page.chunks:
+            chunk.internal_refs = resolve_internal_refs(
+                chunk.internal_refs, chunk_refs, page_refs
+            )
+
+
+def _commit(
+    page: Prepared, root: Path, args: argparse.Namespace, stats: Stats
+) -> None:
+    """Gate 3, then the write."""
     # Gate 3. The page moved, but most of it may not have. Every chunk is
     # rewritten regardless — they share a file — so this only feeds the report,
     # which is what tells a reviewer whether an amendment touched one paragraph
     # or the whole Part.
-    was = {
-        chunk.get("chunk_ref"): chunk.get("content_hash")
-        for chunk in (stored.get("chunks", []) if stored else [])
-        if isinstance(chunk, dict)
-    }
     changed_chunks = sum(
-        1 for chunk in chunks if was.get(chunk.chunk_ref) != chunk.content_hash
+        1
+        for chunk in page.chunks
+        if page.was.get(chunk.chunk_ref) != chunk.content_hash
     )
     stats.chunks_changed += changed_chunks
 
+    nav = page.nav
     if args.dry_run:
-        _, _, changed = writer.render_page(record, chunks, root)
+        _, _, changed = writer.render_page(page.record, page.chunks, root)
     else:
         writer.unretire(root, nav.page_ref, nav.part_id)
-        changed = writer.write_page(record, chunks, root)
+        changed = writer.write_page(page.record, page.chunks, root)
 
     if changed:
         stats.pages_written += 1
-        if stored is not None:
-            stats.amended.append((nav.page_ref, changed_chunks, len(chunks)))
+        if page.seen_before:
+            stats.amended.append(
+                (nav.page_ref, changed_chunks, len(page.chunks))
+            )
 
 
 def _corpus(root: Path, sitemap: dict[str, NavPage]) -> dict[str, object]:
@@ -577,9 +665,26 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
         # after-the-fact log names the last page that *worked*.
         width = len(str(stats.in_scope))
         _progress(f"{stats.in_scope} pages in scope")
+        prepared: list[Prepared] = []
         for index, nav in enumerate(scope, start=1):
             _progress(f"[{index:{width}}/{stats.in_scope}] {nav.page_ref} {nav.url}")
-            _process(nav, sitemap, root, fetcher, args, stats)
+            page = _process(nav, sitemap, root, fetcher, args, stats)
+            if page is not None:
+                prepared.append(page)
+
+        # Nothing is written until every page in scope has been cut, because a
+        # cross reference to a heading cannot be checked against a page that
+        # has not been read yet. Cheap: what is held back is the records and
+        # their text, not the source HTML.
+        if prepared:
+            _progress(f"resolving cross references across {len(prepared)} pages")
+            _resolve_refs(
+                prepared,
+                _chunk_inventory(root, prepared),
+                frozenset(nav.page_ref for nav in sitemap.values()),
+            )
+        for page in prepared:
+            _commit(page, root, args, stats)
 
         # One rotted nav link is the Manual's business. Every page failing is
         # ours: the site is down, or it has stopped serving us, and writing a

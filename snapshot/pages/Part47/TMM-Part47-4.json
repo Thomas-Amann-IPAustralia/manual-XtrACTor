@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 53 provides that, under certain circumstances, an opposition to registration may proceed in the name of a person other than the person who filed the notice of opposition. The right or interest upon which the person relied to file the notice of opposition must have passed to the other person, and the Registrar or the court must be notified of this fact in writing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The notification should be in the form of a declaration, outlining the circumstances under which the opponent’s original right or interest in the opposition became vested in another person. The opposition then proceeds as if the notice of opposition had been filed in the other person’s name, and the Trade Marks Office will update its records accordingly (see also regs 5.11(2) and 17A.34F(2) which provide for this amendment to be made in the notice of intention to oppose)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/4#1",
       "content_hash": "sha256:faa607765f9aa994edeb45a386461fa9ce6f318a530b9c83832d5ae06257f773",
@@ -15,7 +33,7 @@
       "page_ref": "TMM/Part47/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s53",
           "mention": "Section 53"
@@ -26,13 +44,13 @@
           "mention": ")"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.34F(2)",
           "mention": "regs 5.11(2) and 17A.34F(2)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.11(2)",
           "mention": "regs 5.11(2) and 17A.34F(2)"
@@ -46,9 +64,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:dcd5c4ca1459c13959c0b139da8254c9c8dba032327a3b5be05ff5d7dd72cf5d",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 47.4. Opposition may proceed in the name of another person",
     "images": [],
     "last_amended": "2025-04-01",

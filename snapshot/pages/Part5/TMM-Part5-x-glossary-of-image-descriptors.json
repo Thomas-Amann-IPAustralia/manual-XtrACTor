@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Glossary of Image Descriptors has been created by IP Australia to assist its customers in searching for trade mark images on the Trade Marks Register."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The document provides a list of all the terms IP Australia uses to describe images, or parts of images, within a trade mark. The pictures, many of which come from registered trade marks, are used only to demonstrate the meaning of some of the terms."
+        },
+        {
+          "kind": "paragraph",
+          "text": "IP Australia recognises the intellectual property rights of the owners of all trade marks used in this document. Any unauthorised use of the images may violate trade mark and copyright laws."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: items which appear in BOLD are 'top level terms'. This means they cover a number of sub-terms underneath them. For example, if you search for the top level term VEGETABLE, your search will return all hits which contain sub-terms such a CAPSICUM, ONION, LETTUCE etc. A full list of top level terms is available."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Alphabetical listing of image descriptors."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part5/x-glossary-of-image-descriptors#1",
       "content_hash": "sha256:6699134ab00c064898d410f0ace926c854ebe323c761cb95f1391abf6ce2a6c0",
@@ -18,15 +40,39 @@
       "provisions": [],
       "tables": [],
       "text": "The Glossary of Image Descriptors has been created by IP Australia to assist its customers in searching for trade mark images on the Trade Marks Register. The document provides a list of all the terms IP Australia uses to describe images, or parts of images, within a trade mark. The pictures, many of which come from registered trade marks, are used only to demonstrate the meaning of some of the terms. IP Australia recognises the intellectual property rights of the owners of all trade marks used in this document. Any unauthorised use of the images may violate trade mark and copyright laws. Note: items which appear in BOLD are 'top level terms'. This means they cover a number of sub-terms underneath them. For example, if you search for the top level term VEGETABLE, your search will return all hits which contain sub-terms such a CAPSICUM, ONION, LETTUCE etc. A full list of top level terms is available. Alphabetical listing of image descriptors."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part5/x-glossary-of-image-descriptors/a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z",
+      "content_hash": "sha256:2629988cbe9658729ed49e578812f0dc562e84b709d63feb6a3edd33006acf57",
+      "fragment": null,
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "Glossary of Image Descriptors",
+        "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part5/x-glossary-of-image-descriptors",
+      "provisions": [],
+      "tables": [],
+      "text": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
     }
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:54b792d5b29ddeaa5c061749b5abb94cd29ddae46b47a1ace4c02b0edf96ef76",
-    "crawled_at": "2026-07-28T08:53:37Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Glossary of Image Descriptors",
     "images": [],
     "last_amended": "2022-04-20",

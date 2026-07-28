@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "At the time of the introduction of Trade Marks Act 1995 the term “sign” was new in Australian trade marks legislation but it had been used in a number of European jurisdictions and by international organisations for many years."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/2#1",
       "content_hash": "sha256:0d7c2546a6546cb1ec46f2fc85ae97e02bcd73e040abf90c27eed78b34793d38",
@@ -18,6 +24,22 @@
       "text": "At the time of the introduction of Trade Marks Act 1995 the term “sign” was new in Australian trade marks legislation but it had been used in a number of European jurisdictions and by international organisations for many years."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In its pursuit of an international definition of trade mark the Association Internationale pour la Protection de la Propriété Industrielle (AIPPI), for example, at its congress of 1963 adopted by resolution a definition which included the following: “A mark is a sign capable of distinguishing the products or services of a person or of a group of persons.” The definition then goes on to list examples of the types of signs capable of constituting trade marks. WIPO's Model Law for Developing Countries on Marks, Trade Names and Acts of Unfair Competition includes the following definitions:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "“trademark” means any visible sign serving to distinguish the goods of one enterprise from those of other enterprises;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "“service mark” means any visible sign serving to distinguish the services of one enterprise from those of other enterprises."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/2/2/1",
       "content_hash": "sha256:72a85f22ed287c184363fe6575905cc7d723c1324bb148be9773fa3a36a3971f",
@@ -36,6 +58,16 @@
       "text": "In its pursuit of an international definition of trade mark the Association Internationale pour la Protection de la Propriété Industrielle (AIPPI), for example, at its congress of 1963 adopted by resolution a definition which included the following: “A mark is a sign capable of distinguishing the products or services of a person or of a group of persons.” The definition then goes on to list examples of the types of signs capable of constituting trade marks. WIPO's Model Law for Developing Countries on Marks, Trade Names and Acts of Unfair Competition includes the following definitions: “trademark” means any visible sign serving to distinguish the goods of one enterprise from those of other enterprises; “service mark” means any visible sign serving to distinguish the services of one enterprise from those of other enterprises."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A more recent attempt to achieve an internationally acceptable definition is that adopted in the Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS Agreement) as part of the Uruguay Round of talks on the General Agreement on Tariffs and Trade (GATT) which transformed the GATT into the World Trade Organization. Australia is a signatory to the TRIPS agreement and the definition of trade mark in the Act therefore reflects Australia's obligations under TRIPS. Article 15 of that agreement includes the following:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Any sign, or any combination of signs, capable of distinguishing the goods or services of one undertaking from those of other undertakings, shall be capable of constituting a trademark. Such signs, in particular words including personal names, letters, numerals, figurative elements and combinations of colours as well as any combination of such signs, shall be eligible for registration as trademarks. Where signs are not inherently capable of distinguishing the relevant goods or services, Members may make registrability depend on distinctiveness acquired through use. Members may require, as a condition of registration, that signs be visually perceptible."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/2/2/2",
       "content_hash": "sha256:003feefe8104aa6396862d76287430540b62d07fb7068ce2c59f537f36cc619b",
@@ -58,9 +90,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:c255d3db53da3bc0f0d4e367533f4ed4c4381fb3a37505eefe037086e3f1a777",
-    "crawled_at": "2026-07-28T08:53:45Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "20.2. Background to definition of a trade mark",
     "images": [],
     "last_amended": "2022-04-20",

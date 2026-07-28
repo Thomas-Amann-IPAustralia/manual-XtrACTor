@@ -1,6 +1,17 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It is important to remember that the -9000000 signs in the trade mark database include those to which subsection 42(b) applies. That is, grounds for rejection can be that use of the trade mark is contrary to law rather than the application of sections 18 or 39. The indexing comments field gives information to assist examiners in determining what relevant part of the Trade Marks Act 1995 applies. Part 30 of this Manual gives details of examination practice when subsection 42(b) applies."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 30 Signs that are Scandalous or Contrary to Law"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/1",
       "content_hash": "sha256:d098c0df9fbb64c3b1234060d7bfb51643903d5cb43eb60f5eba511f04807246",
@@ -37,6 +48,12 @@
       "text": "It is important to remember that the -9000000 signs in the trade mark database include those to which subsection 42(b) applies. That is, grounds for rejection can be that use of the trade mark is contrary to law rather than the application of sections 18 or 39. The indexing comments field gives information to assist examiners in determining what relevant part of the Trade Marks Act 1995 applies. Part 30 of this Manual gives details of examination practice when subsection 42(b) applies. Part 30 Signs that are Scandalous or Contrary to Law"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Signs recorded in the database as -9000000 signs are not \"trade marks\", but prohibited or prescribed signs or are contrary to law. Therefore, section 44 does not apply. However if, as is sometimes the case, the owner of the prohibited or prescribed sign also has a registration for that sign as a trade mark, section 44 may apply to the registered trade mark, not the -9000000 sign."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/2",
       "content_hash": "sha256:44286ca69f6b5dffead74137bffc5d84f1db3826160c03434caac0574b49e151",
@@ -61,6 +78,12 @@
       "text": "Signs recorded in the database as -9000000 signs are not \"trade marks\", but prohibited or prescribed signs or are contrary to law. Therefore, section 44 does not apply. However if, as is sometimes the case, the owner of the prohibited or prescribed sign also has a registration for that sign as a trade mark, section 44 may apply to the registered trade mark, not the -9000000 sign."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Some signs have a -9000000 number because they have been notified by WIPO and also because they otherwise fall within the scope of reg 4.15 or subsection 42(b). Grounds for rejection for signs falling into this category will be taken under reg 4.15 (prescribed signs) or subsection 42(b) (contrary to law), as appropriate, rather than on the basis of the WIPO notification. For example, ANZAC has been notified by WIPO as a result of a request from the Australian and New Zealand governments. Use of the word ANZAC is also subject to Australian law. The appropriate ground for rejection for an application involving the word ANZAC is taken under subsection 42(b)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/3",
       "content_hash": "sha256:894f4ceac432b05806d9ced8e192a315885f05b2fc70d24bb85d38e03db46bef",
@@ -94,9 +117,9 @@
     "amendment_note": "Whole part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:91e15bf98d0f071c12149cbf3056cdd7631f3b35a1ccb6ecb03f8568d4638a62",
-    "crawled_at": "2026-07-28T08:53:52Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "31.5. Other information relevant to examining trade marks that contain a prohibited and prescribed sign",
     "images": [],
     "last_amended": "2026-07-22",

@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "The current Defence Force prohibited signs are listed in the linked document."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part30/x-annex-a3---defence-force-prohibited-terms-and-emblems#1",
       "content_hash": "sha256:55486f6acb1ea90d1380e8433af41938d5481485c630e7cdd88250b6b8fd164a",
@@ -22,9 +28,9 @@
     "amendment_note": "Re-submitting this page to send the Defence Force prohibited signs to external Manual",
     "archived": false,
     "content_hash": "sha256:69b5d228181f51fcc0d3ad5e823ccc701f0bad80ef816ba39ae8dfe965101e62",
-    "crawled_at": "2026-07-28T08:53:51Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2023-07-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "30. Annex A3 - Defence Force prohibited terms and emblems",
     "images": [],
     "last_amended": "2023-07-10",

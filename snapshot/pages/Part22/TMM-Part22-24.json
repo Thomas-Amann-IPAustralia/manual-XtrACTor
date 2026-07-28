@@ -1,6 +1,25 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A ground for rejection under section 41 exists where a trade mark to be used in relation to pharmaceuticals or veterinary substances is identical or confusingly similar to a notified International Non-Proprietary Name (INN) or a notified INN stem."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A ground for rejection under section 43 may also be necessary. For more information in relation to INNS , INN Stems and section 43 see:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 29 Trade Marks Likely to Deceive or Cause Confusion - 29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems"
+        },
+        {
+          "kind": "paragraph",
+          "text": "When examining applications for registration of trade marks in class 5 covering pharmaceuticals or veterinary substances, examiners should check the trade mark against the INN list using search tools such as the Search for International Nonproprietary Names for Pharmaceutical Substances on Australian Trade Mark Search and the list of INN stems found a Annex 1 in Part 29 of this Manual."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/24#1",
       "content_hash": "sha256:880562cc14d8f6f20d37872e77471785edb39c65c4715e73bc233b1d60a11376",
@@ -31,6 +50,12 @@
       "text": "A ground for rejection under section 41 exists where a trade mark to be used in relation to pharmaceuticals or veterinary substances is identical or confusingly similar to a notified International Non-Proprietary Name (INN) or a notified INN stem. A ground for rejection under section 43 may also be necessary. For more information in relation to INNS , INN Stems and section 43 see: Part 29 Trade Marks Likely to Deceive or Cause Confusion - 29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems When examining applications for registration of trade marks in class 5 covering pharmaceuticals or veterinary substances, examiners should check the trade mark against the INN list using search tools such as the Search for International Nonproprietary Names for Pharmaceutical Substances on Australian Trade Mark Search and the list of INN stems found a Annex 1 in Part 29 of this Manual."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A ground for rejection under section 41 is appropriate where a trade mark to be used in relation to pharmaceuticals or veterinary substances is identical or confusingly similar to a notified INN. This is because an INN is effectively the generic name for a substance and is therefore something which other traders are likely to want to use on or in connection with their own goods."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/24/24/1",
       "content_hash": "sha256:e5aa294f0428e0e255353023798d6caf1befea48dbb0e4dc4bd8e17e2ecd7984",
@@ -55,6 +80,16 @@
       "text": "A ground for rejection under section 41 is appropriate where a trade mark to be used in relation to pharmaceuticals or veterinary substances is identical or confusingly similar to a notified INN. This is because an INN is effectively the generic name for a substance and is therefore something which other traders are likely to want to use on or in connection with their own goods."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A ground for rejection under section 41 is appropriate where a trade mark to be used in relation to pharmaceutical or veterinary substances, is in its entirety identical to a notified INN stem. Such a trade mark is not considered capable of distinguishing the applicant’s goods and a ground for rejection would be very difficult to overcome."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In some cases, it may also be appropriate to take a ground for rejection in relation to trade marks which are substantially identical (or in rare instances, confusingly similar) to a notified INN stem. Since the INN stem describes families of pharmacologically related substances it should be available for use by anyone in a descriptive context."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/24/24/2",
       "content_hash": "sha256:881b734274003b7e4803cdc6e5191f8453288290cd195a9a62ae865b6375a808",
@@ -84,9 +119,9 @@
     "amendment_note": "Reviewed - no changes.",
     "archived": false,
     "content_hash": "sha256:09f7a40a25d69d35abf1b92e4526205b06a473336c9a91d6cc05c3e4b74cf5b7",
-    "crawled_at": "2026-07-28T08:53:47Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.24. Trade marks for pharmaceutical or veterinary substances",
     "images": [],
     "last_amended": "2022-12-19",

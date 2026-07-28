@@ -1,6 +1,34 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Per section 7(3), an \"authorised use\" of a trade mark by a person is taken, for the purposes of the Act, to be a use of the trade mark by the owner of the trade mark. Where authorised use is to be relied on, there is, from the framing of section 100(1), an onus on the opponent to demonstrate both the use on which it relies and that this use was by an authorised user."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Moreover, subsection 8(2) draws a line between mere uncontrolled use by an authorised user, on one hand, and \"authorised use\" per se. The latter exists \"to the extent only that the user uses the trade mark under the control of the owner\". Therefore, there is an onus on an opponent to demonstrate that the user was in fact authorised, in the sense that it was \"under the control of the owner\" (See Yau’s Entertainment Pty Ltd v Asia Television Ltd [2002] FCA 338). Subsections 8(3) and 8(4) provide two non-exclusive examples of where such control is taken to exist. These are:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "where the owner of a trade mark exercises quality control over the goods or services in relation to which the trade mark is used by the authorised user (subsection 8(3)), and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "where the owner of the trade mark exercises financial control over the authorised user’s relevant trading activities (subsection 8(4))."
+        }
+      ],
       "cases": [
         {
           "citation": "[2002] FCA 338",
@@ -20,31 +48,31 @@
       "page_ref": "TMM/Part48/7",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s100(1)",
           "mention": "section 100(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s7(3)",
           "mention": "section 7(3)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s8(2)",
           "mention": "subsection 8(2)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s8(3)",
           "mention": "Subsections 8(3) and 8(4)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s8(4)",
           "mention": "Subsections 8(3) and 8(4)"
@@ -58,9 +86,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:c7ff13235fab32bd52661efbd43fe49fed4148f7590f59919df1b7955cdabcbe",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 48.7. Authorised use by another person",
     "images": [],
     "last_amended": "2025-04-01",

@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The fact that a record has been made in the Register that a person claims an interest or right in a registered trade mark is not of itself proof or evidence that the person has that right or interest (section 116). However, the legislation makes provision for the person to be kept informed of critical actions that the owner may take with regard to the trade mark which could affect the rights or interests claimed. In the event of the owner applying to assign or transmit the trade mark (section 111), or seeking removal for non use (section 92), or requesting cancellation of the registration (section 84) or cancellation of the claimed interest (sub reg. 11.3(4)) the Registrar must, before doing the act, notify the person claiming the interest and allow time for the person to take court action preventing the action of the owner."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part44/2#1",
       "content_hash": "sha256:eb2ae907519eda262b62948e3c170d1a85b718938e6490384dc6edd8ebaf6c66",
@@ -15,31 +29,31 @@
       "page_ref": "TMM/Part44/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s111",
           "mention": "section 111"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s116",
           "mention": "section 116"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s84",
           "mention": "section 84"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s92",
           "mention": "section 92"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r11.3(4)",
           "mention": "reg. 11.3(4)"
@@ -53,9 +67,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:2e93e2b1a7e51cdaed68c9f16e8c613b63271527250709e9260927d394adac76",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 44.2. Effect of recording the claim",
     "images": [],
     "last_amended": "2025-02-25",

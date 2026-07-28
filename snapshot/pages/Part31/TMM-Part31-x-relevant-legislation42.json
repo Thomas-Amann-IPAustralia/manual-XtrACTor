@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 18 Certain signs not to be used as trade marks etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 39 Trade marks containing etc. certain signs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schedule 2 Signs that may not be registered as trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.15 Trade mark containing etc. certain signs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Paris Convention for the Protection of Industrial Property"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Art 6ter Marks: Prohibitions concerning State Emblems, Official Hallmarks, and Emblems of Intergovernmental Organizations"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part31/x-relevant-legislation42#1",
       "content_hash": "sha256:1220e2a70465ef0191729ab5dd8f80eb4d933697c874affcada4e723783ee51d",
@@ -43,9 +77,9 @@
     "amendment_note": "Whole part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:970dae87419764c226fea1eefc50276734bf80fe07890ccfeeedd93b614ed2d5",
-    "crawled_at": "2026-07-28T08:53:52Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "31. Relevant Legislation",
     "images": [],
     "last_amended": "2026-07-22",

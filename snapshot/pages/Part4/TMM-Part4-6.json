@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If no fee is paid in relation to a document requiring a fee, the following procedures apply:"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/6#1",
       "content_hash": "sha256:a926926474111e3de82f81e5bc453369128f7760edb3705c8505859cc34eb414",
@@ -18,6 +32,24 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 If no fee is paid in relation to a document requiring a fee, the following procedures apply:"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "6.1.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If filed via paper, a non-payment receipt is given to acknowledge receipt of documents."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.1.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The document is stamped with the date received."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/1",
       "content_hash": "sha256:7700c6f16a1e741b0739ce2207ea39e21afe26c237a6145c4b1b270a93226b9c",
@@ -36,6 +68,24 @@
       "text": "6.1.1 If filed via paper, a non-payment receipt is given to acknowledge receipt of documents. 6.1.2 The document is stamped with the date received."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "6.2.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If no fee is paid and there is no authorisation of payment, a Notice of Underpayment (NoU) will be issued."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.2.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The document and NoU is automatically added to the relevant RIO file."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/2",
       "content_hash": "sha256:83defc4e630a3747e17dc784e674b3c7ea3eb1c3c8f1ec543db1989d83e8f0b2",
@@ -54,6 +104,56 @@
       "text": "6.2.1 If no fee is paid and there is no authorisation of payment, a Notice of Underpayment (NoU) will be issued. 6.2.2 The document and NoU is automatically added to the relevant RIO file."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "6.3.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar notifies the person of the non-payment of the fee as soon as possible. If the notification is given verbally it must be confirmed in writing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.3.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the Registrar notifies the person within the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken not to have been filed until the fee is paid."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.3.3"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the Registrar does not notify the person within the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken to be filed on the date it is received."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.3.4"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The notification is recorded in the outbound correspondence record."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.3.5"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If notification occurred within 14 days, when the payment is made, the document is taken to have been filed on the date the money is received. The receipt date for this money is the filing date."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.3.6"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If notification did not occur within 14 days, the receipt date of the document is the filing date, and the date must be adjusted when the fee is allocated."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3",
       "content_hash": "sha256:3fe253818bb3090541d9d08c6c841a4fd4b2cf67d161f41b8a1b94bf7a863265",
@@ -85,6 +185,16 @@
       "text": "6.3.1 The Registrar notifies the person of the non-payment of the fee as soon as possible. If the notification is given verbally it must be confirmed in writing. 6.3.2 If the Registrar notifies the person within the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken not to have been filed until the fee is paid. 6.3.3 If the Registrar does not notify the person within the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken to be filed on the date it is received. 6.3.4 The notification is recorded in the outbound correspondence record. 6.3.5 If notification occurred within 14 days, when the payment is made, the document is taken to have been filed on the date the money is received. The receipt date for this money is the filing date. 6.3.6 If notification did not occur within 14 days, the receipt date of the document is the filing date, and the date must be adjusted when the fee is allocated."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "6.4.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Other than new trade mark applications, these documents are tracked using manual records through a 10 business day (5 days for hearings/oppositions) period and a refund processed if relevant."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/4",
       "content_hash": "sha256:d84be0eaf52bbd61ee8911b7ed85c823b25d058219a478f85439497eb21291d4",
@@ -107,9 +217,9 @@
     "amendment_note": "Title and links updated",
     "archived": false,
     "content_hash": "sha256:2ab513a13be9ae44ab09cbc3c3fd2779085efe6e9a1ea54f153d3c8c71016441",
-    "crawled_at": "2026-07-28T08:53:36Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 4.6. No fee paid",
     "images": [],
     "last_amended": "2025-05-14",

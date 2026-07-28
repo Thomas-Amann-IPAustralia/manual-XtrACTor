@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Unless they are the only party to a proceeding, parties should only communicate directly with the Hearing Officer outside of the hearing where it is appropriate to do so, and such communications must always be open and uncontroversial. Communications with the Hearing Officer must only occur with the prior knowledge or consent of all other parties to the proceeding where any issue of possible controversy exists or is likely to arise in respect of the issue being addressed. This is not satisfied by mere copying in of others to the communication. It is only adequate to copy in the others when the communication is entirely uncontroversial."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/11#1",
       "content_hash": "sha256:bb37ccbece1467e12656a0813cd6ad529df6afd70df2392a60d2a4495aea9e9c",
@@ -22,9 +36,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:58235a6ff6ca4cfc9c6749e21fec8e82f2cdc72b3b4bed4c1f6fbbedc1a3eea6",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 51.11 Unilateral Communications with Hearing Officers",
     "images": [],
     "last_amended": "2025-04-02",

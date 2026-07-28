@@ -1,6 +1,63 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Federal Court and the Federal Circuit and Family Court of Australia (Division 2) have jurisdiction to hear and determine appeals and reviews from a decision of the Registrar (ss 191 and 191A). The statutory rights of appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision in a trade mark opposition are as follows:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "opposition to registration/extension of protection of a trade mark - s 56 and reg 17A.34P;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "opposition to removal/cessation of protection of a trade mark for non-use - s 104 and reg 17A.48X;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "opposition to amendment to a trade mark application - s 67;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "opposition to amendment to a trade mark registration – s 83A(8)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The avenues for appealing a decision in an opposition to an extension of time for more than 3 months depend on the nature of the decision."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "If the decision is to allow the extension, an Application for an Order of Review may be made to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) under the Administrative Decisions (Judicial Review) Act 1977."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "If the decision is to refuse the extension, an application for review of decision may be made to the Administrative Review Tribunal (s 224(7))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once an appeal or application for review has been filed no further action will be taken to implement the Registrar’s decision until the appeal/review has been decided or discontinued. The Registrar’s decision will be subject to any orders made by the court/tribunal. However, if the Registrar is named as a respondent in the appeal or review or intends assuming the role of amicus curiae (Friend of the Court) then legal representation is engaged. On request the Australian Government Solicitor usually assumes that role."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 52 Hearings, Decisions, Reasons and Appeals"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/8#1",
       "content_hash": "sha256:6b525a72747d085240b136511a1c14ae8da15a958b6a5b37b8e8f07e0c6639b3",
@@ -59,13 +116,13 @@
           "mention": "s 83A(8)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.34P",
           "mention": "reg 17A.34P"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.48X",
           "mention": "reg 17A.48X"
@@ -79,9 +136,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:fbab89469571b27db1caae4964996b308d594507ded32cb9b0fa5bfa9956bdfd",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 51.8. Rights of appeal",
     "images": [],
     "last_amended": "2025-04-01",

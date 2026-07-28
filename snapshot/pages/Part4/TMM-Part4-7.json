@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "When payment is made by electronic transfer of money, the following procedures apply:"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/7#1",
       "content_hash": "sha256:a52bda572bbb42f16d9f08ffa6eddda26d14480e4e0ff36e7c90f4d8ec2d68e3",
@@ -18,6 +32,12 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 When payment is made by electronic transfer of money, the following procedures apply:"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Customers paying by electronic funds transfer should fill out and send an EFT form at the time of the transfer including a reference number so that their payment can be identified promptly and their IP rights are not affected. The date of the transaction is the date the money arrives in IP Australia’s bank account not the date the transfer was made."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/7/7/1",
       "content_hash": "sha256:350b856cbac877653cfc82e992f04339d8fb8d27c144948d2690dc5ff6500cea",
@@ -36,6 +56,12 @@
       "text": "Customers paying by electronic funds transfer should fill out and send an EFT form at the time of the transfer including a reference number so that their payment can be identified promptly and their IP rights are not affected. The date of the transaction is the date the money arrives in IP Australia’s bank account not the date the transfer was made."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When received the electronic transfer appears on IP Australia’s bank statements."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/7/7/2",
       "content_hash": "sha256:00a4aa36897b2a53a4a59dc31f67dec8aeaf4ba3ca68bbc37236ef47813f9bc7",
@@ -54,6 +80,12 @@
       "text": "When received the electronic transfer appears on IP Australia’s bank statements."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The transfer is matched with the document and the Receiver of Public Monies issues a receipt and then forwards the documentation to Administration."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/7/7/3",
       "content_hash": "sha256:74ea388c77620ec3c5b2d10c03b8971c7573febaee452ce10f5eb9babdae0983",
@@ -72,6 +104,12 @@
       "text": "The transfer is matched with the document and the Receiver of Public Monies issues a receipt and then forwards the documentation to Administration."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The matching procedure takes time and is not usually finalised within 14 days of the receipt of the document. It is appropriate to take the document to be filed or the act to which the document relates to be done on the date that the payment is received."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part4/7/7/4",
       "content_hash": "sha256:0cb25f6e155a7011ae6b9cd7cdd21e36c26efe7cc5ae3ea02c38251d0d7b94b8",
@@ -94,9 +132,9 @@
     "amendment_note": "Page renamed and links updated.",
     "archived": false,
     "content_hash": "sha256:413bc8fc4431f4ac86468079b69bfa22acd87a30a05ce9c60fd0c4aa8eb8183f",
-    "crawled_at": "2026-07-28T08:53:36Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 4.7. Electronic transfers",
     "images": [],
     "last_amended": "2025-05-14",

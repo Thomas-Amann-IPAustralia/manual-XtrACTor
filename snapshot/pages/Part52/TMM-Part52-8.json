@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under the provisions of the Trade Marks Act 1995 it is at times necessary to serve on the Registrar of Trade Marks copies of documents which have been filed in court. It is also at times necessary to serve on the Registrar copies of subpoenas and other documents issued in court proceedings. Such documents may be served by leaving them with the Deputy Registrar of Trade Marks, Oppositions and Hearings Section."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Documents for the Registrar of Trade Marks or the Deputy Registrar of Trade Marks, Oppositions and Hearings Section, should be served at IPAustralia in the Australian Captial Territory in person, by post or where appropriate via the online services page. Where necessary the originals of such documents should be delivered to IP Australia’s physical address without delay, addressed to the attention of the Deputy Registrar of Trade Marks, Hearings & Opposition Section."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part52/8#1",
       "content_hash": "sha256:e3bbe451408394335dde47e925ca67f9124ab219e864f5fc7b1a37c624b0c61d",
@@ -22,9 +40,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:44afc485b54ffe5b3cd4478828317e82584d763496e9244887f798469fc46033",
-    "crawled_at": "2026-07-28T08:54:01Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 52.8. Service of documents on the Registrar",
     "images": [],
     "last_amended": "2025-04-02",

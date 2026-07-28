@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once an opponent has filed a complete notice of opposition (comprised of a notice of intention to oppose and an adequate statement of grounds and particulars) the applicant must file a notice of intention to defend if it wishes to continue with the non-use application."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If a notice of intention to defend is not filed, the Registrar may take the opposition to have succeeded and refuse to remove the trade mark from the Register (regs 9.15, 17A.48Q)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar will notify the parties of the status of the opposition after the notice of intention to defend is, or is not, filed."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/4#1",
       "content_hash": "sha256:11a56bd149f712fa77bc2188fa341aad8239ea4709668516aa3a0c6222e32c91",
@@ -15,13 +37,13 @@
       "page_ref": "TMM/Part49/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.48Q",
           "mention": "regs 9.15, 17A.48Q"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r9.15",
           "mention": "regs 9.15, 17A.48Q"
@@ -31,6 +53,12 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 Once an opponent has filed a complete notice of opposition (comprised of a notice of intention to oppose and an adequate statement of grounds and particulars) the applicant must file a notice of intention to defend if it wishes to continue with the non-use application. If a notice of intention to defend is not filed, the Registrar may take the opposition to have succeeded and refuse to remove the trade mark from the Register (regs 9.15, 17A.48Q). The Registrar will notify the parties of the status of the opposition after the notice of intention to defend is, or is not, filed."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The notice of intention to defend must be filed within two months from the day the applicant is given a copy of the statement of grounds and particulars."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/1",
       "content_hash": "sha256:bbc32f0d37a97dee2471aefa5c894521946201f50c104c97c2a30951cd94f5e4",
@@ -49,6 +77,20 @@
       "text": "The notice of intention to defend must be filed within two months from the day the applicant is given a copy of the statement of grounds and particulars."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The notice of intention to defend must be filed in an approved form."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The notice of intention to defend is a very basic document in which the applicant indicates its intention to defend the non-use application. There is a form available on IP Australia’s website which may be used, or a simple letter from the applicant will be sufficient."
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is no fee associated with filing a notice of intention to defend."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/2",
       "content_hash": "sha256:cded95aca6cdacf9f70d6f03f840b15a900fedcddfafc462356a3635e9a38a0f",
@@ -67,6 +109,34 @@
       "text": "The notice of intention to defend must be filed in an approved form. The notice of intention to defend is a very basic document in which the applicant indicates its intention to defend the non-use application. There is a form available on IP Australia’s website which may be used, or a simple letter from the applicant will be sufficient. There is no fee associated with filing a notice of intention to defend."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It is possible to apply to extend the time for filing a notice of intention to defend. The application must be made within three months from when the applicant was given a copy of the statement of grounds and particulars. (regs 9.15A, 17A.48QA)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The application must be in approved form and be accompanied by a declaration stating the relevant facts and circumstances (regs 9.15A(3), 17A.48QA(3))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An applicant may only seek an extension of time on the following grounds (reg 9.15A(4)):"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "An error or omission by the person, the person’s agent, the Registrar or an employee;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar may grant an application under reg 9.15A(1) or 17A.48QA(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension (reg 9.15B, 17A.48QB)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/3",
       "content_hash": "sha256:c66778cc3cb484b832ba6d6702fef178182d4c505fe4386a9098d8f4392075bc",
@@ -126,9 +196,9 @@
     "amendment_note": "Minor change in line with IRHO Regulations",
     "archived": false,
     "content_hash": "sha256:6cc3837f04bbc40634f6c6a34428693aaa7fcbae2c5ec25fcd2e6cb437ac8761",
-    "crawled_at": "2026-07-28T08:53:59Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-02-26",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 49.4. Notice of intention to defend",
     "images": [],
     "last_amended": "2026-02-26",

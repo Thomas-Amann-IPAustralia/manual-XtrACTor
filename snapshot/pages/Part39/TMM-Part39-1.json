@@ -1,6 +1,39 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Registration represents the successful end-point for an application for registration of a trade mark that has been accepted. In a legal sense, registration gives the owner a statutory right to use, license, or sell the mark within Australia for the goods or services for which it has been registered as explained in Part 19B."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 19B Rights Given by Registration of a Trade Mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A trade mark becomes registered when the Registrar, after the trade mark has been accepted for registration, and passed the opposition period, including any opposition proceedings or appeals (section 68), and any appropriate fee has been paid, enters all the particulars of the trade mark in the Register (section 69), and gives it a number by which it may be identified (section 68). In most cases, this number will be the number that was allocated to the application at the time of filing. In some limited circumstances, such as partial assignment, linking or amalgamation of trade marks, the number may be different. Registration of a trade mark must be published, and the Registrar must give the registered owner a certificate of registration (section 71)."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 43 Assignment"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 8 Amalgamation of Applications for Registration"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part39/1#1",
       "content_hash": "sha256:66be82b843c18b60d6205c4b79ee91d6465b38da3c05e2c6d65da557e4080902",
@@ -19,19 +52,19 @@
       "page_ref": "TMM/Part39/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s68",
           "mention": "section 68"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s69",
           "mention": "section 69"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s71",
           "mention": "section 71"
@@ -45,9 +78,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:c685fd1ca61079ba35a6b68518f0ab0ed4593f84b14bac11401ce2a1fb020922",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 39.1. Overview of registration",
     "images": [],
     "last_amended": "2025-06-04",

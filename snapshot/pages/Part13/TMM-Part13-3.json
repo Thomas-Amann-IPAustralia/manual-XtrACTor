@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The trade marks in a series must differ only in respect of one or more of the ways specified in paragraphs (a), (b) and (c) of subsection 51(1)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "These provisions allow only specific kinds of differences, namely:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(a) statements or representations as to the goods or services in relation to which the trade marks are to be used;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(b) statements or representations as to number, price, quality or names of places;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(c) the colour of any part of the trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This means that even if the material particulars resemble each other, they will not form a valid series if the trade marks differ in ways other than those allowed under paragraphs (a), (b) and (c)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part13/3#1",
       "content_hash": "sha256:e534f0f9036260d7fc412ca747e03302a9a635db60ba16a857150ef43b246462",
@@ -15,7 +49,7 @@
       "page_ref": "TMM/Part13/3",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s51(1)",
           "mention": "subsection 51(1)"
@@ -29,9 +63,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:fa9c47e662733f373c9d490606c4cea019d19dc234af2dfdf0cd2eda3ce99f85",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "13.3. Allowable Differences: Paragraphs 51(1)(a),(b) and (c)",
     "images": [],
     "last_amended": "2026-06-03",

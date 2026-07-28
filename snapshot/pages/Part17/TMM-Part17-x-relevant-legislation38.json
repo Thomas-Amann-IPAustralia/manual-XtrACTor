@@ -1,6 +1,36 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 36 Deferment of acceptance"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subreg 4.12(2) Periods for which applications lapse"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.13 Deferment of acceptance"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.14 Period for which acceptance is deferred"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 22.4 Certain deferments continue"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part17/x-relevant-legislation38#1",
       "content_hash": "sha256:1716751030db2973c64a06878d74978ebdf2c74e5cc7cadf529d85130ed58d26",
@@ -38,12 +68,6 @@
           "extraction": "href",
           "id": "TMR1995/r4.14",
           "mention": "Reg 4.14"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/s36",
-          "mention": "Section 36 Deferment of acceptance Trade Marks Regulations 1995"
         }
       ],
       "tables": [],
@@ -54,9 +78,9 @@
     "amendment_note": "Links to legislation added.",
     "archived": false,
     "content_hash": "sha256:a941235bb9afe42f5fb619ce7ed002967294bdca98ef6f4c48d88f4c782e3cfb",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "17. Relevant Legislation",
     "images": [],
     "last_amended": "2026-02-10",

@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The onus is on the examiner, having assessed the evidence, to be satisfied that the trade mark is not capable of distinguishing, having regard to the material provided and whether the trade mark is being considered under s 41(3) or (4). If the examiner, after considering the evidence, is not satisfied that the trade mark is not capable of distinguishing, the trade mark must be accepted."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following paragraphs give some guidance on particular issues to be conscious of when assessing evidence. Most of the comments are relevant to evidence irrespective of which subsection the ground for rejection is in relation to. However, there are some specific comments pertinent to trade marks with no inherent adaptation to distinguish which are set out in paragraph 5."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4#1",
       "content_hash": "sha256:1c3992b93ee25fccf0cef30bb04cd8c37a5239d7ddab791c12fb48d961acc5c4",
@@ -15,13 +33,13 @@
       "page_ref": "TMM/Part23/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s41(3)",
           "mention": "s 41(3)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s5",
           "mention": "paragraph 5"
@@ -31,6 +49,28 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 The onus is on the examiner, having assessed the evidence, to be satisfied that the trade mark is not capable of distinguishing, having regard to the material provided and whether the trade mark is being considered under s 41(3) or (4). If the examiner, after considering the evidence, is not satisfied that the trade mark is not capable of distinguishing, the trade mark must be accepted. The following paragraphs give some guidance on particular issues to be conscious of when assessing evidence. Most of the comments are relevant to evidence irrespective of which subsection the ground for rejection is in relation to. However, there are some specific comments pertinent to trade marks with no inherent adaptation to distinguish which are set out in paragraph 5."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Metrics associated with the use of a trade mark provide a relatively objective means for an examiner to assess the extent and effect of use of the trade mark in the market. The most commonly provided metrics are revenue and promotional expenditure figures."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The greater the turnover associated with the provision of goods or services under the trade mark, the more likely it is that the trade mark is capable of distinguishing the applicant's designated goods or services. Massive turnover may compensate for short use, likewise, long use may compensate for small turnover, especially in relation to trade marks with some inherent adaptation to distinguish. However, total turnover must be considered in the context of the relevant market and balanced against unit cost before a decision can be made on this issue. Applicants should be encouraged to supply information on unit costs and perhaps market share to help support their case."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Similarly, marketing expenditure figures may demonstrate significant exposure of the trade mark to consumers. Extensive marketing figures may supplement comparatively lower turnover and/or duration of use, and vice versa."
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a distinction between the reputation associated with a trade mark, and whether a trade mark is capable of distinguishing. The two concepts are not strictly synonymous. However, in most cases, evidence that would establish reputation in the trade mark will also assist an applicant in establishing that a trade mark is or will become capable of distinguishing. The effectiveness of turnover and marketing expenditure is considered by O’Bryan J in Rodney Jane Racing Pty Ltd v Monster Energy Company [2019] FCA 923 at [83]:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The ordinary meaning of the word “reputation” is the recognition of a person or thing by the public generally or the estimation in which a person or thing is held by the public generally: McCormick & Co Inc v McCormick (2000) 51 IPR 102 at [81] (McCormick). The reputation of a trade mark has quantitative and qualitative dimensions. The quantitative dimension concerns the breadth of the public that are likely to be aware of the mark, which can be evidenced by the quantum of sales, advertising and promotion of goods or services to which the mark is applied."
+        }
+      ],
       "cases": [
         {
           "citation": "(2000) 51 IPR 102",
@@ -61,6 +101,12 @@
       "text": "Metrics associated with the use of a trade mark provide a relatively objective means for an examiner to assess the extent and effect of use of the trade mark in the market. The most commonly provided metrics are revenue and promotional expenditure figures. The greater the turnover associated with the provision of goods or services under the trade mark, the more likely it is that the trade mark is capable of distinguishing the applicant's designated goods or services. Massive turnover may compensate for short use, likewise, long use may compensate for small turnover, especially in relation to trade marks with some inherent adaptation to distinguish. However, total turnover must be considered in the context of the relevant market and balanced against unit cost before a decision can be made on this issue. Applicants should be encouraged to supply information on unit costs and perhaps market share to help support their case. Similarly, marketing expenditure figures may demonstrate significant exposure of the trade mark to consumers. Extensive marketing figures may supplement comparatively lower turnover and/or duration of use, and vice versa. There is a distinction between the reputation associated with a trade mark, and whether a trade mark is capable of distinguishing. The two concepts are not strictly synonymous. However, in most cases, evidence that would establish reputation in the trade mark will also assist an applicant in establishing that a trade mark is or will become capable of distinguishing. The effectiveness of turnover and marketing expenditure is considered by O’Bryan J in Rodney Jane Racing Pty Ltd v Monster Energy Company [2019] FCA 923 at [83]: The ordinary meaning of the word “reputation” is the recognition of a person or thing by the public generally or the estimation in which a person or thing is held by the public generally: McCormick & Co Inc v McCormick (2000) 51 IPR 102 at [81] (McCormick). The reputation of a trade mark has quantitative and qualitative dimensions. The quantitative dimension concerns the breadth of the public that are likely to be aware of the mark, which can be evidenced by the quantum of sales, advertising and promotion of goods or services to which the mark is applied."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "As a general comment, it is necessary to balance the level of inherent adaptation of the trade mark with the strength of the evidence provided. For example, a trade mark consisting of the surname EDDOWES will need less evidence of use than a more common surname such as SMITH when used for the same, fairly commonplace goods or services and where surnames are generally used as trade marks for such goods or services. Conversely, if a surname is to be used on very specialised goods, such as magnetic resonance imaging scanners (MRI scanners), the amount of evidence required will not be as great as what would be required for cheap, mass marketed goods such as t-shirts."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/1~2",
       "content_hash": "sha256:24919bd4196a217039214c9d2ed5c30c31e29fa4f6d8814f36f3ab12f1fcbda3",
@@ -82,6 +128,20 @@
       "text": "As a general comment, it is necessary to balance the level of inherent adaptation of the trade mark with the strength of the evidence provided. For example, a trade mark consisting of the surname EDDOWES will need less evidence of use than a more common surname such as SMITH when used for the same, fairly commonplace goods or services and where surnames are generally used as trade marks for such goods or services. Conversely, if a surname is to be used on very specialised goods, such as magnetic resonance imaging scanners (MRI scanners), the amount of evidence required will not be as great as what would be required for cheap, mass marketed goods such as t-shirts."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It is not always appropriate to insist on provision of turnover and/or marketing figures. Examiners must always consider the commercial realities relevant to the claimed goods and/or services when assessing evidence and maintaining grounds for rejection."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sometimes, the capacity to distinguish of a trade mark might be more accurately demonstrated by metrics other than revenue or promotional expenditure figures. For example, it would not be practical for a not-for-profit organisation to supply sales figures, or for a specialised ‘word-of-mouth' business-to-business service to have extensive marketing figures."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Other metrics that are relevant may include website and social media analytic figures, funds managed, raised, or distributed by an entity (e.g. in the case of a investment company or a charity), or viewership figures for videos, podcasts etc."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/1/1",
       "content_hash": "sha256:85682fc198c313fbb5d484698e4b09d1fa2e8adadedb6c9206f171cb80b948ac",
@@ -101,6 +161,16 @@
       "text": "It is not always appropriate to insist on provision of turnover and/or marketing figures. Examiners must always consider the commercial realities relevant to the claimed goods and/or services when assessing evidence and maintaining grounds for rejection. Sometimes, the capacity to distinguish of a trade mark might be more accurately demonstrated by metrics other than revenue or promotional expenditure figures. For example, it would not be practical for a not-for-profit organisation to supply sales figures, or for a specialised ‘word-of-mouth' business-to-business service to have extensive marketing figures. Other metrics that are relevant may include website and social media analytic figures, funds managed, raised, or distributed by an entity (e.g. in the case of a investment company or a charity), or viewership figures for videos, podcasts etc."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It is common for traders to use multiple trade marks representing different levels of branding. Where such use is generally co-extensive, it may be inappropriate and unrealistic for examiners to insist on separate metrics for each trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, the weight that can be given to metrics in these situations will depend on the context of use of the various trade marks, and the extent of inherent adaptation of the trade mark being considered. The use of a highly descriptive trade mark in close proximity to a highly distinctive trade mark will be directly relevant to the weight that can be given to the metrics provided. In many cases, metrics may demonstrate that while a descriptive trade mark is widely used, the context of its use renders it unlikely that it has become, or is likely to become, an indicator of trade origin."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/1/2",
       "content_hash": "sha256:e2a9c7808f4807059790242ffc0f0f0a034f22703a310303ad72f42740873cb2",
@@ -120,6 +190,24 @@
       "text": "It is common for traders to use multiple trade marks representing different levels of branding. Where such use is generally co-extensive, it may be inappropriate and unrealistic for examiners to insist on separate metrics for each trade mark. However, the weight that can be given to metrics in these situations will depend on the context of use of the various trade marks, and the extent of inherent adaptation of the trade mark being considered. The use of a highly descriptive trade mark in close proximity to a highly distinctive trade mark will be directly relevant to the weight that can be given to the metrics provided. In many cases, metrics may demonstrate that while a descriptive trade mark is widely used, the context of its use renders it unlikely that it has become, or is likely to become, an indicator of trade origin."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There is no prescribed length of use which would indicate a sign has acquired, or will acquire, capacity to distinguish. Generally, the longer a trade mark has been in use, the more likely it is to be capable of distinguishing the applicant's designated goods or services. The length of time likely to support an application very much depends on the degree of inherent adaptation of the trade mark. The mere fact a trade mark has been used in the trade does not mean it is capable of distinguishing or is likely to become so."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example, a canned food producer might use the words 'Baked Beans' on their labels for a long period of time. The effect of this use must be considered. If the use is purely descriptive, then it is not use ‘as a trade mark’, and not relevant for determining whether the words are capable of distinguishing. Even if the use is considered to be ‘as a trade mark’, the words are highly descriptive and the examiner must consider the likelihood that they have come to distinguish the applicant’s goods from those of other traders who also sell baked beans. The applicant would face significant practical obstacles to doing this."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The extent of trade activity also correlates with the length of use. For example, a shorter length of use can still indicate distinctiveness is acquired, or will be acquired, if it is demonstrated in combination with a significant market share."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The length of time therefore, is only one factor which the examiner must consider in making their ultimate decision."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/2",
       "content_hash": "sha256:d421b57562ee76c8358fec228a50d49a7c421638e3327fc522d737fd22ad85d7",
@@ -138,6 +226,16 @@
       "text": "There is no prescribed length of use which would indicate a sign has acquired, or will acquire, capacity to distinguish. Generally, the longer a trade mark has been in use, the more likely it is to be capable of distinguishing the applicant's designated goods or services. The length of time likely to support an application very much depends on the degree of inherent adaptation of the trade mark. The mere fact a trade mark has been used in the trade does not mean it is capable of distinguishing or is likely to become so. For example, a canned food producer might use the words 'Baked Beans' on their labels for a long period of time. The effect of this use must be considered. If the use is purely descriptive, then it is not use ‘as a trade mark’, and not relevant for determining whether the words are capable of distinguishing. Even if the use is considered to be ‘as a trade mark’, the words are highly descriptive and the examiner must consider the likelihood that they have come to distinguish the applicant’s goods from those of other traders who also sell baked beans. The applicant would face significant practical obstacles to doing this. The extent of trade activity also correlates with the length of use. For example, a shorter length of use can still indicate distinctiveness is acquired, or will be acquired, if it is demonstrated in combination with a significant market share. The length of time therefore, is only one factor which the examiner must consider in making their ultimate decision."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In most cases, there is an expectation that the trade mark was used before the application was filed. However, if the application is to some extent inherently adapted to distinguish, use after the filing date is also relevant to determining the potential capacity to distinguish of the trade mark as at the date of filing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the use has not been continuous, the capability of the trade mark to designate a trade source may have been diminished. An indication that the use has been continuous, or if that is not the case, information describing the actual periods of use, should be included in the declaration and corroborated by evidence."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/3",
       "content_hash": "sha256:bfeca76e98baefb1ff2c3aeacdd009b316f224b7a99ef73bae11c4f5a4f8225a",
@@ -156,6 +254,20 @@
       "text": "In most cases, there is an expectation that the trade mark was used before the application was filed. However, if the application is to some extent inherently adapted to distinguish, use after the filing date is also relevant to determining the potential capacity to distinguish of the trade mark as at the date of filing. If the use has not been continuous, the capability of the trade mark to designate a trade source may have been diminished. An indication that the use has been continuous, or if that is not the case, information describing the actual periods of use, should be included in the declaration and corroborated by evidence."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The examiner may also consider evidence of intended use if the application is being considered under s 41(4)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Such evidence should provide a clear and reasoned basis for the applicant's commercial plans to use the trade mark. A mere indication that use is intended, or vague statements as to the applicant’s ambitions for use, will not be sufficient."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The applicant may choose to provide, for example, pre-launch market research and market estimates, product launch plans, and information about advertising and sales plans. Evidence of actual use after the filing date of the application can also give additional weight to statements regarding intended use."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/3/1",
       "content_hash": "sha256:69a463a4dc1388fd0bb25dbda922d0feb0c825b8d0ef3fbf7e372324ccfadd7f",
@@ -182,6 +294,24 @@
       "text": "The examiner may also consider evidence of intended use if the application is being considered under s 41(4). Such evidence should provide a clear and reasoned basis for the applicant's commercial plans to use the trade mark. A mere indication that use is intended, or vague statements as to the applicant’s ambitions for use, will not be sufficient. The applicant may choose to provide, for example, pre-launch market research and market estimates, product launch plans, and information about advertising and sales plans. Evidence of actual use after the filing date of the application can also give additional weight to statements regarding intended use."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The greater the demonstrated geographical extent of the use, the more likely it is that the trade mark will distinguish the applicant's designated goods or services throughout Australia."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If it is clear from the evidence that the use has only been in a relatively small geographical area, the application may be accepted with a geographical limitation. However, in many cases, if it is shown that a trade mark is capable of distinguishing the applicant’s goods and/or services in one state, then this may be sufficient to show that capacity nationally. Geographical limitations should be the exception, rather than the rule."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the past, services were more likely to be localised than goods, and quite localised use would allow acceptance of a trade mark for services, perhaps limited to a particular state. However, with the growth of franchising as a method of business organisation and development, and with technological changes (such as electronic communications and the Internet) which overcome barriers of distance, many services are becoming national or international in market access. This should be taken into account in assessing evidence."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: A geographical limitation is entered onto the Register as an endorsement. The form of the endorsement is: Registration of this trade mark is limited to the State of < >."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/4",
       "content_hash": "sha256:0aa5f604057acfcd7466855f70963210ac6cb348d3654e7e2b34dac00767c22c",
@@ -201,6 +331,32 @@
       "text": "The greater the demonstrated geographical extent of the use, the more likely it is that the trade mark will distinguish the applicant's designated goods or services throughout Australia. If it is clear from the evidence that the use has only been in a relatively small geographical area, the application may be accepted with a geographical limitation. However, in many cases, if it is shown that a trade mark is capable of distinguishing the applicant’s goods and/or services in one state, then this may be sufficient to show that capacity nationally. Geographical limitations should be the exception, rather than the rule. In the past, services were more likely to be localised than goods, and quite localised use would allow acceptance of a trade mark for services, perhaps limited to a particular state. However, with the growth of franchising as a method of business organisation and development, and with technological changes (such as electronic communications and the Internet) which overcome barriers of distance, many services are becoming national or international in market access. This should be taken into account in assessing evidence. Note: A geographical limitation is entered onto the Register as an endorsement. The form of the endorsement is: Registration of this trade mark is limited to the State of < >."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In some cases, use of a trade mark online that originates from a foreign country may constitute direct use of a trade mark in the Australian market (see Part 19A.4)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Even where such use is not considered direct use in the Australian market, a relevant ‘other circumstance’ may include the use of a trade mark in another country, particularly one where goods or services bearing the trade mark have likely been exposed to many Australian consumers."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Similarly, a strong Australian following of a foreign brand on social media may assist an applicant even before goods or services are provided in the Australian market."
+        },
+        {
+          "kind": "paragraph",
+          "text": "As always, the weight to be given to such evidence must be given on a case-by-case basis. For example, the capacity to distinguish of a particular trade mark used overseas is likely to be higher in cases where that trade mark has attracted significant attention in Australia. Conversely, a trade mark used extensively overseas but in a manner not particularly memorable to Australian consumers is unlikely to provide much assistance to an applicant."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It would be unlikely that evidence of use and reputation overseas would suffice to allow acceptance in Australia where the applicant also does not provide some indication of their plans to trade in Australia. Use of a trade mark overseas in most cases will be a complimentary rather than determinative factor."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Refer to para 5.3 for acceptable use when the trade mark is not to any extent inherently adapted to distinguish."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/5",
       "content_hash": "sha256:9e6a2a4287c77f6d5475c1ac4579d5e1d4d1966266501ad7b6e91a80252b6ba9",
@@ -222,6 +378,16 @@
       "text": "In some cases, use of a trade mark online that originates from a foreign country may constitute direct use of a trade mark in the Australian market (see Part 19A.4). Even where such use is not considered direct use in the Australian market, a relevant ‘other circumstance’ may include the use of a trade mark in another country, particularly one where goods or services bearing the trade mark have likely been exposed to many Australian consumers. Similarly, a strong Australian following of a foreign brand on social media may assist an applicant even before goods or services are provided in the Australian market. As always, the weight to be given to such evidence must be given on a case-by-case basis. For example, the capacity to distinguish of a particular trade mark used overseas is likely to be higher in cases where that trade mark has attracted significant attention in Australia. Conversely, a trade mark used extensively overseas but in a manner not particularly memorable to Australian consumers is unlikely to provide much assistance to an applicant. It would be unlikely that evidence of use and reputation overseas would suffice to allow acceptance in Australia where the applicant also does not provide some indication of their plans to trade in Australia. Use of a trade mark overseas in most cases will be a complimentary rather than determinative factor. Note: Refer to para 5.3 for acceptable use when the trade mark is not to any extent inherently adapted to distinguish."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For trade marks which are to some extent inherently adapted to distinguish, there is no requirement for the application to be restricted only to those goods/services demonstrated in the evidence. The legislative requirement is for the trade mark to be capable of distinguishing, not that it demonstrate it is already distinctive."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The evidence needs a commercially realistic assessment to determine whether the trade mark has a capacity to distinguish a broad range of goods, or only something narrower. For example, evidence demonstrating use on children's pyjamas and underwear in class 25, may support a capability to distinguish on a broader range of related goods, such as children's clothing; clothing for pre-teens and teens. The same evidence, however, may not support the applicant for a diverse range of goods and services, such as jewellery, backpacks, toys, and games. If the evidence does not support the applicant's complete claim, the examiner should consider suggesting the specification be restricted to include only the range of goods/services for which the mark is demonstrated to be capable of distinguishing and to which the grounds for rejection do not pertain."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/6",
       "content_hash": "sha256:7dc297bd147054d3350130d02b74cb388d32c9a48bdfcc678e6425a983dcc603",
@@ -240,6 +406,20 @@
       "text": "For trade marks which are to some extent inherently adapted to distinguish, there is no requirement for the application to be restricted only to those goods/services demonstrated in the evidence. The legislative requirement is for the trade mark to be capable of distinguishing, not that it demonstrate it is already distinctive. The evidence needs a commercially realistic assessment to determine whether the trade mark has a capacity to distinguish a broad range of goods, or only something narrower. For example, evidence demonstrating use on children's pyjamas and underwear in class 25, may support a capability to distinguish on a broader range of related goods, such as children's clothing; clothing for pre-teens and teens. The same evidence, however, may not support the applicant for a diverse range of goods and services, such as jewellery, backpacks, toys, and games. If the evidence does not support the applicant's complete claim, the examiner should consider suggesting the specification be restricted to include only the range of goods/services for which the mark is demonstrated to be capable of distinguishing and to which the grounds for rejection do not pertain."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Registrar has discretion under s 7(1) to consider that a trade mark applied for has been used if it is used with additions or alterations not substantially affecting its identity."
+        },
+        {
+          "kind": "paragraph",
+          "text": "What constitutes a substantially identical trade mark is discussed in Part 19A.7 and Part 26.5."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The use of a similar trade mark that is not substantially identical to the trade mark subject of the application may also in some cases be a relevant ‘other circumstance’ that can be considered under s 41(4) as discussed above."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/7",
       "content_hash": "sha256:2f08533a88b35f8e213885eaa0c6515249da05b5b89433d7e8f3566fa5219b34",
@@ -274,6 +454,12 @@
       "text": "The Registrar has discretion under s 7(1) to consider that a trade mark applied for has been used if it is used with additions or alterations not substantially affecting its identity. What constitutes a substantially identical trade mark is discussed in Part 19A.7 and Part 26.5. The use of a similar trade mark that is not substantially identical to the trade mark subject of the application may also in some cases be a relevant ‘other circumstance’ that can be considered under s 41(4) as discussed above."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the differences between the trade mark as applied for and as used do not affect its identity, there is no requirement for the application to be amended to conform with the use shown in the evidence. This may also not be possible under s 65 (see Part 9)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/7/1",
       "content_hash": "sha256:495e38b01241ccbc091ad113cadef426e4219934aaa9064b2858ddee0442a646",
@@ -300,6 +486,28 @@
       "text": "If the differences between the trade mark as applied for and as used do not affect its identity, there is no requirement for the application to be amended to conform with the use shown in the evidence. This may also not be possible under s 65 (see Part 9)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sometimes evidence clearly shows that the trade mark applied for is not used as the only brand for a product or service, but often in combination with another trade mark. It is common commercial practice to have multiple levels of branding (e.g. house brand, product brand, tagline etc) for a single product. Customers also expect to be exposed to multiple trade marks on labels and advertising material. For example, multiple trade marks are almost the norm for canned and packaged foods (e.g. Campbell's® Velish® soups), motor vehicles (e.g. Holden® Commodore® sedans and wagons), and children's toys (e.g. Mattel® Barbie® dolls and accessories)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The question to be answered is always whether the trade mark under examination is capable, in its own right, of distinguishing the applicant's goods or services from those of other traders in the market. If we accept that consumers expect to see multiple trade marks on packaging, the mere fact of use with another device or trade mark should not automatically go against the applicant. But neither should the simple submission of evidence give an automatic right to acceptance."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An important consideration for these kinds of trade marks is the context of the use demonstrated. Consumers may not perceive a highly descriptive term as a brand if it is used with more distinctive elements."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Bendigo and Adelaide Bank Limited v Community First Credit Union Limited [2021] FCAFC 31, the Full Court discussed this type of circumstance at [159]:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the present case, to adopt the words of Kitto J in Shell, the words “community bank” were presented in a setting where those words would not have appeared to the viewer as possessing the character of a brand for the purpose of indicating a connection in the course of trade. That connection was instead accomplished by the Bendigo branding. It was the Bendigo branding (and not the term “community bank”) that was used to distinguish the Services from those of other traders and to clearly indicate a connection between the Services and Bendigo."
+        }
+      ],
       "cases": [
         {
           "citation": "[2021] FCAFC 31",
@@ -326,6 +534,12 @@
       "text": "Sometimes evidence clearly shows that the trade mark applied for is not used as the only brand for a product or service, but often in combination with another trade mark. It is common commercial practice to have multiple levels of branding (e.g. house brand, product brand, tagline etc) for a single product. Customers also expect to be exposed to multiple trade marks on labels and advertising material. For example, multiple trade marks are almost the norm for canned and packaged foods (e.g. Campbell's® Velish® soups), motor vehicles (e.g. Holden® Commodore® sedans and wagons), and children's toys (e.g. Mattel® Barbie® dolls and accessories). The question to be answered is always whether the trade mark under examination is capable, in its own right, of distinguishing the applicant's goods or services from those of other traders in the market. If we accept that consumers expect to see multiple trade marks on packaging, the mere fact of use with another device or trade mark should not automatically go against the applicant. But neither should the simple submission of evidence give an automatic right to acceptance. An important consideration for these kinds of trade marks is the context of the use demonstrated. Consumers may not perceive a highly descriptive term as a brand if it is used with more distinctive elements. In Bendigo and Adelaide Bank Limited v Community First Credit Union Limited [2021] FCAFC 31, the Full Court discussed this type of circumstance at [159]: In the present case, to adopt the words of Kitto J in Shell, the words “community bank” were presented in a setting where those words would not have appeared to the viewer as possessing the character of a brand for the purpose of indicating a connection in the course of trade. That connection was instead accomplished by the Bendigo branding. It was the Bendigo branding (and not the term “community bank”) that was used to distinguish the Services from those of other traders and to clearly indicate a connection between the Services and Bendigo."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "While, the courts have observed that there is no clear distinction between descriptive use and use as a trade mark (See Moroccanoil Israel Ltd v Aldi Foods Pty Ltd [2017] FCA 823 at [146]), even if the use of a particular descriptive sign is considered to be ‘trade mark use’, the impact of other more distinctive trade marks on a product may diminish the weight that can be given to the evidence. When determining capacity to distinguish, the effect of use on the consumer is generally more relevant than the intention of the trade mark owner in using a particular term."
+        }
+      ],
       "cases": [
         {
           "citation": "[2017] FCA 823",
@@ -352,6 +566,36 @@
       "text": "While, the courts have observed that there is no clear distinction between descriptive use and use as a trade mark (See Moroccanoil Israel Ltd v Aldi Foods Pty Ltd [2017] FCA 823 at [146]), even if the use of a particular descriptive sign is considered to be ‘trade mark use’, the impact of other more distinctive trade marks on a product may diminish the weight that can be given to the evidence. When determining capacity to distinguish, the effect of use on the consumer is generally more relevant than the intention of the trade mark owner in using a particular term."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Tobacco Plain Packaging Act 2011 (TPP Act) came into effect on 1 December 2012 and restricts the way trade marks are used in relation to tobacco products in Australia. For example, cigarette packaging must be a generic drab dark brown and cannot feature logos, stylisation, embossing, decorative features or any other embellishments."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The TPP Act may affect how an applicant is able to demonstrate use of a trade mark in relation to tobacco products. The following points may be helpful when assessing evidence of use for a period on or after 1 December 2012:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Stylised trade marks were permitted on tobacco products in Australia prior to the commencement of the TPP Act (1 December 2012)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Tobacco products produced in Australia can be exported in packaging featuring stylised trade marks. Such use can be taken into account when assessing evidence for the purposes of s 41(5) or 41(4) for applications with a filing date on or after 15 April 2013"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Whilst the TPP Act restricts the use of trade marks in Australia in a retail context, there may be exposure of the trade mark in Australia via the internet"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Where evidence of use of the trade mark in Australia ceases at 1 December 2012, the applicant should provide a statement, in declaratory form, stating that the discontinuation of use is due to the TPP Act."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/4/4/9",
       "content_hash": "sha256:f050829be444b2ae7692836a49c3f0d1446c1841f8b78798bd292c18d501e1b0",
@@ -385,9 +629,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:671c266341798ed79c11dbf38b39fc56e56fc7a564e8720e1ddae48334b70434",
-    "crawled_at": "2026-07-28T08:53:48Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-18",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 23.4. Examining evidence - general",
     "images": [],
     "last_amended": "2025-02-18",

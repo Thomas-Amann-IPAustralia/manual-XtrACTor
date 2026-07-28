@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A collective trade mark may not be assigned or transmitted. This may represent a problem for an association which owns a collective trade mark, should the association become incorporated. Assignment or transmission of the trade mark to the incorporated association would not be allowed."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part33/5#1",
       "content_hash": "sha256:a3ed75ad7956be5d5adfd753e3da2e9e10ce8811e96d1dff4f030cd2f8c7c06e",
@@ -22,9 +36,9 @@
     "amendment_note": "No changes made from previous authorized edits. Thank you",
     "archived": false,
     "content_hash": "sha256:888577b6ff4152b71c3360b9220c47e2d65c2f4801ff6d9738b8a2d74a380b74",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "33.5. Assignment or transmission of collective trade marks",
     "images": [],
     "last_amended": "2025-01-24",

@@ -1,6 +1,52 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When declining an amendment request, include the following information in your report / letter:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If an amendment is not found to be in order, including whether the appropriate fee has been paid or if the amendment relates to an increase in class numbers a letter is sent out explaining the nature of the deficiency and that the amendment will not be processed until it is rectified."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the application for amendment is found to be in order according to the relevant criteria, the amendment is approved unless the amendment has been made under section 65A. If an amendment request under section 65A would be granted, it must be published to give other parties an opportunity to oppose the amendment. If no notice of opposition has been filed and served, the amendment is approved."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the amendment is approved, a standard notice is issued and the amendment is published. If the amendment has been requested as a result of the examination process, and is not an amendment to the specification of goods and/or services, the examiner will not always require a standard notice to be sent, as a report will be issued instead."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where an amendment is made to the specification of goods and/or services, a standard notice must be dispatched (except where the amendment leads to the acceptance of an application)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the amendment is not to the particulars of an application for a trade mark, or a registration, but to some other document and no entry is made on ATMS there is no published and acknowledgement will be by way of letter."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the amendment is to a trade mark, the trade mark is re-indexed. The image is re- captured if it is a device or fancy word trade mark."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part9/8#1",
       "content_hash": "sha256:ac78f85abe50c86e12bc6bf9698a458fff1248dd81806cda16692dc1f0095866",
@@ -15,7 +61,7 @@
       "page_ref": "TMM/Part9/8",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s65A",
           "mention": "section 65A"
@@ -29,9 +75,9 @@
     "amendment_note": "Outdated terms updated.",
     "archived": false,
     "content_hash": "sha256:639235ef2cfeb17a0a81fded5d576f8bf8e6ef19ce7c9b42affe8e10d21361d6",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 9.8. Process for amendments under subsection 63(1)",
     "images": [],
     "last_amended": "2026-06-17",

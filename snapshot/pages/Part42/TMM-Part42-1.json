@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rectification involves the amendment or cancellation of an entry in the Register. The amendment or cancellation results from an order given by a prescribed court. This generally occurs when a person aggrieved brings an action for rectification of the Register on any of the grounds set out in sections 85 to 88."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar can also make an application to the court for rectification under sections 86, 87 and 88. However the Registrar must not make an application under any of these provisions unless he or she considers the application desirable in the public interest (section 88A)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part42/1#1",
       "content_hash": "sha256:5e2f54790c23e56bddf82edea559103e50c71337503d8e9a02383971d373a3c1",
@@ -15,31 +33,31 @@
       "page_ref": "TMM/Part42/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s85",
           "mention": "sections 85 to 88"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s86",
           "mention": "sections 86, 87 and 88"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s87",
           "mention": "sections 86, 87 and 88"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s88",
           "mention": "sections 85 to 88"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s88A",
           "mention": "section 88A"
@@ -53,9 +71,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:8cadd2d9f4e28713eb1e00c75524e180102d444a1b27babda5d8d602af3f874e",
-    "crawled_at": "2026-07-28T08:53:56Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 42.1. What is rectification?",
     "images": [],
     "last_amended": "2025-04-01",

@@ -1,6 +1,64 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published 22 Oct 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 30 Particulars of application to be published"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 6 Amendment of application for registration of a trade mark and other documents"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 8, Division 1 Amendment and cancellation of registration—Action by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 215 Address for service"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 216 Change of name"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 247 Amendment of application—specification of goods and services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.7 Publication of particulars of application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 6 Amendment of application and other documents"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.3 Filing of documents - common requirements"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.11 Change of address for service - notice to interested persons"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.33 Directions not otherwise prescribed"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part9/x-relevant-legislation23#1",
       "content_hash": "sha256:228ae285e7cacc8c1a5a5e2dd1d74fe8343eec4dcf6f2639ddf4698335ea29d1",
@@ -15,49 +73,49 @@
       "page_ref": "TMM/Part9/x-relevant-legislation23",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s215",
           "mention": "Section 215"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s216",
           "mention": "Section 216"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s247",
           "mention": "Section 247"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s30",
           "mention": "Section 30"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.11",
           "mention": "Reg 21.11"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.3",
           "mention": "Reg 21.3"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.33",
           "mention": "Reg 21.33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.7",
           "mention": "Reg 4.7"
@@ -71,9 +129,9 @@
     "amendment_note": "Part Published - date updated.",
     "archived": false,
     "content_hash": "sha256:3a986bb1c89071544e28307c5670e243969de6660b3ef31413d2a4576a7ae296",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 9. Landing Page",
     "images": [],
     "last_amended": "2025-10-22",

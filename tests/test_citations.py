@@ -11,10 +11,12 @@ from bs4 import BeautifulSoup
 
 from tmm_snapshot import config
 from tmm_snapshot.citations import (
+    _ANCHOR_HEADING_ADDRESS,
     UnknownInstrument,
     extract_cases,
     extract_internal_refs,
     extract_provisions,
+    resolve_internal_refs,
 )
 from tmm_snapshot.page import flatten_text, parse_page, resolve_nav
 from tmm_snapshot.sitemap import NavPage
@@ -461,3 +463,166 @@ def test_an_external_link_is_never_an_internal_reference(sitemap):
     )
 
     assert extract_internal_refs(body, sitemap) == []
+
+
+# -- an instrument that cannot hold the provision it is next to -----------
+
+
+def test_a_section_is_never_attributed_to_the_regulations():
+    """The Relevant Legislation pages are three-column tables, and a chunk
+    renders one as a run of cell text. The lookahead then reaches the
+    instrument column of the same row, which named the Regulations while the
+    reference column named a section. 20 edges came out `TMR1995/s224` — a
+    section of the Regulations, which does not exist — and every one of them
+    was recorded `explicit`."""
+    found = by_id(
+        provisions(
+            "<p>Section 224 Extension of time Trade Marks Regulations 1995</p>"
+        )
+    )
+
+    assert "TMR1995/s224" not in found
+    assert found["TMA1995/s224"]["certainty"] != "explicit"
+
+
+def test_a_regulation_is_never_attributed_to_the_act():
+    """The same rule the other way round, which the corpus has not shown but
+    the markup allows."""
+    found = by_id(
+        provisions("<p>Regulation 21.6 Costs Trade Marks Act 1995</p>")
+    )
+
+    assert "TMA1995/r21.6" not in found
+    assert "TMR1995/r21.6" in found
+
+
+def test_an_instrument_of_the_right_kind_still_qualifies_across_the_bleed():
+    """Discarding the wrong-kind title must not discard a right-kind one
+    sitting behind it in the same window."""
+    found = by_id(
+        provisions(
+            "<p>Section 224, Trade Mark Regulations 1995, Trade Marks "
+            "Act 1995.</p>"
+        )
+    )
+
+    assert found["TMA1995/s224"]["certainty"] == "explicit"
+
+
+# -- what 'ambiguous' is actually for -------------------------------------
+
+
+def test_the_act_and_the_regulations_together_do_not_make_a_section_ambiguous():
+    """Nearly every page of the Manual names both, because the Relevant
+    Legislation preamble lists them together. Counting them as competing
+    instruments made 757 of 1939 regex edges ambiguous — a bucket SCHEMA.md
+    says never to hydrate from — for references whose own word already says
+    which kind of instrument they address."""
+    found = by_id(
+        provisions(
+            "<p>Trade Marks Act 1995 Trade Marks Regulations 1995. An "
+            "application must be rejected under section 41.</p>"
+        )
+    )
+
+    assert found["TMA1995/s41"]["certainty"] == "default"
+
+
+def test_a_bare_regulation_is_not_made_ambiguous_by_an_act():
+    found = by_id(
+        provisions(
+            "<p>The Trade Marks Act 1995 applies, and reg 21.6 sets the "
+            "costs.</p>"
+        )
+    )
+
+    assert found["TMR1995/r21.6"]["certainty"] == "default"
+
+
+def test_two_acts_in_scope_still_make_a_bare_section_ambiguous():
+    """The case the flag exists for, and the one SOURCE_NOTES.md §4 forbids
+    resolving: which Act 'section 26' means is genuinely undecidable here."""
+    found = by_id(
+        provisions(
+            "<p>Registrability was governed by the Trade Marks Act 1955. "
+            "Marks were considered under section 26 of the Act. The Trade "
+            "Marks Act 1995 replaced it.</p>"
+        )
+    )
+
+    assert found["TMA1995/s26"]["certainty"] == "ambiguous"
+
+
+# -- a cross reference that names a heading -------------------------------
+
+
+def test_the_anchor_address_pattern_agrees_with_the_chunkers():
+    """`_ANCHOR_HEADING_ADDRESS` reads the number out of a link's fragment and
+    `chunker._LEADING_ADDRESS` reads it out of the heading itself. They have to
+    agree or a link lands on a chunk_ref the chunker never built, and the
+    modules cannot import each other. So the agreement is pinned here."""
+    from tmm_snapshot.chunker import _LEADING_ADDRESS
+
+    for address in ("4", "4.5", "22.15.7", "3A", "9.20"):
+        heading = _LEADING_ADDRESS.match(f"{address} Some heading text")
+        anchor = _ANCHOR_HEADING_ADDRESS.match(f"{address}-some-heading-text")
+        assert heading is not None and anchor is not None
+        assert heading.group("address") == anchor.group("address") == address
+
+
+def test_a_link_to_a_heading_addresses_the_chunk_not_the_page(sitemap):
+    """137 of the Manual's internal links carry a fragment naming a
+    sub-section. All 399 internal_refs resolved to bare pages before this."""
+    body = fragment(
+        '<p>See <a href="/trademark/4.-classification-procedures-in-'
+        'examination#4.5-goods-or-services-to-be-grouped-together-by-class-'
+        'number">4.5</a>.</p>'
+    )
+    refs = extract_internal_refs(body, sitemap)
+
+    assert refs == ["TMM/Part14/4/4/5"]
+
+
+def test_a_fragment_naming_no_number_stays_a_page_reference(sitemap):
+    """The Part 5 glossary and the Part 14 A13 index anchor on single letters.
+    A letter addresses no heading number, and 90 of the 137 are these."""
+    body = fragment(
+        '<p>See <a href="/trademark/4.-classification-procedures-in-'
+        'examination#a">A</a>.</p>'
+    )
+
+    assert extract_internal_refs(body, sitemap) == ["TMM/Part14/4"]
+
+
+def test_a_candidate_resolves_to_the_chunk_when_the_chunk_exists():
+    assert resolve_internal_refs(
+        ["TMM/Part14/4/4/5"],
+        frozenset({"TMM/Part14/4/4/5"}),
+        frozenset({"TMM/Part14/4"}),
+    ) == ["TMM/Part14/4/4/5"]
+
+
+def test_a_candidate_resolves_to_the_opening_fragment_of_a_split_section():
+    """A section long enough to split holds its address across `~1`..`~n` and
+    no single chunk owns the bare form. The link is aimed at where the section
+    starts, which is `~1` by construction. 27 of the 47 addressed anchors."""
+    assert resolve_internal_refs(
+        ["TMM/Part14/4/4/8"],
+        frozenset({"TMM/Part14/4/4/8~1", "TMM/Part14/4/4/8~2"}),
+        frozenset({"TMM/Part14/4"}),
+    ) == ["TMM/Part14/4/4/8~1"]
+
+
+def test_a_candidate_whose_heading_has_gone_falls_back_to_its_page():
+    """Coarsened, not dropped: the page half was established by URL and is
+    still true. The Manual moving a heading should weaken a citation, not
+    delete one."""
+    assert resolve_internal_refs(
+        ["TMM/Part27/3/2/2"], frozenset(), frozenset({"TMM/Part27/3"})
+    ) == ["TMM/Part27/3"]
+
+
+def test_a_candidate_naming_nothing_at_all_is_dropped():
+    assert resolve_internal_refs(
+        ["TMM/Part99/1/2/3"], frozenset(), frozenset({"TMM/Part27/3"})
+    ) == []

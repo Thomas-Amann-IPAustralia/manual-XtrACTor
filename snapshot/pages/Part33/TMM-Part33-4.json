@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A member does not have the right to prevent another member of the association from using the collective trade mark in accordance with the rules of the association (if any)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part33/4#1",
       "content_hash": "sha256:e726a2705836930b47f7163164fb877ddf346b3f1fe2b33fea057db962cfc4f1",
@@ -22,9 +36,9 @@
     "amendment_note": "No changes made from previous authorized edits. Thank you",
     "archived": false,
     "content_hash": "sha256:ad0c380745216d81e255ce8793bafcdaa358f308438e83912abf74d641bd1293",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "33.4. Limitation on rights given by registered collective trade marks",
     "images": [],
     "last_amended": "2025-01-24",

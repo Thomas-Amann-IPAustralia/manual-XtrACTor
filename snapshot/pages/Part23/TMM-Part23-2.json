@@ -1,6 +1,16 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/2#1",
       "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
@@ -18,6 +28,24 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The applicant or agent may write to the Office rebutting the grounds for rejection with legal arguments. Generally, applicants might submit that the examiner has incorrectly applied the legal tests set by the courts, and/or that the objection raised may be valid for some goods or services but not others."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An examiner must withdraw the ground for rejection if after considering the submissions they can no longer be satisfied that the trade mark is not capable of distinguishing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the examiner is satisfied that a ground for rejection is appropriate, they will issue a further examination report giving their reasons and providing any options that may allow the ground for rejection to be withdrawn."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An applicant may choose to file further legal arguments if the initial arguments are not successful. However, if an impasse with the examiner is reached this may lead to the examiner proposing a final rejection of the application."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/2/2/1",
       "content_hash": "sha256:c20aa6119e4e277fd1cb3ca88341d3ee5a93ab3828912fd77ce5dd8219b67767",
@@ -36,6 +64,40 @@
       "text": "The applicant or agent may write to the Office rebutting the grounds for rejection with legal arguments. Generally, applicants might submit that the examiner has incorrectly applied the legal tests set by the courts, and/or that the objection raised may be valid for some goods or services but not others. An examiner must withdraw the ground for rejection if after considering the submissions they can no longer be satisfied that the trade mark is not capable of distinguishing. If the examiner is satisfied that a ground for rejection is appropriate, they will issue a further examination report giving their reasons and providing any options that may allow the ground for rejection to be withdrawn. An applicant may choose to file further legal arguments if the initial arguments are not successful. However, if an impasse with the examiner is reached this may lead to the examiner proposing a final rejection of the application."
     },
     {
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "2.2"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part23/2/2/2",
+      "content_hash": "sha256:914204c25f3f144ddec3469c61a6faea695c87590ab78a5eb25b0f3904cf84e0",
+      "fragment": null,
+      "heading_path": [
+        "Part 23 Overcoming Grounds for Rejection under Section 41 - including Evidence of Use",
+        "Part 23.2. Legal arguments, amendments and informal information",
+        "2.2"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part23/2",
+      "provisions": [],
+      "tables": [],
+      "text": "2.2"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If grounds for rejection have been raised in respect of only part of the specification of goods and/or services, the applicant may be able to overcome the problem by deleting that part. For example, if grounds for rejection only apply to class 25 in a multiclass application, deleting that class would enable the grounds for rejection to be withdrawn."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The scope of any proposed amendment to goods and services will need to be carefully considered to determine whether it removes all goods and services to which the ground for rejection applies. For example, deletion of specific terms that are covered by broader terms elsewhere in the goods and services will not suffice to overcome the ground for rejection. Further, the examiner should carefully consider whether the ground for rejection applies to goods or services similar to those that have been proposed for deletion."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/2/2/2/1",
       "content_hash": "sha256:02ccd3b162dd04bf055fc7f73145272705195b60c9eb6034a18bd9313197247c",
@@ -47,13 +109,39 @@
       ],
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 4,
       "page_ref": "TMM/Part23/2",
       "provisions": [],
       "tables": [],
       "text": "If grounds for rejection have been raised in respect of only part of the specification of goods and/or services, the applicant may be able to overcome the problem by deleting that part. For example, if grounds for rejection only apply to class 25 in a multiclass application, deleting that class would enable the grounds for rejection to be withdrawn. The scope of any proposed amendment to goods and services will need to be carefully considered to determine whether it removes all goods and services to which the ground for rejection applies. For example, deletion of specific terms that are covered by broader terms elsewhere in the goods and services will not suffice to overcome the ground for rejection. Further, the examiner should carefully consider whether the ground for rejection applies to goods or services similar to those that have been proposed for deletion."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Applicants may request that specific goods and services be excluded from a specification, rather than deleting specific items. For example, if a trade mark covering ‘land vehicles’ is objected to on the basis that it describes a particular type of scooter, an applicant may seek to amend the goods to land vehicles, excluding two wheeled vehicles."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, exclusions can raise issues around clarity and scope of the specification and therefore should not routinely be recommended as an option for an applicant to consider. In many cases, any appropriate refinement of the goods/services will be preferable to an exclusion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If an applicant offers to exclude goods and/or services to overcome a s 41 ground for rejection, examiners need to carefully assess whether the proposed amendment overcomes the grounds for rejection, and does not raise additional grounds."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A proposed exclusion to address a s 41 ground for rejection needs to address all possible ways a trade mark is not inherently capable of distinguishing. It may be that the trade mark is problematic in a number of different ways when applied to the goods and/or services claimed. For instance the trade mark may represent not only the subject matter of the goods/or services, but also be a reference to their nature, purpose or function."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The examiner should also consider whether a proposed exclusion renders a trade mark misdescriptive and gives rise to a ground for rejection under s 43. A proposed exclusion may result in the trade mark which has a particular connotation as being likely to deceive or confuse a significant portion of the relevant market (when applied to the goods and/or services that remain)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For further information please see the ‘Persian Fetta’ decision (Yarra Valley Dairy Pty Ltd v Lemnos Foods Pty Ltd [2010] FCA 1367), and Primary Health Care Limited v Commonwealth of Australia [2016] FCA 313."
+        }
+      ],
       "cases": [
         {
           "citation": "[2010] FCA 1367",
@@ -74,7 +162,7 @@
       ],
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 5,
       "page_ref": "TMM/Part23/2",
       "provisions": [
         {
@@ -94,6 +182,12 @@
       "text": "Applicants may request that specific goods and services be excluded from a specification, rather than deleting specific items. For example, if a trade mark covering ‘land vehicles’ is objected to on the basis that it describes a particular type of scooter, an applicant may seek to amend the goods to land vehicles, excluding two wheeled vehicles. However, exclusions can raise issues around clarity and scope of the specification and therefore should not routinely be recommended as an option for an applicant to consider. In many cases, any appropriate refinement of the goods/services will be preferable to an exclusion. If an applicant offers to exclude goods and/or services to overcome a s 41 ground for rejection, examiners need to carefully assess whether the proposed amendment overcomes the grounds for rejection, and does not raise additional grounds. A proposed exclusion to address a s 41 ground for rejection needs to address all possible ways a trade mark is not inherently capable of distinguishing. It may be that the trade mark is problematic in a number of different ways when applied to the goods and/or services claimed. For instance the trade mark may represent not only the subject matter of the goods/or services, but also be a reference to their nature, purpose or function. The examiner should also consider whether a proposed exclusion renders a trade mark misdescriptive and gives rise to a ground for rejection under s 43. A proposed exclusion may result in the trade mark which has a particular connotation as being likely to deceive or confuse a significant portion of the relevant market (when applied to the goods and/or services that remain). For further information please see the ‘Persian Fetta’ decision (Yarra Valley Dairy Pty Ltd v Lemnos Foods Pty Ltd [2010] FCA 1367), and Primary Health Care Limited v Commonwealth of Australia [2016] FCA 313."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An applicant may provide the examiner information which provides context to the meaning or use of a particular term in the marketplace. For example, information showing that the applicant’s industry is highly specialised or that the relevant market is very narrow, or that references to a term that appear descriptive are actually ‘trade mark’ use by the applicant, may have a bearing on whether the trade mark actually lacks the necessary capacity to distinguish."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/2/2/3",
       "content_hash": "sha256:f361971f5c1f604e11a092013411385e8e12026c6171c2f989c67801a7cbef5c",
@@ -105,13 +199,27 @@
       ],
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 6,
       "page_ref": "TMM/Part23/2",
       "provisions": [],
       "tables": [],
       "text": "An applicant may provide the examiner information which provides context to the meaning or use of a particular term in the marketplace. For example, information showing that the applicant’s industry is highly specialised or that the relevant market is very narrow, or that references to a term that appear descriptive are actually ‘trade mark’ use by the applicant, may have a bearing on whether the trade mark actually lacks the necessary capacity to distinguish."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Internet research often forms the basis for an examiner’s objection under s 41. Such research where appropriate should be provided to an applicant where it underpins the ground for rejection raised by the examiner."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Grounds for rejection should not be raised or maintained solely on the basis of simple captures of Internet search engine search results, or by broad reference to common use on the Internet. Search engine results are produced by complex algorithms and at face value can provide a misleading indication of the meaning of a sign and the context of its use. The examiner must take steps to understand the context in which use of a term appears. If the basis for the s 41 finding is the results of Internet searches, this should be supported where possible by examples of use by traders on the Internet, or other research which confirms both the ordinary signification and the legitimate desire of other traders to use the trade mark (See Part 22.7)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In some cases, where an applicant has filed evidence of use or other circumstances, an examiner may rely on their own research to resolve minor ambiguities with the evidence or to verify claims made by an applicant. Resources such as the Internet Archive Wayback Machine may be useful in some cases. However, examiners generally should not accept trade marks under s 41(4) or (3) based solely on the outcome of their own research."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part23/2/2/4",
       "content_hash": "sha256:69725c346bea852f1255288ba8197ecd4ac800b2fda0c836240863efe84af539",
@@ -125,7 +233,7 @@
         "TMM/Part22/7"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 7,
       "page_ref": "TMM/Part23/2",
       "provisions": [
         {
@@ -145,6 +253,28 @@
       "text": "Internet research often forms the basis for an examiner’s objection under s 41. Such research where appropriate should be provided to an applicant where it underpins the ground for rejection raised by the examiner. Grounds for rejection should not be raised or maintained solely on the basis of simple captures of Internet search engine search results, or by broad reference to common use on the Internet. Search engine results are produced by complex algorithms and at face value can provide a misleading indication of the meaning of a sign and the context of its use. The examiner must take steps to understand the context in which use of a term appears. If the basis for the s 41 finding is the results of Internet searches, this should be supported where possible by examples of use by traders on the Internet, or other research which confirms both the ordinary signification and the legitimate desire of other traders to use the trade mark (See Part 22.7). In some cases, where an applicant has filed evidence of use or other circumstances, an examiner may rely on their own research to resolve minor ambiguities with the evidence or to verify claims made by an applicant. Resources such as the Internet Archive Wayback Machine may be useful in some cases. However, examiners generally should not accept trade marks under s 41(4) or (3) based solely on the outcome of their own research."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When assessing trade marks which are to some extent, but not sufficiently, inherently adapted to distinguish (i.e. s 41(4)), the Act specifies that the Registrar is to consider 'any other circumstances' in combination with the trade mark's inherent adaptation and evidence of use provided by the applicant. Relevant circumstances are not limited by the Act and include any information, including the examiner's own research, which assist the Registrar in determining whether the trade mark is capable of distinguishing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In some cases, the use of a similar trade mark that is not substantially identical to the trade mark applied for may be a relevant circumstance that can be given weight under s 41(4). For example, if an applicant has applied for a word mark, but the use of the word mark solus is co-extensive with use of other versions of the mark where the word features prominently, the use of the latter may assist the examiner in determining that the word itself has acquired reputation and capacity to distinguish in the market (see: Sports Warehouse, Inc v Fry Consulting Pty Ltd [2010] FCA 664, [133] and SJT Enterprises [2021] ATMO 65)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Earlier registrations in Australia that reflect the ‘state of the register’, may be a relevant other circumstance. However, the weight given to previous registrations must be tempered by other relevant considerations under s 41(4). In Ocean Spray Cranberries Inc v Registrar of Trade Marks [2000] FCA 177, Wilcox J held at [35]:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "…although consistency in public administration is desirable, a public officer is not justified in persisting with error. Marks may, in the past, have been wrongly registered. It would be an unwarranted distraction from the task at hand to investigate, in a particular case, whether they were or not."
+        },
+        {
+          "kind": "paragraph",
+          "text": "While the Registrar is not justified in persisting with clear error, a line of consistent and recent acceptances of analogous marks should not also be arbitrarily dismissed."
+        }
+      ],
       "cases": [
         {
           "citation": "[2000] FCA 177",
@@ -169,7 +299,7 @@
       ],
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 8,
       "page_ref": "TMM/Part23/2",
       "provisions": [
         {
@@ -187,9 +317,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:acd89275d839457beb2e1b0402f59d4bd454df3e20324694a227e9a835d09761",
-    "crawled_at": "2026-07-28T08:53:47Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 23.2. Legal arguments, amendments and informal information",
     "images": [],
     "last_amended": "2025-02-10",

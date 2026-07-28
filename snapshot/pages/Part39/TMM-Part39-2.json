@@ -1,6 +1,94 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 69 of the Act, and reg 7.2 specify the trade mark registration particulars that must be entered in the Register. These are:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the name and address of the applicant (or applicants, in the case of joint owners);"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the goods and/or services specified in the application at the time of registration;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the class numbers of the goods and/or services in respect of which the trade mark is registered;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a graphical representation of the trade mark;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the registration number;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "whether the trade mark is registered as a trade mark, a defensive trade mark, a collective trade mark or a certification trade mark;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the date of the registration;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the date on which the Registrar enters the particulars of the registration in the Register;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the filing date and trade mark number of the initial application on which a divisional application has been based;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the particulars of any Convention priority claimed under section 29 of the Act;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the details of any interest claimed in respect of the application under Part 11;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the applicant's address for service in Australia or New Zealand, as required under section 215;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "any disclaimers proposed by the applicant under section 74; and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "any conditions or limitations imposed by the Registrar at the time of acceptance or decision to register."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 7.2 also provides for the Register to contain any other particulars relating to the trade mark that the Registrar thinks appropriate. (This is in addition to the provision of paragraph 69(2)(c), under which particulars of claimed interests, etc appear.) All available non-graphical marks are accessible in RIO and also via a link in Australian Trade Mark Search."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part39/2#1",
       "content_hash": "sha256:9c9378e1ad8009f1f55c5a2088cc0e26a2a71be7a197a06137ab4f4af627f19e",
@@ -15,37 +103,37 @@
       "page_ref": "TMM/Part39/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s215",
           "mention": "section 215"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29",
           "mention": "section 29"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s69",
           "mention": "Section 69"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s69(2)(c)",
           "mention": "paragraph 69(2)(c)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s74",
           "mention": "section 74"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.2",
           "mention": "reg 7.2"
@@ -59,9 +147,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:4283799769a2b5a8d57f856b151d07831994b47f837ead5cecbac7497a0bb289",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-06-05",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 39.2. Particulars of registration",
     "images": [],
     "last_amended": "2025-06-05",

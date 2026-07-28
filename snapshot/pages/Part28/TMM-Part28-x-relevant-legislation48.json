@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 44 Identical etc. trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 4.15A Grounds for rejection – trade mark identical etc to trade mark protected under Madrid Protocol"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part28/x-relevant-legislation48#1",
       "content_hash": "sha256:00f82de9ce028de410cb242d76e7d145f0de2a18dd09af1763568b4179d57600",
@@ -33,9 +51,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:1bde31322aa7973b610d8622d7683246c3db9194390326245464ae6831a434e9",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "28. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

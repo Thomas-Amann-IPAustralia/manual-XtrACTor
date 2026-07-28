@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The assignment of a certification trade mark follows the same processes as that of a partial assignment or a full assignment. However additional requirements apply for the recording of assignment of certification trade marks."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part43/6#1",
       "content_hash": "sha256:7e550cd0f187d6e623016fae142da9fcbea467b6e756951dd00e6dd45535b910",
@@ -18,6 +24,29 @@
       "text": "The assignment of a certification trade mark follows the same processes as that of a partial assignment or a full assignment. However additional requirements apply for the recording of assignment of certification trade marks."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If, at step 4.4 of the normal assignment process, the application for assignment (including partial assignment) is found to relate to an unregistered certification trade mark the procedure to follow will depend on whether or not the application has been examined and sent to the Australian Competition and Consumer Commission (ACCC)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.1.1 If the certification trade mark is the subject of an application for registration that has not yet been examined, or is still under examination, the assignment may proceed as normal. If the application is later sent to the ACCC under subsection 174, the documents relating to the assignment must be included with the other documentation which is required to be sent to the ACCC for assessment (paragraph (c) of reg 16.2)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.1.2 If the application for a certification trade mark has already been sent to the ACCC, the assignment must not be recorded without evidence that the ACCC has consented to the transfer of ownership. Section 180A (which was inserted into the Act by the Trade Marks and Other Legislation Amendment Act 2001 (No. 99, 2001)) provides that once the copy of the application for registration has been sent to the ACCC, in accordance with subsection 174, the certification trade mark may only be assigned with the consent of the ACCC. This also applies in the period after a certification trade mark has been accepted under section 176 but not yet registered."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The owner of the trade mark should first seek permission from the ACCC before assigning it to another person (regs 16.10A). Evidence in writing of the ACCC's consent to assignment must then be provided when an application is made under subsection 107(2) to record the assignment (reg 10.1). If consent has not been filed, details of the assignment should be captured but not recommended for approval. The applicant for the assignment should be advised that no further action will be taken until evidence of the consent of the ACCC has been provided."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 35 Certification Trade Marks - 9. Assignment of unregistered certification trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part43/6/6/1",
       "content_hash": "sha256:ba82fa2e6a6066b9b1ac8c28978a67d83ec70a5583575ed9438b8ccdb82a317d",
@@ -77,6 +106,25 @@
       "text": "If, at step 4.4 of the normal assignment process, the application for assignment (including partial assignment) is found to relate to an unregistered certification trade mark the procedure to follow will depend on whether or not the application has been examined and sent to the Australian Competition and Consumer Commission (ACCC). 6.1.1 If the certification trade mark is the subject of an application for registration that has not yet been examined, or is still under examination, the assignment may proceed as normal. If the application is later sent to the ACCC under subsection 174, the documents relating to the assignment must be included with the other documentation which is required to be sent to the ACCC for assessment (paragraph (c) of reg 16.2). 6.1.2 If the application for a certification trade mark has already been sent to the ACCC, the assignment must not be recorded without evidence that the ACCC has consented to the transfer of ownership. Section 180A (which was inserted into the Act by the Trade Marks and Other Legislation Amendment Act 2001 (No. 99, 2001)) provides that once the copy of the application for registration has been sent to the ACCC, in accordance with subsection 174, the certification trade mark may only be assigned with the consent of the ACCC. This also applies in the period after a certification trade mark has been accepted under section 176 but not yet registered. The owner of the trade mark should first seek permission from the ACCC before assigning it to another person (regs 16.10A). Evidence in writing of the ACCC's consent to assignment must then be provided when an application is made under subsection 107(2) to record the assignment (reg 10.1). If consent has not been filed, details of the assignment should be captured but not recommended for approval. The applicant for the assignment should be advised that no further action will be taken until evidence of the consent of the ACCC has been provided. Part 35 Certification Trade Marks - 9. Assignment of unregistered certification trade marks"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If, at step 4.4 of the normal assignment process, the application for assignment (which may be partial assignment) is found to relate to a registered certification trade mark, it should be accompanied by evidence of consent to the transfer of ownership by the ACCC. (The owner of a registered certification trade mark should first seek permission from the ACCC before assigning the trade mark to another person.) (Regs 10.1 and 16.11.)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If consent has not been filed, details of the assignment should be captured but not recommended for approval. The applicant for recordal of the assignment should be advised that no further action will be taken until evidence of consent from the ACCC has been provided."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If consent has been filed, then the assignment may proceed as normal."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 35 Certification Trade Marks - 8. Assignment of registered certification trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part43/6/6/2",
       "content_hash": "sha256:e1fec6778fc2c03308cdf78de7035b95b85d19a23b3c1ec07567aff9abc52a13",
@@ -112,9 +160,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:2c28508b0669ea13847a9774fbab588ca4946d8e93ff3b0d892959206f864acf",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "43.6. Process for assignment of certification trade marks",
     "images": [],
     "last_amended": "2022-04-20",

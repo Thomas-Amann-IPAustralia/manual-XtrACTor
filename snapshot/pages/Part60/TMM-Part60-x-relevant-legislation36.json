@@ -1,6 +1,46 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published 17 Apr 2026"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Madrid Protocol"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The Protocol Relating to the Madrid Agreement concerning the International Registration of Marks (as adopted at Madrid on June 27 1989). (The Protocol)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The Regulations under the Protocol Relating to the Madrid Agreement concerning the International Registration of Marks (as in force at any given time). (The Regulations)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(Note: the Madrid Protocol Regulations are referred to by WIPO and the International Bureau as simply “the Regulations”, but are referred to within this manual part as the Madrid Protocol Regulations to avoid confusion with references to the Trade Marks Regulations.)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (The Act)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Protected international trade marks under the Madrid Protocol"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Protected international trade marks under the Madrid Protocol"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/x-relevant-legislation36#1",
       "content_hash": "sha256:494df643ad2ba23cce19c793e73fecb35e364b74aeb37e04c9a466bc0d752eee",
@@ -33,9 +73,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:b1742e8edbb3a4363e372db94f2ec8a759fa45c1dbbd3333ab196aea51ae7e41",
-    "crawled_at": "2026-07-28T08:54:01Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "60. Landing Page",
     "images": [],
     "last_amended": "2026-04-17",

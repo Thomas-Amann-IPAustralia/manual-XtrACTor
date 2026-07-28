@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 7.1 sets the period in which a trade mark can be registered. If there has been no opposition to registration reg 7.1(a)(i) provides a trade mark can be registered in the 6 month period after the day on which acceptance is published."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If registration has been opposed but the decision is that the trade mark may be registered and there has been no appeal, reg 7.1(3) allows the Registrar to set an appropriate date for registration to occur. For trade mark applications filed prior to 10 October 2016, the Registrar will notify the applicant that if the registration fee has not been paid, the fee is due and must be paid within one month of the date of the notice in order for the trade mark to be registered. If the fee is not paid within that time the application for registration will lapse."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same applies if the opposition is withdrawn or proceedings are dismissed (see s 6 of this Part). For trade mark applications filed prior to 10 October 2016, the Registrar will notify the applicant that if the registration fee has not been paid, the fee is due and must be paid within one month of the date of the notice in order for the trade mark to be registered. If the fee is not paid within that time the application for registration will lapse."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 17A.36 sets out when an International Registration Designating Australia (IRDA) becomes a protected international trade mark. There is no need for the holder to pay a registration fee to IP Australia. That fee is payable to the International Bureau of WIPO when extension of protection is requested."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If there is no opposition to the extension of protection the trade mark becomes a protected international trade mark upon expiry of the opposition period (reg 17A.36(2). If there is an opposition but it is dismissed or withdrawn the trade mark becomes a protected international trade mark after the opposition has been dismissed or withdrawn (reg 17A.36(2A))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If there is an opposition but the decision is the trade mark should be protected in Australia and there has been no appeal, reg 17A.36(3) provides the trade mark becomes a protected international trade mark at the end of the appeal period."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/9#1~1",
       "content_hash": "sha256:e084d47a1edadf60be7f57bf7ec87a9143635563e18259f17b87e81d361f7117",
@@ -18,49 +52,49 @@
       "page_ref": "TMM/Part51/9",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "s 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.36",
           "mention": "Regulation 17A.36"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.36(2)",
           "mention": "reg 17A.36(2)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.36(2A)",
           "mention": "reg 17A.36(2A)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.36(3)",
           "mention": "reg 17A.36(3)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.1",
           "mention": "Regulation 7.1"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.1(3)",
           "mention": "reg 7.1(3)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.1(a)(i)",
           "mention": "reg 7.1(a)(i)"
@@ -70,6 +104,22 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 Regulation 7.1 sets the period in which a trade mark can be registered. If there has been no opposition to registration reg 7.1(a)(i) provides a trade mark can be registered in the 6 month period after the day on which acceptance is published. If registration has been opposed but the decision is that the trade mark may be registered and there has been no appeal, reg 7.1(3) allows the Registrar to set an appropriate date for registration to occur. For trade mark applications filed prior to 10 October 2016, the Registrar will notify the applicant that if the registration fee has not been paid, the fee is due and must be paid within one month of the date of the notice in order for the trade mark to be registered. If the fee is not paid within that time the application for registration will lapse. The same applies if the opposition is withdrawn or proceedings are dismissed (see s 6 of this Part). For trade mark applications filed prior to 10 October 2016, the Registrar will notify the applicant that if the registration fee has not been paid, the fee is due and must be paid within one month of the date of the notice in order for the trade mark to be registered. If the fee is not paid within that time the application for registration will lapse. Regulation 17A.36 sets out when an International Registration Designating Australia (IRDA) becomes a protected international trade mark. There is no need for the holder to pay a registration fee to IP Australia. That fee is payable to the International Bureau of WIPO when extension of protection is requested. If there is no opposition to the extension of protection the trade mark becomes a protected international trade mark upon expiry of the opposition period (reg 17A.36(2). If there is an opposition but it is dismissed or withdrawn the trade mark becomes a protected international trade mark after the opposition has been dismissed or withdrawn (reg 17A.36(2A)). If there is an opposition but the decision is the trade mark should be protected in Australia and there has been no appeal, reg 17A.36(3) provides the trade mark becomes a protected international trade mark at the end of the appeal period."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If there has been an appeal from an opposition decision, but the appeal has been dismissed or withdrawn, the trade mark becomes a protected international trade mark to the extent permitted by the decision on the opposition (reg 17A.36 (3A))."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 52 Hearings, Decisions, Reasons and Appeals"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 60 The Madrid Protocol"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/9#1~2",
       "content_hash": "sha256:b28e0c9192a8a3a0b05600eba9f1df99c8e5819b53c0971c88b6738ac7789af7",
@@ -104,9 +154,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:042e6e5ba0970beb0a13ced33882abee9e302c21a51fd971fccd88a0343fbdbd",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 51.9. Period in which a trade mark can be registered/protected",
     "images": [],
     "last_amended": "2025-04-02",

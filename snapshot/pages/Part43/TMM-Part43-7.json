@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There are no provisions under the Trade Marks Act 1995 requiring consent from the ACCC before the transmission of a certification trade mark, whether registered or the subject of an application for registration. Sections 180 and 180A refer specifically to the requirements for the consent of the ACCC when it is proposed to assign a registered or unregistered certification trade mark. There is no reference to transmission in either of sections 180 or 180A, or in reg 10.1 (as amended by Trade Marks Amendment Regulations 2001 (No. 3). Transmission of a certification trade mark is most likely to occur by operation of statutory law, for example as a result of privatisation."
+        },
+        {
+          "kind": "paragraph",
+          "text": "7.1 If an application for the recordal of transmission of a registered or unregistered certification trade mark is in an approved form, gives all the necessary information, and is filed with necessary evidence of the transmission, it must be recorded. Evidence of the consent of the ACCC to the transmission is not a pre-requisite."
+        },
+        {
+          "kind": "paragraph",
+          "text": "7.2 If an application for recordal of transmission of an unregistered certification trade mark is filed before the application has been referred to the ACCC under subsection 174, the change of ownership will be recorded and the transmission documents will be sent to the ACCC with the other documentation under reg 16.2. If the application and prescribed documents have already been sent, but are still with the ACCC awaiting a decision, the change in ownership will be recorded and the transmission documents will be sent separately to the ACCC."
+        },
+        {
+          "kind": "paragraph",
+          "text": "7.3 If the application to record the transmission is filed after the trade mark has been accepted but before it is registered, the change of ownership is recorded in the usual way. There is no provision in the Act or Regulations to notify the ACCC of the transmission during this period of time, or once the certification trade mark is registered."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part43/7#1",
       "content_hash": "sha256:1bd2edb5a4872474eb8de2a8ea11a1c93cc19b262cbe5d594fb673b3e9ad53ed",
@@ -30,7 +48,7 @@
           "mention": "180A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r10.1",
           "mention": "reg 10.1"
@@ -49,9 +67,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:636196a5427963a175e6d87c915d7f68093a72cf1a703ade7f86bbd7266f7221",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "43.7. Transmission of certification trade marks",
     "images": [],
     "last_amended": "2022-04-20",

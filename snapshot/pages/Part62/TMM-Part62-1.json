@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sections 84A to 84D allow the Registrar of Trade Marks to revoke the registration of a trade mark in circumstances in which it appears that the registration should not have occurred. It is expected that revocation of registration will be a rare occurrence."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar is not obliged to consider whether to revoke registration, even where a third party requests it (subsection 84A(6)).If a trade mark registration is revoked, it will revert to a pending application for registration of a trade mark. This will allow, depending upon the circumstances, an opposition to the registration of the application to proceed, or acceptance of the application to be in turn revoked, so that the application can be re-examined."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Revocation of registration under section 84A is not intended to be a mechanism for parties to file de facto oppositions. Nor is it intended to provide a way of settling competing claims to ownership of a trade mark. This can be pursued through the courts, with section 86 of the Trade Marks Act providing for the Federal Court to cancel a registered mark."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/1#1",
       "content_hash": "sha256:84e56977afcdff86634f32f63ab012a078ce1c257a72adebfe9c73676a21cf52",
@@ -47,9 +61,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:e3dadd9bb97f98c46c87cb677e2f84b7726eb2e04c7ea7631f097aee355cfdeb",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.1. What is revocation of registration?",
     "images": [],
     "last_amended": "2022-04-20",

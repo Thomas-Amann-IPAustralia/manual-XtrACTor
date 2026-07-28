@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A disclaimer, whether voluntary or imposed, does not affect examination."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.1 No account is generally taken of a disclaimer during the examination process."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.2 Existing disclaimers will be treated in the same way as voluntary disclaimers. (At commencement of the new legislation, disclaimers entered as particulars of trade marks on the old register became particulars of the trade marks on the new Register)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.3 Disclaimers are not to be considered in determining whether amendments to the representation of a trade mark are allowable. Any requested addition or deletion of part of a trade mark should be assessed without regard to any disclaimer attached to that part."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.4 Disclaimers are not to be considered in determining whether the trade mark as a whole is capable of distinguishing. A disclaimer does not affect the inherent capacity, or otherwise, of a trade mark to distinguish (see Phone Directories Company Australia Pty Ltd v Telstra Corporation Limited [2014] FCA 373 at [217])."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.5 When considering a ground for rejection under s 44, it is necessary to consider the trade marks as a whole even if the earlier trade mark has a disclaimed element. However, there may be some cases where it may be relevant to consider a disclaimer on an earlier registered trade mark as a relevant ‘other circumstance’ under s 44(3)(b)."
+        }
+      ],
       "cases": [
         {
           "citation": "[2014] FCA 373",
@@ -20,13 +54,13 @@
       "page_ref": "TMM/Part24/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s44",
           "mention": "s 44"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s44(3)(b)",
           "mention": "s 44(3)(b)"
@@ -40,9 +74,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:5803ccf5917f58569858ef607673c46dfa74c497cedfc2ed9d43b4345f32069a",
-    "crawled_at": "2026-07-28T08:53:48Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 24.4. Effect of a disclaimer on examination",
     "images": [],
     "last_amended": "2025-02-20",

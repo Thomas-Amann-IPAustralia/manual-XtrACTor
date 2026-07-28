@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Division 3 of Part 4 of the Act sets out a process whereby a trade mark applicant may file an application (divisional application) as a limited continuation of their current application (parent application) under certain circumstances. Divisional applications claim the priority date of the original parent application, however, they receive a new trade mark number and must meet the conditions specified in sections 45 and 46 of the Act."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part12/1#1",
       "content_hash": "sha256:d095cd23621ebb182a51c6b60876ee2bdb1c4322b436883dc13a306a842d4ca2",
@@ -35,9 +41,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:53cfacdf601758838f31cb1cb4ef148b997894dcf40df8181fecd4326ad2932b",
-    "crawled_at": "2026-07-28T08:53:39Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "12.1. Divisional applications - general",
     "images": [],
     "last_amended": "2026-07-20",

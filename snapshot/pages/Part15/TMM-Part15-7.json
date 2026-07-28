@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Review of a Registrar's decision not to extend time for the doing of a relevant act may be sought from the Administrative Review Tribunal (ART) (subsection 224(7))."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/7#1",
       "content_hash": "sha256:8df83738fced2d0a76766d76813014403a1ec93a08f94b3cd8e26a65ed9625c3",
@@ -15,7 +29,7 @@
       "page_ref": "TMM/Part15/7",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s224(7)",
           "mention": "subsection 224(7)"
@@ -25,6 +39,12 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Review of a Registrar's decision not to extend time for the doing of a relevant act may be sought from the Administrative Review Tribunal (ART) (subsection 224(7))."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the Registrar makes a decision not to extend the time, either on the basis of consideration of the application for an extension of time, or as a result of an opposition to that extension, as described above, the applicant for the extension may apply to the ART to have the decision reviewed."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/7/7/1",
       "content_hash": "sha256:1bcb0c4e9ab2435adf62b614491b3201b15b6283ac3b998e6c9ce25d05e1e08e",
@@ -43,6 +63,12 @@
       "text": "If the Registrar makes a decision not to extend the time, either on the basis of consideration of the application for an extension of time, or as a result of an opposition to that extension, as described above, the applicant for the extension may apply to the ART to have the decision reviewed."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If there has been opposition and the Registrar allows the extension of time, the unsuccessful opponent to an extension of time of more than three months does not have a statutory right of appeal under the Trade Marks Act 1995 but may be entitled seek judicial review."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/7/7/2",
       "content_hash": "sha256:66c2f53ad45d646243db6f5e9ab7a8f4a7ed4856bca6bbe99d51e3040938140d",
@@ -65,9 +91,9 @@
     "amendment_note": "Minor text edits",
     "archived": false,
     "content_hash": "sha256:790638dacdfaf0d3a42fd2cfef57208c6e62a987b139802d76b67f668f8f0715",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-07-15",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 15.7. Review of the Registrar's decision",
     "images": [],
     "last_amended": "2026-07-15",

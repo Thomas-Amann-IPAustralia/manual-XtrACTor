@@ -1,6 +1,52 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "This section deals only with the procedures as they affect the Trade Marks Office and they are outlined in the flow chart in Annex 1."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.1 A copy of an application to rectify the Register made on the grounds covered by sections 85 to 88 is received together with the applicant’s statement of claim."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.2 The correspondence is coded and the trade mark number is flagged on the system to show \"court action pending\"."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.3 The Opposition and Hearings section acknowledge receipt of the claim, in letters to all parties and to the Court. In those letters the parties are asked to keep the Registrar informed of any proposed court orders or settlement agreement that may affect the registration. That is so the Registrar can advise the Court if he or she considers that such orders are contrary to the public interest or that they cannot be given effect to."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.4 To complete the rectification action the Registrar requires either a notice of discontinuance or the full court order."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.5 When the Registrar receives such documents, the case file is referred to the appropriate Senior Support Officer handling court matters in Hearings Support for direction and the \"court action pending\" flag is deleted from the system."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.6 If the Register has to be rectified, the officer handling court matters does so under the direction of the Deputy Registrar, Oppositions and Hearings section. If the Register does not have to be rectified, receipt of the documentation is acknowledged by letter."
+        },
+        {
+          "kind": "paragraph",
+          "text": "3.7 The Register is rectified by amending or cancelling a Register entry on the data base. The Amendment and Cancellation programs are used to do this and the action is published accordingly. The parties involved in the court action are notified in writing of the cancellation."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Examples of relevant documents such as Statements of Claim, Court Orders and Registrar’s letters are held for reference purposes in the Opposition and Hearings Section."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part42/3#1",
       "content_hash": "sha256:5302d3f19e9995278a3b2e7307460f6920f346cc88824aa92ca71294bea39b13",
@@ -17,13 +63,13 @@
       "page_ref": "TMM/Part42/3",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s85",
           "mention": "sections 85 to 88"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s88",
           "mention": "sections 85 to 88"
@@ -37,9 +83,9 @@
     "amendment_note": "Tagged with chapter: Part 42 Rectification of the Register",
     "archived": false,
     "content_hash": "sha256:ed6b109b4b58ec0991a6189e776054c7e3c0a1cc8f62920e51af0edaf3922f47",
-    "crawled_at": "2026-07-28T08:53:56Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-05-28",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 42.3. Rectification procedures",
     "images": [],
     "last_amended": "2025-05-28",

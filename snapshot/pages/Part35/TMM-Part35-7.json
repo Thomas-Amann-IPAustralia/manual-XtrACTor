@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The publication of the Commission’s initial assessment is to allow interested parties to support or oppose the acceptance of the trade mark on the basis of matters contained in the rules. Once acceptance of the certification trade mark is published, its registration may only be opposed on the grounds provided for in the Trade Marks Act 1995. Section 57 provides that a trade mark may be opposed on any of the grounds for rejection of an application under the Act and Regulations. For certification trade marks this includes section 177 but does not include section 41."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part35/7#1",
       "content_hash": "sha256:7774029d1d90778549e05422ecfbd22a7b2bdf4ee9734089647ed4e4829330ea",
@@ -38,9 +52,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:6ce0989b9cad818a862417baaf54f49cbbdd3e04cfbf21b130c8e8d884383eed",
-    "crawled_at": "2026-07-28T08:53:54Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "35.7. Opposition to the registration of a certification trade mark",
     "images": [],
     "last_amended": "2026-02-11",

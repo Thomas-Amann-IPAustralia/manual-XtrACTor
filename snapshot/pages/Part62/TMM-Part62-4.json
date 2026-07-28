@@ -1,6 +1,27 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 84A provides the circumstances to be taken into account, in order for the Registrar to be satisfied that the trade mark should not have been registered, and that it is reasonable to revoke the registration. Examples include:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "When grounds on which the trade mark should have been rejected were inadvertently overlooked during the examination of the application for registration of the trade mark. Such grounds could include those which fall under section 44 or section 41 of the Trade Marks Act."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Late notification of trade marks which have priority pursuant to their application under the Protocol Relating to the Madrid Agreement Concerning the International Registration of Marks 1989 (the Madrid Protocol) designating Australia, for a similar mark for similar goods and/or services."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Registered trade marks that otherwise do not meet the requirements of the Trade Marks Act 1995 or the Trade Marks Regulations 1995, for example, because statutory procedures were not followed during the registration process."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/4#1",
       "content_hash": "sha256:897bb1df834cc3d728c5325326a0d9f48335ab93574816972798244d13fc7860",
@@ -15,19 +36,19 @@
       "page_ref": "TMM/Part62/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s41",
           "mention": "section 41"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s44",
           "mention": "section 44"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s84A",
           "mention": "Section 84A"
@@ -41,9 +62,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:7c8d7d8d643bf448d0c65185202617e019f970961dcf1b9b92367432d7466525",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.4. Circumstances under which registration may be revoked",
     "images": [],
     "last_amended": "2022-04-20",

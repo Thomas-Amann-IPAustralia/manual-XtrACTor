@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.18 Request for expedited examination of application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.19 Expedited examinations"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part6/x-relevant-legislation50#1",
       "content_hash": "sha256:1c98051f8eb6309a6b02c4bad01b0ec36e7e8dd2bfbbea942e4869d50e739df9",
@@ -33,9 +47,9 @@
     "amendment_note": "Links to legislation added. No substantive changes to content.",
     "archived": false,
     "content_hash": "sha256:8b21015bada4da1addb051bc24ee803c59a98efa9737317fbac9c1b7eb18e418",
-    "crawled_at": "2026-07-28T08:53:37Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "6. Relevant Legislation",
     "images": [],
     "last_amended": "2026-02-10",

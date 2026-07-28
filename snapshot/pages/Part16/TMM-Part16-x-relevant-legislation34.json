@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 15 Jan 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 37 Lapsing of application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 223 Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 224 Extension of time"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.12 Periods after which applications lapse"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.23 Notice of non-payment of fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.25 Extension of time—application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 22.5 Certain extensions of time continue"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part16/x-relevant-legislation34#1",
       "content_hash": "sha256:7ad65677002ab4ba49267a3ab0473bb39021ccecd18cfda163c46254b50ad207",
@@ -15,46 +57,46 @@
       "page_ref": "TMM/Part16/x-relevant-legislation34",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s223",
           "mention": "Section 223"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "Section 224"
+        },
+        {
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s37",
           "mention": "Section 37"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.23",
           "mention": "Reg 21.23"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.25",
           "mention": "Reg 21.25"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r22.5",
           "mention": "Reg 22.5"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.12",
           "mention": "Reg 4.12"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/s224",
-          "mention": "Section 224 Extension of time Trade Mark Regulations 1995"
         }
       ],
       "tables": [],
@@ -65,9 +107,9 @@
     "amendment_note": "Page renamed. Part published date added. Links updated.",
     "archived": false,
     "content_hash": "sha256:a1cf4a75f03af2a5039a2e99f011cb0ac0f902cc9effb675696a91522313d6d7",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-18",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 16. Landing Page",
     "images": [],
     "last_amended": "2025-02-18",

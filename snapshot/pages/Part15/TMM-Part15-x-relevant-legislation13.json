@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions - employee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 203 Exercise of power by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 204 Registrar to act as soon as possible"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 223 Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 224 Extension of time"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.12 Periods after which applications lapse"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.4 Filing of documents - treatment of non-complying documents"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.6 Declarations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.12 Applications for costs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.23 Notice of non-payment of fee"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.25 Extension of time - application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.28 Extension of time - prescribed acts and documents"
+        },
+        {
+          "kind": "text",
+          "text": "Reg 21.33 Directions not otherwise prescribed"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/x-relevant-legislation13#1",
       "content_hash": "sha256:e28be16e118230c81355ab746b558780f068e384d1b4564d55b588cefb47ae60",
@@ -88,9 +150,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:9826ab73b29613e9b1a08f6416bf7439255e13f0222f626f87bbced33682b014",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "15. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

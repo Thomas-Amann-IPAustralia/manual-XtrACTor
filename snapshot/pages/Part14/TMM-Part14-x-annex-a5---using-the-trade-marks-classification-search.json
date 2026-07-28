@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "This document describes how to use the Trade Marks Classification Search."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Trade Marks Classification Search searches a database of over 200,000 pre-approved goods and services in the 45 classes."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Trade Marks Classification Search is available to examiners via RIO Dashboard > Register Search, under the heading ‘Classification search’ accessible from the drop-down menu in the top right corner of the screen."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For external users, the Trade Marks Classification Search is also available from the Advanced Search screen of the Australian Trade Mark Search."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/searching-for-goods-and-services",
       "content_hash": "sha256:bd98382afd7529186027218c5d9c4ac73a6513b032782dc654f0efbac5373424",
@@ -19,6 +37,32 @@
       "text": "This document describes how to use the Trade Marks Classification Search. The Trade Marks Classification Search searches a database of over 200,000 pre-approved goods and services in the 45 classes. The Trade Marks Classification Search is available to examiners via RIO Dashboard > Register Search, under the heading ‘Classification search’ accessible from the drop-down menu in the top right corner of the screen. For external users, the Trade Marks Classification Search is also available from the Advanced Search screen of the Australian Trade Mark Search."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can select between Semantic search or Keyword search, with Semantic the default"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "For Semantic search, can select to sort by relevance or class"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Class Headings may be viewed by selecting the ‘Goods’ and ‘Services’ tabs"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can access complete class lists and read a description of the class by clicking on the Class Number heading under the ‘Goods’ and ‘Services’ tabs"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/introductory-search-screen",
       "content_hash": "sha256:15d40a023387310d53d0e4635208c7fe1f80f37852d8352ecb18dc2c2135744f",
@@ -37,6 +81,37 @@
       "text": "Important notes: Can select between Semantic search or Keyword search, with Semantic the default For Semantic search, can select to sort by relevance or class Class Headings may be viewed by selecting the ‘Goods’ and ‘Services’ tabs Can access complete class lists and read a description of the class by clicking on the Class Number heading under the ‘Goods’ and ‘Services’ tabs"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Returns up to 100 results"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can sort results by relevance or by class"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can filter results by ‘Goods’, ‘Services’, or by specific classes using Filter Results function"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can jump to results in a class by clicking on the class number under Filter Results function"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can access complete class lists and read a description of the class by clicking on the Class Number heading"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-semantic-search",
       "content_hash": "sha256:704fe5a3a6c6950c7e94cff25ee298697c99dd86483004814bf9471d3a2e01ba",
@@ -55,6 +130,37 @@
       "text": "Important notes: Returns up to 100 results Can sort results by relevance or by class Can filter results by ‘Goods’, ‘Services’, or by specific classes using Filter Results function Can jump to results in a class by clicking on the class number under Filter Results function Can access complete class lists and read a description of the class by clicking on the Class Number heading"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Searching for CAR returns CAR and CARS but not CARPET, CARRIAGE, CARBON etc"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Returns up to 10,000 results"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can filter results by ‘Goods’, ‘Services’, or by classes using Filter Results function"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can jump to results in a class by clicking on the class number under Filter Results function"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can access complete class lists and read a description of the class by clicking on the Class Number heading"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-keyword-search",
       "content_hash": "sha256:029f83c32f2f2de21ee5ae54a8ed0b90a97804d5f01da04f7103f7bbda07308b",
@@ -73,6 +179,37 @@
       "text": "Important notes: Searching for CAR returns CAR and CARS but not CARPET, CARRIAGE, CARBON etc Returns up to 10,000 results Can filter results by ‘Goods’, ‘Services’, or by classes using Filter Results function Can jump to results in a class by clicking on the class number under Filter Results function Can access complete class lists and read a description of the class by clicking on the Class Number heading"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can conduct part word keyword search using the asterisk (in this case a search for CAR-)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Searching for CAR* returns CAR and CARS and CARPET, CARRIAGE, CARBON etc"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Searching for *CAR* would return CAR, CARS, CARPET, HYDROCARBON, MASCARA, CARE, PLACARD etc"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can use the * with AND or OR operators"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Searching for CARD* AND IDENT* will find IDENTITY CARDS, IDENTIFICATION CARDS, CARDS FOR IDENTIFICATION PURPOSES etc"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/keyword-search-part-word-search",
       "content_hash": "sha256:04a6f1bf402cbd0dd1177116570170a3f8c94b2b340fa4aaee45ccb5912d4a43",
@@ -91,6 +228,27 @@
       "text": "Important notes: Can conduct part word keyword search using the asterisk (in this case a search for CAR-) Searching for CAR* returns CAR and CARS and CARPET, CARRIAGE, CARBON etc Searching for *CAR* would return CAR, CARS, CARPET, HYDROCARBON, MASCARA, CARE, PLACARD etc Can use the * with AND or OR operators Searching for CARD* AND IDENT* will find IDENTITY CARDS, IDENTIFICATION CARDS, CARDS FOR IDENTIFICATION PURPOSES etc"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can conduct keyword searches for a combination of terms with the inclusion of the word ‘and’. This can help reduce results"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "This search will show all claims in all classes that contain both terms"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "You may conduct this search with AND in capitals or lowercase"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/keyword-search-combination-of-terms",
       "content_hash": "sha256:7155ec44925d621d7d6339954a1569ab141529964e555a23833d65b525ce4cc4",
@@ -109,6 +267,32 @@
       "text": "Important notes: Can conduct keyword searches for a combination of terms with the inclusion of the word ‘and’. This can help reduce results This search will show all claims in all classes that contain both terms You may conduct this search with AND in capitals or lowercase"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Important Notes:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Can access complete class lists and class explanations by clicking on the Class Number in the Search Results screen"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "First paragraph is the Class Heading. This is a general outline of the kinds of goods or services that belong in the class, and is not exhaustive"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Second paragraph is the class explanation. This gives further guidance on the kinds of goods or services that are found in the class, and why they are classified in the class rather than elsewhere"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The complete class lists are for information only and should not be copied directly into applications"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-complete-class-lists",
       "content_hash": "sha256:c0d21e65aa85b85cf0598a669646c829105ca50fe90275d878a36f0ca7e9fb8d",
@@ -131,9 +315,9 @@
     "amendment_note": "Updated to remove references to AU determinations, updated search tool screenshots and instructions to reflect new semantic search tool.",
     "archived": false,
     "content_hash": "sha256:8c73ba28828f5e15092b036f2fbf263ca302857024dca871f957b9714bdaba16",
-    "crawled_at": "2026-07-28T08:53:41Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2024-08-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "14. Annex A5 - Using the Trade Marks Classification Search",
     "images": [],
     "last_amended": "2024-08-19",

@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"file\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 212 Making and signing applications etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 213 Filing of documents"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 214 Withdrawal of application etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.4 Consequences for documents not meeting filing requirements"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.9 Notice of withdrawal of applications etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.10 Notification of withdrawal of application etc."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part7/x-relevant-legislation31#1",
       "content_hash": "sha256:f2b0cbc1909636a4edc9f48bc809cbd139ba9c59a3605b9f829a20c0b8265eed",
@@ -58,9 +100,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:03aa49a079171b90bb28509b485207e84e1a2c6d4009d4cd9081ee45bf0e7da5",
-    "crawled_at": "2026-07-28T08:53:37Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "7. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

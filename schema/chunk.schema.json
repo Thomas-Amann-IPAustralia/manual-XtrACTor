@@ -112,6 +112,32 @@
       "items": { "type": "string" }
     },
 
+    "blocks": {
+      "type": "array",
+      "description": "The paragraphs and list items 'text' was flattened from, in document order. Same argument as 'tables', applied to the prose: joining every block's text with single spaces reproduces 'text' exactly, so this is not a second copy of the words — it is the shape the Manual set them in, which flattening destroys. Without it a ten-item list of statutory exceptions and a single paragraph are the same string. Derived from element names and tree depth alone; nothing here reads the words.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text"],
+        "properties": {
+          "kind": {
+            "enum": ["paragraph", "list_item", "table", "heading", "text"],
+            "description": "The element the block was set as. 'heading' is an h5 or h6 — h2-h4 are chunk boundaries and h1 is the page title. 'text' is inline content Drupal left loose in a layout div, and is the fallback for any element not otherwise named."
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Verbatim, whitespace-normalised, and for a list item its own words only — the items nested under it are their own blocks and are not repeated here."
+          },
+          "depth": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "How many lists enclose a list item, from 1. Present only on 'list_item'. The corpus nests three deep at most; without it a sub-item reads as a sibling of the item it qualifies."
+          }
+        }
+      }
+    },
+
     "tables": {
       "type": "array",
       "description": "The grid of every table in this chunk, in document order. 'text' renders a table as a run of cell text — the correct verbatim reading, and no use to anything that needs to know which cell sat under which column. Empty on the great majority of chunks.",

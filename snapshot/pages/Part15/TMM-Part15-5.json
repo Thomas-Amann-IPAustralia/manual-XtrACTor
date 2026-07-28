@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.25 states that an application for an extension of time for doing a relevant act must be in an approved form and must be accompanied by a declaration."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/5#1",
       "content_hash": "sha256:783911f1303146d6eaf6e2fa4962dce8049d31367765c98a658f7ba5d44a02d0",
@@ -24,6 +30,42 @@
       "text": "Reg 21.25 states that an application for an extension of time for doing a relevant act must be in an approved form and must be accompanied by a declaration."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "To be in an approved form, the application should include:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the relevant trade mark number(s),"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "name, address and address for service of the person applying for the extension,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "length of the extension,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "period to be extended, e.g. period in which to register the trade mark,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the grounds on which the application is based,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the appropriate fee is paid in full."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/5/5/1",
       "content_hash": "sha256:bb85d996dc9dfc6cc568b458384851ed6c0869061da50a173318b99df58ab182",
@@ -42,6 +84,12 @@
       "text": "To be in an approved form, the application should include: the relevant trade mark number(s), name, address and address for service of the person applying for the extension, length of the extension, period to be extended, e.g. period in which to register the trade mark, the grounds on which the application is based, the appropriate fee is paid in full."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The declaration should be in accordance with reg 21.6. The declaration should support the grounds for the application by setting out the facts on which the grounds for requiring the extension are based. If the application is made after the period has expired, the declaration should also set out why the application is late."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/5/5/2",
       "content_hash": "sha256:7748191c55be79c9c10a4040f784cdbe0b2c2638900fa79ca7de294b583a4692",
@@ -70,9 +118,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:ff9f548a4d3202e45fb6fc064ed63771fdd6b7aba3170c4cd87f66d44a84c60e",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "15.5. Form of the application",
     "images": [],
     "last_amended": "2022-04-20",

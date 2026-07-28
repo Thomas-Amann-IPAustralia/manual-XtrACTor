@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Registrar is required to notify the parties in writing when opposition proceedings have been dismissed or discontinued."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/6#1",
       "content_hash": "sha256:bf07bfa8401a3c5b2c0b88b06329a1318512a737c0ec7a9fc6444cbeb2b7cccf",
@@ -18,6 +32,21 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 The Registrar is required to notify the parties in writing when opposition proceedings have been dismissed or discontinued."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 222 and reg 17A.73 provide that a person giving notice of opposition to registration/protection of a trade mark or to an extension of time or a person applying under Part 9 or Part 17A for a trade mark to be removed/protection to cease for non-use, who neither resides nor carries on business in Australia, may be required by the Registrar to give security for the costs of the proceeding."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If security is not given, the Registrar may dismiss proceedings. In that case the Registrar will notify the parties in writing that opposition proceedings have been dismissed."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 55 Costs"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/1",
       "content_hash": "sha256:8035be7579697f971c9ec48de5b2121628d5a0afea9619f7c3d8095ed8552789",
@@ -49,6 +78,20 @@
       "text": "Section 222 and reg 17A.73 provide that a person giving notice of opposition to registration/protection of a trade mark or to an extension of time or a person applying under Part 9 or Part 17A for a trade mark to be removed/protection to cease for non-use, who neither resides nor carries on business in Australia, may be required by the Registrar to give security for the costs of the proceeding. If security is not given, the Registrar may dismiss proceedings. In that case the Registrar will notify the parties in writing that opposition proceedings have been dismissed. Part 55 Costs"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under the provisions of section 214, a person who has filed an application or a notice may withdraw that application or notice, at any time while it is under consideration by the Registrar. An assignee can, under the terms of section 108, withdraw an application for registration. Similarly, notice of opposition may be withdrawn by a second person who has demonstrated, under the terms of section 53, that a relevant right or interest relied upon by the original opponent has now become vested in them."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Withdrawal of the notice of opposition or of the application generally means opposition proceedings are discontinued. Pursuant to regs 5.20, 9.22, 17A.35 and 17A.48Y the Registrar will notify the parties in writing to this effect."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The exception to this is if there is more than one opposition. Withdrawal of one notice of opposition does not affect the other opposition(s)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/2",
       "content_hash": "sha256:54003c4b36364a80f7e18c8aa91c52f22247661fa0c437dc7323acdb3a545a05",
@@ -110,6 +153,27 @@
       "text": "Under the provisions of section 214, a person who has filed an application or a notice may withdraw that application or notice, at any time while it is under consideration by the Registrar. An assignee can, under the terms of section 108, withdraw an application for registration. Similarly, notice of opposition may be withdrawn by a second person who has demonstrated, under the terms of section 53, that a relevant right or interest relied upon by the original opponent has now become vested in them. Withdrawal of the notice of opposition or of the application generally means opposition proceedings are discontinued. Pursuant to regs 5.20, 9.22, 17A.35 and 17A.48Y the Registrar will notify the parties in writing to this effect. The exception to this is if there is more than one opposition. Withdrawal of one notice of opposition does not affect the other opposition(s)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 99A and regs 5.8, 9.10, 17A.34B and 17A.48K provide for the Registrar to dismiss an opposition if a statement of grounds and particulars is found to be inadequate. The Registrar will notify both parties of the dismissal. An application for review of the Registrar’s decision to dismiss under these grounds may be made to the Administrative Review Tribunal."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 47 Procedures for Opposing Registration or Protection"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 49 Non-use Procedures"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 52 Hearings, Decisions, Reasons and Appeals"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/3",
       "content_hash": "sha256:d90b057bcae910bf66d5698eff6dc64a108d723d8a688c37ea35655e00fbbf66",
@@ -167,9 +231,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:9ce36c7b50cee81521614ef2b4e03375b403894f98108631ec01df7090de47c5",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 51.6. Dismissal or discontinuance of proceedings",
     "images": [],
     "last_amended": "2025-04-01",

@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Federal Court and Federal Circuit and Family Court of Australia (Division 2) have jurisdiction to hear and determine appeals from decisions of the Registrar on the matters referred to in Manual Section 5.1 above. Section 193 specifies that the jurisdiction will be exercised by a single judge. A judgment or order of a single judge of the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) may only be appealed to the Full Court of the Federal Court with the leave of the Federal Court (subsection 195(2))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 195 also provides for appeals against a judgment or order of another prescribed court to the Federal Court or, with the special leave of the High Court, to the High Court."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where a decision of the Registrar is reversed on appeal it is open to the Registrar to appeal to a higher Court. The Registrar will only file an appeal if the decision has a major effect on his or her powers and procedures under the Act and the Registrar is of the opinion that the decision is clearly wrong in law. (See Registrar of Trade Marks v Muller [1980] HCA 35, Registrar of Trade Marks v Woolworths Ltd [1998] FCA 158, and Registrar of Trade Marks v Woolworths Ltd [1999] FCA 102.)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The outcome of any appeal from decisions issued in ex parte or opposition matters in respect to International Registration(s) Designating Australia or Protected International Trade Mark(s) must be communicated to the International Bureau of WIPO in Geneva."
+        }
+      ],
       "cases": [
         {
           "citation": "[1980] HCA 35",
@@ -23,32 +49,32 @@
         "Part 52.6. Appeals from decisions of the Federal Court etc."
       ],
       "internal_refs": [
-        "TMM/Part52/5"
+        "TMM/Part52/5/5/1~1"
       ],
       "kind": "body",
       "ordinal": 1,
       "page_ref": "TMM/Part52/6",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s193",
           "mention": "Section 193"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s195",
           "mention": "Section 195"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s195(2)",
           "mention": "subsection 195(2)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s5.1",
           "mention": "Section 5.1"
@@ -62,9 +88,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:0ad19885a420405069ae0ed08a7807ba1c571e1e9ba539b9c6eed744ec182401",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T16:02:30Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 52.6. Appeals from decisions of the Federal Court etc.",
     "images": [],
     "last_amended": "2025-04-02",

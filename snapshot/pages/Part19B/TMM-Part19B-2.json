@@ -1,6 +1,55 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A registered owner has exclusive rights in relation to the goods or services covered by the registration to:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "use the trade mark;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "authorise others to use the trade mark;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "obtain relief for infringement under this Act. (Subsections 20(1) and 20(2))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "All rights in the trade mark accrue from the date of registration. The date of registration is the date the application is taken to have been filed (subsection 20(3))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The rights of the owner of a registered trade mark are limited by any conditions or limitations that apply to the registration (subsection 20(4))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: To the extent that a trade mark is registered without limitations as to colour, it is taken to be registered for all colours (s70(3))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the case of joint owners of a trade mark the rights of registration are to be exercised as if they were the rights of a single person (subsection 20(5))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.1 Similar registered trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The rights of the registered owner are limited if a similar trade mark has also been registered by another person."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If trade marks that are substantially identical or deceptively similar have been registered by more than one person, the registered owners cannot prevent one another using their own trade marks to the extent they are authorised to do so under their respective registrations"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part19B/2#1",
       "content_hash": "sha256:fa49266474fb3d71a7adfb5f7e5c6b629e221ee5ca984d6ab81b59b59191c7d9",
@@ -64,9 +113,9 @@
     "amendment_note": "Information re s 70(3) added.",
     "archived": false,
     "content_hash": "sha256:adf7d76f652b81aee119bb6931fa3611ea80018034ce747b8b4204f0501e89c1",
-    "crawled_at": "2026-07-28T08:53:44Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-04-08",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 19B.2. What rights are given by trade mark registration?",
     "images": [],
     "last_amended": "2025-04-08",

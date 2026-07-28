@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 38 Revocation of acceptance"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 241 Application for registration of a trade mark"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part38/x-relevant-legislation51#1",
       "content_hash": "sha256:ea332c1c01232f113425fdd05dcd8f704063bd8cd973a83efef521427dd72d2f",
@@ -33,9 +47,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:cd190a274c77a530a26aa5a7869cc78235e50f2efc6892b509e9d993d6a88a04",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "38. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

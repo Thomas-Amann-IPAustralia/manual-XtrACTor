@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions signs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 17 What is a trade mark?"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 33 Application accepted or rejected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 39 Trade mark containing etc. certain signs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 40 Trade mark that cannot be represented graphically"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 41 Trade mark not distinguishing applicant's goods or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 42 Trade mark scandalous or its use contrary to law"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 43 Trade mark likely to deceive or cause confusion"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 44 Identical etc. trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/x-relevant-legislation28#1",
       "content_hash": "sha256:86ce0e9861e41b2fcfc196e4ed1bbdac03649d505eb9d051a5124ea66fabca02",
@@ -68,9 +110,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:d25ecb58d7967d28a4bc7282e8b0025902a9f5a39bd13d59f442838a33b298cb",
-    "crawled_at": "2026-07-28T08:53:45Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "20. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

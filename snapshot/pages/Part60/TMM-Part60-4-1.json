@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Division 3 of Part 17A of the Regulations applies to international registrations designating Australia. An international registration is based on an existing trade mark application or registration in a country which is party to the Madrid Protocol. It is forwarded electronically to IP Australia by the IB. An international registration that has designated Australia is known as an International Registration Designating Australia (IRDA) from the time the IB notifies IP Australia that Australia has been designated. Once the IRDA has successfully gone through IP Australia's examination and opposition processes, protection is extended in Australia and the IRDA is then known as a protected international trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An IRDA must undergo the same examination and opposition processes as a national application filed directly with IP Australia."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/4/1#1",
       "content_hash": "sha256:6ef38cb2ad7d57b374b6ed8d0bd7223e1929c18e93b179a4e3b5e57edc1ca3ef",
@@ -28,9 +46,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:fd447cc5e1641a819aa4056c085cbed6c8ff8f7a3889a61b3a131428f1c4720e",
-    "crawled_at": "2026-07-28T08:54:02Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "60.4.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",

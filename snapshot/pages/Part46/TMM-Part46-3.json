@@ -1,6 +1,34 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Registration or protection can be opposed at any time within two months from the day on which acceptance was published (reg 5.6, 17A.33)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That period is extendible, either before or after it has elapsed (reg 5.9, 17A.34C), but not beyond the point of registration. This is because opposition can only be filed in relation to an application for registration or cessation of protection – registration or protection cannot be opposed after it has occurred. Revocation of registration or protection may be requested under section 84A or reg 17A.42A, but the Registrar is under no obligation to consider such a request."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 62 Revocation of Registration"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 47 Procedures for Opposing Registration or Protection"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part46/3#1",
       "content_hash": "sha256:20cf95fd15fe167c076df2fae5c1e73496c1dbde2281a94a57edebd8782eee26",
@@ -18,37 +46,37 @@
       "page_ref": "TMM/Part46/3",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s84A",
           "mention": "section 84A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.33",
           "mention": "reg 5.6, 17A.33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.34C",
           "mention": "reg 5.9, 17A.34C"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.42A",
           "mention": "reg 17A.42A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.6",
           "mention": "reg 5.6, 17A.33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.9",
           "mention": "reg 5.9, 17A.34C"
@@ -62,9 +90,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:f4601c55ef2e142d0e44df0eb63c224e343c49747918f5311877b644e04e395a",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 46.3. When registration or protection can be opposed",
     "images": [],
     "last_amended": "2025-04-01",

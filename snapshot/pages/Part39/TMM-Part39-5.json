@@ -1,6 +1,34 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The date of registration of a trade mark in respect of particular goods and services is the day on which the registration is taken to have effect under subsection 72(1) or (2). In most cases, this means that the filing date of an application will be its registration date. However, applications claiming Convention priority may have multiple registration dates in respect of various goods and/or services specified."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subsection 72(3) provides that the registration of a trade mark expires 10 years from the filing date of the application for registration, unless it has been removed under section 78 or Part 9, or cancelled under section 84. This is so even in the case of applications claiming a right of priority under section 29, although their registration is taken to have had effect from the date of the filing of the relevant Convention application. A divisional application under Division 3 of Part 4 is taken to have been filed on the day on which the parent application was filed or was deemed to have been filed, and its term of registration dates accordingly. In some cases, this can go back to the initial application filed in a particular chain of applications."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 11 Convention Applications"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 12 Divisional Applications"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part39/5#1",
       "content_hash": "sha256:4a321016d766ef8dc12b3a6fe471e163f1925912c2d71c1e300b60a5e7357edd",
@@ -18,31 +46,31 @@
       "page_ref": "TMM/Part39/5",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29",
           "mention": "section 29"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s72(1)",
           "mention": "subsection 72(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s72(3)",
           "mention": "Subsection 72(3)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s78",
           "mention": "section 78"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s84",
           "mention": "section 84"
@@ -56,9 +84,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:3f2cc2de5660928c59c7fa69f11a84667774088da5f0fe3ffefeafd91acebdc7",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 39.5. Date and term of registration",
     "images": [],
     "last_amended": "2025-06-04",

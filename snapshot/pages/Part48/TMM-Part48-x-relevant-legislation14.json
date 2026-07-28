@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 1 April 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions: remove from the Register, registered owner, prescribed court, authorised use, authorised user"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 7 Use of a trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 8 Definitions of authorised user and authorised use"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 13 Definition of remove from the Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 9 Removal of trade mark for non-use and opposition thereto"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 190 Prescribed courts"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 221 Costs awarded by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 222 Security for costs"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 228 Use of a trade mark for export trade"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 9 Removal of trade mark for non-use and opposition thereto"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.2 Definitions: holder, International Bureau, protected international trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A, Division 3, Subdivision D Cessation of protection for non-use"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part48/x-relevant-legislation14#1",
       "content_hash": "sha256:b55762d806a423c41a25edcebc69476899c80815cac1926777c516664ed037ab",
@@ -15,55 +77,55 @@
       "page_ref": "TMM/Part48/x-relevant-legislation14",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s13",
           "mention": "Section 13"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s190",
           "mention": "Section 190"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s221",
           "mention": "Section 221"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s222",
           "mention": "Section 222"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s228",
           "mention": "Section 228"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s7",
           "mention": "Section 7"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s8",
           "mention": "Section 8"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.2",
           "mention": "Reg 17A.2"
@@ -77,9 +139,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:074fee54c1a08c904aaf3692ac149863fd1afc3ae4cb319233d0ac46ee0acf58",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 48. Landing Page",
     "images": [],
     "last_amended": "2025-04-01",

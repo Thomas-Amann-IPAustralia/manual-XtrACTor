@@ -1,6 +1,36 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If a trade mark contains a name of a person (or group of people) which is well known in relation to the specified goods or services, the provisions of section 43 may be triggered. Such names could consist of the given name, surname, combination of both or known nickname for the well-known person (or group of persons)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example, a section 43 ground for rejection may arise if a trade mark is the name of a well-known person, and the goods/services are in the field for which they are well known, such that consumers are clearly likely to assume that the person is connected with or has endorsed those goods/services, or are involved in their production or supply. Connections of this kind would exist between the name of a well-known swimmer and swimming costumes or the name of a well-known cricketer and cricket coaching services."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the trade mark application is submitted by the well-known person, or it is clear from other available information that the application was made with permission from the well-known person or their representative, a section 43 ground for rejection does not arise."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, if the examiner is not satisfied that the relevant relationship exists between the applicant and the well-known person referred to, a ground for rejection may be appropriate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the trade mark contains a name of a well-known person and the application specifies goods/services outside the area that the person is well known for, then careful consideration of several factors in combination, informed by research, is required."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part29/6#1~1",
       "content_hash": "sha256:ac69f55b0b06f0f288ea66d5dc7029193e5cb434b4c2504d45f9e0a087588318",
@@ -18,7 +48,7 @@
       "page_ref": "TMM/Part29/6",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s43",
           "mention": "section 43"
@@ -28,6 +58,35 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 If a trade mark contains a name of a person (or group of people) which is well known in relation to the specified goods or services, the provisions of section 43 may be triggered. Such names could consist of the given name, surname, combination of both or known nickname for the well-known person (or group of persons). For example, a section 43 ground for rejection may arise if a trade mark is the name of a well-known person, and the goods/services are in the field for which they are well known, such that consumers are clearly likely to assume that the person is connected with or has endorsed those goods/services, or are involved in their production or supply. Connections of this kind would exist between the name of a well-known swimmer and swimming costumes or the name of a well-known cricketer and cricket coaching services. If the trade mark application is submitted by the well-known person, or it is clear from other available information that the application was made with permission from the well-known person or their representative, a section 43 ground for rejection does not arise. However, if the examiner is not satisfied that the relevant relationship exists between the applicant and the well-known person referred to, a ground for rejection may be appropriate. If the trade mark contains a name of a well-known person and the application specifies goods/services outside the area that the person is well known for, then careful consideration of several factors in combination, informed by research, is required."
     },
     {
+      "blocks": [
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Firstly, how well known is the person among relevant Australian consumers, as at the priority date?"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Secondly, are consumers likely to see the name as referring specifically to the well-known person, rather than someone else with the same name? The more common the name, whether it is a given name, surname, or combination of both, the less likely consumers will be to make this assumption, as many well-known people have names shared by many other people. Conversely, for a highly distinctive and unusual name shared by very few people, consumers are more likely to assume that it refers to the well-known person. See for example: Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN) at [30]."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Thirdly, to what extent are the specified goods/services connected with the field that the name is well known for? The closer the link between the goods/services and the particular field in which the name is well-known, the more likely that consumers will assume that use of the trade mark is associated with the well-known person. Of course, this should be weighed together with the other factors. Consumers in today’s market may reasonably expect certain persons with a very high profile or celebrity status to endorse a wide range of goods/services, often completely unrelated to the areas in which they are well-known."
+        },
+        {
+          "kind": "paragraph",
+          "text": "While all the above factors are relevant, the question that the examiner must ultimately decide is whether the trade mark conveys a connotation that the goods/services have a connection with or the approval of the well-known person(s) to such a level that confusion or deception is likely to occur within the relevant sector of the public."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An applicant may overcome a section 43 ground for rejection in relation to a name by providing the well-known person’s written permission to use their name as a trade mark. Where permission is provided, this should be made clear by way of an endorsement. For example:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "<name of well-known person> has consented to the use of their name as a trade mark."
+        }
+      ],
       "cases": [
         {
           "citation": "[2019] ATMO 41",
@@ -59,6 +118,24 @@
       "text": "Firstly, how well known is the person among relevant Australian consumers, as at the priority date? Secondly, are consumers likely to see the name as referring specifically to the well-known person, rather than someone else with the same name? The more common the name, whether it is a given name, surname, or combination of both, the less likely consumers will be to make this assumption, as many well-known people have names shared by many other people. Conversely, for a highly distinctive and unusual name shared by very few people, consumers are more likely to assume that it refers to the well-known person. See for example: Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN) at [30]. Thirdly, to what extent are the specified goods/services connected with the field that the name is well known for? The closer the link between the goods/services and the particular field in which the name is well-known, the more likely that consumers will assume that use of the trade mark is associated with the well-known person. Of course, this should be weighed together with the other factors. Consumers in today’s market may reasonably expect certain persons with a very high profile or celebrity status to endorse a wide range of goods/services, often completely unrelated to the areas in which they are well-known. While all the above factors are relevant, the question that the examiner must ultimately decide is whether the trade mark conveys a connotation that the goods/services have a connection with or the approval of the well-known person(s) to such a level that confusion or deception is likely to occur within the relevant sector of the public. An applicant may overcome a section 43 ground for rejection in relation to a name by providing the well-known person’s written permission to use their name as a trade mark. Where permission is provided, this should be made clear by way of an endorsement. For example: <name of well-known person> has consented to the use of their name as a trade mark."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The considerations applying to the names of well-known persons also apply to images of those persons. Images can include photographs, portraits, cartoon caricatures and other stylised representations."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An applicant may overcome a section 43 ground for rejection in relation to such an image by providing the well-known person’s written permission to use their image as a trade mark. Where permission is provided, this should be made clear by way of an endorsement. For example:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The representation in the trade mark is that of <name of well-known person> who has consented to the use of their image as a trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A section 43 ground for rejection should not be raised merely because a trade mark contains the image of a person. The section 43 ground for rejection should only be raised if the examiner considers that the confusing or deceptive connotation discussed above is likely to arise."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part29/6/6/1",
       "content_hash": "sha256:94219eaa9c113dcecb64f0c0d8b7d7970ee0c89b4e732ebf371d1b1b4f2abcf1",
@@ -83,6 +160,49 @@
       "text": "The considerations applying to the names of well-known persons also apply to images of those persons. Images can include photographs, portraits, cartoon caricatures and other stylised representations. An applicant may overcome a section 43 ground for rejection in relation to such an image by providing the well-known person’s written permission to use their image as a trade mark. Where permission is provided, this should be made clear by way of an endorsement. For example: The representation in the trade mark is that of <name of well-known person> who has consented to the use of their image as a trade mark. A section 43 ground for rejection should not be raised merely because a trade mark contains the image of a person. The section 43 ground for rejection should only be raised if the examiner considers that the confusing or deceptive connotation discussed above is likely to arise."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Generally, a section 43 ground for rejection will not arise in respect of long deceased historical figures, even if they were well known for the same field as the specified goods/services are in. This is because consumers are unlikely to think that the name of a person who died long ago is still connected with ongoing commercial activity associated with that person or their estate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example, if a trader uses the name “W G Grace” (a famous cricketer whose career spanned from around 1860 to 1900) on cricket bats, consumers today would be more likely to regard this as a reference to a bygone era rather than a suggestion that W G Grace, or his descendants, endorsed or had any input on the goods."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, a relevant connotation may arise if the deceased person’s estate (or other authorised entity) has continued to control the use of the person’s name/image after their death, e.g. by commercialising directly or licensing to third parties. The more well-known the person is, and the more recently they died (especially from the mid-twentieth century onwards), the more likely consumers will be to know about or expect this kind of control. For example:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The estate of Diana, Princess of Wales, continued to license the use of her name for charitable fundraising: McCorquodale v Masterson [2004] FCA 1247 (DIANA’S LEGACY IN ROSES & Device)."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The International Olympic Committee continued to use, and was closely associated with, the name of Pierre de Coubertin, founder of the modern Olympic Games, long after his death: Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A section 43 ground for rejection may therefore be warranted, having regard to the considerations at Part 29.6 above, if research indicates that:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the deceased person’s estate (or other authorised entity) has continued to use, or control the use of, the person’s name/image after their death;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a significant number or a significant sector of relevant Australian consumers would know that use of the deceased person’s name/image is associated with their estate (or other authorised entity); and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "there is a connection between the name/image of the deceased person and the specified goods/services."
+        }
+      ],
       "cases": [
         {
           "citation": "[2004] FCA 1247",
@@ -121,6 +241,44 @@
       "text": "Generally, a section 43 ground for rejection will not arise in respect of long deceased historical figures, even if they were well known for the same field as the specified goods/services are in. This is because consumers are unlikely to think that the name of a person who died long ago is still connected with ongoing commercial activity associated with that person or their estate. For example, if a trader uses the name “W G Grace” (a famous cricketer whose career spanned from around 1860 to 1900) on cricket bats, consumers today would be more likely to regard this as a reference to a bygone era rather than a suggestion that W G Grace, or his descendants, endorsed or had any input on the goods. However, a relevant connotation may arise if the deceased person’s estate (or other authorised entity) has continued to control the use of the person’s name/image after their death, e.g. by commercialising directly or licensing to third parties. The more well-known the person is, and the more recently they died (especially from the mid-twentieth century onwards), the more likely consumers will be to know about or expect this kind of control. For example: The estate of Diana, Princess of Wales, continued to license the use of her name for charitable fundraising: McCorquodale v Masterson [2004] FCA 1247 (DIANA’S LEGACY IN ROSES & Device). The International Olympic Committee continued to use, and was closely associated with, the name of Pierre de Coubertin, founder of the modern Olympic Games, long after his death: Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN). A section 43 ground for rejection may therefore be warranted, having regard to the considerations at Part 29.6 above, if research indicates that: the deceased person’s estate (or other authorised entity) has continued to use, or control the use of, the person’s name/image after their death; a significant number or a significant sector of relevant Australian consumers would know that use of the deceased person’s name/image is associated with their estate (or other authorised entity); and there is a connection between the name/image of the deceased person and the specified goods/services."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In these circumstances, use of the deceased person’s name/image in the trade mark may connote some connection between the deceased person or their estate (or other authorised entity) and the specified goods/services, which would confuse or deceive consumers."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example, in McCorquodale v Masterson [2004] FCA 1247 (DIANA’S LEGACY IN ROSES & Device) (“Masterson”), the Court found that the section 43 ground was established because parts contained in the mark “directly and immediately” connoted the late Princess Diana, and suggested an association with her estate, resulting in a real tangible risk of confusion or deception. The application claimed live roses."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Relevant circumstances considered by the Court included the following:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Princess Diana was one of the most famous individuals of the time, including in Australia."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "She was commonly referred to in the global media simply as ‘Diana’."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "She was well known for charity work and allowed charities to use her name to raise funds. After her death, her estate recognised the continuing value of her name for charitable fundraising and controlled the licensing of her name worldwide (including in Australia) through the Diana, Princess of Wales Memorial Fund. A “relevantly significant sector of consumers in Australia” knew about the Fund and its licensing activities before the priority date, via media publicity and the sale of licensed goods in Australia."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "There was a “real connection in the public mind” between Diana and the specified goods (live roses). Diana was associated with roses in her lifetime, she was called ‘England’s Rose’, and she allowed her name to be used for varieties of rose (which were sold in Australia). After her death, the Fund licensed her name in relation to the sale of flowers in Australia."
+        },
+        {
+          "kind": "paragraph",
+          "text": "See also Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN)."
+        }
+      ],
       "cases": [
         {
           "citation": "[2004] FCA 1247",
@@ -157,6 +315,12 @@
       "text": "In these circumstances, use of the deceased person’s name/image in the trade mark may connote some connection between the deceased person or their estate (or other authorised entity) and the specified goods/services, which would confuse or deceive consumers. For example, in McCorquodale v Masterson [2004] FCA 1247 (DIANA’S LEGACY IN ROSES & Device) (“Masterson”), the Court found that the section 43 ground was established because parts contained in the mark “directly and immediately” connoted the late Princess Diana, and suggested an association with her estate, resulting in a real tangible risk of confusion or deception. The application claimed live roses. Relevant circumstances considered by the Court included the following: Princess Diana was one of the most famous individuals of the time, including in Australia. She was commonly referred to in the global media simply as ‘Diana’. She was well known for charity work and allowed charities to use her name to raise funds. After her death, her estate recognised the continuing value of her name for charitable fundraising and controlled the licensing of her name worldwide (including in Australia) through the Diana, Princess of Wales Memorial Fund. A “relevantly significant sector of consumers in Australia” knew about the Fund and its licensing activities before the priority date, via media publicity and the sale of licensed goods in Australia. There was a “real connection in the public mind” between Diana and the specified goods (live roses). Diana was associated with roses in her lifetime, she was called ‘England’s Rose’, and she allowed her name to be used for varieties of rose (which were sold in Australia). After her death, the Fund licensed her name in relation to the sale of flowers in Australia. See also Comité International Olympique v Tempting Brands Netherlands BV [2019] ATMO 41 (PIERRE DE COUBERTIN)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In Elvis Presley Enterprises Inc v Jelcic [2008] ATMO 103 (ELVISFINANCE), finding that section 43 was not satisfied, the Delegate acknowledged that the name ELVIS would cause most people to think of the late singer, Elvis Presley. However, the evidence did not establish a relevant connection between Elvis Presley and the specified services: mortgage lending and home loans, unlike that shown between Princess Diana and roses in Masterson. In all the circumstances, the Delegate found that the use only of the name ‘Elvis’ next to ‘FINANCE’, in relation to the claimed services, was not enough to cause a likelihood of deception or confusion."
+        }
+      ],
       "cases": [
         {
           "citation": "[2008] ATMO 103",
@@ -193,9 +357,9 @@
     "amendment_note": "Links to legislation added. Content updated.",
     "archived": false,
     "content_hash": "sha256:bfd92e7771864174e7d5b5359cbe1800058ca3820232a8db53421bb0b6535fb0",
-    "crawled_at": "2026-07-28T08:53:51Z",
+    "crawled_at": "2026-07-28T16:00:32Z",
     "date_published": "2025-10-23",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 29.6. Names of Persons",
     "images": [],
     "last_amended": "2025-10-23",

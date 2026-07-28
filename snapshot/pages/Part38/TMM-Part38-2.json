@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In line with the provisions of subsection 38(1)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before a trade mark is registered, the Registrar may revoke the acceptance of the application for registration of the trade mark if he or she is satisfied that:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "a. the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and"
+        },
+        {
+          "kind": "paragraph",
+          "text": "b. it is reasonable to revoke the acceptance, taking account of all the circumstances."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part38/2#1",
       "content_hash": "sha256:9911d35821a343053947197eb339d917725397ba980591f71b64638f5364845f",
@@ -30,6 +48,12 @@
       "text": "In line with the provisions of subsection 38(1). Before a trade mark is registered, the Registrar may revoke the acceptance of the application for registration of the trade mark if he or she is satisfied that: a. the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and b. it is reasonable to revoke the acceptance, taking account of all the circumstances."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If information is received from examination staff, third parties or others with specialised knowledge that calls into question the acceptance of the trade mark the delegate can act on this information to begin the revocation process but should not institute revocation proceedings merely because another party is requesting revocation."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/1",
       "content_hash": "sha256:849648462c41d01c77ec1ca5476b15b8130ccf3731d0863c5b2b172333dd9dc1",
@@ -48,6 +72,12 @@
       "text": "If information is received from examination staff, third parties or others with specialised knowledge that calls into question the acceptance of the trade mark the delegate can act on this information to begin the revocation process but should not institute revocation proceedings merely because another party is requesting revocation."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The delegate should not simply rely on the submissions of a third party in deciding whether to revoke acceptance but should rely instead on clear and independently verified information, preferably in documented form."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/2",
       "content_hash": "sha256:199d84a3be9259348c535d5744293eada21e4460ca6566c265da243e290863bc",
@@ -66,6 +96,40 @@
       "text": "The delegate should not simply rely on the submissions of a third party in deciding whether to revoke acceptance but should rely instead on clear and independently verified information, preferably in documented form."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The information must support a conclusion that it is reasonable to revoke acceptance taking into account all the relevant circumstances. Some examples where it may be reasonable to consider revocation include"
+        },
+        {
+          "kind": "paragraph",
+          "text": "i. the appropriate CPI, surname, INN, or goods or services search was not carried out thoroughly or was totally omitted in the course of examination;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "ii. the appropriate research was not carried out, or where an inappropriate search strategy was used;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "iii. limitations or conditions that affected the mark’s registrability were not requested or applied when clearly they were warranted;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "iv. an application is accepted because a citation was missed due to an indexing error;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "v. methodical and thorough research did not provide the relevant information (e.g. when it was not to be found in the available Trade Marks Office resources);"
+        },
+        {
+          "kind": "paragraph",
+          "text": "vi. convention documents are received after a search for conflicting marks is completed which results in the raising of a “late” citation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "vii. an international application for a conflicting mark having an earlier priority date had not yet been filed in Australia"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/3",
       "content_hash": "sha256:b0acb814a476dc762c38c2566165b32d6d6f338312e6d50c37ba1125b259b8dc",
@@ -88,9 +152,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:0724c4b31894dacefc3ae2d358d583576edb699e583e10d1cc69d5cc6170a190",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "38.2. Reasons for revocation",
     "images": [],
     "last_amended": "2022-04-20",
