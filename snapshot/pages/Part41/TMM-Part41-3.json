@@ -1,0 +1,91 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part41/3#1~1",
+      "content_hash": "sha256:bdbcac354f3441a74d081787121a7f518bfd93b8f4ee36533ac80f019d0bdf3c",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 41 Cancellation of Registration",
+        "Part 41.3. Cancellation process"
+      ],
+      "internal_refs": [
+        "TMM/Part43/1",
+        "TMM/Part44/1",
+        "TMM/Part9/7"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part41/3",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s84",
+          "mention": ")"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s84(1)",
+          "mention": "section 84(1)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s84(2)",
+          "mention": "section 84(2)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s84(2)(a)",
+          "mention": "section 84(2)(a)"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 The Registrar must cancel the registration of a trade mark in accordance with the regulations if the registered owner asks in writing that the registration be cancelled (section 84(1)). Before cancelling registration the Registrar must notify any persons recorded as claiming an interest or who have made an application to record an assignment or transmission of the trade mark if the assignment has not yet been recorded (section 84(2)). 3.1 When a request for Cancellation has been received the following checks are performed: The request to cancel is in the correct name. The status of the trade mark is Registered/Protected or Registered-Renewal Due. The request is filed by the registered owner or their address for service. The request must clearly state that they want to cancel the trade mark. The request has a signature. If there is more than one name as the registered owner of the trade mark, signatures of all co-owner(s) are required. If the registered owner is a company, the position of the signatory must be provided and it must state that they are authorised to sign on behalf of the company. If there are any claimed interests recorded. If there are any unprocessed or pending assignments or claimed interests. Part 2 General Filing Requirements 3.2 If the request has not been completed correctly or if there is a discrepancy in the name and no outstanding or pending assignment a letter will be sent to the person requesting cancellation setting out what needs to be corrected. If the discrepancy has occurred because of: a change of name - the person must advise, in writing, of the change of name, or Part 9 Amendments and Changes to Name and Address - 7. Change of name, address and address for service an assignment or transmission - the person must provide a certified copy of the assignment document. 3.3 If there are any unprocessed applications for recording an assignment or claimed interest these will be processed if possible. Part 43 Assignment and Transmission Part 44 Claim of Interest or Rights in a Trade Mark If an application to record an interest cannot be processed because there is a problem with the application, the person claiming the interest will not be notified of the request to cancel the registration since the record will not have been entered in the Register (section 84(2)(a))."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part41/3#1~2",
+      "content_hash": "sha256:97d2c03f4081daa581979cfc473853928e513f354d693b561dc0da3d8f2384ed",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 41 Cancellation of Registration",
+        "Part 41.3. Cancellation process"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part41/3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.1(3)",
+          "mention": "reg 8.1(3)"
+        }
+      ],
+      "text": "3.4 If the name of the owner no longer corresponds with the name given on the request for cancellation because an outstanding assignment has been processed as per 3.3 above, the person making the request for cancellation should be advised that the cancellation cannot proceed as a result. This is appropriate procedure because an application for assignment, once approved, is taken to have effect from the filing date of the application. Therefore, any application for assignment already on file at the time a request for cancellation is received will, once processed, pre-date the request for cancellation. 3.5 If everything is in order cancellation is processed. If there are any claimed interests recorded the status of the trade mark will not change. The system will generate a notice to the claimant giving them two months to provide a court order to stop cancellation. A letter is also sent to the owner advising of the delay in the cancellation process. 3.6 If at the end of the two month period there is no court order, the owner has not withdrawn the request or all persons notified have not responded the registration will be cancelled. If before the end of the two month period all persons notified have advised in writing that they have no objection to the cancellation, the Registrar must cancel the registration (reg 8.1(3)). 3.7 Once cancellation is approved a standard notice is issued and a publication flag is set. 3.8 If the Registrar is given a court order preventing cancellation, the pending amendment can be deleted. 3.9 If a situation arises where the trade mark has been cancelled and a court orders its re-instatement, the registration can be put back on the Register."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:182a4c6e0027526cfa776abd9070704f783382ac886dc1353c2e9c4b0e281bc4",
+    "crawled_at": "2026-07-28T04:55:57Z",
+    "date_published": "2025-02-10",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 41.3. Cancellation process",
+    "last_amended": "2025-02-10",
+    "nav_title": "Part 41.3. Cancellation process",
+    "page_ref": "TMM/Part41/3",
+    "part_id": "Part41",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/3.-cancellation-process"
+  }
+}

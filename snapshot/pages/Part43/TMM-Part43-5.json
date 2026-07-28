@@ -1,0 +1,69 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part43/5#1~1",
+      "content_hash": "sha256:47980039d94e993790fca476fdf577b6537d4fb1163ca24d8476cc8c92f38285",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 43 Assignment and Transmission",
+        "43.5. Process for assigning only some goods and/or services (partial assignment)"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part43/5",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s106",
+          "mention": "section 106"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "text": "An application for assignment of a trade mark can also be for some of the goods and/or services. This is known as a partial assignment. A partial assignment of a trade mark differs from a full assignment, in that all the goods and/or services specified in the application or registration are not assigned and a new trade mark application or registration is created for the goods and/or services that have been assigned. Any conditions or limitations applied to the original trade mark application or registration will also apply to the new trade mark application or registration. 5.1 Partial assignment in relation to use of the trade mark in a particular geographical area is not permitted (section 106). Therefore details of a partial assignment should be checked and not be entered on the database if the trade mark has been partially assigned by geographical area. The applicant should be advised in writing that the recordal of assignment cannot proceed. 5.2 Certification trade marks can be partially assigned but additional requirements apply which are described separately in section 6. 5.3 The recordal of a partial assignment follows the same process as for a full assignment. 5.4 The prescribed document establishing title is checked to see which goods and/or services are to be assigned. Only goods and/or services included in the goods and/or services of the original application or registration can be recorded as being assigned. The priority details applying to specific goods and/or services should be checked to ensure that they are recorded in relation to the correct trade mark(s). The database will allow the transfer of whole classes of goods and services to a separate screen which will be transferred to the new trade mark on approval of the assignment. Alternatively, it is possible to elect to modify the specification and select only specific goods or services in the class to be transferred to the new trade mark on approval of the assignment. If the goods and/or services of the original trade mark were modified it will be amended to reflect the goods and/or services that were not assigned."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part43/5#1~2",
+      "content_hash": "sha256:29f7b3a770e75b9496c571db1d1e4622e06811cd07660efe34501e9c4fcb2937",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 43 Assignment and Transmission",
+        "43.5. Process for assigning only some goods and/or services (partial assignment)"
+      ],
+      "internal_refs": [
+        "TMM/Part43/4"
+      ],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part43/5",
+      "provisions": [],
+      "text": "5.5 All assignee details are automatically transferred to the newly created trade mark, as are all conditions that existed on the original trade mark. A claim to an interest in, or right in respect of the trade mark will be recorded for both the new trade mark and the original trade mark unless the Office is advised otherwise. 5.6 The partial assignment process then follows the same steps as 4.6 to 4.14 of the process for assigning all goods and services up until approval of recording the assignment. 5.7 At the stage of approval, the system allocates a new trade mark number for the assignee's goods and/or services. 5.8 The assignor is not automatically issued with a new certificate of registration unless they have specifically requested one. 5.9 If only some of the goods/services have been assigned the goods/services that have been assigned will be manually deleted from the original trade mark. If a whole class has been assigned the original trade mark is updated in the process of recording the partial assignment. 5.10 If the original trade mark is an application that is under examination, both the assigned trade mark and the original trade mark application will be sent to the examiner examining the original trade mark application."
+    }
+  ],
+  "page": {
+    "amendment_note": "Update hyperlinks",
+    "archived": false,
+    "content_hash": "sha256:35c52a852c1c6a57926d5638b1c45994dfb1b805e4dbfc50c8d32c8c9b015ffe",
+    "crawled_at": "2026-07-28T04:56:13Z",
+    "date_published": "2022-04-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "43.5. Process for assigning only some goods and/or services (partial assignment)",
+    "last_amended": "2022-04-20",
+    "nav_title": "5. Process for assigning only some goods and/or services (partial assignment)",
+    "page_ref": "TMM/Part43/5",
+    "part_id": "Part43",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-process-for-assigning-only-some-goods-and-or-services-partial-assignment"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part45/2#1",
+      "content_hash": "sha256:e1c0047ee048de2cfe0dd87be7d489b95fc98289baf51d2fafc244e0785800c9",
+      "fragment": null,
+      "heading_path": [
+        "Part 45 Copies of Documents",
+        "Part 45.2. Types of document copies and delivery dispatch"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part45/2",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s2.1.1",
+          "mention": "section 2.1.1"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s210",
+          "mention": "sections 210 and 211"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s211",
+          "mention": "sections 210 and 211"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s211(1)",
+          "mention": "subsection 211(1)"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 2.1 Document Copy Types The office provides two types of copies: certified copies and uncertified copies. 2.1.1 Certified Copies A certified copy is a copy of a document, or a copy of an extract from a document, held in the Trade Marks Office (including the Register) that is certified by the Registrar to be a true copy or extract. It is admissible in any proceedings as if it were the original (sections 210 and 211). The Registrar may also certify his or her own statements on other matters, such as when something required or prohibited by the Act was done or not done, or the period when a document was Available for Public Inspection (API). Certification of the statement is prima facie evidence of the matters so stated (subsection 211(1)). 2.1.2 Uncertified copies These are copies of documents described in section 2.1.1, but are not certified by the Registrar. These documents do not have the legal status of being necessarily admissible in evidence as if they were the original. They are usually obtained for information only, rather than for official purposes. 2.1.2.1 Request by Owner or Address for Service for a Copy of Examination (adverse) Report An electronic copy of an examination adverse report can be requested by the owner or the address for service without any fees. The request must be submitted through the appropriate channel in their online portal. If the requester is not the address for service, they should include details of their authority to request on behalf of the owner. Examination reports can be requested for International Applications (IRDA), Headstart assist and standard trade mark. 2.2 Delivery dispatch There are various means of dispatch. Additional fees can be paid for an expedited method of postage of a physical copy. Delivery options are: Electronically to IP Australia online account Email (only for documents handled by the FOI team) WIPO Digital Access Service (DAS) Standard post Expedited post by either express post or courier (additional fees apply) If the request does not specify a method of dispatch and no expedited post fee is received, the documents will be dispatched electronically to the IP Australia account that filed the request. If email is specified in a request where the document can be sent to the online account, the document will be sent to the online account."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated. Content regarding requests and delivery added.",
+    "archived": false,
+    "content_hash": "sha256:38402b4a91bb4a5ffc8e86f7b2ff509769d5940f3ac865b2b24afd93c07d2825",
+    "crawled_at": "2026-07-28T04:56:30Z",
+    "date_published": "2025-02-25",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 45.2. Types of document copies and delivery dispatch",
+    "last_amended": "2025-02-25",
+    "nav_title": "Part 45.2. Types of document copies and delivery dispatch",
+    "page_ref": "TMM/Part45/2",
+    "part_id": "Part45",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-types-of-copies-requested"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part7/4#1",
+      "content_hash": "sha256:90698459b2c219fbeccd5ce345f7d0e5223c46554b6750294c32ad08bca008ba",
+      "fragment": null,
+      "heading_path": [
+        "Part 7 Withdrawal of Applications, Notices and Requests",
+        "Part 7.4. Procedure for withdrawal of an application to register a trade mark"
+      ],
+      "internal_refs": [
+        "TMM/Part18/1",
+        "TMM/Part26/1",
+        "TMM/Part7/3"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part7/4",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.2",
+          "mention": "paragraphs 3.2 to 3.4"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.4",
+          "mention": "paragraphs 3.2 to 3.4"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.7",
+          "mention": "paragraph 3.7"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r21.9",
+          "mention": "reg 21.9"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 This procedure is very similar to the general procedure, except that notification is by standard notice and the withdrawal is published. 4.1 The withdrawal notice or request should be in writing and should state that the application for the registration of the trade mark is to be withdrawn. For example, if the withdrawal notice or request states that the person does not wish to proceed with the application to register their trade mark, or that the application is to be cancelled, it will be necessary to query whether the person wishes the application to be withdrawn or to be allowed to lapse. This is because the withdrawal process is different from lapsing in that the application is finalised completely from the date of the notice of withdrawal, whereas an application that is allowed to lapse in accordance with the provisions of the Act (which allows fifteen months from the date of the first report) may be revived. Also, it may take many months to lapse and would remain pending for the purposes of constituting a citation until the lapsing date has passed. If the application was filed by, or on behalf of, more than one person, the notice of withdrawal must be signed by, or on behalf of, each of those persons (reg 21.9). Part 18 Finalisation of Applications for Registration Part 26 Conflict with other Signs 4.2 The same procedures are followed as in paragraphs 3.2 to 3.4 above. 4.3 If the details are in order, and there are no other unactioned service requests which are relevant, the application is withdrawn on the trade mark database. This will change the status of the application to \"withdrawn\", generate a standard notice, and set the publication date. 4.4 If the application to register a trade mark cannot be withdrawn, the procedure at paragraph 3.7 is followed."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed Links Updated",
+    "archived": false,
+    "content_hash": "sha256:37aea8943bd6712815894f607ff828034e23b349dedf7a68cbf51aff4606e8f8",
+    "crawled_at": "2026-07-28T04:48:33Z",
+    "date_published": "2025-06-05",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 7.4. Procedure for withdrawal of an application to register a trade mark",
+    "last_amended": "2025-06-05",
+    "nav_title": "4. Procedure for withdrawal of an application to register a trade mark",
+    "page_ref": "TMM/Part7/4",
+    "part_id": "Part7",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/4.-procedure-for-withdrawal-of-an-application-to-register-a-trade-mark"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/3#1",
+      "content_hash": "sha256:bf7650a5b4dc7c7ffe239d83b31ea624fa9a234a1a2a5d86b3c2b5696370e6ce",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number"
+      ],
+      "internal_refs": [
+        "TMM/Part5/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part60/4/3",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.11",
+          "mention": "Part 17A"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.2",
+          "mention": "Part 17A.2"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.3",
+          "mention": "Part 17A.3"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.4",
+          "mention": "Part 17A.4"
+        }
+      ],
+      "text": "4.3.1 Relevant Legislation Madrid Protocol Article 3 International Application Madrid Protocol Regulations Rule 14(1)(2) Registration of the Mark in the International Registrar Rule 24(8) Recording and Notification (subsequent designations) Trade Marks Regulations 1995 Part 17A.2 Definitions for Part Part 17A.3 Meaning of priority date Part 17A.4 Meaning of date of effect Part 17A Division 3 Trade Marks Office Manual of Practice and Procedure Part 5 Data Capture, Indexing and Scanning 4.3.2 General Description The IB notifies IP Australia when they register an international application where Australia has been designated. IP Australia receives IRDAs electronically. Not all information transmitted by the IB is required by IP Australia. The data from the IB is used to create a formatted Madrid Import document that appears on the record. The filing date of an IRDA is usually the date on which the international registration was filed with the Office of origin. However, if Australia was subsequently designated, the filing date for Australia is the date the request to extend the international registration to Australia was recorded by the IB. The notification date is the date on which IP Australia receives the IRDA. This date begins the 18-month period in which refusals must be notified to the IB. The expiry date of the international registration is 10 years from the filing date of the international registration. Where Australia has been subsequently designated, renewal will in most cases be due less than 10 years after the notification date. IRDAs will have an international registration number, and will also be allocated, for administrative purposes, the next available Australian trade mark number. Both numbers and the above dates are displayed on Australian Trade Mark Search and in IP Australia's RIO system."
+    }
+  ],
+  "page": {
+    "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "archived": false,
+    "content_hash": "sha256:4aeb98c0b87b7114017d000e21f3e0acc8db56567b0ce67d6826507c6bd47510",
+    "crawled_at": "2026-07-28T04:58:38Z",
+    "date_published": "2026-04-17",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "60.4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
+    "last_amended": "2026-04-17",
+    "nav_title": "4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
+    "page_ref": "TMM/Part60/4/3",
+    "part_id": "Part60",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/4.3-filing-data-capture-allocation-of-australian-trade-mark-number"
+  }
+}

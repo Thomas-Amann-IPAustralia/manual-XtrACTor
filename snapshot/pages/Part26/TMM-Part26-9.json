@@ -1,0 +1,66 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part26/9#1",
+      "content_hash": "sha256:dadd0713802b19563886b1f879fdd89e3f5d88a5c925c708e26f3c4ad6d14610",
+      "fragment": null,
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.9. Grounds for rejection when the citation is in its renewal period"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part26/9",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.13(1)(c)(v)",
+          "mention": "subparagraph 4.13(1)(c)(v)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s74A",
+          "mention": "74A"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s78",
+          "mention": "section 78"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s79",
+          "mention": "Section 79"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s80",
+          "mention": "80"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r4.13(1)(c)(v)",
+          "mention": "subparagraph 4.13(1)(c)(v)"
+        }
+      ],
+      "text": "The renewal of trade mark registrations is governed by the provisions of Division 2 Part 7 (s 74A - 80) of the Act. Under this Part, section 78 states that if the renewal fee is not paid by the expiration date, the registration will be removed 6 months after the date on which it expired. Section 79 provides that if renewal is requested within 6 months of the registration expiring, the registration must be renewed. When a cited trade mark is in this 6 month period, it has the status Expired - renewal possible and may constitute a ground for rejection of later filed trade mark applications until it is finally removed from the Register. Deferment of the acceptance date of the application can be sought on the basis that a citation raised against the application is in this status see (subparagraph 4.13(1)(c)(v) of the Regulations)."
+    }
+  ],
+  "page": {
+    "amendment_note": "Update hyperlinks",
+    "archived": false,
+    "content_hash": "sha256:5e6dbf9a80fbb4908ae159740af59a0ac186397c71c4f714892e983d99423542",
+    "crawled_at": "2026-07-28T04:53:00Z",
+    "date_published": "2022-04-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "26.9. Grounds for rejection when the citation is in its renewal period",
+    "last_amended": "2022-04-20",
+    "nav_title": "9. Grounds for rejection when the citation is in its renewal period",
+    "page_ref": "TMM/Part26/9",
+    "part_id": "Part26",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/9.-grounds-for-rejection-when-the-citation-is-in-its-renewal-period"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part39/1#1",
+      "content_hash": "sha256:66be82b843c18b60d6205c4b79ee91d6465b38da3c05e2c6d65da557e4080902",
+      "fragment": null,
+      "heading_path": [
+        "Part 39 Registration of a Trade Mark",
+        "Part 39.1. Overview of registration"
+      ],
+      "internal_refs": [
+        "TMM/Part19B/1",
+        "TMM/Part43/1",
+        "TMM/Part8/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part39/1",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s68",
+          "mention": "section 68"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s71",
+          "mention": "section 71"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Registration represents the successful end-point for an application for registration of a trade mark that has been accepted. In a legal sense, registration gives the owner a statutory right to use, license, or sell the mark within Australia for the goods or services for which it has been registered as explained in Part 19B. Part 19B Rights Given by Registration of a Trade Mark A trade mark becomes registered when the Registrar, after the trade mark has been accepted for registration, and passed the opposition period, including any opposition proceedings or appeals (section 68), and any appropriate fee has been paid, enters all the particulars of the trade mark in the Register (section 69), and gives it a number by which it may be identified (section 68). In most cases, this number will be the number that was allocated to the application at the time of filing. In some limited circumstances, such as partial assignment, linking or amalgamation of trade marks, the number may be different. Registration of a trade mark must be published, and the Registrar must give the registered owner a certificate of registration (section 71). Part 43 Assignment Part 8 Amalgamation of Applications for Registration"
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:c685fd1ca61079ba35a6b68518f0ab0ed4593f84b14bac11401ce2a1fb020922",
+    "crawled_at": "2026-07-28T04:55:33Z",
+    "date_published": "2025-06-04",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 39.1. Overview of registration",
+    "last_amended": "2025-06-04",
+    "nav_title": "1. Overview of registration",
+    "page_ref": "TMM/Part39/1",
+    "part_id": "Part39",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/1.-overview-of-registration"
+  }
+}

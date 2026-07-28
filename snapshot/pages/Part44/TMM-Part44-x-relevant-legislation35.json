@@ -1,0 +1,53 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part44/x-relevant-legislation35#1",
+      "content_hash": "sha256:a46b450bc608e97f8472eb5e8e3f941eb5121d80bdd100db7a955872b5a5c8d6",
+      "fragment": null,
+      "heading_path": [
+        "Part 44 Claim of Interest or Rights in a Trade Mark",
+        "Part 44. Landing Page"
+      ],
+      "internal_refs": [],
+      "kind": "landing",
+      "ordinal": 1,
+      "page_ref": "TMM/Part44/x-relevant-legislation35",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "Section 215"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r21.3",
+          "mention": "Reg 21.3"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/s216",
+          "mention": "Section 216 Change of name Trade Mark Regulations 1995"
+        }
+      ],
+      "text": "Part Published: 25 February 2025 Trade Marks Act 1995 Part 11 Voluntary Recording of Claims to Interests in and Rights in Respect of Trade Marks Section 215 Address for service Section 216 Change of name Trade Mark Regulations 1995 Part 11 Voluntary Recording of Claims to Interests in and Rights in Respect of Trade Marks Part 17A: Division 10 Recording of Claimed Interests and Rights Reg 21.3 Filing of documents - common requirements"
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:3a2649d5d964b0d3b26800c1105fd5ecd767c760c108a061af65268930e4d7c0",
+    "crawled_at": "2026-07-28T04:56:17Z",
+    "date_published": "2025-02-25",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 44. Landing Page",
+    "last_amended": "2025-02-25",
+    "nav_title": "Part 44. Landing Page",
+    "page_ref": "TMM/Part44/x-relevant-legislation35",
+    "part_id": "Part44",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/relevant-legislation35"
+  }
+}

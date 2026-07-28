@@ -1,0 +1,106 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part18/2#1",
+      "content_hash": "sha256:fc4fc94128a4d151449b56277e08006c05f6dc1921815280b9084e608cd2a90c",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.2. Accepting an application for registration"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part18/2",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s33",
+          "mention": "section 33"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 If an application meets the criteria for acceptance set out in section 33 a delegate of the Registrar will accept the application."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part18/2/2/1",
+      "content_hash": "sha256:a430d99ef295ceb2406b4160cd3bb1dc86b06fabaeab1f3922f7e204481aa7b5",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.2. Accepting an application for registration",
+        "2.1"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part18/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s33(1)",
+          "mention": "subsection 33(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s33(2)",
+          "mention": "subsection 33(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "text": "An application must be accepted if, after examination, it is found to have been made in accordance with the provisions of the Act (see section 6 definition of \"this Act\"), and there are no grounds for rejecting it (subsection 33(1)). An application may be accepted subject to conditions or limitations (subsection 33(2))."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part18/2/2/2",
+      "content_hash": "sha256:edcc2c4d242318bfe2de3ddaf160f7bd45d725e10b6bfd0ed674ed348d1d5783",
+      "fragment": null,
+      "heading_path": [
+        "Part 18 Finalisation of Application for Registration",
+        "Part 18.2. Accepting an application for registration",
+        "2.2"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part18/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s206",
+          "mention": "section 206"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s33",
+          "mention": "."
+        }
+      ],
+      "text": "The Registrar, a Deputy Registrar or a person who has been delegated by a signed instrument of the Registrar (section 206) may accept applications for the registration of trade marks under the provisions of section 33. The people currently delegated to accept trade mark applications include Hearing Officers, EL1 Examination Team leaders, APS6 Senior Examiners and APS 5 Examiners. These people are referred to below as acceptance officers."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:078ced39fcadd61dd9d8c310c8f9a690416e12d32c230e6d8c66accc8c3a1502",
+    "crawled_at": "2026-07-28T04:50:48Z",
+    "date_published": "2025-02-10",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 18.2. Accepting an application for registration",
+    "last_amended": "2025-02-10",
+    "nav_title": "Part 18.2. Accepting an application for registration",
+    "page_ref": "TMM/Part18/2",
+    "part_id": "Part18",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-accepting-an-application-for-registration"
+  }
+}

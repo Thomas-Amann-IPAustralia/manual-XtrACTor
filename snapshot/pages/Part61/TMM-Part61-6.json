@@ -1,0 +1,48 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/6/6/1",
+      "content_hash": "sha256:0dd19d419a5951b13d017d2142cf500c2dc0d160991a8ae5ed9f3d8d2184fb37",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.6. Policy in relation to TM Headstart",
+        "6.1"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part61/6",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "Section 217A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "text": "Section 217A requires the Registrar to make available for public inspection, documents that relate to a trade mark whilst held in the office or after the time particulars of the application for registration is published under section 30. As a TM Headstart is not a trade mark application and is not published under section 30 until the Part 2 fee has been paid any documents that are not part of the published application will not be made available for public inspection."
+    }
+  ],
+  "page": {
+    "amendment_note": "Update hyperlinks",
+    "archived": false,
+    "content_hash": "sha256:6647d3b4ae4c22bbc1b61d9e36f7628fa7f86303e7b315e407e1102cc881060b",
+    "crawled_at": "2026-07-28T04:59:23Z",
+    "date_published": "2022-04-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "61.6. Policy in relation to TM Headstart",
+    "last_amended": "2022-04-20",
+    "nav_title": "6. Policy in relation to TM Headstart",
+    "page_ref": "TMM/Part61/6",
+    "part_id": "Part61",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/6.-policy-in-relation-to-tm-headstart"
+  }
+}

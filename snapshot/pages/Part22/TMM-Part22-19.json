@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "cases": [
+        {
+          "citation": "(1959) 69 RPC 125",
+          "id": "CASE/1959/RPC/69/125"
+        },
+        {
+          "citation": "(1990) 18 IPR 474",
+          "id": "CASE/1990/IPR/18/474"
+        }
+      ],
+      "chunk_ref": "TMM/Part22/19#1",
+      "content_hash": "sha256:20278c940e5783379b06ca2fc5ac3f61dbea622851e0f6bea740455fdbd87bd2",
+      "fragment": null,
+      "heading_path": [
+        "Part 22 Section 41 - Capable of Distinguishing",
+        "22.19. Corporate names"
+      ],
+      "internal_refs": [
+        "TMM/Part22/16"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part22/19",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s16",
+          "mention": "paragraph 16"
+        }
+      ],
+      "text": "Corporate names are able to function as trade marks. Whether they will qualify for registration will depend upon whether other traders, in the ordinary course of trade and without improper motive, are likely to want to use the same trade mark, or a trade mark closely resembling it, on or in connection with their own goods or services. For example THE BEST BAKING COMPANY would have no inherent adaptation to distinguish bakery services in class 43. Similarly, LIVERPOOL CABLE COMPANY PTY LIMITED has no inherent adaptation to distinguish electric cables in class 9. However, corporate names that are not likely to be required by other traders to indicate their similar goods and/or services may be prima facie capable of distinguishing (see Avedis Zildjian Co. (1990) 18 IPR 474). If the trade mark contains a name or surname, the trade mark should be examined on the basis of the criteria for registration of names and surnames. The commonness of a name or surname is only one of the factors that should be considered (see paragraph 16 of this Part). The trade mark must be considered as a whole. If the trade mark is depicted in a special way or contains other material, of a substantial nature, the combined effect of the words and the special representation and/or added material may render the trade mark prima facie capable of distinguishing (see Standard Camera Ltd.'s Application (1959) 69 RPC 125)."
+    }
+  ],
+  "page": {
+    "amendment_note": "Minor update.",
+    "archived": false,
+    "content_hash": "sha256:f8a0f401566cf6143ac8172a5c4e9805d0fabc0948b1cab910e2ffe88132eaf4",
+    "crawled_at": "2026-07-28T04:52:02Z",
+    "date_published": "2022-12-19",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "22.19. Corporate names",
+    "last_amended": "2022-12-19",
+    "nav_title": "19. Corporate names",
+    "page_ref": "TMM/Part22/19",
+    "part_id": "Part22",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/19.-corporate-names"
+  }
+}

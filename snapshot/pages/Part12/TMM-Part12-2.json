@@ -1,0 +1,59 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part12/2#1",
+      "content_hash": "sha256:1ccc40ab4041240f3a3d63e4f7f80b9d744ddccc90bfc04c08476f64a96584da",
+      "fragment": null,
+      "heading_path": [
+        "Part 12 Divisional Applications",
+        "2. Why file a divisional application?"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part12/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "sections 39, 41, 42 or 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "sections 39, 41, 42 or 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s42",
+          "mention": "sections 39, 41, 42 or 43"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "sections 39, 41, 42 or 43"
+        }
+      ],
+      "text": "An applicant may choose to file a divisional application for several reasons including, but not limited to, the following: if the goods/services of the parent application conflict with another trade mark application or registration, the applicant may decide to exclude the conflicting goods/services from the parent application so that the parent application can proceed to acceptance; or similarly, if only some of the goods/services of the parent application have attracted a ground for rejection under sections 39, 41, 42 or 43, the applicant may decide to exclude the goods/services which have attracted the ground(s) for rejection from the parent application, so that the parent application can proceed to acceptance; or if an opposition is filed or threatened, the applicant may also decide to exclude the conflicting goods/services to allow the parent application to proceed to registration. In any of the above cases the applicant may decide to file a divisional application for goods/services which are to be excluded from the parent application. The parent application must be pending at the time the divisional application is filed and the goods/services of the divisional application must still be present in the parent application at the time of filing. If submissions are received requesting the deletion of certain goods/services from an application that also state that a divisional application is to be filed from that application, any deletion or amendment to the specification of goods/services should be delayed until the divisional application has been filed. Premature deletion or amendment of the goods/services of the parent may invalidate a subsequent divisional application. The goods/ services to remain in the parent must be nominated as part of the filing of the divisional application."
+    }
+  ],
+  "page": {
+    "amendment_note": "Part reviewed, content updated.",
+    "archived": false,
+    "content_hash": "sha256:e3c8800ce3a49b631b95571b818201188706723d071b7d970f7fa67d9bd1eedb",
+    "crawled_at": "2026-07-28T04:49:22Z",
+    "date_published": "2026-07-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "2. Why file a divisional application?",
+    "last_amended": "2026-07-20",
+    "nav_title": "2. Why file a divisional application?",
+    "page_ref": "TMM/Part12/2",
+    "part_id": "Part12",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-why-file-a-divisional-application-"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part14/2/2/1",
+      "content_hash": "sha256:57de9e02e091dbebb2b925f458e6ff2c4fb65c7aa82d26ef92e080d0479f193f",
+      "fragment": null,
+      "heading_path": [
+        "Part 14 Classification of Goods and Services",
+        "14.2. The classification system",
+        "2.1 The classes"
+      ],
+      "internal_refs": [
+        "TMM/Part14/6",
+        "TMM/Part14/x-annex-a1---history-of-the-classification-system"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part14/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.5",
+          "mention": "paragraph 6.5"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r1",
+          "mention": "Schedule 1 in the Trade Marks Regulations 1995"
+        }
+      ],
+      "text": "2.1.1 Items are divided between classes for goods and classes for services. The classes together with their headings are listed in Schedule 1 in the Trade Marks Regulations 1995. This schedule is amended from time to time to reflect new editions of the NICE classification (see Annex A1). The classification is set out in detail in the International Classification of Goods and Services published by the World Intellectual Property Organization (WIPO). 2.1.2 IP Australia uses a database of goods and services maintained by the World Intellectual Property Organisation (WIPO) that includes Nice items and determinations relating to goods and services not covered by the NICE classification, referred to as ‘the picklist’. This is used as a supplement to the WIPO publication and is an aid to Examiners and trade mark owners. The Australian Trade Mark Search (ATMS) provides a goods/services search facility known as the Trade Marks Classification Search, where searches for semantic matches or keywords can be performed on the picklist. 2.1.3 A list of the NICE class headings can be found on IP Australia’s website. These headings provide a brief indication of the total range of goods or services falling in each of the classes (see paragraph 6.5). However, they are not an exhaustive list of all goods or services that may fall in each class. In some cases they will not be sufficiently detailed, when used on their own, to provide a firm guide to correct classification. 2.1.4 Users of the online trade mark application form are able to search for and choose their goods and services from the approved terms for goods and services in the picklist and import their choices directly into their application. This database uses the same terms found in the Trade Marks Classification Search."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part14/2/2/2",
+      "content_hash": "sha256:ef816ccdcebec172bc09515e2d25a9ae3fab0f17244e5b09e38bed904f4066ac",
+      "fragment": null,
+      "heading_path": [
+        "Part 14 Classification of Goods and Services",
+        "14.2. The classification system",
+        "2.2 The International Classification - NICE"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part14/2",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s32",
+          "mention": "Section 32"
+        }
+      ],
+      "text": "2.2.1 The NICE classification is divided into two parts. Part 1 consists of two alphabetical lists, one for goods and one for services, showing the class to which particular goods and services are allocated. Part 2 lists the classes themselves, and the contents of each class. 2.2.2 IP Australia consults WIPO when necessary regarding interpretation of the NICE classification. Section 32 of the Act however gives the Registrar the power to decide questions arising “as to the class within which any goods or services are comprised” and the Registrar's decision on these matters is not appealable. This does not apply to Madrid Protocol export applications where in the event of a dispute between an Office of origin and the International Bureau (IB) the opinion of the IB stands."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part14/2/2/3",
+      "content_hash": "sha256:899944171e0104deb0aea75dd056fdcbe6101b4ab0519f95f58b62a5eb5480dc",
+      "fragment": null,
+      "heading_path": [
+        "Part 14 Classification of Goods and Services",
+        "14.2. The classification system",
+        "2.3 Changes to NICE classification"
+      ],
+      "internal_refs": [
+        "TMM/Part14/x-annex-a1---history-of-the-classification-system"
+      ],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part14/2",
+      "provisions": [],
+      "text": "2.3.1 Over time there have been changes in the classification of particular goods and services. Changes are made when necessary and are incorporated in new editions of the NICE classification. Such changes are decided by the WIPO Committee of Experts. New editions are notified as official notices, and changes to the class headings are given force by amending Schedule 1 of the Trade Mark Regulations. Other changes may be limited to the alphabetic listing of goods and services, or to the explanatory notes. A brief history of the changes to NICE classification, including the date of effect of the various editions, is given in Annex A1. 2.3.2 Goods and services are classified on the basis of the NICE edition in effect at the time of application. Changes are not made retrospectively to existing registrations or applications. Since changes in NICE classification are always introduced from a specific date, applications made before that date are subject to the relevant previous edition of the classification. This is confirmed in both Australian Wine Importers Trade Mark (1889)6 RPC 311 and “Cal U Test” (1967) FSR 39. In the “Cal U Test” case the classification had changed since the date of registration but the case was decided with reference to the practice as at the date of registration. 2.3.3 Since it is the classification in force at the time an application was made which applies, the possibility of changes to the classification of individual items should be kept in mind when searching for earlier conflicting trade marks. Examiners should not rely solely on the class or classes nominated when deciding whether a citation is appropriate - they should consider the nature of the actual goods and/or services nominated. For the same reason, the initial search should always be across all 45 classes. For example “temporary accommodation services” are now classified in class 43 whereas, before 1 January 2002, they were classified in class 42. Therefore class 42 applications lodged prior to 1 January 2002 need to be considered in searches done for current applications claiming “temporary accommodation services” in class 43."
+    }
+  ],
+  "page": {
+    "amendment_note": "Terminology updated to reflect legislative changes.",
+    "archived": false,
+    "content_hash": "sha256:48fb9961db96c4f8896cbbb86cf515a61ae5daabd1a9bd399b1fc9a55d0d2879",
+    "crawled_at": "2026-07-28T04:49:52Z",
+    "date_published": "2024-05-16",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "14.2. The classification system",
+    "last_amended": "2024-05-16",
+    "nav_title": "2. The classification system",
+    "page_ref": "TMM/Part14/2",
+    "part_id": "Part14",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-the-classification-system"
+  }
+}

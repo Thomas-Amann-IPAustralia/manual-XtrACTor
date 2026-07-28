@@ -1,0 +1,47 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part24/5#1",
+      "content_hash": "sha256:542f2abfd17d3760708554426cdcccf92b670ba88a3b6b5ee291109954c074b2",
+      "fragment": null,
+      "heading_path": [
+        "Part 24 Disclaimers",
+        "Part 24.5. Amendment of disclaimers"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part24/5",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s65(7)",
+          "mention": "s 65(7)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s66",
+          "mention": "s 66"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Under certain circumstances a disclaimer may be amended. 5.1 After registration a disclaimer may be amended as long as the amendment does not constitute a revocation of the disclaimer or extend in any way the scope of the registration (para 83(1)(c)). (See 6.3 regarding revocation of disclaimers). 5.2 A notice requesting a disclaimer that was made either before or after registration may be amended in order to correct a clerical error or an obvious mistake or if the Registrar is of the opinion it is fair and reasonable in all the circumstances to allow the amendment (s 66). 5.3 If a disclaimer formed a particular of the application when it was filed, it may be amended prior to registration as long as such an amendment does not extend the rights that would otherwise accrue to the applicant upon registration (s 65(7))."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:de16e13668bfe375f16e11db613c06d32d6500ac3566ae64341993b64dbcb105",
+    "crawled_at": "2026-07-28T04:52:45Z",
+    "date_published": "2025-02-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 24.5. Amendment of disclaimers",
+    "last_amended": "2025-02-20",
+    "nav_title": "Part 24.5. Amendment of disclaimers",
+    "page_ref": "TMM/Part24/5",
+    "part_id": "Part24",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-amendment-of-disclaimers"
+  }
+}

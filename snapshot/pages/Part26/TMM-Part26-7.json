@@ -1,0 +1,103 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part26/7#1~1",
+      "content_hash": "sha256:89731caeea8ffb9d5371c5a8a72850578ab0daf6b0ce412ab95a7a004e4b78e0",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.7. Trade marks with the same priority/filing date"
+      ],
+      "internal_refs": [
+        "TMM/Part11/1",
+        "TMM/Part12/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part26/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s12",
+          "mention": "Section 12"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s29(b)",
+          "mention": "subsection 29(b)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "section 44"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s72",
+          "mention": "section 72"
+        }
+      ],
+      "text": "The application of section 44 is dependent on the priority dates for registration of the trade marks under consideration. Section 12 defines the priority date for the registration of a trade mark in respect of particular goods and services as: a. if the trade mark is registered - the date of registration of the trade mark in respect of those goods or services; or b. if the registration of the trade mark is being sought - the date that would be the date of registration of the trade mark in respect of those goods or services if the trade mark were registered. The date of registration is defined in section 72. In the great majority of cases it is the date on which the application for registration in respect of the goods or services was filed. The exceptions are trade mark registrations resulting from divisional applications for which the filing date and therefore the date of registration are taken to be the date on which the parent application was filed, and from applications which claim priority under subsection 29(b) on the basis of an application made in a Convention country. In the latter case the date of registration will be the date on which the application was made in the Convention country in respect of those goods and services. Part 11 Convention Applications Part 12 Divisional Applications Section 44 applies where the priority date for the application being examined is not earlier than that of the other trade mark. Therefore, if conflicting trade marks have the same priority date they must be cited against each other. The following practice should be followed. The same examiner should deal with both cases and each applicant should be advised of the citation in the examination report. They should also be informed that the Registrar does not intend to take any further action until the conflict is resolved by the parties concerned."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part26/7#1~2",
+      "content_hash": "sha256:8586295a9f6da3b55142dbfe1e35cc04f058d31c6367a9e0705c95ab09818e25",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.7. Trade marks with the same priority/filing date"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part26/7",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.13(1)(c)(i)",
+          "mention": "subparagraph 4.13(1)(c)(i)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.13(1)(c)(ii)",
+          "mention": "subparagraph 4.13(1)(c)(ii)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r4.13(1)(c)(i)",
+          "mention": "subparagraph 4.13(1)(c)(i)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r4.13(1)(c)(ii)",
+          "mention": "subparagraph 4.13(1)(c)(ii)"
+        }
+      ],
+      "text": "Methods of resolving the conflict may involve submitting evidence of honest concurrent use or prior use, which may allow at least one of the applications to proceed to acceptance. Opposition proceedings may also be used to resolve any conflict if either or both of the applications proceed to acceptance. Limitation of the goods or services to avoid a nexus of similarity or even assignment of one of the trade marks may be options in some circumstances. A letter of consent may also be provided to allow an application to proceed to acceptance. It should be noted that the Registrar will not exercise their discretion to allow deferment of acceptance in this instance on the ground that the applicant is awaiting finalisation of a cited application (subparagraph 4.13(1)(c)(i) of the Regulations). Deferment would be available for 6 months in order to gather evidence of honest concurrent use, prior use or other circumstances (subparagraph 4.13(1)(c)(ii))."
+    }
+  ],
+  "page": {
+    "amendment_note": "Minor update.",
+    "archived": false,
+    "content_hash": "sha256:f72c923e8ae48cf312b14e8cfc2cdd41c53ccbbb392260e2111d21d20effb7b4",
+    "crawled_at": "2026-07-28T04:52:57Z",
+    "date_published": "2024-05-23",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "26.7. Trade marks with the same priority/filing date",
+    "last_amended": "2024-05-23",
+    "nav_title": "7. Trade marks with the same priority/filing date",
+    "page_ref": "TMM/Part26/7",
+    "part_id": "Part26",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/7.-trade-marks-with-the-same-priority-filing-date"
+  }
+}

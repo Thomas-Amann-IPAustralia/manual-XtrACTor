@@ -1,0 +1,89 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part7/3#1~1",
+      "content_hash": "sha256:5ceabc25392ae79fc7256c7100cdf94cf81598c81386586f082c63d5fed556ca",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 7 Withdrawal of Applications, Notices and Requests",
+        "Part 7.3 Withdrawal of an application, notice or request (other than an application to register a trade mark)"
+      ],
+      "internal_refs": [
+        "TMM/Part51/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part7/3",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.3",
+          "mention": "paragraph 3.3"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.4",
+          "mention": "paragraph 3.3 or 3.4"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s3.6",
+          "mention": "paragraph 3.6"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s4",
+          "mention": "paragraph 4"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r21.9",
+          "mention": "reg 21.9"
+        }
+      ],
+      "text": "Note: Withdrawal of an application to register a trade mark is covered separately in paragraph 4 below. Withdrawal of a notice of opposition is covered in Part 51 of this Manual, General Opposition Proceedings. Part 51 General Opposition Proceedings Trade Marks Act 1995 Trade Mark Regulations 1995 3.1 The withdrawal notice should be in writing and should specify that the application, notice or request is to be withdrawn. Otherwise, clarification must be sought from the person generating the notice before it can be treated as a withdrawal request (see paragraph 3.6 below.) If the application, notice or request was filed by, or on behalf of, more than one person, the notice of withdrawal must be signed by, or on behalf of, each of those persons (reg 21.9). 3.2 A check is made to ensure that the withdrawal notice is in the same name or names as the original application, notice or request. If the notice of the withdrawal is given by a person in whom the right or interest relied upon by the person filing the document has become vested, see paragraph 3.3 below. 3.3 If withdrawal is requested by a person in whom the right or interest relied upon by the person filing the document has become vested, a check is made to ensure that documents are received which establish that the right or interest has become vested in them. 3.4 If the request is made by a person authorised by a person mentioned in paragraph 3.3 or 3.4, details will need to be provided as to that authorisation. 3.5 A check is done to see whether the original application, notice or request has been processed. The withdrawal of an application, notice or request should not proceed if the application, notice or request has already been actioned (but see note below). Note: Office error would be the main reason for reversing or reinstating an action. However, a withdrawal notice relating to an actioned application, notice or request, may be reviewed in very exceptional circumstances. Each case is considered on its own merits. Inconvenience to other parties and the time elapsed between the actioning of the application, notice or request and the filing of the withdrawal notice should be taken into consideration. The decision is made by the relevant Assistant Director in CEG."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part7/3#1~2",
+      "content_hash": "sha256:06c25f552d004d1f6873034a5d8efaf080212d09ca436e93169283e77fa39dbf",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 7 Withdrawal of Applications, Notices and Requests",
+        "Part 7.3 Withdrawal of an application, notice or request (other than an application to register a trade mark)"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part7/3",
+      "provisions": [],
+      "text": "3.6 If the withdrawal details are in order the application, notice or request is withdrawn and a letter is sent to the person or persons who had filed the application, notice or request that the application, notice or request has been withdrawn. If more than one person needs to be notified and they have all nominated the same address for service, the letter is sent only to that address. 3.7 If the withdrawal is not in order, a letter is written to the person who filed the withdrawal stating the reasons why the withdrawal cannot proceed and, if appropriate, requiring them to make any alterations to enable the withdrawal request to comply. 3.8 All letters must be saved on the relevant trade marks file."
+    }
+  ],
+  "page": {
+    "amendment_note": "links updated",
+    "archived": false,
+    "content_hash": "sha256:e801bde04bbb80f8279448e2940a4f5923a95d24ac69ce66d873082657ef39c3",
+    "crawled_at": "2026-07-28T04:48:32Z",
+    "date_published": "2025-06-05",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 7.3 Withdrawal of an application, notice or request (other than an application to register a trade mark)",
+    "last_amended": "2025-06-05",
+    "nav_title": "3. Procedure for withdrawal of an application, notice or request",
+    "page_ref": "TMM/Part7/3",
+    "part_id": "Part7",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/3.-procedure-for-withdrawal-of-an-application-notice-or-request-other-than-an-application-to-register-a-trade-mark"
+  }
+}

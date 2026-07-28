@@ -1,0 +1,41 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part22/21#1",
+      "content_hash": "sha256:a80050cd48f89bd4dc2317f26bcc4262021581f039f4a2226cde93b3b54c7b8d",
+      "fragment": null,
+      "heading_path": [
+        "Part 22 Section 41 - Capable of Distinguishing",
+        "22.21. Titles of other books or media"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part22/21",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "text": "Examiners should raise a ground for rejection under section 41 where a trade mark directly describes the potential subject matter of goods in class 9 and 16, or services in class 41. This is because other traders may have a legitimate need to use the word/s as a description of the subject matter of their own goods or services. A ground for rejection should not be raised where although the trade mark is indicative of particular subject matter it is sufficiently unusual that other traders will not need to use it to describe the content of their own goods or services. The following table provides some illustrative examples: Trade mark Section 41 Reason DIY RENOVATIONS Yes Indicates that the subject matter of the goods or services is ‘do it yourself’ renovations. GARLIC DIET Yes Indicates that the subject matter relates to diets incorporating garlic as an important element. SPORT & LEISURE Yes Indicates that the subject matter is sporting or leisure activities THE WHIMSICAL WORLD OF GARDENING, CAMPING AND CYCLING No Although the subject matter is probably gardening, camping and cycling, the term as a whole is sufficiently unusual that it is unlikely other traders will need to use it."
+    }
+  ],
+  "page": {
+    "amendment_note": "Minor update.",
+    "archived": false,
+    "content_hash": "sha256:bcd1d970c2a01a54d3e45c6a36d890f62c38372738229fe795f8de3639de99ec",
+    "crawled_at": "2026-07-28T04:52:05Z",
+    "date_published": "2022-12-19",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "22.21. Titles of other books or media",
+    "last_amended": "2022-12-19",
+    "nav_title": "21. Titles of other books or media",
+    "page_ref": "TMM/Part22/21",
+    "part_id": "Part22",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/21.-titles-of-other-books-or-media"
+  }
+}

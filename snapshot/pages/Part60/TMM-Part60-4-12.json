@@ -1,0 +1,74 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/12#1",
+      "content_hash": "sha256:811830ca8b23ad14d87a59efc5b0dc46ff727baed281b69d0c965e6df026b581",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.12 Extension of Time"
+      ],
+      "internal_refs": [
+        "TMM/Part15/1",
+        "TMM/Part15/4"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part60/4/12",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s224",
+          "mention": "Section 224"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.20",
+          "mention": "Reg 17A.20 (3), (4)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r21.25",
+          "mention": "Reg 21.25"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r21.28",
+          "mention": "Reg 21.28"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r21.33",
+          "mention": "Reg 21.33"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r21.6",
+          "mention": "Reg 21.6"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/s224",
+          "mention": "Section 224 Extension of time Trade Marks Regulations 1995"
+        }
+      ],
+      "text": "4.12.1 Relevant Legislation Trade Marks Act 1995 Section 224 Extension of time Trade Marks Regulations 1995 Reg 21.6 Declarations Reg 21.25 Extension of time - application Reg 21.28 Extension of time - prescribed acts and documents Reg 21.33 Direction not otherwise prescribed Reg 17A.20 (3), (4) Period within which final decision on examination must be notified Trade Marks Office Manual of Practice and Procedure Part 15 General Provisions for Extension of Time 4.12.2 General Description There are no provisions for extensions of time in the Madrid Protocol. A holder of an IRDA may however, take advantage of IP Australia's existing extension of time provisions. For an extension of time to be granted for an IRDA, the existing requirements must be met (see Part 15 .4 Grounds on which the Registrar may grant an extension of time). If those requirements are not met, the holder is notified of the shortcomings of their request and given an opportunity to rectify the problems. Time frames may apply, or additional fees may be involved in some circumstances, however these are also the same as currently exist for national applications."
+    }
+  ],
+  "page": {
+    "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "archived": false,
+    "content_hash": "sha256:d565871aa455559b2ece759ece0a47c2069b1bf9d25cdf2ddd8eeab474729c8f",
+    "crawled_at": "2026-07-28T04:58:51Z",
+    "date_published": "2026-04-17",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "60.4.12 Extension of Time",
+    "last_amended": "2026-04-17",
+    "nav_title": "4.12 Extension of Time",
+    "page_ref": "TMM/Part60/4/12",
+    "part_id": "Part60",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/4.12-extension-of-time"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part62/10#1",
+      "content_hash": "sha256:322216d98e2acd4fa7b5b1e9a7132703bab3552e24978448e62e6fa9fecb3034",
+      "fragment": null,
+      "heading_path": [
+        "Part 62 Revocation of Registration",
+        "62.10. Right of appeal: cessation of protection"
+      ],
+      "internal_refs": [
+        "TMM/Part60/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part62/10",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42F",
+          "mention": "regulation 17A.42F"
+        }
+      ],
+      "text": "There is a right of appeal to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court) from a decision of the Registrar to cease or amend protection of a PITM (regulation 17A.42F). Part 60 - The Madrid Protocol"
+    }
+  ],
+  "page": {
+    "amendment_note": "Update hyperlinks",
+    "archived": false,
+    "content_hash": "sha256:2d676966147cbb645c306349c418809e9a9b260b11eaff37d032b1c9ae16f9b7",
+    "crawled_at": "2026-07-28T04:59:38Z",
+    "date_published": "2022-04-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "62.10. Right of appeal: cessation of protection",
+    "last_amended": "2022-04-20",
+    "nav_title": "10. Right of appeal: cessation of protection",
+    "page_ref": "TMM/Part62/10",
+    "part_id": "Part62",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/10.-right-of-appeal--cessation-of-protection"
+  }
+}

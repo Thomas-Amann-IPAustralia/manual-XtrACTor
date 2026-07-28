@@ -1,0 +1,53 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part44/3#1",
+      "content_hash": "sha256:a3fe678828273b6d53c17e7e2dd471f6307f30c8b50a94b42c60f34b28649194",
+      "fragment": null,
+      "heading_path": [
+        "Part 44 Claim of Interest or Rights in a Trade Mark",
+        "Part 44.3. When can the interest be recorded?"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part44/3",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s114(1)",
+          "mention": "section 114(1)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s114(2)",
+          "mention": "section 114(2)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 79"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 An interest can be recorded in the Register at any time if a trade mark is registered (section 114(1)). If application is made to record the interest before the trade mark is registered, the interest is recorded on the database and transferred to the Register when the trade mark is registered (section 114(2)). A claimed interest may not be recorded in the Register if the trade mark has not been renewed. If a trade mark is within its 6 month grace period (as per section 79) in which the registration has expired however renewal may be requested, a claimed interest may be recorded in the database, however this will only be entered in the Register if the trade mark is renewed."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:be19da8cea8847c1606caee2911d08125606f0cc43a735438f5a90e58b7dab31",
+    "crawled_at": "2026-07-28T04:56:21Z",
+    "date_published": "2025-02-25",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 44.3. When can the interest be recorded?",
+    "last_amended": "2025-02-25",
+    "nav_title": "Part 44.3. When can the interest be recorded?",
+    "page_ref": "TMM/Part44/3",
+    "part_id": "Part44",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/3.-when-can-the-interest-be-recorded-"
+  }
+}
