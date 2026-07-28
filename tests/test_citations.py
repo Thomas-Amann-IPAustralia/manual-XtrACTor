@@ -68,6 +68,9 @@ def test_an_austlii_href_is_a_near_certain_edge():
     [
         ("tma1995121", "TMA1995"),
         ("tmr1995264", "TMR1995"),
+        # The same Regulations under a second consolidation number, linked from
+        # Part 5's Relevant Legislation page.
+        ("tmr1995230", "TMR1995"),
         ("aia1901230", "AIA1901"),
     ],
 )
@@ -124,6 +127,58 @@ def test_a_legislation_gov_au_link_is_left_to_the_regex_layer():
     )
 
     assert found == []
+
+
+@pytest.mark.parametrize(
+    ("kind", "db", "node", "identifier"),
+    [
+        # Both hrefs as they appear on Part 5's Relevant Legislation page,
+        # crawl of 28 July 2026. The reg node is 's'-prefixed and the fragment
+        # is tmr1995230, neither of which the symbol may be taken from.
+        ("act", "tma1995121", "s217a", "TMA1995/s217A"),
+        ("reg", "tmr1995230", "s21.11a", "TMR1995/r21.11A"),
+        # Part 3A of the Regulations: the suffix is on the first component.
+        ("reg", "tmr1995264", "s3a.3", "TMR1995/r3A.3"),
+    ],
+)
+def test_a_lower_case_node_name_yields_the_upper_case_suffix(
+    kind, db, node, identifier
+):
+    """AustLII node names are lower case — `/s217a.html` is section 217A.
+    Carrying that case into the id emitted a provision the schema rejects, and
+    would have split one provision into two edges depending on whether the
+    Manual hyperlinked it or merely mentioned it."""
+    found = provisions(
+        f'<p><a href="https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/'
+        f'consol_{kind}/{db}/{node}.html">the provision</a></p>'
+    )
+
+    assert found[0]["id"] == identifier
+
+
+def test_a_suffixed_section_still_takes_the_subsection_from_the_anchor():
+    """The number in the anchor's words is compared with the number in the
+    href. Compared in different cases, a link to s223a reading 'subsection
+    223A(2)' matches nothing and the subsection is quietly lost."""
+    found = provisions(
+        '<p><a href="https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/'
+        'consol_act/tma1995121/s223a.html">subsection 223A(2)</a></p>'
+    )
+
+    assert [record["id"] for record in found] == ["TMA1995/s223A(2)"]
+
+
+def test_a_hyperlink_and_a_mention_of_one_suffixed_provision_are_one_edge():
+    """The dedup key is the id, so normalising case is what lets the href
+    outrank the prose mention rather than sitting beside it."""
+    found = provisions(
+        '<p>Under <a href="https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/'
+        'consol_act/tma1995121/s217a.html">section 217A</a> the Registrar may '
+        "act. Section 217A applies to the whole Register.</p>"
+    )
+
+    assert [record["id"] for record in found] == ["TMA1995/s217A"]
+    assert found[0]["extraction"] == "href"
 
 
 # -- §4 provisions from the prose -----------------------------------------
@@ -230,6 +285,37 @@ def test_regulations_default_to_the_trade_marks_regulations():
 
     assert found[0]["id"] == "TMR1995/r4.15"
     assert found[0]["certainty"] == "default"
+
+
+@pytest.mark.parametrize(
+    ("prose", "identifier"),
+    [
+        ("regulation 21.11A", "TMR1995/r21.11A"),
+        ("regulation 3A.3", "TMR1995/r3A.3"),
+        ("section 217A", "TMA1995/s217A"),
+        # Lower case in the prose is the Manual's, not ours; it addresses the
+        # same provision either way.
+        ("section 217a", "TMA1995/s217A"),
+    ],
+)
+def test_a_letter_suffix_in_the_prose_survives_the_address(prose, identifier):
+    """An inserted regulation carries the suffix on its last component. Read
+    without it, 'regulation 21.11A' becomes an edge to regulation 21.11 — a
+    different provision, recorded with no sign that anything was dropped."""
+    found = provisions(f"<p>The requirements of {prose} were met.</p>")
+
+    assert [record["id"] for record in found] == [identifier]
+
+
+def test_a_paragraph_letter_keeps_its_own_case():
+    """Only the number is normalised. s44(3)(a) and s44(3)(A) are different
+    addresses, so upper-casing the whole thing would invent a provision."""
+    found = provisions(
+        "<p>Rejection under paragraph 44(3)(a) of the "
+        "<i>Trade Marks Act 1995</i>.</p>"
+    )
+
+    assert [record["id"] for record in found] == ["TMA1995/s44(3)(a)"]
 
 
 def test_provisions_come_back_sorted_by_id():
