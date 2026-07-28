@@ -1,0 +1,121 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part5/2#1",
+      "content_hash": "sha256:70821996fb9830b335fdb031585707fa08ef90baaf697451bdeea967d0b836ac",
+      "fragment": null,
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "5.2. Data Capture"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part5/2",
+      "provisions": [],
+      "text": "Trade Marks Act 1995 (Cth) Trade Marks Regulations 1995 (Cth)"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part5/2/2/1",
+      "content_hash": "sha256:262857ab867a106c4a6892c8fb5f998e2a6426475ebc1c1d181b85d06b9c19cd",
+      "fragment": null,
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "5.2. Data Capture",
+        "2.1 Data capture of correspondence other than trade mark applications"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part5/2",
+      "provisions": [],
+      "text": "All incoming correspondence will have a service request code which identifies the specific type of correspondence received. It is then captured in OMW with the date of receipt and sent to RIO. Any fees received will also be utilised. The correspondence will then appear as part of the Trade Mark history. Classifying correspondence to the electronic case file Paper correspondence and selected service requests will not be available in RIO until classified as it has to be receipted and captured in OMW and sent to RIO. All other service requests received electronically are available in RIO as they are automatically receipted and sent to RIO. Note: Generally hard copies of documents are stored in boxes in date order and stored off-site for approximately 12 months before being destroyed."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part5/2/2/2~1",
+      "content_hash": "sha256:68e875bb41af053475c128d594de12d736f03f7a3e48044c18c9ffe802f84538",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "5.2. Data Capture",
+        "2.1 Data capture of correspondence other than trade mark applications",
+        "2.2 Data capture of national trade mark applications"
+      ],
+      "internal_refs": [
+        "TMM/Part4/1"
+      ],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part5/2",
+      "provisions": [],
+      "text": "New Applications submitted via our online portal ‘online services’ are filed automatically in RIO. New Applications received by Other Means such as paper, will need to be captured and validated manually in RIO. All new trade mark applications are checked to ensure they meet minimum filing requirements. The processing of new applications and the fees vary depending on the method of filing. Part 3 Filing Requirements for a Trade Mark application Part 4 Fees Fee and allocation of the Trade Mark Application Number Applications filed electronically via the online services page are given a trade mark number at time of filing and the fee is automatically processed. Applications filed in paper are manually processed. Creating an electronic case file Once all data is entered into RIO, all applications will have an electronic case file in the file management system. Capturing the application details in the trade marks database Paper applications are manually captured and electronic applications are automatically captured into RIO. The following standard details are entered into the database: trade mark number type of registration applied for (standard, collective, certification, or defensive) name of applicant/s (including ACN if provided) applicant's address address for service (including reference number if provided) specification/s of goods and/or services (including class number/s) trade mark/s (Word or Other) Capturing additional data The following additional details are also entered into the RIO database when they form part of the particular application: claim for priority based upon an application filed in a Convention country divisional application details translation of words in a trade mark that are in a language other than English transliteration of words in a trade mark that are in characters other than Roman characters voluntary disclaimers or endorsements proposed by the applicant Capturing the Mark Trade marks that consist only of words in plain type are captured in TMARK as a word mark. Trade marks other than plain words are captured based on their property types (figurative, shape, sound etc). Publication and notification"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part5/2/2/2~2",
+      "content_hash": "sha256:f1e270517e2f72adee3aa9d813867f94b654f1ecc043af38fd0d0052153518d5",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "5.2. Data Capture",
+        "2.1 Data capture of correspondence other than trade mark applications",
+        "2.2 Data capture of national trade mark applications"
+      ],
+      "internal_refs": [
+        "TMM/Part4/1",
+        "TMM/Part9/1"
+      ],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part5/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "s 64"
+        }
+      ],
+      "text": "Once all the application data is captured and the minimum filing requirement check is completed the applications status will be “Published”. This is an official delegation under the Trade Marks Act 1995. Publishing the filing details is a key action which: generates a Notification of Filing. (The standard notice shows the information captured and the number allocated to the trade mark. It is sent to the address for service as official confirmation that the application has been filed.) publishes the owner's name, the class/es, the filing date and the trade mark number. The convention date and country of origin if applicable. schedules the captured data to be published in the Trade Marks Database (Australian Trade Mark Search). These actions have two important consequences for applicants. They mean that the data can no longer be amended under the provisions of s 64. They also mean that the application fee is no longer refundable. Part 9 Amendments and Changes to Name and Address Part 4 Fees Note: The Registrar will not capture information provided on an application form which is not relevant to the application."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part5/2/2/3",
+      "content_hash": "sha256:0d5ae9343caa85483062ef9f4eb309493dc0c71446c799f8d92fa1df832ac91b",
+      "fragment": null,
+      "heading_path": [
+        "Part 5 Data Capture and Indexing",
+        "5.2. Data Capture",
+        "2.3 Data capture of International Registrations Designating Australia"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part5/2",
+      "provisions": [],
+      "text": "International Registrations Designating Australia (IRDA) are applications that have been filed through the Madrid Protocol. These applications are sent electronically by WIPO after they have checked formalities, fees and classification of the goods and/or services. The fee is automatically processed and a trade mark number allocated for each application. Capturing the details of an IRDA application follows the same process as a national application."
+    }
+  ],
+  "page": {
+    "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "content_hash": "sha256:a53ba51f3c4c5f9e5e896afd55aca5f4254d2b858a9581e717e5ef0a52e83a38",
+    "crawled_at": "2026-07-28T02:05:51Z",
+    "date_published": "2026-04-13",
+    "extractor_version": "ingest/0.1.0",
+    "h1": "5.2. Data Capture",
+    "last_amended": "2026-04-13",
+    "nav_title": "2. Data Capture",
+    "page_ref": "TMM/Part5/2",
+    "part_id": "Part5",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-data-capture"
+  }
+}

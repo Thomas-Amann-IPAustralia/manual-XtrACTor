@@ -1,0 +1,119 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part2/4#1",
+      "content_hash": "sha256:a16817abcc3e5a1d6c1d47aa6fbdcafeb5a4f39529f4663de2bf66fc66f46599",
+      "fragment": null,
+      "heading_path": [
+        "Part 2 Filing Requirements",
+        "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
+        "Part 2.4.1 General guidance for non-compliance with filing requirements"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part2/4",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.4",
+          "mention": "Regulation 21.4"
+        }
+      ],
+      "text": "Regulation 21.4. provides that if a document received for filing at the Office does not comply with the Act or Regulations, or is not in accordance with the relevant approved form, the Registrar may treat the document: as not having been filed and notify the person, including in the notification a statement indicating how the document does not comply with the Act or the Regulations or is not in accordance with the approved form; or as having been filed, but direct the person to do such things as are necessary to ensure that the document does comply with the Act or Regulations or is in accordance with the approved form"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part2/4#2",
+      "content_hash": "sha256:48592766f38119458f88ce3f277385d51ae63bf4c0c822b67c1062b6cc5f2280",
+      "fragment": null,
+      "heading_path": [
+        "Part 2 Filing Requirements",
+        "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
+        "Part 2.4.2 Minimum Filing Requirements not met"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part2/4",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2",
+          "mention": "Reg 4.2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2(3)",
+          "mention": "reg 4.2(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2(4)",
+          "mention": "reg 4.2(4)"
+        }
+      ],
+      "text": "An application that does not meet the minimum filing requirements outlined in Reg 4.2 will not be taken to be filed. The Registrar will notify the applicant of the issues. The applicant has two months from the date of notification to fix the issues; if they do, the application is considered filed on the day the requirement is met (reg 4.2(3)). If the applicant fails to meet the requirement within that time, the application is regarded as not having been filed (reg 4.2(4)."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part2/4#3",
+      "content_hash": "sha256:ae9e922400466f9d8d1376d7a50512f7cd9f27685e37044f156054185356a56e",
+      "fragment": null,
+      "heading_path": [
+        "Part 2 Filing Requirements",
+        "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
+        "Part 2.4.3 Fee not paid or underpaid"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part2/4",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A",
+          "mention": "regs 21.21A and 21.23"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A(1)",
+          "mention": "reg 21.21A(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A(2)",
+          "mention": "reg 21.21A(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.23",
+          "mention": "regs 21.21A and 21.23"
+        }
+      ],
+      "text": "In accordance with regs 21.21A and 21.23, if: a fee is payable in respect of doing an act by the Registrar; and the fee has not been paid; and the Registrar notifies the person or his or her agent that the fee has not been paid within 14 working days the act is not taken to have been done until the fee is paid. In the circumstances above, applications, notices, and requests will be taken to not have been filed until the fee has been paid. Where the Registrar fails to notify the person of an underpayment within 14 working days of the person making an application, notice or request, then the application, notice or request is treated as filed despite the failure to pay the relevant fee (reg 21.21A(2)). However, reg 21.21A(2) does not have the effect of waiving the fee. The fee or amount unpaid remains a debt owed to the Commonwealth. If a fee is payable in respect of the doing of an act by the Registrar (such as the examination of a trade mark), the Registrar must not do that act until the fee has been paid (reg 21.21A(1)). Examination tasks on such applications should be sent to TMDG Quality, Practice, and Customers for appropriate action."
+    }
+  ],
+  "page": {
+    "amendment_note": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website.",
+    "content_hash": "sha256:582aced1ae23ee4337ec58633997bab128cc915f1349ebcdd5a35f476429ac14",
+    "crawled_at": "2026-07-28T02:05:34Z",
+    "date_published": "2026-07-13",
+    "extractor_version": "ingest/0.1.0",
+    "h1": "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
+    "last_amended": "2026-07-13",
+    "nav_title": "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
+    "page_ref": "TMM/Part2/4",
+    "part_id": "Part2",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/part-2.4.-non-compliance-with-filing-requirements-for-filing-application-notice-or-request"
+  }
+}

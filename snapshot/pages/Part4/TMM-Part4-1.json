@@ -1,0 +1,117 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/1#1",
+      "content_hash": "sha256:4fbf9c33afa932545dd0feb609039689a883cbdaae773b64142cf5a3053cf950",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.1. Fees - general"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part4/1",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s223",
+          "mention": "Section 223"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Section 223 sets out the requirements as to fees. As well as fees payable to the Registrar, this section covers fees payable to the Chief Executive Officer of Customs (Customs CEO) and to the Australian Competition and Consumer Commission (the Commission)."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/1/1/1",
+      "content_hash": "sha256:3b6e412e05def5d2f7ef8c0ce1e3cd12916cf2c69bcd7fd353c1309bc1fdfb40",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.1. Fees - general",
+        "1.1 What fees are payable?"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part4/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(1)",
+          "mention": "subsection 223(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21(1)",
+          "mention": "Reg 21.21(1)"
+        }
+      ],
+      "text": "The regulations may prescribe different fees in respect of doing an act according to the time when the act is done (subsection 223(1)). The fees specified in an item in Schedule 9 are payable in respect of that item (Reg 21.21(1))."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/1/1/2",
+      "content_hash": "sha256:b72283975661cfd2916e89a34728fb15e3fa4439fec3baf1696e0b95fee531fc",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.1. Fees - general",
+        "1.2 How and where fees should be paid"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part4/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(2)",
+          "mention": "subsection 223(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.22(1)",
+          "mention": "Reg 21.22(1)"
+        }
+      ],
+      "text": "Under subsection 223(2) if a prescribed fee is payable the fee must be paid to the Registrar (Reg 21.22(1)), other than a fee payable under Part 13 which must be paid to the Customs CEO (subreg 21.22(2). Subreg 21.22(3) gives the Registrar and the Customs CEO the power to determine the method of payment. Note: There are currently no fees payable to the Australian Competition and Consumer Commission (the Commission)."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/1/1/3",
+      "content_hash": "sha256:c7124cef66dc91f3c97e94ab945e5e908fe35dae64291c16198d2dd3208d97db",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.1. Fees - general",
+        "1.3 If the correct fee is not paid?"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part4/1",
+      "provisions": [],
+      "text": "1.3.1 If the correct fee is not paid as prescribed in the regulations in relation to: doing an act, the act is not to be done, or is taken not to have been done, if the fee has not paid. filing a document, the document is taken not to be filed if the fee has not been paid, filing an application for registration of a trade mark, the application is taken to have lapsed if the fee has not been paid. However, the applicant or his or her agent must be notified in writing within 14 days that the correct fee has not been paid. If the Registrar does not notify an applicant within 14 days of the underpayment or non-payment of the fee,the request is taken to be made, but the applicant must still be notified in writing of the deficiency in the fee as soon as practicable. The request will not be acted upon until the deficiency is made good. For example, if a person seeking to renew a registration does not pay or underpays the fee required, the Registrar will not renew the registration until the deficiency is made good."
+    }
+  ],
+  "page": {
+    "amendment_note": "Updated Links and renamed titles",
+    "content_hash": "sha256:e846a1e2bfec7465766b5cace3c3f8ca3d33b92922d74ee96b9777fda3e9f0cb",
+    "crawled_at": "2026-07-28T02:05:37Z",
+    "date_published": "2025-05-14",
+    "extractor_version": "ingest/0.1.0",
+    "h1": "Part 4.1. Fees - general",
+    "last_amended": "2025-05-14",
+    "nav_title": "1. Fees - general",
+    "page_ref": "TMM/Part4/1",
+    "part_id": "Part4",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/1.-fees---general"
+  }
+}
