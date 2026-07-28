@@ -44,6 +44,126 @@
           "mention": "s41(6)"
         }
       ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark No."
+              },
+              {
+                "text": "Applicant"
+              },
+              {
+                "text": "Date Filed"
+              },
+              {
+                "text": "Filing Date"
+              },
+              {
+                "text": "S41 grounds for rejection considered under"
+              }
+            ],
+            [
+              {
+                "text": "TM 1"
+              },
+              {
+                "text": "ABC Pty Ltd"
+              },
+              {
+                "text": "1/8/2010"
+              },
+              {
+                "text": "1/8/2010"
+              },
+              {
+                "text": "Pre-amendment S41(5) or (6)"
+              }
+            ],
+            [
+              {
+                "text": "TM 2"
+              },
+              {
+                "text": "ABC Pty Ltd"
+              },
+              {
+                "text": "1/6/2013"
+              },
+              {
+                "text": "1/8/2010 (claimed from TM 1)"
+              },
+              {
+                "text": "Pre-amendment S41(5) or (6)"
+              }
+            ]
+          ],
+          "columns": 5,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 3
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark No."
+              },
+              {
+                "text": "Applicant"
+              },
+              {
+                "text": "Date Filed"
+              },
+              {
+                "text": "Filing Date"
+              },
+              {
+                "text": "S41 grounds for rejection considered under"
+              }
+            ],
+            [
+              {
+                "text": "TM 3"
+              },
+              {
+                "text": "XYZ Pty Ltd"
+              },
+              {
+                "text": "1/6/2013"
+              },
+              {
+                "text": "1/6/2013"
+              },
+              {
+                "text": "Post-amendment S41(4) or (3)"
+              }
+            ],
+            [
+              {
+                "text": "TM 4"
+              },
+              {
+                "text": "XYZ Pty Ltd"
+              },
+              {
+                "text": "1/2/2014"
+              },
+              {
+                "text": "1/6/2013 (claimed from TM 3)"
+              },
+              {
+                "text": "Post-amendment S41(4) or (3)"
+              }
+            ]
+          ],
+          "columns": 5,
+          "header_row": null,
+          "ordinal": 2,
+          "rows": 3
+        }
+      ],
       "text": "For divisional applications lodged on or after 15 April 2013, the wording of section 41 which is relevant depends on the filing date taken from the parent application (or if the parent application is itself a divisional application, the filing date of the earliest application in the chain of divisional applications). If this filing date is prior to 15 April 2013, then the pre-amendment wording for section 41 is relevant (grounds for rejection under s41 (5) or (6)). If this filing date is on or after 15 April 2013, then the amended wording for section 41 is relevant (grounds for rejection under s41 (4) or (3)). By way of example: Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 1 ABC Pty Ltd 1/8/2010 1/8/2010 Pre-amendment S41(5) or (6) TM 2 ABC Pty Ltd 1/6/2013 1/8/2010 (claimed from TM 1) Pre-amendment S41(5) or (6) Where TM 2 is a valid divisional application of TM 1 Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 3 XYZ Pty Ltd 1/6/2013 1/6/2013 Post-amendment S41(4) or (3) TM 4 XYZ Pty Ltd 1/2/2014 1/6/2013 (claimed from TM 3) Post-amendment S41(4) or (3) Where TM 4 is a valid divisional application of TM 3. If an applicant agrees to delete all references to a divisional, and by doing so the application no longer has a filing date before 15 April 2013, any s41(5) or s41(6) grounds for rejection will need to be reconsidered in terms of s41(3) or s41(4). In this case, the new version of section 41 (i.e. s 41(3) or s 41(4) should be referred to in reports, and an explanation should be provided referring to the removal of claims to a divisional changing the relevant iteration of Section 41 which applies due to the implementation of the Intellectual Property Laws Amendment (Raising the Bar) Act 2012. Should the application be accepted on the basis of evidence or other circumstances, the endorsement must reflect the version of section 41 in force as at the filing date for the application."
     }
   ],
@@ -51,10 +171,11 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:ab310eb7d8034fd7ec0bc5355ce9471937f211296bb79e6bf3ae6e5f720277ff",
-    "crawled_at": "2026-07-28T04:49:32Z",
+    "crawled_at": "2026-07-28T08:05:08Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "9. Divisional applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
+    "images": [],
     "last_amended": "2026-07-20",
     "nav_title": "9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
     "page_ref": "TMM/Part12/9",

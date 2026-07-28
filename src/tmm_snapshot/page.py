@@ -152,6 +152,11 @@ class PageRecord:
     #: title and its amendment history, and has no prose left to chunk. Not
     #: the same as retirement, which is a page leaving the nav altogether.
     archived: bool = False
+    #: Every image in the page's content, as `{"src": ..., "alt": ...}`. Eight
+    #: pages of the Manual are *only* an image — a flowchart, a cross-search
+    #: class table, the format of a summons — and without this they record as
+    #: indistinguishable from a page with nothing on it. See extract_images.
+    images: tuple[dict[str, str | None], ...] = ()
 
 
 def normalise_text(text: str) -> str:
@@ -196,6 +201,46 @@ def flatten_text(node: Tag) -> str:
 
     visit(node)
     return normalise_text("".join(parts))
+
+
+def extract_images(body: Tag) -> tuple[dict[str, str | None], ...]:
+    """Every image in the cleaned body, as `{"src": ..., "alt": ...}`.
+
+    The Manual carries 169 of them across 39 pages, and on eight of those the
+    image *is* the page: Part 22's "Capable of Distinguishing" flowchart, three
+    of the Part 14 cross-search class tables, the Part 54 summons formats. Those
+    pages yield no chunks because there is no text in them to chunk, and until
+    this field existed a consumer reading the snapshot could not tell them from
+    a page that is genuinely blank — of which the corpus holds exactly one,
+    Part 39's Annex A1. See SOURCE_NOTES.md §16.
+
+    `src` is recorded exactly as written. Every one in the corpus today is
+    root-relative — `/sites/default/files/trademark/image/...` — and resolving
+    that against the site root is a join the consumer can do and this pipeline
+    should not: rewriting a URL is a transformation, and the raw HTML is the
+    thing this record has to stay faithful to.
+
+    `alt` distinguishes absent from empty. `null` means the element carried no
+    `alt` attribute at all; `""` means it carried an empty one, which is how
+    HTML spells "decorative, skip me". The difference is the whole content of
+    *"Accessibility fix – alternative text for images"*, which is one of the
+    Manual's own amendment reasons on 28 pages, so collapsing the two would
+    hide exactly the change that note describes.
+
+    Sorted and de-duplicated on `(src, alt)`: an image used twice on a page is
+    one image, and sorting is what stops a reordering of the prose rewriting
+    the record. Same reasoning as `internal_refs` — ARCHITECTURE.md
+    §Byte-stability.
+    """
+    seen = {
+        (str(image["src"]), None if image.get("alt") is None else str(image["alt"]))
+        for image in body.find_all("img")
+        if image.get("src")
+    }
+    return tuple(
+        {"src": src, "alt": alt}
+        for src, alt in sorted(seen, key=lambda pair: (pair[0], pair[1] or ""))
+    )
 
 
 def resolve_nav(url: str, sitemap: dict[str, NavPage]) -> NavPage:
@@ -437,5 +482,6 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
         amendment_note=amendment_note,
         extractor_version=config.EXTRACTOR_VERSION,
         archived=archived,
+        images=extract_images(body),
     )
     return record, body

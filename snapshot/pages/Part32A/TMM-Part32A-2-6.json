@@ -38,6 +38,7 @@
           "mention": "s43"
         }
       ],
+      "tables": [],
       "text": "The PBR and UPOV databases do not accommodate non-Roman characters, but may include variety/synonym names which are transliterations (such as Pinyin) of languages which use non-Roman characters. Variety names may also be translations of NRCs and/or transliterations appearing in trade marks. The following practice applies the same principles as Part 22.11.2 “Non-Roman characters and s41” derived from Cantarella, specifically, that the ordinary signification of non-Roman characters is determined by considering a target audience which can read them, rather than the general population. In contrast, transliterations can be read by a wider English speaking audience, though they will not know the translated meaning. These considerations will determine whether non-Roman characters and/or transliterations appearing in a trade mark have ordinary signification as a plant variety/synonym, when the English translation or a transliteration is found to be a variety/synonym, and hence whether grounds for rejection will apply. The following principles apply: Pinyin is considered part of the Chinese language, along with Chinese characters. The inclusion of Chinese characters in a trade mark indicates the goods/services are targeted to an audience of Chinese speakers, even if the trade mark also contains other English words or words in Roman characters. Chinese speakers in the Australian marketplace can read Chinese characters and their Pinyin transliterations, and are likely to also understand the English translation. Pinyin transliterations can be read by a broader English-speaking audience, even though they will not know the translated English meaning. Example: The Chinese characters 白虎 transliterate in Pinyin as BAIHU and translate into English as WHITE TIGER. For trade marks containing these Chinese characters in a meaningful way (where the context and meaning is not altered by combination with other Chinese characters), the target audience is taken to be Chinese speakers. If either the transliteration BAIHU or the translation WHITE TIGER is found to be a variety name/synonym, the characters will have significance as such to the target audience, and grounds for rejection under s41, s42, or s43 may apply.*"
     },
     {
@@ -76,6 +77,7 @@
           "mention": "s43"
         }
       ],
+      "tables": [],
       "text": "If BAIHU is found to be a variety/synonym and the trade mark includes BAIHU in a meaningful way, grounds for rejection under s41, s42, or s43 may apply.* Similarly, if WHITE TIGER is found to be a variety/synonym and the trade mark includes WHITE TIGER in a meaningful way, grounds for rejection under s41, s42, or s43 may apply.* However, if the consideration is between a plant variety BAIHU and a trade mark containing the English translation WHITE TIGER (not accompanied by the equivalent characters), or a plant variety WHITE TIGER and a trade mark containing BAIHU (not accompanied by the equivalent characters), then grounds for rejection on the basis of plant variety will not apply. The broader English speaking audience can read the word BAIHU but will not understand it to mean WHITE TIGER. The trade mark will not have significance as a variety/synonym. * Which ones apply will depend on other factors, such as whether the variety is recorded on the PBR or UPOV databases, and whether there is other material in the trade mark. Implications for plant variety searching: For trade marks which contain non-Roman characters and/or transliterations and cover plants or plant material in class 31, the transliterations and translations should be searched on PBR and UPOV databases."
     }
   ],
@@ -83,10 +85,11 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:c0ff374ba0612d98acc66d2e78d377fbb2a02ffa141c6142f21d6c09fd5b2943",
-    "crawled_at": "2026-07-28T04:54:19Z",
+    "crawled_at": "2026-07-28T08:05:20Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "32A.2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination.",
+    "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination",
     "page_ref": "TMM/Part32A/2/6",

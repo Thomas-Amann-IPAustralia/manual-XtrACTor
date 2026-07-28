@@ -14,6 +14,7 @@
       "ordinal": 1,
       "page_ref": "TMM/Part13/6",
       "provisions": [],
+      "tables": [],
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995"
     },
     {
@@ -36,6 +37,56 @@
           "extraction": "regex",
           "id": "TMA1995/s51(1)(a)",
           "mention": "paragraph 51(1)(a)"
+        }
+      ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK CLOTHING IDAK FOOTWEAR IDAK HEADGEAR Class 25: Clothing, footwear, headgear"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK TV IDAK TELEVISION Class 9: Televisions"
+              }
+            ],
+            [
+              {
+                "text": "Example 3"
+              },
+              {
+                "text": "IDAK SHIRTS IDAK HATS IDAK SLIPPERS Class 25: Clothing, footwear, headgear Class 35: Retailing of clothing, footwear and headgear"
+              }
+            ],
+            [
+              {
+                "text": "Example 4"
+              },
+              {
+                "text": "IDAK CLOTHING IDAK MORTGAGE Class 25: Clothing Class 36: Mortgage services A paragraph 51(1)(a) statement need not relate to all of the claimed goods/services. CLOTHING and MORTGAGE each refers to at least one claimed good/service."
+              }
+            ],
+            [
+              {
+                "text": "Example 5"
+              },
+              {
+                "text": "IDAK ADVANCED TECHNOLOGIES IDAK CONSUMER PRODUCTS Class 3: Toiletry preparations Class 9: Computers; digital watches Class 21: Household or kitchen utensils and containers Broad descriptive statements/representations relating to the claims can qualify under section 51(1)(a). The statements/representations do not need to directly identify the goods/services."
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 5
         }
       ],
       "text": "Example 1 IDAK CLOTHING IDAK FOOTWEAR IDAK HEADGEAR Class 25: Clothing, footwear, headgear Example 2 IDAK TV IDAK TELEVISION Class 9: Televisions Example 3 IDAK SHIRTS IDAK HATS IDAK SLIPPERS Class 25: Clothing, footwear, headgear Class 35: Retailing of clothing, footwear and headgear Example 4 IDAK CLOTHING IDAK MORTGAGE Class 25: Clothing Class 36: Mortgage services A paragraph 51(1)(a) statement need not relate to all of the claimed goods/services. CLOTHING and MORTGAGE each refers to at least one claimed good/service. Example 5 IDAK ADVANCED TECHNOLOGIES IDAK CONSUMER PRODUCTS Class 3: Toiletry preparations Class 9: Computers; digital watches Class 21: Household or kitchen utensils and containers Broad descriptive statements/representations relating to the claims can qualify under section 51(1)(a). The statements/representations do not need to directly identify the goods/services."
@@ -62,6 +113,160 @@
           "mention": "paragraph 51(1)(b)"
         }
       ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK 1 IDAK 2"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK FIRST IDAK 1ST"
+              }
+            ],
+            [
+              {
+                "text": "Example 3"
+              },
+              {
+                "text": "IDAK 2 IDAK TWO"
+              }
+            ],
+            [
+              {
+                "text": "Example 4"
+              },
+              {
+                "text": "IDAK ONE IDAK TWO"
+              }
+            ],
+            [
+              {
+                "text": "Example 5"
+              },
+              {
+                "text": "IDAK one IDAK TWO This is a valid series regardless of the differences in upper and lower case letters. Here, one and TWO are considered different statements or representations as to number, and therefore allowed under paragraph 51(1)(b)."
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 5
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK $2.00 IDAK $10.00"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK £2.00 IDAK $10.00 IDAK ¥500"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 2,
+          "rows": 2
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK STANDARD IDAK DELUXE"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK SUPREME IDAK DELUXE IDAK PREMIER"
+              }
+            ],
+            [
+              {
+                "text": "Example 3"
+              },
+              {
+                "text": "IDAK GOLD IDAK SILVER IDAK BRONZE Class 43: Hotel accommodation Class 36: Credit card services Class 37: Vehicle repair service This is a valid series because the words gold, silver and bronze are normally used to describe levels of quality in relation to hotel accommodation, credit card services and vehicle repair services."
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 3,
+          "rows": 3
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK PERTH IDAK SYDNEY"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK IDAK SYDNEY"
+              }
+            ],
+            [
+              {
+                "text": "Example 3"
+              },
+              {
+                "text": "PERTH IDAK SYDNEY IDAK"
+              }
+            ],
+            [
+              {
+                "text": "Example 4"
+              },
+              {
+                "text": "IDAK NSW IDAK NEW SOUTH WALES"
+              }
+            ],
+            [
+              {
+                "text": "Example 5"
+              },
+              {
+                "text": "IDAK MELBOURNE IDAK"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 4,
+          "rows": 5
+        }
+      ],
       "text": "Number Example 1 IDAK 1 IDAK 2 Example 2 IDAK FIRST IDAK 1ST Example 3 IDAK 2 IDAK TWO Example 4 IDAK ONE IDAK TWO Example 5 IDAK one IDAK TWO This is a valid series regardless of the differences in upper and lower case letters. Here, one and TWO are considered different statements or representations as to number, and therefore allowed under paragraph 51(1)(b). Price Example 1 IDAK $2.00 IDAK $10.00 Example 2 IDAK £2.00 IDAK $10.00 IDAK ¥500 Quality When considering quality, examiners should take into account the goods and services claimed, and undertake research to ascertain whether the terms are ordinarily used to indicate quality in the relevant industry. Example 1 IDAK STANDARD IDAK DELUXE Example 2 IDAK SUPREME IDAK DELUXE IDAK PREMIER Example 3 IDAK GOLD IDAK SILVER IDAK BRONZE Class 43: Hotel accommodation Class 36: Credit card services Class 37: Vehicle repair service This is a valid series because the words gold, silver and bronze are normally used to describe levels of quality in relation to hotel accommodation, credit card services and vehicle repair services. Names of Places Example 1 IDAK PERTH IDAK SYDNEY Example 2 IDAK IDAK SYDNEY Example 3 PERTH IDAK SYDNEY IDAK Example 4 IDAK NSW IDAK NEW SOUTH WALES Example 5 IDAK MELBOURNE IDAK"
     },
     {
@@ -79,6 +284,32 @@
       "ordinal": 4,
       "page_ref": "TMM/Part13/6",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK IDAK[note: entire representation is red in colour]"
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK IDAK [note: the letter A is red in colour]"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 2
+        }
+      ],
       "text": "Example 1 IDAK IDAK[note: entire representation is red in colour] Example 2 IDAK IDAK [note: the letter A is red in colour]"
     },
     {
@@ -96,6 +327,32 @@
       "ordinal": 5,
       "page_ref": "TMM/Part13/6",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Example 1"
+              },
+              {
+                "text": "IDAK SYDNEY STANDARD 1 IDAK MELBOURNE DELUXE 2 Class 43: Hotel accommodation. This example is a valid series because the trade marks differ by statements as to place name, quality and number."
+              }
+            ],
+            [
+              {
+                "text": "Example 2"
+              },
+              {
+                "text": "IDAK IDAK SYDNEY IDAK SYDNEY 1 IDAK $500 This example is a valid series because the trade marks differ by the presence or absence of statements as to place name and number."
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 2
+        }
+      ],
       "text": "Example 1 IDAK SYDNEY STANDARD 1 IDAK MELBOURNE DELUXE 2 Class 43: Hotel accommodation. This example is a valid series because the trade marks differ by statements as to place name, quality and number. Example 2 IDAK IDAK SYDNEY IDAK SYDNEY 1 IDAK $500 This example is a valid series because the trade marks differ by the presence or absence of statements as to place name and number."
     }
   ],
@@ -103,10 +360,11 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:76f44c75201926b739636217c16fb2127927108dc8d60b136c017196cd70d85f",
-    "crawled_at": "2026-07-28T04:49:43Z",
+    "crawled_at": "2026-07-28T08:05:08Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "13.6. Examples of Valid Series Trade Marks",
+    "images": [],
     "last_amended": "2026-06-03",
     "nav_title": "6. Examples of Valid Series Trade Marks",
     "page_ref": "TMM/Part13/6",

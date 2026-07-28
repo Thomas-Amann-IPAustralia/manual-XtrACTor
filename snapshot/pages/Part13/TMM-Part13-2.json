@@ -49,6 +49,7 @@
           "mention": "subsections 51(1)(a)(b)"
         }
       ],
+      "tables": [],
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Series applications are intended to be allowed “only for minor and obvious variations” of a trade mark (Explanatory Memorandum, Trade Marks Amendment Bill 2006, 5.5). Section 51(1) presents two requirements for a valid series (that is, a series of trade marks that can be included together in a single application): the trade marks must resemble each other in material particulars; and the trade marks must differ only in the ways allowed in paragraphs 51(1)(a), (b) and (c). In Ecospecifier Pty Ltd [2011] ATMO 63 at [12], the Delegate noted that a “material particular” in respect of a trade mark (for the purpose of section 51) must be “a feature which is important, essential and non-trivial and which is also that portion of the trade mark likely to be recalled as being a trade mark”. In Tawfek Mahmoud [2025] ATMO 227, the Delegate said (at [23]): The Applicant’s submissions appear to be based on the premise that as long as each of the marks share some (emphasis added) material particulars the series as a whole shall be valid. This is not correct. Rather each of the Trade Marks must share all material particulars for the mark to be a valid series mark. The fact that each of the Trade Marks contains a derivation of the word ‘link’ is not sufficient for me to find that they resemble each other in material particulars; rather the entirety of each mark’s material particulars must resemble each other’s material particulars, save for the differences outlined in subsections 51(1)(a)(b) and (c). To take an obvious example the mark WORLD LINKS does not resemble THE AUSTRALIAN LINKEDIN. Indeed, the only similarity between the two marks is that they share the 4 letters ‘link’ in part of those marks. They are otherwise utterly dissimilar. The effect of section 51 of as a whole is that the material particulars in each trade mark of the series must essentially be the same. In many cases, the material particulars will be entirely comprised of the distinctive elements of the trade mark. However, in some cases, descriptive or non-distinctive elements can form part of the material particulars of a trade mark – particularly if their size and presentation within the trade mark make them identifying features, or if the trade marks are entirely comprised of descriptive material."
     },
     {
@@ -93,6 +94,7 @@
           "mention": "paragraph 51(1)(b)"
         }
       ],
+      "tables": [],
       "text": "Typically, each trade mark in a series will consist of [shared identifying features, comprising the material particulars] + [allowable differences]. As a result, it is usually appropriate to focus on the shared elements when assessing the resemblance of material particulars. This approach may apply even where the identifying element is of low distinctiveness. For example: BETTA SHOES; BETTA BOOTS on Class 25: shoes, is a valid series. BETTA is the first word in each trade mark, followed by a purely descriptive word identifying the claimed goods (an allowable difference under paragraph 51(1)(a)). The word order follows a familiar [brand][product] format. Consumers are likely to rely heavily on the first word BETTA as an identifying element (rather than SHOES or BOOTS). Therefore, the trade marks resemble each other in material particulars. (For clarity, this assessment is separate to, and does not affect the application of, section 41. A section 41(3) ground for rejection would arise against each trade mark in this series.) However, the effect of any differences between trade marks must be considered in the context of the trade marks as a whole. Even if the differences are of a kind allowed under paragraphs 51(1)(a), (b) or (c), the differences may be such that the material particulars can no longer be considered the same. The following are examples of invalid series that do not resemble each other in material particulars, because the differences change the prominence or effect of a shared word. Example 1. SNEAKER and NINETY-NINE SNEAKER, on Class 25: shoes. The marks share SNEAKER, while NINETY-NINE is a statement as to number (an allowable difference under paragraph 51(1)(b)). SNEAKER is the identifying feature of the first mark. However, for the second mark, consumers are likely to rely on the first and less descriptive word NINETY-NINE to recognise or recall it, rather than the last word SNEAKER, which directly describes the goods. Therefore, the trade marks do not resemble each other in material particulars. Example 2. SUN and SUNBLOCK, on Class 28: toy building blocks. The marks share SUN, while BLOCK is a statement as to the goods (an allowable difference under paragraph 51(1)(a))."
     },
     {
@@ -112,6 +114,7 @@
       "ordinal": 3,
       "page_ref": "TMM/Part13/2",
       "provisions": [],
+      "tables": [],
       "text": "SUN is the identifying feature of the first mark. However, SUNBLOCK as a whole is a word with a well-understood meaning. Considering the second mark as a whole, consumers are unlikely to isolate SUN alone as an identifying feature, but rather would understand it to be the normal word SUNBLOCK (i.e. sunscreen lotion). Therefore, the trade marks do not resemble each other in material particulars. By contrast, consider SUN and SUN BLOCKS (with a space), on Class 28: toy building blocks. Noting the presentation of SUN BLOCKS as two words (and BLOCKS in plural), consumers are likely to take BLOCKS as a description of the claimed goods. The first word SUN is likely to be the identifying feature of both marks. This would be a valid series."
     }
   ],
@@ -119,10 +122,11 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:7a157f906858fa6468e39b1c6bf1eca98020fd501fa41db13c6cad05b7dbc2c9",
-    "crawled_at": "2026-07-28T04:49:37Z",
+    "crawled_at": "2026-07-28T08:05:08Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "13.2. Material Particulars",
+    "images": [],
     "last_amended": "2026-06-03",
     "nav_title": "2. Material Particulars",
     "page_ref": "TMM/Part13/2",

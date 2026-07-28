@@ -239,7 +239,12 @@ class Stats:
     archived: int = 0
     pages_written: int = 0
     raw_written: int = 0
-    chunks: int = 0
+    #: Chunks cut by *this run*, which is not the size of the corpus and must
+    #: never be read as it. A page skipped at gate 1 or gate 2 is never
+    #: chunked, so its chunks are not counted here — after the 28 July 2026
+    #: crawl this said 2084 while the snapshot held 2151, the 67 belonging to
+    #: the 19 pages that had not changed. `corpus.chunks` is the disk total.
+    chunks_cut: int = 0
     chunks_changed: int = 0
     missing_raw: list[str] = field(default_factory=list)
     retired: list[str] = field(default_factory=list)
@@ -348,7 +353,7 @@ def _process(
         return
 
     chunks = chunk_body(body, record, nav, sitemap)
-    stats.chunks += len(chunks)
+    stats.chunks_cut += len(chunks)
 
     # Gate 3. The page moved, but most of it may not have. Every chunk is
     # rewritten regardless — they share a file — so this only feeds the report,
@@ -381,9 +386,22 @@ def _corpus(root: Path, sitemap: dict[str, NavPage]) -> dict[str, object]:
 
     They live in that file because `write_manifest` did not exist yet. It does
     now, and this is where they belong.
+
+    Everything here describes the snapshot **on disk**, counted by walking it,
+    and is therefore true whatever the run did or skipped. That is the whole
+    distinction against `run.*`, which describes only what this run touched:
+    `corpus.chunks` counts every chunk in the snapshot, `run.chunks_cut`
+    counts the ones this run actually cut. A re-crawl where every page answers
+    304 leaves the first at 2151 and the second at 0, and both are correct.
     """
     sizes = [path.stat().st_size for path in (Path(root) / "raw").rglob("*.html")]
+    chunks = 0
+    for path in writer.iter_page_files(Path(root)):
+        document = writer.read_page_file(path)
+        if document is not None:
+            chunks += len(document.get("chunks", []))
     return {
+        "chunks": chunks,
         "mean_raw_bytes": round(sum(sizes) / len(sizes)) if sizes else 0,
         "pages": len(sitemap),
         "parts": len({nav.part_id for nav in sitemap.values()}),
@@ -402,7 +420,7 @@ def _manifest(
         "finished_at": writer.utcnow(),
         "run": {
             "archived": stats.archived,
-            "chunks": stats.chunks,
+            "chunks_cut": stats.chunks_cut,
             "chunks_changed": stats.chunks_changed,
             # Only a complete run is evidence about the pages it did not
             # write. The diff tooling needs to know which kind this was before
@@ -447,7 +465,8 @@ def _report(args: argparse.Namespace, stats: Stats) -> list[str]:
         f"  parsed           {stats.parsed} ({stats.archived} archived)",
         f"  pages written    {stats.pages_written}",
         f"  raw written      {stats.raw_written}",
-        f"  chunks           {stats.chunks} ({stats.chunks_changed} new or amended)",
+        f"  chunks cut       {stats.chunks_cut} "
+        f"({stats.chunks_changed} new or amended)",
     ]
     lines.extend(
         f"    {page_ref}: {changed} of {total} paragraphs amended"

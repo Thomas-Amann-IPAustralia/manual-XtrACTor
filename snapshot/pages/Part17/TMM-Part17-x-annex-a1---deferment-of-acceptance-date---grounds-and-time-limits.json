@@ -31,6 +31,115 @@
           "mention": "section 92"
         }
       ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Reason for Deferment"
+              },
+              {
+                "text": "Termination of Deferment"
+              },
+              {
+                "text": "Time Remaining"
+              }
+            ],
+            [
+              {
+                "text": "Citation under subsection 44 (1) or 44(2) of a pending application"
+              },
+              {
+                "text": "When cited application is registered, withdrawn, rejected or lapsed, or where Registrar is satisfied that a citation no longer exists"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Gathering evidence to overcome section 44 citation by proving “honest concurrent use”, “other circumstances” or “prior use”"
+              },
+              {
+                "text": "6 months from the date of deferment"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Non-use action under section 92"
+              },
+              {
+                "text": "When proceedings in respect of the other trade mark have been finalised"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Copy of rules of certification trade mark sent to ACCC"
+              },
+              {
+                "text": "When the Registrar publishes the acceptance or rejection of application"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Cited registered trade mark un-renewed and within 6 months of expiry"
+              },
+              {
+                "text": "When the registration is either renewed or removed"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Where an applicant has died"
+              },
+              {
+                "text": "At Registrar's discretion, based on individual circumstances (usually up to 12 months)"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "Applicant has requested ex parte hearing"
+              },
+              {
+                "text": "When the applicant withdraws the request, or the Registrar decides to accept or reject the application"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ],
+            [
+              {
+                "text": "TM application under appeal or pending review of Registrar's decision in a court or in the ART, or where a rectification action or appeal or appeal period in relation to such an action is pending"
+              },
+              {
+                "text": "3 months after decision or such time as the prescribed court or ART may allow or, where decision is appealable, 2 months after the issue of that decision"
+              },
+              {
+                "text": "Balance of time remaining prior to deferment"
+              }
+            ]
+          ],
+          "columns": 3,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 9
+        }
+      ],
       "text": "Reason for Deferment Termination of Deferment Time Remaining Citation under subsection 44 (1) or 44(2) of a pending application When cited application is registered, withdrawn, rejected or lapsed, or where Registrar is satisfied that a citation no longer exists Balance of time remaining prior to deferment Gathering evidence to overcome section 44 citation by proving “honest concurrent use”, “other circumstances” or “prior use” 6 months from the date of deferment Balance of time remaining prior to deferment Non-use action under section 92 When proceedings in respect of the other trade mark have been finalised Balance of time remaining prior to deferment Copy of rules of certification trade mark sent to ACCC When the Registrar publishes the acceptance or rejection of application Balance of time remaining prior to deferment Cited registered trade mark un-renewed and within 6 months of expiry When the registration is either renewed or removed Balance of time remaining prior to deferment Where an applicant has died At Registrar's discretion, based on individual circumstances (usually up to 12 months) Balance of time remaining prior to deferment Applicant has requested ex parte hearing When the applicant withdraws the request, or the Registrar decides to accept or reject the application Balance of time remaining prior to deferment TM application under appeal or pending review of Registrar's decision in a court or in the ART, or where a rectification action or appeal or appeal period in relation to such an action is pending 3 months after decision or such time as the prescribed court or ART may allow or, where decision is appealable, 2 months after the issue of that decision Balance of time remaining prior to deferment"
     }
   ],
@@ -38,10 +147,11 @@
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package",
     "archived": false,
     "content_hash": "sha256:2a113d8c2402b8e57f82db99c9b1bf9eb405730fcd5da48d687ced88b4191f6a",
-    "crawled_at": "2026-07-28T04:50:43Z",
+    "crawled_at": "2026-07-28T08:05:12Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "17. Annex A1 - Deferment of acceptance date - Grounds and time limits",
+    "images": [],
     "last_amended": "2025-12-19",
     "nav_title": "Annex A1 - Deferment of acceptance date - Grounds and time limits",
     "page_ref": "TMM/Part17/x-annex-a1---deferment-of-acceptance-date---grounds-and-time-limits",

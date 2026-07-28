@@ -141,8 +141,33 @@ def test_gate_2_skips_a_page_whose_body_is_unchanged(manual, tmp_path):
 
     manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
     assert manifest["run"]["unchanged"] == 7
-    assert manifest["run"]["chunks"] == 0, "gate 2 must skip chunking, not just writing"
+    assert manifest["run"]["chunks_cut"] == 0, "gate 2 must skip chunking, not just writing"
     assert manifest["run"]["pages_written"] == 0
+
+
+def test_corpus_chunks_counts_the_disk_and_run_chunks_cut_counts_the_run(
+    manual, tmp_path
+):
+    """The two numbers answer different questions and must not be conflated.
+
+    After the 28 July 2026 crawl `run.chunks` said 2084 while the snapshot held
+    2151 — the 67 belonged to 19 pages skipped at gate 2, which are never
+    chunked and so were never counted. Nothing was wrong except the name, and
+    a reader had no way to tell the shortfall from data loss. `corpus.chunks`
+    walks the snapshot; `run.chunks_cut` counts what this run cut.
+    """
+    crawl(manual, tmp_path, "--part", "Part32B")
+    manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
+    first_run = manifest["run"]["chunks_cut"]
+    on_disk = manifest["corpus"]["chunks"]
+    assert first_run == on_disk > 0, "a first crawl cuts every chunk it stores"
+
+    # Second run: gate 2 skips everything, so nothing is cut and the corpus is
+    # unmoved. This is the shape that made the old name misleading.
+    crawl(manual, tmp_path, "--part", "Part32B")
+    manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
+    assert manifest["run"]["chunks_cut"] == 0
+    assert manifest["corpus"]["chunks"] == on_disk
 
 
 def test_force_reprocesses_everything(manual, tmp_path):
@@ -151,7 +176,7 @@ def test_force_reprocesses_everything(manual, tmp_path):
 
     manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
     assert manifest["run"]["unchanged"] == 0
-    assert manifest["run"]["chunks"] > 0
+    assert manifest["run"]["chunks_cut"] > 0
     assert manifest["run"]["pages_written"] == 0, "reprocessed, but nothing changed"
 
 
@@ -171,7 +196,7 @@ def test_an_amended_page_is_rewritten_and_reported(manual, tmp_path, capsys):
     manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
     assert manifest["run"]["pages_written"] == 1
     assert manifest["run"]["chunks_changed"] >= 1
-    assert manifest["run"]["chunks_changed"] < manifest["run"]["chunks"], (
+    assert manifest["run"]["chunks_changed"] < manifest["run"]["chunks_cut"], (
         "gate 3 should show most of the page unchanged"
     )
     assert "paragraphs amended" in capsys.readouterr().out

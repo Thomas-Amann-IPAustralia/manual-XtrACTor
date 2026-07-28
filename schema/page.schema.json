@@ -43,6 +43,27 @@
       "description": "The page carries the Manual's 'This page has been archived.' banner. It keeps its nav entry, its title and its amendment history, and has no prose left, so it yields no chunks. Distinct from retirement, which is a page leaving the nav altogether and moving to pages/_retired/."
     },
 
+    "images": {
+      "type": "array",
+      "description": "Every image in the page's content, de-duplicated and sorted by (src, alt). Nine pages of the Manual are ONLY an image — a flowchart, a cross-search class table, the format of a summons — and they yield no chunks because there is no text in them. Without this they are indistinguishable from a page with nothing on it. The image bytes are not stored: this records that the image is there, and where.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["src", "alt"],
+        "properties": {
+          "src": {
+            "type": "string",
+            "description": "Exactly as written in the source, which today is always root-relative ('/sites/default/files/trademark/image/...'). Resolving it against the site root is the consumer's join to make; rewriting it here would be a transformation this record cannot afford.",
+            "examples": ["/sites/default/files/trademark/image/capable_of_distinguishing_flowchart.png"]
+          },
+          "alt": {
+            "type": ["string", "null"],
+            "description": "null means the element carried no alt attribute; \"\" means it carried an empty one, which is how HTML spells 'decorative'. The difference is the entire content of 'Accessibility fix – alternative text for images', one of the Manual's own amendment reasons on 28 pages, so the two must not be collapsed."
+          }
+        }
+      }
+    },
+
     "date_published": { "type": ["string", "null"], "format": "date" },
 
     "last_amended": {

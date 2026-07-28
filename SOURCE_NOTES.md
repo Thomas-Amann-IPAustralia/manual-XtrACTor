@@ -522,20 +522,35 @@ rather than free text. A later repo joins on those ids.
 
 ## 12. The corpus, measured
 
-Measured 27 July 2026 (T2). Re-measure when a crawl reports a materially
-different count — a moved page count is usually a restructure, not an edit.
+First measured 27 July 2026 (T2) from a 20-page sample, and **re-measured
+28 July 2026 from the first complete crawl**. Re-measure again when a crawl
+reports a materially different count — a moved page count is usually a
+restructure, not an edit.
 
-| | |
-|---|---|
-| Parts | 54 |
-| Pages | 502 |
-| Non-page nav links | 1 (see §13) |
-| Nav links that 404 | 1 (see §14) |
-| Mean page size | 88.4 KB (n=20, median 84.6 KB, range 81–109 KB) |
-| Extrapolated `snapshot/raw/` | ~44 MB |
+| | | |
+|---|---|---|
+| | **Measured (full crawl)** | *Estimated (n=20)* |
+| Parts | 54 | *54* |
+| Pages | 502 | *502* |
+| Non-page nav links | 1 (see §13) | *1* |
+| Nav links that 404 | **2** (see §14) | *1* |
+| Pages that are only an image | 8 (see §16) | *not seen* |
+| Images in page content | 169, across 39 pages | *not seen* |
+| Tables in page content | 121, across 45 pages | *not seen* |
+| Chunks | 2151 | *not estimated* |
+| Mean page size | 88.6 KB | *88.4 KB (median 84.6, range 81–109)* |
+| `snapshot/raw/` | 44.3 MB | *~44 MB* |
 
 Well inside the gigabyte at which `ARCHITECTURE.md` says to stop and reconsider,
-and it only grows by the pages that actually change.
+and it only grows by the pages that actually change. In the repository it costs
+far less than that: 49 MB of working tree packs to about 2.6 MB, because every
+page carries the same 80 KB of sidebar nav and git deltas it away.
+
+**The size estimates held; the counts did not.** Extrapolating page size from 20
+pages was accurate to 0.2%. Extrapolating *incident* counts from the same sample
+was not, and could not have been: a sample of 20 sees the 404 that happens to be
+on page 3 of Part 1 and cannot see the one in Part 27. Read the estimated column
+as what was knowable that day, not as a measurement that drifted.
 
 These numbers are now measured by every run and written to
 `snapshot/manifest.json` under `corpus` (T7). The table stays as the reading
@@ -607,30 +622,42 @@ still surfaces as a missing page rather than as a mangled one.
 
 ---
 
-## 14. The nav links to a page that is not there
+## 14. The nav links to pages that are not there
 
-Part 1 links *"Part 1.3. Practice Change Procedure"* to a URL that 404s:
+Two of them, both the Manual's own sidebar pointing at nothing:
 
 ```
-/trademark/1.5   ->   404
+Part 1.3. Practice Change Procedure   /trademark/1.5                        -> 404
+Part 27.2. Legal submissions          /trademark/27.2.---legal-submissions  -> 404
 ```
 
-Not a redirect, not a moved page — the Manual's own sidebar pointing at nothing.
-Found on the first live run of the orchestration (T7, 27 July 2026), where it
-aborted the crawl on the third page of the first Part.
+Neither is a redirect and neither is a moved page.
+
+The first was found on the first live run of the orchestration (T7, 27 July
+2026), where it aborted the crawl on the third page of the first Part. The
+second was not found until the first *complete* crawl, on 28 July 2026 — and
+the gap is the point. Until then no run had ever reached Part 27: the T7 run
+was `--limit 20` and stopped inside Part 5, and the run after it died about 185
+pages in on the archived-page markup of §15, which sits in Part 23. A count of
+rotted links taken from a partial crawl is a count of the rotted links in the
+part that was crawled.
+
+So: when a run reports a number of unreachable pages that differs from the
+table in §12, check how far the last run that measured it actually got before
+concluding the Manual has changed.
 
 This is distinct from §13. There the nav points at something real that is not a
 page, and the target is excluded by path before anything is fetched. Here the
 nav points at a page-shaped URL that the site will not serve, and there is no
 way to know that without asking.
 
-So the crawler records it and carries on. A 404 hands us nothing, which means
+So the crawler records them and carries on. A 404 hands us nothing, which means
 nothing can be silently wrong — rule 3's failure mode is not available — while
-abandoning 501 good pages to protect against it is simply losing the snapshot.
-The run names the page in its report and in `manifest.json` under
+abandoning 500 good pages to protect against it is simply losing the snapshot.
+The run names each page in its report and in `manifest.json` under
 `run.unreachable`, no record is written for it, and any record already held is
-left exactly as it was. The page stays in the nav, so it is *not* retired:
-retirement means gone from the inventory, and this is present but unserved.
+left exactly as it was. The pages stay in the nav, so they are *not* retired:
+retirement means gone from the inventory, and these are present but unserved.
 
 Two things this deliberately does not do. It does not guess a substitute URL —
 `1.5` looks like it wants to be a dotted address, and acting on that is exactly
@@ -688,3 +715,119 @@ Not to be confused with either neighbour. §14 is a nav entry the site will not
 serve — nothing is returned, so nothing is recorded. Retirement is a page gone
 from the nav, and the file moves to `pages/_retired/`. Archived pages sit in the
 tree, serve a 200, and are current in the only sense the crawler can check.
+
+---
+
+## 16. Eight pages are an image and nothing else
+
+Found on the review of the first complete crawl (28 July 2026). These pages
+serve a 200, carry a normal `div.field--name-body`, are not archived — and the
+body holds one `<img>` and no text at all:
+
+```
+Part 14  Annex A10, A11, A12   cross-search class tables
+Part 22  Annex A2              'Capable of Distinguishing' flowchart
+Part 35  Annex A1              Certification Trade Marks flow chart
+Part 45  Annex A1              flow chart of production of copies
+Part 54  Annex A2, A3          format of a summons, of a notice requiring production
+```
+
+Corpus-wide there are 169 images across 39 pages; on these eight the image *is*
+the page. **None of the 169 carries any `alt` text** — not an empty `alt`, no
+attribute at all — which is worth knowing because *"Accessibility fix –
+alternative text for images"* is one of the Manual's own amendment reasons, on
+28 pages. Whatever that fix was, it did not reach any image in the Manual.
+
+Two neighbours that look like this class and are not, both worth keeping
+straight because a consumer filtering on `chunks: []` will meet them:
+
+- **Part 14 Annexes A6–A9** are the same kind of cross-search class table, but
+  each carries a one-line heading above the image — *"CROSS SEARCH CLASSES
+  PRE-JUNE 2000"* — so each yields exactly one chunk of that heading and
+  nothing else. Text-bearing by the letter of it; no more legible than A10–A12.
+- **Part 39 Annex A1**, *"Certificate of Registration"*, has no image **and** no
+  text. Its body field holds nothing but empty Drupal layout divs. It is a stub
+  in the source, and the empty record is the correct reading of it — the one
+  page in the corpus where `chunks: []` and `images: []` together are the whole
+  truth.
+
+The chunker is right to yield nothing for them: there is no text to chunk, and
+inventing a caption from the filename would be exactly the inference rule 1
+forbids. But until the review, a consumer reading `pages/*.json` saw
+`"chunks": []` and could not tell an image-only page from a blank one — the
+`<img>` existed only in `snapshot/raw/`.
+
+So `page.images` records every image in the body as `{"src", "alt"}`. `src`
+verbatim, because rewriting a URL is a transformation this record cannot
+afford; `alt` distinguishing null (no attribute) from `""` (an empty one,
+HTML's spelling of "decorative"), because collapsing those two hides precisely
+the amendment described above.
+
+Three things this does **not** do, each on purpose:
+
+- **It does not fetch the image.** The bytes are not in the snapshot, so for
+  these eight pages the repository holds no evidence of what the Manual actually
+  said — only that it said it in a picture, and where the picture was. If
+  IP Australia moves `/sites/default/files/`, that content is gone from the
+  archive. That is a real gap and it is recorded as one.
+- **It does not read the image.** No OCR, no model, no caption. See TASKS.md
+  §T11 for where that belongs, which is not in this pipeline.
+- **It does not treat an image-only page as empty.** `archived` is the Manual
+  saying a page is no longer current; `chunks: []` with a non-empty `images` is
+  a page whose content this pipeline cannot render as text. Different facts,
+  and a consumer needs both kept apart.
+
+One quirk worth recording: Part 14's Annex **A10** embeds
+`part14-annexa9.gif`, and Annex A9 embeds `part14-annexa8.gif`. The filenames
+are off by one against the annex numbers. That is the source's own numbering,
+not a mis-parse — the `src` is recorded exactly as written, and anyone matching
+images to annexes by filename will get it wrong.
+
+---
+
+## 17. Tables are content, and flattening loses half of them
+
+121 tables across 45 pages, and several pages — Part 10's Annex A1 and A2, the
+Part 12 divisional examples — are essentially nothing but a table.
+
+`flatten_text` renders one as a run of cell text:
+
+```
+Owner Name Address Description Individual Surname + Given name/s (not trading
+style) Address and address for service in Australia or New Zealand not required
+Corporate Body Full designation (not trading style) as above ACN, ABN or ARBN
+```
+
+Every word is there, in order, and which cell sat under which column is not.
+That is the correct value for `chunk.text` — it is the verbatim reading, and
+the only string SCHEMA.md permits quoting to an applicant — but on its own it
+throws the grid away. `chunk.tables` carries the grid alongside it.
+
+What the markup actually looks like, measured over all 121:
+
+| | |
+|---|---|
+| Plain `<tr>`/`<td>`, no header markup | 119 |
+| `<thead>` or an all-`<th>` first row | 2 |
+| `colspan` | 4 |
+| `rowspan` | 3 |
+| Ragged rows | 7 |
+| Containing an image | 11 |
+| Containing a heading (`<h4>` inside a cell) | 2 |
+| Nested tables | 0 |
+
+**The header problem.** 119 of 121 tables have a first row that reads exactly
+like a header — *"Owner | Name | Address | Description"* — and says so nowhere
+in the markup. Deciding it is one on the strength of how the words look is an
+inference about meaning, so `header_row` is null for all 119 and the row stays
+in `cells` as data. A consumer that wants to treat row 0 as a header may; this
+pipeline will not do it for them. Only `<thead>` and `<th>` count.
+
+**Headings inside tables.** Part 29.4 puts two `<h4>PLATYPUS</h4>` inside table
+cells. The chunker does not cut on them, because a `<table>` is one unit and
+splitting inside one is forbidden — which is why that page is a single chunk
+despite having headings. Correct, and worth knowing before someone "fixes" it.
+
+**Spans are recorded, not expanded.** `colspan="2"` is stored on the cell.
+Which grid positions the span covers is a rendering question, and answering it
+means writing cells the Manual never wrote.

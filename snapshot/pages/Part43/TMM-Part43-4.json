@@ -36,6 +36,7 @@
           "mention": "section 6"
         }
       ],
+      "tables": [],
       "text": "An application to record an assignment in respect of all the goods or services covered by a trade mark registration or application is known as a full assignment. This is more common than partial assignments described in the next section. The same procedures are followed if the application is in respect of transmission. On receipt of the application to record assignment the following checks are done before recording details of the assignment or transmission. 4.1 Does the owner name and trade mark number on the request match the details in the database. 4.2 Is the trade mark still in force and has not lapsed or that registration has not expired. 4.3 Are there any outstanding actions that may impact on the processing of the assignment. For example, earlier applications to record assignments which have not been actioned, or unactioned applications to record claims to interests in or rights in respect of the trade mark (these may not appear on the database). 4.4 Is the trade mark is a collective or certification trade mark. Collective trade marks cannot be assigned (section 166) and therefore no details of the assignment are to be entered on the database. The applicant for the assignment should be advised that the recordal of assignment cannot proceed. Certification trade marks can be assigned and follow the usual process for assignment. However, additional requirements also apply and these are described separately in section 6. 4.5 Is the application to record assignment in order. See section 3 for form of application and prescribed documents. 4.6 If the application to record assignment is in order, the assignment is recorded. 4.7 If there are problems with the application to record assignment, the assignee should be advised in writing of the matters that need to be rectified. 4.8 Once the problems with the application are resolved, the assignment can be recorded. 4.9 If a claimed interest exists, once the assignment has been recorded the system will stop before the assignment is approved. If it is quite clear from the request that the person claiming the interest or right, agrees to the assignment the system can be overridden and the assignment approved."
     },
     {
@@ -66,6 +67,7 @@
           "mention": "reg 10.5"
         }
       ],
+      "tables": [],
       "text": "4.10 If it is not clear that the person claiming the interest or right agrees to the assignment a standard notice is sent to each person who has a claim recorded. The person claiming the interest or right is given 2 months in which to obtain a court order to prevent the assignment being recorded (section 111 and reg 10.5). A letter is also sent to the person requesting the assignment to advise of a 2 month delay in recording the assignment. 4.11 If no response is received or if all relevant persons notify the Office in writing that they agree to the assignment, the recordal of the assignment can be approved. 4.12 If a person claiming an interest or right wishes to object to the recordal of assignment, they must get a court order which will halt the assignment process until the court action is finalised. Both the person claiming the interest or right and the person applying for the recordal of assignment will be notified that a court order has been served and that no further action relating to the assignment application will take place until the outcome of the court action is known. 4.13 When a court order is received and the court orders that the recordal of assignment should not proceed, the pending assignment will be deleted. The applicant will also be advised that the assignment cannot be recorded. 4.14 If everything is in order and the Assignment is approved, a standard notice is generated to the address for service advising that the assignment has been recorded. The assignment is also published in accordance with the regulations."
     }
   ],
@@ -73,10 +75,11 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:cc64778604db95882471a54d5931df1ab0fb9298605b6bd3ca839b655ed020e0",
-    "crawled_at": "2026-07-28T04:56:11Z",
+    "crawled_at": "2026-07-28T08:05:24Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "43.4. Process for assigning all goods and/or services (full assignment)",
+    "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "4. Process for assigning all goods and/or services (full assignment)",
     "page_ref": "TMM/Part43/4",

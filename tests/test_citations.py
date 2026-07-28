@@ -431,6 +431,28 @@ def test_a_part_without_a_dotted_address_is_not_a_page_reference(sitemap):
     assert extract_internal_refs(body, sitemap) == []
 
 
+def test_a_reference_to_the_page_it_sits_on_is_kept(sitemap):
+    """A self-reference is a datapoint, not noise — do not filter it.
+
+    22 chunks in the corpus carry one, and they are the Manual pointing at
+    another part of the same page: *'in light of paragraph 4.3'*, the A-Z index
+    at the top of the INN-stems annex. That the target is a sibling chunk
+    rather than another page is exactly what a retrieval layer needs to know,
+    and it is only knowable because the ref was kept.
+
+    Filtering these out on the grounds that a page linking to itself 'says
+    nothing' would throw the fact away, and nothing downstream could recover
+    it — the anchor is gone by the time the text is flattened.
+    """
+    body = fragment(
+        '<p>See <a href="/trademark/annex-a1-section-41-prior-to-raising-the-bar">'
+        "the discussion above</a>.</p>"
+    )
+    on_that_very_page = "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+
+    assert extract_internal_refs(body, sitemap) == [on_that_very_page]
+
+
 def test_an_external_link_is_never_an_internal_reference(sitemap):
     body = fragment(
         '<p><a href="https://en.wikipedia.org/wiki/Trade_mark">Wikipedia</a> and '

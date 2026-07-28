@@ -27,6 +27,7 @@
           "mention": "section 217A"
         }
       ],
+      "tables": [],
       "text": "All Australian Government agencies that are subject to the FOI Act are required by section 11C to publish a freedom of information (FOI) disclosure log on their website. The FOI disclosure log lists information which has been released in response to an FOI access request in accordance with section 11C of the FOI Act This requirement has applied since 01 May 2011. Where it would involve an unreasonable publication of business affairs information or personal information, an FOI document may not be published on the disclosure log. The usual means of accessing documents under either section 217A of the Trade Marks Act or under the FOI Act is via direct email from the email address that sent the application (unless IP Australia receive reasonable and explicit instructions in the document request for another means of delivery)"
     },
     {
@@ -44,6 +45,7 @@
       "ordinal": 2,
       "page_ref": "TMM/Part61/2",
       "provisions": [],
+      "tables": [],
       "text": "2.1.1 A request must be in writing and state whether it is an application for the purposes of the FOI Act. The documents requested must be clearly identified and contain a postal address or email address where correspondence and released documents can be forwarded."
     },
     {
@@ -68,6 +70,7 @@
           "mention": "section 217A of the Trade Marks Act 1995"
         }
       ],
+      "tables": [],
       "text": "2.2.1 There is no initial application fee for an FOI request. If a fee is payable an FOI officer will provide a written estimate and outline the basis for their calculation. The fee is an estimation of the costs involved in processing the request. 2.2.2 Under section 217A of the Trade Marks Act 1995 (Cth), the fee for a copy of a publically available document is $50 per document capped at $200 for 4 or more documents from the one casefile (pursuant to the Trade Mark Regulations, Schedule 9, Items 21 and 22). 2.2.3 Under the FOI Act, the applicant has the right to contend that a charge has been wrongly assessed, should be reduced or should not be imposed. IP Australia will consider these requests on a case-by-case basis."
     },
     {
@@ -92,6 +95,7 @@
           "mention": "Section 217A"
         }
       ],
+      "tables": [],
       "text": "2.3.1 A request must be acknowledged within 14 days of being received along with an estimate of any charges that may apply to the request. 2.3.2 Notification of a decision will be made within 30 days unless the time has been extended. 2.3.3 If a document contains business information or personal information relating to a third party, under the FOI Act, third party consultation is required The deadline for a decision is automatically extended to a maximum duration of an additional 30 days to allow for the consultation process to take place. 2.3.4 When a decision has been made a letter will be sent which outlines the reasons for the decision and any review or appeal rights. 2.3.5 Section 217A documents will be processed as soon as possible. However, depending on backlog, this may require several business days to process."
     },
     {
@@ -173,6 +177,7 @@
           "mention": "Section 54B(2)"
         }
       ],
+      "tables": [],
       "text": "Request for internal review by agency Two categories of FOI decision can be internally reviewed under the FOI Act by the agency who made the decision: an ‘access refusal decision’ (Section 53A) in respect of which the FOI applicant may apply for internal review (Section 54) and an ‘access grant decision’ (Section 53B) in respect of which an affected third party may apply for internal review (Section 54A). The time limit for applying for internal review is either 30 calendar days after notification of the decision or 15 calendar days after access to documents is given or purported to be given, whichever period is longer (Section 54B(1)(b)). A longer time limit than 30 days will apply if access is given or purported to be given more than 15 calendar days after notification of the agency decision. A longer period is provided so that a person will not be prejudiced if there is a delay in giving access after notification of a decision. Under Section 54B(2), it is possible for an agency to extend the period for an applicant to apply for internal review, even if the statutory period has already expired. The FOI Act does not specify any criteria that must be considered. However, agencies are encouraged by the Information Commissioner to adopt a liberal approach and grant an extension unless there is a special reason not to do so. 2.4.1 Access Refusal Decision An access refusal decision is defined in Section 53A to comprise all of the following: a. a decision refusing to give access to a document in accordance with a request b. a decision giving access to a document but not giving access to all documents to which the request relates c. a decision purporting to give, in accordance with a request, access to all documents to which the request relates, but not actually giving that access d. a decision to defer the provision of access to a document (except a document that a minister thinks should first be provided to the Parliament in accordance with s 21(1)(d)) e. a decision under s 29 relating to imposition of a charge or the amount of a charge f. a decision to give access to a document to a qualified person under s 47F(5) g. a decision refusing to amend a record of personal information in accordance with an application made under s 48 h. a decision refusing to annotate a record of personal information in accordance with an application made under s 48. 2.4.2 Access Grant Decision"
     },
     {
@@ -242,6 +247,7 @@
           "mention": "Section 54S(2)"
         }
       ],
+      "tables": [],
       "text": "An access grant decision is a decision to grant access to a document where there is a requirement to consult with a State under s 26A, the Commonwealth or a State under s 26AA, a business entity under s 27, or an individual or legal personal representative of a deceased person under s 27A (Table 1 in section 53B. A person generally has 30 calendar days after being notified of an agency’s access refusal or access grant decision to apply for internal review (Section 54B(1)(a)). A longer period may apply for the following access refusal decisions: a decision giving access to documents in accordance with a request but not giving access to all the documents covered by the request, or a decision purporting to give access to documents in accordance with a request but not in fact doing so. Request for external review by Information Commissioner (IC) An applicant must apply for IC review within 60 days of receiving notice of an access refusal decision (Section 54S(1)) or within 30 days of receiving notice of an access grant decision (Section 54S(2)). If the time limit for applying for IC review has run out because a person has waited for an agency to provide access after notifying its decision, the person still has the following options: apply for internal review within 15 days of receiving access (Section 54(1)(b)(ii)). seek an extension of time from the Information Commissioner to apply for IC review."
     }
   ],
@@ -249,10 +255,11 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:7bf0d2abd703cd26b1d754388a8e047fbb3374502d518623accdc15b1dd938c0",
-    "crawled_at": "2026-07-28T04:59:17Z",
+    "crawled_at": "2026-07-28T08:05:31Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "61.2. Accessing Documents",
+    "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2. Accessing Documents",
     "page_ref": "TMM/Part61/2",

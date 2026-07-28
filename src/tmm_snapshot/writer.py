@@ -156,6 +156,7 @@ def _page_document(page: PageRecord, crawled_at: str) -> dict[str, Any]:
         "date_published": _iso(page.date_published),
         "extractor_version": page.extractor_version,
         "h1": page.h1,
+        "images": [dict(image) for image in page.images],
         "last_amended": _iso(page.last_amended),
         "nav_title": page.nav_title,
         "page_ref": page.page_ref,

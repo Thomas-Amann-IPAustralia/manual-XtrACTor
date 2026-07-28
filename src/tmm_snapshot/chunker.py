@@ -15,7 +15,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 
@@ -27,6 +27,7 @@ from tmm_snapshot.citations import (
 )
 from tmm_snapshot.page import PageRecord, flatten_text, normalise_text
 from tmm_snapshot.sitemap import NavPage
+from tmm_snapshot.tables import extract_tables
 
 
 class ChunkRefCollision(Exception):
@@ -87,6 +88,11 @@ class Chunk:
     provisions: list[dict]
     cases: list[dict]
     internal_refs: list[str]
+    #: The grid of any table in this chunk. `text` renders a table as a run of
+    #: cell text, which is the right verbatim reading and tells you nothing
+    #: about which cell sat under which column; this is where that survives.
+    #: Empty for the great majority of chunks. See tables.py.
+    tables: list[dict] = field(default_factory=list)
 
 
 def _units(body: Tag) -> list[tuple[str, Tag | NavigableString]]:
@@ -317,6 +323,7 @@ def chunk_body(
                     provisions=extract_provisions(fragment, text),
                     cases=extract_cases(text),
                     internal_refs=extract_internal_refs(fragment, inventory),
+                    tables=extract_tables(fragment),
                 )
             )
 

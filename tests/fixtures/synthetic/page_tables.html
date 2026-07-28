@@ -1,0 +1,99 @@
+<!--
+  Table shapes the live Manual does not currently have, kept synthetic so the
+  extractor is pinned against them before the CMS grows one.
+
+  The Manual's own 121 tables are overwhelmingly a plain <tr>/<td> grid with no
+  <th>, no <thead> and no spans (2 have a header, 4 a colspan, 3 a rowspan,
+  0 are nested). tests/fixtures/pages/annex-a2---identity-of-the-applicant.html
+  covers that ordinary case with a real page; this file covers the rest.
+-->
+<html>
+<head><link href="https://manuals.ipaustralia.gov.au/trademark/7.-a-page-with-tables" rel="canonical"/></head>
+<body>
+<main>
+  <div class="block-page-title-block"><h1>22.7. A page with tables</h1></div>
+
+  <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+    <div class="zone emphasis0" id="zone0"><div class="section12" id="section1"><div id="section1control1">
+
+      <h2>7.1 A table with a thead</h2>
+      <p>The header is declared, so it is recorded.</p>
+      <table>
+        <thead>
+          <tr><td>Ground</td><td>Section</td></tr>
+        </thead>
+        <tbody>
+          <tr><td>Not capable of distinguishing</td><td>section 41</td></tr>
+          <tr><td>Likely to deceive</td><td>section 43</td></tr>
+        </tbody>
+      </table>
+
+      <h2>7.2 A table whose first row is all th</h2>
+      <p>The other spelling of a declared header.</p>
+      <table>
+        <tr><th>Class</th><th>Description</th></tr>
+        <tr><td>9</td><td>Scientific apparatus</td></tr>
+      </table>
+
+      <h2>7.3 A table with spans and a ragged row</h2>
+      <p>Three columns wide because of the colspan, not two.</p>
+      <table>
+        <tr><td colspan="2">Applicant details</td><td>Notes</td></tr>
+        <tr><td rowspan="2">Individual</td><td>Surname</td><td>Required</td></tr>
+        <tr><td>Given names</td><td>Required</td></tr>
+        <tr><td>Sole cell</td></tr>
+      </table>
+
+      <h2>7.4 A table with an empty cell and an image cell</h2>
+      <p>An image-only cell has no text; the image is on the page record.</p>
+      <table>
+        <tr><td>Device</td><td><img src="/sites/default/files/trademark/image/device-example.png" alt="A stylised platypus"></td></tr>
+        <tr><td>Blank</td><td></td></tr>
+      </table>
+
+      <h2>7.5 A nested table</h2>
+      <p>The inner grid is lost; the inner words are not.</p>
+      <table>
+        <tr>
+          <td>Outer left</td>
+          <td>
+            <table>
+              <tr><td>Inner one</td><td>Inner two</td></tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <h2>7.6 A table with a multi-row thead</h2>
+      <p>A stacked header this pipeline will not flatten into one.</p>
+      <table>
+        <thead>
+          <tr><td>Period</td><td>Fee</td></tr>
+          <tr><td>From 2013</td><td>AUD</td></tr>
+        </thead>
+        <tbody>
+          <tr><td>Renewal</td><td>400</td></tr>
+        </tbody>
+      </table>
+
+      <h2>7.7 Prose with no table at all</h2>
+      <p>A chunk with no table records an empty list, not a null.</p>
+
+    </div></div></div>
+  </div>
+
+  <div class="views-element-container">
+    <div class="view view-amended-reasons view-id-amended_reasons">
+      <table>
+        <tbody>
+          <tr>
+            <td class="views-field-field-date-amended"><time datetime="2026-01-15T12:00:00Z">15 Jan 2026</time></td>
+            <td class="views-field-field-amended-reason">Tables added.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+</body>
+</html>

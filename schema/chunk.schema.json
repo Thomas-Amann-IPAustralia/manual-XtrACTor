@@ -108,8 +108,56 @@
 
     "internal_refs": {
       "type": "array",
-      "description": "Manual-internal cross references, resolved to chunk or page refs. Unresolvable targets are dropped, not guessed.",
+      "description": "Manual-internal cross references, resolved to chunk or page refs. Unresolvable targets are dropped, not guessed. A ref equal to this chunk's own page_ref is kept, not filtered: it means the target is elsewhere on this same page, which tells a retrieval layer to offer a sibling chunk rather than another page.",
       "items": { "type": "string" }
+    },
+
+    "tables": {
+      "type": "array",
+      "description": "The grid of every table in this chunk, in document order. 'text' renders a table as a run of cell text — the correct verbatim reading, and no use to anything that needs to know which cell sat under which column. Empty on the great majority of chunks.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ordinal", "rows", "columns", "header_row", "cells"],
+        "properties": {
+          "ordinal": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Position among the tables in this chunk, 1-based."
+          },
+          "rows": { "type": "integer", "minimum": 0 },
+          "columns": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Widest row, counting spanned columns rather than cells: a two-cell row whose first cell is colspan=2 is three columns wide."
+          },
+          "header_row": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "Index into 'cells' of the header row, or null when the markup does not say. Only <thead> and an all-<th> first row count. The Manual marks up 2 of its 121 tables that way, so this is usually null — the first row is NOT assumed to be a header, because that is an inference about meaning and rule 1 forbids it."
+          },
+          "cells": {
+            "type": "array",
+            "description": "Rows of cells, in document order, including the header row if there is one — it is indexed by 'header_row', never copied. Ragged rows are recorded as they are; the grid is not padded out to a rectangle.",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["text"],
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "description": "Cell text, verbatim and whitespace-normalised. Empty for a cell holding only an image — the image is on the page record."
+                  },
+                  "colspan": { "type": "integer", "minimum": 2 },
+                  "rowspan": { "type": "integer", "minimum": 2 }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

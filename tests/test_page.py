@@ -377,3 +377,113 @@ def test_a_page_with_no_amendment_table_records_nulls(sitemap):
     record, _ = parse_page(str(soup), nav)
     assert record.last_amended is None
     assert record.amendment_note is None
+
+
+# --------------------------------------------------------------------------
+# Images
+# --------------------------------------------------------------------------
+#
+# 169 of them across 39 pages, and on nine of those the image IS the page: a
+# flowchart, a cross-search class table, the format of a summons. Those pages
+# yield no chunks because there is no text in them to chunk, so until this was
+# recorded they were indistinguishable from a page with nothing on it.
+
+#: Part 22 Annex A2 — a real page whose entire content is one flowchart.
+IMAGE_ONLY_SLUG = "annex-a2-flowchart-of--capable-of-distinguishing-"
+
+
+def image_only(sitemap):
+    url = f"https://manuals.ipaustralia.gov.au/trademark/{IMAGE_ONLY_SLUG}"
+    nav = resolve_nav(url, sitemap)
+    return parse_page(fixture_html("pages", f"{IMAGE_ONLY_SLUG}.html"), nav)
+
+
+def test_an_image_only_page_records_its_image(sitemap):
+    record, _ = image_only(sitemap)
+    assert [image["src"] for image in record.images] == [
+        "/sites/default/files/trademark/image/capable_of_distinguishing_flowchart.png"
+    ]
+
+
+def test_an_image_only_page_is_distinguishable_from_an_empty_one(sitemap):
+    """The whole point. No chunks, not archived, but demonstrably not blank."""
+    record, body = image_only(sitemap)
+    assert body.get_text(strip=True) == ""
+    assert record.archived is False
+    assert record.images != ()
+
+
+def test_a_missing_alt_is_null_not_empty_string(sitemap):
+    """'no alt attribute' and 'an empty alt attribute' are different facts.
+
+    The second is how HTML spells 'decorative, skip me'. Collapsing them would
+    hide exactly what 'Accessibility fix - alternative text for images' — one
+    of the Manual's own amendment reasons, on 28 pages — describes.
+    """
+    record, _ = image_only(sitemap)
+    assert record.images[0]["alt"] is None
+
+
+def with_images_in_body(name, markup, sitemap):
+    """Parse a real page with `markup` appended inside its body field.
+
+    Into the body field specifically: an `<img>` in the page title block or the
+    chrome is not content, and `extract_images` reads the cleaned body for the
+    same reason the chunker does.
+    """
+    nav = resolve_nav(page_url(name), sitemap)
+    soup = BeautifulSoup(page_html(name), config.HTML_PARSER)
+    body = soup.select_one("div.field--name-body")
+    assert body is not None
+    body.append(BeautifulSoup(markup, config.HTML_PARSER))
+    return parse_page(str(soup), nav)[0]
+
+
+def test_an_empty_alt_is_recorded_as_empty_string(sitemap):
+    record = with_images_in_body("part22_1", '<img src="/x.png" alt="">', sitemap)
+    assert {"src": "/x.png", "alt": ""} in list(record.images)
+
+
+def test_alt_text_is_recorded_when_the_source_carries_it(sitemap):
+    record = with_images_in_body(
+        "part22_1", '<img src="/y.png" alt="A stylised platypus">', sitemap
+    )
+    assert {"src": "/y.png", "alt": "A stylised platypus"} in list(record.images)
+
+
+def test_a_page_with_no_images_records_none(sitemap):
+    record, _ = parse(name="part22_landing", sitemap=sitemap)
+    assert record.images == ()
+
+
+def test_images_are_sorted_and_deduplicated(sitemap):
+    """Rule 2: an image used twice is one image, and reordering the prose
+    around it must not rewrite the record."""
+    record = with_images_in_body(
+        "part22_1",
+        '<img src="/b.png"><img src="/a.png"><img src="/b.png">',
+        sitemap,
+    )
+    added = [
+        image["src"] for image in record.images if image["src"] in ("/a.png", "/b.png")
+    ]
+    assert added == ["/a.png", "/b.png"]
+
+
+def test_the_same_src_with_different_alt_is_two_records(sitemap):
+    """Different alt text is a different fact about the same file, and the
+    accessibility amendments are precisely edits to alt text."""
+    record = with_images_in_body(
+        "part22_1",
+        '<img src="/c.png" alt="first"><img src="/c.png" alt="second">',
+        sitemap,
+    )
+    alts = [image["alt"] for image in record.images if image["src"] == "/c.png"]
+    assert alts == ["first", "second"]
+
+
+def test_an_image_without_a_src_is_not_recorded(sitemap):
+    """There is nothing to record and nothing a consumer could fetch."""
+    record = with_images_in_body("part22_1", '<img alt="orphan">', sitemap)
+    assert all(image["src"] for image in record.images)
+    assert "orphan" not in [image["alt"] for image in record.images]

@@ -15,6 +15,7 @@
       "ordinal": 1,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "This document describes how to use the Trade Marks Classification Search. The Trade Marks Classification Search searches a database of over 200,000 pre-approved goods and services in the 45 classes. The Trade Marks Classification Search is available to examiners via RIO Dashboard > Register Search, under the heading ‘Classification search’ accessible from the drop-down menu in the top right corner of the screen. For external users, the Trade Marks Classification Search is also available from the Advanced Search screen of the Australian Trade Mark Search."
     },
     {
@@ -32,6 +33,7 @@
       "ordinal": 2,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important notes: Can select between Semantic search or Keyword search, with Semantic the default For Semantic search, can select to sort by relevance or class Class Headings may be viewed by selecting the ‘Goods’ and ‘Services’ tabs Can access complete class lists and read a description of the class by clicking on the Class Number heading under the ‘Goods’ and ‘Services’ tabs"
     },
     {
@@ -49,6 +51,7 @@
       "ordinal": 3,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important notes: Returns up to 100 results Can sort results by relevance or by class Can filter results by ‘Goods’, ‘Services’, or by specific classes using Filter Results function Can jump to results in a class by clicking on the class number under Filter Results function Can access complete class lists and read a description of the class by clicking on the Class Number heading"
     },
     {
@@ -66,6 +69,7 @@
       "ordinal": 4,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important notes: Searching for CAR returns CAR and CARS but not CARPET, CARRIAGE, CARBON etc Returns up to 10,000 results Can filter results by ‘Goods’, ‘Services’, or by classes using Filter Results function Can jump to results in a class by clicking on the class number under Filter Results function Can access complete class lists and read a description of the class by clicking on the Class Number heading"
     },
     {
@@ -83,6 +87,7 @@
       "ordinal": 5,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important notes: Can conduct part word keyword search using the asterisk (in this case a search for CAR-) Searching for CAR* returns CAR and CARS and CARPET, CARRIAGE, CARBON etc Searching for *CAR* would return CAR, CARS, CARPET, HYDROCARBON, MASCARA, CARE, PLACARD etc Can use the * with AND or OR operators Searching for CARD* AND IDENT* will find IDENTITY CARDS, IDENTIFICATION CARDS, CARDS FOR IDENTIFICATION PURPOSES etc"
     },
     {
@@ -100,6 +105,7 @@
       "ordinal": 6,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important notes: Can conduct keyword searches for a combination of terms with the inclusion of the word ‘and’. This can help reduce results This search will show all claims in all classes that contain both terms You may conduct this search with AND in capitals or lowercase"
     },
     {
@@ -117,6 +123,7 @@
       "ordinal": 7,
       "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
       "provisions": [],
+      "tables": [],
       "text": "Important Notes: Can access complete class lists and class explanations by clicking on the Class Number in the Search Results screen First paragraph is the Class Heading. This is a general outline of the kinds of goods or services that belong in the class, and is not exhaustive Second paragraph is the class explanation. This gives further guidance on the kinds of goods or services that are found in the class, and why they are classified in the class rather than elsewhere The complete class lists are for information only and should not be copied directly into applications"
     }
   ],
@@ -124,10 +131,11 @@
     "amendment_note": "Updated to remove references to AU determinations, updated search tool screenshots and instructions to reflect new semantic search tool.",
     "archived": false,
     "content_hash": "sha256:8c73ba28828f5e15092b036f2fbf263ca302857024dca871f957b9714bdaba16",
-    "crawled_at": "2026-07-28T04:50:07Z",
+    "crawled_at": "2026-07-28T08:05:09Z",
     "date_published": "2024-08-19",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.3.0",
     "h1": "14. Annex A5 - Using the Trade Marks Classification Search",
+    "images": [],
     "last_amended": "2024-08-19",
     "nav_title": "Annex A5 - Using the Trade Marks Classification Search",
     "page_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search",
