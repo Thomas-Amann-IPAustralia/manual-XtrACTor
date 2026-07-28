@@ -400,6 +400,31 @@ Derive `page_ref` from the nav title's leading number where present, and fall
 back to a slug-derived form for unnumbered pages (Relevant Legislation, Glossary,
 Annexes). Never fall back to the raw slug alone — see §2.
 
+### A heading number can be broken up by inline markup
+
+Part 28.3 prints two headings whose numbers an editor has partly highlighted:
+
+```html
+<h4>3.<span class="highlightColorYellow">2</span>.1</h4>
+<h4>3.<span class="highlightColorYellow">3</span> &nbsp;Whether instances of confusion have in fact occurred</h4>
+```
+
+The highlight is a leftover from drafting and carries no meaning, but it splits
+the number across three text nodes. Read with `get_text(" ")` those headings are
+`3. 2 .1` and `3. 3 Whether...`, and the leading address of both is `3` — so
+both address as `TMM/Part28/3/3` and crawl #5 died on the collision, correctly:
+two passages cannot share an address.
+
+Read heading text through `flatten_text`, which contributes a separator on block
+elements only. The source's own whitespace is already inside the text nodes, so
+`3.<span>2</span>.1` reads back as `3.2.1`. This is the same failure
+`flatten_text` was written for in prose — *'Trade Marks Act 1955 .'* — arriving
+in a heading, where it corrupts an address rather than a sentence.
+
+Note that this is *not* the same as a genuinely repeated heading number, which
+still raises: there the Manual really has printed one address twice, and the
+Manual is what has to be corrected.
+
 ### Headings are the only boundary the Manual asserts
 
 `div.zone` looks like structure and is not. Zones break wherever the page author

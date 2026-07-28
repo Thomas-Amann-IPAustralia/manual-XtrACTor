@@ -235,9 +235,14 @@ def _chunk_ref(page_ref: str, headings: list[Tag], ordinal: int) -> str:
 
     Unnumbered headings, and the prose above the first heading, fall back to
     position — '#3' — because there is nothing else to address them by.
+
+    Read through `flatten_text`, not `get_text(" ")`: the CMS lets an editor
+    highlight a single digit of a heading's number, and the separator then
+    lands inside the number — `3.<span>2</span>.1` reads as '3. 2 .1', whose
+    leading address is '3'. See SOURCE_NOTES.md §7.
     """
     if headings:
-        match = _LEADING_ADDRESS.match(normalise_text(headings[-1].get_text(" ")))
+        match = _LEADING_ADDRESS.match(flatten_text(headings[-1]))
         if match is not None:
             return f"{page_ref}/{match.group('address').replace('.', '/')}"
     return f"{page_ref}#{ordinal}"
@@ -274,7 +279,7 @@ def chunk_body(
         heading_path = [
             nav.part_title,
             page.h1 or nav.nav_title,
-            *(normalise_text(heading.get_text(" ")) for heading in headings),
+            *(flatten_text(heading) for heading in headings),
         ]
         # One address per section, so that a section which had to be split
         # reads as '#3~1', '#3~2' rather than '#3~1', '#4~2'.
