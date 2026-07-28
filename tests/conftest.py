@@ -2,6 +2,11 @@
 
 Every fixture is HTML saved from the live site and committed. Nothing in the
 test suite may touch the network — see CLAUDE.md §Working here.
+
+Import helpers from here as `from conftest import ...`, not
+`from tests.conftest import ...`. `tests/` is deliberately not a package, so
+pytest puts `tests/` itself on `sys.path` and there is no importable `tests`
+module. The dotted form raises ModuleNotFoundError at collection time.
 """
 
 from __future__ import annotations

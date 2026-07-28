@@ -15,7 +15,7 @@ import json
 
 import pytest
 
-from tests.conftest import FakeManual, page_url
+from conftest import FakeManual, page_url
 from tmm_snapshot import writer
 from tmm_snapshot.crawl import CrawlError, build_parser, page_order, part_sort_key, run
 
