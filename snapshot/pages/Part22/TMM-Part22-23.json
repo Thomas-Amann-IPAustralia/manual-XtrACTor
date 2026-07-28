@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade marks consisting of combinations of letters and numerals will generally be considered prima facie capable of distinguishing goods if there is no common need for their use."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each combination should be viewed in the context of the goods claimed and on the basis of appropriate research. If the combination has a specific meaning in relation to the goods claimed, then a ground for rejection is appropriate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Care should be taken in relation to technological products, clothing, automobiles and whitegoods, where letter/numeral combinations are likely to be in common use to indicate size, date, quantity, time, power, speed or strength. For example: size (41R clothing, 4x4 vehicles), date of production (Jun 07), quantity (100 ml), quality (A1), time of production (2 pm), power (120 hp for engines, 40 w for lighting), speed (80 k or 4 MHz) or strength (% vol alcohol, psi 63800 wire)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Combinations of letters and numerals will generally be considered inherently adapted to distinguish services as it is not likely that traders would need such combinations to identify their services. However, if the combination has a specific meaning in relation to the services claimed, then a ground for rejection is appropriate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Three or more letters, which are in themselves registrable, when combined with a numeral would generally result in a trade mark which is not likely to be required for use by other traders."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/23#1",
       "content_hash": "sha256:986f60abf8bfe451c9584d3d4983730f043b227ab605593a9dd7f8cda8f3ae25",
@@ -22,9 +44,9 @@
     "amendment_note": "Reviewed - no changes.",
     "archived": false,
     "content_hash": "sha256:93276a287a4d80e0c6761a5c939329516961a27fce4840d5c5445aa4cb244ef1",
-    "crawled_at": "2026-07-28T08:53:47Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.23. Combinations of letters and numerals",
     "images": [],
     "last_amended": "2022-12-19",

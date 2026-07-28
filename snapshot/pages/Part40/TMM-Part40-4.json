@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.1 If the registration of a trade mark is not renewed, then it ceases to have effect after the date of expiry. The Registrar will remove it from the Register six months after the date of expiry (section 78)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.2 Under the provisions of section 128 an action for infringement may not be brought in respect of an act that would otherwise constitute infringement of a registered trade mark, but which occurred during the period after the registration expired, and before it was renewed."
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.3 For the purposes of citation of the unrenewed registration against an application for registration under the provisions of section 44, the unrenewed registration will continue to be cited during the six month period following the date of expiry within which a request for late renewal of the registration may still be filed (section 80)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part40/4#1",
       "content_hash": "sha256:38e271d6f309ac1fd4804fc703c7c81f74c9cfa0d9426d8cf27514f26a5175f6",
@@ -15,25 +37,25 @@
       "page_ref": "TMM/Part40/4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s128",
           "mention": "section 128"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s44",
           "mention": "section 44"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s78",
           "mention": "section 78"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s80",
           "mention": "section 80"
@@ -47,9 +69,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:3218d7844c093652ccc8b46f224954f75970d753525392d9cf11f5f254c1175a",
-    "crawled_at": "2026-07-28T08:53:56Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 40.4. Failure to renew",
     "images": [],
     "last_amended": "2025-02-10",

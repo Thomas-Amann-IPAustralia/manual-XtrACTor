@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The definition of \"sign\" in the Act allows for the registration of sounds or scents as trade marks. While these types of trade marks are not as common as trade marks consisting of words or devices, identification of goods or services via the auditory or olfactory senses is entirely possible. These \"sensory\" marks must meet the same requirements as any other trade mark. They must be capable of distinguishing the goods/services of the trade mark owner from the similar goods and services of other traders."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part21/5#1",
       "content_hash": "sha256:c2ef5efb8f7d629d0b0253e350887495a340ef18c03e32e0c6f2d0498a51d849",
@@ -18,6 +24,32 @@
       "text": "The definition of \"sign\" in the Act allows for the registration of sounds or scents as trade marks. While these types of trade marks are not as common as trade marks consisting of words or devices, identification of goods or services via the auditory or olfactory senses is entirely possible. These \"sensory\" marks must meet the same requirements as any other trade mark. They must be capable of distinguishing the goods/services of the trade mark owner from the similar goods and services of other traders."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 40 of the Act of the Act specifies that \"an application for the registration of a trade mark must be rejected if the trade mark cannot be represented graphically\". This requirement has the most impact in regard to sensory trade marks such as sound and scent trade marks because other kinds of signs are, by their very nature, graphical."
+        },
+        {
+          "kind": "paragraph",
+          "text": "As the words \"represented graphically\" have not been judicially defined in Australia, it is appropriate to take as their meaning the common, ordinary meaning they would be given by an ordinary person reading them - the so-called \"golden rule\" of statutory interpretation. The Macquarie Dictionary gives graphical as the equivalent of graphic, and defines “graphic” as follows:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2. pertaining to the use of diagrams, graphs, mathematical curves, or the like; diagrammatic. 3. pertaining to writing: graphic symbols."
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"Represent\" is defined as:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "1. to serve to express, designate, stand for, or denote, as a word, symbol, or the like; symbolise. 2. to express or designate by some term, character, symbol or the like: to represent musical sounds by notes."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Taken together these definitions make it fairly clear that to be expressed or represented graphically a trade mark can be represented by symbols in the form of diagrams and/or writing. However, as with shape and colour trade marks these representations must make it clear to the general public exposed to the trade mark application/registration, what the scope of the trade mark is. Specific issues for representing sounds and scents will be dealt with during the discussion of the particular kind of sign."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part21/5/5/1",
       "content_hash": "sha256:d1e9be18e9686a3c1fc2ac5c85ae6116b9c81888adf6b1436f72847477395814",
@@ -42,6 +74,12 @@
       "text": "Section 40 of the Act of the Act specifies that \"an application for the registration of a trade mark must be rejected if the trade mark cannot be represented graphically\". This requirement has the most impact in regard to sensory trade marks such as sound and scent trade marks because other kinds of signs are, by their very nature, graphical. As the words \"represented graphically\" have not been judicially defined in Australia, it is appropriate to take as their meaning the common, ordinary meaning they would be given by an ordinary person reading them - the so-called \"golden rule\" of statutory interpretation. The Macquarie Dictionary gives graphical as the equivalent of graphic, and defines “graphic” as follows: 2. pertaining to the use of diagrams, graphs, mathematical curves, or the like; diagrammatic. 3. pertaining to writing: graphic symbols. \"Represent\" is defined as: 1. to serve to express, designate, stand for, or denote, as a word, symbol, or the like; symbolise. 2. to express or designate by some term, character, symbol or the like: to represent musical sounds by notes. Taken together these definitions make it fairly clear that to be expressed or represented graphically a trade mark can be represented by symbols in the form of diagrams and/or writing. However, as with shape and colour trade marks these representations must make it clear to the general public exposed to the trade mark application/registration, what the scope of the trade mark is. Specific issues for representing sounds and scents will be dealt with during the discussion of the particular kind of sign."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Researching sound and scent trade marks may present a challenge to the examiner. An Internet search conducted in the field/s in which the applicant intends using the trade mark will be necessary to help determine whether specific scents or sounds are common to the trades in question."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part21/5/5/2",
       "content_hash": "sha256:482385d4adf45e609e3f7caa4316d9355b8ea50f01a8de2c137903b4358d78a3",
@@ -64,9 +102,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:5c000f67cc007cc8d3a61ade8ba930f6cc32dbab76d299e58dc22bbe98842a57",
-    "crawled_at": "2026-07-28T08:53:45Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "21.5. \"Sensory\" trade marks - sounds and scents",
     "images": [],
     "last_amended": "2022-04-20",

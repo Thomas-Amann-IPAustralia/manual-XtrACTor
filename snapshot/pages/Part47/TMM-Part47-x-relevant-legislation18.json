@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 1 April 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 29 Application for registration of trade mark whose registration has been sought in a Convention country - claim for priority"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Pt 4 Div 2 Grounds for rejecting an application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 5 Opposition to registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 177 Additional grounds for rejecting an application or opposing registration - certification trade mark not distinguishing certified goods or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 187 Additional grounds for rejecting application for registration or opposing registration of defensive trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 203 Exercise of power by the Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 204 Registrar to act as soon as practicable"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 214 Withdrawal of application etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 5 Opposition to registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Division 3, Subdivision 2 - Grounds for rejecting IRDA"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Division 3, Subdivision C - Opposition to IRDA"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.6 Declarations"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/x-relevant-legislation18#1",
       "content_hash": "sha256:88ddd0d34b2bd150bce0e3a32b6d9c432f99e61126f464c30edd3dbcbb4ccd20",
@@ -15,43 +77,43 @@
       "page_ref": "TMM/Part47/x-relevant-legislation18",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s177",
           "mention": "Section 177"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s187",
           "mention": "Section 187"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s203",
           "mention": "Section 203"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s204",
           "mention": "Section 204"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s214",
           "mention": "Section 214"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29",
           "mention": "Section 29"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.6",
           "mention": "Reg 21.6"
@@ -65,9 +127,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:697a941150c5dc818f42b03f9ac9f9eb9dea65fb7377a5dfef1d69afed8a1ab3",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 47. Landing Page",
     "images": [],
     "last_amended": "2025-04-01",

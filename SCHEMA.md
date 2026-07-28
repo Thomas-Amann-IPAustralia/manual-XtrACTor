@@ -186,6 +186,39 @@ table, which a single `kind` value never could.
 **`fragment`** — present only when an over-long section had to be split on
 paragraph boundaries. `{"index": 1, "count": 2}`.
 
+**`blocks`** — the paragraphs and list items `text` was flattened from, in
+document order. 12,926 of them across 2,189 chunks, so unlike `tables` this is
+populated nearly everywhere.
+
+The argument is the same one `tables` makes, applied to the prose. `text` joins
+a section's blocks with single spaces, which is the correct verbatim reading and
+leaves nothing to say where one ended. At the length the Manual writes that is
+not a cosmetic loss: Part 61.3's ten-item list of documents exempt from public
+inspection arrives as one run-on line, the source's own semicolons give out
+halfway down it, and a ten-item list of statutory exceptions and a single
+paragraph are the same string.
+
+```json
+[
+  {"kind": "paragraph", "text": "A trade mark may also simply include…"},
+  {"kind": "list_item", "text": "a document:", "depth": 1},
+  {"kind": "list_item", "text": "whose production the Registrar…", "depth": 2}
+]
+```
+
+`kind` is `paragraph`, `list_item`, `table`, `heading` or `text`, read off the
+element name — `heading` is an `<h5>` or `<h6>`, since `<h2>`–`<h4>` are chunk
+boundaries and `<h1>` is the page title, and `text` is inline content Drupal
+left loose in a layout `div`. `depth` rides on a list item and counts the lists
+enclosing it, from 1; the corpus nests three deep.
+
+**Joining every block's `text` with single spaces reproduces `text` exactly.**
+That is the contract, it is enforced in `validate.py` over the whole snapshot,
+and it is what keeps `blocks` from drifting into a second, differently worded
+copy of the chunk. A list item holds its own words only — the items nested under
+it are their own blocks and are not repeated in their parent, or the blocks
+would add up to more than the chunk. `SOURCE_NOTES.md` §19.
+
 **`tables`** — the grid of every table in the chunk, in document order. Empty
 on the great majority of chunks; 121 tables live across 45 pages, and some of
 those pages are essentially nothing else. `SOURCE_NOTES.md` §17.
@@ -254,8 +287,19 @@ them into one field and you lose the only signal separating them.
 
 **`certainty`** — for regex edges. `explicit` means the instrument was named
 adjacent. `default` means a bare "section N", assumed to be the Trade Marks Act
-by convention. `ambiguous` means several instruments are in scope and we cannot
-tell.
+by convention. `ambiguous` means several instruments *of that kind* are in scope
+and we cannot tell which.
+
+"Of that kind" is doing work. An Act holds sections and Regulations hold
+regulations, so the reference's own word already fixes which of the two it
+addresses, and naming both — which nearly every page does, since the Relevant
+Legislation preamble lists them together — is not an ambiguity. Counting them
+as one put 39% of regex edges in a bucket nothing may hydrate from.
+`SOURCE_NOTES.md` §21.
+
+The same fact is an invariant on `id`: `TMR1995/s224` names a section of the
+Regulations, and there is no such thing. `validate.py` rejects it.
+`SOURCE_NOTES.md` §20.
 
 That last value exists because of a real, unfixable case: Part 22.1 says
 *"considered under section 26 of the Act"* where "the Act" means the 1955 Act from
@@ -281,6 +325,16 @@ Cross references to other Manual pages, resolved to `page_ref` or `chunk_ref`
 through the sitemap. If a reference does not resolve — a bare "see part 22.15.7"
 pointing at something that no longer exists — **drop it**. An unresolvable string
 in this field is worse than an absent one, because a consumer will try to follow it.
+
+**Chunk-level refs come from a link's `#fragment`**, which is the slug of the
+target heading and opens with the number the Manual prints. 32 of the 411 refs
+address a chunk; the rest address a page, either because the anchor named no
+heading number (the Part 5 glossary anchors on single letters) or because the
+heading it named is no longer there. That second case **coarsens to the page
+rather than dropping** — the page half was established by URL and is still
+true. Settling any of this needs the whole snapshot, which is why it happens
+once per run rather than per chunk: `ARCHITECTURE.md` §Two phases,
+`SOURCE_NOTES.md` §22.
 
 **A reference to the page it sits on is kept, not filtered.** 22 chunks carry
 one. They are not noise and not a bug: they are the Manual pointing at another

@@ -1,6 +1,41 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under reg 5.18(1) the opponent is entitled to request, in writing, a copy of the earlier application in a Convention country on which the applicant for the trade mark relies for his claim for right of priority. This entitlement is only available to a person who has actually filed a notice of opposition; a potential opponent is not able to make such a request (see definition of “opponent” in s 6). A Convention claim may be made where an application is filed in Australia within six months after the first application for the trade mark is filed in one, or more than one, Convention country. The priority claimed is for the registration of the trade mark in respect of the relevant goods or services and the priority date is the date on which the application was made in the Convention country. The application filed in Australia must be made by the same person who made the application in the Convention country, or by their successor in title (s 29)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The regulations in relation to IRDAs do not provide the same entitlement, because if the cited mark is an international registration designating Australia (IRDA) then it is not necessary to verify the claim. The Office of Origin has already verified the claim and it has been accepted by the International Bureau."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 11 Convention Applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "It should be noted that it will be necessary for both the opponent’s request to the Registrar and the Registrar’s request to the applicant, under reg 5.18(2), to be made in writing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Any inconvenience or extra extension fees borne by the opponent as a result of the applicant’s non co-operation may be taken into account when costs are determined at the conclusion of proceedings."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In rare instances, where the applicant refuses or is unable to comply with the Registrar’s request, the Registrar has discretion to give a direction in relation to the procedure in the proceedings (reg 5.19). This may involve the determination of a priority date by the Registrar on evidence that was made available to him or her. A direction of this kind would obviate the need for the opponent to rely on the applicant’s co-operation for the purpose of gathering and collating evidence (or for seeking extensions of time)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/5#1",
       "content_hash": "sha256:3cf28bfa4ea7dd7be8f4154854fa78de0f4e119418fbc6a6d6dd3ba5f189a51f",
@@ -17,31 +52,31 @@
       "page_ref": "TMM/Part47/5",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29",
           "mention": "s 29"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "s 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.18(1)",
           "mention": "reg 5.18(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.18(2)",
           "mention": "reg 5.18(2)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r5.19",
           "mention": "reg 5.19"
@@ -51,6 +86,16 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Under reg 5.18(1) the opponent is entitled to request, in writing, a copy of the earlier application in a Convention country on which the applicant for the trade mark relies for his claim for right of priority. This entitlement is only available to a person who has actually filed a notice of opposition; a potential opponent is not able to make such a request (see definition of “opponent” in s 6). A Convention claim may be made where an application is filed in Australia within six months after the first application for the trade mark is filed in one, or more than one, Convention country. The priority claimed is for the registration of the trade mark in respect of the relevant goods or services and the priority date is the date on which the application was made in the Convention country. The application filed in Australia must be made by the same person who made the application in the Convention country, or by their successor in title (s 29). The regulations in relation to IRDAs do not provide the same entitlement, because if the cited mark is an international registration designating Australia (IRDA) then it is not necessary to verify the claim. The Office of Origin has already verified the claim and it has been accepted by the International Bureau. Part 11 Convention Applications It should be noted that it will be necessary for both the opponent’s request to the Registrar and the Registrar’s request to the applicant, under reg 5.18(2), to be made in writing. Any inconvenience or extra extension fees borne by the opponent as a result of the applicant’s non co-operation may be taken into account when costs are determined at the conclusion of proceedings. In rare instances, where the applicant refuses or is unable to comply with the Registrar’s request, the Registrar has discretion to give a direction in relation to the procedure in the proceedings (reg 5.19). This may involve the determination of a priority date by the Registrar on evidence that was made available to him or her. A direction of this kind would obviate the need for the opponent to rely on the applicant’s co-operation for the purpose of gathering and collating evidence (or for seeking extensions of time)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An opponent may wish to rely on the priority date to establish that the priority date of the opposed application is not earlier than the priority date of its own application. Additionally there may be some doubt as to the earliest priority date in the event that the applicant has filed an application in more than one Convention country. Obtaining such information and receipt of documentation may be critical in mounting a successful opposition if the priority date is a determining factor in the proceedings."
+        },
+        {
+          "kind": "paragraph",
+          "text": "As well as seeking to verify the date of priority of filing, the opponent will be looking to see that other particulars in the Convention document (e.g. name of applicant, goods and/or services covered) are in order."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/1",
       "content_hash": "sha256:fc8c5b8141c6062fb3f04995222cd8b566c7972d0f732d9042f7d8a02dc1dac1",
@@ -69,6 +114,20 @@
       "text": "An opponent may wish to rely on the priority date to establish that the priority date of the opposed application is not earlier than the priority date of its own application. Additionally there may be some doubt as to the earliest priority date in the event that the applicant has filed an application in more than one Convention country. Obtaining such information and receipt of documentation may be critical in mounting a successful opposition if the priority date is a determining factor in the proceedings. As well as seeking to verify the date of priority of filing, the opponent will be looking to see that other particulars in the Convention document (e.g. name of applicant, goods and/or services covered) are in order."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The request for a copy of the relevant priority document(s) may be made at any time during the opposition proceedings. There are no time limits as to when: the request may be made; the Registrar has to send a copy of the relevant document(s); and in the absence of such documents on file, no time limits by which the applicant has to respond to the Registrar’s written request to file the relevant document(s). However insofar as the Registrar’s responsibilities are concerned, he or she should be guided by s 204 of the Trade Marks Act 1995 which states that where no time or period is provided within which the act or thing is to be done, the Registrar is to do the act or thing as soon as practicable."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is envisaged that there will not be many requests of this kind, given that there are other avenues open to the opponent to obtain the necessary evidence. The opponent may well find it more expedient to request the documents itself from the relevant overseas Trade Marks Office."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, it is not likely that the Registrar will encounter many instances of lack of co- operation from the applicant in respect of such requests. Where such a situation does occur, it will be a matter of the Registrar’s discretion as to whether the lack of such evidence will be critical to the progress of the opposition timetable for filing evidence in support, answer and reply and on the deciding of the opposition. It would appear likely that any such request from the opponent would come earlier rather than later in the proceedings."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/2",
       "content_hash": "sha256:ca67620e56b805fc275cc51db2434e64c362811de9e679f6d7320640349afb33",
@@ -94,6 +153,33 @@
       "text": "The request for a copy of the relevant priority document(s) may be made at any time during the opposition proceedings. There are no time limits as to when: the request may be made; the Registrar has to send a copy of the relevant document(s); and in the absence of such documents on file, no time limits by which the applicant has to respond to the Registrar’s written request to file the relevant document(s). However insofar as the Registrar’s responsibilities are concerned, he or she should be guided by s 204 of the Trade Marks Act 1995 which states that where no time or period is provided within which the act or thing is to be done, the Registrar is to do the act or thing as soon as practicable. It is envisaged that there will not be many requests of this kind, given that there are other avenues open to the opponent to obtain the necessary evidence. The opponent may well find it more expedient to request the documents itself from the relevant overseas Trade Marks Office. However, it is not likely that the Registrar will encounter many instances of lack of co- operation from the applicant in respect of such requests. Where such a situation does occur, it will be a matter of the Registrar’s discretion as to whether the lack of such evidence will be critical to the progress of the opposition timetable for filing evidence in support, answer and reply and on the deciding of the opposition. It would appear likely that any such request from the opponent would come earlier rather than later in the proceedings."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A request, in writing, from the opponent is received at the Office and placed on the file by the Hearings Support Unit."
+        },
+        {
+          "kind": "paragraph",
+          "text": "On receipt of such a request, Hearings Support will check the case file to see if the relevant documents have been filed. If they have, then they will be copied and sent to the opponent. These documents include the Convention application (certified in the Trade Marks Office in the Convention country in which the application was filed) and if the application is in a non-English language, a translation of the earlier application into English (together with a certificate of verification relating to the translation)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 5.18(5) makes provision for the Registrar to require, in writing, documentary evidence where the applicant is the successor in title to the person who made the application in the Convention country. Such documentary evidence should not have to be requested unless the Convention documents are not already on file. If the documents are not on file, then Hearings Support should request them and make mention of the need to file a translation and documentary evidence of passing of title, if appropriate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "While there is no time set in the legislation for the provision of the requested documents, the Registrar will, as a matter of practice, require that the documents be provided by the applicant within 28 days of the date of his or her request."
+        },
+        {
+          "kind": "paragraph",
+          "text": "On receipt of the necessary documents, the Registrar must give a copy of them to the opponent (see reg 5.18(4))."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 11 Convention Applications"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/3",
       "content_hash": "sha256:e899b821ba7aec4a77b8892b9f5f93e529ec8a3f8282ae0c54a3d92b69442997",
@@ -131,9 +217,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:d1c024c788789afaeb02e04c6bc12acb11062f9e2138f7c71adaeaea020496f4",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 47.5. Making Convention documents available to opponent",
     "images": [],
     "last_amended": "2025-04-01",

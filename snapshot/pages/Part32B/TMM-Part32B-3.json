@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under the Wine Australia Act it is unlawful to describe or present a wine and other grape products in such a way as to mislead as to the country, region or locality in which the wine originated."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the course of examination this will not usually result in a ground for rejection when protected terms appear in specification of goods."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, although terminology contained in the specification may not be what is actually used commercially on a label, it is appropriate for the Registrar to carefully consider any specifications that contain protected terms."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the specification of goods contains a term which is clearly inconsistent with the trade mark application this should be raised with the applicant."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Appropriate action could include deleting the term from the specification of goods or replacing it with a more acceptable term. One such example would be replacing champagne, where it is being used to describe the style of wine, with sparkling wine."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part32B/3#1",
       "content_hash": "sha256:adbaf003a20741497909c54e8ecd1d27f0750e557136e2fe515efebce453e982",
@@ -22,9 +56,9 @@
     "amendment_note": "Hyperlinks fixed.",
     "archived": false,
     "content_hash": "sha256:d83b47b9aae0532226e205f5b86d7175c4bb3b5b2dc037cd3b6b4820ddb785ab",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "32B.3. Protected Terms in Specifications of Goods",
     "images": [],
     "last_amended": "2025-01-10",

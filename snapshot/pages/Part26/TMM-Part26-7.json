@@ -1,6 +1,38 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The application of section 44 is dependent on the priority dates for registration of the trade marks under consideration. Section 12 defines the priority date for the registration of a trade mark in respect of particular goods and services as:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "a. if the trade mark is registered - the date of registration of the trade mark in respect of those goods or services; or"
+        },
+        {
+          "kind": "paragraph",
+          "text": "b. if the registration of the trade mark is being sought - the date that would be the date of registration of the trade mark in respect of those goods or services if the trade mark were registered."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The date of registration is defined in section 72. In the great majority of cases it is the date on which the application for registration in respect of the goods or services was filed. The exceptions are trade mark registrations resulting from divisional applications for which the filing date and therefore the date of registration are taken to be the date on which the parent application was filed, and from applications which claim priority under subsection 29(b) on the basis of an application made in a Convention country. In the latter case the date of registration will be the date on which the application was made in the Convention country in respect of those goods and services."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 11 Convention Applications"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 12 Divisional Applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 44 applies where the priority date for the application being examined is not earlier than that of the other trade mark. Therefore, if conflicting trade marks have the same priority date they must be cited against each other. The following practice should be followed. The same examiner should deal with both cases and each applicant should be advised of the citation in the examination report. They should also be informed that the Registrar does not intend to take any further action until the conflict is resolved by the parties concerned."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part26/7#1~1",
       "content_hash": "sha256:89731caeea8ffb9d5371c5a8a72850578ab0daf6b0ce412ab95a7a004e4b78e0",
@@ -45,6 +77,16 @@
       "text": "The application of section 44 is dependent on the priority dates for registration of the trade marks under consideration. Section 12 defines the priority date for the registration of a trade mark in respect of particular goods and services as: a. if the trade mark is registered - the date of registration of the trade mark in respect of those goods or services; or b. if the registration of the trade mark is being sought - the date that would be the date of registration of the trade mark in respect of those goods or services if the trade mark were registered. The date of registration is defined in section 72. In the great majority of cases it is the date on which the application for registration in respect of the goods or services was filed. The exceptions are trade mark registrations resulting from divisional applications for which the filing date and therefore the date of registration are taken to be the date on which the parent application was filed, and from applications which claim priority under subsection 29(b) on the basis of an application made in a Convention country. In the latter case the date of registration will be the date on which the application was made in the Convention country in respect of those goods and services. Part 11 Convention Applications Part 12 Divisional Applications Section 44 applies where the priority date for the application being examined is not earlier than that of the other trade mark. Therefore, if conflicting trade marks have the same priority date they must be cited against each other. The following practice should be followed. The same examiner should deal with both cases and each applicant should be advised of the citation in the examination report. They should also be informed that the Registrar does not intend to take any further action until the conflict is resolved by the parties concerned."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Methods of resolving the conflict may involve submitting evidence of honest concurrent use or prior use, which may allow at least one of the applications to proceed to acceptance. Opposition proceedings may also be used to resolve any conflict if either or both of the applications proceed to acceptance. Limitation of the goods or services to avoid a nexus of similarity or even assignment of one of the trade marks may be options in some circumstances. A letter of consent may also be provided to allow an application to proceed to acceptance."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It should be noted that the Registrar will not exercise their discretion to allow deferment of acceptance in this instance on the ground that the applicant is awaiting finalisation of a cited application (subparagraph 4.13(1)(c)(i) of the Regulations). Deferment would be available for 6 months in order to gather evidence of honest concurrent use, prior use or other circumstances (subparagraph 4.13(1)(c)(ii))."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part26/7#1~2",
       "content_hash": "sha256:8586295a9f6da3b55142dbfe1e35cc04f058d31c6367a9e0705c95ab09818e25",
@@ -92,9 +134,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:f72c923e8ae48cf312b14e8cfc2cdd41c53ccbbb392260e2111d21d20effb7b4",
-    "crawled_at": "2026-07-28T08:53:49Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "26.7. Trade marks with the same priority/filing date",
     "images": [],
     "last_amended": "2024-05-23",

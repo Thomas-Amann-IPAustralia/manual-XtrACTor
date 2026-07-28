@@ -1,6 +1,72 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published 17 Jan 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"person\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 27 Application - how made"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 28 Application by joint owners"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 40 Trade mark that cannot be represented graphically"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 69 Registration - how effected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.1 Applications - approved form"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.2 Applications - requirements for filing"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.3 Representation of trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.4 Specification of goods and/or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.1 Compliance with instruction on approved forms"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.2 Filing of documents - requirements as to form"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.3 Filing of documents - common requirements"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part10/x-relevant-legislation21#1",
       "content_hash": "sha256:3a2395e4bd2c23e2516a820ae5f0221d2119c3e366a6d3496e3dbb5f14d1372b",
@@ -15,73 +81,73 @@
       "page_ref": "TMM/Part10/x-relevant-legislation21",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s27",
           "mention": "Section 27"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s28",
           "mention": "Section 28"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s40",
           "mention": "Section 40"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s69",
           "mention": "Section 69"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.1",
           "mention": "Reg 21.1"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.2",
           "mention": "Reg 21.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.3",
           "mention": "Reg 21.3"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.1",
           "mention": "Reg 4.1"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.2",
           "mention": "Reg 4.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.3",
           "mention": "Reg 4.3"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.4",
           "mention": "Reg 4.4"
@@ -95,9 +161,9 @@
     "amendment_note": "Rename to Landing page, add published date and Act/Reg links.",
     "archived": false,
     "content_hash": "sha256:43743d55b8359711bf8fff1a0f3db13d38d2154336b2f07477e04c4e9936b7a5",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "10. Landing Page",
     "images": [],
     "last_amended": "2025-01-17",

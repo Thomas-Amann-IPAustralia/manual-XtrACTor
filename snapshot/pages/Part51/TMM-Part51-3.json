@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A cooling-off period temporarily suspends the opposition proceedings. The purpose of a cooling-off period is to facilitate negotiations between parties during an opposition."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/3#1",
       "content_hash": "sha256:210fd89a68a39ed6a507a4c9eb14c1612a1bc6b4a13f6991d446b8a0fe847081",
@@ -18,6 +32,20 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 A cooling-off period temporarily suspends the opposition proceedings. The purpose of a cooling-off period is to facilitate negotiations between parties during an opposition."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A cooling-off period may be requested at any time after a statement of grounds and particulars has been filed but before the Registrar has made a decision on the opposition or dismissed the opposition (regs 5.16(1), 9.19(1), 17A.34L(1), 17A.48U(1)). Both parties must sign the request for a cooling-off period."
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is no fee for requesting a cooling-off period."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A cooling-off period must be allowed if the Registrar is satisfied that both parties to the opposition agree to the cooling-off period (regs 5.16(2), 9.19(2), 17A.34L(2), 17A.48U(2))."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/1",
       "content_hash": "sha256:a34387d5b81acb259ecfdbafddf6c743187ed40d4cb6809eb27a8d143fa9a921",
@@ -85,6 +113,30 @@
       "text": "A cooling-off period may be requested at any time after a statement of grounds and particulars has been filed but before the Registrar has made a decision on the opposition or dismissed the opposition (regs 5.16(1), 9.19(1), 17A.34L(1), 17A.48U(1)). Both parties must sign the request for a cooling-off period. There is no fee for requesting a cooling-off period. A cooling-off period must be allowed if the Registrar is satisfied that both parties to the opposition agree to the cooling-off period (regs 5.16(2), 9.19(2), 17A.34L(2), 17A.48U(2))."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Only one cooling-off period is allowed in an opposition proceeding (regs 5.16(4), 9.19(4), 17A.34L(4), 17A.48U(4))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The cooling-off period is initially granted for six months (regs 5.16(2), 9.19(2), 17A.34L(2), 17A.48U(2)). The Registrar must extend the cooling-off period for a further 6 months if:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a request to extend the cooling-off period is made before the end of the initial six months; and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the Registrar is satisfied that both parties agree to the extension (regs 5.16(3), 9.19(3), 17A.34L(3), 17A.48U(3))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A cooling-off period is for a maximum of 12 months. The Registrar cannot further extend a cooling-off period."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/2",
       "content_hash": "sha256:b5cbcc4bbde5a979b3cd1db03da5c40e3def36bbaf5539bbce9cde3d61fd2e97",
@@ -176,6 +228,20 @@
       "text": "Only one cooling-off period is allowed in an opposition proceeding (regs 5.16(4), 9.19(4), 17A.34L(4), 17A.48U(4)). The cooling-off period is initially granted for six months (regs 5.16(2), 9.19(2), 17A.34L(2), 17A.48U(2)). The Registrar must extend the cooling-off period for a further 6 months if: a request to extend the cooling-off period is made before the end of the initial six months; and the Registrar is satisfied that both parties agree to the extension (regs 5.16(3), 9.19(3), 17A.34L(3), 17A.48U(3)). A cooling-off period is for a maximum of 12 months. The Registrar cannot further extend a cooling-off period."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A cooling-off period will be discontinued early on the request of either party (regs 5.16(5), 9.19(5), 17A.34L(5), 17A.48U(5)). A cooling-off period cannot be recommenced once it is discontinued."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the cooling-off period ends, either by discontinuation or expiry, the opposition resumes and the relevant stage of the proceedings restarts on the day after the cooling-off ended (regs 5.16(7), 9.19(7), 17A.34L(7), 17A.48U(7))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example, if the cooling-off period began during the evidence in support stage, the opponent would have 3 months from the day after the cooling-off period ended to file evidence in support."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/3",
       "content_hash": "sha256:2439354c681665c65424e1578bccb9b14e465dd2e3c3f64b1fdee5a689b83721",
@@ -247,9 +313,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:981c9b89ae49132360896a8d24979925b7055f1f9ea1a0a0495c236829c2b322",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 51.3. Cooling-Off Period",
     "images": [],
     "last_amended": "2025-04-01",

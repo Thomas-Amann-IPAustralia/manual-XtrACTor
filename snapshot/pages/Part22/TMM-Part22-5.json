@@ -1,6 +1,57 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade marks considered to have limited inherent adaptation to distinguish include those which other traders are somewhat likely to want to use for their ordinary signification, legitimately, in the ordinary course of their business. They include, for example, common surnames and words and expressions which may be desired by other traders to describe or extol their goods/services."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "J & P Coats Ltd's Appn (1936) 53 RPC 355 at 380 (‘Sheen’) where the court found that the word SHEEN when applied to cotton was ‘clearly not a merely laudatory word like \"perfection\" or \"best\" or \"classic” or \"universal\" or \"artistic\"’ but was in that category of words ‘which describe the character of the goods, but are not the only or natural words which would be chosen for that purpose’. Lustre was considered to be a more appropriate and natural term when applied to the goods."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In cases such as these, the trade marks are, to some extent, inherently adapted to distinguish, but the extent of adaptation is low and is therefore not sufficient for the trade marks to be accepted without evidence or other circumstances."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If evidence of use establishes that the trade mark distinguishes the applicant's goods or services, then the ground for rejection will be overcome. Where evidence of intended use or other circumstances is required, it need only show that, at some future date, the trade mark will distinguish the goods or services of the applicant from those of other traders. The more a sign with some adaptation to distinguish is used, or its intended use is promoted, the less likely it will be that other traders, having no improper motive, will desire to use that sign in connection with their goods or services."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Overall, section 41(4) and the repealed section 41(5) require the Registrar to consider a balance of the shortfall of inherent adaptation against the:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "extent of use (in time, area, volume or market share terms) - a quantitative question"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "manner of use - a qualitative question"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "any other circumstances."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information about the evidence requirements for trade marks with limited inherent adaptation to distinguish see:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 23 Overcoming Grounds for Rejection under Section 41 – including Evidence of Use"
+        }
+      ],
       "cases": [
         {
           "citation": "(1936) 53 RPC 355",
@@ -48,9 +99,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:93ed24a8d486bac2032a07d6b2fbdbc6cd2156ee8053a8200505370ab5789dab",
-    "crawled_at": "2026-07-28T08:53:46Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.5. Trade marks considered to have limited inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

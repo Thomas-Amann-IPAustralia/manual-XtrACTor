@@ -1,6 +1,64 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 17 What is a trade mark?"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 20 Rights given by registration of trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 21 Nature of registered trade mark owner"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 22 Power of registered owner to deal with trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 23 Limitation on rights if similar trade marks etc. registered by different persons"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 24 Trade mark consisting of sign that becomes accepted as sign describing article etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 25 Trade mark relating to article etc. formerly manufactured under patent"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 26 Powers of authorised user of registered trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 120 When is a registered trade mark infringed"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 121 Infringement of trade mark by breach of certain restrictions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 122 When is a trade mark not infringed"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 122A Exhaustion of a registered trade mark in relation to goods"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 124 Prior use of identical trade mark etc."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part19B/x-relevant-legislation9#1",
       "content_hash": "sha256:7759af687d10b4098935a8f110e4dc0e4de726d6c73464f0d5c0388ed768cf47",
@@ -88,9 +146,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:d66a01643fe96ef869134b930195cb34caab9317d517472a97f56c851d3f5f19",
-    "crawled_at": "2026-07-28T08:53:44Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "19B. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

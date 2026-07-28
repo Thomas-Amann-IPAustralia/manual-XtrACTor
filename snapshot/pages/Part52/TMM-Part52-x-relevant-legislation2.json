@@ -1,6 +1,112 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 1 April 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 33 Application accepted or rejected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 35 Appeal"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 54 Opposition proceedings"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 55 Decision"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 56 Appeal"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 67 Appeal"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 83 Amendment of particulars of trade mark entered in Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 101 Determination of opposed application - general"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 176 Acceptance or rejection of application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 178 Variation of rules"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 180 Assignment of registered certification trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 191 Jurisdiction of the Federal Court"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 195 Appeals"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 202 Registrar's powers"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 203 Exercise of power by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 224 Extension of time"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.26 Appeal"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.35 Registrar must notify parties of dismissal of discontinuance of opposition"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42A Registrar’s powers to amend or cease protection"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.6 Declarations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.15 Opportunity to be heard by the Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.16 Written submissions and oral hearings"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.20 Statement of reasons for decision"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part52/x-relevant-legislation2#1",
       "content_hash": "sha256:8ba61b8cc5cdccd6d4924d543fff0888999409fbdaebb350142884465116bc99",
@@ -15,142 +121,142 @@
       "page_ref": "TMM/Part52/x-relevant-legislation2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s101",
           "mention": "Section 101"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s176",
           "mention": "Section 176"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s178",
           "mention": "Section 178"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s180",
           "mention": "Section 180"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s191",
           "mention": "Section 191"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s195",
           "mention": "Section 195"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s202",
           "mention": "Section 202"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s203",
           "mention": "Section 203"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "Section 224"
+        },
+        {
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s33",
           "mention": "Section 33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s35",
           "mention": "Section 35"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s54",
           "mention": "Section 54"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s55",
           "mention": "Section 55"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s56",
           "mention": "Section 56"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s67",
           "mention": "Section 67"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s83",
           "mention": "Section 83"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.26",
           "mention": "Reg 17A.26"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.35",
           "mention": "Reg 17A.35"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.42A",
           "mention": "Reg 17A.42A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.15",
           "mention": "Reg 21.15"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.16",
           "mention": "Reg 21.16"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.20",
           "mention": "Reg 21.20"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.6",
           "mention": "Reg 21.6"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/s224",
-          "mention": "Section 224 Extension of time Trade Marks Regulations 1995"
         }
       ],
       "tables": [],
@@ -161,9 +267,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:b75968a2e8331accfebe35efed248905703f2e7acf4c9f55d37059789b5f4030",
-    "crawled_at": "2026-07-28T08:54:00Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 52. Landing Page",
     "images": [],
     "last_amended": "2025-04-02",

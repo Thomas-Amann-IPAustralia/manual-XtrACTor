@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under the legislation, there are provisions for the full or partial assignment of registered trade marks and applications to register a trade mark. Furthermore there is no examination made by the Registrar to ensure that trade marks which may be deceptive or confusing if applied to similar goods or services, or closely related goods or services are not separately assigned. Therefore, there is the potential for applications or registrations which were previously in the name of the applicant to become citations before examination of an application is finalised."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.1 Partial assignments of applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a partial assignment on a pending application is completed before the parent application is examined, the application resulting from the partial assignment will be expedited at the time the parent application is examined. The same examiner generally examines both applications. Each application will generally have the same filing date and will therefore be cited against each other if the goods and/or services conflict."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a partial assignment has been completed on an application that has been examined but not yet accepted, the examiner who is handling the parent file will review both applications. If there is a conflict between the goods and/or services then a citation objection should be raised against each application (since the filing dates will generally be the same). The examiner will need to examine and report on the assigned application in the normal way."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a partial assignment has been completed on an application that has been accepted but not registered, the examiner who accepted the parent application will generally review both applications and decide if any further action is required."
+        },
+        {
+          "kind": "paragraph",
+          "text": "8.2 Full assignments of applications and all assignments of registered trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part26/8#1~1",
       "content_hash": "sha256:001725cf6c173510e4264dde5ef2eb3d0d227fc657f22731e65c05ed9eba64a8",
@@ -21,6 +47,12 @@
       "text": "Under the legislation, there are provisions for the full or partial assignment of registered trade marks and applications to register a trade mark. Furthermore there is no examination made by the Registrar to ensure that trade marks which may be deceptive or confusing if applied to similar goods or services, or closely related goods or services are not separately assigned. Therefore, there is the potential for applications or registrations which were previously in the name of the applicant to become citations before examination of an application is finalised. 8.1 Partial assignments of applications When a partial assignment on a pending application is completed before the parent application is examined, the application resulting from the partial assignment will be expedited at the time the parent application is examined. The same examiner generally examines both applications. Each application will generally have the same filing date and will therefore be cited against each other if the goods and/or services conflict. When a partial assignment has been completed on an application that has been examined but not yet accepted, the examiner who is handling the parent file will review both applications. If there is a conflict between the goods and/or services then a citation objection should be raised against each application (since the filing dates will generally be the same). The examiner will need to examine and report on the assigned application in the normal way. When a partial assignment has been completed on an application that has been accepted but not registered, the examiner who accepted the parent application will generally review both applications and decide if any further action is required. 8.2 Full assignments of applications and all assignments of registered trade marks"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If, during the course of examination an examiner becomes aware that a registered trade mark, or an application for registration of a trade mark, that was previously in the name of the applicant (and therefore not a citation) has been assigned to a different person then a citation should be raised. This situation, however, would not normally be identified after the Registrar has completed the initial examination as required by s 31 of the Act. It is not required that all applications be re-examined before acceptance to identify such occurrences, although the examiner should raise an appropriate objection if a citation is brought to their attention prior to acceptance."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part26/8#1~2",
       "content_hash": "sha256:d19d38732b579e97392e879ee35dc9890e1801ec113d65a7b6eb62a3fe968c30",
@@ -52,9 +84,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:7e74fd6132b92ddc5d7fb97f244f591ba972d035681a54bdb42745e224e40f42",
-    "crawled_at": "2026-07-28T08:53:49Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "26.8. Assignment of applications and registrations",
     "images": [],
     "last_amended": "2024-05-23",

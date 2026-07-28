@@ -3,14 +3,45 @@
 ## The shape of the thing
 
 ```
-robots check ─> fetch ─> sitemap ─> per page: fetch ─> parse ─> chunk ─> extract ─> write
-                                                  │
-                                            304 / hash match ─> skip
+robots check ─> fetch ─> sitemap ─> per page: fetch ─> parse ─> chunk ─> extract ─┐
+                                                  │                               │
+                                            304 / hash match ─> skip              │
+                                                                                  v
+                                     write <─ resolve cross references <─ chunk inventory
 ```
 
-One pass. No state beyond the previous snapshot on disk, which is read to decide
-what can be skipped. The pipeline is a pure function of (live site, previous
-snapshot) → new snapshot.
+Two phases, and the split is not an optimisation — see §Two phases. No state
+beyond the previous snapshot on disk, which is read to decide what can be
+skipped. The pipeline is a pure function of (live site, previous snapshot) →
+new snapshot.
+
+## Two phases
+
+Everything is cut before anything is written.
+
+An internal cross reference can name a heading rather than a page: 137 of the
+Manual's internal links carry a `#fragment` that is the Drupal slug of the
+target heading, and 47 of those open with the number the Manual prints. That
+number is what the chunker builds the target's `chunk_ref` from, so the address
+is fully determined — but whether that heading still exists is a fact about a
+*different page*, and the page holding the link cannot know it.
+
+Resolving it where it is found is therefore impossible without guessing, and
+guessing is what rule 3 forbids. Before 0.5.0 the pipeline did the honest thing
+available to a single pass and coarsened every reference to its page, so all 399
+of them addressed pages and none addressed a chunk.
+
+So `_process` stops after chunking and hands back a `Prepared`. Once the whole
+scope has been cut, `_chunk_inventory` unions the refs this run produced with
+the refs already on disk for pages it skipped — a page whose chunks moved is a
+page that failed gate 2 and was re-cut, so the union is exactly the state the
+snapshot is about to be in. `_resolve_refs` then settles every candidate against
+it, and `_commit` writes.
+
+What is held back is the records and their text, about two megabytes, not the
+44 MB of source HTML. A reference whose heading has gone falls back to its page
+rather than being dropped: the page half was established by URL and is still
+true.
 
 ## Repository layout
 
@@ -32,6 +63,7 @@ src/tmm_snapshot/
   chunker.py            body -> chunks
   citations.py          provisions, cases, internal refs
   tables.py             table markup -> the grid
+  blocks.py             chunk markup -> the paragraphs and list items
   writer.py             deterministic serialisation to snapshot/
   diff.py               compare two snapshots, emit a change report
   crawl.py              orchestration, CLI entry point
@@ -203,17 +235,19 @@ class Chunk:
     cases: list[dict]
     internal_refs: list[str]
     tables: list[dict] = field(default_factory=list)   # added by the 0.3.0 review
+    blocks: list[dict] = field(default_factory=list)   # added by the 0.5.0 review
 
 def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
                sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
 ```
 
-`tables` and `PageRecord.images` are additions made after the review of the
-first complete crawl, and both are defaulted, so every existing caller and
-every existing test still compiles against the original shape. What they are
-for is in `SOURCE_NOTES.md` §§16–17: the pipeline was dropping 121 tables' worth
-of structure and 169 images on the floor, and eight pages whose entire content
-is an image were recording as indistinguishable from blank.
+`tables`, `blocks` and `PageRecord.images` are additions made after reviewing a
+complete crawl, and all three are defaulted, so every existing caller and every
+existing test still compiles against the original shape. What they are for is in
+`SOURCE_NOTES.md` §§16–19: the pipeline was dropping 121 tables' worth of
+structure and 169 images on the floor, eight pages whose entire content is an
+image were recording as indistinguishable from blank, and 18,735 paragraphs and
+list items were flattening into 2,151 undifferentiated strings.
 
 The `sitemap` argument is an addition made by T5, not part of the original
 contract. `internal_refs` are resolved through the inventory and dropped when
@@ -228,10 +262,18 @@ caller that should is a test.
 def extract_provisions(body_fragment: Tag, text: str) -> list[dict]:
 def extract_cases(text: str) -> list[dict]:
 def extract_internal_refs(body_fragment: Tag, sitemap: dict[str, NavPage]) -> list[str]:
+def resolve_internal_refs(refs: list[str], chunk_refs: frozenset[str],
+                          page_refs: frozenset[str]) -> list[str]:
 ```
 
-Called by the chunker, per chunk. Kept separate because they carry the densest
-regex logic and the most test cases.
+The first three are called by the chunker, per chunk. Kept separate because they
+carry the densest regex logic and the most test cases.
+
+`resolve_internal_refs` is called once per run by `crawl.py`, not by the chunker,
+and is the 0.5.0 addition. A link carrying a `#fragment` names a heading on
+another page, and `extract_internal_refs` can only get as far as a *candidate*
+chunk_ref because whether that heading still exists is a fact about a page this
+one has not read. See §Two phases below.
 
 ### `tables.py`
 
@@ -243,6 +285,22 @@ Also called by the chunker, per chunk, and separate for the same reason. Turns
 table markup into the grid — rows, cells, spans, and a header row only where
 the markup declares one. `SOURCE_NOTES.md` §17 for what the Manual's tables
 actually look like and why the first row is never assumed to be a header.
+
+### `blocks.py`
+
+```python
+def extract_blocks(body_fragment: Tag) -> list[dict]:
+```
+
+The same argument as `tables.py`, applied to the prose. `chunk.text` joins a
+section's paragraphs and list items with single spaces, which is the correct
+verbatim reading and destroys every boundary in it. This records the boundaries
+the markup already asserts, from tag names and tree depth alone.
+
+Joining the blocks' text reproduces `chunk.text` exactly. That is asserted in
+`validate.py` over the whole snapshot and in `tests/test_blocks.py` over every
+saved page, and it is what stops `blocks` drifting into a second, differently
+worded copy of the chunk. `SOURCE_NOTES.md` §19.
 
 ### `writer.py`
 

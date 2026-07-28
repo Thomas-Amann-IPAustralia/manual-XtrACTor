@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the trade mark has no ordinary signification in connection with the goods and/or services applied for then it can be taken to be inherently adapted to distinguish. Equally, if the trade mark has an ordinary signification but as a whole is not one other traders are likely to desire to use, without improper motive, in connection with their own goods or services, it can be taken to be inherently adapted to distinguish for the purposes of section 41, and considered to be 'capable of distinguishing'."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/4#1",
       "content_hash": "sha256:c913a253befa45dce013e339e8885704fbdfeffb6fa4f4716213525fc4fabd7f",
@@ -29,9 +35,9 @@
     "amendment_note": "Content updated and examples removed.",
     "archived": false,
     "content_hash": "sha256:dbb88c348916050bb6181ae2bf8fa6e3b01c6a7ef08c6ec7c3e48af50ade5c25",
-    "crawled_at": "2026-07-28T08:53:46Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.4. Trade marks considered sufficiently inherently adapted to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

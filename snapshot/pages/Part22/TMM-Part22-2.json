@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The report of the Working Party to Review the Trade Marks Legislation, Recommended Changes to the Australian Trade Marks Legislation (AGPS July 1992), referred to the concept of presumption of registrability. However the expression does not appear in the Act itself."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Justice Branson discusses the concept of the Registrar being ‘satisfied’ which is an expression used in section 33 and 41 (prior to Raising the Bar). In Blount Inc v Registrar of Trade Marks (1998) 40 IPR 498, 503 (‘Oregon’) she said:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "[Section] 33 of the Act ... has, in effect, altered the burden of proof generally so far as acceptance of applications is concerned. Section 33(1) provides that the Registrar must accept the application unless satisfied that the application has not been made in accordance with the Act, or that there are grounds for rejecting it. The 1955 Act, by s 44, required the Registrar to accept the application only if satisfied that there was no lawful ground of objection to it. The terms of s 33(1) of the Act are presumably intended to reflect the recommendation of the working party that the Act ’should be expressed in terms which make it clear that there is to be a presumption of registrability when examining an application for registration‘: (p 42 of the report)."
+        }
+      ],
       "cases": [
         {
           "citation": "(1998) 40 IPR 498",
@@ -48,6 +62,12 @@
       "text": "The report of the Working Party to Review the Trade Marks Legislation, Recommended Changes to the Australian Trade Marks Legislation (AGPS July 1992), referred to the concept of presumption of registrability. However the expression does not appear in the Act itself. Justice Branson discusses the concept of the Registrar being ‘satisfied’ which is an expression used in section 33 and 41 (prior to Raising the Bar). In Blount Inc v Registrar of Trade Marks (1998) 40 IPR 498, 503 (‘Oregon’) she said: [Section] 33 of the Act ... has, in effect, altered the burden of proof generally so far as acceptance of applications is concerned. Section 33(1) provides that the Registrar must accept the application unless satisfied that the application has not been made in accordance with the Act, or that there are grounds for rejecting it. The 1955 Act, by s 44, required the Registrar to accept the application only if satisfied that there was no lawful ground of objection to it. The terms of s 33(1) of the Act are presumably intended to reflect the recommendation of the working party that the Act ’should be expressed in terms which make it clear that there is to be a presumption of registrability when examining an application for registration‘: (p 42 of the report)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In Oregon, Branson J made it clear that sections 41(4) to 41(6) of the now repealed section 41 were an exception to the presumption of registrability. If the Registrar was not satisfied that a trade mark was capable of distinguishing, the matter was not to be resolved in favour of the applicant at that point. Rather section 41(4) required the Registrar to resolve the doubt according to the decision-making process in sections 41(5) and 41(6). This effectively shifted the onus to the applicant."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/2/2/1",
       "content_hash": "sha256:368d34c1ab1f2d2f03d6f7c71b1e4d0b60a4b51bc502521322d9662e10fe41a0",
@@ -91,6 +111,24 @@
       "text": "In Oregon, Branson J made it clear that sections 41(4) to 41(6) of the now repealed section 41 were an exception to the presumption of registrability. If the Registrar was not satisfied that a trade mark was capable of distinguishing, the matter was not to be resolved in favour of the applicant at that point. Rather section 41(4) required the Registrar to resolve the doubt according to the decision-making process in sections 41(5) and 41(6). This effectively shifted the onus to the applicant."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 41 was repealed and re-enacted by the Intellectual Property Laws Amendment (Raising the Bar) Act 2012. The changes to section 41 clarify that the presumption of registrability does apply to section 41. As stated in the Explanatory Memorandum, Intellectual Property Laws Amendment (Raising the Bar) Bill 2011 at page 146:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The changes are intended to clarify that the presumption of registrability, as provided for in section 33, does apply to section 41. This is achieved by removing the reference to the decision-making process in section 41, and instead focusing on the characteristics that a mark must possess for it to be capable of distinguishing. The intention is that, if the Registrar is equally unsure of whether the mark is or is not capable of distinguishing, that doubt should be resolved in the applicant’s favour."
+        },
+        {
+          "kind": "paragraph",
+          "text": "To ensure that the presumption of registrability applies, the criteria for the trade mark’s capacity to distinguish are framed negatively by defining the circumstances in which a trade mark is not capable of distinguishing. Consistent with the presumption, this will focus the Registrar’s enquiry on what must be wrong with the mark before the Registrar is entitled to reject it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note that while the amendment ensures that the onus rests with the Registrar during examination, it is not intended to require that the trade mark should clearly not be registered. Rather, as with other grounds it is intended that the delegate need only be satisfied that a ground exists on the balance of probabilities."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/2/2/2",
       "content_hash": "sha256:cf54aa1db861c039de165e16afca7be1e08917a9c13e6773b7c1769c3064d004",
@@ -126,9 +164,9 @@
     "amendment_note": "Formatting changes.",
     "archived": false,
     "content_hash": "sha256:19554af50a8cc4922d39f5ef2ed8a1dad6dabfdabab16f1a21ac45be13ec90c2",
-    "crawled_at": "2026-07-28T08:53:46Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.2. Presumption of registrability",
     "images": [],
     "last_amended": "2022-12-19",

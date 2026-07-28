@@ -1,6 +1,25 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Opposition is a formal objection by a third party to registration of a trade mark or to protection of an International Trade Mark Designating Australia (IRDA). Any person may oppose but the opponent is generally a person who will be in some way affected by the presence of the trade mark on the Register. The opposition process enables such a person to make out a case under the grounds specified in the Act and Regulations that the trade mark should not be registered or protected."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 47 Procedures for Opposing an Application for Registration or Protection"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part46/1#1",
       "content_hash": "sha256:02a2b1a95baa2a0cc7c9e71bfd36f03d235e71e78c4e90c9b8cd0eae568015a8",
@@ -24,9 +43,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:5ee367e8c78e99e7261d4fd8f7cc4ad4cfc14112f6ab946cdf5d96d20b6e363b",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 46.1. What is opposition to registration or protection?",
     "images": [],
     "last_amended": "2025-04-01",

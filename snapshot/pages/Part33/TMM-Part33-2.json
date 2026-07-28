@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 163(1) of the Act provides that except for Part 10 of the Act (Assignment and Transmission of Trade Marks), a collective trade mark is to be considered in the equivalent manner to an ordinary trade mark. A reference in the Act to a trade mark registered by a person is taken to include a reference to a trade mark registered by an association."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under section 163(2) use by any one or more members of the association is use for the purposes of the Act."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part33/2#1",
       "content_hash": "sha256:9bdb12c595c2571d976732e9eb3afbf8cbdeb113b9d3cb77573e0de61ffc77ab",
@@ -15,13 +41,13 @@
       "page_ref": "TMM/Part33/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s163(1)",
           "mention": "Section 163(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s163(2)",
           "mention": "section 163(2)"
@@ -35,9 +61,9 @@
     "amendment_note": "No changes made from previous edits.",
     "archived": false,
     "content_hash": "sha256:12a8d4876ceb1a23bb99b9be773c64ac82d5eba920998b1c5b57eeca9e59228a",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "33.2. Application of Act",
     "images": [],
     "last_amended": "2025-01-24",

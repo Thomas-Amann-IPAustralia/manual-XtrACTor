@@ -1,6 +1,64 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 84A Registration may be revoked"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 84B Registration must be revoked if opposition was ignored in registration process"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 84C Effect of revocation of registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 84D Appeal from revocation of registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 224(3A) Extension of Time"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 8.1A Notice of revocation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42A Registrar’s powers to amend or cease protection"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42B Notice to be given"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42C Hearings and procedure"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42D Effect of amendment or cessation of protection by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42E Registrar to notify Customs CEO"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.42F Appeal to Federal Court or Federal Circuit Court"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/x-relevant-legislation19#1",
       "content_hash": "sha256:7d682043d4d6106abbb2f16b7f92f10a260b2cf42f945b7be5cb86e10a272beb",
@@ -95,9 +153,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:665c584c15bdbf0cbe1e662dc64499d45b56e880584e3c1477265d49390df134",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

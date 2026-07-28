@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subsection 19(3) Certain trade marks may be registered"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subsection 27(3), (4) and (5) Application - how made"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 32 Registrar to decide on disputed classification of goods etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 63 Amendment of application for registration of trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 64 Amendment before particulars of application are published"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 65 Amendment after particulars of application have been published – request for amendment not published"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 65A Amendment after particulars of application have been published – request for amendment published"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 82 Adaptation of classification"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 3.1 Classification of goods and services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.1 Applications - approved form"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.2 Applications - requirements for filing"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.4 Specification of goods and/or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schedule 1 Classification of goods and services"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part14/x-relevant-legislation10#1",
       "content_hash": "sha256:50c03eaf0e5869023fbad1e35e3ec3381101adc23339c5d6ad9704d823ab7ae1",
@@ -88,9 +150,9 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:a2eefe62c49495db6237019faec7b9fc179352d0648823b52d113143bd0458c1",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "14. Relevant Legislation",
     "images": [],
     "last_amended": "2024-05-16",

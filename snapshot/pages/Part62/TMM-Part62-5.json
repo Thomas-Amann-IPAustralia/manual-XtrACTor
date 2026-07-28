@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There is a mandatory provision (section 84B) relating to revocation of registration within one month of a component of a notice of opposition being filed, or an application for extension of time to file a notice being made, if the Registrar has inadvertently registered a trade mark in the face of a properly filed component of a notice of opposition to registration, or an application for extension of time to file. The provision does not provide for a trade mark owner’s right to be heard, under such limited circumstances. If the registration error becomes apparent after the month has passed, then revocation may still occur, but under the more stringent criteria of section 84A."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/5#1",
       "content_hash": "sha256:e51537a7385e4f49926c355f546eb6f0f47723a9c786f0f361fec7391effb492",
@@ -35,9 +41,9 @@
     "amendment_note": "Amendment to wording",
     "archived": false,
     "content_hash": "sha256:18c1b29f6f4e60ae7c870d5e1b77ad21885b4e23915121fcfb96e8ed48474560",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2024-02-05",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.5. Mandatory revocation",
     "images": [],
     "last_amended": "2024-02-05",

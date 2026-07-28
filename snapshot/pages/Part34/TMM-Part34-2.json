@@ -1,6 +1,50 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 185 of the Trade Marks Act 1995 provides a definition of a defensive trade mark and the circumstances under which an application for registration of a defensive trade mark may be made. These circumstances are as follows:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade mark must, at the time the application for a defensive registration is filed, already be registered in the name of the applicant;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade mark must have been used to such an extent, in relation to all or any of the goods or services in respect of which it is registered, that its use on the goods or services sought by the defensive registration would be likely to be taken by consumers as indicating a connection between those goods or services and the owner of the registered trade mark;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "it is not necessary for the registered owner of the defensive trade mark to have an intention to use the trade mark in respect of the particular goods or services specified; and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a defensive trade mark may be registered in respect of particular goods or services even if it is already registered in the name of the applicant in respect of those same goods or services. Alternatively a trade mark registered as a defensive mark in respect of particular goods or services may be subsequently registered as any other type of trade mark for the same goods or services."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The procedure for filing a defensive trade mark application is the same as for “standard” trade marks but with two additional requirements:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the registration number of the registered trade mark upon which the defensive application is based should be entered on the application form and,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "evidence in support of the application must be filed."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In accordance with regulation 17.1, this evidence must be filed at the time of filing the application, or as soon as practicable after filing."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part34/2#1",
       "content_hash": "sha256:b87315a2e672ec86f02490c49779a72f9eee303cb2c73e6e5739e1832fb83cac",
@@ -33,9 +77,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:d3490cb8350de36bbf7b68f755cb04ce1ef73c9a400e0996664bf82ed7763366",
-    "crawled_at": "2026-07-28T08:53:54Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "34.2. Requirements for the filing of a defensive trade mark",
     "images": [],
     "last_amended": "2022-04-20",

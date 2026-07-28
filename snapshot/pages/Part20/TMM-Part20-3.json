@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is to be noted that while the definition of “trade mark” in the Act is a closed or exhaustive definition, which lists the conditions to be satisfied in order for something to qualify as a trade mark, the definition of “sign” is an open or inclusive definition, merely listing some examples of what may constitute a sign. The definition carries over the definition of “mark” from the 1955 Act with the addition of “shape, colour, sound, scent and aspect of packaging”."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/3#1",
       "content_hash": "sha256:89a6c14ea66864326bb0ce2780a3c62e289c6414ba0fb5f7d2c2d814ded9f229",
@@ -18,6 +32,12 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 It is to be noted that while the definition of “trade mark” in the Act is a closed or exhaustive definition, which lists the conditions to be satisfied in order for something to qualify as a trade mark, the definition of “sign” is an open or inclusive definition, merely listing some examples of what may constitute a sign. The definition carries over the definition of “mark” from the 1955 Act with the addition of “shape, colour, sound, scent and aspect of packaging”."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A sign includes any means of distinguishing the goods or services of one person from those of another which is capable of being perceived by the senses, including those of smell, hearing, touch and taste. This, however, is subject to the requirement that the trade mark must be capable of being represented graphically (section 40)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/1",
       "content_hash": "sha256:4399026bc704b20896744c1413204b06db8052a2ed4815ecba5827146aef6801",
@@ -43,6 +63,17 @@
       "text": "A sign includes any means of distinguishing the goods or services of one person from those of another which is capable of being perceived by the senses, including those of smell, hearing, touch and taste. This, however, is subject to the requirement that the trade mark must be capable of being represented graphically (section 40)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "“Colour” is referred to in paragraph 51(1)(c) dealing with applications for a series of trade marks and in section 70 dealing with limitations of registration as to colour. These provisions deal with trade marks which consist of a combination of colour with another sign or signs such as a word or device and therefore give no guidance as to the registrability of trade marks consisting of colour per se."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 21 Non-Traditional Signs"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/2",
       "content_hash": "sha256:52ac40bbc6f63814cf3594b8a3263a6157015dc5b4e66d74853467a93448cd7f",
@@ -76,6 +107,12 @@
       "text": "“Colour” is referred to in paragraph 51(1)(c) dealing with applications for a series of trade marks and in section 70 dealing with limitations of registration as to colour. These provisions deal with trade marks which consist of a combination of colour with another sign or signs such as a word or device and therefore give no guidance as to the registrability of trade marks consisting of colour per se. Part 21 Non-Traditional Signs"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There is no further reference to “sound” in the Act so that no guidance as to practice in relation to trade marks consisting of sounds is to be gained from the Act itself. An aural representation of a trade mark consisting of any letter, word, name, numeral or combination of these is use of the trade mark according to subsection 7(2) of the Act."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/3",
       "content_hash": "sha256:7790e1caa8f08f7b15a096a09614b10e666535f13805c4378147bfe1af73ea29",
@@ -101,6 +138,12 @@
       "text": "There is no further reference to “sound” in the Act so that no guidance as to practice in relation to trade marks consisting of sounds is to be gained from the Act itself. An aural representation of a trade mark consisting of any letter, word, name, numeral or combination of these is use of the trade mark according to subsection 7(2) of the Act."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "“Packaging” is referred to in subsections 9(2) and 121(2) dealing with the application of a trade mark to goods and infringement, respectively. These provisions therefore give no guidance as to the registrability of trade marks consisting of the packaging of goods or any “aspect of packaging”."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/4",
       "content_hash": "sha256:7498cb93ea329ee47a13886170c18b659a0236b2c54d7306e1551a4b0a0a7e4d",
@@ -136,9 +179,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:bb2878c8c3b0a1ed885668830c0a0a4c74b23e8b6b4297f9d92638ec1baca392",
-    "crawled_at": "2026-07-28T08:53:45Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 20.2. Definition of sign",
     "images": [],
     "last_amended": "2025-06-03",

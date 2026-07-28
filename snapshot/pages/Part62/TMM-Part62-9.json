@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Regulation 17A.42E requires that the Registrar must notify the Customs CEO if the cessation power is exercised in relation to a PITM."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/9#1",
       "content_hash": "sha256:86299168f9cac4771d81775907806967068ce4259ab84f4d515f91bb1ad4886c",
@@ -29,9 +35,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:22f314a9f87691fc784d4629fba8fe2e19bfb205cc45f62477146a0d5cf7badd",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.9. Registrar must notify Customs if protection of a PITM is revoked",
     "images": [],
     "last_amended": "2022-04-20",

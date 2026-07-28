@@ -1,6 +1,84 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 1 April 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions: applicant, opponent, geographical indication, priority date, this Act, use of a trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 7 Use of a trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 8 Definitions of authorised user and authorised use"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 27 Application - how made"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 33 Application accepted or rejected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 4 Div 2 Grounds for rejecting an application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 5 Opposition to registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 177 Additional grounds for rejecting an application or opposing registration - certification trade mark not distinguishing certified goods or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 187 Additional grounds for rejecting application for registration or opposing registration of defensive trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 228 Use of a trade mark for export trade"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.15A Grounds for rejection - trade mark identical etc to trade mark protected under Madrid Protocol"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 5 Opposition to registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Protected international trade marks under the Madrid Protocol Division 1 General"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.2 Definitions: holder, International Bureau, international registration, international registration designating Australia or IRDA"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Division 3 Subdivision 2 - Grounds for rejecting IRDA"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17A Division 3 Subdivision C - Opposition to IRDA"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part46/x-relevant-legislation5#1",
       "content_hash": "sha256:68ed6222a4c47cd6d73c9a4fccbc8fd900509133e0b8d0a3101ca80c2f436921",
@@ -15,61 +93,61 @@
       "page_ref": "TMM/Part46/x-relevant-legislation5",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s177",
           "mention": "Section 177"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s187",
           "mention": "Section 187"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s228",
           "mention": "Section 228"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s27",
           "mention": "Section 27"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s33",
           "mention": "Section 33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s7",
           "mention": "Section 7"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s8",
           "mention": "Section 8"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.2",
           "mention": "Reg 17A.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.15A",
           "mention": "Reg 4.15A"
@@ -83,9 +161,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:eec333749027208e2423a18e6533693305ed7c7f7b1571953de55c9f7f8fd9bb",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 46. Landing Page",
     "images": [],
     "last_amended": "2025-04-01",

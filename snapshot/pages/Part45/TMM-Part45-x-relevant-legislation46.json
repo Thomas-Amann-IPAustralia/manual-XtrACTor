@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 25 February 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subsection 29(3) Application for registration of trade mark whose registration has been sought in a Convention country - claim for priority"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 210 Evidence - the Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 211 Evidence - certified copies of documents"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part45/x-relevant-legislation46#1",
       "content_hash": "sha256:fd27f82fba32a63b921f2c30c8780087961d024cb3c88a72c0a33092a53680ee",
@@ -15,19 +41,19 @@
       "page_ref": "TMM/Part45/x-relevant-legislation46",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s210",
           "mention": "Section 210"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s211",
           "mention": "Section 211"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s29(3)",
           "mention": "Subsection 29(3)"
@@ -41,9 +67,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:7fcce706c4aea05d140d8b44fd44ae20ba1279f7a3f6a85b29570b00ff770b5e",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 45. Landing Page",
     "images": [],
     "last_amended": "2025-02-25",

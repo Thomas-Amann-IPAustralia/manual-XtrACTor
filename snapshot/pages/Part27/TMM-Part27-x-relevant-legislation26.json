@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 44 Identical etc. trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.8 Examination of application - report to the applicant"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.9 Examination - applicant's response to report"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.10 Examination - further report to applicant"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.15A Grounds for rejection – trade mark identical etc to trade mark protected under the Madrid Protocol"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.16 Examination of IRDA – report to holder"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.17 Examination – holder’s response to report"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.18 Examination – further response to holder"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part27/x-relevant-legislation26#1",
       "content_hash": "sha256:5b3fc6fb1265522f331e81a78669b81c0b15824fbaf9034d40300d25bc1322fe",
@@ -63,9 +105,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:0bc6eec1d5724f3e89b6de6bce4ed9382ad808d5125b96e23e752cbbe5e40c40",
-    "crawled_at": "2026-07-28T08:53:49Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "27. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

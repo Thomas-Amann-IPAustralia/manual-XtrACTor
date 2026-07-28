@@ -17,6 +17,7 @@ recorded — see `_certainty` — and left for a human. Rule 1.
 from __future__ import annotations
 
 import re
+from urllib.parse import urlsplit
 
 from bs4 import Tag
 
@@ -83,6 +84,11 @@ ACT_BY_YEAR: dict[str, str] = {
 #: regulation is the Trade Marks Regulations. Recorded as certainty 'default'
 #: so a consumer can tell an assumption from a statement.
 DEFAULT_INSTRUMENT: dict[str, str] = {"s": "TMA1995", "r": "TMR1995"}
+
+#: The instrument type a title ends in, which is the word that says whether it
+#: can hold sections or regulations. Read off the tail rather than searched for
+#: anywhere in the string: 'Regulatory Powers Act 2014' is an Act.
+_TITLE_KIND = re.compile(r"\bregulations\s+\d{4}$")
 
 #: How far past a reference to look for an instrument name. Wide enough to
 #: cross 'of the ', narrow enough that the next sentence's instrument is not
@@ -161,6 +167,15 @@ _REPORTED_CASE = re.compile(
 _BARE_INTERNAL_REF = re.compile(
     r"\bparts?\s+(?P<part>\d{1,3}[A-Z]?)(?P<rest>(?:\.\d+)+)", re.IGNORECASE
 )
+
+#: The heading number leading a Drupal anchor: the fragment on
+#: `/trademark/4.-classification-procedures#4.5-goods-or-services-to-be-grouped`
+#: is the target heading's own slug, and it opens with the number the Manual
+#: prints. Deliberately the same shape as `chunker._LEADING_ADDRESS`, because
+#: the address it reads has to agree with the one the chunker built the target
+#: `chunk_ref` from — `tests/test_citations.py` pins the two together, since
+#: importing the chunker here would be a cycle.
+_ANCHOR_HEADING_ADDRESS = re.compile(r"^(?P<address>\d{1,3}[A-Z]?(?:\.\d+)*)(?=-|$)")
 
 #: Strongest evidence first. Used to collapse the several ways one provision
 #: can be mentioned in a passage into the single edge SCHEMA.md asks for.
@@ -245,6 +260,35 @@ def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
     return edges
 
 
+def instrument_kind(instrument: str) -> str:
+    """'s' if the instrument holds sections, 'r' if it holds regulations.
+
+    An Act is divided into sections and a set of Regulations into regulations,
+    and neither ever holds the other's. That makes the reference word and the
+    instrument two independent readings of one fact, so where they disagree
+    something has gone wrong — see `_named_instrument`.
+
+    Takes either a code ('TMR1995') or the raw lower-cased title that
+    `_instruments_in_scope` keeps for an instrument we have no code for. Titles
+    reach here only from `_ANY_INSTRUMENT`, which requires the tail
+    'Act <year>' or 'Regulations <year>', so the tail is always there to read.
+    """
+    known = INSTRUMENT_KIND.get(instrument)
+    if known is not None:
+        return known
+    return "r" if _TITLE_KIND.search(instrument.strip().lower()) else "s"
+
+
+#: Every instrument this module can name, by the type of provision it holds.
+#: Derived from the titles rather than written out again, so a new instrument
+#: is declared in exactly one place.
+INSTRUMENT_KIND: dict[str, str] = {
+    code: ("r" if _TITLE_KIND.search(title) else "s")
+    for title, code in INSTRUMENT_TITLES.items()
+}
+INSTRUMENT_KIND.update({code: "s" for code in ACT_BY_YEAR.values()})
+
+
 def _instruments_in_scope(text: str) -> set[str]:
     """Every instrument the passage names, mapped where we recognise it.
 
@@ -276,23 +320,40 @@ def _lookahead_window(text: str, start: int, stop: int) -> str:
     return window.split(".")[0]
 
 
-def _named_instrument(window: str) -> tuple[str, int] | None:
+def _named_instrument(window: str, symbol: str) -> tuple[str, int] | None:
     """The instrument named in a lookahead window, and where its name ends.
 
     The earliest name wins. A window can hold two — 'of the Trade Marks Act
     1995 and the Acts Interpretation Act 1901' — and it is the first that
     qualifies the reference the window hangs off.
+
+    **Only an instrument that could hold the reference counts.** A section
+    lives in an Act and a regulation in Regulations, so a title of the wrong
+    kind is not this reference's instrument however close it sits. It is
+    usually the next column: the Relevant Legislation pages are three-column
+    tables, and flattening one to a run of cell text puts 'Section 224 |
+    Extension of time | Trade Marks Regulations 1995' on a single line, where a
+    60-character lookahead reaches the instrument column of the same row. Left
+    unchecked that produced `TMR1995/s224` — a section of the Regulations,
+    which does not exist — and recorded it as `explicit`, the confident end of
+    the scale. 20 edges in the July 2026 corpus.
+
+    Discarding the name here rather than raising is deliberate: the row is not
+    malformed, it says exactly what it means to a reader with the columns back.
+    What the extractor may not do is carry the wrong instrument, so the
+    reference falls through to the same treatment as an unqualified one and
+    ends up `TMA1995/s224` at `default` or `ambiguous`.
     """
     candidates: list[tuple[int, int, str]] = []
 
     lowered = window.lower()
     for title, code in INSTRUMENT_TITLES.items():
         position = lowered.find(title)
-        if position != -1:
+        if position != -1 and instrument_kind(code) == symbol:
             candidates.append((position, position + len(title), code))
 
     short = _SHORT_ACT.search(window)
-    if short is not None and short.group("year") in ACT_BY_YEAR:
+    if short is not None and short.group("year") in ACT_BY_YEAR and symbol == "s":
         candidates.append((short.start(), short.end(), ACT_BY_YEAR[short.group("year")]))
 
     if not candidates:
@@ -326,7 +387,7 @@ def _regex_edges(text: str) -> list[tuple[str, str, str]]:
 
         stop = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         window = _lookahead_window(text, match.end(), stop)
-        named = _named_instrument(window)
+        named = _named_instrument(window, symbol)
 
         if named is not None:
             instrument, offset = named
@@ -334,7 +395,21 @@ def _regex_edges(text: str) -> list[tuple[str, str, str]]:
             mention = text[match.start() : match.end() + offset]
         else:
             instrument = DEFAULT_INSTRUMENT[symbol]
-            certainty = "ambiguous" if len(scope) > 1 else "default"
+            # Only an instrument that could hold this reference competes for
+            # it. 'Section 41' is a reference to an Act whatever Regulations
+            # the passage also names, and the Manual names both on nearly every
+            # page — the Relevant Legislation preamble lists the Act and the
+            # Regulations together — so counting every instrument in scope made
+            # 39% of the corpus's regex edges ambiguous, a bucket SCHEMA.md
+            # says never to hydrate from. What is genuinely in doubt is which
+            # *Act*: 'section 26' in a paragraph about the 1955 Act. That case
+            # still has two Acts in scope and still comes out ambiguous.
+            competing = {
+                named_instrument
+                for named_instrument in scope
+                if instrument_kind(named_instrument) == symbol
+            }
+            certainty = "ambiguous" if len(competing) > 1 else "default"
             mention = match.group(0)
 
         mention = " ".join(mention.split())
@@ -450,6 +525,29 @@ def _resolve_dotted(part: str, rest: str, page_refs: frozenset[str]) -> str | No
     return None
 
 
+def _anchor_ref(page_ref: str, href: str) -> str:
+    """The candidate ref a hyperlink addresses: a chunk where it names one.
+
+    A Manual link carrying a fragment is aimed at a heading, not at the top of
+    a page — `#4.5-goods-or-services-to-be-grouped-together-by-class-number` is
+    the Drupal slug of the heading '4.5 Goods or services to be grouped
+    together by class number', and it opens with the number the Manual prints.
+    That number is what the chunker builds the target's `chunk_ref` from, so
+    the address is already determined; nothing here is inferred.
+
+    Returned as a *candidate*, because whether that chunk exists is a fact
+    about a different page and cannot be known while this one is being cut.
+    `resolve_internal_refs` checks it against the finished inventory and falls
+    back to the page. A fragment naming no number — a hand-written anchor —
+    yields the page, which is all it can support.
+    """
+    fragment = urlsplit(href.strip()).fragment
+    match = _ANCHOR_HEADING_ADDRESS.match(fragment)
+    if match is None:
+        return page_ref
+    return f"{page_ref}/{match.group('address').replace('.', '/')}"
+
+
 def extract_internal_refs(
     body_fragment: Tag, sitemap: dict[str, NavPage]
 ) -> list[str]:
@@ -461,14 +559,20 @@ def extract_internal_refs(
 
     Hyperlinks resolve by URL, which is the only safe key — the same slug
     belongs to two different Parts (SOURCE_NOTES.md §2), so a reference must
-    never be resolved by matching slugs or titles.
+    never be resolved by matching slugs or titles. A link's `#fragment` is
+    dropped by that lookup and read separately by `_anchor_ref`, which is where
+    the sub-section precision in 137 of the Manual's internal links comes from.
+
+    What comes back may hold candidate chunk refs, which are only refs once
+    `resolve_internal_refs` has seen the whole snapshot.
     """
     refs: set[str] = set()
 
     for anchor in body_fragment.find_all("a", href=True):
-        target = sitemap.get(normalise_url(str(anchor["href"])))
+        href = str(anchor["href"])
+        target = sitemap.get(normalise_url(href))
         if target is not None:
-            refs.add(target.page_ref)
+            refs.add(_anchor_ref(target.page_ref, href))
 
     page_refs = frozenset(page.page_ref for page in sitemap.values())
     for match in _BARE_INTERNAL_REF.finditer(flatten_text(body_fragment)):
@@ -479,3 +583,47 @@ def extract_internal_refs(
             refs.add(resolved)
 
     return sorted(refs)
+
+
+def resolve_internal_refs(
+    refs: list[str], chunk_refs: frozenset[str], page_refs: frozenset[str]
+) -> list[str]:
+    """Candidate refs to refs that resolve, against the finished snapshot.
+
+    A candidate from `_anchor_ref` names a heading on a page that was cut by a
+    different call, possibly in a different run. Once the whole snapshot is
+    known the question is decidable, so it is decided here rather than guessed
+    earlier: the chunk exists and the ref is chunk-level, or it does not and
+    the ref falls back to the page the link pointed at.
+
+    Falling back rather than dropping is the difference from `_resolve_dotted`,
+    and it is because the page half of the reference was already established by
+    URL. The Manual moving a heading should coarsen a citation, not delete one.
+    A candidate matching neither is dropped, which cannot happen for a link
+    resolved through the sitemap and can for a stale hand-written anchor.
+    """
+    resolved: set[str] = set()
+
+    for ref in refs:
+        if ref in chunk_refs or ref in page_refs:
+            resolved.add(ref)
+            continue
+
+        # The section exists but was long enough to be split, so its address
+        # belongs to no single chunk — `TMM/Part14/4/4/8` is held by
+        # `...~1` through `...~4`. A link to the heading is aimed at where the
+        # section starts, and that is `~1` by construction. 27 of the Manual's
+        # 47 addressed anchors land here.
+        if (opening := f"{ref}~1") in chunk_refs:
+            resolved.add(opening)
+            continue
+
+        segments = ref.split("/")
+        while len(segments) > 1:
+            segments.pop()
+            candidate = "/".join(segments)
+            if candidate in page_refs:
+                resolved.add(candidate)
+                break
+
+    return sorted(resolved)

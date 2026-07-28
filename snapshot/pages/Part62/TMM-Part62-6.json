@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There is a right of appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar to revoke registration of a trade mark (section 84D)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/6#1",
       "content_hash": "sha256:db6056b321cd1a70a2091cfd55c403cb9e73d18b0cd289f1271c63eca3ae1077",
@@ -28,9 +34,9 @@
     "amendment_note": "Hyperlinks and references to the Federal Circuit Court updated",
     "archived": false,
     "content_hash": "sha256:6b6629e23547ea427dffdcf661d39749652a51a502804930207494c6cf3c2495",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2024-03-15",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.6. Right of appeal: revocation of registration",
     "images": [],
     "last_amended": "2024-03-15",

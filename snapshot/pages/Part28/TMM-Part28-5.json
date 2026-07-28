@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Subsection 44(3) specifies that the Registrar may accept the application for registration subject to any conditions or limitations that he/she thinks fit to impose. It is important to remember that applications proceeding under the provisions of s 44(3) are doing so in the face of a pre-existing trade mark right. Allowing encroachment onto this right is a serious matter, and examiners need to be mindful of this at all times."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It often becomes apparent, after considering the evidence supplied, that the applicant can only demonstrate concurrent use or other circumstances for a portion of the goods/services claimed, or for a restricted geographical area. It is appropriate in these cases to propose conditions or limitations to the application."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where evidence shows use of the trade mark for a limited range of goods/services, it is usually necessary to restrict the specification in line with the use. The applicant should be advised of the conditions proposed for acceptance, so they can consider whether there is any further evidence they can supply. If the applicant is agreeable to the proposed restriction, the specification is amended in the normal way. If the application is otherwise in order, it can proceed to acceptance."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Similarly, where use is only demonstrated in a restricted geographical area, and acceptance can only be justified on the basis of the narrow area, a geographical restriction should be proposed. This restriction takes the form of an endorsement. For example:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Registration of this trade mark is limited to the State/s of < >."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part28/5#1",
       "content_hash": "sha256:621fe2d59a785be545be6240d9d4607a3f93f51fc5d05a5f1ec3d7b889744397",
@@ -28,9 +50,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:f8ea05a76a246d5bfc535e7e6394acd972f250323f006ff84e56e6821ac69c65",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "28.5. Conditions and limitations to applications proceeding under s 44(3)",
     "images": [],
     "last_amended": "2023-10-10",

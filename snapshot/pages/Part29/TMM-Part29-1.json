@@ -1,6 +1,54 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 43 of the Act reads as follows:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "An application for the registration of a trade mark in respect of particular goods or services must be rejected if, because of some connotation that the trade mark or a sign contained in the trade mark has, the use of the trade mark in relation to those goods or services would be likely to deceive or cause confusion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The application of section 43 is, by the wording of the section, mandatory. There is, therefore, no discretion to accept a trade mark that is caught by the provisions of this section. However for a trade mark to be caught by these provisions it is necessary for a decision maker to be clearly satisfied that use of the trade mark for the specified goods and / or services would be likely to deceive or cause confusion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the trade mark, or some part of the trade mark, contains a connotation that would be likely to deceive or confuse consumers within the relevant market, then a ground for rejection should be raised."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.1 Geographical indications for wine"
+        },
+        {
+          "kind": "paragraph",
+          "text": "For details of examination practice relating to class 33 applications see Part 32B."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 32B - Examination of Trade Marks for Wines (in class 33)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.2 Plant variety names"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If a trade mark contains or consists of word/s which connote a particular plant variety or other plant name, and is applied to plants or plant materials of the same or a closely related genus, it is likely to deceive or cause confusion as to the true nature of those plants or plant materials and a ground for rejection under section 43 of the Act will be appropriate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For details of practice in examination of applications for registration of trade marks covering plants and/or plant materials in class 31 see Part 32A."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 32A - Examination of Trade Marks for Plants (in class 31)"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part29/1#1",
       "content_hash": "sha256:57343be0e705aad83e9ce9fe723e725bd0fcf1b349085dd8c04b73a3beb013c2",
@@ -31,9 +79,9 @@
     "amendment_note": "Removed publication date",
     "archived": false,
     "content_hash": "sha256:7e0c2c2ed2bb5e1fb51b7fbd09a058bacb5e76daee21797f011683a051231fd0",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "29.1. Trade marks likely to deceive or cause confusion",
     "images": [],
     "last_amended": "2025-01-13",

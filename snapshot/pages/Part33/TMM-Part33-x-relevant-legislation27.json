@@ -1,6 +1,60 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published 13 Jan 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995 The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 27 Application – how made"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 161 Object of Part"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 162 Definition of a collective trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 163 Application of Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 164 Application for registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 165 Limitations on rights"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 166 Assignment"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 167 Infringement"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 41 Trade mark not distinguishing applicant's goods"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Division 6 17A.49 Collective trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part33/x-relevant-legislation27#1",
       "content_hash": "sha256:09be777c38264c0801361735f303b492ad115e9ddde4c98142aaf8cb6d03753d",
@@ -15,55 +69,55 @@
       "page_ref": "TMM/Part33/x-relevant-legislation27",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s161",
           "mention": "Section 161"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s162",
           "mention": "Section 162"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s163",
           "mention": "Section 163"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s164",
           "mention": "Section 164"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s165",
           "mention": "Section 165"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s166",
           "mention": "Section 166"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s167",
           "mention": "Section 167"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s27",
           "mention": "Section 27"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s41",
           "mention": "Section 41"
@@ -77,9 +131,9 @@
     "amendment_note": "No Changes Made",
     "archived": false,
     "content_hash": "sha256:5b8d311f90eca6915eacf46eb55b5a2e5d1250ae19f6c9100f7daf689d958ca5",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "33. Landing Page",
     "images": [],
     "last_amended": "2025-01-24",

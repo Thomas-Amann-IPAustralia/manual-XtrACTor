@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many responses to examiner's reports are filed close to or at the end of the period allowed. The practice to be followed in these circumstances is set out below."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under reg 4.10 the Registrar must consider the response and either accept the application or issue an adverse report in writing. The report must include the lapsing date."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part16/2#1",
       "content_hash": "sha256:399ea7506378b653fdf6a61c07d01284871964193718817e46ead6f7d69ddef4",
@@ -15,7 +33,7 @@
       "page_ref": "TMM/Part16/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.10",
           "mention": "reg 4.10"
@@ -25,6 +43,31 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Many responses to examiner's reports are filed close to or at the end of the period allowed. The practice to be followed in these circumstances is set out below. Under reg 4.10 the Registrar must consider the response and either accept the application or issue an adverse report in writing. The report must include the lapsing date."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The examiner's ability to consider and report on an application before it lapses will be affected by a number of factors including:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the time taken for the submission to reach the examiner;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the nature of the submission (and whether it is accompanied by evidence);"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the examiner’s immediate workload and priorities."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Although there is an obligation on the applicant to provide the Registrar with sufficient time to consider and report on an application before it lapses, every effort should be made by the examiner to respond to submissions as soon as practicable."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part16/2/4/1",
       "content_hash": "sha256:ee268106b9f836b3c9eb8f01ae3c976317c88d2406f7537b1cd45032638032f0",
@@ -43,6 +86,12 @@
       "text": "The examiner's ability to consider and report on an application before it lapses will be affected by a number of factors including: the time taken for the submission to reach the examiner; the nature of the submission (and whether it is accompanied by evidence); the examiner’s immediate workload and priorities. Although there is an obligation on the applicant to provide the Registrar with sufficient time to consider and report on an application before it lapses, every effort should be made by the examiner to respond to submissions as soon as practicable."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where the response does NOT place the application in order for acceptance, the examiner will contact the applicant as soon as practicable before issuing the adverse report in writing. It should be noted that the date on which the application will or did lapse must be included in the report."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part16/2/4/2",
       "content_hash": "sha256:e13c3a7dd200c15ae4ad1822a730f0861e109337b90ced4beed54f2b7679da04",
@@ -61,6 +110,16 @@
       "text": "Where the response does NOT place the application in order for acceptance, the examiner will contact the applicant as soon as practicable before issuing the adverse report in writing. It should be noted that the date on which the application will or did lapse must be included in the report."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where the response is filed after the application lapses, the examiner will contact the applicant urgently, by phone if possible, to advise that an extension of time is required. At such time it is appropriate to give the applicant some idea of whether the ground/s for rejection are likely to be maintained. If the applicant cannot be contacted via phone, the examiner will send a letter to the applicant, advising that the application must be revived before further examination can occur."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: When dealing with responses coming in very close to the final date, examiners should check the correspondence file to see whether the applicant has requested and paid for an extension of time. If the applicant has paid for an EOT, this should be actioned before any consideration of the submissions takes place."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part16/2/4/3",
       "content_hash": "sha256:b6e87f0507d3d68423523c3525207e42ed0696cb613f04e714713cc8846d73b7",
@@ -83,9 +142,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:490cff30eac323ca7fc0a8cd4ff980a04b2bd6b976620944add5f900f8e4b51d",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-18",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 16.2. Response to an examination report received within four (or less) weeks of lapsing date",
     "images": [],
     "last_amended": "2025-02-18",

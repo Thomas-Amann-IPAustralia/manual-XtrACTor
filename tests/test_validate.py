@@ -325,3 +325,101 @@ def test_a_crawled_snapshot_validates(small_manual: FakeManual, tmp_path):
         run(args, fetcher=fetcher)
 
     assert validate_snapshot(root) == []
+
+
+# -- an instrument that cannot hold the provision it names ----------------
+
+
+def test_a_section_of_the_regulations_is_caught(tmp_path):
+    """The schema checks the shape of an id and the shape is fine, so nothing
+    below this saw it. 20 such edges reached the July 2026 snapshot."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    provisions=[
+                        {
+                            "id": "TMR1995/s224",
+                            "extraction": "regex",
+                            "certainty": "explicit",
+                        }
+                    ]
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "TMR1995/s224 addresses TMR1995")
+
+
+def test_a_regulation_of_the_act_is_caught(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    provisions=[
+                        {"id": "TMA1995/r21.6", "extraction": "regex"}
+                    ]
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "TMA1995/r21.6 addresses TMA1995")
+
+
+def test_an_instrument_of_unknown_kind_is_left_alone(tmp_path):
+    """Only instruments this pipeline knows the kind of are checked. An id
+    from an AustLII href carries its kind structurally."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(provisions=[{"id": "PBRA1994/s26", "extraction": "href"}])
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []
+
+
+# -- blocks that do not add up --------------------------------------------
+
+
+def test_blocks_that_lose_a_paragraph_are_caught(tmp_path):
+    """`blocks` is the shape of the text, never a second copy of the words. A
+    dropped paragraph fails here and nowhere else."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="First sentence. Second sentence.",
+                    blocks=[{"kind": "paragraph", "text": "First sentence."}],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "blocks are the shape of the text")
+
+
+def test_blocks_that_add_back_up_pass(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="First sentence. Second sentence.",
+                    blocks=[
+                        {"kind": "paragraph", "text": "First sentence."},
+                        {"kind": "paragraph", "text": "Second sentence."},
+                    ],
+                )
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []

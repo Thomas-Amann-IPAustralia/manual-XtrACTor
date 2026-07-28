@@ -1,6 +1,30 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The acts and documents to which extensions of time under section 224 are not applicable have been listed (prescribed) in reg 21.28. If an act or a document is prescribed, the time for the doing of the act or the filing of the document may be:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "extendible, because the legislation contains alternative extension of time provisions; or"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "not extendible, because the legislation contains no alternative extension of time provisions."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/2#1",
       "content_hash": "sha256:666dc26aadb145a4a09e420c795bad0a96a9066944eccf89c1012efb3f2620b5",
@@ -15,13 +39,13 @@
       "page_ref": "TMM/Part15/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s224",
           "mention": "section 224"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.28",
           "mention": "reg 21.28"
@@ -31,6 +55,63 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 The acts and documents to which extensions of time under section 224 are not applicable have been listed (prescribed) in reg 21.28. If an act or a document is prescribed, the time for the doing of the act or the filing of the document may be: extendible, because the legislation contains alternative extension of time provisions; or not extendible, because the legislation contains no alternative extension of time provisions."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "2.1.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Times for filing evidence (paragraph 21.28(1)(f)) in oppositions to registration/extension of protection and to removal/cessation of protection for non-use are extendible in the circumstances set out in regs 5.15, 9.18, 17A.34K and 17A.48T."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 51 General Opposition Proceedings - 2. Extension of the period for filing evidence"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.1.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of opposition to the registration of a trade mark (paragraph 21.28(2)(a)) is extendible in the circumstances set out in reg 5.9."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of opposition to the extension of protection to an IRDA (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.34C."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of intention to defend a trademark application (paragraph 21.28(2)(aa)) or an IRDA in opposition proceedings (paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 5.13A and 17A.34H respectively."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 47 Procedures for Opposing Registration or Protection"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of opposition to a non-use application (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 9.11."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of opposition to an application for cessation of protection (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.48L"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for filing a notice of intention to defend a removal application (paragraph 21.28(2)(ba)) or an application for cessation of protection in opposition proceedings paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 9.15A and 17A.48Q respectively."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 49 Non-use procedures"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(Regs 5.2, 9.2, 17A.29 and 17A.48 define a ‘notice of opposition’ as ‘(a) a notice of intention to oppose; and (b) a statement of grounds and particulars’.)"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/2/2/1",
       "content_hash": "sha256:a886925153353891d38178ab38e6516ebfee082f12aed14680499cbdbf993757",
@@ -176,6 +257,88 @@
       "text": "2.1.1 Times for filing evidence (paragraph 21.28(1)(f)) in oppositions to registration/extension of protection and to removal/cessation of protection for non-use are extendible in the circumstances set out in regs 5.15, 9.18, 17A.34K and 17A.48T. Part 51 General Opposition Proceedings - 2. Extension of the period for filing evidence 2.1.2 The time for filing a notice of opposition to the registration of a trade mark (paragraph 21.28(2)(a)) is extendible in the circumstances set out in reg 5.9. The time for filing a notice of opposition to the extension of protection to an IRDA (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.34C. The time for filing a notice of intention to defend a trademark application (paragraph 21.28(2)(aa)) or an IRDA in opposition proceedings (paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 5.13A and 17A.34H respectively. Part 47 Procedures for Opposing Registration or Protection The time for filing a notice of opposition to a non-use application (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 9.11. The time for filing a notice of opposition to an application for cessation of protection (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.48L The time for filing a notice of intention to defend a removal application (paragraph 21.28(2)(ba)) or an application for cessation of protection in opposition proceedings paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 9.15A and 17A.48Q respectively. Part 49 Non-use procedures (Regs 5.2, 9.2, 17A.29 and 17A.48 define a ‘notice of opposition’ as ‘(a) a notice of intention to oppose; and (b) a statement of grounds and particulars’.)"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "2.2.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time allowed for meeting minimum filing requirements (reg 4.2) - this act is prescribed by paragraph 21.28(1)(a)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.2"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.3"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.4"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.5"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.6"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.7"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.8"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.9"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2.10"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/2/2/2",
       "content_hash": "sha256:476fb31db4bb9ead520e806dddce7375f18c4614957dc4b990cb04dad03eae07",
@@ -327,6 +490,17 @@
       "text": "2.2.1 The time allowed for meeting minimum filing requirements (reg 4.2) - this act is prescribed by paragraph 21.28(1)(a). 2.2.2 The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa). 2.2.3 The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b). 2.2.4 The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c). 2.2.5 The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j). 2.2.6 The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k). 2.2.7 Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q). 2.2.8 The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b). 2.2.9 The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c). 2.2.10 The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The period of six months after the filing of an application in a convention country for filing an application in Australia claiming priority from the earlier application, is not extendible. This was clarified by an amendment to the Trade Mark Regulations in September 1999 (Trade Mark Amendment Regulations 1999 (No 2) 1999 No 186)."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 11 Convention Applications"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part15/2/2/3",
       "content_hash": "sha256:429a1237784ae453c6279e469cdbb0722a10d85f42260ada0983046b8d66e10e",
@@ -351,9 +525,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:90e70bf15367aae666d7ee0b68f0b3f73799bf7a0cd97b2c7728c3aaf98c81e5",
-    "crawled_at": "2026-07-28T08:53:43Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-07-04",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 15.2. When the general provision does not apply",
     "images": [],
     "last_amended": "2025-07-04",

@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Every application, notice or request filed (with the exception of International Registrations Designating Australia (IRDAs)) must contain details of an address for service in Australia or New Zealand (subsection 215(5))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Usually the address for service is that of the applicant itself or that of an intellectual property attorney or solicitor who is acting as the applicant's agent."
+        },
+        {
+          "kind": "paragraph",
+          "text": "6.1"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Only one address for service for joint applicants will be accepted as only one copy of any correspondence will issue to the applicants."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part10/6#1",
       "content_hash": "sha256:ddceba469bbff513801e15d5e82dca2d418cf6d62270d14e53852281084e5e2c",
@@ -15,7 +41,7 @@
       "page_ref": "TMM/Part10/6",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s215(5)",
           "mention": "subsection 215(5)"
@@ -29,9 +55,9 @@
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
     "content_hash": "sha256:bec828dfb9d4dc5d5a6b700849ee36e9d12e906f64e89d543140dd8dc5c33fee",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "10.6. Address for service",
     "images": [],
     "last_amended": "2025-01-17",

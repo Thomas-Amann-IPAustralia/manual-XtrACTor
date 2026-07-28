@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under the Trade Marks Act 1995, the onus is firmly on the party opposing the non-use application to rebut the particular allegation. Under section 100:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "if the attack is under section 92(4)(a), the opponent bears the onus of showing either:"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "an intention in good faith to use the trade mark, authorise its use by another or assign it to a body corporate for the use of that body corporate, or"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "use in good faith in the period up to one month before the date of filing of the removal application"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "if the attack is under section 92(4)(b), the owner bears the onus of demonstrating:"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "use in good faith in the three year period ending one month before the date of filing of the removal application, or"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "circumstances that were an obstacle to the use of the trade mark during that period."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When considering the above, it should be noted that:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the opponent to a non-use application does not have to be the registered owner of the trade mark (although in most cases it will be) but can be any person who has an interest of some sort in the trade mark remaining registered/protected for the relevant goods or services."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "use in good faith of the trade mark may include use of a trade mark with \"additions or alterations not substantially affecting its identity\" and may be in relation to closely related goods and/or services."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A general summary of what constitutes use of a trade mark is covered in Part 19A of this Manual. The question of what is required to show that there has been use of a mark sufficient to rebut an allegation of non-use under section 92(4)(b) has been considered judicially in Woolly Bull Enterprises Pty Ltd v Reynolds [2001] FCA 261; 51 IPR 149. Drummond J summarises the authorities on use. He also distinguishes (in paragraph 20) between a subjective intention to use, as opposed to an intention supported by an objective proof of commitment."
+        }
+      ],
       "cases": [
         {
           "citation": "[2001] FCA 261",
@@ -52,9 +114,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:7416c53560552789a49b5bcfc6871d52ae955115efc7e9c949bab646668c06b3",
-    "crawled_at": "2026-07-28T08:53:58Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 48.6. Burden on opponent to establish use of a trade mark",
     "images": [],
     "last_amended": "2025-04-01",

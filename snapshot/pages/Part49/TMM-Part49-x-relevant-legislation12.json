@@ -1,6 +1,68 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 1 April 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions: person, remove from the Register, registered owner, prescribed court"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 13 Definition of remove from the Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 9 Removal of trade mark for non-use and opposition thereto"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 93 Time for making application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 190 Prescribed courts"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 214 Withdrawal of application etc."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 215 Address for service"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 9 Removal of trade mark for non-use and opposition thereto"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A.2 Definitions: holder, International Bureau, protected international trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17A Division 5, Subdivision D Cessation of protection for non-use"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.6 Declarations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.7 Declarations - additional material"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/x-relevant-legislation12#1",
       "content_hash": "sha256:2c824242d32ff2f385cb7d52fe9f9cb2c8f4b75cc4944b6fc5594ea69f13bc3d",
@@ -15,64 +77,64 @@
       "page_ref": "TMM/Part49/x-relevant-legislation12",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s13",
           "mention": "Section 13"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s190",
           "mention": "Section 190"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s214",
           "mention": "Section 214"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "Section 215"
+        },
+        {
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s93",
           "mention": "Section 93"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A",
           "mention": "Reg 17A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.2",
           "mention": "Reg 17A.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.6",
           "mention": "Reg 21.6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.7",
           "mention": "Reg 21.7"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/s215",
-          "mention": "Section 215 Address for service Trade Marks Regulations 1995"
         }
       ],
       "tables": [],
@@ -83,9 +145,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:3b6d18d5ee8153abfb1ca762bc62dc961c8fb5c5b0d7d9f57f1220b174be461b",
-    "crawled_at": "2026-07-28T08:53:59Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 49. Landing Page",
     "images": [],
     "last_amended": "2025-04-01",

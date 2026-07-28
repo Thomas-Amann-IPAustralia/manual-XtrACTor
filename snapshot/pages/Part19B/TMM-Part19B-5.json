@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sections 24 and 25 provide two circumstances where the registered owner loses their exclusive right to use or authorise use of the trade mark (or part thereof)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part19B/5#1",
       "content_hash": "sha256:f885e374ed2ec4a7efb6f801c60a815641fa5d7d344059671e6228db1615e85c",
@@ -15,13 +29,13 @@
       "page_ref": "TMM/Part19B/5",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s24",
           "mention": "Sections 24 and 25"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s25",
           "mention": "Sections 24 and 25"
@@ -31,6 +45,16 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Sections 24 and 25 provide two circumstances where the registered owner loses their exclusive right to use or authorise use of the trade mark (or part thereof)."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under section 24, if a trade mark contains or consists of a sign which after the date of registration becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service, the registered owner loses the exclusive right to use or authorise use of the sign in relation to the article, substance or service (or articles, substances or services of the same description)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The rights of the registered owner cease from the date determined by the prescribed court to be the day the sign became generally accepted within the relevant trade as the sign that describes or is the name of the article, substance or service."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part19B/5/5/1",
       "content_hash": "sha256:b447587490b1405a865de65dc5b13566ee28df17ea36c4cf949cfb90468c8f8e",
@@ -56,6 +80,36 @@
       "text": "Under section 24, if a trade mark contains or consists of a sign which after the date of registration becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service, the registered owner loses the exclusive right to use or authorise use of the sign in relation to the article, substance or service (or articles, substances or services of the same description). The rights of the registered owner cease from the date determined by the prescribed court to be the day the sign became generally accepted within the relevant trade as the sign that describes or is the name of the article, substance or service."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If a trade mark contains or consists of a sign that describes or is the name of:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "i. an article or substance formerly exploited under a patent; or"
+        },
+        {
+          "kind": "paragraph",
+          "text": "ii. a service that was formerly provided as a patented process;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "and"
+        },
+        {
+          "kind": "paragraph",
+          "text": "the sign is the only commonly known way to describe or identify the article, substance or service,"
+        },
+        {
+          "kind": "paragraph",
+          "text": "the owner loses its exclusive right to use or authorise use of the sign in relation to that article, substance or service (or those of the same description)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The exclusive rights of the registered owner, in either case, cease from the end of the period of two years after the date the patent expired or ceased. (see Mayne Industries Pty Ltd v Advanced Engineering Group Pty Ltd (2008) 75 IPR 102)."
+        }
+      ],
       "cases": [
         {
           "citation": "(2008) 75 IPR 102",
@@ -83,9 +137,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:4a9b699e7839f81936b26760826478f11ab593c09ff9729202e45becac3a42fa",
-    "crawled_at": "2026-07-28T08:53:45Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 19B.5. Loss of exclusive rights",
     "images": [],
     "last_amended": "2025-06-03",

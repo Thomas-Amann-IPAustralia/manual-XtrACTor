@@ -1,6 +1,42 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The use must be on, or in physical or other relation to, the goods or services, for example:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use on the goods themselves"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use on swing tags or labels"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use on invoices, receipts etc provided in the course of trading the goods or services"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use in advertising material"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use on other printed or electronic material offering the goods or services for sale"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Use on shop fronts, websites and physical displays where goods or services are offered for sale"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part19A/5#1",
       "content_hash": "sha256:05eab94bf8ff1bfa5283a88bcffc019aef3ea5983dfdf8e5f66f5c4ec68ea40d",
@@ -22,9 +58,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:96d7c95f87258aed84343d41d4b995ab82ee786c2bcd270dc8921b0142fb7790",
-    "crawled_at": "2026-07-28T08:53:44Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "19A.5. Use 'in relation to goods or services'",
     "images": [],
     "last_amended": "2022-04-20",

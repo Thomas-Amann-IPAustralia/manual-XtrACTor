@@ -6,7 +6,8 @@ schema/ and a fixture snapshot alone.
 Beyond schema validation this module asserts the invariants a schema cannot
 express — every chunk.page_ref resolving to the page in its own file, globally
 unique chunk_refs, internal_refs targets existing in the snapshot, ordinals
-contiguous from 1.
+contiguous from 1, a provision id naming a kind of provision its instrument
+actually holds, and a chunk's blocks adding back up to its text.
 
 Reports every failure with file and JSON path rather than stopping at the
 first, and exits non-zero if there were any.
@@ -25,6 +26,7 @@ from typing import Any, Iterator
 from jsonschema import Draft202012Validator
 
 from tmm_snapshot import config
+from tmm_snapshot.citations import INSTRUMENT_KIND
 
 #: Retired pages are validated too. They stay in the snapshot precisely so that
 #: old citations keep resolving, and a citation resolving to a malformed record
@@ -123,6 +125,75 @@ def _inventory_refs(root: Path) -> set[str]:
         for page in pages
         if isinstance(page, dict) and isinstance(page.get("page_ref"), str)
     }
+
+
+def _provision_failures(chunk: dict[str, Any], at: str) -> list[str]:
+    """Provision ids whose instrument cannot hold the provision they name.
+
+    An Act is divided into sections and Regulations into regulations, so
+    `TMR1995/s224` names something that does not exist — section 224 is in the
+    Act. The schema's pattern cannot see this: it checks the shape of an id,
+    and the shape is fine. 20 such edges reached the July 2026 snapshot from a
+    lookahead that crossed a table's column boundary, every one of them
+    recorded as `explicit`, which is the confident end of the scale.
+
+    Only instruments this pipeline knows the kind of are checked. An id from an
+    AustLII href carries its kind structurally and cannot disagree with itself.
+    """
+    failures: list[str] = []
+    provisions = chunk.get("provisions")
+    if not isinstance(provisions, list):
+        return failures
+
+    for index, provision in enumerate(provisions):
+        if not isinstance(provision, dict):
+            continue
+        identifier = provision.get("id")
+        if not isinstance(identifier, str) or "/" not in identifier:
+            continue
+        instrument, _, address = identifier.partition("/")
+        expected = INSTRUMENT_KIND.get(instrument)
+        if expected is None or not address:
+            continue
+        if address[0] != expected:
+            holds = "sections" if expected == "s" else "regulations"
+            failures.append(
+                f"{at} provisions[{index}]: {identifier} addresses "
+                f"{instrument} as if it held "
+                f"{'regulations' if address[0] == 'r' else 'sections'}, but it "
+                f"holds {holds}; the instrument and the reference word "
+                "disagree and one of them is wrong"
+            )
+
+    return failures
+
+
+def _block_failures(chunk: dict[str, Any], at: str) -> list[str]:
+    """Blocks that do not add back up to the chunk's text.
+
+    `blocks` records the shape `text` was flattened from and must never become
+    a second, drifting copy of the words. Joining them reproduces `text`
+    exactly, so this is a total check rather than a sample: a dropped
+    paragraph, a list item counted twice under its parent, or a block whose
+    words were edited all fail here and nowhere else.
+    """
+    blocks = chunk.get("blocks")
+    text = chunk.get("text")
+    if not isinstance(blocks, list) or not isinstance(text, str):
+        return []
+
+    joined = " ".join(
+        block["text"]
+        for block in blocks
+        if isinstance(block, dict) and isinstance(block.get("text"), str)
+    )
+    if joined == text:
+        return []
+    return [
+        f"{at}: joining blocks gives {len(joined)} characters and text holds "
+        f"{len(text)}; blocks are the shape of the text and cannot hold "
+        "different words from it"
+    ]
 
 
 def _location_failures(
@@ -254,6 +325,9 @@ def validate_snapshot(root: Path) -> list[str]:
             ordinal = chunk.get("ordinal")
             if isinstance(ordinal, int) and not isinstance(ordinal, bool):
                 ordinals.append(ordinal)
+
+            failures.extend(_provision_failures(chunk, at))
+            failures.extend(_block_failures(chunk, at))
 
             references = chunk.get("internal_refs")
             if isinstance(references, list):

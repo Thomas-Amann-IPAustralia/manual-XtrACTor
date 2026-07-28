@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 16 of the Trade Marks Act 1995 (section 168 - 183) provides for the registration of certification trade marks."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.1 A certification trade mark is used or intended to be used to distinguish goods or services dealt with or provided in the course of trade and certified by the owner of the trade mark or by another person approved by the owner of the trade mark (an approved certifier), from goods or services not so certified (section 169)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.2 The trade mark certifies the quality, accuracy or some other characteristic of the goods or services including (in the case of goods) their origin, the material from which they are made, and their mode of manufacture (section 169)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.3 The owner of the certification trade mark (or a person approved by the registered owner) can use the trade mark on goods or services in respect of which it is registered (see the Note to section 169) provided that the use is in accordance with the rules governing the use of the certification trade mark (section 171)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.4 The rules governing use of a certification trade mark must be assessed and approved by the Australian Competition and Consumer Commission (Commission) before the trade mark can be accepted for registration."
+        },
+        {
+          "kind": "paragraph",
+          "text": "PLEASE NOTE: The role of the Commission in relation to the approval of Certification Trade Marks, as set out in Part 16 of the Trade Marks Act 1995 and the Regulations, is described in more detail in a brochure \"Certification trade marks - the role of the ACCC\" which is available on the ACCC’s website - www.accc.gov.au."
+        },
+        {
+          "kind": "text",
+          "text": "1.5 Differences between a certification trade mark and a standard trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Certification trade marks serve a different purpose to standard or collective trade marks. For example, use of a certification trade mark on goods does not indicate who made or manufactured the goods. Rather, a certification trade mark indicates that the goods are certified as meeting a particular standard of quality or accuracy, or as having a particular composition, mode of manufacture, geographical origin or some other characteristic."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part35/1#1~1",
       "content_hash": "sha256:ccbee0dc6b8238e370f086760813dc5b33d4ca6af14260889b75da6902fd3ec6",
@@ -18,7 +60,7 @@
       "page_ref": "TMM/Part35/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s168",
           "mention": "section 168"
@@ -38,6 +80,16 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 Part 16 of the Trade Marks Act 1995 (section 168 - 183) provides for the registration of certification trade marks. 1.1 A certification trade mark is used or intended to be used to distinguish goods or services dealt with or provided in the course of trade and certified by the owner of the trade mark or by another person approved by the owner of the trade mark (an approved certifier), from goods or services not so certified (section 169). 1.2 The trade mark certifies the quality, accuracy or some other characteristic of the goods or services including (in the case of goods) their origin, the material from which they are made, and their mode of manufacture (section 169). 1.3 The owner of the certification trade mark (or a person approved by the registered owner) can use the trade mark on goods or services in respect of which it is registered (see the Note to section 169) provided that the use is in accordance with the rules governing the use of the certification trade mark (section 171). 1.4 The rules governing use of a certification trade mark must be assessed and approved by the Australian Competition and Consumer Commission (Commission) before the trade mark can be accepted for registration. PLEASE NOTE: The role of the Commission in relation to the approval of Certification Trade Marks, as set out in Part 16 of the Trade Marks Act 1995 and the Regulations, is described in more detail in a brochure \"Certification trade marks - the role of the ACCC\" which is available on the ACCC’s website - www.accc.gov.au. 1.5 Differences between a certification trade mark and a standard trade mark Certification trade marks serve a different purpose to standard or collective trade marks. For example, use of a certification trade mark on goods does not indicate who made or manufactured the goods. Rather, a certification trade mark indicates that the goods are certified as meeting a particular standard of quality or accuracy, or as having a particular composition, mode of manufacture, geographical origin or some other characteristic."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Standard trade mark protection can give rise to exclusive property rights being given to a person for their own personal business use. To ensure that trade mark owners do not obtain monopoly rights over words or devices etc. that should be commonly available to other traders, the Registrar is careful in the assessment of trade marks which contain descriptive or geographic references."
+        },
+        {
+          "kind": "paragraph",
+          "text": "By contrast, certification trade marks are not primarily filed by a person seeking a monopoly right to the exclusion of all others. Certification trade marks are generally filed by a representative body from an industry group who wants to regulate a scheme which identifies a characteristic of particular goods or services. As such, trade marks containing descriptive or geographic references may more easily meet the requirements for protection as a certification trade mark (in comparison to protection as a standard trade mark)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part35/1#1~2",
       "content_hash": "sha256:daac80172b0b793516165eac0894db1b7997d94d886b51413b34a70de2e24e9e",
@@ -62,9 +114,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:f05b4e6010ed0ee739f03348320188e18a2d73fd10400d3cd7c41391b44b53a3",
-    "crawled_at": "2026-07-28T08:53:54Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "35.1. What is a certification trade mark?",
     "images": [],
     "last_amended": "2026-02-11",

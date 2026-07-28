@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions - sign"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 17 What is a trade mark?"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 33 Application accepted or rejected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 41 Trade mark not distinguishing applicant’s goods or services"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/x-relevant-legislation44#1",
       "content_hash": "sha256:99f02a7c55399a7cb4631c51f79d10240c822662a6dd2ffb699e68c06e3d3803",
@@ -43,9 +65,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:0e6993693b972d253dc364ecf17c8ab8283077e3203e27ebe305a93c71b26c94",
-    "crawled_at": "2026-07-28T08:53:46Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

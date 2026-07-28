@@ -1,6 +1,40 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions - \"divisional application\" has the meaning given by section 45; \"filing date\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 45 Divisional Applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 46 Rules relating to divisional applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.2AA Divisional application – additional requirement for filing"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 7.2 Particulars to be entered in the Register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 21.28 Extension of time—prescribed acts and documents"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part12/x-relevant-legislation30#1",
       "content_hash": "sha256:0f362a5ea5353aa743d303fcd42ee36b60cd411be15d30c8036a5694656d7ae3",
@@ -15,37 +49,37 @@
       "page_ref": "TMM/Part12/x-relevant-legislation30",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s45",
           "mention": "section 45"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s46",
           "mention": "Section 46"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.28",
           "mention": "Reg 21.28"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.2A",
           "mention": "Reg 4.2A"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.2",
           "mention": "Reg 7.2"
@@ -59,9 +93,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:e9dfd9a1f99ae0fa35ebad5b228ceabce67fae2ef063ae67e948a4b54d72c5d8",
-    "crawled_at": "2026-07-28T08:53:39Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "12. Landing page",
     "images": [],
     "last_amended": "2026-07-20",

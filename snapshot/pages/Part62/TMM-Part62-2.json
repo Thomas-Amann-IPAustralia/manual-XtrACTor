@@ -1,6 +1,27 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Subsection 84A(6) clarifies that the Registrar does not have a duty to consider whether to revoke a registration. The Registrar is under no obligation to consider any third party request for revocation of registration."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Revocation of registration can only occur if the Registrar gives notice of the proposed revocation with 12 months from the date the trade mark’s registration was recorded in the database."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The Registrar must consider all the circumstances when deciding whether to revoke or not."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "The Registrar must not revoke registration until notice has been given to the registered owner of the trade mark, and any claimed interest recorded under Part 11, and they have been given the opportunity to be heard."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/2#1",
       "content_hash": "sha256:199d94d11ea440c228931ba32b18c83c476a80b79aa8f863c2d4a4b9ee195609",
@@ -29,9 +50,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:b2eeac546f4d249e41d4996cf10d2b283766ebf6fed4d42f980751043fa7358f",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.2. Prerequisites to revocation of registration",
     "images": [],
     "last_amended": "2022-04-20",

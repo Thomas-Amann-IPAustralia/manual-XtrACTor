@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When an application for registration is accepted on the basis of honest concurrent use (para 44(3)(a) and/or reg 4.15A(3)(a)), other circumstances (para 44(3)(b) and/or reg 4.15A(3)(b)) or prior use (s 44(4) and/or reg 4.15A(5)), an endorsement is entered on the system to indicate the provisions applied. The appropriate form of endorsement is one of the following:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Provisions of paragraph 44(3)(a) and/or Reg 4.15A(3)(a) applied"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Provisions of paragraph 44(3)(b) and/or Reg 4.15A(3)(b) applied"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Provisions of subsection 44(4) and/or Reg 4.15A(5) applied"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Office as a courtesy, informs the proprietors of cited trade marks when acceptance of an application is made under the provisions of s 44(3) and 44(4) and/or reg 4.15A. This does not apply in relation to holders of International Registrations Designating Australia (IRDAs)."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part28/8#1",
       "content_hash": "sha256:0331003405e657c77cc863838ce70a9a9207e11a193be65a3e844e5b8ecdaa5d",
@@ -63,9 +85,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:9a072651a372b74588b5c107b1815a3952e01519bf3feab416cc7e9ea0c17947",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "28.8. Endorsements where the provisions of s 44(3) or 44(4) and/or reg 4.15A are applied",
     "images": [],
     "last_amended": "2023-10-10",

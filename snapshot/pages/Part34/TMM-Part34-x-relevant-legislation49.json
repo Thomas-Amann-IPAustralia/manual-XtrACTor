@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Part 17 Defensive Trade Marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 17.1 Evidence in support of applications"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part34/x-relevant-legislation49#1",
       "content_hash": "sha256:3008df6c1062c404bc1693d3eaf29b47777ffdbb4e834492909f4b01703d97a7",
@@ -28,9 +46,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:46bf7ebc1a8e8fcb0496ba705197a771730531e1473dc7f902f4b44b94d17ef0",
-    "crawled_at": "2026-07-28T08:53:54Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "34. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

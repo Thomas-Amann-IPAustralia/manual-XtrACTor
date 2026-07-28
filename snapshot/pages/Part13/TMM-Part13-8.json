@@ -1,6 +1,37 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A divisional application may be made in respect of a series application, in accordance with the general divisional provisions."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 12 Divisional Applications"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A divisional of a series application must be filed in respect of all of the same trade marks in the parent application, in order to meet the requirements of section 46(1) (i.e. divisional validity). That is, the trade marks in the parent and child, when the divisional application is filed, must be identical."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the parent or child contains an invalid series, the applicant may resolve this problem by removing trade marks from the parent and/or the child pursuant to section 65(3), in order to meet the requirements of section 51(1). An amendment to the trade marks in one application has no effect on options available in respect of the other."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The compliance of the divisional with the requirements of section 51(1) will depend on the marks contained within the series and the goods/services that form part of the divisional (which will be some only of the goods/services of the parent). The divisional should be reassessed against the requirements of section 51(1) at examination, to ensure the series remains valid for the goods/services included in the divisional."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part13/8#1",
       "content_hash": "sha256:7b375955f5741919b319ff221a96f85ce9b78ba328ccbe8e954e0d7f9701495d",
@@ -17,19 +48,19 @@
       "page_ref": "TMM/Part13/8",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s46(1)",
           "mention": "section 46(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s51(1)",
           "mention": "section 51(1)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s65(3)",
           "mention": "section 65(3)"
@@ -43,9 +74,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:95e2cfbbac1e4994cbb6adf3d45ee11850a5e4b7d1904b22f4464dcf2d59d735",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "13.8. Divisional Applications from Series",
     "images": [],
     "last_amended": "2026-06-03",

@@ -1,6 +1,28 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 217A Prescribed documents relating to trade marks to be made available for public inspection"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 226A Requirements for confidential treatment of information held in the Trade Marks Office"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 21.11A Documents to be made available for public inspection"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part61/x-relevant-legislation43#1",
       "content_hash": "sha256:c22462c7fe832603e700c19ead57f716b4e7e7838530d7771c7dcc12dd0e7e43",
@@ -41,9 +63,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:02dd0f04c8feee49f1fdbd803774c9f9a3184840a85c60aa8b8cd487df01b604",
-    "crawled_at": "2026-07-28T08:54:03Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "61. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

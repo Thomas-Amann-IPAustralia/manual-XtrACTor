@@ -1,6 +1,129 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When declining an amendment request, include the following information in your report / letter:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A request to amend details of an application to register a trade mark must be made in writing by the applicant or their agent."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Amendments, including changes to address and address for service, do not attract any fees, except when amendment under sections 64 or 65 results in the inclusion of an extra prescribed class."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Amendments may be made in relation to all application details. These are:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "applicant's name"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "applicant's address"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "applicant's address for service"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "type of registration (certification, collective, defensive, standard)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "goods and/or services specification"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "class number"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade mark"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "convention priority claim (except that the priority date may not be made earlier) and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "details of the parent application included in a divisional application."
+        },
+        {
+          "kind": "paragraph",
+          "text": "What can be amended depends on when the particulars of the application have been published. Under section 30, the Registrar must publish the particulars of the application. The particulars are published in accordance with subregulations 4.7(1) and 4.7(2)(b). The particulars of the application are considered published when the following details are available on the database maintained by the Trade Marks Office:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade mark"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade mark number"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the applicant's name"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the date of filing the application"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "if the application is a divisional application, the details of the parent application"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "if claimed at filing, the details of any claim for a right of priority for the application"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the class number(s) of the goods and/or services in respect of which registration of the trade mark is sought"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the goods and/or services in respect of which registration of the trade mark is sought"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part9/2#1~1",
       "content_hash": "sha256:8ce810e051a8413ffc4b538d76e0b0b04cc95f8957c04e91d28a3d3d88c6b33c",
@@ -18,31 +141,31 @@
       "page_ref": "TMM/Part9/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s30",
           "mention": "section 30"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s64",
           "mention": "sections 64 or 65"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s65",
           "mention": "sections 64 or 65"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.7(1)",
           "mention": "subregulations 4.7(1) and 4.7(2)(b)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.7(2)(b)",
           "mention": "subregulations 4.7(1) and 4.7(2)(b)"
@@ -52,6 +175,96 @@
       "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard. When declining an amendment request, include the following information in your report / letter: While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee. A request to amend details of an application to register a trade mark must be made in writing by the applicant or their agent. Amendments, including changes to address and address for service, do not attract any fees, except when amendment under sections 64 or 65 results in the inclusion of an extra prescribed class. Amendments may be made in relation to all application details. These are: applicant's name applicant's address applicant's address for service type of registration (certification, collective, defensive, standard) goods and/or services specification class number the trade mark convention priority claim (except that the priority date may not be made earlier) and details of the parent application included in a divisional application. What can be amended depends on when the particulars of the application have been published. Under section 30, the Registrar must publish the particulars of the application. The particulars are published in accordance with subregulations 4.7(1) and 4.7(2)(b). The particulars of the application are considered published when the following details are available on the database maintained by the Trade Marks Office: the trade mark the trade mark number the applicant's name the date of filing the application if the application is a divisional application, the details of the parent application if claimed at filing, the details of any claim for a right of priority for the application the class number(s) of the goods and/or services in respect of which registration of the trade mark is sought the goods and/or services in respect of which registration of the trade mark is sought"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the request for amendment is after publication the Registrar will consider the request if it is fair and reasonable to do so. If a request is made a long time after the application was filed the amendment may not be allowed. All amendments need to be considered carefully by the Registrar before they are granted in order to lessen the potential adverse impact of such an amendment on other parties. The Registrar may also require a declaration to be filed in support of the request and a search of the Trade Marks database will be conducted for marks that might become conflicting because of the proposed amendment."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Any decision of the Registrar on an amendment made under Part 6 of the Act is appealable to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.1 Amendments by phone – what constitutes a minor amendment"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Only minor amendments may be made by phone. Before actioning a phone amendment staff will need to check that the person requesting the amendment is the address for service or the applicant as well as checking the details as filed to confirm the correction is a minor amendment. Details of the phone call are to be recorded in a Record of Conversation attached to file."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Examples of minor amendments include:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "an obvious typographical error or minor clerical mistake"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "changes to a convention application number in relation to a priority claim"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a typographical error in the address for service – only if the same firm, but different city has been nominated, e.g. Melbourne for Sydney"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "translation endorsements of non-English words and non-Roman characters"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "minor typographical changes to other endorsements"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following examples would not be minor amendments:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "changes to the name of the applicant"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "changes to the address of the applicant"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "changes for the address for service (if changing to different firm or representative)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "changes to the representation of the trade mark"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "adding or deleting goods and or services – apart from minor punctuation or misspelling"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "adding or transferring a class of goods and services"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "adding or changing endorsements – other than translations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the requested amendment is considered not to be minor, section 66A allows the Registrar to require the request to be made in writing."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part9/2#1~2",
       "content_hash": "sha256:6ae117fc9f32e47c40528c2459545ce175ac7773d5037f39f983272628486242",
@@ -79,6 +292,20 @@
       "text": "If the request for amendment is after publication the Registrar will consider the request if it is fair and reasonable to do so. If a request is made a long time after the application was filed the amendment may not be allowed. All amendments need to be considered carefully by the Registrar before they are granted in order to lessen the potential adverse impact of such an amendment on other parties. The Registrar may also require a declaration to be filed in support of the request and a search of the Trade Marks database will be conducted for marks that might become conflicting because of the proposed amendment. Any decision of the Registrar on an amendment made under Part 6 of the Act is appealable to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court). 2.1 Amendments by phone – what constitutes a minor amendment Only minor amendments may be made by phone. Before actioning a phone amendment staff will need to check that the person requesting the amendment is the address for service or the applicant as well as checking the details as filed to confirm the correction is a minor amendment. Details of the phone call are to be recorded in a Record of Conversation attached to file. Examples of minor amendments include: an obvious typographical error or minor clerical mistake changes to a convention application number in relation to a priority claim a typographical error in the address for service – only if the same firm, but different city has been nominated, e.g. Melbourne for Sydney translation endorsements of non-English words and non-Roman characters minor typographical changes to other endorsements The following examples would not be minor amendments: changes to the name of the applicant changes to the address of the applicant changes for the address for service (if changing to different firm or representative) changes to the representation of the trade mark adding or deleting goods and or services – apart from minor punctuation or misspelling adding or transferring a class of goods and services adding or changing endorsements – other than translations If the requested amendment is considered not to be minor, section 66A allows the Registrar to require the request to be made in writing."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If a customer submits an amendment request via email (and not through the online services page), there is an approved response for you to reply with to the customer. The script can be found in the Customer Service Centre Manual - 2.63. Both this email and your response should be saved to the RIO file."
+        },
+        {
+          "kind": "paragraph",
+          "text": "General questions regarding an amendment or any other matter can be handled via email. Again, all such emails and responses should be saved to the RIO file."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Whilst some amendments can be actioned by phone, certain actions can only be completed by appropriate staff. Phone requests for changes to a typographical error in the address for example, must be processed by Administration staff."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part9/2#1~3",
       "content_hash": "sha256:e74112d28a7fd3e85c3f4237902eeb3bb448b26c6b31907c426fc4a5f1ba2a51",
@@ -103,9 +330,9 @@
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
     "archived": false,
     "content_hash": "sha256:fc470ae4204589c57a6fc174d0edd827228537f0bd525ece44db778d33e52d45",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "9.2. Amendment of an application for a registration of a trade mark - general information",
     "images": [],
     "last_amended": "2025-10-22",

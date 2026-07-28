@@ -389,3 +389,99 @@ def test_a_repeated_heading_number_raises():
     ambiguous. Rule 3: a missing record is recoverable, a wrong one is not."""
     with pytest.raises(ChunkRefCollision, match="TMM/Part22/8/8/1"):
         synthetic("page_repeated_heading_number.html", REPEATED_NAV)
+
+
+# -- a heading that is the section ----------------------------------------
+
+HEADING_ONLY_NAV = NavPage(
+    url=(
+        "https://manuals.ipaustralia.gov.au/trademark/"
+        "9.-a-page-whose-headings-carry-the-content"
+    ),
+    page_ref="TMM/Part22/9",
+    part_id="Part22",
+    part_title="Part 22 Section 41 - Capable of Distinguishing",
+    nav_title="9. A page whose headings carry the content",
+    nav_ordinal=9,
+    kind="body",
+)
+
+REPEATED_LABEL_NAV = NavPage(
+    url=(
+        "https://manuals.ipaustralia.gov.au/trademark/"
+        "10.-a-page-with-a-repeated-heading-label"
+    ),
+    page_ref="TMM/Part22/10",
+    part_id="Part22",
+    part_title="Part 22 Section 41 - Capable of Distinguishing",
+    nav_title="10. A page with a repeated heading label",
+    nav_ordinal=10,
+    kind="body",
+)
+
+
+@pytest.fixture(scope="module")
+def heading_only():
+    return synthetic("page_heading_only_sections.html", HEADING_ONLY_NAV)
+
+
+def test_a_heading_with_nothing_under_it_is_still_chunked(heading_only):
+    """Part 61.3 states two of its four sections entirely in their own
+    heading. Dropping the section lost the words outright — the page has four
+    propositions and the snapshot held two."""
+    found = {chunk.chunk_ref: chunk for chunk in heading_only}
+
+    assert "TMM/Part22/9/9/2" in found
+    assert found["TMM/Part22/9/9/2"].text == (
+        "9.2 Documents that are not made available for public inspection can "
+        "be requested under the Freedom of Information Act."
+    )
+
+
+def test_a_heading_only_section_keeps_its_citations(heading_only):
+    """Parts 49, 52 and 55 set their footnotes as an `<h4>`. Part 55.2's
+    reference to AKT Consultants Pty Ltd v Alfa Laval Lund AB reached no case
+    list at all while those headings were being dropped."""
+    cases = {case["id"] for chunk in heading_only for case in chunk.cases}
+
+    assert "CASE/2006/IPR/70/347" in cases
+
+
+def test_an_empty_heading_is_not_chunked(heading_only):
+    """The CMS leaves behind headings holding only a stripped image or a
+    non-breaking space. There is nothing in one to record."""
+    assert all(chunk.text for chunk in heading_only)
+
+
+def test_a_heading_only_section_reads_as_its_own_leaf(heading_only):
+    found = {chunk.chunk_ref: chunk for chunk in heading_only}
+    chunk = found["TMM/Part22/9/9/2"]
+
+    assert chunk.heading_path[-1] == chunk.text
+
+
+# -- a label the Manual reuses --------------------------------------------
+
+
+def test_a_repeated_heading_label_falls_back_to_position():
+    """Part 29.9 calls the applicant of both worked examples 'XYZ Company'.
+    That is not a numbering defect and there is nobody to correct it, so the
+    two sections take positional addresses rather than the run failing."""
+    found = [chunk.chunk_ref for chunk in synthetic(
+        "page_repeated_heading_label.html", REPEATED_LABEL_NAV
+    )]
+
+    assert "TMM/Part22/10#2" in found
+    assert "TMM/Part22/10#4" in found
+    assert not any(ref.endswith("/xyz-company") for ref in found)
+
+
+def test_a_label_used_once_still_addresses_by_slug():
+    """The fallback is scoped to the labels that actually repeat: the other
+    headings on the same page keep their slugs."""
+    found = [chunk.chunk_ref for chunk in synthetic(
+        "page_repeated_heading_label.html", REPEATED_LABEL_NAV
+    )]
+
+    assert "TMM/Part22/10/grown-in-australia" in found
+    assert "TMM/Part22/10/casino-s-best-beef" in found

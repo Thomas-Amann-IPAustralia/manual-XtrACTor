@@ -1,6 +1,55 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The grounds for rectification set out in Division 2 of Part 8 of the Act apply to certification trade marks, noting that section 177 applies to certification trade marks instead of section 41."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 181(2) sets out additional grounds on which a certification trade mark may be cancelled or an entry in the Register may be removed or amended by order of a prescribed court."
+        },
+        {
+          "kind": "paragraph",
+          "text": "12.1 A person aggrieved may apply to the court requesting cancellation of a certification trade mark or the removal of or amendment to an entry in the Register relating to that trade mark on the grounds that:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the registered owner or an approved certifier is no longer competent to certify any of the goods and/or services in respect of which the trade mark is registered; or"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the rules governing the use of the certification trade mark are detrimental to the public; or"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the registered owner or an approved user has failed to comply with a provision of the rules governing the use of the certification trade mark (section 181(2))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "12.2 The Registrar must comply with any order made by a prescribed court (section 181(6))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "12.3 The rules governing the use of a certification trade mark may, on application of a person aggrieved, be varied by a prescribed court (section 182(1))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "12.4 If the court orders that the rules are to be varied, the registered owner of the certification trade mark must give to the Registrar a true copy, certified by the Commission, of the rules as varied (section 182(5))."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part35/12#1",
       "content_hash": "sha256:066a1b6e6f01ebd2538881e9e404e968a48917f4bcd5c44e5ba408590be0b991",
@@ -58,9 +107,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:38a1fac3ccfd06e1352865718eb72eaa433bc828ec3c280370122228ee32c16f",
-    "crawled_at": "2026-07-28T08:53:55Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "35.12. Rectification of the Register and variation of rules by order of the court",
     "images": [],
     "last_amended": "2026-02-11",

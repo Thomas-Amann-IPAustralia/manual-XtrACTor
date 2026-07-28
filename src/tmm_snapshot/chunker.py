@@ -20,6 +20,7 @@ from dataclasses import dataclass, field
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from tmm_snapshot import config
+from tmm_snapshot.blocks import extract_blocks
 from tmm_snapshot.citations import (
     extract_cases,
     extract_internal_refs,
@@ -93,6 +94,11 @@ class Chunk:
     #: about which cell sat under which column; this is where that survives.
     #: Empty for the great majority of chunks. See tables.py.
     tables: list[dict] = field(default_factory=list)
+    #: The paragraphs and list items `text` was flattened from, in order. Same
+    #: argument as `tables`, applied to the prose: joining them reproduces
+    #: `text` exactly, so nothing here is a second copy of the words in a
+    #: different shape — it is the shape itself. See blocks.py.
+    blocks: list[dict] = field(default_factory=list)
 
 
 def _units(body: Tag) -> list[tuple[str, Tag | NavigableString]]:
@@ -242,7 +248,61 @@ def _slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def _chunk_ref(page_ref: str, headings: list[Tag], ordinal: int) -> str:
+def _heading_address(headings: list[Tag]) -> tuple[str, bool] | None:
+    """The address segment a leaf heading supplies, and whether the Manual
+    printed it as a number.
+
+    Split out from `_chunk_ref` so that a page's headings can be counted before
+    any of them is used — see `_repeated_labels`.
+
+    Read through `flatten_text`, not `get_text(" ")`: the CMS lets an editor
+    highlight a single digit of a heading's number, and the separator then
+    lands inside the number — `3.<span>2</span>.1` reads as '3. 2 .1', whose
+    leading address is '3'. See SOURCE_NOTES.md §7.
+    """
+    if not headings:
+        return None
+    leaf = flatten_text(headings[-1])
+    match = _LEADING_ADDRESS.match(leaf)
+    if match is not None:
+        return match.group("address").replace(".", "/"), True
+    slug = _slug(leaf)
+    return (slug, False) if slug else None
+
+
+def _repeated_labels(sections: list[tuple[list[Tag], list]]) -> frozenset[str]:
+    """Slug addresses the page prints more than once.
+
+    A *number* printed twice is a numbering mistake, and the Manual's numbering
+    is what a citation to it rests on — that stays a `ChunkRefCollision`, loud,
+    for a human to take up with the Manual's authors.
+
+    A repeated *label* is not a mistake and there is nobody to take it up with.
+    Part 29.9 sets the applicant of each worked example as a heading and calls
+    both of them 'XYZ Company'; Part 29.4 does the same with the specimen mark
+    PLATYPUS. The Manual never promised that a label would identify a section,
+    only that a number would, so there is no defect here to report and no
+    correction to ask for — and raising would mean the corpus could not be
+    snapshotted at all.
+
+    Such a heading therefore falls back to the positional form. It is the
+    weaker address and it is the honest one: the Manual has given these two
+    sections nothing to tell them apart by.
+    """
+    seen: dict[str, int] = {}
+    for headings, _ in sections:
+        address = _heading_address(headings)
+        if address is not None and not address[1]:
+            seen[address[0]] = seen.get(address[0], 0) + 1
+    return frozenset(label for label, count in seen.items() if count > 1)
+
+
+def _chunk_ref(
+    page_ref: str,
+    headings: list[Tag],
+    ordinal: int,
+    repeated: frozenset[str] = frozenset(),
+) -> str:
     """The chunk's address.
 
     Three forms, strongest first.
@@ -272,23 +332,17 @@ def _chunk_ref(page_ref: str, headings: list[Tag], ordinal: int) -> str:
     number, and chunk_refs are meant to be read by people.
 
     **Position** — '#3' — for the prose above the page's first heading, which
-    has no heading to be named by, and for a heading whose text is punctuation
-    only. The first is common and costs nothing: a section with no heading is
-    the page preamble, so it is always ordinal 1 and nothing can be inserted
-    ahead of it. The second has never been seen.
-
-    Read through `flatten_text`, not `get_text(" ")`: the CMS lets an editor
-    highlight a single digit of a heading's number, and the separator then
-    lands inside the number — `3.<span>2</span>.1` reads as '3. 2 .1', whose
-    leading address is '3'. See SOURCE_NOTES.md §7.
+    has no heading to be named by, for a heading whose text is punctuation
+    only, and for a heading whose *label* the page prints more than once
+    (`repeated`, from `_repeated_labels` — a repeated *number* still raises).
+    The first is common and costs nothing: a section with no heading is the
+    page preamble, so it is always ordinal 1 and nothing can be inserted ahead
+    of it. The second has never been seen. The third is two sections on
+    Part 29.9.
     """
-    if headings:
-        leaf = flatten_text(headings[-1])
-        match = _LEADING_ADDRESS.match(leaf)
-        if match is not None:
-            return f"{page_ref}/{match.group('address').replace('.', '/')}"
-        if slug := _slug(leaf):
-            return f"{page_ref}/{slug}"
+    address = _heading_address(headings)
+    if address is not None and address[0] not in repeated:
+        return f"{page_ref}/{address[0]}"
     return f"{page_ref}#{ordinal}"
 
 
@@ -315,10 +369,33 @@ def chunk_body(
     seen: dict[str, int] = {}
     ordinal = 0
 
-    for headings, units in _sections(body):
+    sections = _sections(body)
+    repeated = _repeated_labels(sections)
+
+    for headings, units in sections:
         groups = _group(units)
         if not groups:
-            continue
+            # A heading with nothing under it, because the Manual put the
+            # section's content *in* the heading. Part 61.3 states two of its
+            # four propositions that way — '3.2 Documents that are not made
+            # available for public inspection can be requested under the
+            # Freedom of Information Act' is the whole of section 3.2 — and
+            # Parts 49, 52 and 55 set their footnotes as `<h4>`. Dropping the
+            # section lost the words entirely, and with them the citations
+            # inside them: Part 55.2's reference to AKT Consultants Pty Ltd v
+            # Alfa Laval Lund AB (2006) 70 IPR 347 reached no case list.
+            #
+            # The heading is therefore chunked as its own content. That is the
+            # verbatim reading — those words are on the page and belong to no
+            # other section — and it leaves the leaf of `heading_path` equal to
+            # `text`, which is honest about where the words came from.
+            # An empty heading carries nothing to chunk. The CMS leaves them
+            # behind — six pages have an `<h3>` holding only a stripped image
+            # or a non-breaking space — and they were already invisible before
+            # this branch existed. Nothing is lost by leaving them so.
+            if not headings or not flatten_text(headings[-1]):
+                continue
+            groups = [[headings[-1]]]
 
         heading_path = [
             nav.part_title,
@@ -327,7 +404,7 @@ def chunk_body(
         ]
         # One address per section, so that a section which had to be split
         # reads as '#3~1', '#3~2' rather than '#3~1', '#4~2'.
-        base = _chunk_ref(page.page_ref, headings, ordinal + 1)
+        base = _chunk_ref(page.page_ref, headings, ordinal + 1, repeated)
 
         for index, group in enumerate(groups, start=1):
             ordinal += 1
@@ -362,6 +439,7 @@ def chunk_body(
                     cases=extract_cases(text),
                     internal_refs=extract_internal_refs(fragment, inventory),
                     tables=extract_tables(fragment),
+                    blocks=extract_blocks(fragment),
                 )
             )
 

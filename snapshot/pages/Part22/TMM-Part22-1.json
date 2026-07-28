@@ -1,6 +1,21 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "4. The registrability of certification trade marks. Pursuant to section 41, an application for registration of a trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s goods and/or services from the goods and/or services of other persons."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 41 does not apply to certification trade marks. Section 177 deals with certification trade marks and the capacity to distinguish. For more information in relation to certification trade marks and the capacity to distinguish see:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 35 Certification Trade Marks – 4. The registrability of certification trade marks"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/1#1",
       "content_hash": "sha256:7d3393caf3acdaa38d4f49d067d54d629f00257a5ea6979b95a09aceb9a573b9",
@@ -31,6 +46,20 @@
       "text": "4. The registrability of certification trade marks. Pursuant to section 41, an application for registration of a trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s goods and/or services from the goods and/or services of other persons. Section 41 does not apply to certification trade marks. Section 177 deals with certification trade marks and the capacity to distinguish. For more information in relation to certification trade marks and the capacity to distinguish see: Part 35 Certification Trade Marks – 4. The registrability of certification trade marks"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Prior to the introduction of the 1995 Act, registrability of trade marks was governed by sections 24, 25 and 26 of the Trade Marks Act 1955. Any trade marks that met the tests for registrability in terms of being distinctive and inherently adapted to distinguish were accepted for registration in Part A of the Register."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade marks which did not meet the stringent tests for Part A were considered under section 26 of the Act for registration in Part B of the Register. Trade marks could be accepted in Part B if they were distinctive or \"capable of becoming distinctive.\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Whether registrable in Part A or Part B, trade marks had to have some degree of inherent adaptation to distinguish. The phrase \"capable of becoming distinctive\" is approximately equivalent to the expression \"capable of distinguishing\" which appears in section 41 of the 1995 Act."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/1/1/1",
       "content_hash": "sha256:82468936d47e90d7d0e2d67ec6e4b0b9de1ea48b48652a0b5df35fc5d8629ebb",
@@ -80,6 +109,20 @@
       "text": "Prior to the introduction of the 1995 Act, registrability of trade marks was governed by sections 24, 25 and 26 of the Trade Marks Act 1955. Any trade marks that met the tests for registrability in terms of being distinctive and inherently adapted to distinguish were accepted for registration in Part A of the Register. Trade marks which did not meet the stringent tests for Part A were considered under section 26 of the Act for registration in Part B of the Register. Trade marks could be accepted in Part B if they were distinctive or \"capable of becoming distinctive.\" Whether registrable in Part A or Part B, trade marks had to have some degree of inherent adaptation to distinguish. The phrase \"capable of becoming distinctive\" is approximately equivalent to the expression \"capable of distinguishing\" which appears in section 41 of the 1995 Act."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 41 of the Trade Marks Act 1995 was amended by the Intellectual Property Laws Amendment (Raising the Bar) Act 2012. The repealed section 41 is set out in full in Annex A1 to this Part of the Manual."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Raising the Bar came into effect on 15 April 2013. It does not contain an application or savings provision in relation to the amendments to section 41. As such the application of section 41 is regulated by section 7 of the Acts Interpretation Act 1901."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Section 6 of the Act defines the filing date of a divisional application as the filing date of the parent application. For more information in relation to Raising the Bar and divisional applications see: • Part 12 Divisional Applications – 9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part22/1/1/2",
       "content_hash": "sha256:883e53abac91481ce865700c624b7b3f17c9d997a1d7c43f0e437534a5b065e3",
@@ -122,9 +165,9 @@
     "amendment_note": "Minor updates.",
     "archived": false,
     "content_hash": "sha256:34a1558a98111e8f268ed2eb193fff5cfcc804a4e5e4c4085d4618649125d9de",
-    "crawled_at": "2026-07-28T08:53:46Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "22.1. Registrability under section 41 of the Trade Marks Act 1995",
     "images": [],
     "last_amended": "2022-12-19",

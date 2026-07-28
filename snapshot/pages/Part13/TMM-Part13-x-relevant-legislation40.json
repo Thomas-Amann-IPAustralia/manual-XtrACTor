@@ -1,6 +1,36 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part published 2 June 2026"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Subsection 27(5) Application - how made"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 51 Application - series of trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.3 Representation of trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schedule 9 Fee Item 3"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part13/x-relevant-legislation40#1",
       "content_hash": "sha256:95e9801db7f0edc53ca316b3b8027be7716b059adafa3ca15d90c9d0052ccc0f",
@@ -15,19 +45,19 @@
       "page_ref": "TMM/Part13/x-relevant-legislation40",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s27(5)",
           "mention": "Subsection 27(5)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s51",
           "mention": "Section 51"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.3",
           "mention": "Reg 4.3"
@@ -41,9 +71,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:a66ffac34e1ddf70c0a271216d4d73a99afa644e6cfe5b65d7448365ce9bea54",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "13. Landing Page",
     "images": [],
     "last_amended": "2026-06-03",

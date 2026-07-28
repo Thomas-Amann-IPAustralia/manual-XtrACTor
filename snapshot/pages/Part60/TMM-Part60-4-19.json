@@ -1,6 +1,88 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "4.19.1 Relevant Legislation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Madrid Protocol"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Article 9bis Recordal of Certain Matters concerning an International Registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rule 25 Request for Recording of a Change; Request for Recording of a Cancellation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rule 26 Irregularities in Requests for Recording of a Change and for Recording of a Cancellation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulation 17A - Division 5 Protected international trade marks - amendment or cessation of protection"
+        },
+        {
+          "kind": "paragraph",
+          "text": "4.19.2 General Description"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The protection of a protected international trade mark may cease or be limited in the following circumstances;"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "where the IB cancels, in whole or part, the international registration of a trade mark, the trade mark ceases to be a protected international trade mark, to the extent of the cancellation,"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "where a court on the application of a person aggrieved, orders that:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "a. the protection of a protected international trade mark cease, or"
+        },
+        {
+          "kind": "paragraph",
+          "text": "b. an entry in the Record of International Registrations relating to the protected international trade mark be removed or amended,"
+        },
+        {
+          "kind": "paragraph",
+          "text": "the trade mark ceases to be a protected international trade mark to the extent of the order."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where the Registrar decides, or is directed by a court, to cease protection of a protected international trade mark, the Registrar must notify the IB of the decision or order."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Where the Registrar decides, or is directed by a court, that the trade mark should be protected subject to conditions or limitations, the Registrar must notify the IB accordingly."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Where a non-use action is successful, and the protected international trade mark ceases or is restricted, the Registrar must notify the IB accordingly."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If an international registration that has designated Australia ceases or is limited, the IB must notify Australia. IP Australia must amend the Record of International Registration accordingly. However, the Registrar may declare that a limitation in respect of Australia of the goods and/or services listed in an international registration has no or some effect, for example where the limitation would extend the rights of the holder. Such a declaration must be made within the declaration period, as defined in Regulation 17A.27, and a copy of the declaration must be sent to the IB."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/4/19#1~1",
       "content_hash": "sha256:e512b8a1b04f99a29a963eb757996194391a228d6bb4d093bb9bbd84f579f7d9",
@@ -38,6 +120,16 @@
       "text": "4.19.1 Relevant Legislation Madrid Protocol Article 9bis Recordal of Certain Matters concerning an International Registration Madrid Protocol Regulations Rule 25 Request for Recording of a Change; Request for Recording of a Cancellation Rule 26 Irregularities in Requests for Recording of a Change and for Recording of a Cancellation Trade Marks Regulations 1995 Regulation 17A - Division 5 Protected international trade marks - amendment or cessation of protection 4.19.2 General Description The protection of a protected international trade mark may cease or be limited in the following circumstances; where the IB cancels, in whole or part, the international registration of a trade mark, the trade mark ceases to be a protected international trade mark, to the extent of the cancellation, where a court on the application of a person aggrieved, orders that: a. the protection of a protected international trade mark cease, or b. an entry in the Record of International Registrations relating to the protected international trade mark be removed or amended, the trade mark ceases to be a protected international trade mark to the extent of the order. Where the Registrar decides, or is directed by a court, to cease protection of a protected international trade mark, the Registrar must notify the IB of the decision or order. Where the Registrar decides, or is directed by a court, that the trade mark should be protected subject to conditions or limitations, the Registrar must notify the IB accordingly. Where a non-use action is successful, and the protected international trade mark ceases or is restricted, the Registrar must notify the IB accordingly. If an international registration that has designated Australia ceases or is limited, the IB must notify Australia. IP Australia must amend the Record of International Registration accordingly. However, the Registrar may declare that a limitation in respect of Australia of the goods and/or services listed in an international registration has no or some effect, for example where the limitation would extend the rights of the holder. Such a declaration must be made within the declaration period, as defined in Regulation 17A.27, and a copy of the declaration must be sent to the IB."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the Registrar declares that the limitation has no effect in Australia and sends a copy of the declaration to the IB during the declaration period, then the protection extended to the international registration is to be taken as never having been amended in accordance with the limitation. If the Registrar declares that the limitation has partial effect in Australia and sends a copy of the declaration to the IB within the declaration period, the protection extended is to be taken to have been amended in accordance with the limitation as effected by the declaration."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Similarly, IP Australia must notify the IB if the protection extended to an international registration in Australia ceases or is limited. The IB will then update the International Register."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/4/19#1~2",
       "content_hash": "sha256:b50855fee78ef566d67cf9266f227a5195b28159ed009b5bb3cb1d7f019c17a6",
@@ -62,9 +154,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:06a5b6a2905c447ec8b271f74e408800977373e771c531ce1c5f56064b21b713",
-    "crawled_at": "2026-07-28T08:54:03Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "60.4.19 Cessation or Limitation of Protection",
     "images": [],
     "last_amended": "2026-04-17",

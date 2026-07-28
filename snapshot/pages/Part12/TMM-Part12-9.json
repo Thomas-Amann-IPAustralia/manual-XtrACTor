@@ -1,6 +1,48 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For divisional applications lodged on or after 15 April 2013, the wording of section 41 which is relevant depends on the filing date taken from the parent application (or if the parent application is itself a divisional application, the filing date of the earliest application in the chain of divisional applications)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If this filing date is prior to 15 April 2013, then the pre-amendment wording for section 41 is relevant (grounds for rejection under s41 (5) or (6)). If this filing date is on or after 15 April 2013, then the amended wording for section 41 is relevant (grounds for rejection under s41 (4) or (3))."
+        },
+        {
+          "kind": "paragraph",
+          "text": "By way of example:"
+        },
+        {
+          "kind": "text",
+          "text": "Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 1 ABC Pty Ltd 1/8/2010 1/8/2010 Pre-amendment S41(5) or (6) TM 2 ABC Pty Ltd 1/6/2013 1/8/2010 (claimed from TM 1) Pre-amendment S41(5) or (6)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where TM 2 is a valid divisional application of TM 1"
+        },
+        {
+          "kind": "text",
+          "text": "Trade Mark No. Applicant Date Filed Filing Date S41 grounds for rejection considered under TM 3 XYZ Pty Ltd 1/6/2013 1/6/2013 Post-amendment S41(4) or (3) TM 4 XYZ Pty Ltd 1/2/2014 1/6/2013 (claimed from TM 3) Post-amendment S41(4) or (3)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where TM 4 is a valid divisional application of TM 3."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If an applicant agrees to delete all references to a divisional, and by doing so the application no longer has a filing date before 15 April 2013, any s41(5) or s41(6) grounds for rejection will need to be reconsidered in terms of s41(3) or s41(4)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In this case, the new version of section 41 (i.e. s 41(3) or s 41(4) should be referred to in reports, and an explanation should be provided referring to the removal of claims to a divisional changing the relevant iteration of Section 41 which applies due to the implementation of the Intellectual Property Laws Amendment (Raising the Bar) Act 2012."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Should the application be accepted on the basis of evidence or other circumstances, the endorsement must reflect the version of section 41 in force as at the filing date for the application."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part12/9#1",
       "content_hash": "sha256:9c16bb801dcd2474171897b4271ea8bb1a821532804bb74ba45917e647599d07",
@@ -171,9 +213,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:ab310eb7d8034fd7ec0bc5355ce9471937f211296bb79e6bf3ae6e5f720277ff",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "9. Divisional applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
     "images": [],
     "last_amended": "2026-07-20",

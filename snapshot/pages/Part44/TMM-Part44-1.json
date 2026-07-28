@@ -1,6 +1,32 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A person who claims an interest in a registered trade mark, or a trade mark whose registration is being sought, can apply to record that interest with the Registrar of Trade Marks. Recordal of an interest imposes on the Registrar an obligation to notify the interest holder of certain events."
+        },
+        {
+          "kind": "paragraph",
+          "text": "NOTE: It is very important that any person holding a security interest in a trade mark strongly consider registering that security interest in the Personal Property Securities Register (‘PPSR’). More information on what constitutes a security interest, the process for registering a security interest on the PPSR, and the benefits of registration on the PPSR, can be found at: https://www.ppsr.gov.au/."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Recordal of a claimed interest with the Registrar of Trade Marks does not provide the same rights as registration on the PPSR."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 112(a) makes provision for recording in the Register claims to interests in, or rights in respect of, registered trade marks that may not be so recorded under another Part of the Act. Section 113 allows for the recording of interests or rights that cannot be recorded in the Register under Part 10. Regulation 17A.61 also provides for the recording in the Register claims to interest on a trade mark that is the subject of an IRDA or is a protected international trade mark."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part44/1#1",
       "content_hash": "sha256:109242cde049514deac8cc0116aa343f19a094d6c5a8d51c4dfbe11d560a7adb",
@@ -15,19 +41,19 @@
       "page_ref": "TMM/Part44/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s112(a)",
           "mention": "Section 112(a)"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s113",
           "mention": "Section 113"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.61",
           "mention": "Regulation 17A.61"
@@ -41,9 +67,9 @@
     "amendment_note": "Page renamed. Links updated. Content updated.",
     "archived": false,
     "content_hash": "sha256:2f5bbfede227a5016beb7fe530c5466a03f771415a37bbc0171efa20776d8792",
-    "crawled_at": "2026-07-28T08:53:57Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 44.1. Background",
     "images": [],
     "last_amended": "2025-02-25",

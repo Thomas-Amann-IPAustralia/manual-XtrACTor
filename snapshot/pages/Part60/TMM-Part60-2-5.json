@@ -1,6 +1,91 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "2.5.1 Relevant Legislation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Madrid Protocol"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Article 8 Fees for International Application and Registration"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rule 10 Fees Concerning the International Application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schedule 9 Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.5.2 General Description"
+        },
+        {
+          "kind": "paragraph",
+          "text": "International application fees must be paid before the international application can be recorded in the International Register. Fees are paid directly to the IB in Swiss francs."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.5.3 Application Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The current international application fees include:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a basic fee (note that the basic fee is greater where the reproduction of the mark is in colour)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "a complementary fee for each designated country which does not require an individual fee, or the individual fee for those designated countries that require it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "or a supplementary fee for each class of goods and/or services over three classes in the international application. This fee does not apply if all the designated countries have individual fees."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A number of countries including Australia, receive an individual fee instead of their share of the supplementary/complementary fees. The individual fee can be no higher than the equivalent national filing and registration fee(s). The WIPO website includes a fee calculator which makes the calculations in Swiss francs."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: All country fees paid under the Madrid Protocol cover both the application and registration for a period of ten years, except for where the Contracting Party has made a declaration that the individual fee in respect of a designation of that Contracting Party comprises two parts, the first part at the time of filing the international application or subsequent designation and the second part to be paid at a later date, which is determined in accordance with the law of that Contracting Party. The list of individual fees, including information on Contracting Parties that have a two part fee, is at: http://www.wipo.int/madrid/en/fees/ind_taxes.html"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.5.4 Subsequent Designation Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a country or countries are added to the international registration (subsequent designation), the fees applicable include the basic fee and a complimentary fee/individual fee. Unlike an application, there is no supplementary fee to pay for a subsequent designation."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/2/5#1",
       "content_hash": "sha256:f72483fc1d25d437bb14bb6bd095ca0cc8f6bfe3d73ff47965361be53f1544b2",
@@ -28,9 +113,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:3f7c138ea374dceb1ec905497926afc8ac31b9a8241a93ea68d7a3c19249385c",
-    "crawled_at": "2026-07-28T08:54:02Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "60.2.5 Fees for International Applications",
     "images": [],
     "last_amended": "2026-04-17",

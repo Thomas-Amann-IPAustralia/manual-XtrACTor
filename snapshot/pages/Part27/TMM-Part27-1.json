@@ -1,6 +1,60 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once an applicant has received a report from the Registrar raising grounds for rejection under s 44, the application cannot proceed to registration until the grounds for rejection are overcome. In an attempt to overcome these, the applicant may:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Respond in writing to the report submitting arguments in rebuttal"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Amend the specification in order to remove all goods/services that conflict with the earlier trade mark(s)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Provide documents and information as additional support for the application"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Provide a letter of consent from the proprietor of the conflicting trade mark(s) (other circumstances)"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Enter into negotiation with the proprietor of the conflicting trade mark(s) with a view to mutual amendment of specifications"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Instigate a non-use action against the other party, in an effort to have the conflicting trade mark limited in scope or removed entirely from the Register"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Provide evidence to support a claim for honest concurrent use, prior use or other circumstances (See Part 28 of this Manual)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "These options are set out in the following paragraphs. Also included, for completeness, are options which are available to the applicant, but which will not generally be suggested in examination reports."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note that options for overcoming grounds for rejection in relation to an International Registration Designating Australia (IRDA), including amendments to IRDAs, are covered in Part 60 of this Manual."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 60 The Madrid Protocol"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part27/1#1",
       "content_hash": "sha256:3a61229ed189ea7c63894d6d0d2da5e353f303562b87a81c8bfaee870d1ebc5f",
@@ -31,9 +85,9 @@
     "amendment_note": "Content updated.",
     "archived": false,
     "content_hash": "sha256:775af15479290cadca0c0963f89bc7de96cbbab1415a02e836b9a72c14032679",
-    "crawled_at": "2026-07-28T08:53:49Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "27.1. Introduction",
     "images": [],
     "last_amended": "2023-10-10",

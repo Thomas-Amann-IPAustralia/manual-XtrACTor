@@ -1,6 +1,58 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The request to enter a disclaimer in the Register may be made at any time by an applicant for registration of a trade mark or a registered owner of a trade mark. No fee is payable for such a request."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.1 In line with the voluntary nature of disclaimers, there is no examination of requests for disclaimers."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.2 The notice requesting the disclaimer will be checked to ensure that the requirements of subsection 74(1) have been met, that is:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "that the request has been made in writing by the applicant or registered owner, and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "that the request indicates that the person making the request disclaims the exclusive right to use, or authorise the use of a specified part, or parts, of the trade mark(s) about which the notice was given."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.3 Notice of the disclaimer can be given to the Registrar at any time, either pre-registration or post registration."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.4 If notified pre-registration, it will be entered in the data base. If notified pre-acceptance it will be included in the notice of acceptance and appear in the publication of acceptance in Australian Trade Mark Search."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.5 The Registrar is only required to enter in the Register the particulars of the disclaimer and therefore does not necessarily have to enter the form of words proposed by the person making the request. However, in line with the voluntary nature of disclaimers and the fact that they will mostly stem from negotiations with other parties, disclaimers will, in the great majority of cases, be entered as requested by the applicant. It will be the applicant's responsibility to make sure that their own interests are protected in this matter. However, if an obvious mistake has been made this should be queried with the person who requested the disclaimer before it is entered. Naturally a disclaimer cannot be entered regarding material that does not appear in the trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2.6 The form and wording of disclaimers that is preferred by the office will essentially be the same as under the repealed legislation. The changes that have been made below are so that the wording is consistent with the wording of the new legislation. If an applicant requests information on how to frame a disclaimer the following form should be suggested:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Registration of this trade mark gives no exclusive right to use or to authorise the use of the word/device... [specify part(s) of the trade mark(s)]"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part24/2#1~1",
       "content_hash": "sha256:c624ac287a944badb1fadd6441cf5e5689855c4251af11cac3fb046d12a9f39c",
@@ -18,7 +70,7 @@
       "page_ref": "TMM/Part24/2",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s74(1)",
           "mention": "subsection 74(1)"
@@ -28,6 +80,20 @@
       "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 The request to enter a disclaimer in the Register may be made at any time by an applicant for registration of a trade mark or a registered owner of a trade mark. No fee is payable for such a request. 2.1 In line with the voluntary nature of disclaimers, there is no examination of requests for disclaimers. 2.2 The notice requesting the disclaimer will be checked to ensure that the requirements of subsection 74(1) have been met, that is: that the request has been made in writing by the applicant or registered owner, and that the request indicates that the person making the request disclaims the exclusive right to use, or authorise the use of a specified part, or parts, of the trade mark(s) about which the notice was given. 2.3 Notice of the disclaimer can be given to the Registrar at any time, either pre-registration or post registration. 2.4 If notified pre-registration, it will be entered in the data base. If notified pre-acceptance it will be included in the notice of acceptance and appear in the publication of acceptance in Australian Trade Mark Search. 2.5 The Registrar is only required to enter in the Register the particulars of the disclaimer and therefore does not necessarily have to enter the form of words proposed by the person making the request. However, in line with the voluntary nature of disclaimers and the fact that they will mostly stem from negotiations with other parties, disclaimers will, in the great majority of cases, be entered as requested by the applicant. It will be the applicant's responsibility to make sure that their own interests are protected in this matter. However, if an obvious mistake has been made this should be queried with the person who requested the disclaimer before it is entered. Naturally a disclaimer cannot be entered regarding material that does not appear in the trade mark. 2.6 The form and wording of disclaimers that is preferred by the office will essentially be the same as under the repealed legislation. The changes that have been made below are so that the wording is consistent with the wording of the new legislation. If an applicant requests information on how to frame a disclaimer the following form should be suggested: Registration of this trade mark gives no exclusive right to use or to authorise the use of the word/device... [specify part(s) of the trade mark(s)]"
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "2.7 Entry in the Register will make it clear the disclaimer is voluntary and to that end will be prefaced by the words:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following disclaimer has been requested under subsection 74(1):"
+        },
+        {
+          "kind": "paragraph",
+          "text": "This will differentiate such disclaimers from the compulsory disclaimers imposed under the repealed legislation."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part24/2#1~2",
       "content_hash": "sha256:36a23eb63137697fc39ea50153234729640c29da922aac6c013e6b02aac3b497",
@@ -59,9 +125,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:11324ec9427671f195390ce8014cf54c8ba90ce4e40b4a7d5b0a99413d7c6008",
-    "crawled_at": "2026-07-28T08:53:48Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 24.2. Request for a voluntary disclaimer",
     "images": [],
     "last_amended": "2025-02-20",

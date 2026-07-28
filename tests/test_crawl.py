@@ -15,9 +15,20 @@ import json
 
 import pytest
 
+from types import SimpleNamespace
+
 from conftest import PAGE_SLUGS, FakeManual, page_url
 from tmm_snapshot import config, writer
-from tmm_snapshot.crawl import CrawlError, build_parser, page_order, part_sort_key, run
+from tmm_snapshot.crawl import (
+    CrawlError,
+    Prepared,
+    _chunk_inventory,
+    build_parser,
+    page_order,
+    part_sort_key,
+    run,
+)
+from tmm_snapshot.sitemap import NavPage
 
 
 def crawl(manual: FakeManual, tmp_path, *argv: str) -> int:
@@ -432,3 +443,56 @@ def test_a_filtered_run_retires_nothing(small_manual, tmp_path):
     crawl(small_manual, tmp_path, "--limit", "1")
     assert sorted(p.name for p in (root / "pages").rglob("*.json")) == live
     assert not (root / writer.RETIRED_INDEX_NAME).exists()
+
+
+# -- cross references need the whole run before they can be settled --------
+
+
+def test_the_inventory_holds_pages_this_run_has_not_written_yet(manual, tmp_path):
+    """The reason writing waits for every page to be cut. A reference from the
+    first page in scope to a heading on the last can only be checked once both
+    have been read, so the inventory is built from every prepared page —
+    including the ones still queued behind the reference that needs them."""
+    crawl(manual, tmp_path)
+    root = tmp_path / "snapshot"
+
+    last = Prepared(
+        nav=NavPage(
+            url="https://manuals.ipaustralia.gov.au/trademark/x",
+            page_ref="TMM/Part99/1",
+            part_id="Part99",
+            part_title="Part 99",
+            nav_title="1. A page cut late in the run",
+            nav_ordinal=1,
+            kind="body",
+        ),
+        record=SimpleNamespace(page_ref="TMM/Part99/1"),
+        chunks=[SimpleNamespace(chunk_ref="TMM/Part99/1/1/2")],
+        was={},
+        seen_before=False,
+    )
+
+    inventory = _chunk_inventory(root, [last])
+
+    assert "TMM/Part99/1/1/2" in inventory, "a page not yet written is invisible"
+    assert any(ref.startswith("TMM/Part22/1/") for ref in inventory), (
+        "pages already on disk dropped out of the inventory"
+    )
+
+
+def test_the_inventory_counts_pages_this_run_did_not_touch(manual, tmp_path):
+    """A page skipped at gate 2 is never re-cut, so its chunk_refs come off
+    disk. Without them a second run would coarsen every reference into it."""
+    crawl(manual, tmp_path)
+    root = tmp_path / "snapshot"
+    before = state(root)
+
+    crawl(manual, tmp_path)
+
+    after = state(root)
+    moved = [
+        name
+        for name in before
+        if name != "manifest.json" and before[name] != after.get(name)
+    ]
+    assert moved == []

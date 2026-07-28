@@ -1,6 +1,88 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 15 Jan 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"applicant\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"limitations\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"this Act\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 33 Application accepted or rejected"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 34 Notification of decision"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 35 Appeal"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 37 Lapsing of application"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 63 Amendment of application for registration of trade mark"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 68 Obligation to register"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 202 Registrar's powers"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 204 Registrar to act as soon as practicable"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 206 Delegation of Registrar's powers and functions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.12 Periods after which applications lapse"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 6.1 Amendment of applications by Registrar"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 7.1 Period in which a trade mark can be registered"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 19.2 Delegates of the Registrar"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part18/x-relevant-legislation4#1",
       "content_hash": "sha256:49ed754052bbd9c28cf3f0bbeb4d8982c6d0c38b51e1076c1b67aada6032e447",
@@ -15,85 +97,85 @@
       "page_ref": "TMM/Part18/x-relevant-legislation4",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s202",
           "mention": "Section 202"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s204",
           "mention": "Section 204"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s206",
           "mention": "Section 206"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s33",
           "mention": "Section 33"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s34",
           "mention": "Section 34"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s35",
           "mention": "Section 35"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s37",
           "mention": "Section 37"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s6",
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s63",
           "mention": "Section 63"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s68",
           "mention": "Section 68"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r19.2",
           "mention": "Reg 19.2"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.12",
           "mention": "Reg 4.12"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r6.1",
           "mention": "Reg 6.1"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r7.1",
           "mention": "Reg 7.1"
@@ -107,9 +189,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:97fe65f6619b1eb955c48bcb7e7f19fbb9ae94ad292ac4310e110eca40d7c0bf",
-    "crawled_at": "2026-07-28T08:53:44Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 18. Landing Page",
     "images": [],
     "last_amended": "2025-02-10",

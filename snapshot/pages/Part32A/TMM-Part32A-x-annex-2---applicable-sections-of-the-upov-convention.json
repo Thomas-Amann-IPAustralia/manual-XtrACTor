@@ -1,6 +1,86 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "International Convention for the Protection of New Varieties of Plants"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/x-annex-2---applicable-sections-of-the-upov-convention/international-convention-for-the-protection-of-new-varieties-of-plants",
+      "content_hash": "sha256:71caa14fa7b70c867ed0d740dffda179f4edcbf5c234af8dc4091061b9bb3349",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A. Annex 2 - Applicable Sections of the UPOV Convention",
+        "International Convention for the Protection of New Varieties of Plants"
+      ],
+      "internal_refs": [],
+      "kind": "annex",
+      "ordinal": 1,
+      "page_ref": "TMM/Part32A/x-annex-2---applicable-sections-of-the-upov-convention",
+      "provisions": [],
+      "tables": [],
+      "text": "International Convention for the Protection of New Varieties of Plants"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Article 20 Variety Denomination"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Designation of varieties by denominations; use of the denomination]"
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "The variety shall be designated by a denomination which will be its generic designation."
+        },
+        {
+          "depth": 2,
+          "kind": "list_item",
+          "text": "Each Contracting Party shall ensure that, subject to paragraph (4), no rights in the designation registered as the denomination of the variety shall hamper the free use of the denomination in connection with the variety, even after the expiration of the breeder’s right."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Characteristics of the denomination] The denomination must enable the variety to be identified. It may not consist solely of figures except where this is an established practice for designating varieties. It must not be liable to mislead or to cause confusion concerning the characteristics, value or identity of the variety or the identity of the breeder. In particular, it must be different from every denomination which designates, in the territory of any Contracting Party, an existing variety of the same plant species or of a closely related species."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Registration of the denomination] The denomination of the variety shall be submitted by the breeder to the authority. If it is found that the denomination does not satisfy the requirements of paragraph (2), the authority shall refuse to register it and shall require the 14 breeder to propose another denomination within a prescribed period. The denomination shall be registered by the authority at the same time as the breeder’s right is granted."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Prior rights of third persons] Prior rights of third persons shall not be affected. If, by reason of a prior right, the use of the denomination of a variety is forbidden to a person who, in accordance with the provisions of paragraph (7), is obliged to use it, the authority shall require the breeder to submit another denomination for the variety."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Same denomination in all Contracting Parties] A variety must be submitted to all Contracting Parties under the same denomination. The authority of each Contracting Party shall register the denomination so submitted, unless it considers the denomination unsuitable within its territory. In the latter case, it shall require the breeder to submit another denomination."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Information among the authorities of Contracting Parties] The authority of a Contracting Party shall ensure that the authorities of all the other Contracting Parties are informed of matters concerning variety denominations, in particular the submission, registration and cancellation of denominations. Any authority may address its observations, if any, on the registration of a denomination to the authority which communicated that denomination."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Obligation to use the denomination] Any person who, within the territory of one of the Contracting Parties, offers for sale or markets propagating material of a variety protected within the said territory shall be obliged to use the denomination of that variety, even after the expiration of the breeder’s right in that variety, except where, in accordance with the provisions of paragraph (4), prior rights prevent such use."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "[Indications used in association with denominations] When a variety is offered for sale or marketed, it shall be permitted to associate a trademark, trade name or other similar indication with a registered variety denomination. If such an indication is so associated, the denomination must nevertheless be easily recognizable."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-annex-2---applicable-sections-of-the-upov-convention/chapter-vi-variety-denomination",
       "content_hash": "sha256:abae9ce5c094e0613e42fc6a7e96383b02c3267c13d14a7d8b88be1303546b99",
@@ -12,7 +92,7 @@
       ],
       "internal_refs": [],
       "kind": "annex",
-      "ordinal": 1,
+      "ordinal": 2,
       "page_ref": "TMM/Part32A/x-annex-2---applicable-sections-of-the-upov-convention",
       "provisions": [],
       "tables": [],
@@ -23,9 +103,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:a0710d813564d3f5b152c080f7aa7ae5fa3d7123e2911c24924b87cf77f1fb8d",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "32A. Annex 2 - Applicable Sections of the UPOV Convention",
     "images": [],
     "last_amended": "2022-04-20",

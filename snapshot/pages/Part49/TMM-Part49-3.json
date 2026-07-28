@@ -1,6 +1,20 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A notice of intention to oppose or a statement of grounds and particulars may be amended under the relevant provisions of regulations 9.13, 9.14, 17A.48N, 17A.48P."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/3#1",
       "content_hash": "sha256:16219a784fe8ad2b8eeec8cae64e488cbc373be7ca5ff81a08dd630c6c24ec56",
@@ -15,25 +29,25 @@
       "page_ref": "TMM/Part49/3",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.48N",
           "mention": "regulations 9.13, 9.14, 17A.48N, 17A.48P"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r17A.48P",
           "mention": "regulations 9.13, 9.14, 17A.48N, 17A.48P"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r9.13",
           "mention": "regulations 9.13, 9.14, 17A.48N, 17A.48P"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r9.14",
           "mention": "regulations 9.13, 9.14, 17A.48N, 17A.48P"
@@ -43,6 +57,20 @@
       "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 A notice of intention to oppose or a statement of grounds and particulars may be amended under the relevant provisions of regulations 9.13, 9.14, 17A.48N, 17A.48P."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A notice of intention to oppose may be amended to correct a clerical error or obvious mistake, or to record the name of another person, if the opposition is to proceed under the name of that other person, in terms of section 96 of the Act. The amendment may be granted by the Registrar ‘on terms that the Registrar considers appropriate’ (regs 9.13(3), 17A.48N(3)). If the Registrar grants the request, a copy of the amended notice must be given to the applicant."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulations 9.4 and 17A.48B do not apply to the amendment provision. Therefore the Registrar is not obliged to give the applicant the opportunity to comment before granting the amendment request."
+        },
+        {
+          "kind": "paragraph",
+          "text": "However, if the Registrar believes that the amendment request should not be granted, the opponent will be given a ‘reasonable opportunity to be heard’ on the matter, under the provisions of section 203, before the decision is made."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/3/3/1",
       "content_hash": "sha256:169c7a8979b26495a716345fc9f3498188ca5a94118bed6ad801771631cd3984",
@@ -98,6 +126,28 @@
       "text": "A notice of intention to oppose may be amended to correct a clerical error or obvious mistake, or to record the name of another person, if the opposition is to proceed under the name of that other person, in terms of section 96 of the Act. The amendment may be granted by the Registrar ‘on terms that the Registrar considers appropriate’ (regs 9.13(3), 17A.48N(3)). If the Registrar grants the request, a copy of the amended notice must be given to the applicant. Regulations 9.4 and 17A.48B do not apply to the amendment provision. Therefore the Registrar is not obliged to give the applicant the opportunity to comment before granting the amendment request. However, if the Registrar believes that the amendment request should not be granted, the opponent will be given a ‘reasonable opportunity to be heard’ on the matter, under the provisions of section 203, before the decision is made."
     },
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under reg 9.14 and 17A.48P a statement of grounds and particulars may be amended to:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "a. correct an error or omission; or"
+        },
+        {
+          "kind": "paragraph",
+          "text": "b. amend or add facts or circumstances that form the basis for the opposition"
+        },
+        {
+          "kind": "paragraph",
+          "text": "An amendment to a statement of grounds and particulars may be made ‘on terms that the Registrar considers appropriate’."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Regulations 9.4 and 17A.48B apply to the amendment provision. Therefore, the Registrar will give the applicant an opportunity to comment before granting the request and the opponent will be given an opportunity to comment (or request to be heard) if the Registrar intends to refuse the request."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part49/3/3/2",
       "content_hash": "sha256:c4c6fefea865e017a29baa613421daa31a989a486bc2b3e9af9dab5cd3c2783c",
@@ -145,9 +195,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:e8ee64db59ca5222318f9c4982c8687ff03af2d87a8023827775545997d63acd",
-    "crawled_at": "2026-07-28T08:53:59Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 49.3. Amendment to notice of intention to oppose or statement of grounds and particulars",
     "images": [],
     "last_amended": "2025-04-01",

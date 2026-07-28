@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A new provision (224(3A)) has been included in section 224, to allow the Registrar to extend any time necessary for doing a relevant act that may become necessary, in connection with a revocation of registration. However, this provision does not allow the Registrar to extend the time for the Registrar to give notice of the proposed revocation."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part62/7#1",
       "content_hash": "sha256:0244807473eee77ad2a7b0c93b56833dd82458202475f1c0f12ccad5f1ca0ec6",
@@ -29,9 +35,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:93e4cae0c2acda0d44e1a6b6ba085f9763d401f17dda36669738a2058bf9d22b",
-    "crawled_at": "2026-07-28T08:54:04Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "62.7. Extension of time",
     "images": [],
     "last_amended": "2022-04-20",

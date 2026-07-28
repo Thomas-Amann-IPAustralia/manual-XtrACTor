@@ -1,6 +1,64 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Part Published: 9 Jan 2025"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 6 Definitions"
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"geographical indication\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "\"originate\""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 15 Definition of originate in relation to wine"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 41 Trade mark not distinguishing applicant’s goods or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 42 Trade mark scandalous or its use contrary to law"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 43 Trade mark likely to deceive or cause confusion"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Section 44 Identical etc. trade marks"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reg 4.4 Specification of goods and/or services"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Other Legislation"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part32B/x-relevant-legislation25#1",
       "content_hash": "sha256:2c8e2cfc29f08e9ea9e826e5f62428039e85b7d9ddba35d4b848236728e55d40",
@@ -51,7 +109,7 @@
           "mention": "Section 6"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r4.4",
           "mention": "Reg 4.4"
@@ -65,9 +123,9 @@
     "amendment_note": "Hyperlinks fixed.",
     "archived": false,
     "content_hash": "sha256:a7fc693c6469be3d6edea10eee0a55af3d3bc0ca8cb614c63aebed9274fd7f7f",
-    "crawled_at": "2026-07-28T08:53:53Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 32B. Landing Page",
     "images": [],
     "last_amended": "2025-01-10",

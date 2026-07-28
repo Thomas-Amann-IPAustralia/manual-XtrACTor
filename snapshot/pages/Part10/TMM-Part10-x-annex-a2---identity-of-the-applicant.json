@@ -1,6 +1,12 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Owner Name Address Description Individual Surname + Given name/s (not trading style) Address and address for service in Australia or New Zealand not required Corporate Body Full designation (not trading style) as above ACN, ABN or ARBN Joint application (ie two or more 'persons' using the mark under the provisions of section 28) Names of each of the persons (these may be individuals, or corporate bodies) address of each person or of the joint venture and address for service 'joint applicants' or 'joint venture' - not essential Partnership (including Australian limited liability partnerships) List of partners Addresses of partner or partnership address and a single address for service in Australia or New Zealand 'A partnership' Details of legal personality will be requested if not supplied on application Incorporated association or club Name of association or club Address of association and address for service in Australia or New Zealand Indication that association, club, society etc is incorporated is essential (except for COLLECTIVE trade marks) and will be entered on database. Incorporation number not entered on database Government department The Crown in Right of the (see 1.1.6 in this part) address of department and address for service not required"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part10/x-annex-a2---identity-of-the-applicant#1",
       "content_hash": "sha256:0a6b8d07347f41d74e524fa0c24146f4ca91357663189710dd984c3b3ae0154b",
@@ -136,9 +142,9 @@
     "amendment_note": "Turn off publish date.",
     "archived": false,
     "content_hash": "sha256:75be2b6b7f64c04d2519da25b0fdac6cc0d204f908f5ae56d8ca0b3a8de8bd7c",
-    "crawled_at": "2026-07-28T08:53:39Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "10. Annex A2 - Identity of the applicant",
     "images": [],
     "last_amended": "2025-01-21",

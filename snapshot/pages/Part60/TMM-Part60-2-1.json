@@ -1,6 +1,63 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "International applications are applications for international registration of a trade mark which are based on an Australian basic trade mark(s), filed electronically via the WIPO Madrid eFiling system, which is accessed via IP Australia’s online services page. In the event that IP Australia’s and/or WIPOs systems are unavailable, the application is filed via the IP Australia Alternative Lodgement Service (ALS)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "International applications can be filed where an applicant meets the following two requirements."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Firstly, the applicant or applicants must:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "be of Australian nationality, or"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "live in Australia, or"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "have a real and effective commercial or industrial establishment in Australia."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Secondly, the applicant or applicants must have a trade mark application or registration with IP Australia."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where both these requirements are met, an international application may be filed, with the Office of origin being Australia."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The international application is accessed within WIPO’s eFiling system and the details are checked against the basic trade mark(s)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where the certification cannot occur, IP Australia will contact the applicant via email and advise them to re-access their application to identify and address the issues preventing certification."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the international application meets all certification requirements, the application is certified (see 2.4 Certifying Process) and transferred within the eFiling system to WIPO for further processing."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part60/2/1#1",
       "content_hash": "sha256:f9b043c1c73b6c46bfe36ddffed5a70476209fae52a658f73ef4cd4e24208c85",
@@ -24,9 +81,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:08325d1dfeba2fa8b123121e01290734ef8b78251f53c89267970ae3aa1ba114",
-    "crawled_at": "2026-07-28T08:54:02Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "60.2.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",

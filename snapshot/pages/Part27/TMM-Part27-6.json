@@ -1,6 +1,22 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "This applies only when the conflicting trade mark is a registered trade mark, which is open to applications for removal for non-use under Part 9 of the Act (see Part 48). Once an application for removal has been filed, the onus is on the owner of the registered trade mark to demonstrate use during the relevant period, or other compelling reasons why the registered trade mark should not be removed for some or all goods or services. Examiners should not suggest such a course of action."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 48 Removal of Trade Mark from Register for Non-Use"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 60 The Madrid Protocol - 4.20 Cessation of Protection because of Non-Use"
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part27/6#1",
       "content_hash": "sha256:aa2176ac99e52035cea156a030b0595ef23239ba5c0ba1176d1597d6dec5a021",
@@ -25,9 +41,9 @@
     "amendment_note": "Content Updated",
     "archived": false,
     "content_hash": "sha256:de54900a221d4aa975e0e6fc470d68cdce84cc9f7f73246e1e4860d9ce55127b",
-    "crawled_at": "2026-07-28T08:53:50Z",
+    "crawled_at": "2026-07-28T15:57:56Z",
     "date_published": "2024-11-21",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "27.6. Removal of the conflicting trade mark",
     "images": [],
     "last_amended": "2024-11-21",

@@ -1,6 +1,54 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under section 51 of the Act, a person may make a single application for a series of two or more trade marks if:"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade marks resemble each other in material particulars"
+        },
+        {
+          "kind": "paragraph",
+          "text": "and"
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "the trade marks differ only in respect of one or more of the following:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(a) statements or representations as to the goods or services in relation to which the trade marks are to be used;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(b) statements or representations as to number, price, quality or names of places;"
+        },
+        {
+          "kind": "paragraph",
+          "text": "(c) the colour of any part of the trade mark."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This may be referred to as a “series application”."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the application succeeds, the trade marks shall be registered as a series in a single registration."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part13/1#1",
       "content_hash": "sha256:3199b22196f621bd435c3a30afed0c86c010ddce887f47c2fe2c0173c2a36b45",
@@ -15,7 +63,7 @@
       "page_ref": "TMM/Part13/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s51",
           "mention": "section 51"
@@ -29,9 +77,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:9821dcddcc40f9bcbbeee5973d5951fde5fb263d8bcf65b8a5cd42a6081b0746",
-    "crawled_at": "2026-07-28T08:53:40Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "13.1. Series of Trade Marks - Act",
     "images": [],
     "last_amended": "2026-06-03",

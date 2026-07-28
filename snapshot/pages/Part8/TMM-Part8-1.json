@@ -1,6 +1,24 @@
 {
   "chunks": [
     {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Does not apply to applications filed under the 1995 Act"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The 1955 Act allowed for only single class applications. When the 1995 Act commenced, provision was made in section 243 for trade mark owners who had applications for the same trade mark filed on the same day and pending on 1 January 1996 to link their trade marks. The applications could then be dealt with as one multi-class trade mark application. To be eligible for amalgamation all the linked applications must have been pending and not accepted immediately before 1 January 1996. This provision did not apply to trade marks registered before 1 January 1996."
+        }
+      ],
       "cases": [],
       "chunk_ref": "TMM/Part8/1#1",
       "content_hash": "sha256:32a45666c42cb4a9a03ca750c6cf99d2f7fe8f6e10f30b05ca0ce1544586e880",
@@ -15,7 +33,7 @@
       "page_ref": "TMM/Part8/1",
       "provisions": [
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s243",
           "mention": "section 243"
@@ -29,9 +47,9 @@
     "amendment_note": "Page renamed links updated",
     "archived": false,
     "content_hash": "sha256:d271f233c3c679283aba0f443b6344c8349d3fa84a49666bded34421f172007c",
-    "crawled_at": "2026-07-28T08:53:38Z",
+    "crawled_at": "2026-07-28T15:57:55Z",
     "date_published": "2025-06-05",
-    "extractor_version": "ingest/0.4.0",
+    "extractor_version": "ingest/0.5.0",
     "h1": "Part 8.1. Amalgamation of applications for Registration (Transitional)",
     "images": [],
     "last_amended": "2025-06-05",
