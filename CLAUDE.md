@@ -49,6 +49,7 @@ corrupts every downstream answer and nobody finds out.
 | `SCHEMA.md` | Whenever you touch the output shape. The data contract, in prose. |
 | `schema/*.json` | The contract itself. Machine-checkable. Output must validate. |
 | `TASKS.md` | To find your work package and its done-criteria. |
+| `viz/README.md` | Before touching the published viewer. It reads the snapshot and is not part of the pipeline — no field exists on a chunk for its benefit. |
 
 ## Working here
 

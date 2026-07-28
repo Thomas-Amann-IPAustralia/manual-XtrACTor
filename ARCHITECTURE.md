@@ -72,9 +72,22 @@ tests/
   fixtures/             saved HTML, committed, never fetched at test time
   test_*.py
 snapshot/               THE DELIVERABLE — see below
+viz/                    the published viewer — a READER of snapshot/, see below
+  build.py              snapshot/ -> static bundle. Not a package; src/ cannot import it.
+  app/                  index.html, app.css, app.js. No dependencies, no build step.
 .github/workflows/
   crawl.yml             scheduled crawl, opens a PR on change
+  pages.yml             build viz/ from snapshot/ and deploy to GitHub Pages
 ```
+
+**`viz/` is downstream of everything else and has no way back upstream.** It
+reads the snapshot and writes a bundle to `viz/dist/`, which is gitignored and
+rebuilt on deploy. It adds no field to a chunk: every chunk object in the bundle
+is a strict field-subset of the chunk on disk, and `tests/test_viz_build.py`
+fails if that stops being true or if a build so much as changes a byte under
+`snapshot/`. Anything the viewer needs that the pipeline does not assert — a
+reverse citation index, a table count — is derived at build time and emitted
+beside the chunks. `viz/README.md` for the rest.
 
 ## Snapshot layout
 

@@ -9,6 +9,20 @@ change feed. This repo crawls it, parses it into a stable structure, and commits
 the result — so the git history becomes a readable amendment log, and downstream
 work can build against a fixed, versioned corpus rather than a live website.
 
+## Browse it
+
+<https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/> — a static viewer,
+built from the snapshot in this repository on every crawl that lands.
+
+It does two things the Manual's own site cannot: filter passages by the metadata
+the extraction produced (which Act a passage cites, whether that citation was a
+hyperlink or a pattern match, how certain the match was, whether a heading was
+marked up or inferred, when the page was last amended), and reassemble any page
+from its chunks so the deconstruction can be checked rather than trusted.
+
+The viewer is a reader and nothing more — see `viz/README.md`. It is outside the
+pipeline, it never writes to `snapshot/`, and it adds no field to a chunk.
+
 ## What is here
 
 ```
@@ -73,3 +87,4 @@ auto-merged — the human review is the audit trail.
 | `SOURCE_NOTES.md` | How the Manual actually behaves, and its traps |
 | `SCHEMA.md` | The data contract, explained |
 | `TASKS.md` | Sequenced work packages |
+| `viz/README.md` | The published viewer, and why it cannot touch the pipeline |
