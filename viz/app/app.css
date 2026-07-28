@@ -301,6 +301,10 @@ mark { background: #ffe9a8; color: inherit; border-radius: 2px; padding: 0 .1em;
 }
 .section-mark .ref-link { font-size: .7rem; }
 .recon .prose:first-child { margin-top: 0; }
+/* The mark opens its chunk, so it owns the space above it and the heading
+   below it belongs to the same group — not to the chunk on the other side. */
+.recon > .section-mark:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
+.recon > .section-mark + h3, .recon > .section-mark + h4, .recon > .section-mark + h5 { margin-top: .35rem; }
 
 .empty { padding: 2.5rem 1.25rem; text-align: center; color: var(--ink-3); }
 .empty strong { display: block; color: var(--ink); font-family: var(--serif); font-size: 1.1rem; margin-bottom: .3rem; }

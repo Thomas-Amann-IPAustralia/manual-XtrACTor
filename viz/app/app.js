@@ -773,7 +773,12 @@ function viewChunk(chunkRef) {
 
   const siblings = INDEX.chunksByPage.get(chunk.page_ref) || [];
   const at = siblings.indexOf(chunk);
-  const structure = h('div', {});
+
+  // The index carries `text` and not `blocks`, so the flat string paints at
+  // once and the structure replaces it when the page file lands. If that fetch
+  // fails the reader is left with the passage rather than with a spinner.
+  const prose = h('div', { class: 'prose' }, h('p', {}, marked(chunk.text, S.q)));
+  const verbatim = h('div', {});
 
   const container = h('div', {},
     h('section', { class: 'card page-head' },
@@ -795,21 +800,27 @@ function viewChunk(chunkRef) {
         at > 0 ? h('button', { class: 'mode', type: 'button', text: '← previous chunk', onclick: () => go(['chunk', siblings[at - 1].chunk_ref]) }) : null,
         at >= 0 && at < siblings.length - 1 ? h('button', { class: 'mode', type: 'button', text: 'next chunk →', onclick: () => go(['chunk', siblings[at + 1].chunk_ref]) }) : null)),
     h('section', { class: 'card', style: 'padding:1.1rem 1.25rem' },
-      h('div', { class: 'prose' }, h('p', {}, marked(chunk.text, S.q))),
-      citationBlock(chunk)),
-    structure);
+      prose,
+      verbatim,
+      citationBlock(chunk)));
 
-  structure.replaceChildren(h('div', { class: 'card', style: 'padding:1rem' }, h('p', { class: 'busy', text: 'Loading the structure the text was flattened from…' })));
   if (page) {
     loadPageFile(page).then((doc) => {
       const full = doc.chunks.find((c) => c.chunk_ref === chunk.chunk_ref);
-      structure.replaceChildren(h('section', { class: 'card', style: 'padding:1.1rem 1.25rem;margin-top:1rem' },
-        h('h3', { style: 'font-family:var(--serif);margin:0 0 .3rem', text: 'As the Manual set it' }),
-        h('p', { class: 'hint', text: 'The text above is the chunk’s single verbatim string. Below are the blocks it was flattened from: joining them with single spaces reproduces that string exactly, which is what stops this becoming a second, differently worded copy.' }),
-        full ? h('div', { class: 'prose' }, renderBlocks(full)) : h('p', { class: 'hint', text: 'This chunk is not in the page file — the bundle is out of step with the snapshot.' })));
-    }).catch(fileError(structure));
-  } else {
-    structure.replaceChildren();
+      if (!full) {
+        verbatim.replaceChildren(h('p', { class: 'hint', text: 'This chunk is not in the page file, so it is shown as its flat string — the bundle is out of step with the snapshot.' }));
+        return;
+      }
+      prose.replaceChildren(renderBlocks(full));
+      verbatim.replaceChildren(h('details', { class: 'detail' },
+        h('summary', { text: 'The verbatim string this was set from' }),
+        h('p', { class: 'hint', text: 'Above is the chunk as the Manual set it: the paragraphs, lists and tables recorded in its blocks. The snapshot asserts the chunk as one string, and content_hash is taken over that string alone; joining the blocks with single spaces reproduces it exactly, which is what stops the two becoming differently worded copies.' }),
+        h('div', { class: 'prose' }, h('p', {}, marked(full.text, S.q)))));
+    }).catch((err) => {
+      verbatim.replaceChildren(h('p', { class: 'hint' },
+        'Shown as the chunk’s flat string: the page file holding its paragraph and list structure could not be loaded — ',
+        h('span', { class: 'mono', text: String(err && err.message || err) })));
+    });
   }
   return container;
 }
@@ -893,6 +904,15 @@ function reassembled(page, doc) {
     blockCount += (chunk.blocks || []).length;
     tableCount += (chunk.tables || []).length;
 
+    // The mark opens the chunk, so it precedes the headings: a heading in
+    // heading_path is the new chunk's own, and putting the rule after it read
+    // as though the heading closed the chunk above.
+    body.append(h('div', { class: 'section-mark' },
+      h('span', { text: `chunk ${chunk.ordinal}` }),
+      refLink(chunk.chunk_ref),
+      chunk.heading_source ? h('span', { class: 'badge', text: chunk.heading_source }) : h('span', { class: 'badge', text: 'no heading' }),
+      chunk.fragment ? h('span', { class: 'badge', text: `part ${chunk.fragment.index}/${chunk.fragment.count}` }) : null));
+
     const path = chunk.heading_path;
     for (let level = 1; level < path.length; level++) {
       if (previous[level] === path[level]) continue;
@@ -901,17 +921,12 @@ function reassembled(page, doc) {
     }
     previous = path;
 
-    body.append(h('div', { class: 'section-mark' },
-      h('span', { text: `chunk ${chunk.ordinal}` }),
-      refLink(chunk.chunk_ref),
-      chunk.heading_source ? h('span', { class: 'badge', text: chunk.heading_source }) : h('span', { class: 'badge', text: 'no heading' }),
-      chunk.fragment ? h('span', { class: 'badge', text: `part ${chunk.fragment.index}/${chunk.fragment.count}` }) : null));
     body.append(renderBlocks(chunk));
   }
 
   return h('section', { class: 'card', style: 'padding:1.2rem 1.4rem' },
     h('p', { class: 'hint' },
-      `Reassembled from ${plural(chunks.length, 'chunk')}, ${plural(blockCount, 'block')} and ${plural(tableCount, 'table')} — in ordinal order, with headings taken from each chunk's own ancestry. Nothing is added: the dashed rules mark where one chunk ends and the next begins, and every one of them is a passage you can address, filter and cite on its own.`),
+      `Reassembled from ${plural(chunks.length, 'chunk')}, ${plural(blockCount, 'block')} and ${plural(tableCount, 'table')} — in ordinal order, with headings taken from each chunk's own ancestry. Nothing is added: each dashed rule opens a chunk and everything below it down to the next rule — heading included — is that chunk, and every one of them is a passage you can address, filter and cite on its own.`),
     chunks.length ? body : h('p', { class: 'busy', text: 'This page has no chunks to reassemble.' }),
     h('p', { class: 'hint', style: 'margin-top:1.2rem' },
       'Compare with ', h('a', { href: page.url, rel: 'noreferrer', text: 'the live page' }), '.'));
