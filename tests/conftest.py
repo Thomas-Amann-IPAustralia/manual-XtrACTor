@@ -31,6 +31,13 @@ PAGE_SLUGS = {
     "part22_1": "1.-registrability-under-section-41-of-the-trade-marks-act-1995",
     "part22_landing": "relevant-legislation44",
     "part22_annex": "annex-a1-section-41-prior-to-raising-the-bar",
+    # Archived: no body field, only the banner. SOURCE_NOTES.md §15. Saved
+    # 28 July 2026, the day the first full crawl died on it.
+    "part23_archived": (
+        "annex-a4---how-to-supply-evidence-of-use-of-a-trade-mark-under-"
+        "subsection-415---for-trade-marks-with-a-filing-date-prior-to-"
+        "15-april-2013"
+    ),
     "part32a_2_3": "2.3-section-41--capacity-to-distinguish",
     "part32b_2_3": "2.3-section-41--capacity-to-distinguish1",
 }
@@ -170,6 +177,14 @@ class FakeManual:
 def manual() -> FakeManual:
     """Parts 5, 22, 32A and 32B — 61 pages, served offline."""
     return FakeManual("nav_minimal.html")
+
+
+@pytest.fixture
+def full_manual() -> FakeManual:
+    """The whole nav — 502 pages. For the Parts nav_minimal.html leaves out,
+    Part 23 among them, which is where the archived pages live (§15).
+    """
+    return FakeManual("manual_root.html")
 
 
 @pytest.fixture

@@ -67,6 +67,66 @@ def test_an_annex(sitemap):
     assert record.amendment_note == "Reviewed- no changes."
 
 
+# -- archived pages (SOURCE_NOTES.md §15) ----------------------------------
+
+
+def test_an_archived_page_is_recorded_with_no_body(sitemap):
+    """No `div.field--name-body` at all, only the banner. The page is emptied,
+    not misunderstood, and its amendment history is the point of keeping it.
+    """
+    record, body = parse("part23_archived", sitemap)
+
+    assert record.archived is True
+    assert record.part_id == "Part23"
+    assert record.h1.startswith("Annex A4 - How to supply evidence of use")
+    assert normalise_text(body.get_text(" ")) == "", "no prose left to chunk"
+
+    # The reason not to drop the page: the archival is itself an amendment.
+    assert record.last_amended == date(2023, 10, 10)
+    assert record.amendment_note == "Not required."
+
+
+def test_an_archived_page_yields_no_chunks(sitemap):
+    from tmm_snapshot.chunker import chunk_body
+
+    nav = resolve_nav(page_url("part23_archived"), sitemap)
+    record, body = parse("part23_archived", sitemap)
+
+    assert chunk_body(body, record, nav, sitemap) == []
+
+
+def test_a_live_page_is_not_archived(sitemap):
+    record, _ = parse("part22_1", sitemap)
+    assert record.archived is False
+
+
+def test_a_missing_body_without_the_banner_still_raises(sitemap):
+    """The alarm must survive the exemption. A content wrapper that vanishes
+    with no banner to explain it is still the markup moving under us.
+    """
+    html = page_html("part23_archived").replace(
+        "This page has been archived.", "This page is temporarily unavailable."
+    )
+    nav = resolve_nav(page_url("part23_archived"), sitemap)
+
+    with pytest.raises(UnrecognisedMarkup, match="content wrapper"):
+        parse_page(html, nav)
+
+
+def test_the_banner_is_matched_on_the_whole_string_not_a_substring(sitemap):
+    """`div.alert` is Bootstrap, and the Manual uses it for ordinary in-body
+    callouts. Only the exact sentence means 'archived'.
+    """
+    html = page_html("part23_archived").replace(
+        "<p>This page has been archived.</p>",
+        "<p>Note: This page has been archived. See the successor page.</p>",
+    )
+    nav = resolve_nav(page_url("part23_archived"), sitemap)
+
+    with pytest.raises(UnrecognisedMarkup):
+        parse_page(html, nav)
+
+
 def test_the_two_colliding_pages_keep_their_own_parts(sitemap):
     plants, _ = parse("part32a_2_3", sitemap)
     wines, _ = parse("part32b_2_3", sitemap)

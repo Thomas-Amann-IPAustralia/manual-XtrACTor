@@ -38,6 +38,18 @@ class UnrecognisedMarkup(Exception):
 #: records it and other node types on the same install may still use it.
 BODY_SELECTORS = ("div.field--name-body", "div.node__content")
 
+#: The banner an archived page carries in place of its prose, and the exact
+#: words it carries. See SOURCE_NOTES.md §15.
+#:
+#: Matched on the whole normalised string, not on a substring and not on the
+#: selector alone: `div.alert` is a Bootstrap class the CMS uses for ordinary
+#: in-body callouts too, and the thing being decided here is whether a page
+#: with no body field is a page the Manual has emptied or a page whose markup
+#: we have stopped understanding. Reworded banner, unrecognised page, raise —
+#: which is the answer that gets a human to look.
+ARCHIVED_SELECTOR = "div.alert[role='alert']"
+ARCHIVED_STRING = "This page has been archived."
+
 #: The <h1>, in its own Drupal block.
 TITLE_SELECTOR = "div.block-page-title-block h1"
 
@@ -136,6 +148,10 @@ class PageRecord:
     last_amended: date | None
     amendment_note: str | None
     extractor_version: str
+    #: The Manual says this page is archived. It keeps its nav entry, its
+    #: title and its amendment history, and has no prose left to chunk. Not
+    #: the same as retirement, which is a page leaving the nav altogether.
+    archived: bool = False
 
 
 def normalise_text(text: str) -> str:
@@ -287,6 +303,19 @@ def _assert_is_the_expected_page(soup: BeautifulSoup, nav: NavPage) -> None:
         )
 
 
+def _is_archived(main: Tag) -> bool:
+    """Does the page carry the Manual's 'archived' banner, word for word?
+
+    Structural and exact — a selector plus one string equality, no substring
+    matching and no inference from the slug. See ARCHIVED_SELECTOR.
+    """
+    for alert in main.select(ARCHIVED_SELECTOR):
+        for paragraph in alert.find_all("p"):
+            if normalise_text(paragraph.get_text(" ")) == ARCHIVED_STRING:
+                return True
+    return False
+
+
 def _clean_body(body: Tag) -> Tag:
     """Strip chrome, scripts, metadata blocks and known boilerplate."""
     for tag in body.find_all(_STRIP_TAGS):
@@ -374,11 +403,25 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
     for selector in BODY_SELECTORS:
         if (body := main.select_one(selector)) is not None:
             break
+
+    # Read before the body is extracted, and independently of whether one was
+    # found: the banner sits beside the body field rather than inside it, and
+    # a page can carry both.
+    archived = _is_archived(main)
+
     if body is None:
-        raise UnrecognisedMarkup(
-            f"none of {BODY_SELECTORS} found in {nav.url}; the content wrapper "
-            "has changed and chunking the whole page would pull in the nav"
-        )
+        if not archived:
+            raise UnrecognisedMarkup(
+                f"none of {BODY_SELECTORS} found in {nav.url}; the content "
+                "wrapper has changed and chunking the whole page would pull "
+                "in the nav"
+            )
+        # An archived page has no body field at all — the Manual takes the
+        # prose away and leaves the banner, the title and the amendment table.
+        # That is a page with no content, which is a fact about the Manual, and
+        # not a page we have failed to understand. It is recorded and yields no
+        # chunks; the empty element keeps the return type honest.
+        body = soup.new_tag("div")
 
     body = _clean_body(body.extract())
 
@@ -393,5 +436,6 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
         last_amended=last_amended,
         amendment_note=amendment_note,
         extractor_version=config.EXTRACTOR_VERSION,
+        archived=archived,
     )
     return record, body

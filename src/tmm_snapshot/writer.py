@@ -150,6 +150,7 @@ def _chunk_document(chunk: Chunk) -> dict[str, Any]:
 def _page_document(page: PageRecord, crawled_at: str) -> dict[str, Any]:
     return {
         "amendment_note": page.amendment_note,
+        "archived": page.archived,
         "content_hash": page.content_hash,
         "crawled_at": crawled_at,
         "date_published": _iso(page.date_published),

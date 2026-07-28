@@ -5,7 +5,7 @@
   "description": "One record per Manual page. Holds everything that is constant across the chunks cut from it, so those fields are stored once and joined rather than copied onto every chunk.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["page_ref", "part_id", "url", "nav_title", "content_hash", "crawled_at", "extractor_version"],
+  "required": ["page_ref", "part_id", "url", "nav_title", "content_hash", "crawled_at", "extractor_version", "archived"],
 
   "properties": {
     "page_ref": {
@@ -36,6 +36,11 @@
       "type": "string",
       "pattern": "^sha256:[0-9a-f]{64}$",
       "description": "Whole-page hash. Cheap gate for the crawler: unchanged page, skip chunking entirely."
+    },
+
+    "archived": {
+      "type": "boolean",
+      "description": "The page carries the Manual's 'This page has been archived.' banner. It keeps its nav entry, its title and its amendment history, and has no prose left, so it yields no chunks. Distinct from retirement, which is a page leaving the nav altogether and moving to pages/_retired/."
     },
 
     "date_published": { "type": ["string", "null"], "format": "date" },

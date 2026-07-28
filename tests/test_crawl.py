@@ -15,8 +15,8 @@ import json
 
 import pytest
 
-from conftest import FakeManual, page_url
-from tmm_snapshot import writer
+from conftest import PAGE_SLUGS, FakeManual, page_url
+from tmm_snapshot import config, writer
 from tmm_snapshot.crawl import CrawlError, build_parser, page_order, part_sort_key, run
 
 
@@ -203,6 +203,47 @@ def test_limit_stops_after_n_pages_and_takes_the_same_n(manual, tmp_path):
 
     crawl(manual, tmp_path, "--limit", "5")
     assert sorted(p.name for p in (root / "pages").rglob("*.json")) == first
+
+
+def test_an_archived_page_is_crawled_and_counted(full_manual, tmp_path):
+    """The first full crawl died on one of these. SOURCE_NOTES.md §15."""
+    assert crawl(full_manual, tmp_path, "--part", "Part23") == 0
+
+    root = tmp_path / "snapshot"
+    ref = "TMM/Part23/x-" + PAGE_SLUGS["part23_archived"]
+    document = writer.read_page_file(writer.page_path(ref, "Part23", root))
+    assert document is not None, "an archived page still gets a record"
+    assert document["page"]["archived"] is True
+    assert document["chunks"] == [], "no prose left to chunk"
+
+    manifest = json.loads((root / "manifest.json").read_text("utf-8"))
+    assert manifest["run"]["archived"] == 1
+
+
+# -- progress --------------------------------------------------------------
+
+
+def test_every_page_is_named_on_stderr_before_it_is_processed(manual, tmp_path, capsys):
+    """A silent run is indistinguishable from a hung one. §Courtesy: 502 pages
+    at a request a second is a quarter of an hour, and a reviewer who cannot
+    tell the difference cancels the job — which is the one thing that leaves
+    the conditional cache out of step with the snapshot.
+    """
+    assert crawl(manual, tmp_path, "--limit", "3") == 0
+    captured = capsys.readouterr()
+
+    scope = [line for line in captured.err.splitlines() if line.startswith("[")]
+    assert len(scope) == 3, "one line per page in scope"
+    assert scope[0].startswith("[1/3] TMM/")
+    assert all(config.MANUAL_ROOT in line for line in scope), (
+        "the line must carry the URL, so a stalled run says what to go and check"
+    )
+
+    assert "pages in scope" in captured.err
+    assert "3 pages in scope" in captured.out, (
+        "progress is the other channel; stdout still carries the report alone"
+    )
+    assert not captured.out.startswith("["), "no progress chatter on stdout"
 
 
 def test_a_nav_link_the_site_will_not_serve_is_recorded_and_skipped(
