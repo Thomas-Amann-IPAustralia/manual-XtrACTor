@@ -12,7 +12,7 @@ from datetime import date
 
 import pytest
 
-from tests.conftest import page_html, page_url
+from conftest import page_html, page_url
 from tmm_snapshot import writer
 from tmm_snapshot.chunker import Chunk, chunk_body
 from tmm_snapshot.page import PageRecord, parse_page

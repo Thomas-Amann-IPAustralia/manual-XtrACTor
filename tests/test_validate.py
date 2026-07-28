@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pytest
 
-from tests.conftest import FakeManual
+from conftest import FakeManual
 from tmm_snapshot.crawl import build_parser, run
 from tmm_snapshot.validate import main, validate_snapshot
 
