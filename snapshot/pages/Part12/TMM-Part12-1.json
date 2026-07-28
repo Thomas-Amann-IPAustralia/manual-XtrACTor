@@ -1,0 +1,47 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part12/1#1",
+      "content_hash": "sha256:d095cd23621ebb182a51c6b60876ee2bdb1c4322b436883dc13a306a842d4ca2",
+      "fragment": null,
+      "heading_path": [
+        "Part 12 Divisional Applications",
+        "12.1. Divisional applications - general"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part12/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45",
+          "mention": "sections 45 and 46"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s46",
+          "mention": "sections 45 and 46"
+        }
+      ],
+      "text": "Division 3 of Part 4 of the Act sets out a process whereby a trade mark applicant may file an application (divisional application) as a limited continuation of their current application (parent application) under certain circumstances. Divisional applications claim the priority date of the original parent application, however, they receive a new trade mark number and must meet the conditions specified in sections 45 and 46 of the Act."
+    }
+  ],
+  "page": {
+    "amendment_note": "Part reviewed, content updated.",
+    "archived": false,
+    "content_hash": "sha256:53cfacdf601758838f31cb1cb4ef148b997894dcf40df8181fecd4326ad2932b",
+    "crawled_at": "2026-07-28T04:49:20Z",
+    "date_published": "2026-07-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "12.1. Divisional applications - general",
+    "last_amended": "2026-07-20",
+    "nav_title": "1. Divisional applications - general",
+    "page_ref": "TMM/Part12/1",
+    "part_id": "Part12",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/1.-divisional-applications---general"
+  }
+}

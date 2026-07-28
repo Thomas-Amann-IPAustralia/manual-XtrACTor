@@ -1,0 +1,53 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/x-relevant-legislation43#1",
+      "content_hash": "sha256:c22462c7fe832603e700c19ead57f716b4e7e7838530d7771c7dcc12dd0e7e43",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61. Relevant Legislation"
+      ],
+      "internal_refs": [],
+      "kind": "landing",
+      "ordinal": 1,
+      "page_ref": "TMM/Part61/x-relevant-legislation43",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "Section 217A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s226A",
+          "mention": "Section 226A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.11A",
+          "mention": "Regulation 21.11A"
+        }
+      ],
+      "text": "The Act Section 217A Prescribed documents relating to trade marks to be made available for public inspection Section 226A Requirements for confidential treatment of information held in the Trade Marks Office The Regulations Regulation 21.11A Documents to be made available for public inspection"
+    }
+  ],
+  "page": {
+    "amendment_note": "Update hyperlinks",
+    "archived": false,
+    "content_hash": "sha256:02dd0f04c8feee49f1fdbd803774c9f9a3184840a85c60aa8b8cd487df01b604",
+    "crawled_at": "2026-07-28T04:59:14Z",
+    "date_published": "2022-04-20",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "61. Relevant Legislation",
+    "last_amended": "2022-04-20",
+    "nav_title": "Relevant Legislation",
+    "page_ref": "TMM/Part61/x-relevant-legislation43",
+    "part_id": "Part61",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/relevant-legislation43"
+  }
+}

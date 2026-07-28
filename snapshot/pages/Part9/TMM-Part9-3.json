@@ -1,0 +1,76 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part9/3#1~1",
+      "content_hash": "sha256:20fd0d39dc394662574fe78fba56c4ec8ebf67f54c0cf8d28d182ea49609d15b",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 9 Amendments and Changes to Name and Address",
+        "Part 9.3. Amendment before particulars of an application are published (Section 64)"
+      ],
+      "internal_refs": [
+        "TMM/Part5/2"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part9/3",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "section 64"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r6.3",
+          "mention": "reg 6.3"
+        }
+      ],
+      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard. When declining an amendment request, include the following information in your report / letter: While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee. If the particulars of the application have not yet been published under section 30, it is possible to request amendment of the particulars contained in the application form under section 64 to correct a clerical error or an obvious mistake. Such an amendment could involve any particular included on the application form and may allow major changes, such as complete change of applicant’s name, trade mark, specification of goods/services or even a combination of these and other details. For an explanation of what constitutes a published application please see: Part 5.2.2.6 Checking, approval, publication and notification The timeframe to request an amendment under section 64 is extremely limited and is likely to be only applicable in very limited situations. Procedures for an amendment before publication are as follows. 3.1 Initially the applicant can notify the Trade Marks Office by phone, but this must be followed up immediately by filing an amendment request through the online services page. 3.2 The amendment request must include the following: the trade mark number (for electronic applications) the applicant name, trade mark and classes (for paper applications) the required fee if you are adding extra classes of goods and services the amendment that is being requested 3.3 The request may also be accompanied by a substitute application form with the proposed amendments made on it. 3.4 The Registrar has the power to require a declaration in support of requests for amendment under section 64 (reg 6.3), if the nature of the request is such that there is some doubt as to whether a clerical error or an obvious mistake has occurred. 3.5 If any problems arise with the amendment request, the applicant will be notified. 3.6"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part9/3#1~2",
+      "content_hash": "sha256:8f6077a3f81c400a2c8ea6edbe84397317df9ecf41c4ec2d8a8eaa2190b09311",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 9 Amendments and Changes to Name and Address",
+        "Part 9.3. Amendment before particulars of an application are published (Section 64)"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part9/3",
+      "provisions": [],
+      "text": "If there are no issues and the amendment can be processed, there will be no need to separately advise the applicant that the amendment has been processed as the applicant will be issued with the Notification of Filing and Allocation of Number showing the amended details."
+    }
+  ],
+  "page": {
+    "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "archived": false,
+    "content_hash": "sha256:ae8811573f1056a0287d663dd434cdb20785909db898b1cc1f8afb849435ed0c",
+    "crawled_at": "2026-07-28T04:48:43Z",
+    "date_published": "2025-10-22",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 9.3. Amendment before particulars of an application are published (Section 64)",
+    "last_amended": "2025-10-22",
+    "nav_title": "Part 9. 3. Amendment before particulars of an application are published (Section 64)",
+    "page_ref": "TMM/Part9/3",
+    "part_id": "Part9",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/3.-amendment-before-particulars-of-an-application-are-published-section-64"
+  }
+}

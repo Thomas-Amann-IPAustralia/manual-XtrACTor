@@ -1,0 +1,100 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part26/5#1",
+      "content_hash": "sha256:2479f6d3af424c9cd04d60e97ba72996f6acec7fe123b6faa6f505516a2460e8",
+      "fragment": null,
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.5. Similarity of trade marks"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part26/5",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "section 44"
+        }
+      ],
+      "text": "The existence of grounds for rejection under section 44 will depend on whether the trade marks under consideration are “substantially identical” or “deceptively similar”."
+    },
+    {
+      "cases": [
+        {
+          "citation": "[1963] HCA 66",
+          "id": "CASE/1963/HCA/66"
+        },
+        {
+          "citation": "[2017] FCAFC 83",
+          "id": "CASE/2017/FCAFC/83"
+        }
+      ],
+      "chunk_ref": "TMM/Part26/5/5/1~1",
+      "content_hash": "sha256:fd7e5978bdb5a3909402cf032e9ccec38ab9c438b2af49283da7bd8b7e3af7fd",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.5. Similarity of trade marks",
+        "5.1 Substantial identity and deceptive similarity"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part26/5",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "section 44,"
+        }
+      ],
+      "text": "When comparing trade marks under section 44, two questions must be considered: are the trade marks substantially identical? are the trade marks deceptively similar? The question of whether trade marks are substantially identical or deceptively similar are independent of each other, and are judged in different ways. The tests for determining substantial identity and deceptive similarity are set out by Windeyer J in Shell Co. (Aust) Ltd v Esso Standard Oil (Aust) Ltd [1963] HCA 66 at [12]: In considering whether marks are substantially identical they should, I think, be compared side by side, their similarities and differences noted and the importance of these assessed having regard to the essential features of the registered mark and the total impression of resemblance or dissimilarity that emerges from the comparison.....On the question of deceptive similarity, a different comparison must be made from that which is necessary when substantial identity is in question. The marks are not now to be looked at side by side. The issue is not abstract similarity, but deceptive similarity. Therefore the comparison is the familiar one of trade mark law. It is between, on the one hand, the impression based on recollection of the plaintiff’s mark that persons of ordinary intelligence and memory would have; and, on the other hand, the impressions that such persons would get from the defendant’s television exhibitions. Thus, if the trade marks are not identical, then consideration should be given as to whether they are substantially identical. The trade marks are compared side by side, noting their similarities and differences. The importance of these should be assessed; taking into account the essential features of the earlier trade mark and the total impression of resemblance or dissimilarity that comes from the comparison. Essential features are the elements which form the identity of the trade mark. “Dominant cognitive cues” is an analogous term, as explained in Pham Global Pty Ltd v Insight Clinical Imaging Pty Ltd [2017] FCAFC 83, [51]:"
+    },
+    {
+      "cases": [
+        {
+          "citation": "[1963] HCA 66",
+          "id": "CASE/1963/HCA/66"
+        }
+      ],
+      "chunk_ref": "TMM/Part26/5/5/1~2",
+      "content_hash": "sha256:c7f527867694cd63538900064bf217d5d97b11a2edeccd74517b32e787346239",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+        "26.5. Similarity of trade marks",
+        "5.1 Substantial identity and deceptive similarity"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part26/5",
+      "provisions": [],
+      "text": "There is no doubt in our view that the Full Court in Accor in using the phrase “dominant cognitive cues” was making analogical reference to the “essential features” of the mark for the purposes of a side by side comparison in determining whether marks are substantially identical consistent with the observations of Windeyer J in The Shell Co. of Australia Ltd v Esso Standard Oil (Australia) Ltd [1963] HCA 66; as earlier recognised by the court in the reasons. The dominant cognitive cues are the essential features striking the eye in a side by side comparison so as to determine whether marks are substantially identical. If in a side by side comparison the essential features of the compared marks create a total impression of resemblance they are considered to be substantially identical. If the trade marks are not substantially identical, the examiner must consider whether they are deceptively similar. When considering whether trade marks are deceptively similar, the trade marks are not compared side by side. The test now is the impression left by the marks. The comparison is made in the context of a general recollection or impression by an ordinary purchaser of the goods or services."
+    }
+  ],
+  "page": {
+    "amendment_note": "Content updated.",
+    "archived": false,
+    "content_hash": "sha256:f4e64a71e59f7b7c7e410f854e5cd76436935f531f17e1b744285a581814f652",
+    "crawled_at": "2026-07-28T04:52:54Z",
+    "date_published": "2024-05-23",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "26.5. Similarity of trade marks",
+    "last_amended": "2024-05-23",
+    "nav_title": "5. Similarity of trade marks",
+    "page_ref": "TMM/Part26/5",
+    "part_id": "Part26",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-similarity-of-trade-marks"
+  }
+}

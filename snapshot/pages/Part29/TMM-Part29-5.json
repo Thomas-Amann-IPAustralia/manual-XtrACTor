@@ -1,0 +1,214 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5#1",
+      "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5/5/1",
+      "content_hash": "sha256:f1703a4b04c30641621bd8da367c6a3e67ea3283a897a49422b4edfcbaf16b3a",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.1 INNs"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [],
+      "text": "In the 1950s the World Health Organisation (WHO) began a program of identifying each pharmaceutical substance by a unique, universally recognisable name to be known as an International Non-Proprietary Name or INN. The system aims to promote safety for health professionals and the public in the identification, prescription and dispensation of pharmaceutical substances throughout the world. The INN is effectively the generic name for the substance and therefore should be open for use by anyone in a descriptive context. At regular intervals the WHO notifies member states of names to be protected. When examining trade marks, IP Australia is aware of the need to prevent use of INNs (and words that may connote an INN) in a manner that is likely to deceive or cause confusion. The procedure for the selection, use and notification of INNs can be found in the WHO publication International Non-Proprietary Names for Pharmaceutical Substances available on the WHO website. The INN list is included on the Trade Marks electronic database under the heading Search For Pharmaceutical Names (SFPN) and as a Search Tool on the Australian Trade Mark Search on the IP Australia website. The INN list shown there is updated periodically based on advice from the WHO."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5/5/2",
+      "content_hash": "sha256:5e6f7000434bf3e3aa2a042e54334906a7c2de0fcda9f41545408353a85008a7",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.2 INN stems"
+      ],
+      "internal_refs": [
+        "TMM/Part29/x-annex-a1---table-of-inn-stems"
+      ],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [],
+      "text": "The INN system also governs the use of common, descriptive stems given to families of pharmacologically related substances (e.g. the word element \"astine\" for antihistamine preparations). Accordingly, improper use of an INN stem in a trade mark may lead to deception or confusion. A list of INN stems has been developed with each stem relating to a particular group of pharmaceuticals. These stems (listed at Annex 1 to this Part) should not be used in trade marks for pharmaceuticals or veterinary substances other than those indicated by the INN stem. Stems can be prefixes, suffixes or infixes - this is denoted by the position and presence of hyphens in the list of INN stems. For example: -PROFEN is a suffix CEF- is a prefix ESTR is an infix that could appear anywhere in a word (including at the start or end) -KEF- is an infix that should appear within the word."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5/5/3",
+      "content_hash": "sha256:83e38b4ce2a77498c778b9feaa69c1c51f7e1ce3a0e29964705a130cb54639f1",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.3 Examining trade marks containing INNs and INN stems"
+      ],
+      "internal_refs": [
+        "TMM/Part29/x-annex-a1---table-of-inn-stems"
+      ],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "text": "When examining applications for registration of trade marks in class 5 covering pharmaceuticals or veterinary substances, examiners should check the trade mark against the INN list using the Search for International Nonproprietary Names for Pharmaceutical Substances and the list of INN stems found at Annex 1 in this Part of the Manual. Claims for specific pharmaceutical or veterinary goods in Class 5 may also trigger the provisions of section 43 in relation to INNs and INN stems. Examples include classes of pharmaceutical or veterinary substances (e.g. analgesics or pain relieving preparations) as well as goods which could be pharmaceutical or veterinary in nature (e.g. dietary or nutritional supplements)."
+    },
+    {
+      "cases": [
+        {
+          "citation": "[2005] ATMO 15",
+          "id": "CASE/2005/ATMO/15"
+        },
+        {
+          "citation": "[2009] ATMO 97",
+          "id": "CASE/2009/ATMO/97"
+        }
+      ],
+      "chunk_ref": "TMM/Part29/5/5/4",
+      "content_hash": "sha256:86800dcce4d41f73e2792ad626162693402011f3c8ba4135bbf91f045f2a7b2f",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.4 Section 43 ground for rejection in relation to INNs"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s43",
+          "mention": "s"
+        },
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "e"
+        }
+      ],
+      "text": "A ground for rejection under section 43 exists where a trade mark, or part of a trade mark, to be used in relation to pharmaceuticals or veterinary substances is the same as, or may connote, a notified INN and use of the trade mark in respect of the goods covered by the specification are not restricted to the particular substance indicated by the INN. Use of such a trade mark would be likely to give rise to deception or confusion. Determining whether a non-identical trade mark connotes an INN will depend on the particular circumstances of the case. However, if a trade mark is an obvious derivation of an INN, a connotation is likely to exist. See Aventis Pharma SA v Alphapharm Pty Ltd [2005] ATMO 15 (TM ROXIMYCIN and INN ROXITHROMYCIN) and Sanofi-Aventis v Eremad Pty Ltd [2009] ATMO 97 (TM OXALATIN and INN OXALIPLATIN) where both were found to contain a connotation which would be likely to cause confusion or deception if the goods did not contain the drug specified in the relevant INN. A section 43 ground for rejection may be overcome by the applicant agreeing to a condition of registration limiting use of the trade mark to goods containing the substance indicated by the relevant INN. The endorsement suggested by the Registrar in these circumstances is: It is a condition of registration that any use in respect of pharmaceuticals will be limited to such goods containing the substance designated by the International Non-Proprietary Name <INN>. However such an endorsement is unlikely to assist in overcoming grounds for rejection which have been raised for other reasons (e.g. under section 41 or section 44 of the Trade Marks Act 1995)."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5/5/5",
+      "content_hash": "sha256:c4235ae85720f19a20037d7a4f5a41161ef68438cf8e1ea2d8e36b90b621b1bb",
+      "fragment": null,
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.5 Section 43 grounds for rejection in relation to INN stems"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "text": "A ground for rejection under section 43 exists where a trade mark to be used in relation to pharmaceuticals or veterinary substances consists of an INN stem, or contains a notified INN stem in a meaningful way, and use of the trade mark in respect of the goods covered by the specification are not restricted to substances indicated by the INN stem. A section 43 ground for rejection may be overcome by the applicant agreeing to a condition of registration limiting use of the trade mark to goods containing substances belonging to the relevant INN stem. The endorsement suggested by the Registrar in these circumstances is: It is a condition of registration that any use in respect of pharmaceuticals will be limited to such goods containing substances belonging to the pharmacological group designated by the International Non- Proprietary Name stem <stem>."
+    },
+    {
+      "cases": [
+        {
+          "citation": "[2012] ATMO 117",
+          "id": "CASE/2012/ATMO/117"
+        }
+      ],
+      "chunk_ref": "TMM/Part29/5/5/6~1",
+      "content_hash": "sha256:66817de6196f7150720015e718aecdc209059307b7d11869b0767ecd18e8e89a",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.6 Meaningful INN stems"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "text": "An examiner will need to consider whether the presence of an INN stem in a word is “meaningful” enough to give rise to a connotation leading to likely deception or confusion under section 43. Some INN stems consist of simple two or three letter combinations and their presence in a larger word may not be meaningful and as a result would not lead to deception or confusion. For example, the presence of ‘aj’ in the term ‘Sansajabendorastine’ is not significant enough to warrant a ground for rejection given the length of the name and other competing references such as ‘astine’. By way of contrast the appearance of ‘aj’ in ‘tenaj’ would more clearly give rise to a section 43 ground for rejection. Other examples of INN stems included in a meaningful way include: -flurane EXIFLURANE -mycin TRIPTOMYCIN estr PREMIUMESTREMAX In addition, a stem may not be included meaningfully in a trade mark where its presence is clearly overwhelmed by the meaning of the trade mark as a whole. Examples of INN stems not included in a meaningful way include: -ast PAIN GOES FAST -quin(e) HAPPY EQUINE som- SOMALIAN ALOE sal SMILING SALLY In Boehringer Ingelheim International GmbH [2012] ATMO 117 (TM ZELCIVOL and INN-stem –OL), Hearing Officer Thompson discusses some general principles, in addition to those above, regarding INN-stem considerations. At 23 he states: Where most of the following factors are present: a. The suffix is in common use other than in its INN-stem connotation, as evidenced by both the: i. state of the Register; and ii. the marketplace b. The INN-stem is two or three letters long, c. There are other or alternative obvious suffixes present in the trade mark. For example, …, the trade mark KASAL might be viewed as having two alternative suffixes –SAL or –AL (both of which are INN-stems), d. The INN-stem is non-specific - that is, in the context of the trade mark under consideration the INN-stem would not be generally apprehended as indicating only a particular kind of pharmaceutical because the ‘prefix’ does not conform with the usual formulation specific to the INN-stem under consideration, The section 43 ground should not be raised as it is unlikely that the use of the INN-stem would deceive or cause confusion."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part29/5/5/6~2",
+      "content_hash": "sha256:eadbe3089dae6f38315f32f34c7148d18e1cfe8ba1644e9fc9f5963f47adc92e",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+        "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+        "5.6 Meaningful INN stems"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part29/5",
+      "provisions": [],
+      "text": "When deciding whether the presence of an INN stem in a trade mark is “meaningful” enough to give rise to a connotation leading to likely deception or confusion examiners need to consider all of the above (some of which may be obvious or determinable through research, whilst others may not be apparent during the course of initial examination)."
+    }
+  ],
+  "page": {
+    "amendment_note": "Links to legislation added.",
+    "archived": false,
+    "content_hash": "sha256:49e77dbeb2d920570354ae1832fe7dfb722a4cdf24c0d7b4a14cf2ac438fc760",
+    "crawled_at": "2026-07-28T04:53:36Z",
+    "date_published": "2025-10-23",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
+    "last_amended": "2025-10-23",
+    "nav_title": "5. International Non-Proprietary Names and INN Stems",
+    "page_ref": "TMM/Part29/5",
+    "part_id": "Part29",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/international-non-proprietary-names-generic-names-for-pharmaceutical-substances-and-inn-stems"
+  }
+}

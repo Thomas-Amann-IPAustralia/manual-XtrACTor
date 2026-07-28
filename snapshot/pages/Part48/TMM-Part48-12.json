@@ -1,0 +1,94 @@
+{
+  "chunks": [
+    {
+      "cases": [
+        {
+          "citation": "(1969) 122 CLR 1",
+          "id": "CASE/1969/CLR/122/1"
+        },
+        {
+          "citation": "[1972] RPC 655",
+          "id": "CASE/1972/RPC/655"
+        },
+        {
+          "citation": "(1977) 138 CLR 1",
+          "id": "CASE/1977/CLR/138/1"
+        },
+        {
+          "citation": "(1988) 12 IPR 417",
+          "id": "CASE/1988/IPR/12/417"
+        }
+      ],
+      "chunk_ref": "TMM/Part48/12#1",
+      "content_hash": "sha256:e8a08502ada7bbbc7fa36d72ad6bfa96001b0fb869314d2b2cb23c4dc864f0a0",
+      "fragment": null,
+      "heading_path": [
+        "Part 48 Removal of a Trade Mark from the Register for Non-use",
+        "Part 48.12. Registrar's discretion in deciding an opposed non-use application"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part48/12",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s101",
+          "mention": "Section 101"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s101(3)",
+          "mention": "subsection 101(3)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s101(4)",
+          "mention": "Paragraph 101(4)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s222",
+          "mention": "section 222"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s99A",
+          "mention": "section 99A"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48K",
+          "mention": "regs 9.10, 17A.48K"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r9.10",
+          "mention": "regs 9.10, 17A.48K"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 Section 101 deals with the determination of opposed applications which have not been discontinued or dismissed. For the term \"dismissed\" refer to section 222; section 99A and regs 9.10, 17A.48K. In deciding an opposed non-use application, the Registrar (or a court) is called on to exercise discretion. The Registrar/court \"may\" remove a registration. The proper exercise of that discretion by the Registrar will generally be as per Ritz Hotel Ltd v Charles of the Ritz Ltd, (1988) 12 IPR 417 at 482: If the condition of exercise of the court's power has been established, the entry of the mark should be expunged, or the mark should be removed, as the case may be, \"unless sufficient reason appears for leaving it there\": cf Application by Carl Zeiss Pty Ltd (1969) 122 CLR 1 at 11 and Astronaut trade mark [1972] RPC 655 at 672. However, the decision of the Registrar is an administrative one, unlike the decision of a court in what may otherwise be the same matter - see the decision of Jacobs J in The Queen v Quinn, ex parte Consolidated Food Corporation (1977) 138 CLR 1 at 10. Thus there may be matters which affect the exercise of the discretion by a court but which are beyond the Registrar’s competence to decide. The framing of subsection 101(3) retains and reinforces both the operation of the discretion and its limitation to cases where it can be reasonably applied. Paragraph 101(4) provides a non-exhaustive example of a consideration that may be taken into account when deciding not to remove a trade mark from the Register. Noting that a trade mark registration for a particular good or service operates to prevent use of a deceptively similar trade mark for that good/service and any similar goods/services or closely related goods/services, the Registrar is unlikely to exercise its discretion to allow a mark to remain on the Register for an unused good/service based solely on the use of the mark for similar goods/services or closely related goods/services for which the mark is already registered. In such a case the mark will remain registered for the goods/services for which it has been used, and the revised specification will operate to prevent use of a similar trade mark for the goods/services for which it has been used and any similar goods/services or closely related goods/services."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:af2674c1e19aa6ec3fc96c4c0351bacfc29ecf83e21e4a565044adb1b7d25e87",
+    "crawled_at": "2026-07-28T04:57:11Z",
+    "date_published": "2025-04-01",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 48.12. Registrar's discretion in deciding an opposed non-use application",
+    "last_amended": "2025-04-01",
+    "nav_title": "12. Registrar's discretion in deciding an opposed non-use application",
+    "page_ref": "TMM/Part48/12",
+    "part_id": "Part48",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/12.-registrars-discretion-in-deciding-an-opposed-non-use-application"
+  }
+}

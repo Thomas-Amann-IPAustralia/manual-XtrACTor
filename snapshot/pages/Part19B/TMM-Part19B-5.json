@@ -1,0 +1,93 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part19B/5#1",
+      "content_hash": "sha256:f885e374ed2ec4a7efb6f801c60a815641fa5d7d344059671e6228db1615e85c",
+      "fragment": null,
+      "heading_path": [
+        "Part 19B Rights Given by Registration of a Trade Mark",
+        "Part 19B.5. Loss of exclusive rights"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part19B/5",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "Sections 24 and 25"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "Sections 24 and 25"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Sections 24 and 25 provide two circumstances where the registered owner loses their exclusive right to use or authorise use of the trade mark (or part thereof)."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part19B/5/5/1",
+      "content_hash": "sha256:b447587490b1405a865de65dc5b13566ee28df17ea36c4cf949cfb90468c8f8e",
+      "fragment": null,
+      "heading_path": [
+        "Part 19B Rights Given by Registration of a Trade Mark",
+        "Part 19B.5. Loss of exclusive rights",
+        "5.1 Signs that become accepted describing article etc."
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part19B/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24"
+        }
+      ],
+      "text": "Under section 24, if a trade mark contains or consists of a sign which after the date of registration becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service, the registered owner loses the exclusive right to use or authorise use of the sign in relation to the article, substance or service (or articles, substances or services of the same description). The rights of the registered owner cease from the date determined by the prescribed court to be the day the sign became generally accepted within the relevant trade as the sign that describes or is the name of the article, substance or service."
+    },
+    {
+      "cases": [
+        {
+          "citation": "(2008) 75 IPR 102",
+          "id": "CASE/2008/IPR/75/102"
+        }
+      ],
+      "chunk_ref": "TMM/Part19B/5/5/2",
+      "content_hash": "sha256:22aa005c9fcc32f7eb460b1c7a9b5c9947b601b6ed1fe10b5a10ac7986178380",
+      "fragment": null,
+      "heading_path": [
+        "Part 19B Rights Given by Registration of a Trade Mark",
+        "Part 19B.5. Loss of exclusive rights",
+        "5.2 Trade marks relating to formerly patented article, substances or services"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part19B/5",
+      "provisions": [],
+      "text": "If a trade mark contains or consists of a sign that describes or is the name of: i. an article or substance formerly exploited under a patent; or ii. a service that was formerly provided as a patented process; and the sign is the only commonly known way to describe or identify the article, substance or service, the owner loses its exclusive right to use or authorise use of the sign in relation to that article, substance or service (or those of the same description). The exclusive rights of the registered owner, in either case, cease from the end of the period of two years after the date the patent expired or ceased. (see Mayne Industries Pty Ltd v Advanced Engineering Group Pty Ltd (2008) 75 IPR 102)."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:4a9b699e7839f81936b26760826478f11ab593c09ff9729202e45becac3a42fa",
+    "crawled_at": "2026-07-28T04:51:10Z",
+    "date_published": "2025-06-03",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 19B.5. Loss of exclusive rights",
+    "last_amended": "2025-06-03",
+    "nav_title": "5. Loss of exclusive rights",
+    "page_ref": "TMM/Part19B/5",
+    "part_id": "Part19B",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-loss-of-exclusive-rights"
+  }
+}

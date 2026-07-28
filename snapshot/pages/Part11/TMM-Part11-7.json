@@ -1,0 +1,99 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part11/7#1",
+      "content_hash": "sha256:1a46a8eab74fcf0b57edf7440b5f775038e03ce8d54102793f116067beb60d0d",
+      "fragment": null,
+      "heading_path": [
+        "Part 11 Convention Applications",
+        "11.7. Effect on registration of a claim for priority based on an earlier application"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part11/7",
+      "provisions": [],
+      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 A priority claim affects the effective date of registration."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part11/7/7/1",
+      "content_hash": "sha256:5196ad87eccf21a5fc48cf20aa8b8c1ea7d7d67a600603ed753ae24dccd1a2e6",
+      "fragment": null,
+      "heading_path": [
+        "Part 11 Convention Applications",
+        "11.7. Effect on registration of a claim for priority based on an earlier application",
+        "7.1"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part11/7",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(2)",
+          "mention": "subsection 72(2)"
+        }
+      ],
+      "text": "Under subsection 72(2) the registration of a trade mark will have effect, where a convention claim applies in respect of particular goods and/or services, from (and including) the day on which application in the Convention country was made in respect of those particular goods and/or services. Where an application was made in respect of the same goods and/or services in more than one Convention country, registration of the trade mark will have effect from (and including) the day on which the earliest of those applications was made."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part11/7/7/2",
+      "content_hash": "sha256:f9d1bcd574f4fe8cdf62085a1c35c3fd899175349303c5fc1b35f7411393575a",
+      "fragment": null,
+      "heading_path": [
+        "Part 11 Convention Applications",
+        "11.7. Effect on registration of a claim for priority based on an earlier application",
+        "7.2"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part11/7",
+      "provisions": [],
+      "text": "Where different priority claims are made in respect of the specification of a single convention application on the basis of earlier applications made in convention countries at different times, the effective date of registration of the Australian trade mark is the relevant date of the earlier application for each of the particular goods and/or services. For example, an application claiming multiple priority dates based on corresponding convention applications may have been filed in Australia on 30 October 2007 for “hats, belts, dresses, coats and cars”. Once registered, the effective date of registration will correspond with the priority dates for the particular goods in question. In this case, they may be 10 June 2007 in respect of “hats and belts”, 24 July 2007 in respect of “cars” and the date the application was actually filed in Australia, 30 October 2007, for “dresses and coats” because no earlier application was made in respect of these last items."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part11/7/7/3",
+      "content_hash": "sha256:fcba72b8e9e3ba02d700f48c1f28bdfbd113f7953c86b1cbbd2a109276e3000f",
+      "fragment": null,
+      "heading_path": [
+        "Part 11 Convention Applications",
+        "11.7. Effect on registration of a claim for priority based on an earlier application",
+        "7.3"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part11/7",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(3)",
+          "mention": "subsection 72(3)"
+        }
+      ],
+      "text": "For the purposes of renewal, however, the registration will expire 10 years from the date of filing in Australia (subsection 72(3)). Where an application is accepted or a trade mark registered where a claim to a right of priority was wrongly made the applicant may leave their acceptance and/or registration open to dispute. The onus now lies with the applicant to make sure the correct claim/s have been made in respect of claims to a right of priority."
+    }
+  ],
+  "page": {
+    "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "archived": false,
+    "content_hash": "sha256:bce39e769d652690a49c613b832d841d9a0acf33ad4a43676934f0fa999ec036",
+    "crawled_at": "2026-07-28T04:49:17Z",
+    "date_published": "2025-01-13",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "11.7. Effect on registration of a claim for priority based on an earlier application",
+    "last_amended": "2025-01-13",
+    "nav_title": "Part 11.7. Effect on registration of a claim for priority based on an earlier application",
+    "page_ref": "TMM/Part11/7",
+    "part_id": "Part11",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/7.-effect-on-registration-of-a-claim-for-priority-based-on-an-earlier-application"
+  }
+}

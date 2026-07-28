@@ -1,0 +1,41 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part13/1#1",
+      "content_hash": "sha256:3199b22196f621bd435c3a30afed0c86c010ddce887f47c2fe2c0173c2a36b45",
+      "fragment": null,
+      "heading_path": [
+        "Part 13 Application to Register a Series of Trade Marks",
+        "13.1. Series of Trade Marks - Act"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part13/1",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s51",
+          "mention": "section 51"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Under section 51 of the Act, a person may make a single application for a series of two or more trade marks if: the trade marks resemble each other in material particulars and the trade marks differ only in respect of one or more of the following: (a) statements or representations as to the goods or services in relation to which the trade marks are to be used; (b) statements or representations as to number, price, quality or names of places; (c) the colour of any part of the trade mark. This may be referred to as a “series application”. If the application succeeds, the trade marks shall be registered as a series in a single registration."
+    }
+  ],
+  "page": {
+    "amendment_note": "Whole part reviewed and content updated, including examples.",
+    "archived": false,
+    "content_hash": "sha256:9821dcddcc40f9bcbbeee5973d5951fde5fb263d8bcf65b8a5cd42a6081b0746",
+    "crawled_at": "2026-07-28T04:49:36Z",
+    "date_published": "2026-06-03",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "13.1. Series of Trade Marks - Act",
+    "last_amended": "2026-06-03",
+    "nav_title": "1. Series of Trade Marks - Act",
+    "page_ref": "TMM/Part13/1",
+    "part_id": "Part13",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/1.-series-of-trade-marks---act"
+  }
+}

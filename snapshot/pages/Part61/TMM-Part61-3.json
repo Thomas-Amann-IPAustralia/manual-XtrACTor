@@ -1,0 +1,77 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/3/3/1",
+      "content_hash": "sha256:a28c7f1318c900ba362724e30fcb91442766eb91614c48cfca9d5666c9824dc0",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.3. Documents to be made Available for Public Inspection (API)",
+        "3.1 For Trade Marks filed from 27 March 2007 each document held by the Registrar is considered prescribed and will be made available for public inspection other than the following types of documents:"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part61/3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s202(c)",
+          "mention": "paragraph 202(c)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(2)",
+          "mention": "subsection 224(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s226A(1)(a)",
+          "mention": "paragraph 226A(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "regulation 4.18"
+        }
+      ],
+      "text": "a document that solely contains evidence of use or the proposed use of a trade mark; a document filed in the course of opposition proceedings under the Act and Regulations, other than the notice of opposition/statement of grounds and particulars; a document containing any information that the Registrar requires to be held confidentially under paragraph 226A(1)(a) of the Act; a declaration stating the reasons for a request for expedited examination under regulation 4.18; document filed by an applicant for an extension of time under subsection 224(2) or (3) of the Act a document that would be privileged from production in legal proceedings on the ground of legal professional privilege a document that is subject to an order of a court or tribunal that prohibits disclosure of the document or information in the document a document: whose production the Registrar has required under paragraph 202(c) of the Act; and that the Registrar is satisfied should not be made available for public inspection a document prepared by the Registrar, a Deputy Registrar or an employee in the Trade Marks Office that contains information obtained from a any of the above listed documents"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/3/3/3",
+      "content_hash": "sha256:69de312e301a76dd85b4124dfb72a3a114b79f0ed05b167897784ad18453049e",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.3. Documents to be made Available for Public Inspection (API)",
+        "3.3 A request can be made under the FOI Act for any of the documents listed at paragraph 3.1."
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part61/3",
+      "provisions": [],
+      "text": "To the extent that these documents contain sensitive business and/or personal information, the trade mark applicant or their representative may be contacted and given the opportunity to contend that all or part of the information is exempt from release. Where the affected party contends information is exempt, they will have the right to request an internal review and/or a review conducted by the Office of the Australian Information Commissioner (OAIC) – before documents are released to the FOI applicant."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed and content updated.",
+    "archived": false,
+    "content_hash": "sha256:84aadc2a97f1c7012770f372403e41640eb2990b360ffc275f79c10e704d6aed",
+    "crawled_at": "2026-07-28T04:59:19Z",
+    "date_published": "2022-07-28",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "61.3. Documents to be made Available for Public Inspection (API)",
+    "last_amended": "2022-07-29",
+    "nav_title": "3. Documents to be made Available for Public Inspection (API)",
+    "page_ref": "TMM/Part61/3",
+    "part_id": "Part61",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/3.-information-that-the-registrar-of-trade-marks-will-accept-in-confidence"
+  }
+}

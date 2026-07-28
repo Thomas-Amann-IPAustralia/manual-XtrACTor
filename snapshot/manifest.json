@@ -1,33 +1,44 @@
 {
   "corpus": {
-    "mean_raw_bytes": 85741,
+    "mean_raw_bytes": 88598,
     "pages": 502,
     "parts": 54,
-    "raw_bytes": 1629085,
-    "raw_files": 19
+    "raw_bytes": 44299039,
+    "raw_files": 500
   },
-  "crawled_at": "2026-07-28T02:41:23Z",
+  "crawled_at": "2026-07-28T04:47:44Z",
   "extractor_version": "ingest/0.2.0",
-  "finished_at": "2026-07-28T02:41:25Z",
+  "finished_at": "2026-07-28T04:59:38Z",
   "run": {
-    "archived": 0,
-    "chunks": 0,
-    "chunks_changed": 0,
+    "archived": 6,
+    "chunks": 2084,
+    "chunks_changed": 2084,
     "complete": true,
     "force": false,
-    "from_raw": true,
+    "from_raw": false,
     "limit": null,
     "not_modified": 0,
-    "pages_fetched": 0,
+    "pages_fetched": 500,
     "pages_in_scope": 502,
-    "pages_parsed": 19,
-    "pages_written": 0,
+    "pages_parsed": 500,
+    "pages_written": 481,
     "part": null,
-    "raw_written": 0,
+    "raw_written": 500,
     "retired": [],
     "skipped_not_modified": 0,
     "unchanged": 19,
-    "unreachable": []
+    "unreachable": [
+      {
+        "page_ref": "TMM/Part1/3",
+        "status": 404,
+        "url": "https://manuals.ipaustralia.gov.au/trademark/1.5"
+      },
+      {
+        "page_ref": "TMM/Part27/2",
+        "status": 404,
+        "url": "https://manuals.ipaustralia.gov.au/trademark/27.2.---legal-submissions"
+      }
+    ]
   },
   "source": {
     "manual_root": "https://manuals.ipaustralia.gov.au/trademark",

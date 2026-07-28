@@ -1,0 +1,54 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part27/7#1",
+      "content_hash": "sha256:9948eeb3b627d00c3d8fbf062ab972e50f1bb0d705bd2f09e767d21fb02fbab7",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.7. Dividing the application"
+      ],
+      "internal_refs": [
+        "TMM/Part12/1"
+      ],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part27/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "s 44."
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45",
+          "mention": "ss 45 and 46"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s46",
+          "mention": "ss 45 and 46"
+        }
+      ],
+      "text": "This does not, strictly speaking, overcome a ground for rejection raised under s 44. However, where some of the goods or services of an application can be divided out so that either the parent application or the divisional application is no longer in conflict with the conflicting trade mark(s), at least part of the application as filed may be able to proceed. If the goods or services which conflict can be pinpointed, they can be excluded from the parent application and made the subject of a divisional application (ss 45 and 46). The parent application, as amended, may now be able to proceed to acceptance leaving the divisional application subject to grounds for rejection which must then be dealt with by other means. Division of an application in these circumstances is possible where conflict with a prior trade mark is isolated to particular goods or services or to one or more classes of a multi class application. The applicant may apply for a divisional application for the conflicting goods or services and exclude them from the parent application, allowing the parent application to proceed to acceptance. Note, however, that it is not possible to file a divisional application from an IRDA. Part 12 Divisional Applications"
+    }
+  ],
+  "page": {
+    "amendment_note": "Minor update.",
+    "archived": false,
+    "content_hash": "sha256:dabb7509b9df7c1f42d6e0504be38f19da97a0b8016cdfc8d237b1548e7b70f6",
+    "crawled_at": "2026-07-28T04:53:11Z",
+    "date_published": "2023-10-10",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "27.7. Dividing the application",
+    "last_amended": "2023-10-10",
+    "nav_title": "7. Dividing the application",
+    "page_ref": "TMM/Part27/7",
+    "part_id": "Part27",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/6.-dividing-the-application"
+  }
+}

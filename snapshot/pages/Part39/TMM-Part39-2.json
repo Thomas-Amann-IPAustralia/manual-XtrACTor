@@ -1,0 +1,71 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part39/2#1",
+      "content_hash": "sha256:9c9378e1ad8009f1f55c5a2088cc0e26a2a71be7a197a06137ab4f4af627f19e",
+      "fragment": null,
+      "heading_path": [
+        "Part 39 Registration of a Trade Mark",
+        "Part 39.2. Particulars of registration"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part39/2",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "section 215"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "Section 69"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s69(2)(c)",
+          "mention": "paragraph 69(2)(c)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s74",
+          "mention": "section 74"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r7.2",
+          "mention": "reg 7.2"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 Section 69 of the Act, and reg 7.2 specify the trade mark registration particulars that must be entered in the Register. These are: the name and address of the applicant (or applicants, in the case of joint owners); the goods and/or services specified in the application at the time of registration; the class numbers of the goods and/or services in respect of which the trade mark is registered; a graphical representation of the trade mark; the registration number; whether the trade mark is registered as a trade mark, a defensive trade mark, a collective trade mark or a certification trade mark; the date of the registration; the date on which the Registrar enters the particulars of the registration in the Register; the filing date and trade mark number of the initial application on which a divisional application has been based; the particulars of any Convention priority claimed under section 29 of the Act; the details of any interest claimed in respect of the application under Part 11; the applicant's address for service in Australia or New Zealand, as required under section 215; any disclaimers proposed by the applicant under section 74; and any conditions or limitations imposed by the Registrar at the time of acceptance or decision to register. Reg 7.2 also provides for the Register to contain any other particulars relating to the trade mark that the Registrar thinks appropriate. (This is in addition to the provision of paragraph 69(2)(c), under which particulars of claimed interests, etc appear.) All available non-graphical marks are accessible in RIO and also via a link in Australian Trade Mark Search."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:4283799769a2b5a8d57f856b151d07831994b47f837ead5cecbac7497a0bb289",
+    "crawled_at": "2026-07-28T04:55:34Z",
+    "date_published": "2025-06-05",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 39.2. Particulars of registration",
+    "last_amended": "2025-06-05",
+    "nav_title": "2. Particulars of registration",
+    "page_ref": "TMM/Part39/2",
+    "part_id": "Part39",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/2.-particulars-of-registration"
+  }
+}

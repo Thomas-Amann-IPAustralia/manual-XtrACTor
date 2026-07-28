@@ -1,0 +1,41 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part23/x-relevant-legislation52#1",
+      "content_hash": "sha256:51ebf56f8933ab77cf4ad0df3c7d15530c7a3f69a1cee59cef49fb04eefc5eb0",
+      "fragment": null,
+      "heading_path": [
+        "Part 23 Overcoming Grounds for Rejection under Section 41 - including Evidence of Use",
+        "Part 23. Landing Page"
+      ],
+      "internal_refs": [],
+      "kind": "landing",
+      "ordinal": 1,
+      "page_ref": "TMM/Part23/x-relevant-legislation52",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "Section 41"
+        }
+      ],
+      "text": "Part Published: 15 Jan 2025 Trade Marks Act 1995 Trade Mark Regulations 1995 Section 41 Trade mark not distinguishing applicant's goods or services"
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:ff920be3dd9ac691bdf2d39016b3c1da7531bd8248a7ad0ea8fc94a1e3a8d931",
+    "crawled_at": "2026-07-28T04:52:18Z",
+    "date_published": "2025-02-11",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 23. Landing Page",
+    "last_amended": "2025-02-11",
+    "nav_title": "Part 23. Landing Page",
+    "page_ref": "TMM/Part23/x-relevant-legislation52",
+    "part_id": "Part23",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/relevant-legislation52"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part9/5#1",
+      "content_hash": "sha256:4fffabe9f8fe94208983cb2b4371ef6e608dcf2024f4d55736f405383eae2c91",
+      "fragment": null,
+      "heading_path": [
+        "Part 9 Amendments and Changes to Name and Address",
+        "Part 9.5. Amendments to other documents"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part9/5",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "section 64"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s66",
+          "mention": "Section 66"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s66A",
+          "mention": "Section 66A"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMR1995/r6.3",
+          "mention": "reg 6.3"
+        }
+      ],
+      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard. When declining an amendment request, include the following information in your report / letter: While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee. Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Section 66 provides for the Registrar, at the request of the person, or the person's agent, who has filed any other application, notice or document other than an application for registration, to amend that document to correct a clerical error or obvious mistake, or make any other type of amendment that the Registrar considers “fair and reasonable” under the circumstances. In accordance with Section 66A, the Registrar may require this request to be in writing if the Registrar is of the opinion that the amendment requested is not minor. Additionally, as with amendments applied for under section 64, the Registrar is able to require that a supporting declaration be filed in cases where there is any doubt as to the validity of the request for amendment (reg 6.3)."
+    }
+  ],
+  "page": {
+    "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "archived": false,
+    "content_hash": "sha256:47c0b9170c3b493f931acd151f9330211630a76e6967de1ccdcfc43daf7d9e78",
+    "crawled_at": "2026-07-28T04:48:45Z",
+    "date_published": "2025-10-22",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 9.5. Amendments to other documents",
+    "last_amended": "2025-10-22",
+    "nav_title": "Part 9. 5. Amendments to other documents",
+    "page_ref": "TMM/Part9/5",
+    "part_id": "Part9",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-amendments-to-other-documents"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part48/5#1~1",
+      "content_hash": "sha256:3da7ed46c0d0f8975249eb82dc38c870e90f48a2800563404800199141a811dc",
+      "fragment": {
+        "count": 2,
+        "index": 1
+      },
+      "heading_path": [
+        "Part 48 Removal of a Trade Mark from the Register for Non-use",
+        "Part 48.5. Grounds on which a non-use application may be made"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part48/5",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)",
+          "mention": "Subsection 92(4)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(a)",
+          "mention": "Paragraph 92(4)(a)"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "Paragraph 92(4)(b)"
+        }
+      ],
+      "text": "Trade Marks Act 1995 Trade Marks Regulations 1995 Trade marks may be used in good faith, used in less than good faith, or not used at all. Subsection 92(4) provides for an attack made in either of the last two instances, with or without a reference to an alleged lack of relevant intention at the time of filing. Paragraph 92(4)(a) applies where there has been no intention to use the trade mark at the date the application for registration was made. Paragraph 92(4)(b) applies where there has been no use within a defined three-year period or, if there has been use, it was not in good faith.. There are no other grounds for removal/cessation of protection for non-use other than those contained in paragraphs 92(4)(a) and (b). Paragraph 92(4)(a) provides: that, on the day on which the application for the registration of the trade mark was filed, the applicant for registration had no intention in good faith: (i) to use the trade mark in Australia; or (ii) to authorise the use of the trade mark in Australia; or (iii) to assign the trade mark to a body corporate for use by the body corporate in Australia; in relation to the goods and/or services to which the non-use application relates and that the registered owner: (iv) has not used the trade mark in Australia; or (v) has not used the trade mark in good faith in Australia; in relation to those goods and/or services at any time before the period of one month ending on the day on which the non-use application is filed Subparagraphs (i), (ii) and (iii) are concerned with the lack of intention in good faith of the applicant for registration to use the trade mark as at the date of application for registration. To show this alleged lack of intention, the non-use applicant will need to submit evidence as to the purported lack of bona fides of the proprietor in relation to the trade mark. Subparagraphs (iv) and (v) import a further necessary condition of non-use of the trade mark at any time before one month preceding the non-use application. Paragraph 92(4)(b) provides: 92(4)(b) that the trade mark has remained registered for a continuous period of 3 years ending one month before the day on which the non-use application is filed, and, at no time during that period, the person who was then the registered owner: (i) used the trade mark in Australia; or (ii) used the trade mark in good faith in Australia;"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part48/5#1~2",
+      "content_hash": "sha256:04fa083711f3cb31d58a237269d876ea522638afcb654e7e7b1e5e92e7457088",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 48 Removal of a Trade Mark from the Register for Non-use",
+        "Part 48.5. Grounds on which a non-use application may be made"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part48/5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "Paragraph 92(4)(b)"
+        }
+      ],
+      "text": "in relation to the goods and/or services to which the application relates. Paragraph 92(4)(b) refers to whether there has been any use of the subject trade mark in the preceding three years by its registered owner."
+    }
+  ],
+  "page": {
+    "amendment_note": "Page renamed. Links updated.",
+    "archived": false,
+    "content_hash": "sha256:80ffbb32b093ebea2f030e2809eb614500a3a496f129fb190c060026bede5efa",
+    "crawled_at": "2026-07-28T04:57:01Z",
+    "date_published": "2025-04-01",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "Part 48.5. Grounds on which a non-use application may be made",
+    "last_amended": "2025-04-01",
+    "nav_title": "5. Grounds on which a non-use application may be made",
+    "page_ref": "TMM/Part48/5",
+    "part_id": "Part48",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/5.-grounds-on-which-a-non-use-application-may-be-made"
+  }
+}

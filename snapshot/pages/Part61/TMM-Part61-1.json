@@ -1,0 +1,118 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/1#1",
+      "content_hash": "sha256:ba615484a89e9436bdf9b3e03cce68861d633e41ed2f04bf7757e0297dca1767",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.1. Availability of Documents"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part61/1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "Section 217A of the Trade Marks Act 1995"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.11A",
+          "mention": "regulation 21.11A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.11A(2)",
+          "mention": "Regulation 21.11A(2)"
+        }
+      ],
+      "text": "Section 217A of the Trade Marks Act 1995 (Cth) states that prescribed documents relating to trade marks are to be made available for public inspection. The documents to be made available are prescribed under regulation 21.11A. Regulation 21.11A(2) specifically excludes a range of documents from being made available for public inspection."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/1/1/1",
+      "content_hash": "sha256:216680dc5d64fcd6020e175dba7db2ba7a7f6582e2f9e21a6f80bddafaac04a4",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.1. Availability of Documents",
+        "1.1 What documents are available for public access"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part61/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "section 217A"
+        }
+      ],
+      "text": "1.1.1 Most documents in relation to a trade mark application will be made available for public access. This means that interested parties can obtain copies of trade mark documents provided that they pay a fee and that the documents are considered prescribed for the purposes of section 217A of the Trade Mark Act 1.1.2 Anyone can request all or specific documents that are on file. This might be because they are considering whether to oppose a trade mark or they are interested in information that will assist in the registration of their own trade mark. Under section 217A, no reason is required to be provided."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/1/1/2",
+      "content_hash": "sha256:9f5d5466e2bff060ee7ed180130f5d24892deb783edeb802f7b684af925e6981",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.1. Availability of Documents",
+        "1.2 Documents available under the Freedom of Information Act 1982 (FOI Act)"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part61/1",
+      "provisions": [],
+      "text": "1.2.1 Trade mark applications filed before 27 March 2007 can be requested under the Freedom of Information (FOI) Act. 1.2.2 For trade marks filed after 27 March 2007, any document that is not considered Available for Public Inspection (API) can be applied for under the FOI Act."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part61/1/1/3",
+      "content_hash": "sha256:c396b3f79f55905e9847279a6765a4f9f55ed62360de0728844ef28f86dc1577",
+      "fragment": null,
+      "heading_path": [
+        "Part 61 Availability of Documents",
+        "61.1. Availability of Documents",
+        "1.3 Documents available outside of the FOI Act"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part61/1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "section 217A of the Trade Marks Act 1995"
+        }
+      ],
+      "text": "1.3.1 Certain information, including personal information, such as: A requester’s own personal information held on file Non-confidential research or statistical data requested by journalists, researchers or academics; General information of the sort which could be publicly disseminated without impacts to third parties; and Documents relating to an application for the registration of a trade mark prior to 27 March 2007 but would otherwise have been made available for public inspection under section 217A of the Trade Marks Act 1995 (Cth) can be made available under administrative access arrangements."
+    }
+  ],
+  "page": {
+    "amendment_note": "FOI content updated.",
+    "archived": false,
+    "content_hash": "sha256:55aa10d0198d8fdd54380b6bbade1b8ce19f66f9006fe5b384074d962c6e9f2f",
+    "crawled_at": "2026-07-28T04:59:16Z",
+    "date_published": "2022-07-28",
+    "extractor_version": "ingest/0.2.0",
+    "h1": "61.1. Availability of Documents",
+    "last_amended": "2022-07-29",
+    "nav_title": "1. Availability of Documents",
+    "page_ref": "TMM/Part61/1",
+    "part_id": "Part61",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/1.-availability-of-documents"
+  }
+}
