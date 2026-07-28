@@ -127,7 +127,14 @@ The db fragment identifies the instrument:
 |---|---|
 | `tma1995121` | Trade Marks Act 1995 |
 | `tmr1995264` | Trade Marks Regulations 1995 |
+| `tmr1995230` | Trade Marks Regulations 1995 (Part 5's Relevant Legislation page, 28 July 2026) |
 | `aia1901230` | Acts Interpretation Act 1901 |
+
+The trailing digits are a consolidation number, so **one instrument has several
+fragments** and the Manual's own pages disagree about which to link. Do not treat
+the table as a whitelist: read the abbreviation and year off the fragment, and
+keep the table as the record of what has been seen and the check that the
+derivation agrees with it.
 
 These give near-certain Manual→provision edges straight from the markup, with no
 inference. Record them with `extraction: "href"`.
@@ -142,6 +149,21 @@ subsection**, and sometimes more than one:
 That is two provisions, both stated by the authors. Read the numbers out of the
 anchor text and keep only those whose section matches the href — an anchor
 reading "here" or "this provision" then falls back to the bare section.
+
+**AustLII node names are lower case, and always `s`-prefixed.** Section 217A is
+`consol_act/tma1995121/s217a.html`; regulation 21.11A is
+`consol_reg/tmr1995230/s21.11a.html` — `s`, not `r`, even for a regulation, so the
+symbol comes from `consol_act` / `consol_reg` and never from the node name.
+
+The prose beside the link writes `section 217A`. Upper-case the number and its
+letter suffix when building the id, or one provision becomes two edges —
+`TMA1995/s217a` from the href and `TMA1995/s217A` from the mention — and only the
+second matches the schema. Found on Part 5's Relevant Legislation page, crawl of
+28 July 2026. Paragraph letters inside parentheses are a separate address space
+and keep the case they were written in: `s44(3)(a)` is not `s44(3)(A)`.
+
+A letter suffix also rides on **any** dotted component, not only the first: the
+Regulations have a Part 3A (`r3A.3`) and inserted regulations (`r21.11A`).
 
 Not every legislative link is AustLII. `legislation.gov.au` links appear too, and
 they address instruments by an opaque series id (`C2004A02362`) with no

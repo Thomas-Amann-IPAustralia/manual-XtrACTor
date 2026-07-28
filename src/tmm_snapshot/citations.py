@@ -44,10 +44,13 @@ class UnknownInstrument(Exception):
 #: The fragment is `<abbreviation><year><consolidation number>`, so an unseen
 #: instrument is usually derivable — see `_instrument_from_db`. This map is
 #: kept as the record of what has actually been observed, and as the check that
-#: the derivation agrees with it.
+#: the derivation agrees with it — not as a whitelist. The trailing digits are a
+#: consolidation number, so one instrument has several fragments and the
+#: Manual's own pages disagree about which of them to link.
 AUSTLII_INSTRUMENTS: dict[str, str] = {
     "tma1995121": "TMA1995",
     "tmr1995264": "TMR1995",
+    "tmr1995230": "TMR1995",
     "aia1901230": "AIA1901",
 }
 
@@ -101,8 +104,10 @@ _AUSTLII_PROVISION = re.compile(
 
 _DB_FRAGMENT = re.compile(r"^(?P<abbr>[a-z]{2,8})(?P<year>(?:1[6-9]|20)\d{2})\d*$")
 
-#: A provision address: '41', '41(3)', '44(3)(a)', '4.15', '6A'.
-_ADDRESS = r"\d{1,4}[A-Z]?(?:\.\d+)?(?:\([0-9a-zA-Z]{1,3}\))*"
+#: A provision address: '41', '41(3)', '44(3)(a)', '4.15', '6A', '21.11A'.
+#: A letter suffix rides on any dotted component, not only the first: the
+#: Regulations have both a Part 3A (r3A.3) and inserted regulations (r21.11A).
+_ADDRESS = r"\d{1,4}[A-Z]?(?:\.\d+[A-Z]?)*(?:\([0-9a-zA-Z]{1,3}\))*"
 
 #: A textual reference, possibly to several provisions at once:
 #: 'sections 24, 25 and 26', 'subsection 41(3)', 'regulation 4.15', 's 41'.
@@ -115,12 +120,16 @@ _REFERENCE = re.compile(
     re.IGNORECASE,
 )
 
-_ADDRESS_ONLY = re.compile(_ADDRESS)
+#: Case-insensitive to match _REFERENCE, which embeds _ADDRESS under
+#: IGNORECASE: this pattern re-splits the addresses that one captured, so a
+#: stricter case rule here would silently truncate 's 217a' to '217'.
+_ADDRESS_ONLY = re.compile(_ADDRESS, re.IGNORECASE)
 
 #: The number, and any subsection detail, inside an anchor's own words:
 #: 'sections 41(3) or 41(4)' hanging off a link to s41.
 _ANCHOR_ADDRESS = re.compile(
-    rf"\b(?P<number>\d{{1,4}}[A-Z]?(?:\.\d+)?)(?P<sub>(?:\([0-9a-zA-Z]{{1,3}}\))+)"
+    rf"\b(?P<number>\d{{1,4}}[A-Za-z]?(?:\.\d+[A-Za-z]?)*)"
+    rf"(?P<sub>(?:\([0-9a-zA-Z]{{1,3}}\))+)"
 )
 
 #: Any named instrument, for counting how many are in scope. Deliberately
@@ -187,6 +196,22 @@ def _instrument_from_db(fragment: str) -> str:
     return match.group("abbr").upper() + match.group("year")
 
 
+def _canonical_address(address: str) -> str:
+    """'217a' -> '217A', '21.11a' -> '21.11A', '44(3)(a)' -> '44(3)(a)'.
+
+    One provision has one id, so the case of a letter suffix cannot depend on
+    where the reference was found. AustLII node names are lower case
+    (`/s217a.html`), the prose writes `section 217A`, and both mean section
+    217A — left alone they become two edges for one provision, and only one of
+    them matches the schema's pattern.
+
+    Paragraph letters inside parentheses are a different address space and are
+    left exactly as found: s44(3)(a) and s44(3)(A) are not the same provision.
+    """
+    number, parenthesis, subsection = address.partition("(")
+    return number.upper() + parenthesis + subsection
+
+
 def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
     """(provision id, mention) from AustLII hyperlinks, in document order.
 
@@ -204,13 +229,15 @@ def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
 
         instrument = _instrument_from_db(match.group("db"))
         symbol = "s" if match.group("kind").lower() == "act" else "r"
-        number = re.sub(r"^[a-z]+", "", match.group("node").lower())
+        number = _canonical_address(
+            re.sub(r"^[a-z]+", "", match.group("node").lower())
+        )
         mention = flatten_text(anchor)
 
         detailed = [
-            found.group("number") + found.group("sub")
+            _canonical_address(found.group("number")) + found.group("sub")
             for found in _ANCHOR_ADDRESS.finditer(mention)
-            if found.group("number") == number
+            if _canonical_address(found.group("number")) == number
         ]
         for address in detailed or [number]:
             edges.append((f"{instrument}/{symbol}{address}", mention))
@@ -312,7 +339,8 @@ def _regex_edges(text: str) -> list[tuple[str, str, str]]:
 
         mention = " ".join(mention.split())
         for address in _ADDRESS_ONLY.findall(match.group("addresses")):
-            edges.append((f"{instrument}/{symbol}{address}", certainty, mention))
+            identifier = f"{instrument}/{symbol}{_canonical_address(address)}"
+            edges.append((identifier, certainty, mention))
 
     return edges
 
