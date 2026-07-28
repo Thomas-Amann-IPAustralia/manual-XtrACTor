@@ -613,3 +613,53 @@ the inference rule 1 forbids. And it does not shrug off a site-wide failure: a
 run where *nothing* in scope could be fetched raises, because that is not a
 rotted link, that is the site refusing us, and a manifest reporting a successful
 crawl of nothing would be a lie.
+
+---
+
+## 15. Some pages are archived, and have no body field at all
+
+An archived page keeps its nav entry, its `<h1>` and its complete `Amended
+Reasons` table, and has its prose removed. In place of the body field it
+carries a banner:
+
+```html
+<div class="alert alert-warning py-3 my-3" role="alert">
+  <p>This page has been archived.</p>
+  <p class="mb-0 pb-0">If you would like to submit feedback, please
+     <a href="...">contact us</a>.</p>
+</div>
+```
+
+`div.field--name-body` is **absent**, not empty. §6 says that wrapper is present
+on every page; that was measured on a 20-page sample and it is wrong for this
+class of page. Found on the first full crawl (28 July 2026), which died about
+185 pages in on:
+
+```
+/trademark/annex-a4---how-to-supply-evidence-of-use-of-a-trade-mark-under-
+subsection-415---for-trade-marks-with-a-filing-date-prior-to-15-april-2013
+```
+
+The parser had raised `UnrecognisedMarkup`, which was the right instinct
+applied to the wrong page: a missing content wrapper usually does mean the
+markup has moved under us, and chunking on regardless would pull the whole nav
+into a record. But this page is not misunderstood. It states its own condition,
+in a fixed element, in fixed words.
+
+So the banner is matched structurally and exactly — `div.alert[role='alert']`
+containing a `<p>` whose normalised text equals `This page has been archived.` —
+and a page with no body field is archived **only** if that banner is there.
+Without it, the raise stands. The distinction is the whole point: it keeps the
+"the site has changed shape" alarm working while stopping it firing on a page
+the Manual has merely emptied.
+
+An archived page is recorded, not skipped: `archived: true` on the page record,
+the amendment history preserved, `chunks: []`, and a `content_hash` over an
+empty body. Preserving the history is the reason not to drop it — the archival
+itself shows up as a row in the table (*"Not required."*, 10 Oct 2023 on Annex
+A4), and that row is the Manual telling you when it stopped being practice.
+
+Not to be confused with either neighbour. §14 is a nav entry the site will not
+serve — nothing is returned, so nothing is recorded. Retirement is a page gone
+from the nav, and the file moves to `pages/_retired/`. Archived pages sit in the
+tree, serve a 200, and are current in the only sense the crawler can check.

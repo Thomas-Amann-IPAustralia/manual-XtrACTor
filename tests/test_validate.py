@@ -27,6 +27,7 @@ HASH = "sha256:" + "0" * 64
 def page(**overrides) -> dict:
     return {
         "amendment_note": "Minor updates.",
+        "archived": False,
         "content_hash": HASH,
         "crawled_at": "2026-07-27T09:00:00Z",
         "date_published": "2020-01-01",

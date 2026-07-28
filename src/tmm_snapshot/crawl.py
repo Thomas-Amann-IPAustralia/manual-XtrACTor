@@ -204,6 +204,24 @@ def _sitemap_from_site(fetcher: Fetcher, root: Path) -> dict[str, NavPage]:
 # --------------------------------------------------------------------------
 
 
+def _progress(message: str) -> None:
+    """A line of liveness on stderr, flushed.
+
+    A full crawl is 502 pages at a request a second and the report is printed
+    once, at the end. Without this the run says nothing for a quarter of an
+    hour, which is indistinguishable from a hang — and the reasonable response
+    to a job that looks hung is to cancel it, which is the one thing that
+    leaves the conditional cache claiming pages the snapshot does not hold.
+
+    stderr, so stdout carries the report and nothing else. Flushed on every
+    line, because the thing this exists to prove — that the run is still
+    moving — is not proved by a line sitting in a block buffer waiting for the
+    process to exit. Nothing here is written to a file: run-level chatter has
+    no business in a page record (rule 2).
+    """
+    print(message, file=sys.stderr, flush=True)
+
+
 @dataclass
 class Stats:
     """What one run did. Reported to stdout and written to manifest.json."""
@@ -214,6 +232,11 @@ class Stats:
     skipped_304: int = 0
     unchanged: int = 0
     parsed: int = 0
+    #: Archived pages seen among the pages this run parsed — run-scoped, like
+    #: every other number here. A re-crawl where most pages answer 304 parses
+    #: few pages and so reports few; the corpus-wide count is a question for a
+    #: complete run. SOURCE_NOTES.md §15.
+    archived: int = 0
     pages_written: int = 0
     raw_written: int = 0
     chunks: int = 0
@@ -307,6 +330,8 @@ def _process(
 
     record, body = parse_page(html, nav)
     stats.parsed += 1
+    if record.archived:
+        stats.archived += 1
 
     if args.dry_run:
         if writer.read_raw(nav.page_ref, root) != html:
@@ -376,6 +401,7 @@ def _manifest(
         "extractor_version": config.EXTRACTOR_VERSION,
         "finished_at": writer.utcnow(),
         "run": {
+            "archived": stats.archived,
             "chunks": stats.chunks,
             "chunks_changed": stats.chunks_changed,
             # Only a complete run is evidence about the pages it did not
@@ -418,7 +444,7 @@ def _report(args: argparse.Namespace, stats: Stats) -> list[str]:
         f"  not modified     {stats.not_modified} "
         f"({stats.skipped_304} skipped at gate 1)",
         f"  unchanged        {stats.unchanged} (gate 2)",
-        f"  parsed           {stats.parsed}",
+        f"  parsed           {stats.parsed} ({stats.archived} archived)",
         f"  pages written    {stats.pages_written}",
         f"  raw written      {stats.raw_written}",
         f"  chunks           {stats.chunks} ({stats.chunks_changed} new or amended)",
@@ -460,13 +486,16 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
     owned: Fetcher | None = None
     try:
         if args.from_raw:
+            _progress(f"rebuilding the inventory from {Path(root) / 'raw'}")
             sitemap = _sitemap_from_raw(root)
         else:
             if fetcher is None:
                 fetcher = owned = Fetcher(
                     config.CACHE_DIR, store_validators=not args.dry_run
                 )
+            _progress(f"checking {config.ROBOTS_URL}")
             fetcher.check_robots()
+            _progress(f"fetching the inventory from {config.SITEMAP_SEED_URL}")
             sitemap = _sitemap_from_site(fetcher, root)
 
         scope = page_order(sitemap)
@@ -484,7 +513,13 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
             scope = scope[: args.limit]
         stats.in_scope = len(scope)
 
-        for nav in scope:
+        # Named before it is processed, not after: a run that stops dead needs
+        # to say which page it stopped on, and the last line of an
+        # after-the-fact log names the last page that *worked*.
+        width = len(str(stats.in_scope))
+        _progress(f"{stats.in_scope} pages in scope")
+        for index, nav in enumerate(scope, start=1):
+            _progress(f"[{index:{width}}/{stats.in_scope}] {nav.page_ref} {nav.url}")
             _process(nav, sitemap, root, fetcher, args, stats)
 
         # One rotted nav link is the Manual's business. Every page failing is
@@ -503,6 +538,9 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
         complete = args.part is None and args.limit is None and not args.dry_run
 
         if not args.dry_run:
+            # `retire` and `_corpus` both walk the whole snapshot, which is the
+            # other stretch where a full run goes quiet with work still to do.
+            _progress("writing the sitemap and manifest")
             write_sitemap(sitemap, Path(root) / "sitemap.json")
             if complete:
                 stats.retired = writer.retire(

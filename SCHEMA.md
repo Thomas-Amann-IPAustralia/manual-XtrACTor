@@ -46,6 +46,18 @@ hyperlinks"*. Paired with a hash diff this separates substantive practice change
 from cosmetic edits, which is the judgement a human reviewer needs to make on
 every crawl PR. It is the most valuable metadata on the page.
 
+**`archived`** — the page carries the Manual's own *"This page has been
+archived."* banner. It keeps its nav entry, its title and its whole `Amended
+Reasons` table, and has had its prose removed, so it yields no chunks: expect
+`chunks: []` and a `content_hash` over an empty body. `SOURCE_NOTES.md` §15.
+
+Three states, and consumers need all three kept apart. `archived` is the Manual
+saying a page is no longer current. `run.unreachable` in `manifest.json` is a
+nav entry the site would not serve (§14). Retirement — the file moving to
+`pages/_retired/` — is the page leaving the nav altogether. A page can be
+archived for years while staying exactly where it is in the tree, and reading
+that as removal would misreport it.
+
 **`crawled_at`** — when *this version of the page* was first seen. Not when the
 crawler last looked: that is a property of the run and lives in
 `manifest.json`.

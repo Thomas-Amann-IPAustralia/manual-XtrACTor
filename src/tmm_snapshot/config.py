@@ -101,7 +101,7 @@ FIXTURES_DIR: Final[Path] = TESTS_DIR / "fixtures"
 #:
 #: Deliberately not tied to the package version: a packaging bump does not
 #: invalidate a snapshot, and a parser fix does.
-EXTRACTOR_VERSION: Final[str] = "ingest/0.1.0"
+EXTRACTOR_VERSION: Final[str] = "ingest/0.2.0"
 
 #: Reference prefix for every page_ref and chunk_ref: 'TMM/Part22/1'.
 REF_PREFIX: Final[str] = "TMM"
