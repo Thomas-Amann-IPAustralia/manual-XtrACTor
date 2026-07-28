@@ -410,8 +410,51 @@ def _corpus(root: Path, sitemap: dict[str, NavPage]) -> dict[str, object]:
     }
 
 
+def _unreachable_for_manifest(
+    root: Path,
+    sitemap: dict[str, NavPage],
+    scope: list[NavPage],
+    stats: Stats,
+    from_raw: bool,
+) -> list[dict[str, object]]:
+    """This run's unreachable findings, carrying forward what it didn't check.
+
+    A run only has fresh evidence about the pages it actually asked the site
+    for — every other page in `--from-raw` mode, and the pages outside a
+    `--part`/`--limit` run's scope in a network one. Overwriting the manifest
+    with just `stats.unreachable` in either case reads a page's absence from
+    *this* run's checks as proof it started working again, which is the
+    opposite of what happened: nothing was asked. So a previously-recorded
+    entry survives unless this run actually re-checked that page over the
+    network, in which case the fresh result (found or not) replaces it.
+    """
+    previous = writer.read_manifest(root)
+    carried = {
+        entry["page_ref"]: entry
+        for entry in (previous or {}).get("run", {}).get("unreachable", [])
+    }
+    still_in_nav = {nav.page_ref for nav in sitemap.values()}
+    checked = set() if from_raw else {nav.page_ref for nav in scope}
+    merged = {
+        page_ref: entry
+        for page_ref, entry in carried.items()
+        if page_ref in still_in_nav and page_ref not in checked
+    }
+    merged.update(
+        {
+            page_ref: {"page_ref": page_ref, "status": status, "url": url}
+            for page_ref, url, status in stats.unreachable
+        }
+    )
+    return sorted(merged.values(), key=lambda entry: entry["page_ref"])
+
+
 def _manifest(
-    args: argparse.Namespace, stats: Stats, started_at: str, corpus: dict[str, object]
+    args: argparse.Namespace,
+    stats: Stats,
+    started_at: str,
+    corpus: dict[str, object],
+    unreachable: list[dict[str, object]],
 ) -> dict[str, object]:
     return {
         "corpus": corpus,
@@ -439,10 +482,7 @@ def _manifest(
             "retired": stats.retired,
             "skipped_not_modified": stats.skipped_304,
             "unchanged": stats.unchanged,
-            "unreachable": [
-                {"page_ref": page_ref, "status": status, "url": url}
-                for page_ref, url, status in sorted(stats.unreachable)
-            ],
+            "unreachable": unreachable,
         },
         "source": {
             "manual_root": config.MANUAL_ROOT,
@@ -561,12 +601,18 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
             # other stretch where a full run goes quiet with work still to do.
             _progress("writing the sitemap and manifest")
             write_sitemap(sitemap, Path(root) / "sitemap.json")
+            unreachable = _unreachable_for_manifest(
+                root, sitemap, scope, stats, bool(args.from_raw)
+            )
             if complete:
                 stats.retired = writer.retire(
                     root, {nav.page_ref for nav in scope}, started_at
                 )
             writer.write_manifest(
-                root, _manifest(args, stats, started_at, _corpus(root, sitemap))
+                root,
+                _manifest(
+                    args, stats, started_at, _corpus(root, sitemap), unreachable
+                ),
             )
     finally:
         if owned is not None:

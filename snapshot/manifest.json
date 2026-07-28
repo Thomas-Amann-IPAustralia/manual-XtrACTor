@@ -7,9 +7,9 @@
     "raw_bytes": 44299039,
     "raw_files": 500
   },
-  "crawled_at": "2026-07-28T08:54:10Z",
+  "crawled_at": "2026-07-28T09:16:22Z",
   "extractor_version": "ingest/0.4.0",
-  "finished_at": "2026-07-28T08:54:36Z",
+  "finished_at": "2026-07-28T09:16:47Z",
   "run": {
     "archived": 6,
     "chunks_changed": 0,
@@ -28,7 +28,18 @@
     "retired": [],
     "skipped_not_modified": 0,
     "unchanged": 500,
-    "unreachable": []
+    "unreachable": [
+      {
+        "page_ref": "TMM/Part1/3",
+        "status": 404,
+        "url": "https://manuals.ipaustralia.gov.au/trademark/1.5"
+      },
+      {
+        "page_ref": "TMM/Part27/2",
+        "status": 404,
+        "url": "https://manuals.ipaustralia.gov.au/trademark/27.2.---legal-submissions"
+      }
+    ]
   },
   "source": {
     "manual_root": "https://manuals.ipaustralia.gov.au/trademark",

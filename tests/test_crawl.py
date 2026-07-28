@@ -292,6 +292,47 @@ def test_a_nav_link_the_site_will_not_serve_is_recorded_and_skipped(
     assert "UNREACHABLE" in capsys.readouterr().out
 
 
+def test_from_raw_carries_forward_a_page_it_cannot_check(small_manual, tmp_path):
+    """A `--from-raw` re-parse asks the network nothing, so it must not read
+    that silence as the dead nav link having come back. Regression test: a
+    run of parser-only fixes replayed with `--from-raw` was resetting
+    `manifest.json`'s `unreachable` to `[]`, erasing a 404 an earlier network
+    crawl had correctly recorded.
+    """
+    dead = page_url("part32b_2_3")
+    small_manual.gone = {dead}
+    crawl(small_manual, tmp_path, "--part", "Part32B")
+    root = tmp_path / "snapshot"
+
+    args = build_parser().parse_args(
+        ["--from-raw", "--part", "Part32B", "--snapshot", str(root)]
+    )
+    assert run(args) == 0
+
+    manifest = json.loads((root / "manifest.json").read_text("utf-8"))
+    assert manifest["run"]["unreachable"] == [
+        {"page_ref": "TMM/Part32B/2/3", "status": 404, "url": dead}
+    ]
+
+
+def test_a_fresh_network_check_replaces_a_carried_unreachable_entry(
+    small_manual, tmp_path
+):
+    """Once the site actually serves the page again, the network crawl that
+    checked it is the fresher evidence and must win over a carried record."""
+    dead = page_url("part32b_2_3")
+    small_manual.gone = {dead}
+    crawl(small_manual, tmp_path, "--part", "Part32B")
+
+    small_manual.gone = set()
+    crawl(small_manual, tmp_path, "--part", "Part32B")
+
+    root = tmp_path / "snapshot"
+    manifest = json.loads((root / "manifest.json").read_text("utf-8"))
+    assert manifest["run"]["unreachable"] == []
+    assert writer.page_path("TMM/Part32B/2/3", "Part32B", root).exists()
+
+
 def test_a_page_already_held_survives_the_site_losing_it(small_manual, tmp_path):
     crawl(small_manual, tmp_path, "--part", "Part32B")
     root = tmp_path / "snapshot"
