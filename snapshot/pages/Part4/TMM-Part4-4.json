@@ -1,0 +1,80 @@
+{
+  "chunks": [
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/4#1",
+      "content_hash": "sha256:5ce5edbc4e1ff0b8055a9bec85477b92ad3f6d81128dd6eb9362a1d779e344c8",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.4. Underpayments"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part4/4",
+      "provisions": [],
+      "text": "Trade Marks Act 1995 Trade Mark Regulations 1995 If fees are underpaid, the following procedures apply:"
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/4/4/1",
+      "content_hash": "sha256:0ef1a05fe52802aa29392b1010bc03c887fc50c996b58aebc165c8f3257bc671",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.4. Underpayments",
+        "4.1 Notification of underpayments"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part4/4",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(5)",
+          "mention": "subsection 223(5)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.23",
+          "mention": "reg 21.23"
+        }
+      ],
+      "text": "4.1.1 If a fee is underpaid, the person who paid the fee must be notified of the deficiency by the relevant work area as soon as possible. 4.1.2 When the relevant work area receives correspondence, it should be checked for underpayments so that immediate notification action can be taken. 4.1.3 The notification is recorded in the outward correspondence record. 4.1.4 If the Registrar notifies the person in the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken as not filed or the act is taken as not done until the deficiency is made good. 4.1.5 If the Registrar does not notify the person in the 14 days allowed by subsection 223(5) (reg 21.23), the document is taken to have been filed and the original receipt date is the filing date. However, the action required to be taken in relation to the document is not effected until the full fee is paid."
+    },
+    {
+      "cases": [],
+      "chunk_ref": "TMM/Part4/4/4/2",
+      "content_hash": "sha256:74c1e5c8ca8e87c266d20e2abbac851c8d276213db2f99584a37125d7926cef6",
+      "fragment": null,
+      "heading_path": [
+        "Part 4 Fees",
+        "Part 4.4. Underpayments",
+        "4.2 Reconciling payments"
+      ],
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part4/4",
+      "provisions": [],
+      "text": "4.2.1 The Order Management Workbench operator checks all underpayments to see if an underpayment they are dealing with is in fact a payment that makes good a previous underpayment. 4.2.2 When a deficiency which was notified within 14 days is made good, the document is taken to have been filed on the date the money making good the deficiency is received. The receipt date for this money is the filing date. 4.2.3 When a deficiency which was not notified within 14 days is made good, this underpayment is reconciled and the document will retain the earlier filing date."
+    }
+  ],
+  "page": {
+    "amendment_note": "Title and Links updated",
+    "content_hash": "sha256:0f53f1bcb3e71632af067cc4bdde08d75bd738862e471bb5b1c9f99dc738bddf",
+    "crawled_at": "2026-07-28T02:05:41Z",
+    "date_published": "2025-05-14",
+    "extractor_version": "ingest/0.1.0",
+    "h1": "Part 4.4. Underpayments",
+    "last_amended": "2025-05-14",
+    "nav_title": "4. Underpayments",
+    "page_ref": "TMM/Part4/4",
+    "part_id": "Part4",
+    "url": "https://manuals.ipaustralia.gov.au/trademark/4.-underpayments"
+  }
+}
