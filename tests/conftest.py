@@ -38,6 +38,12 @@ PAGE_SLUGS = {
         "subsection-415---for-trade-marks-with-a-filing-date-prior-to-"
         "15-april-2013"
     ),
+    # An editor left a yellow highlight around one digit of two heading
+    # numbers, so `3.2.1` is `3.<span>2</span>.1` in the markup.
+    # SOURCE_NOTES.md §7. Saved 28 July 2026, the day crawl #5 died on it.
+    "part28_3": (
+        "3.-examining-evidence-of-honest-concurrent-use---the-five-criteria"
+    ),
     "part32a_2_3": "2.3-section-41--capacity-to-distinguish",
     "part32b_2_3": "2.3-section-41--capacity-to-distinguish1",
 }

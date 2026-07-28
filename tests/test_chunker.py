@@ -125,6 +125,20 @@ def test_a_sibling_heading_closes_the_deeper_ones_above_it(nested):
     ]
 
 
+def test_a_highlighted_digit_does_not_truncate_the_address(sitemap):
+    """Part 28.3 prints `3.<span class="highlightColorYellow">2</span>.1`, an
+    editor's yellow highlight left inside a heading number. Read with a
+    separator that heading is '3. 2 .1', whose leading address is '3' — which
+    is how crawl #5 derived TMM/Part28/3/3 for both 3.2.1 and 3.3 and died on
+    the collision. SOURCE_NOTES.md §7."""
+    found = {chunk.chunk_ref: chunk for chunk in chunks("part28_3", sitemap)}
+
+    assert found["TMM/Part28/3/3/2/1"].heading_path[-1] == "3.2.1"
+    assert found["TMM/Part28/3/3/3"].heading_path[-1] == (
+        "3.3 Whether instances of confusion have in fact occurred"
+    )
+
+
 def test_an_unnumbered_heading_falls_back_to_its_position(nested):
     """SOURCE_NOTES.md §7. The Manual did not number it, so we do not invent a
     number for it — the ordinal is the only address it has."""
