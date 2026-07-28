@@ -96,6 +96,37 @@ def test_a_200_returns_the_html_and_stores_the_validators(tmp_path, clock):
     }
 
 
+def test_a_dry_run_leaves_the_cache_untouched(tmp_path, clock):
+    """A dry run must not claim raw bodies it never wrote.
+
+    The cache and `snapshot/raw/` are one state. If a dry run stored
+    validators, the next real crawl would be answered 304 for every page the
+    dry run touched, find no raw to fall back on, and abort. CLAUDE.md's
+    pre-commit checklist ends with a dry run, so that sequence is the normal
+    one — a fresh clone's very first real crawl.
+    """
+    site = Site(ok(ETag='"abc"', **{"Last-Modified": "Mon, 27 Jul 2026 05:50:38 GMT"}))
+    with build(tmp_path, site, store_validators=False) as fetcher:
+        result = fetcher.get(URL)
+
+    # The response still reports the validators; they are simply not persisted.
+    assert (result.status, result.etag) == (200, '"abc"')
+    assert not list((tmp_path / ".cache").glob("*.json"))
+
+
+def test_a_dry_run_still_sends_validators_it_already_had(tmp_path, clock):
+    """Read the cache, never write it — so a dry run reports gate 1 honestly."""
+    site = Site(ok(ETag='"abc"', **{"Last-Modified": "Mon, 27 Jul 2026 05:50:38 GMT"}))
+    with build(tmp_path, site) as real:
+        real.get(URL)
+
+    with build(tmp_path, site, store_validators=False) as dry:
+        dry.get(URL)
+
+    _, second = site.requests
+    assert second.headers["If-Modified-Since"] == "Mon, 27 Jul 2026 05:50:38 GMT"
+
+
 def test_the_second_request_is_conditional(tmp_path, clock):
     """Gate 1 of the skip logic."""
     site = Site(ok(ETag='"abc"', **{"Last-Modified": "Mon, 27 Jul 2026 05:50:38 GMT"}))

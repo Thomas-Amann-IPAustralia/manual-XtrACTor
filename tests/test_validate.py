@@ -119,6 +119,55 @@ def test_a_malformed_hash_is_rejected(tmp_path):
     only(validate_snapshot(tmp_path), "deadbeef")
 
 
+@pytest.mark.parametrize(
+    "identifier",
+    [
+        "TMA1995/s41",
+        "TMA1995/s41A",
+        "TMA1995/s44(3)(a)",
+        "TMA1995/s223A(2)(b)",
+        "AIA1901/s7",
+        "TMR1995/r4.15",
+        # Part 3A of the Regulations (TM Headstart). A letter suffix rides on
+        # any dotted component, not only the last one — the original pattern
+        # allowed r3A and r4.15 but rejected the r3A.3 the Manual actually
+        # cites, so the first real crawl failed validation. See SOURCE_NOTES §3.
+        "TMR1995/r3A",
+        "TMR1995/r3A.3",
+        "TMR1995/r21.21A",
+    ],
+)
+def test_a_real_provision_id_is_accepted(tmp_path, identifier):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(provisions=[{"id": identifier, "extraction": "href"}])
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []
+
+
+@pytest.mark.parametrize(
+    "identifier",
+    ["TMA1995/r4..5", "TMA1995/s4.", "tma1995/s44", "TMA1995/x44"],
+)
+def test_a_malformed_provision_id_is_rejected(tmp_path, identifier):
+    """Widening the pattern for r3A.3 must not turn it into a sieve."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(provisions=[{"id": identifier, "extraction": "href"}])
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), identifier)
+
+
 def test_an_undeclared_field_is_rejected(tmp_path):
     """additionalProperties: false. An interpretive field must not creep in."""
     write(tmp_path, {"page": page(), "chunks": [chunk(summary="A summary.")]})
