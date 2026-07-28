@@ -15,6 +15,7 @@
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
         "32A.2.1 Section 42: Contrary to Law"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -78,6 +79,7 @@
         "32A.2.1 Section 42: Contrary to Law",
         "Section 53: Infringement of PBR"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -156,6 +158,7 @@
         "32A.2.1 Section 42: Contrary to Law",
         "2.1.1 Determining if a trade mark is contrary to law on the basis of a PBR variety or synonym"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -182,7 +185,7 @@
           "text": "The following are examples of plain word trade marks and PBR varieties/synonyms applying the s42 considerations:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade mark under examination Existing PBR variety/synonym Contrary to law? DRA-MA DRA No – although the PBR variety is contained in the trade mark, the trade mark as a whole does not present the DRA element solus as a variety name, so use would not be contrary to s 53(1)(c) DRA-MA DRAMA Yes – although the trade mark has a slight difference it still presents as the word DRAMA, and is contrary to s 53(1)(c) DRAMO DRAMA No – the trade mark is a different word, and is not contrary to s 53(1)(c) DRA PINK DRA Yes – the additional word in the trade mark is a colour descriptor common to the trade, so DRA retains its meaning as a variety name, and use would be contrary to s 53(1)(c). PINK DRA DRA Yes – As above DRAMA QUEEN DRAMA No – although the PBR variety is contained in the trade mark, the phrase DRAMA QUEEN should be taken as a whole, and the word DRAMA does not retain meaning as a PBR variety, so use would not be contrary to s 53(1)(c). PINK DRAs PINK DRA Yes – although the trade mark is pluralised, and hence not wholly included in the PBR variety, it is essentially the same and contravenes both s 53(1)(c) of the PBR Act. PYNQ DRA PINK DRA No – the adaptation in the trade mark is sufficient to remove its meaning as the PBR variety, so use would not be contrary to s 53(1)(c). LIVERPOOL NURSERY DRA DRA Yes – the LIVERPOOL NURSERY element is not distinctive in nature, and DRA is a separate element with meaning as a variety, contrary to s 53(1)(c)."
         }
       ],
@@ -195,6 +198,7 @@
         "32A.2.1 Section 42: Contrary to Law",
         "2.1.1(a) Plain word trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -342,7 +346,7 @@
           "text": "The following are examples of composite trade marks and PBR varieties/synonyms applying the s42 considerations:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade mark under examination Existing PBR variety/synonym Contrary to law? DRA Yes – the word DRA appears as a separate word element in the trade mark, retains its meaning as the PBR variety, and is contrary to s 53(1)(c). DRA BLACK ROCK No – the whole PBR variety is not present in the trade mark, so DRA does not carry meaning as a PBR variety, and is not contrary to s 53(1)(c). DRA Yes – the word DRA appears as a separate word element in the trade mark, retains its meaning as the PBR variety, and is contrary to s 53(1)(c). DRA Yes – the word DRA appears as a separate word element in the trade mark, retains its meaning as the PBR variety, and is contrary to s 53(1)(c)."
         },
         {
@@ -363,6 +367,7 @@
         "32A.2.1 Section 42: Contrary to Law",
         "2.1.1(b) Composite or fancy trade marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part2/3"
       ],
@@ -466,10 +471,6 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "2.1.2(a) Amending the goods"
-        },
-        {
-          "kind": "paragraph",
           "text": "If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the goods of a similar type to the PBR plant type (either by excluding the offending goods or by restricting to goods that don’t encompass the offending goods)."
         },
         {
@@ -523,19 +524,69 @@
           "depth": 1,
           "kind": "list_item",
           "text": "To overcome the objection, the applicant could amend their claim to: grains and seeds, none being Millet."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/2/1/2-1-2-a-amending-the-goods",
+      "content_hash": "sha256:2d973a8a36397105b3cad31d874de92a2e5b2d66e25abbcfd35a0e4a10469691",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A.2.1 Section 42: Contrary to Law",
+        "2.1.2 Overcoming a section 42 ground for rejection",
+        "2.1.2(a) Amending the goods"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part32A/2/1",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "2.1.2(b) Change in status"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s42(b)",
+          "mention": "s 42(b)"
+        }
+      ],
+      "tables": [],
+      "text": "If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the goods of a similar type to the PBR plant type (either by excluding the offending goods or by restricting to goods that don’t encompass the offending goods). Exclusion of goods at the genus level is usually sufficient. However, if similar goods with the same common name cross several genera (for example: Millet), exclusion of Millet products would overcome the ground for rejection. Example 1: A trade mark application for GOLDEN DAWN is filed in Class 31 for plants and plant material. Research shows that there is an accepted or granted PBR for ‘Golden Dawn’ for Narcissus. A s 42(b) ground for rejection should be taken as the trade mark claim notionally includes Narcissus bulbs, plants, flowers and plant tissues/cells. To overcome the objection, the applicant could amend their claim to: Plants and plant material, none being of the genus Narcissus. Example 2: A trade mark application for DELTA DAY is filed in Class 31 for grains and seeds. Research shows that there is an accepted or granted PBR for ‘Delta Day’ for Pennisetum glaucum (Pearl Millet). A s 42(b) ground for rejection should be taken as the trade mark claim notionally includes Millet grains and seeds from different genera. To overcome the objection, the applicant could amend their claim to: grains and seeds, none being Millet."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "If the PBR status changes from accepted to withdrawn, terminated or expired, the variety no longer has provisional protection and the s 42(b) ground for rejection can be withdrawn."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part32A/2/1/2-1-2-b-change-in-status",
+      "content_hash": "sha256:9a02abf982665ed4484ac30d214061ff2964ed288356a7c7382db559b54b2eff",
+      "fragment": null,
+      "heading_path": [
+        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
+        "32A.2.1 Section 42: Contrary to Law",
+        "2.1.2 Overcoming a section 42 ground for rejection",
+        "2.1.2(b) Change in status"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part32A/2/1",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "2.1.2(c) Letter of consent"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s42(b)",
+          "mention": "s 42(b)"
+        }
+      ],
+      "tables": [],
+      "text": "If the PBR status changes from accepted to withdrawn, terminated or expired, the variety no longer has provisional protection and the s 42(b) ground for rejection can be withdrawn."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The trade mark application may be accepted if the applicant provides a Letter of Consent from the PBR title holder, agreeing to the use and registration of the PBR variety name or synonym as part of a trade mark for the offending goods (see s 11 of the PBR Act)."
@@ -555,43 +606,7 @@
         {
           "kind": "paragraph",
           "text": "and"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part32A/2/1/2/1/2~1",
-      "content_hash": "sha256:5de6c07facd3efc6d6e9af635075a4d397cfb2a8d90f8500c4403f94cf3a7967",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
-      "heading_path": [
-        "Part 32A Examination of Trade Marks for Plants (in Class 31)",
-        "32A.2.1 Section 42: Contrary to Law",
-        "2.1.2 Overcoming a section 42 ground for rejection"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 6,
-      "page_ref": "TMM/Part32A/2/1",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11",
-          "mention": "s 11"
         },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s42(b)",
-          "mention": "s 42(b)"
-        }
-      ],
-      "tables": [],
-      "text": "2.1.2(a) Amending the goods If the trade mark’s claim in Class 31 has sufficient scope, the applicant may amend their specification to remove the goods of a similar type to the PBR plant type (either by excluding the offending goods or by restricting to goods that don’t encompass the offending goods). Exclusion of goods at the genus level is usually sufficient. However, if similar goods with the same common name cross several genera (for example: Millet), exclusion of Millet products would overcome the ground for rejection. Example 1: A trade mark application for GOLDEN DAWN is filed in Class 31 for plants and plant material. Research shows that there is an accepted or granted PBR for ‘Golden Dawn’ for Narcissus. A s 42(b) ground for rejection should be taken as the trade mark claim notionally includes Narcissus bulbs, plants, flowers and plant tissues/cells. To overcome the objection, the applicant could amend their claim to: Plants and plant material, none being of the genus Narcissus. Example 2: A trade mark application for DELTA DAY is filed in Class 31 for grains and seeds. Research shows that there is an accepted or granted PBR for ‘Delta Day’ for Pennisetum glaucum (Pearl Millet). A s 42(b) ground for rejection should be taken as the trade mark claim notionally includes Millet grains and seeds from different genera. To overcome the objection, the applicant could amend their claim to: grains and seeds, none being Millet. 2.1.2(b) Change in status If the PBR status changes from accepted to withdrawn, terminated or expired, the variety no longer has provisional protection and the s 42(b) ground for rejection can be withdrawn. 2.1.2(c) Letter of consent The trade mark application may be accepted if the applicant provides a Letter of Consent from the PBR title holder, agreeing to the use and registration of the PBR variety name or synonym as part of a trade mark for the offending goods (see s 11 of the PBR Act). In this circumstance, the owner of the trade mark will need to agree to an endorsement to that effect. The goods will also need to be restricted to accord with the plant variety name or synonym. For example: It is a condition of registration that the applicant has the consent of the PBR titleholder to use the <plant variety name/synonym> ‘xxxx’ in a trade mark for the duration of the PBR right. and"
-    },
-    {
-      "blocks": [
         {
           "kind": "paragraph",
           "text": "<Specification>; all the foregoing being plants or plant material of <genus> < variety name/synonym ‘xxxx’>"
@@ -610,24 +625,29 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part32A/2/1/2/1/2~2",
-      "content_hash": "sha256:d9d98ab810617e9da8172aea78453dde97ca8e8ab06863e228ec651514931394",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part32A/2/1/2-1-2-c-letter-of-consent",
+      "content_hash": "sha256:12bba07304bba24fb302b2f30f946b5dac3fee95ae0e2c793283bf92ac872692",
+      "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
         "32A.2.1 Section 42: Contrary to Law",
-        "2.1.2 Overcoming a section 42 ground for rejection"
+        "2.1.2 Overcoming a section 42 ground for rejection",
+        "2.1.2(c) Letter of consent"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part32A/x-annex-4---an-example-of-a-pbr-letter-of-consent"
       ],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 8,
       "page_ref": "TMM/Part32A/2/1",
       "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11",
+          "mention": "s 11"
+        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -642,16 +662,16 @@
         }
       ],
       "tables": [],
-      "text": "<Specification>; all the foregoing being plants or plant material of <genus> < variety name/synonym ‘xxxx’> Note: In instances where an application has received a ground for rejection under more than one section of trade mark legislation, a Letter of Consent will not overcome a ground for rejection under sections 41 or 43. See Annex 4 for an example of a Letter of Consent. 1. Words or phrases in plain typeface with no embellishment"
+      "text": "The trade mark application may be accepted if the applicant provides a Letter of Consent from the PBR title holder, agreeing to the use and registration of the PBR variety name or synonym as part of a trade mark for the offending goods (see s 11 of the PBR Act). In this circumstance, the owner of the trade mark will need to agree to an endorsement to that effect. The goods will also need to be restricted to accord with the plant variety name or synonym. For example: It is a condition of registration that the applicant has the consent of the PBR titleholder to use the <plant variety name/synonym> ‘xxxx’ in a trade mark for the duration of the PBR right. and <Specification>; all the foregoing being plants or plant material of <genus> < variety name/synonym ‘xxxx’> Note: In instances where an application has received a ground for rejection under more than one section of trade mark legislation, a Letter of Consent will not overcome a ground for rejection under sections 41 or 43. See Annex 4 for an example of a Letter of Consent. 1. Words or phrases in plain typeface with no embellishment"
     }
   ],
   "page": {
     "amendment_note": "Content updated - references to s 27 of the PBR Act removed",
     "archived": false,
     "content_hash": "sha256:b54f9eafdda708d8a8ae56f41a59f3fd898624697f8e424af5f6e6173df14ad8",
-    "crawled_at": "2026-07-28T16:00:32Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2026-04-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "32A.2.1 Section 42: Contrary to Law",
     "images": [
       {

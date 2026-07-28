@@ -38,6 +38,7 @@
         "Part 27 Overcoming Grounds for Rejection under Section 44",
         "27.3. Amending the goods and/or services of the applicant's specification"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -65,7 +66,7 @@
           "text": "An applicant may attempt to overcome grounds for rejection raised under s 44 by deleting goods and/or services so as to remove all conflict with the goods/services of the earlier trade mark(s). The examiner must consider whether a proposed deletion removes all similar and/or closely related goods and services. If the examiner is satisfied that goods or services that remain still conflict with those of the cited trade mark, the examiner must provide reasons and further options. The following is an example of a proposed deletion that clearly removes goods that are similar to those of the an earlier registration:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Class 9 application Class 9 citation Acceptable specification following deletion Computers; computer software; aerials Computer software; CD-ROM; computers Aerials"
         }
       ],
@@ -78,6 +79,7 @@
         "27.3. Amending the goods and/or services of the applicant's specification",
         "3.1 Deleting goods or services from the application"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -162,6 +164,7 @@
         "27.3. Amending the goods and/or services of the applicant's specification",
         "3.2 Excluding goods and/or services from the application"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -187,51 +190,11 @@
         {
           "kind": "paragraph",
           "text": "Class 7: Washing machines and spin driers; none being for domestic use."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.2.1"
-        },
-        {
-          "kind": "paragraph",
-          "text": "An example where an exclusion may assist in overcoming grounds for rejection under s 44 is:"
-        },
-        {
-          "kind": "text",
-          "text": "Class 12 application Class 12 citation Suitable exclusion Buggies (land vehicles) Baby buggies, prams and strollers Buggies (land vehicles) but not including those for babies and children"
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.2.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Proposed exclusions should be considered carefully to ensure that they do differentiate the goods and/or services. The following exclusion would not be allowable, since a transistor remains the same whether or not it is used in electronics or for other purposes."
-        },
-        {
-          "kind": "text",
-          "text": "Class 9 application Class 9 citation Unsuitable exclusion Electronic transistors Sound recordings and sound reproducing apparatus and parts and fittings therefor \"...but not including any such goods for recording or reproducing sound\""
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.2.3"
-        },
-        {
-          "kind": "paragraph",
-          "text": "An exclusion of goods and/or services from the application will not overcome a citation when the conflicting trade mark covers all goods in the class. In this situation, an amendment to the specification of the conflicting application or registration would also be required to differentiate the goods."
-        },
-        {
-          "kind": "text",
-          "text": "Class 8 application Class 7 citation Hand tools, including gardening tools All goods in this class"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Note: Specifications claiming “all goods” etc. are not acceptable under the 1995 Act but such specifications may exist for trade marks which were entered on the Register under the repealed Act."
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part27/3/3/2~2",
-      "content_hash": "sha256:8564feada8caeff6c7dea8f6a48e89478bad8fe4c2d3b19a34c6918b9517d2f1",
+      "content_hash": "sha256:303be77457a75946ed96eecc07a368c919df0e41f45aa3f785dbf30580fbbb7a",
       "fragment": {
         "count": 2,
         "index": 2
@@ -241,9 +204,40 @@
         "27.3. Amending the goods and/or services of the applicant's specification",
         "3.2 Excluding goods and/or services from the application"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
+      "page_ref": "TMM/Part27/3",
+      "provisions": [],
+      "tables": [],
+      "text": "It is the applicant’s responsibility to propose any amendments which result in limiting the specification as only the applicant knows the exact area of business interest within which the trade mark is or will be used. Examiners may assist with the wording of a proposed exclusion statement once the area of interest is defined. The usual form of exclusion uses the words ‘but not including’ or ‘none being’ followed by goods or services which would otherwise fall within the scope of the specification. For example, Class 16: Articles of stationery, but not including adhesives; printed matter; and Class 7: Washing machines and spin driers; none being for domestic use."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An example where an exclusion may assist in overcoming grounds for rejection under s 44 is:"
+        },
+        {
+          "kind": "table",
+          "text": "Class 12 application Class 12 citation Suitable exclusion Buggies (land vehicles) Baby buggies, prams and strollers Buggies (land vehicles) but not including those for babies and children"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/3/3/2/1",
+      "content_hash": "sha256:9e6a3277a967d72a7bcb7365e015bb55c7a82ce7c82b131fa6404915b3bdd4b5",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.3. Amending the goods and/or services of the applicant's specification",
+        "3.2 Excluding goods and/or services from the application",
+        "3.2.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
       "page_ref": "TMM/Part27/3",
       "provisions": [
         {
@@ -282,7 +276,38 @@
           "header_row": null,
           "ordinal": 1,
           "rows": 2
+        }
+      ],
+      "text": "An example where an exclusion may assist in overcoming grounds for rejection under s 44 is: Class 12 application Class 12 citation Suitable exclusion Buggies (land vehicles) Baby buggies, prams and strollers Buggies (land vehicles) but not including those for babies and children"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Proposed exclusions should be considered carefully to ensure that they do differentiate the goods and/or services. The following exclusion would not be allowable, since a transistor remains the same whether or not it is used in electronics or for other purposes."
         },
+        {
+          "kind": "table",
+          "text": "Class 9 application Class 9 citation Unsuitable exclusion Electronic transistors Sound recordings and sound reproducing apparatus and parts and fittings therefor \"...but not including any such goods for recording or reproducing sound\""
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/3/3/2/2",
+      "content_hash": "sha256:5c5d5b897c2d8728c1f813e6a964d23e5454b1b5c5ea313e36b042f5e240e497",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.3. Amending the goods and/or services of the applicant's specification",
+        "3.2 Excluding goods and/or services from the application",
+        "3.2.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part27/3",
+      "provisions": [],
+      "tables": [
         {
           "cells": [
             [
@@ -310,9 +335,44 @@
           ],
           "columns": 3,
           "header_row": null,
-          "ordinal": 2,
+          "ordinal": 1,
           "rows": 2
+        }
+      ],
+      "text": "Proposed exclusions should be considered carefully to ensure that they do differentiate the goods and/or services. The following exclusion would not be allowable, since a transistor remains the same whether or not it is used in electronics or for other purposes. Class 9 application Class 9 citation Unsuitable exclusion Electronic transistors Sound recordings and sound reproducing apparatus and parts and fittings therefor \"...but not including any such goods for recording or reproducing sound\""
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An exclusion of goods and/or services from the application will not overcome a citation when the conflicting trade mark covers all goods in the class. In this situation, an amendment to the specification of the conflicting application or registration would also be required to differentiate the goods."
         },
+        {
+          "kind": "table",
+          "text": "Class 8 application Class 7 citation Hand tools, including gardening tools All goods in this class"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Specifications claiming “all goods” etc. are not acceptable under the 1995 Act but such specifications may exist for trade marks which were entered on the Register under the repealed Act."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part27/3/3/2/3",
+      "content_hash": "sha256:c1db8d7a45f2f42b3b7b47f4c70669ba50578e90dd4038f07c26545035772261",
+      "fragment": null,
+      "heading_path": [
+        "Part 27 Overcoming Grounds for Rejection under Section 44",
+        "27.3. Amending the goods and/or services of the applicant's specification",
+        "3.2 Excluding goods and/or services from the application",
+        "3.2.3"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part27/3",
+      "provisions": [],
+      "tables": [
         {
           "cells": [
             [
@@ -334,11 +394,11 @@
           ],
           "columns": 2,
           "header_row": null,
-          "ordinal": 3,
+          "ordinal": 1,
           "rows": 2
         }
       ],
-      "text": "It is the applicant’s responsibility to propose any amendments which result in limiting the specification as only the applicant knows the exact area of business interest within which the trade mark is or will be used. Examiners may assist with the wording of a proposed exclusion statement once the area of interest is defined. The usual form of exclusion uses the words ‘but not including’ or ‘none being’ followed by goods or services which would otherwise fall within the scope of the specification. For example, Class 16: Articles of stationery, but not including adhesives; printed matter; and Class 7: Washing machines and spin driers; none being for domestic use. 3.2.1 An example where an exclusion may assist in overcoming grounds for rejection under s 44 is: Class 12 application Class 12 citation Suitable exclusion Buggies (land vehicles) Baby buggies, prams and strollers Buggies (land vehicles) but not including those for babies and children 3.2.2 Proposed exclusions should be considered carefully to ensure that they do differentiate the goods and/or services. The following exclusion would not be allowable, since a transistor remains the same whether or not it is used in electronics or for other purposes. Class 9 application Class 9 citation Unsuitable exclusion Electronic transistors Sound recordings and sound reproducing apparatus and parts and fittings therefor \"...but not including any such goods for recording or reproducing sound\" 3.2.3 An exclusion of goods and/or services from the application will not overcome a citation when the conflicting trade mark covers all goods in the class. In this situation, an amendment to the specification of the conflicting application or registration would also be required to differentiate the goods. Class 8 application Class 7 citation Hand tools, including gardening tools All goods in this class Note: Specifications claiming “all goods” etc. are not acceptable under the 1995 Act but such specifications may exist for trade marks which were entered on the Register under the repealed Act."
+      "text": "An exclusion of goods and/or services from the application will not overcome a citation when the conflicting trade mark covers all goods in the class. In this situation, an amendment to the specification of the conflicting application or registration would also be required to differentiate the goods. Class 8 application Class 7 citation Hand tools, including gardening tools All goods in this class Note: Specifications claiming “all goods” etc. are not acceptable under the 1995 Act but such specifications may exist for trade marks which were entered on the Register under the repealed Act."
     },
     {
       "blocks": [
@@ -357,9 +417,10 @@
         "3.2 Excluding goods and/or services from the application",
         "3.2.4"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 8,
       "page_ref": "TMM/Part27/3",
       "provisions": [],
       "tables": [],
@@ -372,7 +433,7 @@
           "text": "An applicant may overcome grounds for rejection by limiting their specification to particular goods of interest."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Class 7 application Class 7 citation Suitable limitation Spraying machines Agricultural machines and parts and fittings therefor Spraying machines; all for use in the automotive industry"
         },
         {
@@ -404,13 +465,14 @@
         "27.3. Amending the goods and/or services of the applicant's specification",
         "3.3 Defining the area of interest of the goods and/or services"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part14/6",
         "TMM/Part60/4/10",
         "TMM/Part9/4"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 9,
       "page_ref": "TMM/Part27/3",
       "provisions": [],
       "tables": [
@@ -452,9 +514,9 @@
     "amendment_note": "Content updated.",
     "archived": false,
     "content_hash": "sha256:79f14b774aa36d86bd029e4c8a742ea637cb420a57ef24dca6562f6b7d6816da",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "27.3. Amending the goods and/or services of the applicant's specification",
     "images": [],
     "last_amended": "2023-10-10",

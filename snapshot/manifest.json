@@ -1,19 +1,19 @@
 {
   "corpus": {
-    "chunks": 2189,
+    "chunks": 2460,
     "mean_raw_bytes": 88598,
     "pages": 502,
     "parts": 54,
     "raw_bytes": 44299039,
     "raw_files": 500
   },
-  "crawled_at": "2026-07-28T16:12:07Z",
-  "extractor_version": "ingest/0.5.0",
-  "finished_at": "2026-07-28T16:12:33Z",
+  "crawled_at": "2026-07-28T17:23:08Z",
+  "extractor_version": "ingest/0.6.0",
+  "finished_at": "2026-07-28T17:23:48Z",
   "run": {
     "archived": 6,
     "chunks_changed": 0,
-    "chunks_cut": 2189,
+    "chunks_cut": 2460,
     "complete": true,
     "force": true,
     "from_raw": true,

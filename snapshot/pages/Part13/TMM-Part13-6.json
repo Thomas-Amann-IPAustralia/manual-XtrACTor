@@ -19,6 +19,7 @@
         "Part 13 Application to Register a Series of Trade Marks",
         "13.6. Examples of Valid Series Trade Marks"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -30,7 +31,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK CLOTHING IDAK FOOTWEAR IDAK HEADGEAR Class 25: Clothing, footwear, headgear Example 2 IDAK TV IDAK TELEVISION Class 9: Televisions Example 3 IDAK SHIRTS IDAK HATS IDAK SLIPPERS Class 25: Clothing, footwear, headgear Class 35: Retailing of clothing, footwear and headgear Example 4 IDAK CLOTHING IDAK MORTGAGE Class 25: Clothing Class 36: Mortgage services A paragraph 51(1)(a) statement need not relate to all of the claimed goods/services. CLOTHING and MORTGAGE each refers to at least one claimed good/service. Example 5 IDAK ADVANCED TECHNOLOGIES IDAK CONSUMER PRODUCTS Class 3: Toiletry preparations Class 9: Computers; digital watches Class 21: Household or kitchen utensils and containers Broad descriptive statements/representations relating to the claims can qualify under section 51(1)(a). The statements/representations do not need to directly identify the goods/services."
         }
       ],
@@ -43,6 +44,7 @@
         "13.6. Examples of Valid Series Trade Marks",
         "6.1 51(1)(a) statements or representations as to the goods or services in relation to which the trade marks are to be used"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -114,7 +116,7 @@
           "text": "Number"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK 1 IDAK 2 Example 2 IDAK FIRST IDAK 1ST Example 3 IDAK 2 IDAK TWO Example 4 IDAK ONE IDAK TWO Example 5 IDAK one IDAK TWO This is a valid series regardless of the differences in upper and lower case letters. Here, one and TWO are considered different statements or representations as to number, and therefore allowed under paragraph 51(1)(b)."
         },
         {
@@ -122,7 +124,7 @@
           "text": "Price"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK $2.00 IDAK $10.00 Example 2 IDAK £2.00 IDAK $10.00 IDAK ¥500"
         },
         {
@@ -134,7 +136,7 @@
           "text": "When considering quality, examiners should take into account the goods and services claimed, and undertake research to ascertain whether the terms are ordinarily used to indicate quality in the relevant industry."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK STANDARD IDAK DELUXE Example 2 IDAK SUPREME IDAK DELUXE IDAK PREMIER Example 3 IDAK GOLD IDAK SILVER IDAK BRONZE Class 43: Hotel accommodation Class 36: Credit card services Class 37: Vehicle repair service This is a valid series because the words gold, silver and bronze are normally used to describe levels of quality in relation to hotel accommodation, credit card services and vehicle repair services."
         },
         {
@@ -142,7 +144,7 @@
           "text": "Names of Places"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK PERTH IDAK SYDNEY Example 2 IDAK IDAK SYDNEY Example 3 PERTH IDAK SYDNEY IDAK Example 4 IDAK NSW IDAK NEW SOUTH WALES Example 5 IDAK MELBOURNE IDAK"
         }
       ],
@@ -155,6 +157,7 @@
         "13.6. Examples of Valid Series Trade Marks",
         "6.2 51(1)(b) statements or representations as to number, price, quality or names of places"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -326,7 +329,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK IDAK[note: entire representation is red in colour] Example 2 IDAK IDAK [note: the letter A is red in colour]"
         }
       ],
@@ -339,6 +342,7 @@
         "13.6. Examples of Valid Series Trade Marks",
         "6.3 51(1)(c) the colour of any part of the trade mark"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -375,7 +379,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Example 1 IDAK SYDNEY STANDARD 1 IDAK MELBOURNE DELUXE 2 Class 43: Hotel accommodation. This example is a valid series because the trade marks differ by statements as to place name, quality and number. Example 2 IDAK IDAK SYDNEY IDAK SYDNEY 1 IDAK $500 This example is a valid series because the trade marks differ by the presence or absence of statements as to place name and number."
         }
       ],
@@ -388,6 +392,7 @@
         "13.6. Examples of Valid Series Trade Marks",
         "6.4 Trade marks differing only in respect of one or more of the ways specified in paragraphs 51(1)(a), (b) and (c)"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 5,
@@ -426,9 +431,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:76f44c75201926b739636217c16fb2127927108dc8d60b136c017196cd70d85f",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "13.6. Examples of Valid Series Trade Marks",
     "images": [],
     "last_amended": "2026-06-03",

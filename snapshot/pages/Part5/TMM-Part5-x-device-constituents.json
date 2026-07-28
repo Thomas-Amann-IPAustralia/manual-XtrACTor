@@ -51,6 +51,7 @@
         "Part 5 Data Capture and Indexing",
         "Device Constituents"
       ],
+      "heading_source": null,
       "internal_refs": [
         "TMM/Part5/x-device-constituents"
       ],
@@ -81,6 +82,7 @@
         "Device Constituents",
         "Device Phrases"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -107,7 +109,7 @@
           "text": "Abbreviations are used wherever possible. A list of standard abbreviations used in device phrases is below:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "AND & PARALLELOGRAM P'GRAM STYLISED STYL. RECTANGLE RECT. SILHOUETTE SILH."
         }
       ],
@@ -121,6 +123,7 @@
         "Device Phrases",
         "Conventions used in device phrases"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -189,8 +192,16 @@
           "text": "BREAKS"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/nothing.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Zig-zag breaks double ellipse"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/mechanic.png"
         },
         {
           "kind": "paragraph",
@@ -201,12 +212,20 @@
           "text": "CUTS"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/satellite_2.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Rectangle cuts satellite dish"
         },
         {
           "kind": "paragraph",
           "text": "OVERLAPS"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/instock.png"
         },
         {
           "kind": "paragraph",
@@ -217,12 +236,20 @@
           "text": "INDENTS"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/star_2.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Star indents triangle"
         },
         {
           "kind": "paragraph",
           "text": "EXTEND"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/keno.png"
         },
         {
           "kind": "paragraph",
@@ -233,8 +260,16 @@
           "text": "ATOP"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/atop.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Square atop circle beside arrowhead"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/red_hair.png"
         },
         {
           "kind": "paragraph",
@@ -245,8 +280,16 @@
           "text": "BELOW"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/circle_2.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Striped semi-circle below eccentric semi-circles"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/star_3.png"
         },
         {
           "kind": "paragraph",
@@ -257,6 +300,10 @@
           "text": "BESIDE"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/chevron_2.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Disc beside chevron, broken"
         },
@@ -265,8 +312,16 @@
           "text": "IN"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/globe_2.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Map of Australia in globe,meridians"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/face_in_screen.png"
         },
         {
           "kind": "paragraph",
@@ -277,8 +332,16 @@
           "text": "BETWEEN"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/grow_n_mulch.png"
+        },
+        {
           "kind": "paragraph",
           "text": "Pile of blocks or cubes between 2 worms"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/cane_master.png"
         },
         {
           "kind": "paragraph",
@@ -295,6 +358,7 @@
         "Device Phrases",
         "Device phrase operators"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -327,6 +391,7 @@
         "Device Constituents",
         "How are Images Indexed?"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 5,
@@ -352,6 +417,7 @@
         "How are Images Indexed?",
         "Geometric Borders"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 6,
@@ -387,11 +453,15 @@
           "text": "The example below is of a complex trade mark with decorative elements surrounding the central figures which are the main feature or 'idea' of the mark"
         },
         {
-          "kind": "text",
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/american_indian.png"
+        },
+        {
+          "kind": "table",
           "text": "Phrase: AMERICAN INDIAN CHIEF & GREEK OR ROMAN WOMAN IN TROPICAL SCENE"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Constituents: AMERICAN-INDIAN WOMAN GREEK ROMAN SCENE,TROPICAL PERSON"
         },
         {
@@ -409,6 +479,7 @@
         "How are Images Indexed?",
         "Conventional decorative elements"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 7,
@@ -527,7 +598,7 @@
           "text": "There are rules for when to use some qualifying terms. The following should be noted:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "TERM APPLIES TO TERM APPLIES TO SEATED people SITTING animals FLYING people/animals/objects FLIGHT birds JUMPING people LEAPING animals SWIMMER people SWIMMING animals DANCER people DANCING animals CLIMBER people CLIMBING plants/animals RUNNER sportsmen RUNNING animals/people (not sportsmen) DIAMOND geometric shape GEM jewel CURTAIN curtains DRAPES heraldic convention"
         },
         {
@@ -547,6 +618,7 @@
         "Device Constituents",
         "Types of Terms (Descriptors)"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 8,
@@ -735,6 +807,7 @@
         "Device Constituents",
         "Types of Terms (Descriptors)"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 9,
@@ -742,30 +815,6 @@
       "provisions": [],
       "tables": [],
       "text": "IRREGULAR is used for any distorted geometric shape, STYLISED for any distorted or stylised person, animal, object or scene (see further explanation of STYLISED below.) INTERSECTING is used for stripes, lines, but INTERLOCKING is used for whole figures such as CIRCLES, SQUARES, RECTANGLES or ELLIPSES. In the case of INTERLOCKING words like `superimposed', `overlapping', may be used in the device phrase to give a clearer impression of the mark, but, if used as constituents, would mean that a searcher would always have to consider alternatives instead of finding all like devices under one description. STACKED is used for figures such as diamonds, chevrons or discs which overlap in a parallel fashion."
-    },
-    {
-      "blocks": [
-        {
-          "kind": "heading",
-          "text": "Specialised Qualifying Terms"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part5/x-device-constituents/specialised-qualifying-terms",
-      "content_hash": "sha256:6f8167c3c0ea0985733c827d6f8e52c2f1dcc388df12a14dcdf1213a66307999",
-      "fragment": null,
-      "heading_path": [
-        "Part 5 Data Capture and Indexing",
-        "Device Constituents",
-        "Specialised Qualifying Terms"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 10,
-      "page_ref": "TMM/Part5/x-device-constituents",
-      "provisions": [],
-      "tables": [],
-      "text": "Specialised Qualifying Terms"
     },
     {
       "blocks": [
@@ -778,7 +827,7 @@
           "text": "It is not used for geometric shapes, arrows, impellers, patterns. If these items are distorted, the term IRREGULAR may be used. Other terms where STYLISED would not be helpful include:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "GLASS,WINE SWORD RAINBOW ROCKET"
         },
         {
@@ -794,11 +843,19 @@
           "text": "Examples of the use of STYLISED"
         },
         {
-          "kind": "text",
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/flying_swan.png"
+        },
+        {
+          "kind": "table",
           "text": "Constituents: BIRD,SWAN STYLISED FLIGHT"
         },
         {
-          "kind": "text",
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/australia.png"
+        },
+        {
+          "kind": "table",
           "text": "Constituents: MAP,AUSTRALIA STYLISED TREE,PINE+ THREE"
         }
       ],
@@ -812,9 +869,10 @@
         "Specialised Qualifying Terms",
         "STYLISED"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 11,
+      "ordinal": 10,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -897,7 +955,11 @@
           "text": "The word CARTOON means a drawing which symbolises or caricatures some subject or person in an exaggerated way. It applies mainly to animals or objects with human characteristics (for example, facial expressions, wearing clothes having arms and legs), but it can also apply to people who are caricatures. It does not apply to objects which are represented in a 'comic strip' way, and it is not used in conjunction with the term CARTOON-CHARACTER."
         },
         {
-          "kind": "text",
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/sydney_swans.png"
+        },
+        {
+          "kind": "table",
           "text": "Constituents: BIRD,SWAN CARTOON BRIDGE,HARBOUR BALL,FOOTBALL SPLASH"
         }
       ],
@@ -911,9 +973,10 @@
         "Specialised Qualifying Terms",
         "CARTOON"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 12,
+      "ordinal": 11,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -965,9 +1028,10 @@
         "Specialised Qualifying Terms",
         "CLOTHED"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 13,
+      "ordinal": 12,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -980,7 +1044,11 @@
           "text": "The term SILHOUETTE is defined as 'an outline drawing, uniformly filled in with black, like a shadow'. In indexing, it is used for common devices depicted in outline or shaded format, sometimes with very sketchy features as in the swan below:"
         },
         {
-          "kind": "text",
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/silhouette_swan.png"
+        },
+        {
+          "kind": "table",
           "text": "Constituents: BIRD,SWAN SILHOUETTE INCOMPLETE SPECKLED"
         },
         {
@@ -1002,9 +1070,10 @@
         "Specialised Qualifying Terms",
         "SILHOUETTE"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 14,
+      "ordinal": 13,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1076,37 +1145,14 @@
         "Device Constituents",
         "Other Special Descriptors"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 15,
+      "ordinal": 14,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
       "text": "DISC-HEAD is used for geometric shape people with circles or discs for heads. The heads may or may not have features, or may be a solid disc or an outline. A DISC-HEAD is not indexed using PERSON and STYLISED. STICK-FIGURE is used for people shapes made up of thin lines. Sometimes these also have DISC-HEADS The use of Top Level Terms means that some 'very stylised' or unknown figures cannot be indexed by general terms such as PERSON, ANIMAL, BUILDING or FLOWER. If they were indexed using these general terms, the number of records retrieved would be extremely large. Special terms exist which avoid this problem: BLOOM is used for non-specific flowers. CREATURE is used for indeterminate animals. STRUCTURE is used for a building where its nature is uncertain. ALIEN may be used to describe something that resembles a human but has some strange features."
-    },
-    {
-      "blocks": [
-        {
-          "kind": "heading",
-          "text": "Heraldic Devices"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part5/x-device-constituents/heraldic-devices",
-      "content_hash": "sha256:b4e38170fb926fe6f33c2cbca05c1f4105844fea350ab68d41d62fc3974a6e41",
-      "fragment": null,
-      "heading_path": [
-        "Part 5 Data Capture and Indexing",
-        "Device Constituents",
-        "Heraldic Devices"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 16,
-      "page_ref": "TMM/Part5/x-device-constituents",
-      "provisions": [],
-      "tables": [],
-      "text": "Heraldic Devices"
     },
     {
       "blocks": [
@@ -1152,9 +1198,10 @@
         "Heraldic Devices",
         "SHIELDS, CRESTS AND COATS OF ARMS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 17,
+      "ordinal": 15,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -1189,9 +1236,10 @@
         "Heraldic Devices",
         "Mantling and Drapes"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 18,
+      "ordinal": 16,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -1225,9 +1273,10 @@
         "Device Constituents",
         "Geometric Shapes in Marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 19,
+      "ordinal": 17,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -1236,7 +1285,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "CIRCLE = A circle is circular outline. It may be white on black or black on white. DISC = A disc is a shaded circular shape, without discernible outline."
         },
         {
@@ -1261,9 +1310,10 @@
         "Geometric Shapes in Marks",
         "CIRCLES AND DISCS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 20,
+      "ordinal": 18,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1297,7 +1347,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "DOUBLE = Two concentric circles or discs so close together as to be almost one outline. TRIPLE = Three close concentric circles or discs. CONCENTRIC = Circles or discs having a common centre and a space between their circumferences sufficient to make them appear as separate figures. ECCENTRIC = Circles or discs within each other but without common centre. This term can also be used for other figures such as ellipses or ovals. INTERLOCKING = Intertwined circles or discs. If another description such as \"overlapping\" or \"superimposed\" is thought to be more informative of the get-up of the mark, it can be used in the device phrase. STRIPED = A pattern of parallel lines over the surface of the circle or disc. Other descriptions such as WAVY or HORIZONTAL should also be indexed. DOTTED = The figure contains several dots. These need not be an all over pattern of dots; if they are, a cross reference to PATTERN and DOTS may be required. HALVED = Used when a circle or disc is divided into equal halves. DIVIDED = Used when a circle or disc is divided into more than two parts,or into two unequal parts. QUARTERED = A disc or circle divided into four equal segments. SEGMENTED = A disc or circle divided into segments. MISSING = Used when a circle has a \"slice\" cut out. The constituent SEGMENT is added INCOMPLETE = An unfinished disc or circle; i.e. the outline does not complete the figure. BROKEN = The circumference of the circle is formed of dashes or is broken at two or more places. INDENTED = A small piece, not a segment, is cut out of the disc or circle. EXTENDED = The circumference is extended to form a tangent to the disc or circle. `Tangent' is not a Glossary constituent. IRREGULAR = A term used when a 'circle' is not a perfect circle. Note also: ANNULUS = The very common feature of two concentric circles containing written material. CYLINDER = A three dimensional or extended circle or disc. SEMI-CIRCLE = A half CIRCLE or DISC. This is not the same as a HALVED used with CIRCLE. The distinction is usually obvious; for example, a mark may contain three separate SEMI-CIRCLES; a HALVED CIRCLE is one figure with a dividing line across the centre. SEGMENT = A 'slice' or 'wedge' of a circle or disc. The term is used only when the device is rendered as a segment of a circle; otherwise it is indexed as a TRIANGLE with CONVEX-SIDE. QUADRANT = segment of a disc or circle which is an exact quarter. (cf also RIGHTANGLED TRIANGLE with CONVEX-SIDE)"
         }
       ],
@@ -1314,9 +1364,10 @@
         "Geometric Shapes in Marks",
         "CIRCLES AND DISCS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 21,
+      "ordinal": 19,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1522,7 +1573,7 @@
           "text": "The terms SEGMENT and QUADRANT are reserved for the parts separated from the whole."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "CONE = A segment in the form of an upright INVERTED TRIANGLE with CONVEXSIDE opposite the apex. The term is also used for ice cream cones. ARC = Part of the circumference of a circle. RING = Three dimensional circle sometimes an article of jewellery or a planet ring. The latter is common in trade marks and is often elliptical in shape and incomplete. BUBBLES = A specialised depiction of circles INTENDED to represent BUBBLES, usually diminishing in size and with 'highlights'."
         }
       ],
@@ -1539,9 +1590,10 @@
         "Geometric Shapes in Marks",
         "CIRCLES AND DISCS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 22,
+      "ordinal": 20,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1595,7 +1647,7 @@
           "text": "ELLIPSES and OVALS follow the same rules and use the same descriptions as CIRCLES and DISCS."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "ELLIPSE = A figure with a clear black or white outline; OVAL = A shaded figure usually without an outline"
         }
       ],
@@ -1609,9 +1661,10 @@
         "Geometric Shapes in Marks",
         "ELLIPSES AND OVALS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 23,
+      "ordinal": 21,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1649,7 +1702,7 @@
           "text": "There are no specific terms for shaded FOUR-SIDED figures as with DISCS AND OVALS."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "RECTANGLES have a right angle in each corner and one pair of opposite sides longer than the other. SQUARES have a right angle in each corner and all sides of equal length. PARALLELOGRAMS are not right-angled but have opposite equal and parallel sides, one pair being longer than the other. (A rectangle pushed sideways.) RHOMBUS is a parallelogram with all sides of equal length. (A square pushed sideways.) TRAPEZIUMS have ONE pair of parallel sides. QUADRILATERALS are irregular four-sided figures with no parallel sides. DIAMONDS are squares or triangles standing on one corner. ENDLESS-BELTS are rectangles with two rounded ends. Note the hyphen. CUBES are solid three-dimensional figures all sides being squares. BLOCKS are solid rectangular figures. PANELS = A term for rectangles on their ends which are used as the background to letters. It is not used at any other time."
         },
         {
@@ -1661,7 +1714,7 @@
           "text": "Four sided figures all carry the same descriptive terms. These are indexed as separate constituents to allow elimination as well as addition for a search. Some of the descriptors are themselves hyphened terms."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "ROUNDED-CORNER(S) = One or more corners are rounded. If only one corner is rounded this is shown by use of the singular. If all four are rounded a number is not supplied; if only two or three corners are rounded this is indicated in the device phrase but not in the constituents; use of a number could limit the search in the wrong way, e.g. to two rectangles rather than rectangles with two rounded-corners. ROUNDED-END(S) = A figure with one or more rounded ends. The above comments apply. Note that the term is not applied to rectangles. (See ENDLESS-BELTS) CONVEX-SIDE(S) = One or more sides of the figure are rounded outwards. This does not apply to ENDLESS-BELTS. CONCAVE-SIDE(S) = One or more of the sides is rounded inwards. CURVED-SIDE(S) = One or more of the sides is curved both in and out."
         },
         {
@@ -1682,9 +1735,10 @@
         "Geometric Shapes in Marks",
         "FOUR-SIDED FIGURES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 24,
+      "ordinal": 22,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1838,7 +1892,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "NOTCHED-SIDE(S) = One or more of the sides has one or more NOTCHES, or dents, usually triangular or zig-zag . See Glossary for illustration. NOTCHED-END(S) = The end(s) of a rectangular figure are notched. NOTCHED-CORNER(S) = One or more corners are NOTCHED, i.e. cut off. See Glossary illustration. INDENTED = A piece, or pieces, has been cut out of the shape. STRIPED = The type of stripes should be added as extra constituents, for example, WAVY or OBLIQUE. HALVED = The figure has been divided into two equal halves. DIVIDED = The figure has been divided into more than two parts or into two unequal parts. Sometimes the division of a figure can form it into something else: e.g. a square is divided into two rectangles or a rectangle into two squares or two triangles, or a triangle into a small triangle with trapeziums. INTERLOCKING = The shapes are intertwined. No other description should be used. INCOMPLETE = The figure has not been fully joined. BROKEN = The sides of the figure are dashed or broken in two or more places. Note also: PRISM = An extended four-sided figure."
         }
       ],
@@ -1855,9 +1909,10 @@
         "Geometric Shapes in Marks",
         "FOUR-SIDED FIGURES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 25,
+      "ordinal": 23,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -1975,7 +2030,7 @@
           "text": "TRIANGLES are three sided figures. They follow the same rules and carry the same descriptions as those outlined above with the following additions:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "RIGHT-ANGLED = One of the angles of the figure is a right angle. INVERTED = The triangle is standing on its apex. Note that an inverted triangle with a curved base (now at the top) is a CONE. TRUNCATED = One of the angles of the figure has been cut off. This essentially makes it a four-sided figure, but one end is so short it more closely resembles a triangle. The term is used only for TRIANGLES or CONES. PRISM = A solid figure which is triangular in section all the way through like the Toblerone block. The constituent TRIANGLE is required because a prism can be other three dimensional shapes. PYRAMID = A solid figure with triangular sides."
         }
       ],
@@ -1989,9 +2044,10 @@
         "Geometric Shapes in Marks",
         "TRIANGLES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 26,
+      "ordinal": 24,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -2063,9 +2119,10 @@
         "Geometric Shapes in Marks",
         "OTHER GEOMETRIC FIGURES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 27,
+      "ordinal": 25,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2098,7 +2155,7 @@
           "text": "STRIPES or ARROWS can be described as:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "VERTICAL = Straight up and down. (North to South) HORIZONTAL = Straight sideways. (East to West) OBLIQUE = Straight, at any angle off the vertical or horizontal. CURVED = With only one curve or wave. WAVY = With more than one curve or wave. SINE-WAVE = This term is used when a wavy line or stripe resembles the mathematical symbol (See also PARABOLA). ZIG-ZAG = With jagged waves. ANGLED = For stripes angled in any but zig-zag fashion: e.g. two stripes joined at an angle. HOOKED = A straight or curved stripe with a definite hook at the end. The term HOOK should be reserved for representations of actual hooks such as coathooks or meathooks; (note use of FISHHOOK) LOOPED = The stripe loops back on itself. INTERSECTING = Any crossed stripes. No other term is used. The constituent CROSSED is reserved for things other than STRIPES or ARROWS; e.g. swords or stems. DIVERGING = The STRIPES diverge from a central point. A term used also of RAYS Three lines diverging at equal angles from a central point form a TRICUSPID. CONVERGING = The STRIPES converge to a central point"
         },
         {
@@ -2128,9 +2185,10 @@
         "Geometric Shapes in Marks",
         "STRIPES (LINES and ARROWS)"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 28,
+      "ordinal": 26,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -2252,30 +2310,6 @@
     {
       "blocks": [
         {
-          "kind": "heading",
-          "text": "Other Specific Device"
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part5/x-device-constituents/other-specific-device",
-      "content_hash": "sha256:28593b3bc05f9692029c0b932a065f451700b1340f00f4371ff65c53e2100545",
-      "fragment": null,
-      "heading_path": [
-        "Part 5 Data Capture and Indexing",
-        "Device Constituents",
-        "Other Specific Device"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 29,
-      "page_ref": "TMM/Part5/x-device-constituents",
-      "provisions": [],
-      "tables": [],
-      "text": "Other Specific Device"
-    },
-    {
-      "blocks": [
-        {
           "kind": "paragraph",
           "text": "These are simply three, four or five lobed figures, such as the playing-card CLUBS symbol or a stylised clover leaf. Definite representations of clover leaves and the CLUBS symbol are indexed as such and cross reference is only required for borderline cases. QUATREFOIL and CINQUEFOILS may also resemble STYLISED BLOOMS and should also be cross indexed. This allows restriction of a search to, for example, only those STYLISED BLOOMS which are five lobed figures: BLOOM AND CINQUEFOIL."
         }
@@ -2290,9 +2324,10 @@
         "Other Specific Device",
         "TREFOILS, QUATREFOILS, CINQUEFOILS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 30,
+      "ordinal": 27,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2331,9 +2366,10 @@
         "Other Specific Device",
         "SPIRALS, SPRINGS AND COILS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 31,
+      "ordinal": 28,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2356,9 +2392,10 @@
         "Other Specific Device",
         "CURLS AND WHORLS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 32,
+      "ordinal": 29,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2381,9 +2418,10 @@
         "Other Specific Device",
         "DROPS AND FLAMES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 33,
+      "ordinal": 30,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2408,7 +2446,7 @@
           "text": "There are some special terms for commonly occurring types:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "TRISKELION = a three-blade impeller giving the impression of three legs running round in a circle. The term applies correctly to the Isle of Man emblem, but can be used for quite stylised representations and is useful for limiting a search to this specific type of three-blade impeller. PROPELLER = Used only for TWO-BLADE IMPELLERS representing aeroplane-type propellers."
         },
         {
@@ -2462,9 +2500,10 @@
         "Other Specific Device",
         "IMPELLERS AND FANS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 34,
+      "ordinal": 31,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -2522,7 +2561,7 @@
           "text": "Note also:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "SYMBOL,RECYCLE = A circle or triangle formed by two or three arrows."
         }
       ],
@@ -2536,9 +2575,10 @@
         "Other Specific Device",
         "ARROWS, ARROWHEADS, CHEVRONS, ANGLES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 35,
+      "ordinal": 32,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -2576,7 +2616,7 @@
           "text": "Some descriptive constituents are used only for patterned devices. In these cases the constituent PATTERN is not used. Examples include:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "SPECKLES CROSS-HATCHED CRISS-CROSS HERRINGBONE TARTAN HOUNDSTOOTH CHECKS"
         }
       ],
@@ -2590,9 +2630,10 @@
         "Other Specific Device",
         "PATTERNS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 36,
+      "ordinal": 33,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -2668,9 +2709,10 @@
         "Other Specific Device",
         "GRID, MESH, GRAPH"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 37,
+      "ordinal": 34,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2705,9 +2747,10 @@
         "Other Specific Device",
         "BORDERS, FRAMES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 38,
+      "ordinal": 35,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2746,9 +2789,10 @@
         "Other Specific Device",
         "BADGES, MEDALS, MEDALLIONS, ROSETTES AND COINS."
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 39,
+      "ordinal": 36,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2818,9 +2862,10 @@
         "Other Specific Device",
         "LIONS AND OTHER HERALDIC ANIMALS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 40,
+      "ordinal": 37,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2855,9 +2900,10 @@
         "Other Specific Device",
         "STARS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 41,
+      "ordinal": 38,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2880,9 +2926,10 @@
         "Other Specific Device",
         "BALLS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 42,
+      "ordinal": 39,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2937,9 +2984,10 @@
         "Other Specific Device",
         "GLOBES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 43,
+      "ordinal": 40,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -2994,9 +3042,10 @@
         "Other Specific Device",
         "MAPS AND FLAGS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 44,
+      "ordinal": 41,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -3019,9 +3068,10 @@
         "Other Specific Device",
         "CROSSES"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 45,
+      "ordinal": 42,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -3095,7 +3145,7 @@
           "text": "Trade Marks which contain Chinese characters will also have the transliteration indexed. The transliteration constituents (Hanyu Pinyin transliteration) of any Chinese characters within the trade mark will start with a T, and will look like this"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Indexing Details - Word Constituents T:SHENG T:XIAN"
         },
         {
@@ -3116,9 +3166,10 @@
         "Other Specific Device",
         "SYMBOLS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 46,
+      "ordinal": 43,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [
@@ -3169,9 +3220,10 @@
         "Other Specific Device",
         "SYMBOLS"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 47,
+      "ordinal": 44,
       "page_ref": "TMM/Part5/x-device-constituents",
       "provisions": [],
       "tables": [],
@@ -3182,9 +3234,9 @@
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:b086a2e233b60d86f3ee16a681bce05f15cd500e2fd7c57a504039a1e6137817",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Device Constituents",
     "images": [
       {

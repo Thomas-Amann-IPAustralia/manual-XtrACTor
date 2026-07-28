@@ -52,6 +52,13 @@
       "description": "'landing' marks Relevant Legislation pages, which are mappings not prose and should usually be excluded from applicant-facing answers."
     },
 
+    "heading_source": {
+      "enum": ["markup", "emphasis", null],
+      "default": null,
+      "description": "How the leaf of 'heading_path' was found. 'markup' is an h2-h4, which is the Manual asserting the boundary itself. 'emphasis' is a bold paragraph opening with a number that extends the page's own, promoted to a heading because 456 of the Manual's numbered subsections are set that way and cutting on markup alone left 39% of the corpus text with no heading at all. null is the prose above a page's first heading. This is the only field in the pipeline recording an inference, and it exists so that a consumer wanting strictly the Manual's own structure can filter to 'markup' and know what it gave up.",
+      "examples": ["markup", "emphasis"]
+    },
+
     "fragment": {
       "type": ["object", "null"],
       "description": "Present only when an over-long section was split on paragraph boundaries.",
@@ -118,23 +125,39 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["kind", "text"],
+        "required": ["kind"],
         "properties": {
           "kind": {
-            "enum": ["paragraph", "list_item", "table", "heading", "text"],
-            "description": "The element the block was set as. 'heading' is an h5 or h6 — h2-h4 are chunk boundaries and h1 is the page title. 'text' is inline content Drupal left loose in a layout div, and is the fallback for any element not otherwise named."
+            "enum": ["paragraph", "list_item", "table", "heading", "image", "text"],
+            "description": "The element the block was set as. 'heading' is an h5 or h6 — h2-h4 are chunk boundaries and h1 is the page title. 'image' is an img the CMS left loose in a layout div, and is the only kind with no 'text'. 'text' is inline content left loose the same way, and is the fallback for any element not otherwise named."
           },
           "text": {
             "type": "string",
             "minLength": 1,
-            "description": "Verbatim, whitespace-normalised, and for a list item its own words only — the items nested under it are their own blocks and are not repeated here."
+            "description": "Verbatim, whitespace-normalised, and for a list item its own words only — the items nested under it are their own blocks and are not repeated here. Absent on an 'image' block and present on every other kind: an image contributes no words, and a block carrying an empty string would put a stray space into the join that reconstructs the chunk."
           },
           "depth": {
             "type": "integer",
             "minimum": 1,
             "description": "How many lists enclose a list item, from 1. Present only on 'list_item'. The corpus nests three deep at most; without it a sub-item reads as a sibling of the item it qualifies."
+          },
+          "src": {
+            "type": "string",
+            "description": "The img's src, verbatim and usually site-relative. Present only on 'image'. The bytes are not in the snapshot — this records that an image sat at this point in the prose, which the page record's 'images' cannot say."
+          },
+          "alt": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The img's alt text. Present only on 'image', and only where the Manual wrote one — which across 169 images it never has. Absence means the source is silent, and nothing here invents a description."
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "kind": { "const": "image" } }, "required": ["kind"] },
+            "then": { "not": { "required": ["text"] } },
+            "else": { "required": ["text"] }
+          }
+        ]
       }
     },
 

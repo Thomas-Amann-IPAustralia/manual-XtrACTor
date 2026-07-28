@@ -44,6 +44,7 @@
         "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
         "3.1 Relevant Legislation"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -78,6 +79,7 @@
         "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
         "3.2 General Description"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -167,6 +169,7 @@
         "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
         "3.3 Five Year Dependency"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part60/4/25"
       ],
@@ -201,6 +204,7 @@
         "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
         "3.4 Monitoring Basic Trade Marks"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -211,10 +215,6 @@
     },
     {
       "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "3.5.1 Divisional Application"
-        },
         {
           "kind": "paragraph",
           "text": "The IB may need to be notified when a divisional application is filed."
@@ -244,41 +244,61 @@
         {
           "kind": "paragraph",
           "text": "Note: It is not possible to file an Australian divisional application from an International Registration Designating Australia (IRDA)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "3.5.2 Assignment of the Basic Trade Mark"
-        },
-        {
-          "kind": "paragraph",
-          "text": "It is possible to assign ownership of the basic trade mark on which the international registration is based, without changing the ownership of the international registration. However, if this occurs within the 5 year dependency period, any subsequent changes made to the basic trade mark by the new owner will still impact the international registration. Holders should therefore exercise great care when assigning a basic trade mark within the 5 year period."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/3/3/5",
-      "content_hash": "sha256:8e3e9a262f541b49b68beaf74638ec8d4baf3c25e8894d59e75517fde7f30fe5",
+      "chunk_ref": "TMM/Part60/3/3/5/1",
+      "content_hash": "sha256:5fe2b990aca7da49b2484acef29ee3871d79923ed676526f9c2eeab93113c07c",
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
         "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
-        "3.5 Additional Basic Trade Mark Information"
+        "3.5 Additional Basic Trade Mark Information",
+        "3.5.1 Divisional Application"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 5,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
       "tables": [],
-      "text": "3.5.1 Divisional Application The IB may need to be notified when a divisional application is filed. Australian applications used as the basic trade mark for an international application or the resulting international registration may have a divisional application filed for some of the goods and/or services. If a divisional application results in the goods and/or services of the international application being covered by more than one basic trade mark the IB will need to be notified so that they can record the number of the additional basic trade mark in the International Register. The IB will, in turn, advise the designated countries of the additional Australian basic trade mark number and the goods and/or services which it covers. Note: Divisional applications will be checked to see if the relevant parent trade mark is a basic trade mark. If the parent application is a basic trade mark the following questions will apply: is the divisional application for some of the goods and/or services contained in the parent trade mark? is it less than 5 years from the date the international application was filed in IP Australia? If the answer to both these questions is YES, the IB must be notified of the additional basic number. The IB will then amend the International Register to add the extra basic trade mark number(s) and notify each designated country. Note: It is not possible to file an Australian divisional application from an International Registration Designating Australia (IRDA). 3.5.2 Assignment of the Basic Trade Mark It is possible to assign ownership of the basic trade mark on which the international registration is based, without changing the ownership of the international registration. However, if this occurs within the 5 year dependency period, any subsequent changes made to the basic trade mark by the new owner will still impact the international registration. Holders should therefore exercise great care when assigning a basic trade mark within the 5 year period."
+      "text": "The IB may need to be notified when a divisional application is filed. Australian applications used as the basic trade mark for an international application or the resulting international registration may have a divisional application filed for some of the goods and/or services. If a divisional application results in the goods and/or services of the international application being covered by more than one basic trade mark the IB will need to be notified so that they can record the number of the additional basic trade mark in the International Register. The IB will, in turn, advise the designated countries of the additional Australian basic trade mark number and the goods and/or services which it covers. Note: Divisional applications will be checked to see if the relevant parent trade mark is a basic trade mark. If the parent application is a basic trade mark the following questions will apply: is the divisional application for some of the goods and/or services contained in the parent trade mark? is it less than 5 years from the date the international application was filed in IP Australia? If the answer to both these questions is YES, the IB must be notified of the additional basic number. The IB will then amend the International Register to add the extra basic trade mark number(s) and notify each designated country. Note: It is not possible to file an Australian divisional application from an International Registration Designating Australia (IRDA)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It is possible to assign ownership of the basic trade mark on which the international registration is based, without changing the ownership of the international registration. However, if this occurs within the 5 year dependency period, any subsequent changes made to the basic trade mark by the new owner will still impact the international registration. Holders should therefore exercise great care when assigning a basic trade mark within the 5 year period."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/3/3/5/2",
+      "content_hash": "sha256:353c24d2da387d7660904c149bc73be4a6ceb631f7f99698d6e8d3bf60bd6688",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
+        "3.5 Additional Basic Trade Mark Information",
+        "3.5.2 Assignment of the Basic Trade Mark"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part60/3",
+      "provisions": [],
+      "tables": [],
+      "text": "It is possible to assign ownership of the basic trade mark on which the international registration is based, without changing the ownership of the international registration. However, if this occurs within the 5 year dependency period, any subsequent changes made to the basic trade mark by the new owner will still impact the international registration. Holders should therefore exercise great care when assigning a basic trade mark within the 5 year period."
     }
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:3e47139b57709d5aad8b524e13d83ffb9be03ced0d006a1a509f6237305d7db0",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
     "images": [],
     "last_amended": "2026-04-17",

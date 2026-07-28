@@ -9,11 +9,38 @@
         {
           "kind": "paragraph",
           "text": "Applications are generally examined in the order they are filed. However, applicants may request that their application be examined ahead of time (reg 4.18). The Registrar may expedite examination of an application if he or she reasonably believes that expedited examination is warranted (reg 4.19)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part6/1#1",
+      "content_hash": "sha256:80a50da3b254cdae62f7acc6cee2578fdcb480667d4ce8907563a93e75cebd52",
+      "fragment": null,
+      "heading_path": [
+        "Part 6 Expedited Examination",
+        "6.1. Expedited Examination"
+      ],
+      "heading_source": null,
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part6/1",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMR1995/r4.18",
+          "mention": "reg 4.18"
         },
         {
-          "kind": "paragraph",
-          "text": "1.1 Expedited examination - applicant's request"
-        },
+          "extraction": "href",
+          "id": "TMR1995/r4.19",
+          "mention": "reg 4.19"
+        }
+      ],
+      "tables": [],
+      "text": "Trade Marks Regulations 1995 (Cth) Applications are generally examined in the order they are filed. However, applicants may request that their application be examined ahead of time (reg 4.18). The Registrar may expedite examination of an application if he or she reasonably believes that expedited examination is warranted (reg 4.19)."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Applicants may make a request to the Registrar to expedite the examination of their application (reg 4.18)."
@@ -40,11 +67,53 @@
           "depth": 1,
           "kind": "list_item",
           "text": "the applicant wishes to file overseas."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part6/1/1/1",
+      "content_hash": "sha256:308fa7fb5895b67cf420ee9a292e96f7ea3e6f37cd4fb711f70363a12d2bac64",
+      "fragment": null,
+      "heading_path": [
+        "Part 6 Expedited Examination",
+        "6.1. Expedited Examination",
+        "1.1 Expedited examination - applicant's request"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part6/1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "reg 21.6"
         },
         {
-          "kind": "paragraph",
-          "text": "1.2 Expedited examination by the Registrar"
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "reg 4.18"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18(1)(a)",
+          "mention": "reg 4.18(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18(1)(b)",
+          "mention": "reg 4.18(1)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "Applicants may make a request to the Registrar to expedite the examination of their application (reg 4.18). 1.1.1 A request for expedited examination must be made by the person who has applied for registration of the trade mark or their appointed agent. The request must be in writing (reg 4.18(1)(a)) and be accompanied by a declaration stating the reasons for the request (reg 4.18(1)(b)). The requirements for declarations are set out in reg 21.6. 1.1.2 The applicant must give reasons for the request and the Registrar will grant a request for expedited examination if the request is based upon reasonable grounds. The Registrar has the discretion to grant or refuse to grant such a request. Examples of reasons given in some instances where expedited examination has been granted are: the applicant being in real fear that their trade mark is being infringed or may be infringed; the applicant has invested in advertising and/or manufacture and requires registration of their trade mark at the earliest date possible so as to put their investment at as little risk as possible; the applicant wishes to file overseas."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Registrar is empowered to expedite the examination of applications in the absence of a request from the applicant, where he or she is of the opinion that such action is warranted (reg 4.19(2)). The most common instances in which the Registrar is likely to expedite examination of applications are discussed below."
@@ -61,24 +130,31 @@
         {
           "kind": "paragraph",
           "text": "1.2.2 Where an expedited application has a citation against it, the cited application, if it is not already being examined, will be expedited. This also includes divisional applications."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.2.3 All applications filed via TM Headstart will be expedited."
+        },
+        {
+          "kind": "paragraph",
+          "text": "1.2.4 There may be other circumstances where the Registrar uses this discretion and each circumstance will be judged individually on its own merits (see also reg 4.19(3))."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part6/1#1~1",
-      "content_hash": "sha256:ec1ba2c17b010a20953513d3c8f1d225234db22e8cd3681cc10657a70e795ec3",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part6/1/1/2",
+      "content_hash": "sha256:1904b51e3b4df4288f22367bf1ece3a9fa729052783bdfee1e3aec5c89b1c802",
+      "fragment": null,
       "heading_path": [
         "Part 6 Expedited Examination",
-        "6.1. Expedited Examination"
+        "6.1. Expedited Examination",
+        "1.2 Expedited examination by the Registrar"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part11/4"
       ],
       "kind": "body",
-      "ordinal": 1,
+      "ordinal": 3,
       "page_ref": "TMM/Part6/1",
       "provisions": [
         {
@@ -90,68 +166,9 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r21.6",
-          "mention": "reg 21.6"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r4.18",
-          "mention": "reg 4.18"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r4.18(1)(a)",
-          "mention": "reg 4.18(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r4.18(1)(b)",
-          "mention": "reg 4.18(1)(b)"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r4.19",
-          "mention": "reg 4.19"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r4.19(2)",
           "mention": "reg 4.19(2)"
-        }
-      ],
-      "tables": [],
-      "text": "Trade Marks Regulations 1995 (Cth) Applications are generally examined in the order they are filed. However, applicants may request that their application be examined ahead of time (reg 4.18). The Registrar may expedite examination of an application if he or she reasonably believes that expedited examination is warranted (reg 4.19). 1.1 Expedited examination - applicant's request Applicants may make a request to the Registrar to expedite the examination of their application (reg 4.18). 1.1.1 A request for expedited examination must be made by the person who has applied for registration of the trade mark or their appointed agent. The request must be in writing (reg 4.18(1)(a)) and be accompanied by a declaration stating the reasons for the request (reg 4.18(1)(b)). The requirements for declarations are set out in reg 21.6. 1.1.2 The applicant must give reasons for the request and the Registrar will grant a request for expedited examination if the request is based upon reasonable grounds. The Registrar has the discretion to grant or refuse to grant such a request. Examples of reasons given in some instances where expedited examination has been granted are: the applicant being in real fear that their trade mark is being infringed or may be infringed; the applicant has invested in advertising and/or manufacture and requires registration of their trade mark at the earliest date possible so as to put their investment at as little risk as possible; the applicant wishes to file overseas. 1.2 Expedited examination by the Registrar The Registrar is empowered to expedite the examination of applications in the absence of a request from the applicant, where he or she is of the opinion that such action is warranted (reg 4.19(2)). The most common instances in which the Registrar is likely to expedite examination of applications are discussed below. 1.2.1 All applications and International Registrations Designating Australia (under reg 17A.23) claiming priority on the basis of a convention country application will have examination expedited, as soon as filing and indexing is completed. Part 11 Convention Applications - 4. Convention documents 1.2.2 Where an expedited application has a citation against it, the cited application, if it is not already being examined, will be expedited. This also includes divisional applications."
-    },
-    {
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "1.2.3 All applications filed via TM Headstart will be expedited."
         },
-        {
-          "kind": "paragraph",
-          "text": "1.2.4 There may be other circumstances where the Registrar uses this discretion and each circumstance will be judged individually on its own merits (see also reg 4.19(3))."
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part6/1#1~2",
-      "content_hash": "sha256:49b9df6e282252fafbd6d61d46f4393750ee6ffb9dfcabf158698e35b4c90944",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
-      "heading_path": [
-        "Part 6 Expedited Examination",
-        "6.1. Expedited Examination"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 2,
-      "page_ref": "TMM/Part6/1",
-      "provisions": [
         {
           "certainty": "default",
           "extraction": "regex",
@@ -160,16 +177,16 @@
         }
       ],
       "tables": [],
-      "text": "1.2.3 All applications filed via TM Headstart will be expedited. 1.2.4 There may be other circumstances where the Registrar uses this discretion and each circumstance will be judged individually on its own merits (see also reg 4.19(3))."
+      "text": "The Registrar is empowered to expedite the examination of applications in the absence of a request from the applicant, where he or she is of the opinion that such action is warranted (reg 4.19(2)). The most common instances in which the Registrar is likely to expedite examination of applications are discussed below. 1.2.1 All applications and International Registrations Designating Australia (under reg 17A.23) claiming priority on the basis of a convention country application will have examination expedited, as soon as filing and indexing is completed. Part 11 Convention Applications - 4. Convention documents 1.2.2 Where an expedited application has a citation against it, the cited application, if it is not already being examined, will be expedited. This also includes divisional applications. 1.2.3 All applications filed via TM Headstart will be expedited. 1.2.4 There may be other circumstances where the Registrar uses this discretion and each circumstance will be judged individually on its own merits (see also reg 4.19(3))."
     }
   ],
   "page": {
     "amendment_note": "Links to legislation added. Minor content update.",
     "archived": false,
     "content_hash": "sha256:1ed490e02618a29df81ad8ca3101d12322b03e2e52bce9503ec2a6d3e238c1f5",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "6.1. Expedited Examination",
     "images": [],
     "last_amended": "2026-02-10",

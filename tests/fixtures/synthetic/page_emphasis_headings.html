@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A page whose subsections are bold paragraphs</title>
+<link rel="canonical" href="https://manuals.ipaustralia.gov.au/trademark/7.-a-page-whose-subsections-are-bold-paragraphs" />
+</head>
+<body>
+<main>
+<section class="section">
+<div class="row mt-5">
+<div class="col-lg-3 nested-nav">
+<ul><li><a href="/trademark">Home</a></li><li><a href="" class="folder">Part 22 Section 41 - Capable of Distinguishing</a></li></ul>
+</div>
+<div class="col-lg-9">
+<div class="block block-core block-page-title-block" id="block-ipam-page-title">
+<div class="content"><h1 class="title">22.7. A page whose subsections are bold paragraphs</h1></div>
+</div>
+<div class="view-mode-full ds-1col clearfix">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+<!--
+  The shapes `chunker._inferred_heading` has to tell apart, on one page.
+
+  Written for page TMM/Part22/7, so the page's own number is 7 and only a
+  bold paragraph numbered 7.something may be promoted. Every element below is
+  markup the Manual actually uses; what varies is the one thing the rule
+  turns on.
+-->
+
+  <div class="zone" id="zone0">
+    <div class="section12" id="section1">
+      <div id="section1control1">
+
+        <p>The prose above the first heading, which has no heading to be
+        named by and stays the page preamble.</p>
+
+        <!-- Promoted: wholly bold, numbered, and the number extends the
+             page's own number by one component. -->
+        <p><strong>7.1 Ownership of the trade mark</strong></p>
+        <p>An applicant must be the owner of the trade mark.</p>
+
+        <!-- Promoted, and a level deeper: three components, not two. -->
+        <p><span class="fontSizeLarge"><strong>7.1.1 Joint owners</strong></span></p>
+        <p>Two or more people may apply jointly.</p>
+
+        <!-- Promoted: the Manual numbers this subsection and gives it no
+             words at all, which it does 12 times in the corpus. -->
+        <p><strong>7.1.2</strong></p>
+        <p>An unnamed subsection still holds its prose.</p>
+
+        <!-- NOT promoted: bold and heading-shaped, but carries no number, so
+             nothing ties it to the page's own numbering. -->
+        <p><strong>Suggested Alternatives</strong></p>
+        <p>A bold line the Manual uses as a label, not as a section.</p>
+
+        <!-- NOT promoted: the number belongs to a different page. This is
+             Part 60.4.25's real case, where '4.24.5' sits on page 4.25. -->
+        <p><strong>6.4 A number belonging to another page</strong></p>
+        <p>Left in the prose, because a heading whose number contradicts its
+        page is not something to resolve.</p>
+
+        <!-- NOT promoted: only the opening clause is bold. A paragraph that
+             emphasises a phrase and continues in roman is a paragraph. -->
+        <p><strong>7.2 A bolded opening</strong> and then the sentence
+        continues without emphasis.</p>
+
+        <!-- NOT promoted: the digits are not bounded by whitespace or a
+             colon, so they are a quantity and not an address. -->
+        <p><strong>7.15% of applications are affected</strong></p>
+
+        <!-- Promoted: a bare <strong> the CMS left loose in a layout div,
+             with no <p> around it. Part 35.1 does exactly this. -->
+        <strong>7.3&nbsp;A heading with no paragraph wrapper</strong>
+        <p>The wrapper is incidental; the emphasis is the assertion.</p>
+
+        <!-- Promoted, and a paragraph letter puts it one level deeper again,
+             the way Part 32A sets '2.1.2(a)' under a real h3 '2.1.2'. -->
+        <p><strong>7.3(a) A paragraph letter</strong></p>
+        <p>Nested under 7.3 rather than beside it.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>

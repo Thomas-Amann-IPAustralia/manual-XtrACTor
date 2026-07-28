@@ -79,6 +79,7 @@
         "Part 5 Data Capture and Indexing",
         "Word Constituents"
       ],
+      "heading_source": null,
       "internal_refs": [
         "TMM/Part5/x-word-constituents"
       ],
@@ -94,6 +95,10 @@
         {
           "kind": "paragraph",
           "text": "If the mark is represented in such a way that it appears as separate elements, then it will be separated out and the individual components indexed. Transcript symbols, different styles of font, different size of lettering and different colouring or shading are examples of ways that words can be divided into separate elements. For instance the elements in the word below are entered as separate constituents:"
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/saginomiya.png"
         },
         {
           "kind": "paragraph",
@@ -121,6 +126,7 @@
         "Word Constituents",
         "The Breakdown of Words"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -145,6 +151,7 @@
         "Word Constituents",
         "'Stop' Words"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -181,6 +188,7 @@
         "Word Constituents",
         "Letters"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 4,
@@ -209,6 +217,7 @@
         "Word Constituents",
         "Letters or Words"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 5,
@@ -226,6 +235,10 @@
         {
           "kind": "paragraph",
           "text": "For example the constituents for the mark below would be YSL, LSY, =YSL, =LSY LTR."
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/ysl.png"
         }
       ],
       "cases": [],
@@ -237,6 +250,7 @@
         "Word Constituents",
         "Monograms"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 6,
@@ -260,7 +274,7 @@
           "text": "Many applications for Internet or electronic goods or services have the prefix I or E. These letters are indexed separately as in the examples below:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents ecat ECAT, E, LTR eCat ECAT, E, LTR, CAT eCAT ECAT, E, LTR, CAT"
         },
         {
@@ -277,6 +291,7 @@
         "Word Constituents",
         "Letters Which Occur Within a Word or Attached to Words"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 7,
@@ -333,12 +348,20 @@
           "text": "Letters represented in an unusual fashion or which stand out as a separate feature require separate indexing"
         },
         {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/trudys.png"
+        },
+        {
           "kind": "paragraph",
           "text": "TRUDYS, RESUMES, TR, =TR, LTR, T, RUDYS"
         },
         {
           "kind": "paragraph",
           "text": "Fancy representations of letters may include images. These may be within the word or separate. Such a mark would have the letter and image components indexed. In the example below, in addition to the word components, image constituents will also included."
+        },
+        {
+          "kind": "image",
+          "src": "/sites/default/files/trademark/image/mobile_snips.png"
         },
         {
           "kind": "paragraph",
@@ -354,6 +377,7 @@
         "Word Constituents",
         "Letters That Stand Out as a Separate Feature in a Word"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 8,
@@ -365,7 +389,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents M, LTR, # DC DC, =DC, LTR CSI CSI, =CSI, LTR A.C.T. ACT, =ACT, LTR TR,T TRT, =TRT, TR, =TR, T, LTR QL-NM QLNM, =QLNM, QL, NM, =QL, =NM, LTR FC’S FCS, =FCS, FC, =FC, LTR T & T T,TT, =TT, LTR, & T & C T, C, TC, =TC, LTR, & TC & AB TC, AB, =TC, =AB, LTR D’OR DOR, OR L’OREAL LOREAL, OREAL A.U.S.T.R.A.L.I.A AUSTRALIA , =AUSTRALIA, LTR"
         }
       ],
@@ -379,6 +403,7 @@
         "Letters That Stand Out as a Separate Feature in a Word",
         "Examples of indexing marks containing letters"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 9,
@@ -511,7 +536,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents ARBEE ARBEE, RB, =RB, LTR OJAY OJAY, OJ, =OJ, LTR EFFEM EFFEM, FM, =FM, LTR"
         }
       ],
@@ -525,6 +550,7 @@
         "Letters That Stand Out as a Separate Feature in a Word",
         "Phonetic equivalents of letters"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 10,
@@ -577,7 +603,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents e-biz EBIZ, .BIZ, E, LTR, BIZ eSHOPPING ESHOPPING, E, LTR, SHOPPING PCDIRECT PCDIRECT, PC, =PC, LTR WINETV WINETV, TV, =TV, LTR SAFE, T, SAFETY, LTR SAFE-T-CAM SAFETCAM, SAFE, T, LTR, CAM, SAFETY RENT-A-CAR RENTACAR, RENT, CAR SALT‘N’PEPPER SALTNPEPPER, SALT, PEPPER LOAD, GO, N, LTR DEFLECT-O DEFLECTO, DEFLECT, O, LTR XPRESSIONS, X, LTR, EXPRESSIONS, U-STORE-IT USTOREIT, U, LTR, STORE, IT, YOU Lawww LAWWW, LAW, WWW, =WWW, LTR, WW, =WW, CCCCLARITY, CLARITY, CCCC, =CCCC, LTR, C EQUIP, Q, LTR DYNAMIC, D, LTR DARE, 2B, AUSTRALIA, 2, B, TO, BE, LTR, NUM"
         }
       ],
@@ -591,6 +617,7 @@
         "Letters That Stand Out as a Separate Feature in a Word",
         "Letters featuring in words"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 11,
@@ -763,7 +790,7 @@
           "text": "The table below sets out the constituents for marks with typescript symbols."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Symbol Trade Mark Current Automatic Constituents ? WORD? WORD, ? % 100% 100, %, NUM ! WORD! WORD!, WORD ! * SUPRA*STAR SUPRASTAR,*, SUPRA, STAR - SUPRA-STAR SUPRASTAR, SUPRA, STAR + SUPRA+STAR SUPRASTAR, +, SUPRA, STAR C + M C, M, +, CM, =CM, C, M, LTR / SUPRA/STAR SUPRASTAR, /, SUPRA, STAR : SUPRA:STAR SUPRASTAR, :, SUPRA, STAR () (Z)* Z, (, ), *, LTR @ CENTR@PLAN CENTRPLAN, @, CENTRAPLAN $ NUMI$ NUMI, $, NUMIS . STAR.COM STARCOM, STAR, .COM SUPRA.STAR SUPRASTAR, SUPRA, STAR"
         }
       ],
@@ -776,6 +803,7 @@
         "Word Constituents",
         "Typescript or Punctuation Symbols"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 12,
@@ -969,7 +997,7 @@
           "text": "Below are examples of the word constituents of trade marks containing @."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents @VANTAGE VANTAGE, @, ADVANTAGE LEON@RDO LEONRDO, @, LEONARDO @WORK WORK, @, AT @EASE EASE, @, AT, EASY T, LTR, # MAIL@TV MAILTV, @, MAIL, TV, =TV, LTR @VISION VISION, @ BRAINW@@VE BRAINWVE, @, BRAINWAAVE, BRAINWAVE MYER@ MYER, @"
         }
       ],
@@ -983,6 +1011,7 @@
         "Typescript or Punctuation Symbols",
         "Indexing @ and # symbols"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 13,
@@ -1104,6 +1133,7 @@
         "Word Constituents",
         "Accents, umlauts, diacritics"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 14,
@@ -1132,6 +1162,7 @@
         "Word Constituents",
         "Numbers"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 15,
@@ -1147,7 +1178,7 @@
           "text": "All cardinal numbers are indexed as they appear in the mark and with the constituent NUM. For example:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Number Constituents 5 5, NUM 153 153, NUM"
         },
         {
@@ -1159,7 +1190,7 @@
           "text": "All other versions of numbers (Roman numerals, ordinals etc) are indexed as they appear in the mark and cross-referenced with the cardinal number. The constituent NUM will appear when the record is entered."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents FOUR FOUR, 4, NUM SECOND SECOND, 2, NUM 25TH 25 TH, 25, NUM VII VII, 7, NUM"
         }
       ],
@@ -1173,6 +1204,7 @@
         "Numbers",
         "Indexing numbers"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 16,
@@ -1269,7 +1301,7 @@
           "text": "Fractions are indexed in fraction form, as separate numbers and with a separate / constituent. For example"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Number Constituents ¾ 34, .4, 3 /4, 3, 4, NUM 20/20 2020, .20, 20/20, 20, NUM"
         }
       ],
@@ -1283,6 +1315,7 @@
         "Numbers",
         "Fractions"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 17,
@@ -1331,7 +1364,7 @@
           "text": "Decimals are indexed as whole numbers without the decimal point and as separate numbers. For example:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Number Constituents 2.3 23, 2, 3, NUM 1.99 199, 1, 99, NUM"
         }
       ],
@@ -1345,6 +1378,7 @@
         "Numbers",
         "Decimals"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 18,
@@ -1389,7 +1423,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents 32, NUM FIRST FIRST, 1, NUM MARK VII MARK, VII, 7, NUM 4 TH, DIMENSION, 4, NUM"
         }
       ],
@@ -1403,6 +1437,7 @@
         "Numbers",
         "Examples of indexing trade marks containing numbers"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 19,
@@ -1463,7 +1498,7 @@
     {
       "blocks": [
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents 5SEA 5SEA, 5, NUM 4EVER 4EVER, 4, FOREVER, NUM 4D 4D, 4, D, LTR, NUM H2O H2O, 2, H, O, LTR, NUM 2CN 2CN, 2, CN, =CN, LTR, NUM T2000 T2000, T, 2000, LTR, NUM 50’s 50S, 50, NUM DELTA-5 DELTA5, DELTA, 5, NUM DATAONE DATAONE, 1, NUM PCSLAVE16 PCSLAVE16, PC, =PC, LTR, 16, NUM GODDESS II GODDESS, II, 2, NUM VAPORPH3OS, 3, NUM, VAPORPHOS, VAPORPH, OS, =OS, LTR"
         }
       ],
@@ -1477,6 +1512,7 @@
         "Numbers",
         "Letters featuring with words or letters"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 20,
@@ -1642,7 +1678,7 @@
           "text": "Below is a list of all the variations which require these added constituents:"
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "EASY phonetics (all with constituent EASY) OZZ phonetics (all with constituent OZZ) QUICK phonetics (all with constituent QUICK) EASE EASY EASI E.A.S.Y. EAZIE EAZY EAZZY EASIER E.A.S.I.E.R. EASIES EAZE E.S.Y. EESE EEESY EECY EEZE EEZEE EEZI EEZZY EEZY EZ E.Z. EZEE EZI EZY E-Z-Y EZ-ZEE EZZY ECI E’SE EEEZEE EESI EEZ EEZE ESE ESI E-Z EZE E-ZE E-Z-E EZE’S E*Z*EST AUS AUSI AUSIE AUSSIE AUSSIE AUSSIES AUSSY AUSZEE AUZZIE AUZZIES OSS OSSI OSSIE OZ OZI OZEEEE OZZ OZZI OZZEE OZZIE OZZIES OZZY OZZZ WAUSSIE QUIC QUIK QUYC QUYK QUYQ QUIQ QWIC QWIK QWYC QWYK QWYQ QWIQ QIK QIC QYK CWIC CWIK CWYC CWYK CWYQ CWIQ KWYC KWYK KWYQ KWIQ KWIC KWIK"
         }
       ],
@@ -1655,6 +1691,7 @@
         "Word Constituents",
         "OZZ, EASY and QUICK phonetics"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 21,
@@ -1709,7 +1746,7 @@
           "text": "To distinguish domain names from other marks containing the words COM, NET, etc., the domain extensions are indexed as a dot suffix, i.e. .COM, .NET, .GOV, .EDU, .ORG. Country codes , for example, .AU, .NZ, are also captured as dot suffixes."
         },
         {
-          "kind": "text",
+          "kind": "table",
           "text": "Trade Mark Constituents WWWGOODSTAFF WWWGOODSTAFF, WWW, =WWW, LTR WWW.CARD WWWCARD, WWW, =WWW, LTR, CARD wwweb.select WWWEBSELECT, WWWEB, SELECT, WWW, =WWW, LTR 2000 WWW.Y2K 2000, WWWY2K, WWW, =WWW, LTR, Y2K, Y, 2, K, NUM WWW.?.COM.AU WWWCOMAU, ?, WWW, =WWW, LTR, .COM, .AU WWW.GREENSLIPS.NET WWWGREENSLIPSNET, WWW, =WWW, LTR, GREENSLIPS, .NET WWW.SHOP-FROMHOME.COM.AU WWWSHOPFROMHOMECOMAU, WWW, =WWW, LTR, SHOPFROMHOME, SHOP, FROM, HOME, .COM, .AU IZZUE.COM IZZUECOM, IZZUE, .COM, ISSUE WWW.EPHARMACY.COM WWWEPHARMACYCOM, WWW, =WWW, LTR, EPHARMACY, E, .COM IT’S YOUR DOT COM ITS, YOUR, DOT, COM, .COM FLYINGPIG.CO.NZ FLYINGPIGCONZ, FLYINGPIG, .CO, .NZ $HAREANALYSIS.COM HAREANALYSISCOM, $, SHAREANALYSIS, .COM"
         }
       ],
@@ -1722,6 +1759,7 @@
         "Word Constituents",
         "Domain Names"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 22,
@@ -1848,9 +1886,9 @@
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:0a4451d495e23500bf843d669604e577eab2085fa766ac722ebc198e124fd6c2",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Word Constituents",
     "images": [
       {

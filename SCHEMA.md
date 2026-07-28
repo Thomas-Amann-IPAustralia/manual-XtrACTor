@@ -117,9 +117,9 @@ Three forms, strongest first:
 
 | Form | Example | Chunks |
 |---|---|---|
-| The heading's own number | `TMM/Part22/1/1/2` | 784 |
-| A slug of the heading's text | `TMM/Part14/x-…-a13/adhesive` | 777 |
-| Position on the page | `TMM/Part47/1#1` | 590 |
+| The heading's own number | `TMM/Part22/1/1/2` | 1,166 |
+| A slug of the heading's text | `TMM/Part14/x-…-a13/adhesive` | 796 |
+| Position on the page | `TMM/Part47/1#1` | 498 |
 
 **The slug form** covers headings the Manual writes but does not number —
 *Adhesive*, *Applications for services*, *Disclaimer*. It replaced positional
@@ -135,11 +135,16 @@ so it lands in the diff — where a shifted ordinal landed nowhere. Two headings
 that slug alike on one page raise `ChunkRefCollision` rather than being
 resolved with a counter; none do today.
 
-**The positional form** is left only for the prose above a page's first
-heading, which has no heading to be named by. It is not the exposure it looks
-like: a section with no heading *is* the page preamble, so it is the first
-section by construction and nothing can be inserted ahead of it. All 590 sit
-at `#1`, and a test pins that.
+**The positional form** is left for the prose above a page's first heading,
+which has no heading to be named by. It is not the exposure it looks like: a
+section with no heading *is* the page preamble, so it is the first section by
+construction and nothing can be inserted ahead of it. 496 of the 498 sit at
+`#1` for that reason, and a test pins it.
+
+The other two are Part 29.9, where the Manual titles both worked examples
+`XYZ Company` and so has given them nothing to tell each other apart by. Those
+genuinely can shift, and there is no address available that would not — see
+`_repeated_labels`. Two chunks in 2,460 is the whole of the exposure.
 
 **`page_ref`** — the join back to the page.
 
@@ -183,11 +188,35 @@ table is found by `tables != []`, which is also strictly more precise: it
 distinguishes a chunk that is only a table from one that is prose *and* a
 table, which a single `kind` value never could.
 
+**`heading_source`** — how the leaf of `heading_path` was found, and the only
+field in this schema recording an inference.
+
+| Value | Chunks | Means |
+|---|---|---|
+| `"markup"` | 1,473 | An `<h2>`–`<h4>`. The Manual asserted the boundary. |
+| `"emphasis"` | 491 | A bold paragraph numbered against the page's own number, promoted to a heading. |
+| `null` | 496 | The prose above a page's first heading. |
+
+`emphasis` exists because 456 of the Manual's numbered subsections across 88
+pages are set as `<p><strong>3.1 …</strong></p>` rather than as headings.
+Cutting on markup alone left 39% of the corpus text with no heading at all and
+Part 10.3 — which prints 36 numbered subsections — as nine addressless chunks.
+
+The promotion is fenced by the Manual's own addressing, not by typography: the
+paragraph must be wholly bold *and* open with a number that extends this page's
+number. Across the corpus that admits 471 candidates and rejects exactly one.
+`SOURCE_NOTES.md` §25 has the rule and its measurements.
+
+**Read this field before trusting a boundary.** A consumer that wants strictly
+what the Manual marked up filters to `markup`; one that wants the structure the
+Manual *prints* takes both. Neither has to guess which it is getting, and that
+is the whole reason the field is here rather than the inference being silent.
+
 **`fragment`** — present only when an over-long section had to be split on
 paragraph boundaries. `{"index": 1, "count": 2}`.
 
 **`blocks`** — the paragraphs and list items `text` was flattened from, in
-document order. 12,926 of them across 2,189 chunks, so unlike `tables` this is
+document order. 12,521 of them across 2,460 chunks, so unlike `tables` this is
 populated nearly everywhere.
 
 The argument is the same one `tables` makes, applied to the prose. `text` joins
@@ -206,13 +235,22 @@ paragraph are the same string.
 ]
 ```
 
-`kind` is `paragraph`, `list_item`, `table`, `heading` or `text`, read off the
-element name — `heading` is an `<h5>` or `<h6>`, since `<h2>`–`<h4>` are chunk
-boundaries and `<h1>` is the page title, and `text` is inline content Drupal
-left loose in a layout `div`. `depth` rides on a list item and counts the lists
-enclosing it, from 1; the corpus nests three deep.
+`kind` is `paragraph`, `list_item`, `table`, `heading`, `image` or `text`, read
+off the element name — `heading` is an `<h5>` or `<h6>`, since `<h2>`–`<h4>` are
+chunk boundaries and `<h1>` is the page title, and `text` is inline content
+Drupal left loose in a layout `div`. `depth` rides on a list item and counts the
+lists enclosing it, from 1; the corpus nests three deep.
+
+**`image` is the only kind with no `text`,** and carries `src` plus `alt` where
+the Manual wrote one — which across 169 images it never has. The bytes are not
+in the snapshot; the block says *an image sat here*, which is the one thing
+`PageRecord.images` cannot say. 93 images have a position this way. The other 76
+are in sections with no words, and a chunk needs text to exist, so they stay
+recorded at page level only. `SOURCE_NOTES.md` §24.
 
 **Joining every block's `text` with single spaces reproduces `text` exactly.**
+Blocks with no `text` — images — are stepped over, which is why they carry no
+empty string: one would put a stray space into the join.
 That is the contract, it is enforced in `validate.py` over the whole snapshot,
 and it is what keeps `blocks` from drifting into a second, differently worded
 copy of the chunk. A list item holds its own words only — the items nested under

@@ -4,10 +4,6 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "4.7.1 Relevant Legislation"
-        },
-        {
-          "kind": "paragraph",
           "text": "Madrid Protocol"
         },
         {
@@ -21,11 +17,34 @@
         {
           "kind": "paragraph",
           "text": "Division 3 of Part 17A International registration designating Australia"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/1",
+      "content_hash": "sha256:fa60e8b8c0088ba4efdfb0fc0d0a73614440ce7cc44c87e949960e0fc05cb605",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.1 Relevant Legislation"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 1,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "4.7.2 General Description"
-        },
+          "extraction": "href",
+          "id": "TMR1995/r17A.11",
+          "mention": "Division 3 of Part 17A"
+        }
+      ],
+      "tables": [],
+      "text": "Madrid Protocol Article 5 Refusal and Invalidation of Effects of International Registration in Respect of Certain Contracting Parties Trade Marks Regulations 1995 Division 3 of Part 17A International registration designating Australia"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Provisions for dealing with an IRDA are covered in Division 3 of Part 17A of the Trade Marks Regulations 1995. It must comply with the Trade Marks Act 1995 and its Regulations."
@@ -33,11 +52,49 @@
         {
           "kind": "paragraph",
           "text": "Provisional refusals may be based on grounds for rejection under sections 39 through to 44 of the Trade Marks Act 1995 as well as the provisions of Part 17A of the Regulations."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/2",
+      "content_hash": "sha256:2b207428746b57b4d0b65596259b8c7ba3b607077fa4789657cd4dc83bb3c5d4",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.2 General Description"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s39",
+          "mention": "39"
         },
         {
-          "kind": "paragraph",
-          "text": "4.7.3 Section 39"
+          "extraction": "href",
+          "id": "TMA1995/s44",
+          "mention": "44"
         },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.1",
+          "mention": "Part 17A"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.11",
+          "mention": "Division 3 of Part 17A"
+        }
+      ],
+      "tables": [],
+      "text": "Provisions for dealing with an IRDA are covered in Division 3 of Part 17A of the Trade Marks Regulations 1995. It must comply with the Trade Marks Act 1995 and its Regulations. Provisional refusals may be based on grounds for rejection under sections 39 through to 44 of the Trade Marks Act 1995 as well as the provisions of Part 17A of the Regulations."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Refusal may apply where the trade mark contains or consists of a sign that is specified in the Regulations as not to be used as a trade mark. This includes:"
@@ -94,63 +151,38 @@
         {
           "kind": "paragraph",
           "text": "Returned Sailor"
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.4 Section 41"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7#1~1",
-      "content_hash": "sha256:31ae971ba589742b5d8f4820bd110471054c53500c0a2eaebc4565cdb53fe7ba",
-      "fragment": {
-        "count": 3,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/3",
+      "content_hash": "sha256:30a787fc0efdb18bca4269dc7fd62c55ae50812ee269b25eb5d613ddc1d2cdee",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
-        "60.4.7 Examination of an IRDA"
+        "60.4.7 Examination of an IRDA",
+        "4.7.3 Section 39"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 1,
+      "ordinal": 3,
       "page_ref": "TMM/Part60/4/7",
       "provisions": [
         {
-          "extraction": "href",
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s39",
-          "mention": "39"
+          "mention": "section 39"
         },
         {
-          "certainty": "ambiguous",
+          "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s39(2)",
           "mention": "section 39(2)"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s41",
-          "mention": "Section 41"
-        },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s44",
-          "mention": "44"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.1",
-          "mention": "Part 17A"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.11",
-          "mention": "Division 3 of Part 17A"
         }
       ],
       "tables": [],
-      "text": "4.7.1 Relevant Legislation Madrid Protocol Article 5 Refusal and Invalidation of Effects of International Registration in Respect of Certain Contracting Parties Trade Marks Regulations 1995 Division 3 of Part 17A International registration designating Australia 4.7.2 General Description Provisions for dealing with an IRDA are covered in Division 3 of Part 17A of the Trade Marks Regulations 1995. It must comply with the Trade Marks Act 1995 and its Regulations. Provisional refusals may be based on grounds for rejection under sections 39 through to 44 of the Trade Marks Act 1995 as well as the provisions of Part 17A of the Regulations. 4.7.3 Section 39 Refusal may apply where the trade mark contains or consists of a sign that is specified in the Regulations as not to be used as a trade mark. This includes: the words \"Patent\", \"Patented\", \"By Royal Letters Patent\", \"Protected International Trade Mark\", \"Registered\", \"Registered Design\", \"Copyright\" \"Plant Breeder's Rights\", \"EL rights\", or words or symbols to the same effect (including the symbols \"©\" and \"®\"); It should be noted that the wording of section 39 (2) includes the word “may\"; which gives the Registrar discretion when it comes to rejecting trade marks under section 39(2). The Registrar has exercised their discretion not to reject IRDAs under section 39(2). In practice, where an IRDA contains the © or the ® symbol a ground for rejection will not be raised under section 39(2). This is because Australia has an obligation to protect trade marks as they are recorded on the International Register. Requesting that the © or ® symbol be removed would result in the representation of the trade mark on the Australian Register differing from the representation recorded on the International Register. Additionally, the International Bureau does not allow for a trade mark recorded on the International Register to be amended in any way. the words \"To counterfeit this is a forgery\", or words to the same effect; a representation of the Arms, or of a flag or seal, of the Commonwealth or of a State or Territory; a representation of a mark notified by the International Union for the Protection of Industrial Property as not entitled to registration under international arrangements; a sign specified in Schedule 2, such as: Austrade Repatriation Returned Soldier C.E.S. Returned Airman Olympic Champion Returned Sailor 4.7.4 Section 41"
+      "text": "Refusal may apply where the trade mark contains or consists of a sign that is specified in the Regulations as not to be used as a trade mark. This includes: the words \"Patent\", \"Patented\", \"By Royal Letters Patent\", \"Protected International Trade Mark\", \"Registered\", \"Registered Design\", \"Copyright\" \"Plant Breeder's Rights\", \"EL rights\", or words or symbols to the same effect (including the symbols \"©\" and \"®\"); It should be noted that the wording of section 39 (2) includes the word “may\"; which gives the Registrar discretion when it comes to rejecting trade marks under section 39(2). The Registrar has exercised their discretion not to reject IRDAs under section 39(2). In practice, where an IRDA contains the © or the ® symbol a ground for rejection will not be raised under section 39(2). This is because Australia has an obligation to protect trade marks as they are recorded on the International Register. Requesting that the © or ® symbol be removed would result in the representation of the trade mark on the Australian Register differing from the representation recorded on the International Register. Additionally, the International Bureau does not allow for a trade mark recorded on the International Register to be amended in any way. the words \"To counterfeit this is a forgery\", or words to the same effect; a representation of the Arms, or of a flag or seal, of the Commonwealth or of a State or Territory; a representation of a mark notified by the International Union for the Protection of Industrial Property as not entitled to registration under international arrangements; a sign specified in Schedule 2, such as: Austrade Repatriation Returned Soldier C.E.S. Returned Airman Olympic Champion Returned Sailor"
     },
     {
       "blocks": [
@@ -180,11 +212,39 @@
         {
           "kind": "paragraph",
           "text": "the IRDA must meet the requirements of section 41. (See Part 21.3 to 21.4 and Part 21.6 respectively of Non-Traditional Signs.)"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/4",
+      "content_hash": "sha256:95feddea71215e224e234192d03abde73de5d372237f7e90666c646f2612d78d",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.4 Section 41"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part21/3",
+        "TMM/Part21/4",
+        "TMM/Part21/6"
+      ],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "4.7.5 Section 42"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "tables": [],
+      "text": "Refusal will apply where the trade mark is not capable of distinguishing the holder's goods and/or services in respect of which the trade mark is sought to be protected. If the holder of an IRDA has indicated that their trade mark is a: 3-dimensional mark, or colour mark, or sound mark, the IRDA must meet the requirements of section 41. (See Part 21.3 to 21.4 and Part 21.6 respectively of Non-Traditional Signs.)"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Refusal will apply where:"
@@ -196,19 +256,53 @@
         {
           "kind": "paragraph",
           "text": "b. use of the trade mark would be contrary to Australian law. Words and symbols may be prohibited under other laws in Australia such as the Wine Australia Act 2013 and the Plant Breeder's Rights Act 1994."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.6 Section 43"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/5",
+      "content_hash": "sha256:f61ea0a39c796e4aa9d1b540f0eaf0e28808016f6ea8a5988d140a8f2817a224",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.5 Section 42"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "Refusal will apply where: a. the trade mark contains or consists of scandalous matter; or b. use of the trade mark would be contrary to Australian law. Words and symbols may be prohibited under other laws in Australia such as the Wine Australia Act 2013 and the Plant Breeder's Rights Act 1994."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Refusal will apply where because of some connotation in the trade mark, its use on the goods and/or services claimed would be likely to deceive or cause confusion. Trade marks which could fail under this section include those that erroneously imply that the goods and/or services have a certain character or nature, or that the trade mark is endorsed or licensed by a person or organisation."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.7 Section 44"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/6",
+      "content_hash": "sha256:7783b80933c2b9eb1cf333fef473b50403a3de4e1cbd3fa7f8877eb9c3c5e506",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.6 Section 43"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "Refusal will apply where because of some connotation in the trade mark, its use on the goods and/or services claimed would be likely to deceive or cause confusion. Trade marks which could fail under this section include those that erroneously imply that the goods and/or services have a certain character or nature, or that the trade mark is endorsed or licensed by a person or organisation."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Refusal will apply where the trade mark:"
@@ -228,11 +322,28 @@
         {
           "kind": "paragraph",
           "text": "b. the priority date for the protection of the holder's trade mark in respect of the holder's goods is not earlier that the priority date for the protection or registration of the other trade mark in respect of the similar goods or closely related services."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.8 Transliteration/Translation"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/7",
+      "content_hash": "sha256:0284a155df1e9d4ecf5e0758cb52f0952a0ddc88af97e709b2aeac80659a3cb1",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.7 Section 44"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "Refusal will apply where the trade mark: a. is substantially identical with, or deceptively similar to: i. a trade mark registered or protected by another person in respect of similar goods or closely related services; or ii. a trade mark whose registration or protection in respect of similar goods or closely related services is being sought by another person; and b. the priority date for the protection of the holder's trade mark in respect of the holder's goods is not earlier that the priority date for the protection or registration of the other trade mark in respect of the similar goods or closely related services."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "International applicants are required by the IB to provide a transliteration of any non-Latin characters appearing in the mark. This must appear in their international application. They are not however, required to provide a translation in the international application form."
@@ -240,85 +351,50 @@
         {
           "kind": "paragraph",
           "text": "A provisional refusal may be issued on an IRDA based on the need for a translation of any non-English words. The holder must provide a translation if requested to do so."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.9 Formalities"
-        },
-        {
-          "kind": "paragraph",
-          "text": "There is no need for the examiner to check the applicant's name and address as this has been done by the Office of origin and the IB."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7#1~2",
-      "content_hash": "sha256:bb50e9da662984bb471f1ae5fa84d50e6da53ba561fb1b0f90879a4212fbb5f0",
-      "fragment": {
-        "count": 3,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/8",
+      "content_hash": "sha256:d19536387fa5156af3de6cd01daac1efca12ee21bc57911bd1b44cfcb62298bb",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
-        "60.4.7 Examination of an IRDA"
+        "60.4.7 Examination of an IRDA",
+        "4.7.8 Transliteration/Translation"
       ],
-      "internal_refs": [
-        "TMM/Part21/3",
-        "TMM/Part21/4",
-        "TMM/Part21/6"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 8,
       "page_ref": "TMM/Part60/4/7",
-      "provisions": [
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s41",
-          "mention": "section 41"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s42",
-          "mention": "Section 42"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s43",
-          "mention": "Section 43"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s44",
-          "mention": "Section 44"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "Refusal will apply where the trade mark is not capable of distinguishing the holder's goods and/or services in respect of which the trade mark is sought to be protected. If the holder of an IRDA has indicated that their trade mark is a: 3-dimensional mark, or colour mark, or sound mark, the IRDA must meet the requirements of section 41. (See Part 21.3 to 21.4 and Part 21.6 respectively of Non-Traditional Signs.) 4.7.5 Section 42 Refusal will apply where: a. the trade mark contains or consists of scandalous matter; or b. use of the trade mark would be contrary to Australian law. Words and symbols may be prohibited under other laws in Australia such as the Wine Australia Act 2013 and the Plant Breeder's Rights Act 1994. 4.7.6 Section 43 Refusal will apply where because of some connotation in the trade mark, its use on the goods and/or services claimed would be likely to deceive or cause confusion. Trade marks which could fail under this section include those that erroneously imply that the goods and/or services have a certain character or nature, or that the trade mark is endorsed or licensed by a person or organisation. 4.7.7 Section 44 Refusal will apply where the trade mark: a. is substantially identical with, or deceptively similar to: i. a trade mark registered or protected by another person in respect of similar goods or closely related services; or ii. a trade mark whose registration or protection in respect of similar goods or closely related services is being sought by another person; and b. the priority date for the protection of the holder's trade mark in respect of the holder's goods is not earlier that the priority date for the protection or registration of the other trade mark in respect of the similar goods or closely related services. 4.7.8 Transliteration/Translation International applicants are required by the IB to provide a transliteration of any non-Latin characters appearing in the mark. This must appear in their international application. They are not however, required to provide a translation in the international application form. A provisional refusal may be issued on an IRDA based on the need for a translation of any non-English words. The holder must provide a translation if requested to do so. 4.7.9 Formalities There is no need for the examiner to check the applicant's name and address as this has been done by the Office of origin and the IB."
+      "text": "International applicants are required by the IB to provide a transliteration of any non-Latin characters appearing in the mark. This must appear in their international application. They are not however, required to provide a translation in the international application form. A provisional refusal may be issued on an IRDA based on the need for a translation of any non-English words. The holder must provide a translation if requested to do so."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There is no need for the examiner to check the applicant's name and address as this has been done by the Office of origin and the IB."
+        },
         {
           "kind": "paragraph",
           "text": "The classification of goods and services of international applications is checked by the IB before it is registered and designated countries are notified. A provisional refusal may apply where an item in the specification of goods and/or services has been identified by the IB or IP Australia as being too vague for the purposes of classification or is incomprehensible or linguistically incorrect (See Reg 17A.14)."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7#1~3",
-      "content_hash": "sha256:03d8c79bca881b7bd759d360170a2a926c1b3d00d553504187c7be5c403b298c",
-      "fragment": {
-        "count": 3,
-        "index": 3
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/9",
+      "content_hash": "sha256:744e6f46a24b68b8822bc4b62abff06eec67962683f14d0c3be0844956b09dd7",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
-        "60.4.7 Examination of an IRDA"
+        "60.4.7 Examination of an IRDA",
+        "4.7.9 Formalities"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 9,
       "page_ref": "TMM/Part60/4/7",
       "provisions": [
         {
@@ -328,7 +404,7 @@
         }
       ],
       "tables": [],
-      "text": "The classification of goods and services of international applications is checked by the IB before it is registered and designated countries are notified. A provisional refusal may apply where an item in the specification of goods and/or services has been identified by the IB or IP Australia as being too vague for the purposes of classification or is incomprehensible or linguistically incorrect (See Reg 17A.14)."
+      "text": "There is no need for the examiner to check the applicant's name and address as this has been done by the Office of origin and the IB. The classification of goods and services of international applications is checked by the IB before it is registered and designated countries are notified. A provisional refusal may apply where an item in the specification of goods and/or services has been identified by the IB or IP Australia as being too vague for the purposes of classification or is incomprehensible or linguistically incorrect (See Reg 17A.14)."
     },
     {
       "blocks": [
@@ -339,39 +415,109 @@
         {
           "kind": "paragraph",
           "text": "As a consequence, there is some uncertainty about the existence of a limitation as to colour, given the terms of section 70. This is a matter that must be determined by the courts but, for the purposes of examination, examiners should treat any IRDA that claims colour as an essential feature as being limited to those particular colours."
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/10",
+      "content_hash": "sha256:eb514fcdd07d9629fa3b3933b6ec7d2fd51a2075046cf1407f151bf6285fc641",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.10 Colour Trade Marks"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 10,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "4.7.11 Series of Trade Marks"
-        },
+          "extraction": "href",
+          "id": "TMA1995/s70",
+          "mention": "section 70"
+        }
+      ],
+      "tables": [],
+      "text": "The Madrid Protocol provides for colour trade marks. Any claim for colour as an essential feature on an international registration must also be present on the basic trade mark. As a consequence, there is some uncertainty about the existence of a limitation as to colour, given the terms of section 70. This is a matter that must be determined by the courts but, for the purposes of examination, examiners should treat any IRDA that claims colour as an essential feature as being limited to those particular colours."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Madrid Protocol has no provision for series of trade marks."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.12 Defensive Trade Marks"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/11",
+      "content_hash": "sha256:66da90e0c64b520385f31637b2122e776bf613868d800e5aab78fc7f63611f24",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.11 Series of Trade Marks"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 11,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "The Madrid Protocol has no provision for series of trade marks."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Madrid Protocol has no provision for defensive trade marks."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.13 Scent Trade Marks"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/12",
+      "content_hash": "sha256:e622c100e446231051c5f0c381c183201337a4c839f3b29d438fe73360452b08",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.12 Defensive Trade Marks"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 12,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "The Madrid Protocol has no provision for defensive trade marks."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Madrid Protocol has no provision for scent trade marks."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.14 Collective Trade Marks"
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.14.1 Relevant Legislation"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/13",
+      "content_hash": "sha256:24e27592077f7952b45e50b9cc4aff31952f1ca52be27b30c740cc8f927fde9a",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.13 Scent Trade Marks"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 13,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "The Madrid Protocol has no provision for scent trade marks."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Madrid Protocol Regulations"
@@ -403,11 +549,42 @@
         {
           "kind": "paragraph",
           "text": "Part 33 Collective Trade Marks"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/14/1",
+      "content_hash": "sha256:39610e0f1c833525c78705b3698af6a6b66451e3715360e8da2387d524c1cd65",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.14 Collective Trade Marks",
+        "4.7.14.1 Relevant Legislation"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part33/1"
+      ],
+      "kind": "body",
+      "ordinal": 14,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s161",
+          "mention": "Part 15"
         },
         {
-          "kind": "paragraph",
-          "text": "4.7.14.2 General Description"
-        },
+          "extraction": "href",
+          "id": "TMR1995/r17A.49",
+          "mention": "Regulation 17A.49"
+        }
+      ],
+      "tables": [],
+      "text": "Madrid Protocol Regulations Rule 9 Requirements Concerning the International Application Trade Marks Act 1995 Part 15 Collective trade marks Trade Marks Regulations 1995 Regulation 17A.49 Collective trade marks Trade Marks Office Manual of Practice and Procedure Part 33 Collective Trade Marks"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The international application form contains a single box for indicating if a trade mark is a collective mark, certification mark or guarantee mark (see 2.2.3 Requirements for the International Application Form). IRDAs which have this box checked will be identified on Australian Trade Mark Search and RIO as certification marks until the holder advises the type of trade mark under Australian law."
@@ -419,50 +596,28 @@
         {
           "kind": "paragraph",
           "text": "Any IRDA that claims to be a certification or collective mark will have a full provisional refusal issued, and the information brochure Certification, Collective and Guarantee Trade Marks will be sent to the holder. This brochure explains what certification and collective trade marks are according to Australian legislation, and the requirements that apply."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.14.3 Process for Collective Trade Marks"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7/4/7/10~1",
-      "content_hash": "sha256:e3809201d5328d7d52d390ec5a33d44cf7fab38da2f444d247d3991e8e36d67a",
-      "fragment": {
-        "count": 4,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/14/2",
+      "content_hash": "sha256:09e23e79a51c186b222d10571d3a3b3dc4bc3d6527a2705ff92ced76d2f3add8",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
         "60.4.7 Examination of an IRDA",
-        "4.7.10 Colour Trade Marks"
+        "4.7.14 Collective Trade Marks",
+        "4.7.14.2 General Description"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
-        "TMM/Part33/1",
         "TMM/Part60/2/2"
       ],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 15,
       "page_ref": "TMM/Part60/4/7",
-      "provisions": [
-        {
-          "extraction": "href",
-          "id": "TMA1995/s161",
-          "mention": "Part 15"
-        },
-        {
-          "extraction": "href",
-          "id": "TMA1995/s70",
-          "mention": "section 70"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.49",
-          "mention": "Regulation 17A.49"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "The Madrid Protocol provides for colour trade marks. Any claim for colour as an essential feature on an international registration must also be present on the basic trade mark. As a consequence, there is some uncertainty about the existence of a limitation as to colour, given the terms of section 70. This is a matter that must be determined by the courts but, for the purposes of examination, examiners should treat any IRDA that claims colour as an essential feature as being limited to those particular colours. 4.7.11 Series of Trade Marks The Madrid Protocol has no provision for series of trade marks. 4.7.12 Defensive Trade Marks The Madrid Protocol has no provision for defensive trade marks. 4.7.13 Scent Trade Marks The Madrid Protocol has no provision for scent trade marks. 4.7.14 Collective Trade Marks 4.7.14.1 Relevant Legislation Madrid Protocol Regulations Rule 9 Requirements Concerning the International Application Trade Marks Act 1995 Part 15 Collective trade marks Trade Marks Regulations 1995 Regulation 17A.49 Collective trade marks Trade Marks Office Manual of Practice and Procedure Part 33 Collective Trade Marks 4.7.14.2 General Description The international application form contains a single box for indicating if a trade mark is a collective mark, certification mark or guarantee mark (see 2.2.3 Requirements for the International Application Form). IRDAs which have this box checked will be identified on Australian Trade Mark Search and RIO as certification marks until the holder advises the type of trade mark under Australian law. Collective trade marks have different purposes and requirements in different Protocol countries. Neither the Madrid Protocol, nor the Guide to the Madrid Agreement and the Madrid Protocol provide a definition of a collective mark. Any IRDA that claims to be a certification or collective mark will have a full provisional refusal issued, and the information brochure Certification, Collective and Guarantee Trade Marks will be sent to the holder. This brochure explains what certification and collective trade marks are according to Australian legislation, and the requirements that apply. 4.7.14.3 Process for Collective Trade Marks"
+      "text": "The international application form contains a single box for indicating if a trade mark is a collective mark, certification mark or guarantee mark (see 2.2.3 Requirements for the International Application Form). IRDAs which have this box checked will be identified on Australian Trade Mark Search and RIO as certification marks until the holder advises the type of trade mark under Australian law. Collective trade marks have different purposes and requirements in different Protocol countries. Neither the Madrid Protocol, nor the Guide to the Madrid Agreement and the Madrid Protocol provide a definition of a collective mark. Any IRDA that claims to be a certification or collective mark will have a full provisional refusal issued, and the information brochure Certification, Collective and Guarantee Trade Marks will be sent to the holder. This brochure explains what certification and collective trade marks are according to Australian legislation, and the requirements that apply."
     },
     {
       "blocks": [
@@ -473,15 +628,29 @@
         {
           "kind": "paragraph",
           "text": "After examination a full provisional refusal will be issued with the information brochure entitled Certification, Collective and Guarantee Trade Marks attached."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.15 Certification Trade Marks"
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.15.1 Relevant Legislation"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/14/3",
+      "content_hash": "sha256:0a11a25cede732efce6a56d532c3a544c3b738abafab84907f8ac4357157f345",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.14 Collective Trade Marks",
+        "4.7.14.3 Process for Collective Trade Marks"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 16,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "When IP Australia receives an IRDA which states that it is a collective, certification or guarantee trade mark, the IRDA is entered on the Trade Marks Office database as a certification mark. This is because certification marks have the most stringent conditions and require consent of the Australian Competition and Consumer Commission (ACCC) before acceptance can occur. The IRDA cannot then be inadvertently accepted. After examination a full provisional refusal will be issued with the information brochure entitled Certification, Collective and Guarantee Trade Marks attached."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Madrid Protocol Regulations"
@@ -517,11 +686,42 @@
         {
           "kind": "paragraph",
           "text": "Part 35 Certification Trade Marks"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/15/1",
+      "content_hash": "sha256:b07c5f7ddac94b8eb1828eb280f5972bc25a19e44a469d01b6772e8a157b061c",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.15 Certification Trade Marks",
+        "4.7.15.1 Relevant Legislation"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part35/1"
+      ],
+      "kind": "body",
+      "ordinal": 17,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s168",
+          "mention": "Part 16"
         },
         {
-          "kind": "paragraph",
-          "text": "4.7.15.2 General Description"
-        },
+          "extraction": "href",
+          "id": "TMR1995/r17A.50",
+          "mention": "Regulation 17A.50"
+        }
+      ],
+      "tables": [],
+      "text": "Madrid Protocol Regulations Rule 9 Requirements Concerning the International application Rule 9.4(x) Indicating Certification Marks on the Application Form Trade Marks Act 1995 Part 16 Certification trade marks Trade Marks Regulations 1995 Regulation 17A.50 Certification trade marks Trade Marks Office Manual of Practice and Procedure Part 35 Certification Trade Marks"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Madrid Protocol includes provision for certification marks. The IB does not require a copy of the regulations governing the use of the certification mark but recognises that designated contracting parties might."
@@ -537,44 +737,26 @@
         {
           "kind": "paragraph",
           "text": "Any IRDA which claims to be a certification mark will have a full provisional refusal issued on the basis that IP Australia does not have the ACCC's consent and the holder will be sent a copy of the information brochure Certification, Collective and Guarantee Trade Marks."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.15.3 Process for Certification Trade Marks"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7/4/7/10~2",
-      "content_hash": "sha256:dcda3c9f9c9400aa100ffee10368b0f10c0a65f11c33af19ce823fba24b72d9f",
-      "fragment": {
-        "count": 4,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/15/2",
+      "content_hash": "sha256:f94baeb0edac32e5c624dc82e6434a9a6c0d86d2af359f1386994a4e770158ae",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
         "60.4.7 Examination of an IRDA",
-        "4.7.10 Colour Trade Marks"
+        "4.7.15 Certification Trade Marks",
+        "4.7.15.2 General Description"
       ],
-      "internal_refs": [
-        "TMM/Part35/1"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 18,
       "page_ref": "TMM/Part60/4/7",
-      "provisions": [
-        {
-          "extraction": "href",
-          "id": "TMA1995/s168",
-          "mention": "Part 16"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.50",
-          "mention": "Regulation 17A.50"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "When IP Australia receives an IRDA which states that it is a collective, certification or guarantee trade mark, the IRDA is entered on the Trade Marks Office database as a certification mark. This is because certification marks have the most stringent conditions and require consent of the Australian Competition and Consumer Commission (ACCC) before acceptance can occur. The IRDA cannot then be inadvertently accepted. After examination a full provisional refusal will be issued with the information brochure entitled Certification, Collective and Guarantee Trade Marks attached. 4.7.15 Certification Trade Marks 4.7.15.1 Relevant Legislation Madrid Protocol Regulations Rule 9 Requirements Concerning the International application Rule 9.4(x) Indicating Certification Marks on the Application Form Trade Marks Act 1995 Part 16 Certification trade marks Trade Marks Regulations 1995 Regulation 17A.50 Certification trade marks Trade Marks Office Manual of Practice and Procedure Part 35 Certification Trade Marks 4.7.15.2 General Description The Madrid Protocol includes provision for certification marks. The IB does not require a copy of the regulations governing the use of the certification mark but recognises that designated contracting parties might. Holders who are claiming certification marks are advised by the IB to send such documents direct to the offices of designated countries. The regulations and rules governing a certification mark can therefore arrive at IP Australia at the same time as, or before, the IRDA. The requirements for international certification trade marks are the same as for a national application for a certification trade mark. The holder must provide the rules governing the use of the certification mark, and IP Australia forwards these rules to the ACCC for assessment. Any IRDA which claims to be a certification mark will have a full provisional refusal issued on the basis that IP Australia does not have the ACCC's consent and the holder will be sent a copy of the information brochure Certification, Collective and Guarantee Trade Marks. 4.7.15.3 Process for Certification Trade Marks"
+      "text": "The Madrid Protocol includes provision for certification marks. The IB does not require a copy of the regulations governing the use of the certification mark but recognises that designated contracting parties might. Holders who are claiming certification marks are advised by the IB to send such documents direct to the offices of designated countries. The regulations and rules governing a certification mark can therefore arrive at IP Australia at the same time as, or before, the IRDA. The requirements for international certification trade marks are the same as for a national application for a certification trade mark. The holder must provide the rules governing the use of the certification mark, and IP Australia forwards these rules to the ACCC for assessment. Any IRDA which claims to be a certification mark will have a full provisional refusal issued on the basis that IP Australia does not have the ACCC's consent and the holder will be sent a copy of the information brochure Certification, Collective and Guarantee Trade Marks."
     },
     {
       "blocks": [
@@ -585,15 +767,29 @@
         {
           "kind": "paragraph",
           "text": "When ACCC notifies approval of the rules the IRDA will be accepted."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.16 Convention Claims"
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.16.1 Relevant Legislation"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/15/3",
+      "content_hash": "sha256:ddfcdc3ec4bcd55bfd9b5dcc51cfab7a55f6daf89076f87c5e4f70a724c7b679",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.15 Certification Trade Marks",
+        "4.7.15.3 Process for Certification Trade Marks"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 19,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "The IRDA is examined in the normal manner. A full provisional refusal is issued together with a request for the rules, and an address for service within Australia or New Zealand, if they have not already been provided. A copy of the brochure Certification, Collective and Guarantee Trade Marks is attached to the provisional refusal. When ACCC notifies approval of the rules the IRDA will be accepted."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Madrid Protocol"
@@ -653,11 +849,57 @@
         {
           "kind": "paragraph",
           "text": "Part 11 Convention Applications"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/16/1",
+      "content_hash": "sha256:47f1cf9ee98163264624ea3b7102d185bbea69a1cb7b85c594e67eb53062db87",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.16 Convention Claims",
+        "4.7.16.1 Relevant Legislation"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part11/1"
+      ],
+      "kind": "body",
+      "ordinal": 20,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s225",
+          "mention": "Section 225"
         },
         {
-          "kind": "paragraph",
-          "text": "4.7.16.2 General Description"
+          "extraction": "href",
+          "id": "TMR1995/r17A.15",
+          "mention": "17A.15"
         },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.19",
+          "mention": "17A.19"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r21.29",
+          "mention": "Reg 21.29"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r5.18",
+          "mention": "Reg 5.18"
+        }
+      ],
+      "tables": [],
+      "text": "Madrid Protocol Article 4 Effects of International Registration Madrid Protocol Regulations Rule 9.4(iv) Requirements Relating to claims for Priority Rule 14 Registration of the Mark in the International Register Rule 21 Replacement of a National or Regional Registration by an International Registration Trade Marks Act 1995 Section 225 Convention countries Trade Marks Regulations 1995 Reg 5.18 Copy of earlier application to be available to opponent Reg 21.29 Convention countries 17A.15 Claim for priority 17A.19 Examination - additional requirements Trade Marks Office Manual of Practice and Procedure Part 11 Convention Applications"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Convention claims are permitted under the Madrid Protocol."
@@ -694,93 +936,61 @@
         {
           "kind": "paragraph",
           "text": "If for some reason the number of the earlier application has not been provided, the examiner must request it in a provisional refusal."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.16.3 Subsequent designations and Convention Claims"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Where Australia is subsequently designated it is unlikely that convention priority will apply. To be entitled to the convention priority date of the international registration, the request to subsequently designate Australia would have to be have been made within 6 months of the first filing of the trade mark."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.7.17 Sanctions"
-        },
-        {
-          "kind": "paragraph",
-          "text": "In addition to sections 39 to 44 of the Trade Marks Act 1995, subregulation 17A.28(2A) of the Trade Marks Regulations 1995 provides a further"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7/4/7/10~3",
-      "content_hash": "sha256:8a3045fdb783dde71e539028e8b2b6a764c60142ed30233b24dcbd3135b625df",
-      "fragment": {
-        "count": 4,
-        "index": 3
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/16/2",
+      "content_hash": "sha256:5b0201bf3ae2fb5e16dd7bc2d12b5735d4af34591d3cf3fcd12db61fe5b8ae26",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
         "60.4.7 Examination of an IRDA",
-        "4.7.10 Colour Trade Marks"
+        "4.7.16 Convention Claims",
+        "4.7.16.2 General Description"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
-        "TMM/Part11/1",
         "TMM/Part60/2/2"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 21,
       "page_ref": "TMM/Part60/4/7",
-      "provisions": [
-        {
-          "extraction": "href",
-          "id": "TMA1995/s225",
-          "mention": "Section 225"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMA1995/s39",
-          "mention": "sections 39 to 44 of the Trade Marks Act 1995"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMA1995/s44",
-          "mention": "sections 39 to 44 of the Trade Marks Act 1995"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.15",
-          "mention": "17A.15"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r17A.19",
-          "mention": "17A.19"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.28(2A)",
-          "mention": "subregulation 17A.28(2A) of the Trade Marks Regulations 1995"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r21.29",
-          "mention": "Reg 21.29"
-        },
-        {
-          "extraction": "href",
-          "id": "TMR1995/r5.18",
-          "mention": "Reg 5.18"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "The IRDA is examined in the normal manner. A full provisional refusal is issued together with a request for the rules, and an address for service within Australia or New Zealand, if they have not already been provided. A copy of the brochure Certification, Collective and Guarantee Trade Marks is attached to the provisional refusal. When ACCC notifies approval of the rules the IRDA will be accepted. 4.7.16 Convention Claims 4.7.16.1 Relevant Legislation Madrid Protocol Article 4 Effects of International Registration Madrid Protocol Regulations Rule 9.4(iv) Requirements Relating to claims for Priority Rule 14 Registration of the Mark in the International Register Rule 21 Replacement of a National or Regional Registration by an International Registration Trade Marks Act 1995 Section 225 Convention countries Trade Marks Regulations 1995 Reg 5.18 Copy of earlier application to be available to opponent Reg 21.29 Convention countries 17A.15 Claim for priority 17A.19 Examination - additional requirements Trade Marks Office Manual of Practice and Procedure Part 11 Convention Applications 4.7.16.2 General Description Convention claims are permitted under the Madrid Protocol. When filing the international application, the holder must: state they have a convention claim on the application form (see 2.2.3 Requirements for the International Application Form) provide the name of the country where the earlier application was filed provide the date of filing the earlier application provide, if available, the trade mark number of the earlier application if the convention priority date is not for all of the goods and/or services in the international registration, list those to which it applies. If for some reason the number of the earlier application has not been provided, the examiner must request it in a provisional refusal. 4.7.16.3 Subsequent designations and Convention Claims Where Australia is subsequently designated it is unlikely that convention priority will apply. To be entitled to the convention priority date of the international registration, the request to subsequently designate Australia would have to be have been made within 6 months of the first filing of the trade mark. 4.7.17 Sanctions In addition to sections 39 to 44 of the Trade Marks Act 1995, subregulation 17A.28(2A) of the Trade Marks Regulations 1995 provides a further"
+      "text": "Convention claims are permitted under the Madrid Protocol. When filing the international application, the holder must: state they have a convention claim on the application form (see 2.2.3 Requirements for the International Application Form) provide the name of the country where the earlier application was filed provide the date of filing the earlier application provide, if available, the trade mark number of the earlier application if the convention priority date is not for all of the goods and/or services in the international registration, list those to which it applies. If for some reason the number of the earlier application has not been provided, the examiner must request it in a provisional refusal."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where Australia is subsequently designated it is unlikely that convention priority will apply. To be entitled to the convention priority date of the international registration, the request to subsequently designate Australia would have to be have been made within 6 months of the first filing of the trade mark."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part60/4/7/4/7/16/3",
+      "content_hash": "sha256:11a21e6928bdd300fdf7f7ca20dabc495b23403b2fd1b441c3f37dcb4bd04215",
+      "fragment": null,
+      "heading_path": [
+        "Part 60 The Madrid Protocol",
+        "60.4.7 Examination of an IRDA",
+        "4.7.16 Convention Claims",
+        "4.7.16.3 Subsequent designations and Convention Claims"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 22,
+      "page_ref": "TMM/Part60/4/7",
+      "provisions": [],
+      "tables": [],
+      "text": "Where Australia is subsequently designated it is unlikely that convention priority will apply. To be entitled to the convention priority date of the international registration, the request to subsequently designate Australia would have to be have been made within 6 months of the first filing of the trade mark."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In addition to sections 39 to 44 of the Trade Marks Act 1995, subregulation 17A.28(2A) of the Trade Marks Regulations 1995 provides a further"
+        },
         {
           "kind": "paragraph",
           "text": "ground for rejecting an IRDA if granting protection would be inconsistent with sanctions laws."
@@ -840,33 +1050,50 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part60/4/7/4/7/10~4",
-      "content_hash": "sha256:ecf80049379eee9ab269479ee6b15f9ce1163231e92fa352fdf81f5e2ada36b4",
-      "fragment": {
-        "count": 4,
-        "index": 4
-      },
+      "chunk_ref": "TMM/Part60/4/7/4/7/17",
+      "content_hash": "sha256:eabfd019377b0aae606503641b64dc3039385a41af27758a10bc0d2e9e31c7f5",
+      "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
         "60.4.7 Examination of an IRDA",
-        "4.7.10 Colour Trade Marks"
+        "4.7.17 Sanctions"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 23,
       "page_ref": "TMM/Part60/4/7",
-      "provisions": [],
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "sections 39 to 44 of the Trade Marks Act 1995"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "sections 39 to 44 of the Trade Marks Act 1995"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.28(2A)",
+          "mention": "subregulation 17A.28(2A) of the Trade Marks Regulations 1995"
+        }
+      ],
       "tables": [],
-      "text": "ground for rejecting an IRDA if granting protection would be inconsistent with sanctions laws. The relevant sanctions laws are: Autonomous Sanctions Act 2011 (Cth); Charter of the United Nations Act 1945 (Cth); and regulations made pursuant to those laws. Applications which are currently under sanction are from: Russian Federation Belarus Examiners must not issue a refusal for this ground without first consulting with Sarah Cannon, Examination Director. If an examiner considers that this ground may apply, or has any other queries relating to sanctions, please e-mail: Sarah Cannon Director, Examination Section C sarah.cannon@ipaustralia.gov.au."
+      "text": "In addition to sections 39 to 44 of the Trade Marks Act 1995, subregulation 17A.28(2A) of the Trade Marks Regulations 1995 provides a further ground for rejecting an IRDA if granting protection would be inconsistent with sanctions laws. The relevant sanctions laws are: Autonomous Sanctions Act 2011 (Cth); Charter of the United Nations Act 1945 (Cth); and regulations made pursuant to those laws. Applications which are currently under sanction are from: Russian Federation Belarus Examiners must not issue a refusal for this ground without first consulting with Sarah Cannon, Examination Director. If an examiner considers that this ground may apply, or has any other queries relating to sanctions, please e-mail: Sarah Cannon Director, Examination Section C sarah.cannon@ipaustralia.gov.au."
     }
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:bb1b54a07c443c9893d4ef60ce4a3a334503324e78e3ddf66f29367dbeee1722",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2026-04-28",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "60.4.7 Examination of an IRDA",
     "images": [],
     "last_amended": "2026-04-28",

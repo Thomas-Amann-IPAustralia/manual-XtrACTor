@@ -34,6 +34,7 @@
         "Part 15 General Provision for Extensions of Time",
         "15.4. Grounds on which the Registrar may grant an extension of time"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -83,6 +84,7 @@
         "15.4. Grounds on which the Registrar may grant an extension of time",
         "4.1 Error or omission by the person concerned or by his or her agent"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -103,19 +105,66 @@
         {
           "kind": "paragraph",
           "text": "This is a force majeure provision and the grant of an extension of time on these grounds is discretionary."
-        },
-        {
-          "kind": "paragraph",
-          "text": "4.2.1"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/4/4/2",
+      "content_hash": "sha256:b9f627e83a794de4244c37c910982b71bc49c4b33899f74ac008abde9938da60",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "15.4. Grounds on which the Registrar may grant an extension of time",
+        "4.2 Circumstances beyond the control of the person concerned"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part15/4",
+      "provisions": [],
+      "tables": [],
+      "text": "This is a force majeure provision and the grant of an extension of time on these grounds is discretionary."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "This provision is equivalent to paragraph 131(1)(a) of the 1955 Act. The scope of that provision was considered in Atomic Skifabrik Alois Rohrmoser v Registrar of Trade Marks (1987) 7 IPR 551 at 558 (FC), the case providing guidance on interpretation of \"circumstances beyond the control of the person concerned\"."
-        },
+        }
+      ],
+      "cases": [
         {
-          "kind": "paragraph",
-          "text": "4.2.2"
-        },
+          "citation": "(1987) 7 IPR 551",
+          "id": "CASE/1987/IPR/7/551"
+        }
+      ],
+      "chunk_ref": "TMM/Part15/4/4/2/1",
+      "content_hash": "sha256:b901f4704f728bc70235279bcc9876960c75164f85fd9f4ba4e040fcd6950891",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "15.4. Grounds on which the Registrar may grant an extension of time",
+        "4.2 Circumstances beyond the control of the person concerned",
+        "4.2.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part15/4",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s131(1)(a)",
+          "mention": "paragraph 131(1)(a) of the 1955 Act"
+        }
+      ],
+      "tables": [],
+      "text": "This provision is equivalent to paragraph 131(1)(a) of the 1955 Act. The scope of that provision was considered in Atomic Skifabrik Alois Rohrmoser v Registrar of Trade Marks (1987) 7 IPR 551 at 558 (FC), the case providing guidance on interpretation of \"circumstances beyond the control of the person concerned\"."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The situations encompassed by this provision would cover circumstances which neither the person nor his or her agent could prevent, including occurrences such as the following:"
@@ -146,34 +195,24 @@
           "text": "the forces of nature such as storms, earthquakes and floods"
         }
       ],
-      "cases": [
-        {
-          "citation": "(1987) 7 IPR 551",
-          "id": "CASE/1987/IPR/7/551"
-        }
-      ],
-      "chunk_ref": "TMM/Part15/4/4/2",
-      "content_hash": "sha256:a4ec52bcb85d4047c2ee92682f487aa9088d78db134af16c628bbbb7e9b74714",
+      "cases": [],
+      "chunk_ref": "TMM/Part15/4/4/2/2",
+      "content_hash": "sha256:02d95bee4ef8e930aa73e1e923cf62370eab94d5403cb5c3e057dc35f20ec6a9",
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
         "15.4. Grounds on which the Registrar may grant an extension of time",
-        "4.2 Circumstances beyond the control of the person concerned"
+        "4.2 Circumstances beyond the control of the person concerned",
+        "4.2.2"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 5,
       "page_ref": "TMM/Part15/4",
-      "provisions": [
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMA1955/s131(1)(a)",
-          "mention": "paragraph 131(1)(a) of the 1955 Act"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "This is a force majeure provision and the grant of an extension of time on these grounds is discretionary. 4.2.1 This provision is equivalent to paragraph 131(1)(a) of the 1955 Act. The scope of that provision was considered in Atomic Skifabrik Alois Rohrmoser v Registrar of Trade Marks (1987) 7 IPR 551 at 558 (FC), the case providing guidance on interpretation of \"circumstances beyond the control of the person concerned\". 4.2.2 The situations encompassed by this provision would cover circumstances which neither the person nor his or her agent could prevent, including occurrences such as the following: wars and terrorism, industrial action (strikes, lockouts), machinery breakdowns, arson and vandalism, and the forces of nature such as storms, earthquakes and floods"
+      "text": "The situations encompassed by this provision would cover circumstances which neither the person nor his or her agent could prevent, including occurrences such as the following: wars and terrorism, industrial action (strikes, lockouts), machinery breakdowns, arson and vandalism, and the forces of nature such as storms, earthquakes and floods"
     },
     {
       "blocks": [
@@ -261,9 +300,10 @@
         "15.4. Grounds on which the Registrar may grant an extension of time",
         "4.3 Special circumstances exist to justify the extension"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 6,
       "page_ref": "TMM/Part15/4",
       "provisions": [
         {
@@ -281,9 +321,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:b9f9ca52311ed246995222c703141852162d561117a2a73d2b898f16d3c24e3d",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "15.4. Grounds on which the Registrar may grant an extension of time",
     "images": [],
     "last_amended": "2022-04-20",

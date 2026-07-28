@@ -33,6 +33,7 @@
         "Part 15 General Provision for Extensions of Time",
         "Part 15.2. When the general provision does not apply"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -58,21 +59,66 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "2.1.1"
-        },
-        {
-          "kind": "paragraph",
           "text": "Times for filing evidence (paragraph 21.28(1)(f)) in oppositions to registration/extension of protection and to removal/cessation of protection for non-use are extendible in the circumstances set out in regs 5.15, 9.18, 17A.34K and 17A.48T."
         },
         {
           "depth": 1,
           "kind": "list_item",
           "text": "Part 51 General Opposition Proceedings - 2. Extension of the period for filing evidence"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/1/1",
+      "content_hash": "sha256:939814f7ee1ed39f7dec3367e28d556cf14fcbdbcb58ac4ab5e2615e99fb2dae",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.1 Times, for doing of prescribed acts and the filing of prescribed documents, which are extendible",
+        "2.1.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(f)",
+          "mention": "paragraph 21.28(1)(f)"
         },
         {
-          "kind": "paragraph",
-          "text": "2.1.2"
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34K",
+          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48T",
+          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.15",
+          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.18",
+          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
+        }
+      ],
+      "tables": [],
+      "text": "Times for filing evidence (paragraph 21.28(1)(f)) in oppositions to registration/extension of protection and to removal/cessation of protection for non-use are extendible in the circumstances set out in regs 5.15, 9.18, 17A.34K and 17A.48T. Part 51 General Opposition Proceedings - 2. Extension of the period for filing evidence"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The time for filing a notice of opposition to the registration of a trade mark (paragraph 21.28(2)(a)) is extendible in the circumstances set out in reg 5.9."
@@ -113,25 +159,21 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part15/2/2/1",
-      "content_hash": "sha256:a886925153353891d38178ab38e6516ebfee082f12aed14680499cbdbf993757",
+      "chunk_ref": "TMM/Part15/2/2/1/2",
+      "content_hash": "sha256:3bcf37ff2b7065b437d13d6b495e14d2520804b99abf2b682d2056bb098bf22c",
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
         "Part 15.2. When the general provision does not apply",
-        "2.1 Times, for doing of prescribed acts and the filing of prescribed documents, which are extendible"
+        "2.1 Times, for doing of prescribed acts and the filing of prescribed documents, which are extendible",
+        "2.1.2"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 3,
       "page_ref": "TMM/Part15/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(f)",
-          "mention": "paragraph 21.28(1)(f)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -177,12 +219,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r17A.34K",
-          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r17A.48",
           "mention": "Regs 5.2, 9.2, 17A.29 and 17A.48"
         },
@@ -201,20 +237,8 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r17A.48T",
-          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r5.13A",
           "mention": "regs 5.13A and 17A.34H"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r5.15",
-          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
         },
         {
           "certainty": "default",
@@ -243,114 +267,34 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r9.18",
-          "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r9.2",
           "mention": "Regs 5.2, 9.2, 17A.29 and 17A.48"
         }
       ],
       "tables": [],
-      "text": "2.1.1 Times for filing evidence (paragraph 21.28(1)(f)) in oppositions to registration/extension of protection and to removal/cessation of protection for non-use are extendible in the circumstances set out in regs 5.15, 9.18, 17A.34K and 17A.48T. Part 51 General Opposition Proceedings - 2. Extension of the period for filing evidence 2.1.2 The time for filing a notice of opposition to the registration of a trade mark (paragraph 21.28(2)(a)) is extendible in the circumstances set out in reg 5.9. The time for filing a notice of opposition to the extension of protection to an IRDA (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.34C. The time for filing a notice of intention to defend a trademark application (paragraph 21.28(2)(aa)) or an IRDA in opposition proceedings (paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 5.13A and 17A.34H respectively. Part 47 Procedures for Opposing Registration or Protection The time for filing a notice of opposition to a non-use application (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 9.11. The time for filing a notice of opposition to an application for cessation of protection (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.48L The time for filing a notice of intention to defend a removal application (paragraph 21.28(2)(ba)) or an application for cessation of protection in opposition proceedings paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 9.15A and 17A.48Q respectively. Part 49 Non-use procedures (Regs 5.2, 9.2, 17A.29 and 17A.48 define a ‘notice of opposition’ as ‘(a) a notice of intention to oppose; and (b) a statement of grounds and particulars’.)"
+      "text": "The time for filing a notice of opposition to the registration of a trade mark (paragraph 21.28(2)(a)) is extendible in the circumstances set out in reg 5.9. The time for filing a notice of opposition to the extension of protection to an IRDA (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.34C. The time for filing a notice of intention to defend a trademark application (paragraph 21.28(2)(aa)) or an IRDA in opposition proceedings (paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 5.13A and 17A.34H respectively. Part 47 Procedures for Opposing Registration or Protection The time for filing a notice of opposition to a non-use application (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 9.11. The time for filing a notice of opposition to an application for cessation of protection (paragraph 21.28(2)(b)) is extendible in the circumstances set out in reg 17A.48L The time for filing a notice of intention to defend a removal application (paragraph 21.28(2)(ba)) or an application for cessation of protection in opposition proceedings paragraph 21.28(2)(ba)) are extendable in the circumstances set out in regs 9.15A and 17A.48Q respectively. Part 49 Non-use procedures (Regs 5.2, 9.2, 17A.29 and 17A.48 define a ‘notice of opposition’ as ‘(a) a notice of intention to oppose; and (b) a statement of grounds and particulars’.)"
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "2.2.1"
-        },
-        {
-          "kind": "paragraph",
           "text": "The time allowed for meeting minimum filing requirements (reg 4.2) - this act is prescribed by paragraph 21.28(1)(a)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.3"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.4"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.5"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.6"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.7"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.8"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.9"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.10"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part15/2/2/2",
-      "content_hash": "sha256:476fb31db4bb9ead520e806dddce7375f18c4614957dc4b990cb04dad03eae07",
+      "chunk_ref": "TMM/Part15/2/2/2/1",
+      "content_hash": "sha256:301e0a028d5023a0ea8e30beb38cb8ad8fec83a2ce159e53cb653ea9fca671e5",
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
         "Part 15.2. When the general provision does not apply",
-        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible"
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.1"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 4,
       "page_ref": "TMM/Part15/2",
       "provisions": [
         {
@@ -362,50 +306,41 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(b)",
-          "mention": "paragraph 21.28(1)(b)"
-        },
+          "id": "TMR1995/r4.2",
+          "mention": "reg 4.2"
+        }
+      ],
+      "tables": [],
+      "text": "The time allowed for meeting minimum filing requirements (reg 4.2) - this act is prescribed by paragraph 21.28(1)(a)."
+    },
+    {
+      "blocks": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(c)",
-          "mention": "paragraphs 21.28(1)(c)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(j)",
-          "mention": "paragraph 21.28(1)(j)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(k)",
-          "mention": "paragraph 21.28(1)(k)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(n)",
-          "mention": "paragraphs 21.28(1)(n)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(b)",
-          "mention": "paragraph 21.28(2)(b)"
-        },
+          "kind": "paragraph",
+          "text": "The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/2",
+      "content_hash": "sha256:3c2b07c72084cca7b89c8ff19bd96d890501c10f056ec66d77593113c2728681",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 5,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
         {
           "certainty": "default",
           "extraction": "regex",
           "id": "TMA1995/s21.28(aa)",
           "mention": "paragraph 21.28(aa)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s224(5)",
-          "mention": "subsections 224(5)"
         },
         {
           "certainty": "default",
@@ -416,8 +351,80 @@
         {
           "certainty": "default",
           "extraction": "regex",
+          "id": "TMR1995/r4.5",
+          "mention": "reg. 4.5"
+        }
+      ],
+      "tables": [],
+      "text": "The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/3",
+      "content_hash": "sha256:9f46e9fa1d01f6c724f8575491a336d7e346db1fdb4fdcc02c9e7f7111d3ace1",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.3"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(b)",
+          "mention": "paragraph 21.28(1)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s29(1)(b)",
           "mention": "paragraph 29(1)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/4",
+      "content_hash": "sha256:49d800d594d239a759727d1336890067aee7fe96ff7151108ec2ae8489bae414",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.4"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(c)",
+          "mention": "paragraphs 21.28(1)(c)"
         },
         {
           "certainty": "default",
@@ -430,6 +437,39 @@
           "extraction": "regex",
           "id": "TMA1995/s46",
           "mention": "sections 45 and 46"
+        }
+      ],
+      "tables": [],
+      "text": "The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/5",
+      "content_hash": "sha256:ea4110678019243937280be6ce2a644acedb1a1a4cc2bd163496756717e3f124",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.5"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(j)",
+          "mention": "paragraph 21.28(1)(j)"
         },
         {
           "certainty": "default",
@@ -440,15 +480,153 @@
         {
           "certainty": "default",
           "extraction": "regex",
+          "id": "TMR1995/r6.2",
+          "mention": "reg. 6.2"
+        }
+      ],
+      "tables": [],
+      "text": "The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/6",
+      "content_hash": "sha256:eabddde498da1f43219b17ccd20affd95bc352b87537b4299104c85af9c55600",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.6"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 9,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(k)",
+          "mention": "paragraph 21.28(1)(k)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s79",
           "mention": "section 79"
+        }
+      ],
+      "tables": [],
+      "text": "The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/7",
+      "content_hash": "sha256:dd08d4fe675851a4019122eb37115dacec7151d59177da594d3836abc17be702",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.7"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 10,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(1)(n)",
+          "mention": "paragraphs 21.28(1)(n)"
+        }
+      ],
+      "tables": [],
+      "text": "Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/8",
+      "content_hash": "sha256:e8e083410c474f938fcb1ede3baf7f326d442df27cfe0a93724e19b4e0ac4aa8",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.8"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 11,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s21.28(2)(b)",
+          "mention": "paragraph 21.28(2)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(5)",
+          "mention": "subsections 224(5)"
         },
         {
           "certainty": "default",
           "extraction": "regex",
           "id": "TMR1995/r21.20B(1)",
           "mention": "reg 21.20B(1)"
-        },
+        }
+      ],
+      "tables": [],
+      "text": "The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/9",
+      "content_hash": "sha256:6c239cd8de34d8360149ba67033ff4e6cc43d7bf9c29012683abe4710a9062ce",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.9"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 12,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
         {
           "certainty": "default",
           "extraction": "regex",
@@ -458,36 +636,45 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r21.28(1)(t)",
-          "mention": "reg 21.28(1)(t)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r21.28(2)(c)",
           "mention": "regs 21.28(1)(s) and 21.28(2)(c)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r4.2",
-          "mention": "reg 4.2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r4.5",
-          "mention": "reg. 4.5"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r6.2",
-          "mention": "reg. 6.2"
         }
       ],
       "tables": [],
-      "text": "2.2.1 The time allowed for meeting minimum filing requirements (reg 4.2) - this act is prescribed by paragraph 21.28(1)(a). 2.2.2 The time allowed (two working days), after the filing in Australia of an application, to claim priority based on the filing of an application in a Convention country (subsection 29(1), reg. 4.5) - this act is prescribed by paragraph 21.28(aa). 2.2.3 The six month period allowed from filing an application in a Convention country for filing in Australia in the circumstances described in paragraph 29(1)(b) of the Act - this act is prescribed by paragraph 21.28(1)(b). 2.2.4 The time allowed to file divisional applications for goods and/or services which are to be excluded from the parent application (sections 45 and 46) - this act is prescribed by paragraphs 21.28(1)(c). 2.2.5 The time allowed before publication of the particulars of an application to register a trade mark within which amendment of those particulars may be requested (section 64 and reg. 6.2) - this act is prescribed by paragraph 21.28(1)(j). 2.2.6 The time for renewal of a registration after the expiry of the period allowed by section 79 - this act is prescribed by paragraph 21.28(1)(k). 2.2.7 Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q). 2.2.8 The time allowed for filing a notice of opposition to an extension of time of more than 3 months (subsections 224(5) and (6) and reg 21.20B(1)) - this document is prescribed by paragraph 21.28(2)(b). 2.2.9 The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c). 2.2.10 The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
+      "text": "The times allowed for taking certain actions or filing documents relating to the Assisted Filing Service - prescribed by regs 21.28(1)(s) and 21.28(2)(c)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part15/2/2/2/10",
+      "content_hash": "sha256:d2c9cc4c40377454b7705fe6b8bb8c4ca58d4cd46b45b528b91ac4327fc39a68",
+      "fragment": null,
+      "heading_path": [
+        "Part 15 General Provision for Extensions of Time",
+        "Part 15.2. When the general provision does not apply",
+        "2.2 Times, for the doing of prescribed acts and the filing of prescribed documents, which are not extendible",
+        "2.2.10"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 13,
+      "page_ref": "TMM/Part15/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.28(1)(t)",
+          "mention": "reg 21.28(1)(t)"
+        }
+      ],
+      "tables": [],
+      "text": "The times allowed for taking an action or step relating to the trade marks attorney registration - prescribed by reg 21.28(1)(t)."
     },
     {
       "blocks": [
@@ -510,11 +697,12 @@
         "Part 15.2. When the general provision does not apply",
         "2.3 Time for filing a convention application"
       ],
+      "heading_source": "markup",
       "internal_refs": [
         "TMM/Part35/x-relevant-legislation"
       ],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 14,
       "page_ref": "TMM/Part15/2",
       "provisions": [],
       "tables": [],
@@ -525,9 +713,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:90e70bf15367aae666d7ee0b68f0b3f73799bf7a0cd97b2c7728c3aaf98c81e5",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-07-04",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Part 15.2. When the general provision does not apply",
     "images": [],
     "last_amended": "2025-07-04",

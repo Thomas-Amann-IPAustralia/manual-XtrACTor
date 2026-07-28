@@ -128,13 +128,14 @@
       "chunk_ref": "TMM/Part9/2#1~1",
       "content_hash": "sha256:8ce810e051a8413ffc4b538d76e0b0b04cc95f8957c04e91d28a3d3d88c6b33c",
       "fragment": {
-        "count": 3,
+        "count": 2,
         "index": 1
       },
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
         "9.2. Amendment of an application for a registration of a trade mark - general information"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -183,11 +184,30 @@
         {
           "kind": "paragraph",
           "text": "Any decision of the Registrar on an amendment made under Part 6 of the Act is appealable to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.1 Amendments by phone – what constitutes a minor amendment"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part9/2#1~2",
+      "content_hash": "sha256:a0773b6b9097590b9f5d687d555dc7bc885c06f4647fdb7814721cb2f3183041",
+      "fragment": {
+        "count": 2,
+        "index": 2
+      },
+      "heading_path": [
+        "Part 9 Amendments and Changes to Name and Address",
+        "9.2. Amendment of an application for a registration of a trade mark - general information"
+      ],
+      "heading_source": null,
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part9/2",
+      "provisions": [],
+      "tables": [],
+      "text": "If the request for amendment is after publication the Registrar will consider the request if it is fair and reasonable to do so. If a request is made a long time after the application was filed the amendment may not be allowed. All amendments need to be considered carefully by the Registrar before they are granted in order to lessen the potential adverse impact of such an amendment on other parties. The Registrar may also require a declaration to be filed in support of the request and a search of the Trade Marks database will be conducted for marks that might become conflicting because of the proposed amendment. Any decision of the Registrar on an amendment made under Part 6 of the Act is appealable to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court)."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Only minor amendments may be made by phone. Before actioning a phone amendment staff will need to check that the person requesting the amendment is the address for service or the applicant as well as checking the details as filed to confirm the correction is a minor amendment. Details of the phone call are to be recorded in a Record of Conversation attached to file."
@@ -263,36 +283,7 @@
         {
           "kind": "paragraph",
           "text": "If the requested amendment is considered not to be minor, section 66A allows the Registrar to require the request to be made in writing."
-        }
-      ],
-      "cases": [],
-      "chunk_ref": "TMM/Part9/2#1~2",
-      "content_hash": "sha256:6ae117fc9f32e47c40528c2459545ce175ac7773d5037f39f983272628486242",
-      "fragment": {
-        "count": 3,
-        "index": 2
-      },
-      "heading_path": [
-        "Part 9 Amendments and Changes to Name and Address",
-        "9.2. Amendment of an application for a registration of a trade mark - general information"
-      ],
-      "internal_refs": [],
-      "kind": "body",
-      "ordinal": 2,
-      "page_ref": "TMM/Part9/2",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s66A",
-          "mention": "section 66A"
-        }
-      ],
-      "tables": [],
-      "text": "If the request for amendment is after publication the Registrar will consider the request if it is fair and reasonable to do so. If a request is made a long time after the application was filed the amendment may not be allowed. All amendments need to be considered carefully by the Registrar before they are granted in order to lessen the potential adverse impact of such an amendment on other parties. The Registrar may also require a declaration to be filed in support of the request and a search of the Trade Marks database will be conducted for marks that might become conflicting because of the proposed amendment. Any decision of the Registrar on an amendment made under Part 6 of the Act is appealable to the Federal Court or the Federal Circuit Court (formerly the Federal Magistrates Court). 2.1 Amendments by phone – what constitutes a minor amendment Only minor amendments may be made by phone. Before actioning a phone amendment staff will need to check that the person requesting the amendment is the address for service or the applicant as well as checking the details as filed to confirm the correction is a minor amendment. Details of the phone call are to be recorded in a Record of Conversation attached to file. Examples of minor amendments include: an obvious typographical error or minor clerical mistake changes to a convention application number in relation to a priority claim a typographical error in the address for service – only if the same firm, but different city has been nominated, e.g. Melbourne for Sydney translation endorsements of non-English words and non-Roman characters minor typographical changes to other endorsements The following examples would not be minor amendments: changes to the name of the applicant changes to the address of the applicant changes for the address for service (if changing to different firm or representative) changes to the representation of the trade mark adding or deleting goods and or services – apart from minor punctuation or misspelling adding or transferring a class of goods and services adding or changing endorsements – other than translations If the requested amendment is considered not to be minor, section 66A allows the Registrar to require the request to be made in writing."
-    },
-    {
-      "blocks": [
+        },
         {
           "kind": "paragraph",
           "text": "If a customer submits an amendment request via email (and not through the online services page), there is an approved response for you to reply with to the customer. The script can be found in the Customer Service Centre Manual - 2.63. Both this email and your response should be saved to the RIO file."
@@ -307,32 +298,38 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part9/2#1~3",
-      "content_hash": "sha256:e74112d28a7fd3e85c3f4237902eeb3bb448b26c6b31907c426fc4a5f1ba2a51",
-      "fragment": {
-        "count": 3,
-        "index": 3
-      },
+      "chunk_ref": "TMM/Part9/2/2/1",
+      "content_hash": "sha256:187c47d76be13944f05076e6b75f4da200c5d7e4d42872e7deef5860928ed61e",
+      "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
-        "9.2. Amendment of an application for a registration of a trade mark - general information"
+        "9.2. Amendment of an application for a registration of a trade mark - general information",
+        "2.1 Amendments by phone – what constitutes a minor amendment"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
       "page_ref": "TMM/Part9/2",
-      "provisions": [],
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s66A",
+          "mention": "section 66A"
+        }
+      ],
       "tables": [],
-      "text": "If a customer submits an amendment request via email (and not through the online services page), there is an approved response for you to reply with to the customer. The script can be found in the Customer Service Centre Manual - 2.63. Both this email and your response should be saved to the RIO file. General questions regarding an amendment or any other matter can be handled via email. Again, all such emails and responses should be saved to the RIO file. Note: Whilst some amendments can be actioned by phone, certain actions can only be completed by appropriate staff. Phone requests for changes to a typographical error in the address for example, must be processed by Administration staff."
+      "text": "Only minor amendments may be made by phone. Before actioning a phone amendment staff will need to check that the person requesting the amendment is the address for service or the applicant as well as checking the details as filed to confirm the correction is a minor amendment. Details of the phone call are to be recorded in a Record of Conversation attached to file. Examples of minor amendments include: an obvious typographical error or minor clerical mistake changes to a convention application number in relation to a priority claim a typographical error in the address for service – only if the same firm, but different city has been nominated, e.g. Melbourne for Sydney translation endorsements of non-English words and non-Roman characters minor typographical changes to other endorsements The following examples would not be minor amendments: changes to the name of the applicant changes to the address of the applicant changes for the address for service (if changing to different firm or representative) changes to the representation of the trade mark adding or deleting goods and or services – apart from minor punctuation or misspelling adding or transferring a class of goods and services adding or changing endorsements – other than translations If the requested amendment is considered not to be minor, section 66A allows the Registrar to require the request to be made in writing. If a customer submits an amendment request via email (and not through the online services page), there is an approved response for you to reply with to the customer. The script can be found in the Customer Service Centre Manual - 2.63. Both this email and your response should be saved to the RIO file. General questions regarding an amendment or any other matter can be handled via email. Again, all such emails and responses should be saved to the RIO file. Note: Whilst some amendments can be actioned by phone, certain actions can only be completed by appropriate staff. Phone requests for changes to a typographical error in the address for example, must be processed by Administration staff."
     }
   ],
   "page": {
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
     "archived": false,
     "content_hash": "sha256:fc470ae4204589c57a6fc174d0edd827228537f0bd525ece44db778d33e52d45",
-    "crawled_at": "2026-07-28T15:57:55Z",
+    "crawled_at": "2026-07-28T17:18:39Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "9.2. Amendment of an application for a registration of a trade mark - general information",
     "images": [],
     "last_amended": "2025-10-22",

@@ -19,6 +19,7 @@
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -32,11 +33,41 @@
         {
           "kind": "paragraph",
           "text": "A notice of intention to oppose comprises the first part of the notice of opposition to the non-use application. The notice of opposition is completed by the filing of a statement of grounds and particulars. Together, the notice of intention to oppose and the statement of grounds and particulars form a valid notice of opposition (regs 9.7, 17A.48F)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/1",
+      "content_hash": "sha256:dcd7757991edc519c4d1d3c211b681c71f0410b1d997c8fc26593cc2d4944688",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.1 Notice of intention to oppose"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48F",
+          "mention": "regs 9.7, 17A.48F"
         },
         {
-          "kind": "paragraph",
-          "text": "2.1.1 Time limits"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.7",
+          "mention": "regs 9.7, 17A.48F"
+        }
+      ],
+      "tables": [],
+      "text": "A notice of intention to oppose comprises the first part of the notice of opposition to the non-use application. The notice of opposition is completed by the filing of a statement of grounds and particulars. Together, the notice of intention to oppose and the statement of grounds and particulars form a valid notice of opposition (regs 9.7, 17A.48F)."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Any person may oppose the non-use application by filing a notice of intention to oppose within two months from the day on which the non-use application is published (regs 9.8(1), 17A.48G(1))."
@@ -48,66 +79,24 @@
         {
           "kind": "paragraph",
           "text": "If the notice of intention to oppose is filed before the non-use application has been published, it will be deemed not filed (reg 21.4) and returned to the potential opponent with an explanation that the notice cannot be filed until publication has occurred and the opposition period has commenced."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.1.2 Fees and formalities"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The notice of intention to oppose must be filed in an approved form."
-        },
-        {
-          "depth": 1,
-          "kind": "list_item",
-          "text": "Part 4 Fees"
-        },
-        {
-          "kind": "paragraph",
-          "text": "A notice of intention to oppose form is available on IP Australia’s website. It is not a requirement that this form be used however it is a useful guide to ensure the notice of intention to oppose is filed in an approved form."
-        },
-        {
-          "kind": "paragraph",
-          "text": "If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application, it must also provide an address for service in Australia or New Zealand at the same time that it files the notice of intention to oppose."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.1.3 Processing"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The Registrar will check whether or not the notice of intention to oppose is in the proper form. If it is in proper form, a copy of the notice will be given to the applicant."
-        },
-        {
-          "kind": "paragraph",
-          "text": "If the notice is not in the proper form, the potential opponent will be advised. If it is possible to bring it into the proper form it will be given an opportunity to do so. If it is not possible, the notice will be deemed not filed (reg 21.4) and the filing fee returned."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/1~1",
-      "content_hash": "sha256:dab710f40df088b923d85c3a0cd396d1fb710a42b48d65dc00e5587f421e1dc9",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part49/2/2/1/1",
+      "content_hash": "sha256:046d45b670505bbbfde931c3ea9fcd6885a26e28507fa0a0d5b4a8c6cbb16d06",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.1 Notice of intention to oppose"
+        "2.1 Notice of intention to oppose",
+        "2.1.1 Time limits"
       ],
-      "internal_refs": [
-        "TMM/Part4/1"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 2,
+      "ordinal": 3,
       "page_ref": "TMM/Part49/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.48F",
-          "mention": "regs 9.7, 17A.48F"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -135,52 +124,97 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r9.7",
-          "mention": "regs 9.7, 17A.48F"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r9.8(1)",
           "mention": "regs 9.8(1), 17A.48G(1)"
         }
       ],
       "tables": [],
-      "text": "A notice of intention to oppose comprises the first part of the notice of opposition to the non-use application. The notice of opposition is completed by the filing of a statement of grounds and particulars. Together, the notice of intention to oppose and the statement of grounds and particulars form a valid notice of opposition (regs 9.7, 17A.48F). 2.1.1 Time limits Any person may oppose the non-use application by filing a notice of intention to oppose within two months from the day on which the non-use application is published (regs 9.8(1), 17A.48G(1)). If the notice of intention to oppose is filed after that period has expired and no application has been made to extend that period (regs 9.11, 17A.48L), the notice will be returned to the potential opponent with an explanation that the opposition period has ended. If the notice of intention to oppose is filed before the non-use application has been published, it will be deemed not filed (reg 21.4) and returned to the potential opponent with an explanation that the notice cannot be filed until publication has occurred and the opposition period has commenced. 2.1.2 Fees and formalities The notice of intention to oppose must be filed in an approved form. Part 4 Fees A notice of intention to oppose form is available on IP Australia’s website. It is not a requirement that this form be used however it is a useful guide to ensure the notice of intention to oppose is filed in an approved form. If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application, it must also provide an address for service in Australia or New Zealand at the same time that it files the notice of intention to oppose. 2.1.3 Processing The Registrar will check whether or not the notice of intention to oppose is in the proper form. If it is in proper form, a copy of the notice will be given to the applicant. If the notice is not in the proper form, the potential opponent will be advised. If it is possible to bring it into the proper form it will be given an opportunity to do so. If it is not possible, the notice will be deemed not filed (reg 21.4) and the filing fee returned."
+      "text": "Any person may oppose the non-use application by filing a notice of intention to oppose within two months from the day on which the non-use application is published (regs 9.8(1), 17A.48G(1)). If the notice of intention to oppose is filed after that period has expired and no application has been made to extend that period (regs 9.11, 17A.48L), the notice will be returned to the potential opponent with an explanation that the opposition period has ended. If the notice of intention to oppose is filed before the non-use application has been published, it will be deemed not filed (reg 21.4) and returned to the potential opponent with an explanation that the notice cannot be filed until publication has occurred and the opposition period has commenced."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The notice of intention to oppose must be filed in an approved form."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 4 Fees"
+        },
+        {
+          "kind": "paragraph",
+          "text": "A notice of intention to oppose form is available on IP Australia’s website. It is not a requirement that this form be used however it is a useful guide to ensure the notice of intention to oppose is filed in an approved form."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application, it must also provide an address for service in Australia or New Zealand at the same time that it files the notice of intention to oppose."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/1/2",
+      "content_hash": "sha256:43fa870ed123556926faca02dafee99ebfbb491142390df64d4e1e8521e6dc81",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.1 Notice of intention to oppose",
+        "2.1.2 Fees and formalities"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part4/1"
+      ],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [],
+      "tables": [],
+      "text": "The notice of intention to oppose must be filed in an approved form. Part 4 Fees A notice of intention to oppose form is available on IP Australia’s website. It is not a requirement that this form be used however it is a useful guide to ensure the notice of intention to oppose is filed in an approved form. If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application, it must also provide an address for service in Australia or New Zealand at the same time that it files the notice of intention to oppose."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The Registrar will check whether or not the notice of intention to oppose is in the proper form. If it is in proper form, a copy of the notice will be given to the applicant."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the notice is not in the proper form, the potential opponent will be advised. If it is possible to bring it into the proper form it will be given an opportunity to do so. If it is not possible, the notice will be deemed not filed (reg 21.4) and the filing fee returned."
+        },
         {
           "kind": "paragraph",
           "text": "If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application and it did not provide an Australian or New Zealand address for service, the Registrar is not obliged to take any action in response to the notice (17A.48H)."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/1~2",
-      "content_hash": "sha256:3f75200845ebe5373bf66863f36fd0155a0cf5c8678795514f48e75028f3d6d5",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part49/2/2/1/3",
+      "content_hash": "sha256:1d207f0b9070f7b55ab495c37fea560b0f6df78423d87fcb61e48e7ed8e6ac66",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.1 Notice of intention to oppose"
+        "2.1 Notice of intention to oppose",
+        "2.1.3 Processing"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 3,
+      "ordinal": 5,
       "page_ref": "TMM/Part49/2",
-      "provisions": [],
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.4",
+          "mention": "reg 21.4"
+        }
+      ],
       "tables": [],
-      "text": "If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application and it did not provide an Australian or New Zealand address for service, the Registrar is not obliged to take any action in response to the notice (17A.48H)."
+      "text": "The Registrar will check whether or not the notice of intention to oppose is in the proper form. If it is in proper form, a copy of the notice will be given to the applicant. If the notice is not in the proper form, the potential opponent will be advised. If it is possible to bring it into the proper form it will be given an opportunity to do so. If it is not possible, the notice will be deemed not filed (reg 21.4) and the filing fee returned. If the potential opponent is the holder of the protected international trade mark which is the subject of the non-use application and it did not provide an Australian or New Zealand address for service, the Registrar is not obliged to take any action in response to the notice (17A.48H)."
     },
     {
       "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "2.2.1 Time limits"
-        },
         {
           "kind": "paragraph",
           "text": "A statement of grounds and particulars must be filed by the potential opponent within one month from the day the notice of intention to oppose is filed."
@@ -188,11 +222,42 @@
         {
           "kind": "paragraph",
           "text": "If the statement of grounds and particulars has not been filed within the time allowed and no application has been made to extend the time (regs 9.11, 17A.48L), he statement will be returned to the potential opponent with the advice that as a complete notice of opposition has not been filed, removal of the trade mark may proceed."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/2/1",
+      "content_hash": "sha256:da5cd14a9ab003865223c0c25638704fa910c52dc216da848c8558248eea65a3",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.2 Statement of grounds and particulars",
+        "2.2.1 Time limits"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48L",
+          "mention": "regs 9.11, 17A.48L"
         },
         {
-          "kind": "paragraph",
-          "text": "2.2.2 Fees and formalities"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.11",
+          "mention": "regs 9.11, 17A.48L"
+        }
+      ],
+      "tables": [],
+      "text": "A statement of grounds and particulars must be filed by the potential opponent within one month from the day the notice of intention to oppose is filed. If the statement of grounds and particulars has not been filed within the time allowed and no application has been made to extend the time (regs 9.11, 17A.48L), he statement will be returned to the potential opponent with the advice that as a complete notice of opposition has not been filed, removal of the trade mark may proceed."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The statement of grounds and particulars must be filed in an approved form."
@@ -204,11 +269,29 @@
         {
           "kind": "paragraph",
           "text": "There is no fee associated with filing a statement of grounds and particulars."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.3 Adequacy"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/2/2",
+      "content_hash": "sha256:31949090a990caf35d5fc9756f19d4c73e8c7a50eb7ac3c5a30566f2f10331d8",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.2 Statement of grounds and particulars",
+        "2.2.2 Fees and formalities"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 7,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [],
+      "tables": [],
+      "text": "The statement of grounds and particulars must be filed in an approved form. A statement of grounds and particulars form is available on IP Australia’s website. It is not a requirement that this form be used, however it is a useful guide to ensure the statement of grounds and particulars is filed in an approved form. There is no fee associated with filing a statement of grounds and particulars."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The Registrar must assess the adequacy of the statement of grounds and particulars (regs 9.10, 17A.48K). If the statement is adequately particularised, the Registrar will give a copy of the statement to the non-use applicant (regs 9.10(2), 17A.48K)."
@@ -228,31 +311,22 @@
         {
           "kind": "paragraph",
           "text": "An appeal may be made to the Administrative Review Tribunal from a decision by the Registrar to dismiss the opposition because the statement of grounds and particulars is inadequate (section 99A(2))."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.4 Formal requirements"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The statement of grounds and particulars must set out the material facts on which the opposition is based. The opponent is not required to state the legal effect of the facts on which they rely; they are only required to state the facts themselves."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/2~1",
-      "content_hash": "sha256:147bd4e8c5a250e5d6bf7eaaa72c23c21f7719e85a93a2c672b176dc6cd9f53e",
-      "fragment": {
-        "count": 2,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part49/2/2/2/3",
+      "content_hash": "sha256:24b490e49ebf3a5c7ca51cb11db96dbcd7ce71c1c6a2f15b0a5c1f087baebef2",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.2 Statement of grounds and particulars"
+        "2.2 Statement of grounds and particulars",
+        "2.2.3 Adequacy"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 8,
       "page_ref": "TMM/Part49/2",
       "provisions": [
         {
@@ -278,12 +352,6 @@
           "extraction": "regex",
           "id": "TMR1995/r17A.48K(4)",
           "mention": "regs 9.10(4), 17A.48K(4)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.48L",
-          "mention": "regs 9.11, 17A.48L"
         },
         {
           "certainty": "default",
@@ -314,19 +382,17 @@
           "extraction": "regex",
           "id": "TMR1995/r9.10(5)",
           "mention": "regs 9.10(5), 17A.48K"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r9.11",
-          "mention": "regs 9.11, 17A.48L"
         }
       ],
       "tables": [],
-      "text": "2.2.1 Time limits A statement of grounds and particulars must be filed by the potential opponent within one month from the day the notice of intention to oppose is filed. If the statement of grounds and particulars has not been filed within the time allowed and no application has been made to extend the time (regs 9.11, 17A.48L), he statement will be returned to the potential opponent with the advice that as a complete notice of opposition has not been filed, removal of the trade mark may proceed. 2.2.2 Fees and formalities The statement of grounds and particulars must be filed in an approved form. A statement of grounds and particulars form is available on IP Australia’s website. It is not a requirement that this form be used, however it is a useful guide to ensure the statement of grounds and particulars is filed in an approved form. There is no fee associated with filing a statement of grounds and particulars. 2.2.3 Adequacy The Registrar must assess the adequacy of the statement of grounds and particulars (regs 9.10, 17A.48K). If the statement is adequately particularised, the Registrar will give a copy of the statement to the non-use applicant (regs 9.10(2), 17A.48K). If the statement of grounds and particulars is not adequately particularised, the Registrar will direct the potential opponent to provide more information in support of the opposition within a set time period (regs 9.10(3)(a), 17A.48K(3)(a)). If the potential opponent files more information and that information rectifies the inadequacy, the Registrar will give a copy of the statement of grounds and particulars and the additional information to the applicant (regs 9.10(4), 17A.48K(4)). If the potential opponent does not file more information or the additional information does not rectify the inadequacy the Registrar may dismiss the opposition (regs 9.10(5), 17A.48K). The Registrar will inform both parties of the dismissal. An appeal may be made to the Administrative Review Tribunal from a decision by the Registrar to dismiss the opposition because the statement of grounds and particulars is inadequate (section 99A(2)). 2.2.4 Formal requirements The statement of grounds and particulars must set out the material facts on which the opposition is based. The opponent is not required to state the legal effect of the facts on which they rely; they are only required to state the facts themselves."
+      "text": "The Registrar must assess the adequacy of the statement of grounds and particulars (regs 9.10, 17A.48K). If the statement is adequately particularised, the Registrar will give a copy of the statement to the non-use applicant (regs 9.10(2), 17A.48K). If the statement of grounds and particulars is not adequately particularised, the Registrar will direct the potential opponent to provide more information in support of the opposition within a set time period (regs 9.10(3)(a), 17A.48K(3)(a)). If the potential opponent files more information and that information rectifies the inadequacy, the Registrar will give a copy of the statement of grounds and particulars and the additional information to the applicant (regs 9.10(4), 17A.48K(4)). If the potential opponent does not file more information or the additional information does not rectify the inadequacy the Registrar may dismiss the opposition (regs 9.10(5), 17A.48K). The Registrar will inform both parties of the dismissal. An appeal may be made to the Administrative Review Tribunal from a decision by the Registrar to dismiss the opposition because the statement of grounds and particulars is inadequate (section 99A(2))."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The statement of grounds and particulars must set out the material facts on which the opposition is based. The opponent is not required to state the legal effect of the facts on which they rely; they are only required to state the facts themselves."
+        },
         {
           "kind": "paragraph",
           "text": "The form provided on the IP Australia website provides guidance as to what information must be included in the statement of grounds and particulars, and in what order. Substantial compliance with the form is sufficient.1"
@@ -353,46 +419,80 @@
         {
           "kind": "paragraph",
           "text": "Failure to disclose sufficient information in line with the third point above is the most likely to draw an inadequacy notice."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2.5 Particularisation"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/2/4",
+      "content_hash": "sha256:75f90f6c0ac699c8200a28bc92b1f051f525c9c0117129a4778ed5551a6222f5",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.2 Statement of grounds and particulars",
+        "2.2.4 Formal requirements"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 9,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [],
+      "tables": [],
+      "text": "The statement of grounds and particulars must set out the material facts on which the opposition is based. The opponent is not required to state the legal effect of the facts on which they rely; they are only required to state the facts themselves. The form provided on the IP Australia website provides guidance as to what information must be included in the statement of grounds and particulars, and in what order. Substantial compliance with the form is sufficient.1 Information that is likely to be necessary: the name and contact details of the opponent the trade mark number to which the opposition relates the facts and circumstances forming the basis for opposing the non-use application (‘particulars’) Failure to disclose sufficient information in line with the third point above is the most likely to draw an inadequacy notice."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "An adequate statement of grounds and particulars will typically contain brief facts about: the alleged use, or intended use, or circumstances preventing use, of the trade mark, or any other information that may justify the exercise of the Registrar's discretion not to remove the trade mark."
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/2~2",
-      "content_hash": "sha256:35e65c28e11f4adcfc6337f072b2b1d7153776a0d9567996344a2033ef1d4fac",
-      "fragment": {
-        "count": 2,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part49/2/2/2/5",
+      "content_hash": "sha256:eb6ad2cefd19fc465d34edddff3c0846a3742147cdf952d96724ee2ce6b8cdd1",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.2 Statement of grounds and particulars"
+        "2.2 Statement of grounds and particulars",
+        "2.2.5 Particularisation"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 10,
       "page_ref": "TMM/Part49/2",
       "provisions": [],
       "tables": [],
-      "text": "The form provided on the IP Australia website provides guidance as to what information must be included in the statement of grounds and particulars, and in what order. Substantial compliance with the form is sufficient.1 Information that is likely to be necessary: the name and contact details of the opponent the trade mark number to which the opposition relates the facts and circumstances forming the basis for opposing the non-use application (‘particulars’) Failure to disclose sufficient information in line with the third point above is the most likely to draw an inadequacy notice. 2.2.5 Particularisation An adequate statement of grounds and particulars will typically contain brief facts about: the alleged use, or intended use, or circumstances preventing use, of the trade mark, or any other information that may justify the exercise of the Registrar's discretion not to remove the trade mark."
+      "text": "An adequate statement of grounds and particulars will typically contain brief facts about: the alleged use, or intended use, or circumstances preventing use, of the trade mark, or any other information that may justify the exercise of the Registrar's discretion not to remove the trade mark."
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
           "text": "It is possible for the statutory period to file a notice of intention to oppose or a statement of grounds and particulars to be extended."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.1 Grounds for requesting an extension"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/3",
+      "content_hash": "sha256:f79f35efc4e3a6bbc6c520ec92e714830a5c3b4592998ce1bb2062a090a6fb06",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 11,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [],
+      "tables": [],
+      "text": "It is possible for the statutory period to file a notice of intention to oppose or a statement of grounds and particulars to be extended."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "A request for an extension which is made either within the relevant statutory period or after the period has ended can be based on either or both of the following grounds:"
@@ -408,11 +508,56 @@
         {
           "kind": "paragraph",
           "text": "For further information in relation to the grounds see Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/3/1",
+      "content_hash": "sha256:5e621f80a58e1f7ecb73bbc5d201f3991f790bc538b54e1993f9bdae7db18358",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.1 Grounds for requesting an extension"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part47/1/1/3"
+      ],
+      "kind": "body",
+      "ordinal": 12,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48L(4)(a)",
+          "mention": "regs 9.11(4)(a), 17A.48L(4)(a)"
         },
         {
-          "kind": "paragraph",
-          "text": "2.3.2 Fees and formalities"
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48L(4)(b)",
+          "mention": "regs 9.11(4)(b), 17A.48L(4)(b)"
         },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.11(4)(a)",
+          "mention": "regs 9.11(4)(a), 17A.48L(4)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.11(4)(b)",
+          "mention": "regs 9.11(4)(b), 17A.48L(4)(b)"
+        }
+      ],
+      "tables": [],
+      "text": "A request for an extension which is made either within the relevant statutory period or after the period has ended can be based on either or both of the following grounds: a. an error or omission by the person, the person’s agent, the Registrar or an employee (regs 9.11(4)(a), 17A.48L(4)(a)); b. circumstances beyond the control of the person applying for the extension of time, other than an error or omission by the person, the person’s agent, the Registrar or an employee (regs 9.11(4)(b), 17A.48L(4)(b)) For further information in relation to the grounds see Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "The application for an extension of time to file a notice of intention to oppose or a statement of grounds and particulars must be filed with the Trade Marks Office in an approved form and accompanied by the relevant fee (see item 6 in Schedule 9 of the Trade Marks Regulations 1995). The application will not be processed until the fee is paid."
@@ -433,62 +578,30 @@
         {
           "kind": "paragraph",
           "text": "The Registrar will give a copy of the extension request to the applicant."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.3 Granting the extension of time"
-        },
-        {
-          "kind": "paragraph",
-          "text": "In granting an extension of time, the Registrar must be satisfied as to the grounds set out in the application and the reasons given in support of those grounds. If the extension application was filed out of time, the Registrar must also be satisfied that there was sufficient reason for the application not being made within time (regs 9.12, 17A.48M)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "If the extension application was made in time and the Registrar is satisfied one or more of the grounds for the extension has been made out, the extension may be granted provided"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/3~1",
-      "content_hash": "sha256:c106a61f2ba49772d6eb13e85e5a3964f492cdd6f28f98f6808ff1e9bead9668",
-      "fragment": {
-        "count": 3,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part49/2/2/3/2",
+      "content_hash": "sha256:af5e1f877e63923970425cd4a12f5c0d8805b10c8c63f11aa61c547fe9625e9b",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.2 Fees and formalities"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
-        "TMM/Part4/1",
-        "TMM/Part47/1"
+        "TMM/Part4/1"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 13,
       "page_ref": "TMM/Part49/2",
       "provisions": [
         {
           "extraction": "href",
           "id": "TMR1995/r17A.48L",
           "mention": "17A.48L"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.48L(4)(a)",
-          "mention": "regs 9.11(4)(a), 17A.48L(4)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.48L(4)(b)",
-          "mention": "regs 9.11(4)(b), 17A.48L(4)(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A.48M",
-          "mention": "regs 9.12, 17A.48M"
         },
         {
           "certainty": "default",
@@ -505,31 +618,21 @@
           "extraction": "href",
           "id": "TMR1995/r9.11",
           "mention": "regs 9.11"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r9.11(4)(a)",
-          "mention": "regs 9.11(4)(a), 17A.48L(4)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r9.11(4)(b)",
-          "mention": "regs 9.11(4)(b), 17A.48L(4)(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r9.12",
-          "mention": "regs 9.12, 17A.48M"
         }
       ],
       "tables": [],
-      "text": "It is possible for the statutory period to file a notice of intention to oppose or a statement of grounds and particulars to be extended. 2.3.1 Grounds for requesting an extension A request for an extension which is made either within the relevant statutory period or after the period has ended can be based on either or both of the following grounds: a. an error or omission by the person, the person’s agent, the Registrar or an employee (regs 9.11(4)(a), 17A.48L(4)(a)); b. circumstances beyond the control of the person applying for the extension of time, other than an error or omission by the person, the person’s agent, the Registrar or an employee (regs 9.11(4)(b), 17A.48L(4)(b)) For further information in relation to the grounds see Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars. 2.3.2 Fees and formalities The application for an extension of time to file a notice of intention to oppose or a statement of grounds and particulars must be filed with the Trade Marks Office in an approved form and accompanied by the relevant fee (see item 6 in Schedule 9 of the Trade Marks Regulations 1995). The application will not be processed until the fee is paid. Part 4 Fees A form is available on IP Australia’s website. A potential opponent is not required to use this form, however it may be useful as a guide. The application must be accompanied by a declaration in terms of reg 21.6, setting out the reasons in support of the grounds on which the application is made. If the initial period has expired, the declaration should also include the reason why the application was not made within the period (regs 9.11, 17A.48L). The Registrar will give a copy of the extension request to the applicant. 2.3.3 Granting the extension of time In granting an extension of time, the Registrar must be satisfied as to the grounds set out in the application and the reasons given in support of those grounds. If the extension application was filed out of time, the Registrar must also be satisfied that there was sufficient reason for the application not being made within time (regs 9.12, 17A.48M). If the extension application was made in time and the Registrar is satisfied one or more of the grounds for the extension has been made out, the extension may be granted provided"
+      "text": "The application for an extension of time to file a notice of intention to oppose or a statement of grounds and particulars must be filed with the Trade Marks Office in an approved form and accompanied by the relevant fee (see item 6 in Schedule 9 of the Trade Marks Regulations 1995). The application will not be processed until the fee is paid. Part 4 Fees A form is available on IP Australia’s website. A potential opponent is not required to use this form, however it may be useful as a guide. The application must be accompanied by a declaration in terms of reg 21.6, setting out the reasons in support of the grounds on which the application is made. If the initial period has expired, the declaration should also include the reason why the application was not made within the period (regs 9.11, 17A.48L). The Registrar will give a copy of the extension request to the applicant."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "In granting an extension of time, the Registrar must be satisfied as to the grounds set out in the application and the reasons given in support of those grounds. If the extension application was filed out of time, the Registrar must also be satisfied that there was sufficient reason for the application not being made within time (regs 9.12, 17A.48M)."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the extension application was made in time and the Registrar is satisfied one or more of the grounds for the extension has been made out, the extension may be granted provided"
+        },
         {
           "depth": 1,
           "kind": "list_item",
@@ -542,72 +645,22 @@
         {
           "kind": "paragraph",
           "text": "If the extension application was made out of time, that is, after the period for filing the notice of intention to oppose or statement of grounds and particulars had ended, the Registrar will not necessarily grant the extension even if the extension ground has been made out (regs 9.12(2), 17A.48M(2)). The potential opponent must also satisfy the Registrar there was sufficient reason for the application not being made before the end of that period."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.4 Reasons for refusing the extension"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Reasons for refusing extension requests may include the finding that the facts contained in the supporting declaration do not establish the grounds set out in the application."
-        },
-        {
-          "kind": "paragraph",
-          "text": "In the event of a late extension being applied for, the reasons provided in terms of regs 9.12(2) or 17A.48M(2) may not satisfy the Registrar that the application could not have been made before the end of the period."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.5 Period of the extension"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Where an extension of time is granted, it must be for a period of time that the Registrar believes is reasonable in the circumstances (regs 9.12(3), 17A.48M(3)."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.6 Procedure"
-        },
-        {
-          "kind": "paragraph",
-          "text": "The procedure in relation to granting or refusing an extension of time to file a notice of intention to oppose or a statement of grounds and particulars in a non-use opposition is the same as the procedure in relation to such extensions in oppositions to registration or protection."
-        },
-        {
-          "depth": 1,
-          "kind": "list_item",
-          "text": "Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.3.7 Extension of time not granted"
-        },
-        {
-          "kind": "paragraph",
-          "text": "If the Registrar proposes not to grant the extension, the potential opponent will be given the opportunity to request a hearing. The hearing request must be accompanied by the appropriate fee."
-        },
-        {
-          "depth": 1,
-          "kind": "list_item",
-          "text": "Part 4 Fees"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/3~2",
-      "content_hash": "sha256:3f2c05cfeb21b6c2cd573c750f469bb22e32020af37fe37d2ce7aa49db2a4f6b",
-      "fragment": {
-        "count": 3,
-        "index": 2
-      },
+      "chunk_ref": "TMM/Part49/2/2/3/3",
+      "content_hash": "sha256:365acea61e11dbdb2d5c7d05016fef15078f0656424ee1e6bb89f781bafb51ec",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.3 Granting the extension of time"
       ],
-      "internal_refs": [
-        "TMM/Part4/x-relevant-legislation15",
-        "TMM/Part47/1"
-      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 14,
       "page_ref": "TMM/Part49/2",
       "provisions": [
         {
@@ -619,14 +672,20 @@
         {
           "certainty": "default",
           "extraction": "regex",
+          "id": "TMR1995/r17A.48M",
+          "mention": "regs 9.12, 17A.48M"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMR1995/r17A.48M(2)",
           "mention": "regs 9.12(2), 17A.48M(2)"
         },
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r17A.48M(3)",
-          "mention": "regs 9.12(3), 17A.48M(3)"
+          "id": "TMR1995/r9.12",
+          "mention": "regs 9.12, 17A.48M"
         },
         {
           "certainty": "default",
@@ -637,21 +696,139 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r9.12(3)",
-          "mention": "regs 9.12(3), 17A.48M(3)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r9.4",
           "mention": "regs 9.4, 17A.48B"
         }
       ],
       "tables": [],
-      "text": "the Registrar has notified the applicant of the request, and both parties have had a reasonable opportunity to make representations concerning that application (regs 9.4, 17A.48B). If the applicant objected to the granting of the extension, and the Registrar gives weight to any of its arguments, the potential opponent must be given a reasonable opportunity to reply to the objection. If the Registrar decides not to grant the extension of time, the potential opponent will be given an opportunity to be heard in the matter. If the extension application was made out of time, that is, after the period for filing the notice of intention to oppose or statement of grounds and particulars had ended, the Registrar will not necessarily grant the extension even if the extension ground has been made out (regs 9.12(2), 17A.48M(2)). The potential opponent must also satisfy the Registrar there was sufficient reason for the application not being made before the end of that period. 2.3.4 Reasons for refusing the extension Reasons for refusing extension requests may include the finding that the facts contained in the supporting declaration do not establish the grounds set out in the application. In the event of a late extension being applied for, the reasons provided in terms of regs 9.12(2) or 17A.48M(2) may not satisfy the Registrar that the application could not have been made before the end of the period. 2.3.5 Period of the extension Where an extension of time is granted, it must be for a period of time that the Registrar believes is reasonable in the circumstances (regs 9.12(3), 17A.48M(3). 2.3.6 Procedure The procedure in relation to granting or refusing an extension of time to file a notice of intention to oppose or a statement of grounds and particulars in a non-use opposition is the same as the procedure in relation to such extensions in oppositions to registration or protection. Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars 2.3.7 Extension of time not granted If the Registrar proposes not to grant the extension, the potential opponent will be given the opportunity to request a hearing. The hearing request must be accompanied by the appropriate fee. Part 4 Fees"
+      "text": "In granting an extension of time, the Registrar must be satisfied as to the grounds set out in the application and the reasons given in support of those grounds. If the extension application was filed out of time, the Registrar must also be satisfied that there was sufficient reason for the application not being made within time (regs 9.12, 17A.48M). If the extension application was made in time and the Registrar is satisfied one or more of the grounds for the extension has been made out, the extension may be granted provided the Registrar has notified the applicant of the request, and both parties have had a reasonable opportunity to make representations concerning that application (regs 9.4, 17A.48B). If the applicant objected to the granting of the extension, and the Registrar gives weight to any of its arguments, the potential opponent must be given a reasonable opportunity to reply to the objection. If the Registrar decides not to grant the extension of time, the potential opponent will be given an opportunity to be heard in the matter. If the extension application was made out of time, that is, after the period for filing the notice of intention to oppose or statement of grounds and particulars had ended, the Registrar will not necessarily grant the extension even if the extension ground has been made out (regs 9.12(2), 17A.48M(2)). The potential opponent must also satisfy the Registrar there was sufficient reason for the application not being made before the end of that period."
     },
     {
       "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reasons for refusing extension requests may include the finding that the facts contained in the supporting declaration do not establish the grounds set out in the application."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the event of a late extension being applied for, the reasons provided in terms of regs 9.12(2) or 17A.48M(2) may not satisfy the Registrar that the application could not have been made before the end of the period."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/3/4",
+      "content_hash": "sha256:d2824a2ecebc41cdeb5651ec850eb6c223985b1af066ba59e4043c13eda331a4",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.4 Reasons for refusing the extension"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 15,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48M(2)",
+          "mention": "regs 9.12(2) or 17A.48M(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.12(2)",
+          "mention": "regs 9.12(2) or 17A.48M(2)"
+        }
+      ],
+      "tables": [],
+      "text": "Reasons for refusing extension requests may include the finding that the facts contained in the supporting declaration do not establish the grounds set out in the application. In the event of a late extension being applied for, the reasons provided in terms of regs 9.12(2) or 17A.48M(2) may not satisfy the Registrar that the application could not have been made before the end of the period."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where an extension of time is granted, it must be for a period of time that the Registrar believes is reasonable in the circumstances (regs 9.12(3), 17A.48M(3)."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/3/5",
+      "content_hash": "sha256:7c7f9a98be90ef3a842b2cd5e118051ea2b9eb1f2172e1cc366aa17369caa615",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.5 Period of the extension"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 16,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48M(3)",
+          "mention": "regs 9.12(3), 17A.48M(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.12(3)",
+          "mention": "regs 9.12(3), 17A.48M(3)"
+        }
+      ],
+      "tables": [],
+      "text": "Where an extension of time is granted, it must be for a period of time that the Registrar believes is reasonable in the circumstances (regs 9.12(3), 17A.48M(3)."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The procedure in relation to granting or refusing an extension of time to file a notice of intention to oppose or a statement of grounds and particulars in a non-use opposition is the same as the procedure in relation to such extensions in oppositions to registration or protection."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part49/2/2/3/6",
+      "content_hash": "sha256:4f8ebc5b6549989491e221b2e17797ed65df127a0d60ac71f467ebdb1701f8eb",
+      "fragment": null,
+      "heading_path": [
+        "Part 49 Non-use Procedures",
+        "Part 49.2. Opposition to non-use application",
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.6 Procedure"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [
+        "TMM/Part47/1/1/3"
+      ],
+      "kind": "body",
+      "ordinal": 17,
+      "page_ref": "TMM/Part49/2",
+      "provisions": [],
+      "tables": [],
+      "text": "The procedure in relation to granting or refusing an extension of time to file a notice of intention to oppose or a statement of grounds and particulars in a non-use opposition is the same as the procedure in relation to such extensions in oppositions to registration or protection. Part 47 Procedures for Opposing Registration or Protection – 1.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the Registrar proposes not to grant the extension, the potential opponent will be given the opportunity to request a hearing. The hearing request must be accompanied by the appropriate fee."
+        },
+        {
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Part 4 Fees"
+        },
         {
           "kind": "paragraph",
           "text": "If, having heard the potential opponent, the Registrar decides not to grant the extension, he or she will issue a written decision to that effect. As this decision is potentially subject to judicial review, it will not be put into effect until after the expiry of the four week period allowed for a request for judicial review to be filed with the Federal court."
@@ -663,26 +840,26 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/2/3~3",
-      "content_hash": "sha256:20b4178e372e97a3d6dd6bcf22fd5dc2c3228def5c65bffc20af8dccd66637c9",
-      "fragment": {
-        "count": 3,
-        "index": 3
-      },
+      "chunk_ref": "TMM/Part49/2/2/3/7",
+      "content_hash": "sha256:2769f3da2fbaef4572bfdee036fdb259ffef8e81099e3aa9ee1b74a6bcce9728",
+      "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
         "Part 49.2. Opposition to non-use application",
-        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars"
+        "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
+        "2.3.7 Extension of time not granted"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
+        "TMM/Part4/x-relevant-legislation15",
         "TMM/Part52/x-relevant-legislation2"
       ],
       "kind": "body",
-      "ordinal": 8,
+      "ordinal": 18,
       "page_ref": "TMM/Part49/2",
       "provisions": [],
       "tables": [],
-      "text": "If, having heard the potential opponent, the Registrar decides not to grant the extension, he or she will issue a written decision to that effect. As this decision is potentially subject to judicial review, it will not be put into effect until after the expiry of the four week period allowed for a request for judicial review to be filed with the Federal court. Part 52 Hearings, Decisions, Reasons and Appeals"
+      "text": "If the Registrar proposes not to grant the extension, the potential opponent will be given the opportunity to request a hearing. The hearing request must be accompanied by the appropriate fee. Part 4 Fees If, having heard the potential opponent, the Registrar decides not to grant the extension, he or she will issue a written decision to that effect. As this decision is potentially subject to judicial review, it will not be put into effect until after the expiry of the four week period allowed for a request for judicial review to be filed with the Federal court. Part 52 Hearings, Decisions, Reasons and Appeals"
     },
     {
       "blocks": [
@@ -692,7 +869,7 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part49/2/1",
+      "chunk_ref": "TMM/Part49/2/1-acts-interpretation-act-1901-cth-s-25c",
       "content_hash": "sha256:bb894dc57d69c85c39f50898b97d26d301961dfc37517c82b23953cc35fc3f4c",
       "fragment": null,
       "heading_path": [
@@ -701,9 +878,10 @@
         "2.3 Extension of time to file a notice of intention to oppose or a statement of grounds and particulars",
         "1. Acts Interpretation Act 1901 (Cth) s 25C."
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 9,
+      "ordinal": 19,
       "page_ref": "TMM/Part49/2",
       "provisions": [
         {
@@ -721,9 +899,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:b309c01b600b363aec11aa97e1764f5f9a25fe909e1300a7294bdc2e363c3a49",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Part 49.2. Opposition to non-use application",
     "images": [],
     "last_amended": "2025-04-01",

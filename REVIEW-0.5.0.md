@@ -1,5 +1,12 @@
 # Review of the 0.5.0 chunks
 
+> **Resolved in `ingest/0.6.0`.** All six findings were acted on; the snapshot
+> in this repository is the rebuilt one. This document is kept as the record of
+> what was wrong and how it was measured — the rules that replaced it live in
+> `SOURCE_NOTES.md` §§23–28. Section 3 was implemented with a tighter rule than
+> proposed here, and section 4 with a different one; both are noted in place
+> below.
+
 An assessment of `snapshot/` at `ingest/0.5.0` — 500 page files, 2,189 chunks,
 12,926 blocks — asking one question: **what would a visualisation of this data
 get wrong?**
@@ -60,6 +67,15 @@ pipeline asserting what it means. 780 paragraphs corpus-wide are wholly bold;
 
 Not probed. It adds a field to `blocks`, so it wants its own decision.
 
+> **As implemented:** stronger than this. The bold paragraphs are promoted to
+> real heading boundaries, so they get a `heading_path` and an address, rather
+> than only being flagged in `blocks`. The inference is fenced by the Manual's
+> own numbering — the number must extend the page's own — which admits 471
+> candidates and rejects exactly one across the corpus, and every chunk cut
+> that way is marked `heading_source: "emphasis"`. Text with no heading fell
+> from 39% to 29%; Part 10.3 went from 9 addressless chunks to 38 nested ones.
+> `SOURCE_NOTES.md` §25.
+
 ## 2. Every CKEditor table is misfiled as a `text` block
 
 The CMS wraps tables in `<figure class="table canvasRteResponsiveTable">`.
@@ -112,6 +128,12 @@ headings in the whole corpus, and is a footnote marker in all three.** Reading
 the leading address only when its digits are not inside a `<sup>` sends these
 three to the positional form, which is the honest address for a footnote.
 
+> **As implemented:** they fall through to the *slug* form rather than the
+> positional one — `TMM/Part55/2/2-see-akt-consultants-…`. That is the existing
+> fallback for a heading the Manual does not number, needs no special case, and
+> is a stronger address than a position. `TMM/Part55/2/2` now addresses
+> section 2.2, as it always read.
+
 Related, and lower stakes: because the footnotes are `<h4>` following the last
 `<h3>`, the ancestry logic makes them children of the preceding section.
 Footnote 2 carries `heading_path` `['2.5 Consideration of an award of costs…',
@@ -141,6 +163,18 @@ suppressing them; the children carry them.
 
 Not probed. It changes ordinals on four pages.
 
+> **As implemented:** both rules, because they turned out to cover different
+> cases. A length rule alone would have left the containers — and promoting the
+> bold subsections of §1 took them from 26 to 52, since a heading immediately
+> followed by its own first subsection also has no content of its own. A
+> container rule alone would have left Part 23.2's bare `2.2`, whose `2.2.1`
+> and `2.2.2` are siblings in the markup and so do not carry it.
+>
+> Containers are dropped silently, because their words survive in every child's
+> `heading_path`. Headings under five characters with no subsections are
+> dropped **loudly**, as a `SuppressedHeading` warning — that one really does
+> remove words, and it fires exactly once in 500 pages. `SOURCE_NOTES.md` §27.
+
 ## 5. Images cannot be rendered
 
 169 images across 39 pages. **None has alt text** — the attribute is absent in
@@ -160,6 +194,12 @@ Consequences for a visualisation:
 Both are scope decisions rather than defects — snapshotting the image bytes is a
 change to what the deliverable *is*, and worth raising as one before a
 visualisation promises to show them.
+
+> **As implemented:** the position is recorded and the bytes are still not.
+> `blocks` gains an `image` kind carrying `src`, and `chunker._group` no longer
+> discards a unit that has an image but no text. 93 of the 169 images now have
+> a place in the running order; the other 76 are in sections with no words at
+> all, and a chunk needs text to exist. `SOURCE_NOTES.md` §24.
 
 ## 6. Numbering and markup disagree on three pages
 

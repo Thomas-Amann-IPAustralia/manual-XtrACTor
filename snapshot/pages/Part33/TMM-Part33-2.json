@@ -9,35 +9,45 @@
         {
           "kind": "paragraph",
           "text": "Federal Register of Legislation - Trade Marks Act 1995"
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.1"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Section 163(1) of the Act provides that except for Part 10 of the Act (Assignment and Transmission of Trade Marks), a collective trade mark is to be considered in the equivalent manner to an ordinary trade mark. A reference in the Act to a trade mark registered by a person is taken to include a reference to a trade mark registered by an association."
-        },
-        {
-          "kind": "paragraph",
-          "text": "2.2"
-        },
-        {
-          "kind": "paragraph",
-          "text": "Under section 163(2) use by any one or more members of the association is use for the purposes of the Act."
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part33/2#1",
-      "content_hash": "sha256:9bdb12c595c2571d976732e9eb3afbf8cbdeb113b9d3cb77573e0de61ffc77ab",
+      "content_hash": "sha256:39034574cd8def42891ccb745a9703ca8ec303eb686324ec20070f2a81f33fee",
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
         "33.2. Application of Act"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
+      "page_ref": "TMM/Part33/2",
+      "provisions": [],
+      "tables": [],
+      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995"
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Section 163(1) of the Act provides that except for Part 10 of the Act (Assignment and Transmission of Trade Marks), a collective trade mark is to be considered in the equivalent manner to an ordinary trade mark. A reference in the Act to a trade mark registered by a person is taken to include a reference to a trade mark registered by an association."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part33/2/2/1",
+      "content_hash": "sha256:688c9dc43ead1194846f433e00ab73145607477534f8eb48a85e6792c0ef6226",
+      "fragment": null,
+      "heading_path": [
+        "Part 33 Collective Trade Marks",
+        "33.2. Application of Act",
+        "2.1"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 2,
       "page_ref": "TMM/Part33/2",
       "provisions": [
         {
@@ -45,7 +55,33 @@
           "extraction": "regex",
           "id": "TMA1995/s163(1)",
           "mention": "Section 163(1)"
-        },
+        }
+      ],
+      "tables": [],
+      "text": "Section 163(1) of the Act provides that except for Part 10 of the Act (Assignment and Transmission of Trade Marks), a collective trade mark is to be considered in the equivalent manner to an ordinary trade mark. A reference in the Act to a trade mark registered by a person is taken to include a reference to a trade mark registered by an association."
+    },
+    {
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Under section 163(2) use by any one or more members of the association is use for the purposes of the Act."
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part33/2/2/2",
+      "content_hash": "sha256:c6bf214cf5536be84b36527d409fee0d84e352c9de6b26440c6085a49b09bb11",
+      "fragment": null,
+      "heading_path": [
+        "Part 33 Collective Trade Marks",
+        "33.2. Application of Act",
+        "2.2"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 3,
+      "page_ref": "TMM/Part33/2",
+      "provisions": [
         {
           "certainty": "default",
           "extraction": "regex",
@@ -54,16 +90,16 @@
         }
       ],
       "tables": [],
-      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 2.1 Section 163(1) of the Act provides that except for Part 10 of the Act (Assignment and Transmission of Trade Marks), a collective trade mark is to be considered in the equivalent manner to an ordinary trade mark. A reference in the Act to a trade mark registered by a person is taken to include a reference to a trade mark registered by an association. 2.2 Under section 163(2) use by any one or more members of the association is use for the purposes of the Act."
+      "text": "Under section 163(2) use by any one or more members of the association is use for the purposes of the Act."
     }
   ],
   "page": {
     "amendment_note": "No changes made from previous edits.",
     "archived": false,
     "content_hash": "sha256:12a8d4876ceb1a23bb99b9be773c64ac82d5eba920998b1c5b57eeca9e59228a",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "33.2. Application of Act",
     "images": [],
     "last_amended": "2025-01-24",

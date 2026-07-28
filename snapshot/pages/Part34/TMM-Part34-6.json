@@ -37,6 +37,7 @@
         "Part 34 Defensive Trade Marks",
         "Part 34.6. Grounds for rejecting a defensive application under section 187"
       ],
+      "heading_source": null,
       "internal_refs": [],
       "kind": "body",
       "ordinal": 1,
@@ -110,6 +111,7 @@
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
         "6.1 Practice under the Trade Marks Act 1955"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 2,
@@ -142,6 +144,7 @@
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
         "6.1 Practice under the Trade Marks Act 1955"
       ],
+      "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
       "ordinal": 3,
@@ -159,11 +162,35 @@
         {
           "kind": "paragraph",
           "text": "The likelihood that the necessary connection will be inferred will be influenced by a number of factors, including the following:"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part34/6/6/2",
+      "content_hash": "sha256:92fc3a53d56ccb61c5337dd5694f480ce1968d6c87f1b7b7d5f5e4f692f9ddf3",
+      "fragment": null,
+      "heading_path": [
+        "Part 34 Defensive Trade Marks",
+        "Part 34.6. Grounds for rejecting a defensive application under section 187",
+        "6.2 Factors to consider in applying section 187"
+      ],
+      "heading_source": "markup",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 4,
+      "page_ref": "TMM/Part34/6",
+      "provisions": [
         {
-          "kind": "paragraph",
-          "text": "6.2.1 The nature of the trade mark"
-        },
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s187",
+          "mention": "section 187"
+        }
+      ],
+      "tables": [],
+      "text": "A ground for rejection under section 187 may apply if the Registrar is satisfied that use of the trade mark on the goods or services applied for in the defensive registration is not likely to indicate a connection between the goods or services and the applicant. This decision would depend upon the evidence provided by the applicant in support of the defensive trade mark and the nature of the connection of the goods and services to the applicant. The likelihood that the necessary connection will be inferred will be influenced by a number of factors, including the following:"
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "Section 41 of the Act does not apply to defensive trade marks and there is no reference in Part 17 to any inherent characteristic which a defensive trade mark must possess in order to qualify for registration. The only explicitly stated requirement is that it must already have been registered and therefore it must have been found to be capable of distinguishing the goods or services for which it is already registered."
@@ -175,35 +202,24 @@
         {
           "kind": "paragraph",
           "text": "In addition, a trade mark may have qualified for registration in respect of the goods on which it has been used as a trade mark but have no inherent capacity to distinguish the goods or services specified in the defensive registration. For example, if the trade mark cappuccino was registered in respect of ‘carpets and rugs’ in Class 27 (or any other goods for which the mark had no meaning), no amount of use by the applicant could support a defensive registration in respect of ‘beverages’ in Class 30."
-        },
-        {
-          "kind": "paragraph",
-          "text": "6.2.2 The existence of other registrations of the trade mark"
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part34/6/6/2~1",
-      "content_hash": "sha256:e72c58fd9615397ebc7e07a5480bf4b72f9efce8a0b4e00e28d764505ccc1cfb",
-      "fragment": {
-        "count": 4,
-        "index": 1
-      },
+      "chunk_ref": "TMM/Part34/6/6/2/1",
+      "content_hash": "sha256:4c8b903ecc8a1f411e1a89cacd61d61bd61018c4973f20600a82ac3b063373b8",
+      "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
-        "6.2 Factors to consider in applying section 187"
+        "6.2 Factors to consider in applying section 187",
+        "6.2.1 The nature of the trade mark"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 4,
+      "ordinal": 5,
       "page_ref": "TMM/Part34/6",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s187",
-          "mention": "section 187"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -212,18 +228,36 @@
         }
       ],
       "tables": [],
-      "text": "A ground for rejection under section 187 may apply if the Registrar is satisfied that use of the trade mark on the goods or services applied for in the defensive registration is not likely to indicate a connection between the goods or services and the applicant. This decision would depend upon the evidence provided by the applicant in support of the defensive trade mark and the nature of the connection of the goods and services to the applicant. The likelihood that the necessary connection will be inferred will be influenced by a number of factors, including the following: 6.2.1 The nature of the trade mark Section 41 of the Act does not apply to defensive trade marks and there is no reference in Part 17 to any inherent characteristic which a defensive trade mark must possess in order to qualify for registration. The only explicitly stated requirement is that it must already have been registered and therefore it must have been found to be capable of distinguishing the goods or services for which it is already registered. A trade mark which consists of unusual or invented (or otherwise inherently distinctive)material, that is widely known for use on a specified range of goods or services is more likely to be connected with other goods or services in the mind of the consumer than a trade mark which lacks inherent adaptation. The owner of a trade mark that is not considered to be inherently adapted to distinguish is likely to have to submit much more substantial evidence to establish that connection. In addition, a trade mark may have qualified for registration in respect of the goods on which it has been used as a trade mark but have no inherent capacity to distinguish the goods or services specified in the defensive registration. For example, if the trade mark cappuccino was registered in respect of ‘carpets and rugs’ in Class 27 (or any other goods for which the mark had no meaning), no amount of use by the applicant could support a defensive registration in respect of ‘beverages’ in Class 30. 6.2.2 The existence of other registrations of the trade mark"
+      "text": "Section 41 of the Act does not apply to defensive trade marks and there is no reference in Part 17 to any inherent characteristic which a defensive trade mark must possess in order to qualify for registration. The only explicitly stated requirement is that it must already have been registered and therefore it must have been found to be capable of distinguishing the goods or services for which it is already registered. A trade mark which consists of unusual or invented (or otherwise inherently distinctive)material, that is widely known for use on a specified range of goods or services is more likely to be connected with other goods or services in the mind of the consumer than a trade mark which lacks inherent adaptation. The owner of a trade mark that is not considered to be inherently adapted to distinguish is likely to have to submit much more substantial evidence to establish that connection. In addition, a trade mark may have qualified for registration in respect of the goods on which it has been used as a trade mark but have no inherent capacity to distinguish the goods or services specified in the defensive registration. For example, if the trade mark cappuccino was registered in respect of ‘carpets and rugs’ in Class 27 (or any other goods for which the mark had no meaning), no amount of use by the applicant could support a defensive registration in respect of ‘beverages’ in Class 30."
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
           "text": "If the trade mark is already registered in the name of other proprietor(s) this will be a factor in assessing whether consumers are likely to make a connection between the applicant for defensive registration and the designated goods. Even if the other registrations are not in respect of similar or closely related goods or services, and are therefore not citations, the fact that the mark is one used by others may tend to counter the effect of any reputation that attaches to the applicant for defensive registration. This will be particularly so where there is no significant disparity between the goods or services of the applicant for defensive registration and any third parties. In making this assessment, fair, notional use of the registered trade marks may be assumed in relation to all the goods in their respective specifications."
-        },
-        {
-          "kind": "paragraph",
-          "text": "6.2.3 The extent of use of the trade mark as otherwise registered by the applicant"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part34/6/6/2/2",
+      "content_hash": "sha256:17670dc391bd59bd2b24bd57f064b08372ebb6b5ac16203c43d3b61a73446bae",
+      "fragment": null,
+      "heading_path": [
+        "Part 34 Defensive Trade Marks",
+        "Part 34.6. Grounds for rejecting a defensive application under section 187",
+        "6.2 Factors to consider in applying section 187",
+        "6.2.2 The existence of other registrations of the trade mark"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 6,
+      "page_ref": "TMM/Part34/6",
+      "provisions": [],
+      "tables": [],
+      "text": "If the trade mark is already registered in the name of other proprietor(s) this will be a factor in assessing whether consumers are likely to make a connection between the applicant for defensive registration and the designated goods. Even if the other registrations are not in respect of similar or closely related goods or services, and are therefore not citations, the fact that the mark is one used by others may tend to counter the effect of any reputation that attaches to the applicant for defensive registration. This will be particularly so where there is no significant disparity between the goods or services of the applicant for defensive registration and any third parties. In making this assessment, fair, notional use of the registered trade marks may be assumed in relation to all the goods in their respective specifications."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "A primary consideration in deciding whether the trade mark qualifies for registration as a defensive trade mark in terms of subsection 185(1) is the extent to which the registered trade mark upon which the application is based has been used in respect of any or all of the goods for which it is registered."
@@ -231,23 +265,31 @@
         {
           "kind": "paragraph",
           "text": "While evidence of ‘reputation’ is not required under s 185, it is unlikely that the requisite connection would be taken to exist between the goods and services of the defensive application and the applicant in cases where there is no appreciable reputation arising from use of the trade mark in relation to the goods or services for which it is already registered. This is particularly the case the more distant the goods and services of the basic registration are from the goods and services of the defensive application. However, even the existence of a significant reputation may not allow the requisite connection to be established in all cases. Each case will require a consideration of all relevant factors, including distinctiveness of the trade mark, the closeness of the respective goods/services, the extent of any use, and other relevant factors such as third party registrations for the same or very similar marks."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note that a trade mark may become well known after only a few years of active marketing and promotion of goods or services bearing the mark. Both use and marketing are important measures of reputation - see McCormick & Company Inc v McCormick [2000] FCA 1335."
         }
       ],
-      "cases": [],
-      "chunk_ref": "TMM/Part34/6/6/2~2",
-      "content_hash": "sha256:8701fbff1ff7359ef30c676365ec86cfb41e01d8eea38f92d815dc92b05f9512",
-      "fragment": {
-        "count": 4,
-        "index": 2
-      },
+      "cases": [
+        {
+          "citation": "[2000] FCA 1335",
+          "id": "CASE/2000/FCA/1335"
+        }
+      ],
+      "chunk_ref": "TMM/Part34/6/6/2/3",
+      "content_hash": "sha256:ce1851662a61a6804b1c5dd26c33639e60a96730fb439501df4ba858b93f46c0",
+      "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
-        "6.2 Factors to consider in applying section 187"
+        "6.2 Factors to consider in applying section 187",
+        "6.2.3 The extent of use of the trade mark as otherwise registered by the applicant"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 5,
+      "ordinal": 7,
       "page_ref": "TMM/Part34/6",
       "provisions": [
         {
@@ -264,26 +306,36 @@
         }
       ],
       "tables": [],
-      "text": "If the trade mark is already registered in the name of other proprietor(s) this will be a factor in assessing whether consumers are likely to make a connection between the applicant for defensive registration and the designated goods. Even if the other registrations are not in respect of similar or closely related goods or services, and are therefore not citations, the fact that the mark is one used by others may tend to counter the effect of any reputation that attaches to the applicant for defensive registration. This will be particularly so where there is no significant disparity between the goods or services of the applicant for defensive registration and any third parties. In making this assessment, fair, notional use of the registered trade marks may be assumed in relation to all the goods in their respective specifications. 6.2.3 The extent of use of the trade mark as otherwise registered by the applicant A primary consideration in deciding whether the trade mark qualifies for registration as a defensive trade mark in terms of subsection 185(1) is the extent to which the registered trade mark upon which the application is based has been used in respect of any or all of the goods for which it is registered. While evidence of ‘reputation’ is not required under s 185, it is unlikely that the requisite connection would be taken to exist between the goods and services of the defensive application and the applicant in cases where there is no appreciable reputation arising from use of the trade mark in relation to the goods or services for which it is already registered. This is particularly the case the more distant the goods and services of the basic registration are from the goods and services of the defensive application. However, even the existence of a significant reputation may not allow the requisite connection to be established in all cases. Each case will require a consideration of all relevant factors, including distinctiveness of the trade mark, the closeness of the respective goods/services, the extent of any use, and other relevant factors such as third party registrations for the same or very similar marks."
+      "text": "A primary consideration in deciding whether the trade mark qualifies for registration as a defensive trade mark in terms of subsection 185(1) is the extent to which the registered trade mark upon which the application is based has been used in respect of any or all of the goods for which it is registered. While evidence of ‘reputation’ is not required under s 185, it is unlikely that the requisite connection would be taken to exist between the goods and services of the defensive application and the applicant in cases where there is no appreciable reputation arising from use of the trade mark in relation to the goods or services for which it is already registered. This is particularly the case the more distant the goods and services of the basic registration are from the goods and services of the defensive application. However, even the existence of a significant reputation may not allow the requisite connection to be established in all cases. Each case will require a consideration of all relevant factors, including distinctiveness of the trade mark, the closeness of the respective goods/services, the extent of any use, and other relevant factors such as third party registrations for the same or very similar marks. Note that a trade mark may become well known after only a few years of active marketing and promotion of goods or services bearing the mark. Both use and marketing are important measures of reputation - see McCormick & Company Inc v McCormick [2000] FCA 1335."
     },
     {
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Note that a trade mark may become well known after only a few years of active marketing and promotion of goods or services bearing the mark. Both use and marketing are important measures of reputation - see McCormick & Company Inc v McCormick [2000] FCA 1335."
-        },
-        {
-          "kind": "paragraph",
-          "text": "6.2.4 The goods or services upon which the registered trade mark has been used"
-        },
-        {
-          "kind": "paragraph",
           "text": "As per Justice Evershed in the Ferodo case, the nature and range of goods on which the registered trade mark has been used will have an effect on the likelihood of the requirements being met for defensive registration in respect of different goods. He said “generally speaking the more special in character those goods are and the more limited the market, the less likely will be the inference required by the sub-section to be drawn in relation to goods of a very different kind”. The inference of the necessary connection being made he said was more likely “if the mark has been registered and used in respect of a wide variety of goods required by the common man”."
-        },
-        {
-          "kind": "paragraph",
-          "text": "6.2.5 The goods or services specified in the application for defensive registration"
-        },
+        }
+      ],
+      "cases": [],
+      "chunk_ref": "TMM/Part34/6/6/2/4",
+      "content_hash": "sha256:824681ac97cbdb1542c99c211cf16cd724c1f586e12f622325140f531bd72c53",
+      "fragment": null,
+      "heading_path": [
+        "Part 34 Defensive Trade Marks",
+        "Part 34.6. Grounds for rejecting a defensive application under section 187",
+        "6.2 Factors to consider in applying section 187",
+        "6.2.4 The goods or services upon which the registered trade mark has been used"
+      ],
+      "heading_source": "emphasis",
+      "internal_refs": [],
+      "kind": "body",
+      "ordinal": 8,
+      "page_ref": "TMM/Part34/6",
+      "provisions": [],
+      "tables": [],
+      "text": "As per Justice Evershed in the Ferodo case, the nature and range of goods on which the registered trade mark has been used will have an effect on the likelihood of the requirements being met for defensive registration in respect of different goods. He said “generally speaking the more special in character those goods are and the more limited the market, the less likely will be the inference required by the sub-section to be drawn in relation to goods of a very different kind”. The inference of the necessary connection being made he said was more likely “if the mark has been registered and used in respect of a wide variety of goods required by the common man”."
+    },
+    {
+      "blocks": [
         {
           "kind": "paragraph",
           "text": "In general, it will be easier for the applicant to make a case for defensive registration if the goods or services specified in the application are in some way related to those in respect of which the trade mark has already been registered and used. This is likely to be the case if the usual tests for “goods of the same description” and “closely related services” and for “services of the same description” and “closely related goods” are met."
@@ -295,34 +347,24 @@
         {
           "kind": "paragraph",
           "text": "It will assist the applicant if they are goods or services which, given the established reputation of the applicant in the trade mark considering the applicant’s evidence, are likely to ‘emanate from the same trade source’ but this is not a requirement under the Act. The connection which must be inferred between the applicant and the goods or services need not be a trade connection and the applicant may be able to make a case for defensive registration on goods or services quite unrelated to its primary business activity. Where it appears that brand extension is common in a particular industry, this may strengthen the applicant’s case that the necessary connection exists."
-        },
-        {
-          "kind": "paragraph",
-          "text": "6.2.6 Evidence from the trade in question"
         }
       ],
-      "cases": [
-        {
-          "citation": "[2000] FCA 1335",
-          "id": "CASE/2000/FCA/1335"
-        }
-      ],
-      "chunk_ref": "TMM/Part34/6/6/2~3",
-      "content_hash": "sha256:32b91a1355a5b7b750ae5574e0703e7d2832010e62a09b7ee5d1466efc68bace",
-      "fragment": {
-        "count": 4,
-        "index": 3
-      },
+      "cases": [],
+      "chunk_ref": "TMM/Part34/6/6/2/5",
+      "content_hash": "sha256:a57e4418e59f41b935456ec5cb1c8588fafbc2f3fd34c3142424880aa6aab3dd",
+      "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
-        "6.2 Factors to consider in applying section 187"
+        "6.2 Factors to consider in applying section 187",
+        "6.2.5 The goods or services specified in the application for defensive registration"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [
         "TMM/Part26/4"
       ],
       "kind": "body",
-      "ordinal": 6,
+      "ordinal": 9,
       "page_ref": "TMM/Part34/6",
       "provisions": [
         {
@@ -339,7 +381,7 @@
         }
       ],
       "tables": [],
-      "text": "Note that a trade mark may become well known after only a few years of active marketing and promotion of goods or services bearing the mark. Both use and marketing are important measures of reputation - see McCormick & Company Inc v McCormick [2000] FCA 1335. 6.2.4 The goods or services upon which the registered trade mark has been used As per Justice Evershed in the Ferodo case, the nature and range of goods on which the registered trade mark has been used will have an effect on the likelihood of the requirements being met for defensive registration in respect of different goods. He said “generally speaking the more special in character those goods are and the more limited the market, the less likely will be the inference required by the sub-section to be drawn in relation to goods of a very different kind”. The inference of the necessary connection being made he said was more likely “if the mark has been registered and used in respect of a wide variety of goods required by the common man”. 6.2.5 The goods or services specified in the application for defensive registration In general, it will be easier for the applicant to make a case for defensive registration if the goods or services specified in the application are in some way related to those in respect of which the trade mark has already been registered and used. This is likely to be the case if the usual tests for “goods of the same description” and “closely related services” and for “services of the same description” and “closely related goods” are met. Part 26 Section 44 and Regulation 4.25A - Conflict with other Signs - 4. Similarity of goods and services It will assist the applicant if they are goods or services which, given the established reputation of the applicant in the trade mark considering the applicant’s evidence, are likely to ‘emanate from the same trade source’ but this is not a requirement under the Act. The connection which must be inferred between the applicant and the goods or services need not be a trade connection and the applicant may be able to make a case for defensive registration on goods or services quite unrelated to its primary business activity. Where it appears that brand extension is common in a particular industry, this may strengthen the applicant’s case that the necessary connection exists. 6.2.6 Evidence from the trade in question"
+      "text": "In general, it will be easier for the applicant to make a case for defensive registration if the goods or services specified in the application are in some way related to those in respect of which the trade mark has already been registered and used. This is likely to be the case if the usual tests for “goods of the same description” and “closely related services” and for “services of the same description” and “closely related goods” are met. Part 26 Section 44 and Regulation 4.25A - Conflict with other Signs - 4. Similarity of goods and services It will assist the applicant if they are goods or services which, given the established reputation of the applicant in the trade mark considering the applicant’s evidence, are likely to ‘emanate from the same trade source’ but this is not a requirement under the Act. The connection which must be inferred between the applicant and the goods or services need not be a trade connection and the applicant may be able to make a case for defensive registration on goods or services quite unrelated to its primary business activity. Where it appears that brand extension is common in a particular industry, this may strengthen the applicant’s case that the necessary connection exists."
     },
     {
       "blocks": [
@@ -353,20 +395,19 @@
         }
       ],
       "cases": [],
-      "chunk_ref": "TMM/Part34/6/6/2~4",
+      "chunk_ref": "TMM/Part34/6/6/2/6",
       "content_hash": "sha256:4d873db7d36d8d46fd4946bf600c6cce326540dbcd439fd7d8e82ed7d188f618",
-      "fragment": {
-        "count": 4,
-        "index": 4
-      },
+      "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
         "Part 34.6. Grounds for rejecting a defensive application under section 187",
-        "6.2 Factors to consider in applying section 187"
+        "6.2 Factors to consider in applying section 187",
+        "6.2.6 Evidence from the trade in question"
       ],
+      "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
-      "ordinal": 7,
+      "ordinal": 10,
       "page_ref": "TMM/Part34/6",
       "provisions": [],
       "tables": [],
@@ -377,9 +418,9 @@
     "amendment_note": "Page renamed. Links updated. Content updated.",
     "archived": false,
     "content_hash": "sha256:6474bc1611d17dca68e40ecf28432f58e7b3e71fba9d3e8f9c06cf537260ab52",
-    "crawled_at": "2026-07-28T15:57:56Z",
+    "crawled_at": "2026-07-28T17:18:40Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.5.0",
+    "extractor_version": "ingest/0.6.0",
     "h1": "Part 34.6. Grounds for rejecting a defensive application under section 187",
     "images": [],
     "last_amended": "2025-06-03",
