@@ -380,3 +380,17 @@ def write_manifest(root: Path, stats: dict) -> None:
     path = Path(root) / "manifest.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(_serialise(dict(stats)), encoding="utf-8")
+
+
+def read_manifest(root: Path) -> dict | None:
+    """The manifest already on disk, or None on a snapshot that has none yet.
+
+    Read before a run overwrites it, so a run that never asked the network
+    about a page (`--from-raw`, or one outside a `--part`/`--limit` scope) can
+    carry forward what an earlier run already knew about it, rather than the
+    absence of fresh evidence reading as evidence of the opposite.
+    """
+    path = Path(root) / "manifest.json"
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
