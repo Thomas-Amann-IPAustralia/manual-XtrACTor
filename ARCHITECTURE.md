@@ -31,6 +31,7 @@ src/tmm_snapshot/
   page.py               page-level metadata extraction
   chunker.py            body -> chunks
   citations.py          provisions, cases, internal refs
+  tables.py             table markup -> the grid
   writer.py             deterministic serialisation to snapshot/
   diff.py               compare two snapshots, emit a change report
   crawl.py              orchestration, CLI entry point
@@ -67,6 +68,17 @@ snapshot/
 `retired.json` sits at the snapshot root rather than inside `pages/_retired/`
 so that everything under `pages/` is a page file and the validator can walk the
 tree without special cases.
+
+**`manifest.json` has two blocks and they answer different questions.**
+`corpus.*` describes the snapshot **on disk**, counted by walking it, and is
+true whatever the run did. `run.*` describes **only what this run touched**.
+They are not expected to agree, and a reader who assumes they should will
+misread a healthy crawl as data loss: after the 28 July 2026 crawl `run.chunks`
+said 2084 while the snapshot held 2151, the 67 belonging to 19 pages skipped at
+gate 2 — never chunked, so never counted. Nothing was wrong except the name.
+That field is now `run.chunks_cut`, and `corpus.chunks` carries the disk total.
+Keep the distinction when adding any future count: a number under `run` is a
+number about the run.
 
 **Why page-level files.** One file per chunk gives thousands of tiny files and a
 diff that is hard to read. One file for everything gives a diff that is
@@ -166,6 +178,8 @@ class PageRecord:
     last_amended: date | None
     amendment_note: str | None
     extractor_version: str
+    archived: bool = False
+    images: tuple[dict[str, str | None], ...] = ()   # added by the 0.3.0 review
 
 def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
     """Returns the record and the cleaned body element for the chunker.
@@ -188,10 +202,18 @@ class Chunk:
     provisions: list[dict]
     cases: list[dict]
     internal_refs: list[str]
+    tables: list[dict] = field(default_factory=list)   # added by the 0.3.0 review
 
 def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
                sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
 ```
+
+`tables` and `PageRecord.images` are additions made after the review of the
+first complete crawl, and both are defaulted, so every existing caller and
+every existing test still compiles against the original shape. What they are
+for is in `SOURCE_NOTES.md` §§16–17: the pipeline was dropping 121 tables' worth
+of structure and 169 images on the floor, and eight pages whose entire content
+is an image were recording as indistinguishable from blank.
 
 The `sitemap` argument is an addition made by T5, not part of the original
 contract. `internal_refs` are resolved through the inventory and dropped when
@@ -210,6 +232,17 @@ def extract_internal_refs(body_fragment: Tag, sitemap: dict[str, NavPage]) -> li
 
 Called by the chunker, per chunk. Kept separate because they carry the densest
 regex logic and the most test cases.
+
+### `tables.py`
+
+```python
+def extract_tables(body_fragment: Tag) -> list[dict]:
+```
+
+Also called by the chunker, per chunk, and separate for the same reason. Turns
+table markup into the grid — rows, cells, spans, and a header row only where
+the markup declares one. `SOURCE_NOTES.md` §17 for what the Manual's tables
+actually look like and why the first row is never assumed to be a header.
 
 ### `writer.py`
 

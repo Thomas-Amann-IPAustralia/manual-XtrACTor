@@ -16,11 +16,12 @@
       "ordinal": 1,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Note: The trade marks contained within this document are for educational purposes only. Unauthorised use of a similar or identical trade mark to the trade mark(s) of another party could result in legal action. In this topic The Breakdown of Words 'Stop' Words Letters Letters or Words Monograms Letters Which Occur Within a Word or Attached to Words Letters That Stand Out as a Separate Feature in a Word Typescript or Punctuation Symbols Accents, umlauts, diacritics Numbers OZZ, EASY and QUICK phonetics Domain Names"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#2",
+      "chunk_ref": "TMM/Part5/x-word-constituents/the-breakdown-of-words",
       "content_hash": "sha256:6eda374ce39d3514fafc4dfecb597cc8c2c39e9e54c3dc8e3b786ad96e045353",
       "fragment": null,
       "heading_path": [
@@ -33,11 +34,12 @@
       "ordinal": 2,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "If the mark is represented in such a way that it appears as separate elements, then it will be separated out and the individual components indexed. Transcript symbols, different styles of font, different size of lettering and different colouring or shading are examples of ways that words can be divided into separate elements. For instance the elements in the word below are entered as separate constituents: The constituents are: SAGINOMIYA, SAGI, NO, MIYA Similarly the word mark CoGel would include constituents CO and GEL. If however, the trade mark appears as a single word (all in one font) it is indexed as a single word. Should the single word contain stand-out letters or numbers, the letters and numbers are indexed separately so that someone searching for the particular letters or numbers can pick up the mark. Separating all marks into individual elements when they are not represented as separate words would clutter the full word search facility and make it ineffective."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#3",
+      "chunk_ref": "TMM/Part5/x-word-constituents/stop-words",
       "content_hash": "sha256:73157f7f48f7a430aeba244a93d6fd85f81fd5d1b4e889e7e268774581f240de",
       "fragment": null,
       "heading_path": [
@@ -50,11 +52,12 @@
       "ordinal": 3,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "'Stop' words (noise words) are words which are usually insignificant and not used in searching, for example, A, TO, IS, OF and AND. These words are not automatically generated as constituents. However, they are added when they are emphasised or in italics as in 'THE Hotel' or 'THE VALET', or 'WORLD OF …', 'IMAGES OF NATURE', 'FREEDOM OF SPEECH'."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#4",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters",
       "content_hash": "sha256:5df86a35ce1898999fed56935486fb54827ce055c3d273def6e7c52513934940",
       "fragment": null,
       "heading_path": [
@@ -67,11 +70,12 @@
       "ordinal": 4,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Letters occur in trade marks as single letters, a group of letters not forming a word, or a word rendered as letters. In addition, when a group of letters is clearly an acronym, although it spells a word, it is indexed as letters. To indicate a letter or letters the constituent LTR is used. Where there is a single letter in the trade mark, # is added to the constituents as well as LTR. A constituent with an equals sign prefix is added to the constituent for groups of letters. It is useful in enabling searchers to distinguish between a group of letters and the same letters used as a word."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#5",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-or-words",
       "content_hash": "sha256:556e422eaa37afce102826b98575dc32b1d0ea52c1e9d488ed7493e75420fd9b",
       "fragment": null,
       "heading_path": [
@@ -84,11 +88,12 @@
       "ordinal": 5,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Some two-letter words such as IS, ON, AS, LA etc can also be letters. It is usually easy to differentiate the two because of the context in which they appear. If the elements are represented as letters they are indexed as letter marks with both the preceding = sign and LTR. Two-letter words in marks are simply indexed as they appear. Similarly, common abbreviations such as Mr, Dr, St or Mt would be treated as words unless they are represented in an unusual fashion and may be regarded as letters. The full words MISTER, DOCTOR, STREET, MOUNT would also be added."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#6",
+      "chunk_ref": "TMM/Part5/x-word-constituents/monograms",
       "content_hash": "sha256:ed7b78f92f39be063b9a71afeb1b9cb2d852162f01be8b5cd564ca798de9b564",
       "fragment": null,
       "heading_path": [
@@ -101,11 +106,12 @@
       "ordinal": 6,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Monograms are groups of letters for which the sequence is unclear. These letters are firstly indexed in the intended sequence of letters, if known. Then, the letters are entered in alphabetical order. The word phrase should specify the most likely order of letters. For example the constituents for the mark below would be YSL, LSY, =YSL, =LSY LTR."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#7",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-which-occur-within-a-word-or-attached-to-words",
       "content_hash": "sha256:b7338893bd386dfd40cbd91bb7976082ed0abf670c9c3fbc82ac99094268e307",
       "fragment": null,
       "heading_path": [
@@ -118,11 +124,53 @@
       "ordinal": 7,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "ecat"
+              },
+              {
+                "text": "ECAT, E, LTR"
+              }
+            ],
+            [
+              {
+                "text": "eCat"
+              },
+              {
+                "text": "ECAT, E, LTR, CAT"
+              }
+            ],
+            [
+              {
+                "text": "eCAT"
+              },
+              {
+                "text": "ECAT, E, LTR, CAT"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 4
+        }
+      ],
       "text": "Letters which feature as part of a word may require indexing as separate constituents. Letters which are joined to the beginning or ending of a word (so long as they are still recognised as letters) are indexed as separate constituents. For example the mark TDELTA would be indexed with the additional constituents T and LTR. This ensures that a search for the letter will bring up this mark. Letters which feature as a separate entity in the middle of words are also indexed (eg. RED-I-BEAM indexing would include I and LTR). However if the central letter is an insignificant feature such as the letter N in RUFF-N-READY or the letter A in DIAL-A-PIZZA, the letter is not indexed. The letter N in the above example is simply an abbreviation for AND and generally, the word A is not indexed when it appears as a separate element in a mark. However, discretion needs to be used in case of specially represented letters. Many applications for Internet or electronic goods or services have the prefix I or E. These letters are indexed separately as in the examples below: Trade Mark Constituents ecat ECAT, E, LTR eCat ECAT, E, LTR, CAT eCAT ECAT, E, LTR, CAT The test for rendering a character or character string as letters is usually based on pronunciation. If you would expect the prefix to be pronounced as a letter or letters because of the nature of the goods or services, then the prefix will be indexed separately."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#8",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
       "content_hash": "sha256:659aed3b4b68981e5b8a4888d3ef26dfcf61c7b8783aaee711a3ef46c3016f57",
       "fragment": null,
       "heading_path": [
@@ -135,11 +183,12 @@
       "ordinal": 8,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Letters represented in an unusual fashion or which stand out as a separate feature require separate indexing TRUDYS, RESUMES, TR, =TR, LTR, T, RUDYS Fancy representations of letters may include images. These may be within the word or separate. Such a mark would have the letter and image components indexed. In the example below, in addition to the word components, image constituents will also included. MOBILE, SNIPS, M, LTR"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#9",
+      "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-marks-containing-letters",
       "content_hash": "sha256:36fe12fc414fcaf4c87abdc3e796f479e63faba4bb3443633afd8738a5b7d826",
       "fragment": null,
       "heading_path": [
@@ -153,11 +202,133 @@
       "ordinal": 9,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "M, LTR, #"
+              }
+            ],
+            [
+              {
+                "text": "DC"
+              },
+              {
+                "text": "DC, =DC, LTR"
+              }
+            ],
+            [
+              {
+                "text": "CSI"
+              },
+              {
+                "text": "CSI, =CSI, LTR"
+              }
+            ],
+            [
+              {
+                "text": "A.C.T."
+              },
+              {
+                "text": "ACT, =ACT, LTR"
+              }
+            ],
+            [
+              {
+                "text": "TR,T"
+              },
+              {
+                "text": "TRT, =TRT, TR, =TR, T, LTR"
+              }
+            ],
+            [
+              {
+                "text": "QL-NM"
+              },
+              {
+                "text": "QLNM, =QLNM, QL, NM, =QL, =NM, LTR"
+              }
+            ],
+            [
+              {
+                "text": "FC’S"
+              },
+              {
+                "text": "FCS, =FCS, FC, =FC, LTR"
+              }
+            ],
+            [
+              {
+                "text": "T & T"
+              },
+              {
+                "text": "T,TT, =TT, LTR, &"
+              }
+            ],
+            [
+              {
+                "text": "T & C"
+              },
+              {
+                "text": "T, C, TC, =TC, LTR, &"
+              }
+            ],
+            [
+              {
+                "text": "TC & AB"
+              },
+              {
+                "text": "TC, AB, =TC, =AB, LTR"
+              }
+            ],
+            [
+              {
+                "text": "D’OR"
+              },
+              {
+                "text": "DOR, OR"
+              }
+            ],
+            [
+              {
+                "text": "L’OREAL"
+              },
+              {
+                "text": "LOREAL, OREAL"
+              }
+            ],
+            [
+              {
+                "text": "A.U.S.T.R.A.L.I.A"
+              },
+              {
+                "text": "AUSTRALIA , =AUSTRALIA, LTR"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 14
+        }
+      ],
       "text": "Trade Mark Constituents M, LTR, # DC DC, =DC, LTR CSI CSI, =CSI, LTR A.C.T. ACT, =ACT, LTR TR,T TRT, =TRT, TR, =TR, T, LTR QL-NM QLNM, =QLNM, QL, NM, =QL, =NM, LTR FC’S FCS, =FCS, FC, =FC, LTR T & T T,TT, =TT, LTR, & T & C T, C, TC, =TC, LTR, & TC & AB TC, AB, =TC, =AB, LTR D’OR DOR, OR L’OREAL LOREAL, OREAL A.U.S.T.R.A.L.I.A AUSTRALIA , =AUSTRALIA, LTR"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#10",
+      "chunk_ref": "TMM/Part5/x-word-constituents/phonetic-equivalents-of-letters",
       "content_hash": "sha256:60285d6a0bf93cc7991cec1f6caa8db5fd10867f928644815c2729ae5a7da35e",
       "fragment": null,
       "heading_path": [
@@ -171,11 +342,53 @@
       "ordinal": 10,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "ARBEE"
+              },
+              {
+                "text": "ARBEE, RB, =RB, LTR"
+              }
+            ],
+            [
+              {
+                "text": "OJAY"
+              },
+              {
+                "text": "OJAY, OJ, =OJ, LTR"
+              }
+            ],
+            [
+              {
+                "text": "EFFEM"
+              },
+              {
+                "text": "EFFEM, FM, =FM, LTR"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 4
+        }
+      ],
       "text": "Trade Mark Constituents ARBEE ARBEE, RB, =RB, LTR OJAY OJAY, OJ, =OJ, LTR EFFEM EFFEM, FM, =FM, LTR"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#11",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-in-words",
       "content_hash": "sha256:942cab3ea4795d8001c96e47ae55b48d6a5b78477648edb9bb810e93113f8287",
       "fragment": null,
       "heading_path": [
@@ -189,11 +402,165 @@
       "ordinal": 11,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "e-biz"
+              },
+              {
+                "text": "EBIZ, .BIZ, E, LTR, BIZ"
+              }
+            ],
+            [
+              {
+                "text": "eSHOPPING"
+              },
+              {
+                "text": "ESHOPPING, E, LTR, SHOPPING"
+              }
+            ],
+            [
+              {
+                "text": "PCDIRECT"
+              },
+              {
+                "text": "PCDIRECT, PC, =PC, LTR"
+              }
+            ],
+            [
+              {
+                "text": "WINETV"
+              },
+              {
+                "text": "WINETV, TV, =TV, LTR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "SAFE, T, SAFETY, LTR"
+              }
+            ],
+            [
+              {
+                "text": "SAFE-T-CAM"
+              },
+              {
+                "text": "SAFETCAM, SAFE, T, LTR, CAM, SAFETY"
+              }
+            ],
+            [
+              {
+                "text": "RENT-A-CAR"
+              },
+              {
+                "text": "RENTACAR, RENT, CAR"
+              }
+            ],
+            [
+              {
+                "text": "SALT‘N’PEPPER"
+              },
+              {
+                "text": "SALTNPEPPER, SALT, PEPPER"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "LOAD, GO, N, LTR"
+              }
+            ],
+            [
+              {
+                "text": "DEFLECT-O"
+              },
+              {
+                "text": "DEFLECTO, DEFLECT, O, LTR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "XPRESSIONS, X, LTR, EXPRESSIONS,"
+              }
+            ],
+            [
+              {
+                "text": "U-STORE-IT"
+              },
+              {
+                "text": "USTOREIT, U, LTR, STORE, IT, YOU"
+              }
+            ],
+            [
+              {
+                "text": "Lawww"
+              },
+              {
+                "text": "LAWWW, LAW, WWW, =WWW, LTR, WW, =WW,"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "CCCCLARITY, CLARITY, CCCC, =CCCC, LTR, C"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "EQUIP, Q, LTR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DYNAMIC, D, LTR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DARE, 2B, AUSTRALIA, 2, B, TO, BE, LTR, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 18
+        }
+      ],
       "text": "Trade Mark Constituents e-biz EBIZ, .BIZ, E, LTR, BIZ eSHOPPING ESHOPPING, E, LTR, SHOPPING PCDIRECT PCDIRECT, PC, =PC, LTR WINETV WINETV, TV, =TV, LTR SAFE, T, SAFETY, LTR SAFE-T-CAM SAFETCAM, SAFE, T, LTR, CAM, SAFETY RENT-A-CAR RENTACAR, RENT, CAR SALT‘N’PEPPER SALTNPEPPER, SALT, PEPPER LOAD, GO, N, LTR DEFLECT-O DEFLECTO, DEFLECT, O, LTR XPRESSIONS, X, LTR, EXPRESSIONS, U-STORE-IT USTOREIT, U, LTR, STORE, IT, YOU Lawww LAWWW, LAW, WWW, =WWW, LTR, WW, =WW, CCCCLARITY, CLARITY, CCCC, =CCCC, LTR, C EQUIP, Q, LTR DYNAMIC, D, LTR DARE, 2B, AUSTRALIA, 2, B, TO, BE, LTR, NUM"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#12",
+      "chunk_ref": "TMM/Part5/x-word-constituents/typescript-or-punctuation-symbols",
       "content_hash": "sha256:26f12261565b5daba0f7342237d073d82f5b37163c02337c595ec7f53068c2b5",
       "fragment": null,
       "heading_path": [
@@ -206,11 +573,186 @@
       "ordinal": 12,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Symbol"
+              },
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Current Automatic Constituents"
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "WORD?"
+              },
+              {
+                "text": "WORD, ?"
+              }
+            ],
+            [
+              {
+                "text": "%"
+              },
+              {
+                "text": "100%"
+              },
+              {
+                "text": "100, %, NUM"
+              }
+            ],
+            [
+              {
+                "text": "!"
+              },
+              {
+                "text": "WORD!"
+              },
+              {
+                "text": "WORD!, WORD !"
+              }
+            ],
+            [
+              {
+                "text": "*"
+              },
+              {
+                "text": "SUPRA*STAR"
+              },
+              {
+                "text": "SUPRASTAR,*, SUPRA, STAR"
+              }
+            ],
+            [
+              {
+                "text": "-"
+              },
+              {
+                "text": "SUPRA-STAR"
+              },
+              {
+                "text": "SUPRASTAR, SUPRA, STAR"
+              }
+            ],
+            [
+              {
+                "text": "+"
+              },
+              {
+                "text": "SUPRA+STAR"
+              },
+              {
+                "text": "SUPRASTAR, +, SUPRA, STAR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "C + M"
+              },
+              {
+                "text": "C, M, +, CM, =CM, C, M, LTR"
+              }
+            ],
+            [
+              {
+                "text": "/"
+              },
+              {
+                "text": "SUPRA/STAR"
+              },
+              {
+                "text": "SUPRASTAR, /, SUPRA, STAR"
+              }
+            ],
+            [
+              {
+                "text": ":"
+              },
+              {
+                "text": "SUPRA:STAR"
+              },
+              {
+                "text": "SUPRASTAR, :, SUPRA, STAR"
+              }
+            ],
+            [
+              {
+                "text": "()"
+              },
+              {
+                "text": "(Z)*"
+              },
+              {
+                "text": "Z, (, ), *, LTR"
+              }
+            ],
+            [
+              {
+                "text": "@"
+              },
+              {
+                "text": "CENTR@PLAN"
+              },
+              {
+                "text": "CENTRPLAN, @, CENTRAPLAN"
+              }
+            ],
+            [
+              {
+                "text": "$"
+              },
+              {
+                "text": "NUMI$"
+              },
+              {
+                "text": "NUMI, $, NUMIS"
+              }
+            ],
+            [
+              {
+                "text": "."
+              },
+              {
+                "text": "STAR.COM"
+              },
+              {
+                "text": "STARCOM, STAR, .COM"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "SUPRA.STAR"
+              },
+              {
+                "text": "SUPRASTAR, SUPRA, STAR"
+              }
+            ]
+          ],
+          "columns": 3,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 15
+        }
+      ],
       "text": "Most typescript symbols are not searched, and hence not indexed. The table below sets out the constituents for marks with typescript symbols. Symbol Trade Mark Current Automatic Constituents ? WORD? WORD, ? % 100% 100, %, NUM ! WORD! WORD!, WORD ! * SUPRA*STAR SUPRASTAR,*, SUPRA, STAR - SUPRA-STAR SUPRASTAR, SUPRA, STAR + SUPRA+STAR SUPRASTAR, +, SUPRA, STAR C + M C, M, +, CM, =CM, C, M, LTR / SUPRA/STAR SUPRASTAR, /, SUPRA, STAR : SUPRA:STAR SUPRASTAR, :, SUPRA, STAR () (Z)* Z, (, ), *, LTR @ CENTR@PLAN CENTRPLAN, @, CENTRAPLAN $ NUMI$ NUMI, $, NUMIS . STAR.COM STARCOM, STAR, .COM SUPRA.STAR SUPRASTAR, SUPRA, STAR"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#13",
+      "chunk_ref": "TMM/Part5/x-word-constituents/indexing-and-symbols",
       "content_hash": "sha256:b7bed90b5979bdf2c78fc32a4ea10928f59323a3fc291ca5b98ef3947c067764",
       "fragment": null,
       "heading_path": [
@@ -224,11 +766,101 @@
       "ordinal": 13,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "@VANTAGE"
+              },
+              {
+                "text": "VANTAGE, @, ADVANTAGE"
+              }
+            ],
+            [
+              {
+                "text": "LEON@RDO"
+              },
+              {
+                "text": "LEONRDO, @, LEONARDO"
+              }
+            ],
+            [
+              {
+                "text": "@WORK"
+              },
+              {
+                "text": "WORK, @, AT"
+              }
+            ],
+            [
+              {
+                "text": "@EASE"
+              },
+              {
+                "text": "EASE, @, AT, EASY"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "T, LTR, #"
+              }
+            ],
+            [
+              {
+                "text": "MAIL@TV"
+              },
+              {
+                "text": "MAILTV, @, MAIL, TV, =TV, LTR"
+              }
+            ],
+            [
+              {
+                "text": "@VISION"
+              },
+              {
+                "text": "VISION, @"
+              }
+            ],
+            [
+              {
+                "text": "BRAINW@@VE"
+              },
+              {
+                "text": "BRAINWVE, @, BRAINWAAVE, BRAINWAVE"
+              }
+            ],
+            [
+              {
+                "text": "MYER@"
+              },
+              {
+                "text": "MYER, @"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 10
+        }
+      ],
       "text": "The symbol @ is indexed in three different ways. If @ is clearly a replacement for the letter A, the full word should be added to the word constituents and the device phrase indicate that AT SYMBOL IS THE LTR A. If the @ symbol substitutes for the word AT, e.g. @HOME, the additional term AT should be added to the word constituents. Where @ does not convey a meaning within the mark, usual indexing conventions are to be followed. Below are examples of the word constituents of trade marks containing @. Trade Mark Constituents @VANTAGE VANTAGE, @, ADVANTAGE LEON@RDO LEONRDO, @, LEONARDO @WORK WORK, @, AT @EASE EASE, @, AT, EASY T, LTR, # MAIL@TV MAILTV, @, MAIL, TV, =TV, LTR @VISION VISION, @ BRAINW@@VE BRAINWVE, @, BRAINWAAVE, BRAINWAVE MYER@ MYER, @"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#14",
+      "chunk_ref": "TMM/Part5/x-word-constituents/accents-umlauts-diacritics",
       "content_hash": "sha256:1a91a52bdabdb1c5390d6286327e86b79359af2b78ae81a28d512147a7baff90",
       "fragment": null,
       "heading_path": [
@@ -241,11 +873,12 @@
       "ordinal": 14,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Words which contain accents, umlauts, and other diacritics (such as Café, Brontë, Entrepôt, Señor) are indexed both as plain word marks and with the accent, umlats and other diacritics. For example; The word “Señor” would be indexed as both Señor and Senor."
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#15",
+      "chunk_ref": "TMM/Part5/x-word-constituents/numbers",
       "content_hash": "sha256:d2c1a4b81838947cde35c0e03d68b6eae495e2f56f7480ffe299d415af0aa263",
       "fragment": null,
       "heading_path": [
@@ -258,11 +891,12 @@
       "ordinal": 15,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [],
       "text": "Numbers may consist of cardinal numbers (1, 2, 3 etc), other versions of numbers such as words (ten, sixteen, first), roman numerals (IV, L) and ordinals (1st, 5th). NUM - This constituent is added to all marks containing numbers"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#16",
+      "chunk_ref": "TMM/Part5/x-word-constituents/indexing-numbers",
       "content_hash": "sha256:619ceecf37026dfffd0f444f3cb4382d81b351b5154e1169bef74f3632457757",
       "fragment": null,
       "heading_path": [
@@ -276,11 +910,93 @@
       "ordinal": 16,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Number"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "5, NUM"
+              }
+            ],
+            [
+              {
+                "text": "153"
+              },
+              {
+                "text": "153, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 3
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "FOUR"
+              },
+              {
+                "text": "FOUR, 4, NUM"
+              }
+            ],
+            [
+              {
+                "text": "SECOND"
+              },
+              {
+                "text": "SECOND, 2, NUM"
+              }
+            ],
+            [
+              {
+                "text": "25TH"
+              },
+              {
+                "text": "25 TH, 25, NUM"
+              }
+            ],
+            [
+              {
+                "text": "VII"
+              },
+              {
+                "text": "VII, 7, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 2,
+          "rows": 5
+        }
+      ],
       "text": "All cardinal numbers are indexed as they appear in the mark and with the constituent NUM. For example: Number Constituents 5 5, NUM 153 153, NUM The constituent NUM is generated when the word constituents are generated. All other versions of numbers (Roman numerals, ordinals etc) are indexed as they appear in the mark and cross-referenced with the cardinal number. The constituent NUM will appear when the record is entered. Trade Mark Constituents FOUR FOUR, 4, NUM SECOND SECOND, 2, NUM 25TH 25 TH, 25, NUM VII VII, 7, NUM"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#17",
+      "chunk_ref": "TMM/Part5/x-word-constituents/fractions",
       "content_hash": "sha256:a3e8948d9ed2264246249657b37212219de2f85c0763dce9e07b9b9ac678ea2e",
       "fragment": null,
       "heading_path": [
@@ -294,11 +1010,45 @@
       "ordinal": 17,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Number"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "¾"
+              },
+              {
+                "text": "34, .4, 3 /4, 3, 4, NUM"
+              }
+            ],
+            [
+              {
+                "text": "20/20"
+              },
+              {
+                "text": "2020, .20, 20/20, 20, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 3
+        }
+      ],
       "text": "Fractions are indexed in fraction form, as separate numbers and with a separate / constituent. For example Number Constituents ¾ 34, .4, 3 /4, 3, 4, NUM 20/20 2020, .20, 20/20, 20, NUM"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#18",
+      "chunk_ref": "TMM/Part5/x-word-constituents/decimals",
       "content_hash": "sha256:e18b9276b69f136d297aad233832b9c01516adb61da39daee6f3f333f5804e8f",
       "fragment": null,
       "heading_path": [
@@ -312,11 +1062,45 @@
       "ordinal": 18,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Number"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "2.3"
+              },
+              {
+                "text": "23, 2, 3, NUM"
+              }
+            ],
+            [
+              {
+                "text": "1.99"
+              },
+              {
+                "text": "199, 1, 99, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 3
+        }
+      ],
       "text": "Decimals are indexed as whole numbers without the decimal point and as separate numbers. For example: Number Constituents 2.3 23, 2, 3, NUM 1.99 199, 1, 99, NUM"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#19",
+      "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-trade-marks-containing-numbers",
       "content_hash": "sha256:81e8af348e3c377ed1e59729ba85e20e717556e05d0f5f82c65f2663d4373ca2",
       "fragment": null,
       "heading_path": [
@@ -330,11 +1114,61 @@
       "ordinal": 19,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "32, NUM"
+              }
+            ],
+            [
+              {
+                "text": "FIRST"
+              },
+              {
+                "text": "FIRST, 1, NUM"
+              }
+            ],
+            [
+              {
+                "text": "MARK VII"
+              },
+              {
+                "text": "MARK, VII, 7, NUM"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "4 TH, DIMENSION, 4, NUM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 5
+        }
+      ],
       "text": "Trade Mark Constituents 32, NUM FIRST FIRST, 1, NUM MARK VII MARK, VII, 7, NUM 4 TH, DIMENSION, 4, NUM"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#20",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-with-words-or-letters",
       "content_hash": "sha256:3c17d47804c7676aea10d56081411c5ddb8f5f884b381d8c266b57c27af18be8",
       "fragment": null,
       "heading_path": [
@@ -361,11 +1195,141 @@
           "mention": "s 50S, 50"
         }
       ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "5SEA"
+              },
+              {
+                "text": "5SEA, 5, NUM"
+              }
+            ],
+            [
+              {
+                "text": "4EVER"
+              },
+              {
+                "text": "4EVER, 4, FOREVER, NUM"
+              }
+            ],
+            [
+              {
+                "text": "4D"
+              },
+              {
+                "text": "4D, 4, D, LTR, NUM"
+              }
+            ],
+            [
+              {
+                "text": "H2O"
+              },
+              {
+                "text": "H2O, 2, H, O, LTR, NUM"
+              }
+            ],
+            [
+              {
+                "text": "2CN"
+              },
+              {
+                "text": "2CN, 2, CN, =CN, LTR, NUM"
+              }
+            ],
+            [
+              {
+                "text": "T2000"
+              },
+              {
+                "text": "T2000, T, 2000, LTR, NUM"
+              }
+            ],
+            [
+              {
+                "text": "50’s"
+              },
+              {
+                "text": "50S, 50, NUM"
+              }
+            ],
+            [
+              {
+                "text": "DELTA-5"
+              },
+              {
+                "text": "DELTA5, DELTA, 5, NUM"
+              }
+            ],
+            [
+              {
+                "text": "DATAONE"
+              },
+              {
+                "text": "DATAONE, 1, NUM"
+              }
+            ],
+            [
+              {
+                "text": "PCSLAVE16"
+              },
+              {
+                "text": "PCSLAVE16, PC, =PC, LTR, 16, NUM"
+              }
+            ],
+            [
+              {
+                "text": "GODDESS II"
+              },
+              {
+                "text": "GODDESS, II, 2, NUM"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "VAPORPH3OS, 3, NUM, VAPORPHOS, VAPORPH, OS, =OS, LTR"
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 15
+        }
+      ],
       "text": "Trade Mark Constituents 5SEA 5SEA, 5, NUM 4EVER 4EVER, 4, FOREVER, NUM 4D 4D, 4, D, LTR, NUM H2O H2O, 2, H, O, LTR, NUM 2CN 2CN, 2, CN, =CN, LTR, NUM T2000 T2000, T, 2000, LTR, NUM 50’s 50S, 50, NUM DELTA-5 DELTA5, DELTA, 5, NUM DATAONE DATAONE, 1, NUM PCSLAVE16 PCSLAVE16, PC, =PC, LTR, 16, NUM GODDESS II GODDESS, II, 2, NUM VAPORPH3OS, 3, NUM, VAPORPHOS, VAPORPH, OS, =OS, LTR"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#21",
+      "chunk_ref": "TMM/Part5/x-word-constituents/ozz-easy-and-quick-phonetics",
       "content_hash": "sha256:8dea60af836cf7edc36df25b78cea5c4882555d6281e5ec92eb528ec8ff2c097",
       "fragment": null,
       "heading_path": [
@@ -378,11 +1342,43 @@
       "ordinal": 21,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "EASY phonetics (all with constituent EASY)"
+              },
+              {
+                "text": "OZZ phonetics (all with constituent OZZ)"
+              },
+              {
+                "text": "QUICK phonetics (all with constituent QUICK)"
+              }
+            ],
+            [
+              {
+                "text": "EASE EASY EASI E.A.S.Y. EAZIE EAZY EAZZY EASIER E.A.S.I.E.R. EASIES EAZE E.S.Y. EESE EEESY EECY EEZE EEZEE EEZI EEZZY EEZY EZ E.Z. EZEE EZI EZY E-Z-Y EZ-ZEE EZZY ECI E’SE EEEZEE EESI EEZ EEZE ESE ESI E-Z EZE E-ZE E-Z-E EZE’S E*Z*EST"
+              },
+              {
+                "text": "AUS AUSI AUSIE AUSSIE AUSSIE AUSSIES AUSSY AUSZEE AUZZIE AUZZIES OSS OSSI OSSIE OZ OZI OZEEEE OZZ OZZI OZZEE OZZIE OZZIES OZZY OZZZ WAUSSIE"
+              },
+              {
+                "text": "QUIC QUIK QUYC QUYK QUYQ QUIQ QWIC QWIK QWYC QWYK QWYQ QWIQ QIK QIC QYK CWIC CWIK CWYC CWYK CWYQ CWIQ KWYC KWYK KWYQ KWIQ KWIC KWIK"
+              }
+            ]
+          ],
+          "columns": 3,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 2
+        }
+      ],
       "text": "Phonetic equivalents of 'easy', 'ozz' and 'quick' are common in trade marks. In order to find all versions of the constituent EASY, OZZ or QUICK is always added. However, words beginning with AUST such as AUSTRALIA, AUSTRALASIAN, AUSTRADE and AUSTRAL do not have the added constituent. If the trade mark is the word EASY, OZZ or QUICK only, then # symbol is added to the word constituent. Below is a list of all the variations which require these added constituents: EASY phonetics (all with constituent EASY) OZZ phonetics (all with constituent OZZ) QUICK phonetics (all with constituent QUICK) EASE EASY EASI E.A.S.Y. EAZIE EAZY EAZZY EASIER E.A.S.I.E.R. EASIES EAZE E.S.Y. EESE EEESY EECY EEZE EEZEE EEZI EEZZY EEZY EZ E.Z. EZEE EZI EZY E-Z-Y EZ-ZEE EZZY ECI E’SE EEEZEE EESI EEZ EEZE ESE ESI E-Z EZE E-ZE E-Z-E EZE’S E*Z*EST AUS AUSI AUSIE AUSSIE AUSSIE AUSSIES AUSSY AUSZEE AUZZIE AUZZIES OSS OSSI OSSIE OZ OZI OZEEEE OZZ OZZI OZZEE OZZIE OZZIES OZZY OZZZ WAUSSIE QUIC QUIK QUYC QUYK QUYQ QUIQ QWIC QWIK QWYC QWYK QWYQ QWIQ QIK QIC QYK CWIC CWIK CWYC CWYK CWYQ CWIQ KWYC KWYK KWYQ KWIQ KWIC KWIK"
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#22",
+      "chunk_ref": "TMM/Part5/x-word-constituents/domain-names",
       "content_hash": "sha256:14572ae459b6529a8330d8cd8673e18122ad0a91c975ccc657cd7084ea44862d",
       "fragment": null,
       "heading_path": [
@@ -395,6 +1391,120 @@
       "ordinal": 22,
       "page_ref": "TMM/Part5/x-word-constituents",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark"
+              },
+              {
+                "text": "Constituents"
+              }
+            ],
+            [
+              {
+                "text": "WWWGOODSTAFF"
+              },
+              {
+                "text": "WWWGOODSTAFF, WWW, =WWW, LTR"
+              }
+            ],
+            [
+              {
+                "text": "WWW.CARD"
+              },
+              {
+                "text": "WWWCARD, WWW, =WWW, LTR, CARD"
+              }
+            ],
+            [
+              {
+                "text": "wwweb.select"
+              },
+              {
+                "text": "WWWEBSELECT, WWWEB, SELECT, WWW, =WWW, LTR"
+              }
+            ],
+            [
+              {
+                "text": "2000 WWW.Y2K"
+              },
+              {
+                "text": "2000, WWWY2K, WWW, =WWW, LTR, Y2K, Y, 2, K, NUM"
+              }
+            ],
+            [
+              {
+                "text": "WWW.?.COM.AU"
+              },
+              {
+                "text": "WWWCOMAU, ?, WWW, =WWW, LTR, .COM, .AU"
+              }
+            ],
+            [
+              {
+                "text": "WWW.GREENSLIPS.NET"
+              },
+              {
+                "text": "WWWGREENSLIPSNET, WWW, =WWW, LTR, GREENSLIPS, .NET"
+              }
+            ],
+            [
+              {
+                "text": "WWW.SHOP-FROMHOME.COM.AU"
+              },
+              {
+                "text": "WWWSHOPFROMHOMECOMAU, WWW, =WWW, LTR, SHOPFROMHOME, SHOP, FROM, HOME, .COM, .AU"
+              }
+            ],
+            [
+              {
+                "text": "IZZUE.COM"
+              },
+              {
+                "text": "IZZUECOM, IZZUE, .COM, ISSUE"
+              }
+            ],
+            [
+              {
+                "text": "WWW.EPHARMACY.COM"
+              },
+              {
+                "text": "WWWEPHARMACYCOM, WWW, =WWW, LTR, EPHARMACY, E, .COM"
+              }
+            ],
+            [
+              {
+                "text": "IT’S YOUR DOT COM"
+              },
+              {
+                "text": "ITS, YOUR, DOT, COM, .COM"
+              }
+            ],
+            [
+              {
+                "text": "FLYINGPIG.CO.NZ"
+              },
+              {
+                "text": "FLYINGPIGCONZ, FLYINGPIG, .CO, .NZ"
+              }
+            ],
+            [
+              {
+                "text": "$HAREANALYSIS.COM"
+              },
+              {
+                "text": "HAREANALYSISCOM, $, SHAREANALYSIS, .COM"
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 13
+        }
+      ],
       "text": "These are Internet addresses which end in the extension .COM, .NET, .AU, .NZ, etc. The whole domain name and extension are captured as one word, as well as being split up into it's constituents. To distinguish domain names from other marks containing the words COM, NET, etc., the domain extensions are indexed as a dot suffix, i.e. .COM, .NET, .GOV, .EDU, .ORG. Country codes , for example, .AU, .NZ, are also captured as dot suffixes. Trade Mark Constituents WWWGOODSTAFF WWWGOODSTAFF, WWW, =WWW, LTR WWW.CARD WWWCARD, WWW, =WWW, LTR, CARD wwweb.select WWWEBSELECT, WWWEB, SELECT, WWW, =WWW, LTR 2000 WWW.Y2K 2000, WWWY2K, WWW, =WWW, LTR, Y2K, Y, 2, K, NUM WWW.?.COM.AU WWWCOMAU, ?, WWW, =WWW, LTR, .COM, .AU WWW.GREENSLIPS.NET WWWGREENSLIPSNET, WWW, =WWW, LTR, GREENSLIPS, .NET WWW.SHOP-FROMHOME.COM.AU WWWSHOPFROMHOMECOMAU, WWW, =WWW, LTR, SHOPFROMHOME, SHOP, FROM, HOME, .COM, .AU IZZUE.COM IZZUECOM, IZZUE, .COM, ISSUE WWW.EPHARMACY.COM WWWEPHARMACYCOM, WWW, =WWW, LTR, EPHARMACY, E, .COM IT’S YOUR DOT COM ITS, YOUR, DOT, COM, .COM FLYINGPIG.CO.NZ FLYINGPIGCONZ, FLYINGPIG, .CO, .NZ $HAREANALYSIS.COM HAREANALYSISCOM, $, SHAREANALYSIS, .COM"
     }
   ],
@@ -402,10 +1512,28 @@
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:0a4451d495e23500bf843d669604e577eab2085fa766ac722ebc198e124fd6c2",
-    "crawled_at": "2026-07-28T04:48:19Z",
+    "crawled_at": "2026-07-28T08:53:37Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "Word Constituents",
+    "images": [
+      {
+        "alt": null,
+        "src": "/sites/default/files/trademark/image/mobile_snips.png"
+      },
+      {
+        "alt": null,
+        "src": "/sites/default/files/trademark/image/saginomiya.png"
+      },
+      {
+        "alt": null,
+        "src": "/sites/default/files/trademark/image/trudys.png"
+      },
+      {
+        "alt": null,
+        "src": "/sites/default/files/trademark/image/ysl.png"
+      }
+    ],
     "last_amended": "2026-04-13",
     "nav_title": "Word Constituents",
     "page_ref": "TMM/Part5/x-word-constituents",

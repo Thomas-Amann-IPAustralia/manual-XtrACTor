@@ -14,6 +14,7 @@
       "ordinal": 1,
       "page_ref": "TMM/Part5/3",
       "provisions": [],
+      "tables": [],
       "text": "Trade Marks Act 1995 (Cth) Trade Marks Regulations 1995 (Cth) All trade marks are indexed so that they can be retrieved by searching their key elements. This is particularly important for identifying similar trade marks which belong to different owners."
     },
     {
@@ -40,6 +41,7 @@
           "mention": "s 64"
         }
       ],
+      "tables": [],
       "text": "Indexing involves identifying the elements that make up a trade mark. These elements are known as the indexing terms of the trade mark. They are recorded in the electronic database so that the trade mark can be found when a search is done. Indexing is a fairly straightforward process in the case of trade marks which consist of words. The indexing of complex pictorial trade marks is a much more difficult task. The available terms are limited to those published by the Registrar in the Glossary of Image Descriptors. Note: Applicants should note that the image descriptors used for a trade mark are purely administrative and have no effect on the nature of the trade mark nor on the applicant's rights in it. Note: With the introduction of streamlined electronic processes, trade marks are viewable in Australian Trade Mark Search shortly after the application is filed, usually within one business day. While the indexing may not yet be finalised, the application is still deemed to be published when the lifecycle status is “Published” in relation to any amendments under s 64. Indexers follow detailed instructions for determining the indexing terms, and enter these terms into the database. Once the indexing is completed, the status of the application changes to \"Published – awaiting examination\". Re-indexing The constituent particulars that are originally captured sometimes need to be changed at a later stage. This process is termed re-indexing. Re-indexing may be required if: an important particular of the trade mark has been overlooked a substitute representation of the trade mark is provided, or when a trade mark is amended"
     }
   ],
@@ -47,10 +49,11 @@
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:cda5ee42ab91626a90289279cea5f5fa7b3dc3eca5844046796901cc7da5dd2a",
-    "crawled_at": "2026-07-28T02:38:28Z",
+    "crawled_at": "2026-07-28T08:53:36Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "5.3. Indexing",
+    "images": [],
     "last_amended": "2026-04-13",
     "nav_title": "3. Indexing and Re-scanning",
     "page_ref": "TMM/Part5/3",

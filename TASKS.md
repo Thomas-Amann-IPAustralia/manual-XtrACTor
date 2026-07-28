@@ -202,10 +202,57 @@ deliberately corrupted one.
 
 ---
 
+## T11 — Image interpretation (later, and not in this pipeline)
+
+**Not started, and deliberately not scheduled.** Recorded here so the gap is
+tracked rather than rediscovered.
+
+Eight pages of the Manual are an image and nothing else — Part 22's "Capable of
+Distinguishing" flowchart, three of the Part 14 cross-search class tables, the
+Part 54 summons formats — and 169 images sit across 39 pages in total. None
+carries any `alt` text. `SOURCE_NOTES.md` §16.
+
+As of `ingest/0.3.0` the snapshot records **that** each image exists and
+**where** it is (`page.images`, `{"src", "alt"}`). It does not record what the
+image says, because nothing deterministic can read a flowchart. So for those
+eight pages the archive holds no evidence of the Manual's actual content — a
+real gap, and the reason this task exists.
+
+Recovering it needs OCR or a vision model. **Neither may run in this pipeline.**
+CLAUDE.md is not negotiable on that point and this task does not reopen it:
+rule 1 is that every field is derived from source HTML by regex, href parsing or
+structural traversal, and an OCR string is neither deterministic nor
+byte-stable — re-run the same model on the same PNG and the output can differ,
+which alone would break rule 2 and turn every crawl into a thousand-file diff.
+
+So T11 is a **downstream enrichment layer**, in the same place as embeddings and
+for the same reason: a separate repo, keyed on `page_ref` and `image.src`,
+regenerated on its own cadence, never cited as the Manual's words. See §What is
+deliberately absent in `SCHEMA.md` — this is that argument applied to pictures
+instead of prose.
+
+What this repo should do when that work starts:
+
+1. **Fetch and store the image bytes**, so there is something stable to read
+   and an audit artefact that survives IP Australia reorganising
+   `/sites/default/files/`. That part *is* deterministic and could live here,
+   under `snapshot/media/`, keyed by a hash of the bytes. Raise it before
+   building it — it changes the repo's size profile and `ARCHITECTURE.md` says
+   to stop and reconsider at a gigabyte.
+2. Leave interpretation to the consumer. An extracted caption is an inference
+   about meaning; it belongs beside embeddings, not beside `chunk.text`.
+
+**Done:** not applicable — this is a placeholder, not a work package. Before
+implementing any of it, raise the scope question rather than deciding it.
+
+---
+
 ## Not in scope
 
 Embeddings, vector stores, retrieval, ranking, an API, a UI, a chatbot, any LLM
-call, and any interpretive field (concepts, summaries, extracted rules). If a
-task looks like it needs one of these, it does not — raise it instead.
+call, and any interpretive field (concepts, summaries, extracted rules) —
+including any reading of an image's contents, whether by OCR or by model
+(see T11). If a task looks like it needs one of these, it does not — raise it
+instead.
 
 The snapshot is an input to that later work, not a part of it.

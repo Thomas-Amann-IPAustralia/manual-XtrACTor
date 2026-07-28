@@ -25,6 +25,72 @@
           "mention": "regulation 4.5"
         }
       ],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Trade Mark No."
+              },
+              {
+                "text": "Applicant"
+              },
+              {
+                "text": "Date filed"
+              },
+              {
+                "text": "Priority date"
+              }
+            ],
+            [
+              {
+                "text": "TM 1"
+              },
+              {
+                "text": "ABC Inc."
+              },
+              {
+                "text": "1/8/2000"
+              },
+              {
+                "text": "1/5/2000 (US convention claim)."
+              }
+            ],
+            [
+              {
+                "text": "TM 2 (Divisional of TM 1)"
+              },
+              {
+                "text": "ABC Inc."
+              },
+              {
+                "text": "1/11/2001"
+              },
+              {
+                "text": "1/5/2000 if a claim to convention priority is made on TM 2 but 1/8/2000 if a claim to convention priority is not made on TM 2."
+              }
+            ],
+            [
+              {
+                "text": "TM 3 (Divisional of TM 2)"
+              },
+              {
+                "text": "ABC Inc."
+              },
+              {
+                "text": "1/2/2003"
+              },
+              {
+                "text": "1/5/2000 if a claim to convention priority is made on TM 3 but 1/8/2000 if a claim to convention priority is not made on TM 3."
+              }
+            ]
+          ],
+          "columns": 4,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 4
+        }
+      ],
       "text": "Section 29 requires filing of an Australian application within 6 months from the day on which the application was filed in the convention country. A divisional application will have the filing date of its parent application as the priority date, unless the convention priority claim of the parent is also made when filing the divisional application or within the period provided for in regulation 4.5, that is, within two working days after filing the application. By way of example: Trade Mark No. Applicant Date filed Priority date TM 1 ABC Inc. 1/8/2000 1/5/2000 (US convention claim). TM 2 (Divisional of TM 1) ABC Inc. 1/11/2001 1/5/2000 if a claim to convention priority is made on TM 2 but 1/8/2000 if a claim to convention priority is not made on TM 2. TM 3 (Divisional of TM 2) ABC Inc. 1/2/2003 1/5/2000 if a claim to convention priority is made on TM 3 but 1/8/2000 if a claim to convention priority is not made on TM 3."
     }
   ],
@@ -32,10 +98,11 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:ef7c5a12aeb9f7d471ca68932e36562e656068e4068c618fbc3a20fa0de133ca",
-    "crawled_at": "2026-07-28T04:49:26Z",
+    "crawled_at": "2026-07-28T08:53:39Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "5. Convention claims and divisional applications",
+    "images": [],
     "last_amended": "2026-07-20",
     "nav_title": "5. Convention claims and divisional applications",
     "page_ref": "TMM/Part12/5",

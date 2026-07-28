@@ -58,6 +58,7 @@
           "mention": "44"
         }
       ],
+      "tables": [],
       "text": "1.1 Overview Examination of trade mark applications filed in Class 31 in respect of plants and plant material involves consideration of additional requirements arising from the Plant Breeder’s Rights Act 1994 (PBR Act) as amended by the Intellectual Property Laws Amendment Act 2006 (No. 106). The PBR Act protects the names of plant varieties and their synonyms. The examiner must consider whether a trade mark is the same as, or included in,a plant name protected under the PBR Act or if use of the trade mark would infringe the PBR, and hence whether a contrary to law ground for rejection applies under section 42 of the Trade Marks Act 1995 (TM Act). Applications with a claim in Class 31 which includes plants or plant material need to be considered in terms of the PBR Act. Plant material includes all parts of the plant, such as fruit, flowers, seeds, vegetative cuttings and other live plant tissues. “Animal foodstuffs”, “litter”, “mulch” and similar claims need to be considered in terms of the PBR Act as they notionally include propagating or harvested plant material. Plant nomenclature, and particularly the concept of variety/cultivar/synonym (whether on the PBR Register or unregistered use in the marketplace), is also important to the consideration of s41 and s43 in relation to specifications covering plants and plant material. This part of the Manual also discusses considerations in relation to sections 39, 41, 43 and 44 of the TM Act. 1.2 The Plant Breeder’s Rights Act 1994 The PBR Act governs the granting of proprietary rights to breeders of new varieties of plants and fungi. The scope of Plant Breeder’s Rights primarily applies to propagating material (section 11), but also in some circumstances harvested material (section 14) and products obtained from harvested material (section 15), (see Annex 1)"
     },
     {
@@ -75,6 +76,93 @@
       "ordinal": 2,
       "page_ref": "TMM/Part32A/1",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "PBR status"
+              },
+              {
+                "text": "Meaning"
+              },
+              {
+                "text": "Equivalent TM status"
+              }
+            ],
+            [
+              {
+                "text": "Accepted"
+              },
+              {
+                "text": "Complies with the provisional requirements of the PBR Act. The variety has provisional protection but is yet to be examined."
+              },
+              {
+                "text": "Pending"
+              }
+            ],
+            [
+              {
+                "text": "Refused"
+              },
+              {
+                "text": "Does not meet the requirements of the PBR Act for provisional acceptance. The variety has no protection and will not be examined."
+              },
+              {
+                "text": "No equivalent – the closest is “not meeting Minimum Filing Requirements”."
+              }
+            ],
+            [
+              {
+                "text": "Granted"
+              },
+              {
+                "text": "A registered right. The variety has full protection under the PBR Act."
+              },
+              {
+                "text": "Registered/Protected"
+              }
+            ],
+            [
+              {
+                "text": "Withdrawn"
+              },
+              {
+                "text": "Withdrawn after meeting the requirements for provisional acceptance but before registration is achieved. A variety no longer has provisional protection."
+              },
+              {
+                "text": "Withdrawn or Lapsed"
+              }
+            ],
+            [
+              {
+                "text": "Terminated"
+              },
+              {
+                "text": "The variety is voluntarily surrendered after registration but before the right has expired, or has been revoked. The variety is no longer protected."
+              },
+              {
+                "text": "Withdrawn (after registration) Removed – Not Renewed"
+              }
+            ],
+            [
+              {
+                "text": "Expired"
+              },
+              {
+                "text": "The maximum term of PBR has run out and the variety is no longer protected."
+              },
+              {
+                "text": "No equivalent – the closest is “Removed – Not Renewed”."
+              }
+            ]
+          ],
+          "columns": 3,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 7
+        }
+      ],
       "text": "Information contained in the Register of Plant Varieties can be viewed via the Plant Breeder’s Rights database. The database records changes in the details and status of applications. The following table explains the statuses used on the PBR database: PBR status Meaning Equivalent TM status Accepted Complies with the provisional requirements of the PBR Act. The variety has provisional protection but is yet to be examined. Pending Refused Does not meet the requirements of the PBR Act for provisional acceptance. The variety has no protection and will not be examined. No equivalent – the closest is “not meeting Minimum Filing Requirements”. Granted A registered right. The variety has full protection under the PBR Act. Registered/Protected Withdrawn Withdrawn after meeting the requirements for provisional acceptance but before registration is achieved. A variety no longer has provisional protection. Withdrawn or Lapsed Terminated The variety is voluntarily surrendered after registration but before the right has expired, or has been revoked. The variety is no longer protected. Withdrawn (after registration) Removed – Not Renewed Expired The maximum term of PBR has run out and the variety is no longer protected. No equivalent – the closest is “Removed – Not Renewed”."
     },
     {
@@ -92,6 +180,184 @@
       "ordinal": 3,
       "page_ref": "TMM/Part32A/1",
       "provisions": [],
+      "tables": [
+        {
+          "cells": [
+            [
+              {
+                "text": "Genus (pl. genera)"
+              },
+              {
+                "text": "A taxonomic grouping of similar species. Similar genera are grouped into families."
+              }
+            ],
+            [
+              {
+                "text": "Species"
+              },
+              {
+                "text": "The basic category of biological classification, intended to designate a single kind of plant, any variations existing among the individuals being regarded as not affecting their essential sameness. Similar species are grouped into genera."
+              }
+            ],
+            [
+              {
+                "text": "Variety"
+              },
+              {
+                "text": "A category within a species. May refer to either a naturally occurring subspecies (which is indicated by the use of “var.” before the name, or to a cultivated variety (cultivar)."
+              }
+            ],
+            [
+              {
+                "text": "Synonym"
+              },
+              {
+                "text": "An official name that is included in a PBR application in addition to the name of the variety."
+              }
+            ],
+            [
+              {
+                "text": "Alternate name"
+              },
+              {
+                "text": "An unofficial synonym."
+              }
+            ],
+            [
+              {
+                "text": "Trade designation"
+              },
+              {
+                "text": "A name that has been used for marketing a plant variety in place of its official name."
+              }
+            ],
+            [
+              {
+                "text": "Trade name"
+              },
+              {
+                "text": "A name associated with a plant variety for marketing purposes."
+              }
+            ],
+            [
+              {
+                "text": "Trade reference"
+              },
+              {
+                "text": "A name which can be nominated in a PBR application, indicating a name to be used for marketing the variety, but is not an official name covered by the PBR registration."
+              }
+            ]
+          ],
+          "columns": 2,
+          "header_row": null,
+          "ordinal": 1,
+          "rows": 8
+        },
+        {
+          "cells": [
+            [
+              {
+                "text": "Taxonomic hierarchy"
+              },
+              {
+                "colspan": 2,
+                "text": "Examples: Two types of Banksia"
+              }
+            ],
+            [
+              {
+                "text": "Kingdom"
+              },
+              {
+                "colspan": 2,
+                "text": "Plantae"
+              }
+            ],
+            [
+              {
+                "text": "Division (aka Phylum)"
+              },
+              {
+                "colspan": 2,
+                "text": "Magnoliophyta"
+              }
+            ],
+            [
+              {
+                "text": "Class"
+              },
+              {
+                "colspan": 2,
+                "text": "Magnoliopsida"
+              }
+            ],
+            [
+              {
+                "text": "Order"
+              },
+              {
+                "colspan": 2,
+                "text": "Proteales"
+              }
+            ],
+            [
+              {
+                "text": "Family"
+              },
+              {
+                "colspan": 2,
+                "text": "proteaceae"
+              }
+            ],
+            [
+              {
+                "text": "Genus (plural genera)"
+              },
+              {
+                "colspan": 2,
+                "text": "Banksia"
+              }
+            ],
+            [
+              {
+                "text": "Species"
+              },
+              {
+                "text": "ericifolia x spinulosa (hybrid)"
+              },
+              {
+                "text": "integrifolia"
+              }
+            ],
+            [
+              {
+                "text": "Subspecies (var.)"
+              },
+              {
+                "text": "N/A"
+              },
+              {
+                "text": "var. integrifolia"
+              }
+            ],
+            [
+              {
+                "text": "Cultivar or variety"
+              },
+              {
+                "text": "‘Giant Candles’"
+              },
+              {
+                "text": "N/A"
+              }
+            ]
+          ],
+          "columns": 3,
+          "header_row": null,
+          "ordinal": 2,
+          "rows": 10
+        }
+      ],
       "text": "Genus (pl. genera) A taxonomic grouping of similar species. Similar genera are grouped into families. Species The basic category of biological classification, intended to designate a single kind of plant, any variations existing among the individuals being regarded as not affecting their essential sameness. Similar species are grouped into genera. Variety A category within a species. May refer to either a naturally occurring subspecies (which is indicated by the use of “var.” before the name, or to a cultivated variety (cultivar). Synonym An official name that is included in a PBR application in addition to the name of the variety. Alternate name An unofficial synonym. Trade designation A name that has been used for marketing a plant variety in place of its official name. Trade name A name associated with a plant variety for marketing purposes. Trade reference A name which can be nominated in a PBR application, indicating a name to be used for marketing the variety, but is not an official name covered by the PBR registration. 1.5 Plant taxonomy hierarchy Taxonomic hierarchy Examples: Two types of Banksia Kingdom Plantae Division (aka Phylum) Magnoliophyta Class Magnoliopsida Order Proteales Family proteaceae Genus (plural genera) Banksia Species ericifolia x spinulosa (hybrid) integrifolia Subspecies (var.) N/A var. integrifolia Cultivar or variety ‘Giant Candles’ N/A"
     }
   ],
@@ -99,10 +365,11 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:5e9551095898e322042f65949ef535da264e72b1899ca639b95dce7bf64bad4a",
-    "crawled_at": "2026-07-28T04:54:10Z",
+    "crawled_at": "2026-07-28T08:53:52Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.2.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "32A.1. Introduction",
+    "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "1. Introduction",
     "page_ref": "TMM/Part32A/1",

@@ -58,6 +58,29 @@ nav entry the site would not serve (§14). Retirement — the file moving to
 archived for years while staying exactly where it is in the tree, and reading
 that as removal would misreport it.
 
+**`images`** — every image in the page's content, `{"src", "alt"}`, sorted and
+de-duplicated. Usually empty; 39 pages have one or more, and on eight of those
+the image *is* the page — a flowchart, a cross-search class table, the format
+of a summons. `SOURCE_NOTES.md` §16.
+
+This is what makes those eight legible. They yield no chunks, because there is
+no text in them to chunk, so a consumer reading page files alone used to see
+`"chunks": []` and have no way to tell them from a blank page. So there is a
+**fourth** state to keep apart from the three above: `chunks: []` with a
+non-empty `images` is a page whose content this pipeline cannot render as
+text — not a page the Manual has withdrawn, and not one it never wrote.
+
+`src` is verbatim, root-relative as the source writes it; resolving it against
+the site root is the consumer's join. `alt` is `null` when the element carried
+no attribute and `""` when it carried an empty one — HTML's way of saying
+"decorative". Do not collapse those: *"Accessibility fix – alternative text for
+images"* is one of the Manual's own amendment reasons, on 28 pages, and the
+difference between the two values is its entire content.
+
+The image bytes are **not** stored. For those eight pages the snapshot records
+that the Manual said something in a picture, and where the picture was, but not
+what it said. That is a known gap, not an oversight — see `TASKS.md` §T11.
+
 **`crawled_at`** — when *this version of the page* was first seen. Not when the
 crawler last looked: that is a property of the run and lives in
 `manifest.json`.
@@ -90,6 +113,34 @@ Do not add a separate sequential id. A serial number is a citation that breaks
 silently: insert a paragraph upstream and `chunk-047` now points at different
 text, with nothing to detect it. An address survives where a counter does not.
 
+Three forms, strongest first:
+
+| Form | Example | Chunks |
+|---|---|---|
+| The heading's own number | `TMM/Part22/1/1/2` | 784 |
+| A slug of the heading's text | `TMM/Part14/x-…-a13/adhesive` | 777 |
+| Position on the page | `TMM/Part47/1#1` | 590 |
+
+**The slug form** covers headings the Manual writes but does not number —
+*Adhesive*, *Applications for services*, *Disclaimer*. It replaced positional
+addressing for these in `ingest/0.4.0`, and `SOURCE_NOTES.md` §18 has the
+measurements. The short version: 627 of those 777 are one page, the Part 14
+Annex A13 glossary, which the Manual itself calls *non-exhaustive* — so
+inserting a single term used to repoint every citation after it, silently. A
+slug is unmoved by an insertion, because the new term simply gets its own.
+
+What a slug does not survive is the heading being reworded. That is the trade
+and it is the right way round: a reworded heading changes the chunk text too,
+so it lands in the diff — where a shifted ordinal landed nowhere. Two headings
+that slug alike on one page raise `ChunkRefCollision` rather than being
+resolved with a counter; none do today.
+
+**The positional form** is left only for the prose above a page's first
+heading, which has no heading to be named by. It is not the exposure it looks
+like: a section with no heading *is* the page preamble, so it is the first
+section by construction and nothing can be inserted ahead of it. All 590 sit
+at `#1`, and a test pins that.
+
 **`page_ref`** — the join back to the page.
 
 **`text`** — the words, verbatim, whitespace-normalised and nothing else. No
@@ -118,12 +169,58 @@ instead of stored pointers.
 it, every downstream consumer reprocesses the entire corpus on every crawl to
 catch three edited sentences.
 
-**`kind`** — `body`, `landing`, `annex`, `note`, `table`. `landing` marks
-*Relevant Legislation* pages, which are mappings rather than prose and should
-usually be excluded from applicant-facing answers.
+**`kind`** — `body`, `landing`, `annex`. Inherited from the page's nav entry:
+`landing` marks *Relevant Legislation* pages, which are mappings rather than
+prose and should usually be excluded from applicant-facing answers.
+
+The schema's enum also lists `note` and `table`, and **neither is emitted**.
+That is deliberate, and the reason is worth stating because the obvious change
+is the wrong one. `kind` answers *"what sort of page is this passage from?"*;
+whether a passage contains a table answers *"what is in it?"* Those are two
+axes, and a field that tries to carry both has to lose one — a table on an
+annex page would have to stop being marked as annex content. So a chunk with a
+table is found by `tables != []`, which is also strictly more precise: it
+distinguishes a chunk that is only a table from one that is prose *and* a
+table, which a single `kind` value never could.
 
 **`fragment`** — present only when an over-long section had to be split on
 paragraph boundaries. `{"index": 1, "count": 2}`.
+
+**`tables`** — the grid of every table in the chunk, in document order. Empty
+on the great majority of chunks; 121 tables live across 45 pages, and some of
+those pages are essentially nothing else. `SOURCE_NOTES.md` §17.
+
+`text` renders a table as a run of cell text — *"Owner Name Address Description
+Individual Surname + Given name/s…"* — which is the right verbatim reading and
+tells you nothing about which cell sat under which column. Both are kept:
+`text` for quoting, `tables` for structure.
+
+```json
+{
+  "ordinal": 1,
+  "rows": 7,
+  "columns": 4,
+  "header_row": null,
+  "cells": [
+    [{"text": "Owner"}, {"text": "Name"}],
+    [{"text": "Applicant details", "colspan": 2}]
+  ]
+}
+```
+
+**`header_row`** indexes into `cells`; it never copies the row out. It is set
+only where the markup says so — a `<thead>` holding one row, or a first row of
+all `<th>` — which is true of 2 of the Manual's 121 tables. The other 119 have
+a first row that reads exactly like a header and declares nothing, and this
+pipeline will not promote it: that is an inference about meaning, and rule 1
+forbids it. Null means *the source did not say*, not *there is no header*.
+
+`columns` counts spanned width, so a two-cell row whose first cell is
+`colspan="2"` is three columns wide. Spans are recorded on the cell and never
+expanded into the positions they cover — which cells a merge occupies is a
+rendering question, and answering it means writing cells the Manual never
+wrote. Ragged rows are stored ragged for the same reason. A cell holding only
+an image has `"text": ""`; the image is on the page record.
 
 ---
 
@@ -184,6 +281,15 @@ Cross references to other Manual pages, resolved to `page_ref` or `chunk_ref`
 through the sitemap. If a reference does not resolve — a bare "see part 22.15.7"
 pointing at something that no longer exists — **drop it**. An unresolvable string
 in this field is worse than an absent one, because a consumer will try to follow it.
+
+**A reference to the page it sits on is kept, not filtered.** 22 chunks carry
+one. They are not noise and not a bug: they are the Manual pointing at another
+part of the same page — *"in light of paragraph 4.3"*, the A–Z index at the top
+of the INN-stems annex, the "refer to the comments above" in Part 21.3. That
+the target is a sibling chunk rather than another page is precisely what a
+retrieval layer needs in order to offer the right next passage, and it is only
+knowable because the ref was kept: by the time the text is flattened the anchor
+is gone and nothing downstream can recover it.
 
 ---
 
