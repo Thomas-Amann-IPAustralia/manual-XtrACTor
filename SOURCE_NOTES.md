@@ -400,6 +400,10 @@ Derive `page_ref` from the nav title's leading number where present, and fall
 back to a slug-derived form for unnumbered pages (Relevant Legislation, Glossary,
 Annexes). Never fall back to the raw slug alone — see §2.
 
+`chunk_ref` follows the same shape one level down: the heading's own number
+where it has one, a slug of the heading's text where it does not. §18 has the
+measurements and the reason position was not good enough.
+
 ### A heading number can be broken up by inline markup
 
 Part 28.3 prints two headings whose numbers an editor has partly highlighted:
@@ -538,6 +542,7 @@ restructure, not an edit.
 | Images in page content | 169, across 39 pages | *not seen* |
 | Tables in page content | 121, across 45 pages | *not seen* |
 | Chunks | 2151 | *not estimated* |
+| Chunks addressed by a heading | 1561 (72%, see §18) | *not seen* |
 | Mean page size | 88.6 KB | *88.4 KB (median 84.6, range 81–109)* |
 | `snapshot/raw/` | 44.3 MB | *~44 MB* |
 
@@ -831,3 +836,83 @@ despite having headings. Correct, and worth knowing before someone "fixes" it.
 **Spans are recorded, not expanded.** `colspan="2"` is stored on the cell.
 Which grid positions the span covers is a rendering question, and answering it
 means writing cells the Manual never wrote.
+
+---
+
+## 18. Heading numbering decides how stable a citation is
+
+The Manual numbers most of its headings and not all of them, and that single
+fact decides whether a `chunk_ref` survives the next amendment.
+
+Measured over the 2151 chunks of the 28 July 2026 corpus, by *why* each got the
+address it did:
+
+| Cause | Chunks | Can an insertion move it? |
+|---|---|---|
+| Numbered heading — `15.4 Names of foreign towns…` | 784 (36%) | No |
+| Unnumbered heading — `Adhesive`, `Disclaimer` | 777 (36%) | **Yes, before 0.4.0** |
+| No heading at all — the page preamble | 590 (27%) | No |
+
+**The middle row was the whole problem, and the bottom row never was.** A
+section with no heading is by definition the prose above the *first* heading,
+so it is the first section on the page and nothing can be inserted ahead of it.
+All 590 sit at ordinal 1. A `#1` is as stable as a number; only `#N` with N > 1
+could ever move, and every one of those had an unnumbered heading above it.
+
+### It was one page
+
+Of the 777 exposed chunks:
+
+| Page | Chunks | Cumulative |
+|---|---|---|
+| Part 14 Annex A13 — *list of terms too broad for classification* | 627 | 81% |
+| Part 5 — device constituents | 43 | 87% |
+| Part 29 Annex A1 — table of INN stems | 23 | 90% |
+| Part 5 — word constituents | 21 | 92% |
+| 20 further pages | 63 | 100% |
+
+24 pages carry the whole of it. A13 is an alphabetical glossary of vague
+classification terms which the Manual's own opening line calls
+*"non-exhaustive"* — a list IP Australia expects to add to. Under positional
+addressing, inserting `Adhesive tape` between `Adhesive` and `Adhesives`
+repointed every one of the ~600 addresses below it, and nothing in the output
+said so: the diff showed a page rewritten, not a citation broken.
+
+### What 0.4.0 does
+
+An unnumbered heading is addressed by a slug of its own text —
+`TMM/Part14/x-14.-annex-a13-…/adhesive` — falling back to position only for a
+heading whose text is punctuation alone, which has never been seen.
+
+Verified over all 24 affected pages before the change and again by the rebuild:
+**no slug collides with another on its page**, and none slugs to an empty
+string. Two that did would raise `ChunkRefCollision`, which is the existing
+behaviour for two chunks deriving one address and the right one — an address
+shared by two passages is a citation nobody can resolve.
+
+Slugs are **not truncated**. The longest is 158 characters
+(`TMM/Part26/x-annex-a1---citing-multiple-names/citations-when-one-mark-consists-of-a-given-name-and-the-other-the-name-of-a-person-incorporating-the-given-name`).
+A length cap would collide headings differing only past the cut, and `page_ref`
+already carries segments as long for the same reason.
+
+No `x-` prefix, unlike the slug fallback on `page_ref`. There it marks a
+segment that could otherwise be read as the Part-local number the Manual
+prints; here a segment of words is self-evidently not a heading number.
+
+### The trade, stated plainly
+
+A slug breaks when IP Australia rewords the heading. A position broke when
+anything above it moved. The first is rarer, and — this is the part that
+matters — it is *visible*: rewording a heading changes `heading_path` and the
+chunk text, so it appears in the diff as an amendment. A shifted ordinal
+appeared as nothing at all.
+
+Afterwards: 1561 of 2151 chunks (72%) carry a heading-derived address, up from
+784 (36%), and every remaining positional address sits at `#1`.
+
+### If you are tempted to number the headings yourself
+
+Don't. Deriving `15.5` for an unnumbered heading that follows `15.4` is
+inventing an address the Manual does not print, and the next crawl will invent
+a different one when a heading is inserted between them. The slug says only
+what the heading says.

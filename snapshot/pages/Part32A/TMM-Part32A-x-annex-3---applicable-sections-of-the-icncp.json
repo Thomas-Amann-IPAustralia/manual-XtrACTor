@@ -2,7 +2,7 @@
   "chunks": [
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#1",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/principle-4",
       "content_hash": "sha256:3d2e1841ca6e6e9738fa1ef037f559f0c31a7d1d9c93fb7f49c67a47095ca44c",
       "fragment": null,
       "heading_path": [
@@ -20,7 +20,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#2",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/principle-6",
       "content_hash": "sha256:ed86aadd47cc4836a33c54bd4be0b8a944a518af2de4408b5012589dcc861d0c",
       "fragment": null,
       "heading_path": [
@@ -38,7 +38,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#3",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/article-13-trade-designations",
       "content_hash": "sha256:378327e5f0ac8284c161a0288b50c31774b2cc2fe6dc9fec9684e2ae906f4952",
       "fragment": null,
       "heading_path": [
@@ -56,7 +56,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#4",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/article-17-trade-designation-status",
       "content_hash": "sha256:8fd534889c33bf299a21a4060337597a2aeeb55d3d5f3122dd69733bd5d2b042",
       "fragment": null,
       "heading_path": [
@@ -74,7 +74,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#5~1",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/appendix-x-trade-designations~1",
       "content_hash": "sha256:d1970afa38ed160375085abc11172b2d6bb7f9d86576cc9df70c2f08f10b25e2",
       "fragment": {
         "count": 2,
@@ -95,7 +95,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp#5~2",
+      "chunk_ref": "TMM/Part32A/x-annex-3---applicable-sections-of-the-icncp/appendix-x-trade-designations~2",
       "content_hash": "sha256:64d1afbf4cd524e21ad3ec2aa883bcfaff91bb2556ecdc70e00af024efcbfeca",
       "fragment": {
         "count": 2,
@@ -119,9 +119,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:ab469aebf77bc3fc8d3c4d4d0aa65092bddbf4a53f18e1c8abfb9a18b3599677",
-    "crawled_at": "2026-07-28T08:05:21Z",
+    "crawled_at": "2026-07-28T08:53:53Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.3.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "32A. Annex 3 - Applicable Sections of the ICNCP",
     "images": [],
     "last_amended": "2022-04-20",

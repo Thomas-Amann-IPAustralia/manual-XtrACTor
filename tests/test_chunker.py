@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 import pytest
 
 from tmm_snapshot.chunker import (
@@ -48,6 +50,17 @@ def chunks(name, sitemap):
 def synthetic(filename, nav):
     record, body = parse_page(fixture_html("synthetic", filename), nav)
     return chunk_body(body, record, nav)
+
+
+def synthetic_from(html, nav=NESTED_NAV):
+    """Chunk a fixture that a test has edited, to model a Manual amendment."""
+    record, body = parse_page(html, nav)
+    return chunk_body(body, record, nav)
+
+
+@pytest.fixture(scope="module")
+def nested_html():
+    return fixture_html("synthetic", "page_nested_headings.html")
 
 
 @pytest.fixture(scope="module")
@@ -139,16 +152,62 @@ def test_a_highlighted_digit_does_not_truncate_the_address(sitemap):
     )
 
 
-def test_an_unnumbered_heading_falls_back_to_its_position(nested):
-    """SOURCE_NOTES.md §7. The Manual did not number it, so we do not invent a
-    number for it — the ordinal is the only address it has."""
+def test_an_unnumbered_heading_is_addressed_by_a_slug_of_its_text(nested):
+    """SOURCE_NOTES.md §§7, 18. The Manual did not number it, so we do not
+    invent a number — but its own words are an address, and a positional one
+    is not: it moves whenever anything above it does."""
     unnumbered = [
         chunk
         for chunk in nested
         if chunk.heading_path[-1] == "An unnumbered second-level heading"
     ]
 
-    assert [chunk.chunk_ref for chunk in unnumbered] == ["TMM/Part22/9#6"]
+    assert [chunk.chunk_ref for chunk in unnumbered] == [
+        "TMM/Part22/9/an-unnumbered-second-level-heading"
+    ]
+
+
+def test_a_numbered_heading_still_wins_over_its_text(nested):
+    """The Manual's own number is the strongest address available and is not
+    displaced by the slug fallback."""
+    numbered = [
+        chunk for chunk in nested if chunk.chunk_ref.startswith("TMM/Part22/9/9/")
+    ]
+
+    assert numbered, "the fixture has numbered headings"
+    for chunk in numbered:
+        # Digits and separators only — a dotted '9.1.1' becomes '/9/1/1'.
+        assert re.fullmatch(r"TMM/Part22/9(/\d+[A-Z]?)+(~\d+)?", chunk.chunk_ref)
+
+
+def test_inserting_a_section_does_not_move_a_slug_addressed_chunk(nested_html):
+    """The whole point of the change. Under positional addressing every ref
+    after an insertion silently repointed; a slug is unmoved, and the new
+    section simply gets an address of its own.
+
+    Annex A13 is where this bites: 627 slug-addressed chunks on one page, in a
+    glossary the Manual calls non-exhaustive.
+    """
+    before = {chunk.chunk_ref for chunk in synthetic_from(nested_html)}
+
+    inserted = nested_html.replace(
+        "<h2>", '<h2>A brand new section</h2><p>Inserted at the top.</p><h2>', 1
+    )
+    after = {chunk.chunk_ref for chunk in synthetic_from(inserted)}
+
+    assert "TMM/Part22/9/a-brand-new-section" in after
+    assert before - after == set(), "no existing address may be displaced"
+
+
+def test_a_heading_of_punctuation_alone_falls_back_to_position(nested_html):
+    """A slug of nothing is not an address. Never seen in the corpus; this is
+    what happens if the CMS produces one."""
+    odd = nested_html.replace(
+        "An unnumbered second-level heading", "— — —", 1
+    )
+    refs = [chunk.chunk_ref for chunk in synthetic_from(odd)]
+
+    assert any("#" in ref for ref in refs)
 
 
 def test_prose_above_the_first_heading_keeps_the_page_in_its_path(nested):
@@ -157,6 +216,20 @@ def test_prose_above_the_first_heading_keeps_the_page_in_its_path(nested):
         "Part 22 Section 41 - Capable of Distinguishing",
         "22.9. A page with nested headings",
     ]
+
+
+def test_the_page_preamble_is_always_ordinal_1_and_so_cannot_shift(nested_html):
+    """Why `#N` was left in place for headingless sections rather than
+    replaced. A section with no heading is the prose above the *first*
+    heading, so it is the first section by construction — there is no
+    insertion that puts anything ahead of it. All 590 such chunks in the
+    corpus sit at #1.
+    """
+    inserted = nested_html.replace(
+        "<h2>", '<h2>A brand new section</h2><p>Inserted at the top.</p><h2>', 1
+    )
+
+    assert synthetic_from(inserted)[0].chunk_ref == "TMM/Part22/9#1"
 
 
 # -- splitting ------------------------------------------------------------

@@ -21,7 +21,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#2",
+      "chunk_ref": "TMM/Part5/x-word-constituents/the-breakdown-of-words",
       "content_hash": "sha256:6eda374ce39d3514fafc4dfecb597cc8c2c39e9e54c3dc8e3b786ad96e045353",
       "fragment": null,
       "heading_path": [
@@ -39,7 +39,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#3",
+      "chunk_ref": "TMM/Part5/x-word-constituents/stop-words",
       "content_hash": "sha256:73157f7f48f7a430aeba244a93d6fd85f81fd5d1b4e889e7e268774581f240de",
       "fragment": null,
       "heading_path": [
@@ -57,7 +57,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#4",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters",
       "content_hash": "sha256:5df86a35ce1898999fed56935486fb54827ce055c3d273def6e7c52513934940",
       "fragment": null,
       "heading_path": [
@@ -75,7 +75,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#5",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-or-words",
       "content_hash": "sha256:556e422eaa37afce102826b98575dc32b1d0ea52c1e9d488ed7493e75420fd9b",
       "fragment": null,
       "heading_path": [
@@ -93,7 +93,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#6",
+      "chunk_ref": "TMM/Part5/x-word-constituents/monograms",
       "content_hash": "sha256:ed7b78f92f39be063b9a71afeb1b9cb2d852162f01be8b5cd564ca798de9b564",
       "fragment": null,
       "heading_path": [
@@ -111,7 +111,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#7",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-which-occur-within-a-word-or-attached-to-words",
       "content_hash": "sha256:b7338893bd386dfd40cbd91bb7976082ed0abf670c9c3fbc82ac99094268e307",
       "fragment": null,
       "heading_path": [
@@ -170,7 +170,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#8",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
       "content_hash": "sha256:659aed3b4b68981e5b8a4888d3ef26dfcf61c7b8783aaee711a3ef46c3016f57",
       "fragment": null,
       "heading_path": [
@@ -188,7 +188,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#9",
+      "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-marks-containing-letters",
       "content_hash": "sha256:36fe12fc414fcaf4c87abdc3e796f479e63faba4bb3443633afd8738a5b7d826",
       "fragment": null,
       "heading_path": [
@@ -328,7 +328,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#10",
+      "chunk_ref": "TMM/Part5/x-word-constituents/phonetic-equivalents-of-letters",
       "content_hash": "sha256:60285d6a0bf93cc7991cec1f6caa8db5fd10867f928644815c2729ae5a7da35e",
       "fragment": null,
       "heading_path": [
@@ -388,7 +388,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#11",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-in-words",
       "content_hash": "sha256:942cab3ea4795d8001c96e47ae55b48d6a5b78477648edb9bb810e93113f8287",
       "fragment": null,
       "heading_path": [
@@ -560,7 +560,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#12",
+      "chunk_ref": "TMM/Part5/x-word-constituents/typescript-or-punctuation-symbols",
       "content_hash": "sha256:26f12261565b5daba0f7342237d073d82f5b37163c02337c595ec7f53068c2b5",
       "fragment": null,
       "heading_path": [
@@ -752,7 +752,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#13",
+      "chunk_ref": "TMM/Part5/x-word-constituents/indexing-and-symbols",
       "content_hash": "sha256:b7bed90b5979bdf2c78fc32a4ea10928f59323a3fc291ca5b98ef3947c067764",
       "fragment": null,
       "heading_path": [
@@ -860,7 +860,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#14",
+      "chunk_ref": "TMM/Part5/x-word-constituents/accents-umlauts-diacritics",
       "content_hash": "sha256:1a91a52bdabdb1c5390d6286327e86b79359af2b78ae81a28d512147a7baff90",
       "fragment": null,
       "heading_path": [
@@ -878,7 +878,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#15",
+      "chunk_ref": "TMM/Part5/x-word-constituents/numbers",
       "content_hash": "sha256:d2c1a4b81838947cde35c0e03d68b6eae495e2f56f7480ffe299d415af0aa263",
       "fragment": null,
       "heading_path": [
@@ -896,7 +896,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#16",
+      "chunk_ref": "TMM/Part5/x-word-constituents/indexing-numbers",
       "content_hash": "sha256:619ceecf37026dfffd0f444f3cb4382d81b351b5154e1169bef74f3632457757",
       "fragment": null,
       "heading_path": [
@@ -996,7 +996,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#17",
+      "chunk_ref": "TMM/Part5/x-word-constituents/fractions",
       "content_hash": "sha256:a3e8948d9ed2264246249657b37212219de2f85c0763dce9e07b9b9ac678ea2e",
       "fragment": null,
       "heading_path": [
@@ -1048,7 +1048,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#18",
+      "chunk_ref": "TMM/Part5/x-word-constituents/decimals",
       "content_hash": "sha256:e18b9276b69f136d297aad233832b9c01516adb61da39daee6f3f333f5804e8f",
       "fragment": null,
       "heading_path": [
@@ -1100,7 +1100,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#19",
+      "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-trade-marks-containing-numbers",
       "content_hash": "sha256:81e8af348e3c377ed1e59729ba85e20e717556e05d0f5f82c65f2663d4373ca2",
       "fragment": null,
       "heading_path": [
@@ -1168,7 +1168,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#20",
+      "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-with-words-or-letters",
       "content_hash": "sha256:3c17d47804c7676aea10d56081411c5ddb8f5f884b381d8c266b57c27af18be8",
       "fragment": null,
       "heading_path": [
@@ -1329,7 +1329,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#21",
+      "chunk_ref": "TMM/Part5/x-word-constituents/ozz-easy-and-quick-phonetics",
       "content_hash": "sha256:8dea60af836cf7edc36df25b78cea5c4882555d6281e5ec92eb528ec8ff2c097",
       "fragment": null,
       "heading_path": [
@@ -1378,7 +1378,7 @@
     },
     {
       "cases": [],
-      "chunk_ref": "TMM/Part5/x-word-constituents#22",
+      "chunk_ref": "TMM/Part5/x-word-constituents/domain-names",
       "content_hash": "sha256:14572ae459b6529a8330d8cd8673e18122ad0a91c975ccc657cd7084ea44862d",
       "fragment": null,
       "heading_path": [
@@ -1512,9 +1512,9 @@
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:0a4451d495e23500bf843d669604e577eab2085fa766ac722ebc198e124fd6c2",
-    "crawled_at": "2026-07-28T08:05:05Z",
+    "crawled_at": "2026-07-28T08:53:37Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.3.0",
+    "extractor_version": "ingest/0.4.0",
     "h1": "Word Constituents",
     "images": [
       {

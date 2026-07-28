@@ -230,17 +230,52 @@ def content_hash(text: str) -> str:
     return f"sha256:{hashlib.sha256(text.encode('utf-8')).hexdigest()}"
 
 
+def _slug(text: str) -> str:
+    """Heading text to an address segment: 'Aged care' -> 'aged-care'.
+
+    Not truncated. The longest in the corpus is 112 characters, which is
+    unwieldy and honest; a length cap would introduce collisions between
+    headings that differ only past the cut, and an ambiguous address is a worse
+    problem than a long one. `page_ref` already carries segments longer than
+    this for the same reason.
+    """
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
 def _chunk_ref(page_ref: str, headings: list[Tag], ordinal: int) -> str:
     """The chunk's address.
 
-    From the leaf heading's own number where it has one, appended whole:
-    heading '1.2' on page TMM/Part22/1 is TMM/Part22/1/1/2, which reads as
-    'Part 22, page 1, heading 1.2' (SCHEMA.md §The chunk record). The page's
-    number repeats, and that redundancy is the price of an address that can be
-    read back to a heading the Manual actually prints.
+    Three forms, strongest first.
 
-    Unnumbered headings, and the prose above the first heading, fall back to
-    position — '#3' — because there is nothing else to address them by.
+    **The heading's own number**, where it has one, appended whole: heading
+    '1.2' on page TMM/Part22/1 is TMM/Part22/1/1/2, which reads as 'Part 22,
+    page 1, heading 1.2' (SCHEMA.md §The chunk record). The page's number
+    repeats, and that redundancy is the price of an address that can be read
+    back to a heading the Manual actually prints.
+
+    **A slug of the heading's text**, where the Manual numbers the heading but
+    not with a number — 'Adhesive', 'Applications for services'. 777 chunks are
+    addressed this way and 627 of them are the Part 14 Annex A13 glossary,
+    which the Manual describes as non-exhaustive and therefore expects to add
+    to. Positional addresses on that page meant inserting one term silently
+    repointed every citation after it; a slug means an insertion changes no
+    existing address at all, because the new term simply gets its own.
+
+    What a slug does *not* survive is the heading being reworded. That is the
+    trade, and it is the right way round: a reworded heading changes the chunk
+    text too, so it shows up in the diff, where a shifted ordinal showed up
+    nowhere. See SOURCE_NOTES.md §18.
+
+    No `x-` prefix, unlike the slug fallback on `page_ref`. There it marks a
+    segment that could otherwise be mistaken for the Part-local number the
+    Manual prints; here a segment of words is self-evidently not a heading
+    number, and chunk_refs are meant to be read by people.
+
+    **Position** — '#3' — for the prose above the page's first heading, which
+    has no heading to be named by, and for a heading whose text is punctuation
+    only. The first is common and costs nothing: a section with no heading is
+    the page preamble, so it is always ordinal 1 and nothing can be inserted
+    ahead of it. The second has never been seen.
 
     Read through `flatten_text`, not `get_text(" ")`: the CMS lets an editor
     highlight a single digit of a heading's number, and the separator then
@@ -248,9 +283,12 @@ def _chunk_ref(page_ref: str, headings: list[Tag], ordinal: int) -> str:
     leading address is '3'. See SOURCE_NOTES.md §7.
     """
     if headings:
-        match = _LEADING_ADDRESS.match(flatten_text(headings[-1]))
+        leaf = flatten_text(headings[-1])
+        match = _LEADING_ADDRESS.match(leaf)
         if match is not None:
             return f"{page_ref}/{match.group('address').replace('.', '/')}"
+        if slug := _slug(leaf):
+            return f"{page_ref}/{slug}"
     return f"{page_ref}#{ordinal}"
 
 

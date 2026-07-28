@@ -113,6 +113,34 @@ Do not add a separate sequential id. A serial number is a citation that breaks
 silently: insert a paragraph upstream and `chunk-047` now points at different
 text, with nothing to detect it. An address survives where a counter does not.
 
+Three forms, strongest first:
+
+| Form | Example | Chunks |
+|---|---|---|
+| The heading's own number | `TMM/Part22/1/1/2` | 784 |
+| A slug of the heading's text | `TMM/Part14/x-…-a13/adhesive` | 777 |
+| Position on the page | `TMM/Part47/1#1` | 590 |
+
+**The slug form** covers headings the Manual writes but does not number —
+*Adhesive*, *Applications for services*, *Disclaimer*. It replaced positional
+addressing for these in `ingest/0.4.0`, and `SOURCE_NOTES.md` §18 has the
+measurements. The short version: 627 of those 777 are one page, the Part 14
+Annex A13 glossary, which the Manual itself calls *non-exhaustive* — so
+inserting a single term used to repoint every citation after it, silently. A
+slug is unmoved by an insertion, because the new term simply gets its own.
+
+What a slug does not survive is the heading being reworded. That is the trade
+and it is the right way round: a reworded heading changes the chunk text too,
+so it lands in the diff — where a shifted ordinal landed nowhere. Two headings
+that slug alike on one page raise `ChunkRefCollision` rather than being
+resolved with a counter; none do today.
+
+**The positional form** is left only for the prose above a page's first
+heading, which has no heading to be named by. It is not the exposure it looks
+like: a section with no heading *is* the page preamble, so it is the first
+section by construction and nothing can be inserted ahead of it. All 590 sit
+at `#1`, and a test pins that.
+
 **`page_ref`** — the join back to the page.
 
 **`text`** — the words, verbatim, whitespace-normalised and nothing else. No
