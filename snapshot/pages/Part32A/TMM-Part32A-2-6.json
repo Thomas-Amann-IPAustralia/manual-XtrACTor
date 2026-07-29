@@ -59,8 +59,13 @@
         "32A.2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination."
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part22/11"
+        {
+          "extraction": "href",
+          "mention": "Part 22.11.2",
+          "ref": "TMM/Part22/11"
+        }
       ],
       "kind": "body",
       "links": [
@@ -132,6 +137,7 @@
         "32A.2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination."
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -164,16 +170,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:c0ff374ba0612d98acc66d2e78d377fbb2a02ffa141c6142f21d6c09fd5b2943",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:ec88248214f071ec3ed1e4855f5331ea7cc80e91ac64dba92e8eea947f8e9f57",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32A.2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination.",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination",
     "page_ref": "TMM/Part32A/2/6",
     "part_id": "Part32A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.61"
   }
 }

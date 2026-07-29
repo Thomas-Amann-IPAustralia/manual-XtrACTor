@@ -36,6 +36,7 @@
         "Part 1.1. Introduction"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -81,6 +82,13 @@
         "Disclaimer"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part1/x-1.-introduction7/disclaimer",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -94,16 +102,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:4f1c29715fa8ebd90485b0cf916553e74bed9a932413280cdad8fa5c9a7e6868",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:62caf796edb9d4c0a9ee5197bc6ed2a751f09981bc624f44adff8ed0ccbcf887",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 1.1. Introduction",
     "images": [],
     "last_amended": "2025-02-25",
     "nav_title": "Part 1. Introduction",
     "page_ref": "TMM/Part1/x-1.-introduction7",
     "part_id": "Part1",
+    "printed_page_ref": "TMM/Part1/1",
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-introduction7"
   }
 }

@@ -24,6 +24,7 @@
         "Part 15.7. Review of the Registrar's decision"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -70,6 +71,13 @@
         "7.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/7/7/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -96,6 +104,13 @@
         "7.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/7/7/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -109,16 +124,17 @@
   "page": {
     "amendment_note": "Minor text edits",
     "archived": false,
-    "content_hash": "sha256:790638dacdfaf0d3a42fd2cfef57208c6e62a987b139802d76b67f668f8f0715",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:b6188d9f8d92c7f360f5576b33bf7e6a4c55a6974a0e46188684007cfc841223",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-07-15",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 15.7. Review of the Registrar's decision",
     "images": [],
     "last_amended": "2026-07-15",
     "nav_title": "7. Review of the Registrar's decision",
     "page_ref": "TMM/Part15/7",
     "part_id": "Part15",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/7.-review-of-the-registrars-decision"
   }
 }

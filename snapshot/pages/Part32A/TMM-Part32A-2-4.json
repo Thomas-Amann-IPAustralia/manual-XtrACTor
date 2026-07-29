@@ -33,6 +33,13 @@
         "2.4.1 Specific plant material considerations"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/4/2/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -92,8 +99,20 @@
         "2.4.2 General considerations"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/4/2/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/4"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 29.4.10",
+          "ref": "TMM/Part29/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -192,6 +211,23 @@
         "2.4.3(a) Amending the goods"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/4/2/4/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": null,
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part32A/2/4/2-4-3-a-amending-the-goods",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -259,6 +295,23 @@
         "2.4.3(b) Examples of use"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/4/2/4/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": null,
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part32A/2/4/2-4-3-b-examples-of-use",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -299,16 +352,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:be2803a3d03bf51ed3c212922c56d8f4e5c88c978fbf9049bcff16ab7c0467c5",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:74a8485e2459a352a868502f93b05e67754cb86d148c5513880c1a5d98288c74",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32A.2.4 Section 43: Deception and Confusion",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2.4 Section 43: Deception and Confusion",
     "page_ref": "TMM/Part32A/2/4",
     "part_id": "Part32A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.4-section-43--deception-and-confusion"
   }
 }

@@ -125,7 +125,7 @@ class Chunk:
     fragment: dict | None
     provisions: list[dict]
     cases: list[dict]
-    internal_refs: list[str]
+    internal_refs: list[dict]
     #: The grid of any table in this chunk. `text` renders a table as a run of
     #: cell text, which is the right verbatim reading and tells you nothing
     #: about which cell sat under which column; this is where that survives.
@@ -138,7 +138,7 @@ class Chunk:
     blocks: list[dict] = field(default_factory=list)
     #: The hyperlinks in this chunk, with the offsets into `text` at which the
     #: Manual set them. `provisions` and `internal_refs` record what a link
-    #: means where the extractor can say; this records the link. 766 of the
+    #: means where the extractor can say; this records the link. 792 of the
     #: corpus's anchors reach neither of those fields. See links.py.
     links: list[dict] = field(default_factory=list)
     #: How the leaf of `heading_path` was found: 'markup' for an `<h2>`-`<h4>`,
@@ -150,6 +150,24 @@ class Chunk:
     #: honest — a consumer that wants only the Manual's own structure filters
     #: on 'markup' and loses nothing it was entitled to.
     heading_source: str | None = None
+    #: One entry per heading in `heading_path[2:]`, outermost first, carrying
+    #: the three things about an ancestor that `heading_path` cannot say:
+    #: its depth, how it was found, and the chunk that holds it.
+    #:
+    #: `heading_path` is a list of strings, so a consumer could see *that* a
+    #: chunk sat under '2.3' and not what level 2.3 was cut at, whether it was
+    #: marked up or inferred, or how to address it. 831 of the corpus's chunks
+    #: have an ancestor heading that owns no chunk of its own — §27's container
+    #: headings, 836 of the 3,028 entries — and before 0.8.0 the only way to
+    #: reach one was to match its text within the page, which is the fragile
+    #: join `chunk_ref` exists to replace. `ref` says so directly, and says
+    #: `null` where there is nothing to address rather than leaving a consumer
+    #: to discover it.
+    #:
+    #: The text is deliberately not repeated: it is `heading_path[2:][i]`, and
+    #: `validate._heading_failures` pins the correspondence over the whole
+    #: snapshot so the two cannot drift.
+    headings: list[dict] = field(default_factory=list)
 
 
 class _Heading(NamedTuple):
@@ -526,7 +544,17 @@ def _opens_a_subsection(
 
 
 def _repeated_labels(sections: list[tuple[list[_Heading], list]]) -> frozenset[str]:
-    """Slug addresses the page prints more than once.
+    """Slug addresses the page prints more than once, among sections it emits.
+
+    **Counted over emitted sections only**, which is the 0.8.0 correction. It
+    used to count every section `_sections` produced, including the ones
+    `chunk_body` then declines to cut — a container heading whose content is
+    in its subsections (§27), an empty heading, a bare marker. A label printed
+    once as a never-chunked parent and once as a real section was therefore
+    read as repeated, and the real section was demoted to the positional form
+    although nothing else claimed its slug. Nothing in the corpus triggers it
+    today; what it silently reintroduced was the exposure SOURCE_NOTES.md §18
+    measured and removed.
 
     A *number* printed twice is a numbering mistake, and the Manual's numbering
     is what a citation to it rests on — that stays a `ChunkRefCollision`, loud,
@@ -618,6 +646,14 @@ def chunk_body(
     reference is dropped rather than guessed. It is an addition to the
     signature in ARCHITECTURE.md, which predates the discovery that resolution
     needs the inventory — see the note there.
+
+    Two things happen in a set order here and both are load-bearing. Every
+    section is planned before any is addressed, because a section that is
+    never cut must not compete for an address (`_repeated_labels`). And the
+    links are extracted before the cross references, because
+    `extract_internal_refs` now reads them rather than the markup — one
+    reading of the anchors, shared with the pass that re-settles a page the
+    run did not cut (ARCHITECTURE.md §Settling).
     """
     inventory = sitemap or {}
     chunks: list[Chunk] = []
@@ -625,7 +661,12 @@ def chunk_body(
     ordinal = 0
 
     sections = _sections(body, page_number(page.page_ref))
-    repeated = _repeated_labels(sections)
+
+    # Decide what is emitted before deciding what it is called. A section that
+    # never becomes a chunk cannot compete for an address, and counting one as
+    # though it did demoted its namesake to a positional ref — see
+    # `_repeated_labels`.
+    plans: list[tuple[list[_Heading], list[list[Tag | NavigableString]]]] = []
 
     for index, (headings, units) in enumerate(sections):
         groups = _group(units)
@@ -676,11 +717,19 @@ def chunk_body(
                 continue
             groups = [[headings[-1].tag]]
 
-        heading_path = [
-            nav.part_title,
-            page.h1 or nav.nav_title,
-            *(flatten_text(heading.tag) for heading in headings),
-        ]
+        plans.append((headings, groups))
+
+    repeated = _repeated_labels([(headings, []) for headings, _ in plans])
+
+    #: The chunk that holds each heading's own section, by the identity of its
+    #: tag. Sections come in document order, so an ancestor's entry is always
+    #: written before any descendant reads it, and a heading `chunk_body`
+    #: declined to cut simply has none — which is what `ref: null` says.
+    owner: dict[int, str] = {}
+
+    for headings, groups in plans:
+        heading_text = [flatten_text(heading.tag) for heading in headings]
+        heading_path = [nav.part_title, page.h1 or nav.nav_title, *heading_text]
         # One address per section, so that a section which had to be split
         # reads as '#3~1', '#3~2' rather than '#3~1', '#4~2'.
         base = _chunk_ref(page.page_ref, headings, ordinal + 1, repeated)
@@ -691,6 +740,11 @@ def chunk_body(
             text = flatten_text(fragment)
             ref = f"{base}~{index}" if len(groups) > 1 else base
 
+            # A split section's heading is held by its opening fragment, which
+            # is where a link to that heading is aimed (SOURCE_NOTES.md §22).
+            if headings:
+                owner.setdefault(id(headings[-1].tag), ref)
+
             if ref in seen:
                 raise ChunkRefCollision(
                     f"{ref} was derived twice on {page.page_ref} (chunks "
@@ -699,6 +753,7 @@ def chunk_body(
                     "must be corrected"
                 )
             seen[ref] = ordinal
+            links = extract_links(fragment)
 
             chunks.append(
                 Chunk(
@@ -716,11 +771,21 @@ def chunk_body(
                     ),
                     provisions=extract_provisions(fragment, text),
                     cases=extract_cases(text),
-                    internal_refs=extract_internal_refs(fragment, inventory),
+                    internal_refs=extract_internal_refs(
+                        links, text, inventory, page.page_ref
+                    ),
                     tables=extract_tables(fragment),
                     blocks=extract_blocks(fragment),
-                    links=extract_links(fragment),
+                    links=links,
                     heading_source=headings[-1].source if headings else None,
+                    headings=[
+                        {
+                            "level": heading.level,
+                            "source": heading.source,
+                            "ref": owner.get(id(heading.tag)),
+                        }
+                        for heading in headings
+                    ],
                 )
             )
 

@@ -24,6 +24,7 @@
         "5.3. Indexing"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -118,8 +119,19 @@
         "3.1 Indexing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part5/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part5/x-glossary-of-image-descriptors"
+        {
+          "extraction": "href",
+          "mention": "Glossary of Image Descriptors",
+          "ref": "TMM/Part5/x-glossary-of-image-descriptors"
+        }
       ],
       "kind": "body",
       "links": [
@@ -147,16 +159,17 @@
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:cda5ee42ab91626a90289279cea5f5fa7b3dc3eca5844046796901cc7da5dd2a",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:3ffad63a6d0ffa85ea04e4b7997df20ae973b5833b3af665d758603a4966de6e",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "5.3. Indexing",
     "images": [],
     "last_amended": "2026-04-13",
     "nav_title": "3. Indexing and Re-scanning",
     "page_ref": "TMM/Part5/3",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-indexing"
   }
 }

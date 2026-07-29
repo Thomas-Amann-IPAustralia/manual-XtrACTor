@@ -61,8 +61,19 @@
         "4.3.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/3/4/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part5/1"
+        {
+          "extraction": "href",
+          "mention": "Part 5 Data Capture, Indexing and Scanning",
+          "ref": "TMM/Part5/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -179,6 +190,13 @@
         "4.3.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/3/4/3/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -192,16 +210,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:4aeb98c0b87b7114017d000e21f3e0acc8db56567b0ce67d6826507c6bd47510",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:75f68867732f688dd5e2983059c642bab7ea2f9212f132193dfc253f599d782b",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
     "page_ref": "TMM/Part60/4/3",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.3-filing-data-capture-allocation-of-australian-trade-mark-number"
   }
 }

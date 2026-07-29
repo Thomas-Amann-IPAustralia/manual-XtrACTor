@@ -41,6 +41,13 @@
         "4.25.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -155,6 +162,13 @@
         "4.25.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -185,6 +199,13 @@
         "4.25.3 Transformation Process for a cancelled International Registration"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -278,6 +299,18 @@
         "4.25.3.1 Partial Transformation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/3",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/25/4/25/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -371,6 +404,18 @@
         "4.25.3.2 Full Transformation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/3",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/25/4/25/3/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -415,6 +460,13 @@
         "4.25.4 Transformation after denunciation of the Protocol"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/25/4/25/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -428,16 +480,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:881fa0d47155ef50d33e45493fef878f6e6a62fd1d6f4c1145ad9b1b3478e633",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:89c447fcb287c547b0312318a80338c51a79e1796bd655d52bbdb3f6ae4e764b",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.25 Transformation",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.25 Transformation",
     "page_ref": "TMM/Part60/4/25",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.25-transformation"
   }
 }

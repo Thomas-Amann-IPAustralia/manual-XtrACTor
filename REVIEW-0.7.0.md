@@ -1,5 +1,18 @@
 # Review of the 0.7.0 extraction
 
+> **Resolved in `ingest/0.8.0`.** All ten findings were acted on and the
+> documentation drift corrected; the snapshot in this repository is the rebuilt
+> one. This document is kept as the record of what was wrong and how it was
+> measured — the rules that replaced it live in `SOURCE_NOTES.md` §§30–31,
+> `ARCHITECTURE.md` §Settling, and the `internal_refs`, `headings` and
+> `printed_page_ref` entries in `SCHEMA.md`.
+>
+> Two findings were implemented more narrowly than proposed here, and both are
+> noted in place below: finding 1 reads the Manual's own *"of this chapter"*
+> rather than dropping the reference, and finding 5's `certainty` scale came
+> out empty at `ambiguous` because the provenance layer dissolved the one
+> competing case. Nothing was widened.
+
 An audit of the pipeline and of `snapshot/` at `ingest/0.7.0` — 500 page files,
 2,460 chunks, 12,521 blocks, 2,218 links, 2,802 provisions, 519 cases, 417
 internal refs — asking two questions:
@@ -114,6 +127,12 @@ The first is cheaper and needs no new judgement. Either beats what is there
 now, which is the failure mode `SCHEMA.md` names: *a wrong edge that looks
 certain*.
 
+> **Fixed in 0.8.0 with the second option**, because the qualifier is the
+> source speaking rather than a rule of ours, and dropping would have lost
+> three edges the Manual states plainly. All three now resolve inside Part 32A
+> at `certainty: "explicit"`; the `TMM/Part2/*` edges are gone.
+> `SOURCE_NOTES.md` §30 has the rule and the three brakes its window needs.
+
 ## 2. Cross references rot on every crawl that is not `--force`
 
 **Reproduced end to end.** A crawl that changes one heading leaves dangling
@@ -171,6 +190,14 @@ the stored refs of skipped pages — which `_chunk_inventory` already walks ever
 page file to do — and rewriting only the pages whose settled refs actually
 moved, so rule 2 is untouched.
 
+> **Fixed in 0.8.0 as `crawl._settle_stored`**, and without storing a candidate
+> anywhere: `extract_internal_refs` now reads a chunk's `links` and `text`
+> rather than its markup, so the same function derives candidates from a live
+> chunk and from a stored one, and `resolve_internal_refs` is idempotent so a
+> settled ref is a valid candidate. The reproduction above now coarsens the two
+> refs, names both pages in the run report, and validates; putting the heading
+> back re-sharpens them. `ARCHITECTURE.md` §Settling.
+
 ## 3. The page hash cannot see a change in nesting
 
 `canonical_body` emits an opening token per element and never a closing one, so
@@ -209,6 +236,11 @@ it is an `EXTRACTOR_VERSION` bump and a full rebuild, which is the same cost
 `SOURCE_NOTES.md` §4 already prices for the block-boundary fix. Doing both in
 one change costs one rebuild rather than two.
 
+> **Fixed in 0.8.0**: `canonical_body` now emits a closing token per element.
+> The block-boundary fix of §4 did *not* ride along — it is a change to what
+> `certainty: "explicit"` asserts about provisions and belongs in its own
+> review, not smuggled into a rebuild done for other reasons.
+
 ## 4. `extract_images` can order its output two ways
 
 ```
@@ -229,6 +261,10 @@ empty `alt` beside a bare one starts rewriting itself on alternate runs.
 
 Sorting on `(src, alt is None, alt or "")` — or on the repr — makes the key
 total and the output stable.
+
+> **Fixed in 0.8.0** with `(src, alt is not None, alt or "")`, which puts a
+> missing `alt` before an empty one. Pinned across six values of
+> `PYTHONHASHSEED`.
 
 ---
 
@@ -292,6 +328,13 @@ That also gives finding 1 somewhere honest to put itself: a locally-qualified
 bare reference becomes `certainty: "ambiguous"` rather than a confident wrong
 answer, and rule 3 is satisfied without dropping anything.
 
+> **Fixed in 0.8.0, in exactly this shape.** 378 edges are `href` and 40 are
+> `regex`; of the 40, 38 are `default` and 2 are `explicit`. `ambiguous` is
+> empty, and that is a measurement rather than an omission — the one case where
+> two page-level readings genuinely competed, Part 9.3's *"Part 5.2.2.6"*, the
+> authors had also hyperlinked, so the href edge carried it and the doubt
+> dissolved. The provenance layer paid for itself on its first day.
+
 ## 6. The heading tree is not addressable
 
 `heading_path` is a flat list of strings. `chunker._Heading` carries a `level`
@@ -320,6 +363,15 @@ them away one line later. Carrying them — either as a parallel array or by
 making `heading_path` an array of objects — is a schema change, not a new
 reading of the source. Given the ontology is the goal and the corpus is still
 unseeded, this is the change with the best ratio of cost to future pain.
+
+> **Fixed in 0.8.0** as `chunk.headings`, a parallel array of
+> `{level, source, ref}` — 3,028 entries, one per heading in
+> `heading_path[2:]`. `heading_path` is unchanged, the ancestor's text is not
+> repeated, and `validate._heading_failures` pins the correspondence over the
+> whole snapshot so the two cannot drift. `ref` is the chunk holding that
+> heading's section and `null` where it holds none (836 entries, on 831
+> chunks), which is what makes the parent edge addressable rather than a text
+> match.
 
 A related point, not a defect: **a `chunk_ref` cannot be split back into page
 and heading without the record.** `TMM/Part60/4/13/4/13/2/1` is page
@@ -361,6 +413,11 @@ and that reasoning is sound *about the nav*. But the page itself prints
 claimed by nobody. The Manual does say it; it says it somewhere the sitemap
 parser does not look.
 
+> **Fixed in 0.8.0** as `page.printed_page_ref`, null on 498 of 500. The nav
+> still decides `page_ref` — changing what it derives from would repoint every
+> citation in the Part — and the record now says where the page disagrees.
+> `SOURCE_NOTES.md` §31.
+
 ## 8. `_repeated_labels` counts headings that never become chunks
 
 A latent regression of the §18 fix. `_repeated_labels` counts slug addresses
@@ -385,6 +442,12 @@ But the demotion is silent, and what it silently reintroduces is the exact
 exposure §18 measured and removed: a positional address that moves when
 anything above it moves. Counting only the sections that are actually emitted
 fixes it.
+
+> **Fixed in 0.8.0.** `chunk_body` now plans every section before it addresses
+> any, so `_repeated_labels` sees only what is cut. The corpus is unchanged —
+> still 498 positional refs, still the same two off `#1` — which is the point:
+> the fix is invisible in the output and the regression it prevents would have
+> been too.
 
 Worth noting alongside: a positional `#N` is inflated by how *earlier* sections
 fragmented, so it depends on `MAX_CHUNK_CHARS`. Both Part 29.9 refs are already
@@ -412,6 +475,10 @@ Either count them from disk, or move them under a third key that describes the
 inventory. The numbers are both worth having; they are answers to different
 questions and the block they sit in claims they are answers to one.
 
+> **Fixed in 0.8.0** by counting them from disk. The inventory's own counts are
+> already in `sitemap.json`, and how many were in scope is
+> `run.pages_in_scope`, so no third key was needed.
+
 ## 10. Nothing local tells you a chunker change moved the corpus
 
 Gate 2 compares the **page record** only. A change confined to the chunker,
@@ -438,6 +505,11 @@ Adding `--force` to a `--from-raw --dry-run` gives exactly the missing check —
 no network. It is the command that found the byte-identical result at the top
 of this review, and it belongs in CLAUDE.md's pre-commit list in place of, or
 beside, the live one.
+
+> **Fixed in 0.8.0**: `crawl --from-raw --force --dry-run` replaced the live
+> fetch in CLAUDE.md's pre-commit list, with a note on why `--force` is what
+> makes it a check at all. The live `--dry-run --limit 5` is now described as
+> what to run when you have changed the fetching.
 
 ---
 

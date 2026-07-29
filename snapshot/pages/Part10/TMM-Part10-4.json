@@ -40,6 +40,7 @@
         "10.4. Translation/transliteration of non-English words and non-Roman characters"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -91,6 +92,13 @@
         "4.1 Translation/transliteration endorsement"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part10/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -138,6 +146,18 @@
         "4.1.1"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part10/4/4/1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part10/4/4/1/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -197,6 +217,18 @@
         "4.1.2"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part10/4/4/1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part10/4/4/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -232,6 +264,18 @@
         "4.1.3"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part10/4/4/1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part10/4/4/1/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -245,16 +289,17 @@
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
-    "content_hash": "sha256:35194a58bd0de862fb2c123e516e30593c0351f8ca9c9b64ab65444c9d48fdb7",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:92d73013ffaf8a2fbb0c715a87775560013af67305d00fbedde5f9cc6cdd1c7a",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "10.4. Translation/transliteration of non-English words and non-Roman characters",
     "images": [],
     "last_amended": "2025-01-21",
     "nav_title": "4. Translation/transliteration of Non-English words and non-Roman characters",
     "page_ref": "TMM/Part10/4",
     "part_id": "Part10",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-translation-transliteration-of-non-english-words-and-non-roman-characters"
   }
 }

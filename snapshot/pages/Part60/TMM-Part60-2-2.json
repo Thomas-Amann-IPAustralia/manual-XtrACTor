@@ -45,6 +45,13 @@
         "2.2.1 Relevant Legislation"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -131,6 +138,13 @@
         "2.2.2 General Description"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -194,6 +208,13 @@
         "2.2.3 Requirements for the International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -267,6 +288,13 @@
         "2.2.4 Explanation of International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -316,8 +344,19 @@
         "2.2.4 Explanation of International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part11/1"
+        {
+          "extraction": "href",
+          "mention": "Part 11 Convention Applications",
+          "ref": "TMM/Part11/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -409,6 +448,13 @@
         "2.2.4 Explanation of International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -482,11 +528,35 @@
         "2.2.4 Explanation of International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part14/1",
-        "TMM/Part14/2",
-        "TMM/Part60/2/4",
-        "TMM/Part60/3"
+        {
+          "extraction": "href",
+          "mention": "Part 14.2 Classification of goods and services",
+          "ref": "TMM/Part14/1"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 14.2",
+          "ref": "TMM/Part14/2"
+        },
+        {
+          "extraction": "href",
+          "mention": "2.4 Certifying Process",
+          "ref": "TMM/Part60/2/4"
+        },
+        {
+          "extraction": "href",
+          "mention": "3 The Basic Application or Basic Registration (Basic Trade Mark )",
+          "ref": "TMM/Part60/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -535,6 +605,13 @@
         "2.2.4 Explanation of International Application Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/2/2/2/2/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -548,16 +625,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:13b2e54793c865b11cb6af9efc47cd11563d520149770e342de9d6be4fbb0ea8",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:3afec3c7eacf0986a39b8636bea7b190bb63b2010de65893a7e416cbf80d6ec3",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.2.2 International Application Form",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "2.2 International Application Form",
     "page_ref": "TMM/Part60/2/2",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.2-international-application-form"
   }
 }

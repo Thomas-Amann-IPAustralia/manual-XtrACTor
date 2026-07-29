@@ -17,6 +17,13 @@
         "8.1 Single letter trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -71,6 +78,13 @@
         "8.2 Two letter trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -97,6 +111,13 @@
         "8.3 Three or more letter trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -123,6 +144,13 @@
         "8.4 Monograms"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -168,6 +196,13 @@
         "8.5 Abbreviations and acronyms"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -222,6 +257,18 @@
         "8.5.1 Acronym/Abbreviation combination trade marks"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/5",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part22/8/8/5/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -255,6 +302,13 @@
         "8.6 Words the phonetic equivalent of letters"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -286,6 +340,13 @@
         "8.7 Punctuated Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -316,6 +377,13 @@
         "8.8 Trade marks containing letters and other material"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/8/8/8",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -329,10 +397,10 @@
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
-    "content_hash": "sha256:629173044bb3b7935748021a510cc49a3337fcfd111992098def4cb65c72a6e2",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:ae545949eac8ddcd1e493b7ff1623588aef3ad83ac46f9b95a61d1082019f325",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.8. Letters",
     "images": [
       {
@@ -344,6 +412,7 @@
     "nav_title": "8. Letters",
     "page_ref": "TMM/Part22/8",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/8.-letters"
   }
 }

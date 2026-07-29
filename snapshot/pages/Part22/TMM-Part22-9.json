@@ -20,6 +20,7 @@
         "22.9. Words"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -54,6 +55,13 @@
         "9.1 Words not inherently adapted to distinguish"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -105,6 +113,13 @@
         "9.2 Kind"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -144,6 +159,13 @@
         "9.3 Quality"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -175,9 +197,24 @@
         "9.4 Quantity"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/22",
-        "TMM/Part22/23"
+        {
+          "extraction": "href",
+          "mention": "22",
+          "ref": "TMM/Part22/22"
+        },
+        {
+          "extraction": "href",
+          "mention": "23",
+          "ref": "TMM/Part22/23"
+        }
       ],
       "kind": "body",
       "links": [
@@ -251,6 +288,13 @@
         "9.5 Intended purpose"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -282,6 +326,13 @@
         "9.6 Value"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -308,6 +359,13 @@
         "9.7 Time of production"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/9/9/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -321,16 +379,17 @@
   "page": {
     "amendment_note": "Minor updates.",
     "archived": false,
-    "content_hash": "sha256:20dcb4ba3643a50c7723be32a29f75f3a155e23ce435bc8b0652c26a8e473d7f",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:b68475737e9c8b39b9a6e52342c8b7b011e4b90008c5ffd67cdb195898067a9f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.9. Words",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "9. Words",
     "page_ref": "TMM/Part22/9",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/9.-words"
   }
 }

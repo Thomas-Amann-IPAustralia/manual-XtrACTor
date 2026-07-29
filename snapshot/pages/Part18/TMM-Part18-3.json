@@ -28,6 +28,7 @@
         "Part 18.3. Rejection of an application for registration"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -145,6 +146,13 @@
         "3.1 When to consider rejection of an application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -201,6 +209,18 @@
         "3.1.2 Rejection at the first report"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part18/3/3/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -258,6 +278,18 @@
         "3.2 Notification of intention to reject an application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -285,6 +317,18 @@
         "3.3 Applicant's response to Notice of Intention to Reject"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -326,8 +370,29 @@
         "3.3.1"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part18/3/3/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part52/5"
+        {
+          "extraction": "href",
+          "mention": "5. Rights of appeal from decisions of the Registrar",
+          "ref": "TMM/Part52/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -367,6 +432,23 @@
         "3.3.2"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part18/3/3/3/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -399,6 +481,23 @@
         "3.3.3"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part18/3/3/3/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -436,8 +535,29 @@
         "3.3.4"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part18/3/3/3/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part7/1"
+        {
+          "extraction": "href",
+          "mention": "Part 7 Withdrawal of Applications, Notices and Requests",
+          "ref": "TMM/Part7/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -481,8 +601,24 @@
         "3.4 Legislation"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part18/3/3/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part18/3/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part52/1"
+        {
+          "extraction": "href",
+          "mention": "Part 52 Hearings, Decisions, Reasons and Appeals",
+          "ref": "TMM/Part52/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -573,16 +709,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:366627f0741f54301b8f98c591acef83b232de5e8ac7421ec0633be291e38eb4",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:a5573b536d00403e95adc3ac5d912c82ce7d2e4a9383110bb801beed0a23e277",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 18.3. Rejection of an application for registration",
     "images": [],
     "last_amended": "2025-02-10",
     "nav_title": "Part 18.3. Rejection of an application for registration",
     "page_ref": "TMM/Part18/3",
     "part_id": "Part18",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-rejection-of-an-application-for-registration"
   }
 }

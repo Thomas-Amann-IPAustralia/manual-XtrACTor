@@ -16,6 +16,7 @@
         "22.17. Name of a person"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -50,6 +51,13 @@
         "17.1 Trade marks consisting of surnames and a given name"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/17/17/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -89,8 +97,19 @@
         "17.2 Trade marks consisting of surnames and single common initials"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/17/17/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/18"
+        {
+          "extraction": "href",
+          "mention": "paragraph 18",
+          "ref": "TMM/Part22/18"
+        }
       ],
       "kind": "body",
       "links": [
@@ -142,6 +161,13 @@
         "17.3 Trade marks consisting of surnames and single uncommon initials"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/17/17/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -175,8 +201,19 @@
         "17.4 Trade marks consisting of surnames and two or more initials"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/17/17/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/18"
+        {
+          "extraction": "href",
+          "mention": "paragraph 18",
+          "ref": "TMM/Part22/18"
+        }
       ],
       "kind": "body",
       "links": [
@@ -242,6 +279,13 @@
         "17.5 The signature of the applicant"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/17/17/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -274,16 +318,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:647b751a4af9060c11610b638f2120ad618866847610907da55711373d7060bb",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:45c16d2039b533eac74e1c29310e66f8d0c47016f67b97b647595a70c1484100",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.17. Name of a person",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "17. Name of a person",
     "page_ref": "TMM/Part22/17",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/17.-name-of-a-person"
   }
 }

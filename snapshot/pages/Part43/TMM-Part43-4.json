@@ -59,8 +59,13 @@
         "43.4. Process for assigning all goods and/or services (full assignment)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part43/3"
+        {
+          "extraction": "href",
+          "mention": "section 3",
+          "ref": "TMM/Part43/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -141,6 +146,7 @@
         "43.4. Process for assigning all goods and/or services (full assignment)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -178,16 +184,17 @@
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
-    "content_hash": "sha256:cc64778604db95882471a54d5931df1ab0fb9298605b6bd3ca839b655ed020e0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:1a9b430a26cf23cb55c64f7ae26a9991d5bc7577b46a41f423ba515f2ea92cc7",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.4. Process for assigning all goods and/or services (full assignment)",
     "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "4. Process for assigning all goods and/or services (full assignment)",
     "page_ref": "TMM/Part43/4",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-process-for-assigning-all-goods-and-or-services-full-assignment"
   }
 }

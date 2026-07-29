@@ -56,8 +56,13 @@
         "Part 42.3. Rectification procedures"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part42/x-annex-a1---flow-chart-of-rectification-procedure"
+        {
+          "extraction": "href",
+          "mention": "Annex 1",
+          "ref": "TMM/Part42/x-annex-a1---flow-chart-of-rectification-procedure"
+        }
       ],
       "kind": "body",
       "links": [
@@ -103,16 +108,17 @@
   "page": {
     "amendment_note": "Tagged with chapter: Part 42 Rectification of the Register",
     "archived": false,
-    "content_hash": "sha256:ed6b109b4b58ec0991a6189e776054c7e3c0a1cc8f62920e51af0edaf3922f47",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6d05681f6eb21b36bb734848ba45c2b8f686f7e4a8c7d40dc3c8b18c2d19c624",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-05-28",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 42.3. Rectification procedures",
     "images": [],
     "last_amended": "2025-05-28",
     "nav_title": "3. Rectification procedures",
     "page_ref": "TMM/Part42/3",
     "part_id": "Part42",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-rectification-procedures"
   }
 }

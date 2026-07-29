@@ -39,6 +39,7 @@
         "43.5. Process for assigning only some goods and/or services (partial assignment)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -111,8 +112,13 @@
         "43.5. Process for assigning only some goods and/or services (partial assignment)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part43/4"
+        {
+          "extraction": "href",
+          "mention": "4.6",
+          "ref": "TMM/Part43/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -133,16 +139,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:35c52a852c1c6a57926d5638b1c45994dfb1b805e4dbfc50c8d32c8c9b015ffe",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5e8a6d207c56c8b32362dbfa2435687a1d759bec3a9749bf7c0f539badd8f274",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.5. Process for assigning only some goods and/or services (partial assignment)",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "5. Process for assigning only some goods and/or services (partial assignment)",
     "page_ref": "TMM/Part43/5",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-process-for-assigning-only-some-goods-and-or-services-partial-assignment"
   }
 }

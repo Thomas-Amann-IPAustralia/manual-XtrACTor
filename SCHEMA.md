@@ -81,6 +81,24 @@ The image bytes are **not** stored. For those eight pages the snapshot records
 that the Manual said something in a picture, and where the picture was, but not
 what it said. That is a known gap, not an oversight — see `TASKS.md` §T11.
 
+**`printed_page_ref`** — the address the page's own `<h1>` prints, on the two
+pages where that is not its `page_ref`, and `null` on the other 498.
+
+`page_ref` comes from the nav and must: the nav is the only reliable source of
+Part membership and the only thing keeping two colliding slugs apart. But the
+page prints an address too, and on two of them the two disagree —
+`TMM/Part20/3` prints *"Part 20.2. Definition of sign"* while `TMM/Part20/2`
+prints *"20.2. Background to definition of a trade mark"*, so **two pages claim
+20.2**. That is the Manual's defect, not ours, and rule 1 says to record an
+ambiguity rather than resolve it. The nav still decides the address; this says
+the page disagrees. Without it a bare *"part 20.2"* elsewhere resolves to one
+of them with nothing anywhere suggesting it might have meant the other.
+
+The second is milder: Part 1's introduction is *"Part 1. Introduction"* in the
+nav, which qualifies down to no page-local address at all, so its `page_ref` is
+the slug form — while its `<h1>` prints *"Part 1.1."* and `TMM/Part1/1` is
+claimed by nobody. `SOURCE_NOTES.md` §31.
+
 **`crawled_at`** — when *this version of the page* was first seen. Not when the
 crawler last looked: that is a property of the run and lives in
 `manifest.json`.
@@ -211,6 +229,46 @@ number. Across the corpus that admits 471 candidates and rejects exactly one.
 what the Manual marked up filters to `markup`; one that wants the structure the
 Manual *prints* takes both. Neither has to guess which it is getting, and that
 is the whole reason the field is here rather than the inference being silent.
+
+**`headings`** — one entry per heading in `heading_path[2:]`, outermost first,
+carrying the three things about an ancestor that a list of strings cannot say.
+
+```json
+[
+  {"level": 2, "source": "markup",   "ref": null},
+  {"level": 3, "source": "markup",   "ref": "TMM/Part22/1/1"},
+  {"level": 4, "source": "emphasis", "ref": "TMM/Part22/1/1/2"}
+]
+```
+
+**`level`** is depth on one scale for both kinds of heading: the digit of an
+`<h2>`–`<h4>`, and for an inferred heading the number of components in the
+number the Manual printed — `3.1` sits where an `<h3>` sits and `3.1.1` where an
+`<h4>` does. It is what the chunker keys ancestry on, and without it a consumer
+cannot see the nesting that was read, which matters on the three pages where
+the Manual's numbering and its markup disagree (`SOURCE_NOTES.md` §28).
+
+**`source`** is `heading_source`, for every ancestor rather than the leaf alone.
+One chunk in the corpus is cut on an `<h3>` while sitting under a heading
+promoted from a bold paragraph, so filtering to `heading_source == "markup"`
+does not by itself give you an ancestry the Manual marked up.
+
+**`ref`** is the chunk holding that heading's own section, and `null` where it
+holds none — the ordinary case for a heading whose content lives entirely in
+its subsections (`SOURCE_NOTES.md` §27). 836 of the corpus's 3,028 entries are
+null, and they sit on 831 chunks. **This is what makes the heading tree addressable:** the parent of a
+chunk is the last entry before it with a `ref`, and the page where there is
+none. Before `ingest/0.8.0` the only route to an ancestor was to match its text
+within the page — the fragile join `chunk_ref` exists to replace. Where a
+section was long enough to split, this is its opening fragment, which is where
+a link to the heading is aimed.
+
+**The ancestor's text is deliberately not repeated here.** It is
+`heading_path[2:][i]`. Storing it twice would give two representations of one
+fact and a way for them to disagree, so instead the correspondence is checked:
+`validate._heading_failures` asserts one entry per heading, in order, with the
+leaf agreeing with `heading_source`, over the whole snapshot. Same arrangement
+as `blocks` joining back to `text`.
 
 **`fragment`** — present only when an over-long section had to be split on
 paragraph boundaries. `{"index": 1, "count": 2}`.
@@ -402,21 +460,51 @@ unreliable to extract and nothing needs them yet.
 ### `internal_refs`
 
 Cross references to other Manual pages, resolved to `page_ref` or `chunk_ref`
-through the sitemap. If a reference does not resolve — a bare "see part 22.15.7"
-pointing at something that no longer exists — **drop it**. An unresolvable string
-in this field is worse than an absent one, because a consumer will try to follow it.
+through the sitemap, and **carrying how each was found**. If a reference does
+not resolve — a bare "see part 22.15.7" pointing at something that no longer
+exists — **drop it**. An unresolvable string in this field is worse than an
+absent one, because a consumer will try to follow it.
+
+```json
+{ "ref": "TMM/Part12/9", "extraction": "href", "mention": "9. Divisional Applications" }
+{ "ref": "TMM/Part22/15", "extraction": "regex", "certainty": "default",
+  "mention": "part 22.15.7" }
+```
+
+**`extraction` is the same distinction `provisions` draws, and it is
+load-bearing for the same reason.** An href is the Manual's authors linking one
+passage to another; a regex edge is our reading of *"see part 22.15.7"* in the
+prose. 378 of the corpus's 418 edges are the first and 40 are the second. Until
+`ingest/0.8.0` this field was an array of bare strings and the two were
+indistinguishable — the rule this repository applies to statute, it was not
+applying to itself.
+
+**`certainty`**, for regex edges, means what it means on a provision.
+
+| Value | Edges | Means |
+|---|---|---|
+| `default` | 38 | Read by the convention of `SOURCE_NOTES.md` §8 — `part 22.15.7` names Part 22 — with nothing competing. |
+| `explicit` | 2 | The Manual settled it in its own words: *"part 2.3.1(c) **of this chapter**"* says the digits are this Part's address, not Part 2's. |
+| `ambiguous` | 0 | Both readings resolve and nothing chooses. The conventional target is kept, because the record has nowhere else to put one, and the flag beside it is what stops it being read as a fact. |
+
+That `ambiguous` is empty is a measurement, not an assumption: every bare
+reference in the corpus either names its own Part, names a Part no local
+reading competes with, or is settled by the Manual's own qualifier — and the
+one place two page-level readings did compete, Part 9.3's *"Part 5.2.2.6"*, the
+authors had also hyperlinked, so the href edge carried it. `SOURCE_NOTES.md`
+§30 has the rule and what it was found by.
 
 **Chunk-level refs come from a link's `#fragment`**, which is the slug of the
-target heading and opens with the number the Manual prints. 32 of the 411 refs
+target heading and opens with the number the Manual prints. 28 of the 418 refs
 address a chunk; the rest address a page, either because the anchor named no
 heading number (the Part 5 glossary anchors on single letters) or because the
 heading it named is no longer there. That second case **coarsens to the page
 rather than dropping** — the page half was established by URL and is still
 true. Settling any of this needs the whole snapshot, which is why it happens
-once per run rather than per chunk: `ARCHITECTURE.md` §Two phases,
-`SOURCE_NOTES.md` §22.
+once per run rather than per chunk: `ARCHITECTURE.md` §Two phases and
+§Settling, `SOURCE_NOTES.md` §22.
 
-**A reference to the page it sits on is kept, not filtered.** 22 chunks carry
+**A reference to the page it sits on is kept, not filtered.** 25 chunks carry
 one. They are not noise and not a bug: they are the Manual pointing at another
 part of the same page — *"in light of paragraph 4.3"*, the A–Z index at the top
 of the INN-stems annex, the "refer to the comments above" in Part 21.3. That
@@ -424,6 +512,11 @@ the target is a sibling chunk rather than another page is precisely what a
 retrieval layer needs in order to offer the right next passage, and it is only
 knowable because the ref was kept: by the time the text is flattened the anchor
 is gone and nothing downstream can recover it.
+
+**One record per target.** A passage that both links to a page and names it in
+prose asserts one edge, and the hyperlink is the stronger evidence for it — the
+same collapse `provisions` makes, with the same precedence. This is where the
+Part 9.3 case above resolves itself.
 
 ---
 
@@ -477,9 +570,14 @@ Part 22.1 heading 1.2, exactly as the pipeline emits it:
     { "id": "TMA1995/s6", "extraction": "href", "mention": "Section 6" }
   ],
   "cases": [],
+  "headings": [
+    { "level": 3, "source": "markup", "ref": "TMM/Part22/1/1/2" }
+  ],
   "internal_refs": [
-    "TMM/Part12/9",
-    "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+    { "ref": "TMM/Part12/9", "extraction": "href",
+      "mention": "9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012" },
+    { "ref": "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar",
+      "extraction": "href", "mention": "Annex A1" }
   ],
   "links": [
     { "href": "https://austlii.edu.au/…/tma1995121/s41.html",
@@ -500,6 +598,16 @@ this passage; it is one edge, not four, and the hyperlink is the evidence for it
 And `AIA1901/s7` is correctly attributed away from the Trade Marks Act by the
 adjacent instrument name — which is exactly the mechanism that fails on the
 anaphoric `"section 26 of the Act"` case, and why `certainty` exists.
+
+`headings` is the ancestry the `heading_path` above cannot describe: one entry,
+because there is one heading between the page title and this chunk, at level 3
+because the Manual marked it up as an `<h3>`, and holding this very chunk. Its
+text is not repeated — it is the last element of `heading_path`.
+
+Both `internal_refs` here are `extraction: "href"`, and both mentions are the
+words the Manual hung the link on. The second is the same anchor the third
+`links` entry records; one field says which page, the other says where the
+anchor sat, and neither says it twice.
 
 `links` is the same passage read a third way. The first entry is the href
 `TMA1995/s41` was extracted from, so the evidence for that edge is now in the

@@ -69,8 +69,19 @@
         "4.6.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/6/4/6/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part14/1"
+        {
+          "extraction": "href",
+          "mention": "Part 14",
+          "ref": "TMM/Part14/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -205,8 +216,19 @@
         "4.6.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/6/4/6/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part60/2/2"
+        {
+          "extraction": "href",
+          "mention": "2.2.3 Requirements for the International Application Form",
+          "ref": "TMM/Part60/2/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -234,16 +256,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:1a1ba7892b9eddd5839625324fb17b2cc18f4b7479d66d6b4fb82db796a845cc",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:c34377647f01e3f742d7e0f3723d258e4b84940051c6cdf3997a4284ba408323",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.6 Classification of Goods and Services",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.6 Classification of Goods and Services",
     "page_ref": "TMM/Part60/4/6",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.6-classification-of-goods-and-services"
   }
 }

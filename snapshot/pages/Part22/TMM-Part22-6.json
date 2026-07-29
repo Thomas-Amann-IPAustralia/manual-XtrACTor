@@ -16,6 +16,7 @@
         "22.6. Trade marks having no inherent adaptation to distinguish"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -70,6 +71,13 @@
         "6.1 The Notes accompanying section 41"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -96,16 +104,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:ccaa4eddf2b1cde27f79e6f3576e89dbdbf8e78efdd9ef3d2fc3270028edb1ad",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:e8c707d45d52158c7111bab926315cd16d4354e921c197b3b0792003660480f6",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.6. Trade marks having no inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "6. Trade marks having no inherent adaptation to distinguish",
     "page_ref": "TMM/Part22/6",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-trade-marks-having-no-inherent-adaptation-to-distinguish"
   }
 }

@@ -46,6 +46,7 @@
         "17.4. The deferment process where the applicant requests deferment"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -130,8 +131,19 @@
         "4.1 Deferment process where a cited trade mark application is the basis of deferment"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/4/4/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/7"
+        {
+          "extraction": "href",
+          "mention": "7. Trade marks with the same priority/filing date",
+          "ref": "TMM/Part26/7"
+        }
       ],
       "kind": "body",
       "links": [
@@ -189,6 +201,13 @@
         "4.2 Deferment process where a cited trade mark registration is the basis of deferment"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/4/4/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -251,6 +270,13 @@
         "4.3 Action after the details have been checked"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/4/4/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -283,16 +309,17 @@
   "page": {
     "amendment_note": "Minor updates to formatting and references to IP Australia groups",
     "archived": false,
-    "content_hash": "sha256:0f258b151d5b883d2316cfef17dfdf2159549f3dc3b00266b821114eeb029f5c",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:381c330c5ceffb16e5b8f0a81b08a373b6bce21c909f0860bf23b0f061cd79e3",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "17.4. The deferment process where the applicant requests deferment",
     "images": [],
     "last_amended": "2025-12-19",
     "nav_title": "4. The deferment process where the applicant has requested deferment",
     "page_ref": "TMM/Part17/4",
     "part_id": "Part17",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-the-deferment-process-where-the-applicant-requests-deferment"
   }
 }

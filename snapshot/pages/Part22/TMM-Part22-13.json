@@ -16,6 +16,7 @@
         "22.13. Common formats for trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -52,8 +53,19 @@
         "13.1 Mr, Mrs, Miss etc. trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/16"
+        {
+          "extraction": "href",
+          "mention": "paragraph 16",
+          "ref": "TMM/Part22/16"
+        }
       ],
       "kind": "body",
       "links": [
@@ -110,8 +122,19 @@
         "13.2 Dr trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/16"
+        {
+          "extraction": "href",
+          "mention": "paragraph 16",
+          "ref": "TMM/Part22/16"
+        }
       ],
       "kind": "body",
       "links": [
@@ -162,6 +185,13 @@
         "13.3 My trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -276,6 +306,13 @@
         "13.4 Ultra trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -310,6 +347,13 @@
         "13.5 World and land trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -414,6 +458,13 @@
         "13.6 Trade marks that contain a unit of time"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/6~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -443,6 +494,13 @@
         "13.6 Trade marks that contain a unit of time"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/13/13/6~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -549,16 +607,17 @@
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
     "archived": false,
-    "content_hash": "sha256:55a74c96e7240fe8ecf3bc94a7826cff1f6705c222b97b06ba594d7b6c8d11fc",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:dc351eabe51438b7f4b5e2f4bc5155b49c1b78e5c48c0d7f1ab9c795ad2d44ab",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.13. Common formats for trade marks",
     "images": [],
     "last_amended": "2025-10-24",
     "nav_title": "13. Common formats for trade marks",
     "page_ref": "TMM/Part22/13",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/13.-common-formats-for-trade-marks"
   }
 }

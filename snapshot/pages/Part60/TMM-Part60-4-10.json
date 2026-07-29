@@ -57,6 +57,13 @@
         "4.10.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/10/4/10/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -167,6 +174,13 @@
         "4.10.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/10/4/10/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -206,8 +220,19 @@
         "4.10.3 Process for Amendments"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/10/4/10/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part9/1"
+        {
+          "extraction": "href",
+          "mention": "Part 9 Amendments and Changes to Name and Address)",
+          "ref": "TMM/Part9/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -228,16 +253,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:f7592aeef31047d413b876519761c0785d516d28b11fb556a15b5ed3fb3286a6",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:e4a37a8d79af850856b45256ef26aca92ead1375a7fade7043f39fca7a95159b",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.10 Amendments",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.10 Amendments",
     "page_ref": "TMM/Part60/4/10",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.10-amendments"
   }
 }

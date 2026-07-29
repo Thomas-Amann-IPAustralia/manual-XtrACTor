@@ -29,8 +29,13 @@
         "Part 48.2. Application for removal/cessation of protection for non-use"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part49/1"
+        {
+          "extraction": "href",
+          "mention": "Part 49 Non Use Procedures",
+          "ref": "TMM/Part49/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -88,8 +93,19 @@
         "2.1 Non-use application may proceed in the name of another person"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part48/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part49/1"
+        {
+          "extraction": "href",
+          "mention": "Part 49 Non Use Procedures",
+          "ref": "TMM/Part49/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -144,6 +160,13 @@
         "2.2 Timing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part48/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -195,6 +218,13 @@
         "2.3 Where to file an application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part48/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -221,6 +251,13 @@
         "2.4 Referral to a court"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part48/2/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -234,16 +271,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:e01f5e046f57163a1157fa6c8147c3563c8cdb987d6a3a0fe32e7a40ef1b23a0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:8f443af1d43f98c0137052b3cb9437629f0a7ba81a408f2fc9ba780ba90f1da1",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 48.2. Application for removal/cessation of protection for non-use",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "2. Application for removal/cessation of protection for non-use",
     "page_ref": "TMM/Part48/2",
     "part_id": "Part48",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-application-for-removal-cessation-of-protection-for-non-use"
   }
 }

@@ -59,8 +59,13 @@
         "15.1. When the general provision applies"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part16/x-relevant-legislation34"
+        {
+          "extraction": "href",
+          "mention": "Part 16 Time Limits for Acceptance of an Application for Registration",
+          "ref": "TMM/Part16/x-relevant-legislation34"
+        }
       ],
       "kind": "body",
       "links": [
@@ -207,9 +212,18 @@
         "15.1. When the general provision applies"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part39/4",
-        "TMM/Part9/4"
+        {
+          "extraction": "href",
+          "mention": "4. Timing for Registration",
+          "ref": "TMM/Part39/4"
+        },
+        {
+          "extraction": "href",
+          "mention": "4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)",
+          "ref": "TMM/Part9/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -425,6 +439,13 @@
         "1.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -463,16 +484,17 @@
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
-    "content_hash": "sha256:de83b04dae6164ebe252ed12f436423d943e558e3abf33e3e5de4f1ec1e8217b",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:3da8407785d6c5a1b09f9bd3f80ebdceea0ebf2445745375e2213db11a09d958",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "15.1. When the general provision applies",
     "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "1. When the general provision applies",
     "page_ref": "TMM/Part15/1",
     "part_id": "Part15",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-when-the-general-provision-applies"
   }
 }

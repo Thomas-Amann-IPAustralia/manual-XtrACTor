@@ -109,12 +109,39 @@
         "4.17.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/17/4/17/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part46/1",
-        "TMM/Part47/1",
-        "TMM/Part51/1",
-        "TMM/Part54/1",
-        "TMM/Part55/1"
+        {
+          "extraction": "href",
+          "mention": "46",
+          "ref": "TMM/Part46/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "47",
+          "ref": "TMM/Part47/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "51",
+          "ref": "TMM/Part51/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "54",
+          "ref": "TMM/Part54/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "55",
+          "ref": "TMM/Part55/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -390,9 +417,24 @@
         "4.17.2 Process"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/17/4/17/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part47/1",
-        "TMM/Part60/4/16"
+        {
+          "extraction": "href",
+          "mention": "1.3 Extension of time for filing a notice of intention to oppose or a statement of grounds and particulars",
+          "ref": "TMM/Part47/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.16 Extension of Time to File Notice of Opposition to Protection",
+          "ref": "TMM/Part60/4/16"
+        }
       ],
       "kind": "body",
       "links": [
@@ -474,6 +516,13 @@
         "4.17.2 Process"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/17/4/17/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -579,8 +628,19 @@
         "4.17.2 Process"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/17/4/17/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part51/1"
+        {
+          "extraction": "href",
+          "mention": "Part 51 General Opposition Proceedings",
+          "ref": "TMM/Part51/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -665,6 +725,13 @@
         "4.17.3 Final decision after opposition"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/17/4/17/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -691,16 +758,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:6ea8bfccb08fc7a5faf6e9e643edaaab243d2a4cf4cec28ab56ca1ffd002d1e6",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:767bbc2daf5dcc8ed7d4d962f18e84a3cf529a76c3167b4a5432537d06fb429e",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.17 Opposition to Protection",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.17 Opposition to Protection",
     "page_ref": "TMM/Part60/4/17",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.17-opposition-to-protection"
   }
 }

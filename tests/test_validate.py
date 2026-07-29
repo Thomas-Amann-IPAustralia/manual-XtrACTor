@@ -42,6 +42,11 @@ def page(**overrides) -> dict:
     }
 
 
+def ref(target: str, **overrides) -> dict:
+    """One internal_refs record. Since 0.8.0 the field carries provenance."""
+    return {"ref": target, "extraction": "href", "mention": "a link", **overrides}
+
+
 def chunk(**overrides) -> dict:
     return {
         "cases": [],
@@ -236,7 +241,7 @@ def test_ordinals_must_be_contiguous_from_one(tmp_path):
 def test_an_unresolvable_cross_reference_is_caught(tmp_path):
     write(
         tmp_path,
-        {"page": page(), "chunks": [chunk(internal_refs=["TMM/Part99/1"])]},
+        {"page": page(), "chunks": [chunk(internal_refs=[ref("TMM/Part99/1")])]},
     )
     only(validate_snapshot(tmp_path), "names no page or chunk")
 
@@ -245,7 +250,7 @@ def test_a_cross_reference_forward_to_a_later_page_resolves(tmp_path):
     """Files are walked in name order; a reference is not required to be."""
     write(
         tmp_path,
-        {"page": page(), "chunks": [chunk(internal_refs=["TMM/Part22/2"])]},
+        {"page": page(), "chunks": [chunk(internal_refs=[ref("TMM/Part22/2")])]},
     )
     write(
         tmp_path,
@@ -261,7 +266,7 @@ def test_a_reference_to_a_page_in_the_inventory_resolves(tmp_path):
     """A partial snapshot is incomplete, not corrupt."""
     write(
         tmp_path,
-        {"page": page(), "chunks": [chunk(internal_refs=["TMM/Part35/4"])]},
+        {"page": page(), "chunks": [chunk(internal_refs=[ref("TMM/Part35/4")])]},
     )
     assert validate_snapshot(tmp_path) != []
 
@@ -493,3 +498,81 @@ def test_a_link_that_names_its_own_words_passes(tmp_path):
         },
     )
     assert validate_snapshot(tmp_path) == []
+
+
+# -- the ancestry, checked rather than trusted -----------------------------
+
+
+def test_headings_must_describe_the_heading_path(tmp_path):
+    """`headings` deliberately does not repeat the ancestor's text — that is
+    `heading_path[2:]`. What makes storing one fact once safe is checking the
+    correspondence over the whole snapshot."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    heading_path=["Part 22", "22.1", "1. Heading"],
+                    heading_source="markup",
+                    headings=[],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "headings holds 0 entries")
+
+
+def test_the_leaf_of_headings_must_agree_with_heading_source(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    heading_path=["Part 22", "22.1", "1. Heading"],
+                    heading_source="markup",
+                    headings=[{"level": 3, "source": "emphasis", "ref": None}],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "leaf of headings says")
+
+
+def test_a_heading_ref_naming_no_chunk_is_caught(tmp_path):
+    """A heading's `ref` is an address like any other. Null says the heading
+    owns no chunk; a string that names nothing is a broken one."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    heading_path=["Part 22", "22.1", "1. Heading"],
+                    heading_source="markup",
+                    headings=[
+                        {"level": 3, "source": "markup", "ref": "TMM/Part22/1/9/9"}
+                    ],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "names no page or chunk")
+
+
+def test_a_chunk_with_no_heading_carries_no_source(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    heading_path=["Part 22", "22.1"],
+                    heading_source="markup",
+                    headings=[],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "on a chunk with no headings")

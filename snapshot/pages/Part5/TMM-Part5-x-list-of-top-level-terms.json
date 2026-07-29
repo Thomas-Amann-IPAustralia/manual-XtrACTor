@@ -33,8 +33,13 @@
         "List of Top Level Terms"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part5/x-list-of-top-level-terms"
+        {
+          "extraction": "href",
+          "mention": "‘HASH’ DEVICES AND WORDS",
+          "ref": "TMM/Part5/x-list-of-top-level-terms"
+        }
       ],
       "kind": "body",
       "links": [
@@ -76,6 +81,7 @@
         "List of Top Level Terms"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -669,6 +675,13 @@
         "‘HASH’ DEVICES AND WORDS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-list-of-top-level-terms/hash-devices-and-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -751,6 +764,13 @@
         "Groups"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-list-of-top-level-terms/groups~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -780,6 +800,13 @@
         "Groups"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-list-of-top-level-terms/groups~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -945,16 +972,17 @@
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:761b975f579c4449894cb338388359cf16aec1cb20ea8d9c86db7d7e091e4d2c",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:0d6e2010abeb8b07895ae25a75c8f34b158c9c08a6324d4ec4857039af7b47c0",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "List of Top Level Terms",
     "images": [],
     "last_amended": "2026-04-13",
     "nav_title": "List of Top Level Terms",
     "page_ref": "TMM/Part5/x-list-of-top-level-terms",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/list-of-top-level-terms"
   }
 }

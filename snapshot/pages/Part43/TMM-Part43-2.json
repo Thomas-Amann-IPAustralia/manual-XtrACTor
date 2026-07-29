@@ -56,8 +56,13 @@
         "43.2. Timing for assignment"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part44/1"
+        {
+          "extraction": "href",
+          "mention": "Part 44 Claim of Interests or Rights in a Trade Mark",
+          "ref": "TMM/Part44/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -155,6 +160,7 @@
         "43.2. Timing for assignment"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -168,16 +174,17 @@
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
-    "content_hash": "sha256:4afa02eff1422e22160a14379e4327c26834b7859201b67b549158c92acf9c6c",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5f19336061b3e96e6cb0ef4f6d568f4886b56c6f1ccee67bb14bf4706a0afed3",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.2. Timing for assignment",
     "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "2. Timing for assignment",
     "page_ref": "TMM/Part43/2",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-timing-for-assignment"
   }
 }

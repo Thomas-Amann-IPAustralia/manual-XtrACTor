@@ -24,6 +24,7 @@
         "Part 4.8. Disputed credit card payments/Dishonoured cheques"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -63,6 +64,13 @@
         "8.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part4/8/8/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -89,6 +97,13 @@
         "8.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part4/8/8/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -115,6 +130,13 @@
         "8.3"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part4/8/8/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -141,6 +163,13 @@
         "8.4"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part4/8/8/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -167,16 +196,17 @@
   "page": {
     "amendment_note": "Page renamed and links updated.",
     "archived": false,
-    "content_hash": "sha256:b1bcbfad9eef7519ee6436418111acac6e03b7bcdb7200b2e14bb1db57782a08",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:5c31bcbd5cf5caa4178ca1318c3bd3e04d3ff4a30192c82db086623bb2341aec",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 4.8. Disputed credit card payments/Dishonoured cheques",
     "images": [],
     "last_amended": "2025-05-14",
     "nav_title": "8. Disputed credit card payments/Dishonoured cheques",
     "page_ref": "TMM/Part4/8",
     "part_id": "Part4",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/8.-disputed-credit-card-payments-dishonoured-cheques"
   }
 }

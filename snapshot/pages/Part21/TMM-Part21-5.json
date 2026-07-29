@@ -16,6 +16,7 @@
         "21.5. \"Sensory\" trade marks - sounds and scents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -62,6 +63,13 @@
         "5.1 Representing sounds and scents"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -101,6 +109,13 @@
         "5.2 Researching sounds and scents"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -114,16 +129,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:5c000f67cc007cc8d3a61ade8ba930f6cc32dbab76d299e58dc22bbe98842a57",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:145ff461e58800d0a836318d1bfd4ea7a0c14962cdc1e7bdee506fbb899e8818",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "21.5. \"Sensory\" trade marks - sounds and scents",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "5. \"Sensory\" trade marks - sounds and scents",
     "page_ref": "TMM/Part21/5",
     "part_id": "Part21",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.--sensory--trade-marks---sounds-and-scents"
   }
 }

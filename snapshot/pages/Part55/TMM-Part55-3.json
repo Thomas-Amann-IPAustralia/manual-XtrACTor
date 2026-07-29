@@ -32,6 +32,7 @@
         "Part 55.3. Applications for an award of costs"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -96,6 +97,13 @@
         "3.1 Costs sought at a hearing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -127,8 +135,19 @@
         "3.2 Costs sought when the matter is determined without a hearing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/3/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part51/1"
+        {
+          "extraction": "href",
+          "mention": "Part 51 General Opposition Proceedings",
+          "ref": "TMM/Part51/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -223,9 +242,25 @@
         "3.3 Costs sought where the matter has not been determined by the Registrar"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part55/2",
-        "TMM/Part55/2/2/5"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 55.2.5",
+          "ref": "TMM/Part55/2"
+        },
+        {
+          "extraction": "href",
+          "mention": "part 55.2.5",
+          "ref": "TMM/Part55/2/2/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -283,8 +318,19 @@
         "3.4 Application for extensions of time to apply for an award of costs or to file a bill of costs"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/3/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part15/x-relevant-legislation13"
+        {
+          "extraction": "href",
+          "mention": "Part 15 General Provision for Extensions of Time",
+          "ref": "TMM/Part15/x-relevant-legislation13"
+        }
       ],
       "kind": "body",
       "links": [
@@ -330,16 +376,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:626b16619bceab6c6857a1066c87195be5261bd2c11b54b413cbd0a353bfabd4",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:9d0e933b56c30ea582a02b741ae09b45b4135936c276d8c7934a5c2855352266",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 55.3. Applications for an award of costs",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "3. Applications for an award of costs",
     "page_ref": "TMM/Part55/3",
     "part_id": "Part55",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-applications-for-an-award-of-costs"
   }
 }

@@ -41,8 +41,19 @@
         "4.15.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/15/4/15/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part38/1"
+        {
+          "extraction": "href",
+          "mention": "Part 38. Revocation of Acceptance",
+          "ref": "TMM/Part38/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -172,8 +183,19 @@
         "4.15.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/15/4/15/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part38/1"
+        {
+          "extraction": "href",
+          "mention": "Part 38 Revocation of Acceptance",
+          "ref": "TMM/Part38/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -210,6 +232,13 @@
         "4.15.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/15/4/15/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -223,16 +252,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:f5488597724e2e41d4a064336de7e119e9a8c462b891d02947cc7ad098031e3d",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:7d8c9ac7d7f364bbae6fce356e6a6063da860442588efa15fd21a52981c5892e",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.15 Revocation of Acceptance",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.15 Revocation of Acceptance",
     "page_ref": "TMM/Part60/4/15",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.15-revocation-of-acceptance"
   }
 }

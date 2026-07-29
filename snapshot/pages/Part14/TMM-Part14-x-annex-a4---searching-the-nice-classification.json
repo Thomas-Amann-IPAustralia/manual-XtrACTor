@@ -16,8 +16,13 @@
         "14. Annex A4 - Searching the NICE classification"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search"
+        {
+          "extraction": "href",
+          "mention": "Annex A5",
+          "ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search"
+        }
       ],
       "kind": "annex",
       "links": [
@@ -38,16 +43,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:e2ffecdb86305516877a6c966ab24b88452e492a09714de46adaf9d9e7b876e9",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:53af9588235f5bc9122dfa4daecc76d2cf2ae91e393aa7f97b19ee61d12bf99a",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "14. Annex A4 - Searching the NICE classification",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "Annex A4 - Searching the NICE classification",
     "page_ref": "TMM/Part14/x-annex-a4---searching-the-nice-classification",
     "part_id": "Part14",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/annex-a4---searching-the-nice-classification"
   }
 }

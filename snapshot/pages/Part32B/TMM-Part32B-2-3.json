@@ -32,8 +32,13 @@
         "32B.2.3 Section 41: Capacity to Distinguish"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part22/1"
+        {
+          "extraction": "href",
+          "mention": "Part 22",
+          "ref": "TMM/Part22/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -108,8 +113,19 @@
         "2.3.1 Protected terms in trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/1"
+        {
+          "extraction": "href",
+          "mention": "Part 22",
+          "ref": "TMM/Part22/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -164,6 +180,13 @@
         "2.3.2 Geographic locations in trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -245,6 +268,13 @@
         "2.3.3 Descriptive words which are common to the trade"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -279,6 +309,13 @@
         "2.3.4 GIs and geographic locations in composite trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -341,6 +378,13 @@
         "2.3.5 Other section 41 grounds for rejection which are not geographic names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -397,6 +441,13 @@
         "2.3.6 Cocktails"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/6~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -441,6 +492,13 @@
         "2.3.6 Cocktails"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/6~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -471,8 +529,19 @@
         "2.3.7 Names of roads along which several wineries are located"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/2/3/2/3/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/15"
+        {
+          "extraction": "href",
+          "mention": "part 22.15.7",
+          "ref": "TMM/Part22/15"
+        }
       ],
       "kind": "body",
       "links": [
@@ -500,10 +569,10 @@
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
-    "content_hash": "sha256:09cac33338a03f00907b2adfc9d172157e51e353b1dca553794c07d7f45a97ec",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6f5f145e6484cc0275ee028707a050c1f12e773b04fb71d67def300bb4f3924f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32B.2.3 Section 41: Capacity to Distinguish",
     "images": [
       {
@@ -519,6 +588,7 @@
     "nav_title": "Part 32B.2.3 Section 41: Capacity to Distinguish",
     "page_ref": "TMM/Part32B/2/3",
     "part_id": "Part32B",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.3-section-41--capacity-to-distinguish1"
   }
 }

@@ -28,6 +28,7 @@
         "10.6. Address for service"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -74,6 +75,13 @@
         "6.1"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part10/6/6/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -87,16 +95,17 @@
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
-    "content_hash": "sha256:bec828dfb9d4dc5d5a6b700849ee36e9d12e906f64e89d543140dd8dc5c33fee",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:0dba4efe16a3634d4bc5ce092ac9d1a462531298cb89f2de16b819c7236e66c9",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "10.6. Address for service",
     "images": [],
     "last_amended": "2025-01-17",
     "nav_title": "6. Address for service",
     "page_ref": "TMM/Part10/6",
     "part_id": "Part10",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-address-for-service"
   }
 }

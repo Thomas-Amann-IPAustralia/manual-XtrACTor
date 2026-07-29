@@ -237,6 +237,50 @@ def _link_failures(chunk: dict[str, Any], at: str) -> list[str]:
     return failures
 
 
+def _heading_failures(chunk: dict[str, Any], at: str) -> list[str]:
+    """`headings` that has stopped describing `heading_path`.
+
+    `headings` carries a level, a source and an addressable ref for each
+    ancestor, and deliberately not the ancestor's text — that is
+    `heading_path[2:]`, and storing it twice would give two representations of
+    one fact and a way for them to disagree (SCHEMA.md §What is deliberately
+    absent). What makes that safe is checking the correspondence here, over the
+    whole snapshot, rather than trusting it: one entry per heading, in the same
+    order, and the leaf agreeing with `heading_source`.
+    """
+    failures: list[str] = []
+    headings = chunk.get("headings")
+    path = chunk.get("heading_path")
+    if not isinstance(headings, list) or not isinstance(path, list):
+        return failures
+
+    # heading_path is [part_title, page title, *headings], so everything after
+    # the first two is a heading and must have an entry.
+    expected = max(len(path) - 2, 0)
+    if len(headings) != expected:
+        failures.append(
+            f"{at}: headings holds {len(headings)} entries and heading_path "
+            f"names {expected}; the two are one ancestry read two ways and "
+            "cannot differ in length"
+        )
+        return failures
+
+    source = chunk.get("heading_source")
+    leaf = headings[-1].get("source") if headings else None
+    if headings and leaf != source:
+        failures.append(
+            f"{at}: heading_source is {source!r} but the leaf of headings says "
+            f"{leaf!r}; both name how the same heading was found"
+        )
+    if not headings and source is not None:
+        failures.append(
+            f"{at}: heading_source is {source!r} on a chunk with no headings; "
+            "only the prose above a page's first heading has none, and its "
+            "source is null"
+        )
+    return failures
+
+
 def _location_failures(
     path: Path, where: str, page_ref: str, part_id: Any
 ) -> list[str]:
@@ -370,11 +414,26 @@ def validate_snapshot(root: Path) -> list[str]:
             failures.extend(_provision_failures(chunk, at))
             failures.extend(_block_failures(chunk, at))
             failures.extend(_link_failures(chunk, at))
+            failures.extend(_heading_failures(chunk, at))
 
             references = chunk.get("internal_refs")
             if isinstance(references, list):
                 pending.extend(
-                    (at, ref) for ref in references if isinstance(ref, str)
+                    (at, reference["ref"])
+                    for reference in references
+                    if isinstance(reference, dict)
+                    and isinstance(reference.get("ref"), str)
+                )
+
+            # A heading's `ref` is an address like any other, and a null one is
+            # the Manual's own answer for a heading that owns no chunk.
+            headings = chunk.get("headings")
+            if isinstance(headings, list):
+                pending.extend(
+                    (f"{at} headings", heading["ref"])
+                    for heading in headings
+                    if isinstance(heading, dict)
+                    and isinstance(heading.get("ref"), str)
                 )
 
         expected = list(range(1, len(ordinals) + 1))
@@ -388,9 +447,9 @@ def validate_snapshot(root: Path) -> list[str]:
     for at, ref in pending:
         if ref not in targets:
             failures.append(
-                f"{at}: internal_ref {ref} names no page or chunk in this "
-                "snapshot or its sitemap; an unresolvable reference is "
-                "dropped, not stored, because a consumer will try to follow it"
+                f"{at}: {ref} names no page or chunk in this snapshot or its "
+                "sitemap; an unresolvable reference is dropped, not stored, "
+                "because a consumer will try to follow it"
             )
 
     if not page_refs and _has_crawled(root):

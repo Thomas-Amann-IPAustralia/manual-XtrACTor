@@ -23,6 +23,7 @@
         "Part 28. Annex A1 - Information sheet for trade mark applicants"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -70,13 +71,44 @@
         "Part 28. Annex A1 - Information sheet for trade mark applicants"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part19A/2",
-        "TMM/Part19A/3",
-        "TMM/Part19A/4",
-        "TMM/Part19A/5",
-        "TMM/Part19A/6",
-        "TMM/Part19A/7"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.2",
+          "ref": "TMM/Part19A/2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.3",
+          "ref": "TMM/Part19A/3"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.4",
+          "ref": "TMM/Part19A/4"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.5",
+          "ref": "TMM/Part19A/5"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.6",
+          "ref": "TMM/Part19A/6"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.7",
+          "ref": "TMM/Part19A/7"
+        }
       ],
       "kind": "annex",
       "links": [
@@ -201,16 +233,17 @@
   "page": {
     "amendment_note": "Reviewed and updated following Zip Co Limited v Firstmac Limited [2026] HCA 16.",
     "archived": false,
-    "content_hash": "sha256:7406bb2810619886ac47b20a9ba7df685d40aeef51dbd99a4ee7b321a9b3a9ae",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:f8d065ede7f5610a75eeac5417402ff6f3a29adb22d0eaff6e80002861d25f07",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-06-22",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 28. Annex A1 - Information sheet for trade mark applicants",
     "images": [],
     "last_amended": "2026-06-22",
     "nav_title": "Annex A1 - Information sheet for trade mark applicants - Evidence of honest and concurrent, prior use or other circumstances",
     "page_ref": "TMM/Part28/x-annex-a1---information-sheet-for-trade-mark-applicants",
     "part_id": "Part28",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/annex-a1---information-sheet-for-trade-mark-applicants"
   }
 }

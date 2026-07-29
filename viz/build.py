@@ -41,6 +41,7 @@ INDEX_CHUNK_FIELDS = (
     "fragment",
     "heading_path",
     "heading_source",
+    "headings",
     "internal_refs",
     "kind",
     "links",
@@ -266,8 +267,8 @@ def build_chunks(snapshot: dict[str, Any]) -> dict[str, Any]:
             chunks.append({f: chunk[f] for f in INDEX_CHUNK_FIELDS if f in chunk})
             if chunk.get("tables"):
                 tables[ref] = len(chunk["tables"])
-            for target in chunk.get("internal_refs", []):
-                cited_by[target].append(ref)
+            for reference in chunk.get("internal_refs", []):
+                cited_by[reference["ref"]].append(ref)
 
     chunks.sort(key=lambda c: (c["page_ref"], c["ordinal"]))
     return {

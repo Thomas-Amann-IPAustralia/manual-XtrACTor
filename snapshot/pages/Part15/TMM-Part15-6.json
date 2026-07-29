@@ -16,6 +16,7 @@
         "15.6. Extensions of time of more than three months"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -104,8 +105,19 @@
         "6.1 Publication of applications for extension of time"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part55/1"
+        {
+          "extraction": "href",
+          "mention": "Part 55",
+          "ref": "TMM/Part55/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -173,6 +185,13 @@
         "6.2 Process for filing opposition to the extension"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/6/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -262,6 +281,13 @@
         "6.3 Where there is no opposition to the extension of time"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/6/6/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -292,6 +318,13 @@
         "6.4 Where there is opposition to the extension of time"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/6/6/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -305,16 +338,17 @@
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
-    "content_hash": "sha256:3510ec019a10172ca7045b8073367021ea522461dd75b74c4c6f27034fe075df",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:ea8716e061c9033daa8a5c3a1acba1dcef5f20058446b0eed3317308b5772adb",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "15.6. Extensions of time of more than three months",
     "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "6. Extensions of time of more than three months",
     "page_ref": "TMM/Part15/6",
     "part_id": "Part15",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-extensions-of-time-of-more-than-three-months"
   }
 }

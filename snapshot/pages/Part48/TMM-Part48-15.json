@@ -37,8 +37,13 @@
         "Part 48.15. Certificate - Use of a trade mark"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part55/1"
+        {
+          "extraction": "href",
+          "mention": "Part 55 Costs",
+          "ref": "TMM/Part55/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -78,16 +83,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:7142c57ff5f796a7237f16c8da1f02e86727b0204b4cd50831b4cea021285ebe",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:fcc013599024f5f7710be31deb34b8dd209665ae4e72ae427119d4fcb5d4b41e",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 48.15. Certificate - Use of a trade mark",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "15. Certificate - Use of a trade mark",
     "page_ref": "TMM/Part48/15",
     "part_id": "Part48",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/15.-certificate---use-of-a-trade-mark"
   }
 }

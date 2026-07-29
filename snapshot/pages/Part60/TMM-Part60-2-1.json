@@ -67,8 +67,13 @@
         "60.2.1 General Description"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part60/2/4"
+        {
+          "extraction": "href",
+          "mention": "2.4 Certifying Process",
+          "ref": "TMM/Part60/2/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -113,16 +118,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:08325d1dfeba2fa8b123121e01290734ef8b78251f53c89267970ae3aa1ba114",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:744d7db90ee1a29161a879a3baa570db15644a293f38801eb0c01727708b3110",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.2.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "2.1 General Description",
     "page_ref": "TMM/Part60/2/1",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.1-general-description"
   }
 }

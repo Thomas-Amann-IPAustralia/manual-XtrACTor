@@ -15,6 +15,39 @@ beyond the previous snapshot on disk, which is read to decide what can be
 skipped. The pipeline is a pure function of (live site, previous snapshot) →
 new snapshot.
 
+## Settling
+
+A cross reference is a fact about **two** pages, and the skip gates only ever
+ask about one of them.
+
+`_resolve_refs` reached only the pages a run re-cut. So a heading renamed on
+page B left every unchanged page A that cited it holding an address that no
+longer existed: A passed gate 2, was never chunked, and kept refs settled
+against an inventory that had moved under it. The crawl exited 0, the snapshot
+failed its own validator, and no later crawl repaired it — A was unchanged
+every time. Only `--force` cleared it. The reverse was worse for being legal: a
+reference that had coarsened to page level because its heading was absent
+stayed coarse for ever once the heading came back, and nothing reported it,
+because a page-level ref is valid output.
+
+`_settle_stored` closes it. After `_resolve_refs`, every page file the run did
+**not** cut is read, its candidates re-derived, and its refs re-settled against
+the same inventory. Only pages whose refs actually moved are written; on a
+corpus that has not shifted this walks 500 files and writes none.
+
+Two properties make it a re-reading of the same evidence rather than a second
+reading of it:
+
+- **`extract_internal_refs` takes `links` and `text`, not markup.** The stored
+  `links` hold every anchor's href verbatim and `text` holds the words, so one
+  function reads a live chunk and a stored one. Had it kept taking a DOM
+  fragment, a page skipped at gate 2 would have needed a second implementation
+  over the record, and the two would eventually disagree. Same argument as
+  `flatten_spans` walking once for both the text and the offsets.
+- **`resolve_internal_refs` is idempotent.** A settled ref is a valid candidate,
+  which is what lets a stored record be re-settled without being re-cut. Pinned
+  by a test, because the whole pass rests on it.
+
 ## Two phases
 
 Everything is cut before anything is written.
@@ -118,6 +151,11 @@ tree without special cases.
 **`manifest.json` has two blocks and they answer different questions.**
 `corpus.*` describes the snapshot **on disk**, counted by walking it, and is
 true whatever the run did. `run.*` describes **only what this run touched**.
+`corpus.pages` and `corpus.parts` were the exception until 0.8.0 and should not
+have been — they counted the nav inventory, so the block reported 502 pages
+beside 500 files and a reader working out how many pages yield no chunks got 17
+rather than 15. How many were in scope is `run.pages_in_scope`; the inventory's
+own counts are in `sitemap.json`.
 They are not expected to agree, and a reader who assumes they should will
 misread a healthy crawl as data loss: after the 28 July 2026 crawl `run.chunks`
 said 2084 while the snapshot held 2151, the 67 belonging to 19 pages skipped at
@@ -226,6 +264,7 @@ class PageRecord:
     extractor_version: str
     archived: bool = False
     images: tuple[dict[str, str | None], ...] = ()   # added by the 0.3.0 review
+    printed_page_ref: str | None = None              # added by the 0.7.0 review
 
 def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
     """Returns the record and the cleaned body element for the chunker.
@@ -263,6 +302,7 @@ class Chunk:
     blocks: list[dict] = field(default_factory=list)   # added by the 0.5.0 review
     heading_source: str | None = None                  # added by the 0.6.0 review
     links: list[dict] = field(default_factory=list)    # added by the 0.7.0 review
+    headings: list[dict] = field(default_factory=list) # added by the 0.7.0 review
 
 def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
                sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
@@ -305,10 +345,20 @@ caller that should is a test.
 ```python
 def extract_provisions(body_fragment: Tag, text: str) -> list[dict]:
 def extract_cases(text: str) -> list[dict]:
-def extract_internal_refs(body_fragment: Tag, sitemap: dict[str, NavPage]) -> list[str]:
-def resolve_internal_refs(refs: list[str], chunk_refs: frozenset[str],
-                          page_refs: frozenset[str]) -> list[str]:
+def extract_internal_refs(links: list[dict], text: str, sitemap: dict[str, NavPage],
+                          page_ref: str | None = None) -> list[dict]:
+def resolve_internal_refs(refs: list[dict], chunk_refs: frozenset[str],
+                          page_refs: frozenset[str]) -> list[dict]:
+def internal_ref_key(record: dict) -> tuple[str, ...]:
 ```
+
+The last two signatures changed in `ingest/0.8.0` and both changes are the
+0.7.0 review being acted on. `extract_internal_refs` reads the chunk's links
+and words rather than its markup, so that one function settles a live chunk and
+a stored one — see §Settling. And both now carry records rather than bare
+strings, because a cross reference has a provenance and the field was throwing
+it away: 378 of the corpus's 418 edges are the Manual's own hyperlinks and 40
+are our reading of its prose, and nothing said which was which.
 
 The first three are called by the chunker, per chunk. Kept separate because they
 carry the densest regex logic and the most test cases.
@@ -384,9 +434,16 @@ target are two links.
 ```python
 def write_page(page: PageRecord, chunks: list[Chunk], root: Path) -> bool:
     """Returns True if bytes changed on disk."""
+def rewrite_settled(path: Path, document: dict, now: str) -> bool:
 def write_raw(page_ref: str, html: str, root: Path) -> bool:
 def write_manifest(root: Path, stats: dict) -> None:
 ```
+
+`rewrite_settled` is the narrow companion `_settle_stored` needs: a page skipped
+at gate 2 was never parsed, so there is no `PageRecord` to rebuild one from, and
+inventing one to satisfy `write_page`'s signature would invent the fields it
+could not read. It takes a document read from disk with nothing but its
+`internal_refs` changed.
 
 ### `diff.py`
 

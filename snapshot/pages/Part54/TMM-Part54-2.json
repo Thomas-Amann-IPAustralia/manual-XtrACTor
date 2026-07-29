@@ -55,6 +55,7 @@
         "Part 54.2. Summonsing a witness"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -142,8 +143,14 @@
         "Part 54.2. Summonsing a witness"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part54/2"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 54.2.3.1",
+          "ref": "TMM/Part54/2"
+        }
       ],
       "kind": "body",
       "links": [],
@@ -195,6 +202,13 @@
         "2.1 Form of summons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -244,6 +258,13 @@
         "2.2 Service of summons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -285,6 +306,18 @@
         "2.2.1 Payment of reasonable expenses of person summonsed"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part54/2/2/2/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -339,6 +372,13 @@
         "2.3 Non-compliance with summons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -387,8 +427,25 @@
         "2.3.1 Reasonable excuse for non-compliance with summons"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part54/2/2/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part54/2"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 54.2.2.1",
+          "ref": "TMM/Part54/2"
+        }
       ],
       "kind": "body",
       "links": [],
@@ -434,6 +491,13 @@
         "2.4 Manner of taking evidence"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -485,6 +549,13 @@
         "2.5 Examination of witness"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part54/2/2/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -523,16 +594,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:9fd9a229b1febe9eca1b7ac210bfda67a089bb39d896cbda1a85343ee1c9c0cb",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:070c0ab2fac1234c419bdc9ce057c984a202d5829ce162f0e86ea3aed3f0cc15",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 54.2. Summonsing a witness",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "2. Summonsing a witness",
     "page_ref": "TMM/Part54/2",
     "part_id": "Part54",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-summonsing-a-witness"
   }
 }

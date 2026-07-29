@@ -66,8 +66,13 @@
         "22.5. Trade marks considered to have limited inherent adaptation to distinguish"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part23/1"
+        {
+          "extraction": "href",
+          "mention": "Part 23 Overcoming Grounds for Rejection under Section 41 – including Evidence of Use",
+          "ref": "TMM/Part23/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -119,16 +124,17 @@
   "page": {
     "amendment_note": "Minor update.",
     "archived": false,
-    "content_hash": "sha256:93ed24a8d486bac2032a07d6b2fbdbc6cd2156ee8053a8200505370ab5789dab",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:e7812b01618417f22101d0fea330f4dc33d8c0deedcc8ee0b7f7c1f0c2af2221",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.5. Trade marks considered to have limited inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "5. Trade marks that have limited inherent capacity to distinguish but are not prima facie capable of distinguishing",
     "page_ref": "TMM/Part22/5",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-trade-marks-considered-to-have-limited-inherent-adaptation-to-distinguish"
   }
 }

@@ -808,6 +808,15 @@ function provisionLine(provision) {
     provision.mention ? h('span', { class: 'mention', text: `“${provision.mention}”` }) : null);
 }
 
+/** One internal_refs entry: the target, and how the pipeline came by it. */
+function internalRefLine(reference) {
+  return h('li', {},
+    refLink(reference.ref),
+    h('span', { class: 'badge', text: reference.extraction }),
+    reference.certainty ? h('span', { class: 'badge' + (reference.certainty === 'ambiguous' ? ' warn' : ''), text: reference.certainty }) : null,
+    reference.mention ? h('span', { class: 'mention', text: `“${reference.mention}”` }) : null);
+}
+
 function citationBlock(chunk) {
   const frag = document.createDocumentFragment();
   const provisions = chunk.provisions || [];
@@ -829,7 +838,7 @@ function citationBlock(chunk) {
   if (refs.length) {
     frag.append(h('details', { class: 'detail' },
       h('summary', { text: `Points elsewhere in the Manual (${refs.length})` }),
-      h('ul', { class: 'cite-list' }, refs.map((ref) => h('li', {}, refLink(ref))))));
+      h('ul', { class: 'cite-list' }, refs.map(internalRefLine))));
   }
   if (citedBy.length) {
     frag.append(h('details', { class: 'detail' },

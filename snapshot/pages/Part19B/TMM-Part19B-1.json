@@ -36,8 +36,13 @@
         "19B.1. The trade mark as property"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part44/1"
+        {
+          "extraction": "href",
+          "mention": "Part 44 Claim of Interest or Rights in a Trade Mark",
+          "ref": "TMM/Part44/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -154,16 +159,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:ae002143bd59d942f66c134be65990ab6b5093779cc7f2d27acb0d4e3d54159c",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:cdb4518f64bbb773a20825222e122590ba994af36728da579cc63acd28f591bd",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "19B.1. The trade mark as property",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "1. The trade mark as property",
     "page_ref": "TMM/Part19B/1",
     "part_id": "Part19B",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-the-trade-mark-as-property"
   }
 }

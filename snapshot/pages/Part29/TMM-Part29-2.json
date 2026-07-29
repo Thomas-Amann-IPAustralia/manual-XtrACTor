@@ -80,6 +80,13 @@
         "2.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/2/2/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -126,6 +133,13 @@
         "2.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/2/2/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -159,6 +173,13 @@
         "2.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -190,8 +211,19 @@
         "2.3"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/1"
+        {
+          "extraction": "href",
+          "mention": "Part 26 – Conflict with Other Signs",
+          "ref": "TMM/Part26/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -237,6 +269,13 @@
         "2.4"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/2/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -274,16 +313,17 @@
   "page": {
     "amendment_note": "removed published date",
     "archived": false,
-    "content_hash": "sha256:026fdd9fc43bfd3204fc1ac987112500eb790e7cfa30e61e67a40513cf86f4c5",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:62041e2c646e76cb3ffb6da2dfe8298e5b0ea45c43c4f0c65b3185abc0b59a93",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "29.2. Connotation",
     "images": [],
     "last_amended": "2025-01-13",
     "nav_title": "2. Connotation",
     "page_ref": "TMM/Part29/2",
     "part_id": "Part29",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-connotation"
   }
 }

@@ -95,10 +95,23 @@
         "19A.1. Use of a trade mark generally"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part19A/3",
-        "TMM/Part19A/5",
-        "TMM/Part19A/6"
+        {
+          "extraction": "href",
+          "mention": "in the course of trade",
+          "ref": "TMM/Part19A/3"
+        },
+        {
+          "extraction": "href",
+          "mention": "upon or in relation to the goods and/or services",
+          "ref": "TMM/Part19A/5"
+        },
+        {
+          "extraction": "href",
+          "mention": "by the trade mark owner, predecessor in title or an authorised user",
+          "ref": "TMM/Part19A/6"
+        }
       ],
       "kind": "body",
       "links": [
@@ -222,16 +235,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:7a1ebb99f421f5ea8172ee6bbc265d23a5d0a34ddeb5c06a36ba6a2fdaf18fd8",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:aa33f2ab09b28eb007167a3e64728be2f0f2443827760927c56e3752227ef584",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2023-10-09",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "19A.1. Use of a trade mark generally",
     "images": [],
     "last_amended": "2023-10-09",
     "nav_title": "1. Use of a trade mark generally",
     "page_ref": "TMM/Part19A/1",
     "part_id": "Part19A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-use-of-a-trade-mark-generally"
   }
 }

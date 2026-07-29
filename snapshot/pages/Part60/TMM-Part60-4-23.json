@@ -49,8 +49,19 @@
         "4.23.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/23/4/23/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part44/1"
+        {
+          "extraction": "href",
+          "mention": "Part 44 Claim of Interest or Rights in a Trade Mark",
+          "ref": "TMM/Part44/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -179,8 +190,19 @@
         "4.23.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/23/4/23/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part44/4"
+        {
+          "extraction": "href",
+          "mention": "4. Recording the claim",
+          "ref": "TMM/Part44/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -208,16 +230,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:4d874809fea7d4b1c5d57ea1fed463c0b9698af0be9a0338f267c0003493ca8d",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:68aabd8eeb269b65d7bc62e317664e8ca5e5c34e16bbc18b269ece38c93ca89d",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.23 Claim to Interest in, or Right in Respect of a Trade Mark",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.23 Claim to Interest in, or Right in Respect of a Trade Mark",
     "page_ref": "TMM/Part60/4/23",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.23-claim-to-interest-in-or-right-in-respect-of-a-trade-mark"
   }
 }

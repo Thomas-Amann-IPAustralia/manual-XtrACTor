@@ -80,8 +80,13 @@
         "Word Constituents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part5/x-word-constituents"
+        {
+          "extraction": "href",
+          "mention": "The Breakdown of Words",
+          "ref": "TMM/Part5/x-word-constituents"
+        }
       ],
       "kind": "body",
       "links": [
@@ -201,6 +206,13 @@
         "The Breakdown of Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/the-breakdown-of-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -227,6 +239,13 @@
         "'Stop' Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/stop-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -265,6 +284,13 @@
         "Letters"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -295,6 +321,13 @@
         "Letters or Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-or-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -329,6 +362,13 @@
         "Monograms"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/monograms",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -371,6 +411,13 @@
         "Letters Which Occur Within a Word or Attached to Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-which-occur-within-a-word-or-attached-to-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -458,6 +505,13 @@
         "Letters That Stand Out as a Separate Feature in a Word"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -485,6 +539,18 @@
         "Examples of indexing marks containing letters"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/examples-of-indexing-marks-containing-letters",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -633,6 +699,18 @@
         "Phonetic equivalents of letters"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/phonetic-equivalents-of-letters",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -701,6 +779,18 @@
         "Letters featuring in words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/letters-featuring-in-words",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -888,6 +978,13 @@
         "Typescript or Punctuation Symbols"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/typescript-or-punctuation-symbols",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1097,6 +1194,18 @@
         "Indexing @ and # symbols"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/typescript-or-punctuation-symbols",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/indexing-and-symbols",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1220,6 +1329,13 @@
         "Accents, umlauts, diacritics"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/accents-umlauts-diacritics",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1250,6 +1366,13 @@
         "Numbers"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1293,6 +1416,18 @@
         "Indexing numbers"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/indexing-numbers",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1405,6 +1540,18 @@
         "Fractions"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/fractions",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1469,6 +1616,18 @@
         "Decimals"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/decimals",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1529,6 +1688,18 @@
         "Examples of indexing trade marks containing numbers"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/examples-of-indexing-trade-marks-containing-numbers",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1605,6 +1776,18 @@
         "Letters featuring with words or letters"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/numbers",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-word-constituents/letters-featuring-with-words-or-letters",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1785,6 +1968,13 @@
         "OZZ, EASY and QUICK phonetics"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/ozz-easy-and-quick-phonetics",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1854,6 +2044,13 @@
         "Domain Names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-word-constituents/domain-names",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1980,10 +2177,10 @@
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:0a4451d495e23500bf843d669604e577eab2085fa766ac722ebc198e124fd6c2",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:bc01b49966153e23256b70cd43cdf6bbba7486a11d5660520de192b3d272852a",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Word Constituents",
     "images": [
       {
@@ -2007,6 +2204,7 @@
     "nav_title": "Word Constituents",
     "page_ref": "TMM/Part5/x-word-constituents",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/word-constituents"
   }
 }

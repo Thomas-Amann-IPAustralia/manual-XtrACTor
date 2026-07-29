@@ -80,10 +80,23 @@
         "60.4.21 Opposition to Cessation of Protection because of Non-Use"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part48/1",
-        "TMM/Part49/1",
-        "TMM/Part51/1"
+        {
+          "extraction": "href",
+          "mention": "Part 48 Removal of a Trade Mark from the Register for Non-use",
+          "ref": "TMM/Part48/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 49 Non-use Procedures",
+          "ref": "TMM/Part49/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 51 General opposition proceedings",
+          "ref": "TMM/Part51/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -209,10 +222,29 @@
         "4.21.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/21/4/21/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part48/1",
-        "TMM/Part49/1",
-        "TMM/Part51/1"
+        {
+          "extraction": "href",
+          "mention": "Parts 48",
+          "ref": "TMM/Part48/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "49",
+          "ref": "TMM/Part49/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "51",
+          "ref": "TMM/Part51/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -296,16 +328,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:a21017349ad28d1bde139912005193d725ce7eba9fca48cab450c54e06efed9c",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:109870a43b5a009b6e0b8ac419b59a25d835e1806c8d6328346a53a4763dd568",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.21 Opposition to Cessation of Protection because of Non-Use",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.21 Opposition to Cessation of Protection because of Non-Use",
     "page_ref": "TMM/Part60/4/21",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.21-opposition-to-cessation-of-protection-because-of-non-use"
   }
 }

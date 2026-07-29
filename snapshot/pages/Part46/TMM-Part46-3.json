@@ -38,9 +38,18 @@
         "Part 46.3. When registration or protection can be opposed"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part47/x-relevant-legislation18",
-        "TMM/Part62/x-relevant-legislation19"
+        {
+          "extraction": "href",
+          "mention": "Part 47 Procedures for Opposing Registration or Protection",
+          "ref": "TMM/Part47/x-relevant-legislation18"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 62 Revocation of Registration",
+          "ref": "TMM/Part62/x-relevant-legislation19"
+        }
       ],
       "kind": "body",
       "links": [
@@ -116,16 +125,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:f4601c55ef2e142d0e44df0eb63c224e343c49747918f5311877b644e04e395a",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:3a0f371a652986622fa5800a0b44b699b38752eabe97a3a7a3d5b18a469a1ae0",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 46.3. When registration or protection can be opposed",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "3. When registration or protection can be opposed",
     "page_ref": "TMM/Part46/3",
     "part_id": "Part46",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-when-registration-or-protection-can-be-opposed"
   }
 }

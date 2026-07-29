@@ -20,6 +20,7 @@
         "6.1. Expedited Examination"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -99,6 +100,13 @@
         "1.1 Expedited examination - applicant's request"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part6/1/1/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -171,8 +179,19 @@
         "1.2 Expedited examination by the Registrar"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part6/1/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part11/4"
+        {
+          "extraction": "href",
+          "mention": "4. Convention documents",
+          "ref": "TMM/Part11/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -212,16 +231,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Minor content update.",
     "archived": false,
-    "content_hash": "sha256:1ed490e02618a29df81ad8ca3101d12322b03e2e52bce9503ec2a6d3e238c1f5",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:f09e278f4c21837d1df501339f4205c393daa693b00a093d284aca2655a723b3",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "6.1. Expedited Examination",
     "images": [],
     "last_amended": "2026-02-10",
     "nav_title": "1. Expedited Examination",
     "page_ref": "TMM/Part6/1",
     "part_id": "Part6",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-expedited-examination"
   }
 }

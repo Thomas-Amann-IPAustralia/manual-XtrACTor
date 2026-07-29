@@ -16,6 +16,7 @@
         "43.3. Application to record assignment etc"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -133,8 +134,19 @@
         "3.1 Form of application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part43/3/3/2"
+        {
+          "extraction": "href",
+          "mention": "3.2",
+          "ref": "TMM/Part43/3/3/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -278,6 +290,13 @@
         "3.2 Prescribed Documents"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/3/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -329,6 +348,13 @@
         "3.3 Transmission on death of joint owner"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -400,9 +426,24 @@
         "3.4 Consent of the ACCC to assignment of a certification trade mark"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/3/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part35/10",
-        "TMM/Part35/9"
+        {
+          "extraction": "href",
+          "mention": "10. Assignment of unregistered certification trade marks",
+          "ref": "TMM/Part35/10"
+        },
+        {
+          "extraction": "href",
+          "mention": "9. Assignment of registered certification trade marks",
+          "ref": "TMM/Part35/9"
+        }
       ],
       "kind": "body",
       "links": [
@@ -486,16 +527,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:28086a4b2d235b0566794df7514a897c5060c73566bb2965582fa08968c84d7b",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:c87c56fb8a69ceafc86a254a5d47224f269ddaad1ebc498441c7d1b280951703",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.3. Application to record assignment etc",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "3. Application to record assignment etc",
     "page_ref": "TMM/Part43/3",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-application-to-record-assignment-etc"
   }
 }

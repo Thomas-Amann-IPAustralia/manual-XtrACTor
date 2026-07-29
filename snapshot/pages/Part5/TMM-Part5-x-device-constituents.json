@@ -52,8 +52,13 @@
         "Device Constituents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part5/x-device-constituents"
+        {
+          "extraction": "href",
+          "mention": "Device Phrases",
+          "ref": "TMM/Part5/x-device-constituents"
+        }
       ],
       "kind": "body",
       "links": [
@@ -133,6 +138,13 @@
         "Device Phrases"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/device-phrases",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -175,6 +187,18 @@
         "Conventions used in device phrases"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/device-phrases",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/conventions-used-in-device-phrases",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -411,6 +435,18 @@
         "Device phrase operators"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/device-phrases",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/device-phrase-operators",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -445,6 +481,13 @@
         "How are Images Indexed?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/how-are-images-indexed",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -479,6 +522,18 @@
         "Geometric Borders"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/how-are-images-indexed",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/geometric-borders",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -542,6 +597,18 @@
         "Conventional decorative elements"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/how-are-images-indexed",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/conventional-decorative-elements",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -682,6 +749,13 @@
         "Types of Terms (Descriptors)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/types-of-terms-descriptors~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -879,6 +953,13 @@
         "Types of Terms (Descriptors)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/types-of-terms-descriptors~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -942,6 +1023,18 @@
         "STYLISED"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/stylised",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1047,6 +1140,18 @@
         "CARTOON"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/cartoon",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1103,6 +1208,18 @@
         "CLOTHED"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/clothed",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1146,6 +1263,18 @@
         "SILHOUETTE"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/silhouette",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1222,6 +1351,13 @@
         "Other Special Descriptors"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/other-special-descriptors",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1276,6 +1412,18 @@
         "SHIELDS, CRESTS AND COATS OF ARMS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/shields-crests-and-coats-of-arms",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1315,6 +1463,18 @@
         "Mantling and Drapes"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/mantling-and-drapes",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1353,6 +1513,13 @@
         "Geometric Shapes in Marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1391,6 +1558,18 @@
         "CIRCLES AND DISCS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/circles-and-discs~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1446,6 +1625,18 @@
         "CIRCLES AND DISCS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/circles-and-discs~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1673,6 +1864,18 @@
         "CIRCLES AND DISCS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/circles-and-discs~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1745,6 +1948,18 @@
         "ELLIPSES AND OVALS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/ellipses-and-ovals",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1820,6 +2035,18 @@
         "FOUR-SIDED FIGURES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/four-sided-figures~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1995,6 +2222,18 @@
         "FOUR-SIDED FIGURES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/four-sided-figures~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2131,6 +2370,18 @@
         "TRIANGLES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/triangles",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2207,6 +2458,18 @@
         "OTHER GEOMETRIC FIGURES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/other-geometric-figures",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2274,6 +2537,18 @@
         "STRIPES (LINES and ARROWS)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/stripes-lines-and-arrows",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2414,6 +2689,18 @@
         "TREFOILS, QUATREFOILS, CINQUEFOILS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/trefoils-quatrefoils-cinquefoils",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2457,6 +2744,18 @@
         "SPIRALS, SPRINGS AND COILS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/spirals-springs-and-coils",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2484,6 +2783,18 @@
         "CURLS AND WHORLS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/curls-and-whorls",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2511,6 +2822,18 @@
         "DROPS AND FLAMES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/drops-and-flames",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2594,6 +2917,18 @@
         "IMPELLERS AND FANS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/impellers-and-fans",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2670,6 +3005,18 @@
         "ARROWS, ARROWHEADS, CHEVRONS, ANGLES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/arrows-arrowheads-chevrons-angles",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2726,6 +3073,18 @@
         "PATTERNS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/patterns",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2806,6 +3165,18 @@
         "GRID, MESH, GRAPH"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/grid-mesh-graph",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2845,6 +3216,18 @@
         "BORDERS, FRAMES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/borders-frames",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2888,6 +3271,18 @@
         "BADGES, MEDALS, MEDALLIONS, ROSETTES AND COINS."
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/badges-medals-medallions-rosettes-and-coins",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -2962,6 +3357,18 @@
         "LIONS AND OTHER HERALDIC ANIMALS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/lions-and-other-heraldic-animals",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3001,6 +3408,18 @@
         "STARS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/stars",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3028,6 +3447,18 @@
         "BALLS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/balls",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3087,6 +3518,18 @@
         "GLOBES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/globes",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3146,6 +3589,18 @@
         "MAPS AND FLAGS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/maps-and-flags",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3173,6 +3628,18 @@
         "CROSSES"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/crosses",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3272,6 +3739,18 @@
         "SYMBOLS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/symbols~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3327,6 +3806,18 @@
         "SYMBOLS"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-device-constituents/symbols~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -3340,10 +3831,10 @@
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:b086a2e233b60d86f3ee16a681bce05f15cd500e2fd7c57a504039a1e6137817",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:5927da590878ca6128ec210ab6a9ac311e2fd664fc9b81547d06d4987fc8b784",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Device Constituents",
     "images": [
       {
@@ -3431,6 +3922,7 @@
     "nav_title": "Device Constituents",
     "page_ref": "TMM/Part5/x-device-constituents",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/device-constituents"
   }
 }

@@ -65,8 +65,19 @@
         "4.24.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part43/1"
+        {
+          "extraction": "href",
+          "mention": "Part 43 Assignment and Transmission",
+          "ref": "TMM/Part43/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -195,10 +206,29 @@
         "4.24.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part33/1",
-        "TMM/Part43/1",
-        "TMM/Part44/1"
+        {
+          "extraction": "href",
+          "mention": "33 Collective Trade Marks",
+          "ref": "TMM/Part33/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "43 Assignment and Transmission",
+          "ref": "TMM/Part43/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "44 Claim Of Interest or Rights in a Trade Mark",
+          "ref": "TMM/Part44/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -250,6 +280,13 @@
         "4.24.3 Change in Ownership of an IRDA or Protected International Trade Mark"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -321,6 +358,13 @@
         "4.24.4 Declaration that a Change in Ownership has no Effect in Australia"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -352,8 +396,24 @@
         "4.24.4.2 Collective IRDA or Protected International Trade Mark"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/4",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/24/4/24/4/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part33/5"
+        {
+          "extraction": "href",
+          "mention": "Part 33.5 Collective Trade Marks",
+          "ref": "TMM/Part33/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -429,8 +489,24 @@
         "4.24.4.3 Claim to a Right or Interest Recorded"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/4",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/24/4/24/4/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part44/1"
+        {
+          "extraction": "href",
+          "mention": "Part 44 Claim Of Interest Or Rights In A Trade Mark",
+          "ref": "TMM/Part44/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -487,6 +563,18 @@
         "4.24.4.4 Notification that the Change in Ownership can now have Effect in Australia"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/4",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/24/4/24/4/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -519,6 +607,13 @@
         "4.24.5 Process for Change in Ownership"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/24/4/24/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -532,16 +627,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:f655177c13568ada54177d41bdc7674034f58fbea7be56633c9160e1196c63be",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:d01c6a17e26deb4f3049830f403d9005e0ec6e9a750783cc3ac9b38b76e0e96d",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.24 Change in Ownership of an International Registration",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.24 Change in Ownership of an International Registration",
     "page_ref": "TMM/Part60/4/24",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.24-change-in-ownership-of-an-international-registration"
   }
 }

@@ -76,6 +76,7 @@
         "10. Landing Page"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "landing",
       "links": [
@@ -175,16 +176,17 @@
   "page": {
     "amendment_note": "Rename to Landing page, add published date and Act/Reg links.",
     "archived": false,
-    "content_hash": "sha256:43743d55b8359711bf8fff1a0f3db13d38d2154336b2f07477e04c4e9936b7a5",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:713e2954eb54c06e3594a94df9d1becc3f3d6f0e71d5ecb33f6e53af0885e084",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "10. Landing Page",
     "images": [],
     "last_amended": "2025-01-17",
     "nav_title": "Relevant Legislation",
     "page_ref": "TMM/Part10/x-relevant-legislation21",
     "part_id": "Part10",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/relevant-legislation21"
   }
 }

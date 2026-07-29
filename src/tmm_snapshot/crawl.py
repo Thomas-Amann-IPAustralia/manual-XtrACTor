@@ -18,7 +18,7 @@ from pathlib import Path
 
 from tmm_snapshot import config, writer
 from tmm_snapshot.chunker import Chunk, chunk_body
-from tmm_snapshot.citations import resolve_internal_refs
+from tmm_snapshot.citations import extract_internal_refs, resolve_internal_refs
 from tmm_snapshot.fetch import Fetcher
 from tmm_snapshot.page import PageRecord, parse_page
 from tmm_snapshot.sitemap import NavPage, build_sitemap, write_sitemap
@@ -249,6 +249,10 @@ class Stats:
     chunks_changed: int = 0
     missing_raw: list[str] = field(default_factory=list)
     retired: list[str] = field(default_factory=list)
+    #: Pages this run did not cut whose cross references none the less had to
+    #: be re-settled, because a heading they pointed at moved on some other
+    #: page. See `_settle_stored`.
+    refs_settled: list[str] = field(default_factory=list)
     #: (page_ref, url, status) for nav entries the site would not serve.
     unreachable: list[tuple[str, str, int]] = field(default_factory=list)
     #: (page_ref, changed chunks, total chunks) for every page that moved.
@@ -439,6 +443,74 @@ def _resolve_refs(
             )
 
 
+def _settle_stored(
+    root: Path,
+    sitemap: dict[str, NavPage],
+    prepared: list[Prepared],
+    chunk_refs: frozenset[str],
+    page_refs: frozenset[str],
+    now: str,
+    stats: Stats,
+    *,
+    dry_run: bool,
+) -> None:
+    """Re-settle the cross references of every page this run did **not** cut.
+
+    A reference is a fact about two pages, and gate 2 only ever asks about one
+    of them. Before 0.8.0 `_resolve_refs` reached only the pages a run re-cut,
+    so a heading renamed on page B left every unchanged page A that cited it
+    holding an address that no longer existed — the crawl exited 0, the
+    snapshot failed its own validator, and no further crawl repaired it,
+    because A was unchanged every time. Only `--force` cleared it. The reverse
+    was worse for being legal: a reference that had coarsened to page level
+    because its heading was absent stayed coarse for ever once the heading came
+    back, and nothing anywhere reported it.
+
+    Re-settling from the stored record is possible because a settled ref is a
+    valid candidate — `resolve_internal_refs` is idempotent — and because the
+    stored `links` hold every anchor's href verbatim. So the candidates are
+    re-derived by the same `extract_internal_refs` the chunker calls, over the
+    same evidence, and there is no second reading of it to drift.
+
+    Only pages whose settled refs actually moved are written. On a corpus that
+    has not shifted this walks 500 files and writes none.
+    """
+    rewritten = {page.record.page_ref for page in prepared}
+
+    for path in writer.iter_page_files(root):
+        document = writer.read_page_file(path)
+        if document is None:
+            continue
+        page = document.get("page")
+        if not isinstance(page, dict) or page.get("page_ref") in rewritten:
+            continue
+
+        moved = False
+        for chunk in document.get("chunks", []):
+            if not isinstance(chunk, dict):
+                continue
+            settled = resolve_internal_refs(
+                extract_internal_refs(
+                    chunk.get("links", []),
+                    str(chunk.get("text", "")),
+                    sitemap,
+                    str(chunk.get("page_ref", "")) or None,
+                ),
+                chunk_refs,
+                page_refs,
+            )
+            if settled != chunk.get("internal_refs"):
+                chunk["internal_refs"] = settled
+                moved = True
+
+        if not moved:
+            continue
+        stats.refs_settled.append(str(page.get("page_ref")))
+        if not dry_run:
+            writer.rewrite_settled(path, document, now)
+        stats.pages_written += 1
+
+
 def _commit(
     page: Prepared, root: Path, args: argparse.Namespace, stats: Stats
 ) -> None:
@@ -481,22 +553,37 @@ def _corpus(root: Path, sitemap: dict[str, NavPage]) -> dict[str, object]:
     `corpus.chunks` counts every chunk in the snapshot, `run.chunks_cut`
     counts the ones this run actually cut. A re-crawl where every page answers
     304 leaves the first at 2151 and the second at 0, and both are correct.
+
+    `pages` and `parts` were the exception until 0.8.0 and should not have
+    been: they counted the nav inventory, so the block that promises to
+    describe the disk reported 502 pages beside 500 files. A reader working
+    out how many pages yield no chunks got 17 rather than 15, and two pages
+    the site would not serve read as two pages that came back empty — the
+    exact misreading this split exists to prevent. The inventory's own counts
+    are in `sitemap.json`, and how many were in scope is `run.pages_in_scope`.
     """
     sizes = [path.stat().st_size for path in (Path(root) / "raw").rglob("*.html")]
     chunks = 0
     links = 0
+    pages = 0
+    parts: set[str] = set()
     for path in writer.iter_page_files(Path(root)):
         document = writer.read_page_file(path)
-        if document is not None:
-            for chunk in document.get("chunks", []):
-                chunks += 1
-                links += len(chunk.get("links", []))
+        if document is None:
+            continue
+        pages += 1
+        record = document.get("page")
+        if isinstance(record, dict) and isinstance(record.get("part_id"), str):
+            parts.add(record["part_id"])
+        for chunk in document.get("chunks", []):
+            chunks += 1
+            links += len(chunk.get("links", []))
     return {
         "chunks": chunks,
         "links": links,
         "mean_raw_bytes": round(sum(sizes) / len(sizes)) if sizes else 0,
-        "pages": len(sitemap),
-        "parts": len({nav.part_id for nav in sitemap.values()}),
+        "pages": pages,
+        "parts": len(parts),
         "raw_bytes": sum(sizes),
         "raw_files": len(sizes),
     }
@@ -571,6 +658,7 @@ def _manifest(
             "pages_written": stats.pages_written,
             "part": args.part,
             "raw_written": stats.raw_written,
+            "refs_settled": sorted(stats.refs_settled),
             "retired": stats.retired,
             "skipped_not_modified": stats.skipped_304,
             "unchanged": stats.unchanged,
@@ -604,6 +692,12 @@ def _report(args: argparse.Namespace, stats: Stats) -> list[str]:
         f"    {page_ref}: {changed} of {total} paragraphs amended"
         for page_ref, changed, total in stats.amended
     )
+    if stats.refs_settled:
+        lines.append(
+            f"  refs re-settled  {len(stats.refs_settled)} pages this run did "
+            "not cut, whose cross references moved with another page"
+        )
+        lines.extend(f"    {ref}" for ref in sorted(stats.refs_settled))
     if stats.unreachable:
         lines.append(f"  UNREACHABLE      {len(stats.unreachable)}")
         lines.extend(
@@ -680,15 +774,27 @@ def run(args: argparse.Namespace, fetcher: Fetcher | None = None) -> int:
         # cross reference to a heading cannot be checked against a page that
         # has not been read yet. Cheap: what is held back is the records and
         # their text, not the source HTML.
-        if prepared:
-            _progress(f"resolving cross references across {len(prepared)} pages")
-            _resolve_refs(
-                prepared,
-                _chunk_inventory(root, prepared),
-                frozenset(nav.page_ref for nav in sitemap.values()),
-            )
+        _progress("resolving cross references")
+        chunk_refs = _chunk_inventory(root, prepared)
+        page_refs = frozenset(nav.page_ref for nav in sitemap.values())
+        _resolve_refs(prepared, chunk_refs, page_refs)
         for page in prepared:
             _commit(page, root, args, stats)
+
+        # And the pages this run did not cut, whose references are about the
+        # pages it did. Runs whatever the run did — including a run that cut
+        # nothing at all, because the heading that moved may have moved in an
+        # earlier one.
+        _settle_stored(
+            root,
+            sitemap,
+            prepared,
+            chunk_refs,
+            page_refs,
+            started_at,
+            stats,
+            dry_run=bool(args.dry_run),
+        )
 
         # One rotted nav link is the Manual's business. Every page failing is
         # ours: the site is down, or it has stopped serving us, and writing a

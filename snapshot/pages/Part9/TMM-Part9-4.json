@@ -44,6 +44,7 @@
         "Part 9.4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -137,8 +138,19 @@
         "4.1 Subsection 65(2) - amend representation of trade mark"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/5"
+        {
+          "extraction": "href",
+          "mention": "Part 26.5",
+          "ref": "TMM/Part26/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -203,6 +215,13 @@
         "4.2 Subsection 65(3) – amend application to which section 51 applies to remove one or more trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -236,6 +255,13 @@
         "4.3 Subsection 65(4) - amend to correct class"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -269,6 +295,13 @@
         "4.4 Subsection 65(5) - amend to add one or more classes to the goods or services"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -302,6 +335,13 @@
         "4.5 Subsection 65(6) - amend to change type of registration"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -355,6 +395,13 @@
         "4.6 Subsection 65(7) - amend any other particulars including specification"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -393,6 +440,18 @@
         "4.6.1 Subsection 65(8) – amend applicant to a person with legal personality"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/6",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part9/4/4/6/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -426,6 +485,13 @@
         "4.7 Section 65A – amend application to correct a clerical error or an obvious mistake after publication"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/7",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -482,6 +548,18 @@
         "4.7.1 Processing of section 65A amendments"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/7",
+          "source": "emphasis"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part9/4/4/7/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -540,6 +618,18 @@
         "4.7.2 Kind of amendments that could be made under section 65A"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/7",
+          "source": "emphasis"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part9/4/4/7/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -594,6 +684,18 @@
         "4.7.3 Publishing and Opposition"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/4/4/7",
+          "source": "emphasis"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part9/4/4/7/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -632,16 +734,17 @@
   "page": {
     "amendment_note": "Outdated terms updated.",
     "archived": false,
-    "content_hash": "sha256:29966de2614a10871ff6fbc2693f77ae9aafc7db0584727d8c1875729091092c",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:6a30f79f1bb8e0fa3197bab6a010c1f51f255c3c5570fd69d7a5a2662d2ff0d2",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 9.4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)",
     "images": [],
     "last_amended": "2026-06-17",
     "nav_title": "Part 9. 4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)",
     "page_ref": "TMM/Part9/4",
     "part_id": "Part9",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-amendment-after-particulars-of-an-application-have-been-published-sections-63-65-and-65a"
   }
 }

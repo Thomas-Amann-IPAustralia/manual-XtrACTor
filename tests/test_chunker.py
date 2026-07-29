@@ -706,3 +706,98 @@ def test_a_long_heading_holding_its_own_content_is_kept(heading_only):
     found = {chunk.chunk_ref: chunk for chunk in heading_only}
 
     assert len(found["TMM/Part22/9/9/2"].text) >= MIN_HEADING_CHUNK_CHARS
+
+
+# -- the ancestry a heading_path cannot describe ---------------------------
+
+
+def test_every_heading_carries_its_level_its_source_and_its_chunk():
+    """`heading_path` is a list of strings, so a consumer could see *that* a
+    chunk sat under '2.3' and not what depth it was cut at, whether the Manual
+    marked it up or the chunker inferred it, or how to address it."""
+    cut = body_of(
+        "<h2>9 Outer</h2><p>Outer prose.</p>"
+        "<h3>9.1 Inner</h3><p>Inner prose.</p>"
+        "<p><strong>9.1.1 Promoted</strong></p><p>Promoted prose.</p>"
+    )
+    leaf = {chunk.heading_path[-1]: chunk for chunk in cut}
+
+    # The level of an inferred heading comes from the number the Manual
+    # printed, not from a tag name it does not have: '9.1.1' is three
+    # components and so sits where an <h4> sits.
+    assert leaf["9.1.1 Promoted"].headings == [
+        {"level": 2, "source": "markup", "ref": "TMM/Part22/9/9"},
+        {"level": 3, "source": "markup", "ref": "TMM/Part22/9/9/1"},
+        {"level": 4, "source": "emphasis", "ref": "TMM/Part22/9/9/1/1"},
+    ]
+
+
+def test_a_heading_holding_no_chunk_of_its_own_says_so_with_a_null_ref():
+    """A heading whose content lives in its subsections is not cut
+    (SOURCE_NOTES.md §27), so there is nothing to address — and 899 of the
+    corpus's chunks have such an ancestor. Before 0.8.0 the only way to reach
+    one was to match its text within the page, which is the fragile join
+    `chunk_ref` exists to replace."""
+    cut = body_of("<h2>9 Container</h2><h3>9.1 Inner</h3><p>Inner prose.</p>")
+
+    assert [chunk.chunk_ref for chunk in cut] == ["TMM/Part22/9/9/1"]
+    assert cut[0].headings == [
+        {"level": 2, "source": "markup", "ref": None},
+        {"level": 3, "source": "markup", "ref": "TMM/Part22/9/9/1"},
+    ]
+
+
+def test_a_split_sections_heading_is_held_by_its_opening_fragment():
+    """Where a section had to be split its address belongs to no single chunk,
+    and a link to the heading is aimed at where the section starts —
+    SOURCE_NOTES.md §22, applied to the ancestry."""
+    long_prose = "".join(f"<p>{'word ' * 200}</p>" for _ in range(6))
+    cut = body_of(f"<h2>9 Long</h2>{long_prose}")
+
+    assert len(cut) > 1
+    assert {chunk.headings[-1]["ref"] for chunk in cut} == {"TMM/Part22/9/9~1"}
+
+
+def test_the_headings_array_describes_the_heading_path_exactly():
+    """The ancestor's text is deliberately not repeated — it is
+    `heading_path[2:]`. What makes that safe is the correspondence being
+    checked rather than trusted."""
+    for chunk in body_of(
+        "<p>Lead-in.</p><h2>9 Outer</h2><p>a</p><h3>9.1 Inner</h3><p>b</p>"
+    ):
+        assert len(chunk.headings) == len(chunk.heading_path) - 2
+        if chunk.headings:
+            assert chunk.headings[-1]["source"] == chunk.heading_source
+        else:
+            assert chunk.heading_source is None
+
+
+def test_a_heading_that_is_never_cut_does_not_claim_a_label():
+    """`_repeated_labels` used to count every section `_sections` produced,
+    including the ones `chunk_body` then declines to cut. A label printed once
+    as a never-chunked container and once as a real section read as repeated,
+    and the real section was demoted to the positional form although nothing
+    else claimed its slug — silently reintroducing the exposure
+    SOURCE_NOTES.md §18 measured and removed."""
+    cut = body_of(
+        "<h2>Disclaimer</h2><h3>Sub one</h3><p>Sub prose.</p>"
+        "<h2>Other</h2><p>Other prose.</p>"
+        "<h2>Disclaimer</h2><p>The real disclaimer text.</p>"
+    )
+
+    assert [chunk.chunk_ref for chunk in cut] == [
+        "TMM/Part22/9/sub-one",
+        "TMM/Part22/9/other",
+        "TMM/Part22/9/disclaimer",
+    ]
+
+
+def test_two_sections_that_really_do_share_a_label_still_fall_back():
+    """Part 29.9 titles both worked examples 'XYZ Company'. Both are cut, so
+    both compete, and the positional form is the honest answer."""
+    cut = body_of(
+        "<h2>XYZ Company</h2><p>The first example.</p>"
+        "<h2>XYZ Company</h2><p>The second example.</p>"
+    )
+
+    assert [chunk.chunk_ref for chunk in cut] == ["TMM/Part22/9#1", "TMM/Part22/9#2"]

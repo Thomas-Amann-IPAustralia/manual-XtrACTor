@@ -13,6 +13,8 @@ from __future__ import annotations
 
 import json
 
+import re
+
 import pytest
 
 from types import SimpleNamespace
@@ -29,6 +31,7 @@ from tmm_snapshot.crawl import (
     run,
 )
 from tmm_snapshot.sitemap import NavPage
+from tmm_snapshot.validate import validate_snapshot
 
 
 def crawl(manual: FakeManual, tmp_path, *argv: str) -> int:
@@ -121,10 +124,17 @@ def test_the_manifest_carries_the_corpus_measurement(manual, tmp_path):
     crawl(manual, tmp_path, "--part", "Part32B")
     manifest = json.loads((tmp_path / "snapshot" / "manifest.json").read_text("utf-8"))
 
-    assert manifest["corpus"]["pages"] == 61
-    assert manifest["corpus"]["parts"] == 4
+    # `corpus.*` counts the snapshot on disk, and nothing else — a `--part`
+    # run has written one Part, so that is what the corpus holds. Until 0.8.0
+    # `pages` and `parts` were read off the nav inventory instead, so this
+    # block reported 61 pages beside 7 files and a reader working out how many
+    # pages yielded no chunks got the count of pages that were never crawled.
+    # How many were in scope is a fact about the run and lives under `run`.
+    assert manifest["corpus"]["pages"] == 7
+    assert manifest["corpus"]["parts"] == 1
     assert manifest["corpus"]["raw_files"] == 7
     assert manifest["corpus"]["mean_raw_bytes"] > 0
+    assert manifest["run"]["pages_in_scope"] == 7
     assert manifest["run"]["part"] == "Part32B"
     assert manifest["run"]["complete"] is False
     assert manifest["extractor_version"]
@@ -496,3 +506,124 @@ def test_the_inventory_counts_pages_this_run_did_not_touch(manual, tmp_path):
         if name != "manifest.json" and before[name] != after.get(name)
     ]
     assert moved == []
+
+
+# -- settling the pages this run did not cut -------------------------------
+
+
+def _point_at_a_heading(root, page_ref, part_id, href, fragment):
+    """Give a stored page's link a `#fragment`, so it names a heading."""
+    path = writer.raw_path(page_ref, root)
+    html = path.read_text("utf-8")
+    assert f'href="{href}"' in html
+    # Every occurrence, including the sidebar's: the nav is stripped before
+    # chunking, and `normalise_url` drops a fragment, so the inventory is
+    # unaffected either way.
+    path.write_text(html.replace(f'href="{href}"', f'href="{href}{fragment}"'), "utf-8")
+
+
+def _renumber(root, page_ref, was, now):
+    """Model IP Australia renumbering a heading in the source."""
+    path = writer.raw_path(page_ref, root)
+    html = path.read_text("utf-8")
+    replaced = re.sub(rf"(<h[234][^>]*>\s*){re.escape(was)}(?=[^\d])", rf"\g<1>{now}", html, count=1)
+    assert replaced != html, f"no heading {was} in {page_ref}"
+    path.write_text(replaced, "utf-8")
+
+
+def _refs_to(root, page_ref, part_id, prefix):
+    document = writer.read_page_file(writer.page_path(page_ref, part_id, root))
+    return sorted(
+        {
+            reference["ref"]
+            for chunk in document["chunks"]
+            for reference in chunk["internal_refs"]
+            if reference["ref"] == prefix or reference["ref"].startswith(f"{prefix}/")
+        }
+    )
+
+
+def test_a_heading_that_moves_re_settles_the_pages_that_cited_it(
+    manual, tmp_path, capsys
+):
+    """The 0.7.0 review's second finding, end to end.
+
+    `_resolve_refs` reached only the pages a run re-cut, so a heading renamed
+    on one page left every *unchanged* page that cited it holding an address
+    that no longer existed. The crawl exited 0, the snapshot failed its own
+    validator, and no later crawl repaired it — the referring page was
+    unchanged every time — so only `--force` cleared it.
+    """
+    crawl(manual, tmp_path, "--part", "Part32B")
+    root = tmp_path / "snapshot"
+    crawl(manual, tmp_path, "--part", "Part22")
+
+    # Aim Part 32B.2.3's link at a heading on Part 22.1 rather than its top.
+    _point_at_a_heading(
+        root,
+        "TMM/Part32B/2/3",
+        "Part32B",
+        "/trademark/1.-registrability-under-section-41-of-the-trade-marks-act-1995",
+        "#1.2-intellectual-property-laws-amendment-raising-the-bar-act-2012",
+    )
+    args = build_parser().parse_args(["--from-raw", "--force", "--snapshot", str(root)])
+    assert run(args) == 0
+    assert "TMM/Part22/1/1/2" in _refs_to(root, "TMM/Part32B/2/3", "Part32B", "TMM/Part22/1")
+
+    # Now the Manual renumbers that heading. Part 22.1 is re-cut; Part 32B.2.3
+    # is untouched and is skipped at gate 2.
+    _renumber(root, "TMM/Part22/1", "1.2", "1.9")
+    capsys.readouterr()
+    args = build_parser().parse_args(["--from-raw", "--snapshot", str(root)])
+    assert run(args) == 0
+
+    assert _refs_to(root, "TMM/Part32B/2/3", "Part32B", "TMM/Part22/1") == [
+        "TMM/Part22/1"
+    ], "a heading that has gone must coarsen the citation, not dangle it"
+    assert validate_snapshot(root) == []
+    assert "TMM/Part32B/2/3" in capsys.readouterr().out
+
+
+def test_a_heading_that_comes_back_re_sharpens_the_citation(manual, tmp_path):
+    """The silent direction, and the worse one: a reference coarsened to its
+    page while the heading was missing is *valid* output, so nothing failed
+    and nothing reported it. It simply stayed coarse for ever."""
+    crawl(manual, tmp_path, "--part", "Part32B")
+    root = tmp_path / "snapshot"
+    crawl(manual, tmp_path, "--part", "Part22")
+    _point_at_a_heading(
+        root,
+        "TMM/Part32B/2/3",
+        "Part32B",
+        "/trademark/1.-registrability-under-section-41-of-the-trade-marks-act-1995",
+        "#1.2-intellectual-property-laws-amendment-raising-the-bar-act-2012",
+    )
+    _renumber(root, "TMM/Part22/1", "1.2", "1.9")
+    args = build_parser().parse_args(["--from-raw", "--force", "--snapshot", str(root)])
+    assert run(args) == 0
+    assert _refs_to(root, "TMM/Part32B/2/3", "Part32B", "TMM/Part22/1") == [
+        "TMM/Part22/1"
+    ]
+
+    _renumber(root, "TMM/Part22/1", "1.9", "1.2")
+    args = build_parser().parse_args(["--from-raw", "--snapshot", str(root)])
+    assert run(args) == 0
+
+    assert _refs_to(root, "TMM/Part32B/2/3", "Part32B", "TMM/Part22/1") == [
+        "TMM/Part22/1/1/2"
+    ]
+
+
+def test_settling_writes_nothing_when_nothing_moved(manual, tmp_path):
+    """The pass walks every page file on every run, so it must be a no-op on a
+    corpus that has not shifted — rule 2."""
+    crawl(manual, tmp_path, "--part", "Part32B")
+    root = tmp_path / "snapshot"
+    before = state(root)
+
+    args = build_parser().parse_args(["--from-raw", "--snapshot", str(root)])
+    assert run(args) == 0
+
+    assert {k: v for k, v in state(root).items() if "manifest" not in k} == {
+        k: v for k, v in before.items() if "manifest" not in k
+    }

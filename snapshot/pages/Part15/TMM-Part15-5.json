@@ -16,6 +16,7 @@
         "15.5. Form of the application"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -85,6 +86,13 @@
         "5.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -111,6 +119,13 @@
         "5.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part15/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -137,16 +152,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:ff9f548a4d3202e45fb6fc064ed63771fdd6b7aba3170c4cd87f66d44a84c60e",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:31bebf0a0a9ea6f63b4033cf2301235e1f6e8d4579cc55b5cb4159e9a56f902c",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "15.5. Form of the application",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "5. Form of the application",
     "page_ref": "TMM/Part15/5",
     "part_id": "Part15",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-form-of-the-application"
   }
 }

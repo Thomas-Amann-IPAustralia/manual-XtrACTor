@@ -20,9 +20,19 @@
         "Part 55. Annex A1 - Taxing of costs in multiple oppositions relying on same evidence"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part55/4",
-        "TMM/Part55/4/4/2"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 55.4.2",
+          "ref": "TMM/Part55/4"
+        },
+        {
+          "extraction": "href",
+          "mention": "part 55.4.2",
+          "ref": "TMM/Part55/4/4/2"
+        }
       ],
       "kind": "annex",
       "links": [
@@ -195,16 +205,17 @@
   "page": {
     "amendment_note": "Page renamed.",
     "archived": false,
-    "content_hash": "sha256:86d639323aaa424f300a72526cb0d91d8cf0a7592c74a178247a8ae75034d72e",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:41789f82165c82ac1029fedd9e81f686984400b727c8ab3a71d56fdc23cc38f7",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 55. Annex A1 - Taxing of costs in multiple oppositions relying on same evidence",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "Annex A1 - Taxing of costs in \"multiple\" oppositions relying on same evidence",
     "page_ref": "TMM/Part55/x-annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence",
     "part_id": "Part55",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence"
   }
 }

@@ -28,6 +28,7 @@
         "11.4. Convention documents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -81,9 +82,24 @@
         "4.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part17/1",
-        "TMM/Part6/1"
+        {
+          "extraction": "href",
+          "mention": "Part 17 Deferment of Acceptance",
+          "ref": "TMM/Part17/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "1.2 Expedition of examination by the Registrar",
+          "ref": "TMM/Part6/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -128,8 +144,19 @@
         "4.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/4/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part47/4"
+        {
+          "extraction": "href",
+          "mention": "4. Making convention documents available to opponent",
+          "ref": "TMM/Part47/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -157,16 +184,17 @@
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
-    "content_hash": "sha256:590a12dc91075a637fdc927837e6bf18ad9f8c3c221c165f2bccf333ce41ca8e",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:ae2967c9a81852551d4e14b3a3d42e7ccbdf2bd3752b73746e453c9ac293272a",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "11.4. Convention documents",
     "images": [],
     "last_amended": "2025-01-13",
     "nav_title": "Part 11.4. Convention documents",
     "page_ref": "TMM/Part11/4",
     "part_id": "Part11",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-convention-documents"
   }
 }

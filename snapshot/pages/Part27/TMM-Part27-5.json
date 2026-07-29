@@ -30,9 +30,18 @@
         "27.5. Filing evidence of honest concurrent use, prior use or other circumstances"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part23/4",
-        "TMM/Part28/1"
+        {
+          "extraction": "href",
+          "mention": "4.9 Evidence of Use in Relation to Tobacco Products",
+          "ref": "TMM/Part23/4"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 28 Honest Concurrent Use, Prior Use or Other Circumstances",
+          "ref": "TMM/Part28/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -194,6 +203,13 @@
         "5.1 Evidence must be in a declaration"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -279,8 +295,24 @@
         "5.1.2 Exhibits must be incorporated in the declaration:"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/5/5/1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part27/5/5/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part28/x-annex-a1---information-sheet-for-trade-mark-applicants"
+        {
+          "extraction": "href",
+          "mention": "Part 28 - Annex A1",
+          "ref": "TMM/Part28/x-annex-a1---information-sheet-for-trade-mark-applicants"
+        }
       ],
       "kind": "body",
       "links": [
@@ -301,16 +333,17 @@
   "page": {
     "amendment_note": "Update regarding substantial compliance for a declaration.",
     "archived": false,
-    "content_hash": "sha256:30dc795f45fccbf794d8307e4ad587d72c6aadd77b6c13ffccd7190ba2d32b44",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:0fd4557a8b6ab8eb5e265da9a01efee194d6b856c236eb744d71982ac4c77773",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "27.5. Filing evidence of honest concurrent use, prior use or other circumstances",
     "images": [],
     "last_amended": "2024-05-16",
     "nav_title": "5. Filing evidence of honest concurrent use, prior use or other circumstances",
     "page_ref": "TMM/Part27/5",
     "part_id": "Part27",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-filing-evidence-of-honest-concurrent-use-prior-use-or-other-circumstances"
   }
 }

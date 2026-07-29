@@ -32,6 +32,13 @@
       "examples": ["22.1. Registrability under section 41 of the Trade Marks Act 1995"]
     },
 
+    "printed_page_ref": {
+      "type": ["string", "null"],
+      "pattern": "^TMM/Part[0-9]{1,3}[A-Z]?/[A-Za-z0-9/.-]+$",
+      "description": "The page_ref this page's own <h1> prints, on the two pages where that is not its page_ref, and null on the other 498. 'page_ref' comes from the nav and must, because the nav is the only reliable source of Part membership — but TMM/Part20/3 prints 'Part 20.2. Definition of sign' while TMM/Part20/2 prints '20.2. Background to definition of a trade mark', so two pages claim 20.2. That is the Manual's defect and rule 1 says to record an ambiguity rather than resolve it: the nav still decides the address, and this says the page disagrees. Without it a bare 'part 20.2' resolves to one of them with nothing suggesting it might have meant the other.",
+      "examples": ["TMM/Part20/2", "TMM/Part1/1"]
+    },
+
     "content_hash": {
       "type": "string",
       "pattern": "^sha256:[0-9a-f]{64}$",
@@ -45,7 +52,7 @@
 
     "images": {
       "type": "array",
-      "description": "Every image in the page's content, de-duplicated and sorted by (src, alt). Nine pages of the Manual are ONLY an image — a flowchart, a cross-search class table, the format of a summons — and they yield no chunks because there is no text in them. Without this they are indistinguishable from a page with nothing on it. The image bytes are not stored: this records that the image is there, and where.",
+      "description": "Every image in the page's content, de-duplicated and sorted by (src, alt). Eight pages of the Manual are ONLY an image — a flowchart, a cross-search class table, the format of a summons — and they yield no chunks because there is no text in them. Without this they are indistinguishable from a page with nothing on it. The image bytes are not stored: this records that the image is there, and where.",
       "items": {
         "type": "object",
         "additionalProperties": false,

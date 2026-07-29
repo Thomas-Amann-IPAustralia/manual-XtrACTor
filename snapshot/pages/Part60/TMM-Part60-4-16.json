@@ -41,8 +41,19 @@
         "4.16.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/16/4/16/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part47/1"
+        {
+          "extraction": "href",
+          "mention": "Part 47 Procedures for Opposing Registration or Protection",
+          "ref": "TMM/Part47/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -142,6 +153,13 @@
         "4.16.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/16/4/16/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -168,16 +186,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:8dc16b76da8390781c01d0d40f6f015320bd7328523c6c526b3e3b9d72e00403",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:90a397c4d5751d4da73ed71a6124391de43c905fe00e0d0c38a37e4ec421e6ef",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.16 Extension of Time to File Notice of Opposition to Protection",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.16 Extension of Time to File Notice of Opposition to Protection",
     "page_ref": "TMM/Part60/4/16",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.16-extension-of-time-to-file-notice-of-opposition-to-protection"
   }
 }

@@ -73,8 +73,19 @@
         "4.13.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/13/4/13/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part18/1"
+        {
+          "extraction": "href",
+          "mention": "Part 18 Finalisation of Application for Registration",
+          "ref": "TMM/Part18/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -207,6 +218,13 @@
         "4.13.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/13/4/13/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -247,6 +265,18 @@
         "4.13.2.1 No response from holder"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/13/4/13/2",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/13/4/13/2/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -274,6 +304,18 @@
         "4.13.2.2 Acceptance"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/13/4/13/2",
+          "source": "emphasis"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part60/4/13/4/13/2/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -287,16 +329,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:051ccaeb882c0b3974d7583b64f8e9cf9a7a2ebe2e224fc1ef6f0730dae88d09",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:66dda7a29bfc34c9b724c9f05c73dcfe64702329f8554a8f27043674fdf4e183",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.13 Final decision on provisional refusal based on examination",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.13 Final Decision on Provisional Refusal Based on Examination",
     "page_ref": "TMM/Part60/4/13",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.13-final-decision-on-provisional-refusal-based-on-examination"
   }
 }

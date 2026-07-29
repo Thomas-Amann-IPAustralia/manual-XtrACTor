@@ -932,8 +932,12 @@ matters — it is *visible*: rewording a heading changes `heading_path` and the
 chunk text, so it appears in the diff as an amendment. A shifted ordinal
 appeared as nothing at all.
 
-Afterwards: 1561 of 2151 chunks (72%) carry a heading-derived address, up from
-784 (36%), and every remaining positional address sits at `#1`.
+Afterwards: 1561 of the 2151 chunks measured that day (72%) carried a
+heading-derived address, up from 784 (36%), and every remaining positional
+address sat at `#1`. The corpus has since grown to 2460 and the ratio with it —
+1962 of 2460 (80%) at `ingest/0.8.0`, the rise being §25's promoted
+subsections. The 498 positional addresses are 496 page preambles and the two
+Part 29.9 sections of §19.
 
 ### If you are tempted to number the headings yourself
 
@@ -1047,7 +1051,7 @@ extractor cannot reintroduce it quietly.
 
 ## 21. Naming the Act and the Regulations together is not an ambiguity
 
-Also 0.5.0. 757 of 1939 regex provision edges — 39% — carried
+Also 0.5.0. 757 of the regex provision edges then in the corpus — 39% — carried
 `certainty: "ambiguous"`, a bucket `SCHEMA.md` says never to hydrate from. That
 is not a corpus that is 39% doubtful; it is a rule firing on the wrong thing.
 
@@ -1059,8 +1063,8 @@ ambiguous — when `section` already says, on its own, that the reference is to 
 Act.
 
 Only an instrument that could *hold* the reference competes for it. Filtering
-the scope by the reference's own kind before counting leaves 134 ambiguous
-edges, and they are the ones the flag exists for: 1955-vs-1995 Act passages,
+the scope by the reference's own kind before counting leaves 118 ambiguous
+edges of 1952, and they are the ones the flag exists for: 1955-vs-1995 Act passages,
 the Raising the Bar annexes, the Acts Interpretation Act overlaps.
 
 The Part 22.1 anaphora case of §4 — `section 26 of the Act`, in a paragraph
@@ -1098,7 +1102,7 @@ Two things to know when reading the result:
   this, on Parts 9.4 and 27.3, where the Manual has renumbered since the link
   was written.
 
-32 references now address a chunk. It is a small number and it is the honest
+28 references now address a chunk. It is a small number and it is the honest
 one: it is every anchor whose target this snapshot can actually confirm.
 
 ---
@@ -1395,12 +1399,109 @@ text is a chunk's text and its links are recorded like any other.
 
 ### What it makes visible
 
-47 of the 527 internal links name a Manual URL that is not in the nav
-inventory. `internal_refs` drops those, correctly — an unresolvable reference
+44 of the 524 in-chunk internal links name a Manual URL that is not in the
+nav inventory. `internal_refs` drops those, correctly — an unresolvable reference
 is worse than an absent one — and so, until now, a link the Manual had broken
 looked exactly like no link at all. 26 are the glossary's A–Z anchors, which
-point at `/trademark/a` … `/trademark/z` and never resolved; the other 21 are
+point at `/trademark/a` … `/trademark/z` and never resolved; the other 18 are
 ordinary cross references to pages that have moved, four of them to
 `4.-factors-to-consider-when-assessing-section-43` from three pages in two
 Parts. That is a defect in the Manual, it is now in the data, and a crawl will
 show it being fixed.
+
+---
+
+## 30. The Manual writes 'part' for two different things
+
+Found in the 0.7.0 review, in the three worst places it could have been.
+
+§8 reads a bare `part <N>.<M>` as naming Part N — *"see part 22.15.7"* on a
+Part 32B page is Part 22, page 15. That is the Manual's usual convention and
+it is right. But the Manual also uses the same word for a section of the Part
+the reader is already in, and Part 32A does it three times:
+
+> "…rather than an identifier of trade source. (For more information, see
+> **part 2.3.1(c) of this chapter**)"
+
+Part 32A is *Examination of Trade Marks for Plants (in Class 31)*. Part 2 is
+*Filing Requirements*. Read by the convention, `part 2.3.1` is `TMM/Part2/3`,
+and that is what the snapshot stored: a confident edge from a passage about
+plant varietal names to a page about how to file a document — in the Part where
+§2 says misattribution is the single worst failure available. In two of the
+three the *correct* target was already in the same `internal_refs` array,
+supplied by the paragraph's own hyperlink, with nothing to tell them apart.
+
+**The Manual disambiguates it, in four words, in the same string.** Reading
+*"of this chapter"* is reading the source, not inferring from it, so:
+
+1. Build both readings — the digits under Part N, and the digits under the
+   referring page's own Part — and ask the inventory about each.
+2. If the reference is qualified *of / in this [adjective] chapter | part |
+   section* within 48 characters, take the local reading: `certainty:
+   "explicit"`.
+3. If both readings resolve and nothing qualifies it, keep the conventional
+   target and mark it `certainty: "ambiguous"`.
+4. Otherwise take whichever resolves, at `default`.
+
+Three brakes are needed on the window, and each is there for a case:
+
+- **`of this manual` is not `of this chapter`.** The Manual as a whole is Part
+  N; *"Part 29.9 of this manual"* on a Part 31 page is Part 29 and must stay
+  so. Only `chapter`, `part` and `section` count.
+- **The adjective slot is real.** Part 32A's annex writes *"of this revised
+  chapter"*.
+- **The window is cut at a sentence end, not at a full stop.** The Manual
+  writes *"parts 2.3.1 and 2.3.2 of this chapter"*; only the first is a match,
+  and a bare full-stop brake cuts inside `2.3.2` and hides the qualifier behind
+  the very digits it qualifies.
+
+Zero ambiguous edges result, and that is measured rather than assumed: every
+bare reference in the corpus either names its own Part, names one no local
+reading competes with, or is settled by the qualifier. The one place two
+page-level readings did compete — Part 9.3's *"Part 5.2.2.6 Checking, approval,
+publication and notification"*, where `TMM/Part9/5` exists as well as
+`TMM/Part5/2` — the authors had also hyperlinked, so the href edge carried it
+and the doubt dissolved. That is the provenance layer of §29 paying for itself.
+
+---
+
+## 31. Two pages print the address 20.2
+
+Also 0.7.0. The Manual's own `<h1>`s:
+
+```
+TMM/Part20/2   nav '2. Background to definition of a trade mark'
+               h1  '20.2. Background to definition of a trade mark'
+TMM/Part20/3   nav '3. Definition of sign'
+               h1  'Part 20.2. Definition of sign'
+```
+
+The canonical link confirms the served page, so this is not a redirect or a
+mis-parse. Two pages of Part 20 print 20.2, and one of them is numbered 3 in
+the nav.
+
+`page_ref` follows the nav, which is not in question — §2 is why. What was
+missing is that the disagreement was not recorded anywhere, so a bare *"part
+20.2"* resolved to `TMM/Part20/2` with nothing suggesting the author might have
+meant the other page. `page.printed_page_ref` now carries the address the page
+prints about itself, wherever that is not its `page_ref`, and `null` otherwise.
+The nav still decides; the record now says the page disagrees.
+
+Exactly two pages in 500 trigger it. The second is milder and is a decision of
+§2 meeting evidence §2 could not see:
+
+```
+TMM/Part1/x-1.-introduction7   nav 'Part 1. Introduction'
+                               h1  'Part 1.1. Introduction'
+```
+
+§2 declined to invent `1.1` for a nav title that qualifies down to nothing, and
+was right to — the *nav* does not say it. The page does, in its `<h1>`, and
+`TMM/Part1/1` is claimed by nobody. The address is still the slug form, because
+changing what `page_ref` is derived from is a change to every citation in the
+Part; the `<h1>`'s reading is recorded beside it instead.
+
+The other 11 pages whose `<h1>` prints a page-local rather than a
+Part-qualified address — *"16. Surnames"* on Part 22, the Part 12 divisionals —
+all agree with their `page_ref`, and are why the comparison has to accept both
+forms rather than assuming the qualified one.

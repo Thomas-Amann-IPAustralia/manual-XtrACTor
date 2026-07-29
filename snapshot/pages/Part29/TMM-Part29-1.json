@@ -28,6 +28,7 @@
         "29.1. Trade marks likely to deceive or cause confusion"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -72,8 +73,19 @@
         "1.1 Geographical indications for wine"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/1/1/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part32B/1"
+        {
+          "extraction": "href",
+          "mention": "art 32B - Examination of Trade Marks for Wines (in class 33)",
+          "ref": "TMM/Part32B/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -116,8 +128,19 @@
         "1.2 Plant variety names"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/1/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part32A/1"
+        {
+          "extraction": "href",
+          "mention": "Part 32A - Examination of Trade Marks for Plants (in class 31)",
+          "ref": "TMM/Part32A/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -150,16 +173,17 @@
   "page": {
     "amendment_note": "Removed publication date",
     "archived": false,
-    "content_hash": "sha256:7e0c2c2ed2bb5e1fb51b7fbd09a058bacb5e76daee21797f011683a051231fd0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:91c20199ec23b67ca438c522964418e6aee7e942eb77079501fe4fd245b8b414",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "29.1. Trade marks likely to deceive or cause confusion",
     "images": [],
     "last_amended": "2025-01-13",
     "nav_title": "1. Trade marks likely to deceive or cause confusion",
     "page_ref": "TMM/Part29/1",
     "part_id": "Part29",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-trade-marks-likely-to-deceive-or-cause-confusion"
   }
 }

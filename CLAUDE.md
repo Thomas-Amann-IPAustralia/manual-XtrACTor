@@ -68,8 +68,19 @@ corrupts every downstream answer and nobody finds out.
 ```bash
 pytest -q                       # all tests
 python -m tmm_snapshot.validate # output validates against schema/
-python -m tmm_snapshot.crawl --dry-run --limit 5
+python -m tmm_snapshot.crawl --from-raw --force --dry-run
 ```
+
+The third one is the check that a parser change did not move the corpus, and
+**`--force` is what makes it one**. Without it the run stops at gate 2, reports
+`chunks cut 0`, and says a corpus is clean that a chunker change would have
+rewritten from end to end. With it, every page is re-cut from `snapshot/raw/`
+and `pages written` is the count of files your change would alter — 25 seconds,
+no network, and it is how you find out whether you owe an `EXTRACTOR_VERSION`
+bump.
+
+`crawl --dry-run --limit 5` is a live fetch of a Commonwealth agency site.
+Run it when you have changed the fetching, not on every commit.
 
 Commit messages: `<area>: <what changed>`, e.g. `chunker: split on h4 headings`.
 

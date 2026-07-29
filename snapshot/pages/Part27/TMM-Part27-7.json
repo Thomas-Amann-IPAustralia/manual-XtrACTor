@@ -29,8 +29,13 @@
         "27.7. Dividing the application"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part12/1"
+        {
+          "extraction": "href",
+          "mention": "Part 12 Divisional Applications",
+          "ref": "TMM/Part12/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -87,16 +92,17 @@
   "page": {
     "amendment_note": "Minor update.",
     "archived": false,
-    "content_hash": "sha256:dabb7509b9df7c1f42d6e0504be38f19da97a0b8016cdfc8d237b1548e7b70f6",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:79a11b9c274bdbd324744afc6f58abf27660729b357b1e09af46b7e86b6eb213",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "27.7. Dividing the application",
     "images": [],
     "last_amended": "2023-10-10",
     "nav_title": "7. Dividing the application",
     "page_ref": "TMM/Part27/7",
     "part_id": "Part27",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-dividing-the-application"
   }
 }

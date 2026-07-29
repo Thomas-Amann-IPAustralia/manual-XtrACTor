@@ -16,6 +16,7 @@
         "43.6. Process for assignment of certification trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -59,9 +60,24 @@
         "6.1 Assignment of unregistered certification trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part35/10",
-        "TMM/Part43/4"
+        {
+          "extraction": "href",
+          "mention": "9. Assignment of unregistered certification trade marks",
+          "ref": "TMM/Part35/10"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.4",
+          "ref": "TMM/Part43/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -188,8 +204,19 @@
         "6.2 Assignment of registered certification trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part43/6/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part35/8"
+        {
+          "extraction": "href",
+          "mention": "8. Assignment of registered certification trade marks",
+          "ref": "TMM/Part35/8"
+        }
       ],
       "kind": "body",
       "links": [
@@ -233,16 +260,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:2c28508b0669ea13847a9774fbab588ca4946d8e93ff3b0d892959206f864acf",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:94786eb68e7521549fa20e18bb2a5dc33948529f7fbbbc39290c0f958ecd585f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.6. Process for assignment of certification trade marks",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "6. Process for assignment of certification trade marks",
     "page_ref": "TMM/Part43/6",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-process-for-assignment-of-certification-trade-marks"
   }
 }

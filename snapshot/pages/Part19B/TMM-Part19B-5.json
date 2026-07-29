@@ -24,6 +24,7 @@
         "Part 19B.5. Loss of exclusive rights"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -80,6 +81,13 @@
         "5.1 Signs that become accepted describing article etc."
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part19B/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -142,6 +150,13 @@
         "5.2 Trade marks relating to formerly patented article, substances or services"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part19B/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -155,16 +170,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:4a9b699e7839f81936b26760826478f11ab593c09ff9729202e45becac3a42fa",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:7c70ab6dd336cba9dbed7ec92cb445744d4b9aa56ca915d450574f8cea067f9d",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 19B.5. Loss of exclusive rights",
     "images": [],
     "last_amended": "2025-06-03",
     "nav_title": "5. Loss of exclusive rights",
     "page_ref": "TMM/Part19B/5",
     "part_id": "Part19B",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-loss-of-exclusive-rights"
   }
 }

@@ -20,6 +20,7 @@
         "5.2. Data Capture"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -89,6 +90,13 @@
         "2.1 Data capture of correspondence other than trade mark applications"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -257,8 +265,24 @@
         "2.2 Data capture of national trade mark applications"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/2/2/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/2/2/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part4/1"
+        {
+          "extraction": "href",
+          "mention": "Part 4 Fees",
+          "ref": "TMM/Part4/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -342,9 +366,29 @@
         "2.2 Data capture of national trade mark applications"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/2/2/1",
+          "source": "markup"
+        },
+        {
+          "level": 3,
+          "ref": "TMM/Part5/2/2/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part4/1",
-        "TMM/Part9/1"
+        {
+          "extraction": "href",
+          "mention": "Part 4 Fees",
+          "ref": "TMM/Part4/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 9 Amendments and Changes to Name and Address",
+          "ref": "TMM/Part9/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -395,6 +439,13 @@
         "2.3 Data capture of International Registrations Designating Australia"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part5/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -408,16 +459,17 @@
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:a53ba51f3c4c5f9e5e896afd55aca5f4254d2b858a9581e717e5ef0a52e83a38",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:9ce23924fede777203353e2459b8c9cd58b1638bc429e033fde66ad52c4f0fad",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "5.2. Data Capture",
     "images": [],
     "last_amended": "2026-04-13",
     "nav_title": "2. Data Capture",
     "page_ref": "TMM/Part5/2",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-data-capture"
   }
 }

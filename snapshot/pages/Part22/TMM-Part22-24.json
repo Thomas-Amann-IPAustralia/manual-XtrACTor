@@ -29,8 +29,13 @@
         "22.24. Trade marks for pharmaceutical or veterinary substances"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part29/x-annex-a1---table-of-inn-stems"
+        {
+          "extraction": "href",
+          "mention": "Annex 1 in Part 29 of this Manual.",
+          "ref": "TMM/Part29/x-annex-a1---table-of-inn-stems"
+        }
       ],
       "kind": "body",
       "links": [
@@ -87,6 +92,13 @@
         "24.1 Section 41 ground for rejection in relation to INNs"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/24/24/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -130,6 +142,13 @@
         "24.2 Section 41 ground for rejection in relation to INN stems"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/24/24/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -157,16 +176,17 @@
   "page": {
     "amendment_note": "Reviewed - no changes.",
     "archived": false,
-    "content_hash": "sha256:09f7a40a25d69d35abf1b92e4526205b06a473336c9a91d6cc05c3e4b74cf5b7",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:3da09d14dff60d584418e8451d9f2ec21357d826936af1d38a9ca74658e62577",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.24. Trade marks for pharmaceutical or veterinary substances",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "24. Trade marks for pharmaceutical or veterinary substances",
     "page_ref": "TMM/Part22/24",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/24.-trade-marks-for-pharmaceutical-or-veterinary-substances"
   }
 }

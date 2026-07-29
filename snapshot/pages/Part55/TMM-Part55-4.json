@@ -28,6 +28,7 @@
         "Part 55.4. Determination of the amount of costs"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -101,8 +102,20 @@
         "4.1 Allowable costs under Schedule 8"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/4/4/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part55/5"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 55.5",
+          "ref": "TMM/Part55/5"
+        }
       ],
       "kind": "body",
       "links": [],
@@ -163,6 +176,13 @@
         "4.1 Allowable costs under Schedule 8"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/4/4/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -225,8 +245,19 @@
         "4.2 Taxation of costs for \"multiple\" oppositions"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part55/4/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part55/x-annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence"
+        {
+          "extraction": "href",
+          "mention": "Annex A1.",
+          "ref": "TMM/Part55/x-annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence"
+        }
       ],
       "kind": "body",
       "links": [
@@ -247,16 +278,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:8f1cd7262a0094dfe4530c558abff2e2ac52d71bd64c8c6bab013f90d23d5c7b",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6a892fd0b212fcd9140c6953cfca72363391bcc26b28d0d3a65694e3eafeabe1",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 55.4. Determination of the amount of costs",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "4. Determination of the amount of costs",
     "page_ref": "TMM/Part55/4",
     "part_id": "Part55",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-determination-of-the-amount-of-costs"
   }
 }

@@ -22,8 +22,19 @@
         "5.1 Section 39 does not apply to all -9000000 marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part30/1"
+        {
+          "extraction": "href",
+          "mention": "Part 30",
+          "ref": "TMM/Part30/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -103,6 +114,13 @@
         "5.2 Section 44 does not apply to a -9000000 sign"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -148,6 +166,13 @@
         "5.3 Signs which are both notified and subject to Australian law"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/5/5/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -203,16 +228,17 @@
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
     "archived": false,
-    "content_hash": "sha256:91e15bf98d0f071c12149cbf3056cdd7631f3b35a1ccb6ecb03f8568d4638a62",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:27eda94d6995ace19ef6451632ee40e5c63be264997458c0834a5651bec52d22",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "31.5. Other information relevant to examining trade marks that contain a prohibited and prescribed sign",
     "images": [],
     "last_amended": "2026-07-22",
     "nav_title": "5. Other information relevant to examining trade marks that contain a prohibited and prescribed sign",
     "page_ref": "TMM/Part31/5",
     "part_id": "Part31",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-other-information-relevant-to-examining-trade-marks-that-contain-a-prohibited-and-prescribed-sign"
   }
 }

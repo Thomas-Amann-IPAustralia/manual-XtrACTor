@@ -34,9 +34,18 @@
         "9.6. Amendments after registration"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part41/1",
-        "TMM/Part42/1"
+        {
+          "extraction": "href",
+          "mention": "Part 41 Cancellation of Registration",
+          "ref": "TMM/Part41/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 42 Rectification of the Register",
+          "ref": "TMM/Part42/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -93,6 +102,13 @@
         "6.1 Section 81 - correction of Register for Office error"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -126,6 +142,13 @@
         "6.2 Section 82 - allows for future reclassification"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/6/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -167,6 +190,13 @@
         "6.3 Section 83 - amend registered trade mark"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/6/6/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -236,6 +266,13 @@
         "6.4 Section 91 - amend certificate of registration"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/6/6/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -256,16 +293,17 @@
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links, remove outdated case law references re substantial identity.",
     "archived": false,
-    "content_hash": "sha256:a0b0bfb5b3aba7a2b71b543aca356bed2477c384272fec3887cf0403228286a2",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:f73a7ce8bda00b2550b83366b4d6c668f09282c53ef6cc968d0d0fd5dc13d043",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-15",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "9.6. Amendments after registration",
     "images": [],
     "last_amended": "2025-01-15",
     "nav_title": "Part 9. 6. Amendments after registration",
     "page_ref": "TMM/Part9/6",
     "part_id": "Part9",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-amendments-after-registration"
   }
 }
