@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div1"
   ],
   "content_hash": "sha256:56636edaed20a9eeb0694ce1f90345350c5721e02a8a9a3b223bed86793a92ed",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -110,12 +110,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(iii)",
-          "mention": "subparagraph 4.13(1)(c)(iii)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s92",
           "mention": "section 92"
         },
@@ -157,12 +151,6 @@
           "extraction": "regex",
           "id": "TMA1955/s23",
           "mention": "section 23 of the Trade Marks Act 1955"
-        },
-        {
-          "certainty": "explicit",
-          "extraction": "regex",
-          "id": "TMA1995/s4.14(3)(c)",
-          "mention": "paragraph 4.14(3)(c) to Part 9 of the Trade Marks Act 1995"
         },
         {
           "certainty": "default",

@@ -120,20 +120,8 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s1.4",
-          "mention": "paragraph 1.4"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s224(1)",
           "mention": "subsection 224(1)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.12(1)(a)",
-          "mention": "paragraph 4.12(1)(a)"
         },
         {
           "certainty": "default",
@@ -237,12 +225,6 @@
       "page_ref": "TMM/Part16/1",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s1.3",
-          "mention": "paragraph 1.3"
-        },
-        {
           "extraction": "href",
           "id": "TMA1995/s224",
           "mention": ","
@@ -320,9 +302,9 @@
     "amendment_note": "TM Regs Amendment Package update regarding deferment for ex parte hearing",
     "archived": false,
     "content_hash": "sha256:805fa59af8ce8a9cca783ac3ac13f08f187e2c65a19ed2eb3042b76161381401",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 16.1. What are the time limits for acceptance of an application to register a trade mark?",
     "images": [],
     "last_amended": "2025-12-19",

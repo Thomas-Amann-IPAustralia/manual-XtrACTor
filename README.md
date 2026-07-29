@@ -17,7 +17,7 @@ website.
 
 The two halves join without a lookup table. A Manual passage citing section 41
 records `provisions[].id == "TMA1995/s41"`, and that is the ref of a provision
-record holding the text of section 41: 2,603 of the Manual's 2,776 in-scope
+record holding the text of section 41: 2,611 of the Manual's 2,687 in-scope
 provision edges resolve. Every field on both sides is derived from the source by
 regex, href parsing or structural traversal — no model output anywhere in the
 pipeline.

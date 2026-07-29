@@ -1,5 +1,38 @@
 # Review of the 0.8.0 extraction
 
+> **Resolved in `ingest/0.9.0` and `legislation/0.2.0`.** All five findings were
+> acted on and the documentation drift corrected; the snapshot in this
+> repository is the rebuilt one. This document is kept as the record of what was
+> wrong and how it was measured — the rules that replaced it live in
+> `SOURCE_NOTES.md` §§32–33, `LEGISLATION_NOTES.md` §§6.7–6.8a, and the
+> `provisions` and unit `ref` entries in `SCHEMA.md`.
+>
+> **Two findings were resolved differently from the recommendation below, and
+> both because the evidence did not survive being checked again.**
+>
+> Finding 2 proposed re-attributing the 121 dotted Act edges that name a real
+> regulation. They are **dropped**, not re-attributed. The Manual numbers its
+> own Part-internal paragraphs `N.M` as well, and reading the surrounding prose
+> showed that is what almost all of them are — *"these are stated in paragraph
+> 4.3"* is Part 14's paragraph 4.3, in a chunk already carrying the correct
+> `internal_refs` edge for the same words. The `section`-worded ones are mostly
+> **Criminal Code** references, which genuinely use dotted section numbers.
+> "Names a real regulation" was a collision between two numbering systems of the
+> same shape, not evidence of misattribution, and re-attributing would have
+> turned a visibly broken edge into an invisibly wrong one that resolves.
+> `SOURCE_NOTES.md` §32.
+>
+> Finding 5's third bullet — that `headings[].ref` is unvalidated — was **wrong**.
+> The check exists in `validate_snapshot`'s deferred pass against `targets`,
+> not in `_heading_failures`, which is the function I read. The other two
+> validator gaps were real and are closed.
+>
+> Finding 1's fix also had to be narrowed. "Transparent only for a provision's
+> opening words" broke `s 187(c)` and `s 187(d)`, which three Manual edges
+> depend on: section 187 is one sentence over two unnumbered fragments carrying
+> one continuous series. The rule that shipped tests whether the labels actually
+> collide. `LEGISLATION_NOTES.md` §6.8.
+
 An audit of both pipelines and of `snapshot/` at `ingest/0.8.0` and
 `legislation/0.1.0` — 500 page files, 2,460 chunks, 12,521 blocks, 2,218 links,
 2,802 provision edges, 519 cases, 418 internal refs, and 763 provisions holding

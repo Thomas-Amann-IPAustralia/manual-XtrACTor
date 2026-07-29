@@ -147,7 +147,7 @@ def instrument_dir(code: str, root: Path | None = None) -> Path:
 #: Separate from `tmm_snapshot`'s version on purpose: a chunker fix does not
 #: invalidate a compiled Act, and a unit-parser fix does not invalidate the
 #: Manual.
-EXTRACTOR_VERSION: Final[str] = "legislation/0.1.0"
+EXTRACTOR_VERSION: Final[str] = "legislation/0.2.0"
 
 #: Serialisation settings, taken from the Manual pipeline rather than restated,
 #: because rule 2 depends on every file this repository writes being written

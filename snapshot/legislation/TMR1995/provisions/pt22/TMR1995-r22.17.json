@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div3"
   ],
   "content_hash": "sha256:a0ba15558819e23e02dadf56d531716825739b38fd87e4b2be89c9af31e803ac",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -73,14 +73,6 @@
       "number": "(2)",
       "ordinal": 4,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2016",
-          "mention": "Regulation 2016"
-        }
-      ],
       "ref": "TMR1995/r22.17(2)",
       "style": "subsection",
       "text": "(2) Despite the amendments and repeals made by the Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016, on and after the commencement day:"

@@ -230,9 +230,14 @@ Endnote 2 confirms the word: `c = clause(s)`.
 Schedules 3, 4 and 5 of the Regulations each modify Part 13 of the Act for a
 different external territory, and each inserts a section 131A. The inserted
 text is set in the `Specials` style and *looks exactly like a section heading*.
-Treated as one it would collide three ways with itself and once with the real
-section 131A. It is a unit inside its Schedule item, addressed from there, and
-`kind: "special"` says what it is.
+Treated as one it would collide three ways with itself. It is a unit inside its
+Schedule item, addressed from there, and `kind: "special"` says what it is.
+
+The Act itself holds no section 131A — it runs s130, s130A, s131 — so the eight
+`TMA1995/s131A` edges this corpus emits correctly do not resolve: 131A exists
+only in the territory-modified Act these Schedules construct. (An earlier draft
+of this note claimed a fourth collision with "the real section 131A". There
+is none.)
 
 ### 6.4 The table of contents duplicates every heading
 
@@ -286,6 +291,13 @@ do not resolve it. Both units keep their printed `number`, both carry
 the addresses stay distinct. Which one holds the unsuffixed ref is arbitrary,
 which is precisely what the flag says.
 
+**Four units carry the flag, and only these four.** That is worth stating as a
+measurement, because until the 0.8.0 review it was 63 across 9 provisions in
+*both* instruments — 51 of them manufactured by the addressing rule in §6.8
+rather than by any drafter. `validate.py` now checks that a flagged unit really
+does share its printed number with a sibling, so an address this pipeline chose
+can never again be reported as the law's defect.
+
 ### 6.8 A provision's paragraphs can hang off an unnumbered subsection
 
 Section 42 reads `An application … must be rejected if: (a) …; or (b) …`. The
@@ -297,6 +309,46 @@ A unit therefore builds its address from the nearest **numbered** ancestor,
 while `parent_ref` keeps recording the true tree. Sections 15, 42, 53 and 62
 are all this shape. Getting it wrong cost 62 of the Manual's provision edges
 their target.
+
+**But an unnumbered ancestor is not transparent unconditionally, and applying
+it that way merged address spaces the drafter had kept apart.** Section 6 sets
+eleven definitions each with their own `(a)`, so `TMA1995/s6(a)` was claimed
+eleven times and resolved, by accident of document order, to *Christmas
+Island*. 73 units across 10 provisions were addressed this way.
+
+The test is whether the labels **actually collide**, which is a fact about the
+document rather than a preference:
+
+- **Section 187** is one sentence broken over two unnumbered fragments — `(a)`
+  and `(b)` under the first, `(c)` and `(d)` under the second. One continuous
+  series, no collision, and `s 187(c)` is how it is cited. Transparent.
+- **Section 6's definitions** each restart at `(a)`. Opaque.
+
+So unnumbered siblings whose label sets are disjoint stay transparent, and ones
+that would claim each other's addresses all become opaque. `units._transparent`.
+Deciding it needs the units that come *after* the ancestor, so `split_units`
+now reads the blocks once into a plan and addresses them in a second pass — the
+same arrangement, and the same reason, as `chunker.chunk_body` planning every
+section before it addresses any.
+
+### 6.8a A definition is addressed by the term it defines
+
+A `Definition` is never transparent, because after this it has an address of its
+own: `TMA1995/s6/australia`, and its paragraphs `TMA1995/s6/australia(a)`.
+
+Positionally it was `s6~6` — a serial number in a list kept in *alphabetical*
+order, so inserting one definition repointed every later one and every
+`parent_ref` beneath them, with nothing anywhere to detect it. That is exactly
+the exposure `SOURCE_NOTES.md` §18 measured on the Manual's Part 14 glossary and
+removed by slugging; the legislation half had the identical problem and had not
+had the identical fix. 189 definitions, all of them positional before 0.9.0.
+
+The term is **read, not inferred**: the OPC sets the definiendum as a leading
+bold-italic run, and does so in 189 of 189 definitions — every one a span at
+offset 0 with weight `bold-italic`, already recorded in `emphasis`. Slugging
+those produces no collision anywhere in the corpus. A definition whose leading
+run is absent falls back to the positional address rather than being given a
+guessed one.
 
 ### 6.9 Notes attach to what they follow, and nothing more is claimed
 
@@ -369,7 +421,10 @@ at `certainty: "default"`, which is correct for both instruments.
 ### The coverage figure
 
 `python -m frl_snapshot.validate` reports how many of the Manual's in-scope
-provision edges resolve. At `legislation/0.1.0`: **2,603 of 2,776**.
+provision edges resolve. At `legislation/0.2.0` and `ingest/0.9.0`: **2,611 of
+2,687** (97%), up from 2,603 of 2,776 — the numerator rose by the eight Schedule
+edges of `SOURCE_NOTES.md` §33 and the denominator fell by the 89 edges §32
+showed the pipeline could not place.
 
 It is a report, never a failure. The 173 that do not resolve are worth
 understanding rather than fixing:

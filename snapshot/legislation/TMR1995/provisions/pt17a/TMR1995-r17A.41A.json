@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div5",
     "TMR1995/pt17a/div5/sdiv1"
   ],
   "content_hash": "sha256:35e82b82ced895abbda0b1764afa19f4f283cad27a2648e93ab1df5309370237",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -212,7 +212,7 @@
       "number": null,
       "ordinal": 17,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.41A~1",
+      "ref": "TMR1995/r17A.41A/declaration-period",
       "style": "Definition",
       "text": "declaration period means the period of 18 months after the International Bureau notifies the Registrar that a holder of an international registration has imposed a limitation on the registration."
     },
@@ -231,7 +231,7 @@
       "number": null,
       "ordinal": 18,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.41A~2",
+      "ref": "TMR1995/r17A.41A/limitation",
       "style": "Definition",
       "text": "limitation means a limitation, in respect of Australia, in relation to the goods or services mentioned in an international registration recorded in the International Register under Article 9bis (iii) of the Protocol."
     }

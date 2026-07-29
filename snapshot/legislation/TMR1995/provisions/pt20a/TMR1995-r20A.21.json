@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt20a",
     "TMR1995/pt20a/div5",
     "TMR1995/pt20a/div5/sdivb"
   ],
   "content_hash": "sha256:9d5c18585f32b9e03fc242f6de45de07766d3b6d7c889ca7dc84fe246fa0363e",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20A—Incorporated trade marks attorneys",
@@ -206,14 +206,6 @@
       "number": null,
       "ordinal": 15,
       "parent_ref": "TMR1995/r20A.21(3)(b)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s13.3",
-          "mention": "section 13.3"
-        }
-      ],
       "ref": "TMR1995/r20A.21(3)(b)~1",
       "style": "notetext",
       "text": "Note: A defendant bears an evidential burden in relation to the question of whether he or she has a reasonable excuse (see section 13.3 of the Criminal Code)."

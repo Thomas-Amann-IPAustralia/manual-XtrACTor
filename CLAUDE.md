@@ -19,7 +19,7 @@ The snapshot is the deliverable. Git history is the amendment history.
 
 The two halves join without a lookup table: a Manual chunk citing section 41
 carries `provisions[].id == "TMA1995/s41"`, and that is the ref of a provision
-record in the legislation snapshot. 2,603 of the Manual's 2,776 in-scope
+record in the legislation snapshot. 2,611 of the Manual's 2,687 in-scope
 provision edges resolve. Keeping that true is a constraint on both pipelines —
 `LEGISLATION_NOTES.md` §8.
 

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt20",
     "TMR1995/pt20/div6"
   ],
   "content_hash": "sha256:ba6525e8080dc439a0c4a34a715af95b024ee91c2b5973db45690364180dbcde",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20—Registered trade marks attorneys",
@@ -158,12 +158,6 @@
       "parent_ref": "TMR1995/r20.15~1",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20.33(2)(b)(i)",
-          "mention": "subparagraph 20.33(2)(b)(i)"
-        },
-        {
           "certainty": "explicit",
           "extraction": "regex",
           "id": "TMR1995/r20.6",
@@ -220,12 +214,6 @@
       "ordinal": 6,
       "parent_ref": "TMR1995/r20.15~1",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20.33(2)(b)(ii)",
-          "mention": "subparagraph 20.33(2)(b)(ii)"
-        },
         {
           "certainty": "explicit",
           "extraction": "regex",
@@ -301,12 +289,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r1991",
-          "mention": "Regulation 1991"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r20.36A(4)",
           "mention": "subregulation 20.36A(4)"
         },
@@ -346,12 +328,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r1991",
-          "mention": "Regulation 1991"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r20.36D(2)",
           "mention": "subregulation 20.36D(2)"
         },
@@ -388,12 +364,6 @@
       "ordinal": 10,
       "parent_ref": "TMR1995/r20.15~1",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r1991",
-          "mention": "Regulation 1991"
-        },
         {
           "certainty": "default",
           "extraction": "regex",

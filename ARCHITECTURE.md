@@ -133,7 +133,7 @@ src/frl_snapshot/
   api.py                the Register's OData API, and only what we need of it
   docx.py               .docx -> ordered stream of styled blocks. One reading.
   structure.py          block stream -> containers and provisions
-  units.py              a provision's blocks -> its numbered tree
+  units.py              a provision's blocks -> its numbered tree. Plan, then address.
   endnotes.py           the compilation's own amendment history
   references.py         statutory cross references, via tmm_snapshot.citations
   writer.py             deterministic serialisation to snapshot/legislation/

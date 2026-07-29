@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt5",
     "TMR1995/pt5/div4"
   ],
   "content_hash": "sha256:3b2e9722d1c37625f2b9843d215b325eddf1af8177bdbf2f929403aa9e238b2c",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 5—Opposition to registration",
@@ -54,18 +54,6 @@
           "extraction": "regex",
           "id": "TMA1995/s222",
           "mention": "section 222"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.8(3)(b)",
-          "mention": "paragraph 5.8(3)(b) or 5.8(4)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.8(4)(a)",
-          "mention": "paragraph 5.8(3)(b) or 5.8(4)(a)"
         }
       ],
       "ref": "TMR1995/r5.17(1)(a)(i)",

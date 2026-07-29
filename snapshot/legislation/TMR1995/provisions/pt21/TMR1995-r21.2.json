@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt21",
     "TMR1995/pt21/div1"
   ],
   "content_hash": "sha256:4a0fcf95896c3b52f549db608b9346897c11e41119aad9cc1db090414fe1e7d8",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 21—Miscellaneous",
@@ -133,26 +133,6 @@
       "number": "(3)",
       "ordinal": 8,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.19(1)(a)",
-          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.11(1)(a)",
-          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.18(2)(a)",
-          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
-        }
-      ],
       "ref": "TMR1995/r21.2(3)",
       "style": "subsection",
       "text": "(3) Subregulation (2) does not apply in relation to an application mentioned in paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)."

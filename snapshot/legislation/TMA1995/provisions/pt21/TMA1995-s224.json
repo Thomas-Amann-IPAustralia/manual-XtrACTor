@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt21",
     "TMA1995/pt21/div3"
   ],
   "content_hash": "sha256:c36beaa7abbc72f35b2421b996b54210c7f30d0bbcdfdd635d833bc3ef5b49d3",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 21—Miscellaneous",
@@ -259,7 +259,7 @@
       "number": null,
       "ordinal": 20,
       "parent_ref": null,
-      "ref": "TMA1995/s224~3",
+      "ref": "TMA1995/s224/relevant-act",
       "style": "Definition",
       "text": "relevant act means:"
     },
@@ -269,8 +269,8 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 21,
-      "parent_ref": "TMA1995/s224~3",
-      "ref": "TMA1995/s224(a)",
+      "parent_ref": "TMA1995/s224/relevant-act",
+      "ref": "TMA1995/s224/relevant-act(a)",
       "style": "paragraph",
       "text": "(a) any act (other than a prescribed act) done in relation to a trade mark; or"
     },
@@ -280,8 +280,8 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 22,
-      "parent_ref": "TMA1995/s224~3",
-      "ref": "TMA1995/s224(b)",
+      "parent_ref": "TMA1995/s224/relevant-act",
+      "ref": "TMA1995/s224/relevant-act(b)",
       "style": "paragraph",
       "text": "(b) the filing of any document (other than a prescribed document); or"
     },
@@ -291,8 +291,8 @@
       "kind": "paragraph",
       "number": "(c)",
       "ordinal": 23,
-      "parent_ref": "TMA1995/s224~3",
-      "ref": "TMA1995/s224(c)",
+      "parent_ref": "TMA1995/s224/relevant-act",
+      "ref": "TMA1995/s224/relevant-act(c)",
       "style": "paragraph",
       "text": "(c) any proceedings (other than court proceedings)."
     }

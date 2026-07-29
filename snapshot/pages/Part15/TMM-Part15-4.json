@@ -118,14 +118,7 @@
       "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part15/4",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r69",
-          "mention": "reg. 69"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "The grant of an extension of time on these grounds is discretionary and will depend on the circumstances of the case. Under the 1955 Act, the special circumstances provision of reg. 69 has been interpreted to encompass error or omission by the applicant or agent. The case law attaching to this provision may provide some guidance on what constitutes error or omission on the part of the applicant or agent - see Genentech Inc. v Wellcome Foundation Ltd (1988) 11 IPR 401 (Comm), applied in D'Urban Inc v. Canpio Pty Ltd (1990) AIPC 90-658 (Reg). Acceptance by the Registrar of a particular instance being classified as an error or omission by the applicant or agent will depend upon the individual circumstances and background of the case. Any submissions regarding an extension sought on this ground would need to satisfy the Registrar that the need for the extra time was caused by a genuine error or omission on the part of the person concerned, or his or her agent. Given the impact that the extension sought might have on other parties, the Registrar would be unlikely to grant the extension because someone merely \"forgot\" to carry out an action."
     },
@@ -399,9 +392,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:b8072370aebcb652e18cff9e9d9bcb236c0b362cb929bab2ca0a3487fa5ab910",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "15.4. Grounds on which the Registrar may grant an extension of time",
     "images": [],
     "last_amended": "2022-04-20",

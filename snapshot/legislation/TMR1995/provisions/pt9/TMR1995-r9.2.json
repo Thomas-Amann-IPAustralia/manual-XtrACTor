@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt9",
     "TMR1995/pt9/div1"
   ],
   "content_hash": "sha256:01a55dee69f90ac66ec163cf44c704e348b6c3fec5279ecefaea3e2225e24ebd",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 9—Removal of trade mark from Register for nonuse",
@@ -45,7 +45,7 @@
       "number": null,
       "ordinal": 2,
       "parent_ref": null,
-      "ref": "TMR1995/r9.2~2",
+      "ref": "TMR1995/r9.2/application-for-removal",
       "style": "Definition",
       "text": "application for removal means an application for removal of a trade mark from the Register."
     },
@@ -72,7 +72,7 @@
           "mention": "regulation 9.15"
         }
       ],
-      "ref": "TMR1995/r9.2~3",
+      "ref": "TMR1995/r9.2/notice-of-intention-to-defend",
       "style": "Definition",
       "text": "notice of intention to defend means a notice filed under regulation 9.15."
     },
@@ -99,7 +99,7 @@
           "mention": "section 96"
         }
       ],
-      "ref": "TMR1995/r9.2~4",
+      "ref": "TMR1995/r9.2/notice-of-opposition",
       "style": "Definition",
       "text": "notice of opposition means a notice of opposition under section 96 of the Act."
     },
@@ -118,7 +118,7 @@
       "number": null,
       "ordinal": 5,
       "parent_ref": null,
-      "ref": "TMR1995/r9.2~5",
+      "ref": "TMR1995/r9.2/opponent",
       "style": "Definition",
       "text": "opponent means a person who files:"
     },
@@ -127,10 +127,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 6,
-      "parent_ref": "TMR1995/r9.2~5",
-      "ref": "TMR1995/r9.2(a)",
+      "parent_ref": "TMR1995/r9.2/opponent",
+      "ref": "TMR1995/r9.2/opponent(a)",
       "style": "paragraph",
       "text": "(a) a notice of intention to oppose; and"
     },
@@ -139,10 +138,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 7,
-      "parent_ref": "TMR1995/r9.2~5",
-      "ref": "TMR1995/r9.2(b)",
+      "parent_ref": "TMR1995/r9.2/opponent",
+      "ref": "TMR1995/r9.2/opponent(b)",
       "style": "paragraph",
       "text": "(b) a statement of grounds and particulars."
     },
@@ -161,7 +159,7 @@
       "number": null,
       "ordinal": 8,
       "parent_ref": null,
-      "ref": "TMR1995/r9.2~6",
+      "ref": "TMR1995/r9.2/party",
       "style": "Definition",
       "text": "party means an applicant or opponent."
     },
@@ -180,7 +178,7 @@
       "number": null,
       "ordinal": 9,
       "parent_ref": null,
-      "ref": "TMR1995/r9.2~7",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars",
       "style": "Definition",
       "text": "statement of grounds and particulars means a statement by an opponent that sets out:"
     },
@@ -189,10 +187,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 10,
-      "parent_ref": "TMR1995/r9.2~7",
-      "ref": "TMR1995/r9.2(a)~2",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(a)",
       "style": "paragraph",
       "text": "(a) the grounds for removal that the opponent intends to rebut; and"
     },
@@ -201,10 +198,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 11,
-      "parent_ref": "TMR1995/r9.2~7",
-      "ref": "TMR1995/r9.2(b)~2",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)",
       "style": "paragraph",
       "text": "(b) the facts and circumstances that form the basis for the opposition to the removal."
     },
@@ -214,7 +210,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 12,
-      "parent_ref": "TMR1995/r9.2(b)~2",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)",
       "provisions": [
         {
           "certainty": "default",
@@ -223,7 +219,7 @@
           "mention": "section 6"
         }
       ],
-      "ref": "TMR1995/r9.2(b)~2~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
       "style": "notetext",
       "text": "Note: The following terms are defined in section 6 of the Act:"
     },
@@ -233,8 +229,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 13,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~1",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~1",
       "style": "notepara",
       "text": "(a) applicant;"
     },
@@ -244,8 +240,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 14,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~2",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~2",
       "style": "notepara",
       "text": "(b) approved form;"
     },
@@ -255,8 +251,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 15,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~3",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~3",
       "style": "notepara",
       "text": "(c) employee;"
     },
@@ -266,8 +262,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 16,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~4",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~4",
       "style": "notepara",
       "text": "(d) file;"
     },
@@ -277,8 +273,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 17,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~5",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~5",
       "style": "notepara",
       "text": "(e) month;"
     },
@@ -288,8 +284,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 18,
-      "parent_ref": "TMR1995/r9.2(b)~2~1",
-      "ref": "TMR1995/r9.2(b)~2~1~6",
+      "parent_ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r9.2/statement-of-grounds-and-particulars(b)~1~6",
       "style": "notepara",
       "text": "(f) person."
     }

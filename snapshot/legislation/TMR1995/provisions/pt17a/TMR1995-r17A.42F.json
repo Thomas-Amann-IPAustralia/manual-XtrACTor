@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div5",
     "TMR1995/pt17a/div5/sdiv2"
   ],
   "content_hash": "sha256:86e7e223760cea161330e40899bdea00c9c8345c9deccabb8a2d344cdcebc704",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -29,12 +29,6 @@
       "ordinal": 1,
       "parent_ref": null,
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.42C(1)(a)",
-          "mention": "paragraph 17A.42C(1)(a)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",

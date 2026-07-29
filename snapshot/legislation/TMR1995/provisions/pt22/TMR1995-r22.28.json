@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div6"
   ],
   "content_hash": "sha256:e7a2d33d6092d836abe425f14b383b7f533c3c2312dfeb90dc45478fc32ac1fa",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -157,12 +157,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r15",
-          "mention": "regulation 15"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r16.3",
           "mention": "regulation 16.3"
         },
@@ -171,12 +165,6 @@
           "extraction": "regex",
           "id": "TMR1995/r16.8",
           "mention": "regulation 16.8"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17",
-          "mention": "regulation 17"
         },
         {
           "certainty": "default",
@@ -193,32 +181,8 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r18",
-          "mention": "regulation 18"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r19",
-          "mention": "regulation 19"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2",
-          "mention": "regulation 2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r20A.18",
           "mention": "regulation 20A.18"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r21",
-          "mention": "regulation 21"
         },
         {
           "certainty": "default",
@@ -247,38 +211,8 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMR1995/r22",
-          "mention": "regulation 22"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r3A.3",
           "mention": "regulation 3A.3"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r5",
-          "mention": "regulation 5"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r6",
-          "mention": "regulation 6"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r7",
-          "mention": "regulation 7"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r8",
-          "mention": "regulation 8"
         }
       ],
       "ref": "TMR1995/r22.28~2",

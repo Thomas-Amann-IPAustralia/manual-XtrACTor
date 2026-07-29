@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt14"
   ],
   "content_hash": "sha256:b6a9a156472add5135ba4e8a2c40139b77339bd572c0cd47cfcde94836bb4f7f",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 14—Offences",
@@ -81,26 +81,6 @@
       "number": "(c)",
       "ordinal": 4,
       "parent_ref": "TMA1995/s160(1)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11.1",
-          "mention": "section 11.1, 11.4 or 11.5"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11.4",
-          "mention": "section 11.1, 11.4 or 11.5"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11.5",
-          "mention": "section 11.1, 11.4 or 11.5"
-        }
-      ],
       "ref": "TMA1995/s160(1)(c)",
       "style": "paragraph",
       "text": "(c) an offence against section 11.1, 11.4 or 11.5 of the Criminal Code that relates to this Act."
@@ -238,7 +218,7 @@
       "number": null,
       "ordinal": 15,
       "parent_ref": null,
-      "ref": "TMA1995/s160~2",
+      "ref": "TMA1995/s160/engage-in-conduct",
       "style": "Definition",
       "text": "engage in conduct includes fail or refuse to engage in conduct."
     },
@@ -257,7 +237,7 @@
       "number": null,
       "ordinal": 16,
       "parent_ref": null,
-      "ref": "TMA1995/s160~3",
+      "ref": "TMA1995/s160/state-of-mind",
       "style": "Definition",
       "text": "state of mind, in relation to a person, includes:"
     },
@@ -267,8 +247,8 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 17,
-      "parent_ref": "TMA1995/s160~3",
-      "ref": "TMA1995/s160(a)",
+      "parent_ref": "TMA1995/s160/state-of-mind",
+      "ref": "TMA1995/s160/state-of-mind(a)",
       "style": "paragraph",
       "text": "(a) the person’s knowledge, intention, opinion, belief or purpose; and"
     },
@@ -278,8 +258,8 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 18,
-      "parent_ref": "TMA1995/s160~3",
-      "ref": "TMA1995/s160(b)",
+      "parent_ref": "TMA1995/s160/state-of-mind",
+      "ref": "TMA1995/s160/state-of-mind(b)",
       "style": "paragraph",
       "text": "(b) the person’s reasons for the intention, opinion, belief or purpose."
     }

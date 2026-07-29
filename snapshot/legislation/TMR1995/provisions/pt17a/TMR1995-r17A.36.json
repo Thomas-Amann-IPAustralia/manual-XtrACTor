@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div3",
     "TMR1995/pt17a/div3/sdiv4"
   ],
   "content_hash": "sha256:35e8448729414824c467c511170f9b6c598bf30bc16669a3c817dabc47522fc1",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -55,7 +55,7 @@
           "mention": "regulation 17A.34P"
         }
       ],
-      "ref": "TMR1995/r17A.36~1",
+      "ref": "TMR1995/r17A.36/appeal-period",
       "style": "Definition",
       "text": "appeal period, in relation to an opposition decision, means the period within which an appeal from the decision can be made under regulation 17A.34P, not including any extension of the period that the court may allow in a particular case."
     },
@@ -159,7 +159,7 @@
       "number": null,
       "ordinal": 8,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~2",
+      "ref": "TMR1995/r17A.36~1",
       "style": "subsection2",
       "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the relevant period or that period as extended, as the case requires. However, this subregulation has effect subject to subregulation (2AA)."
     },
@@ -203,7 +203,7 @@
       "number": null,
       "ordinal": 12,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~3",
+      "ref": "TMR1995/r17A.36~2",
       "style": "subsection2",
       "text": "then:"
     },
@@ -213,7 +213,7 @@
       "kind": "paragraph",
       "number": "(c)",
       "ordinal": 13,
-      "parent_ref": "TMR1995/r17A.36~3",
+      "parent_ref": "TMR1995/r17A.36~2",
       "ref": "TMR1995/r17A.36(c)",
       "style": "paragraph",
       "text": "(c) the trade mark that is the subject of the IRDA does not become a protected international trade mark at the end of the relevant period or that period as extended; and"
@@ -224,7 +224,7 @@
       "kind": "paragraph",
       "number": "(d)",
       "ordinal": 14,
-      "parent_ref": "TMR1995/r17A.36~3",
+      "parent_ref": "TMR1995/r17A.36~2",
       "ref": "TMR1995/r17A.36(d)",
       "style": "paragraph",
       "text": "(d) if, after the end of the relevant period or that period as extended, the Registrar makes a decision to not revoke the acceptance of the IRDA—the trade mark that is the subject of the IRDA becomes a protected international trade mark when that decision is made."
@@ -307,7 +307,7 @@
       "number": null,
       "ordinal": 20,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~4",
+      "ref": "TMR1995/r17A.36~3",
       "style": "subsection2",
       "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark after the opposition has been dismissed or withdrawn."
     },
@@ -381,7 +381,7 @@
       "number": null,
       "ordinal": 26,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~5",
+      "ref": "TMR1995/r17A.36~4",
       "style": "subsection2",
       "text": "then, subject to subregulation (4), the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, at the end of the appeal period."
     },
@@ -455,7 +455,7 @@
       "number": null,
       "ordinal": 32,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~6",
+      "ref": "TMR1995/r17A.36~5",
       "style": "subsection2",
       "text": "the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, after the appeal has been dismissed or withdrawn."
     },
@@ -529,7 +529,7 @@
       "number": null,
       "ordinal": 38,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~7",
+      "ref": "TMR1995/r17A.36~6",
       "style": "subsection2",
       "text": "the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the appeal, when that decision is made."
     },
@@ -593,7 +593,7 @@
       "number": null,
       "ordinal": 42,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~8",
+      "ref": "TMR1995/r17A.36~7",
       "style": "subsection2",
       "text": "in respect of the IRDA, the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 18month period."
     },
@@ -664,7 +664,7 @@
       "number": null,
       "ordinal": 47,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.36~9",
+      "ref": "TMR1995/r17A.36~8",
       "style": "subsection2",
       "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 7month period."
     }

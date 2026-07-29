@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [],
   "content_hash": "sha256:d0a5500c62ae78e0e52155836949fa0a292fe8790b95f50e093058b93cd9ea3f",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "2  Signs that may not be registered as trade marks"
@@ -21,14 +21,6 @@
       "number": null,
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.15(f)",
-          "mention": "paragraph 4.15(f)"
-        }
-      ],
       "ref": "TMR1995/sch2~1",
       "style": "notemargin",
       "text": "(paragraph 4.15(f))"

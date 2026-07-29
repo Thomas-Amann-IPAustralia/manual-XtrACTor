@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt13"
   ],
   "content_hash": "sha256:2483308ff92ebc659202f168cee5c05f3935c90744a175fa52d4f1ced7620ba2",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -125,20 +125,6 @@
       "number": null,
       "ordinal": 6,
       "parent_ref": "TMA1995/s136(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s137.1",
-          "mention": "Sections 137.1 and 137.2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s137.2",
-          "mention": "Sections 137.1 and 137.2"
-        }
-      ],
       "ref": "TMA1995/s136(3)~1",
       "style": "notetext",
       "text": "Note: Sections 137.1 and 137.2 of the Criminal Code create offences for providing false or misleading information or documents."

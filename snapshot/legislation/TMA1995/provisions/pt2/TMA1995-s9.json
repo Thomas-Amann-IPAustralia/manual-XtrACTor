@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt2"
   ],
   "content_hash": "sha256:b5fe74e65dd51bf5ba8acceac2845ef9546e8f671000a6b5aae3e17e9326e765",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 2—Interpretation",
@@ -166,7 +166,7 @@
       "number": null,
       "ordinal": 11,
       "parent_ref": null,
-      "ref": "TMA1995/s9~1",
+      "ref": "TMA1995/s9/covering",
       "style": "Definition",
       "text": "covering includes packaging, frame, wrapper, container, stopper, lid or cap."
     },
@@ -185,7 +185,7 @@
       "number": null,
       "ordinal": 12,
       "parent_ref": null,
-      "ref": "TMA1995/s9~2",
+      "ref": "TMA1995/s9/label",
       "style": "Definition",
       "text": "label includes a band or ticket."
     }

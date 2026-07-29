@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt17a"
   ],
   "content_hash": "sha256:760481f56aee0d1fcae7866338db6c0c26c211b12df343203e48688f5e3cd39d",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -164,7 +164,7 @@
       "number": null,
       "ordinal": 13,
       "parent_ref": null,
-      "ref": "TMA1995/s189A~1",
+      "ref": "TMA1995/s189A/international-bureau",
       "style": "Definition",
       "text": "International Bureau means the International Bureau of the World Intellectual Property Organization."
     },
@@ -183,7 +183,7 @@
       "number": null,
       "ordinal": 14,
       "parent_ref": null,
-      "ref": "TMA1995/s189A~2",
+      "ref": "TMA1995/s189A/international-registration",
       "style": "Definition",
       "text": "international registration of a trade mark means registration of the mark in the register of the International Bureau."
     },
@@ -202,7 +202,7 @@
       "number": null,
       "ordinal": 15,
       "parent_ref": null,
-      "ref": "TMA1995/s189A~3",
+      "ref": "TMA1995/s189A/madrid-protocol",
       "style": "Definition",
       "text": "Madrid Protocol means the Protocol Relating to the Madrid Agreement concerning the International Registration of Marks, as signed at Madrid on 28 June 1989."
     },
@@ -221,7 +221,7 @@
       "number": null,
       "ordinal": 16,
       "parent_ref": null,
-      "ref": "TMA1995/s189A~4",
+      "ref": "TMA1995/s189A/protected-international-trade-mark",
       "style": "Definition",
       "text": "Protected international trade mark means a trade mark to which protection resulting from international registration of the mark is extended in Australia in accordance with the regulations."
     }

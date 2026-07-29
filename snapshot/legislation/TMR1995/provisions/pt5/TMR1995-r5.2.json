@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt5",
     "TMR1995/pt5/div1"
   ],
   "content_hash": "sha256:7f6cc5e87000051ff0a59887df3ab1da61ccd013dc8de7d4408e5145dbac3ab4",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 5—Opposition to registration",
@@ -53,7 +53,7 @@
           "mention": "regulation 5.13"
         }
       ],
-      "ref": "TMR1995/r5.2~2",
+      "ref": "TMR1995/r5.2/notice-of-intention-to-defend",
       "style": "Definition",
       "text": "notice of intention to defend means a notice filed under regulation 5.13."
     },
@@ -80,7 +80,7 @@
           "mention": "section 52"
         }
       ],
-      "ref": "TMR1995/r5.2~3",
+      "ref": "TMR1995/r5.2/notice-of-opposition",
       "style": "Definition",
       "text": "notice of opposition means a notice of opposition under section 52 of the Act."
     },
@@ -99,7 +99,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/r5.2~4",
+      "ref": "TMR1995/r5.2/party",
       "style": "Definition",
       "text": "party means an applicant or opponent."
     },
@@ -118,7 +118,7 @@
       "number": null,
       "ordinal": 5,
       "parent_ref": null,
-      "ref": "TMR1995/r5.2~5",
+      "ref": "TMR1995/r5.2/statement-of-grounds-and-particulars",
       "style": "Definition",
       "text": "statement of grounds and particulars means a statement by an opponent that sets out:"
     },
@@ -128,8 +128,8 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 6,
-      "parent_ref": "TMR1995/r5.2~5",
-      "ref": "TMR1995/r5.2(a)",
+      "parent_ref": "TMR1995/r5.2/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r5.2/statement-of-grounds-and-particulars(a)",
       "style": "paragraph",
       "text": "(a) the grounds on which the opponent intends to rely; and"
     },
@@ -139,8 +139,8 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 7,
-      "parent_ref": "TMR1995/r5.2~5",
-      "ref": "TMR1995/r5.2(b)",
+      "parent_ref": "TMR1995/r5.2/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r5.2/statement-of-grounds-and-particulars(b)",
       "style": "paragraph",
       "text": "(b) the facts and circumstances forming the basis for the grounds."
     },
@@ -167,7 +167,7 @@
           "mention": "section 27"
         }
       ],
-      "ref": "TMR1995/r5.2~6",
+      "ref": "TMR1995/r5.2/trade-mark-application",
       "style": "Definition",
       "text": "trade mark application means an application for registration of a trade mark under section 27 of the Act."
     },
@@ -177,7 +177,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 9,
-      "parent_ref": "TMR1995/r5.2~6",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application",
       "provisions": [
         {
           "certainty": "default",
@@ -186,7 +186,7 @@
           "mention": "section 6"
         }
       ],
-      "ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1",
       "style": "notetext",
       "text": "Note: The following terms are defined in section 6 of the Act:"
     },
@@ -196,8 +196,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 10,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~1",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~1",
       "style": "notepara",
       "text": "(a) applicant;"
     },
@@ -207,8 +207,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 11,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~2",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~2",
       "style": "notepara",
       "text": "(b) approved form;"
     },
@@ -218,8 +218,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 12,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~3",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~3",
       "style": "notepara",
       "text": "(c) employee;"
     },
@@ -229,8 +229,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 13,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~4",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~4",
       "style": "notepara",
       "text": "(d) file;"
     },
@@ -240,8 +240,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 14,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~5",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~5",
       "style": "notepara",
       "text": "(e) month;"
     },
@@ -251,8 +251,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 15,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~6",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~6",
       "style": "notepara",
       "text": "(f) opponent;"
     },
@@ -262,8 +262,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 16,
-      "parent_ref": "TMR1995/r5.2~6~1",
-      "ref": "TMR1995/r5.2~6~1~7",
+      "parent_ref": "TMR1995/r5.2/trade-mark-application~1",
+      "ref": "TMR1995/r5.2/trade-mark-application~1~7",
       "style": "notepara",
       "text": "(g) person."
     }

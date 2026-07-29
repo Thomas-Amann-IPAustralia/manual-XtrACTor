@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt20",
     "TMR1995/pt20/div5"
   ],
   "content_hash": "sha256:ca1ed2aa9b66622beb5fc58dcd504e6cb3accb53c19658a110f552b3c5fe0524",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20—Registered trade marks attorneys",
@@ -110,14 +110,6 @@
       "number": "(d)",
       "ordinal": 5,
       "parent_ref": "TMR1995/r20.14~1",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20.22(1)(a)",
-          "mention": "paragraph 20.22(1)(a)"
-        }
-      ],
       "ref": "TMR1995/r20.14(d)",
       "style": "paragraph",
       "text": "(d) the reference in paragraph 20.22(1)(a) of the Patents Regulations 1991 to ‘item 105 or 106 of Schedule 7’ were a reference to ‘item 29 or 30 of Schedule 9’; and"

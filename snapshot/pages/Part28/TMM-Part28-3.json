@@ -47,12 +47,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s28.2",
-          "mention": "paragraph 28.2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s44(3)(a)",
           "mention": "s 44(3)(a)"
         }
@@ -1090,9 +1084,9 @@
     "amendment_note": "Reviewed and updated following Zip Co Limited v Firstmac Limited [2026] HCA 16.",
     "archived": false,
     "content_hash": "sha256:5a9a92e7d8c93bd450e6d638ee9ff2085ed1604a97e04986b8c809506368b2cc",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "28.3. Examining evidence of honest concurrent use - the five criteria",
     "images": [],
     "last_amended": "2026-06-17",

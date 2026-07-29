@@ -245,12 +245,6 @@
           "mention": "subsection 106(3)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s16.2(c)",
-          "mention": "paragraph 16.2(c)"
-        },
-        {
           "extraction": "href",
           "id": "TMA1995/s166",
           "mention": "section 166"
@@ -264,12 +258,6 @@
           "extraction": "href",
           "id": "TMA1995/s180",
           "mention": "section 180"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s43.6",
-          "mention": "paragraph 43.6"
         },
         {
           "extraction": "href",
@@ -398,9 +386,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:422493de59e11173d69bfea7cefc838e7afc0f9186d7579653a173f489b8b590",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "43.1. What is assignment and transmission?",
     "images": [],
     "last_amended": "2022-04-20",

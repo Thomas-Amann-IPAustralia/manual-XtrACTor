@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div3"
   ],
   "content_hash": "sha256:1305f92d069556c9e3898b5eddbcc25ddd4fa8d06445af42d489907cb99c99c5",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -51,7 +51,7 @@
       "number": null,
       "ordinal": 2,
       "parent_ref": null,
-      "ref": "TMR1995/r22.14~2",
+      "ref": "TMR1995/r22.14/commencement-day",
       "style": "Definition",
       "text": "commencement day means the day on which Schedule 4 to the Intellectual Property Laws Amendment Act 2015 commences."
     },
@@ -88,7 +88,7 @@
       "number": null,
       "ordinal": 3,
       "parent_ref": null,
-      "ref": "TMR1995/r22.14~3",
+      "ref": "TMR1995/r22.14/old-patents-regulations",
       "style": "Definition",
       "text": "old Patents regulations means the Patents Regulations 1991 as in force immediately before the commencement day."
     },
@@ -107,7 +107,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/r22.14~4",
+      "ref": "TMR1995/r22.14/old-regulations",
       "style": "Definition",
       "text": "old regulations means these Regulations as in force immediately before the commencement day."
     }

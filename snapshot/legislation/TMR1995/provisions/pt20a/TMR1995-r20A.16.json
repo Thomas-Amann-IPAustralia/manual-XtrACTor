@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt20a",
     "TMR1995/pt20a/div5",
     "TMR1995/pt20a/div5/sdivb"
   ],
   "content_hash": "sha256:f143a74c620cf7beb8db2e3c68f393b7565c702d1fd42a8517a019e46ba48af6",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20A—Incorporated trade marks attorneys",
@@ -176,14 +176,6 @@
       "number": null,
       "ordinal": 13,
       "parent_ref": "TMR1995/r20A.16(2)(b)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s13.3",
-          "mention": "section 13.3"
-        }
-      ],
       "ref": "TMR1995/r20A.16(2)(b)~1",
       "style": "notetext",
       "text": "Note: A defendant bears an evidential burden in relation to the matters mentioned in subparagraph (2)(a)(i) (see section 13.3 of the Criminal Code)."
@@ -361,14 +353,6 @@
       "number": null,
       "ordinal": 26,
       "parent_ref": "TMR1995/r20A.16(4)(b)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s6.1",
-          "mention": "section 6.1"
-        }
-      ],
       "ref": "TMR1995/r20A.16(4)(b)~1",
       "style": "notetext",
       "text": "Note: For strict liability, see section 6.1 of the Criminal Code."

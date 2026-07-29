@@ -138,9 +138,16 @@ def test_a_malformed_hash_is_rejected(tmp_path):
         # any dotted component, not only the last one — the original pattern
         # allowed r3A and r4.15 but rejected the r3A.3 the Manual actually
         # cites, so the first real crawl failed validation. See SOURCE_NOTES §3.
-        "TMR1995/r3A",
+        #
+        # `TMR1995/r3A` was in this list until the 0.8.0 review and was never a
+        # real id: the Regulations hold 3A.1 and 3A.3 but no bare 3A, and every
+        # one of their 401 regulation numbers is dotted. It is now rejected by
+        # the numbering invariant — SOURCE_NOTES §32.
         "TMR1995/r3A.3",
         "TMR1995/r21.21A",
+        # A Schedule, from an AustLII `sch` node. Neither a section nor a
+        # regulation, and the same segment the legislation snapshot uses.
+        "TMR1995/sch2",
     ],
 )
 def test_a_real_provision_id_is_accepted(tmp_path, identifier):
@@ -576,3 +583,27 @@ def test_a_chunk_with_no_heading_carries_no_source(tmp_path):
         },
     )
     only(validate_snapshot(tmp_path), "on a chunk with no headings")
+
+
+@pytest.mark.parametrize(
+    "identifier", ["TMA1995/s4.7", "TMA1995/s21.28(1)(a)", "TMR1995/r2016"]
+)
+def test_a_number_its_instrument_cannot_express_is_rejected(tmp_path, identifier):
+    """The second of two independent readings of one fact.
+
+    `INSTRUMENT_KIND` compares the reference's word against the instrument and
+    catches `TMR1995/s224`. This compares the number: the Act numbers none of
+    its 315 sections with a dot and the Regulations number all 401 of theirs
+    with one, so these three name addresses that cannot exist. 204 such edges
+    reached the 0.8.0 corpus, 159 of them at certainty `default`.
+    """
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(provisions=[{"id": identifier, "extraction": "regex"}])
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), identifier)

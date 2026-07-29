@@ -433,6 +433,15 @@ Statutory references — Act sections and Regulations.
 generated columns, a helper function — rather than storing three fields that can
 disagree.
 
+**`id`** names a section, a regulation or a Schedule — `TMR1995/sch2`, the same
+segment the legislation snapshot gives that Schedule. Two invariants hold over
+it and `validate.py` enforces both, because an id that names nothing is worse
+than an absent edge: the instrument must be able to hold that *kind* of
+provision (`TMR1995/s224` is not a thing), and it must be able to express that
+*number* (`TMA1995/s4.7` is not either — the Act numbers none of its sections
+with a dot, the Regulations number all of theirs with one). A regex edge failing
+either is dropped at extraction. `SOURCE_NOTES.md` §§20, 32.
+
 **`extraction`** — `href` or `regex`, and the distinction is load-bearing.
 The Manual hyperlinks Act sections to AustLII, so an `href` edge is the authors
 telling you what the paragraph is about. A `regex` edge is our inference from
@@ -691,6 +700,19 @@ section 41, it is a provision cited in its own right. Each unit carries:
   would be internally consistent and match no citation anybody writes. A unit
   with no label of its own takes the positional suffix `~n`, which says plainly
   that the number is ours and not the drafter's.
+
+  An unnumbered ancestor is skipped **only where doing so collides with
+  nothing**. Section 187's two unnumbered fragments carry one continuous series
+  `(a)`–`(d)` and are skipped; section 6's eleven definitions each restart at
+  `(a)` and are not. `LEGISLATION_NOTES.md` §6.8.
+
+  **A definition is addressed by the term it defines** — `TMA1995/s6/australia`,
+  and its paragraphs `TMA1995/s6/australia(a)`. Definitions are listed
+  alphabetically, so a positional `~n` was a serial number that an insertion
+  silently repointed: the failure `chunk_ref` avoids for exactly the same
+  reason, and the one `SOURCE_NOTES.md` §18 removed from the Manual's glossary.
+  The term is the leading bold-italic run the drafter already set, present on
+  189 of 189. `LEGISLATION_NOTES.md` §6.8a.
 - **`parent_ref`**, which records the true tree even where the address skips a
   rung.
 - **`style`**, the `w:pStyle` verbatim. This is the evidence every other field
@@ -698,8 +720,12 @@ section 41, it is a provision cited in its own right. Each unit carries:
   derivation without re-reading the `.docx`. It is the legislation half's
   `heading_source`.
 - **`number_collision`**, present and true where a sibling prints the same
-  number. The Regulations do this twice. Same contract as `certainty:
-  "ambiguous"` — route to review, never hydrate from it silently.
+  number. The Regulations do this twice, and those four units are the only ones
+  in the corpus that carry it. Same contract as `certainty: "ambiguous"` —
+  route to review, never hydrate from it silently. `validate.py` checks that a
+  flagged unit really does share its printed number with a sibling: the flag
+  says the *instrument* is defective, and must never be set by an address this
+  pipeline chose.
 - **`emphasis`**, bold and italic spans with offsets satisfying
   `text[start:end] == span.text`. Recorded, not interpreted, for the same reason
   `chunk.links` records an anchor's offsets rather than deciding what it meant:

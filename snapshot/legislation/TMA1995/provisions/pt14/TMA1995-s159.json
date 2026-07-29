@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt14"
   ],
   "content_hash": "sha256:cbd17867538aea526dbd4a8c109c5a57748ffc33e7893fc946bcf9204a5af783",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 14—Offences",
@@ -54,7 +54,7 @@
       "number": null,
       "ordinal": 3,
       "parent_ref": null,
-      "ref": "TMA1995/s159~1",
+      "ref": "TMA1995/s159/forfeiture-order-provisions",
       "style": "Definition",
       "text": "forfeiture order provisions means:"
     },
@@ -72,8 +72,8 @@
       "kind": "paragraph",
       "number": "(c)",
       "ordinal": 4,
-      "parent_ref": "TMA1995/s159~1",
-      "ref": "TMA1995/s159(c)",
+      "parent_ref": "TMA1995/s159/forfeiture-order-provisions",
+      "ref": "TMA1995/s159/forfeiture-order-provisions(c)",
       "style": "paragraph",
       "text": "(c) Part 22 of the Proceeds of Crime Act 2002; and"
     },
@@ -91,8 +91,8 @@
       "kind": "paragraph",
       "number": "(d)",
       "ordinal": 5,
-      "parent_ref": "TMA1995/s159~1",
-      "ref": "TMA1995/s159(d)",
+      "parent_ref": "TMA1995/s159/forfeiture-order-provisions",
+      "ref": "TMA1995/s159/forfeiture-order-provisions(d)",
       "style": "paragraph",
       "text": "(d) Part 23 of the Proceeds of Crime Act 2002."
     }

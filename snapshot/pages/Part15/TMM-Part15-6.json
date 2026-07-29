@@ -230,12 +230,6 @@
       "page_ref": "TMM/Part15/6",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(b)",
-          "mention": "paragraph 21.28(2)(b)"
-        },
-        {
           "extraction": "href",
           "id": "TMA1995/s224(6)",
           "mention": "subsection 224(6)"
@@ -339,9 +333,9 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:ea8716e061c9033daa8a5c3a1acba1dcef5f20058446b0eed3317308b5772adb",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "15.6. Extensions of time of more than three months",
     "images": [],
     "last_amended": "2024-05-16",

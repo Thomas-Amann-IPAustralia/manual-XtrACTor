@@ -88,7 +88,14 @@ DEFAULT_INSTRUMENT: dict[str, str] = {"s": "TMA1995", "r": "TMR1995"}
 #: The instrument type a title ends in, which is the word that says whether it
 #: can hold sections or regulations. Read off the tail rather than searched for
 #: anywhere in the string: 'Regulatory Powers Act 2014' is an Act.
-_TITLE_KIND = re.compile(r"\bregulations\s+\d{4}$")
+_TITLE_KIND = re.compile(r"\bregulations?\s+\d{4}$")
+
+#: A reference word that states no kind. An Act and a set of Regulations both
+#: have paragraphs, so 'paragraph 4.12(1)(b)' says nothing about which of them
+#: holds it — where 'section' and 'regulation' each do. Left forcing an Act,
+#: these could not be attributed to the Regulations even where the Manual named
+#: them in the very next words.
+_KIND_NEUTRAL = re.compile(r"^(?:sub)?paragraphs?$", re.IGNORECASE)
 
 #: How far past a reference to look for an instrument name. Wide enough to
 #: cross 'of the ', narrow enough that the next sentence's instrument is not
@@ -102,11 +109,29 @@ LOOKAHEAD_CHARS = 60
 
 #: A consolidated Act or Regulation on AustLII:
 #: /legis/cth/consol_act/tma1995121/s41.html
+#:
+#: The node's alpha prefix says *what kind of thing* the page is, and it is
+#: captured rather than stripped. AustLII writes both a section and a
+#: regulation as `sN` — `/consol_reg/tmr1995230/s4.5.html` is regulation 4.5 —
+#: so `s` takes its symbol from the instrument. `sch` does not: it is a
+#: Schedule, and reading `sch2.html` as `2` produced `TMR1995/r2` for Schedule 2
+#: of the Regulations, on the strongest evidence the schema can carry.
 _AUSTLII_PROVISION = re.compile(
     r"/legis/cth/consol_(?P<kind>act|reg)/(?P<db>[a-z0-9]+)/"
-    r"(?P<node>[a-z]+[0-9][0-9a-z.]*)\.html",
+    r"(?P<prefix>[a-z]+)(?P<node>[0-9][0-9a-z.]*)\.html",
     re.IGNORECASE,
 )
+
+#: An AustLII node prefix, and the segment it addresses. `None` means "take the
+#: symbol from the instrument", which is the ordinary case. A prefix that is not
+#: here raises, for the same reason an unknown database fragment does: the node
+#: names something, and guessing which kind of something puts the edge on the
+#: wrong provision while looking exactly like a good one.
+#: `r` is here because AustLII uses it for instruments drafted as rules, and
+#: it means the same thing `s` does: the node is a provision, and the symbol
+#: comes from the instrument. Only `s` (938 links) and `sch` (8) occur in this
+#: corpus today.
+AUSTLII_NODE_PREFIXES: dict[str, str | None] = {"s": None, "r": None, "sch": "sch"}
 
 _DB_FRAGMENT = re.compile(r"^(?P<abbr>[a-z]{2,8})(?P<year>(?:1[6-9]|20)\d{2})\d*$")
 
@@ -142,9 +167,15 @@ _ANCHOR_ADDRESS = re.compile(
 #: permissive: it feeds the ambiguity test only, never attribution, and
 #: over-counting produces a reference flagged for review rather than one
 #: confidently attributed to the wrong Act.
+#: `Regulations` is optionally singular because Commonwealth drafting switched
+#: to it around 2015: the 'Defence Regulation 2016' and the 'Intellectual
+#: Property Legislation Amendment (Raising the Bar) Regulation 2013' are both
+#: cited in this corpus. Without the singular they are not recognised as titles,
+#: so the year is read as a provision number and 13 edges landed on
+#: `TMR1995/r2016`, `r2013` and `r1991` at certainty `default`.
 _ANY_INSTRUMENT = re.compile(
     r"\b[A-Z][A-Za-z()’'\-]*(?:\s+[A-Za-z()’'\-]+){0,7}"
-    r"\s+(?:Act|Regulations)\s+\d{4}\b"
+    r"\s+(?:Act|Regulations?)\s+\d{4}\b"
 )
 
 _SHORT_ACT = re.compile(r"\bthe\s+(?P<year>\d{4})\s+Act\b")
@@ -266,11 +297,27 @@ def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
             continue
 
         instrument = _instrument_from_db(match.group("db"))
-        symbol = "s" if match.group("kind").lower() == "act" else "r"
-        number = _canonical_address(
-            re.sub(r"^[a-z]+", "", match.group("node").lower())
-        )
+        prefix = match.group("prefix").lower()
+        if prefix not in AUSTLII_NODE_PREFIXES:
+            raise UnknownInstrument(
+                f"AustLII node prefix {prefix!r} in {anchor['href']!r} is not "
+                "one this module can read; add it to AUSTLII_NODE_PREFIXES "
+                "rather than letting the citation through addressed as a "
+                "section of its instrument"
+            )
+        segment = AUSTLII_NODE_PREFIXES[prefix]
         mention = flatten_text(anchor)
+
+        if segment is not None:
+            # A Schedule. It has no subsection detail to read out of the
+            # anchor's words, and the segment is the one the legislation
+            # snapshot uses for the same Schedule, so the id is a foreign key
+            # onto it exactly as a section id is.
+            edges.append((f"{instrument}/{segment}{match.group('node').lower()}", mention))
+            continue
+
+        symbol = "s" if match.group("kind").lower() == "act" else "r"
+        number = _canonical_address(match.group("node").lower())
 
         detailed = [
             _canonical_address(found.group("number")) + found.group("sub")
@@ -311,6 +358,68 @@ INSTRUMENT_KIND: dict[str, str] = {
 }
 INSTRUMENT_KIND.update({code: "s" for code in ACT_BY_YEAR.values()})
 
+#: Whether an instrument's provisions are numbered with dots. This is the same
+#: sort of fact as `INSTRUMENT_KIND` — a structural property of the instrument,
+#: independent of any reference to it — and it is the second of the two
+#: independent readings that catch a misattributed citation.
+#:
+#: Measured over the legislation snapshot: **0 of the Trade Marks Act's 315
+#: section numbers contain a dot, and 401 of the Regulations' 401 regulation
+#: numbers do.** So `TMA1995/s4.7` and `TMR1995/r2016` both name addresses their
+#: instrument cannot express, and 204 such edges reached the 0.8.0 corpus.
+#:
+#: **Only instruments whose numbering has actually been checked are listed.**
+#: Absence means "not asserted", never "undotted": the Criminal Code Act 1995
+#: numbers its sections `6.1`, `11.5`, `137.1`, and the Manual cites all three.
+#: Listing it as dotted-or-not without reading it would be the guess rule 1
+#: forbids, and getting it wrong would silently drop real edges.
+INSTRUMENT_DOTTED: dict[str, bool] = {"TMA1995": False, "TMR1995": True}
+
+#: A provision number, without any subsection detail: the part the numbering
+#: rule is about. 's44(3)(a)' -> '44'.
+_NUMBER_ONLY = re.compile(r"^[^(]*")
+
+#: A Schedule address — `sch2`. Matched as a whole segment and never by its
+#: first character, which is the `s` of a section.
+SCHEDULE_ADDRESS = re.compile(r"^sch\d")
+
+
+def instrument_holds(identifier: str) -> bool:
+    """Can the instrument this id names express the address it names?
+
+    Two independent readings of one fact have to agree, and this is the second
+    of them. `instrument_kind` compares the reference's *word* against the
+    instrument: an Act holds sections and Regulations hold regulations, so
+    `TMR1995/s224` is impossible. This compares the *number*: the Trade Marks
+    Act numbers its sections without dots and the Regulations number theirs with
+    them, so `TMA1995/s4.7` is impossible too.
+
+    The Manual's own Part-internal numbering is also `N.M` — 'see paragraph 6.5'
+    means the Manual's paragraph 6.5, and Part 14 has one — which is why a
+    dotted address is *dropped* rather than re-attributed to the Regulations.
+    The two numbering systems collide, so the fact that `TMR1995/r6.5` exists is
+    a coincidence and not evidence: re-attributing would turn a visibly broken
+    edge into an invisibly wrong one that resolves. `SOURCE_NOTES.md` §32.
+
+    Unknown instruments pass. This is a check for a contradiction, not a
+    whitelist, and an instrument whose numbering nobody has read cannot
+    contradict anything.
+    """
+    instrument, _, address = identifier.partition("/")
+    if not address or SCHEDULE_ADDRESS.match(address):
+        # A Schedule is neither a section nor a regulation; both rules below
+        # are about the two kinds an instrument divides its body into.
+        return True
+
+    expected = INSTRUMENT_KIND.get(instrument)
+    if expected is not None and address[0] != expected:
+        return False
+
+    dotted = INSTRUMENT_DOTTED.get(instrument)
+    if dotted is None or address[0] not in {"s", "r"}:
+        return True
+    return ("." in _NUMBER_ONLY.match(address[1:]).group(0)) is dotted
+
 
 def _instruments_in_scope(text: str) -> set[str]:
     """Every instrument the passage names, mapped where we recognise it.
@@ -343,12 +452,15 @@ def _lookahead_window(text: str, start: int, stop: int) -> str:
     return window.split(".")[0]
 
 
-def _named_instrument(window: str, symbol: str) -> tuple[str, int] | None:
+def _named_instrument(window: str, symbol: str | None) -> tuple[str, int] | None:
     """The instrument named in a lookahead window, and where its name ends.
 
     The earliest name wins. A window can hold two — 'of the Trade Marks Act
     1995 and the Acts Interpretation Act 1901' — and it is the first that
     qualifies the reference the window hangs off.
+
+    `symbol` is `None` where the reference's own word states no kind, and then
+    an instrument of either kind qualifies and supplies the symbol itself.
 
     **Only an instrument that could hold the reference counts.** A section
     lives in an Act and a regulation in Regulations, so a title of the wrong
@@ -372,11 +484,11 @@ def _named_instrument(window: str, symbol: str) -> tuple[str, int] | None:
     lowered = window.lower()
     for title, code in INSTRUMENT_TITLES.items():
         position = lowered.find(title)
-        if position != -1 and instrument_kind(code) == symbol:
+        if position != -1 and symbol in (None, instrument_kind(code)):
             candidates.append((position, position + len(title), code))
 
     short = _SHORT_ACT.search(window)
-    if short is not None and short.group("year") in ACT_BY_YEAR and symbol == "s":
+    if short is not None and short.group("year") in ACT_BY_YEAR and symbol in (None, "s"):
         candidates.append((short.start(), short.end(), ACT_BY_YEAR[short.group("year")]))
 
     if not candidates:
@@ -406,14 +518,22 @@ def _regex_edges(text: str) -> list[tuple[str, str, str]]:
 
     for index, match in enumerate(matches):
         word = match.group("word").lower()
+        neutral = _KIND_NEUTRAL.match(word) is not None
         symbol = "r" if word.removeprefix("sub").startswith("reg") else "s"
 
         stop = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         window = _lookahead_window(text, match.end(), stop)
-        named = _named_instrument(window, symbol)
+        named = _named_instrument(window, None if neutral else symbol)
 
         if named is not None:
             instrument, offset = named
+            # A kind-neutral word takes its symbol from the instrument the
+            # source named, which is the only thing in the sentence that states
+            # one. Where nothing is named it falls back to a section below,
+            # because that is what the great majority of bare 'paragraph N(a)'
+            # references in this corpus are.
+            if neutral:
+                symbol = instrument_kind(instrument)
             certainty = "explicit"
             mention = text[match.start() : match.end() + offset]
         else:
@@ -438,6 +558,16 @@ def _regex_edges(text: str) -> list[tuple[str, str, str]]:
         mention = " ".join(mention.split())
         for address in _ADDRESS_ONLY.findall(match.group("addresses")):
             identifier = f"{instrument}/{symbol}{_canonical_address(address)}"
+            # An address the instrument cannot express is not a reference to
+            # that instrument, and there is nothing else here to make it one.
+            # Dropped rather than stored flagged: an id asserting a section of
+            # the Trade Marks Act that cannot exist is a claim about the law,
+            # and `certainty` qualifies which instrument was meant, not whether
+            # the provision is real. Same rule `internal_refs` already applies —
+            # an unresolvable reference is worse than an absent one, because a
+            # consumer will try to follow it. `SOURCE_NOTES.md` §32.
+            if not instrument_holds(identifier):
+                continue
             edges.append((identifier, certainty, mention))
 
     return edges

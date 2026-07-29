@@ -80,7 +80,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "pattern": "^[A-Z]{2,8}[0-9]{4}/[sr][0-9]+[A-Z]*(\\.[0-9]+[A-Z]*)*(\\([0-9a-zA-Z]{1,3}\\))*$",
+            "pattern": "^[A-Z]{2,8}[0-9]{4}/(sch[0-9]+[A-Z]*|[sr][0-9]+[A-Z]*(\\.[0-9]+[A-Z]*)*(\\([0-9a-zA-Z]{1,3}\\))*)$",
             "description": "Instrument and root are both parseable from this — TMA1995/s44(3)(a) yields instrument TMA1995 and root TMA1995/s44. Derive them in SQL as generated columns rather than storing them. Each dotted component may carry a letter suffix: the Regulations number a Part 3A, so 'reg 3A.3' is TMR1995/r3A.3, and an inserted regulation is r21.21A.",
             "examples": ["TMA1995/s41", "TMA1995/s44(3)(a)", "AIA1901/s7", "TMR1995/r3A.3", "TMR1995/r21.21A"]
           },

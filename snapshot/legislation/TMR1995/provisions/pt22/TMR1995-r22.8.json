@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div1"
   ],
   "content_hash": "sha256:c1e6cc64abeb5065177bb4234b4fb41ed5f484db97bff0dcf2ecc8bd200e68d9",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -64,14 +64,6 @@
       "number": "(1)",
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20.3A(1)(b)",
-          "mention": "paragraph 20.3A(1)(b)"
-        }
-      ],
       "ref": "TMR1995/r22.8(1)",
       "style": "subsection",
       "text": "(1) For a person who passed an examination, or was exempted from having to pass the examination, for at least 1 subject under Schedule 5 of the Patents Regulations 1991 as in force on 26 January 1999, the period of 5 years for paragraph 20.3A(1)(b) of the Patents Regulations 1991 is taken to commence on 27 January 1999."
@@ -94,14 +86,6 @@
       "number": "(3)",
       "ordinal": 3,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20.1(1)(a)",
-          "mention": "paragraph 20.1(1)(a)"
-        }
-      ],
       "ref": "TMR1995/r22.8(3)",
       "style": "subsection",
       "text": "(3) A pass in an examination for a subject mentioned in column 1 of the following table is taken to be a pass for paragraph 20.1(1)(a) in a topic group mentioned in column 2 of the table:"

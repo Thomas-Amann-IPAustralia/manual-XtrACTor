@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div5",
     "TMR1995/pt17a/div5/sdivd"
   ],
   "content_hash": "sha256:65017a133ac4c70fc75f4a6e17f0f15c04f54a60155105a484c051218f51da94",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -47,7 +47,7 @@
       "number": null,
       "ordinal": 2,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~2",
+      "ref": "TMR1995/r17A.48/application-for-cessation-of-protection",
       "style": "Definition",
       "text": "application for cessation of protection means an application to the Registrar for cessation of protection of a trade mark that is, or may become, a protected international trade mark."
     },
@@ -66,7 +66,7 @@
       "number": null,
       "ordinal": 3,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~3",
+      "ref": "TMR1995/r17A.48/cessation-of-protection",
       "style": "Definition",
       "text": "cessation of protection means the cessation of protection of a trade mark that is a protected international trade mark."
     },
@@ -93,7 +93,7 @@
           "mention": "regulation 17A.48Q"
         }
       ],
-      "ref": "TMR1995/r17A.48~4",
+      "ref": "TMR1995/r17A.48/notice-of-intention-to-defend",
       "style": "Definition",
       "text": "notice of intention to defend means a notice filed under regulation 17A.48Q."
     },
@@ -120,7 +120,7 @@
           "mention": "regulation 17A.48G"
         }
       ],
-      "ref": "TMR1995/r17A.48~5",
+      "ref": "TMR1995/r17A.48/notice-of-intention-to-oppose",
       "style": "Definition",
       "text": "notice of intention to oppose means a notice filed under regulation 17A.48G."
     },
@@ -139,7 +139,7 @@
       "number": null,
       "ordinal": 6,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~6",
+      "ref": "TMR1995/r17A.48/notice-of-opposition",
       "style": "Definition",
       "text": "notice of opposition means:"
     },
@@ -148,10 +148,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 7,
-      "parent_ref": "TMR1995/r17A.48~6",
-      "ref": "TMR1995/r17A.48(a)",
+      "parent_ref": "TMR1995/r17A.48/notice-of-opposition",
+      "ref": "TMR1995/r17A.48/notice-of-opposition(a)",
       "style": "paragraph",
       "text": "(a) a notice of intention to oppose; and"
     },
@@ -160,10 +159,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 8,
-      "parent_ref": "TMR1995/r17A.48~6",
-      "ref": "TMR1995/r17A.48(b)",
+      "parent_ref": "TMR1995/r17A.48/notice-of-opposition",
+      "ref": "TMR1995/r17A.48/notice-of-opposition(b)",
       "style": "paragraph",
       "text": "(b) a statement of grounds and particulars."
     },
@@ -182,7 +180,7 @@
       "number": null,
       "ordinal": 9,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~7",
+      "ref": "TMR1995/r17A.48/opponent",
       "style": "Definition",
       "text": "opponent means a person who files:"
     },
@@ -191,10 +189,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 10,
-      "parent_ref": "TMR1995/r17A.48~7",
-      "ref": "TMR1995/r17A.48(a)~2",
+      "parent_ref": "TMR1995/r17A.48/opponent",
+      "ref": "TMR1995/r17A.48/opponent(a)",
       "style": "paragraph",
       "text": "(a) a notice of intention to oppose; and"
     },
@@ -203,10 +200,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 11,
-      "parent_ref": "TMR1995/r17A.48~7",
-      "ref": "TMR1995/r17A.48(b)~2",
+      "parent_ref": "TMR1995/r17A.48/opponent",
+      "ref": "TMR1995/r17A.48/opponent(b)",
       "style": "paragraph",
       "text": "(b) a statement of grounds and particulars."
     },
@@ -225,7 +221,7 @@
       "number": null,
       "ordinal": 12,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~8",
+      "ref": "TMR1995/r17A.48/party",
       "style": "Definition",
       "text": "party means an applicant or opponent."
     },
@@ -244,7 +240,7 @@
       "number": null,
       "ordinal": 13,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.48~9",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars",
       "style": "Definition",
       "text": "statement of grounds and particulars means a statement by an opponent that sets out:"
     },
@@ -253,10 +249,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 14,
-      "parent_ref": "TMR1995/r17A.48~9",
-      "ref": "TMR1995/r17A.48(a)~3",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(a)",
       "style": "paragraph",
       "text": "(a) the grounds for cessation of protection that the opponent intends to rebut; and"
     },
@@ -265,10 +260,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 15,
-      "parent_ref": "TMR1995/r17A.48~9",
-      "ref": "TMR1995/r17A.48(b)~3",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)",
       "style": "paragraph",
       "text": "(b) the facts and circumstances that form the basis for the opposition to the cessation of protection."
     },
@@ -278,7 +272,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 16,
-      "parent_ref": "TMR1995/r17A.48(b)~3",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)",
       "provisions": [
         {
           "certainty": "default",
@@ -287,7 +281,7 @@
           "mention": "section 6"
         }
       ],
-      "ref": "TMR1995/r17A.48(b)~3~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
       "style": "notetext",
       "text": "Note: The definitions of the following terms are in section 6 of the Act:"
     },
@@ -297,8 +291,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 17,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~1",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~1",
       "style": "notepara",
       "text": "(a) applicant;"
     },
@@ -308,8 +302,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 18,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~2",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~2",
       "style": "notepara",
       "text": "(b) approved form;"
     },
@@ -319,8 +313,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 19,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~3",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~3",
       "style": "notepara",
       "text": "(c) employee;"
     },
@@ -330,8 +324,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 20,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~4",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~4",
       "style": "notepara",
       "text": "(d) file;"
     },
@@ -341,8 +335,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 21,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~5",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~5",
       "style": "notepara",
       "text": "(e) month;"
     },
@@ -352,8 +346,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 22,
-      "parent_ref": "TMR1995/r17A.48(b)~3~1",
-      "ref": "TMR1995/r17A.48(b)~3~1~6",
+      "parent_ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1",
+      "ref": "TMR1995/r17A.48/statement-of-grounds-and-particulars(b)~1~6",
       "style": "notepara",
       "text": "(f) person."
     }

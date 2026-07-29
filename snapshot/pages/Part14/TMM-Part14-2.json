@@ -57,7 +57,7 @@
       "provisions": [
         {
           "extraction": "href",
-          "id": "TMR1995/r1",
+          "id": "TMR1995/sch1",
           "mention": "Schedule 1 in the Trade Marks Regulations 1995"
         }
       ],
@@ -157,14 +157,7 @@
       ],
       "ordinal": 3,
       "page_ref": "TMM/Part14/2",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s6.5",
-          "mention": "paragraph 6.5"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "A list of the NICE class headings can be found on IP Australia’s website. These headings provide a brief indication of the total range of goods or services falling in each of the classes (see paragraph 6.5). However, they are not an exhaustive list of all goods or services that may fall in each class. In some cases they will not be sufficiently detailed, when used on their own, to provide a firm guide to correct classification."
     },
@@ -433,9 +426,9 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:97bfa727973cd984873315e7f15426f6a2da673e9851a543e9ed0080aba753b9",
-    "crawled_at": "2026-07-29T04:00:31Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "14.2. The classification system",
     "images": [],
     "last_amended": "2024-05-16",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div4"
   ],
   "content_hash": "sha256:7908089c5f02c7f8dcaf98538c2c9189c9e9dcd94ab6e3f9da65fce148626967",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -52,14 +52,6 @@
       "number": "(1)",
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(a)",
-          "mention": "paragraph 4.13(1)(a)"
-        }
-      ],
       "ref": "TMR1995/r22.23(1)",
       "style": "subsection",
       "text": "(1) The amendment of paragraph 4.13(1)(a) made by Part 8 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to a request made on or after the commencement of that Part."
@@ -97,14 +89,6 @@
       "number": "(2)",
       "ordinal": 2,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.21(1)(a)",
-          "mention": "paragraph 17A.21(1)(a)"
-        }
-      ],
       "ref": "TMR1995/r22.23(2)",
       "style": "subsection",
       "text": "(2) The amendment of paragraph 17A.21(1)(a) made by Part 8 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to a request made on or after the commencement of that Part."

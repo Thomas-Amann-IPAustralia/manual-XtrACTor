@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt2"
   ],
   "content_hash": "sha256:841f0544dc5bbff7ac6db8425018f4d1e308931d8ed6f1c63baec8067f179758",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 2—Interpretation",
@@ -111,7 +111,7 @@
       "number": null,
       "ordinal": 6,
       "parent_ref": null,
-      "ref": "TMA1995/s7~1",
+      "ref": "TMA1995/s7/use-of-a-trade-mark-in-relation-to-goods",
       "style": "Definition",
       "text": "use of a trade mark in relation to goods means use of the trade mark upon, or in physical or other relation to, the goods (including secondhand goods)."
     },
@@ -141,7 +141,7 @@
       "number": null,
       "ordinal": 8,
       "parent_ref": null,
-      "ref": "TMA1995/s7~2",
+      "ref": "TMA1995/s7/use-of-a-trade-mark-in-relation-to-services",
       "style": "Definition",
       "text": "use of a trade mark in relation to services means use of the trade mark in physical or other relation to the services."
     }
