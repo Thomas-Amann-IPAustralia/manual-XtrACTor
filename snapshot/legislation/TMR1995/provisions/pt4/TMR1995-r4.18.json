@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:8449a21c959417878ea8648c1b15605cf3819c253c59810ee9b81b3063b97ccc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.18  Request for expedited examination of application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.18",
+  "ref": "TMR1995/r4.18",
+  "text": "(1) A person who applies, or has applied, for the registration of a trade mark: (a) may request in writing expedited examination of the application; and (b) must include with the request a declaration stating the reasons for the request. (2) As soon as practicable after making a decision in relation to a request, the Registrar must give notification of the decision to the person who made the request.",
+  "title": "Request for expedited examination of application",
+  "units": [
+    {
+      "content_hash": "sha256:934624de875998442326dc4ff4325cc08967e0d8257a2e2c00d72f060dd1636d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.18(1)",
+      "style": "subsection",
+      "text": "(1) A person who applies, or has applied, for the registration of a trade mark:"
+    },
+    {
+      "content_hash": "sha256:b089b66cd312e5b1522eec36139f697a6471449820d2fcd81117545eed489768",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.18(1)",
+      "ref": "TMR1995/r4.18(1)(a)",
+      "style": "paragraph",
+      "text": "(a) may request in writing expedited examination of the application; and"
+    },
+    {
+      "content_hash": "sha256:c9f334a39881c840dff1f719b9905f796e9c90b64902492a5cf3e5ba0662f68d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.18(1)",
+      "ref": "TMR1995/r4.18(1)(b)",
+      "style": "paragraph",
+      "text": "(b) must include with the request a declaration stating the reasons for the request."
+    },
+    {
+      "content_hash": "sha256:88662743e545e2c915acac61d6fc04fe3c04cb56a9c752d6acd4eab5a211c2b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.18(2)",
+      "style": "subsection",
+      "text": "(2) As soon as practicable after making a decision in relation to a request, the Registrar must give notification of the decision to the person who made the request."
+    }
+  ]
+}

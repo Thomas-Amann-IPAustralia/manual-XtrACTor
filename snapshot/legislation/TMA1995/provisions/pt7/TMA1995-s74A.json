@@ -1,0 +1,121 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:b8170ef711e02a539924b97fbf87dcd5453f0165eb4efb3e2c252c6cea2b7ac8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "74A  Application of this Division"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "74A",
+  "ref": "TMA1995/s74A",
+  "text": "This Division applies to a registered trade mark if: (a) particulars of registration were entered in the Register under section 69 before the end of the period of 10 years after the filing date of the application for registration; or (b) both: (i) paragraph (a) does not apply; and (ii) registration has already been renewed under Division 3 for a period that includes the day on which particulars of registration were entered in the Register under section 69. Note: For filing date see section 6.",
+  "title": "Application of this Division",
+  "units": [
+    {
+      "content_hash": "sha256:033f591757b878d78e541fd8ef28009762273ad33b357a714272d1c2204e123d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s74A~1",
+      "style": "subsection",
+      "text": "This Division applies to a registered trade mark if:"
+    },
+    {
+      "content_hash": "sha256:9df9aca227fd821cb72e940d6b46784d9d8c990b58658d666534adc2688dd1e3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s74A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        }
+      ],
+      "ref": "TMA1995/s74A~1(a)",
+      "style": "paragraph",
+      "text": "(a) particulars of registration were entered in the Register under section 69 before the end of the period of 10 years after the filing date of the application for registration; or"
+    },
+    {
+      "content_hash": "sha256:7ac6d6c3184420e4adb41dfc0d7e877183f80bcc1aafa27973232bfe8186e62e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s74A~1",
+      "ref": "TMA1995/s74A~1(b)",
+      "style": "paragraph",
+      "text": "(b) both:"
+    },
+    {
+      "content_hash": "sha256:097c42be3769f5dcf14609d409335d3bacf8494c01bf93e08877eced14f48a4d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s74A~1(b)",
+      "ref": "TMA1995/s74A~1(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) paragraph (a) does not apply; and"
+    },
+    {
+      "content_hash": "sha256:7f9433d55d6c6d2d2c9cefd1502fe842263443f11c7e7e9eea152637093ff972",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s74A~1(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        }
+      ],
+      "ref": "TMA1995/s74A~1(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) registration has already been renewed under Division 3 for a period that includes the day on which particulars of registration were entered in the Register under section 69."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s74A~1(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s74A~1(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    }
+  ]
+}

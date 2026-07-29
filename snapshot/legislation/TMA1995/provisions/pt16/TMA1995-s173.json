@@ -1,0 +1,193 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:509ec6de1aeed9e4fedf5c5749435cbf9745af0659ca9bfc0b9abcb97ef3196c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "173  Rules governing the use of certification trade marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "173",
+  "ref": "TMA1995/s173",
+  "text": "(1) A person who has filed an application for the registration of a certification trade mark must, in accordance with the regulations, file a copy of the rules governing the use of the certification trade mark. The copy of the rules is to be filed in addition to any document prescribed under subsection 27(2). Note: For file see section 6. (2) The rules must specify: (a) the requirements (the certification requirements) that goods and/or services must meet for the certification trade mark to be applied to them; and (b) the process for determining whether goods and/or services meet the certification requirements; and (c) the attributes that a person must have to become a person (an approved certifier) approved to assess whether goods and/or services meet the certification requirements; and (d) the requirements that a person, who is the owner of the certification trade mark or an approved user, must meet to use the certification trade mark in relation to goods and/or services; and (e) the other requirements about the use of the certification trade mark by a person who is the owner of the certification trade mark or an approved user; and (f) the procedure for resolving a dispute about whether goods and/or services meet the certification requirements; and (g) the procedure for resolving a dispute about any other issue relating to the certification trade mark. (3) The rules must also include any other matter the Commission requires to be included. (4) The rules may also include any other matter the Commission permits to be included.",
+  "title": "Rules governing the use of certification trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:d5a5c0fd77863b0fe7a78cba95b2f7513479f188e0822ea5de0358eb5c2a3331",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27(2)",
+          "mention": "subsection 27(2)"
+        }
+      ],
+      "ref": "TMA1995/s173(1)",
+      "style": "subsection",
+      "text": "(1) A person who has filed an application for the registration of a certification trade mark must, in accordance with the regulations, file a copy of the rules governing the use of the certification trade mark. The copy of the rules is to be filed in addition to any document prescribed under subsection 27(2)."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s173(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s173(1)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    },
+    {
+      "content_hash": "sha256:131e0874cb840232375ed6bf4fe9b5af6b866bf69f99ece9949bbbaa5c35481b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s173(2)",
+      "style": "subsection",
+      "text": "(2) The rules must specify:"
+    },
+    {
+      "content_hash": "sha256:30aaf6ee8cdbfacaab9dd9e0aaf85bfbeb24c405cfb8adab5b41e787e4ef3dfa",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 52,
+          "start": 26,
+          "text": "certification requirements",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the requirements (the certification requirements) that goods and/or services must meet for the certification trade mark to be applied to them; and"
+    },
+    {
+      "content_hash": "sha256:5d2b48865c6547db450a02e4dc33e703faa8d377198675c0e1c3cc41f5586824",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the process for determining whether goods and/or services meet the certification requirements; and"
+    },
+    {
+      "content_hash": "sha256:8efa6242249d7b0d5c936c629f8e5a290854f1b3032fff7f13e0c10d59b46f2d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 66,
+          "text": "approved certifier",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the attributes that a person must have to become a person (an approved certifier) approved to assess whether goods and/or services meet the certification requirements; and"
+    },
+    {
+      "content_hash": "sha256:fb5978fe394a79a974693100e96bb44c88493edfaf8dabfe192568fcab80bce2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(d)",
+      "style": "paragraph",
+      "text": "(d) the requirements that a person, who is the owner of the certification trade mark or an approved user, must meet to use the certification trade mark in relation to goods and/or services; and"
+    },
+    {
+      "content_hash": "sha256:a28a3f1b60199f4f485587665b4d8ae51559ad796b494b2e0346f0f7e4a501d1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(e)",
+      "style": "paragraph",
+      "text": "(e) the other requirements about the use of the certification trade mark by a person who is the owner of the certification trade mark or an approved user; and"
+    },
+    {
+      "content_hash": "sha256:a506b6e93fe6fed72d5e01768c28d0f4bfb4c51ac9094f58ffc2174c4b16c22b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(f)",
+      "style": "paragraph",
+      "text": "(f) the procedure for resolving a dispute about whether goods and/or services meet the certification requirements; and"
+    },
+    {
+      "content_hash": "sha256:238649e1d199437e6856f1dd23d5ad907fe6b98820bf062325b5ea38329610ec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s173(2)",
+      "ref": "TMA1995/s173(2)(g)",
+      "style": "paragraph",
+      "text": "(g) the procedure for resolving a dispute about any other issue relating to the certification trade mark."
+    },
+    {
+      "content_hash": "sha256:e38dd3bfe9aa06d02a158afdd5c713e1b65e62e9d502c443e9bcf2661ed7ffb0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s173(3)",
+      "style": "subsection",
+      "text": "(3) The rules must also include any other matter the Commission requires to be included."
+    },
+    {
+      "content_hash": "sha256:bf0375ccc48e0edb830f09da1b167109fffc7977d773ede4ced18c435c8efd72",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s173(4)",
+      "style": "subsection",
+      "text": "(4) The rules may also include any other matter the Commission permits to be included."
+    }
+  ]
+}

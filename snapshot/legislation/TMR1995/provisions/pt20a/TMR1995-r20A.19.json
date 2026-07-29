@@ -1,0 +1,176 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:b9c01eaa5298104d37b15578ed8197b80b06a089ee5fa7afeae7864105292d49",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.19  Notification and publication of decisions of Panel of Disciplinary Tribunal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.19",
+  "ref": "TMR1995/r20A.19",
+  "text": "(1) Within 14 days after a Panel of the Disciplinary Tribunal makes a decision under regulation 20A.18, the Panel must: (a) prepare a written statement that states: (i) the decision of the Panel; and (ii) the reasons for the decision; and (iii) the findings on any material questions of fact; and (iv) evidence or other material on which the findings of fact are based; and (b) give a copy of the statement to: (i) the incorporated trade marks attorney who is the subject of the decision; and (ii) the Board; and (iii) the Designated Manager; and (c) publish, on the TransTasman IP Attorneys website, a written statement that sets out the decision of the Panel. (2) If the registration of an incorporated trade marks attorney is suspended, the Designated Manager must note the suspension and its duration in the Register of Trade Marks Attorneys. (3) If the registration of an incorporated trade marks attorney is cancelled, the Designated Manager must remove the name of the incorporated trade marks attorney from the Register of Trade Marks Attorneys.",
+  "title": "Notification and publication of decisions of Panel of Disciplinary Tribunal",
+  "units": [
+    {
+      "content_hash": "sha256:8a7166042aa6617b15f737a2c1278ad1180765549077e739378d3001930fd07d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.18",
+          "mention": "regulation 20A.18"
+        }
+      ],
+      "ref": "TMR1995/r20A.19(1)",
+      "style": "subsection",
+      "text": "(1) Within 14 days after a Panel of the Disciplinary Tribunal makes a decision under regulation 20A.18, the Panel must:"
+    },
+    {
+      "content_hash": "sha256:1eddf84abd35eca0417307311a54e186f52b82311338b12c9081d24d2451fb83",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.19(1)",
+      "ref": "TMR1995/r20A.19(1)(a)",
+      "style": "paragraph",
+      "text": "(a) prepare a written statement that states:"
+    },
+    {
+      "content_hash": "sha256:f18e10482049ad7d1222f9381919e584e9e952c28d28f142f5808d5196ce5caa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.19(1)(a)",
+      "ref": "TMR1995/r20A.19(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the decision of the Panel; and"
+    },
+    {
+      "content_hash": "sha256:a020c2b3c47ad449b8d9eb348b8b9b9439fc747e3e7efbe2db15b4c533f0e12e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.19(1)(a)",
+      "ref": "TMR1995/r20A.19(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the reasons for the decision; and"
+    },
+    {
+      "content_hash": "sha256:b7527739aa06a65d4098f52a37b0b35dea9977316882d856cabc3f23db7b9fed",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.19(1)(a)",
+      "ref": "TMR1995/r20A.19(1)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the findings on any material questions of fact; and"
+    },
+    {
+      "content_hash": "sha256:4d962853a6dc29b2a21cb8473acbf43ba76e36bf10a9f9342c90885a10e254ec",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.19(1)(a)",
+      "ref": "TMR1995/r20A.19(1)(a)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) evidence or other material on which the findings of fact are based; and"
+    },
+    {
+      "content_hash": "sha256:eeae4f0a53b80f67cb1c836429251d56885bfa95b49af55fb88491091e13416a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20A.19(1)",
+      "ref": "TMR1995/r20A.19(1)(b)",
+      "style": "paragraph",
+      "text": "(b) give a copy of the statement to:"
+    },
+    {
+      "content_hash": "sha256:e55d85ec1ae7932646fa8ca648be14a9b9789cc31db269386f41d33d10d06e83",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20A.19(1)(b)",
+      "ref": "TMR1995/r20A.19(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the incorporated trade marks attorney who is the subject of the decision; and"
+    },
+    {
+      "content_hash": "sha256:6568fe5c8705328aa93f1827fd3bd654d2f1455b2ba31600164f5e84ca15be5d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r20A.19(1)(b)",
+      "ref": "TMR1995/r20A.19(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the Board; and"
+    },
+    {
+      "content_hash": "sha256:01154257069f7d9929cf805a737e1152acf914daa434a77159e4cea07f3394a0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r20A.19(1)(b)",
+      "ref": "TMR1995/r20A.19(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the Designated Manager; and"
+    },
+    {
+      "content_hash": "sha256:f3452fb192724e2bf68ddf8f21500396dadebd47c9b9eddc125ce461e80adfda",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r20A.19(1)",
+      "ref": "TMR1995/r20A.19(1)(c)",
+      "style": "paragraph",
+      "text": "(c) publish, on the TransTasman IP Attorneys website, a written statement that sets out the decision of the Panel."
+    },
+    {
+      "content_hash": "sha256:cf130435c4d50139ac805277f79f1f7895442fae8c018bca330fdc85c7a5ca11",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.19(2)",
+      "style": "subsection",
+      "text": "(2) If the registration of an incorporated trade marks attorney is suspended, the Designated Manager must note the suspension and its duration in the Register of Trade Marks Attorneys."
+    },
+    {
+      "content_hash": "sha256:94bb1115dca88d6f8ab44b247230830fb0c2b4b2167157b9d032d1b5ec95a380",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.19(3)",
+      "style": "subsection",
+      "text": "(3) If the registration of an incorporated trade marks attorney is cancelled, the Designated Manager must remove the name of the incorporated trade marks attorney from the Register of Trade Marks Attorneys."
+    }
+  ]
+}

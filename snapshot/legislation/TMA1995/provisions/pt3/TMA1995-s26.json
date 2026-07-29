@@ -1,0 +1,328 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:4f800143986daa2436394b8f84959cd49a137ea98971e610655a5610122bfec3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "26  Powers of authorised user of registered trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "26",
+  "ref": "TMA1995/s26",
+  "text": "(1) Subject to any agreement between the registered owner of a registered trade mark and an authorised user of the trade mark, the authorised user may do any of the following: (a) the authorised user may use the trade mark in relation to the goods and/or services in respect of which the trade mark is registered, subject to any condition or limitation subject to which the trade mark is registered; (b) the authorised user may (subject to subsection (2)) bring an action for infringement of the trade mark: (i) at any time, with the consent of the registered owner; or (ii) during the prescribed period, if the registered owner refuses to bring such an action on a particular occasion during the prescribed period; or (iii) after the end of the prescribed period, if the registered owner has failed to bring such an action during the prescribed period; (c) the authorised user may cause to be displayed on goods in respect of which the trade mark is registered, or on their package, or on the container in which they are offered to the public, a notice prohibiting any act that is under subsection 121(2) a prohibited act in relation to the goods; (d) the authorised user may: (i) give to the ComptrollerGeneral of Customs a notice under section 132 objecting to the importation of goods that infringe the trade mark; or (ii) revoke such a notice; (e) an authorised user may give permission to any person: (i) to alter or deface; or (ii) to make any addition to; or (iii) to remove, erase or obliterate, wholly or partly; a registered trade mark that is applied to any goods, or in relation to any goods or services, in respect of which the trade mark is registered; (f) the authorised user may give permission to any person to apply the trade mark to goods, or in relation to goods or services, in respect of which the trade mark is registered. Note 1: For registered owner and registered trade mark see section 6. Note 2: For authorised user see section 8. Note 3: For what amounts to an infringement of a trade mark see Part 12. Note 4: For apply to and apply in relation to see section 9. (2) If the authorised user brings an action for infringement of the trade mark, the authorised user must make the registered owner of the trade mark a defendant in the action. However, the registered owner is not liable for costs if he or she does not take part in the proceedings.",
+  "title": "Powers of authorised user of registered trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:3dadc950bdd855a136d0645d1d31eec527cd31324f8ec80ea7388e2d34f64a61",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s26(1)",
+      "style": "subsection",
+      "text": "(1) Subject to any agreement between the registered owner of a registered trade mark and an authorised user of the trade mark, the authorised user may do any of the following:"
+    },
+    {
+      "content_hash": "sha256:67d6e4affbabb41d75807cdcc81e8fd4ccb91e78c75c032ec6a21d2e73fd0103",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the authorised user may use the trade mark in relation to the goods and/or services in respect of which the trade mark is registered, subject to any condition or limitation subject to which the trade mark is registered;"
+    },
+    {
+      "content_hash": "sha256:8fad24879553034a5c34f2983b5ed34166270c51b22305059013b1a036e3e06c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the authorised user may (subject to subsection (2)) bring an action for infringement of the trade mark:"
+    },
+    {
+      "content_hash": "sha256:02a62d17e0cbb65732eb5fe14327ffc50e6cf25c0c5c11e97e139745a7ceac19",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s26(1)(b)",
+      "ref": "TMA1995/s26(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) at any time, with the consent of the registered owner; or"
+    },
+    {
+      "content_hash": "sha256:f88fa835617e00cf01751539c1389bc03ea8fdf65a96f917b4c1ed64b460f675",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s26(1)(b)",
+      "ref": "TMA1995/s26(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) during the prescribed period, if the registered owner refuses to bring such an action on a particular occasion during the prescribed period; or"
+    },
+    {
+      "content_hash": "sha256:9a9a2b478a0e2506c6009cc2436c47c70246d5b4873f3a5ef5fa29bfb9453711",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s26(1)(b)",
+      "ref": "TMA1995/s26(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) after the end of the prescribed period, if the registered owner has failed to bring such an action during the prescribed period;"
+    },
+    {
+      "content_hash": "sha256:3b64040119cd70dae11d54546d44c0e6e941b45830841f246ac75dfc194cb288",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s26(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s121(2)",
+          "mention": "subsection 121(2)"
+        }
+      ],
+      "ref": "TMA1995/s26(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the authorised user may cause to be displayed on goods in respect of which the trade mark is registered, or on their package, or on the container in which they are offered to the public, a notice prohibiting any act that is under subsection 121(2) a prohibited act in relation to the goods;"
+    },
+    {
+      "content_hash": "sha256:8c338ba7e9dda32324dd5ad679ae238f3576a9f63edd0b90f553844c2f5385bb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)(d)",
+      "style": "paragraph",
+      "text": "(d) the authorised user may:"
+    },
+    {
+      "content_hash": "sha256:73207ebdcb07829d963782ac9c2251d1be06096a4800fdda5f3ae6e67ab39599",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s26(1)(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132",
+          "mention": "section 132"
+        }
+      ],
+      "ref": "TMA1995/s26(1)(d)(i)",
+      "style": "paragraphsub",
+      "text": "(i) give to the ComptrollerGeneral of Customs a notice under section 132 objecting to the importation of goods that infringe the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:1fc39247d6f7c7a9856f9c33d8a881320d32854ea011c6232018807b20ae026b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s26(1)(d)",
+      "ref": "TMA1995/s26(1)(d)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) revoke such a notice;"
+    },
+    {
+      "content_hash": "sha256:580c87ca273986434a20f34d4847decd9949266a7742de894850c82f79735f93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)(e)",
+      "style": "paragraph",
+      "text": "(e) an authorised user may give permission to any person:"
+    },
+    {
+      "content_hash": "sha256:36e64c01d34c750ff16a213033ede3aac31407a5cb0f94bc5c3303b914dd8df8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s26(1)(e)",
+      "ref": "TMA1995/s26(1)(e)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to alter or deface; or"
+    },
+    {
+      "content_hash": "sha256:849165781f9cc346d7ed685781fb58a35a15397b8453ce30ee598f38cfc734b1",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s26(1)(e)",
+      "ref": "TMA1995/s26(1)(e)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to make any addition to; or"
+    },
+    {
+      "content_hash": "sha256:3e4a24e005ef51e1b3f9e4b54139398975fb967630f9d18853738af33d262b9b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s26(1)(e)",
+      "ref": "TMA1995/s26(1)(e)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) to remove, erase or obliterate, wholly or partly;"
+    },
+    {
+      "content_hash": "sha256:02e4eb773b0d807a56cf002d081032e1644bbe49e9c53f14be5e788abfc90733",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)~1",
+      "style": "paragraph",
+      "text": "a registered trade mark that is applied to any goods, or in relation to any goods or services, in respect of which the trade mark is registered;"
+    },
+    {
+      "content_hash": "sha256:bfbf0718b17d3b46feb221e9f961c01facdbbf6d8dd0ff740e787a7f8ff0fe27",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s26(1)",
+      "ref": "TMA1995/s26(1)(f)",
+      "style": "paragraph",
+      "text": "(f) the authorised user may give permission to any person to apply the trade mark to goods, or in relation to goods or services, in respect of which the trade mark is registered."
+    },
+    {
+      "content_hash": "sha256:00024329a6f6204ad617fa5107b72447a850704ef9209f1466e2b06cbea25d95",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 54,
+          "start": 33,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s26(1)(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s26(1)(f)~1",
+      "style": "notetext",
+      "text": "Note 1: For registered owner and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:13ae90494e1dea74bfed8e1e124bd9ac141f1397160bab9a1d80e146c02e722c",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s26(1)(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s26(1)(f)~2",
+      "style": "notetext",
+      "text": "Note 2: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:80f2c308387af92d029eaf5d801a41e7ab132881732d425404d624fbeb2cb3b6",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s26(1)(f)",
+      "ref": "TMA1995/s26(1)(f)~3",
+      "style": "notetext",
+      "text": "Note 3: For what amounts to an infringement of a trade mark see Part 12."
+    },
+    {
+      "content_hash": "sha256:f99383a6b57cabef08f5ad62a2cdd2ea97a508aa1ee29be5a959882727477f29",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 12,
+          "text": "apply to",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 45,
+          "start": 25,
+          "text": "apply in relation to",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s26(1)(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s9",
+          "mention": "section 9"
+        }
+      ],
+      "ref": "TMA1995/s26(1)(f)~4",
+      "style": "notetext",
+      "text": "Note 4: For apply to and apply in relation to see section 9."
+    },
+    {
+      "content_hash": "sha256:60fb7baea7268918a052213e1cc4fb6071f09b403f697c7961e9f40de651406e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMA1995/s26(2)",
+      "style": "subsection",
+      "text": "(2) If the authorised user brings an action for infringement of the trade mark, the authorised user must make the registered owner of the trade mark a defendant in the action. However, the registered owner is not liable for costs if he or she does not take part in the proceedings."
+    }
+  ]
+}

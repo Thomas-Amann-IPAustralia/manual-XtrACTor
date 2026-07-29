@@ -1,0 +1,152 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3a",
+    "TMR1995/pt3a/div2"
+  ],
+  "content_hash": "sha256:ac4a4d86aa0f549110bc7d9c5120ac3f612ee411edf1c9bd230351c648f51f9c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3A—Assisted filing service",
+    "Division 2—Request for filing assistance",
+    "3A.4  AFS request—assessment by Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3A.4",
+  "ref": "TMR1995/r3A.4",
+  "text": "(1) After receiving an AFS request the Registrar must, as soon as practicable, assess the AFS request having regard to the requirements of Part 4 of the Act and form an opinion whether or not: (a) the AFS request would, if submitted in that form as an application for registration under Part 4 of the Act, be in accordance with that Part; and (b) there would be grounds under Division 2 of Part 4 of the Act for rejecting the AFS request. (2) After forming an opinion the Registrar must, as soon as practicable, inform the requester of: (a) the opinion; and (b) the procedural requirements of regulation 3A.5 for making an amendment to the AFS request; and (c) the procedural requirements for making an application for the registration of a trade mark under Part 4 of the Act. (3) The Registrar may inform the requester: (a) in writing, by mail, fax or email; or (b) by telephone; or (c) in person.",
+  "title": "AFS request—assessment by Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:48a9d3a37a2fb76b78282363f8a56e585472dafa99001687683adba452a786a6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.4(1)",
+      "style": "subsection",
+      "text": "(1) After receiving an AFS request the Registrar must, as soon as practicable, assess the AFS request having regard to the requirements of Part 4 of the Act and form an opinion whether or not:"
+    },
+    {
+      "content_hash": "sha256:3ec52b12429ee5a94d24b81f1b0c1fe7ae5c1aff91a96ae98a29c7f44cc5ebb7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r3A.4(1)",
+      "ref": "TMR1995/r3A.4(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the AFS request would, if submitted in that form as an application for registration under Part 4 of the Act, be in accordance with that Part; and"
+    },
+    {
+      "content_hash": "sha256:0f85fe2ae6a8d76e7e5174752422c14605b2f5ca92a6b709277abcd3c81d769a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r3A.4(1)",
+      "ref": "TMR1995/r3A.4(1)(b)",
+      "style": "paragraph",
+      "text": "(b) there would be grounds under Division 2 of Part 4 of the Act for rejecting the AFS request."
+    },
+    {
+      "content_hash": "sha256:5ed20239cb5478b36116eaf7c051a156a340080b9d8916ea6ba0a72401025eb5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.4(2)",
+      "style": "subsection",
+      "text": "(2) After forming an opinion the Registrar must, as soon as practicable, inform the requester of:"
+    },
+    {
+      "content_hash": "sha256:44a61eb048aae9e25d3af8ff8160f9a74341f02fdfb6966f4eb1d5ded48635e1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r3A.4(2)",
+      "ref": "TMR1995/r3A.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the opinion; and"
+    },
+    {
+      "content_hash": "sha256:f3882933d8eab472e2a5b61e6d038c2de57487381218263d3061e82a8898b89e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r3A.4(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.5",
+          "mention": "regulation 3A.5"
+        }
+      ],
+      "ref": "TMR1995/r3A.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the procedural requirements of regulation 3A.5 for making an amendment to the AFS request; and"
+    },
+    {
+      "content_hash": "sha256:e78c741ae8a8747dfccb6d54d92d293701cd01b623452fa367863de9f32fa0ff",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r3A.4(2)",
+      "ref": "TMR1995/r3A.4(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the procedural requirements for making an application for the registration of a trade mark under Part 4 of the Act."
+    },
+    {
+      "content_hash": "sha256:fffa601b46fdb378a618f1cd731e08225d08a83ee48ebb8f7e91731689f8871b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.4(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may inform the requester:"
+    },
+    {
+      "content_hash": "sha256:064c339eba9127f602cf0bc0491fd737bf88d7b983d791155ab3ba917d275ec1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r3A.4(3)",
+      "ref": "TMR1995/r3A.4(3)(a)",
+      "style": "paragraph",
+      "text": "(a) in writing, by mail, fax or email; or"
+    },
+    {
+      "content_hash": "sha256:68e5210c008f400aa87138ff845fad42fb52d4ea3d603f5920b7f1653d408fe6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r3A.4(3)",
+      "ref": "TMR1995/r3A.4(3)(b)",
+      "style": "paragraph",
+      "text": "(b) by telephone; or"
+    },
+    {
+      "content_hash": "sha256:1c74fb77db55c863bbe1ddef4f3d960688d15b2108c2522f166f3c9bed950437",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r3A.4(3)",
+      "ref": "TMR1995/r3A.4(3)(c)",
+      "style": "paragraph",
+      "text": "(c) in person."
+    }
+  ]
+}

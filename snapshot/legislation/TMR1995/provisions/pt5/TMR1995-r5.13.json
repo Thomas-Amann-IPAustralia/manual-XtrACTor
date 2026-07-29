@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdivb"
+  ],
+  "content_hash": "sha256:ea98623007f66c4c521fe10729e46b129188f138651798e784404ddb58dc0a58",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision B—Notice of intention to defend",
+    "5.13  Filing of notice of intention to defend"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.13",
+  "ref": "TMR1995/r5.13",
+  "text": "(1) For subsection 52A(2) of the Act, a notice of intention to defend must be filed within 2 months from the day the applicant is given a copy of the statement of grounds and particulars. (2) The Registrar must give a copy of the notice to the opponent.",
+  "title": "Filing of notice of intention to defend",
+  "units": [
+    {
+      "content_hash": "sha256:85abcc448e115ce8f789a270cfc06ffe837cfd637ce7c5cc1a0ae8e74f8c5422",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52A(2)",
+          "mention": "subsection 52A(2)"
+        }
+      ],
+      "ref": "TMR1995/r5.13(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 52A(2) of the Act, a notice of intention to defend must be filed within 2 months from the day the applicant is given a copy of the statement of grounds and particulars."
+    },
+    {
+      "content_hash": "sha256:e303aeb5ced075d6d0915d5aba63c13e5e78ac111b481a14f8c534e043742430",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.13(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must give a copy of the notice to the opponent."
+    }
+  ]
+}

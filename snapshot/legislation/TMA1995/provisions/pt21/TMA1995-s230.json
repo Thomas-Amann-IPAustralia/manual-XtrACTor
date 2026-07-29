@@ -1,0 +1,154 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:6f6bf7352ba3aeaac5b98f96cc1dc5eebd0d6149815dc243001a864ff08f36e3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "230  Passing off actions"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "230",
+  "ref": "TMA1995/s230",
+  "text": "(1) Except as provided in subsection (2), this Act does not affect the law relating to passing off. (2) In an action for passing off arising out of the use by the defendant of a registered trade mark: (a) of which he or she is the registered owner or an authorised user; and (b) that is substantially identical with, or deceptively similar to, the trade mark of the plaintiff; damages may not be awarded against the defendant if the defendant satisfies the court: (c) that, at the time when the defendant began to use the trade mark, he or she was unaware, and had no reasonable means of finding out, that the trade mark of the plaintiff was in use; and (d) that, when the defendant became aware of the existence and nature of the plaintiff’s trade mark, he or she immediately ceased to use the trade mark in relation to the goods or services in relation to which it was used by the plaintiff. Note 1: For authorised user see section 8. Note 2: For deceptively similar see section 10.",
+  "title": "Passing off actions",
+  "units": [
+    {
+      "content_hash": "sha256:0e1ca866979f828c11029499d4fbaf77eed9588b35d48d74818618853fa9bb98",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s230(1)",
+      "style": "subsection",
+      "text": "(1) Except as provided in subsection (2), this Act does not affect the law relating to passing off."
+    },
+    {
+      "content_hash": "sha256:b466fa9a54b1def0f2a25dc5142e925d3d8d1da11b29ae261ed06a7f4f8004ce",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s230(2)",
+      "style": "subsection",
+      "text": "(2) In an action for passing off arising out of the use by the defendant of a registered trade mark:"
+    },
+    {
+      "content_hash": "sha256:c870e024049dc7bc73a083f6881a7d56982f4195cd4d74153aff445ee87ad818",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s230(2)",
+      "ref": "TMA1995/s230(2)(a)",
+      "style": "paragraph",
+      "text": "(a) of which he or she is the registered owner or an authorised user; and"
+    },
+    {
+      "content_hash": "sha256:105c54afee7425ae3b6414f5b1a99764703510130ea97036b7b8cd9dab491367",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s230(2)",
+      "ref": "TMA1995/s230(2)(b)",
+      "style": "paragraph",
+      "text": "(b) that is substantially identical with, or deceptively similar to, the trade mark of the plaintiff;"
+    },
+    {
+      "content_hash": "sha256:4edf9ff0b998acfa1cd72438575ccb6bc23cc96038889f426d394027c2c8bcae",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s230~1",
+      "style": "subsection2",
+      "text": "damages may not be awarded against the defendant if the defendant satisfies the court:"
+    },
+    {
+      "content_hash": "sha256:74df596fbc4491f641ef5074ab3785ef6effd53f1e3faa3ce83342f6cb986097",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s230~1",
+      "ref": "TMA1995/s230~1(c)",
+      "style": "paragraph",
+      "text": "(c) that, at the time when the defendant began to use the trade mark, he or she was unaware, and had no reasonable means of finding out, that the trade mark of the plaintiff was in use; and"
+    },
+    {
+      "content_hash": "sha256:e18845f512d4d45706d0ef9ee19cd3bf8a7031552835089e08c49a94b321530c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s230~1",
+      "ref": "TMA1995/s230~1(d)",
+      "style": "paragraph",
+      "text": "(d) that, when the defendant became aware of the existence and nature of the plaintiff’s trade mark, he or she immediately ceased to use the trade mark in relation to the goods or services in relation to which it was used by the plaintiff."
+    },
+    {
+      "content_hash": "sha256:189d086ba6aed022519baaf75930b02e5938815f8fd2d5d55b9e3a5239510094",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s230~1(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s230~1(d)~1",
+      "style": "notetext",
+      "text": "Note 1: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:7922eee9d23edc7e9cbeb9abcd12bdfbb09bb9d92b77a683a4b05ded6cbc5be2",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s230~1(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s230~1(d)~2",
+      "style": "notetext",
+      "text": "Note 2: For deceptively similar see section 10."
+    }
+  ]
+}

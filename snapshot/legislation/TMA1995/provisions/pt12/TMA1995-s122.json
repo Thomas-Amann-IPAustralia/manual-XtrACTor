@@ -1,0 +1,221 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:a57773296ea6ad0a5a41edf039d6cdb1df93b95b612fef9e5b7fb51f0eccf3ef",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "122  When is a trade mark not infringed?"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "122",
+  "ref": "TMA1995/s122",
+  "text": "(1) In spite of section 120, a person does not infringe a registered trade mark when: (a) the person uses in good faith: (i) the person’s name or the name of the person’s place of business; or (ii) the name of a predecessor in business of the person or the name of the predecessor’s place of business; or (b) the person uses a sign in good faith to indicate: (i) the kind, quality, quantity, intended purpose, value, geographical origin, or some other characteristic, of goods or services; or (ii) the time of production of goods or of the rendering of services; or (c) the person uses the trade mark in good faith to indicate the intended purpose of goods (in particular as accessories or spare parts) or services; or (d) the person uses the trade mark for the purposes of comparative advertising; or (e) the person exercises a right to use a trade mark given to the person under this Act; or (f) the court is of the opinion that the person would obtain registration of the trade mark in his or her name if the person were to apply for it; or (fa) both: (i) the person uses a trade mark that is substantially identical with, or deceptively similar to, the firstmentioned trade mark; and (ii) the court is of the opinion that the person would obtain registration of the substantially identical or deceptively similar trade mark in his or her name if the person were to apply for it; or (g) the person, in using a sign referred to in subsection 120(1), (2) or (3) in a manner referred to in that subsection, does not (because of a condition or limitation subject to which the trade mark is registered) infringe the exclusive right of the registered owner to use the trade mark. (2) In spite of section 120, if a disclaimer has been registered in respect of a part of a registered trade mark, a person does not infringe the trade mark by using that part of the trade mark.",
+  "title": "When is a trade mark not infringed?",
+  "units": [
+    {
+      "content_hash": "sha256:72656565068299548aab79259e1ce451db807938fd4c138b620a4f095d6faf5f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s122(1)",
+      "style": "subsection",
+      "text": "(1) In spite of section 120, a person does not infringe a registered trade mark when:"
+    },
+    {
+      "content_hash": "sha256:5f15e0137c8eaaa838b555b8344af9c4a712710158c1f225a289a241a0ba756a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person uses in good faith:"
+    },
+    {
+      "content_hash": "sha256:5a3bdc82415c27ad196b0ea5cdce71a57e399a9cca5dc8c564e29d83177e0921",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s122(1)(a)",
+      "ref": "TMA1995/s122(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the person’s name or the name of the person’s place of business; or"
+    },
+    {
+      "content_hash": "sha256:2f9b765b6bb3d9ac2e4589e81e8e76de7e7916b95f0287b6eb324f1f370a16ba",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s122(1)(a)",
+      "ref": "TMA1995/s122(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the name of a predecessor in business of the person or the name of the predecessor’s place of business; or"
+    },
+    {
+      "content_hash": "sha256:c7f3864e06a8a95c62082ae878188571597f1dc42d1a4c7880472ddac778ab5f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the person uses a sign in good faith to indicate:"
+    },
+    {
+      "content_hash": "sha256:bbaa212f6ba987e2098d4dd624953b5b6f4bca7c7388cfb30f271b0275554f82",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s122(1)(b)",
+      "ref": "TMA1995/s122(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the kind, quality, quantity, intended purpose, value, geographical origin, or some other characteristic, of goods or services; or"
+    },
+    {
+      "content_hash": "sha256:4f0a65589743497fd4d05b3c8182a1cf674cc9101f7144ba29ad6ef19ab58745",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s122(1)(b)",
+      "ref": "TMA1995/s122(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the time of production of goods or of the rendering of services; or"
+    },
+    {
+      "content_hash": "sha256:cd5a46f4dabb276cdbcd00b0e5cc2089cb0199c10855ca0580b4b8e58a1f85c3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the person uses the trade mark in good faith to indicate the intended purpose of goods (in particular as accessories or spare parts) or services; or"
+    },
+    {
+      "content_hash": "sha256:315ec366aa89ed9f155c776dd68d7317c010c4d96b2941a553aa04f9e1541bce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(d)",
+      "style": "paragraph",
+      "text": "(d) the person uses the trade mark for the purposes of comparative advertising; or"
+    },
+    {
+      "content_hash": "sha256:00e29c50dc50cf0d336ab481f16c3d427576842c4a4aa56f0fb24c7c3d7bce04",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(e)",
+      "style": "paragraph",
+      "text": "(e) the person exercises a right to use a trade mark given to the person under this Act; or"
+    },
+    {
+      "content_hash": "sha256:41c3719bd4ee7f96fd77a18470402faf9819e66615f16ddd67eadde515782db0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(f)",
+      "style": "paragraph",
+      "text": "(f) the court is of the opinion that the person would obtain registration of the trade mark in his or her name if the person were to apply for it; or"
+    },
+    {
+      "content_hash": "sha256:5acfdda74794ca79bf5ebf29513a855a6e2a6cd2ccc96bf1113d40975dc75dd0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(fa)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s122(1)",
+      "ref": "TMA1995/s122(1)(fa)",
+      "style": "paragraph",
+      "text": "(fa) both:"
+    },
+    {
+      "content_hash": "sha256:98723185c0983c3c414a28c0db247c5d29c236bfdfc0bdb5f0ae81ae13edbc7c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s122(1)(fa)",
+      "ref": "TMA1995/s122(1)(fa)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the person uses a trade mark that is substantially identical with, or deceptively similar to, the firstmentioned trade mark; and"
+    },
+    {
+      "content_hash": "sha256:bfd941e8a470a7dd33521a1d6b7a436d7c7f66d133c2f82685cbf20a1be7143d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s122(1)(fa)",
+      "ref": "TMA1995/s122(1)(fa)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the court is of the opinion that the person would obtain registration of the substantially identical or deceptively similar trade mark in his or her name if the person were to apply for it; or"
+    },
+    {
+      "content_hash": "sha256:ccf4062d33afd7ca2b3233f04412ad5898bf69587850b7a0f80963dfc1c4004c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s122(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120(1)",
+          "mention": "subsection 120(1)"
+        }
+      ],
+      "ref": "TMA1995/s122(1)(g)",
+      "style": "paragraph",
+      "text": "(g) the person, in using a sign referred to in subsection 120(1), (2) or (3) in a manner referred to in that subsection, does not (because of a condition or limitation subject to which the trade mark is registered) infringe the exclusive right of the registered owner to use the trade mark."
+    },
+    {
+      "content_hash": "sha256:fdfb3a190056813c9a43dd9c369beb74ea631e124040e8ec7676232da3762a71",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s122(2)",
+      "style": "subsection",
+      "text": "(2) In spite of section 120, if a disclaimer has been registered in respect of a part of a registered trade mark, a person does not infringe the trade mark by using that part of the trade mark."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv3"
+  ],
+  "content_hash": "sha256:62dbb2ad1e0a1dbbc2bc44e4b4fc6277bbf52acbd67ecd3160c0d2213e8b856c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 3—Amendment or cessation of protection by prescribed court",
+    "17A.46  Amendment or cessation may not be granted if holder not at fault etc"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.46",
+  "ref": "TMR1995/r17A.46",
+  "text": "(1) The court may decide not to grant an application made: (a) under regulation 17A.44; or (b) on the ground that the trade mark is liable to deceive or confuse (a ground referred to in paragraph 17A.45(2)(a)); or (c) on the ground referred to in paragraph 17A.45(2)(c); if the holder of the protected international trade mark satisfies the court that the ground relied on by the applicant has not arisen through an act or fault of the holder. (2) In making a decision under subregulation (1), the court: (a) must take into account the following matters, so far as they are relevant: (i) the extent to which the public interest will be affected if protection of the protected international trade mark is not ceased; (ii) whether any circumstances that gave rise to the application have ceased to exist; (iii) the extent to which the trade mark distinguished the relevant goods and services before the circumstances giving rise to the application arose; (iv) whether there is any order or other remedy, other than an order under regulation 17A.44 or 17A.45, that would be adequate in the circumstances; and (b) may take into account any other matter that the court considers relevant.",
+  "title": "Amendment or cessation may not be granted if holder not at fault etc",
+  "units": [
+    {
+      "content_hash": "sha256:f2b2c517075c71d16d072e18e9561e4777abfb1a2ae96248f9ed9c5c98bcc37b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.46(1)",
+      "style": "subsection",
+      "text": "(1) The court may decide not to grant an application made:"
+    },
+    {
+      "content_hash": "sha256:bf03f1639296f0a4a74f83db5ec8fa76bbfb1612c4acaf3a014746eb51707378",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.46(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.44",
+          "mention": "regulation 17A.44"
+        }
+      ],
+      "ref": "TMR1995/r17A.46(1)(a)",
+      "style": "paragraph",
+      "text": "(a) under regulation 17A.44; or"
+    },
+    {
+      "content_hash": "sha256:511faa6576dc1fd9bd482aa55602492c4d34cd7a505a41d8a266f22a7fc91e86",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.46(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.45(2)(a)",
+          "mention": "paragraph 17A.45(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r17A.46(1)(b)",
+      "style": "paragraph",
+      "text": "(b) on the ground that the trade mark is liable to deceive or confuse (a ground referred to in paragraph 17A.45(2)(a)); or"
+    },
+    {
+      "content_hash": "sha256:ae553630bdd312788dcaefed576c861921e16a36da8d9bc2bfd839cc21a1ce8e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.46(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.45(2)(c)",
+          "mention": "paragraph 17A.45(2)(c)"
+        }
+      ],
+      "ref": "TMR1995/r17A.46(1)(c)",
+      "style": "paragraph",
+      "text": "(c) on the ground referred to in paragraph 17A.45(2)(c);"
+    },
+    {
+      "content_hash": "sha256:083a848b4b498f9a4f0afd90a60d3a72d2afd0805d63f5f5d8d7013fdd5eb905",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.46~1",
+      "style": "subsection2",
+      "text": "if the holder of the protected international trade mark satisfies the court that the ground relied on by the applicant has not arisen through an act or fault of the holder."
+    },
+    {
+      "content_hash": "sha256:cf964a5095bd31c51e1edeaf0e5a7c0fab22ae13ad81b607ccbe46d3f2bbb82b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.46(2)",
+      "style": "subsection",
+      "text": "(2) In making a decision under subregulation (1), the court:"
+    },
+    {
+      "content_hash": "sha256:fe34d23ab438c15046df17183459131c8328a6992cc3cebefdc457aeebddb1a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.46(2)",
+      "ref": "TMR1995/r17A.46(2)(a)",
+      "style": "paragraph",
+      "text": "(a) must take into account the following matters, so far as they are relevant:"
+    },
+    {
+      "content_hash": "sha256:5a01f9ad9fac270440964443b0342f6b8b4290ae309dbb7a1c4111ca2928bd0b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.46(2)(a)",
+      "ref": "TMR1995/r17A.46(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the extent to which the public interest will be affected if protection of the protected international trade mark is not ceased;"
+    },
+    {
+      "content_hash": "sha256:0ae456ca42352ea7d91cfa8638105ac5cdc7b0c1b90ba6f5997ba046703568b7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.46(2)(a)",
+      "ref": "TMR1995/r17A.46(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) whether any circumstances that gave rise to the application have ceased to exist;"
+    },
+    {
+      "content_hash": "sha256:a75fc0f3bf413d1612ac88061b17a6aeb55a9499d41832e293cdcf3d277aa39f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.46(2)(a)",
+      "ref": "TMR1995/r17A.46(2)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the extent to which the trade mark distinguished the relevant goods and services before the circumstances giving rise to the application arose;"
+    },
+    {
+      "content_hash": "sha256:29288ee75c82938fef813e55db33c18df93625c23b4eb98684ec762448505d48",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.46(2)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.44",
+          "mention": "regulation 17A.44 or 17A.45"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.45",
+          "mention": "regulation 17A.44 or 17A.45"
+        }
+      ],
+      "ref": "TMR1995/r17A.46(2)(a)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) whether there is any order or other remedy, other than an order under regulation 17A.44 or 17A.45, that would be adequate in the circumstances; and"
+    },
+    {
+      "content_hash": "sha256:ef91b46172513356748a6e1c54b12ec79f494b9d5a3e33602a4879e0cb6289a5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.46(2)",
+      "ref": "TMR1995/r17A.46(2)(b)",
+      "style": "paragraph",
+      "text": "(b) may take into account any other matter that the court considers relevant."
+    }
+  ]
+}

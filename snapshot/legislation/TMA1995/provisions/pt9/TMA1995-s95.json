@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:4cc05e8f6137c4846521d114c73e8f966554a8315fd23852c5a965249a7ed1ff",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "95  Notification of application"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "95",
+  "ref": "TMA1995/s95",
+  "text": "(1) If an application has been made to the Registrar under section 92, the Registrar must give a copy of the application in accordance with the regulations. (2) If the application is in respect of a trade mark already entered on the Register, the Registrar must publish the application in accordance with the regulations. (3) If the application is in respect of a trade mark whose registration is being sought, the Registrar is to publish the application in accordance with the regulations only if the trade mark is registered.",
+  "title": "Notification of application",
+  "units": [
+    {
+      "content_hash": "sha256:7c592466813bba097a2a3e38bcf2434bb493d2e278ee14cffd84444ff2466ab4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92",
+          "mention": "section 92"
+        }
+      ],
+      "ref": "TMA1995/s95(1)",
+      "style": "subsection",
+      "text": "(1) If an application has been made to the Registrar under section 92, the Registrar must give a copy of the application in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:833c27b32487d55b81b1bec1a9955c784f0d4b963c4f8fbc8e6827833569e78c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s95(2)",
+      "style": "subsection",
+      "text": "(2) If the application is in respect of a trade mark already entered on the Register, the Registrar must publish the application in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:7e5b02df32f4f011a5c2879f6767dd8f21848e34d761ce263ea6abcf47a56390",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s95(3)",
+      "style": "subsection",
+      "text": "(3) If the application is in respect of a trade mark whose registration is being sought, the Registrar is to publish the application in accordance with the regulations only if the trade mark is registered."
+    }
+  ]
+}

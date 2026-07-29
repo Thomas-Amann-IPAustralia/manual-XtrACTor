@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:10a7d14015f9cfa1590af442f587ffa9f455d312221cd08f532bb31658683ff6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "19  Certain trade marks may be registered"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "19",
+  "ref": "TMA1995/s19",
+  "text": "(1) A trade mark may be registered in accordance with this Act in respect of: (a) goods; or (b) services; or (c) both goods and services. (2) The registration of a trade mark may be in respect of goods or services of more than one class. Note: See subsection (3) for division into classes. (3) The regulations may provide for the classes into which goods and services are to be divided for the purposes of this Act.",
+  "title": "Certain trade marks may be registered",
+  "units": [
+    {
+      "content_hash": "sha256:8172881693dca61e6ff3a61fa92780d3175823d42855b61a53ee1f48b826359a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s19(1)",
+      "style": "subsection",
+      "text": "(1) A trade mark may be registered in accordance with this Act in respect of:"
+    },
+    {
+      "content_hash": "sha256:22e8b5d9c41884318d94606ce458b8c490a44e621dcfe8e02e8434849af02c07",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s19(1)",
+      "ref": "TMA1995/s19(1)(a)",
+      "style": "paragraph",
+      "text": "(a) goods; or"
+    },
+    {
+      "content_hash": "sha256:96aa7cbaeba6a97be49cd2b216b75856093ae0c6624ac66dd306a2cc4c1e38bb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s19(1)",
+      "ref": "TMA1995/s19(1)(b)",
+      "style": "paragraph",
+      "text": "(b) services; or"
+    },
+    {
+      "content_hash": "sha256:bb59a6068fbb28b6b0eae389c3ac848d3d3fe97a6a208471206c36231f383649",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s19(1)",
+      "ref": "TMA1995/s19(1)(c)",
+      "style": "paragraph",
+      "text": "(c) both goods and services."
+    },
+    {
+      "content_hash": "sha256:b2b215091f3eb5b39952a39cc013bd20424c53c68315108154b77d4cfc4c269b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s19(2)",
+      "style": "subsection",
+      "text": "(2) The registration of a trade mark may be in respect of goods or services of more than one class."
+    },
+    {
+      "content_hash": "sha256:55e2f076f3dafc2f8e8ba96036a4f35253776c6ae277b2a630768bac58f7efb3",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s19(2)",
+      "ref": "TMA1995/s19(2)~1",
+      "style": "notetext",
+      "text": "Note: See subsection (3) for division into classes."
+    },
+    {
+      "content_hash": "sha256:cbac450602bbe9fc86c7883da4dfd03672f8d70e68283a0726eab807c2e36d00",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s19(3)",
+      "style": "subsection",
+      "text": "(3) The regulations may provide for the classes into which goods and services are to be divided for the purposes of this Act."
+    }
+  ]
+}

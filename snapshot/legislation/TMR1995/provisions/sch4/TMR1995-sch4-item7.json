@@ -1,0 +1,184 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/sch4"
+  ],
+  "content_hash": "sha256:7453f9ae452dd95323beec86c89717e44d45ed9e90002c4b2fef6caee0a6cfe9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 4—Modifications of Part 13 of the Act (Christmas Island)",
+    "7  Further amendments—Territory of Christmas Island"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "7",
+  "ref": "TMR1995/sch4/item7",
+  "text": "The following provisions are amended by omitting each mention of “Commonwealth” and inserting “Territory of Christmas Island”: (a) section 133; (b) subsection 134(5); (c) section 135; (d) subsection 136A(1); (e) section 136E; (f) paragraph 137(3)(b); (g) section 139, including the heading; (h) section 142, including the heading.",
+  "title": "Further amendments—Territory of Christmas Island",
+  "units": [
+    {
+      "content_hash": "sha256:5a7f855c4d5b670b50050b7c069e90ffc738bfd4f9ef298fc3d352fca76cf269",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/sch4/item7~1",
+      "style": "subsection",
+      "text": "The following provisions are amended by omitting each mention of “Commonwealth” and inserting “Territory of Christmas Island”:"
+    },
+    {
+      "content_hash": "sha256:2c33ff0fc164eaa105f6640aa15a27e1352c1b500f85f16a244a2cf1396392ce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s133",
+          "mention": "section 133"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(a)",
+      "style": "paragraph",
+      "text": "(a) section 133;"
+    },
+    {
+      "content_hash": "sha256:42aa427149ab9983ae2eb2454d17c50a96d12bf9ca19dfc59c55166d8ce7e8c2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s134(5)",
+          "mention": "subsection 134(5)"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(b)",
+      "style": "paragraph",
+      "text": "(b) subsection 134(5);"
+    },
+    {
+      "content_hash": "sha256:681b8966129ec22e1e24fa715ca3ba113a9e2d90a0845faf2e5de0adc050d780",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s135",
+          "mention": "section 135"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(c)",
+      "style": "paragraph",
+      "text": "(c) section 135;"
+    },
+    {
+      "content_hash": "sha256:9f77fae3e1d4a10e9885667e2a8fbf12ed63c8b6acaeed19c1ef21080a6ae984",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136A(1)",
+          "mention": "subsection 136A(1)"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(d)",
+      "style": "paragraph",
+      "text": "(d) subsection 136A(1);"
+    },
+    {
+      "content_hash": "sha256:2f8061c5884f366fdf194a4cb3054ae23e3673759656045ce042b96c75240b09",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136E",
+          "mention": "section 136E"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(e)",
+      "style": "paragraph",
+      "text": "(e) section 136E;"
+    },
+    {
+      "content_hash": "sha256:f7a28ac8614999ada3ac95cc246b01402e7511a441765a03a4217acc3750e780",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s137(3)(b)",
+          "mention": "paragraph 137(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(f)",
+      "style": "paragraph",
+      "text": "(f) paragraph 137(3)(b);"
+    },
+    {
+      "content_hash": "sha256:1d5546893fdadd60a47cca976217a65fa1ee9ef0344dac056c903edf32809570",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s139",
+          "mention": "section 139"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(g)",
+      "style": "paragraph",
+      "text": "(g) section 139, including the heading;"
+    },
+    {
+      "content_hash": "sha256:a79807310038b7ad2d6afee3f5a2e5740170f1580e07d650548685e8e32407e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(h)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/sch4/item7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s142",
+          "mention": "section 142"
+        }
+      ],
+      "ref": "TMR1995/sch4/item7~1(h)",
+      "style": "paragraph",
+      "text": "(h) section 142, including the heading."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div4"
+  ],
+  "content_hash": "sha256:ea94d27a6d76d264490cdbca3491321e2b9dd9410d74908c7dabb82c05a3b017",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 4—Protected international trade marks—rights and protection",
+    "17A.40  Circumstances in which action may not be brought"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.40",
+  "ref": "TMR1995/r17A.40",
+  "text": "If the international registration of a trade mark is renewed within 6 months after it has expired, an action may not be brought in respect of an act that: (a) infringed the trade mark; and (b) was done after the international registration had expired and before it was renewed. Note: Article 7(4) of the Protocol provides for a 6month period of grace for renewal of international registration.",
+  "title": "Circumstances in which action may not be brought",
+  "units": [
+    {
+      "content_hash": "sha256:676197b07c37732ccfec599a88a460790070338ba58c97a0b1db7b3fa25c1a5f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.40~1",
+      "style": "subsection",
+      "text": "If the international registration of a trade mark is renewed within 6 months after it has expired, an action may not be brought in respect of an act that:"
+    },
+    {
+      "content_hash": "sha256:a1994399604248a6aae9ac9397352a040bf4a22dd33808713a0538e88e291219",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.40~1",
+      "ref": "TMR1995/r17A.40~1(a)",
+      "style": "paragraph",
+      "text": "(a) infringed the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:dfd71992af9a91b58389fad4be0c74b04b3c87443f1b445a34c01ed92357c894",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.40~1",
+      "ref": "TMR1995/r17A.40~1(b)",
+      "style": "paragraph",
+      "text": "(b) was done after the international registration had expired and before it was renewed."
+    },
+    {
+      "content_hash": "sha256:f033cd9508d1774ec0c85da7cc27eaa64cfda22aa597f516e5a5aa41bbe13920",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.40~1(b)",
+      "ref": "TMR1995/r17A.40~1(b)~1",
+      "style": "notetext",
+      "text": "Note: Article 7(4) of the Protocol provides for a 6month period of grace for renewal of international registration."
+    }
+  ]
+}

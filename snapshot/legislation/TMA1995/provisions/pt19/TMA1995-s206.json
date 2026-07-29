@@ -1,0 +1,119 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt19"
+  ],
+  "content_hash": "sha256:a5acda8710abb1866aa218fa05e78334953df7ea0eb8a808c05aae80f452f168",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 19—Administration",
+    "206  Delegation of Registrar’s powers and functions"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "206",
+  "ref": "TMA1995/s206",
+  "text": "(1) The Registrar may by signed instrument delegate all or any of his or her powers or functions to a prescribed employee, or employees in a prescribed class. Note 1: For employee see section 6. Note 2: See section 34AB of the Acts Interpretation Act 1901 about the effect of this subsection. (2) A delegate must, if so required by the instrument of delegation, exercise or perform a delegated power or function under the direction or supervision of: (a) the Registrar; or (b) a person specified in the instrument, being a person referred to in subsection (1).",
+  "title": "Delegation of Registrar’s powers and functions",
+  "units": [
+    {
+      "content_hash": "sha256:9f9a46601515884db48c981586d416d078545317f6a3257de9e6afd13d23ab40",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s206(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may by signed instrument delegate all or any of his or her powers or functions to a prescribed employee, or employees in a prescribed class."
+    },
+    {
+      "content_hash": "sha256:59347de7432116dad7a2ab6a12e2253764f26f0eaf42f32d09060c7e240c4b4f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 12,
+          "text": "employee",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s206(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s206(1)~1",
+      "style": "notetext",
+      "text": "Note 1: For employee see section 6."
+    },
+    {
+      "content_hash": "sha256:a413996cdaa022dd4244f091720d8a2b2e2f6148c8f2cfa17c73ba7492a91bd3",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 60,
+          "start": 32,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s206(1)",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s34A",
+          "mention": "section 34AB of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s206(1)~2",
+      "style": "notetext",
+      "text": "Note 2: See section 34AB of the Acts Interpretation Act 1901 about the effect of this subsection."
+    },
+    {
+      "content_hash": "sha256:dda76e14d00e5c7067241ea35a191c1354bb113daab6b439ccae21efd235b860",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s206(2)",
+      "style": "subsection",
+      "text": "(2) A delegate must, if so required by the instrument of delegation, exercise or perform a delegated power or function under the direction or supervision of:"
+    },
+    {
+      "content_hash": "sha256:34a2f862124be116566e51455c60206e63fa4a6f058a4364a26644a0f67245a3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s206(2)",
+      "ref": "TMA1995/s206(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar; or"
+    },
+    {
+      "content_hash": "sha256:148fb706c370d6e9e2c741cd9989720d7dc8df9df87be0143e33b8105f2ce193",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s206(2)",
+      "ref": "TMA1995/s206(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a person specified in the instrument, being a person referred to in subsection (1)."
+    }
+  ]
+}

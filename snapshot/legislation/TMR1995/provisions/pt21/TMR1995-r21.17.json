@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div2"
+  ],
+  "content_hash": "sha256:7193ad94b8a078b8218359cf84366691a4aedec7c488602fb232e6744aceda0e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 2—Proceedings before the Registrar",
+    "21.17  Giving of oral evidence"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.17",
+  "ref": "TMR1995/r21.17",
+  "text": "(2) The Registrar may require a person who has made a declaration that is filed in any proceedings before the Registrar to attend before the Registrar to give evidence orally on oath or affirmation instead of, or in addition to, the evidence contained in the declaration. (3) The Registrar may permit a party to crossexamine a person who attends under subregulation (2). Note: Regulations 21.6 and 21.7 deal with making and filing declarations.",
+  "title": "Giving of oral evidence",
+  "units": [
+    {
+      "content_hash": "sha256:b4f7cb3d02a907992b87626092847582d140218c129351720507a6025d9e5723",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.17(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may require a person who has made a declaration that is filed in any proceedings before the Registrar to attend before the Registrar to give evidence orally on oath or affirmation instead of, or in addition to, the evidence contained in the declaration."
+    },
+    {
+      "content_hash": "sha256:443df5d79bdf76441916427a92ddae3521262198ccb04f82c7e88d8d2694418f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.17(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may permit a party to crossexamine a person who attends under subregulation (2)."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.17(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r21.17(3)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    }
+  ]
+}

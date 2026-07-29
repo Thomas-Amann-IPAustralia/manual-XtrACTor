@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div2"
+  ],
+  "content_hash": "sha256:c87916ddfbcb1aceba8ddbc439d09d451044b86ae487d7941a3074610b448f08",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 2—Amendments made by particular instruments",
+    "22.12  Amendments made by the Intellectual Property Legislation Amendment (Fee Review) Regulation 2016"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.12",
+  "ref": "TMR1995/r22.12",
+  "text": "Despite the repeal of item 9 of Schedule 9 by Part 4 of Schedule 1 to the Intellectual Property Legislation Amendment (Fee Review) Regulation 2016 (the amending Regulation), that item continues to apply in relation to the registration of a trade mark of a kind mentioned in that item if the application for registration was filed before the commencement of the amending Regulation.",
+  "title": "Amendments made by the Intellectual Property Legislation Amendment (Fee Review) Regulation 2016",
+  "units": [
+    {
+      "content_hash": "sha256:c87916ddfbcb1aceba8ddbc439d09d451044b86ae487d7941a3074610b448f08",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 141,
+          "start": 74,
+          "text": "Intellectual Property Legislation Amendment (Fee Review) Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 146,
+          "start": 142,
+          "text": "2016",
+          "weight": "italic"
+        },
+        {
+          "end": 171,
+          "start": 152,
+          "text": "amending Regulation",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2016",
+          "mention": "Regulation 2016"
+        }
+      ],
+      "ref": "TMR1995/r22.12~1",
+      "style": "subsection",
+      "text": "Despite the repeal of item 9 of Schedule 9 by Part 4 of Schedule 1 to the Intellectual Property Legislation Amendment (Fee Review) Regulation 2016 (the amending Regulation), that item continues to apply in relation to the registration of a trade mark of a kind mentioned in that item if the application for registration was filed before the commencement of the amending Regulation."
+    }
+  ]
+}

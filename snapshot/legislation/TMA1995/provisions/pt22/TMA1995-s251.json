@@ -1,0 +1,110 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:e3dce7521d209224b2a2b31923902e9fd77743fec6502c8d8232d4b6e9749b19",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "251  Action for removal of trade mark from Register for nonuse"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "251",
+  "ref": "TMA1995/s251",
+  "text": "If proceedings arising from an application to the Registrar or a court under section 23 (Provisions as to nonuse of trade mark) of the repealed Act were pending immediately before 1 January 1996, the repealed Act continues to apply: (a) in relation to those proceedings; and (b) for the purposes of any appeal from an order or direction of the Registrar or the court under that section; as if the reference in subsection 23(1) to the Register were a reference to the Register within the meaning of this Act. Note: For pending see subsection 11(2).",
+  "title": "Action for removal of trade mark from Register for nonuse",
+  "units": [
+    {
+      "content_hash": "sha256:7b211176f9a22a2c0562a97ea7530c6da1f87cc7639b26a5b048a7035d41d94e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s23",
+          "mention": "section 23"
+        }
+      ],
+      "ref": "TMA1995/s251~1",
+      "style": "subsection",
+      "text": "If proceedings arising from an application to the Registrar or a court under section 23 (Provisions as to nonuse of trade mark) of the repealed Act were pending immediately before 1 January 1996, the repealed Act continues to apply:"
+    },
+    {
+      "content_hash": "sha256:726e9ea2ba551055eec2d0905783058d101541a2ed067a95e0943b8fb0547d28",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s251~1",
+      "ref": "TMA1995/s251~1(a)",
+      "style": "paragraph",
+      "text": "(a) in relation to those proceedings; and"
+    },
+    {
+      "content_hash": "sha256:eec9f5be3a0e2357b2a776920a0e47839a0d29c23652f76b332fd9ad66e0f3be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s251~1",
+      "ref": "TMA1995/s251~1(b)",
+      "style": "paragraph",
+      "text": "(b) for the purposes of any appeal from an order or direction of the Registrar or the court under that section;"
+    },
+    {
+      "content_hash": "sha256:4380d269310148ff6577d982defa3bfd70018a1129af955302e3810f6db6d48a",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s23(1)",
+          "mention": "subsection 23(1)"
+        }
+      ],
+      "ref": "TMA1995/s251~2",
+      "style": "subsection2",
+      "text": "as if the reference in subsection 23(1) to the Register were a reference to the Register within the meaning of this Act."
+    },
+    {
+      "content_hash": "sha256:32ae5b463db2655403c087cf9f9ce32ba7d7113d90b4be7fd4341e9c4b40dd8f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s251~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s251~2~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(2)."
+    }
+  ]
+}

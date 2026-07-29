@@ -1,0 +1,224 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:75baeaa4d17f0c3cb1628faf81e83822d85b894b16e8e6f1c0a4af9eec33602f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.12  Periods after which applications lapse"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.12",
+  "ref": "TMR1995/r4.12",
+  "text": "(1) For the purposes of subsection 37(1) of the Act (which deals with lapsing), the prescribed period, for an application in respect of which a report is made under regulation 4.8, is: (a) except as provided by paragraph (b)—15 months from the date of that report (whether or not a further report is made under regulation 4.10); or (b) if a further report raises grounds under Division 2 of Part 4 of the Act for rejecting the application that were not raised in the report made under regulation 4.8—15 months from the date of the further report. (2) In determining the period of 15 months for the purposes of paragraph (1)(a) or (b) in relation to an application, no account is to be taken of a period in which acceptance of the application is deferred under regulation 4.13. (3) An applicant may, before the end of a period prescribed in subregulation (1), or that period as extended under section 224 of the Act or as a result of a previous application of subregulation (4), request the Registrar in writing to extend the period. (4) The Registrar must, in accordance with a request made under subregulation (3), extend a period, unless: (a) the period; or (b) that period as extended under section 224 of the Act or as a result of a previous application of this subregulation; would be extended for more than 6 months after the end of the relevant period prescribed in subregulation (1). Note 1: If an extension of the time for acceptance of an application is sought after the end of a prescribed period, or of an extended period mentioned in subregulation 4.12(3), application must be made under section 224 of the Act. Note 2: If a period prescribed in subregulation 4.12(1) has been extended by 6 months, any application for a further extension of time must be made under section 224 of the Act.",
+  "title": "Periods after which applications lapse",
+  "units": [
+    {
+      "content_hash": "sha256:bf27d8157d4b05b05818e9f16532728f9d7adee114bcf613c9f77f30516c67e0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s37(1)",
+          "mention": "subsection 37(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "regulation 4.8"
+        }
+      ],
+      "ref": "TMR1995/r4.12(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 37(1) of the Act (which deals with lapsing), the prescribed period, for an application in respect of which a report is made under regulation 4.8, is:"
+    },
+    {
+      "content_hash": "sha256:601e5c66c66d459160e3ae8955cc6e66b37039b69c7695f379e70205f3b99172",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.12(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.10",
+          "mention": "regulation 4.10"
+        }
+      ],
+      "ref": "TMR1995/r4.12(1)(a)",
+      "style": "paragraph",
+      "text": "(a) except as provided by paragraph (b)—15 months from the date of that report (whether or not a further report is made under regulation 4.10); or"
+    },
+    {
+      "content_hash": "sha256:1d8bec7370425e2c62a3f6e7e00152183663534a3b55d8c3bae5f325224e9c91",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.12(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "regulation 4.8"
+        }
+      ],
+      "ref": "TMR1995/r4.12(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if a further report raises grounds under Division 2 of Part 4 of the Act for rejecting the application that were not raised in the report made under regulation 4.8—15 months from the date of the further report."
+    },
+    {
+      "content_hash": "sha256:237e2fc1b2407c26d64979ec605983b49fa48e1f8d7c3ddb8a4778da191ee5e5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.13",
+          "mention": "regulation 4.13"
+        }
+      ],
+      "ref": "TMR1995/r4.12(2)",
+      "style": "subsection",
+      "text": "(2) In determining the period of 15 months for the purposes of paragraph (1)(a) or (b) in relation to an application, no account is to be taken of a period in which acceptance of the application is deferred under regulation 4.13."
+    },
+    {
+      "content_hash": "sha256:f5d1ed4e48d39e28f032d7fcccbe5f6a06fa2b73ca84f7931a230d5bd1b3ee3c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r4.12(3)",
+      "style": "subsection",
+      "text": "(3) An applicant may, before the end of a period prescribed in subregulation (1), or that period as extended under section 224 of the Act or as a result of a previous application of subregulation (4), request the Registrar in writing to extend the period."
+    },
+    {
+      "content_hash": "sha256:93bb62558cb0aebc8f7abb098194e2b8117a057280e0499e3e7b24e268f34380",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.12(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must, in accordance with a request made under subregulation (3), extend a period, unless:"
+    },
+    {
+      "content_hash": "sha256:fcab08d81d7601106d3c42348971c222a1a7bc66b797ed33e67c9d36c556637c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.12(4)",
+      "ref": "TMR1995/r4.12(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the period; or"
+    },
+    {
+      "content_hash": "sha256:d2319a1fb8263e5332e27e4fad659a129261e5352abb4e7aebce921956aeaec5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r4.12(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r4.12(4)(b)",
+      "style": "paragraph",
+      "text": "(b) that period as extended under section 224 of the Act or as a result of a previous application of this subregulation;"
+    },
+    {
+      "content_hash": "sha256:61c78528728dfc13c93c66af5352a476e030a3a94f763e87d11854698419ca37",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.12~1",
+      "style": "subsection2",
+      "text": "would be extended for more than 6 months after the end of the relevant period prescribed in subregulation (1)."
+    },
+    {
+      "content_hash": "sha256:d14a8a048fabf70e7f78c2a9c2b8a513ce05b6e26ea6b0eac001a907fccd955c",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r4.12~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12(3)",
+          "mention": "subregulation 4.12(3)"
+        }
+      ],
+      "ref": "TMR1995/r4.12~1~1",
+      "style": "notetext",
+      "text": "Note 1: If an extension of the time for acceptance of an application is sought after the end of a prescribed period, or of an extended period mentioned in subregulation 4.12(3), application must be made under section 224 of the Act."
+    },
+    {
+      "content_hash": "sha256:5d17e5405e62ce5556395a0287aa7cf7215c7964ebf3f277b06bcf78b665b2f8",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r4.12~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12(1)",
+          "mention": "subregulation 4.12(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.12~1~2",
+      "style": "notetext",
+      "text": "Note 2: If a period prescribed in subregulation 4.12(1) has been extended by 6 months, any application for a further extension of time must be made under section 224 of the Act."
+    }
+  ]
+}

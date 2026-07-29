@@ -1,0 +1,154 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:ab15eeed27e32f1a5c2c16bc436a0bbc14abea13cea62ed719573f45ea2ebffd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.18  Examination—further report to holder"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.18",
+  "ref": "TMR1995/r17A.18",
+  "text": "(1) If the holder has complied with subregulation 17A.17(3), the Registrar must: (a) consider the holder’s response; and (b) if the holder requests a hearing, give the holder an opportunity to be heard. (2) If, after considering the response and (if a hearing is requested) the submissions to the hearing, the Registrar continues to believe that: (a) the IRDA is not in accordance with this Division; or (b) there are grounds under Subdivision 2 for rejecting it in whole or in part; the Registrar must report that belief by notification to the holder. (3) Unless the acceptance of an IRDA is deferred under regulation 17A.21, a report under subregulation (2) about the IRDA must specify the date by which the Registrar must notify his or her final decision on examination to the International Bureau. (4) Regulation 17A.17 and this regulation apply to a report under subregulation (2) as if it were a report under regulation 17A.16.",
+  "title": "Examination—further report to holder",
+  "units": [
+    {
+      "content_hash": "sha256:6e90550960e44868dc03dd0dc0917f816ddbc189f290e83c7d0b6ffff0cd215e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.17(3)",
+          "mention": "subregulation 17A.17(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.18(1)",
+      "style": "subsection",
+      "text": "(1) If the holder has complied with subregulation 17A.17(3), the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:7d45421ed859fcda03f4d0699fa11e85cac42ff56fae595a4478c201d370c385",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.18(1)",
+      "ref": "TMR1995/r17A.18(1)(a)",
+      "style": "paragraph",
+      "text": "(a) consider the holder’s response; and"
+    },
+    {
+      "content_hash": "sha256:ae0ed8d92df48b8090e49eca348db37b0dc0a26af3b049166e76dccae02c875f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.18(1)",
+      "ref": "TMR1995/r17A.18(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the holder requests a hearing, give the holder an opportunity to be heard."
+    },
+    {
+      "content_hash": "sha256:ae2cc9fe3ec2ae0d3ac624a958e3efafd2c7bf1cf4d90e252445027e55dd14c2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.18(2)",
+      "style": "subsection",
+      "text": "(2) If, after considering the response and (if a hearing is requested) the submissions to the hearing, the Registrar continues to believe that:"
+    },
+    {
+      "content_hash": "sha256:4a5a718c03e70d406893b5aaaad6795c561217bbadb57efbc04924f83d273d9d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.18(2)",
+      "ref": "TMR1995/r17A.18(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the IRDA is not in accordance with this Division; or"
+    },
+    {
+      "content_hash": "sha256:ab2f1c985434247162ba4c0e5e3882ef06317d2f06a1554b68e10944f8183541",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.18(2)",
+      "ref": "TMR1995/r17A.18(2)(b)",
+      "style": "paragraph",
+      "text": "(b) there are grounds under Subdivision 2 for rejecting it in whole or in part;"
+    },
+    {
+      "content_hash": "sha256:dfe26593e852f79ef8a24f83edb48302cee639993f2dcc0e29943f6bc49eb44a",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.18~1",
+      "style": "subsection2",
+      "text": "the Registrar must report that belief by notification to the holder."
+    },
+    {
+      "content_hash": "sha256:68de2bc7831959b1cb9f68b829541d774b41a23b6df9e9fc81f22a489138eb2d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21",
+          "mention": "regulation 17A.21"
+        }
+      ],
+      "ref": "TMR1995/r17A.18(3)",
+      "style": "subsection",
+      "text": "(3) Unless the acceptance of an IRDA is deferred under regulation 17A.21, a report under subregulation (2) about the IRDA must specify the date by which the Registrar must notify his or her final decision on examination to the International Bureau."
+    },
+    {
+      "content_hash": "sha256:75568a1bb0dedb81536099e73138f1146ea1de85e64806074728c3a4752c0ca6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16",
+          "mention": "regulation 17A.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.17",
+          "mention": "Regulation 17A.17"
+        }
+      ],
+      "ref": "TMR1995/r17A.18(4)",
+      "style": "subsection",
+      "text": "(4) Regulation 17A.17 and this regulation apply to a report under subregulation (2) as if it were a report under regulation 17A.16."
+    }
+  ]
+}

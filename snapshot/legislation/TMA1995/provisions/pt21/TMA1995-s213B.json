@@ -1,0 +1,105 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:8323e4b3acaf6d50a063ce0f2ab18dd46de79429abc434c2ecf9e2ac840cad1f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "213B  Directions by Registrar for filing of documents"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "213B",
+  "ref": "TMA1995/s213B",
+  "text": "(1) The Registrar may, by writing, give a direction specifying the form in which a document is to be filed under this Act. Note 1: A reference to this Act includes the regulations (see section 6). Note 2: See also paragraph 231(2)(ba) (about regulations). (2) Subsection (1) does not apply in relation to a document that is required to be in an approved form. (3) The Registrar must publish the direction in accordance with the regulations. (4) A direction under subsection (1) is not a legislative instrument.",
+  "title": "Directions by Registrar for filing of documents",
+  "units": [
+    {
+      "content_hash": "sha256:42331d55abbc4c92be9e17b076bea2856f18618c425dad3008fe377bfeb98f87",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s213B(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, by writing, give a direction specifying the form in which a document is to be filed under this Act."
+    },
+    {
+      "content_hash": "sha256:7a96c00dc64a3048c16fadb10ba1eb85956f25940970652c7a553134ee111d32",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s213B(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s213B(1)~1",
+      "style": "notetext",
+      "text": "Note 1: A reference to this Act includes the regulations (see section 6)."
+    },
+    {
+      "content_hash": "sha256:08527d5343184fb15d64fb670cc5773e237ac27acb013e5505648456faeaf923",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s213B(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s231(2)(ba)",
+          "mention": "paragraph 231(2)(ba)"
+        }
+      ],
+      "ref": "TMA1995/s213B(1)~2",
+      "style": "notetext",
+      "text": "Note 2: See also paragraph 231(2)(ba) (about regulations)."
+    },
+    {
+      "content_hash": "sha256:957a1f4bf33859f6ab7d62d83e2d2758d7f775203b5372175095138904bc738d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s213B(2)",
+      "style": "subsection",
+      "text": "(2) Subsection (1) does not apply in relation to a document that is required to be in an approved form."
+    },
+    {
+      "content_hash": "sha256:432051f6e755f34eba9b8e578545e264d040b06c5a4c714346fab56db8b82a11",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s213B(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must publish the direction in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:7ca430c6fe98d4916baf7c44e562b575cafb543fc039b35a7f442d07ba674a30",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s213B(4)",
+      "style": "subsection",
+      "text": "(4) A direction under subsection (1) is not a legislative instrument."
+    }
+  ]
+}

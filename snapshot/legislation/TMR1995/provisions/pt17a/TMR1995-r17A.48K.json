@@ -1,0 +1,200 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:23a8a62948fc3888e3d0c01f2b0ebf05d184a69b5a0533896150e49593273a28",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48K  Statement of grounds and particulars must be adequate"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48K",
+  "ref": "TMR1995/r17A.48K",
+  "text": "(1) The Registrar must assess the adequacy of a statement of grounds and particulars filed under regulation 17A.48J. (2) If the Registrar decides that the statement is adequate, the Registrar must give a copy of the statement to the applicant. (3) If the Registrar decides that the statement is inadequate, the Registrar may: (a) direct the opponent to rectify the inadequacy by filing more information on the basis for the opposition to the cessation of protection; or (b) dismiss the opposition. (4) If the Registrar decides that the information filed under paragraph (3)(a) rectifies the inadequacy of the statement, the Registrar must give a copy of the statement and the information to the applicant. (5) For subsection 99A(1) of the Act, the Registrar may dismiss the opposition if: (a) the Registrar decides that the statement is inadequate; or (b) the Registrar has directed the opponent to file information under paragraph (3)(a) and: (i) the opponent fails to file the information; or (ii) the Registrar decides that the information filed does not rectify the inadequacy of the statement. (6) Regulation 17A.48B does not apply to this regulation. Note: For review rights in relation to a decision by the Registrar to dismiss an opposition, see subsection 99A(2) of the Act.",
+  "title": "Statement of grounds and particulars must be adequate",
+  "units": [
+    {
+      "content_hash": "sha256:1447bc97ed5e5306a9e0c545fb80d52ad900171fcf04e7a6b417c0cca598081a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48J",
+          "mention": "regulation 17A.48J"
+        }
+      ],
+      "ref": "TMR1995/r17A.48K(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must assess the adequacy of a statement of grounds and particulars filed under regulation 17A.48J."
+    },
+    {
+      "content_hash": "sha256:3db5ca4e556e08658d6de26d9cb49467220e67019f4a32d794fe07cabdfce001",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48K(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar decides that the statement is adequate, the Registrar must give a copy of the statement to the applicant."
+    },
+    {
+      "content_hash": "sha256:5f128e8608439a622d5d3bb496c9165464be2573cf09d12a38d04769c0390553",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48K(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar decides that the statement is inadequate, the Registrar may:"
+    },
+    {
+      "content_hash": "sha256:5fd0a65bcd60aafd44099f5730c02abf51ff77426f6cb7e8202cdde36dfc3266",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.48K(3)",
+      "ref": "TMR1995/r17A.48K(3)(a)",
+      "style": "paragraph",
+      "text": "(a) direct the opponent to rectify the inadequacy by filing more information on the basis for the opposition to the cessation of protection; or"
+    },
+    {
+      "content_hash": "sha256:600cd105419f6cf015cccc19b26db208f39215cb409d2527b7672809bc619d41",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.48K(3)",
+      "ref": "TMR1995/r17A.48K(3)(b)",
+      "style": "paragraph",
+      "text": "(b) dismiss the opposition."
+    },
+    {
+      "content_hash": "sha256:9bc773052285a2e3c4e6aa440534c2ba7ed45760eae97a7e5f0cfb59e3b32c46",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48K(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar decides that the information filed under paragraph (3)(a) rectifies the inadequacy of the statement, the Registrar must give a copy of the statement and the information to the applicant."
+    },
+    {
+      "content_hash": "sha256:176e412bbae2825c2444efc50f5cce54530eaa981da6e36e1a52911d2a151118",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s99A(1)",
+          "mention": "subsection 99A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48K(5)",
+      "style": "subsection",
+      "text": "(5) For subsection 99A(1) of the Act, the Registrar may dismiss the opposition if:"
+    },
+    {
+      "content_hash": "sha256:2773906f46da183fcdd826ee667ff928bd67be244747a995e841dc0703fea8d1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.48K(5)",
+      "ref": "TMR1995/r17A.48K(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar decides that the statement is inadequate; or"
+    },
+    {
+      "content_hash": "sha256:909c843f7effbda73e9088adfb87a67b17c87f36535096a611b9c9bb9c91c862",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.48K(5)",
+      "ref": "TMR1995/r17A.48K(5)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar has directed the opponent to file information under paragraph (3)(a) and:"
+    },
+    {
+      "content_hash": "sha256:3c8cfb21c51bc03a8102e8571697f5f2c163c4efb230fd54612534acc56f9c9e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.48K(5)(b)",
+      "ref": "TMR1995/r17A.48K(5)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the opponent fails to file the information; or"
+    },
+    {
+      "content_hash": "sha256:b1736bebb42b51f4ca39449fbc034c2cde92aa4f037ab2fabf843247df91bc82",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.48K(5)(b)",
+      "ref": "TMR1995/r17A.48K(5)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the Registrar decides that the information filed does not rectify the inadequacy of the statement."
+    },
+    {
+      "content_hash": "sha256:c28dd6695e696458dba285434cfd1519fa2c983fb7f7c7bb1950e6fd3066807c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48B",
+          "mention": "Regulation 17A.48B"
+        }
+      ],
+      "ref": "TMR1995/r17A.48K(6)",
+      "style": "subsection",
+      "text": "(6) Regulation 17A.48B does not apply to this regulation."
+    },
+    {
+      "content_hash": "sha256:a40f4e98b18fab20925c3f5fc73a08d1af0c148584e1bc12c65d24ea8ba6d7c1",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.48K(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s99A(2)",
+          "mention": "subsection 99A(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48K(6)~1",
+      "style": "notetext",
+      "text": "Note: For review rights in relation to a decision by the Registrar to dismiss an opposition, see subsection 99A(2) of the Act."
+    }
+  ]
+}

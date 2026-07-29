@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div1"
+  ],
+  "content_hash": "sha256:488737ed183980001714a7e684c52dad8308cd1c3fb1e7f49d15fd7be978946b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—General",
+    "54  Opposition proceedings"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "54",
+  "ref": "TMA1995/s54",
+  "text": "(1) The Registrar must give to the opponent and to the applicant an opportunity of being heard on the opposition. Note: For opponent and applicant see section 6. (2) Subject to subsection (1), the proceedings for dealing with the opposition must be in accordance with the regulations. (3) Without limiting subsection (2), the regulations may prescribe the circumstances in which the Registrar may dismiss the opposition.",
+  "title": "Opposition proceedings",
+  "units": [
+    {
+      "content_hash": "sha256:600d61e0865367d262abe2598cab39341cad9db2119a8a91e1dc0cd7755f3a69",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s54(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must give to the opponent and to the applicant an opportunity of being heard on the opposition."
+    },
+    {
+      "content_hash": "sha256:5c8963799e9a96e969b0984f3cbc4cb6603b6718c850cdbb5a635dc90aa613f7",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "opponent",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 32,
+          "start": 23,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s54(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s54(1)~1",
+      "style": "notetext",
+      "text": "Note: For opponent and applicant see section 6."
+    },
+    {
+      "content_hash": "sha256:9ceeb2e815f192dd08365baff67de9a2df619c10c0bcb63aac30f1896ba1a0be",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s54(2)",
+      "style": "subsection",
+      "text": "(2) Subject to subsection (1), the proceedings for dealing with the opposition must be in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:9b64614df2becd786d97855afae84b60ceccd67ffe9d8d53df417fa243a12c14",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s54(3)",
+      "style": "subsection",
+      "text": "(3) Without limiting subsection (2), the regulations may prescribe the circumstances in which the Registrar may dismiss the opposition."
+    }
+  ]
+}

@@ -1,0 +1,4332 @@
+{
+  "containers": [
+    {
+      "kind": "Part",
+      "number": "1",
+      "parent_ref": null,
+      "ref": "TMR1995/pt1",
+      "title": "Preliminary"
+    },
+    {
+      "kind": "Part",
+      "number": "2",
+      "parent_ref": null,
+      "ref": "TMR1995/pt2",
+      "title": "Interpretation"
+    },
+    {
+      "kind": "Part",
+      "number": "3",
+      "parent_ref": null,
+      "ref": "TMR1995/pt3",
+      "title": "Trade marks and trade mark rights"
+    },
+    {
+      "kind": "Part",
+      "number": "3A",
+      "parent_ref": null,
+      "ref": "TMR1995/pt3a",
+      "title": "Assisted filing service"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt3a",
+      "ref": "TMR1995/pt3a/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt3a",
+      "ref": "TMR1995/pt3a/div2",
+      "title": "Request for filing assistance"
+    },
+    {
+      "kind": "Part",
+      "number": "4",
+      "parent_ref": null,
+      "ref": "TMR1995/pt4",
+      "title": "Application for registration"
+    },
+    {
+      "kind": "Part",
+      "number": "5",
+      "parent_ref": null,
+      "ref": "TMR1995/pt5",
+      "title": "Opposition to registration"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt5",
+      "ref": "TMR1995/pt5/div1",
+      "title": "Preliminary"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt5",
+      "ref": "TMR1995/pt5/div2",
+      "title": "Filing of opposition documents"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "A",
+      "parent_ref": "TMR1995/pt5/div2",
+      "ref": "TMR1995/pt5/div2/sdiva",
+      "title": "Notice of opposition"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "B",
+      "parent_ref": "TMR1995/pt5/div2",
+      "ref": "TMR1995/pt5/div2/sdivb",
+      "title": "Notice of intention to defend"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "C",
+      "parent_ref": "TMR1995/pt5/div2",
+      "ref": "TMR1995/pt5/div2/sdivc",
+      "title": "Evidence"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt5",
+      "ref": "TMR1995/pt5/div3",
+      "title": "Coolingoff period for opposition"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt5",
+      "ref": "TMR1995/pt5/div4",
+      "title": "Hearing of opposition"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt5",
+      "ref": "TMR1995/pt5/div5",
+      "title": "Miscellaneous"
+    },
+    {
+      "kind": "Part",
+      "number": "6",
+      "parent_ref": null,
+      "ref": "TMR1995/pt6",
+      "title": "Amendment of application for registration of a trade mark and other documents"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt6",
+      "ref": "TMR1995/pt6/div1",
+      "title": "Amendment of application for registration of trade mark and other documents"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt6",
+      "ref": "TMR1995/pt6/div2",
+      "title": "Opposition to amendment after particulars published"
+    },
+    {
+      "kind": "Part",
+      "number": "7",
+      "parent_ref": null,
+      "ref": "TMR1995/pt7",
+      "title": "Registration of trade marks"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt7",
+      "ref": "TMR1995/pt7/div1",
+      "title": "Initial registration"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt7",
+      "ref": "TMR1995/pt7/div2",
+      "title": "Renewal of registration (general)"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt7",
+      "ref": "TMR1995/pt7/div3",
+      "title": "Renewal of registration (registration delayed for 10 or more years after filing date)"
+    },
+    {
+      "kind": "Part",
+      "number": "8",
+      "parent_ref": null,
+      "ref": "TMR1995/pt8",
+      "title": "Amendment and cancellation of registration"
+    },
+    {
+      "kind": "Part",
+      "number": "9",
+      "parent_ref": null,
+      "ref": "TMR1995/pt9",
+      "title": "Removal of trade mark from Register for nonuse"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div1",
+      "title": "Preliminary"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div2",
+      "title": "Application for removal"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div3",
+      "title": "Filing of opposition documents"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "A",
+      "parent_ref": "TMR1995/pt9/div3",
+      "ref": "TMR1995/pt9/div3/sdiva",
+      "title": "Notice of opposition"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "B",
+      "parent_ref": "TMR1995/pt9/div3",
+      "ref": "TMR1995/pt9/div3/sdivb",
+      "title": "Notice of intention to defend"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "C",
+      "parent_ref": "TMR1995/pt9/div3",
+      "ref": "TMR1995/pt9/div3/sdivc",
+      "title": "Evidence"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div4",
+      "title": "Coolingoff period for opposition"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div5",
+      "title": "Hearing of opposition"
+    },
+    {
+      "kind": "Division",
+      "number": "6",
+      "parent_ref": "TMR1995/pt9",
+      "ref": "TMR1995/pt9/div6",
+      "title": "Miscellaneous"
+    },
+    {
+      "kind": "Part",
+      "number": "10",
+      "parent_ref": null,
+      "ref": "TMR1995/pt10",
+      "title": "Assignment and transmission of trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "11",
+      "parent_ref": null,
+      "ref": "TMR1995/pt11",
+      "title": "Voluntary recording of claims to interests in and rights in respect of trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "13",
+      "parent_ref": null,
+      "ref": "TMR1995/pt13",
+      "title": "Importation of goods infringing Australian trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "16",
+      "parent_ref": null,
+      "ref": "TMR1995/pt16",
+      "title": "Certification trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "17",
+      "parent_ref": null,
+      "ref": "TMR1995/pt17",
+      "title": "Defensive trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "17A",
+      "parent_ref": null,
+      "ref": "TMR1995/pt17a",
+      "title": "Protected international trade marks under the Madrid Protocol"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div2",
+      "title": "Application for international registration of a trade mark"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div3",
+      "title": "International registration designating Australia"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "1",
+      "parent_ref": "TMR1995/pt17a/div3",
+      "ref": "TMR1995/pt17a/div3/sdiv1",
+      "title": "General"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "2",
+      "parent_ref": "TMR1995/pt17a/div3",
+      "ref": "TMR1995/pt17a/div3/sdiv2",
+      "title": "Grounds for rejecting IRDA"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "C",
+      "parent_ref": "TMR1995/pt17a/div3",
+      "ref": "TMR1995/pt17a/div3/sdivc",
+      "title": "Opposition to IRDA"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "3A",
+      "parent_ref": "TMR1995/pt17a/div3",
+      "ref": "TMR1995/pt17a/div3/sdiv3a",
+      "title": "Cancellation or limitation of an international registration"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "4",
+      "parent_ref": "TMR1995/pt17a/div3",
+      "ref": "TMR1995/pt17a/div3/sdiv4",
+      "title": "Extension of protection"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div4",
+      "title": "Protected international trade marks—rights and protection"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div5",
+      "title": "Protected international trade marks—amendment or cessation of protection"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "1",
+      "parent_ref": "TMR1995/pt17a/div5",
+      "ref": "TMR1995/pt17a/div5/sdiv1",
+      "title": "Amendment or cessation of protection because of cancellation, limitation or nonrenewal of international registration"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "2",
+      "parent_ref": "TMR1995/pt17a/div5",
+      "ref": "TMR1995/pt17a/div5/sdiv2",
+      "title": "Amendment or cessation of protection by Registrar"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "3",
+      "parent_ref": "TMR1995/pt17a/div5",
+      "ref": "TMR1995/pt17a/div5/sdiv3",
+      "title": "Amendment or cessation of protection by prescribed court"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "D",
+      "parent_ref": "TMR1995/pt17a/div5",
+      "ref": "TMR1995/pt17a/div5/sdivd",
+      "title": "Cessation of protection for nonuse"
+    },
+    {
+      "kind": "Division",
+      "number": "6",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div6",
+      "title": "Collective and certification trade marks"
+    },
+    {
+      "kind": "Division",
+      "number": "7",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div7",
+      "title": "Transformation of cancelled international registrations"
+    },
+    {
+      "kind": "Division",
+      "number": "8",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div8",
+      "title": "Concurrence between registration and international registration"
+    },
+    {
+      "kind": "Division",
+      "number": "9",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div9",
+      "title": "Change in ownership of international registration"
+    },
+    {
+      "kind": "Division",
+      "number": "10",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div10",
+      "title": "Recording of claimed interests and rights"
+    },
+    {
+      "kind": "Division",
+      "number": "11",
+      "parent_ref": "TMR1995/pt17a",
+      "ref": "TMR1995/pt17a/div11",
+      "title": "Miscellaneous"
+    },
+    {
+      "kind": "Part",
+      "number": "19",
+      "parent_ref": null,
+      "ref": "TMR1995/pt19",
+      "title": "Administration"
+    },
+    {
+      "kind": "Part",
+      "number": "20",
+      "parent_ref": null,
+      "ref": "TMR1995/pt20",
+      "title": "Registered trade marks attorneys"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div2",
+      "title": "Obtaining registration for first time"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div3",
+      "title": "Accreditation of courses of study"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div4",
+      "title": "Board examinations"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div5",
+      "title": "Maintaining registration and removing and restoring name to Register of Trade Marks Attorneys"
+    },
+    {
+      "kind": "Division",
+      "number": "5A",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div5a",
+      "title": "Suspension of registration"
+    },
+    {
+      "kind": "Division",
+      "number": "6",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div6",
+      "title": "Discipline"
+    },
+    {
+      "kind": "Division",
+      "number": "7",
+      "parent_ref": "TMR1995/pt20",
+      "ref": "TMR1995/pt20/div7",
+      "title": "Rights of registered trade marks attorneys"
+    },
+    {
+      "kind": "Part",
+      "number": "20A",
+      "parent_ref": null,
+      "ref": "TMR1995/pt20a",
+      "title": "Incorporated trade marks attorneys"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div2",
+      "title": "Obtaining registration for first time"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div3",
+      "title": "Maintaining registration"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div4",
+      "title": "Removal from Register of Trade Marks Attorneys"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div5",
+      "title": "Discipline"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "A",
+      "parent_ref": "TMR1995/pt20a/div5",
+      "ref": "TMR1995/pt20a/div5/sdiva",
+      "title": "General"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "B",
+      "parent_ref": "TMR1995/pt20a/div5",
+      "ref": "TMR1995/pt20a/div5/sdivb",
+      "title": "Proceedings in Disciplinary Tribunal"
+    },
+    {
+      "kind": "Division",
+      "number": "6",
+      "parent_ref": "TMR1995/pt20a",
+      "ref": "TMR1995/pt20a/div6",
+      "title": "Returning to Register of Trade Marks Attorneys"
+    },
+    {
+      "kind": "Part",
+      "number": "21",
+      "parent_ref": null,
+      "ref": "TMR1995/pt21",
+      "title": "Miscellaneous"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt21",
+      "ref": "TMR1995/pt21/div1",
+      "title": "Applications and other documents"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt21",
+      "ref": "TMR1995/pt21/div2",
+      "title": "Proceedings before the Registrar"
+    },
+    {
+      "kind": "Division",
+      "number": "2A",
+      "parent_ref": "TMR1995/pt21",
+      "ref": "TMR1995/pt21/div2a",
+      "title": "Extensions of time"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt21",
+      "ref": "TMR1995/pt21/div3",
+      "title": "General"
+    },
+    {
+      "kind": "Part",
+      "number": "22",
+      "parent_ref": null,
+      "ref": "TMR1995/pt22",
+      "title": "Application, saving and transitional provisions"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div2",
+      "title": "Amendments made by particular instruments"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div3",
+      "title": "Transitional provisions for Schedule 4 to the Intellectual Property Laws Amendment Act 2015 and Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div4",
+      "title": "Amendments made by the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018"
+    },
+    {
+      "kind": "Division",
+      "number": "5",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div5",
+      "title": "Amendments made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020"
+    },
+    {
+      "kind": "Division",
+      "number": "6",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div6",
+      "title": "Amendments made by the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024"
+    },
+    {
+      "kind": "Division",
+      "number": "7",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div7",
+      "title": "Amendments made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024"
+    },
+    {
+      "kind": "Division",
+      "number": "8",
+      "parent_ref": "TMR1995/pt22",
+      "ref": "TMR1995/pt22/div8",
+      "title": "Amendments made by the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025"
+    },
+    {
+      "kind": "Schedule",
+      "number": "1",
+      "parent_ref": null,
+      "ref": "TMR1995/sch1",
+      "title": "Classification of goods and services"
+    },
+    {
+      "kind": "Part",
+      "number": "1",
+      "parent_ref": "TMR1995/sch1",
+      "ref": "TMR1995/sch1/pt1",
+      "title": "Classes of goods"
+    },
+    {
+      "kind": "Part",
+      "number": "2",
+      "parent_ref": "TMR1995/sch1",
+      "ref": "TMR1995/sch1/pt2",
+      "title": "Classes of services"
+    },
+    {
+      "kind": "Schedule",
+      "number": "2",
+      "parent_ref": null,
+      "ref": "TMR1995/sch2",
+      "title": "Signs that may not be registered as trade marks"
+    },
+    {
+      "kind": "Schedule",
+      "number": "3",
+      "parent_ref": null,
+      "ref": "TMR1995/sch3",
+      "title": "Modifications of Part 13 of the Act (Norfolk Island)"
+    },
+    {
+      "kind": "Schedule",
+      "number": "4",
+      "parent_ref": null,
+      "ref": "TMR1995/sch4",
+      "title": "Modifications of Part 13 of the Act (Christmas Island)"
+    },
+    {
+      "kind": "Schedule",
+      "number": "5",
+      "parent_ref": null,
+      "ref": "TMR1995/sch5",
+      "title": "Modifications of Part 13 of the Act (Cocos (Keeling) Islands)"
+    },
+    {
+      "kind": "Schedule",
+      "number": "6",
+      "parent_ref": null,
+      "ref": "TMR1995/sch6",
+      "title": "Offices of persons to whom registrar may delegate"
+    },
+    {
+      "kind": "Schedule",
+      "number": "8",
+      "parent_ref": null,
+      "ref": "TMR1995/sch8",
+      "title": "Costs, expenses and allowances"
+    },
+    {
+      "kind": "Part",
+      "number": "1",
+      "parent_ref": "TMR1995/sch8",
+      "ref": "TMR1995/sch8/pt1",
+      "title": "Costs"
+    },
+    {
+      "kind": "Part",
+      "number": "2",
+      "parent_ref": "TMR1995/sch8",
+      "ref": "TMR1995/sch8/pt2",
+      "title": "Expenses and allowances"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMR1995/sch8/pt2",
+      "ref": "TMR1995/sch8/pt2/div1",
+      "title": "Expenses"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMR1995/sch8/pt2",
+      "ref": "TMR1995/sch8/pt2/div2",
+      "title": "Allowances"
+    },
+    {
+      "kind": "Schedule",
+      "number": "9",
+      "parent_ref": null,
+      "ref": "TMR1995/sch9",
+      "title": "Fees"
+    }
+  ],
+  "instrument": "TMR1995",
+  "provisions": [
+    {
+      "container_ref": null,
+      "kind": "front-matter",
+      "number": null,
+      "ordinal": 1,
+      "ref": "TMR1995/front",
+      "title": null
+    },
+    {
+      "container_ref": "TMR1995/pt1",
+      "kind": "regulation",
+      "number": "1.1",
+      "ordinal": 2,
+      "ref": "TMR1995/r1.1",
+      "title": "Name of regulations"
+    },
+    {
+      "container_ref": "TMR1995/pt2",
+      "kind": "regulation",
+      "number": "2.1",
+      "ordinal": 3,
+      "ref": "TMR1995/r2.1",
+      "title": "Interpretation"
+    },
+    {
+      "container_ref": "TMR1995/pt2",
+      "kind": "regulation",
+      "number": "2.2",
+      "ordinal": 4,
+      "ref": "TMR1995/r2.2",
+      "title": "Period expressed in months"
+    },
+    {
+      "container_ref": "TMR1995/pt2",
+      "kind": "regulation",
+      "number": "2.3",
+      "ordinal": 5,
+      "ref": "TMR1995/r2.3",
+      "title": "Giving of documents by Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt3",
+      "kind": "regulation",
+      "number": "3.1",
+      "ordinal": 6,
+      "ref": "TMR1995/r3.1",
+      "title": "Classification of goods and services"
+    },
+    {
+      "container_ref": "TMR1995/pt3",
+      "kind": "regulation",
+      "number": "3.2",
+      "ordinal": 7,
+      "ref": "TMR1995/r3.2",
+      "title": "Period in which action for infringement may be brought"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div1",
+      "kind": "regulation",
+      "number": "3A.1",
+      "ordinal": 8,
+      "ref": "TMR1995/r3A.1",
+      "title": "Purpose of Part"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div2",
+      "kind": "regulation",
+      "number": "3A.3",
+      "ordinal": 9,
+      "ref": "TMR1995/r3A.3",
+      "title": "Request for filing assistance—form of request"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div2",
+      "kind": "regulation",
+      "number": "3A.4",
+      "ordinal": 10,
+      "ref": "TMR1995/r3A.4",
+      "title": "AFS request—assessment by Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div2",
+      "kind": "regulation",
+      "number": "3A.5",
+      "ordinal": 11,
+      "ref": "TMR1995/r3A.5",
+      "title": "AFS request—formal requirements for amendment or proceeding to Part 4 application"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div2",
+      "kind": "regulation",
+      "number": "3A.6",
+      "ordinal": 12,
+      "ref": "TMR1995/r3A.6",
+      "title": "AFS request—application for extension of time"
+    },
+    {
+      "container_ref": "TMR1995/pt3a/div2",
+      "kind": "regulation",
+      "number": "3A.7",
+      "ordinal": 13,
+      "ref": "TMR1995/r3A.7",
+      "title": "AFS request—grant of extension of time"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.1",
+      "ordinal": 14,
+      "ref": "TMR1995/r4.1",
+      "title": "Applications—approved form"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.2",
+      "ordinal": 15,
+      "ref": "TMR1995/r4.2",
+      "title": "Application in approved form—requirements for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.2AA",
+      "ordinal": 16,
+      "ref": "TMR1995/r4.2AA",
+      "title": "Divisional application—additional requirement for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.2A",
+      "ordinal": 17,
+      "ref": "TMR1995/r4.2A",
+      "title": "AFS request submitted as application—requirements for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.3",
+      "ordinal": 18,
+      "ref": "TMR1995/r4.3",
+      "title": "Representation of trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.4",
+      "ordinal": 19,
+      "ref": "TMR1995/r4.4",
+      "title": "Specification of goods and/or services"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.5",
+      "ordinal": 20,
+      "ref": "TMR1995/r4.5",
+      "title": "Period for claiming priority for an application"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.6",
+      "ordinal": 21,
+      "ref": "TMR1995/r4.6",
+      "title": "How to claim priority"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.7",
+      "ordinal": 22,
+      "ref": "TMR1995/r4.7",
+      "title": "Publication of particulars of application"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.8",
+      "ordinal": 23,
+      "ref": "TMR1995/r4.8",
+      "title": "Examination of application—report to applicant"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.9",
+      "ordinal": 24,
+      "ref": "TMR1995/r4.9",
+      "title": "Examination—applicant’s response to report"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.10",
+      "ordinal": 25,
+      "ref": "TMR1995/r4.10",
+      "title": "Examination—further report to applicant"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.11",
+      "ordinal": 26,
+      "ref": "TMR1995/r4.11",
+      "title": "Examination—additional requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.11A",
+      "ordinal": 27,
+      "ref": "TMR1995/r4.11A",
+      "title": "Publication of decision"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.12",
+      "ordinal": 28,
+      "ref": "TMR1995/r4.12",
+      "title": "Periods after which applications lapse"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.13",
+      "ordinal": 29,
+      "ref": "TMR1995/r4.13",
+      "title": "Deferment of acceptance"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.14",
+      "ordinal": 30,
+      "ref": "TMR1995/r4.14",
+      "title": "Period for which acceptance is deferred"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.15",
+      "ordinal": 31,
+      "ref": "TMR1995/r4.15",
+      "title": "Trade marks containing etc certain signs"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.15A",
+      "ordinal": 32,
+      "ref": "TMR1995/r4.15A",
+      "title": "Grounds for rejection—trade mark identical etc to trade mark protected under Madrid Protocol"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.18",
+      "ordinal": 33,
+      "ref": "TMR1995/r4.18",
+      "title": "Request for expedited examination of application"
+    },
+    {
+      "container_ref": "TMR1995/pt4",
+      "kind": "regulation",
+      "number": "4.19",
+      "ordinal": 34,
+      "ref": "TMR1995/r4.19",
+      "title": "Expedited examinations"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div1",
+      "kind": "regulation",
+      "number": "5.1",
+      "ordinal": 35,
+      "ref": "TMR1995/r5.1",
+      "title": "What Part 5 is about"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div1",
+      "kind": "regulation",
+      "number": "5.2",
+      "ordinal": 36,
+      "ref": "TMR1995/r5.2",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div1",
+      "kind": "regulation",
+      "number": "5.4",
+      "ordinal": 37,
+      "ref": "TMR1995/r5.4",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.5",
+      "ordinal": 38,
+      "ref": "TMR1995/r5.5",
+      "title": "Components of notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.6",
+      "ordinal": 39,
+      "ref": "TMR1995/r5.6",
+      "title": "Filing of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.7",
+      "ordinal": 40,
+      "ref": "TMR1995/r5.7",
+      "title": "Filing of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.8",
+      "ordinal": 41,
+      "ref": "TMR1995/r5.8",
+      "title": "Statement of grounds and particulars must be adequate"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.9",
+      "ordinal": 42,
+      "ref": "TMR1995/r5.9",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.10",
+      "ordinal": 43,
+      "ref": "TMR1995/r5.10",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.11",
+      "ordinal": 44,
+      "ref": "TMR1995/r5.11",
+      "title": "Amendment of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdiva",
+      "kind": "regulation",
+      "number": "5.12",
+      "ordinal": 45,
+      "ref": "TMR1995/r5.12",
+      "title": "Amendment of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdivb",
+      "kind": "regulation",
+      "number": "5.13",
+      "ordinal": 46,
+      "ref": "TMR1995/r5.13",
+      "title": "Filing of notice of intention to defend"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdivb",
+      "kind": "regulation",
+      "number": "5.13A",
+      "ordinal": 47,
+      "ref": "TMR1995/r5.13A",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdivb",
+      "kind": "regulation",
+      "number": "5.13B",
+      "ordinal": 48,
+      "ref": "TMR1995/r5.13B",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdivc",
+      "kind": "regulation",
+      "number": "5.14",
+      "ordinal": 49,
+      "ref": "TMR1995/r5.14",
+      "title": "Filing of evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div2/sdivc",
+      "kind": "regulation",
+      "number": "5.15",
+      "ordinal": 50,
+      "ref": "TMR1995/r5.15",
+      "title": "Extension of time for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div3",
+      "kind": "regulation",
+      "number": "5.16",
+      "ordinal": 51,
+      "ref": "TMR1995/r5.16",
+      "title": "Registrar may allow coolingoff period"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div4",
+      "kind": "regulation",
+      "number": "5.17",
+      "ordinal": 52,
+      "ref": "TMR1995/r5.17",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div5",
+      "kind": "regulation",
+      "number": "5.18",
+      "ordinal": 53,
+      "ref": "TMR1995/r5.18",
+      "title": "Copy of earlier Convention application to be available to opponent"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div5",
+      "kind": "regulation",
+      "number": "5.19",
+      "ordinal": 54,
+      "ref": "TMR1995/r5.19",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt5/div5",
+      "kind": "regulation",
+      "number": "5.20",
+      "ordinal": 55,
+      "ref": "TMR1995/r5.20",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div1",
+      "kind": "regulation",
+      "number": "6.1",
+      "ordinal": 56,
+      "ref": "TMR1995/r6.1",
+      "title": "Amendment of applications by Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div1",
+      "kind": "regulation",
+      "number": "6.2",
+      "ordinal": 57,
+      "ref": "TMR1995/r6.2",
+      "title": "Request to amend before publication of details"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div1",
+      "kind": "regulation",
+      "number": "6.3",
+      "ordinal": 58,
+      "ref": "TMR1995/r6.3",
+      "title": "Filing of declarations"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div1",
+      "kind": "regulation",
+      "number": "6.3A",
+      "ordinal": 59,
+      "ref": "TMR1995/r6.3A",
+      "title": "Publication of request for amendment"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div1",
+      "kind": "regulation",
+      "number": "6.4",
+      "ordinal": 60,
+      "ref": "TMR1995/r6.4",
+      "title": "Notification of amendments"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.5",
+      "ordinal": 61,
+      "ref": "TMR1995/r6.5",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.6",
+      "ordinal": 62,
+      "ref": "TMR1995/r6.6",
+      "title": "Notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.7",
+      "ordinal": 63,
+      "ref": "TMR1995/r6.7",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.8",
+      "ordinal": 64,
+      "ref": "TMR1995/r6.8",
+      "title": "Practice and procedure"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.9",
+      "ordinal": 65,
+      "ref": "TMR1995/r6.9",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.10",
+      "ordinal": 66,
+      "ref": "TMR1995/r6.10",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt6/div2",
+      "kind": "regulation",
+      "number": "6.11",
+      "ordinal": 67,
+      "ref": "TMR1995/r6.11",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div1",
+      "kind": "regulation",
+      "number": "7.1",
+      "ordinal": 68,
+      "ref": "TMR1995/r7.1",
+      "title": "Period in which a trade mark can be registered"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div1",
+      "kind": "regulation",
+      "number": "7.2",
+      "ordinal": 69,
+      "ref": "TMR1995/r7.2",
+      "title": "Particulars to be entered in the Register"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div1",
+      "kind": "regulation",
+      "number": "7.2A",
+      "ordinal": 70,
+      "ref": "TMR1995/r7.2A",
+      "title": "Publication of registration"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div2",
+      "kind": "regulation",
+      "number": "7.3",
+      "ordinal": 71,
+      "ref": "TMR1995/r7.3",
+      "title": "Period for request for renewal"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div2",
+      "kind": "regulation",
+      "number": "7.4",
+      "ordinal": 72,
+      "ref": "TMR1995/r7.4",
+      "title": "Notice of renewal due—when and how given"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div2",
+      "kind": "regulation",
+      "number": "7.5",
+      "ordinal": 73,
+      "ref": "TMR1995/r7.5",
+      "title": "Notification of renewal"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div3",
+      "kind": "regulation",
+      "number": "7.6",
+      "ordinal": 74,
+      "ref": "TMR1995/r7.6",
+      "title": "Prescribed period (Act s 80A(3))"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div3",
+      "kind": "regulation",
+      "number": "7.7",
+      "ordinal": 75,
+      "ref": "TMR1995/r7.7",
+      "title": "Notification about renewal"
+    },
+    {
+      "container_ref": "TMR1995/pt7/div3",
+      "kind": "regulation",
+      "number": "7.8",
+      "ordinal": 76,
+      "ref": "TMR1995/r7.8",
+      "title": "Notification of renewal"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.1",
+      "ordinal": 77,
+      "ref": "TMR1995/r8.1",
+      "title": "Notice of cancellation"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.2",
+      "ordinal": 78,
+      "ref": "TMR1995/r8.2",
+      "title": "Amendment or cancellation—matters for the court"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.3",
+      "ordinal": 79,
+      "ref": "TMR1995/r8.3",
+      "title": "Grounds for application for rectification of Register—registered trade mark identical etc to trade mark protected under Madrid Protocol"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.3A",
+      "ordinal": 80,
+      "ref": "TMR1995/r8.3A",
+      "title": "Amendment because of inconsistency with international agreements—publication of request"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.4",
+      "ordinal": 81,
+      "ref": "TMR1995/r8.4",
+      "title": "Amendment because of inconsistency with international agreements—notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.5",
+      "ordinal": 82,
+      "ref": "TMR1995/r8.5",
+      "title": "Amendment because of inconsistency with international agreements—opposition practice and procedure"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.6",
+      "ordinal": 83,
+      "ref": "TMR1995/r8.6",
+      "title": "Amendment because of inconsistency with international agreements—hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.7",
+      "ordinal": 84,
+      "ref": "TMR1995/r8.7",
+      "title": "Amendment because of inconsistency with international agreements—opposition directions"
+    },
+    {
+      "container_ref": "TMR1995/pt8",
+      "kind": "regulation",
+      "number": "8.8",
+      "ordinal": 85,
+      "ref": "TMR1995/r8.8",
+      "title": "Amendment because of inconsistency with international agreements—notification of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div1",
+      "kind": "regulation",
+      "number": "9.1",
+      "ordinal": 86,
+      "ref": "TMR1995/r9.1",
+      "title": "What Part 9 is about"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div1",
+      "kind": "regulation",
+      "number": "9.2",
+      "ordinal": 87,
+      "ref": "TMR1995/r9.2",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div1",
+      "kind": "regulation",
+      "number": "9.4",
+      "ordinal": 88,
+      "ref": "TMR1995/r9.4",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div2",
+      "kind": "regulation",
+      "number": "9.5",
+      "ordinal": 89,
+      "ref": "TMR1995/r9.5",
+      "title": "Application for removal"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div2",
+      "kind": "regulation",
+      "number": "9.6",
+      "ordinal": 90,
+      "ref": "TMR1995/r9.6",
+      "title": "Notification of application"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.7",
+      "ordinal": 91,
+      "ref": "TMR1995/r9.7",
+      "title": "Components of notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.8",
+      "ordinal": 92,
+      "ref": "TMR1995/r9.8",
+      "title": "Filing of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.9",
+      "ordinal": 93,
+      "ref": "TMR1995/r9.9",
+      "title": "Filing of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.10",
+      "ordinal": 94,
+      "ref": "TMR1995/r9.10",
+      "title": "Statement of grounds and particulars must be adequate"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.11",
+      "ordinal": 95,
+      "ref": "TMR1995/r9.11",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.12",
+      "ordinal": 96,
+      "ref": "TMR1995/r9.12",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.13",
+      "ordinal": 97,
+      "ref": "TMR1995/r9.13",
+      "title": "Amendment of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdiva",
+      "kind": "regulation",
+      "number": "9.14",
+      "ordinal": 98,
+      "ref": "TMR1995/r9.14",
+      "title": "Amendment of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivb",
+      "kind": "regulation",
+      "number": "9.15",
+      "ordinal": 99,
+      "ref": "TMR1995/r9.15",
+      "title": "Filing of notice of intention to defend"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivb",
+      "kind": "regulation",
+      "number": "9.15A",
+      "ordinal": 100,
+      "ref": "TMR1995/r9.15A",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivb",
+      "kind": "regulation",
+      "number": "9.15B",
+      "ordinal": 101,
+      "ref": "TMR1995/r9.15B",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivc",
+      "kind": "regulation",
+      "number": "9.16",
+      "ordinal": 102,
+      "ref": "TMR1995/r9.16",
+      "title": "Filing of evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivc",
+      "kind": "regulation",
+      "number": "9.17",
+      "ordinal": 103,
+      "ref": "TMR1995/r9.17",
+      "title": "Request for hearing and circumstances in which opposition taken to have ended"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivc",
+      "kind": "regulation",
+      "number": "9.18",
+      "ordinal": 104,
+      "ref": "TMR1995/r9.18",
+      "title": "Extension of time for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div3/sdivc",
+      "kind": "regulation",
+      "number": "9.18A",
+      "ordinal": 105,
+      "ref": "TMR1995/r9.18A",
+      "title": "Trade mark restored to Register in certain circumstances"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div4",
+      "kind": "regulation",
+      "number": "9.19",
+      "ordinal": 106,
+      "ref": "TMR1995/r9.19",
+      "title": "Registrar may allow coolingoff period"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div5",
+      "kind": "regulation",
+      "number": "9.20",
+      "ordinal": 107,
+      "ref": "TMR1995/r9.20",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div6",
+      "kind": "regulation",
+      "number": "9.21",
+      "ordinal": 108,
+      "ref": "TMR1995/r9.21",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div6",
+      "kind": "regulation",
+      "number": "9.22",
+      "ordinal": 109,
+      "ref": "TMR1995/r9.22",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt9/div6",
+      "kind": "regulation",
+      "number": "9.23",
+      "ordinal": 110,
+      "ref": "TMR1995/r9.23",
+      "title": "Removal of trade mark from register"
+    },
+    {
+      "container_ref": "TMR1995/pt10",
+      "kind": "regulation",
+      "number": "10.1",
+      "ordinal": 111,
+      "ref": "TMR1995/r10.1",
+      "title": "Applications for assignment etc to be recorded or entered"
+    },
+    {
+      "container_ref": "TMR1995/pt10",
+      "kind": "regulation",
+      "number": "10.2",
+      "ordinal": 112,
+      "ref": "TMR1995/r10.2",
+      "title": "Recording of assignment etc—trade marks not registered"
+    },
+    {
+      "container_ref": "TMR1995/pt10",
+      "kind": "regulation",
+      "number": "10.3",
+      "ordinal": 113,
+      "ref": "TMR1995/r10.3",
+      "title": "Particulars of recorded assignment or transmission to be published"
+    },
+    {
+      "container_ref": "TMR1995/pt10",
+      "kind": "regulation",
+      "number": "10.4",
+      "ordinal": 114,
+      "ref": "TMR1995/r10.4",
+      "title": "Recording of assignment etc of registered trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt10",
+      "kind": "regulation",
+      "number": "10.5",
+      "ordinal": 115,
+      "ref": "TMR1995/r10.5",
+      "title": "Notification to persons recorded as claiming right or interest in trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt11",
+      "kind": "regulation",
+      "number": "11.1",
+      "ordinal": 116,
+      "ref": "TMR1995/r11.1",
+      "title": "Amendment of particulars—claimed interests or rights"
+    },
+    {
+      "container_ref": "TMR1995/pt11",
+      "kind": "regulation",
+      "number": "11.2",
+      "ordinal": 117,
+      "ref": "TMR1995/r11.2",
+      "title": "Amendment of name, address and address for service—claims not in the Register"
+    },
+    {
+      "container_ref": "TMR1995/pt11",
+      "kind": "regulation",
+      "number": "11.3",
+      "ordinal": 118,
+      "ref": "TMR1995/r11.3",
+      "title": "Cancellation of particulars—claimed interests or rights"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.1A",
+      "ordinal": 119,
+      "ref": "TMR1995/r13.1A",
+      "title": "Definition"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.1",
+      "ordinal": 120,
+      "ref": "TMR1995/r13.1",
+      "title": "Action period"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.2",
+      "ordinal": 121,
+      "ref": "TMR1995/r13.2",
+      "title": "Claim period"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.3",
+      "ordinal": 122,
+      "ref": "TMR1995/r13.3",
+      "title": "Notice of objection to importationprescribed document"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.4",
+      "ordinal": 123,
+      "ref": "TMR1995/r13.4",
+      "title": "Notice of objection to importation—authorised users"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.5",
+      "ordinal": 124,
+      "ref": "TMR1995/r13.5",
+      "title": "Claim for release of seized goods"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.6",
+      "ordinal": 125,
+      "ref": "TMR1995/r13.6",
+      "title": "Period for compliance with request of ComptrollerGeneral of Customs for information etc."
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.7",
+      "ordinal": 126,
+      "ref": "TMR1995/r13.7",
+      "title": "Modification of the Act in its application to Norfolk Island"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.8",
+      "ordinal": 127,
+      "ref": "TMR1995/r13.8",
+      "title": "Modification of the Act in its application to Christmas Island"
+    },
+    {
+      "container_ref": "TMR1995/pt13",
+      "kind": "regulation",
+      "number": "13.9",
+      "ordinal": 128,
+      "ref": "TMR1995/r13.9",
+      "title": "Modification of the Act in its application to Cocos (Keeling) Islands"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.1",
+      "ordinal": 129,
+      "ref": "TMR1995/r16.1",
+      "title": "Copy of rules to be filed"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.2",
+      "ordinal": 130,
+      "ref": "TMR1995/r16.2",
+      "title": "Documents to be sent to Commission"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.3",
+      "ordinal": 131,
+      "ref": "TMR1995/r16.3",
+      "title": "Initial assessment of applications by Commission"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.4",
+      "ordinal": 132,
+      "ref": "TMR1995/r16.4",
+      "title": "Holding of conferences"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.5",
+      "ordinal": 133,
+      "ref": "TMR1995/r16.5",
+      "title": "Consideration of applications"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.6",
+      "ordinal": 134,
+      "ref": "TMR1995/r16.6",
+      "title": "Criteria for Commission consideration of rules"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.7",
+      "ordinal": 135,
+      "ref": "TMR1995/r16.7",
+      "title": "Matters to be included in publication of adverse decision"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.7A",
+      "ordinal": 136,
+      "ref": "TMR1995/r16.7A",
+      "title": "Publication of decision to accept or reject application"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.8",
+      "ordinal": 137,
+      "ref": "TMR1995/r16.8",
+      "title": "Applications to vary rules"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.9",
+      "ordinal": 138,
+      "ref": "TMR1995/r16.9",
+      "title": "Consideration of applications to vary rules"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.10",
+      "ordinal": 139,
+      "ref": "TMR1995/r16.10",
+      "title": "Decision on variation of rules"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.10A",
+      "ordinal": 140,
+      "ref": "TMR1995/r16.10A",
+      "title": "Assignment of unregistered certification trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.11",
+      "ordinal": 141,
+      "ref": "TMR1995/r16.11",
+      "title": "Assignment of registered certification trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt16",
+      "kind": "regulation",
+      "number": "16.12",
+      "ordinal": 142,
+      "ref": "TMR1995/r16.12",
+      "title": "Publication of rules"
+    },
+    {
+      "container_ref": "TMR1995/pt17",
+      "kind": "regulation",
+      "number": "17.1",
+      "ordinal": 143,
+      "ref": "TMR1995/r17.1",
+      "title": "Evidence in support of applications"
+    },
+    {
+      "container_ref": "TMR1995/pt17",
+      "kind": "regulation",
+      "number": "17.2",
+      "ordinal": 144,
+      "ref": "TMR1995/r17.2",
+      "title": "Defensive trade mark based on protected international trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div1",
+      "kind": "regulation",
+      "number": "17A.1",
+      "ordinal": 145,
+      "ref": "TMR1995/r17A.1",
+      "title": "Purpose of Part"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div1",
+      "kind": "regulation",
+      "number": "17A.2",
+      "ordinal": 146,
+      "ref": "TMR1995/r17A.2",
+      "title": "Definitions for Part"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div1",
+      "kind": "regulation",
+      "number": "17A.3",
+      "ordinal": 147,
+      "ref": "TMR1995/r17A.3",
+      "title": "Meaning of priority date"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div1",
+      "kind": "regulation",
+      "number": "17A.4",
+      "ordinal": 148,
+      "ref": "TMR1995/r17A.4",
+      "title": "Meaning of date of effect"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.5",
+      "ordinal": 149,
+      "ref": "TMR1995/r17A.5",
+      "title": "Purpose of Division"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.6",
+      "ordinal": 150,
+      "ref": "TMR1995/r17A.6",
+      "title": "Eligibility to apply for international registration"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.7",
+      "ordinal": 151,
+      "ref": "TMR1995/r17A.7",
+      "title": "Application for international registration"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.8",
+      "ordinal": 152,
+      "ref": "TMR1995/r17A.8",
+      "title": "Functions of Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.9",
+      "ordinal": 153,
+      "ref": "TMR1995/r17A.9",
+      "title": "Time limit for Registrar to send application to International Bureau"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div2",
+      "kind": "regulation",
+      "number": "17A.10",
+      "ordinal": 154,
+      "ref": "TMR1995/r17A.10",
+      "title": "Subsequent designations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.11",
+      "ordinal": 155,
+      "ref": "TMR1995/r17A.11",
+      "title": "Purpose of Division"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.12",
+      "ordinal": 156,
+      "ref": "TMR1995/r17A.12",
+      "title": "Registrar to examine, and report on, IRDA"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.13",
+      "ordinal": 157,
+      "ref": "TMR1995/r17A.13",
+      "title": "Use of trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.14",
+      "ordinal": 158,
+      "ref": "TMR1995/r17A.14",
+      "title": "Specification of goods and services"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.14A",
+      "ordinal": 159,
+      "ref": "TMR1995/r17A.14A",
+      "title": "Representation of trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.15",
+      "ordinal": 160,
+      "ref": "TMR1995/r17A.15",
+      "title": "Claim for priority"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.16",
+      "ordinal": 161,
+      "ref": "TMR1995/r17A.16",
+      "title": "Examination of IRDA—report to holder"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.17",
+      "ordinal": 162,
+      "ref": "TMR1995/r17A.17",
+      "title": "Examination—holder’s response to report"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.18",
+      "ordinal": 163,
+      "ref": "TMR1995/r17A.18",
+      "title": "Examination—further report to holder"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.19",
+      "ordinal": 164,
+      "ref": "TMR1995/r17A.19",
+      "title": "Examination—additional requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.20",
+      "ordinal": 165,
+      "ref": "TMR1995/r17A.20",
+      "title": "Period within which final decision on examination must be notified"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.21",
+      "ordinal": 166,
+      "ref": "TMR1995/r17A.21",
+      "title": "Deferment of acceptance"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.22",
+      "ordinal": 167,
+      "ref": "TMR1995/r17A.22",
+      "title": "Period for which acceptance is deferred"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.23",
+      "ordinal": 168,
+      "ref": "TMR1995/r17A.23",
+      "title": "Expedited examination"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.24",
+      "ordinal": 169,
+      "ref": "TMR1995/r17A.24",
+      "title": "Final decision on examination"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.25",
+      "ordinal": 170,
+      "ref": "TMR1995/r17A.25",
+      "title": "Notice of final decision on examination"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.26",
+      "ordinal": 171,
+      "ref": "TMR1995/r17A.26",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv1",
+      "kind": "regulation",
+      "number": "17A.27",
+      "ordinal": 172,
+      "ref": "TMR1995/r17A.27",
+      "title": "Revocation of acceptance"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv2",
+      "kind": "regulation",
+      "number": "17A.28",
+      "ordinal": 173,
+      "ref": "TMR1995/r17A.28",
+      "title": "Grounds for rejecting IRDA"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.29",
+      "ordinal": 174,
+      "ref": "TMR1995/r17A.29",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.31",
+      "ordinal": 175,
+      "ref": "TMR1995/r17A.31",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.32",
+      "ordinal": 176,
+      "ref": "TMR1995/r17A.32",
+      "title": "Filing of notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.33",
+      "ordinal": 177,
+      "ref": "TMR1995/r17A.33",
+      "title": "Filing of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34",
+      "ordinal": 178,
+      "ref": "TMR1995/r17A.34",
+      "title": "Grounds for opposing IRDA"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34A",
+      "ordinal": 179,
+      "ref": "TMR1995/r17A.34A",
+      "title": "Filing of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34B",
+      "ordinal": 180,
+      "ref": "TMR1995/r17A.34B",
+      "title": "Statement of grounds and particulars must be adequate"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34C",
+      "ordinal": 181,
+      "ref": "TMR1995/r17A.34C",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34D",
+      "ordinal": 182,
+      "ref": "TMR1995/r17A.34D",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34E",
+      "ordinal": 183,
+      "ref": "TMR1995/r17A.34E",
+      "title": "Opposition may proceed in name of other person"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34F",
+      "ordinal": 184,
+      "ref": "TMR1995/r17A.34F",
+      "title": "Amendment of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34G",
+      "ordinal": 185,
+      "ref": "TMR1995/r17A.34G",
+      "title": "Amendment of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34H",
+      "ordinal": 186,
+      "ref": "TMR1995/r17A.34H",
+      "title": "Filing of notice of intention to defend"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34HA",
+      "ordinal": 187,
+      "ref": "TMR1995/r17A.34HA",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34HB",
+      "ordinal": 188,
+      "ref": "TMR1995/r17A.34HB",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34J",
+      "ordinal": 189,
+      "ref": "TMR1995/r17A.34J",
+      "title": "Filing of evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34K",
+      "ordinal": 190,
+      "ref": "TMR1995/r17A.34K",
+      "title": "Extension of time for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34L",
+      "ordinal": 191,
+      "ref": "TMR1995/r17A.34L",
+      "title": "Registrar may allow coolingoff period"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34M",
+      "ordinal": 192,
+      "ref": "TMR1995/r17A.34M",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34N",
+      "ordinal": 193,
+      "ref": "TMR1995/r17A.34N",
+      "title": "Decision on opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34P",
+      "ordinal": 194,
+      "ref": "TMR1995/r17A.34P",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.34Q",
+      "ordinal": 195,
+      "ref": "TMR1995/r17A.34Q",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdivc",
+      "kind": "regulation",
+      "number": "17A.35",
+      "ordinal": 196,
+      "ref": "TMR1995/r17A.35",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv3a",
+      "kind": "regulation",
+      "number": "17A.35A",
+      "ordinal": 197,
+      "ref": "TMR1995/r17A.35A",
+      "title": "Cancellation"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv3a",
+      "kind": "regulation",
+      "number": "17A.35B",
+      "ordinal": 198,
+      "ref": "TMR1995/r17A.35B",
+      "title": "Duties and powers of Registrar—notification of limitation by International Bureau"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv4",
+      "kind": "regulation",
+      "number": "17A.36",
+      "ordinal": 199,
+      "ref": "TMR1995/r17A.36",
+      "title": "When trade mark becomes a protected international trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv4",
+      "kind": "regulation",
+      "number": "17A.37",
+      "ordinal": 200,
+      "ref": "TMR1995/r17A.37",
+      "title": "Notice that trade mark is a protected international trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div3/sdiv4",
+      "kind": "regulation",
+      "number": "17A.38",
+      "ordinal": 201,
+      "ref": "TMR1995/r17A.38",
+      "title": "Disclaimer"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div4",
+      "kind": "regulation",
+      "number": "17A.39",
+      "ordinal": 202,
+      "ref": "TMR1995/r17A.39",
+      "title": "Rights given to, and protection of, protected international trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div4",
+      "kind": "regulation",
+      "number": "17A.40",
+      "ordinal": 203,
+      "ref": "TMR1995/r17A.40",
+      "title": "Circumstances in which action may not be brought"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv1",
+      "kind": "regulation",
+      "number": "17A.41",
+      "ordinal": 204,
+      "ref": "TMR1995/r17A.41",
+      "title": "Cancellation of international registration"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv1",
+      "kind": "regulation",
+      "number": "17A.41A",
+      "ordinal": 205,
+      "ref": "TMR1995/r17A.41A",
+      "title": "Duties and powers of Registrar—notification of limitation by International Bureau"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv1",
+      "kind": "regulation",
+      "number": "17A.42",
+      "ordinal": 206,
+      "ref": "TMR1995/r17A.42",
+      "title": "Failure to renew international registration"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42A",
+      "ordinal": 207,
+      "ref": "TMR1995/r17A.42A",
+      "title": "Registrar’s powers to amend or cease protection"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42B",
+      "ordinal": 208,
+      "ref": "TMR1995/r17A.42B",
+      "title": "Notice to be given"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42C",
+      "ordinal": 209,
+      "ref": "TMR1995/r17A.42C",
+      "title": "Hearings and procedure"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42D",
+      "ordinal": 210,
+      "ref": "TMR1995/r17A.42D",
+      "title": "Effect of amendment or cessation of protection by Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42E",
+      "ordinal": 211,
+      "ref": "TMR1995/r17A.42E",
+      "title": "Registrar to notify ComptrollerGeneral of Customs"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv2",
+      "kind": "regulation",
+      "number": "17A.42F",
+      "ordinal": 212,
+      "ref": "TMR1995/r17A.42F",
+      "title": "Appeals to Federal Court or Federal Magistrates Court"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv3",
+      "kind": "regulation",
+      "number": "17A.43",
+      "ordinal": 213,
+      "ref": "TMR1995/r17A.43",
+      "title": "Amendment or cessation of protection—contravention of condition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv3",
+      "kind": "regulation",
+      "number": "17A.44",
+      "ordinal": 214,
+      "ref": "TMR1995/r17A.44",
+      "title": "Amendment or cessation of protection—loss of exclusive rights to use trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv3",
+      "kind": "regulation",
+      "number": "17A.45",
+      "ordinal": 215,
+      "ref": "TMR1995/r17A.45",
+      "title": "Amendment or cessation of protection—other specified grounds"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv3",
+      "kind": "regulation",
+      "number": "17A.46",
+      "ordinal": 216,
+      "ref": "TMR1995/r17A.46",
+      "title": "Amendment or cessation may not be granted if holder not at fault etc"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdiv3",
+      "kind": "regulation",
+      "number": "17A.47",
+      "ordinal": 217,
+      "ref": "TMR1995/r17A.47",
+      "title": "Duties and powers of Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48",
+      "ordinal": 218,
+      "ref": "TMR1995/r17A.48",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48B",
+      "ordinal": 219,
+      "ref": "TMR1995/r17A.48B",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48C",
+      "ordinal": 220,
+      "ref": "TMR1995/r17A.48C",
+      "title": "Application for cessation of protection"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48D",
+      "ordinal": 221,
+      "ref": "TMR1995/r17A.48D",
+      "title": "Cessation of protection"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48E",
+      "ordinal": 222,
+      "ref": "TMR1995/r17A.48E",
+      "title": "Notification of application"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48F",
+      "ordinal": 223,
+      "ref": "TMR1995/r17A.48F",
+      "title": "Filing of notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48G",
+      "ordinal": 224,
+      "ref": "TMR1995/r17A.48G",
+      "title": "Filing of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48H",
+      "ordinal": 225,
+      "ref": "TMR1995/r17A.48H",
+      "title": "Opponent must have address for service"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48J",
+      "ordinal": 226,
+      "ref": "TMR1995/r17A.48J",
+      "title": "Filing of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48K",
+      "ordinal": 227,
+      "ref": "TMR1995/r17A.48K",
+      "title": "Statement of grounds and particulars must be adequate"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48L",
+      "ordinal": 228,
+      "ref": "TMR1995/r17A.48L",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48M",
+      "ordinal": 229,
+      "ref": "TMR1995/r17A.48M",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48N",
+      "ordinal": 230,
+      "ref": "TMR1995/r17A.48N",
+      "title": "Amendment of notice of intention to oppose"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48P",
+      "ordinal": 231,
+      "ref": "TMR1995/r17A.48P",
+      "title": "Amendment of statement of grounds and particulars"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48Q",
+      "ordinal": 232,
+      "ref": "TMR1995/r17A.48Q",
+      "title": "Filing of notice of intention to defend"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48QA",
+      "ordinal": 233,
+      "ref": "TMR1995/r17A.48QA",
+      "title": "Extension of time for filing—application"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48QB",
+      "ordinal": 234,
+      "ref": "TMR1995/r17A.48QB",
+      "title": "Extension of time for filing—grant"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48R",
+      "ordinal": 235,
+      "ref": "TMR1995/r17A.48R",
+      "title": "Filing of evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48S",
+      "ordinal": 236,
+      "ref": "TMR1995/r17A.48S",
+      "title": "Request for hearing and circumstances in which opposition taken to have ended"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48T",
+      "ordinal": 237,
+      "ref": "TMR1995/r17A.48T",
+      "title": "Extension of time for filing"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48U",
+      "ordinal": 238,
+      "ref": "TMR1995/r17A.48U",
+      "title": "Registrar may allow coolingoff period"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48V",
+      "ordinal": 239,
+      "ref": "TMR1995/r17A.48V",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48W",
+      "ordinal": 240,
+      "ref": "TMR1995/r17A.48W",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48X",
+      "ordinal": 241,
+      "ref": "TMR1995/r17A.48X",
+      "title": "Registrar must notify International Bureau"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48Y",
+      "ordinal": 242,
+      "ref": "TMR1995/r17A.48Y",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div5/sdivd",
+      "kind": "regulation",
+      "number": "17A.48Z",
+      "ordinal": 243,
+      "ref": "TMR1995/r17A.48Z",
+      "title": "Cessation of protection of protected international trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div6",
+      "kind": "regulation",
+      "number": "17A.49",
+      "ordinal": 244,
+      "ref": "TMR1995/r17A.49",
+      "title": "Collective trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div6",
+      "kind": "regulation",
+      "number": "17A.50",
+      "ordinal": 245,
+      "ref": "TMR1995/r17A.50",
+      "title": "Certification trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div7",
+      "kind": "regulation",
+      "number": "17A.51",
+      "ordinal": 246,
+      "ref": "TMR1995/r17A.51",
+      "title": "Application of Division"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div7",
+      "kind": "regulation",
+      "number": "17A.52",
+      "ordinal": 247,
+      "ref": "TMR1995/r17A.52",
+      "title": "Transformation of IRDA"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div7",
+      "kind": "regulation",
+      "number": "17A.53",
+      "ordinal": 248,
+      "ref": "TMR1995/r17A.53",
+      "title": "Transformation of protected international trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a",
+      "kind": "container",
+      "number": "8",
+      "ordinal": 249,
+      "ref": "TMR1995/pt17a/div8",
+      "title": "Concurrence between registration and international registration"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div8",
+      "kind": "regulation",
+      "number": "17A.54",
+      "ordinal": 250,
+      "ref": "TMR1995/r17A.54",
+      "title": "Effect of registration and protection of the same trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div8",
+      "kind": "regulation",
+      "number": "17A.55",
+      "ordinal": 251,
+      "ref": "TMR1995/r17A.55",
+      "title": "Effect of cancellation, removal or expiry of registered trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.56",
+      "ordinal": 252,
+      "ref": "TMR1995/r17A.56",
+      "title": "Application of Division"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.57",
+      "ordinal": 253,
+      "ref": "TMR1995/r17A.57",
+      "title": "Collective trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.58",
+      "ordinal": 254,
+      "ref": "TMR1995/r17A.58",
+      "title": "Protected certification trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.58A",
+      "ordinal": 255,
+      "ref": "TMR1995/r17A.58A",
+      "title": "Unprotected certification trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.59",
+      "ordinal": 256,
+      "ref": "TMR1995/r17A.59",
+      "title": "Trade marks affected by claimed interests and rights"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div9",
+      "kind": "regulation",
+      "number": "17A.60",
+      "ordinal": 257,
+      "ref": "TMR1995/r17A.60",
+      "title": "Recording change of ownership"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div10",
+      "kind": "regulation",
+      "number": "17A.61",
+      "ordinal": 258,
+      "ref": "TMR1995/r17A.61",
+      "title": "Application to have claims recorded"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div10",
+      "kind": "regulation",
+      "number": "17A.62",
+      "ordinal": 259,
+      "ref": "TMR1995/r17A.62",
+      "title": "Recording of claims"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div10",
+      "kind": "regulation",
+      "number": "17A.63",
+      "ordinal": 260,
+      "ref": "TMR1995/r17A.63",
+      "title": "Notification of matters affecting trade mark"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div10",
+      "kind": "regulation",
+      "number": "17A.64",
+      "ordinal": 261,
+      "ref": "TMR1995/r17A.64",
+      "title": "Record not proof etc of existence of right etc"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div10",
+      "kind": "regulation",
+      "number": "17A.65",
+      "ordinal": 262,
+      "ref": "TMR1995/r17A.65",
+      "title": "Amendment or cancellation of record"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.66",
+      "ordinal": 263,
+      "ref": "TMR1995/r17A.66",
+      "title": "Record of International Registrations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.67",
+      "ordinal": 264,
+      "ref": "TMR1995/r17A.67",
+      "title": "Inspection"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.68",
+      "ordinal": 265,
+      "ref": "TMR1995/r17A.68",
+      "title": "Evidence—the Record of International Registrations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.69",
+      "ordinal": 266,
+      "ref": "TMR1995/r17A.69",
+      "title": "Evidence—international instruments"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.70",
+      "ordinal": 267,
+      "ref": "TMR1995/r17A.70",
+      "title": "Correction of errors or omissions in Record of International Registrations"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.71",
+      "ordinal": 268,
+      "ref": "TMR1995/r17A.71",
+      "title": "Passing off actions"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.72",
+      "ordinal": 269,
+      "ref": "TMR1995/r17A.72",
+      "title": "Documents to be made available for public inspection"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.73",
+      "ordinal": 270,
+      "ref": "TMR1995/r17A.73",
+      "title": "Security for costs"
+    },
+    {
+      "container_ref": "TMR1995/pt17a/div11",
+      "kind": "regulation",
+      "number": "17A.74",
+      "ordinal": 271,
+      "ref": "TMR1995/r17A.74",
+      "title": "Address for service of documents"
+    },
+    {
+      "container_ref": "TMR1995/pt19",
+      "kind": "regulation",
+      "number": "19.1",
+      "ordinal": 272,
+      "ref": "TMR1995/r19.1",
+      "title": "Trade Marks Office and suboffices—business hours"
+    },
+    {
+      "container_ref": "TMR1995/pt19",
+      "kind": "regulation",
+      "number": "19.2",
+      "ordinal": 273,
+      "ref": "TMR1995/r19.2",
+      "title": "Persons to whom Registrar may delegate (Act, s 206(1))"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div1",
+      "kind": "regulation",
+      "number": "20.1A",
+      "ordinal": 274,
+      "ref": "TMR1995/r20.1A",
+      "title": "Application of Part"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div1",
+      "kind": "regulation",
+      "number": "20.1",
+      "ordinal": 275,
+      "ref": "TMR1995/r20.1",
+      "title": "Interpretation"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.2",
+      "ordinal": 276,
+      "ref": "TMR1995/r20.2",
+      "title": "Form of application"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.3",
+      "ordinal": 277,
+      "ref": "TMR1995/r20.3",
+      "title": "Evidence that applicant meets registration requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.4",
+      "ordinal": 278,
+      "ref": "TMR1995/r20.4",
+      "title": "Certificate of registration"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.5",
+      "ordinal": 279,
+      "ref": "TMR1995/r20.5",
+      "title": "Evidence of academic qualifications"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.6",
+      "ordinal": 280,
+      "ref": "TMR1995/r20.6",
+      "title": "Academic qualifications"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.7",
+      "ordinal": 281,
+      "ref": "TMR1995/r20.7",
+      "title": "Evidence of knowledge requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.8",
+      "ordinal": 282,
+      "ref": "TMR1995/r20.8",
+      "title": "Knowledge requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.9",
+      "ordinal": 283,
+      "ref": "TMR1995/r20.9",
+      "title": "Exemption from a requirement in Schedule 5 to Patents Regulations"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.10",
+      "ordinal": 284,
+      "ref": "TMR1995/r20.10",
+      "title": "Prescribed offences"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div2",
+      "kind": "regulation",
+      "number": "20.11",
+      "ordinal": 285,
+      "ref": "TMR1995/r20.11",
+      "title": "Application of Schedule 5 to Patents Regulations"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div3",
+      "kind": "regulation",
+      "number": "20.12",
+      "ordinal": 286,
+      "ref": "TMR1995/r20.12",
+      "title": "Accreditation of courses of study"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div4",
+      "kind": "regulation",
+      "number": "20.13",
+      "ordinal": 287,
+      "ref": "TMR1995/r20.13",
+      "title": "Board examinations"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div5",
+      "kind": "regulation",
+      "number": "20.14",
+      "ordinal": 288,
+      "ref": "TMR1995/r20.14",
+      "title": "Maintaining registration and removing and restoring name to Register of Trade Marks Attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div5a",
+      "kind": "regulation",
+      "number": "20.14A",
+      "ordinal": 289,
+      "ref": "TMR1995/r20.14A",
+      "title": "Requirement to notify of serious offence"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div5a",
+      "kind": "regulation",
+      "number": "20.14B",
+      "ordinal": 290,
+      "ref": "TMR1995/r20.14B",
+      "title": "Suspension from Register—serious offence"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div6",
+      "kind": "regulation",
+      "number": "20.15",
+      "ordinal": 291,
+      "ref": "TMR1995/r20.15",
+      "title": "Discipline"
+    },
+    {
+      "container_ref": "TMR1995/pt20/div7",
+      "kind": "regulation",
+      "number": "20.16",
+      "ordinal": 292,
+      "ref": "TMR1995/r20.16",
+      "title": "Lien"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div1",
+      "kind": "regulation",
+      "number": "20A.1",
+      "ordinal": 293,
+      "ref": "TMR1995/r20A.1",
+      "title": "Application of Part 20A"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div1",
+      "kind": "regulation",
+      "number": "20A.2",
+      "ordinal": 294,
+      "ref": "TMR1995/r20A.2",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div2",
+      "kind": "regulation",
+      "number": "20A.3",
+      "ordinal": 295,
+      "ref": "TMR1995/r20A.3",
+      "title": "Form of application"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div2",
+      "kind": "regulation",
+      "number": "20A.4",
+      "ordinal": 296,
+      "ref": "TMR1995/r20A.4",
+      "title": "Certificate of registration"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div3",
+      "kind": "regulation",
+      "number": "20A.5",
+      "ordinal": 297,
+      "ref": "TMR1995/r20A.5",
+      "title": "Requirements for remaining on Register of Trade Marks Attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div4",
+      "kind": "regulation",
+      "number": "20A.6",
+      "ordinal": 298,
+      "ref": "TMR1995/r20A.6",
+      "title": "Voluntary removal of name from Register of Trade Marks Attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div4",
+      "kind": "regulation",
+      "number": "20A.7",
+      "ordinal": 299,
+      "ref": "TMR1995/r20A.7",
+      "title": "Failure to pay annual registration fee"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div4",
+      "kind": "regulation",
+      "number": "20A.8",
+      "ordinal": 300,
+      "ref": "TMR1995/r20A.8",
+      "title": "Failure to maintain professional indemnity insurance"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdiva",
+      "kind": "regulation",
+      "number": "20A.9",
+      "ordinal": 301,
+      "ref": "TMR1995/r20A.9",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdiva",
+      "kind": "regulation",
+      "number": "20A.10",
+      "ordinal": 302,
+      "ref": "TMR1995/r20A.10",
+      "title": "Board may apply for cancellation or suspension of incorporated trade marks attorney’s registration"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.11",
+      "ordinal": 303,
+      "ref": "TMR1995/r20A.11",
+      "title": "Panel of the Disciplinary Tribunal to be constituted"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.11A",
+      "ordinal": 304,
+      "ref": "TMR1995/r20A.11A",
+      "title": "Meetings of Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.11B",
+      "ordinal": 305,
+      "ref": "TMR1995/r20A.11B",
+      "title": "Procedure of Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.11C",
+      "ordinal": 306,
+      "ref": "TMR1995/r20A.11C",
+      "title": "Panel Chair unavailable to complete hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.11D",
+      "ordinal": 307,
+      "ref": "TMR1995/r20A.11D",
+      "title": "Members other than the Panel Chair unavailable to complete hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.12",
+      "ordinal": 308,
+      "ref": "TMR1995/r20A.12",
+      "title": "Notification of hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.13",
+      "ordinal": 309,
+      "ref": "TMR1995/r20A.13",
+      "title": "Hearings to be public except in special circumstances"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.14",
+      "ordinal": 310,
+      "ref": "TMR1995/r20A.14",
+      "title": "Representation before Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.15",
+      "ordinal": 311,
+      "ref": "TMR1995/r20A.15",
+      "title": "Summoning of witnesses"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.16",
+      "ordinal": 312,
+      "ref": "TMR1995/r20A.16",
+      "title": "Offences by persons appearing before a Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.17",
+      "ordinal": 313,
+      "ref": "TMR1995/r20A.17",
+      "title": "Protection of certain persons"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.18",
+      "ordinal": 314,
+      "ref": "TMR1995/r20A.18",
+      "title": "Decision of Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.19",
+      "ordinal": 315,
+      "ref": "TMR1995/r20A.19",
+      "title": "Notification and publication of decisions of Panel of Disciplinary Tribunal"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.20",
+      "ordinal": 316,
+      "ref": "TMR1995/r20A.20",
+      "title": "Completion of outstanding business"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div5/sdivb",
+      "kind": "regulation",
+      "number": "20A.21",
+      "ordinal": 317,
+      "ref": "TMR1995/r20A.21",
+      "title": "Former attorney may be required to provide assistance"
+    },
+    {
+      "container_ref": "TMR1995/pt20a/div6",
+      "kind": "regulation",
+      "number": "20A.22",
+      "ordinal": 318,
+      "ref": "TMR1995/r20A.22",
+      "title": "Restoring name to Register of Trade Marks Attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.1",
+      "ordinal": 319,
+      "ref": "TMR1995/r21.1",
+      "title": "Compliance with instructions on approved forms"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.2",
+      "ordinal": 320,
+      "ref": "TMR1995/r21.2",
+      "title": "Requirements for filing documents"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.3",
+      "ordinal": 321,
+      "ref": "TMR1995/r21.3",
+      "title": "Filing of documents—common requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.3A",
+      "ordinal": 322,
+      "ref": "TMR1995/r21.3A",
+      "title": "Approved means of filing documents"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.3B",
+      "ordinal": 323,
+      "ref": "TMR1995/r21.3B",
+      "title": "Directions by Registrar for filing of documents"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.3C",
+      "ordinal": 324,
+      "ref": "TMR1995/r21.3C",
+      "title": "Directions by Registrar for filing of evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.4",
+      "ordinal": 325,
+      "ref": "TMR1995/r21.4",
+      "title": "Consequences for documents not meeting filing requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.5",
+      "ordinal": 326,
+      "ref": "TMR1995/r21.5",
+      "title": "Filing of documents—date of receipt to be marked"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.5A",
+      "ordinal": 327,
+      "ref": "TMR1995/r21.5A",
+      "title": "Consequences for evidence not meeting filing requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.6",
+      "ordinal": 328,
+      "ref": "TMR1995/r21.6",
+      "title": "Declarations"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.7",
+      "ordinal": 329,
+      "ref": "TMR1995/r21.7",
+      "title": "Declarations—additional material"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.7A",
+      "ordinal": 330,
+      "ref": "TMR1995/r21.7A",
+      "title": "Service by post"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.8",
+      "ordinal": 331,
+      "ref": "TMR1995/r21.8",
+      "title": "Notification of service"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.9",
+      "ordinal": 332,
+      "ref": "TMR1995/r21.9",
+      "title": "Notice of withdrawal of applications etc"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.10",
+      "ordinal": 333,
+      "ref": "TMR1995/r21.10",
+      "title": "Notification of withdrawal of application etc."
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.11",
+      "ordinal": 334,
+      "ref": "TMR1995/r21.11",
+      "title": "Change of address for service—notice to interested persons"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div1",
+      "kind": "regulation",
+      "number": "21.11A",
+      "ordinal": 335,
+      "ref": "TMR1995/r21.11A",
+      "title": "Documents to be made available for public inspection"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.12",
+      "ordinal": 336,
+      "ref": "TMR1995/r21.12",
+      "title": "Applications for costs"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.13",
+      "ordinal": 337,
+      "ref": "TMR1995/r21.13",
+      "title": "Award of costs"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.14",
+      "ordinal": 338,
+      "ref": "TMR1995/r21.14",
+      "title": "Conduct of proceedings generally"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.15",
+      "ordinal": 339,
+      "ref": "TMR1995/r21.15",
+      "title": "Opportunity to be heard by Registrar"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.16",
+      "ordinal": 340,
+      "ref": "TMR1995/r21.16",
+      "title": "Written submissions and oral hearings"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.17",
+      "ordinal": 341,
+      "ref": "TMR1995/r21.17",
+      "title": "Giving of oral evidence"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.19",
+      "ordinal": 342,
+      "ref": "TMR1995/r21.19",
+      "title": "Registrar may use information available"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2",
+      "kind": "regulation",
+      "number": "21.20",
+      "ordinal": 343,
+      "ref": "TMR1995/r21.20",
+      "title": "Statements of reasons for decision"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20A",
+      "ordinal": 344,
+      "ref": "TMR1995/r21.20A",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20AA",
+      "ordinal": 345,
+      "ref": "TMR1995/r21.20AA",
+      "title": "Publication of application for extension of time"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20B",
+      "ordinal": 346,
+      "ref": "TMR1995/r21.20B",
+      "title": "Notice of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20C",
+      "ordinal": 347,
+      "ref": "TMR1995/r21.20C",
+      "title": "Notification and opportunity to make representations"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20D",
+      "ordinal": 348,
+      "ref": "TMR1995/r21.20D",
+      "title": "Practice and procedure"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20E",
+      "ordinal": 349,
+      "ref": "TMR1995/r21.20E",
+      "title": "Hearing"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20F",
+      "ordinal": 350,
+      "ref": "TMR1995/r21.20F",
+      "title": "Registrar may give direction"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div2a",
+      "kind": "regulation",
+      "number": "21.20G",
+      "ordinal": 351,
+      "ref": "TMR1995/r21.20G",
+      "title": "Registrar must notify parties of dismissal or discontinuance of opposition"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.21",
+      "ordinal": 352,
+      "ref": "TMR1995/r21.21",
+      "title": "What fees are payable"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.21A",
+      "ordinal": 353,
+      "ref": "TMR1995/r21.21A",
+      "title": "No action permitted until fee paid"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.22",
+      "ordinal": 354,
+      "ref": "TMR1995/r21.22",
+      "title": "How fees are to be paid"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.23",
+      "ordinal": 355,
+      "ref": "TMR1995/r21.23",
+      "title": "Notice of nonpayment of fee"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.23A",
+      "ordinal": 356,
+      "ref": "TMR1995/r21.23A",
+      "title": "Exemption from fees"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.24",
+      "ordinal": 357,
+      "ref": "TMR1995/r21.24",
+      "title": "Refunds etc of fees"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.24A",
+      "ordinal": 358,
+      "ref": "TMR1995/r21.24A",
+      "title": "Period for doing certain acts—office not open for business"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.24B",
+      "ordinal": 359,
+      "ref": "TMR1995/r21.24B",
+      "title": "Days when office not open for business"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.24C",
+      "ordinal": 360,
+      "ref": "TMR1995/r21.24C",
+      "title": "Period for doing certain acts—acts to which section 223A does not apply"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.25",
+      "ordinal": 361,
+      "ref": "TMR1995/r21.25",
+      "title": "Extension of time—application"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.28",
+      "ordinal": 362,
+      "ref": "TMR1995/r21.28",
+      "title": "Extension of time—prescribed acts and documents"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.29",
+      "ordinal": 363,
+      "ref": "TMR1995/r21.29",
+      "title": "Convention countries"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.30",
+      "ordinal": 364,
+      "ref": "TMR1995/r21.30",
+      "title": "Rights of registered patent attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.31",
+      "ordinal": 365,
+      "ref": "TMR1995/r21.31",
+      "title": "Incapacity of certain persons"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.33",
+      "ordinal": 366,
+      "ref": "TMR1995/r21.33",
+      "title": "Directions not otherwise prescribed"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.34",
+      "ordinal": 367,
+      "ref": "TMR1995/r21.34",
+      "title": "Requirements cannot be complied with for reasonable cause"
+    },
+    {
+      "container_ref": "TMR1995/pt21/div3",
+      "kind": "regulation",
+      "number": "21.35",
+      "ordinal": 368,
+      "ref": "TMR1995/r21.35",
+      "title": "Review of decisions"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.1",
+      "ordinal": 369,
+      "ref": "TMR1995/r22.1",
+      "title": "Application of the Act"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.2",
+      "ordinal": 370,
+      "ref": "TMR1995/r22.2",
+      "title": "Fees payable in relation to certain matters"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.3",
+      "ordinal": 371,
+      "ref": "TMR1995/r22.3",
+      "title": "Certain delegations continue"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.4",
+      "ordinal": 372,
+      "ref": "TMR1995/r22.4",
+      "title": "Certain deferments continue"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.5",
+      "ordinal": 373,
+      "ref": "TMR1995/r22.5",
+      "title": "Certain extensions of time continue"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.6",
+      "ordinal": 374,
+      "ref": "TMR1995/r22.6",
+      "title": "Deferment of acceptance—certain applications"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.7",
+      "ordinal": 375,
+      "ref": "TMR1995/r22.7",
+      "title": "Trade marks attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div1",
+      "kind": "regulation",
+      "number": "22.8",
+      "ordinal": 376,
+      "ref": "TMR1995/r22.8",
+      "title": "Trade marks attorney examination requirements"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div2",
+      "kind": "regulation",
+      "number": "22.9",
+      "ordinal": 377,
+      "ref": "TMR1995/r22.9",
+      "title": "Amendments made by the Intellectual Property Legislation Amendment (Raising the Bar) Regulation 2013 (No. 1)"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div2",
+      "kind": "regulation",
+      "number": "22.10",
+      "ordinal": 378,
+      "ref": "TMR1995/r22.10",
+      "title": "Amendments made by the Customs and Other Legislation Amendment (Australian Border Force) Regulation 2015"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div2",
+      "kind": "regulation",
+      "number": "22.11",
+      "ordinal": 379,
+      "ref": "TMR1995/r22.11",
+      "title": "Amendments made by the Trade Marks Amendment (Fees) Regulation 2016"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div2",
+      "kind": "regulation",
+      "number": "22.12",
+      "ordinal": 380,
+      "ref": "TMR1995/r22.12",
+      "title": "Amendments made by the Intellectual Property Legislation Amendment (Fee Review) Regulation 2016"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div2",
+      "kind": "regulation",
+      "number": "22.13",
+      "ordinal": 381,
+      "ref": "TMR1995/r22.13",
+      "title": "Amendment made by Schedule 5 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div3",
+      "kind": "regulation",
+      "number": "22.14",
+      "ordinal": 382,
+      "ref": "TMR1995/r22.14",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div3",
+      "kind": "regulation",
+      "number": "22.15",
+      "ordinal": 383,
+      "ref": "TMR1995/r22.15",
+      "title": "Transitional—registration as a trade marks attorney"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div3",
+      "kind": "regulation",
+      "number": "22.16",
+      "ordinal": 384,
+      "ref": "TMR1995/r22.16",
+      "title": "Continuation of certain disciplinary proceedings—individuals"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div3",
+      "kind": "regulation",
+      "number": "22.17",
+      "ordinal": 385,
+      "ref": "TMR1995/r22.17",
+      "title": "Continuation of certain disciplinary proceedings—incorporated trade marks attorneys"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.18",
+      "ordinal": 386,
+      "ref": "TMR1995/r22.18",
+      "title": "Amendments made by Part 2 of Schedule 1"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.19",
+      "ordinal": 387,
+      "ref": "TMR1995/r22.19",
+      "title": "Amendments made by Part 1 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.20",
+      "ordinal": 388,
+      "ref": "TMR1995/r22.20",
+      "title": "Amendments made by Part 2 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.21",
+      "ordinal": 389,
+      "ref": "TMR1995/r22.21",
+      "title": "Amendments made by Part 3 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.22",
+      "ordinal": 390,
+      "ref": "TMR1995/r22.22",
+      "title": "Amendments made by Part 4 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.23",
+      "ordinal": 391,
+      "ref": "TMR1995/r22.23",
+      "title": "Amendments made by Part 8 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div4",
+      "kind": "regulation",
+      "number": "22.24",
+      "ordinal": 392,
+      "ref": "TMR1995/r22.24",
+      "title": "Amendments made by Part 10 of Schedule 2"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div5",
+      "kind": "regulation",
+      "number": "22.25",
+      "ordinal": 393,
+      "ref": "TMR1995/r22.25",
+      "title": "Amendments made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div6",
+      "kind": "regulation",
+      "number": "22.26",
+      "ordinal": 394,
+      "ref": "TMR1995/r22.26",
+      "title": "Amendments made by Part 1 of Schedule 1"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div6",
+      "kind": "regulation",
+      "number": "22.27",
+      "ordinal": 395,
+      "ref": "TMR1995/r22.27",
+      "title": "Amendments made by Part 2 of Schedule 1"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div6",
+      "kind": "regulation",
+      "number": "22.28",
+      "ordinal": 396,
+      "ref": "TMR1995/r22.28",
+      "title": "Amendments made by Part 3 of Schedule 1"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div6",
+      "kind": "regulation",
+      "number": "22.29",
+      "ordinal": 397,
+      "ref": "TMR1995/r22.29",
+      "title": "Amendments made by Part 4 of Schedule 1"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div7",
+      "kind": "regulation",
+      "number": "22.30",
+      "ordinal": 398,
+      "ref": "TMR1995/r22.30",
+      "title": "Amendments made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div8",
+      "kind": "regulation",
+      "number": "22.31",
+      "ordinal": 399,
+      "ref": "TMR1995/r22.31",
+      "title": "Application provisions—increased period for filing of notice of intention to defend"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div8",
+      "kind": "regulation",
+      "number": "22.32",
+      "ordinal": 400,
+      "ref": "TMR1995/r22.32",
+      "title": "Application provision—relationship between registered trade marks and protected international trade marks"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div8",
+      "kind": "regulation",
+      "number": "22.33",
+      "ordinal": 401,
+      "ref": "TMR1995/r22.33",
+      "title": "Application provision—rejecting IRDA on basis of sanctions regime"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div8",
+      "kind": "regulation",
+      "number": "22.34",
+      "ordinal": 402,
+      "ref": "TMR1995/r22.34",
+      "title": "Application provision—Registrar’s power to revoke acceptance of IRDA"
+    },
+    {
+      "container_ref": "TMR1995/pt22/div8",
+      "kind": "regulation",
+      "number": "22.35",
+      "ordinal": 403,
+      "ref": "TMR1995/r22.35",
+      "title": "Application provision—extending period for examining trade mark applications where a hearing is requested"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "1",
+      "ordinal": 404,
+      "ref": "TMR1995/sch1",
+      "title": "Classification of goods and services"
+    },
+    {
+      "container_ref": "TMR1995/sch1",
+      "kind": "container",
+      "number": "1",
+      "ordinal": 405,
+      "ref": "TMR1995/sch1/pt1",
+      "title": "Classes of goods"
+    },
+    {
+      "container_ref": "TMR1995/sch1",
+      "kind": "container",
+      "number": "2",
+      "ordinal": 406,
+      "ref": "TMR1995/sch1/pt2",
+      "title": "Classes of services"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "2",
+      "ordinal": 407,
+      "ref": "TMR1995/sch2",
+      "title": "Signs that may not be registered as trade marks"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "3",
+      "ordinal": 408,
+      "ref": "TMR1995/sch3",
+      "title": "Modifications of Part 13 of the Act (Norfolk Island)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "1",
+      "ordinal": 409,
+      "ref": "TMR1995/sch3/item1",
+      "title": "After section 131"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "2",
+      "ordinal": 410,
+      "ref": "TMR1995/sch3/item2",
+      "title": "Paragraph 133(1)(b)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3",
+      "ordinal": 411,
+      "ref": "TMR1995/sch3/item3",
+      "title": "Section 133A"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3A",
+      "ordinal": 412,
+      "ref": "TMR1995/sch3/item3a",
+      "title": "Section 133A (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3B",
+      "ordinal": 413,
+      "ref": "TMR1995/sch3/item3b",
+      "title": "Subsection 134(1) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3C",
+      "ordinal": 414,
+      "ref": "TMR1995/sch3/item3c",
+      "title": "Subsection 134A(1) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3D",
+      "ordinal": 415,
+      "ref": "TMR1995/sch3/item3d",
+      "title": "Subsection 135(2) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3E",
+      "ordinal": 416,
+      "ref": "TMR1995/sch3/item3e",
+      "title": "Subsection 136(1) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3F",
+      "ordinal": 417,
+      "ref": "TMR1995/sch3/item3f",
+      "title": "Subsections 136C(1) and 136D(1) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3G",
+      "ordinal": 418,
+      "ref": "TMR1995/sch3/item3g",
+      "title": "Section 136E (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "3H",
+      "ordinal": 419,
+      "ref": "TMR1995/sch3/item3h",
+      "title": "Subsection 137(3) (note)"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "5",
+      "ordinal": 420,
+      "ref": "TMR1995/sch3/item5",
+      "title": "Section 140"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "8",
+      "ordinal": 421,
+      "ref": "TMR1995/sch3/item8",
+      "title": "Further amendments—Norfolk Island"
+    },
+    {
+      "container_ref": "TMR1995/sch3",
+      "kind": "item",
+      "number": "9",
+      "ordinal": 422,
+      "ref": "TMR1995/sch3/item9",
+      "title": "Section 144"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "4",
+      "ordinal": 423,
+      "ref": "TMR1995/sch4",
+      "title": "Modifications of Part 13 of the Act (Christmas Island)"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "1",
+      "ordinal": 424,
+      "ref": "TMR1995/sch4/item1",
+      "title": "After section 131"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "2",
+      "ordinal": 425,
+      "ref": "TMR1995/sch4/item2",
+      "title": "Paragraph 133(1)(b)"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "3",
+      "ordinal": 426,
+      "ref": "TMR1995/sch4/item3",
+      "title": "Section 133A"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "4",
+      "ordinal": 427,
+      "ref": "TMR1995/sch4/item4",
+      "title": "Section 140"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "5",
+      "ordinal": 428,
+      "ref": "TMR1995/sch4/item5",
+      "title": "Further amendments—Christmas Island"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "6",
+      "ordinal": 429,
+      "ref": "TMR1995/sch4/item6",
+      "title": "Further amendments—Comptroller"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "7",
+      "ordinal": 430,
+      "ref": "TMR1995/sch4/item7",
+      "title": "Further amendments—Territory of Christmas Island"
+    },
+    {
+      "container_ref": "TMR1995/sch4",
+      "kind": "item",
+      "number": "8",
+      "ordinal": 431,
+      "ref": "TMR1995/sch4/item8",
+      "title": "Section 144"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "5",
+      "ordinal": 432,
+      "ref": "TMR1995/sch5",
+      "title": "Modifications of Part 13 of the Act (Cocos (Keeling) Islands)"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "1",
+      "ordinal": 433,
+      "ref": "TMR1995/sch5/item1",
+      "title": "After section 131"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "2",
+      "ordinal": 434,
+      "ref": "TMR1995/sch5/item2",
+      "title": "Paragraph 133(1)(b)"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "3",
+      "ordinal": 435,
+      "ref": "TMR1995/sch5/item3",
+      "title": "Section 133A"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "4",
+      "ordinal": 436,
+      "ref": "TMR1995/sch5/item4",
+      "title": "Section 140"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "5",
+      "ordinal": 437,
+      "ref": "TMR1995/sch5/item5",
+      "title": "Further amendments—the Cocos (Keeling) Islands"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "6",
+      "ordinal": 438,
+      "ref": "TMR1995/sch5/item6",
+      "title": "Further amendments—Comptroller"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "7",
+      "ordinal": 439,
+      "ref": "TMR1995/sch5/item7",
+      "title": "Further amendments—Cocos (Keeling) Islands"
+    },
+    {
+      "container_ref": "TMR1995/sch5",
+      "kind": "item",
+      "number": "8",
+      "ordinal": 440,
+      "ref": "TMR1995/sch5/item8",
+      "title": "Section 144"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "6",
+      "ordinal": 441,
+      "ref": "TMR1995/sch6",
+      "title": "Offices of persons to whom registrar may delegate"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "8",
+      "ordinal": 442,
+      "ref": "TMR1995/sch8",
+      "title": "Costs, expenses and allowances"
+    },
+    {
+      "container_ref": "TMR1995/sch8",
+      "kind": "container",
+      "number": "1",
+      "ordinal": 443,
+      "ref": "TMR1995/sch8/pt1",
+      "title": "Costs"
+    },
+    {
+      "container_ref": "TMR1995/sch8/pt2",
+      "kind": "container",
+      "number": "1",
+      "ordinal": 444,
+      "ref": "TMR1995/sch8/pt2/div1",
+      "title": "Expenses"
+    },
+    {
+      "container_ref": "TMR1995/sch8/pt2",
+      "kind": "container",
+      "number": "2",
+      "ordinal": 445,
+      "ref": "TMR1995/sch8/pt2/div2",
+      "title": "Allowances"
+    },
+    {
+      "container_ref": null,
+      "kind": "container",
+      "number": "9",
+      "ordinal": 446,
+      "ref": "TMR1995/sch9",
+      "title": "Fees"
+    },
+    {
+      "container_ref": "TMR1995/sch9",
+      "kind": "clause",
+      "number": "1",
+      "ordinal": 447,
+      "ref": "TMR1995/sch9/c1",
+      "title": "Table of fees"
+    }
+  ]
+}

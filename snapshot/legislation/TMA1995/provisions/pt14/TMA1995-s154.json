@@ -1,0 +1,177 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:631f7900c1268addf57ee7b4e849cb24e0a75263cc5e102703b3fa434bff527d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "154  Refusing to give evidence etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "154",
+  "ref": "TMA1995/s154",
+  "text": "(1) A person appearing before the Registrar as a witness must not: (a) refuse to be sworn or to make an affirmation; or (b) refuse to answer questions that he or she is lawfully required to answer; or (c) fail to produce any document or thing that he or she is lawfully required to produce. Penalty: 10 penalty units. (1A) Subsection (1) does not apply if the person has a reasonable excuse. Note: A defendant bears an evidential burden in relation to the matter in subsection (1A), see subsection 13.3(3) of the Criminal Code. (2) An offence under this section is an offence of strict liability. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For strict liability, see section 6.1 of the Criminal Code.",
+  "title": "Refusing to give evidence etc.",
+  "units": [
+    {
+      "content_hash": "sha256:22401d4a9d7505241d21b6e79adf58ab3ea639708c67f78e8e3649783055123c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s154(1)",
+      "style": "subsection",
+      "text": "(1) A person appearing before the Registrar as a witness must not:"
+    },
+    {
+      "content_hash": "sha256:95c8955643edd3a3f025aff7126fa08d0f2ae9974b740102b407431890d85048",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s154(1)",
+      "ref": "TMA1995/s154(1)(a)",
+      "style": "paragraph",
+      "text": "(a) refuse to be sworn or to make an affirmation; or"
+    },
+    {
+      "content_hash": "sha256:b764e3284f2bc74475772af1c7b567275031a6254dc8a34f570a05ed59fd596e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s154(1)",
+      "ref": "TMA1995/s154(1)(b)",
+      "style": "paragraph",
+      "text": "(b) refuse to answer questions that he or she is lawfully required to answer; or"
+    },
+    {
+      "content_hash": "sha256:b40430e9b0cd2f68c05f5f7c62e133334b172b38ff5bffd0df5fb2b4bcc3411c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s154(1)",
+      "ref": "TMA1995/s154(1)(c)",
+      "style": "paragraph",
+      "text": "(c) fail to produce any document or thing that he or she is lawfully required to produce."
+    },
+    {
+      "content_hash": "sha256:2e132337ca948054e9c5b18cc7720084950ece3640ae35ed0a7c44512e4b5595",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s154~1",
+      "style": "Penalty",
+      "text": "Penalty: 10 penalty units."
+    },
+    {
+      "content_hash": "sha256:b6cd13081b699e1e49b55a671ea32cf8b6c61788f97327d2e86897e02a559878",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1A)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s154(1A)",
+      "style": "subsection",
+      "text": "(1A) Subsection (1) does not apply if the person has a reasonable excuse."
+    },
+    {
+      "content_hash": "sha256:8ecc1dab79cc98f48dc6b4b8024609efe3764909d272c883729dd9a1a2a9ba8a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 134,
+          "start": 121,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s154(1A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s13.3(3)",
+          "mention": "subsection 13.3(3)"
+        }
+      ],
+      "ref": "TMA1995/s154(1A)~1",
+      "style": "notetext",
+      "text": "Note: A defendant bears an evidential burden in relation to the matter in subsection (1A), see subsection 13.3(3) of the Criminal Code."
+    },
+    {
+      "content_hash": "sha256:e0bf3976ec7ebc8dad3b4b6e335f793723848d5062830838b3bf5e3b2c229da6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s154(2)",
+      "style": "subsection",
+      "text": "(2) An offence under this section is an offence of strict liability."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s154(2)",
+      "ref": "TMA1995/s154(2)~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:6355dc6e944140af7af54cf00be1ae680cba7df9ea851d1c02148bd5acbd6728",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "strict liability",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 66,
+          "start": 53,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s154(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.1",
+          "mention": "section 6.1"
+        }
+      ],
+      "ref": "TMA1995/s154(2)~2",
+      "style": "notetext",
+      "text": "Note 2: For strict liability, see section 6.1 of the Criminal Code."
+    }
+  ]
+}

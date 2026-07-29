@@ -1,0 +1,287 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:b6a9a156472add5135ba4e8a2c40139b77339bd572c0cd47cfcde94836bb4f7f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "160  Conduct of employees and agents of natural persons"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "160",
+  "ref": "TMA1995/s160",
+  "text": "(1) This section applies for the purposes of a prosecution for: (a) an offence under this Act; or (b) an offence under section 6 of the Crimes Act 1914 that relates to this Act; or (c) an offence against section 11.1, 11.4 or 11.5 of the Criminal Code that relates to this Act. Note: For provisions relating to proof of offences by bodies corporate, see Part 2.5 of the Criminal Code. (4) If it is necessary to prove the state of mind of an individual in relation to particular conduct, it is enough to show: (a) that the conduct was engaged in by a servant or agent of the individual within the scope of his or her actual or apparent authority; and (b) that the servant or agent had the state of mind. (5) Any conduct engaged in on behalf of an individual by a servant or agent of the individual within the scope of his or her actual or apparent authority is taken to have been engaged in also by the individual, unless the individual establishes that he or she took reasonable precautions and exercised due diligence to avoid the conduct. (6) If: (a) an individual is convicted of an offence under this Act; and (b) the individual would not have been convicted of the offence if subsections (4) and (5) had not been enacted; the individual is not liable to be punished by imprisonment for that offence. (7) In this section: engage in conduct includes fail or refuse to engage in conduct. state of mind, in relation to a person, includes: (a) the person’s knowledge, intention, opinion, belief or purpose; and (b) the person’s reasons for the intention, opinion, belief or purpose.",
+  "title": "Conduct of employees and agents of natural persons",
+  "units": [
+    {
+      "content_hash": "sha256:68b7ae6845901ca4323e04b5827b1716031ad609d43e78e2a58abfb31a25a48b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s160(1)",
+      "style": "subsection",
+      "text": "(1) This section applies for the purposes of a prosecution for:"
+    },
+    {
+      "content_hash": "sha256:3d00ee1edce125ce5195b13feb19b7e3e1923a8880b39186b80918ee0437e605",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s160(1)",
+      "ref": "TMA1995/s160(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an offence under this Act; or"
+    },
+    {
+      "content_hash": "sha256:e13901810240a703fb721d6c102be42d2c40725fd4027052170503bfdf20405c",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 53,
+          "start": 38,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s160(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s160(1)(b)",
+      "style": "paragraph",
+      "text": "(b) an offence under section 6 of the Crimes Act 1914 that relates to this Act; or"
+    },
+    {
+      "content_hash": "sha256:590f3bb0d9b09b6c4ee29d9ab558c637406ea9b8afafc6a9a3d1bdef0ccb2953",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 70,
+          "start": 57,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s160(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11.1",
+          "mention": "section 11.1, 11.4 or 11.5"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11.4",
+          "mention": "section 11.1, 11.4 or 11.5"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11.5",
+          "mention": "section 11.1, 11.4 or 11.5"
+        }
+      ],
+      "ref": "TMA1995/s160(1)(c)",
+      "style": "paragraph",
+      "text": "(c) an offence against section 11.1, 11.4 or 11.5 of the Criminal Code that relates to this Act."
+    },
+    {
+      "content_hash": "sha256:e1c4f888de76a848ba4bfe9fe85b99d1c23852035d43cbb60604c0fe886a8db5",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 105,
+          "start": 92,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s160(1)(c)",
+      "ref": "TMA1995/s160(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For provisions relating to proof of offences by bodies corporate, see Part 2.5 of the Criminal Code."
+    },
+    {
+      "content_hash": "sha256:4fe64baef15c02c309e351c51fc12d3b8a7f87b561b67e42236d189e1ad55093",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s160(4)",
+      "style": "subsection",
+      "text": "(4) If it is necessary to prove the state of mind of an individual in relation to particular conduct, it is enough to show:"
+    },
+    {
+      "content_hash": "sha256:5d7415aa8944448a563a1db28c1807fd1228e651fbe84131b81aceba5c4cafbe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s160(4)",
+      "ref": "TMA1995/s160(4)(a)",
+      "style": "paragraph",
+      "text": "(a) that the conduct was engaged in by a servant or agent of the individual within the scope of his or her actual or apparent authority; and"
+    },
+    {
+      "content_hash": "sha256:57876dfe09af39129e1a59904614b96726510c7e65c276f714799bc3a38ec8fc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s160(4)",
+      "ref": "TMA1995/s160(4)(b)",
+      "style": "paragraph",
+      "text": "(b) that the servant or agent had the state of mind."
+    },
+    {
+      "content_hash": "sha256:24bd6becc738080c4b8656fe71c5e61233be07ee946d683fd42e40b93ac48e74",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s160(5)",
+      "style": "subsection",
+      "text": "(5) Any conduct engaged in on behalf of an individual by a servant or agent of the individual within the scope of his or her actual or apparent authority is taken to have been engaged in also by the individual, unless the individual establishes that he or she took reasonable precautions and exercised due diligence to avoid the conduct."
+    },
+    {
+      "content_hash": "sha256:c69e902e303843f8c1a10148bf81b0e73dee514ebd0d40ec1f0bc8e9886965d7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s160(6)",
+      "style": "subsection",
+      "text": "(6) If:"
+    },
+    {
+      "content_hash": "sha256:c839b041b75dce9c22e1a518d46e6cbe67c0d5600f657f959c8cc99035d0a9ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s160(6)",
+      "ref": "TMA1995/s160(6)(a)",
+      "style": "paragraph",
+      "text": "(a) an individual is convicted of an offence under this Act; and"
+    },
+    {
+      "content_hash": "sha256:34c12aa5c0cb1d0a1698278163cc669763872f2a1bfcb36aaf22d4e510d07ec3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s160(6)",
+      "ref": "TMA1995/s160(6)(b)",
+      "style": "paragraph",
+      "text": "(b) the individual would not have been convicted of the offence if subsections (4) and (5) had not been enacted;"
+    },
+    {
+      "content_hash": "sha256:dfe1d42cf28aaf22304871d8ac290b9c97e4ffac7be52b1470996f68d1c9a6e2",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s160~1",
+      "style": "subsection2",
+      "text": "the individual is not liable to be punished by imprisonment for that offence."
+    },
+    {
+      "content_hash": "sha256:723f572790da56eb4eccbfa779a937f8c961efed26ea9c97aca8e0d4e2debb96",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s160(7)",
+      "style": "subsection",
+      "text": "(7) In this section:"
+    },
+    {
+      "content_hash": "sha256:8cd8cabbc9e9b3b9bbd98488b2bc4af327d36eaa552b4a30c85a5cdf95980dda",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 0,
+          "text": "engage in conduct",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s160~2",
+      "style": "Definition",
+      "text": "engage in conduct includes fail or refuse to engage in conduct."
+    },
+    {
+      "content_hash": "sha256:83b270c782c461645321082dde98c0d6397aed2878c48f75d7ce949c80ea4b23",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 13,
+          "start": 0,
+          "text": "state of mind",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s160~3",
+      "style": "Definition",
+      "text": "state of mind, in relation to a person, includes:"
+    },
+    {
+      "content_hash": "sha256:750a0bbce2f75b9165c9d11494dff6171e8b62959dccdd1a04ab22f3e51fffc4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s160~3",
+      "ref": "TMA1995/s160~3(a)",
+      "style": "paragraph",
+      "text": "(a) the person’s knowledge, intention, opinion, belief or purpose; and"
+    },
+    {
+      "content_hash": "sha256:14f342def64a849fa4522b9f0b3394eb9627db42cc817ca6f227d5178cad5939",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s160~3",
+      "ref": "TMA1995/s160~3(b)",
+      "style": "paragraph",
+      "text": "(b) the person’s reasons for the intention, opinion, belief or purpose."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:5897bb58cba2a9524a446a6f12e49a02982fab555474da8f1f377ae2a00d476d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34  Grounds for opposing IRDA"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34",
+  "ref": "TMR1995/r17A.34",
+  "text": "(1) The extension of protection may be opposed on any of the grounds on which an IRDA may be rejected under Subdivision 2, except the ground that the trade mark cannot be represented graphically. (2) The extension of protection may also be opposed on any of the grounds set out in sections 58 to 61 and 62A of the Act, as affected by subregulation (3). (3) Sections 58 to 61 and 62A of the Act apply in relation to an IRDA as if: (a) a reference in those sections: (i) to an application for the registration of a trade mark were a reference to the IRDA; and (ii) to an applicant were a reference to the holder of the IRDA; and (iii) to the registration of a trade mark were a reference to the extension of protection in Australia to the trade mark that is the subject of the IRDA; and (b) the reference in paragraph 60(a) of the Act to the priority date for the registration of the trade mark were a reference to the priority date for the trade mark that is the subject of the IRDA. (4) The extension of protection may also be opposed on the grounds that: (a) a document filed in support of the IRDA was amended contrary to the Act; or (b) the Registrar accepted the IRDA on the basis of evidence provided, or a representation made, by the holder that was false in a material particular. Note: Section 66 of the Act provides for the amendment of documents filed with the Registrar.",
+  "title": "Grounds for opposing IRDA",
+  "units": [
+    {
+      "content_hash": "sha256:10e43e4afd84c48f7923125271f788f80b91344a4f048f4de4376311ff566240",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34(1)",
+      "style": "subsection",
+      "text": "(1) The extension of protection may be opposed on any of the grounds on which an IRDA may be rejected under Subdivision 2, except the ground that the trade mark cannot be represented graphically."
+    },
+    {
+      "content_hash": "sha256:aa34224d7ff001c50b693ee20e0e55d93a2b6db9020a5baefeee760a117acd5f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s58",
+          "mention": "sections 58 to 61 and 62A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s61",
+          "mention": "sections 58 to 61 and 62A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s62A",
+          "mention": "sections 58 to 61 and 62A"
+        }
+      ],
+      "ref": "TMR1995/r17A.34(2)",
+      "style": "subsection",
+      "text": "(2) The extension of protection may also be opposed on any of the grounds set out in sections 58 to 61 and 62A of the Act, as affected by subregulation (3)."
+    },
+    {
+      "content_hash": "sha256:996ba9e291adc6c37f1bc4241ee22a04ece137c9c580eba84712551ef36aa4f5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s58",
+          "mention": "Sections 58 to 61 and 62A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s61",
+          "mention": "Sections 58 to 61 and 62A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s62A",
+          "mention": "Sections 58 to 61 and 62A"
+        }
+      ],
+      "ref": "TMR1995/r17A.34(3)",
+      "style": "subsection",
+      "text": "(3) Sections 58 to 61 and 62A of the Act apply in relation to an IRDA as if:"
+    },
+    {
+      "content_hash": "sha256:6914b51da892b63a2cdecb8f06c7580b0248d32a9a813decbd9a0ed1bc26b540",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.34(3)",
+      "ref": "TMR1995/r17A.34(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference in those sections:"
+    },
+    {
+      "content_hash": "sha256:e41b60a16b66927e1ffeeb5105b585481367a5d4ac1ac1a56da346f3ccfaac7a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.34(3)(a)",
+      "ref": "TMR1995/r17A.34(3)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to an application for the registration of a trade mark were a reference to the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:008ef0bf1cc6e51ba96f5cdee989661be1c12f1410cdabd7b12e32481df0d190",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.34(3)(a)",
+      "ref": "TMR1995/r17A.34(3)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to an applicant were a reference to the holder of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:facb4c5c6fb9b7d59a0a91b1e216f20071dd091a2cc5da5226a268a8bc6c5f9f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.34(3)(a)",
+      "ref": "TMR1995/r17A.34(3)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) to the registration of a trade mark were a reference to the extension of protection in Australia to the trade mark that is the subject of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:74903ba5ec6fd3c4ace43573a68367cadf6ece227306ad5cf48ff9340c120e7c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.34(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s60(a)",
+          "mention": "paragraph 60(a)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the reference in paragraph 60(a) of the Act to the priority date for the registration of the trade mark were a reference to the priority date for the trade mark that is the subject of the IRDA."
+    },
+    {
+      "content_hash": "sha256:8a44790f0fe9a6948215c7bab33e66760ab018d171fec2ea4045bbfc9b5593a8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34(4)",
+      "style": "subsection",
+      "text": "(4) The extension of protection may also be opposed on the grounds that:"
+    },
+    {
+      "content_hash": "sha256:ae7cbac8edacea08ad7dee350407d798a3a3646459d51dce20ea145efb9babc9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.34(4)",
+      "ref": "TMR1995/r17A.34(4)(a)",
+      "style": "paragraph",
+      "text": "(a) a document filed in support of the IRDA was amended contrary to the Act; or"
+    },
+    {
+      "content_hash": "sha256:042f7a9470c99444fe96419eb98fdeacc4c1007fa9136b5bb2bfb96511f150a9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.34(4)",
+      "ref": "TMR1995/r17A.34(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar accepted the IRDA on the basis of evidence provided, or a representation made, by the holder that was false in a material particular."
+    },
+    {
+      "content_hash": "sha256:a74d4ac9bdd1c6d7d8caa300cfd49decd72e90476b0785d1c0893e99aa1f57bd",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.34(4)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s66",
+          "mention": "Section 66"
+        }
+      ],
+      "ref": "TMR1995/r17A.34(4)(b)~1",
+      "style": "notetext",
+      "text": "Note: Section 66 of the Act provides for the amendment of documents filed with the Registrar."
+    }
+  ]
+}

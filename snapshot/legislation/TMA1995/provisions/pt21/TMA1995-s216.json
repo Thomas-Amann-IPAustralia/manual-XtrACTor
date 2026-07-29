@@ -1,0 +1,105 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:e128b9601b4529a216f2884877495f24ce9fababf88582c4277994a913917124",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "216  Change of name"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "216",
+  "ref": "TMA1995/s216",
+  "text": "(1) If there is a change in the name of a person who has filed an application, notice or request, the person must notify the Registrar in writing of the change. Note: For file see section 6. (2) If there is a change in the name of: (a) the registered owner of a registered trade mark; or (b) a person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register; the registered owner or the person must notify the Registrar in writing of the change and the Registrar must amend the Register accordingly.",
+  "title": "Change of name",
+  "units": [
+    {
+      "content_hash": "sha256:61be59755896138b9db27e7adc7a24513f1e5218c5089d46f62130b1d2d4eb9d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s216(1)",
+      "style": "subsection",
+      "text": "(1) If there is a change in the name of a person who has filed an application, notice or request, the person must notify the Registrar in writing of the change."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s216(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s216(1)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    },
+    {
+      "content_hash": "sha256:b54a49ab3b5de586013f8b1d542f3efb89777af130a1c83e014d5a5da06d45a2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s216(2)",
+      "style": "subsection",
+      "text": "(2) If there is a change in the name of:"
+    },
+    {
+      "content_hash": "sha256:e9b08cd6903a2df129eda45983a061b42309c31daeae73146e243fbd7c147ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s216(2)",
+      "ref": "TMA1995/s216(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner of a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:f494ac598cd04b6904d12d4a449f983a0e8aa07349990c7b71b2d97f70aa7ab9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s216(2)",
+      "ref": "TMA1995/s216(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register;"
+    },
+    {
+      "content_hash": "sha256:fa6eb53c0a53f6bc821e6c8a6267a8e906c3261c0ee74bcdcb389d1046f9a05c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s216~1",
+      "style": "subsection2",
+      "text": "the registered owner or the person must notify the Registrar in writing of the change and the Registrar must amend the Register accordingly."
+    }
+  ]
+}

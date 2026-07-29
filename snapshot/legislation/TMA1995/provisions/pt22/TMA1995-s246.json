@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:c6784036fdc703498c64b4629f1309f040036af9adb3795a4bba03dc85ed6ee4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "246  Application for registration of a mark in Part D of the old register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "246",
+  "ref": "TMA1995/s246",
+  "text": "(1) Subject to Part 17, section 241 applies to an application for the registration of a mark as a defensive trade mark in Part D of the old register as if the reference in subsection (1) to Part A or B of the old register were a reference to Part D of that register. (2) Subject to Part 17, sections 242 to 244 apply to an application for the registration of a mark as a defensive trade mark in Part D of the old register.",
+  "title": "Application for registration of a mark in Part D of the old register",
+  "units": [
+    {
+      "content_hash": "sha256:eca8c99972df303a37d978163e1a3b981d65f6e687051d19820e042d4a7c425c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s241",
+          "mention": "section 241"
+        }
+      ],
+      "ref": "TMA1995/s246(1)",
+      "style": "subsection",
+      "text": "(1) Subject to Part 17, section 241 applies to an application for the registration of a mark as a defensive trade mark in Part D of the old register as if the reference in subsection (1) to Part A or B of the old register were a reference to Part D of that register."
+    },
+    {
+      "content_hash": "sha256:77b54f52d6ff06ce743e7adf55a1ee5e7cd2e736edc97ac7a2a7c26e5b6866e8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s242",
+          "mention": "sections 242 to 244"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s244",
+          "mention": "sections 242 to 244"
+        }
+      ],
+      "ref": "TMA1995/s246(2)",
+      "style": "subsection",
+      "text": "(2) Subject to Part 17, sections 242 to 244 apply to an application for the registration of a mark as a defensive trade mark in Part D of the old register."
+    }
+  ]
+}

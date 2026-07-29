@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:ecf843a502d95cd02974fec8a61c0e86740818500621aa5710a5c9c4ffb34fd0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "35  Appeal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "35",
+  "ref": "TMA1995/s35",
+  "text": "The applicant may appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) against a decision of the Registrar: (a) to accept the application subject to conditions or limitations; or (b) to reject the application. Note: For applicant see section 6.",
+  "title": "Appeal",
+  "units": [
+    {
+      "content_hash": "sha256:13c086459760918d7f52300b9e632730f542f39aa597bec4a55ab94e2acd27a6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s35~1",
+      "style": "subsection",
+      "text": "The applicant may appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) against a decision of the Registrar:"
+    },
+    {
+      "content_hash": "sha256:39a6112fc35c55d0980f31b6bee36aa1600f962aa9bea8e440e0f6c24c2e25d6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s35~1",
+      "ref": "TMA1995/s35~1(a)",
+      "style": "paragraph",
+      "text": "(a) to accept the application subject to conditions or limitations; or"
+    },
+    {
+      "content_hash": "sha256:8868b7544dc5ed32151c6fcdde60551d0aa76ed6d87c4902b91f3f3065caa954",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s35~1",
+      "ref": "TMA1995/s35~1(b)",
+      "style": "paragraph",
+      "text": "(b) to reject the application."
+    },
+    {
+      "content_hash": "sha256:41e164bb53fd8c2e42da3fec14283d1b0cdedb4ba275d504e98fa3bf72a5b01e",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s35~1(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s35~1(b)~1",
+      "style": "notetext",
+      "text": "Note: For applicant see section 6."
+    }
+  ]
+}

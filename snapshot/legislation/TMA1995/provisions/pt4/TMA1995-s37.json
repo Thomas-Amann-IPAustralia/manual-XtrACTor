@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:751a181c0ed5176ef8513fac1e190a3c07959f57f864c9deec225799c449d141",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "37  Lapsing of application if not accepted in time"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "37",
+  "ref": "TMA1995/s37",
+  "text": "(1) Subject to subsection (2), an application lapses if it is not accepted within the prescribed period or within that period as extended in accordance with the regulations. (2) If, after the prescribed period or the prescribed period as extended (as the case may be) has expired, the Registrar extends under section 224 the period within which the application may be accepted, the application: (a) is taken not to have lapsed when the prescribed period expired; and (b) lapses if it is not accepted within the extended period.",
+  "title": "Lapsing of application if not accepted in time",
+  "units": [
+    {
+      "content_hash": "sha256:bccbd3541a3dff5119d39d44830ebe2b78d7580a4217cfe85915ac054351b2df",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s37(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (2), an application lapses if it is not accepted within the prescribed period or within that period as extended in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:fe2e0ac8912f28d0db8be5f9999e63f6f68c6ce70bd97d77ecafee2fda787104",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMA1995/s37(2)",
+      "style": "subsection",
+      "text": "(2) If, after the prescribed period or the prescribed period as extended (as the case may be) has expired, the Registrar extends under section 224 the period within which the application may be accepted, the application:"
+    },
+    {
+      "content_hash": "sha256:27645116a3c7e21d13914d21c950422b634f9bae24845dddbe500e8713b3889d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s37(2)",
+      "ref": "TMA1995/s37(2)(a)",
+      "style": "paragraph",
+      "text": "(a) is taken not to have lapsed when the prescribed period expired; and"
+    },
+    {
+      "content_hash": "sha256:0b0ebc50ed61be1bad087a98d69b8e98eb85a37a02413b9f7912012e429af97a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s37(2)",
+      "ref": "TMA1995/s37(2)(b)",
+      "style": "paragraph",
+      "text": "(b) lapses if it is not accepted within the extended period."
+    }
+  ]
+}

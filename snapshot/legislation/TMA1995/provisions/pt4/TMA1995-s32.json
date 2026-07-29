@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:eb77ae2ad1295cafefcc2cec94310c70a2254775b0c0de10bff12112091dad08",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "32  Registrar to decide on disputed classification of goods etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "32",
+  "ref": "TMA1995/s32",
+  "text": "If a question arises as to the class in which goods or services are comprised: (a) that question is to be decided by the Registrar; and (b) the decision of the Registrar is not subject to appeal and may not be called into question in an appeal or other proceedings under this Act.",
+  "title": "Registrar to decide on disputed classification of goods etc.",
+  "units": [
+    {
+      "content_hash": "sha256:d03305334ea111f52097f1632f4d01402cedde5d67ce73ee19025ef43b2ef7e4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s32~1",
+      "style": "subsection",
+      "text": "If a question arises as to the class in which goods or services are comprised:"
+    },
+    {
+      "content_hash": "sha256:0b4555ab5fbbe9335b108a891bd5adb4b96df5b9b76c2e899d2d1c7cbe619db9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s32~1",
+      "ref": "TMA1995/s32~1(a)",
+      "style": "paragraph",
+      "text": "(a) that question is to be decided by the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:78edb7658ef27140b56454c189a04c417ef2120386bd7cd5b0e9a673b193e517",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s32~1",
+      "ref": "TMA1995/s32~1(b)",
+      "style": "paragraph",
+      "text": "(b) the decision of the Registrar is not subject to appeal and may not be called into question in an appeal or other proceedings under this Act."
+    }
+  ]
+}

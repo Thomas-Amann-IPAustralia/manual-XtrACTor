@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:2c273e82666f3094715eabe7394b7b19ba0186ef843d2280885b7f60cbca6cee",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.3A  Amendment because of inconsistency with international agreements—publication of request"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.3A",
+  "ref": "TMR1995/r8.3A",
+  "text": "For the purposes of subsection 83A(3) of the Act, the request for the amendment must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Amendment because of inconsistency with international agreements—publication of request",
+  "units": [
+    {
+      "content_hash": "sha256:2c273e82666f3094715eabe7394b7b19ba0186ef843d2280885b7f60cbca6cee",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s83A(3)",
+          "mention": "subsection 83A(3)"
+        }
+      ],
+      "ref": "TMR1995/r8.3A~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 83A(3) of the Act, the request for the amendment must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

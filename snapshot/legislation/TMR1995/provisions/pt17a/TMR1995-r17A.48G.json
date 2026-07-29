@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:7db4ed89346cfd41fe60788b2fdd0380b9ce1109659b29541ea1313a3e2388de",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48G  Filing of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48G",
+  "ref": "TMR1995/r17A.48G",
+  "text": "(1) For subsection 96(2) of the Act, the period for filing a notice of intention to oppose the application for cessation of protection must be filed within 2 months from the day the application for cessation of protection is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 17A.48E(2). (2) The notice must be in an approved form. (3) The Registrar must give a copy of the notice to the applicant.",
+  "title": "Filing of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:46e6e745a10ef741a1147d3e7f41eb67b96b9175b7332a0cea226013f664c887",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96(2)",
+          "mention": "subsection 96(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48E(2)",
+          "mention": "subregulation 17A.48E(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48G(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 96(2) of the Act, the period for filing a notice of intention to oppose the application for cessation of protection must be filed within 2 months from the day the application for cessation of protection is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 17A.48E(2)."
+    },
+    {
+      "content_hash": "sha256:cff104fd035bdb4288a7e06c320cc644bb966a51671a54d50c6cc8c9a48c5d52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48G(2)",
+      "style": "subsection",
+      "text": "(2) The notice must be in an approved form."
+    },
+    {
+      "content_hash": "sha256:b5aec6cdb0731ceddcf13fb51c33abba66782a3f94ef0e1262296c8252b4a173",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48G(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must give a copy of the notice to the applicant."
+    }
+  ]
+}

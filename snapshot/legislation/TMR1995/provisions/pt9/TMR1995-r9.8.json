@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdiva"
+  ],
+  "content_hash": "sha256:6cd50d353624214fe2ce6b1bdb5decc10be51bbe5d08dc70520c67778cec3a2b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "9.8  Filing of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.8",
+  "ref": "TMR1995/r9.8",
+  "text": "(1) For subsection 96(2) of the Act, the period for filing a notice of intention to oppose is 2 months from the day the application for removal is published in a computer database maintained by the Trade Marks Office. (2) The notice must be in an approved form. (3) The Registrar must give a copy of the notice to the applicant.",
+  "title": "Filing of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:87fce247d61e1438d735260704cd5ba57dd17194e681c4ce808da00b35f7c605",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96(2)",
+          "mention": "subsection 96(2)"
+        }
+      ],
+      "ref": "TMR1995/r9.8(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 96(2) of the Act, the period for filing a notice of intention to oppose is 2 months from the day the application for removal is published in a computer database maintained by the Trade Marks Office."
+    },
+    {
+      "content_hash": "sha256:cff104fd035bdb4288a7e06c320cc644bb966a51671a54d50c6cc8c9a48c5d52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.8(2)",
+      "style": "subsection",
+      "text": "(2) The notice must be in an approved form."
+    },
+    {
+      "content_hash": "sha256:b5aec6cdb0731ceddcf13fb51c33abba66782a3f94ef0e1262296c8252b4a173",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.8(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must give a copy of the notice to the applicant."
+    }
+  ]
+}

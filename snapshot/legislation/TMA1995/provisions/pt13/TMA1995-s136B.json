@@ -1,0 +1,142 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:231851d7b514b5a422d9693343f7d9b474cac768cbe2ce59c63d50880106fe6c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "136B  Late claim for release of seized goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "136B",
+  "ref": "TMA1995/s136B",
+  "text": "(1) The ComptrollerGeneral of Customs may allow the designated owner to make a claim (the late claim) to the ComptrollerGeneral of Customs for the release of seized goods after the end of the claim period for the goods. Note: For objector, seized goods and claim period see section 6. (2) The ComptrollerGeneral of Customs may allow the late claim only if: (a) an action for infringement of the notified trade mark in respect of the goods has not been instituted; and (b) the ComptrollerGeneral of Customs considers it reasonable in the circumstances; and (c) the goods have not been disposed of under section 139. (3) An application may be made to the Administrative Review Tribunal for the review of a decision of the ComptrollerGeneral of Customs under subsection (1) refusing to allow a late claim for the release of seized goods.",
+  "title": "Late claim for release of seized goods",
+  "units": [
+    {
+      "content_hash": "sha256:62b4761d3979e710f5a0a84dcb4bbce46c80da468ef52fd5e23bb8dbfc4a74b3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 100,
+          "start": 90,
+          "text": "late claim",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s136B(1)",
+      "style": "subsection",
+      "text": "(1) The ComptrollerGeneral of Customs may allow the designated owner to make a claim (the late claim) to the ComptrollerGeneral of Customs for the release of seized goods after the end of the claim period for the goods."
+    },
+    {
+      "content_hash": "sha256:eea8484e8a158dd64e17a8ebadea42794d5d05041a14b3ca033f823099648ad4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "objector",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 32,
+          "start": 20,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 49,
+          "start": 37,
+          "text": "claim period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s136B(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s136B(1)~1",
+      "style": "notetext",
+      "text": "Note: For objector, seized goods and claim period see section 6."
+    },
+    {
+      "content_hash": "sha256:119fae48430a12acec334458e7974ef97ed4063e016d00b41d50465e631745ca",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s136B(2)",
+      "style": "subsection",
+      "text": "(2) The ComptrollerGeneral of Customs may allow the late claim only if:"
+    },
+    {
+      "content_hash": "sha256:2946102b483042ab54ae159a64fa4f31ccd918eec8a764c06d3540800c62453b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s136B(2)",
+      "ref": "TMA1995/s136B(2)(a)",
+      "style": "paragraph",
+      "text": "(a) an action for infringement of the notified trade mark in respect of the goods has not been instituted; and"
+    },
+    {
+      "content_hash": "sha256:50935b4de523d667161ed8796ae2373622ba7e34a19081c6194f97fda709f7ca",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s136B(2)",
+      "ref": "TMA1995/s136B(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the ComptrollerGeneral of Customs considers it reasonable in the circumstances; and"
+    },
+    {
+      "content_hash": "sha256:f5217c73e21b54062005ed5b139e926c8e2996b9b694f71546dbd2178ef803c4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s136B(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s139",
+          "mention": "section 139"
+        }
+      ],
+      "ref": "TMA1995/s136B(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the goods have not been disposed of under section 139."
+    },
+    {
+      "content_hash": "sha256:c1d203ad8c8b32af82ae1a53cf9787631d68b331edc52a3daa5418e9f50e2671",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s136B(3)",
+      "style": "subsection",
+      "text": "(3) An application may be made to the Administrative Review Tribunal for the review of a decision of the ComptrollerGeneral of Customs under subsection (1) refusing to allow a late claim for the release of seized goods."
+    }
+  ]
+}

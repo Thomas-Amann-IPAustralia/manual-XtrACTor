@@ -1,0 +1,453 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:1f25512d4a6cc5f9c397b3bfb6ed502a4357adc1bc1657e6f893f3bf8d42b681",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.15A  Grounds for rejection—trade mark identical etc to trade mark protected under Madrid Protocol"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.15A",
+  "ref": "TMR1995/r4.15A",
+  "text": "(1) For section 189A of the Act, and subject to subregulations (3) and (5), an application for the registration of a trade mark (applicant’s trade mark) in respect of goods (applicant’s goods) must be rejected if: (a) the applicant’s trade mark is substantially identical with, or deceptively similar to: (i) a protected international trade mark; or (ii) a trade mark in respect of which the Registrar has received notification of an IRDA; held by another person in respect of similar goods or closely related services; and (b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s goods is not earlier than the priority date for the other trade mark in respect of the similar goods or closely related services. Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A: (a) may be inconsistent with the Act; and (b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency. Division 2 of Part 4 of the Act includes provisions relating to the grounds on which an application for the registration of a trade mark must be rejected. (2) For section 189A of the Act, and subject to subregulations (3) and (5), an application for the registration of a trade mark (applicant’s trade mark) in respect of services (applicant’s services) must be rejected if: (a) the applicant’s trade mark is substantially identical with, or deceptively similar to: (i) a protected international trade mark; or (ii) a trade mark in respect of which the Registrar has received notification of an IRDA; held by another person in respect of similar services or closely related goods; and (b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s services is not earlier than the priority date for the other trade mark in respect of the similar services or closely related goods. Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A: (a) may be inconsistent with the Act; and (b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency. Division 2 of Part 4 of the Act includes provisions relating to the grounds on which an application for the registration of a trade mark must be rejected. (3) If, in a case mentioned in subregulation (1) or (2), the Registrar is satisfied: (a) that there has been honest concurrent use of the 2 trade marks; or (b) that, because of other circumstances, it is proper to do so; the Registrar may accept the application for the registration of the applicant’s trade mark subject to any conditions or limitations that the Registrar thinks fit to impose. (4) If the applicant’s trade mark has been used only in a particular area, the limitations may include that the use of the trade mark is to be restricted to that particular area. (5) If, in a case mentioned in subregulation (1) or (2), the Registrar is satisfied that the applicant, or the applicant and the predecessor in title of the applicant, have continuously used the applicant’s trade mark for a period: (a) beginning before the priority date for the other trade mark in respect of: (i) the similar goods or closely related services; or (ii) the similar services or closely related goods; and (b) ending on the priority date for the registration of the applicant’s trade mark; the Registrar must not reject the application because of the existence of the other trade mark. Note: Section 44 of the Act provides for rejection of an application on the grounds that the trade mark is substantially identical with, or deceptively similar to, a registered trade mark or a trade mark for which registration is being sought.",
+  "title": "Grounds for rejection—trade mark identical etc to trade mark protected under Madrid Protocol",
+  "units": [
+    {
+      "content_hash": "sha256:aac586357a73fe4b6a67a13c29436788d9461d874e3c40b6dfc4fa4563ba40d3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 151,
+          "start": 129,
+          "text": "applicant’s trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 191,
+          "start": 174,
+          "text": "applicant’s goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        }
+      ],
+      "ref": "TMR1995/r4.15A(1)",
+      "style": "subsection",
+      "text": "(1) For section 189A of the Act, and subject to subregulations (3) and (5), an application for the registration of a trade mark (applicant’s trade mark) in respect of goods (applicant’s goods) must be rejected if:"
+    },
+    {
+      "content_hash": "sha256:3858430eb803d23764375a0e3d8b1a82d97f59678b6bb9b1f16017d5624bd2ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.15A(1)",
+      "ref": "TMR1995/r4.15A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant’s trade mark is substantially identical with, or deceptively similar to:"
+    },
+    {
+      "content_hash": "sha256:01bc1b4699149975596846e4e278d852ca19f146a77762ba3d5f3a78fb1a50a4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.15A(1)(a)",
+      "ref": "TMR1995/r4.15A(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a protected international trade mark; or"
+    },
+    {
+      "content_hash": "sha256:d43479df8e20b78c37de0b545a09b14cd0a649a417e308e20ef30f0917629d5f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.15A(1)(a)",
+      "ref": "TMR1995/r4.15A(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a trade mark in respect of which the Registrar has received notification of an IRDA;"
+    },
+    {
+      "content_hash": "sha256:17cbcfa0dbe2b21178e792506ffed169b24cdf62736d64859b415153dc1e51fa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.15A(1)",
+      "ref": "TMR1995/r4.15A(1)~1",
+      "style": "paragraph",
+      "text": "held by another person in respect of similar goods or closely related services; and"
+    },
+    {
+      "content_hash": "sha256:749064cd5f20370b8dadbf7d49909eac3b19eb67b83425b17198c55737c98527",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.15A(1)",
+      "ref": "TMR1995/r4.15A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s goods is not earlier than the priority date for the other trade mark in respect of the similar goods or closely related services."
+    },
+    {
+      "content_hash": "sha256:3611224eb4375abb78f2a3044868637fc04c0b145c00170be9c96c19ca901ad0",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.15A(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A(3)",
+          "mention": "subsection 189A(3)"
+        }
+      ],
+      "ref": "TMR1995/r4.15A(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A:"
+    },
+    {
+      "content_hash": "sha256:6453cd85da834e968aecd19f6854b8cce1e7ec5f9e9f362fe3472f72fc35d4ad",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r4.15A(1)(b)~1",
+      "ref": "TMR1995/r4.15A(1)(b)~1~1",
+      "style": "notepara",
+      "text": "(a) may be inconsistent with the Act; and"
+    },
+    {
+      "content_hash": "sha256:0ec09edeb2da7ceabe37c78fea685a52cf4b1c5aff044823c76249b1ff0bf5d4",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r4.15A(1)(b)~1",
+      "ref": "TMR1995/r4.15A(1)(b)~1~2",
+      "style": "notepara",
+      "text": "(b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency."
+    },
+    {
+      "content_hash": "sha256:cda8c156fe56a7fce49c540f07422356b25a2a76f1a78f4df63cf06f8221f948",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r4.15A(1)(b)",
+      "ref": "TMR1995/r4.15A(1)(b)~2",
+      "style": "notetext",
+      "text": "Division 2 of Part 4 of the Act includes provisions relating to the grounds on which an application for the registration of a trade mark must be rejected."
+    },
+    {
+      "content_hash": "sha256:65f246447d72c557297809027553c4fb1f4b0c0fa3fb55e176593cd37b1c3c15",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 151,
+          "start": 129,
+          "text": "applicant’s trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 197,
+          "start": 177,
+          "text": "applicant’s services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        }
+      ],
+      "ref": "TMR1995/r4.15A(2)",
+      "style": "subsection",
+      "text": "(2) For section 189A of the Act, and subject to subregulations (3) and (5), an application for the registration of a trade mark (applicant’s trade mark) in respect of services (applicant’s services) must be rejected if:"
+    },
+    {
+      "content_hash": "sha256:3858430eb803d23764375a0e3d8b1a82d97f59678b6bb9b1f16017d5624bd2ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r4.15A(2)",
+      "ref": "TMR1995/r4.15A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant’s trade mark is substantially identical with, or deceptively similar to:"
+    },
+    {
+      "content_hash": "sha256:01bc1b4699149975596846e4e278d852ca19f146a77762ba3d5f3a78fb1a50a4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r4.15A(2)(a)",
+      "ref": "TMR1995/r4.15A(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a protected international trade mark; or"
+    },
+    {
+      "content_hash": "sha256:d43479df8e20b78c37de0b545a09b14cd0a649a417e308e20ef30f0917629d5f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r4.15A(2)(a)",
+      "ref": "TMR1995/r4.15A(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a trade mark in respect of which the Registrar has received notification of an IRDA;"
+    },
+    {
+      "content_hash": "sha256:41633c546adb2476144a44750a50ce2c63f2bbcda437fdb4ea182a1d7ea69b7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r4.15A(2)",
+      "ref": "TMR1995/r4.15A(2)~1",
+      "style": "paragraph",
+      "text": "held by another person in respect of similar services or closely related goods; and"
+    },
+    {
+      "content_hash": "sha256:49a38177851ab7a23801af3e474c34e94ff2b83135c2eae5450d1cf5a00f555d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r4.15A(2)",
+      "ref": "TMR1995/r4.15A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s services is not earlier than the priority date for the other trade mark in respect of the similar services or closely related goods."
+    },
+    {
+      "content_hash": "sha256:3611224eb4375abb78f2a3044868637fc04c0b145c00170be9c96c19ca901ad0",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r4.15A(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A(3)",
+          "mention": "subsection 189A(3)"
+        }
+      ],
+      "ref": "TMR1995/r4.15A(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A:"
+    },
+    {
+      "content_hash": "sha256:6453cd85da834e968aecd19f6854b8cce1e7ec5f9e9f362fe3472f72fc35d4ad",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r4.15A(2)(b)~1",
+      "ref": "TMR1995/r4.15A(2)(b)~1~1",
+      "style": "notepara",
+      "text": "(a) may be inconsistent with the Act; and"
+    },
+    {
+      "content_hash": "sha256:0ec09edeb2da7ceabe37c78fea685a52cf4b1c5aff044823c76249b1ff0bf5d4",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r4.15A(2)(b)~1",
+      "ref": "TMR1995/r4.15A(2)(b)~1~2",
+      "style": "notepara",
+      "text": "(b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency."
+    },
+    {
+      "content_hash": "sha256:cda8c156fe56a7fce49c540f07422356b25a2a76f1a78f4df63cf06f8221f948",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r4.15A(2)(b)",
+      "ref": "TMR1995/r4.15A(2)(b)~2",
+      "style": "notetext",
+      "text": "Division 2 of Part 4 of the Act includes provisions relating to the grounds on which an application for the registration of a trade mark must be rejected."
+    },
+    {
+      "content_hash": "sha256:e1553cbea9ba9472d248e0686f1096db2b82581196ac39a1398af5bd134b4573",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.15A(3)",
+      "style": "subsection",
+      "text": "(3) If, in a case mentioned in subregulation (1) or (2), the Registrar is satisfied:"
+    },
+    {
+      "content_hash": "sha256:31e52977b9827efecd10221b83b4f992d820abfc15ea78b40d25206855cb7bc3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r4.15A(3)",
+      "ref": "TMR1995/r4.15A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) that there has been honest concurrent use of the 2 trade marks; or"
+    },
+    {
+      "content_hash": "sha256:f2721265e470e4f0abb2cb3063a909c77051ec5a0bd226a5da4604b861376e24",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r4.15A(3)",
+      "ref": "TMR1995/r4.15A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) that, because of other circumstances, it is proper to do so;"
+    },
+    {
+      "content_hash": "sha256:e056a93d107ef24ad3364172905594bf4d8e34dd9ea16b470c085ccd77eeb0e8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.15A~1",
+      "style": "subsection2",
+      "text": "the Registrar may accept the application for the registration of the applicant’s trade mark subject to any conditions or limitations that the Registrar thinks fit to impose."
+    },
+    {
+      "content_hash": "sha256:22dd2f1edf74fa843db17ed395cb0dd3a7651cb2f4abb249eaae4651ebb0ee24",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 25,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.15A(4)",
+      "style": "subsection",
+      "text": "(4) If the applicant’s trade mark has been used only in a particular area, the limitations may include that the use of the trade mark is to be restricted to that particular area."
+    },
+    {
+      "content_hash": "sha256:dfe7c6a510bb811ea5d7e80aa1de8119624e415d551f57b1be2a536c0ad8f657",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 26,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.15A(5)",
+      "style": "subsection",
+      "text": "(5) If, in a case mentioned in subregulation (1) or (2), the Registrar is satisfied that the applicant, or the applicant and the predecessor in title of the applicant, have continuously used the applicant’s trade mark for a period:"
+    },
+    {
+      "content_hash": "sha256:0f79f28a58ba29c02f97036a7848c450441faaf7a28d19b4ed02b4a76003c3a1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 27,
+      "parent_ref": "TMR1995/r4.15A(5)",
+      "ref": "TMR1995/r4.15A(5)(a)",
+      "style": "paragraph",
+      "text": "(a) beginning before the priority date for the other trade mark in respect of:"
+    },
+    {
+      "content_hash": "sha256:62d7767814f3c7473606acb0356a287269b4d31b7a97405aab8d137c10d263b4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 28,
+      "parent_ref": "TMR1995/r4.15A(5)(a)",
+      "ref": "TMR1995/r4.15A(5)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the similar goods or closely related services; or"
+    },
+    {
+      "content_hash": "sha256:2c25b2c43ff6353b7b7e264dfeafdc32c3fd4b55e004dd44c9e5db23ae635915",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 29,
+      "parent_ref": "TMR1995/r4.15A(5)(a)",
+      "ref": "TMR1995/r4.15A(5)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the similar services or closely related goods; and"
+    },
+    {
+      "content_hash": "sha256:22208bd3b0819e40b43ea2dfb4e9db5974e9c4b78202fef4d17aa6d15ebe137a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 30,
+      "parent_ref": "TMR1995/r4.15A(5)",
+      "ref": "TMR1995/r4.15A(5)(b)",
+      "style": "paragraph",
+      "text": "(b) ending on the priority date for the registration of the applicant’s trade mark;"
+    },
+    {
+      "content_hash": "sha256:4899199f2d6bf6841404a1cdfc716d62aa6911430c93e594b82cc92d94154165",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 31,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.15A~2",
+      "style": "subsection2",
+      "text": "the Registrar must not reject the application because of the existence of the other trade mark."
+    },
+    {
+      "content_hash": "sha256:5c157b08d083fde230843faf4b2d3e65daf28bba8426d6d9ce40694041829659",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 32,
+      "parent_ref": "TMR1995/r4.15A~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "Section 44"
+        }
+      ],
+      "ref": "TMR1995/r4.15A~2~1",
+      "style": "notetext",
+      "text": "Note: Section 44 of the Act provides for rejection of an application on the grounds that the trade mark is substantially identical with, or deceptively similar to, a registered trade mark or a trade mark for which registration is being sought."
+    }
+  ]
+}

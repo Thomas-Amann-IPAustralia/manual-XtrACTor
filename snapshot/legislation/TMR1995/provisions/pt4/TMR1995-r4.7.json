@@ -1,0 +1,161 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:2d3bbbd1cf98d46ef0d2f4f77c5c3c6bcbd4c33d5fbfeed936d11fa4de1c0a93",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.7  Publication of particulars of application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.7",
+  "ref": "TMR1995/r4.7",
+  "text": "(1) For the purposes of section 30 of the Act (which deals with publishing particulars of applications), the Registrar must publish the following particulars of the application: (a) if a number has been allocated to the application in the Trade Marks Office—the number; (b) the applicant’s name; (c) the date of filing the application; (d) if the application is a divisional application—particulars of the parent application; (e) particulars of any claim for a right of priority for the application; (f) the class number or numbers for the goods and/or services in respect of which registration of the trade mark is sought. (2) The particulars must be published in a computer database maintained by the Trade Marks Office. (3) If, before 1 January 2001, an application by: (a) the Sydney Organising Committee for the Olympic Games constituted by the Sydney Organising Committee for the Olympic Games Act 1993 of New South Wales; or (b) Sydney Paralympic Organising Committee Limited incorporated under the law of New South Wales; is accompanied by a written request by the applicant to postpone publication of the particulars of the application, the Registrar must publish the particulars of the application as soon as practicable after the expiration of 3 months after the date on which the application was filed.",
+  "title": "Publication of particulars of application",
+  "units": [
+    {
+      "content_hash": "sha256:5243187e2a244a6383843cc1f16cefdb0f1adb8ff09fa06202dd350fd67e7609",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "ref": "TMR1995/r4.7(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of section 30 of the Act (which deals with publishing particulars of applications), the Registrar must publish the following particulars of the application:"
+    },
+    {
+      "content_hash": "sha256:bd5bf931dc96810c00a205872af5dfab93c3e0ed0b22064924114b5b6a14f746",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(a)",
+      "style": "paragraph",
+      "text": "(a) if a number has been allocated to the application in the Trade Marks Office—the number;"
+    },
+    {
+      "content_hash": "sha256:8c5685e7e77b1c439bd6587f8664a38e166998d540ed812977e502e6538bca66",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant’s name;"
+    },
+    {
+      "content_hash": "sha256:cb28aa5a23051e729c0c9ff8b492f711cd79306b1fbcc072dccb0e9596d439e2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the date of filing the application;"
+    },
+    {
+      "content_hash": "sha256:1722c646d58e7bedd5ffd3f5465b0ec644a011bee77caaedab59e73b850659b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(d)",
+      "style": "paragraph",
+      "text": "(d) if the application is a divisional application—particulars of the parent application;"
+    },
+    {
+      "content_hash": "sha256:360570911394fb4aa0d94d15bcbb2fd0de6907c4f7cc7d41a4e9ba0236beaef9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(e)",
+      "style": "paragraph",
+      "text": "(e) particulars of any claim for a right of priority for the application;"
+    },
+    {
+      "content_hash": "sha256:ee417e8bb07c4a9687d89b009dc2b1e4acae7362e5f4a5ad762afcfc08c0b3f1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.7(1)",
+      "ref": "TMR1995/r4.7(1)(f)",
+      "style": "paragraph",
+      "text": "(f) the class number or numbers for the goods and/or services in respect of which registration of the trade mark is sought."
+    },
+    {
+      "content_hash": "sha256:45ec38168a395af6d358e383e78ea804a737145462a99ee407e6021af873c0d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.7(2)",
+      "style": "subsection",
+      "text": "(2) The particulars must be published in a computer database maintained by the Trade Marks Office."
+    },
+    {
+      "content_hash": "sha256:7cd471426c6827784ad334adeecdc8e7ea9ef5034d6b99e25f5c9d1580eb44d5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.7(3)",
+      "style": "subsection",
+      "text": "(3) If, before 1 January 2001, an application by:"
+    },
+    {
+      "content_hash": "sha256:468dbf32104b956448d13ef2b9234256b9fbf98406430ade62ec45241b0757d1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r4.7(3)",
+      "ref": "TMR1995/r4.7(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the Sydney Organising Committee for the Olympic Games constituted by the Sydney Organising Committee for the Olympic Games Act 1993 of New South Wales; or"
+    },
+    {
+      "content_hash": "sha256:59825a241b964511b67b171ead9b4eac69c7230b30162b6eba741f388cd3a1ff",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r4.7(3)",
+      "ref": "TMR1995/r4.7(3)(b)",
+      "style": "paragraph",
+      "text": "(b) Sydney Paralympic Organising Committee Limited incorporated under the law of New South Wales;"
+    },
+    {
+      "content_hash": "sha256:32621c109d1c1fc30b345f759eced15cb2feb2e6935d3255c08cf02e89f0d32d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.7~1",
+      "style": "subsection2",
+      "text": "is accompanied by a written request by the applicant to postpone publication of the particulars of the application, the Registrar must publish the particulars of the application as soon as practicable after the expiration of 3 months after the date on which the application was filed."
+    }
+  ]
+}

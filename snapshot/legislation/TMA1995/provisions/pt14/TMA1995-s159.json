@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:cbd17867538aea526dbd4a8c109c5a57748ffc33e7893fc946bcf9204a5af783",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "159  Forfeiture orders under the proceeds of crime legislation"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "159",
+  "ref": "TMA1995/s159",
+  "text": "(1) If a person other than the Director of Public Prosecutions has instituted proceedings for the prosecution of another person in respect of an indictable offence against this Part, the forfeiture order provisions apply as if a reference in those provisions to a proceeds of crime authority (or a responsible authority) includes a reference to the person who has instituted the proceedings. (2) In this section: forfeiture order provisions means: (c) Part 22 of the Proceeds of Crime Act 2002; and (d) Part 23 of the Proceeds of Crime Act 2002.",
+  "title": "Forfeiture orders under the proceeds of crime legislation",
+  "units": [
+    {
+      "content_hash": "sha256:06b347be674e12a9d28f2855308f2ded0012f9dd22aaf783dd65103031802f1d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s159(1)",
+      "style": "subsection",
+      "text": "(1) If a person other than the Director of Public Prosecutions has instituted proceedings for the prosecution of another person in respect of an indictable offence against this Part, the forfeiture order provisions apply as if a reference in those provisions to a proceeds of crime authority (or a responsible authority) includes a reference to the person who has instituted the proceedings."
+    },
+    {
+      "content_hash": "sha256:992451e972cef6b2a479eda90f9f01ffd435bb7e0b0df3ba7c4d2600a481e276",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s159(2)",
+      "style": "subsection",
+      "text": "(2) In this section:"
+    },
+    {
+      "content_hash": "sha256:bd8fc61c38d12fcf171d3a2767face0e6ad166525fc8bb3c990c4aabc99f6026",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 0,
+          "text": "forfeiture order provisions",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s159~1",
+      "style": "Definition",
+      "text": "forfeiture order provisions means:"
+    },
+    {
+      "content_hash": "sha256:45d207aa71e57579b3ca7154a133a0f2aee585d80da22eb7b5bd9cb540ae773d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 45,
+          "start": 19,
+          "text": "Proceeds of Crime Act 2002",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s159~1",
+      "ref": "TMA1995/s159~1(c)",
+      "style": "paragraph",
+      "text": "(c) Part 22 of the Proceeds of Crime Act 2002; and"
+    },
+    {
+      "content_hash": "sha256:b7a27c81f737797fb5fd2b70cb946e4319c98b57de2ee34d329609c00881a5bd",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 45,
+          "start": 19,
+          "text": "Proceeds of Crime Act 2002",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s159~1",
+      "ref": "TMA1995/s159~1(d)",
+      "style": "paragraph",
+      "text": "(d) Part 23 of the Proceeds of Crime Act 2002."
+    }
+  ]
+}

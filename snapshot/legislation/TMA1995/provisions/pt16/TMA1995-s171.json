@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:aabd9f7f050849fbcc6346bc6f05a398040613b342eb61c7d8610a71911bef83",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "171  Rights given by registration of a certification trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "171",
+  "ref": "TMA1995/s171",
+  "text": "Section 20 applies in relation to a certification trade mark as if subsection (1) were omitted and the following subsection were substituted: “(1) If a certification trade mark is registered, the registered owner has, subject to this Part, the exclusive rights to use, and to allow other persons to use, the certification trade mark, in relation to the goods and/or services in respect of which the certification trade mark is registered. The registered owner may, however, use the certification trade mark only in accordance with the rules governing the use of the certification trade mark. Note: For the rules governing the use of the certification trade mark see section 173.”.",
+  "title": "Rights given by registration of a certification trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:e41a5f727e46b8d4fb466e504d0769ac04b1a4fd14ab08743306010bfe890d0a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20",
+          "mention": "Section 20"
+        }
+      ],
+      "ref": "TMA1995/s171~1",
+      "style": "subsection",
+      "text": "Section 20 applies in relation to a certification trade mark as if subsection (1) were omitted and the following subsection were substituted:"
+    },
+    {
+      "content_hash": "sha256:b3872ed436483fa45c6313a56efa1ddecd721df6eca6515e4e112ffe1d2c6c5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s171~2",
+      "style": "subsection",
+      "text": "“(1) If a certification trade mark is registered, the registered owner has, subject to this Part, the exclusive rights to use, and to allow other persons to use, the certification trade mark, in relation to the goods and/or services in respect of which the certification trade mark is registered. The registered owner may, however, use the certification trade mark only in accordance with the rules governing the use of the certification trade mark."
+    },
+    {
+      "content_hash": "sha256:3fb9c73e7e748424231fe48a16abc6f864cf3e021e4860f5ef60624684b24f8f",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s171~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173",
+          "mention": "section 173"
+        }
+      ],
+      "ref": "TMA1995/s171~2~1",
+      "style": "notetext",
+      "text": "Note: For the rules governing the use of the certification trade mark see section 173.”."
+    }
+  ]
+}

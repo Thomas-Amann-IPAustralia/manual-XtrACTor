@@ -1,0 +1,90 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:cd1baa4b041fbf1a786dc3096f26704f79e446db5178d5d53b34a6d750ec10ba",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.2  Amendment or cancellation—matters for the court"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.2",
+  "ref": "TMR1995/r8.2",
+  "text": "For the purposes of paragraph 89(2)(a) of the Act (which deals with amendment or cancellation by a prescribed court), a prescribed court, in making a decision under subsection 89(1) of the Act on an application for rectification of the Register, must take into account the following matters, so far as they are relevant: (a) the extent to which the public interest will be affected if registration of the trade mark is not cancelled; (b) whether any circumstances that gave rise to the application have ceased to exist; (c) the extent to which the trade mark distinguished the relevant goods and/or services before the circumstances giving rise to the application arose; (d) whether there is any order or other remedy, other than an order for rectification, that would be adequate in the circumstances.",
+  "title": "Amendment or cancellation—matters for the court",
+  "units": [
+    {
+      "content_hash": "sha256:957efd7eaa59ab915a5f52b8ec7639013cfffe1ddbadfef5168a745d2830adc6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s89(1)",
+          "mention": "subsection 89(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s89(2)(a)",
+          "mention": "paragraph 89(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r8.2~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 89(2)(a) of the Act (which deals with amendment or cancellation by a prescribed court), a prescribed court, in making a decision under subsection 89(1) of the Act on an application for rectification of the Register, must take into account the following matters, so far as they are relevant:"
+    },
+    {
+      "content_hash": "sha256:09a71591d2c7a4ec7680b22a7ba1aba9c37c17d71b80e61473455e92fbf03749",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r8.2~1",
+      "ref": "TMR1995/r8.2~1(a)",
+      "style": "paragraph",
+      "text": "(a) the extent to which the public interest will be affected if registration of the trade mark is not cancelled;"
+    },
+    {
+      "content_hash": "sha256:280dee31080b846fea5d5bc668b619707d625e642d626e266687da41c7d0a349",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r8.2~1",
+      "ref": "TMR1995/r8.2~1(b)",
+      "style": "paragraph",
+      "text": "(b) whether any circumstances that gave rise to the application have ceased to exist;"
+    },
+    {
+      "content_hash": "sha256:7919fe76b5b532e652febe6232443a8c15acab393e3b377cf57dc4813faf3f25",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r8.2~1",
+      "ref": "TMR1995/r8.2~1(c)",
+      "style": "paragraph",
+      "text": "(c) the extent to which the trade mark distinguished the relevant goods and/or services before the circumstances giving rise to the application arose;"
+    },
+    {
+      "content_hash": "sha256:f1941ddbbb161e113f3f518c4f805e2d42d331fbc2941a0bc187513ecf9ed4eb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r8.2~1",
+      "ref": "TMR1995/r8.2~1(d)",
+      "style": "paragraph",
+      "text": "(d) whether there is any order or other remedy, other than an order for rectification, that would be adequate in the circumstances."
+    }
+  ]
+}

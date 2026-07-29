@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:a413cca894098ec104fee9faa457a27f67d9b084430e1b7bcd027ba6709a4156",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "190  Prescribed courts"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "190",
+  "ref": "TMA1995/s190",
+  "text": "Each of the following courts is a prescribed court for the purposes of this Act: (a) the Federal Court; (aa) the Federal Circuit and Family Court of Australia (Division 2); (b) the Supreme Court of a State; (c) the Supreme Court of the Australian Capital Territory; (d) the Supreme Court of the Northern Territory; (e) the Supreme Court of Norfolk Island.",
+  "title": "Prescribed courts",
+  "units": [
+    {
+      "content_hash": "sha256:aec94523906fadb80bb5ca212aa56b8a185515c8f8a42736f344f62be866df51",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s190~1",
+      "style": "subsection",
+      "text": "Each of the following courts is a prescribed court for the purposes of this Act:"
+    },
+    {
+      "content_hash": "sha256:44ae74a1512b2a24665aa9315fc99e3ee7a5f0103ac9c442fc29f1cebe49a46e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(a)",
+      "style": "paragraph",
+      "text": "(a) the Federal Court;"
+    },
+    {
+      "content_hash": "sha256:3674801b1e963d29b81efaa48fa14b98040dbf415372ef8bc342725f7c50f9c4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(aa)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(aa)",
+      "style": "paragraph",
+      "text": "(aa) the Federal Circuit and Family Court of Australia (Division 2);"
+    },
+    {
+      "content_hash": "sha256:9e38c1040d517f4103ea6676cd5cb06b897dfe730f005497ed88eb6210406e83",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(b)",
+      "style": "paragraph",
+      "text": "(b) the Supreme Court of a State;"
+    },
+    {
+      "content_hash": "sha256:c4516726c458df8737df8267ec5b407c66f19d11051fcef8fe6976a8dc2735e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(c)",
+      "style": "paragraph",
+      "text": "(c) the Supreme Court of the Australian Capital Territory;"
+    },
+    {
+      "content_hash": "sha256:fdd235a97b0c96cd0d4ebc0484bffcb01c8115d684cf4b340a4f0f51447c2f46",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(d)",
+      "style": "paragraph",
+      "text": "(d) the Supreme Court of the Northern Territory;"
+    },
+    {
+      "content_hash": "sha256:c3307edbcc800ec249bf879b56c3f5ff68d21d510241e8b552958cec57231615",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s190~1",
+      "ref": "TMA1995/s190~1(e)",
+      "style": "paragraph",
+      "text": "(e) the Supreme Court of Norfolk Island."
+    }
+  ]
+}

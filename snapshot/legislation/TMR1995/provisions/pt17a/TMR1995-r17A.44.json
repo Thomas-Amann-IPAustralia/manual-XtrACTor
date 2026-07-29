@@ -1,0 +1,260 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv3"
+  ],
+  "content_hash": "sha256:fd4046f3aef05b7ed966f8377a83609e3a5bbc96cf1e5b4163d1fb8df5318f83",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 3—Amendment or cessation of protection by prescribed court",
+    "17A.44  Amendment or cessation of protection—loss of exclusive rights to use trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.44",
+  "ref": "TMR1995/r17A.44",
+  "text": "(1) This regulation applies if section 24 or 25 of the Act, as applied by regulation 17A.39, (applied section 24 or 25) applies in relation to a particular protected international trade mark. (2) A prescribed court may, on the application of the Registrar or an aggrieved person, but subject to subregulation (3) and regulation 17A.46, order that: (a) the protection extended to the protected international trade mark cease; or (b) an entry in the Record of International Registrations relating to the protected international trade mark be removed or amended; having regard to the effect of applied section 24 or 25 (as the case requires) on the right of the holder of the protected international trade mark to use the trade mark, or any sign that is part of the trade mark, in relation to particular goods or services. (3) If applied section 24 or 25 applies in relation to the trade mark because the trade mark contains a sign that: (a) has become generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or (b) describes or is the name of: (i) an article or substance that was formerly exploited under a patent; or (ii) a service that was formerly provided as a patented process; the court may decide not to make an order under subregulation (2). (4) Instead, the court may allow the trade mark to continue to be protected in respect of: (a) the article or substance or other goods of the same description; or (b) the service or other services of the same description; subject to any condition or limitation that the court imposes.",
+  "title": "Amendment or cessation of protection—loss of exclusive rights to use trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:03e1983e31fd5fa0013e6806d1d2d86efc5d4f3fe28aee3c51cfb1411ed07f2a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 109,
+          "start": 94,
+          "text": "applied section",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 118,
+          "start": 110,
+          "text": "24 or 25",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.39",
+          "mention": "regulation 17A.39"
+        }
+      ],
+      "ref": "TMR1995/r17A.44(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if section 24 or 25 of the Act, as applied by regulation 17A.39, (applied section 24 or 25) applies in relation to a particular protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:4523e31e33128e1caaf2025be166a242c3236e2136519d6d55a4c7b216958844",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.46",
+          "mention": "regulation 17A.46"
+        }
+      ],
+      "ref": "TMR1995/r17A.44(2)",
+      "style": "subsection",
+      "text": "(2) A prescribed court may, on the application of the Registrar or an aggrieved person, but subject to subregulation (3) and regulation 17A.46, order that:"
+    },
+    {
+      "content_hash": "sha256:9b8758ae21d30f87af9e1dbbeb9ffb9a1ebdafee631d024667299a7f31fbd848",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.44(2)",
+      "ref": "TMR1995/r17A.44(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the protection extended to the protected international trade mark cease; or"
+    },
+    {
+      "content_hash": "sha256:8689ae0cb1581037553b377a26691fd91610afbfaed57896ef5f90741fc55e14",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.44(2)",
+      "ref": "TMR1995/r17A.44(2)(b)",
+      "style": "paragraph",
+      "text": "(b) an entry in the Record of International Registrations relating to the protected international trade mark be removed or amended;"
+    },
+    {
+      "content_hash": "sha256:ad3fd68f78d3855bdbcc41043c70f58aba1b40e043a5a413df317176563561b3",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        }
+      ],
+      "ref": "TMR1995/r17A.44~1",
+      "style": "subsection2",
+      "text": "having regard to the effect of applied section 24 or 25 (as the case requires) on the right of the holder of the protected international trade mark to use the trade mark, or any sign that is part of the trade mark, in relation to particular goods or services."
+    },
+    {
+      "content_hash": "sha256:2a9f9c1ee906d460194a43bc216c48847449b061afb77763110852567b1a7a3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        }
+      ],
+      "ref": "TMR1995/r17A.44(3)",
+      "style": "subsection",
+      "text": "(3) If applied section 24 or 25 applies in relation to the trade mark because the trade mark contains a sign that:"
+    },
+    {
+      "content_hash": "sha256:b0a040ea07acaff8d031ee8209b6cdc7551821a8a0a6dece6c7d6add1dd564a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.44(3)",
+      "ref": "TMR1995/r17A.44(3)(a)",
+      "style": "paragraph",
+      "text": "(a) has become generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or"
+    },
+    {
+      "content_hash": "sha256:7650e09f37c408010798c994742b9e6e47f16c71194a7f25b30cd0bb8f090218",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.44(3)",
+      "ref": "TMR1995/r17A.44(3)(b)",
+      "style": "paragraph",
+      "text": "(b) describes or is the name of:"
+    },
+    {
+      "content_hash": "sha256:b5126f0a4d9a4a567bc164fc0a9a792c0013af5cbd711f56a8c9c8c9f2c8e8d2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.44(3)(b)",
+      "ref": "TMR1995/r17A.44(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an article or substance that was formerly exploited under a patent; or"
+    },
+    {
+      "content_hash": "sha256:7f79a74b5667be361425a959c75b6b3e879085e8784678f08570d167de4c44ae",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.44(3)(b)",
+      "ref": "TMR1995/r17A.44(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a service that was formerly provided as a patented process;"
+    },
+    {
+      "content_hash": "sha256:cf912a8d11b34c9e1985bfa9e3e1b6596e990a32b65bfd25219b2f6ddad916d9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.44~2",
+      "style": "subsection2",
+      "text": "the court may decide not to make an order under subregulation (2)."
+    },
+    {
+      "content_hash": "sha256:461eebdf1afec5d214161d86b6e3044522333b7b1ee82cd69ff7ff37b51fc85d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.44(4)",
+      "style": "subsection",
+      "text": "(4) Instead, the court may allow the trade mark to continue to be protected in respect of:"
+    },
+    {
+      "content_hash": "sha256:5ee41b16216908548d7d1a9bcc8db4067015abe65c6f2828480496fa925c2d10",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.44(4)",
+      "ref": "TMR1995/r17A.44(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the article or substance or other goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:ce97ef9ee28bb615d4e45ce0207b9e48be29a4a849995096b43bbdd698cfeb14",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.44(4)",
+      "ref": "TMR1995/r17A.44(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the service or other services of the same description;"
+    },
+    {
+      "content_hash": "sha256:7b81d8c083ee55362e7dd65c3a63348179f8de8ba79b171e26d00fb228455204",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.44~3",
+      "style": "subsection2",
+      "text": "subject to any condition or limitation that the court imposes."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3"
+  ],
+  "content_hash": "sha256:4c25dce9d3682b145aaa24bab2ac52e6d5d362e904d0dcbce6f8d86952f0ab27",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "3.2  Period in which action for infringement may be brought"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3.2",
+  "ref": "TMR1995/r3.2",
+  "text": "For the purposes of paragraph 26(1)(b) of the Act (which deals with powers of the authorised user of a trade mark), the prescribed period is 2 months from the day on which the authorised user of a trade mark asks the registered owner of the trade mark to bring an action for infringement of the trade mark.",
+  "title": "Period in which action for infringement may be brought",
+  "units": [
+    {
+      "content_hash": "sha256:4c25dce9d3682b145aaa24bab2ac52e6d5d362e904d0dcbce6f8d86952f0ab27",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26(1)(b)",
+          "mention": "paragraph 26(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r3.2~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 26(1)(b) of the Act (which deals with powers of the authorised user of a trade mark), the prescribed period is 2 months from the day on which the authorised user of a trade mark asks the registered owner of the trade mark to bring an action for infringement of the trade mark."
+    }
+  ]
+}

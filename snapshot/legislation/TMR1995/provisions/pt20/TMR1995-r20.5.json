@@ -1,0 +1,116 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:626c222ebcd3c251e3e8b7b40e32da5747415955f7cb5996390e1bbc7fd84395",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.5  Evidence of academic qualifications"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.5",
+  "ref": "TMR1995/r20.5",
+  "text": "(1) The Board must be satisfied that a person has a qualification mentioned in regulation 20.6 if: (a) the person makes an application in the form approved by the Board; and (b) the application is accompanied by: (i) evidence that the person has the qualification; and (ii) the original or a certified copy of an academic record that shows the units that make up the qualification. (2) The Board must, within 42 days of deciding whether or not it is satisfied that the person has the qualification, notify the person, in writing, of its decision. Note: A decision that a person does not have a qualification is reviewable under regulation 21.35.",
+  "title": "Evidence of academic qualifications",
+  "units": [
+    {
+      "content_hash": "sha256:9862ad9c0fe558d22ceffbc4a89b878ad25b26beac1cb250d983d61781291630",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.6",
+          "mention": "regulation 20.6"
+        }
+      ],
+      "ref": "TMR1995/r20.5(1)",
+      "style": "subsection",
+      "text": "(1) The Board must be satisfied that a person has a qualification mentioned in regulation 20.6 if:"
+    },
+    {
+      "content_hash": "sha256:fd0500fcf28f4b7a21bfb674ceb3c7315e1c3708d18945ce93a618f515ac75bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.5(1)",
+      "ref": "TMR1995/r20.5(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person makes an application in the form approved by the Board; and"
+    },
+    {
+      "content_hash": "sha256:fe392f776cdf456cbc18cbdccd9d968780186ec6771819e10d3b56cc210415de",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.5(1)",
+      "ref": "TMR1995/r20.5(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the application is accompanied by:"
+    },
+    {
+      "content_hash": "sha256:f9d007c16190407f51fb236048fc7db79c97cceeb1d7c296cf44df8340d59cd2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.5(1)(b)",
+      "ref": "TMR1995/r20.5(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) evidence that the person has the qualification; and"
+    },
+    {
+      "content_hash": "sha256:bf581b23f83f8465861096434da225c22dc3fe2c148027dc31afb6acd6b5443d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.5(1)(b)",
+      "ref": "TMR1995/r20.5(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the original or a certified copy of an academic record that shows the units that make up the qualification."
+    },
+    {
+      "content_hash": "sha256:6d31a47ba8611fdaf89a131f01ee1ef005307fc45743ad8a40e548200665f1bb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.5(2)",
+      "style": "subsection",
+      "text": "(2) The Board must, within 42 days of deciding whether or not it is satisfied that the person has the qualification, notify the person, in writing, of its decision."
+    },
+    {
+      "content_hash": "sha256:b8d46475b5c4187c4b1f00d13243fd02b9bba8eaf3c3d3eca2193a139d7afdae",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.5(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.35",
+          "mention": "regulation 21.35"
+        }
+      ],
+      "ref": "TMR1995/r20.5(2)~1",
+      "style": "notetext",
+      "text": "Note: A decision that a person does not have a qualification is reviewable under regulation 21.35."
+    }
+  ]
+}

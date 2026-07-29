@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:7a885e94fd6f1882720c8d2e6e16935f2d276f489523265143c5299906e3058c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "70  Colours in registered trade marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "70",
+  "ref": "TMA1995/s70",
+  "text": "(1) A trade mark may be registered with limitations as to colour. (2) The limitations may be in respect of the whole, or a part, of the trade mark. (3) To the extent that a trade mark is registered without limitations as to colour, it is taken to be registered for all colours. Note: For limitations see section 6.",
+  "title": "Colours in registered trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:49f9a85b90da8c89eb051beec5a7b3e6fa5757863b4b6dcc13c8b460053b47ce",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s70(1)",
+      "style": "subsection",
+      "text": "(1) A trade mark may be registered with limitations as to colour."
+    },
+    {
+      "content_hash": "sha256:960d40099c2b2a9a13f1fdf34245b4b7c5145242865e9d25da866dbee21cda2b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s70(2)",
+      "style": "subsection",
+      "text": "(2) The limitations may be in respect of the whole, or a part, of the trade mark."
+    },
+    {
+      "content_hash": "sha256:3ecdb822cf18c26928394a867357fe5970517779e1221a22505e93be9a67c2a4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s70(3)",
+      "style": "subsection",
+      "text": "(3) To the extent that a trade mark is registered without limitations as to colour, it is taken to be registered for all colours."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s70(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s70(3)~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:56e49b37fb7df3ec67560cc944b2a1ba48a5b4a829f9418c4a6025883b609fc1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "247  Amendment of application—specification of goods or services"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "247",
+  "ref": "TMA1995/s247",
+  "text": "(1) This section applies if: (a) immediately before 1 January 1996 an application for the registration of a mark in Part A, B, C or D of the old register (other than an application made under section 39 of the repealed Act) was pending and had not been accepted; and (b) the application had previously been amended; and (c) the application as amended did not relate to all of the goods or services specified in the application before its amendment. Note 1: For old register see section 6. Note 2: For pending see subsection 11(2). (2) The applicant may, within 6 months after 1 January 1996, apply to the Registrar for the application to be again amended so as to relate to some or all of the goods or services specified in the application before its amendment under the repealed Act, if: (a) the application is still pending under this Act; and: (i) it has not been accepted; or (ii) if it has been accepted, the acceptance has not been advertised; and (b) subsection 43(3) of the repealed Act would apply in relation to a further application for the registration of the mark in respect of the goods or services included from the original application, if that Act were still in force. Note: For pending see subsection 11(1). (3) If an application is amended under subsection (2), it must (if necessary) be also amended so as to be in accordance with Part 4.",
+  "title": "Amendment of application—specification of goods or services",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s247(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:92b7556d4cc83cb3bb9aea76508db729e43abac3e9c2e33842cbbc241df291b1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s247(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "section 39"
+        }
+      ],
+      "ref": "TMA1995/s247(1)(a)",
+      "style": "paragraph",
+      "text": "(a) immediately before 1 January 1996 an application for the registration of a mark in Part A, B, C or D of the old register (other than an application made under section 39 of the repealed Act) was pending and had not been accepted; and"
+    },
+    {
+      "content_hash": "sha256:6244eb6d7cbb43ea1a589836e452d7b3f8fd44c504bccd61c61d68574e1caa33",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s247(1)",
+      "ref": "TMA1995/s247(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the application had previously been amended; and"
+    },
+    {
+      "content_hash": "sha256:81eccf11d9a2ed8645dd56b4e0637d07a5498473576d7b76485959d73941bac7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s247(1)",
+      "ref": "TMA1995/s247(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the application as amended did not relate to all of the goods or services specified in the application before its amendment."
+    },
+    {
+      "content_hash": "sha256:fe71aacd1f710941f36ea003f04086b5b5691a48d379d7cb09b2ea3a4544302a",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 12,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s247(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s247(1)(c)~1",
+      "style": "notetext",
+      "text": "Note 1: For old register see section 6."
+    },
+    {
+      "content_hash": "sha256:977e468c2fc323162798114ed8cdb26d09d3a96672ddf209976fa3d8a6d98fb8",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s247(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s247(1)(c)~2",
+      "style": "notetext",
+      "text": "Note 2: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:c937711d6dd51251789b1dfbdaafe2657e2f431266e1f2ebad76790eb83de662",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s247(2)",
+      "style": "subsection",
+      "text": "(2) The applicant may, within 6 months after 1 January 1996, apply to the Registrar for the application to be again amended so as to relate to some or all of the goods or services specified in the application before its amendment under the repealed Act, if:"
+    },
+    {
+      "content_hash": "sha256:a3821c3a1e72ee018f6da036a7acd8281b4495b840571273a1812e8aa1d28bbb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s247(2)",
+      "ref": "TMA1995/s247(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application is still pending under this Act; and:"
+    },
+    {
+      "content_hash": "sha256:cf54a6fa667641623dce1c01bf17308e424e12071072e31ebbe2401cfae43341",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s247(2)(a)",
+      "ref": "TMA1995/s247(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) it has not been accepted; or"
+    },
+    {
+      "content_hash": "sha256:b41cbda341abc2b076e4097f55f1dc9817b1c08bd18b1ca77924e1d0a017cc55",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s247(2)(a)",
+      "ref": "TMA1995/s247(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if it has been accepted, the acceptance has not been advertised; and"
+    },
+    {
+      "content_hash": "sha256:398631192097f23b7d6f9aadc116571104ea2e3ed7f00748666e75b893d93209",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s247(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43(3)",
+          "mention": "subsection 43(3)"
+        }
+      ],
+      "ref": "TMA1995/s247(2)(b)",
+      "style": "paragraph",
+      "text": "(b) subsection 43(3) of the repealed Act would apply in relation to a further application for the registration of the mark in respect of the goods or services included from the original application, if that Act were still in force."
+    },
+    {
+      "content_hash": "sha256:c8c138f9e1d428f81c684bb637698fb9e11938b798531a197a35a6d9023f76e2",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s247(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(1)",
+          "mention": "subsection 11(1)"
+        }
+      ],
+      "ref": "TMA1995/s247(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(1)."
+    },
+    {
+      "content_hash": "sha256:c553fb0bfdac393f8c1505f4ef14af5843e4ddfd4a43a51dbfaccab6dc5e7aee",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s247(3)",
+      "style": "subsection",
+      "text": "(3) If an application is amended under subsection (2), it must (if necessary) be also amended so as to be in accordance with Part 4."
+    }
+  ]
+}

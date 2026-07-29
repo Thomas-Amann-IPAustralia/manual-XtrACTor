@@ -1,0 +1,101 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div11"
+  ],
+  "content_hash": "sha256:1c3029865436f7230d35e9803fa044e7488f9a0093f751dff5a252c679be6944",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 11—Miscellaneous",
+    "17A.72  Documents to be made available for public inspection"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.72",
+  "ref": "TMR1995/r17A.72",
+  "text": "Section 217A of the Act and regulation 21.11A apply in relation to: (a) a trade mark that is the subject of an IRDA; or (b) a protected international trade mark; as if the reference in subsection 217A(1) to the time particulars of the application for registration of the trade mark are published under section 30 were a reference to the time of inclusion of the particulars of the IRDA in the Record of International Registrations under subregulation 17A.66(2).",
+  "title": "Documents to be made available for public inspection",
+  "units": [
+    {
+      "content_hash": "sha256:007d42b2b4b75090f4a40fac8c8c293c4110a703e75dcb1467dbcc505c6aa69a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A",
+          "mention": "Section 217A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.11A",
+          "mention": "regulation 21.11A"
+        }
+      ],
+      "ref": "TMR1995/r17A.72~1",
+      "style": "subsection",
+      "text": "Section 217A of the Act and regulation 21.11A apply in relation to:"
+    },
+    {
+      "content_hash": "sha256:db2bdab9fb3067180a90527784eb75687b67f378c8353468916c383abab1f876",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.72~1",
+      "ref": "TMR1995/r17A.72~1(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark that is the subject of an IRDA; or"
+    },
+    {
+      "content_hash": "sha256:b4128dde508a820c785f23f1abf84e0ccf3ffa3ca836cad86de7729e23db56a4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.72~1",
+      "ref": "TMR1995/r17A.72~1(b)",
+      "style": "paragraph",
+      "text": "(b) a protected international trade mark;"
+    },
+    {
+      "content_hash": "sha256:ac0b3154e2e72c51a4f7e6eb09bc4432d8f53f556ab8e0af1511010a39770149",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A(1)",
+          "mention": "subsection 217A(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.66(2)",
+          "mention": "subregulation 17A.66(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.72~2",
+      "style": "subsection2",
+      "text": "as if the reference in subsection 217A(1) to the time particulars of the application for registration of the trade mark are published under section 30 were a reference to the time of inclusion of the particulars of the IRDA in the Record of International Registrations under subregulation 17A.66(2)."
+    }
+  ]
+}

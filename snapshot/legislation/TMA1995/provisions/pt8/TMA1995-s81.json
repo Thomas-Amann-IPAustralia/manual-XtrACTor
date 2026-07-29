@@ -1,0 +1,63 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdiva"
+  ],
+  "content_hash": "sha256:8df5d5f3136719cebf3b217c19319bfa8410f14b4c8471bbc0dc0797462837e5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision A—Amending Register",
+    "81  Correction of Register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "81",
+  "ref": "TMA1995/s81",
+  "text": "The Registrar may, on his or her own initiative, correct any error or omission made in entering in the Register any particular in respect of the registration of a trade mark. Note: For Register see section 6.",
+  "title": "Correction of Register",
+  "units": [
+    {
+      "content_hash": "sha256:d7fed0e7c934378710b18811acdd86fb5481d8d79b373eb3cae5e79ac9f530f6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s81~1",
+      "style": "subsection",
+      "text": "The Registrar may, on his or her own initiative, correct any error or omission made in entering in the Register any particular in respect of the registration of a trade mark."
+    },
+    {
+      "content_hash": "sha256:cf0c99f9593d2cc780d4823ebac152bf84c5b9081fd68414357f7b52ae90ea88",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s81~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s81~1~1",
+      "style": "notetext",
+      "text": "Note: For Register see section 6."
+    }
+  ]
+}

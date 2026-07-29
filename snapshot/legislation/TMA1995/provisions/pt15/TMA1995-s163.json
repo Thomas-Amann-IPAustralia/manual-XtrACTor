@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt15"
+  ],
+  "content_hash": "sha256:a2bbe5172bf95c4ffe6ab098329a88c1e992185dd0b4d88a35ac1afb88f0c167",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 15—Collective trade marks",
+    "163  Application of Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "163",
+  "ref": "TMA1995/s163",
+  "text": "(1) Subject to this Part, the provisions of this Act relating to trade marks (other than Part 10—Assignment and Transmission of Trade Marks) apply to collective trade marks and so apply as if: (a) a reference to a trade mark included a reference to a collective trade mark; and (b) a reference to a person doing something for the registration of a trade mark included a reference to an association doing that thing for the registration of the collective trade mark; and (c) a reference to a trade mark registered by a person included a reference to a collective trade mark registered by an association. (2) For the purposes of this Act: (a) the use of a collective trade mark by a member of the association that is the applicant for the registration of the collective trade mark is taken to be a use of the collective trade mark by the applicant; and (b) the use of a registered collective trade mark by a member of the association that is the registered owner of the collective trade mark is taken to be a use of the collective trade mark by the registered owner. (3) Section 41 (trade mark not distinguishing applicant’s goods or services) applies in relation to a collective trade mark as if a reference to the applicant were a reference to the members of the association that applied for registration of the collective trade mark.",
+  "title": "Application of Act",
+  "units": [
+    {
+      "content_hash": "sha256:74215aec9837ebda4613d8577a87455d3508d893bb805813233cf5339c8807f2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s163(1)",
+      "style": "subsection",
+      "text": "(1) Subject to this Part, the provisions of this Act relating to trade marks (other than Part 10—Assignment and Transmission of Trade Marks) apply to collective trade marks and so apply as if:"
+    },
+    {
+      "content_hash": "sha256:585e0691d82f5ecc6372404d484b359fa5c0902511417b113ed636e0c012fe79",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s163(1)",
+      "ref": "TMA1995/s163(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference to a trade mark included a reference to a collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:40282737ef50a20f9cb8e2e91f9f72bf6ba9dd5ab472fe936e12531d4823a718",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s163(1)",
+      "ref": "TMA1995/s163(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a reference to a person doing something for the registration of a trade mark included a reference to an association doing that thing for the registration of the collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:c294a42fb8a2f9f9c65bdec38ecd661c32637889a7e799154bcfc402cbf86f0f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s163(1)",
+      "ref": "TMA1995/s163(1)(c)",
+      "style": "paragraph",
+      "text": "(c) a reference to a trade mark registered by a person included a reference to a collective trade mark registered by an association."
+    },
+    {
+      "content_hash": "sha256:67dfb3aaa4add3e74298becb66c81485ae3e74dbd8cf7aa9c5191da1accaa991",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s163(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of this Act:"
+    },
+    {
+      "content_hash": "sha256:1c8d8c78501438e96b4ba2c897bd7985446db4fcb38d754a78a4d3b21cc5cec8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s163(2)",
+      "ref": "TMA1995/s163(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the use of a collective trade mark by a member of the association that is the applicant for the registration of the collective trade mark is taken to be a use of the collective trade mark by the applicant; and"
+    },
+    {
+      "content_hash": "sha256:3bf58f3ecb1885c0cdeeb5379005fd54b4464e0cd14393671221925c4d1cecf1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s163(2)",
+      "ref": "TMA1995/s163(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the use of a registered collective trade mark by a member of the association that is the registered owner of the collective trade mark is taken to be a use of the collective trade mark by the registered owner."
+    },
+    {
+      "content_hash": "sha256:bb4188e097cf014f1b39b6ebf6e68c4a4f94bd9fdd70c1507b77381d4cc58a02",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "Section 41"
+        }
+      ],
+      "ref": "TMA1995/s163(3)",
+      "style": "subsection",
+      "text": "(3) Section 41 (trade mark not distinguishing applicant’s goods or services) applies in relation to a collective trade mark as if a reference to the applicant were a reference to the members of the association that applied for registration of the collective trade mark."
+    }
+  ]
+}

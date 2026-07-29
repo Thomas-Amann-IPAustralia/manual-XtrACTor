@@ -1,0 +1,74 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdivb"
+  ],
+  "content_hash": "sha256:5ae3ceb605cf4ca7c9cc99099904c3cf8404d0dd794b3e89892f595f25eaf1a0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision B—Notice of intention to defend",
+    "5.13B  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.13B",
+  "ref": "TMR1995/r5.13B",
+  "text": "(1) The Registrar may grant an application under subregulation 5.13A(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension. (2) However, if the application is made after the period mentioned in subregulation 5.13(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:601279ced8cd1c2d862ed2aa617f8fbe243c606234618d7788b94120e4c8beff",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.13A(1)",
+          "mention": "subregulation 5.13A(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.13B(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant an application under subregulation 5.13A(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension."
+    },
+    {
+      "content_hash": "sha256:1e0f6f7b2aedf8aabff4f86802a17f8466bc9b4c87b80b6cae4f2144fa5e2099",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.13(1)",
+          "mention": "subregulation 5.13(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.13B(2)",
+      "style": "subsection",
+      "text": "(2) However, if the application is made after the period mentioned in subregulation 5.13(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.13B(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

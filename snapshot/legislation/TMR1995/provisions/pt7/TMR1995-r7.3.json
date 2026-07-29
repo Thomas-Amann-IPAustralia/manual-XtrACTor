@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div2"
+  ],
+  "content_hash": "sha256:a9ce51748f292916cfc29cabef5ec173e54d6eb5fe03ee82c4bba4b9635818ad",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "7.3  Period for request for renewal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.3",
+  "ref": "TMR1995/r7.3",
+  "text": "For the purposes of subsection 75(1) of the Act (which deals with requests for renewal), the period within which a person may request the Registrar to renew the registration of a trade mark is 12 months ending on the day on which the registration of the trade mark expires.",
+  "title": "Period for request for renewal",
+  "units": [
+    {
+      "content_hash": "sha256:a9ce51748f292916cfc29cabef5ec173e54d6eb5fe03ee82c4bba4b9635818ad",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75(1)",
+          "mention": "subsection 75(1)"
+        }
+      ],
+      "ref": "TMR1995/r7.3~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 75(1) of the Act (which deals with requests for renewal), the period within which a person may request the Registrar to renew the registration of a trade mark is 12 months ending on the day on which the registration of the trade mark expires."
+    }
+  ]
+}

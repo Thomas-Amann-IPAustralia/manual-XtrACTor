@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:5f4c355b747535dee603ef48c4b29f32b41bb495190ddc0b5dba5793b0683e53",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "125  What courts may hear action for infringement of registered trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "125",
+  "ref": "TMA1995/s125",
+  "text": "(1) An action for an infringement of a registered trade mark may be brought in a prescribed court. Note: For prescribed court see section 190. (2) Subsection (1) does not prevent an action for infringement of a registered trade mark from being brought in any other court that has jurisdiction to hear the action.",
+  "title": "What courts may hear action for infringement of registered trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:e8de9ae7c09ba668efa9225fb8d3ab92131a412419f5d0cbc3912b0f12a5bc6d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s125(1)",
+      "style": "subsection",
+      "text": "(1) An action for an infringement of a registered trade mark may be brought in a prescribed court."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s125(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s125(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:b49ae02814a4673e4ec435cf6a9560ad9910ed618120e9d57fd320c0b62902af",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s125(2)",
+      "style": "subsection",
+      "text": "(2) Subsection (1) does not prevent an action for infringement of a registered trade mark from being brought in any other court that has jurisdiction to hear the action."
+    }
+  ]
+}

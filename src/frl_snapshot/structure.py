@@ -187,6 +187,10 @@ class Document:
     dropped_toc: int = 0
 
 
+#: Kinds opened on spec and dropped when they catch nothing.
+_SPECULATIVE_KINDS: Final[frozenset[str]] = frozenset({"container", "front-matter"})
+
+
 def parse_document(blocks: Iterable[Block], instrument: Instrument) -> Document:
     """Cut a block stream into containers, provisions and endnotes."""
     stack: dict[int, Container] = {}
@@ -287,7 +291,15 @@ def parse_document(blocks: Iterable[Block], instrument: Instrument) -> Document:
 
     close()
 
-    if not provisions:
+    # Numbered specifically, not merely non-empty. Front matter and container
+    # bodies are opened for whatever text turns up, so a document whose
+    # stylesheet this module cannot read at all still yields one record holding
+    # the lot — which validates, and is a compiled instrument reduced to an
+    # undifferentiated blob. The check that catches that is "did anything
+    # arrive with a number on it".
+    if not any(
+        provision.kind not in _SPECULATIVE_KINDS for provision in provisions
+    ):
         raise StructureError(
             f"{instrument.code}: no ActHead5 or ItemHead paragraphs found. "
             "Either the download is not a compiled instrument, or the Office "
@@ -305,10 +317,6 @@ def parse_document(blocks: Iterable[Block], instrument: Instrument) -> Document:
         endnote_blocks=tuple(endnote_blocks),
         dropped_toc=dropped_toc,
     )
-
-
-#: Kinds opened on spec and dropped when they catch nothing.
-_SPECULATIVE_KINDS: Final[frozenset[str]] = frozenset({"container", "front-matter"})
 
 
 def _front_matter(instrument: Instrument) -> Provision:

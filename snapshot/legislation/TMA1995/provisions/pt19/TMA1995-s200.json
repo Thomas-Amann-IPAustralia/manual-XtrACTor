@@ -1,0 +1,43 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt19"
+  ],
+  "content_hash": "sha256:25029cf262552122ed107d3b1c43d82a49cd70f4c0cc477a40a8010d72ebc082",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 19—Administration",
+    "200  Seal of Trade Marks Office"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "200",
+  "ref": "TMA1995/s200",
+  "text": "(1) There is to be a seal of the Trade Marks Office and impressions of the seal must be judicially noticed. (2) The seal of the Trade Marks Office may be kept and used in electronic form.",
+  "title": "Seal of Trade Marks Office",
+  "units": [
+    {
+      "content_hash": "sha256:aee4a8dd8a409c9b15fb1eec40f6b175920d056cb735f44c1264205b4ebac998",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s200(1)",
+      "style": "subsection",
+      "text": "(1) There is to be a seal of the Trade Marks Office and impressions of the seal must be judicially noticed."
+    },
+    {
+      "content_hash": "sha256:3b67769fc53762a16dba97af5b4fcd874c984ba024fae76e14e7144fd132bab0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s200(2)",
+      "style": "subsection",
+      "text": "(2) The seal of the Trade Marks Office may be kept and used in electronic form."
+    }
+  ]
+}

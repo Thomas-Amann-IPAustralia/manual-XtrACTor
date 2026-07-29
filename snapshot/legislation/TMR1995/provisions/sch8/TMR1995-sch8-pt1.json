@@ -1,0 +1,396 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/sch8"
+  ],
+  "content_hash": "sha256:31caa8ae62ec75a664208513afbb493175692954d9b36ac980d1bda3825c7dc3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 8—Costs, expenses and allowances",
+    "1  Costs"
+  ],
+  "instrument": "TMR1995",
+  "kind": "container",
+  "number": "1",
+  "ref": "TMR1995/sch8/pt1",
+  "text": "Item Column 1 Matter Column 2 Amount 1 Notice of intention to oppose $350 2 Statement of grounds and particulars $750 3 Receiving and perusing statement of grounds and particulars $500 4 Notice of intention to defend $350 5 Notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1) $750 6 Receiving and perusing a notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1) $500 7 Evidence in support $2,000 8 Receiving and perusing evidence in support $1,000 9 Evidence in answer $2,000 10 Receiving and perusing evidence in answer $1,000 11 Evidence in reply $1,000 12 Receiving and perusing evidence in reply $500 13 Preparation of cases for hearing $1,500 14 Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor without counsel $390 an hour, but not more than $1,755 a day 15 Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor instructing counsel $300 an hour, but not more than $1,350 a day 16 Counsel fees for attendance at a hearing $450 an hour, but not more than $2,025 a day",
+  "title": "Costs",
+  "units": [
+    {
+      "content_hash": "sha256:31caa8ae62ec75a664208513afbb493175692954d9b36ac980d1bda3825c7dc3",
+      "depth": 0,
+      "kind": "table",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.20B(1)",
+          "mention": "subregulation 6.6(1), 8.4(1) or 21.20B(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.6(1)",
+          "mention": "subregulation 6.6(1), 8.4(1) or 21.20B(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.4(1)",
+          "mention": "subregulation 6.6(1), 8.4(1) or 21.20B(1)"
+        }
+      ],
+      "ref": "TMR1995/sch8/pt1~1",
+      "style": "<table>",
+      "table": {
+        "rows": [
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Item"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Column 1 Matter"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Column 2 Amount"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "1"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Notice of intention to oppose"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$350"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "2"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Statement of grounds and particulars"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$750"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "3"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Receiving and perusing statement of grounds and particulars"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$500"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "4"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Notice of intention to defend"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$350"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "5"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1)"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$750"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "6"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Receiving and perusing a notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1)"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$500"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "7"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Evidence in support"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$2,000"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "8"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Receiving and perusing evidence in support"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$1,000"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "9"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Evidence in answer"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$2,000"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "10"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Receiving and perusing evidence in answer"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$1,000"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "11"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Evidence in reply"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$1,000"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "12"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Receiving and perusing evidence in reply"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$500"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "13"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Preparation of cases for hearing"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$1,500"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "14"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor without counsel"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$390 an hour, but not more than $1,755 a day"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "15"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor instructing counsel"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$300 an hour, but not more than $1,350 a day"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "16"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Counsel fees for attendance at a hearing"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "$450 an hour, but not more than $2,025 a day"
+            }
+          ]
+        ]
+      },
+      "text": "Item Column 1 Matter Column 2 Amount 1 Notice of intention to oppose $350 2 Statement of grounds and particulars $750 3 Receiving and perusing statement of grounds and particulars $500 4 Notice of intention to defend $350 5 Notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1) $750 6 Receiving and perusing a notice of opposition filed under subregulation 6.6(1), 8.4(1) or 21.20B(1) $500 7 Evidence in support $2,000 8 Receiving and perusing evidence in support $1,000 9 Evidence in answer $2,000 10 Receiving and perusing evidence in answer $1,000 11 Evidence in reply $1,000 12 Receiving and perusing evidence in reply $500 13 Preparation of cases for hearing $1,500 14 Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor without counsel $390 an hour, but not more than $1,755 a day 15 Attendance at hearing by registered patent attorney, registered trade marks attorney or solicitor instructing counsel $300 an hour, but not more than $1,350 a day 16 Counsel fees for attendance at a hearing $450 an hour, but not more than $2,025 a day"
+    }
+  ]
+}

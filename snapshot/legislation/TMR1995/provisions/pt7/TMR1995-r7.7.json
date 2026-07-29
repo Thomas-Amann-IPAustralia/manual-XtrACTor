@@ -1,0 +1,64 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div3"
+  ],
+  "content_hash": "sha256:8dd797bddb74bc5a2fc2522879589b14913f8cb2c697f8369378e506b26e15a6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "7.7  Notification about renewal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.7",
+  "ref": "TMR1995/r7.7",
+  "text": "For section 80C of the Act (which deals with renewal of registration, where registration has been delayed for 10 or more years after the filing date of the application for registration) the Registrar’s notification to the registered owner of the trade mark must state: (a) the date on which the prescribed period expires; and (b) the fee payable by the registered owner.",
+  "title": "Notification about renewal",
+  "units": [
+    {
+      "content_hash": "sha256:402cb26e9c85c72a3e467032b84788f664bab014ae24117ba6053485675501e5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80C",
+          "mention": "section 80C"
+        }
+      ],
+      "ref": "TMR1995/r7.7~1",
+      "style": "subsection",
+      "text": "For section 80C of the Act (which deals with renewal of registration, where registration has been delayed for 10 or more years after the filing date of the application for registration) the Registrar’s notification to the registered owner of the trade mark must state:"
+    },
+    {
+      "content_hash": "sha256:3f3953dccd4e687fd617d862a1c697c6bd77f2408c846867a77c6990b370da67",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r7.7~1",
+      "ref": "TMR1995/r7.7~1(a)",
+      "style": "paragraph",
+      "text": "(a) the date on which the prescribed period expires; and"
+    },
+    {
+      "content_hash": "sha256:6778889cf79fca80e1ef6fd5f97c29624b3bc0d103c71487f6ffb81099a8b250",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r7.7~1",
+      "ref": "TMR1995/r7.7~1(b)",
+      "style": "paragraph",
+      "text": "(b) the fee payable by the registered owner."
+    }
+  ]
+}

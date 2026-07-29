@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:e15ffabefdb5929331e9e3b77989ea8be822723c5e0218d403314090bb247e25",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "6A  Periods expressed in months"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "6A",
+  "ref": "TMA1995/s6A",
+  "text": "For the purposes of this Act, a period expressed in months and dating from an event ends: (a) on the day, in the relevant subsequent month, which has the same number as the day of the event; or (b) if the relevant subsequent month has no day with the same number—on the last day of the month. Note: For example, a period of 3 months from an event on 30 September ends on 30 December under this rule.",
+  "title": "Periods expressed in months",
+  "units": [
+    {
+      "content_hash": "sha256:d3eab168751fc92411d402f5557b59e8940b6a35de225e309382244a124801d5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s6A~1",
+      "style": "subsection",
+      "text": "For the purposes of this Act, a period expressed in months and dating from an event ends:"
+    },
+    {
+      "content_hash": "sha256:23aceff61171ab0d0f70b4e74b084708468c23dc378f4e37b399877c083663b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s6A~1",
+      "ref": "TMA1995/s6A~1(a)",
+      "style": "paragraph",
+      "text": "(a) on the day, in the relevant subsequent month, which has the same number as the day of the event; or"
+    },
+    {
+      "content_hash": "sha256:172f4b31bbb65968e22fecc8387313c5f4cea23acd4ba30cf6b38c0acf3256b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s6A~1",
+      "ref": "TMA1995/s6A~1(b)",
+      "style": "paragraph",
+      "text": "(b) if the relevant subsequent month has no day with the same number—on the last day of the month."
+    },
+    {
+      "content_hash": "sha256:c904dc75d94a01516a37d5e67556f61a16732993e2cd913eeea6ef28bbc2d848",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s6A~1(b)",
+      "ref": "TMA1995/s6A~1(b)~1",
+      "style": "notetext",
+      "text": "Note: For example, a period of 3 months from an event on 30 September ends on 30 December under this rule."
+    }
+  ]
+}

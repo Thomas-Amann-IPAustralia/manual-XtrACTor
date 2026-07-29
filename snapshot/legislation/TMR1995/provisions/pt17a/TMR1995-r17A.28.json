@@ -1,0 +1,325 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv2"
+  ],
+  "content_hash": "sha256:f2615fefcf8bdc154941b977f25d1425d4b5180f4f74f6996456a9ba1602cb57",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 2—Grounds for rejecting IRDA",
+    "17A.28  Grounds for rejecting IRDA"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.28",
+  "ref": "TMR1995/r17A.28",
+  "text": "Grounds under sections 39 to 44 of the Act for rejecting an IRDA (1) The grounds set out in sections 39 to 44 of the Act, as affected by subregulation (2), are grounds for rejecting an IRDA. (2) Sections 39 to 44 apply in relation to an IRDA as if: (a) a reference in those sections: (i) to an application for the registration of a trade mark were a reference to the IRDA; and (ii) to an applicant were a reference to the holder of the IRDA; and (b) the reference in paragraph 41(3)(b) to the filing date in respect of an application were a reference to the date of international registration or the date of recording, as applicable, in respect of the IRDA; and (c) each reference in subparagraphs 44(1)(a)(i) and (2)(a)(i) to a trade mark registered by another person included a protected international trade mark held by another person; and (d) each reference in subparagraphs 44(1)(a)(ii) and (2)(a)(ii) to a trade mark whose registration is being sought by another person included a trade mark in respect of which the extension of protection to Australia is being sought by another person. Rejecting an IRDA on basis of sanctions regime (2A) A ground for rejecting an IRDA is that, if the trade mark that is the subject of the IRDA were to become a protected international trade mark, this would result in: (a) an asset (within the meaning of the Autonomous Sanctions Act 2011) being made directly or indirectly available to, or for the benefit of, a designated person or entity (within the meaning of the Autonomous Sanctions Regulations 2011) other than in accordance with a permit under those regulations; or (b) an asset (within the meaning of the Charter of the United Nations Act 1945) being made directly or indirectly available to, or for the benefit of, a person or entity prescribed by regulations made for the purposes of Part 3 of that Act other than in accordance with a permit under those regulations; or (c) an asset (within the meaning of the Charter of the United Nations Act 1945) being made directly or indirectly available to a proscribed person or entity (within the meaning of Part 4 of that Act) other than in accordance with a notice under section 22 of that Act. Ground for rejecting an IRDA that is for a certification trade mark (3) The ground set out in section 177 of the Act is a ground for rejecting an IRDA that is for a certification trade mark.",
+  "title": "Grounds for rejecting IRDA",
+  "units": [
+    {
+      "content_hash": "sha256:953465ed06adc730046f62459f75273dad413f978d2dd492d7d9147ffe53d415",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "sections 39 to 44"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "sections 39 to 44"
+        }
+      ],
+      "ref": "TMR1995/r17A.28~1",
+      "style": "SubsectionHead",
+      "text": "Grounds under sections 39 to 44 of the Act for rejecting an IRDA"
+    },
+    {
+      "content_hash": "sha256:b79e48c27689a14a84a2f8985f86d7187d148f3193fff4455138510b4f301839",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "sections 39 to 44"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "sections 39 to 44"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(1)",
+      "style": "subsection",
+      "text": "(1) The grounds set out in sections 39 to 44 of the Act, as affected by subregulation (2), are grounds for rejecting an IRDA."
+    },
+    {
+      "content_hash": "sha256:3bb5cba4d9b24312d421ab891913b35f02ecd200f3510dbebe6016c5144efa81",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39",
+          "mention": "Sections 39 to 44"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44",
+          "mention": "Sections 39 to 44"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(2)",
+      "style": "subsection",
+      "text": "(2) Sections 39 to 44 apply in relation to an IRDA as if:"
+    },
+    {
+      "content_hash": "sha256:6914b51da892b63a2cdecb8f06c7580b0248d32a9a813decbd9a0ed1bc26b540",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.28(2)",
+      "ref": "TMR1995/r17A.28(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference in those sections:"
+    },
+    {
+      "content_hash": "sha256:e41b60a16b66927e1ffeeb5105b585481367a5d4ac1ac1a56da346f3ccfaac7a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.28(2)(a)",
+      "ref": "TMR1995/r17A.28(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to an application for the registration of a trade mark were a reference to the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:008ef0bf1cc6e51ba96f5cdee989661be1c12f1410cdabd7b12e32481df0d190",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.28(2)(a)",
+      "ref": "TMR1995/r17A.28(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to an applicant were a reference to the holder of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:ab882334d381f56c56ac4189a8eb6398b4dc580a7144e0dafec3c47cdd6e8d9b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41(3)(b)",
+          "mention": "paragraph 41(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the reference in paragraph 41(3)(b) to the filing date in respect of an application were a reference to the date of international registration or the date of recording, as applicable, in respect of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:48798fcf17c163ea1ba36280e9edb1f9df255800328aa6ea2e070e05fd552e79",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)(a)(i)",
+          "mention": "subparagraphs 44(1)(a)(i)"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(2)(c)",
+      "style": "paragraph",
+      "text": "(c) each reference in subparagraphs 44(1)(a)(i) and (2)(a)(i) to a trade mark registered by another person included a protected international trade mark held by another person; and"
+    },
+    {
+      "content_hash": "sha256:d82874c32b4ca111139a06587823287b7f4310fbdb9c79474cda72a2a60ba0df",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)(a)(ii)",
+          "mention": "subparagraphs 44(1)(a)(ii)"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(2)(d)",
+      "style": "paragraph",
+      "text": "(d) each reference in subparagraphs 44(1)(a)(ii) and (2)(a)(ii) to a trade mark whose registration is being sought by another person included a trade mark in respect of which the extension of protection to Australia is being sought by another person."
+    },
+    {
+      "content_hash": "sha256:79c1d169e56f44a16b2e30654d85bfe93eeed1906a061dd54962852e0cc848e7",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.28~2",
+      "style": "SubsectionHead",
+      "text": "Rejecting an IRDA on basis of sanctions regime"
+    },
+    {
+      "content_hash": "sha256:ce7004e47316b9a78007677efb3accc60a8529d9517ee1b522f8ce3ae39eda6b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.28(2A)",
+      "style": "subsection",
+      "text": "(2A) A ground for rejecting an IRDA is that, if the trade mark that is the subject of the IRDA were to become a protected international trade mark, this would result in:"
+    },
+    {
+      "content_hash": "sha256:a58902006ba0c00e40b045f44cec30422a4bdc7e347123077444041654bb6d6f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 69,
+          "start": 40,
+          "text": "Autonomous Sanctions Act 2011",
+          "weight": "italic"
+        },
+        {
+          "end": 219,
+          "start": 199,
+          "text": "Autonomous Sanctions",
+          "weight": "italic"
+        },
+        {
+          "end": 233,
+          "start": 220,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 236,
+          "start": 233,
+          "text": "011",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.28(2A)",
+      "ref": "TMR1995/r17A.28(2A)(a)",
+      "style": "paragraph",
+      "text": "(a) an asset (within the meaning of the Autonomous Sanctions Act 2011) being made directly or indirectly available to, or for the benefit of, a designated person or entity (within the meaning of the Autonomous Sanctions Regulations 2011) other than in accordance with a permit under those regulations; or"
+    },
+    {
+      "content_hash": "sha256:5bf2f2026f9b22893dcbdc15fb761b8fd88ab8b31c6a1b663fb0ef150cfaac4d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 78,
+          "start": 40,
+          "text": "Charter of the United Nations Act 1945",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.28(2A)",
+      "ref": "TMR1995/r17A.28(2A)(b)",
+      "style": "paragraph",
+      "text": "(b) an asset (within the meaning of the Charter of the United Nations Act 1945) being made directly or indirectly available to, or for the benefit of, a person or entity prescribed by regulations made for the purposes of Part 3 of that Act other than in accordance with a permit under those regulations; or"
+    },
+    {
+      "content_hash": "sha256:bcc581fbe21bca8bcb9ccf69e059085365af0b2dd78bd3243956d3221141fe26",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 78,
+          "start": 40,
+          "text": "Charter of the United Nations Act 1945",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.28(2A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s22",
+          "mention": "section 22"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(2A)(c)",
+      "style": "paragraph",
+      "text": "(c) an asset (within the meaning of the Charter of the United Nations Act 1945) being made directly or indirectly available to a proscribed person or entity (within the meaning of Part 4 of that Act) other than in accordance with a notice under section 22 of that Act."
+    },
+    {
+      "content_hash": "sha256:eb7cf21bd5c01eae9edd9af495d1295390bd3a76ddf58282c3d2ba3840f7b7b8",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.28~3",
+      "style": "SubsectionHead",
+      "text": "Ground for rejecting an IRDA that is for a certification trade mark"
+    },
+    {
+      "content_hash": "sha256:e65febd8e9f593ee2647fcf52965209ff4c2bdde492dd98f8ade49c4f602942d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s177",
+          "mention": "section 177"
+        }
+      ],
+      "ref": "TMR1995/r17A.28(3)",
+      "style": "subsection",
+      "text": "(3) The ground set out in section 177 of the Act is a ground for rejecting an IRDA that is for a certification trade mark."
+    }
+  ]
+}

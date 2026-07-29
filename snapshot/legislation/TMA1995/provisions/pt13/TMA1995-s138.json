@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:d53dcfea7688ce63cbffb7b484e8c6aa380da094a8df2e5d353b5ce881a75d77",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "138  Action for infringement by authorised user"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "138",
+  "ref": "TMA1995/s138",
+  "text": "If an authorised user of a notified trade mark is an objector in relation to any seized goods, the authorised user may start an action for the infringement of the trade mark in respect of the goods within the required period without first ascertaining whether the registered owner is willing to bring the action. Note 1: For notified trade mark, objector and seized goods see section 6. Note 2: For authorised user see section 8. Note 3: Under paragraph 26(1)(b) an authorised user of a trade mark may bring an action for infringement of the trade mark only if the registered owner of the trade mark gives consent to the bringing of such an action or refuses or fails to bring such an action.",
+  "title": "Action for infringement by authorised user",
+  "units": [
+    {
+      "content_hash": "sha256:1a730d64d6c75b81c709818bc7552288d106866fad36232130bc429c8226f401",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s138~1",
+      "style": "subsection",
+      "text": "If an authorised user of a notified trade mark is an objector in relation to any seized goods, the authorised user may start an action for the infringement of the trade mark in respect of the goods within the required period without first ascertaining whether the registered owner is willing to bring the action."
+    },
+    {
+      "content_hash": "sha256:dac17cf57dd68d48e997029f060bfdeadaa1921c026e43efbcf8067a6a66c666",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "notified trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 41,
+          "start": 33,
+          "text": "objector",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 58,
+          "start": 46,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s138~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s138~1~1",
+      "style": "notetext",
+      "text": "Note 1: For notified trade mark, objector and seized goods see section 6."
+    },
+    {
+      "content_hash": "sha256:13ae90494e1dea74bfed8e1e124bd9ac141f1397160bab9a1d80e146c02e722c",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s138~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s138~1~2",
+      "style": "notetext",
+      "text": "Note 2: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:55b1941e7886ea034b943ed11e041120ead4917dfe8517226eca90c28028da1b",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s138~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26(1)(b)",
+          "mention": "paragraph 26(1)(b)"
+        }
+      ],
+      "ref": "TMA1995/s138~1~3",
+      "style": "notetext",
+      "text": "Note 3: Under paragraph 26(1)(b) an authorised user of a trade mark may bring an action for infringement of the trade mark only if the registered owner of the trade mark gives consent to the bringing of such an action or refuses or fails to bring such an action."
+    }
+  ]
+}

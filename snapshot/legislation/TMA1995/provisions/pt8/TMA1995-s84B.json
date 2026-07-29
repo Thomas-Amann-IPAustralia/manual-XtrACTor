@@ -1,0 +1,129 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdivc"
+  ],
+  "content_hash": "sha256:4e7c869c828c304163a14ccbcc738f7d0cddb7547fb107958c8813da45233388",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision C—Revoking registration",
+    "84B  Registration must be revoked if opposition was ignored in registration process"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "84B",
+  "ref": "TMA1995/s84B",
+  "text": "The Registrar must revoke the registration of a trade mark if: (a) either: (i) a component of a notice of opposition to the registration was filed in accordance with subsection 52(2); or (ii) before the registration, a person applied in accordance with the regulations for an extension of the period for filing a component of a notice of opposition to the registration; and (b) the Registrar failed to take account of the component or application in deciding to register the trade mark; and (c) the Registrar becomes aware of the failure within 1 month after the notice was filed or the application was made. The revocation must be done within that month. Note: If the Registrar becomes aware of the failure later, he or she may be able to revoke the registration under section 84A.",
+  "title": "Registration must be revoked if opposition was ignored in registration process",
+  "units": [
+    {
+      "content_hash": "sha256:3ed86da0f966bddcab3879f226e0f0cf449e24d4a57e3d30aadf014a40865751",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s84B~1",
+      "style": "subsection",
+      "text": "The Registrar must revoke the registration of a trade mark if:"
+    },
+    {
+      "content_hash": "sha256:9922f12514bf11514b1a0a12049189c2b6227d5a245097d4130d8b7b1b609f8e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s84B~1",
+      "ref": "TMA1995/s84B~1(a)",
+      "style": "paragraph",
+      "text": "(a) either:"
+    },
+    {
+      "content_hash": "sha256:3568aac7642e0a80b0811944131eb7c80c0e262ba4ca3c5183db3fbb0c43fd97",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s84B~1(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52(2)",
+          "mention": "subsection 52(2)"
+        }
+      ],
+      "ref": "TMA1995/s84B~1(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a component of a notice of opposition to the registration was filed in accordance with subsection 52(2); or"
+    },
+    {
+      "content_hash": "sha256:7de1083453f6cb834cb767f1296ad2cd4b89a53f03fa73111713b40434038f3e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s84B~1(a)",
+      "ref": "TMA1995/s84B~1(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) before the registration, a person applied in accordance with the regulations for an extension of the period for filing a component of a notice of opposition to the registration; and"
+    },
+    {
+      "content_hash": "sha256:c601c5118c7a744044eba36e277efcd4a0817d467b986117e543f865e9a78f25",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s84B~1",
+      "ref": "TMA1995/s84B~1(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar failed to take account of the component or application in deciding to register the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:88f04cb7e6506158b120e190acd0c2e636c404dc16dbfe2f46bc50b497b6b308",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s84B~1",
+      "ref": "TMA1995/s84B~1(c)",
+      "style": "paragraph",
+      "text": "(c) the Registrar becomes aware of the failure within 1 month after the notice was filed or the application was made."
+    },
+    {
+      "content_hash": "sha256:e9818dce2a2436bb66a0e020800de181762d0348822186dedf9802068781c7e7",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s84B~2",
+      "style": "subsection2",
+      "text": "The revocation must be done within that month."
+    },
+    {
+      "content_hash": "sha256:786e95b99ad2653376060788729271f7bce397eaaaa180f3e820ab512c2c4b64",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s84B~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s84A",
+          "mention": "section 84A"
+        }
+      ],
+      "ref": "TMA1995/s84B~2~1",
+      "style": "notetext",
+      "text": "Note: If the Registrar becomes aware of the failure later, he or she may be able to revoke the registration under section 84A."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:d31c42f09116407c8834ad4ba518e52e341cb159957a05fb1bf45a9eee56a34e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "21  Nature of registered trade mark as property"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "21",
+  "ref": "TMA1995/s21",
+  "text": "(1) A registered trade mark is personal property. (2) Equities in respect of a registered trade mark may be enforced in the same way as equities in respect of any other personal property. Note: For registered trade mark see section 6.",
+  "title": "Nature of registered trade mark as property",
+  "units": [
+    {
+      "content_hash": "sha256:72bb10cb46e5f12d90713b47950a40b5f9060e1cba7379e69b360a98ea65c6e2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s21(1)",
+      "style": "subsection",
+      "text": "(1) A registered trade mark is personal property."
+    },
+    {
+      "content_hash": "sha256:a63896fe609cf5a85eb9423bb1990d8b6f44eecf79351c1ad41067d735b35a9a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s21(2)",
+      "style": "subsection",
+      "text": "(2) Equities in respect of a registered trade mark may be enforced in the same way as equities in respect of any other personal property."
+    },
+    {
+      "content_hash": "sha256:48edc9e7118618be3f615e1f7d65a2a703b12d564f06e64025fa38badc28c0f1",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s21(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s21(2)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark see section 6."
+    }
+  ]
+}

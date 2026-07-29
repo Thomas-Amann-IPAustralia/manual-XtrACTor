@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [],
+  "content_hash": "sha256:95ce6d002a99f40ae0dd3c78e06217b95da67616956f2731ec90d68f979c604c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "3  Modifications of Part 13 of the Act (Norfolk Island)"
+  ],
+  "instrument": "TMR1995",
+  "kind": "container",
+  "number": "3",
+  "ref": "TMR1995/sch3",
+  "text": "Note See regulation 13.7.",
+  "title": "Modifications of Part 13 of the Act (Norfolk Island)",
+  "units": [
+    {
+      "content_hash": "sha256:95ce6d002a99f40ae0dd3c78e06217b95da67616956f2731ec90d68f979c604c",
+      "depth": 0,
+      "kind": "note",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.7",
+          "mention": "regulation 13.7"
+        }
+      ],
+      "ref": "TMR1995/sch3~1",
+      "style": "notemargin",
+      "text": "Note See regulation 13.7."
+    }
+  ]
+}

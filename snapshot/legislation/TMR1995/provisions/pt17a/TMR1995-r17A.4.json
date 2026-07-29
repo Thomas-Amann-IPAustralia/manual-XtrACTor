@@ -1,0 +1,176 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div1"
+  ],
+  "content_hash": "sha256:c86678b4439ba545b0de09f386ff4d543b6aab200aa5b99d2da149c28b871337",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 1—General",
+    "17A.4  Meaning of date of effect"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.4",
+  "ref": "TMR1995/r17A.4",
+  "text": "(1) Subject to subregulation (2), the date of effect of the protection of a protected international trade mark is: (a) if the request for extension of protection to Australia was made under Article 3ter (1) of the Protocol—the date of international registration of the trade mark; or (b) if the request for extension of protection to Australia was made under Article 3ter (2) of the Protocol—the date of recording of the request. (2) If: (a) the request for extension of protection to Australia was in respect of a trade mark whose registration had also been sought in 1 or more Convention countries; and (b) the holder claimed a right of priority under regulation 17A.15 for protection of the trade mark in respect of particular goods or services; and (c) the trade mark is a protected international trade mark; the protection of the trade mark is taken to have had effect: (d) if an application to register the trade mark was made in only 1 Convention country—from (and including) the day on which the application was made in that country; or (e) if applications to register the trade mark were made in more than 1 Convention country—from (and including) the day on which the earliest of those applications was made. (3) This regulation has effect subject to regulation 17A.54.",
+  "title": "Meaning of date of effect",
+  "units": [
+    {
+      "content_hash": "sha256:d13f53aaf86bfc7f36330fc7dd5c8a89fc21c71c977d1378b855d9684117ef5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.4(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subregulation (2), the date of effect of the protection of a protected international trade mark is:"
+    },
+    {
+      "content_hash": "sha256:7b0a96316f09aa11b750cdc6fde6d51ab2580dcc1f73f79abad44f018065d90b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 87,
+          "start": 84,
+          "text": "ter",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.4(1)",
+      "ref": "TMR1995/r17A.4(1)(a)",
+      "style": "paragraph",
+      "text": "(a) if the request for extension of protection to Australia was made under Article 3ter (1) of the Protocol—the date of international registration of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:0626c5d86e17329e29d83838ed0baa79379610b747e563b96d60d79bf2edb3cd",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 87,
+          "start": 84,
+          "text": "ter",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.4(1)",
+      "ref": "TMR1995/r17A.4(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the request for extension of protection to Australia was made under Article 3ter (2) of the Protocol—the date of recording of the request."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.4(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:85d3266f115e9f5a70198ef1490e1902f093cd5deed525c958325b4128ceb85e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.4(2)",
+      "ref": "TMR1995/r17A.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the request for extension of protection to Australia was in respect of a trade mark whose registration had also been sought in 1 or more Convention countries; and"
+    },
+    {
+      "content_hash": "sha256:bc0a1eec90a977101df169f915056b6b37bb30073faa556ead6b7048e6973ab5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.4(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.15",
+          "mention": "regulation 17A.15"
+        }
+      ],
+      "ref": "TMR1995/r17A.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the holder claimed a right of priority under regulation 17A.15 for protection of the trade mark in respect of particular goods or services; and"
+    },
+    {
+      "content_hash": "sha256:00fee672f54f502885a7a5dbc6880a67c2ba36c7eb19ab1aabdb8ec7f97a02fa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.4(2)",
+      "ref": "TMR1995/r17A.4(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the trade mark is a protected international trade mark;"
+    },
+    {
+      "content_hash": "sha256:9d06a11d9a53b2b7ed700059bf1c6202b8588368b1f28d79da129f91234df51c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.4~1",
+      "style": "subsection2",
+      "text": "the protection of the trade mark is taken to have had effect:"
+    },
+    {
+      "content_hash": "sha256:455c46d829259ef6bd2370b5b4c64507408d237c5c796076fedb748d05885b3e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.4~1",
+      "ref": "TMR1995/r17A.4~1(d)",
+      "style": "paragraph",
+      "text": "(d) if an application to register the trade mark was made in only 1 Convention country—from (and including) the day on which the application was made in that country; or"
+    },
+    {
+      "content_hash": "sha256:42e9fa0c5d6159c11a9d0457f45d1bfffb3cd2cc8e9d906b74872972b76216a1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.4~1",
+      "ref": "TMR1995/r17A.4~1(e)",
+      "style": "paragraph",
+      "text": "(e) if applications to register the trade mark were made in more than 1 Convention country—from (and including) the day on which the earliest of those applications was made."
+    },
+    {
+      "content_hash": "sha256:ce36944b17167b0ab1137497129634e8910f529b8b79a5a269de49a0479f8f85",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.54",
+          "mention": "regulation 17A.54"
+        }
+      ],
+      "ref": "TMR1995/r17A.4(3)",
+      "style": "subsection",
+      "text": "(3) This regulation has effect subject to regulation 17A.54."
+    }
+  ]
+}

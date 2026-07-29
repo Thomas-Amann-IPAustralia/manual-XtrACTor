@@ -1,0 +1,179 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv3"
+  ],
+  "content_hash": "sha256:d0ace5ec023e61ea3c4042b02ce53908f815d1399d323be5fbd01f617a0725e2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 3—Amendment or cessation of protection by prescribed court",
+    "17A.45  Amendment or cessation of protection—other specified grounds"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.45",
+  "ref": "TMR1995/r17A.45",
+  "text": "(1) Subject to subregulation (2) and regulation 17A.46, a prescribed court may, on the application of the Registrar or an aggrieved person, order that: (a) the protection extended to a protected international trade mark cease; or (b) an entry wrongly made or remaining in the Record of International Registrations be removed or amended; or (c) a condition or limitation affecting the protection of a protected international trade mark be entered in the Record of International Registrations. (2) An application under this regulation may be made on any of the following grounds: (a) any of the grounds on which the extension of protection could have been opposed under regulation 17A.34; (b) because of circumstances applying when the application under this regulation is filed, the use of the trade mark is likely to deceive or cause confusion; (c) for a certification trade mark—the ground in section 177 of the Act as applied by regulation 17A.50; (d) if the application is in respect of an entry in the Record of International Registrations, the entry was made, or has been amended, as a result of fraud, false suggestion or misrepresentation. (e) because the Registrar wrongfully made a declaration under subregulation 17A.35B(3) or 17A.41A(3).",
+  "title": "Amendment or cessation of protection—other specified grounds",
+  "units": [
+    {
+      "content_hash": "sha256:828520002d00c81e0f6c6cba88c1d9d1177d71bd02a3ed8b01a33589dfcf0b8a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.46",
+          "mention": "regulation 17A.46"
+        }
+      ],
+      "ref": "TMR1995/r17A.45(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subregulation (2) and regulation 17A.46, a prescribed court may, on the application of the Registrar or an aggrieved person, order that:"
+    },
+    {
+      "content_hash": "sha256:7a7262700fd035492ad104dda5d73f30b8f57a83e718438d3c70ed49db99b094",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.45(1)",
+      "ref": "TMR1995/r17A.45(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the protection extended to a protected international trade mark cease; or"
+    },
+    {
+      "content_hash": "sha256:0ef3675a4dba2b70cc017b107a890e1f9c93663b70d455a3645403b3ae2bbdec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.45(1)",
+      "ref": "TMR1995/r17A.45(1)(b)",
+      "style": "paragraph",
+      "text": "(b) an entry wrongly made or remaining in the Record of International Registrations be removed or amended; or"
+    },
+    {
+      "content_hash": "sha256:7e3f898236660a95e63321509ed5a83f8aa4bdd68537a127d96e41765b4a57cf",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.45(1)",
+      "ref": "TMR1995/r17A.45(1)(c)",
+      "style": "paragraph",
+      "text": "(c) a condition or limitation affecting the protection of a protected international trade mark be entered in the Record of International Registrations."
+    },
+    {
+      "content_hash": "sha256:4c18d7b89581ae8c3e61c1e6ccb9ba79aebc0b724ab586f6865a70768d963732",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.45(2)",
+      "style": "subsection",
+      "text": "(2) An application under this regulation may be made on any of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:2eef7a85500dd91d90f0b19918b8fbe2f87ad185401754d5449e96b190d9be78",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.45(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34",
+          "mention": "regulation 17A.34"
+        }
+      ],
+      "ref": "TMR1995/r17A.45(2)(a)",
+      "style": "paragraph",
+      "text": "(a) any of the grounds on which the extension of protection could have been opposed under regulation 17A.34;"
+    },
+    {
+      "content_hash": "sha256:cbb921e292a902f1598a6c9ddd01e26888dca430bf235840ef4d51ce7a149ff1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.45(2)",
+      "ref": "TMR1995/r17A.45(2)(b)",
+      "style": "paragraph",
+      "text": "(b) because of circumstances applying when the application under this regulation is filed, the use of the trade mark is likely to deceive or cause confusion;"
+    },
+    {
+      "content_hash": "sha256:dcecbcc3a55e96bf08d56960ea985814dc42280d65c9a2a1386ff1d71a578ed2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.45(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s177",
+          "mention": "section 177"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.50",
+          "mention": "regulation 17A.50"
+        }
+      ],
+      "ref": "TMR1995/r17A.45(2)(c)",
+      "style": "paragraph",
+      "text": "(c) for a certification trade mark—the ground in section 177 of the Act as applied by regulation 17A.50;"
+    },
+    {
+      "content_hash": "sha256:14a0b5db29aa98ed624ee2847c472bf0dcc52c14ecf39d9912579dd9ce3d3289",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.45(2)",
+      "ref": "TMR1995/r17A.45(2)(d)",
+      "style": "paragraph",
+      "text": "(d) if the application is in respect of an entry in the Record of International Registrations, the entry was made, or has been amended, as a result of fraud, false suggestion or misrepresentation."
+    },
+    {
+      "content_hash": "sha256:293da0d35a4f786133e6f5c221489bcceb78ddf12d665550ccc4ca57a855bc8c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.45(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.35B(3)",
+          "mention": "subregulation 17A.35B(3) or 17A.41A(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.41A(3)",
+          "mention": "subregulation 17A.35B(3) or 17A.41A(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.45(2)(e)",
+      "style": "paragraph",
+      "text": "(e) because the Registrar wrongfully made a declaration under subregulation 17A.35B(3) or 17A.41A(3)."
+    }
+  ]
+}

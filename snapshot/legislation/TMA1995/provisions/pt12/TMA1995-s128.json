@@ -1,0 +1,160 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:a8d1a7ad914c3874866dd083ea16108ecc417fef66ae4d322dfd5a8ca3c04678",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "128  Circumstances in which action may not be brought"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "128",
+  "ref": "TMA1995/s128",
+  "text": "(1) If the registration of a trade mark is renewed under section 79 within 6 months after it has expired, an action may not be brought in respect of an act that: (a) infringed the trade mark; and (b) was done after the registration had expired and before it was renewed. (2) If the registration of a trade mark is renewed under section 80G within 6 months after the end of the prescribed period, an action may not be brought in respect of an act that: (a) infringed the trade mark; and (b) was done after the end of the prescribed period and before the registration was renewed. (3) In subsection (2): prescribed period has the same meaning as in Division 3 of Part 7. Note: For month see section 6.",
+  "title": "Circumstances in which action may not be brought",
+  "units": [
+    {
+      "content_hash": "sha256:78b9f104d9920b35b940991506d44cf6ca766a6019bf4da6c9bede62993ce97a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 79"
+        }
+      ],
+      "ref": "TMA1995/s128(1)",
+      "style": "subsection",
+      "text": "(1) If the registration of a trade mark is renewed under section 79 within 6 months after it has expired, an action may not be brought in respect of an act that:"
+    },
+    {
+      "content_hash": "sha256:a1994399604248a6aae9ac9397352a040bf4a22dd33808713a0538e88e291219",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s128(1)",
+      "ref": "TMA1995/s128(1)(a)",
+      "style": "paragraph",
+      "text": "(a) infringed the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:d74972c8d9381d65b97018fa1255001fdda79298e90448353e697108c136acdc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s128(1)",
+      "ref": "TMA1995/s128(1)(b)",
+      "style": "paragraph",
+      "text": "(b) was done after the registration had expired and before it was renewed."
+    },
+    {
+      "content_hash": "sha256:cefa6c3dd4fb5ea2fcc8bc14dad827bd31838b0fd32d001504a88a4531ae5073",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80G",
+          "mention": "section 80G"
+        }
+      ],
+      "ref": "TMA1995/s128(2)",
+      "style": "subsection",
+      "text": "(2) If the registration of a trade mark is renewed under section 80G within 6 months after the end of the prescribed period, an action may not be brought in respect of an act that:"
+    },
+    {
+      "content_hash": "sha256:a1994399604248a6aae9ac9397352a040bf4a22dd33808713a0538e88e291219",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s128(2)",
+      "ref": "TMA1995/s128(2)(a)",
+      "style": "paragraph",
+      "text": "(a) infringed the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:5ed04ddf4ec045e348427816fc4f035d5e5f8b1b7e2da10ed61912def9776f16",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s128(2)",
+      "ref": "TMA1995/s128(2)(b)",
+      "style": "paragraph",
+      "text": "(b) was done after the end of the prescribed period and before the registration was renewed."
+    },
+    {
+      "content_hash": "sha256:d6999473985b11462e4015733c4ca1565c013afa8282513cc1e9820ab0a4f036",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s128(3)",
+      "style": "subsection",
+      "text": "(3) In subsection (2):"
+    },
+    {
+      "content_hash": "sha256:20db35c3dfc34917ed890bfe3d01a9bc7015614baff506bb2a202668bfa10432",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 0,
+          "text": "prescribed period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s128~1",
+      "style": "Definition",
+      "text": "prescribed period has the same meaning as in Division 3 of Part 7."
+    },
+    {
+      "content_hash": "sha256:c079d3291c395e1cec6ab58944e84750edf7c0969c8897809e5f99519633b6ab",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "month",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s128~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s128~1~1",
+      "style": "notetext",
+      "text": "Note: For month see section 6."
+    }
+  ]
+}

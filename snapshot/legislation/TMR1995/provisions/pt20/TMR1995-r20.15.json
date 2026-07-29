@@ -1,0 +1,409 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div6"
+  ],
+  "content_hash": "sha256:ba6525e8080dc439a0c4a34a715af95b024ee91c2b5973db45690364180dbcde",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 6—Discipline",
+    "20.15  Discipline"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.15",
+  "ref": "TMR1995/r20.15",
+  "text": "Part 8 of Chapter 20 of the Patents Regulations 1991 applies to a registered trade marks attorney as if: (a) references to a ‘registered patent attorney’ were references to a ‘registered trade marks attorney’; and (b) references to a ‘registered trade marks attorney’ were references to a ‘registered patent attorney’; and (c) the reference in regulation 20.49 of the Patents Regulations 1991 to ‘the Register of Patent Attorneys’ were a reference to ‘the Register of Trade Marks Attorneys’; and (d) the reference in subparagraph 20.33(2)(b)(i) of the Patents Regulations 1991 to ‘regulation 20.6’ were a reference to ‘regulation 20.6 of the Trade Marks Regulations 1995’; and (e) the reference in subparagraph 20.33(2)(b)(ii) of the Patents Regulations 1991 to ‘regulation 20.8’ were a reference to ‘regulation 20.8 of the Trade Marks Regulations 1995’; and (f) subregulation 20.36(4) of the Patents Regulations 1991 were omitted; and (g) the words ‘or subregulation 20.36E(5)’ in subregulation 20.36A(4) of the Patents Regulation 1991 were omitted; and (h) the words ‘Subject to regulation 20.36E, the Panel’ in subregulation 20.36D(2) of the Patents Regulation 1991 were omitted and the words ‘The Panel’ substituted; and (i) regulation 20.36E of the Patents Regulation 1991 were omitted.",
+  "title": "Discipline",
+  "units": [
+    {
+      "content_hash": "sha256:e18a5e5836557465ab458c97b40d300a054680a77480a142fc2459381157d1c1",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 35,
+          "start": 28,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 49,
+          "start": 36,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 52,
+          "start": 49,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.15~1",
+      "style": "subsection",
+      "text": "Part 8 of Chapter 20 of the Patents Regulations 1991 applies to a registered trade marks attorney as if:"
+    },
+    {
+      "content_hash": "sha256:ac3442ecef494a630997e8cbc7a5011276d9d421767b7f10cdc5f46b7d04e7b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.15~1",
+      "ref": "TMR1995/r20.15~1(a)",
+      "style": "paragraph",
+      "text": "(a) references to a ‘registered patent attorney’ were references to a ‘registered trade marks attorney’; and"
+    },
+    {
+      "content_hash": "sha256:d7ea86fc56f452603e343b81f5cdcba7f5f03072fb4ad2d764d8eb4cb6c37f01",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.15~1",
+      "ref": "TMR1995/r20.15~1(b)",
+      "style": "paragraph",
+      "text": "(b) references to a ‘registered trade marks attorney’ were references to a ‘registered patent attorney’; and"
+    },
+    {
+      "content_hash": "sha256:035aa25d0f38c7879c047029f1119ca1785b2f2461d4bc709ca23914d7fb780f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 52,
+          "start": 45,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 66,
+          "start": 53,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 69,
+          "start": 66,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.49",
+          "mention": "regulation 20.49"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(c)",
+      "style": "paragraph",
+      "text": "(c) the reference in regulation 20.49 of the Patents Regulations 1991 to ‘the Register of Patent Attorneys’ were a reference to ‘the Register of Trade Marks Attorneys’; and"
+    },
+    {
+      "content_hash": "sha256:34633fdf2364a71238f5b315b6f059ce91f04742b597ff1ca641e33b566499d2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 63,
+          "start": 56,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 77,
+          "start": 64,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 80,
+          "start": 77,
+          "text": "991",
+          "weight": "italic"
+        },
+        {
+          "end": 157,
+          "start": 146,
+          "text": "Trade Marks",
+          "weight": "italic"
+        },
+        {
+          "end": 171,
+          "start": 158,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 174,
+          "start": 171,
+          "text": "995",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20.33(2)(b)(i)",
+          "mention": "subparagraph 20.33(2)(b)(i)"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/r20.6",
+          "mention": "regulation 20.6 of the Trade Marks Regulations 1995"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(d)",
+      "style": "paragraph",
+      "text": "(d) the reference in subparagraph 20.33(2)(b)(i) of the Patents Regulations 1991 to ‘regulation 20.6’ were a reference to ‘regulation 20.6 of the Trade Marks Regulations 1995’; and"
+    },
+    {
+      "content_hash": "sha256:44a084407e6a8414835d7687ea98bda50edb16059b9b4c6104943d0b5184aeee",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 64,
+          "start": 57,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 78,
+          "start": 65,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 81,
+          "start": 78,
+          "text": "991",
+          "weight": "italic"
+        },
+        {
+          "end": 158,
+          "start": 147,
+          "text": "Trade Marks",
+          "weight": "italic"
+        },
+        {
+          "end": 172,
+          "start": 159,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 175,
+          "start": 172,
+          "text": "995",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20.33(2)(b)(ii)",
+          "mention": "subparagraph 20.33(2)(b)(ii)"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMR1995/r20.8",
+          "mention": "regulation 20.8 of the Trade Marks Regulations 1995"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(e)",
+      "style": "paragraph",
+      "text": "(e) the reference in subparagraph 20.33(2)(b)(ii) of the Patents Regulations 1991 to ‘regulation 20.8’ were a reference to ‘regulation 20.8 of the Trade Marks Regulations 1995’; and"
+    },
+    {
+      "content_hash": "sha256:8a67271a6fa61f62e9658289a54ff56e5dac83bd10ad3c27589c2c3d4bd1a33e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 41,
+          "start": 34,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 55,
+          "start": 42,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 58,
+          "start": 55,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36(4)",
+          "mention": "subregulation 20.36(4)"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(f)",
+      "style": "paragraph",
+      "text": "(f) subregulation 20.36(4) of the Patents Regulations 1991 were omitted; and"
+    },
+    {
+      "content_hash": "sha256:c2471ad298def6156273573fb35f96c7ccafc9844ac0abe080f0f1faf7f30da0",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 95,
+          "start": 77,
+          "text": "Patents Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 100,
+          "start": 96,
+          "text": "1991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r1991",
+          "mention": "Regulation 1991"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36A(4)",
+          "mention": "subregulation 20.36A(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36E(5)",
+          "mention": "subregulation 20.36E(5)"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(g)",
+      "style": "paragraph",
+      "text": "(g) the words ‘or subregulation 20.36E(5)’ in subregulation 20.36A(4) of the Patents Regulation 1991 were omitted; and"
+    },
+    {
+      "content_hash": "sha256:d06e847eb39f6cf262665dbc84d9414d4dde687134c1ac93a10b5bed6c53a51d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 108,
+          "start": 90,
+          "text": "Patents Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 113,
+          "start": 109,
+          "text": "1991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(h)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r1991",
+          "mention": "Regulation 1991"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36D(2)",
+          "mention": "subregulation 20.36D(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36E",
+          "mention": "regulation 20.36E"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(h)",
+      "style": "paragraph",
+      "text": "(h) the words ‘Subject to regulation 20.36E, the Panel’ in subregulation 20.36D(2) of the Patents Regulation 1991 were omitted and the words ‘The Panel’ substituted; and"
+    },
+    {
+      "content_hash": "sha256:6e146055562f0f19bc11f198da7b7ca13aee53a7f9e35f82d093ae9cf37b97ed",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 47,
+          "start": 29,
+          "text": "Patents Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 52,
+          "start": 48,
+          "text": "1991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r20.15~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r1991",
+          "mention": "Regulation 1991"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.36E",
+          "mention": "regulation 20.36E"
+        }
+      ],
+      "ref": "TMR1995/r20.15~1(i)",
+      "style": "paragraph",
+      "text": "(i) regulation 20.36E of the Patents Regulation 1991 were omitted."
+    }
+  ]
+}

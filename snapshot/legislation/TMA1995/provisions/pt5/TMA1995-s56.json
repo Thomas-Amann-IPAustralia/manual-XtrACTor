@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div1"
+  ],
+  "content_hash": "sha256:1f941c0934979a08c5c4c7eb7558034e4b3024805c46547ae4a6340c9ad2e877",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—General",
+    "56  Appeal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "56",
+  "ref": "TMA1995/s56",
+  "text": "The applicant or the opponent may appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar under section 55. Note: For applicant and opponent see section 6.",
+  "title": "Appeal",
+  "units": [
+    {
+      "content_hash": "sha256:8c9d24426b6aceb1802d1e485efa0db8234236589fce3e6c9cda6d6855f6ff14",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s55",
+          "mention": "section 55"
+        }
+      ],
+      "ref": "TMA1995/s56~1",
+      "style": "subsection",
+      "text": "The applicant or the opponent may appeal to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar under section 55."
+    },
+    {
+      "content_hash": "sha256:fd1891348ef730dc487f2b98c715a3bbb5637595319ca62dcaee6a58e9d980d4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 32,
+          "start": 24,
+          "text": "opponent",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s56~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s56~1~1",
+      "style": "notetext",
+      "text": "Note: For applicant and opponent see section 6."
+    }
+  ]
+}

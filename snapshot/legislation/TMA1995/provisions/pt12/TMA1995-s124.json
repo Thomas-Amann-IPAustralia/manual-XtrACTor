@@ -1,0 +1,207 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:d137c171844e5ca9b551b644d88a0a4c3f5459971fbef6b093a0d8af17c17025",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "124  Prior use of identical trade mark etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "124",
+  "ref": "TMA1995/s124",
+  "text": "(1) A person does not infringe a registered trade mark by using an unregistered trade mark that is substantially identical with, or deceptively similar to, the registered trade mark in relation to: (a) goods similar to goods (registered goods) in respect of which the trade mark is registered; or (b) services closely related to registered goods; or (c) services similar to services (registered services) in respect of which the trade mark is registered; or (d) goods closely related to registered services; if the person, or the person and the person’s predecessor in title, have continuously used in the course of trade the unregistered trade mark in relation to those goods or services from a time before: (e) the date of registration of the registered trade mark; or (f) the registered owner of the registered trade mark, or a predecessor in title, or a person who was a registered user of the trade mark under the repealed Act, first used the trade mark; whichever is earlier. Note 1: For deceptively similar see section 10. Note 2: For predecessor in title and date of registration see section 6. (2) If the unregistered trade mark has continuously been used only in a particular area of Australia, subsection (1) applies only to the use of the trade mark by the person in that area.",
+  "title": "Prior use of identical trade mark etc.",
+  "units": [
+    {
+      "content_hash": "sha256:33df758983bcb5fc674773d4d3f1988c79344d21ff3487a34767a23917327ae1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s124(1)",
+      "style": "subsection",
+      "text": "(1) A person does not infringe a registered trade mark by using an unregistered trade mark that is substantially identical with, or deceptively similar to, the registered trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:c4cd0c5f8c9d1e5265b1261318314cc4e8b66be3f7156bd95bc7eee41433fa54",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 44,
+          "start": 28,
+          "text": "registered goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s124(1)",
+      "ref": "TMA1995/s124(1)(a)",
+      "style": "paragraph",
+      "text": "(a) goods similar to goods (registered goods) in respect of which the trade mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:0b3d585df0697c63e2a2ff59aeeaef2df18562948ab426b78d09d7d88c27ec7c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s124(1)",
+      "ref": "TMA1995/s124(1)(b)",
+      "style": "paragraph",
+      "text": "(b) services closely related to registered goods; or"
+    },
+    {
+      "content_hash": "sha256:27c56301f3dcd91720ad9b6ee442cfbd681cd7c2cda1abaaad1e5aeddc28d298",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 53,
+          "start": 34,
+          "text": "registered services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s124(1)",
+      "ref": "TMA1995/s124(1)(c)",
+      "style": "paragraph",
+      "text": "(c) services similar to services (registered services) in respect of which the trade mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:28b98917516ed03833bf1d8424e1311343c9cf81319329050cf368ca2f8ec4fd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s124(1)",
+      "ref": "TMA1995/s124(1)(d)",
+      "style": "paragraph",
+      "text": "(d) goods closely related to registered services;"
+    },
+    {
+      "content_hash": "sha256:c32273b26ce46ad2aec5eb9ee507a085273114917d08869098fd766dfdd665be",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s124~1",
+      "style": "subsection2",
+      "text": "if the person, or the person and the person’s predecessor in title, have continuously used in the course of trade the unregistered trade mark in relation to those goods or services from a time before:"
+    },
+    {
+      "content_hash": "sha256:bc6a2f469cff197cabc1ee3d404b8ea5ce98599f88a0f9a051d372242cb9da19",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s124~1",
+      "ref": "TMA1995/s124~1(e)",
+      "style": "paragraph",
+      "text": "(e) the date of registration of the registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:fc411d132077db7a6f9baf73ac63c6f589eb29fcd205cb7a9f1863447dca0d2d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s124~1",
+      "ref": "TMA1995/s124~1(f)",
+      "style": "paragraph",
+      "text": "(f) the registered owner of the registered trade mark, or a predecessor in title, or a person who was a registered user of the trade mark under the repealed Act, first used the trade mark;"
+    },
+    {
+      "content_hash": "sha256:8f780d9e53dd0fb25b018cd29c5063089e3f22c29642c6b77828f5de41020df5",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s124~2",
+      "style": "subsection2",
+      "text": "whichever is earlier."
+    },
+    {
+      "content_hash": "sha256:47acd93b7e0126fd7e3b0e0e0d09567747dab371e05b737950f7897e0c75dd85",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s124~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s124~2~1",
+      "style": "notetext",
+      "text": "Note 1: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:c806c39da8f6fccb1502daf9d5165d35f0c676076b220527d14327ccec0fe0ee",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 12,
+          "text": "predecessor in title",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 57,
+          "start": 37,
+          "text": "date of registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s124~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s124~2~2",
+      "style": "notetext",
+      "text": "Note 2: For predecessor in title and date of registration see section 6."
+    },
+    {
+      "content_hash": "sha256:22c622d8b42e2c40a07f61f3b65036f0c5dcfe63ed381d3f317547b8e6897afc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s124(2)",
+      "style": "subsection",
+      "text": "(2) If the unregistered trade mark has continuously been used only in a particular area of Australia, subsection (1) applies only to the use of the trade mark by the person in that area."
+    }
+  ]
+}

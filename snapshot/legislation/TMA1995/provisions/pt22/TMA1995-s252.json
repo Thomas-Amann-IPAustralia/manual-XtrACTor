@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:88b8e6c20d24032cb30522666cf1acc76a468df27cbe6cc2f393f06ee6810883",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "252  Action for infringement of trade mark etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "252",
+  "ref": "TMA1995/s252",
+  "text": "Sections 62 to 67 and section 78 of the repealed Act continue to apply in relation to an action for the infringement of a trade mark that was pending immediately before 1 January 1996.",
+  "title": "Action for infringement of trade mark etc.",
+  "units": [
+    {
+      "content_hash": "sha256:88b8e6c20d24032cb30522666cf1acc76a468df27cbe6cc2f393f06ee6810883",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s62",
+          "mention": "Sections 62 to 67"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s67",
+          "mention": "Sections 62 to 67"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s78",
+          "mention": "section 78"
+        }
+      ],
+      "ref": "TMA1995/s252~1",
+      "style": "subsection",
+      "text": "Sections 62 to 67 and section 78 of the repealed Act continue to apply in relation to an action for the infringement of a trade mark that was pending immediately before 1 January 1996."
+    }
+  ]
+}

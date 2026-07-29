@@ -1,0 +1,149 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:b469d681059e1b53ba24db9441c1d92540107bf578ba4dad026fa831b5a39b5c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "192  Jurisdiction of other prescribed courts"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "192",
+  "ref": "TMA1995/s192",
+  "text": "(1) Each prescribed court (other than the Federal Court and the Federal Circuit and Family Court of Australia (Division 2)) has jurisdiction with respect to matters in respect of which an action or proceeding may, under this Act, be started in a prescribed court. Note: For prescribed court see section 190. (2) The jurisdiction conferred by subsection (1) on the Supreme Court of a Territory is conferred to the extent that the Constitution permits in the case of: (a) an action for the infringement of a trade mark; or (b) an action under section 129; or (c) a matter arising under this Act that may be heard and determined in the course of such an action. (3) In any other case, the jurisdiction is conferred only in relation to an action or proceeding brought by a natural person who is resident in the Territory, or a corporation that has its principal place of business in the Territory, when the action or proceeding is started. (4) This section, so far as it relates to the Supreme Court of Norfolk Island, has effect subject to section 60AA of the Norfolk Island Act 1979.",
+  "title": "Jurisdiction of other prescribed courts",
+  "units": [
+    {
+      "content_hash": "sha256:1dde9fbfea39c083943f8f0b8cde685629146ab9403b8c65c41867ed61006219",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s192(1)",
+      "style": "subsection",
+      "text": "(1) Each prescribed court (other than the Federal Court and the Federal Circuit and Family Court of Australia (Division 2)) has jurisdiction with respect to matters in respect of which an action or proceeding may, under this Act, be started in a prescribed court."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s192(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s192(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:093861d12ef62d69607792c3f23f9b289e80246ef04cbdf12f36815a3b8e10f9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s192(2)",
+      "style": "subsection",
+      "text": "(2) The jurisdiction conferred by subsection (1) on the Supreme Court of a Territory is conferred to the extent that the Constitution permits in the case of:"
+    },
+    {
+      "content_hash": "sha256:af6af38ba89e8136316be12920eea781e14074f1c5eed8a7ca836f85fa30e00a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s192(2)",
+      "ref": "TMA1995/s192(2)(a)",
+      "style": "paragraph",
+      "text": "(a) an action for the infringement of a trade mark; or"
+    },
+    {
+      "content_hash": "sha256:a864a589e26e37525f120b0ea5febec305268a56baa7c9897ae87d90f28c0b6a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s192(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s129",
+          "mention": "section 129"
+        }
+      ],
+      "ref": "TMA1995/s192(2)(b)",
+      "style": "paragraph",
+      "text": "(b) an action under section 129; or"
+    },
+    {
+      "content_hash": "sha256:59d7d40b1d8a693ec2e40b0ec797df72fc31ebd29a72a9afecc5c9e867e94586",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s192(2)",
+      "ref": "TMA1995/s192(2)(c)",
+      "style": "paragraph",
+      "text": "(c) a matter arising under this Act that may be heard and determined in the course of such an action."
+    },
+    {
+      "content_hash": "sha256:c8e1f4418b72c45148e4c67c6dc087a694068c138807f6eff665081482f7a7b7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s192(3)",
+      "style": "subsection",
+      "text": "(3) In any other case, the jurisdiction is conferred only in relation to an action or proceeding brought by a natural person who is resident in the Territory, or a corporation that has its principal place of business in the Territory, when the action or proceeding is started."
+    },
+    {
+      "content_hash": "sha256:ef7c6702a68aab2c4284a748e31b79fa73704d7e3e7fbc543140eaf419b1bbf5",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 144,
+          "start": 121,
+          "text": "Norfolk Island Act 1979",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s60A",
+          "mention": "section 60A"
+        }
+      ],
+      "ref": "TMA1995/s192(4)",
+      "style": "subsection",
+      "text": "(4) This section, so far as it relates to the Supreme Court of Norfolk Island, has effect subject to section 60AA of the Norfolk Island Act 1979."
+    }
+  ]
+}

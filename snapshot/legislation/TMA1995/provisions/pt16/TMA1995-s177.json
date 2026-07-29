@@ -1,0 +1,177 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:a20c973438185c0954b4266e353c628eb79e7b5837f2e3e7f257e93fb28baa51",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "177  Additional ground for rejecting an application or opposing registration—certification trade mark not distinguishing certified goods or services"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "177",
+  "ref": "TMA1995/s177",
+  "text": "(1) In addition to any other ground on which: (a) an application for the registration of a certification trade mark may be rejected; or (b) the registration of a certification trade mark may be opposed; the application must be rejected or the registration may be opposed if the trade mark is not capable of distinguishing goods or services certified by the applicant or an approved certifier from goods or services not so certified. Note 1: For applicant see section 6. Note 2: For approved certifier see paragraph 173(2)(c). Note 3: Division 2 of Part 4 sets out the main grounds for rejecting an application, but section 41 does not apply to certification trade marks (see section 170). (2) In deciding whether or not the certification trade mark is capable of so distinguishing goods or services certified by the applicant or an approved certifier, the Registrar must take into account: (a) the extent to which the certification trade mark is inherently adapted so to distinguish those goods or services; or (b) the extent to which, because of its use or of any other circumstances, the certification trade mark has become adapted so to distinguish those goods or services.",
+  "title": "Additional ground for rejecting an application or opposing registration—certification trade mark not distinguishing certified goods or services",
+  "units": [
+    {
+      "content_hash": "sha256:4b047c580d5700d82328295c5723bfdc904034ba8a1865496e446151efe5a7f2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s177(1)",
+      "style": "subsection",
+      "text": "(1) In addition to any other ground on which:"
+    },
+    {
+      "content_hash": "sha256:f6fd174514db9552ef6ceed0695aafe756837c64e18b4cc01712a88afe266241",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s177(1)",
+      "ref": "TMA1995/s177(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an application for the registration of a certification trade mark may be rejected; or"
+    },
+    {
+      "content_hash": "sha256:256fd9a9d0d143a63f7c0ebd2ce4fa5387b693455c84080a7e2f6093db291fed",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s177(1)",
+      "ref": "TMA1995/s177(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the registration of a certification trade mark may be opposed;"
+    },
+    {
+      "content_hash": "sha256:0e99218d8588538df2fa4474028ec9bac4a0dc33da01bbd9fd9d846aa7641c29",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s177~1",
+      "style": "subsection2",
+      "text": "the application must be rejected or the registration may be opposed if the trade mark is not capable of distinguishing goods or services certified by the applicant or an approved certifier from goods or services not so certified."
+    },
+    {
+      "content_hash": "sha256:2b0ed2e3bddc751391e7100be4dda43761ee43959e1ba43a4c037155863222d9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 12,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s177~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s177~1~1",
+      "style": "notetext",
+      "text": "Note 1: For applicant see section 6."
+    },
+    {
+      "content_hash": "sha256:5b71329dca2cc6d2f472baac87e112bdd4e3105ed36eaffba8f3358afe09e024",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 12,
+          "text": "approved certifier",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s177~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(2)(c)",
+          "mention": "paragraph 173(2)(c)"
+        }
+      ],
+      "ref": "TMA1995/s177~1~2",
+      "style": "notetext",
+      "text": "Note 2: For approved certifier see paragraph 173(2)(c)."
+    },
+    {
+      "content_hash": "sha256:1e4ec35180e65dfed8a60ff668436b5038627043e0213d49cc65f395a2851ce6",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s177~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s170",
+          "mention": "section 170"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "ref": "TMA1995/s177~1~3",
+      "style": "notetext",
+      "text": "Note 3: Division 2 of Part 4 sets out the main grounds for rejecting an application, but section 41 does not apply to certification trade marks (see section 170)."
+    },
+    {
+      "content_hash": "sha256:68277ebc16c4194cef9e2f05f81953c2fcfd3ed553a738e0b58a041633d836c6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s177(2)",
+      "style": "subsection",
+      "text": "(2) In deciding whether or not the certification trade mark is capable of so distinguishing goods or services certified by the applicant or an approved certifier, the Registrar must take into account:"
+    },
+    {
+      "content_hash": "sha256:1781c8fab0de7f99ca9fb485ee5dfc6e718471109ddfe529a3c5555526cd29bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s177(2)",
+      "ref": "TMA1995/s177(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the extent to which the certification trade mark is inherently adapted so to distinguish those goods or services; or"
+    },
+    {
+      "content_hash": "sha256:d1f4b2b26ede51ee80c93941c81a6522166fb709ffa44d95bb524ce429197109",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s177(2)",
+      "ref": "TMA1995/s177(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the extent to which, because of its use or of any other circumstances, the certification trade mark has become adapted so to distinguish those goods or services."
+    }
+  ]
+}

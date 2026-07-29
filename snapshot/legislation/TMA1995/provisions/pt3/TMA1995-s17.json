@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:7616fa92fa1ab350de397590a153993cc894cf7be24733d962313419b1d4b5c8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "17  What is a trade mark?"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "17",
+  "ref": "TMA1995/s17",
+  "text": "A trade mark is a sign used, or intended to be used, to distinguish goods or services dealt with or provided in the course of trade by a person from goods or services so dealt with or provided by any other person. Note: For sign see section 6.",
+  "title": "What is a trade mark?",
+  "units": [
+    {
+      "content_hash": "sha256:19fcd99043438dc1562a18409baf5f40f6f48a80bc727f16ffb4dead9e8eae28",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 12,
+          "start": 2,
+          "text": "trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s17~1",
+      "style": "subsection",
+      "text": "A trade mark is a sign used, or intended to be used, to distinguish goods or services dealt with or provided in the course of trade by a person from goods or services so dealt with or provided by any other person."
+    },
+    {
+      "content_hash": "sha256:dba8bb1e25a053844d47f548f76563cfe3b3aafb0f6a6e4e96b4a59378fd9b28",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "sign",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s17~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s17~1~1",
+      "style": "notetext",
+      "text": "Note: For sign see section 6."
+    }
+  ]
+}

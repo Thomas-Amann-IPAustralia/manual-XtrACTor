@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:4fce22b1053bfdc56015c169e02b673cf5e1fefe59559d5a86980c58494b0a7a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "254A  Acts not constituting infringement of trade mark—pending application under the repealed Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "254A",
+  "ref": "TMA1995/s254A",
+  "text": "(1) This section applies if: (a) an application for the registration of a trade mark under the repealed Act was pending immediately before 1 January 1996; and (b) immediately before 1 January 1996, a person was engaging in conduct that would not have constituted an infringement of the mark if the mark had been registered under the repealed Act before 1 January 1996; and (c) the person has, on or after that day, continuously engaged in, and is engaging in, that conduct; and (d) the mark becomes a registered trade mark under this Act; and (e) that conduct is an infringement of the registered trade mark under this Act. (2) Despite section 120, the person does not infringe the registered trade mark by engaging in that conduct.",
+  "title": "Acts not constituting infringement of trade mark—pending application under the repealed Act",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s254A(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:08b44aea9f761fdf0c4224c91856a6a45c0eca919d9a94960599f7067a98d447",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s254A(1)",
+      "ref": "TMA1995/s254A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an application for the registration of a trade mark under the repealed Act was pending immediately before 1 January 1996; and"
+    },
+    {
+      "content_hash": "sha256:f9d22e56ffccc605de4da1d8837c5548eb313947a55d5728833eb8919282c76a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s254A(1)",
+      "ref": "TMA1995/s254A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) immediately before 1 January 1996, a person was engaging in conduct that would not have constituted an infringement of the mark if the mark had been registered under the repealed Act before 1 January 1996; and"
+    },
+    {
+      "content_hash": "sha256:3ae05e0c1600efd03680648bcbf21a7e4d2fa207235785a2f068b641bbc2a0be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s254A(1)",
+      "ref": "TMA1995/s254A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the person has, on or after that day, continuously engaged in, and is engaging in, that conduct; and"
+    },
+    {
+      "content_hash": "sha256:15a1ddd1b4c78772fc07837b54597cca4c95d8cff8634c10f6bd74e3e76b795c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s254A(1)",
+      "ref": "TMA1995/s254A(1)(d)",
+      "style": "paragraph",
+      "text": "(d) the mark becomes a registered trade mark under this Act; and"
+    },
+    {
+      "content_hash": "sha256:faf660094dbda1c178b907bed727f51fb46688feb7b8447abf9542242e6b10fd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s254A(1)",
+      "ref": "TMA1995/s254A(1)(e)",
+      "style": "paragraph",
+      "text": "(e) that conduct is an infringement of the registered trade mark under this Act."
+    },
+    {
+      "content_hash": "sha256:cfcd2a7292864e41ed28d6d14315d90d4843298b0262fb71b8eacb9aca53bc94",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s254A(2)",
+      "style": "subsection",
+      "text": "(2) Despite section 120, the person does not infringe the registered trade mark by engaging in that conduct."
+    }
+  ]
+}

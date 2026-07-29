@@ -1,0 +1,405 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:a7fd7df424c7c451e56aca9179206f318a8a5cadfda7b3f9268f0e31decf0bf5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.13  Deferment of acceptance"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.13",
+  "ref": "TMR1995/r4.13",
+  "text": "(1) The Registrar may, at the request of the applicant in writing, defer acceptance of an application for registration of a trade mark, if: (a) the request is made within a period prescribed in subregulation 4.12(1) or that period as extended under regulation 4.12 or section 224 of the Act; and (b) the Registrar reasonably believes that there are grounds for rejecting the application under subsection 44(1) or (2) of the Act, or subregulation 4.15A(1) or (2), because of another trade mark: (i) that is registered by another person; or (ii) that is a protected international trade mark; or (iii) in respect of which an application for registration, or an IRDA, has been made by another person; and (c) the applicant: (i) is awaiting the finalisation of proceedings in respect of the application for registration of the other trade mark or the IRDA; or (ii) is seeking to satisfy the Registrar as to: (A) a matter mentioned in paragraph 44(3)(a) or (b) of the Act or 4.15A(3)(a) or (b) of these Regulations; or (B) the matters mentioned in subsection 44(4) of the Act or subregulation 4.15A(5); in relation to the applicant’s trade mark and the other trade mark; or (iii) has filed an application under section 92 of the Act or regulation 17A.48C in respect of the other trade mark and is awaiting the finalisation of proceedings in respect of that application; or (iv) has begun proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark and the proceedings have not been determined or otherwise disposed of; or (v) is awaiting renewal of the registration of the other trade mark in the period of 6 months after registration of the other trade mark has expired, or removal of the other trade mark from the Register; or (vi) is awaiting renewal of the international registration of the other trade mark in the period of 6 months after the international registration has expired, or removal of the other trade mark from the International Register. (2) The Registrar may, on his or her own initiative, defer acceptance of the application within a period that is prescribed in subregulation 4.12(1) or that is extended under section 224 of the Act or subregulation 4.12(4), if: (a) the time within which proceedings mentioned in paragraph (b) may be begun, or an application mentioned in paragraph (c) may be made, has not ended; or (b) appeal proceedings under a provision of the Act have begun in a prescribed court in relation to the application; or (c) an application has been made to the ART for review of a decision of the Registrar in relation to the firstmentioned application; or (ca) the applicant has made a request to the Registrar to be heard in relation to the application; or (d) the Registrar is informed in writing that the applicant has died. (3) The Registrar must defer acceptance of an application for registration of a certification trade mark when a copy of the rules governing the use of the certification trade mark is sent to the Commission in accordance with regulation 16.2. (4) The Registrar must notify an applicant: (a) if the applicant requests the Registrar to defer acceptance of an application—of the Registrar’s decision to defer, or not to defer, acceptance of the application; and (b) if the Registrar otherwise defers acceptance of an application—of the provision under which acceptance of the application is deferred.",
+  "title": "Deferment of acceptance",
+  "units": [
+    {
+      "content_hash": "sha256:4ba6ab35c9a92564def9ceaee0c8486e2e963bf054bbf7824b4e2f0539a313e0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.13(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, at the request of the applicant in writing, defer acceptance of an application for registration of a trade mark, if:"
+    },
+    {
+      "content_hash": "sha256:5b32068c2c340782f876b94923c2ed900a9eb94ae0908263fe115f3835419144",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.13(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12",
+          "mention": "regulation 4.12"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12(1)",
+          "mention": "subregulation 4.12(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.13(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the request is made within a period prescribed in subregulation 4.12(1) or that period as extended under regulation 4.12 or section 224 of the Act; and"
+    },
+    {
+      "content_hash": "sha256:1f7569aeb63d0945a2bfe7327552c713be40ddcbe2dc52b02d6397f1e6ff2114",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.13(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)",
+          "mention": "subsection 44(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.15A(1)",
+          "mention": "subregulation 4.15A(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.13(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar reasonably believes that there are grounds for rejecting the application under subsection 44(1) or (2) of the Act, or subregulation 4.15A(1) or (2), because of another trade mark:"
+    },
+    {
+      "content_hash": "sha256:56d75258d43d2ade9cabee9f1e42cc628fb248130c00e6f2611324eda595e7c5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.13(1)(b)",
+      "ref": "TMR1995/r4.13(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) that is registered by another person; or"
+    },
+    {
+      "content_hash": "sha256:87981895b3ba8c726a2d4509abdbfdfbd1d3742a6dea265176508bf84dde7d2d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.13(1)(b)",
+      "ref": "TMR1995/r4.13(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that is a protected international trade mark; or"
+    },
+    {
+      "content_hash": "sha256:ce6c5653d1c6de878fc48c4deb52d4219b235aa197362802c7b25f162fff0e1b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.13(1)(b)",
+      "ref": "TMR1995/r4.13(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) in respect of which an application for registration, or an IRDA, has been made by another person; and"
+    },
+    {
+      "content_hash": "sha256:09ec7edfd0df2f29a6d098408fce63d484a27ead1683770a9eb0045e0aeb7740",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.13(1)",
+      "ref": "TMR1995/r4.13(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the applicant:"
+    },
+    {
+      "content_hash": "sha256:4ea45b2c08ea77b7ae59cfaf95b9b447e07197645c3a9773e254f3873763bbf4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) is awaiting the finalisation of proceedings in respect of the application for registration of the other trade mark or the IRDA; or"
+    },
+    {
+      "content_hash": "sha256:8ef47c813438fbb47281bcd3439811d7b86e22be32eb051559af8c01b41a346d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) is seeking to satisfy the Registrar as to:"
+    },
+    {
+      "content_hash": "sha256:5f650bd1a1c25b601471e37a50f3f26e1e8bb00520f8db744bef904933f6ae33",
+      "depth": 3,
+      "kind": "paragraph",
+      "number": "(A)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r4.13(1)(c)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(3)(a)",
+          "mention": "paragraph 44(3)(a)"
+        }
+      ],
+      "ref": "TMR1995/r4.13(1)(c)(ii)(A)",
+      "style": "paragraphsub-sub",
+      "text": "(A) a matter mentioned in paragraph 44(3)(a) or (b) of the Act or 4.15A(3)(a) or (b) of these Regulations; or"
+    },
+    {
+      "content_hash": "sha256:e6c4ff5891139b8179a8ff827a52ccd0a5a00875d1d9e52545ad8f9018b38013",
+      "depth": 3,
+      "kind": "paragraph",
+      "number": "(B)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r4.13(1)(c)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(4)",
+          "mention": "subsection 44(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.15A(5)",
+          "mention": "subregulation 4.15A(5)"
+        }
+      ],
+      "ref": "TMR1995/r4.13(1)(c)(ii)(B)",
+      "style": "paragraphsub-sub",
+      "text": "(B) the matters mentioned in subsection 44(4) of the Act or subregulation 4.15A(5);"
+    },
+    {
+      "content_hash": "sha256:add37b17be724e69c571e86da2c2516202debd46e400d5d614b4f301ab0383a9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)~1",
+      "style": "paragraphsub",
+      "text": "in relation to the applicant’s trade mark and the other trade mark; or"
+    },
+    {
+      "content_hash": "sha256:cbed37f3e290859ebd297b61e5e2e2bf8f5c0a27025f4a42353cff475538202c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92",
+          "mention": "section 92"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48C",
+          "mention": "regulation 17A.48C"
+        }
+      ],
+      "ref": "TMR1995/r4.13(1)(c)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) has filed an application under section 92 of the Act or regulation 17A.48C in respect of the other trade mark and is awaiting the finalisation of proceedings in respect of that application; or"
+    },
+    {
+      "content_hash": "sha256:be1ec05a60595393965af2e2811e073a3ba04d1c7386f3d56088cb0d96cbf3a7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) has begun proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark and the proceedings have not been determined or otherwise disposed of; or"
+    },
+    {
+      "content_hash": "sha256:716ec09e6a1383f3368a78a870147deee19ee03999078fcecc0c1bd900c558d7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(v)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)(v)",
+      "style": "paragraphsub",
+      "text": "(v) is awaiting renewal of the registration of the other trade mark in the period of 6 months after registration of the other trade mark has expired, or removal of the other trade mark from the Register; or"
+    },
+    {
+      "content_hash": "sha256:ded123f5c2932c77d43a92c81cfa2e746cd6b5cf9e42673725dc984d9ed5b346",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(vi)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r4.13(1)(c)",
+      "ref": "TMR1995/r4.13(1)(c)(vi)",
+      "style": "paragraphsub",
+      "text": "(vi) is awaiting renewal of the international registration of the other trade mark in the period of 6 months after the international registration has expired, or removal of the other trade mark from the International Register."
+    },
+    {
+      "content_hash": "sha256:8afb4364857543c44487344b83f30f816808b8009c12b4c5e0d28c7185dee588",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12(1)",
+          "mention": "subregulation 4.12(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12(4)",
+          "mention": "subregulation 4.12(4)"
+        }
+      ],
+      "ref": "TMR1995/r4.13(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may, on his or her own initiative, defer acceptance of the application within a period that is prescribed in subregulation 4.12(1) or that is extended under section 224 of the Act or subregulation 4.12(4), if:"
+    },
+    {
+      "content_hash": "sha256:d2a0e0d116f167cf778343067bd8c55e8967fcd125d8ce0e6ff5292f50f09713",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r4.13(2)",
+      "ref": "TMR1995/r4.13(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the time within which proceedings mentioned in paragraph (b) may be begun, or an application mentioned in paragraph (c) may be made, has not ended; or"
+    },
+    {
+      "content_hash": "sha256:721bf1ba6a3845b7528055095b9cc2d89eaec568ed1570ec2c012ec501a6428c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r4.13(2)",
+      "ref": "TMR1995/r4.13(2)(b)",
+      "style": "paragraph",
+      "text": "(b) appeal proceedings under a provision of the Act have begun in a prescribed court in relation to the application; or"
+    },
+    {
+      "content_hash": "sha256:67689f7e3d4991903faf218f4ee3833484d42b9c8ad2c077cc72a6372c517679",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r4.13(2)",
+      "ref": "TMR1995/r4.13(2)(c)",
+      "style": "paragraph",
+      "text": "(c) an application has been made to the ART for review of a decision of the Registrar in relation to the firstmentioned application; or"
+    },
+    {
+      "content_hash": "sha256:454c896361054c69d5bb35f533edd1b0d80964cfe511cdc5378379683c1a97cd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(ca)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r4.13(2)",
+      "ref": "TMR1995/r4.13(2)(ca)",
+      "style": "paragraph",
+      "text": "(ca) the applicant has made a request to the Registrar to be heard in relation to the application; or"
+    },
+    {
+      "content_hash": "sha256:d1299d90dde466a6c5440776461bcf595a984c8abdc6f44f1f5de8011cc0cf7a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r4.13(2)",
+      "ref": "TMR1995/r4.13(2)(d)",
+      "style": "paragraph",
+      "text": "(d) the Registrar is informed in writing that the applicant has died."
+    },
+    {
+      "content_hash": "sha256:55e44c9ee2b746da599cc96a1a0abe9e824091c4f5a3dc3366f3cdad3e7600e5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 23,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.2",
+          "mention": "regulation 16.2"
+        }
+      ],
+      "ref": "TMR1995/r4.13(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must defer acceptance of an application for registration of a certification trade mark when a copy of the rules governing the use of the certification trade mark is sent to the Commission in accordance with regulation 16.2."
+    },
+    {
+      "content_hash": "sha256:0f1b5966806a4164da3065169618cf31e94b5fdf64eee1704aef0f7d188e9f94",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.13(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must notify an applicant:"
+    },
+    {
+      "content_hash": "sha256:62c94fd77f3c19ba89205c8fc46f427aecbd2b7b8d0c910a42e913d25081ff1d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r4.13(4)",
+      "ref": "TMR1995/r4.13(4)(a)",
+      "style": "paragraph",
+      "text": "(a) if the applicant requests the Registrar to defer acceptance of an application—of the Registrar’s decision to defer, or not to defer, acceptance of the application; and"
+    },
+    {
+      "content_hash": "sha256:33ed6602a286636ffc5be441fb6f7130ce61bd4cabe84c75c95d4fb4209d0004",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r4.13(4)",
+      "ref": "TMR1995/r4.13(4)(b)",
+      "style": "paragraph",
+      "text": "(b) if the Registrar otherwise defers acceptance of an application—of the provision under which acceptance of the application is deferred."
+    }
+  ]
+}

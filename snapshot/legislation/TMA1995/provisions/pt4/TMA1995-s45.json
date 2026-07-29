@@ -1,0 +1,111 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div3"
+  ],
+  "content_hash": "sha256:7be83e5257d68826159cc196e4e6a67ddbf27edd1510b5312e06df0c2b6bc2fc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 3—Divisional applications",
+    "45  Divisional applications"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "45",
+  "ref": "TMA1995/s45",
+  "text": "(1) If a single application for the registration of a trade mark in respect of certain goods and/or services is pending (parent application), the applicant may make another application (divisional application) for the registration of the trade mark in respect of some only of the goods and/or services in respect of which registration is sought under the parent application. Note: For applicant and pending see section 6. (2) To avoid doubt, the parent application may itself be a divisional application. Note: A divisional application may be made by a person who has become the applicant in relation to the parent application because of subsection 108(2) (which deals with assignment and transmission).",
+  "title": "Divisional applications",
+  "units": [
+    {
+      "content_hash": "sha256:f21aa1940ba0ae24b1e2da4481ab2469743b2448de02e55bcf74266fc64b69c5",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 139,
+          "start": 121,
+          "text": "parent application",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 208,
+          "start": 186,
+          "text": "divisional application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s45(1)",
+      "style": "subsection",
+      "text": "(1) If a single application for the registration of a trade mark in respect of certain goods and/or services is pending (parent application), the applicant may make another application (divisional application) for the registration of the trade mark in respect of some only of the goods and/or services in respect of which registration is sought under the parent application."
+    },
+    {
+      "content_hash": "sha256:67c2fd736ac427503084800ce3fbf33e937d9f2f7fe714f22d69c76e34c51fa6",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 31,
+          "start": 24,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s45(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s45(1)~1",
+      "style": "notetext",
+      "text": "Note: For applicant and pending see section 6."
+    },
+    {
+      "content_hash": "sha256:14bddec96ce683ba5636cff9067cb8556da843e57c33f07b63edc02e54284ddc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s45(2)",
+      "style": "subsection",
+      "text": "(2) To avoid doubt, the parent application may itself be a divisional application."
+    },
+    {
+      "content_hash": "sha256:de5cad81aedc0f6ea001eba0ff1cd8d45dc6d57c2315fd3929007962250b90ba",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s45(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s108(2)",
+          "mention": "subsection 108(2)"
+        }
+      ],
+      "ref": "TMA1995/s45(2)~1",
+      "style": "notetext",
+      "text": "Note: A divisional application may be made by a person who has become the applicant in relation to the parent application because of subsection 108(2) (which deals with assignment and transmission)."
+    }
+  ]
+}

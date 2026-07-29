@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div5a"
+  ],
+  "content_hash": "sha256:4a0f633e162728fd487e387e9e7ed4a3ad3651aa61df42559fbd9327860f5939",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 5A—Suspension of registration",
+    "20.14B  Suspension from Register—serious offence"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.14B",
+  "ref": "TMR1995/r20.14B",
+  "text": "(1) The Designated Manager may, by written notice to a registered trade marks attorney, suspend the registered trade marks attorney’s registration if the Designated Manager: (a) is notified under subregulation 20.14A(1); or (b) becomes aware that the registered trade marks attorney has been charged with a serious offence. (2) If the Designated Manager suspends the attorney’s registration: (a) the suspension takes effect when the notice is given to the registered trade marks attorney; and (b) the Designated Manager must: (i) give written notice to the Board of the suspension; and (ii) by written notice, give the registered trade marks attorney 28 days after the date of the notice (a show cause notice) within which to show cause why the suspension should be lifted. (3) The Designated Manager must consider any information provided by the registered trade marks attorney in response to the show cause notice. (4) The Designated Manager must immediately end the suspension if: (a) the Designated Manager becomes aware that the charge is not proceeded with or the prosecution of the charge is abandoned; or (b) the Designated Manager becomes aware that the proceedings have been completed without a conviction being recorded; or (c) the proceedings have been completed with a conviction being recorded and the Disciplinary Tribunal decides not to continue the suspension or cancel the registered trade marks attorney’s registration; or (d) the Designated Manager considers that the suspension is no longer necessary. (5) If the Designated Manager ends the suspension, the Designated Manager must notify, in writing, each of the following that the suspension has ended: (a) the registered trade marks attorney; (b) the Board; (c) the Disciplinary Tribunal.",
+  "title": "Suspension from Register—serious offence",
+  "units": [
+    {
+      "content_hash": "sha256:9951f17e25aa7bb95a904144feea133c90545fd5f55efdd15420799a362cdef4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14B(1)",
+      "style": "subsection",
+      "text": "(1) The Designated Manager may, by written notice to a registered trade marks attorney, suspend the registered trade marks attorney’s registration if the Designated Manager:"
+    },
+    {
+      "content_hash": "sha256:f4bceab518862ea6a81107fcf875fd1fedef700a4a9b2798c8274e32d8e62608",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.14B(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.14A(1)",
+          "mention": "subregulation 20.14A(1)"
+        }
+      ],
+      "ref": "TMR1995/r20.14B(1)(a)",
+      "style": "paragraph",
+      "text": "(a) is notified under subregulation 20.14A(1); or"
+    },
+    {
+      "content_hash": "sha256:4f039319590089308b999cd38b1b1a33de6e7e74cb4ef6bfc367fb3ea95003d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.14B(1)",
+      "ref": "TMR1995/r20.14B(1)(b)",
+      "style": "paragraph",
+      "text": "(b) becomes aware that the registered trade marks attorney has been charged with a serious offence."
+    },
+    {
+      "content_hash": "sha256:381793b928ee39eca901be342724d8ff481d1009a3c202c601d3f2ddb65836eb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14B(2)",
+      "style": "subsection",
+      "text": "(2) If the Designated Manager suspends the attorney’s registration:"
+    },
+    {
+      "content_hash": "sha256:fd7f336fbff31c046826925ec2cede2aad092d8d22116f08aa8c7552a12ee8da",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.14B(2)",
+      "ref": "TMR1995/r20.14B(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the suspension takes effect when the notice is given to the registered trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:13a9ce0baa5b26790a9961718a62f3625dfddaf33ccb500d412347cab4934e8c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.14B(2)",
+      "ref": "TMR1995/r20.14B(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the Designated Manager must:"
+    },
+    {
+      "content_hash": "sha256:d450572fcb9178879082537b198d5e4d52d14ac03f27f695928716a090a36f6b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.14B(2)(b)",
+      "ref": "TMR1995/r20.14B(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) give written notice to the Board of the suspension; and"
+    },
+    {
+      "content_hash": "sha256:3c6b3a0de5b1f4a1243b1e0dec34d807958e8a689839b636b22dcb561500a291",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 122,
+          "start": 105,
+          "text": "show cause notice",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20.14B(2)(b)",
+      "ref": "TMR1995/r20.14B(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) by written notice, give the registered trade marks attorney 28 days after the date of the notice (a show cause notice) within which to show cause why the suspension should be lifted."
+    },
+    {
+      "content_hash": "sha256:c30be1d57f8510010cd8bebf22696461b7466bc554a192726586a4b26058a949",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14B(3)",
+      "style": "subsection",
+      "text": "(3) The Designated Manager must consider any information provided by the registered trade marks attorney in response to the show cause notice."
+    },
+    {
+      "content_hash": "sha256:18d7efda08d5d52ec153c98c01eb7f2ea8f759025bd853147e0e16ca80bff785",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14B(4)",
+      "style": "subsection",
+      "text": "(4) The Designated Manager must immediately end the suspension if:"
+    },
+    {
+      "content_hash": "sha256:088e7e41c131078cde2d9ad1b4c09bc36817bb7ba10388e2b909795af0bf2f42",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r20.14B(4)",
+      "ref": "TMR1995/r20.14B(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the Designated Manager becomes aware that the charge is not proceeded with or the prosecution of the charge is abandoned; or"
+    },
+    {
+      "content_hash": "sha256:df20197287245cc8e2ec54fe74b8b211b6295d7c47ae75202ffec2965020058a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r20.14B(4)",
+      "ref": "TMR1995/r20.14B(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the Designated Manager becomes aware that the proceedings have been completed without a conviction being recorded; or"
+    },
+    {
+      "content_hash": "sha256:ed6db4b5908f6eb792699bac560bde75ea5b15324436d4e904691f846306178e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r20.14B(4)",
+      "ref": "TMR1995/r20.14B(4)(c)",
+      "style": "paragraph",
+      "text": "(c) the proceedings have been completed with a conviction being recorded and the Disciplinary Tribunal decides not to continue the suspension or cancel the registered trade marks attorney’s registration; or"
+    },
+    {
+      "content_hash": "sha256:2d1897a054a2ae4b3402b5227e29bc26c42d27e3d2ad87fc0c715136652b779e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r20.14B(4)",
+      "ref": "TMR1995/r20.14B(4)(d)",
+      "style": "paragraph",
+      "text": "(d) the Designated Manager considers that the suspension is no longer necessary."
+    },
+    {
+      "content_hash": "sha256:28dc7691e92f64c772d46fa68e4c7827297df94fec86ece370747edcbe4de20e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14B(5)",
+      "style": "subsection",
+      "text": "(5) If the Designated Manager ends the suspension, the Designated Manager must notify, in writing, each of the following that the suspension has ended:"
+    },
+    {
+      "content_hash": "sha256:232a06db86d21fe214324ebc9c20f610514604f00f5fb0706afcd49bb7e27809",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r20.14B(5)",
+      "ref": "TMR1995/r20.14B(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered trade marks attorney;"
+    },
+    {
+      "content_hash": "sha256:44762df3f5934e12b7b637cf7864e00672b8976544a6acda0880204ae1e33204",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r20.14B(5)",
+      "ref": "TMR1995/r20.14B(5)(b)",
+      "style": "paragraph",
+      "text": "(b) the Board;"
+    },
+    {
+      "content_hash": "sha256:7543ee73fef9eda4cb06b976de121734ab9f2a0210d64641f080d31f84249e74",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r20.14B(5)",
+      "ref": "TMR1995/r20.14B(5)(c)",
+      "style": "paragraph",
+      "text": "(c) the Disciplinary Tribunal."
+    }
+  ]
+}

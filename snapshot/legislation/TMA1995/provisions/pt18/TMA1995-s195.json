@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:df688bda9156e95156a590af20cdec5b2cdebece0ec2d36fc1de03a21572804e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "195  Appeals"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "195",
+  "ref": "TMA1995/s195",
+  "text": "(1) An appeal lies to the Federal Court against a judgment or order of: (a) another prescribed court exercising jurisdiction under this Act; or (b) any other court in an action under Part 12. Note: For prescribed court see section 190. (2) Except with the leave of the Federal Court, an appeal does not lie to the Full Court of the Federal Court against a judgment or order of a single judge of the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) in the exercise of its jurisdiction to hear and determine appeals from decisions or directions of the Registrar. (3) With the special leave of the High Court, an appeal lies to the High Court against a judgment or order referred to in subsection (1). (4) Except as otherwise provided by this section, an appeal does not lie against a judgment or order referred to in subsection (1).",
+  "title": "Appeals",
+  "units": [
+    {
+      "content_hash": "sha256:3212f9def48d22a8b1ea1dcd62cd01294e97313b90378f1121686e83eda9158a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s195(1)",
+      "style": "subsection",
+      "text": "(1) An appeal lies to the Federal Court against a judgment or order of:"
+    },
+    {
+      "content_hash": "sha256:d1812cdebbb9933799244abd6c131bd91d778e0ee0e2e707756502294bf887da",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s195(1)",
+      "ref": "TMA1995/s195(1)(a)",
+      "style": "paragraph",
+      "text": "(a) another prescribed court exercising jurisdiction under this Act; or"
+    },
+    {
+      "content_hash": "sha256:2dec529e9591086921263441a47ced344ced44317b324137ed3f3c6e12a13c4e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s195(1)",
+      "ref": "TMA1995/s195(1)(b)",
+      "style": "paragraph",
+      "text": "(b) any other court in an action under Part 12."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s195(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s195(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:c74444bd8a2b771e2c0c447aae535db345c9cea2cc9ae35c88509213c917017b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s195(2)",
+      "style": "subsection",
+      "text": "(2) Except with the leave of the Federal Court, an appeal does not lie to the Full Court of the Federal Court against a judgment or order of a single judge of the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) in the exercise of its jurisdiction to hear and determine appeals from decisions or directions of the Registrar."
+    },
+    {
+      "content_hash": "sha256:0735b51072bc9aa3d5eb93161244d215f8328c97d20f9c68f74fd1499f4cec4c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s195(3)",
+      "style": "subsection",
+      "text": "(3) With the special leave of the High Court, an appeal lies to the High Court against a judgment or order referred to in subsection (1)."
+    },
+    {
+      "content_hash": "sha256:74a5463a0fcbb9958106b7747e5bd23e587463d546a80662ff8c2dcc9ad657c6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s195(4)",
+      "style": "subsection",
+      "text": "(4) Except as otherwise provided by this section, an appeal does not lie against a judgment or order referred to in subsection (1)."
+    }
+  ]
+}

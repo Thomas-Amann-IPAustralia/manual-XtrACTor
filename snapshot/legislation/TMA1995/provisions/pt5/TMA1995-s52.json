@@ -1,0 +1,220 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div1"
+  ],
+  "content_hash": "sha256:08481f93412eb69ad76e8ae6327649731e3123abc141feeb17891744c612223b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—General",
+    "52  Opposition"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "52",
+  "ref": "TMA1995/s52",
+  "text": "(1) If the Registrar has accepted an application for the registration of a trade mark, a person may oppose the registration by filing a notice of opposition. (2) The notice of opposition must be filed: (a) in accordance with the regulations; and (b) within the prescribed period, or within that period as extended in accordance with the regulations or in accordance with subsection (5). (3) Regulations made for the purposes of paragraph (2)(a) or (b) may make different provision with respect to different components (if any) of the notice of opposition. (3A) Subsection (3) does not limit subsection 33(3A) of the Acts Interpretation Act 1901. (4) The registration of a trade mark may be opposed on any of the grounds specified in this Act and on no other grounds. Note: For this Act see section 6. (5) If: (a) a person is granted an extension of time in which to file a notice of opposition; and (b) before the notice of opposition is filed, the right or interest on which the person could have relied to file the notice of opposition becomes vested in another person; and (c) the other person notifies the Registrar in writing that the right or interest is vested in him or her; then: (d) the other person is taken to have been granted an extension of time in which to file the notice of opposition; and (e) that extension ends when the extension mentioned in paragraph (a) ends.",
+  "title": "Opposition",
+  "units": [
+    {
+      "content_hash": "sha256:fe98c73e3cbcca0d5824b9d4ba88f97157a3a47b6aade4667f5b28a1807046c5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s52(1)",
+      "style": "subsection",
+      "text": "(1) If the Registrar has accepted an application for the registration of a trade mark, a person may oppose the registration by filing a notice of opposition."
+    },
+    {
+      "content_hash": "sha256:0104c43d107bd5ae2d2490b2884a74a8f2a03b248f806cf3eefd15bd9d6a5c1f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s52(2)",
+      "style": "subsection",
+      "text": "(2) The notice of opposition must be filed:"
+    },
+    {
+      "content_hash": "sha256:30c3caafd8fc0ee139066067162d5331449cfc214f3f542282f44eb8e725d466",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s52(2)",
+      "ref": "TMA1995/s52(2)(a)",
+      "style": "paragraph",
+      "text": "(a) in accordance with the regulations; and"
+    },
+    {
+      "content_hash": "sha256:e787ffcb2b84e3738c903758baedcbf464402f2be458239ca275418064655220",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s52(2)",
+      "ref": "TMA1995/s52(2)(b)",
+      "style": "paragraph",
+      "text": "(b) within the prescribed period, or within that period as extended in accordance with the regulations or in accordance with subsection (5)."
+    },
+    {
+      "content_hash": "sha256:55aeb9bb6e7a76d4d6d56984a15ecad1d301f86b15c1280b29a9638b71ebc32b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s52(3)",
+      "style": "subsection",
+      "text": "(3) Regulations made for the purposes of paragraph (2)(a) or (b) may make different provision with respect to different components (if any) of the notice of opposition."
+    },
+    {
+      "content_hash": "sha256:77e6bf30b2ef2c8ff412ac76edd41dc83f165737c45490ac36b08b57f8f34b02",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 88,
+          "start": 60,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3A)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s33(3A)",
+          "mention": "subsection 33(3A) of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s52(3A)",
+      "style": "subsection",
+      "text": "(3A) Subsection (3) does not limit subsection 33(3A) of the Acts Interpretation Act 1901."
+    },
+    {
+      "content_hash": "sha256:14ad1f55d1b363725d897ec11cc752d67bdef5974e90dbe8b3d73b98fe437962",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s52(4)",
+      "style": "subsection",
+      "text": "(4) The registration of a trade mark may be opposed on any of the grounds specified in this Act and on no other grounds."
+    },
+    {
+      "content_hash": "sha256:45c9ab07e9b64f7abe9f570e047a508c487df75b6a56f1a5d5e6c2f7a85d9f9f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s52(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s52(4)~1",
+      "style": "notetext",
+      "text": "Note: For this Act see section 6."
+    },
+    {
+      "content_hash": "sha256:d5b32294abcaec5637769ca050e4fa4cf8769964bdd2fc35ab12e058bdacb7aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s52(5)",
+      "style": "subsection",
+      "text": "(5) If:"
+    },
+    {
+      "content_hash": "sha256:635b0cb08df74071f0afc6059216d292a6672a944c6cb6abcfb1199f4eb125d3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s52(5)",
+      "ref": "TMA1995/s52(5)(a)",
+      "style": "paragraph",
+      "text": "(a) a person is granted an extension of time in which to file a notice of opposition; and"
+    },
+    {
+      "content_hash": "sha256:a7f169f4f4b79c2939b403194c673790825738fb1c0c77639544f13e86ef11dc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s52(5)",
+      "ref": "TMA1995/s52(5)(b)",
+      "style": "paragraph",
+      "text": "(b) before the notice of opposition is filed, the right or interest on which the person could have relied to file the notice of opposition becomes vested in another person; and"
+    },
+    {
+      "content_hash": "sha256:9dbd449e2073c662383dccc5e3c0856858086fc0af68d70eaeb550fcee08c971",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s52(5)",
+      "ref": "TMA1995/s52(5)(c)",
+      "style": "paragraph",
+      "text": "(c) the other person notifies the Registrar in writing that the right or interest is vested in him or her;"
+    },
+    {
+      "content_hash": "sha256:3d07e6c3c10497481107bd9525d6d73a2a4d7402ee8b0f0a6e9e4b02f27096a9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s52~1",
+      "style": "subsection2",
+      "text": "then:"
+    },
+    {
+      "content_hash": "sha256:845b7f5691a10f835a465b67bde08d8825c00025f6a04f523c600a02836b9850",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s52~1",
+      "ref": "TMA1995/s52~1(d)",
+      "style": "paragraph",
+      "text": "(d) the other person is taken to have been granted an extension of time in which to file the notice of opposition; and"
+    },
+    {
+      "content_hash": "sha256:9f3861dd66ed3c13301295d35ac367504f6a457c09d726cd9403f62e9f1c150b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s52~1",
+      "ref": "TMA1995/s52~1(e)",
+      "style": "paragraph",
+      "text": "(e) that extension ends when the extension mentioned in paragraph (a) ends."
+    }
+  ]
+}

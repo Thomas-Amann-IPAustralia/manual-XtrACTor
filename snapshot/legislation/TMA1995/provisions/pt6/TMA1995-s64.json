@@ -1,0 +1,73 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt6"
+  ],
+  "content_hash": "sha256:953bfd4ea0ce329b9c60b9aa81044af8516b19ffcccfd48ca5850ace421a62e1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "64  Amendment before particulars of application are published"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "64",
+  "ref": "TMA1995/s64",
+  "text": "If: (a) the particulars of the application have not yet been published under section 30; and (b) the request for the amendment is made within the prescribed period; an amendment may be made to correct a clerical error or an obvious mistake.",
+  "title": "Amendment before particulars of application are published",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s64~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:70363e3aed8107c7f393cef527864529643e1276bf7a59c4a849b6d843bc168f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s64~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "ref": "TMA1995/s64~1(a)",
+      "style": "paragraph",
+      "text": "(a) the particulars of the application have not yet been published under section 30; and"
+    },
+    {
+      "content_hash": "sha256:8ca3d1f27be0189275e945fd4f1afb8a1bedbbee7da39e318bdbc9e532c19118",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s64~1",
+      "ref": "TMA1995/s64~1(b)",
+      "style": "paragraph",
+      "text": "(b) the request for the amendment is made within the prescribed period;"
+    },
+    {
+      "content_hash": "sha256:fe67b737f5aa8722133567b0473c918dc48d5d32cffeb8b7fae6d64d0ece5969",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s64~2",
+      "style": "subsection2",
+      "text": "an amendment may be made to correct a clerical error or an obvious mistake."
+    }
+  ]
+}

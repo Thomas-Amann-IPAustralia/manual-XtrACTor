@@ -1,0 +1,177 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div5"
+  ],
+  "content_hash": "sha256:ca1ed2aa9b66622beb5fc58dcd504e6cb3accb53c19658a110f552b3c5fe0524",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 5—Maintaining registration and removing and restoring name to Register of Trade Marks Attorneys",
+    "20.14  Maintaining registration and removing and restoring name to Register of Trade Marks Attorneys"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.14",
+  "ref": "TMR1995/r20.14",
+  "text": "Parts 5, 6 and 7 of Chapter 20 of the Patents Regulations 1991 apply to a trade marks attorney in its application to the registration of a trade marks attorney under this Part as if: (a) references to ‘patent attorney’ were references to ‘trade marks attorney’; and (b) references to the ‘Register of Patent Attorneys’ were references to the ‘Register of Trade Marks Attorneys’; and (c) references to ‘trade marks attorney’ were references to ‘patent attorney’; and (d) the reference in paragraph 20.22(1)(a) of the Patents Regulations 1991 to ‘item 105 or 106 of Schedule 7’ were a reference to ‘item 29 or 30 of Schedule 9’; and (f) the reference in regulations 20.29, 20.30 and 20.31 of the Patents Regulations 1991 to ‘item 107 of Schedule 7’ were a reference to ‘item 31 of Schedule 9’.",
+  "title": "Maintaining registration and removing and restoring name to Register of Trade Marks Attorneys",
+  "units": [
+    {
+      "content_hash": "sha256:6e6a0a98a4b6bb7900c1def92f6cd2ab47fb1685a7f2a78490e3051dac02369c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 45,
+          "start": 38,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 59,
+          "start": 46,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 62,
+          "start": 59,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.14~1",
+      "style": "subsection",
+      "text": "Parts 5, 6 and 7 of Chapter 20 of the Patents Regulations 1991 apply to a trade marks attorney in its application to the registration of a trade marks attorney under this Part as if:"
+    },
+    {
+      "content_hash": "sha256:a18a7f614f4a1ad64ddd22abe712b06122dcd7e87f82a42286f22cf8548aafb3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.14~1",
+      "ref": "TMR1995/r20.14~1(a)",
+      "style": "paragraph",
+      "text": "(a) references to ‘patent attorney’ were references to ‘trade marks attorney’; and"
+    },
+    {
+      "content_hash": "sha256:746e8203580e1bbd8d48abdbf53c8cba8945d6524eba312b8866c0b1a2bb629d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.14~1",
+      "ref": "TMR1995/r20.14~1(b)",
+      "style": "paragraph",
+      "text": "(b) references to the ‘Register of Patent Attorneys’ were references to the ‘Register of Trade Marks Attorneys’; and"
+    },
+    {
+      "content_hash": "sha256:041afe7efd26baabc190b7448e963f2df901db46f4d391e432e0c95a820534cd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.14~1",
+      "ref": "TMR1995/r20.14~1(c)",
+      "style": "paragraph",
+      "text": "(c) references to ‘trade marks attorney’ were references to ‘patent attorney’; and"
+    },
+    {
+      "content_hash": "sha256:24aabc9aa5f2155ace2f007f3845b096d45ca10a24e5f7951ad528ccea5e001f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 57,
+          "start": 50,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 71,
+          "start": 58,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 74,
+          "start": 71,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.14~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20.22(1)(a)",
+          "mention": "paragraph 20.22(1)(a)"
+        }
+      ],
+      "ref": "TMR1995/r20.14~1(d)",
+      "style": "paragraph",
+      "text": "(d) the reference in paragraph 20.22(1)(a) of the Patents Regulations 1991 to ‘item 105 or 106 of Schedule 7’ were a reference to ‘item 29 or 30 of Schedule 9’; and"
+    },
+    {
+      "content_hash": "sha256:b09111e472b4f9eaa24a2f90992e140d6c6ec2a3df4d4c52abe102c8553f5276",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 70,
+          "start": 63,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 84,
+          "start": 71,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 87,
+          "start": 84,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.14~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.29",
+          "mention": "regulations 20.29, 20.30 and 20.31"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.30",
+          "mention": "regulations 20.29, 20.30 and 20.31"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.31",
+          "mention": "regulations 20.29, 20.30 and 20.31"
+        }
+      ],
+      "ref": "TMR1995/r20.14~1(f)",
+      "style": "paragraph",
+      "text": "(f) the reference in regulations 20.29, 20.30 and 20.31 of the Patents Regulations 1991 to ‘item 107 of Schedule 7’ were a reference to ‘item 31 of Schedule 9’."
+    }
+  ]
+}

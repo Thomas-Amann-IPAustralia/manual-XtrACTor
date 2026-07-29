@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:783b140e2bc30c3c631731f022e85da62956144beaf975970e48585397f9eb74",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "58  Applicant not owner of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "58",
+  "ref": "TMA1995/s58",
+  "text": "The registration of a trade mark may be opposed on the ground that the applicant is not the owner of the trade mark. Note: For applicant see section 6.",
+  "title": "Applicant not owner of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:36cb90172cfd6953f704697ceffaeaaaa82e1d9e55093b8755ea738d6deb225f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s58~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark may be opposed on the ground that the applicant is not the owner of the trade mark."
+    },
+    {
+      "content_hash": "sha256:41e164bb53fd8c2e42da3fec14283d1b0cdedb4ba275d504e98fa3bf72a5b01e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s58~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s58~1~1",
+      "style": "notetext",
+      "text": "Note: For applicant see section 6."
+    }
+  ]
+}

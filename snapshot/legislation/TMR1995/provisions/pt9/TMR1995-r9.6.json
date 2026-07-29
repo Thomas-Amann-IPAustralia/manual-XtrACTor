@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div2"
+  ],
+  "content_hash": "sha256:f0e12119d10aa49f3fbc26820399e25684c26090f9be2c47a855bc39597a86dd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 2—Application for removal",
+    "9.6  Notification of application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.6",
+  "ref": "TMR1995/r9.6",
+  "text": "(1) For subsection 95(1) of the Act, the Registrar must, within one month from the filing of the application, give a copy of the application to each person who, in the Registrar’s opinion, should receive one. (2) For the purposes of subsections 95(2) and (3) of the Act, the application must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Notification of application",
+  "units": [
+    {
+      "content_hash": "sha256:4c42abbe8e548019bc0eff9493ff58b0a4549fc5e5f7bd1094deeefc4c346e06",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s95(1)",
+          "mention": "subsection 95(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.6(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 95(1) of the Act, the Registrar must, within one month from the filing of the application, give a copy of the application to each person who, in the Registrar’s opinion, should receive one."
+    },
+    {
+      "content_hash": "sha256:cd4a8afbee55edf443070cf380a694a81e2f9ca9949aabc8b812ec89b99549c6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s95(2)",
+          "mention": "subsections 95(2)"
+        }
+      ],
+      "ref": "TMR1995/r9.6(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of subsections 95(2) and (3) of the Act, the application must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

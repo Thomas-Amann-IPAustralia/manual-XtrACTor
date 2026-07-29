@@ -1,0 +1,169 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:0e92a39730130410d615b5f180f4a106dc23cdb64f50e608b9d8253101fc1c50",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.15  Trade marks containing etc certain signs"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.15",
+  "ref": "TMR1995/r4.15",
+  "text": "For the purposes of paragraph 39(2)(a) of the Act (which deals with signs), the following signs are prescribed: (a) the words ‘Patent’, ‘Patented’, ‘By Royal Letters Patent’, ‘Protected International Trade Mark’, ‘Registered’, ‘Registered Design’, ‘Copyright’ ‘Plant Breeder’s Rights’, ‘EL rights’, or words or symbols to the same effect (including the symbols ‘©’ and ‘®’); (b) the words ‘To counterfeit this is a forgery’, or words to the same effect; (c) a representation of the Arms, or of a flag or seal, of the Commonwealth or of a State or Territory; (d) a representation of the Arms or emblem of a city or town in Australia or of a public authority or public institution in Australia; (da) a representation of a flag of a country that is a member of the International Union for the Protection of Industrial Property; (e) a representation of a mark notified by the International Union for the Protection of Industrial Property as not entitled to registration under international arrangements; (f) a sign specified in Schedule 2. Note 1: For the meaning of EL rights, see section 5 of the Circuit Layouts Act 1989. Note 2: A list of the marks mentioned in paragraph 4.15(e) is available at the Trade Marks Office and suboffices (if any).",
+  "title": "Trade marks containing etc certain signs",
+  "units": [
+    {
+      "content_hash": "sha256:6e67d6054285482dd21d9c7898c8f5eca6051d051a238d77f4a028c3568af873",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s39(2)(a)",
+          "mention": "paragraph 39(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r4.15~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 39(2)(a) of the Act (which deals with signs), the following signs are prescribed:"
+    },
+    {
+      "content_hash": "sha256:880356207a32690a206ca255f46e6be1fb7345c0a367871d3224679bc013d04c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(a)",
+      "style": "paragraph",
+      "text": "(a) the words ‘Patent’, ‘Patented’, ‘By Royal Letters Patent’, ‘Protected International Trade Mark’, ‘Registered’, ‘Registered Design’, ‘Copyright’ ‘Plant Breeder’s Rights’, ‘EL rights’, or words or symbols to the same effect (including the symbols ‘©’ and ‘®’);"
+    },
+    {
+      "content_hash": "sha256:968316f9f10a55e2b4cbe109063cbbbedfa6f9ea5c056d047f8fedb9f828577f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(b)",
+      "style": "paragraph",
+      "text": "(b) the words ‘To counterfeit this is a forgery’, or words to the same effect;"
+    },
+    {
+      "content_hash": "sha256:04ebad61efbe841139acb34439d3ba1719c6b4faf3ad076d721f68e058bfbce4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(c)",
+      "style": "paragraph",
+      "text": "(c) a representation of the Arms, or of a flag or seal, of the Commonwealth or of a State or Territory;"
+    },
+    {
+      "content_hash": "sha256:d6e7f1eb599fde012534ce9c8dd0c990e583084549e5a435e8355f8c7ef1a792",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(d)",
+      "style": "paragraph",
+      "text": "(d) a representation of the Arms or emblem of a city or town in Australia or of a public authority or public institution in Australia;"
+    },
+    {
+      "content_hash": "sha256:9a7d0944edad3bbbd3d76292833a5b60bc2de8ae35f7a6fc3010e18f490548d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(da)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(da)",
+      "style": "paragraph",
+      "text": "(da) a representation of a flag of a country that is a member of the International Union for the Protection of Industrial Property;"
+    },
+    {
+      "content_hash": "sha256:9e1d91271a06264e0a1eb3fe28599cffa006411efb8e69e27afd5bb4f5107470",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(e)",
+      "style": "paragraph",
+      "text": "(e) a representation of a mark notified by the International Union for the Protection of Industrial Property as not entitled to registration under international arrangements;"
+    },
+    {
+      "content_hash": "sha256:f7c8437a70e0182f8bd41d855fdbaf5493f9534c0270a84268367037f1b1838e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r4.15~1",
+      "ref": "TMR1995/r4.15~1(f)",
+      "style": "paragraph",
+      "text": "(f) a sign specified in Schedule 2."
+    },
+    {
+      "content_hash": "sha256:a0377798952f41eea37f0ea348493a26e0b45f5ab710987f5bfa8fca7a2417d9",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 36,
+          "start": 27,
+          "text": "EL rights",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 83,
+          "start": 59,
+          "text": "Circuit Layouts Act 1989",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r4.15~1(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s5",
+          "mention": "section 5"
+        }
+      ],
+      "ref": "TMR1995/r4.15~1(f)~1",
+      "style": "notetext",
+      "text": "Note 1: For the meaning of EL rights, see section 5 of the Circuit Layouts Act 1989."
+    },
+    {
+      "content_hash": "sha256:19f7ce9556926575556825fc6d2fe34e55766ca992aa69cb69e103dc10518051",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r4.15~1(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.15(e)",
+          "mention": "paragraph 4.15(e)"
+        }
+      ],
+      "ref": "TMR1995/r4.15~1(f)~2",
+      "style": "notetext",
+      "text": "Note 2: A list of the marks mentioned in paragraph 4.15(e) is available at the Trade Marks Office and suboffices (if any)."
+    }
+  ]
+}

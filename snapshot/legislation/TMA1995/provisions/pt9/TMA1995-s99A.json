@@ -1,0 +1,51 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:46278b6af1da48a19c658a6bde0746a464f7120c1e048a37c03ffbb07c366a78",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "99A  Dismissal of opposition filed with Registrar"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "99A",
+  "ref": "TMA1995/s99A",
+  "text": "(1) The Registrar may, in prescribed circumstances, dismiss an opposition filed with the Registrar in accordance with subsection 96(1). (2) An application may be made to the Administrative Review Tribunal for the review of a decision of the Registrar to dismiss an opposition under subsection (1).",
+  "title": "Dismissal of opposition filed with Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:2ddfaf54e4fa0afcc6a675174df50dabb77953cb27ed2efd9c4601508b7f2772",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96(1)",
+          "mention": "subsection 96(1)"
+        }
+      ],
+      "ref": "TMA1995/s99A(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, in prescribed circumstances, dismiss an opposition filed with the Registrar in accordance with subsection 96(1)."
+    },
+    {
+      "content_hash": "sha256:c07c7b0225a9d0bb0e82c9583cb4ffce7d8bc892dcad49dd99fc521c577b9f9e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s99A(2)",
+      "style": "subsection",
+      "text": "(2) An application may be made to the Administrative Review Tribunal for the review of a decision of the Registrar to dismiss an opposition under subsection (1)."
+    }
+  ]
+}

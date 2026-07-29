@@ -1,0 +1,88 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv1"
+  ],
+  "content_hash": "sha256:b074b42c7a464aac7e5dfe51217e4cfd1e8a25f3418f96b836e783b5abada41e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 1—Amendment or cessation of protection because of cancellation, limitation or nonrenewal of international registration",
+    "17A.42  Failure to renew international registration"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.42",
+  "ref": "TMR1995/r17A.42",
+  "text": "(1) If the international registration of a trade mark that is a protected international trade mark is not renewed, the trade mark ceases to be a protected international trade mark when the international registration expires. (2) However, if: (a) the international registration of a trade mark that is a protected international trade mark (unrenewed protected international trade mark) is not renewed; and (b) an application for the registration of the trade mark, or an IRDA, is made, or has already been made, by a person other than the holder of the unrenewed protected international trade mark; the unrenewed protected international trade mark is taken to be a protected international trade mark for the purposes of the application or the IRDA, at any time when the registration of the unrenewed protected international trade mark could have been renewed under Article 7 of the Protocol.",
+  "title": "Failure to renew international registration",
+  "units": [
+    {
+      "content_hash": "sha256:7a9878b0f561145e7ce7944ace1be1d5bcc9b5b9f50ec5fdfde8ace356474145",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42(1)",
+      "style": "subsection",
+      "text": "(1) If the international registration of a trade mark that is a protected international trade mark is not renewed, the trade mark ceases to be a protected international trade mark when the international registration expires."
+    },
+    {
+      "content_hash": "sha256:ede7f03acdddc701e3e6c92dded9897bebc306222f293cb772b334aaf663ab2a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42(2)",
+      "style": "subsection",
+      "text": "(2) However, if:"
+    },
+    {
+      "content_hash": "sha256:e05ccc3fc6f1d499225e5527ff6c67892780621f48737bf869c00467229a6f19",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 141,
+          "start": 97,
+          "text": "unrenewed protected international trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.42(2)",
+      "ref": "TMR1995/r17A.42(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the international registration of a trade mark that is a protected international trade mark (unrenewed protected international trade mark) is not renewed; and"
+    },
+    {
+      "content_hash": "sha256:273eeeb09ae505d8fc0d3301f9aacda7ce8f9458ee9ea3e1ccc724acb052a956",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.42(2)",
+      "ref": "TMR1995/r17A.42(2)(b)",
+      "style": "paragraph",
+      "text": "(b) an application for the registration of the trade mark, or an IRDA, is made, or has already been made, by a person other than the holder of the unrenewed protected international trade mark;"
+    },
+    {
+      "content_hash": "sha256:a997393ec85c68f8a982b243919a3298505f172eec6dd9e6619dbc8622a6b395",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42~1",
+      "style": "subsection",
+      "text": "the unrenewed protected international trade mark is taken to be a protected international trade mark for the purposes of the application or the IRDA, at any time when the registration of the unrenewed protected international trade mark could have been renewed under Article 7 of the Protocol."
+    }
+  ]
+}

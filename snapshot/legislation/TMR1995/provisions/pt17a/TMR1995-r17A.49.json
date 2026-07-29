@@ -1,0 +1,185 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div6"
+  ],
+  "content_hash": "sha256:9c778e9faf5e2e31e310eb9b6ae228b5c37784f1581c3ac15441e094548b4cb4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 6—Collective and certification trade marks",
+    "17A.49  Collective trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.49",
+  "ref": "TMR1995/r17A.49",
+  "text": "(1) The provisions of this Part, of the Act as applied by this Part, and sections 164 to 167 of the Act, apply in relation to a collective trade mark that is the subject of an IRDA or that is a protected international trade mark. Note: See section 162 of the Act for the meaning of collective trade mark. (2) For that application: (a) a reference to a trade mark is taken to include a collective trade mark; and (b) a reference to an application for the registration of a collective trade mark is taken to be a reference to an IRDA in respect of the collective trade mark; and (c) a reference to an association in whose name a collective trade mark is registered is taken to be a reference to the association that is the holder of the relevant protected international collective trade mark; and (d) despite subparagraph 17A.28(2)(a)(ii), a reference in section 41 of the Act to the applicant is taken to be a reference to the members of the association that is the holder of the relevant IRDA; and (e) the use of a collective trade mark by a member of the association that is the holder of the relevant IRDA or protected international collective trade mark is taken to be a use of the collective trade mark by the holder. (3) In this regulation: protected international collective trade mark means a collective trade mark that is a protected international trade mark.",
+  "title": "Collective trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:c3b08fc6145cc484504fe400502ad4a5f61adce9556692319c0bd899dd087611",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s164",
+          "mention": "sections 164 to 167"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s167",
+          "mention": "sections 164 to 167"
+        }
+      ],
+      "ref": "TMR1995/r17A.49(1)",
+      "style": "subsection",
+      "text": "(1) The provisions of this Part, of the Act as applied by this Part, and sections 164 to 167 of the Act, apply in relation to a collective trade mark that is the subject of an IRDA or that is a protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:bab1372a1e06de14c7ab6ae6b49afc120204613290f552337c0748e6c1fa2fe6",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 73,
+          "start": 52,
+          "text": "collective trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.49(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s162",
+          "mention": "section 162"
+        }
+      ],
+      "ref": "TMR1995/r17A.49(1)~1",
+      "style": "notetext",
+      "text": "Note: See section 162 of the Act for the meaning of collective trade mark."
+    },
+    {
+      "content_hash": "sha256:ab8403f6347fa14e2f9dd882a68ef325adabdd6b53c1fcfe3a0e0880c06f2c02",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.49(2)",
+      "style": "subsection",
+      "text": "(2) For that application:"
+    },
+    {
+      "content_hash": "sha256:2b2bbd60ec85eb4c0292192ff81757ac944f6b4dc4ed559e2488401f554985fd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.49(2)",
+      "ref": "TMR1995/r17A.49(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference to a trade mark is taken to include a collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:40334732788ffef58e78c2779a41821193a045e2efa404d3c2d5512ce1508de9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.49(2)",
+      "ref": "TMR1995/r17A.49(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a reference to an application for the registration of a collective trade mark is taken to be a reference to an IRDA in respect of the collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:d67c5f4d62b3a75102468a33723746de83f78fa1315a4dfc80be89d770d22437",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.49(2)",
+      "ref": "TMR1995/r17A.49(2)(c)",
+      "style": "paragraph",
+      "text": "(c) a reference to an association in whose name a collective trade mark is registered is taken to be a reference to the association that is the holder of the relevant protected international collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:44d944e50809b72c9c700da86b8a70c0fce4e439ce300f6d7d89e7fe67a5d250",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.49(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.28(2)(a)(ii)",
+          "mention": "subparagraph 17A.28(2)(a)(ii)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "ref": "TMR1995/r17A.49(2)(d)",
+      "style": "paragraph",
+      "text": "(d) despite subparagraph 17A.28(2)(a)(ii), a reference in section 41 of the Act to the applicant is taken to be a reference to the members of the association that is the holder of the relevant IRDA; and"
+    },
+    {
+      "content_hash": "sha256:d961ab031f9ad3bbef2c2a7c43ee0cfb91c4e48899b2467bdced983166aed908",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.49(2)",
+      "ref": "TMR1995/r17A.49(2)(e)",
+      "style": "paragraph",
+      "text": "(e) the use of a collective trade mark by a member of the association that is the holder of the relevant IRDA or protected international collective trade mark is taken to be a use of the collective trade mark by the holder."
+    },
+    {
+      "content_hash": "sha256:0b807a2825225b28215adb3db382b2610a297c5345ec4ea6949018ff480eae74",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.49(3)",
+      "style": "subsection",
+      "text": "(3) In this regulation:"
+    },
+    {
+      "content_hash": "sha256:3573ed1975f9f61f619310ffe2bc2c18ca0b9a65b6fea6ca1531ed0c1e8347a3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 45,
+          "start": 0,
+          "text": "protected international collective trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.49~1",
+      "style": "Definition",
+      "text": "protected international collective trade mark means a collective trade mark that is a protected international trade mark."
+    }
+  ]
+}

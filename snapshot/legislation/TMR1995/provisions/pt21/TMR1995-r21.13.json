@@ -1,0 +1,124 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div2"
+  ],
+  "content_hash": "sha256:02c720c572c31177ae1fc108a73c0e465074ec94a36df24f49616fb60a37b46f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 2—Proceedings before the Registrar",
+    "21.13  Award of costs"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.13",
+  "ref": "TMR1995/r21.13",
+  "text": "(1) For section 221 of the Act, if a matter is mentioned in these Regulations as a matter attracting the award of costs, costs may be awarded: (a) in accordance with Schedule 8; or (b) if the Registrar has a discretionary power in relation to the award of costs—as the Registrar considers appropriate. (2) The costs must be taxed, allowed and certified by an employee appointed by the Registrar. (3) The Registrar may review the taxation of costs by the employee. (4) In this regulation: costs does not include the costs mentioned in paragraph 105(2)(b) of the Act.",
+  "title": "Award of costs",
+  "units": [
+    {
+      "content_hash": "sha256:e231ed900b8c0d9d3b97e02438e3530cdae39c536c04049d5a56e2d0994f0bf1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s221",
+          "mention": "section 221"
+        }
+      ],
+      "ref": "TMR1995/r21.13(1)",
+      "style": "subsection",
+      "text": "(1) For section 221 of the Act, if a matter is mentioned in these Regulations as a matter attracting the award of costs, costs may be awarded:"
+    },
+    {
+      "content_hash": "sha256:bccf62c00a64bebc23e2023f7e188e444fe682dfe8160f986dd59fac885cfaff",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.13(1)",
+      "ref": "TMR1995/r21.13(1)(a)",
+      "style": "paragraph",
+      "text": "(a) in accordance with Schedule 8; or"
+    },
+    {
+      "content_hash": "sha256:167b07d9b37b88be2987d851ccfea3a1f9f27cee96ad2df983add6b4d5aafdd8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.13(1)",
+      "ref": "TMR1995/r21.13(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the Registrar has a discretionary power in relation to the award of costs—as the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:c1a6a54336ec9e8eb04ec9be9fd28c8ea8a3c6cc591116e479f73a7a99a80d3a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.13(2)",
+      "style": "subsection",
+      "text": "(2) The costs must be taxed, allowed and certified by an employee appointed by the Registrar."
+    },
+    {
+      "content_hash": "sha256:94063bb319f2f1c7737cfce593d22e2b70abe3232dad37c97c40d486aec8f539",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.13(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may review the taxation of costs by the employee."
+    },
+    {
+      "content_hash": "sha256:4ba8086a7a7a666868fb546423bcb576e25ed5f0700cdeb9ac26d078e3aa4597",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.13(4)",
+      "style": "subsection",
+      "text": "(4) In this regulation:"
+    },
+    {
+      "content_hash": "sha256:ca9e10ee1857929bc30036d3af6daa5f8ecfac9b2b9a9800db4a2c78b0813b63",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 5,
+          "start": 0,
+          "text": "costs",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s105(2)(b)",
+          "mention": "paragraph 105(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.13~1",
+      "style": "Definition",
+      "text": "costs does not include the costs mentioned in paragraph 105(2)(b) of the Act."
+    }
+  ]
+}

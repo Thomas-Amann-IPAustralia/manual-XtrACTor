@@ -1,0 +1,125 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17"
+  ],
+  "content_hash": "sha256:c545dbd2d14725e20e9e3b68dc83f44df6be457b3c163ace174fe16df37c0abd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17—Defensive trade marks",
+    "17.2  Defensive trade mark based on protected international trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17.2",
+  "ref": "TMR1995/r17.2",
+  "text": "(1) This regulation applies if, because of the extent to which a protected international trade mark has been used in relation to all or any of the goods or services in respect of which it is protected, it is likely that the use of the trade mark in relation to other goods or services would be taken to indicate that there is a connection between those other goods or services and the holder of the protected international trade mark. (2) The holder of the protected international trade mark may apply for its registration as a defensive trade mark in respect of any or all of the other goods or services. (3) Part 17 of the Act applies for the purposes of an application under subregulation (2) as if: (a) a reference in that Part to a registered trade mark were a reference to the protected international trade mark; and (b) a reference in that Part to goods or services in respect of which a trade mark is registered were a reference to goods or services protected by the protected international trade mark; and (c) a reference in that Part to the registered owner of a trade mark were a reference to the holder of the protected international trade mark; and (d) the reference in paragraph 187(c) of the Act to a trade mark that is not registered as a trade mark in the name of the applicant included a trade mark that is not a protected international trade mark held by the applicant; and (e) the reference in section 189 of the Act to a trade mark that is not registered in the name of the registered owner included a trade mark that is not a protected international trade mark held by the registered owner.",
+  "title": "Defensive trade mark based on protected international trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:d00e652da1ac4311b25f544101aae10920a882deddaa504cc97c570cc6a3a45b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17.2(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if, because of the extent to which a protected international trade mark has been used in relation to all or any of the goods or services in respect of which it is protected, it is likely that the use of the trade mark in relation to other goods or services would be taken to indicate that there is a connection between those other goods or services and the holder of the protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:e383c44581684718c12c708036a46c1ee4ab33cdf696353616c40e690ea1192f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17.2(2)",
+      "style": "subsection",
+      "text": "(2) The holder of the protected international trade mark may apply for its registration as a defensive trade mark in respect of any or all of the other goods or services."
+    },
+    {
+      "content_hash": "sha256:184bf91c72199ab466b564a3ca835562bab7ea78629de4507974afebe8607888",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17.2(3)",
+      "style": "subsection",
+      "text": "(3) Part 17 of the Act applies for the purposes of an application under subregulation (2) as if:"
+    },
+    {
+      "content_hash": "sha256:ac990aa57f7e66654d11ac9ff201d5b7843828f9c434f17a7eb5032bab0527cb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17.2(3)",
+      "ref": "TMR1995/r17.2(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference in that Part to a registered trade mark were a reference to the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:2a3778f6120537d7971ca256a184fd33d6650c78989287e2c80ca26f49a58d67",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17.2(3)",
+      "ref": "TMR1995/r17.2(3)(b)",
+      "style": "paragraph",
+      "text": "(b) a reference in that Part to goods or services in respect of which a trade mark is registered were a reference to goods or services protected by the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f8f40426f35770e8113a67b12cec3abf92eb11657fd5d4b938e4355eff220380",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17.2(3)",
+      "ref": "TMR1995/r17.2(3)(c)",
+      "style": "paragraph",
+      "text": "(c) a reference in that Part to the registered owner of a trade mark were a reference to the holder of the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:6da7253ef337bfc73037428262d4aafc8d33e9b67f4aaba38f44545ffd6a173b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17.2(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s187(c)",
+          "mention": "paragraph 187(c)"
+        }
+      ],
+      "ref": "TMR1995/r17.2(3)(d)",
+      "style": "paragraph",
+      "text": "(d) the reference in paragraph 187(c) of the Act to a trade mark that is not registered as a trade mark in the name of the applicant included a trade mark that is not a protected international trade mark held by the applicant; and"
+    },
+    {
+      "content_hash": "sha256:839a49a88ebfdbae9afcd56ad9cb6d8c08302a756a2ed8be9b263c71f2cbf7b2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17.2(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189",
+          "mention": "section 189"
+        }
+      ],
+      "ref": "TMR1995/r17.2(3)(e)",
+      "style": "paragraph",
+      "text": "(e) the reference in section 189 of the Act to a trade mark that is not registered in the name of the registered owner included a trade mark that is not a protected international trade mark held by the registered owner."
+    }
+  ]
+}

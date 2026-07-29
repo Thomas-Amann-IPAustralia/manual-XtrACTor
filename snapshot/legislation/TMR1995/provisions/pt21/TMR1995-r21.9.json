@@ -1,0 +1,130 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:758b39a8e2459fdf7294a98214cbe4c81e0954b4c89b4b3f60e3860d1555b0c5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.9  Notice of withdrawal of applications etc"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.9",
+  "ref": "TMR1995/r21.9",
+  "text": "(1) For the purposes of section 214 of the Act (which deals with withdrawal of applications, notices and requests): (a) a person who has filed an application, notice or request; or (b) another person in whom the right or interest in reliance on which the application, notice or request was filed has become vested; may withdraw the application, notice or request by giving notice in writing of the withdrawal to the Registrar. (2) If: (a) the application, notice or request was filed by, or on behalf of, more than 1 person; or (b) the right or interest mentioned in paragraph (1)(b) has become vested in more than 1 person; the notice of withdrawal must be signed by, or on behalf of, each of those persons. (3) If a person mentioned in paragraph (1)(b) withdraws an application, notice or request, the Registrar may notify the person that the person is required to file documentary evidence that is sufficient to establish that the right or interest mentioned in that paragraph is vested in the person.",
+  "title": "Notice of withdrawal of applications etc",
+  "units": [
+    {
+      "content_hash": "sha256:cf12deba6574ea146619894ede2f1f660310e8fdd3c330bdc92750b07a2bf9a2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s214",
+          "mention": "section 214"
+        }
+      ],
+      "ref": "TMR1995/r21.9(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of section 214 of the Act (which deals with withdrawal of applications, notices and requests):"
+    },
+    {
+      "content_hash": "sha256:cac18c6b9fdff50551d5adf94c76a65d44835c11377782af875c67f5eae51613",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.9(1)",
+      "ref": "TMR1995/r21.9(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a person who has filed an application, notice or request; or"
+    },
+    {
+      "content_hash": "sha256:c8fa6a90aa0a1fbf1c1255dc8ca1e060a3187653f495999510182ed497c8fefa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.9(1)",
+      "ref": "TMR1995/r21.9(1)(b)",
+      "style": "paragraph",
+      "text": "(b) another person in whom the right or interest in reliance on which the application, notice or request was filed has become vested;"
+    },
+    {
+      "content_hash": "sha256:8bcf15c5378ea511ca10c7cca6c1084d130ea7a96b73818ddaa439bd78ea55fe",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.9~1",
+      "style": "subsection2",
+      "text": "may withdraw the application, notice or request by giving notice in writing of the withdrawal to the Registrar."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.9(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:4d74a380deeb38ff83865f4f4f1775213d5ac3bde8dd9182609c20a27eda9e39",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.9(2)",
+      "ref": "TMR1995/r21.9(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application, notice or request was filed by, or on behalf of, more than 1 person; or"
+    },
+    {
+      "content_hash": "sha256:e3174b8333a35f711e6af4f5d8995d854b302ed1a05b4ad084c1c54b331152f9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.9(2)",
+      "ref": "TMR1995/r21.9(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the right or interest mentioned in paragraph (1)(b) has become vested in more than 1 person;"
+    },
+    {
+      "content_hash": "sha256:a009e24650dc6c58602cc1c8c4c4980e90b18d965777d5c6453190c3fa9a5423",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.9~2",
+      "style": "subsection2",
+      "text": "the notice of withdrawal must be signed by, or on behalf of, each of those persons."
+    },
+    {
+      "content_hash": "sha256:a2c3350ab359648fbdc4e886d90909328e7309fb34ad9675b15dbb36a8a46256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.9(3)",
+      "style": "subsection",
+      "text": "(3) If a person mentioned in paragraph (1)(b) withdraws an application, notice or request, the Registrar may notify the person that the person is required to file documentary evidence that is sufficient to establish that the right or interest mentioned in that paragraph is vested in the person."
+    }
+  ]
+}

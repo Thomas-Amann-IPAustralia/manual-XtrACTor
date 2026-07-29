@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt1"
+  ],
+  "content_hash": "sha256:2f626969184bc0e8434520db87e9a9c78ee06aa8b5f00c90a22df3c193c70d3a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 1—Preliminary",
+    "5  Repeal of Trade Marks Act 1994"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "5",
+  "ref": "TMA1995/s5",
+  "text": "The Trade Marks Act 1994 is repealed.",
+  "title": "Repeal of Trade Marks Act 1994",
+  "units": [
+    {
+      "content_hash": "sha256:2f626969184bc0e8434520db87e9a9c78ee06aa8b5f00c90a22df3c193c70d3a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 4,
+          "text": "Trade Marks Act 1994",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s5~1",
+      "style": "subsection",
+      "text": "The Trade Marks Act 1994 is repealed."
+    }
+  ]
+}

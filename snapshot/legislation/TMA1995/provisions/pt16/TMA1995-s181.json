@@ -1,0 +1,190 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:4a0a7645a873ba8696c2e8182847f39ad3a93c763eab7ad9dd758ec5b919af5c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "181  Rectification of the Register by order of court"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "181",
+  "ref": "TMA1995/s181",
+  "text": "(2) In addition to its powers under Division 2 of Part 8 in relation to certification trade marks, a prescribed court may, on the application of a person aggrieved, order that the Register be rectified by cancelling the registration of a certification trade mark, or removing or amending an entry in the Register relating to the certification trade mark, on the ground that: (a) the registered owner or an approved certifier is no longer competent to certify any of the goods and/or services in respect of which the mark is registered; or (b) the rules governing the use of the certification trade mark are detrimental to the public; or (c) the registered owner or an approved user has failed to comply with a provision of the rules governing the use of the certification trade mark. Note 1: For prescribed court see section 190. Note 2: For approved certifier see paragraph 173(2)(c). Note 3: For approved user see section 172. (3) Notice of an application to the prescribed court must be given to the Registrar and to the Commission. (4) Except for cases in which the court directs the Registrar to appear, the Registrar may appear before the court and be heard at his or her discretion. (5) Except for cases in which the court directs the Commission to appear, a delegate of the Commission may appear before the court and be heard at his or her discretion. (6) A copy of any order made by the court under this section must be given to the Registrar and the Registrar must comply with the order.",
+  "title": "Rectification of the Register by order of court",
+  "units": [
+    {
+      "content_hash": "sha256:a107eab4f9b5c097514561a4ef4cae92eb553c86b34c725dad96e66d60c8aefc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s181(2)",
+      "style": "subsection",
+      "text": "(2) In addition to its powers under Division 2 of Part 8 in relation to certification trade marks, a prescribed court may, on the application of a person aggrieved, order that the Register be rectified by cancelling the registration of a certification trade mark, or removing or amending an entry in the Register relating to the certification trade mark, on the ground that:"
+    },
+    {
+      "content_hash": "sha256:8986111757af30d659131ef62a552846ad980181561efd6eb23360c9dcf0e5bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s181(2)",
+      "ref": "TMA1995/s181(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner or an approved certifier is no longer competent to certify any of the goods and/or services in respect of which the mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:894d0d60c0acf25287bf773ab29dee5e67c01aa145c596531e123874e441b2c3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s181(2)",
+      "ref": "TMA1995/s181(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the rules governing the use of the certification trade mark are detrimental to the public; or"
+    },
+    {
+      "content_hash": "sha256:68d27d2cfafef11f95185426fa698dbf7c86a156b9900016001c80132840169b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s181(2)",
+      "ref": "TMA1995/s181(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the registered owner or an approved user has failed to comply with a provision of the rules governing the use of the certification trade mark."
+    },
+    {
+      "content_hash": "sha256:b8046ed52b5f248034dc071d1a645773a42eaa8b205e5b57d14c5799a2653494",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s181(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s181(2)(c)~1",
+      "style": "notetext",
+      "text": "Note 1: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:5b71329dca2cc6d2f472baac87e112bdd4e3105ed36eaffba8f3358afe09e024",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 12,
+          "text": "approved certifier",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s181(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(2)(c)",
+          "mention": "paragraph 173(2)(c)"
+        }
+      ],
+      "ref": "TMA1995/s181(2)(c)~2",
+      "style": "notetext",
+      "text": "Note 2: For approved certifier see paragraph 173(2)(c)."
+    },
+    {
+      "content_hash": "sha256:a7ba019be886843436dff328467a60f2046355f0285b89af3866e6d11acfee0d",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 12,
+          "text": "approved user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s181(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s172",
+          "mention": "section 172"
+        }
+      ],
+      "ref": "TMA1995/s181(2)(c)~3",
+      "style": "notetext",
+      "text": "Note 3: For approved user see section 172."
+    },
+    {
+      "content_hash": "sha256:74bcaeab7bd702b27fbd256ea10419b56cff1dad69e864ab251bb0ab1b52b1ff",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s181(3)",
+      "style": "subsection",
+      "text": "(3) Notice of an application to the prescribed court must be given to the Registrar and to the Commission."
+    },
+    {
+      "content_hash": "sha256:4272bcead1786cbba49ccb08c5dd9100b5788379dd405ea6e713ba61abe2d70a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s181(4)",
+      "style": "subsection",
+      "text": "(4) Except for cases in which the court directs the Registrar to appear, the Registrar may appear before the court and be heard at his or her discretion."
+    },
+    {
+      "content_hash": "sha256:f2628e7d0904a1b94174efcd430599a0137faeb95a871f255505ec21847be83d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s181(5)",
+      "style": "subsection",
+      "text": "(5) Except for cases in which the court directs the Commission to appear, a delegate of the Commission may appear before the court and be heard at his or her discretion."
+    },
+    {
+      "content_hash": "sha256:12ba549c9fb5c9103583e525c5fa3dc1a9c0c502de8526eee9849ea88f6be694",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s181(6)",
+      "style": "subsection",
+      "text": "(6) A copy of any order made by the court under this section must be given to the Registrar and the Registrar must comply with the order."
+    }
+  ]
+}

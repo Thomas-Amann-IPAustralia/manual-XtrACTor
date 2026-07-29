@@ -1,0 +1,392 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:a2d4632266df87b6286bea44b928a766c4c4cb8dff5162fc5e15676bd7fbdbdc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "241  Application for registration of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "241",
+  "ref": "TMA1995/s241",
+  "text": "(1) This section applies if an application for the registration of a trade mark in Part A or B of the old register was pending immediately before 1 January 1996. Note 1: For old register see section 6. Note 2: For pending see subsection 11(2). (2) If the application had been accepted under the repealed Act and the acceptance was in force immediately before 1 January 1996, the following provisions apply: (a) subject to subsection (4), the repealed Act (other than paragraph 45(1)(b)) continues to apply in relation to the application; (b) if, after dealing with the application in accordance with the repealed Act, the Registrar is required under section 53 of that Act to register the trade mark in the old register—the Registrar is to register the trade mark under Part 7 of this Act. Note: Subsection 45(1) of the repealed Act provided as follows: “45. (1) An application for the registration of a trade mark may be accepted, and the trade mark may be registered, notwithstanding that the applicant does not use or propose to use the trade mark: (a) ... (b) if an application has been made for the registration of a person as a registered user of the trade mark and the Registrar is satisfied that the proprietor intends the trade mark to be used by that person in relation to those goods or services and is also satisfied that that person will be registered as a registered user of the trade mark immediately after registration of the trade mark.”. (3) If, immediately before 1 January 1996, the application had not been accepted, the following provisions apply: (a) subject to subsection 240(2) and subsection (5) of this section, the application is to be dealt with in accordance with this Act; (b) if: (i) there is no opposition to the registration; or (ii) there is an opposition to the registration but the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered; Part 7 is to apply in relation to the registration of the trade mark. (4) If, when dealing with the application under the repealed Act as provided by paragraph (2)(a), the Registrar withdraws the acceptance of the application under subsection 44(3) of that Act, the following provisions apply: (a) subject to subsection 240(2) and subsection (5) of this section, the application is to be dealt with in accordance with this Act as if it were an application whose acceptance had been revoked under subsection 38(1); (b) if: (i) there is no opposition to the registration; or (ii) there is an opposition to the registration but the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered; Part 7 is to apply in relation to the registration of the trade mark. (5) The filing date in respect of the application is: (a) if paragraph (b) does not apply—the day on which the application was lodged with the Trade Marks Office under the repealed Act; or (b) if section 43 of the repealed Act applied to the application and the Registrar had made the proper direction—the day on which the application is to be taken to have been lodged with the Trade Marks Office under the repealed Act.",
+  "title": "Application for registration of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:91ae3828fd3f93b97053bea4a9383c650d2f946e8fcdfe7afa02b8ecb5b20a0f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s241(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if an application for the registration of a trade mark in Part A or B of the old register was pending immediately before 1 January 1996."
+    },
+    {
+      "content_hash": "sha256:fe71aacd1f710941f36ea003f04086b5b5691a48d379d7cb09b2ea3a4544302a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 12,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s241(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s241(1)~1",
+      "style": "notetext",
+      "text": "Note 1: For old register see section 6."
+    },
+    {
+      "content_hash": "sha256:977e468c2fc323162798114ed8cdb26d09d3a96672ddf209976fa3d8a6d98fb8",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s241(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s241(1)~2",
+      "style": "notetext",
+      "text": "Note 2: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:5042e7044677d9cbd880eee623789420056d30f4df3964ace3f21d19391d330a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s241(2)",
+      "style": "subsection",
+      "text": "(2) If the application had been accepted under the repealed Act and the acceptance was in force immediately before 1 January 1996, the following provisions apply:"
+    },
+    {
+      "content_hash": "sha256:ed64c2d8f62673f34da20172b637a97e645b51b8682f1b8bd9ff79ae2a803d5d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s241(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45(1)(b)",
+          "mention": "paragraph 45(1)(b)"
+        }
+      ],
+      "ref": "TMA1995/s241(2)(a)",
+      "style": "paragraph",
+      "text": "(a) subject to subsection (4), the repealed Act (other than paragraph 45(1)(b)) continues to apply in relation to the application;"
+    },
+    {
+      "content_hash": "sha256:fa61dd0de868709cbf8de4af5912f70813f72b260478547f83f76223ef43c09a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s241(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s53",
+          "mention": "section 53"
+        }
+      ],
+      "ref": "TMA1995/s241(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if, after dealing with the application in accordance with the repealed Act, the Registrar is required under section 53 of that Act to register the trade mark in the old register—the Registrar is to register the trade mark under Part 7 of this Act."
+    },
+    {
+      "content_hash": "sha256:af4f7c68f5d8649fa2dd188c589e580d721cf9407620064f224e1389f6e292b4",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s241(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45(1)",
+          "mention": "Subsection 45(1)"
+        }
+      ],
+      "ref": "TMA1995/s241(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: Subsection 45(1) of the repealed Act provided as follows:"
+    },
+    {
+      "content_hash": "sha256:f388676e91adfd2318d6390841028cc0d0749a498b312ed3d9191c2378064285",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s241(2)(b)",
+      "ref": "TMA1995/s241(2)(b)~2",
+      "style": "notetext",
+      "text": "“45. (1) An application for the registration of a trade mark may be accepted, and the trade mark may be registered, notwithstanding that the applicant does not use or propose to use the trade mark:"
+    },
+    {
+      "content_hash": "sha256:177cab42b331fb6734883045afb3a84696f1914c62a1b545fcf5b2da0408bdbe",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s241(2)(b)",
+      "ref": "TMA1995/s241(2)(b)~3",
+      "style": "notetext",
+      "text": "(a) ..."
+    },
+    {
+      "content_hash": "sha256:d831acb12ab431bcb6e9de5e1bdf0e6c1216425f14940b30e6e9bfdd27620bb9",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s241(2)(b)",
+      "ref": "TMA1995/s241(2)(b)~4",
+      "style": "notetext",
+      "text": "(b) if an application has been made for the registration of a person as a registered user of the trade mark and the Registrar is satisfied that the proprietor intends the trade mark to be used by that person in relation to those goods or services and is also satisfied that that person will be registered as a registered user of the trade mark immediately after registration of the trade mark.”."
+    },
+    {
+      "content_hash": "sha256:ff56b23f7385eaa7a0180563ef726c13cc59d4c6f219b132a371c606464bcd79",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s241(3)",
+      "style": "subsection",
+      "text": "(3) If, immediately before 1 January 1996, the application had not been accepted, the following provisions apply:"
+    },
+    {
+      "content_hash": "sha256:6c052694a82d08ba069d8ed07c47f892cfeb87176d646502cb321f14e35021f9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s241(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s240(2)",
+          "mention": "subsection 240(2)"
+        }
+      ],
+      "ref": "TMA1995/s241(3)(a)",
+      "style": "paragraph",
+      "text": "(a) subject to subsection 240(2) and subsection (5) of this section, the application is to be dealt with in accordance with this Act;"
+    },
+    {
+      "content_hash": "sha256:e218de3c28287f23a0cefba3faa3343a956d204d06f4491c717a5cbc5234a213",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s241(3)",
+      "ref": "TMA1995/s241(3)(b)",
+      "style": "paragraph",
+      "text": "(b) if:"
+    },
+    {
+      "content_hash": "sha256:77463f7bb099b1bc8314c9be94044add0be4be16ab031e12530acd558f29c673",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s241(3)(b)",
+      "ref": "TMA1995/s241(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) there is no opposition to the registration; or"
+    },
+    {
+      "content_hash": "sha256:2583d7b3334d65a3e01bc11ee4f5d791b0bd6502dcaf79469f698c76d871b64f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s241(3)(b)",
+      "ref": "TMA1995/s241(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) there is an opposition to the registration but the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered;"
+    },
+    {
+      "content_hash": "sha256:c1e56b2f38962c4ef790967320afe00c193c63f8173aa934acd70034cdd8c62c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s241(3)",
+      "ref": "TMA1995/s241(3)~1",
+      "style": "paragraph",
+      "text": "Part 7 is to apply in relation to the registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:be3eaad058ea41cfec6a840855c84eaf5af14d678e9090f63c43b97d26c453c5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(3)",
+          "mention": "subsection 44(3)"
+        }
+      ],
+      "ref": "TMA1995/s241(4)",
+      "style": "subsection",
+      "text": "(4) If, when dealing with the application under the repealed Act as provided by paragraph (2)(a), the Registrar withdraws the acceptance of the application under subsection 44(3) of that Act, the following provisions apply:"
+    },
+    {
+      "content_hash": "sha256:a4fb4dd41b27ae89a937a5cc94a737d26ee424cea6d158298363f5d06148d06c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s241(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s240(2)",
+          "mention": "subsection 240(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s38(1)",
+          "mention": "subsection 38(1)"
+        }
+      ],
+      "ref": "TMA1995/s241(4)(a)",
+      "style": "paragraph",
+      "text": "(a) subject to subsection 240(2) and subsection (5) of this section, the application is to be dealt with in accordance with this Act as if it were an application whose acceptance had been revoked under subsection 38(1);"
+    },
+    {
+      "content_hash": "sha256:e218de3c28287f23a0cefba3faa3343a956d204d06f4491c717a5cbc5234a213",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s241(4)",
+      "ref": "TMA1995/s241(4)(b)",
+      "style": "paragraph",
+      "text": "(b) if:"
+    },
+    {
+      "content_hash": "sha256:77463f7bb099b1bc8314c9be94044add0be4be16ab031e12530acd558f29c673",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s241(4)(b)",
+      "ref": "TMA1995/s241(4)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) there is no opposition to the registration; or"
+    },
+    {
+      "content_hash": "sha256:2583d7b3334d65a3e01bc11ee4f5d791b0bd6502dcaf79469f698c76d871b64f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s241(4)(b)",
+      "ref": "TMA1995/s241(4)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) there is an opposition to the registration but the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered;"
+    },
+    {
+      "content_hash": "sha256:c1e56b2f38962c4ef790967320afe00c193c63f8173aa934acd70034cdd8c62c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s241(4)",
+      "ref": "TMA1995/s241(4)~1",
+      "style": "paragraph",
+      "text": "Part 7 is to apply in relation to the registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:808a24e52d8fece2aabfba31f162915265185e319f8cef98af84eec3c81f7b09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 23,
+      "parent_ref": null,
+      "ref": "TMA1995/s241(5)",
+      "style": "subsection",
+      "text": "(5) The filing date in respect of the application is:"
+    },
+    {
+      "content_hash": "sha256:6a6ff1fa8f6cbf3825db53de0739a11638ec855ed061b68a1201b5248298a0a7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s241(5)",
+      "ref": "TMA1995/s241(5)(a)",
+      "style": "paragraph",
+      "text": "(a) if paragraph (b) does not apply—the day on which the application was lodged with the Trade Marks Office under the repealed Act; or"
+    },
+    {
+      "content_hash": "sha256:eb93006fe0fb069485e36b6e2608e79910405825b0d68ca1d763f4f0c0596b37",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s241(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s43",
+          "mention": "section 43"
+        }
+      ],
+      "ref": "TMA1995/s241(5)(b)",
+      "style": "paragraph",
+      "text": "(b) if section 43 of the repealed Act applied to the application and the Registrar had made the proper direction—the day on which the application is to be taken to have been lodged with the Trade Marks Office under the repealed Act."
+    }
+  ]
+}

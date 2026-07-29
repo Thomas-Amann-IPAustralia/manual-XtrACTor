@@ -1,0 +1,308 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:b1e7a3fea3c5037bd9c169b44814783e6b0988e07467aab5f01cd5e9fe4639aa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "122A  Exhaustion of a registered trade mark in relation to goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "122A",
+  "ref": "TMA1995/s122A",
+  "text": "(1) In spite of section 120, a person who uses a registered trade mark in relation to goods does not infringe the trade mark if: (a) the goods are similar to goods in respect of which the trade mark is registered; and (b) before the time of use, the person had made reasonable inquiries in relation to the trade mark; and (c) at the time of use, a reasonable person, after making those inquiries, would have concluded that the trade mark had been applied to, or in relation to, the goods by, or with the consent of, a person (a relevant person) who was, at the time of the application or consent (as the case may be): (i) the registered owner of the trade mark; or (ii) an authorised user of the trade mark; or (iii) a person permitted to use the trade mark by the registered owner; or (iv) a person permitted to use the trade mark by an authorised user who has power to give such permission under paragraph 26(1)(f); or (v) a person with significant influence over the use of the trade mark by the registered owner or an authorised user; or (vi) an associated entity (within the meaning of the Corporations Act 2001) of a relevant person mentioned in subparagraph (i), (ii), (iii), (iv) or (v). Note 1: For goods that are similar, see subsection 14(1). Note 2: For subparagraph (c)(iv), an authorised user may, under paragraph 26(1)(f), subject to any agreement the authorised user has with the registered owner, permit another person to apply the trade mark to, or in relation to, goods in respect of which the trade mark is registered. (2) A reference in paragraph (1)(c) to consent to the application of a trade mark to, or in relation to, goods includes, without limitation, a reference to: (a) consent subject to a condition (for example, a condition that the goods are to be sold only in a foreign country); and (b) consent that can be reasonably inferred from the conduct of a relevant person. (3) In determining whether a relevant person mentioned in subparagraph (1)(c)(iii) or (iv) was permitted to use the trade mark, disregard how that permission arose, for example: (a) whether it arose directly or indirectly; or (b) whether it arose by way of proprietary interest, contract, arrangement, understanding, a combination of those things, or otherwise. (4) In determining whether a relevant person mentioned in subparagraph (1)(c)(v) had significant influence over the use of a trade mark, disregard how that influence arose, for example: (a) whether it arose directly or indirectly; or (b) whether it arose by way of proprietary interest, contract, arrangement, understanding, a combination of those things, or otherwise.",
+  "title": "Exhaustion of a registered trade mark in relation to goods",
+  "units": [
+    {
+      "content_hash": "sha256:c34c2cc0fd2165d4063d8f117bcb1c9d7fdb49c601ad5c0de9ba34f9709d4048",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s122A(1)",
+      "style": "subsection",
+      "text": "(1) In spite of section 120, a person who uses a registered trade mark in relation to goods does not infringe the trade mark if:"
+    },
+    {
+      "content_hash": "sha256:99a71aef204d15425f70ff455ce84f2624c9621a4215cfe809e811886c498684",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s122A(1)",
+      "ref": "TMA1995/s122A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the goods are similar to goods in respect of which the trade mark is registered; and"
+    },
+    {
+      "content_hash": "sha256:bbd8e88cafc985e377f954621df9e76b4293525f333587b09129064b2fd50b28",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s122A(1)",
+      "ref": "TMA1995/s122A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) before the time of use, the person had made reasonable inquiries in relation to the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:617f7688d48d159a062d65c269a9fc2558da2b9a3537a2bbd86e8960e7186a2d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 221,
+          "start": 206,
+          "text": "relevant person",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s122A(1)",
+      "ref": "TMA1995/s122A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) at the time of use, a reasonable person, after making those inquiries, would have concluded that the trade mark had been applied to, or in relation to, the goods by, or with the consent of, a person (a relevant person) who was, at the time of the application or consent (as the case may be):"
+    },
+    {
+      "content_hash": "sha256:ddbf6570b0be12f0917c215e52a91d417dad91fd9c205ce419ac54aca272b1c7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "ref": "TMA1995/s122A(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the registered owner of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:c6408d1338872b76965d1cf85fe779097dfee3e6ca1ac759186f475d2d5f3ac1",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "ref": "TMA1995/s122A(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) an authorised user of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:c0297fcc1a12b8265ab9c61b72b84586cfdecb8e59515ef7a6b9e09c7832cd25",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "ref": "TMA1995/s122A(1)(c)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a person permitted to use the trade mark by the registered owner; or"
+    },
+    {
+      "content_hash": "sha256:919d9c6e6d562ea06898945b64a7e62921105df58c61cc26cbef5185a81b29a5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26(1)(f)",
+          "mention": "paragraph 26(1)(f)"
+        }
+      ],
+      "ref": "TMA1995/s122A(1)(c)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) a person permitted to use the trade mark by an authorised user who has power to give such permission under paragraph 26(1)(f); or"
+    },
+    {
+      "content_hash": "sha256:62036fb688e16972b685e9bb3e877873649e68671c5d03b2aba677d2db7c78fb",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(v)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "ref": "TMA1995/s122A(1)(c)(v)",
+      "style": "paragraphsub",
+      "text": "(v) a person with significant influence over the use of the trade mark by the registered owner or an authorised user; or"
+    },
+    {
+      "content_hash": "sha256:03fc4b08169bd6b67b4c0035e56f837247f360594f39c9f013d1bd4beb936bb8",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 74,
+          "start": 53,
+          "text": "Corporations Act 2001",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(vi)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s122A(1)(c)",
+      "ref": "TMA1995/s122A(1)(c)(vi)",
+      "style": "paragraphsub",
+      "text": "(vi) an associated entity (within the meaning of the Corporations Act 2001) of a relevant person mentioned in subparagraph (i), (ii), (iii), (iv) or (v)."
+    },
+    {
+      "content_hash": "sha256:948a5df9f852a29e77668526fe54e4d5de12d30a194b2d1c7fdb6acb5cd63ff6",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 27,
+          "text": "similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s122A(1)(c)(vi)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s14(1)",
+          "mention": "subsection 14(1)"
+        }
+      ],
+      "ref": "TMA1995/s122A(1)(c)(vi)~1",
+      "style": "notetext",
+      "text": "Note 1: For goods that are similar, see subsection 14(1)."
+    },
+    {
+      "content_hash": "sha256:70c2f63044225f099e8b5a39b8c179fe70a7c31d1117e951163410304e8da529",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s122A(1)(c)(vi)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26(1)(f)",
+          "mention": "paragraph 26(1)(f)"
+        }
+      ],
+      "ref": "TMA1995/s122A(1)(c)(vi)~2",
+      "style": "notetext",
+      "text": "Note 2: For subparagraph (c)(iv), an authorised user may, under paragraph 26(1)(f), subject to any agreement the authorised user has with the registered owner, permit another person to apply the trade mark to, or in relation to, goods in respect of which the trade mark is registered."
+    },
+    {
+      "content_hash": "sha256:32dbf9a4deb56763464aad0734ea5a497f9e9d28daf52f0e15ab457ad7889557",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s122A(2)",
+      "style": "subsection",
+      "text": "(2) A reference in paragraph (1)(c) to consent to the application of a trade mark to, or in relation to, goods includes, without limitation, a reference to:"
+    },
+    {
+      "content_hash": "sha256:b9e7a9c020c4d7b54bdd836cf91887e1cd0c74948781525e63d045c187e939a2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s122A(2)",
+      "ref": "TMA1995/s122A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) consent subject to a condition (for example, a condition that the goods are to be sold only in a foreign country); and"
+    },
+    {
+      "content_hash": "sha256:0a1fefd4b38154c6d99c4541fd04416d35e2daf474d3e496809e5ef1cd588c46",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s122A(2)",
+      "ref": "TMA1995/s122A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) consent that can be reasonably inferred from the conduct of a relevant person."
+    },
+    {
+      "content_hash": "sha256:44eb57176bc08f7e04c8e421e2d12937f1fd177a67b209f0680128172a47228d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s122A(3)",
+      "style": "subsection",
+      "text": "(3) In determining whether a relevant person mentioned in subparagraph (1)(c)(iii) or (iv) was permitted to use the trade mark, disregard how that permission arose, for example:"
+    },
+    {
+      "content_hash": "sha256:29010bcc874bc7f47c2f8a5f9fe5c6d19fff056687e5303b16b33ec25818d1ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s122A(3)",
+      "ref": "TMA1995/s122A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) whether it arose directly or indirectly; or"
+    },
+    {
+      "content_hash": "sha256:8f03334e5f28297cbddb786f0c78faa1212bf0a8fa89ca8badef40c444f030f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s122A(3)",
+      "ref": "TMA1995/s122A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) whether it arose by way of proprietary interest, contract, arrangement, understanding, a combination of those things, or otherwise."
+    },
+    {
+      "content_hash": "sha256:8077538ce08d3007b883abd33360027df750fcfe7dbd9ec584cd03ac8b95d797",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 19,
+      "parent_ref": null,
+      "ref": "TMA1995/s122A(4)",
+      "style": "subsection",
+      "text": "(4) In determining whether a relevant person mentioned in subparagraph (1)(c)(v) had significant influence over the use of a trade mark, disregard how that influence arose, for example:"
+    },
+    {
+      "content_hash": "sha256:29010bcc874bc7f47c2f8a5f9fe5c6d19fff056687e5303b16b33ec25818d1ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s122A(4)",
+      "ref": "TMA1995/s122A(4)(a)",
+      "style": "paragraph",
+      "text": "(a) whether it arose directly or indirectly; or"
+    },
+    {
+      "content_hash": "sha256:8f03334e5f28297cbddb786f0c78faa1212bf0a8fa89ca8badef40c444f030f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s122A(4)",
+      "ref": "TMA1995/s122A(4)(b)",
+      "style": "paragraph",
+      "text": "(b) whether it arose by way of proprietary interest, contract, arrangement, understanding, a combination of those things, or otherwise."
+    }
+  ]
+}

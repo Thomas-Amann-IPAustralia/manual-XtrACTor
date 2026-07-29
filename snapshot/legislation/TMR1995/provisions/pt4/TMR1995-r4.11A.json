@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:e1be5392ddb94737d2db3456a05db055ed3e75c84cdf9072dc8f84092da9f2e5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.11A  Publication of decision"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.11A",
+  "ref": "TMR1995/r4.11A",
+  "text": "For the purposes of paragraph 34(b) of the Act, the decision must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Publication of decision",
+  "units": [
+    {
+      "content_hash": "sha256:e1be5392ddb94737d2db3456a05db055ed3e75c84cdf9072dc8f84092da9f2e5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s34(b)",
+          "mention": "paragraph 34(b)"
+        }
+      ],
+      "ref": "TMR1995/r4.11A~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 34(b) of the Act, the decision must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

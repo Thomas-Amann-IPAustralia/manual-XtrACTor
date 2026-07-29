@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:365824b3fc19a80f0f6abc8968c428647958e53a578e1048ecd7067c6554b365",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "152  False entries in Register etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "152",
+  "ref": "TMA1995/s152",
+  "text": "A person must not intentionally: (a) make a false entry in the Register; or (b) cause a false entry to be made in the Register; or (c) tender in evidence a document that falsely purports to be a copy of, or an extract from, an entry in the Register or a document in the Trade Marks Office. Penalty: Imprisonment for 2 years. Note: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914).",
+  "title": "False entries in Register etc.",
+  "units": [
+    {
+      "content_hash": "sha256:e710350ca083a3925cff5b263de8fc8ff90b08a8bf7b7f81acaeb3941ef48321",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s152~1",
+      "style": "subsection",
+      "text": "A person must not intentionally:"
+    },
+    {
+      "content_hash": "sha256:eddecc34c621cca3b0ef74601ad870e3e6ff335162304e8519736aaff68dc326",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s152~1",
+      "ref": "TMA1995/s152~1(a)",
+      "style": "paragraph",
+      "text": "(a) make a false entry in the Register; or"
+    },
+    {
+      "content_hash": "sha256:21a7097fc936d86b19be54054dddb7d256c2195d7f961d6dc234a734c052eaab",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s152~1",
+      "ref": "TMA1995/s152~1(b)",
+      "style": "paragraph",
+      "text": "(b) cause a false entry to be made in the Register; or"
+    },
+    {
+      "content_hash": "sha256:58a5b18bc6773c0ad619d05f764ed9bc7a47ec0d337425e853f824ca2db5f479",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s152~1",
+      "ref": "TMA1995/s152~1(c)",
+      "style": "paragraph",
+      "text": "(c) tender in evidence a document that falsely purports to be a copy of, or an extract from, an entry in the Register or a document in the Trade Marks Office."
+    },
+    {
+      "content_hash": "sha256:6ddbb532b90a01be26de7bafdd5eb512f9304b6dfe1c7deae970055b4d99d714",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s152~2",
+      "style": "Penalty",
+      "text": "Penalty: Imprisonment for 2 years."
+    },
+    {
+      "content_hash": "sha256:1ccdd90a0a590bffe70708564cc1c44eb49f47b0a0dc5476c2a8b514b45ee2c0",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 115,
+          "start": 100,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s152~2",
+      "ref": "TMA1995/s152~2~1",
+      "style": "notetext",
+      "text": "Note: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdivc"
+  ],
+  "content_hash": "sha256:6e903d8543446d5a447ea60003ece531bc86603ec760d3d02075febca0697225",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision C—Evidence",
+    "9.17  Request for hearing and circumstances in which opposition taken to have ended"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.17",
+  "ref": "TMR1995/r9.17",
+  "text": "(1) If an opponent requests the Registrar, within the period for filing evidence in support mentioned in subregulation 9.16(3), to hear the opposition, the Registrar must do so. (2) The opposition is taken to have ended, but not to have been discontinued or dismissed, if the opponent does not: (a) file evidence in support in accordance with subregulation 9.16(3); or (b) ask for a hearing under subregulation (1). (3) The application for removal is taken to be unopposed if: (a) the opposition is taken to have ended under subregulation (2); and (b) the Registrar is satisfied that the application for removal is in order. Note 1: See section 97 of the Act in relation to what the Registrar must do if the application for removal is unopposed. Note 2: Regulations 21.15 and 21.16 deal with hearings.",
+  "title": "Request for hearing and circumstances in which opposition taken to have ended",
+  "units": [
+    {
+      "content_hash": "sha256:7c5edf671c450799c64300c57a0c4ff0e1e97c693632f2a1ae42e65f3dfd99fa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16(3)",
+          "mention": "subregulation 9.16(3)"
+        }
+      ],
+      "ref": "TMR1995/r9.17(1)",
+      "style": "subsection",
+      "text": "(1) If an opponent requests the Registrar, within the period for filing evidence in support mentioned in subregulation 9.16(3), to hear the opposition, the Registrar must do so."
+    },
+    {
+      "content_hash": "sha256:5b2eec76973aecae07892cc84e2ed126a339c21fbbb64b41399038333de2c9e0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.17(2)",
+      "style": "subsection",
+      "text": "(2) The opposition is taken to have ended, but not to have been discontinued or dismissed, if the opponent does not:"
+    },
+    {
+      "content_hash": "sha256:3e726379e16796578d6427631b1ffdd930be8aa71ee7b0f3c419d069f4456089",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r9.17(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16(3)",
+          "mention": "subregulation 9.16(3)"
+        }
+      ],
+      "ref": "TMR1995/r9.17(2)(a)",
+      "style": "paragraph",
+      "text": "(a) file evidence in support in accordance with subregulation 9.16(3); or"
+    },
+    {
+      "content_hash": "sha256:ab2f809b35b9688388f3f60baa3fa0a5f80a7c5eca6b610d676e16d01ad68a78",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r9.17(2)",
+      "ref": "TMR1995/r9.17(2)(b)",
+      "style": "paragraph",
+      "text": "(b) ask for a hearing under subregulation (1)."
+    },
+    {
+      "content_hash": "sha256:81e13893f56f6246d3069daf6205d30955034f653dc1fa8218cf19b940558476",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.17(3)",
+      "style": "subsection",
+      "text": "(3) The application for removal is taken to be unopposed if:"
+    },
+    {
+      "content_hash": "sha256:618642b526dbde2d01099c255d02d650ee8995056aeb850bb5a4498145de1584",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r9.17(3)",
+      "ref": "TMR1995/r9.17(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the opposition is taken to have ended under subregulation (2); and"
+    },
+    {
+      "content_hash": "sha256:dd3d23e48ce0c6e0cc443d2573796b113d2e6e767395fcef8b6e218720766a27",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r9.17(3)",
+      "ref": "TMR1995/r9.17(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is satisfied that the application for removal is in order."
+    },
+    {
+      "content_hash": "sha256:092537a029b17cb7c9e48a6f54ffe23ba3db101d63a73718e7de2cca1bb637eb",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r9.17(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s97",
+          "mention": "section 97"
+        }
+      ],
+      "ref": "TMR1995/r9.17(3)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: See section 97 of the Act in relation to what the Registrar must do if the application for removal is unopposed."
+    },
+    {
+      "content_hash": "sha256:966befd07fc2d8e14e950ef4447e68651b9fa340b4a7aceb55fdb73a5b76d8de",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r9.17(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.15",
+          "mention": "Regulations 21.15 and 21.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "Regulations 21.15 and 21.16"
+        }
+      ],
+      "ref": "TMR1995/r9.17(3)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: Regulations 21.15 and 21.16 deal with hearings."
+    }
+  ]
+}

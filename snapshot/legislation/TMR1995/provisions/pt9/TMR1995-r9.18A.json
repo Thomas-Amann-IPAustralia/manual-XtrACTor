@@ -1,0 +1,88 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdivc"
+  ],
+  "content_hash": "sha256:3c6add1d0187aa36514b22e6a9562cb4bc00d626bf007602566b2653d21e9ded",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision C—Evidence",
+    "9.18A  Trade mark restored to Register in certain circumstances"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.18A",
+  "ref": "TMR1995/r9.18A",
+  "text": "For the purposes of subparagraph 98(2)(b)(ii) of the Act (which deals with restoration of trade marks), a thing referred to in paragraph 98(2)(b) of the Act is: (a) filing evidence in support in accordance with subregulation 9.16(3); or (b) requesting a hearing in accordance with subregulation 9.17(1).",
+  "title": "Trade mark restored to Register in certain circumstances",
+  "units": [
+    {
+      "content_hash": "sha256:810609c803c737260aa8bde4b8315502a23f704749d1bbdcb3d03100d9dc53ab",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s98(2)(b)",
+          "mention": "paragraph 98(2)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s98(2)(b)(ii)",
+          "mention": "subparagraph 98(2)(b)(ii)"
+        }
+      ],
+      "ref": "TMR1995/r9.18A~1",
+      "style": "subsection",
+      "text": "For the purposes of subparagraph 98(2)(b)(ii) of the Act (which deals with restoration of trade marks), a thing referred to in paragraph 98(2)(b) of the Act is:"
+    },
+    {
+      "content_hash": "sha256:5848d359c1ddbf8814fa48f4e42083628aa5a4d9899663c5a82fd67e2d3b6bce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r9.18A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16(3)",
+          "mention": "subregulation 9.16(3)"
+        }
+      ],
+      "ref": "TMR1995/r9.18A~1(a)",
+      "style": "paragraph",
+      "text": "(a) filing evidence in support in accordance with subregulation 9.16(3); or"
+    },
+    {
+      "content_hash": "sha256:5abbad36ccd6440f88c96df23fd3fdf798253f72b54df873b4377c3644bb613e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r9.18A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.17(1)",
+          "mention": "subregulation 9.17(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.18A~1(b)",
+      "style": "paragraph",
+      "text": "(b) requesting a hearing in accordance with subregulation 9.17(1)."
+    }
+  ]
+}

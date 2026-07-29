@@ -1,0 +1,79 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:de01eba42b11dcdbb57d5079648f6601f95d922d673846a705e3334f56d4aabf",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "193  Exercise of jurisdiction"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "193",
+  "ref": "TMA1995/s193",
+  "text": "The jurisdiction of a prescribed court under section 191, 191A or 192 is to be exercised by a single judge. Note: For prescribed court see section 190.",
+  "title": "Exercise of jurisdiction",
+  "units": [
+    {
+      "content_hash": "sha256:a26e63274816fb4b867b0b15bdcecd18e895fdcce186881dfaedf7e0bad3aaa0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s191",
+          "mention": "section 191, 191A or 192"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s191A",
+          "mention": "section 191, 191A or 192"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s192",
+          "mention": "section 191, 191A or 192"
+        }
+      ],
+      "ref": "TMA1995/s193~1",
+      "style": "subsection",
+      "text": "The jurisdiction of a prescribed court under section 191, 191A or 192 is to be exercised by a single judge."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s193~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s193~1~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    }
+  ]
+}

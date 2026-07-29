@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:d146283381b44f000459938919b4b43c02871f10ab2c5ad2a4278f98b3bf87b4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "86  Amendment or cancellation on ground of contravention of condition etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "86",
+  "ref": "TMA1995/s86",
+  "text": "A prescribed court may, on the application of an aggrieved person or the Registrar, order that the Register be rectified by: (a) cancelling the registration of a trade mark; or (b) removing or amending any entry in the Register relating to the trade mark; on the ground that a condition or limitation entered in the Register in relation to the trade mark has been contravened. Note: For prescribed court see section 190.",
+  "title": "Amendment or cancellation on ground of contravention of condition etc.",
+  "units": [
+    {
+      "content_hash": "sha256:ab96aeaa160725af051b309486e9c6b192eb523df8ca7937cbc6d9b93e03dff7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s86~1",
+      "style": "subsection",
+      "text": "A prescribed court may, on the application of an aggrieved person or the Registrar, order that the Register be rectified by:"
+    },
+    {
+      "content_hash": "sha256:c2b41a14553950e7a645bd30fad4bb32b72739aa9b123ce563308a6543246737",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s86~1",
+      "ref": "TMA1995/s86~1(a)",
+      "style": "paragraph",
+      "text": "(a) cancelling the registration of a trade mark; or"
+    },
+    {
+      "content_hash": "sha256:935f8c552f872fec1954c6446b8b8f33c08838bac33a8688e457f7881cf638e3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s86~1",
+      "ref": "TMA1995/s86~1(b)",
+      "style": "paragraph",
+      "text": "(b) removing or amending any entry in the Register relating to the trade mark;"
+    },
+    {
+      "content_hash": "sha256:3f3b5528a713f885df536fd182dd182a967e3581fb789978078a6ad2df17415d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s86~2",
+      "style": "subsection2",
+      "text": "on the ground that a condition or limitation entered in the Register in relation to the trade mark has been contravened."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s86~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s86~2~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    }
+  ]
+}

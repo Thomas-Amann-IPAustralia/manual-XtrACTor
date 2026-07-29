@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:c50e0c7bdb865047abda8a357f088db73f95947ecd43b5169e44b3466577682b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.1  Copy of rules to be filed"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.1",
+  "ref": "TMR1995/r16.1",
+  "text": "For the purposes of subsection 173(1) of the Act, (which deals with rules governing use) an applicant for registration of a certification trade mark must file a copy of the rules governing the use of the certification trade mark at, or as soon as practicable after, the time of filing of the application.",
+  "title": "Copy of rules to be filed",
+  "units": [
+    {
+      "content_hash": "sha256:c50e0c7bdb865047abda8a357f088db73f95947ecd43b5169e44b3466577682b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(1)",
+          "mention": "subsection 173(1)"
+        }
+      ],
+      "ref": "TMR1995/r16.1~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 173(1) of the Act, (which deals with rules governing use) an applicant for registration of a certification trade mark must file a copy of the rules governing the use of the certification trade mark at, or as soon as practicable after, the time of filing of the application."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:0e5615d1f17950d5e8d41496be947c1162a7baffb66993299921b72612e0fed3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "104  Appeal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "104",
+  "ref": "TMA1995/s104",
+  "text": "An appeal lies to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar under section 101 or 102.",
+  "title": "Appeal",
+  "units": [
+    {
+      "content_hash": "sha256:0e5615d1f17950d5e8d41496be947c1162a7baffb66993299921b72612e0fed3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s101",
+          "mention": "section 101 or 102"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s102",
+          "mention": "section 101 or 102"
+        }
+      ],
+      "ref": "TMA1995/s104~1",
+      "style": "subsection",
+      "text": "An appeal lies to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar under section 101 or 102."
+    }
+  ]
+}

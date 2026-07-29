@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:cdbfe74d5fa705941aebd3b54ab1f78df851aff2e4378e57dbb0a3c85ba4e3cd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48X  Registrar must notify International Bureau"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48X",
+  "ref": "TMR1995/r17A.48X",
+  "text": "If the result of an action under this Subdivision is that the Registrar decides, or is directed by a court: (a) to cease protection of a protected international trade mark in respect of some or all of the goods or services covered by the protection; or (b) that the trade mark should be protected subject to conditions or limitations; the Registrar must, if no appeal has been made at the end of any relevant appeal period, notify the International Bureau of that decision or order.",
+  "title": "Registrar must notify International Bureau",
+  "units": [
+    {
+      "content_hash": "sha256:1533a204a74a67dec9a6c6ac6d3c0e4530bab3c2e53a32d1043225d19b7035da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48X~1",
+      "style": "subsection",
+      "text": "If the result of an action under this Subdivision is that the Registrar decides, or is directed by a court:"
+    },
+    {
+      "content_hash": "sha256:7458e848caa8798d5420655732348c47202a230e321ef4f1e064652dd26fb749",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.48X~1",
+      "ref": "TMR1995/r17A.48X~1(a)",
+      "style": "paragraph",
+      "text": "(a) to cease protection of a protected international trade mark in respect of some or all of the goods or services covered by the protection; or"
+    },
+    {
+      "content_hash": "sha256:fb73e5207dd70ef1e24dce0e7b9bcdb2fa7828bd3566dc751971a6f3be580610",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.48X~1",
+      "ref": "TMR1995/r17A.48X~1(b)",
+      "style": "paragraph",
+      "text": "(b) that the trade mark should be protected subject to conditions or limitations;"
+    },
+    {
+      "content_hash": "sha256:5f13b960dfff6d3a210d6df1e1c6930c5f802b606fbdf2c2ce8ea3e3f3ca7791",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48X~2",
+      "style": "subsection2",
+      "text": "the Registrar must, if no appeal has been made at the end of any relevant appeal period, notify the International Bureau of that decision or order."
+    }
+  ]
+}

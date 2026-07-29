@@ -1,0 +1,139 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:cc0beea6c52c14a84aa5e7a0dd8a17492522b8ab345cb1a700190c3d5154eb78",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.4  Notice of objection to importation—authorised users"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.4",
+  "ref": "TMR1995/r13.4",
+  "text": "(1) For paragraph 132(3)(b) of the Act, the period is 2 months from the day the request is made by the authorised user under subsection 132(2) of the Act. (2) For paragraph 132(3)(e) of the Act, the authorised user must give to the ComptrollerGeneral of Customs documents that show: (a) the authorised user has power to give a notice of objection under subsection 132(1) of the Act; and (b) the authorised user has made the request; and (c) if the authorised user gives to the ComptrollerGeneral of Customs the notice after the period mentioned in subregulation (1) has ended—the period has ended. Note: Examples of documents for paragraph (2)(a) are: (a) an agreement between the registered owner of a trade mark, and the authorised user of the trade mark, that the authorised user of the trade mark is able to give notice of objection; and (b) a declaration by the registered owner that the authorised user of the trade mark is able to give notice of objection.",
+  "title": "Notice of objection to importation—authorised users",
+  "units": [
+    {
+      "content_hash": "sha256:8b27f881e6f9cd38d7cad3c7be30e85235c0b1a71e49bd50947695842a3e72d9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(2)",
+          "mention": "subsection 132(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(3)(b)",
+          "mention": "paragraph 132(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/r13.4(1)",
+      "style": "subsection",
+      "text": "(1) For paragraph 132(3)(b) of the Act, the period is 2 months from the day the request is made by the authorised user under subsection 132(2) of the Act."
+    },
+    {
+      "content_hash": "sha256:f30ac0b4375d115d23a66770b006d02ef78a97dcc420123072231a54025c16a6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(3)(e)",
+          "mention": "paragraph 132(3)(e)"
+        }
+      ],
+      "ref": "TMR1995/r13.4(2)",
+      "style": "subsection",
+      "text": "(2) For paragraph 132(3)(e) of the Act, the authorised user must give to the ComptrollerGeneral of Customs documents that show:"
+    },
+    {
+      "content_hash": "sha256:29b67c1fcd890666187a14cc487e979a3073a9ae237737e65312a31d43c6c1fb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r13.4(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(1)",
+          "mention": "subsection 132(1)"
+        }
+      ],
+      "ref": "TMR1995/r13.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the authorised user has power to give a notice of objection under subsection 132(1) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:3f1be7d7254ab5859debb0dbdca70d926f8094c0ee1e7e5fdab8e5c4d68351e6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r13.4(2)",
+      "ref": "TMR1995/r13.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the authorised user has made the request; and"
+    },
+    {
+      "content_hash": "sha256:837a52f536c51e458d20c15b2ac934e6935a52c1175fe8354b4e5ad0f9339297",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r13.4(2)",
+      "ref": "TMR1995/r13.4(2)(c)",
+      "style": "paragraph",
+      "text": "(c) if the authorised user gives to the ComptrollerGeneral of Customs the notice after the period mentioned in subregulation (1) has ended—the period has ended."
+    },
+    {
+      "content_hash": "sha256:3f4d6469c083d9e84051e8eb628cc759d3a2c6008a53d17e03292d291fefb479",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r13.4(2)(c)",
+      "ref": "TMR1995/r13.4(2)(c)~1",
+      "style": "notetext",
+      "text": "Note: Examples of documents for paragraph (2)(a) are:"
+    },
+    {
+      "content_hash": "sha256:a696026749fac49f08d847067d6a924fd11079caf294279d9ceb480f5667522d",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r13.4(2)(c)~1",
+      "ref": "TMR1995/r13.4(2)(c)~1~1",
+      "style": "notepara",
+      "text": "(a) an agreement between the registered owner of a trade mark, and the authorised user of the trade mark, that the authorised user of the trade mark is able to give notice of objection; and"
+    },
+    {
+      "content_hash": "sha256:55bf70341148d93f2d7b8b2427b602c29f021ab10939d7b45ab5933d5c08683d",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r13.4(2)(c)~1",
+      "ref": "TMR1995/r13.4(2)(c)~1~2",
+      "style": "notepara",
+      "text": "(b) a declaration by the registered owner that the authorised user of the trade mark is able to give notice of objection."
+    }
+  ]
+}

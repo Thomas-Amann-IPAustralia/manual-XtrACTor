@@ -1,0 +1,111 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:04d74d767e4aae68f1f66a27dbf333f4aa35afa892afd5007428e57904179751",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "18  Certain signs not to be used as trade marks etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "18",
+  "ref": "TMA1995/s18",
+  "text": "(1) The regulations may provide that a sign specified in the regulations is not to be used as a trade mark or as part of a trade mark. (2) Regulations made under subsection (1) do not affect any trade mark that: (a) was a registered trade mark; or (b) in the case of an unregistered trade mark—was being used in good faith; immediately before the regulations were registered under the Legislation Act 2003. Note: For registered trade mark see section 6.",
+  "title": "Certain signs not to be used as trade marks etc.",
+  "units": [
+    {
+      "content_hash": "sha256:e8859ef5323d12b021065a1a2bcd2fc919e285802923aeec8ae5c938224a15e7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s18(1)",
+      "style": "subsection",
+      "text": "(1) The regulations may provide that a sign specified in the regulations is not to be used as a trade mark or as part of a trade mark."
+    },
+    {
+      "content_hash": "sha256:0bf3548eaff30559f71f036ed51c4e48951ae4f76be3bfb46443844fe0a8d1cd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s18(2)",
+      "style": "subsection",
+      "text": "(2) Regulations made under subsection (1) do not affect any trade mark that:"
+    },
+    {
+      "content_hash": "sha256:c1ab194d2f09e4be5ba13aee2a85fb34ca8a2cffd45abe5f9b4ef97c145929df",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s18(2)",
+      "ref": "TMA1995/s18(2)(a)",
+      "style": "paragraph",
+      "text": "(a) was a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:c495c20fe20d41e15dd9686f4045a42c9f2f5985e9aa8c2abc7dc392e3775165",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s18(2)",
+      "ref": "TMA1995/s18(2)(b)",
+      "style": "paragraph",
+      "text": "(b) in the case of an unregistered trade mark—was being used in good faith;"
+    },
+    {
+      "content_hash": "sha256:6ebf9ef0dc0ce788185c4282e1e6920cbf7e66e0bba4a6b442ce197da1ce5cc2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 81,
+          "start": 61,
+          "text": "Legislation Act 2003",
+          "weight": "italic"
+        }
+      ],
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s18~1",
+      "style": "subsection2",
+      "text": "immediately before the regulations were registered under the Legislation Act 2003."
+    },
+    {
+      "content_hash": "sha256:48edc9e7118618be3f615e1f7d65a2a703b12d564f06e64025fa38badc28c0f1",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s18~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s18~1~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark see section 6."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div1"
+  ],
+  "content_hash": "sha256:4db8897e3c13c1c02bafd0891351afc29286d2d5ed271bf2d3fdb37945eee14d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "7.1  Period in which a trade mark can be registered"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.1",
+  "ref": "TMR1995/r7.1",
+  "text": "(1) For the purposes of subsection 68(1) of the Act (which deals with registration), the period for the registration of a trade mark that has been accepted for registration is: (a) except if paragraph (b) applies—the period from the beginning of the day on which the acceptance is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A to the end of: (i) the day that is 6 months after that day; or (ii) if a later day is specified under subregulation (2) or (3)—the day specified in that subregulation; and (b) in the case of the death of an applicant for registration of the trade mark—within 12 months of the date of death or within such further period as the Registrar reasonably allows. (2) If: (a) proceedings in relation to the registration of the trade mark before a prescribed court or the ART are not determined or otherwise disposed of; and (b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the firstmentioned day in subparagraph (1)(a)(i). (3) If: (a) proceedings in relation to the registration of the trade mark are before the Registrar; and (b) the Registrar is reasonably satisfied that: (i) the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); and (ii) it is appropriate to do so; the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the firstmentioned day in subparagraph (1)(a)(i).",
+  "title": "Period in which a trade mark can be registered",
+  "units": [
+    {
+      "content_hash": "sha256:494ad3f800be56a3f243de402d5091b1ef2f5bb303bd57ff7c096b8179105584",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s68(1)",
+          "mention": "subsection 68(1)"
+        }
+      ],
+      "ref": "TMR1995/r7.1(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 68(1) of the Act (which deals with registration), the period for the registration of a trade mark that has been accepted for registration is:"
+    },
+    {
+      "content_hash": "sha256:35cbc97be30e9b5fc5be6888dd4ae60f949769a77891e44d6a6800a85843a580",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r7.1(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.11A",
+          "mention": "regulation 4.11A"
+        }
+      ],
+      "ref": "TMR1995/r7.1(1)(a)",
+      "style": "paragraph",
+      "text": "(a) except if paragraph (b) applies—the period from the beginning of the day on which the acceptance is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A to the end of:"
+    },
+    {
+      "content_hash": "sha256:4a6705d6329a1683445e33d37b915b35c170ed9375ec5589ff29a13db15698ee",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r7.1(1)(a)",
+      "ref": "TMR1995/r7.1(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the day that is 6 months after that day; or"
+    },
+    {
+      "content_hash": "sha256:416dd9ed6c6bbbe2082222b9603ce02104755bb43d4aca79b6cae1c049b91dda",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r7.1(1)(a)",
+      "ref": "TMR1995/r7.1(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if a later day is specified under subregulation (2) or (3)—the day specified in that subregulation; and"
+    },
+    {
+      "content_hash": "sha256:66401660d715a7230a2ad7cf49ffb0db60165e40e1f530f8020fe4d081cdbcc7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r7.1(1)",
+      "ref": "TMR1995/r7.1(1)(b)",
+      "style": "paragraph",
+      "text": "(b) in the case of the death of an applicant for registration of the trade mark—within 12 months of the date of death or within such further period as the Registrar reasonably allows."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r7.1(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:e3746467666e1264adbe8e9c0fa0d84a94c0ce65bdf35d084a94d9c74d932003",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r7.1(2)",
+      "ref": "TMR1995/r7.1(2)(a)",
+      "style": "paragraph",
+      "text": "(a) proceedings in relation to the registration of the trade mark before a prescribed court or the ART are not determined or otherwise disposed of; and"
+    },
+    {
+      "content_hash": "sha256:6ddd92886cf0c2f66d7710851291bed6b4e8728a1206f09499ea0b9d966f1f4e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r7.1(2)",
+      "ref": "TMR1995/r7.1(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i);"
+    },
+    {
+      "content_hash": "sha256:90e4626701b570fce8a1bece4fabbeb5eb44425c4ec219ec41bebd13a23720d8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r7.1~1",
+      "style": "subsection2",
+      "text": "the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the firstmentioned day in subparagraph (1)(a)(i)."
+    },
+    {
+      "content_hash": "sha256:24e675c10bea93c07af4426fdb5f111d52d0c73a1faf42284f832d7b2f6ff252",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r7.1(3)",
+      "style": "subsection",
+      "text": "(3) If:"
+    },
+    {
+      "content_hash": "sha256:93b9eaeeceaee608e2705f32606dcc63a7baa2d32d46d031bd0ae0a1b979f315",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r7.1(3)",
+      "ref": "TMR1995/r7.1(3)(a)",
+      "style": "paragraph",
+      "text": "(a) proceedings in relation to the registration of the trade mark are before the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:110db37429cb642faa035a9b2432c215a3fb7f111ba1e60d41e0d3c2852b66ec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r7.1(3)",
+      "ref": "TMR1995/r7.1(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is reasonably satisfied that:"
+    },
+    {
+      "content_hash": "sha256:725570562444ce1be25a443e91dba018bf7f0de228b55ae9549727b079e566dd",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r7.1(3)(b)",
+      "ref": "TMR1995/r7.1(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); and"
+    },
+    {
+      "content_hash": "sha256:55666db6062c0619a3098b3987b0127dc2b1029dfa3a93df826f1a0444349cc4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r7.1(3)(b)",
+      "ref": "TMR1995/r7.1(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) it is appropriate to do so;"
+    },
+    {
+      "content_hash": "sha256:1d403b23070318f84c0fd74e7c277fd3678bf495a1a77735d83cedd0e858f352",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r7.1~2",
+      "style": "subsection2",
+      "text": "the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the firstmentioned day in subparagraph (1)(a)(i)."
+    }
+  ]
+}

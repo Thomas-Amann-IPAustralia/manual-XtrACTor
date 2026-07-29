@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/sch3"
+  ],
+  "content_hash": "sha256:e853e513b047cc33d8aa8906bd1a415a11e1988cf8431c31c5af5b5fb5538249",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 3—Modifications of Part 13 of the Act (Norfolk Island)",
+    "3A  Section 133A (note)"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "3A",
+  "ref": "TMR1995/sch3/item3a",
+  "text": "Omit “section 6”, substitute “section 131A”.",
+  "title": "Section 133A (note)",
+  "units": [
+    {
+      "content_hash": "sha256:e853e513b047cc33d8aa8906bd1a415a11e1988cf8431c31c5af5b5fb5538249",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s131A",
+          "mention": "section 131A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/sch3/item3a~1",
+      "style": "Item",
+      "text": "Omit “section 6”, substitute “section 131A”."
+    }
+  ]
+}

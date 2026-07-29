@@ -1,0 +1,104 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdiva"
+  ],
+  "content_hash": "sha256:2d74f6b58db1bc5b65aebe723c3b8e76d1dd681316767c5b7f7814b186dc1cc6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "5.11  Amendment of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.11",
+  "ref": "TMR1995/r5.11",
+  "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake. (2) If an opposition is proceeding in the name of another person (the new opponent) under section 53 of the Act, the new opponent may request the Registrar to amend the notice of intention to oppose to record the new opponent’s name. (3) The Registrar may grant the request on terms that the Registrar considers appropriate. (4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant. (5) Regulation 5.4 does not apply to a request under subregulation (1) or (2).",
+  "title": "Amendment of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:4d6013cc5a0a63aaefeb5ff47eb4ae2b979452d09a4c918d758ccb90ac0dbd15",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.11(1)",
+      "style": "subsection",
+      "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake."
+    },
+    {
+      "content_hash": "sha256:a2daa49f8701f6acce9d15b417c33bb3ca767fcd4f0e7ee096f9009edab051d0",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 82,
+          "start": 70,
+          "text": "new opponent",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s53",
+          "mention": "section 53"
+        }
+      ],
+      "ref": "TMR1995/r5.11(2)",
+      "style": "subsection",
+      "text": "(2) If an opposition is proceeding in the name of another person (the new opponent) under section 53 of the Act, the new opponent may request the Registrar to amend the notice of intention to oppose to record the new opponent’s name."
+    },
+    {
+      "content_hash": "sha256:5aa000f23232521778db130979588f4a4d9bb79dfb7484229904d3d4ad181932",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.11(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may grant the request on terms that the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:f0e963abe9f0cbffce3c3487ed77f019188f58cebee8d876d5f1a2ba6c824a12",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.11(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant."
+    },
+    {
+      "content_hash": "sha256:70bb8c02048d1ecf478328d11833ee83719b2ab761026a478ebf6997580b83d8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.4",
+          "mention": "Regulation 5.4"
+        }
+      ],
+      "ref": "TMR1995/r5.11(5)",
+      "style": "subsection",
+      "text": "(5) Regulation 5.4 does not apply to a request under subregulation (1) or (2)."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:c75f35814dda0bbf31426c626683c8d3b99299f1e39b7d9e2a626e3c782a605d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "90  Duties and powers of Registrar"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "90",
+  "ref": "TMA1995/s90",
+  "text": "(1) An aggrieved person applying to a prescribed court under this Division must give notice of the application to the Registrar. Note: For prescribed court see section 190. (2) In relation to an application made by an aggrieved person, the Registrar may appear before the court and be heard at his or her discretion unless the court directs the Registrar to appear before the court. (3) If the application is made by an aggrieved person, the applicant must give to the Registrar a copy of any order made by the court under this Division. (4) The Registrar must comply with any order made by the court under this Division.",
+  "title": "Duties and powers of Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:59f083419fc8039dc0e55c704d45e50cd7b656f83dd725e0b60379ce8d64a7aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s90(1)",
+      "style": "subsection",
+      "text": "(1) An aggrieved person applying to a prescribed court under this Division must give notice of the application to the Registrar."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s90(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s90(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:a572985f5081545b5e9dfa45c638ba52b02a0aadda6e4a70ffa37b5405f94997",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s90(2)",
+      "style": "subsection",
+      "text": "(2) In relation to an application made by an aggrieved person, the Registrar may appear before the court and be heard at his or her discretion unless the court directs the Registrar to appear before the court."
+    },
+    {
+      "content_hash": "sha256:8a5b87fe2f5e1a865ce36e167ad7dbddc854b3aa3a6e468671921736f050aa14",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s90(3)",
+      "style": "subsection",
+      "text": "(3) If the application is made by an aggrieved person, the applicant must give to the Registrar a copy of any order made by the court under this Division."
+    },
+    {
+      "content_hash": "sha256:cb0378bcc3900ce8d84e6f2301d262e1a694a8d828a15fd687dc42fbd10938bb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s90(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must comply with any order made by the court under this Division."
+    }
+  ]
+}

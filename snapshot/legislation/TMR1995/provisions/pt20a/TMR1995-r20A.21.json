@@ -1,0 +1,222 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:9d5c18585f32b9e03fc242f6de45de07766d3b6d7c889ca7dc84fe246fa0363e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.21  Former attorney may be required to provide assistance"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.21",
+  "ref": "TMR1995/r20A.21",
+  "text": "(1) A registered trade marks attorney appointed under subregulation 20A.20(1) or (2) may, by written notice, request the former attorney to make available: (a) information about the trade marks work that the appointed attorney may reasonably require; or (b) books, accounts or other documents about the trade marks work that the appointed attorney may reasonably require; or (c) money held by the former attorney: (i) on behalf of a client; or (ii) that has been paid by a client in relation to services not yet performed for the client. (2) A person commits an offence if the person: (a) is a former attorney; and (b) is given a notice under subregulation (1); and (c) fails to comply with the notice. Penalty: 5 penalty units. (3) It is a defence to a prosecution for an offence against subregulation (2) if the former attorney is prevented or hindered from complying with a request in the notice by: (a) a circumstance mentioned in Part 2.3 of the Criminal Code; or (b) any other circumstance that the relevant Panel Chair reasonably considers is an impediment to the defendant complying with the summons. Note: A defendant bears an evidential burden in relation to the question of whether he or she has a reasonable excuse (see section 13.3 of the Criminal Code).",
+  "title": "Former attorney may be required to provide assistance",
+  "units": [
+    {
+      "content_hash": "sha256:a9ce03714e8e14813650dd5cc63470d0f923a0225dd6546e8528c5e9b340aa3c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.20(1)",
+          "mention": "subregulation 20A.20(1)"
+        }
+      ],
+      "ref": "TMR1995/r20A.21(1)",
+      "style": "subsection",
+      "text": "(1) A registered trade marks attorney appointed under subregulation 20A.20(1) or (2) may, by written notice, request the former attorney to make available:"
+    },
+    {
+      "content_hash": "sha256:8616924d0f3c6b7156cf22bf0a279f261847b0ca9c5348b1e236b75ec1083a3b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.21(1)",
+      "ref": "TMR1995/r20A.21(1)(a)",
+      "style": "paragraph",
+      "text": "(a) information about the trade marks work that the appointed attorney may reasonably require; or"
+    },
+    {
+      "content_hash": "sha256:2b99b0b7d0b6b37a31191e0cea8b8057031fa1ceb245df6a9b57f8472ac44ec0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.21(1)",
+      "ref": "TMR1995/r20A.21(1)(b)",
+      "style": "paragraph",
+      "text": "(b) books, accounts or other documents about the trade marks work that the appointed attorney may reasonably require; or"
+    },
+    {
+      "content_hash": "sha256:4b31efe648c23a9eb74511aea2dd3057bcdc8e9bf22222d9ed2d4e8933676c8b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.21(1)",
+      "ref": "TMR1995/r20A.21(1)(c)",
+      "style": "paragraph",
+      "text": "(c) money held by the former attorney:"
+    },
+    {
+      "content_hash": "sha256:056d5f68c0fc01fa70f3ca63f66b4f75d9f964e3af045f76d5e47c0ef566046f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.21(1)(c)",
+      "ref": "TMR1995/r20A.21(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) on behalf of a client; or"
+    },
+    {
+      "content_hash": "sha256:f65fc57c8e3d77c31b4ed7188eb7e19c78950202bd3a97a86cf227704f4040ae",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.21(1)(c)",
+      "ref": "TMR1995/r20A.21(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that has been paid by a client in relation to services not yet performed for the client."
+    },
+    {
+      "content_hash": "sha256:9358f1387ee2f9d2c567262954e58dbfe9a8b40423729873e15cdcfc0936f012",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.21(2)",
+      "style": "subsection",
+      "text": "(2) A person commits an offence if the person:"
+    },
+    {
+      "content_hash": "sha256:ee6bed0f426fac06cf3c6e8e3bccedacb64ccc227b9e5009ff318989a8169d05",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20A.21(2)",
+      "ref": "TMR1995/r20A.21(2)(a)",
+      "style": "paragraph",
+      "text": "(a) is a former attorney; and"
+    },
+    {
+      "content_hash": "sha256:0509ba86b976cd563eaf08bf9ee9a682e2ac314802d2474dd79be785cc97f7a3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r20A.21(2)",
+      "ref": "TMR1995/r20A.21(2)(b)",
+      "style": "paragraph",
+      "text": "(b) is given a notice under subregulation (1); and"
+    },
+    {
+      "content_hash": "sha256:e0ad5aec5336e28ba2c6f505fa49f8818935c0ebe2e685b89f6b5eb17aac498e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r20A.21(2)",
+      "ref": "TMR1995/r20A.21(2)(c)",
+      "style": "paragraph",
+      "text": "(c) fails to comply with the notice."
+    },
+    {
+      "content_hash": "sha256:0ddebf83aadbf2e8577fcff5e5c2a8eb407af9fc37120ab484679895c9d0dc3f",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.21~1",
+      "style": "Penalty",
+      "text": "Penalty: 5 penalty units."
+    },
+    {
+      "content_hash": "sha256:5bb97c47ed2b94dd49bd751c483a6204dc339e049ed14b4ad0af819520eed4bb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.21(3)",
+      "style": "subsection",
+      "text": "(3) It is a defence to a prosecution for an offence against subregulation (2) if the former attorney is prevented or hindered from complying with a request in the notice by:"
+    },
+    {
+      "content_hash": "sha256:5776f6c823abe50fd910a696ed333cc1f892f929231be2af10b35b8b3279cbe4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 61,
+          "start": 48,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r20A.21(3)",
+      "ref": "TMR1995/r20A.21(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a circumstance mentioned in Part 2.3 of the Criminal Code; or"
+    },
+    {
+      "content_hash": "sha256:6bb76187f1af5fa6cf28f8708d7f0a6693e409780aa34400e23e4597dc14e912",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r20A.21(3)",
+      "ref": "TMR1995/r20A.21(3)(b)",
+      "style": "paragraph",
+      "text": "(b) any other circumstance that the relevant Panel Chair reasonably considers is an impediment to the defendant complying with the summons."
+    },
+    {
+      "content_hash": "sha256:5d111630a1247570fb6a8a69dccec366f89450e1ebaf585cde27bd41d05ebc3c",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 156,
+          "start": 143,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r20A.21(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s13.3",
+          "mention": "section 13.3"
+        }
+      ],
+      "ref": "TMR1995/r20A.21(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: A defendant bears an evidential burden in relation to the question of whether he or she has a reasonable excuse (see section 13.3 of the Criminal Code)."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt1"
+  ],
+  "content_hash": "sha256:d63d453edbb4825959acadd81555a8ac02ea80bd0f46b9095a1013ad9ab27a3e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 1—Preliminary",
+    "4A  Application of the Criminal Code"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "4A",
+  "ref": "TMA1995/s4A",
+  "text": "Chapter 2 of the Criminal Code applies to all offences created by this Act. Note: Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility.",
+  "title": "Application of the Criminal Code",
+  "units": [
+    {
+      "content_hash": "sha256:6c998b5e6c010be44c9863271e4522dfe04194de15d71853688aa5e08fb7fb48",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 17,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s4A~1",
+      "style": "subsection",
+      "text": "Chapter 2 of the Criminal Code applies to all offences created by this Act."
+    },
+    {
+      "content_hash": "sha256:5b8f65bf2b95cb0aab6833299178384ada7d26e115df9be84f3fb7ecbfd4d379",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 36,
+          "start": 23,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s4A~1",
+      "ref": "TMA1995/s4A~1~1",
+      "style": "notetext",
+      "text": "Note: Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility."
+    }
+  ]
+}

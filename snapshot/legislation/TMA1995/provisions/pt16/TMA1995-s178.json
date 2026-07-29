@@ -1,0 +1,106 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:88935b73d02b687333f14651926d583adafee931831f25b2d7015f308c2d4558",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "178  Variation of rules"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "178",
+  "ref": "TMA1995/s178",
+  "text": "(1) Subject to subsection (2), the rules governing the use of a registered certification trade mark may be varied in accordance with the regulations. (2) The rules may not be varied without the approval of the Commission. (3) Before deciding to approve a variation, the Commission must be satisfied that the rules as varied: (a) would not be to the detriment of the public; and (b) are satisfactory having regard to the criteria prescribed for the purposes of paragraph 175(2)(b). (4) The Commission must notify, in accordance with the regulations, a decision to approve a variation or not to approve a variation. (5) An application may be made to the Administrative Review Tribunal for the review of a decision of the Commission to approve or not to approve a variation of the rules.",
+  "title": "Variation of rules",
+  "units": [
+    {
+      "content_hash": "sha256:38774c04ff4db3a19e148f347d79e0fe4b192f1ca6e7db9bebd6829a7f94b32d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s178(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (2), the rules governing the use of a registered certification trade mark may be varied in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:068ef9cebb49c31dd2ab5e3eac0ebeec26cbe569c441ce4a8ab11555f13f0c4a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s178(2)",
+      "style": "subsection",
+      "text": "(2) The rules may not be varied without the approval of the Commission."
+    },
+    {
+      "content_hash": "sha256:e86eb733c0b43622e3b1747dd3eaafe8544c2e15a11666da1c02f42aa6e20f0c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s178(3)",
+      "style": "subsection",
+      "text": "(3) Before deciding to approve a variation, the Commission must be satisfied that the rules as varied:"
+    },
+    {
+      "content_hash": "sha256:0ab418dd51f766edff1d8858b4f5148cb2628f0a5099250ba0ed33809bf0d20c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s178(3)",
+      "ref": "TMA1995/s178(3)(a)",
+      "style": "paragraph",
+      "text": "(a) would not be to the detriment of the public; and"
+    },
+    {
+      "content_hash": "sha256:1a2d18e25b63d792658e398fc358ad9d8cec0ea1e4bd17e9125f72bbab2894c3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s178(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(2)(b)",
+          "mention": "paragraph 175(2)(b)"
+        }
+      ],
+      "ref": "TMA1995/s178(3)(b)",
+      "style": "paragraph",
+      "text": "(b) are satisfactory having regard to the criteria prescribed for the purposes of paragraph 175(2)(b)."
+    },
+    {
+      "content_hash": "sha256:d65784ca069ed7e875f5178fca95cedceaacccfb92aac3047b15d41249476623",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s178(4)",
+      "style": "subsection",
+      "text": "(4) The Commission must notify, in accordance with the regulations, a decision to approve a variation or not to approve a variation."
+    },
+    {
+      "content_hash": "sha256:787192ac5382324f95c813fa971ff9fa4e0ec399139628157fe65fcd76050a60",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s178(5)",
+      "style": "subsection",
+      "text": "(5) An application may be made to the Administrative Review Tribunal for the review of a decision of the Commission to approve or not to approve a variation of the rules."
+    }
+  ]
+}

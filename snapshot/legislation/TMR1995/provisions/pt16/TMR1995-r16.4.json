@@ -1,0 +1,373 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:e66495195e6d4a6a5071d9e4f0cd7ffa4c244b2c5f20789a2bee4d6626987eea",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.4  Holding of conferences"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.4",
+  "ref": "TMR1995/r16.4",
+  "text": "(1) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 16.3(3): (a) a person requests the Commission in writing to hold a conference on a matter included in the initial assessment; and (b) no person otherwise responds in writing to the Commission in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3); the Commission must hold the conference before it makes a decision on the application. (2) As soon as practicable after the Commission receives a request under subregulation (1) for a conference, the Commission must: (a) invite the applicant and any other person mentioned in subregulation (1): (i) to attend the conference; and (ii) to make an oral or written submission at the conference on the views expressed by another person that are mentioned in subparagraph (b)(ii); and (b) give to the applicant and any other person mentioned in subregulation (1): (i) reasonable notice of the time, date and place of the conference; and (ii) a reasonable opportunity to express views that are relevant to the conference, either orally at, or by written submission before or during, the conference; and (iii) a copy of each written submission to which subparagraph (ii) refers that is made by another person. (3) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 16.3(3): (a) a person requests the Commission in writing to hold a conference on a matter included in the initial assessment; and (b) a person otherwise responds in writing to the Commission in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3); the Commission must hold the conference before it makes a decision on the application. (4) As soon as practicable after the Commission receives a request under subregulation (3) for a conference, the Commission must: (a) invite the applicant and any person who has responded in writing to the Commission: (i) to attend the conference; and (ii) to make an oral or written submission at the conference on the views expressed by another person that are mentioned in subparagraph (b)(ii); and (b) give to the applicant and any person who has responded in writing to the Commission: (i) reasonable notice in writing of the time, date and place of the conference; and (ii) a reasonable opportunity to express views that are relevant to the conference, either orally at, or by written submission before or during, the conference; and (iii) a copy of each response to which paragraph (3)(b) refers, and of each written submission to which subparagraph (ii) refers, that is made by another person. (5) If a person who is invited to attend a conference: (a) informs the Commission that the person does not wish to attend the conference; or (b) does not attend the conference; the conference may proceed in the absence of the person.",
+  "title": "Holding of conferences",
+  "units": [
+    {
+      "content_hash": "sha256:fb47821d6ad959cdd01500a0dc6f7aaba7d656b69eb45c5ec83fac8b38e39b7e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.4(1)",
+      "style": "subsection",
+      "text": "(1) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 16.3(3):"
+    },
+    {
+      "content_hash": "sha256:e331533ba3c9fa16287a0161b6a814f9112a133106e2ed2871c41f44fc3b6b05",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r16.4(1)",
+      "ref": "TMR1995/r16.4(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a person requests the Commission in writing to hold a conference on a matter included in the initial assessment; and"
+    },
+    {
+      "content_hash": "sha256:243424836ccb98e3ddb0147577791241a7f63c75b02047f1eed4e72773e550eb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r16.4(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(2)",
+          "mention": "subregulation 16.3(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.4(1)(b)",
+      "style": "paragraph",
+      "text": "(b) no person otherwise responds in writing to the Commission in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3);"
+    },
+    {
+      "content_hash": "sha256:b1bc383e4413de2dc7ff6dfd1ebe4809fd2584fde48cf67f6b8d3372fb87f27d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4~1",
+      "style": "subsection2",
+      "text": "the Commission must hold the conference before it makes a decision on the application."
+    },
+    {
+      "content_hash": "sha256:d606dd9c52c5f6c3887e5d1249b32370160083aae72acacf1681deb46d23404f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4(2)",
+      "style": "subsection",
+      "text": "(2) As soon as practicable after the Commission receives a request under subregulation (1) for a conference, the Commission must:"
+    },
+    {
+      "content_hash": "sha256:b5ce7043864d765c7c12231fcb67fff8c07c385f32a48888e5a9a6fb22db4d7a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r16.4(2)",
+      "ref": "TMR1995/r16.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) invite the applicant and any other person mentioned in subregulation (1):"
+    },
+    {
+      "content_hash": "sha256:4457e2718f342d7fc157fab7a1982ede0da449160481f3b6151f1f0d398f9c38",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r16.4(2)(a)",
+      "ref": "TMR1995/r16.4(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to attend the conference; and"
+    },
+    {
+      "content_hash": "sha256:5eaf6b6ba1789f7ca8f5ebf5d4e7d7245c816bfe2dbd00a92813f03e47833275",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r16.4(2)(a)",
+      "ref": "TMR1995/r16.4(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to make an oral or written submission at the conference on the views expressed by another person that are mentioned in subparagraph (b)(ii); and"
+    },
+    {
+      "content_hash": "sha256:3d4759804bb16b7628e6bbade44b229a20cd0b9f467aaadbf25eecaa0302fec0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r16.4(2)",
+      "ref": "TMR1995/r16.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) give to the applicant and any other person mentioned in subregulation (1):"
+    },
+    {
+      "content_hash": "sha256:3ec511a4a2c34ba9c8df9145b8f1dab7570fa70f1b27e9bfce6a3bba4680d4b4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r16.4(2)(b)",
+      "ref": "TMR1995/r16.4(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) reasonable notice of the time, date and place of the conference; and"
+    },
+    {
+      "content_hash": "sha256:2cb96e5dcd17614afb726109eee6fb10608d19a209d825542239ebb6c0d0cbd6",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r16.4(2)(b)",
+      "ref": "TMR1995/r16.4(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a reasonable opportunity to express views that are relevant to the conference, either orally at, or by written submission before or during, the conference; and"
+    },
+    {
+      "content_hash": "sha256:0bd643db7b307bf6e5c03f9f55842bc8ce96b97bfc60c780a1747e99032a384f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r16.4(2)(b)",
+      "ref": "TMR1995/r16.4(2)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a copy of each written submission to which subparagraph (ii) refers that is made by another person."
+    },
+    {
+      "content_hash": "sha256:57d85e8f4d905a2b6b55e8c3d68cc02734812d93155946ef4f04dbc996806c24",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.4(3)",
+      "style": "subsection",
+      "text": "(3) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation 16.3(3):"
+    },
+    {
+      "content_hash": "sha256:e331533ba3c9fa16287a0161b6a814f9112a133106e2ed2871c41f44fc3b6b05",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r16.4(3)",
+      "ref": "TMR1995/r16.4(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a person requests the Commission in writing to hold a conference on a matter included in the initial assessment; and"
+    },
+    {
+      "content_hash": "sha256:ac150221712d8ca6588b540902bba835d6e72a0c218037dfe3e82c043f32349d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r16.4(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(2)",
+          "mention": "subregulation 16.3(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.4(3)(b)",
+      "style": "paragraph",
+      "text": "(b) a person otherwise responds in writing to the Commission in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3);"
+    },
+    {
+      "content_hash": "sha256:b1bc383e4413de2dc7ff6dfd1ebe4809fd2584fde48cf67f6b8d3372fb87f27d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4~2",
+      "style": "subsection2",
+      "text": "the Commission must hold the conference before it makes a decision on the application."
+    },
+    {
+      "content_hash": "sha256:4f35b00695ad5e7cd21a4e2f1185a5f5fec070ceb7658bd503068cb204a7f00d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4(4)",
+      "style": "subsection",
+      "text": "(4) As soon as practicable after the Commission receives a request under subregulation (3) for a conference, the Commission must:"
+    },
+    {
+      "content_hash": "sha256:278fd0d7914ec1f8f2e93bf799b8da2e3a9475cc79b2408d9522cf3b370053e1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r16.4(4)",
+      "ref": "TMR1995/r16.4(4)(a)",
+      "style": "paragraph",
+      "text": "(a) invite the applicant and any person who has responded in writing to the Commission:"
+    },
+    {
+      "content_hash": "sha256:4457e2718f342d7fc157fab7a1982ede0da449160481f3b6151f1f0d398f9c38",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r16.4(4)(a)",
+      "ref": "TMR1995/r16.4(4)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to attend the conference; and"
+    },
+    {
+      "content_hash": "sha256:5eaf6b6ba1789f7ca8f5ebf5d4e7d7245c816bfe2dbd00a92813f03e47833275",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r16.4(4)(a)",
+      "ref": "TMR1995/r16.4(4)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to make an oral or written submission at the conference on the views expressed by another person that are mentioned in subparagraph (b)(ii); and"
+    },
+    {
+      "content_hash": "sha256:8a56b7af2432a53179db10435c985132b5fea30fd6472d06a69990606c7a3301",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r16.4(4)",
+      "ref": "TMR1995/r16.4(4)(b)",
+      "style": "paragraph",
+      "text": "(b) give to the applicant and any person who has responded in writing to the Commission:"
+    },
+    {
+      "content_hash": "sha256:5e910ed6fe365e29da99e5f02ab5ca0f27f944a208fde849a3e04c5e01b4b04d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r16.4(4)(b)",
+      "ref": "TMR1995/r16.4(4)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) reasonable notice in writing of the time, date and place of the conference; and"
+    },
+    {
+      "content_hash": "sha256:2cb96e5dcd17614afb726109eee6fb10608d19a209d825542239ebb6c0d0cbd6",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r16.4(4)(b)",
+      "ref": "TMR1995/r16.4(4)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a reasonable opportunity to express views that are relevant to the conference, either orally at, or by written submission before or during, the conference; and"
+    },
+    {
+      "content_hash": "sha256:48f5ec966a3a4ef61b880308fc35182c84c9f9a4b63409aab4837d4ed557f9c3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r16.4(4)(b)",
+      "ref": "TMR1995/r16.4(4)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a copy of each response to which paragraph (3)(b) refers, and of each written submission to which subparagraph (ii) refers, that is made by another person."
+    },
+    {
+      "content_hash": "sha256:47958593adc1776e90bef0a1495cf111b0f1fff7183703bf854b4c15be5cd087",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 25,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4(5)",
+      "style": "subsection",
+      "text": "(5) If a person who is invited to attend a conference:"
+    },
+    {
+      "content_hash": "sha256:10e49810a141131b7bcfd0a47e115927788c4812015b3460b60cbee1c9dcdb12",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r16.4(5)",
+      "ref": "TMR1995/r16.4(5)(a)",
+      "style": "paragraph",
+      "text": "(a) informs the Commission that the person does not wish to attend the conference; or"
+    },
+    {
+      "content_hash": "sha256:8419f8fa317e794613b40535492d33d6ede4355b4ddfec48f6e542f0f71d477e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 27,
+      "parent_ref": "TMR1995/r16.4(5)",
+      "ref": "TMR1995/r16.4(5)(b)",
+      "style": "paragraph",
+      "text": "(b) does not attend the conference;"
+    },
+    {
+      "content_hash": "sha256:9aeccaaf97d6be8a58785c5b9b0c697284f608082020f68e77ec2aba35b191d0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 28,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.4~3",
+      "style": "subsection2",
+      "text": "the conference may proceed in the absence of the person."
+    }
+  ]
+}

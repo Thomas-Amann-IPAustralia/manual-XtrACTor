@@ -1,0 +1,224 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:6de0f1093b382c814436cd3e0eab6396e51c4ae0db283e8fe67d1ba681956555",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "139  Disposal of seized goods forfeited to the Commonwealth"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "139",
+  "ref": "TMA1995/s139",
+  "text": "(1) Seized goods forfeited to the Commonwealth must be disposed of: (a) in the manner prescribed by the regulations; or (b) if no manner of disposal is so prescribed—as the ComptrollerGeneral of Customs directs. Note: For seized goods see section 6. (2) However, goods forfeited under section 136A must not be disposed of until 30 days after their forfeiture. Note: If the ComptrollerGeneral of Customs allows a late claim under section 136B for goods that have been forfeited under section 136A, the goods are taken not to have been forfeited. (3) Subsection (1) does not require the disposal of goods that are required in relation to an action for infringement of a trade mark. Right of compensation in certain circumstances (4) Despite the forfeiture of seized goods to the Commonwealth, a person may apply to a court of competent jurisdiction under this section for compensation for the disposal of the goods. (5) A right to compensation exists if: (a) the goods did not infringe the objector’s notified trade mark; and (b) the person establishes, to the satisfaction of the court: (i) that he or she was the owner of the goods immediately before they were forfeited; and (ii) that there were circumstances providing a reasonable excuse for the failure to make a claim for the release of the goods. (6) If a right to compensation exists under subsection (4), the court must order the payment by the Commonwealth to the person of an amount equal to the market value of the goods at the time of their disposal.",
+  "title": "Disposal of seized goods forfeited to the Commonwealth",
+  "units": [
+    {
+      "content_hash": "sha256:8099d53bf0084fc4695cda91149fe9a053c77eb7683ca530c399f394122e4bf5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s139(1)",
+      "style": "subsection",
+      "text": "(1) Seized goods forfeited to the Commonwealth must be disposed of:"
+    },
+    {
+      "content_hash": "sha256:6d97b4e617a865a0f308769ff614b4807019b2e0ccb17a13ae04db928512ec55",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s139(1)",
+      "ref": "TMA1995/s139(1)(a)",
+      "style": "paragraph",
+      "text": "(a) in the manner prescribed by the regulations; or"
+    },
+    {
+      "content_hash": "sha256:7c8fe32046be70c49d2f200a2a9e3bab4d05224f17f649638fc0eea6e910e41c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s139(1)",
+      "ref": "TMA1995/s139(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if no manner of disposal is so prescribed—as the ComptrollerGeneral of Customs directs."
+    },
+    {
+      "content_hash": "sha256:bdbd71a8886ac325eecb334acb2503f3858dc61ea3a98f27965470f16ce3f940",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s139(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s139(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: For seized goods see section 6."
+    },
+    {
+      "content_hash": "sha256:fdc27f4751353855a7da5ab01d9cc388e2637f59b158441e6f98abaff43dad37",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136A",
+          "mention": "section 136A"
+        }
+      ],
+      "ref": "TMA1995/s139(2)",
+      "style": "subsection",
+      "text": "(2) However, goods forfeited under section 136A must not be disposed of until 30 days after their forfeiture."
+    },
+    {
+      "content_hash": "sha256:60a80432b914c077ab0e76f59c5b06a8de4dca5212c8435df0ead2c3eae4158b",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s139(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136A",
+          "mention": "section 136A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136B",
+          "mention": "section 136B"
+        }
+      ],
+      "ref": "TMA1995/s139(2)~1",
+      "style": "notetext",
+      "text": "Note: If the ComptrollerGeneral of Customs allows a late claim under section 136B for goods that have been forfeited under section 136A, the goods are taken not to have been forfeited."
+    },
+    {
+      "content_hash": "sha256:9e4251149e6c04877d0a7d682cee6d3248f947138c747d11d6fdb63035844471",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s139(3)",
+      "style": "subsection",
+      "text": "(3) Subsection (1) does not require the disposal of goods that are required in relation to an action for infringement of a trade mark."
+    },
+    {
+      "content_hash": "sha256:50b8bc85b74755bac0625717051e4373a6fc2fd774295d12d2b182fb349ed568",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s139~1",
+      "style": "SubsectionHead",
+      "text": "Right of compensation in certain circumstances"
+    },
+    {
+      "content_hash": "sha256:5f7c7e4c4d55a6b98179cacd5df949437db6a454df73dd98b8064dce62835a23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s139(4)",
+      "style": "subsection",
+      "text": "(4) Despite the forfeiture of seized goods to the Commonwealth, a person may apply to a court of competent jurisdiction under this section for compensation for the disposal of the goods."
+    },
+    {
+      "content_hash": "sha256:709fde27bf1f0e31f2c56e30baf42cfb12e9a6fd3165f9bfb88fbd7acef60eb2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s139(5)",
+      "style": "subsection",
+      "text": "(5) A right to compensation exists if:"
+    },
+    {
+      "content_hash": "sha256:6eb8844691e4544e42599fd294ca942c7b9116d2b332e252430ed74068d1740b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s139(5)",
+      "ref": "TMA1995/s139(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the goods did not infringe the objector’s notified trade mark; and"
+    },
+    {
+      "content_hash": "sha256:62b71c4c142b94b930029dc304e0ef6347807ee1fa330323cfcd9879b8aae3f4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s139(5)",
+      "ref": "TMA1995/s139(5)(b)",
+      "style": "paragraph",
+      "text": "(b) the person establishes, to the satisfaction of the court:"
+    },
+    {
+      "content_hash": "sha256:12a136067c8d2ddd19918df4f43e9953817805de15062c7a6d91e5f973a803ba",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s139(5)(b)",
+      "ref": "TMA1995/s139(5)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) that he or she was the owner of the goods immediately before they were forfeited; and"
+    },
+    {
+      "content_hash": "sha256:7e6b7edd7e23b30ce3ead35fdb463be96fd3da3220bc8b090012c85a4dd44c20",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s139(5)(b)",
+      "ref": "TMA1995/s139(5)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that there were circumstances providing a reasonable excuse for the failure to make a claim for the release of the goods."
+    },
+    {
+      "content_hash": "sha256:9bf1be43481c0ad6b73018fd25de38a708eb55cf738b587daf156f23fb781b90",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s139(6)",
+      "style": "subsection",
+      "text": "(6) If a right to compensation exists under subsection (4), the court must order the payment by the Commonwealth to the person of an amount equal to the market value of the goods at the time of their disposal."
+    }
+  ]
+}

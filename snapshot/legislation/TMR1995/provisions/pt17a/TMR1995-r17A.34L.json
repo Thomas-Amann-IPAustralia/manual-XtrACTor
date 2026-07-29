@@ -1,0 +1,289 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:fa9549032f0a423fcdf18b4855cd81c6df0dd8124b1ac417edaddfb4653ce536",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34L  Registrar may allow coolingoff period"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34L",
+  "ref": "TMR1995/r17A.34L",
+  "text": "(1) This regulation applies to an opposition if: (a) the notice of opposition has been filed; and (b) the Registrar has not made a decision on the opposition under regulation 17A.34N; and (c) the opposition has not been dismissed under regulation 17A.34B. (2) If the Registrar is satisfied that the parties agree to a coolingoff period, the Registrar must allow a coolingoff period of 6 months. (3) The Registrar must extend the coolingoff period for 6 months if, before the end of the period, the Registrar is satisfied that the parties agree to the extension. (4) The Registrar must not: (a) further extend the coolingoff period; or (b) allow more than one coolingoff period for an opposition. (5) If a party files a notice in an approved form requesting the Registrar to discontinue the coolingoff period, the Registrar must do so. (6) The Registrar may direct the parties on steps they must take: (a) if the coolingoff period is discontinued; or (b) otherwise—when the coolingoff period ends. (7) The opposition resumes: (a) if the coolingoff period is discontinued; or (b) otherwise—when the coolingoff period ends. (8) If: (a) the coolingoff period begins during the period mentioned in regulation 17A.34H or an evidentiary period mentioned in regulation 17A.34J; and (b) the opposition resumes; the period mentioned in regulation 17A.34H or 17A.34J restarts when the opposition resumes.",
+  "title": "Registrar may allow coolingoff period",
+  "units": [
+    {
+      "content_hash": "sha256:410f5b691ef6eea60ccfb24fe62905f9d8a6633468398e43aad68378b478c7c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies to an opposition if:"
+    },
+    {
+      "content_hash": "sha256:4a43f65cf19f818febf137661cfe04e4f2e7938744871e4eb58eccab7eb0fd2f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.34L(1)",
+      "ref": "TMR1995/r17A.34L(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the notice of opposition has been filed; and"
+    },
+    {
+      "content_hash": "sha256:2348ba5b529c9c5938bb87020d546b467cf08e53261029a5c783f1226083bde8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.34L(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34N",
+          "mention": "regulation 17A.34N"
+        }
+      ],
+      "ref": "TMR1995/r17A.34L(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar has not made a decision on the opposition under regulation 17A.34N; and"
+    },
+    {
+      "content_hash": "sha256:84b19735752e2ed536a884a346dc882eedf44700bb4e57194b30c8c9ec16aa88",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.34L(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34B",
+          "mention": "regulation 17A.34B"
+        }
+      ],
+      "ref": "TMR1995/r17A.34L(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the opposition has not been dismissed under regulation 17A.34B."
+    },
+    {
+      "content_hash": "sha256:697b65568c9b58a1f59199a162d2019566ea521b1af7537a08f1f312f5937475",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar is satisfied that the parties agree to a coolingoff period, the Registrar must allow a coolingoff period of 6 months."
+    },
+    {
+      "content_hash": "sha256:b94b6e27f82cc8db2a7acbc9489daf1e050f5ec8be3d1f668f622ec6f687704d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must extend the coolingoff period for 6 months if, before the end of the period, the Registrar is satisfied that the parties agree to the extension."
+    },
+    {
+      "content_hash": "sha256:6b95a5f6524bea44f6ffb5ba891621182a5deba254922a066bab3788c908a518",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must not:"
+    },
+    {
+      "content_hash": "sha256:73e9338f377283afbf483368bbabdaab1dafc88c136ddbb6a0995181fafe84f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.34L(4)",
+      "ref": "TMR1995/r17A.34L(4)(a)",
+      "style": "paragraph",
+      "text": "(a) further extend the coolingoff period; or"
+    },
+    {
+      "content_hash": "sha256:767c8412dc1dd01095894111877c2636c2e2277f8cc9af7a18ff8ef1d5a01607",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.34L(4)",
+      "ref": "TMR1995/r17A.34L(4)(b)",
+      "style": "paragraph",
+      "text": "(b) allow more than one coolingoff period for an opposition."
+    },
+    {
+      "content_hash": "sha256:d6ddeaf4c1d40adde6e54de017631af26b1344717636f3cbfba58e1bd9a19a58",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(5)",
+      "style": "subsection",
+      "text": "(5) If a party files a notice in an approved form requesting the Registrar to discontinue the coolingoff period, the Registrar must do so."
+    },
+    {
+      "content_hash": "sha256:79d71358f5c955a5e2333c5b20ca9baa453beea199908b455d3ee4e3fbaa1b05",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(6)",
+      "style": "subsection",
+      "text": "(6) The Registrar may direct the parties on steps they must take:"
+    },
+    {
+      "content_hash": "sha256:daada1b92ba2425c4027e173cf7d7db3aa28cafa2f63d17e928534ff2f5f42af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.34L(6)",
+      "ref": "TMR1995/r17A.34L(6)(a)",
+      "style": "paragraph",
+      "text": "(a) if the coolingoff period is discontinued; or"
+    },
+    {
+      "content_hash": "sha256:ab9f91a2878ad887ae4cc52457fa226b2d9de18e829bd19296ba8f2e1f3d3f57",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.34L(6)",
+      "ref": "TMR1995/r17A.34L(6)(b)",
+      "style": "paragraph",
+      "text": "(b) otherwise—when the coolingoff period ends."
+    },
+    {
+      "content_hash": "sha256:8fe3f74186b1db7d4faa5801a677a65ab721ef1cb8cef7d5a4b61b19ba364012",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(7)",
+      "style": "subsection",
+      "text": "(7) The opposition resumes:"
+    },
+    {
+      "content_hash": "sha256:daada1b92ba2425c4027e173cf7d7db3aa28cafa2f63d17e928534ff2f5f42af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r17A.34L(7)",
+      "ref": "TMR1995/r17A.34L(7)(a)",
+      "style": "paragraph",
+      "text": "(a) if the coolingoff period is discontinued; or"
+    },
+    {
+      "content_hash": "sha256:ab9f91a2878ad887ae4cc52457fa226b2d9de18e829bd19296ba8f2e1f3d3f57",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r17A.34L(7)",
+      "ref": "TMR1995/r17A.34L(7)(b)",
+      "style": "paragraph",
+      "text": "(b) otherwise—when the coolingoff period ends."
+    },
+    {
+      "content_hash": "sha256:31ea9222f324668d8cad6f9a0821ec8e0e92e5249b0ca74629eb6b8880d27c2d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(8)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34L(8)",
+      "style": "subsection",
+      "text": "(8) If:"
+    },
+    {
+      "content_hash": "sha256:ab5dd0e8d7a7524ae8c1fce7c45f1ff398feb9d555dac9274ad9a23edcbd0add",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r17A.34L(8)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H",
+          "mention": "regulation 17A.34H"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J",
+          "mention": "regulation 17A.34J"
+        }
+      ],
+      "ref": "TMR1995/r17A.34L(8)(a)",
+      "style": "paragraph",
+      "text": "(a) the coolingoff period begins during the period mentioned in regulation 17A.34H or an evidentiary period mentioned in regulation 17A.34J; and"
+    },
+    {
+      "content_hash": "sha256:7804be616bf4ac61285537ff63efb0daeae49111b62147cd865800777d97ba1b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r17A.34L(8)",
+      "ref": "TMR1995/r17A.34L(8)(b)",
+      "style": "paragraph",
+      "text": "(b) the opposition resumes;"
+    },
+    {
+      "content_hash": "sha256:19e345bd84fcd2c30e9acf6cf8a1eeab0286274f8e649983a2e11a28e652125e",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H",
+          "mention": "regulation 17A.34H or 17A.34J"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J",
+          "mention": "regulation 17A.34H or 17A.34J"
+        }
+      ],
+      "ref": "TMR1995/r17A.34L~1",
+      "style": "subsection2",
+      "text": "the period mentioned in regulation 17A.34H or 17A.34J restarts when the opposition resumes."
+    }
+  ]
+}

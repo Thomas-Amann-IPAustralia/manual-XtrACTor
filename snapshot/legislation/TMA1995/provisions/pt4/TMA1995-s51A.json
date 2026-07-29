@@ -1,0 +1,184 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div4"
+  ],
+  "content_hash": "sha256:72278938d49d330deb0a38cb2cd5cabd67d28a4d53d0265394755388aad4b962",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 4—Application for registration of series of trade marks",
+    "51A  Linking series applications"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "51A",
+  "ref": "TMA1995/s51A",
+  "text": "(1) Subsection (2) applies if: (a) before the commencement of this section, 2 or more applications (series applications) were made each seeking the registration of the same 2 or more trade marks in respect of goods or services of different classes; and (b) the filing date of each of the series applications is the same; and (c) each of the trade marks has the same owner. Note: For filing date see section 6. (2) The owner of the trade marks may apply to the Registrar, in writing, to have: (a) the series applications; or (b) so many of the series applications as are identified in the application to the Registrar; dealt with under this Act as if they were one application for the registration of the trade marks in respect of all goods and services specified in the series applications or the identified series applications. Note: For this Act see section 6. (3) If an application is made under subsection (2), the Registrar must deal with the series applications that are the subject of the application under that subsection as if they were one application.",
+  "title": "Linking series applications",
+  "units": [
+    {
+      "content_hash": "sha256:f2fcf2214e169073658e200c97b2b8360427ab9117c0d8da0e79b7d76cd7f320",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s51A(1)",
+      "style": "subsection",
+      "text": "(1) Subsection (2) applies if:"
+    },
+    {
+      "content_hash": "sha256:279a18269339b31e4fcc1cde09d07ab670cdd211446fff631a90330d2e20fe03",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 88,
+          "start": 69,
+          "text": "series applications",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s51A(1)",
+      "ref": "TMA1995/s51A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) before the commencement of this section, 2 or more applications (series applications) were made each seeking the registration of the same 2 or more trade marks in respect of goods or services of different classes; and"
+    },
+    {
+      "content_hash": "sha256:12586c8424901ebd7e53cd8abc37e1d776c507f183c98444afcaebb5599b858d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s51A(1)",
+      "ref": "TMA1995/s51A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the filing date of each of the series applications is the same; and"
+    },
+    {
+      "content_hash": "sha256:daea09a18f68cf1f87093dba267690dde74dc60bea55a994b74becd1ea893181",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s51A(1)",
+      "ref": "TMA1995/s51A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) each of the trade marks has the same owner."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s51A(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s51A(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    },
+    {
+      "content_hash": "sha256:97432d0900f06f339d08f75499b8b378acadf6ecd0dbe4be5c83471267ff3ec2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s51A(2)",
+      "style": "subsection",
+      "text": "(2) The owner of the trade marks may apply to the Registrar, in writing, to have:"
+    },
+    {
+      "content_hash": "sha256:6e207498af40059b43f15c8748a537851f5918313cb6ca784d5b088bf6308e9c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s51A(2)",
+      "ref": "TMA1995/s51A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the series applications; or"
+    },
+    {
+      "content_hash": "sha256:ff1e7abcedfd44f0c9f3b4fb8c9fc9c9190d3d7050261c2ed7cfc15e8e6d6e84",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s51A(2)",
+      "ref": "TMA1995/s51A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) so many of the series applications as are identified in the application to the Registrar;"
+    },
+    {
+      "content_hash": "sha256:962c209e4a8dd25a16c43a24639d1034e2f27b48579cc0052b52550683c9de28",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s51A~1",
+      "style": "subsection2",
+      "text": "dealt with under this Act as if they were one application for the registration of the trade marks in respect of all goods and services specified in the series applications or the identified series applications."
+    },
+    {
+      "content_hash": "sha256:45c9ab07e9b64f7abe9f570e047a508c487df75b6a56f1a5d5e6c2f7a85d9f9f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s51A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s51A~1~1",
+      "style": "notetext",
+      "text": "Note: For this Act see section 6."
+    },
+    {
+      "content_hash": "sha256:180ce8fa5335cb9a046bdbe66c14cba5db04d8a9c870179d889191c6f760b528",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s51A(3)",
+      "style": "subsection",
+      "text": "(3) If an application is made under subsection (2), the Registrar must deal with the series applications that are the subject of the application under that subsection as if they were one application."
+    }
+  ]
+}

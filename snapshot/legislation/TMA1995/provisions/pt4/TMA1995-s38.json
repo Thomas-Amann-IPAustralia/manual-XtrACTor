@@ -1,0 +1,122 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:2bf1242d6c62f0831bf40d6b421afebf993c74e0b40664167ee912e23eefc878",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "38  Revocation of acceptance"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "38",
+  "ref": "TMA1995/s38",
+  "text": "(1) Before a trade mark is registered, the Registrar may revoke the acceptance of the application for registration of the trade mark if he or she is satisfied that: (a) the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and (b) it is reasonable to revoke the acceptance, taking account of all the circumstances. (2) If the Registrar revokes the acceptance: (a) the application is taken to have never been accepted; and (b) the Registrar must examine, and report on, the application as necessary under section 31; and (c) sections 33 and 34 again apply in relation to the application.",
+  "title": "Revocation of acceptance",
+  "units": [
+    {
+      "content_hash": "sha256:6b05cf40143ff4b0306fd5ee1e609990715cad25de8702e021829db541728763",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s38(1)",
+      "style": "subsection",
+      "text": "(1) Before a trade mark is registered, the Registrar may revoke the acceptance of the application for registration of the trade mark if he or she is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:76d84a1a3c5e3301770c421fb47cba683c66956601ae71d5fc5c1bcc18afa2cd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s38(1)",
+      "ref": "TMA1995/s38(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and"
+    },
+    {
+      "content_hash": "sha256:3d92e0f84a3b1ea8f2bba8f09982a04136f709a3b42f1fb9dcc941b492c5204a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s38(1)",
+      "ref": "TMA1995/s38(1)(b)",
+      "style": "paragraph",
+      "text": "(b) it is reasonable to revoke the acceptance, taking account of all the circumstances."
+    },
+    {
+      "content_hash": "sha256:125c13b2495badd07a4f9e8cc500a0e85dbf9be22dddf3349014a3f5f2a3c0aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s38(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar revokes the acceptance:"
+    },
+    {
+      "content_hash": "sha256:a20a87b7f58f74d5d8bd67f232aad9cf59c334b895be3b1236803e136abc89d4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s38(2)",
+      "ref": "TMA1995/s38(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application is taken to have never been accepted; and"
+    },
+    {
+      "content_hash": "sha256:68011442a170a1ea86eae924b6d710d78c383f0a2e82c077be99866cd6a36584",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s38(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s31",
+          "mention": "section 31"
+        }
+      ],
+      "ref": "TMA1995/s38(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar must examine, and report on, the application as necessary under section 31; and"
+    },
+    {
+      "content_hash": "sha256:74fd5dfab2e9740014ecf4fd02ac9e5b23649c012f7a716c137dd0c22687f387",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s38(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s33",
+          "mention": "sections 33 and 34"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s34",
+          "mention": "sections 33 and 34"
+        }
+      ],
+      "ref": "TMA1995/s38(2)(c)",
+      "style": "paragraph",
+      "text": "(c) sections 33 and 34 again apply in relation to the application."
+    }
+  ]
+}

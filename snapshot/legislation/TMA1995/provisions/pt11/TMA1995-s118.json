@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt11",
+    "TMA1995/pt11/div3"
+  ],
+  "content_hash": "sha256:6d81f79c6bdec9604394e7c158048d5bae3160aa3b38d463c5c353056a7ccc4a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 11—Voluntary recording of claims to interests in and rights in respect of trade marks",
+    "Division 3—Interests in, and rights in respect of, unregistered trade marks",
+    "118  Record of claims to interest etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "118",
+  "ref": "TMA1995/s118",
+  "text": "If the application has been made in accordance with section 117, the Registrar must record in the manner that the Registrar thinks fit (but not in the Register) the particulars of the claim set out in the application.",
+  "title": "Record of claims to interest etc.",
+  "units": [
+    {
+      "content_hash": "sha256:6d81f79c6bdec9604394e7c158048d5bae3160aa3b38d463c5c353056a7ccc4a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s117",
+          "mention": "section 117"
+        }
+      ],
+      "ref": "TMA1995/s118~1",
+      "style": "subsection",
+      "text": "If the application has been made in accordance with section 117, the Registrar must record in the manner that the Registrar thinks fit (but not in the Register) the particulars of the claim set out in the application."
+    }
+  ]
+}

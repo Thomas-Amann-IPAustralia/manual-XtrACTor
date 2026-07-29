@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div4"
+  ],
+  "content_hash": "sha256:70b22bcf22cc0bf98ca4dedb35f2f673e63dbba7d953c558999314e9e005bad2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 4—General",
+    "258  Confidential information received by Registrar under section 74 of the repealed Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "258",
+  "ref": "TMA1995/s258",
+  "text": "If, immediately before 1 January 1996, the Registrar was required under subsection 74(7) of the repealed Act to ensure that any document, information or evidence given for the purpose of an application for the registration of a person as a registered user of a trade mark was not disclosed to any other person, the Registrar must continue to ensure that the document, information or evidence is not so disclosed except by order of a prescribed court. Note: For prescribed court see section 190.",
+  "title": "Confidential information received by Registrar under section 74 of the repealed Act",
+  "units": [
+    {
+      "content_hash": "sha256:0776b48ed3e9983493d61f211533a6d8c2133c36699188b606700f9fd64ad189",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s74(7)",
+          "mention": "subsection 74(7)"
+        }
+      ],
+      "ref": "TMA1995/s258~1",
+      "style": "subsection",
+      "text": "If, immediately before 1 January 1996, the Registrar was required under subsection 74(7) of the repealed Act to ensure that any document, information or evidence given for the purpose of an application for the registration of a person as a registered user of a trade mark was not disclosed to any other person, the Registrar must continue to ensure that the document, information or evidence is not so disclosed except by order of a prescribed court."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s258~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s258~1~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    }
+  ]
+}

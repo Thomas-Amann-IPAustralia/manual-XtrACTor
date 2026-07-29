@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:5aba4c33c878eb46672e21f10c3200eabede18f22874a02c35c63fa445835084",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.11A  Meetings of Panel of Disciplinary Tribunal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.11A",
+  "ref": "TMR1995/r20A.11A",
+  "text": "(1) The Panel Chair of a Panel of the Disciplinary Tribunal must: (a) convene such meetings of the Panel as the Panel Chair considers necessary for the purpose of conducting disciplinary proceedings being heard by the Panel; and (b) preside at all meetings of the Panel. (2) Subject to paragraph 20A.11D(2)(a), all members of a Panel of the Disciplinary Tribunal must be present at a meeting of the Panel. (3) A question arising at a meeting of a Panel of the Disciplinary Tribunal must be determined by a majority of the votes of the members of the Panel present and voting. (4) However, if, in accordance with paragraph 20A.11D(2)(a), a hearing of proceedings is continued with 2 members of the Panel, questions arising at the hearing must be determined by a unanimous vote of the 2 members.",
+  "title": "Meetings of Panel of Disciplinary Tribunal",
+  "units": [
+    {
+      "content_hash": "sha256:d5546e0704b0097f2ab373fe928e42264dd5ed8841b57d0f3105c25d74947351",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11A(1)",
+      "style": "subsection",
+      "text": "(1) The Panel Chair of a Panel of the Disciplinary Tribunal must:"
+    },
+    {
+      "content_hash": "sha256:6da905f3b6da8aefcf5951befad7fe4c61a5c28409ffc0eeb82c71f7bcf7ce3d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.11A(1)",
+      "ref": "TMR1995/r20A.11A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) convene such meetings of the Panel as the Panel Chair considers necessary for the purpose of conducting disciplinary proceedings being heard by the Panel; and"
+    },
+    {
+      "content_hash": "sha256:8a2ac6e798ca777286cd5da55d8da10c2d1b5dd109290524bf41a27adedeb085",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.11A(1)",
+      "ref": "TMR1995/r20A.11A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) preside at all meetings of the Panel."
+    },
+    {
+      "content_hash": "sha256:436e2cf4c04191648da08e546141c11ac3070573f8e818e84babb254013496fb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20A.11D(2)(a)",
+          "mention": "paragraph 20A.11D(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r20A.11A(2)",
+      "style": "subsection",
+      "text": "(2) Subject to paragraph 20A.11D(2)(a), all members of a Panel of the Disciplinary Tribunal must be present at a meeting of the Panel."
+    },
+    {
+      "content_hash": "sha256:8e37581f1e39b967d19aaac5f06049eacd7f8db1efce2ca0b74896fd6bb45534",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11A(3)",
+      "style": "subsection",
+      "text": "(3) A question arising at a meeting of a Panel of the Disciplinary Tribunal must be determined by a majority of the votes of the members of the Panel present and voting."
+    },
+    {
+      "content_hash": "sha256:6e23f357af47086f47840dee229f94e261054c87145a75020126c845bd0fed47",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20A.11D(2)(a)",
+          "mention": "paragraph 20A.11D(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r20A.11A(4)",
+      "style": "subsection",
+      "text": "(4) However, if, in accordance with paragraph 20A.11D(2)(a), a hearing of proceedings is continued with 2 members of the Panel, questions arising at the hearing must be determined by a unanimous vote of the 2 members."
+    }
+  ]
+}

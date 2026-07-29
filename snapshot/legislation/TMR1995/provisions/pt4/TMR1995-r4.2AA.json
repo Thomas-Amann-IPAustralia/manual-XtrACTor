@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:9c373693decff4755ded772512de7c195032f2fe9ace341e5224dfb5a0e871fa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.2AA  Divisional application—additional requirement for filing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.2AA",
+  "ref": "TMR1995/r4.2AA",
+  "text": "A divisional application must contain the following information: (a) a statement that the application is a divisional application; (b) a statement identifying the parent application.",
+  "title": "Divisional application—additional requirement for filing",
+  "units": [
+    {
+      "content_hash": "sha256:8128c1f0560355e11420a60f68cbac25cbb8328735fe11ed9698f3cc91548b08",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.2AA~1",
+      "style": "subsection",
+      "text": "A divisional application must contain the following information:"
+    },
+    {
+      "content_hash": "sha256:857f0a4fad0649a1b440cf48cebaeb887ed3a581af42d4f2da53f10b23f23909",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.2AA~1",
+      "ref": "TMR1995/r4.2AA~1(a)",
+      "style": "paragraph",
+      "text": "(a) a statement that the application is a divisional application;"
+    },
+    {
+      "content_hash": "sha256:cfe5c2c39b9abb11f6c674d2fda9e3ed1b681eb2619da099d4d08003c20a8cac",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.2AA~1",
+      "ref": "TMR1995/r4.2AA~1(b)",
+      "style": "paragraph",
+      "text": "(b) a statement identifying the parent application."
+    }
+  ]
+}

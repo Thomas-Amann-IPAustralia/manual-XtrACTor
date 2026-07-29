@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:f668d23d9176dccbebac903bcd70b7da3e2b9c49ded0035b4c3782d5f285c853",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80C  Notification about renewal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80C",
+  "ref": "TMA1995/s80C",
+  "text": "As soon as practicable after the Register entry day, the Registrar must, in accordance with the regulations, notify the registered owner of the trade mark that a request may be made for renewal of the registration. Note: For registered owner see section 6.",
+  "title": "Notification about renewal",
+  "units": [
+    {
+      "content_hash": "sha256:72cc8ef665fac101f6c25d75edaec2e301ffbf117d43ff76625780ef7d720d78",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s80C~1",
+      "style": "subsection",
+      "text": "As soon as practicable after the Register entry day, the Registrar must, in accordance with the regulations, notify the registered owner of the trade mark that a request may be made for renewal of the registration."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80C~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80C~1~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    }
+  ]
+}

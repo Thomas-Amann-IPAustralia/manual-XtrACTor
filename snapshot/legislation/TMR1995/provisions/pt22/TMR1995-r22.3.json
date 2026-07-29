@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:7f2049a75e238d50e4c8753dc4e5133357f0f8a9e39c9aa696e90e2477576a09",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.3  Certain delegations continue"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.3",
+  "ref": "TMR1995/r22.3",
+  "text": "If, immediately before the commencement of these regulations, a person: (a) was a delegate of the Registrar of Trade Marks under the repealed Act; and (b) was exercising the powers of the Registrar in relation to a matter to which, under Division 3 of Part 22 of the Act, the repealed Act continues to apply; the delegation of that person continues in relation to the matter.",
+  "title": "Certain delegations continue",
+  "units": [
+    {
+      "content_hash": "sha256:3b402aa49f8a390cf76485db245eb47464d6b519c5d24166997c3232a9069f2b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.3~1",
+      "style": "subsection",
+      "text": "If, immediately before the commencement of these regulations, a person:"
+    },
+    {
+      "content_hash": "sha256:88b3d9fd159fadf14dc72631b789c0c591016a5e6c25701e8977632e56fe6d66",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.3~1",
+      "ref": "TMR1995/r22.3~1(a)",
+      "style": "paragraph",
+      "text": "(a) was a delegate of the Registrar of Trade Marks under the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:665464a60e25010725e09ddb2cc56cd20144503aa0fd8fab4d28e16d1cea50fa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.3~1",
+      "ref": "TMR1995/r22.3~1(b)",
+      "style": "paragraph",
+      "text": "(b) was exercising the powers of the Registrar in relation to a matter to which, under Division 3 of Part 22 of the Act, the repealed Act continues to apply;"
+    },
+    {
+      "content_hash": "sha256:275b847c8bc2d86bff1882079fd4be10c5363b23e1d264142b0c0061c888e955",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.3~2",
+      "style": "subsection2",
+      "text": "the delegation of that person continues in relation to the matter."
+    }
+  ]
+}

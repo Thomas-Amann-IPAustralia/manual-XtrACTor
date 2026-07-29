@@ -1,0 +1,64 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div2"
+  ],
+  "content_hash": "sha256:fe69e925a3471d4c5232c1c8083dc74919ec4f538d91e6f1259f7a46cf6564d3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "7.5  Notification of renewal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.5",
+  "ref": "TMR1995/r7.5",
+  "text": "For the purposes of subsection 77(2) of the Act (which deals with renewal), a notification of the renewal of the registration of a trade mark must include: (a) a statement that the registration is renewed; and (b) the period for which it is renewed.",
+  "title": "Notification of renewal",
+  "units": [
+    {
+      "content_hash": "sha256:025d72db1ddd1f091a5c1fd9df94c7d3606c768aa3914475dbaee8d73466a684",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s77(2)",
+          "mention": "subsection 77(2)"
+        }
+      ],
+      "ref": "TMR1995/r7.5~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 77(2) of the Act (which deals with renewal), a notification of the renewal of the registration of a trade mark must include:"
+    },
+    {
+      "content_hash": "sha256:41356ee39f6b98caa4de03187c814265a05eb23d617f31ada09948d05f498f4b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r7.5~1",
+      "ref": "TMR1995/r7.5~1(a)",
+      "style": "paragraph",
+      "text": "(a) a statement that the registration is renewed; and"
+    },
+    {
+      "content_hash": "sha256:34420543026f5db5fe2b4a0a1f472628d4822091526775ecf9420cd346599134",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r7.5~1",
+      "ref": "TMR1995/r7.5~1(b)",
+      "style": "paragraph",
+      "text": "(b) the period for which it is renewed."
+    }
+  ]
+}

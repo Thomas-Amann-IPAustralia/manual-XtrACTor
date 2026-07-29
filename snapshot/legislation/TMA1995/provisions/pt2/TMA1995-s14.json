@@ -1,0 +1,103 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:0456707ab519ed2971c40b4e9be7c1fdb9a1ae2b43adf0046d6767369965dcfd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "14  Definition of similar goods and similar services"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "14",
+  "ref": "TMA1995/s14",
+  "text": "(1) For the purposes of this Act, goods are similar to other goods: (a) if they are the same as the other goods; or (b) if they are of the same description as that of the other goods. (2) For the purposes of this Act, services are similar to other services: (a) if they are the same as the other services; or (b) if they are of the same description as that of the other services.",
+  "title": "Definition of similar goods and similar services",
+  "units": [
+    {
+      "content_hash": "sha256:b783926b9d6968e89b9c566562094096543f315eed17a41c24b008ebb382ba9e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 51,
+          "start": 44,
+          "text": "similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s14(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of this Act, goods are similar to other goods:"
+    },
+    {
+      "content_hash": "sha256:bfaa71048d2f889d2f1e1b2825770fccb5303f84500373542980d83fa61d285a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s14(1)",
+      "ref": "TMA1995/s14(1)(a)",
+      "style": "paragraph",
+      "text": "(a) if they are the same as the other goods; or"
+    },
+    {
+      "content_hash": "sha256:aa10070de585fa4f2ed559abb7485586e68489482144ad583f035e1035acd582",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s14(1)",
+      "ref": "TMA1995/s14(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if they are of the same description as that of the other goods."
+    },
+    {
+      "content_hash": "sha256:f37dac0e644707f421d956c24d61d1a2ac1cf48a56b02fd1f45a0176e5e6c00c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 54,
+          "start": 47,
+          "text": "similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s14(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of this Act, services are similar to other services:"
+    },
+    {
+      "content_hash": "sha256:665e6b35dcfc693f3cd80bc610f31a5084be80719cbf22611894cfff1f1fd022",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s14(2)",
+      "ref": "TMA1995/s14(2)(a)",
+      "style": "paragraph",
+      "text": "(a) if they are the same as the other services; or"
+    },
+    {
+      "content_hash": "sha256:86de17680274b8ba50b78ffe859e56d820fdafc1366c6a22e5297aa4bf797c58",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s14(2)",
+      "ref": "TMA1995/s14(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if they are of the same description as that of the other services."
+    }
+  ]
+}

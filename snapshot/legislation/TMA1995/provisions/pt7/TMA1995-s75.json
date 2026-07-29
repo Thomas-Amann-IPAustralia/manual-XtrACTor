@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:1dc0ff524019451d5aed46a20b9dbd19486c9bc15e166d90d488236a8fb78328",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "75  Request for renewal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "75",
+  "ref": "TMA1995/s75",
+  "text": "(1) Any person may, within the prescribed period before the registration of a trade mark expires, ask the Registrar to renew the registration. (2) The request must: (a) be in an approved form; and (b) be filed in accordance with the regulations.",
+  "title": "Request for renewal",
+  "units": [
+    {
+      "content_hash": "sha256:28540c11397681be8844578d68f68d4433cd44673151dbee03c95f498d2e2b32",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s75(1)",
+      "style": "subsection",
+      "text": "(1) Any person may, within the prescribed period before the registration of a trade mark expires, ask the Registrar to renew the registration."
+    },
+    {
+      "content_hash": "sha256:6cf081cca9a3df0ee910a1fcf0940c35dcacbb1850b7970cc804f291fe727e74",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s75(2)",
+      "style": "subsection",
+      "text": "(2) The request must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s75(2)",
+      "ref": "TMA1995/s75(2)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:dd5163e130a77232a53515419d25f78cd6b491b6a93926496071dadc71f359ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s75(2)",
+      "ref": "TMA1995/s75(2)(b)",
+      "style": "paragraph",
+      "text": "(b) be filed in accordance with the regulations."
+    }
+  ]
+}

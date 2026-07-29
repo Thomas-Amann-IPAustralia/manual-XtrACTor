@@ -1,0 +1,357 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div2"
+  ],
+  "content_hash": "sha256:f182472ed0b662db1fc77e5a3ae2e77a71646ac3cca1e2bf19adfcf08ac37ac8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 2—Marks registered under the repealed Act",
+    "234  Registration conclusive after 7 years"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "234",
+  "ref": "TMA1995/s234",
+  "text": "(1) This section applies in relation to: (a) a registered trade mark that: (i) immediately before 1 January 1996, was registered in Part A of the old register; and (ii) has not at any time on or after that day ceased to be registered; and (b) a registered trade mark: (i) whose application for registration in Part A of the old register had been accepted under the repealed Act and was still pending immediately before 1 January 1996; and (ii) that has not at any time on or after that day ceased to be registered. Note 1: For registered trade mark and old register see section 6. Note 2: For pending see subsection 11(2). (2) In any legal proceedings: (a) the original registration under the repealed Act of a trade mark referred to in paragraph (1)(a); or (b) the original registration under this Act of a trade mark referred to in paragraph (1)(b); is taken to be valid in all respects after a period of 7 years from the date of registration of the trade mark unless it is shown that: (c) the original registration was obtained by fraud; or (d) the registration of the trade mark would be contrary to section 28 of the repealed Act; or (e) the trade mark did not, at the commencement of the proceedings, distinguish the goods or services of the registered owner in relation to which the trade mark is used from the goods or services of other persons. Note 1: For date of registration see section 6. Note 2: Section 28 of the repealed Act provided as follows: “28. A mark: (a) the use of which would be likely to deceive or cause confusion; (b) the use of which would be contrary to law; (c) which comprises or contains scandalous matter; or (d) which would otherwise be not entitled to protection in a court of justice; shall not be registered as a trade mark.”.",
+  "title": "Registration conclusive after 7 years",
+  "units": [
+    {
+      "content_hash": "sha256:7e8c9e9b05e753ee950eedf595c3f6c813653172d74b91cbad678234db5adf18",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s234(1)",
+      "style": "subsection",
+      "text": "(1) This section applies in relation to:"
+    },
+    {
+      "content_hash": "sha256:796df69b3212b402fe13d87cad1eaf10222b784d92f7029c4617043a7ee3fd0e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s234(1)",
+      "ref": "TMA1995/s234(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a registered trade mark that:"
+    },
+    {
+      "content_hash": "sha256:a516a96050c93d8a170462563889c4b882fa1271855aa2df10ede5777cc0f3d2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s234(1)(a)",
+      "ref": "TMA1995/s234(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) immediately before 1 January 1996, was registered in Part A of the old register; and"
+    },
+    {
+      "content_hash": "sha256:2bcf3f524eaa64f8a3596bbce723130c9dd7bf9a19a536942a071def3e2e5bde",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s234(1)(a)",
+      "ref": "TMA1995/s234(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) has not at any time on or after that day ceased to be registered; and"
+    },
+    {
+      "content_hash": "sha256:9df1b526f9495a2e5e66b6b6533d7a5aa130d211be449422e206c2e52cdaa546",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s234(1)",
+      "ref": "TMA1995/s234(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a registered trade mark:"
+    },
+    {
+      "content_hash": "sha256:3afe3b2fcc359a14e87b9120e0ee807a69e242bd0b95c021b9ff89fedbddfa09",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s234(1)(b)",
+      "ref": "TMA1995/s234(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) whose application for registration in Part A of the old register had been accepted under the repealed Act and was still pending immediately before 1 January 1996; and"
+    },
+    {
+      "content_hash": "sha256:dd93fa034b81428119ee419f18973c3afa81eb2dd426d4ff3d128f7e61773b1e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s234(1)(b)",
+      "ref": "TMA1995/s234(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that has not at any time on or after that day ceased to be registered."
+    },
+    {
+      "content_hash": "sha256:29c2a65c5d58570af737439de7e97161ad322defd22e22b804ea6feee4f0062d",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 12,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 50,
+          "start": 38,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s234(1)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s234(1)(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note 1: For registered trade mark and old register see section 6."
+    },
+    {
+      "content_hash": "sha256:977e468c2fc323162798114ed8cdb26d09d3a96672ddf209976fa3d8a6d98fb8",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s234(1)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s234(1)(b)(ii)~2",
+      "style": "notetext",
+      "text": "Note 2: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:aa4793050dff4161eb160fa320879705e0a933bd110fe1d2c1568a152e1577fd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s234(2)",
+      "style": "subsection",
+      "text": "(2) In any legal proceedings:"
+    },
+    {
+      "content_hash": "sha256:1125409846290377a3205895b7bca09d28fcb5305566702f5c4ebed41fa60966",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s234(2)",
+      "ref": "TMA1995/s234(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the original registration under the repealed Act of a trade mark referred to in paragraph (1)(a); or"
+    },
+    {
+      "content_hash": "sha256:85c63dfc3c5562dcb6a7a6540e97ffda4b99eee8104ca232d0b3c0f890e55af4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s234(2)",
+      "ref": "TMA1995/s234(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the original registration under this Act of a trade mark referred to in paragraph (1)(b);"
+    },
+    {
+      "content_hash": "sha256:7e89722c0d70bf2a53c006b11deb3316313368c2fe973a6450b785c20941dec3",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s234~1",
+      "style": "subsection2",
+      "text": "is taken to be valid in all respects after a period of 7 years from the date of registration of the trade mark unless it is shown that:"
+    },
+    {
+      "content_hash": "sha256:9d192fc60a4cfb00812ecf2b24edc4c3ed84ae0aa62071fb45ecebbfc5ecabd1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s234~1",
+      "ref": "TMA1995/s234~1(c)",
+      "style": "paragraph",
+      "text": "(c) the original registration was obtained by fraud; or"
+    },
+    {
+      "content_hash": "sha256:67f6d639b479a425e24f7bd1f661ecaf4c4d6472936346efe7d2cb00c7a753e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s234~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s28",
+          "mention": "section 28"
+        }
+      ],
+      "ref": "TMA1995/s234~1(d)",
+      "style": "paragraph",
+      "text": "(d) the registration of the trade mark would be contrary to section 28 of the repealed Act; or"
+    },
+    {
+      "content_hash": "sha256:ca10037ea6c72e3ce38e337d871086c3171c44c73ad09befaa72f25a95a9aa9b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s234~1",
+      "ref": "TMA1995/s234~1(e)",
+      "style": "paragraph",
+      "text": "(e) the trade mark did not, at the commencement of the proceedings, distinguish the goods or services of the registered owner in relation to which the trade mark is used from the goods or services of other persons."
+    },
+    {
+      "content_hash": "sha256:76313d0783be3ef2c28ccdf1fae66b69c29bb0964974a3f04b9a2c1efe0deef1",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 12,
+          "text": "date of registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s234~1(e)~1",
+      "style": "notetext",
+      "text": "Note 1: For date of registration see section 6."
+    },
+    {
+      "content_hash": "sha256:5d3e7a15bdc596c9b4adb8996461a8a006346a4034aedd74ec5399d391cd3898",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s28",
+          "mention": "Section 28"
+        }
+      ],
+      "ref": "TMA1995/s234~1(e)~2",
+      "style": "notetext",
+      "text": "Note 2: Section 28 of the repealed Act provided as follows:"
+    },
+    {
+      "content_hash": "sha256:2410da6435e68d3f5fd79c979a83371c1cda5742b90d4a81accd47cde2349229",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~3",
+      "style": "notetext",
+      "text": "“28. A mark:"
+    },
+    {
+      "content_hash": "sha256:644321d6d7544a62c15596f4cf1a6d246203c8d09da7ee6d0a92bc405ff3c086",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~4",
+      "style": "notetext",
+      "text": "(a) the use of which would be likely to deceive or cause confusion;"
+    },
+    {
+      "content_hash": "sha256:096eed58e6d56de8b7fdad0b1d4a96c372c1fc48cb5c61e99f8cce5f4e802372",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~5",
+      "style": "notetext",
+      "text": "(b) the use of which would be contrary to law;"
+    },
+    {
+      "content_hash": "sha256:8cb2379efdbaae8672744f478e4d63d7676f3825754220fc528ed390545ed901",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~6",
+      "style": "notetext",
+      "text": "(c) which comprises or contains scandalous matter; or"
+    },
+    {
+      "content_hash": "sha256:0fb5b68761c820bee310ad05cab27fc2a729b6681c2ded00eb02248d864cd7bc",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~7",
+      "style": "notetext",
+      "text": "(d) which would otherwise be not entitled to protection in a court of justice;"
+    },
+    {
+      "content_hash": "sha256:50f18f3a61fc51155b9096af0f7d27eff14e908d8d35b0a99513bf185381fb01",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s234~1(e)",
+      "ref": "TMA1995/s234~1(e)~8",
+      "style": "notetext",
+      "text": "shall not be registered as a trade mark.”."
+    }
+  ]
+}

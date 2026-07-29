@@ -1,0 +1,326 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:a47035152178cad5ad11cdaa28cd3d67ff89b442e38a286bfd5b8b8c183e357b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "11  Definition of pending"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "11",
+  "ref": "TMA1995/s11",
+  "text": "Application for registration under this Act (1) An application for the registration of a trade mark under this Act is pending from the time it is filed until: (a) it lapses (see sections 37 and 54A), is withdrawn (see section 214) or is rejected (see section 33); or (b) if the Registrar refuses (under section 55) to register the trade mark and there is no appeal against the decision—the end of the period allowed for the appeal; or (c) if the Registrar refuses (under section 55) to register the trade mark and: (i) there is an appeal against the decision; and (ii) the decision is confirmed on appeal; —the day on which the decision is confirmed on appeal; or (d) the trade mark is registered under section 68. Note: For file see section 6. Application for registration under repealed Act (2) An application for the registration of a trade mark under the repealed Act was pending immediately before 1 January 1996 if before that day: (a) the application had not lapsed (see subsection 48(1)), been withdrawn (see subsection 40A(1)) or refused (see subsection 44(1)); and (b) the Registrar had not refused (under section 50) to register the trade mark or if he or she had refused to register the trade mark: (i) the period allowed for appealing against the decision had not yet ended; or (ii) an appeal had been made against the decision but had not yet been decided; and (c) the trade mark had not been registered under section 53.",
+  "title": "Definition of pending",
+  "units": [
+    {
+      "content_hash": "sha256:01f134a001272a00036d8c88338a8f0d69c881fe9c988ed84a28de074f7a9f53",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s11~1",
+      "style": "SubsectionHead",
+      "text": "Application for registration under this Act"
+    },
+    {
+      "content_hash": "sha256:3f1c389b1fc7d2e081e0d7ea96ae113b19ef1164fc4deca5ad1f2721361727ac",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 81,
+          "start": 74,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s11(1)",
+      "style": "subsection",
+      "text": "(1) An application for the registration of a trade mark under this Act is pending from the time it is filed until:"
+    },
+    {
+      "content_hash": "sha256:4dc30a9a9519c8cc85708e4ec8246be2351b8da615b145df879e59ca9fa1c230",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s11(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s214",
+          "mention": "section 214"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s33",
+          "mention": "section 33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s37",
+          "mention": "sections 37 and 54A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s54A",
+          "mention": "sections 37 and 54A"
+        }
+      ],
+      "ref": "TMA1995/s11(1)(a)",
+      "style": "paragraph",
+      "text": "(a) it lapses (see sections 37 and 54A), is withdrawn (see section 214) or is rejected (see section 33); or"
+    },
+    {
+      "content_hash": "sha256:df1cc30be008f4cc02cc91620c0469d987a7dd8deccd85b8227324ae5f5179a9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s11(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s55",
+          "mention": "section 55"
+        }
+      ],
+      "ref": "TMA1995/s11(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the Registrar refuses (under section 55) to register the trade mark and there is no appeal against the decision—the end of the period allowed for the appeal; or"
+    },
+    {
+      "content_hash": "sha256:50cb0912a9bc7def7804c73aeb00afa1dfdfec4dcb2447d92595a89f121314e1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s11(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s55",
+          "mention": "section 55"
+        }
+      ],
+      "ref": "TMA1995/s11(1)(c)",
+      "style": "paragraph",
+      "text": "(c) if the Registrar refuses (under section 55) to register the trade mark and:"
+    },
+    {
+      "content_hash": "sha256:057e3c164266ae50511b0354a302d7988ab0710231c7e2915659b28885197853",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s11(1)(c)",
+      "ref": "TMA1995/s11(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) there is an appeal against the decision; and"
+    },
+    {
+      "content_hash": "sha256:db163febc70e9b52dc0709e206f816b1ea65c9bf598ac917f606ed8a5953850d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s11(1)(c)",
+      "ref": "TMA1995/s11(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the decision is confirmed on appeal;"
+    },
+    {
+      "content_hash": "sha256:4f41fb3342ab1abb39124640942816aabd2b6dc105160aa9799c6bb9e434c281",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s11(1)",
+      "ref": "TMA1995/s11(1)~1",
+      "style": "paragraph",
+      "text": "—the day on which the decision is confirmed on appeal; or"
+    },
+    {
+      "content_hash": "sha256:84d77ea984fd70bbd2af91043a3fff13b090b76f78556a6421475cd82fb9e302",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s11(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s68",
+          "mention": "section 68"
+        }
+      ],
+      "ref": "TMA1995/s11(1)(d)",
+      "style": "paragraph",
+      "text": "(d) the trade mark is registered under section 68."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s11(1)(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s11(1)(d)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    },
+    {
+      "content_hash": "sha256:796350750fc5876306c48ac237192a9566a7bcb11fe1aa0dd3b778ff8502c2eb",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s11~2",
+      "style": "SubsectionHead",
+      "text": "Application for registration under repealed Act"
+    },
+    {
+      "content_hash": "sha256:0e95580a69cb865ad4dd9ac1e77a1c26611a2343b8e90fe14dfdf486eec1007e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 90,
+          "start": 83,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s11(2)",
+      "style": "subsection",
+      "text": "(2) An application for the registration of a trade mark under the repealed Act was pending immediately before 1 January 1996 if before that day:"
+    },
+    {
+      "content_hash": "sha256:dd88c314614b3e8b9998a64eda21e4e38290e3f51320223f8a9be46742e067a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s11(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s40A(1)",
+          "mention": "subsection 40A(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)",
+          "mention": "subsection 44(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s48(1)",
+          "mention": "subsection 48(1)"
+        }
+      ],
+      "ref": "TMA1995/s11(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application had not lapsed (see subsection 48(1)), been withdrawn (see subsection 40A(1)) or refused (see subsection 44(1)); and"
+    },
+    {
+      "content_hash": "sha256:de3afe58c7cf4fed2cc4f5da2986c251c4258beb2cdbb7810ed4db930966bf93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s11(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s50",
+          "mention": "section 50"
+        }
+      ],
+      "ref": "TMA1995/s11(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar had not refused (under section 50) to register the trade mark or if he or she had refused to register the trade mark:"
+    },
+    {
+      "content_hash": "sha256:0ac6b24080803e8b392a3aa99912eac4da57703c6ad633c7e1222d139667924c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s11(2)(b)",
+      "ref": "TMA1995/s11(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the period allowed for appealing against the decision had not yet ended; or"
+    },
+    {
+      "content_hash": "sha256:5b572ff29772f9bb7b0ec46380d05fe9d45b347f4f40977140881cf9e9660090",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s11(2)(b)",
+      "ref": "TMA1995/s11(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) an appeal had been made against the decision but had not yet been decided; and"
+    },
+    {
+      "content_hash": "sha256:b073c12d269faee96662011871d008292eff544ffb4b53326742d0a8561487db",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s11(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s53",
+          "mention": "section 53"
+        }
+      ],
+      "ref": "TMA1995/s11(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the trade mark had not been registered under section 53."
+    }
+  ]
+}

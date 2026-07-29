@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div11"
+  ],
+  "content_hash": "sha256:6a782d4ffdcec725ac81094abaf426c304e5f25739f4b495da2c5c25621692ff",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 11—Miscellaneous",
+    "17A.70  Correction of errors or omissions in Record of International Registrations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.70",
+  "ref": "TMR1995/r17A.70",
+  "text": "(1) The Registrar may, on his or her own initiative, correct any error or omission in the Record of International Registrations. (2) A prescribed court may, on the application of an aggrieved person, order that the Registrar rectify the Record of International Registrations by: (a) entering anything wrongly omitted from it; or (b) correcting any error in it. (3) Section 90 of the Act applies, with the necessary modifications, for the purposes of an application under subregulation (2).",
+  "title": "Correction of errors or omissions in Record of International Registrations",
+  "units": [
+    {
+      "content_hash": "sha256:287a79472c4d2c1a6c0649a42eb826d44338abe9b2d4cbd4f0aaaf9f68fa2c86",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.70(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, on his or her own initiative, correct any error or omission in the Record of International Registrations."
+    },
+    {
+      "content_hash": "sha256:f6c7d1476b49be0b4dde3e4c0b2a6d91acaef5e8010dc7a8fa2509ef43da1258",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.70(2)",
+      "style": "subsection",
+      "text": "(2) A prescribed court may, on the application of an aggrieved person, order that the Registrar rectify the Record of International Registrations by:"
+    },
+    {
+      "content_hash": "sha256:e89d576eb12314eb618a4ae784203cc383f49bd1f2a2934a93ab19549b309c61",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.70(2)",
+      "ref": "TMR1995/r17A.70(2)(a)",
+      "style": "paragraph",
+      "text": "(a) entering anything wrongly omitted from it; or"
+    },
+    {
+      "content_hash": "sha256:9b3f749f86cc06e68219c4800893d7f2d92818b737898ef02b6e0fbc88a98240",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.70(2)",
+      "ref": "TMR1995/r17A.70(2)(b)",
+      "style": "paragraph",
+      "text": "(b) correcting any error in it."
+    },
+    {
+      "content_hash": "sha256:28bd0ce297f5c0f9e2560d3466b611c9ed86276736227e895d2de22a8dcfeaab",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s90",
+          "mention": "Section 90"
+        }
+      ],
+      "ref": "TMR1995/r17A.70(3)",
+      "style": "subsection",
+      "text": "(3) Section 90 of the Act applies, with the necessary modifications, for the purposes of an application under subregulation (2)."
+    }
+  ]
+}

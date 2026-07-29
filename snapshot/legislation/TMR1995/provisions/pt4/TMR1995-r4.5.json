@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:58e04feba766716be5909073b3cb8a080bb025692d37e891df2e04576187f5cd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.5  Period for claiming priority for an application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.5",
+  "ref": "TMR1995/r4.5",
+  "text": "For the purposes of subsection 29(1) of the Act (which deals with claims for priority), the prescribed period in relation to a claim for a right of priority for an application is 2 working days after filing the application.",
+  "title": "Period for claiming priority for an application",
+  "units": [
+    {
+      "content_hash": "sha256:58e04feba766716be5909073b3cb8a080bb025692d37e891df2e04576187f5cd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)",
+          "mention": "subsection 29(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.5~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 29(1) of the Act (which deals with claims for priority), the prescribed period in relation to a claim for a right of priority for an application is 2 working days after filing the application."
+    }
+  ]
+}

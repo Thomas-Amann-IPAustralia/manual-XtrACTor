@@ -1,0 +1,228 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:87756e29d4432517c45cac01090c96b5af87be8f29504d4998620ed782ad459b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.21  What fees are payable"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.21",
+  "ref": "TMR1995/r21.21",
+  "text": "(1) For subsection 223(1) of the Act (which deals with fees), the fees specified in an item in Schedule 9 are payable in respect of a matter specified in that item. (2) If a person asks the Registrar, under subsection 75(1) of the Act, to renew the registration of a trade mark before it expires, the fee payable for the renewal is the fee that would be payable if the person had asked for renewal of the registration on the day when it would otherwise expire. (3) Subregulation (4) applies if a person asks the Registrar, under section 79 of the Act, to renew the registration of a trade mark after it expires. (4) The fees payable for the renewal are: (a) the fee that would have been payable if the person had asked for renewal of the registration on the day when it expired; and (b) the additional fee stated in item 10 of Schedule 9 for the period: (i) beginning on the day after the day when the registration expires; and (ii) ending on the day when the request for renewal is filed. (5) If a person asks the Registrar, under section 80D of the Act, to renew the registration of a trade mark for one or more potential renewal periods, the fee payable is the sum of the fees payable for the potential renewal period or periods requested by the person, as those fees were at the Register entry day. (6) Subregulation (7) applies if a person asks the Registrar, under paragraph 80G(1)(b) of the Act (which deals with renewal within 6 months after the end of the prescribed period) to renew the registration of a trade mark for one or more potential renewal periods. (7) The fee payable for the renewal is: (a) the sum of the fees payable for the potential renewal period or periods requested by the person, as those fees were at the Register entry day; and (b) the additional fee stated in item 12 of Schedule 9 for the period: (i) beginning on the day after the day when the prescribed period expires; and (ii) ending on the day when the request for renewal is filed.",
+  "title": "What fees are payable",
+  "units": [
+    {
+      "content_hash": "sha256:29ec95d98cecd24af3ae69adda00c30190d8e93d758fc0f4c0b5cacce0018346",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(1)",
+          "mention": "subsection 223(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.21(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 223(1) of the Act (which deals with fees), the fees specified in an item in Schedule 9 are payable in respect of a matter specified in that item."
+    },
+    {
+      "content_hash": "sha256:abac8cb4d41ed5740e095ebd186178895676e03c58cabecd20820f657ef8ee4c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75(1)",
+          "mention": "subsection 75(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.21(2)",
+      "style": "subsection",
+      "text": "(2) If a person asks the Registrar, under subsection 75(1) of the Act, to renew the registration of a trade mark before it expires, the fee payable for the renewal is the fee that would be payable if the person had asked for renewal of the registration on the day when it would otherwise expire."
+    },
+    {
+      "content_hash": "sha256:0cd0d66908437e64e5bd5262fd3243859ea7e031da144a32f73c6f6118766f87",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 79"
+        }
+      ],
+      "ref": "TMR1995/r21.21(3)",
+      "style": "subsection",
+      "text": "(3) Subregulation (4) applies if a person asks the Registrar, under section 79 of the Act, to renew the registration of a trade mark after it expires."
+    },
+    {
+      "content_hash": "sha256:8bf09bdf99f54063edaabc3d13ac1e80e551bc677cdbe6f3d81143708a0440a5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.21(4)",
+      "style": "subsection",
+      "text": "(4) The fees payable for the renewal are:"
+    },
+    {
+      "content_hash": "sha256:7ef60c20dfb23b7fdb7cb5f1aaa1e2ea19d54ace3bf6d6c02a395f2c052ee418",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.21(4)",
+      "ref": "TMR1995/r21.21(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the fee that would have been payable if the person had asked for renewal of the registration on the day when it expired; and"
+    },
+    {
+      "content_hash": "sha256:e34f71e18b017290255c664e5adf405c2b134fc3c5f380967f72d1851daacab3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.21(4)",
+      "ref": "TMR1995/r21.21(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the additional fee stated in item 10 of Schedule 9 for the period:"
+    },
+    {
+      "content_hash": "sha256:1e16ff34680cce3f587e28e8313e8347a516c870b560d179a7ca2c225c29789e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.21(4)(b)",
+      "ref": "TMR1995/r21.21(4)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) beginning on the day after the day when the registration expires; and"
+    },
+    {
+      "content_hash": "sha256:d987d675d7d7516c36c76493979ee6811e936b751cfca56f2b677c8ea513431d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.21(4)(b)",
+      "ref": "TMR1995/r21.21(4)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) ending on the day when the request for renewal is filed."
+    },
+    {
+      "content_hash": "sha256:e43bee1e869f2a9074a4b24ca5c97e2a5a67c46826a4296b65dffe1cf96223e3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80D",
+          "mention": "section 80D"
+        }
+      ],
+      "ref": "TMR1995/r21.21(5)",
+      "style": "subsection",
+      "text": "(5) If a person asks the Registrar, under section 80D of the Act, to renew the registration of a trade mark for one or more potential renewal periods, the fee payable is the sum of the fees payable for the potential renewal period or periods requested by the person, as those fees were at the Register entry day."
+    },
+    {
+      "content_hash": "sha256:d0a08f23999ed50d40cba7b7e6b804698d151d74334efd83af1de0357a82aed1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80G(1)(b)",
+          "mention": "paragraph 80G(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.21(6)",
+      "style": "subsection",
+      "text": "(6) Subregulation (7) applies if a person asks the Registrar, under paragraph 80G(1)(b) of the Act (which deals with renewal within 6 months after the end of the prescribed period) to renew the registration of a trade mark for one or more potential renewal periods."
+    },
+    {
+      "content_hash": "sha256:560e12c7d2f429a19f6b0e5eaf355b67726a38ba4fc0765aa8b36af72b3647bf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.21(7)",
+      "style": "subsection",
+      "text": "(7) The fee payable for the renewal is:"
+    },
+    {
+      "content_hash": "sha256:43258091390892cdb5f038432952536b273eaa1f0a063545aeb067e43047aedc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r21.21(7)",
+      "ref": "TMR1995/r21.21(7)(a)",
+      "style": "paragraph",
+      "text": "(a) the sum of the fees payable for the potential renewal period or periods requested by the person, as those fees were at the Register entry day; and"
+    },
+    {
+      "content_hash": "sha256:163f4b00858d7523eb05d9decb9f2427429a3b7270e508e7c50e1540a166d02f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r21.21(7)",
+      "ref": "TMR1995/r21.21(7)(b)",
+      "style": "paragraph",
+      "text": "(b) the additional fee stated in item 12 of Schedule 9 for the period:"
+    },
+    {
+      "content_hash": "sha256:31597508af1ef3658373dac9cc38192d664f42802e3f8c8d6a1589820b7d874e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r21.21(7)(b)",
+      "ref": "TMR1995/r21.21(7)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) beginning on the day after the day when the prescribed period expires; and"
+    },
+    {
+      "content_hash": "sha256:d987d675d7d7516c36c76493979ee6811e936b751cfca56f2b677c8ea513431d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r21.21(7)(b)",
+      "ref": "TMR1995/r21.21(7)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) ending on the day when the request for renewal is filed."
+    }
+  ]
+}

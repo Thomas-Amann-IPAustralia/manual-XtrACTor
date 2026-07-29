@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div1"
+  ],
+  "content_hash": "sha256:be71fe055fd619442dddba7eee7b34427fc7efc13075d596012c8acd691e52e0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 1—Amendment of application for registration of trade mark and other documents",
+    "6.2  Request to amend before publication of details"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.2",
+  "ref": "TMR1995/r6.2",
+  "text": "For the purposes of paragraph 64(b) of the Act (which deals with amendments before publication), the period for requesting an amendment is 14 days after filing the application for the registration of the trade mark.",
+  "title": "Request to amend before publication of details",
+  "units": [
+    {
+      "content_hash": "sha256:be71fe055fd619442dddba7eee7b34427fc7efc13075d596012c8acd691e52e0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64(b)",
+          "mention": "paragraph 64(b)"
+        }
+      ],
+      "ref": "TMR1995/r6.2~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 64(b) of the Act (which deals with amendments before publication), the period for requesting an amendment is 14 days after filing the application for the registration of the trade mark."
+    }
+  ]
+}

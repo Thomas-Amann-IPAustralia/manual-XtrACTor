@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdiva"
+  ],
+  "content_hash": "sha256:d247c93b8e6c726101b97ab46c2b35c4b2cc07afa44131f4383ccaf70830d4b8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "5.10  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.10",
+  "ref": "TMR1995/r5.10",
+  "text": "(1) The Registrar may grant a request under subregulation 5.9(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the request justify the extension. (2) However, if the request is made after the period for filing the notice or statement of grounds and particulars has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the request. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:fb6bbcdcb01a4f8034512736d38d44242765cbee95c1fa68e2d8555ea264f450",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.9(1)",
+          "mention": "subregulation 5.9(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.10(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant a request under subregulation 5.9(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the request justify the extension."
+    },
+    {
+      "content_hash": "sha256:8b57622576fdc01366129ac2ce5d2de5396e4c4483b04e737c4c251074d9f7b5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.10(2)",
+      "style": "subsection",
+      "text": "(2) However, if the request is made after the period for filing the notice or statement of grounds and particulars has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the request."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.10(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

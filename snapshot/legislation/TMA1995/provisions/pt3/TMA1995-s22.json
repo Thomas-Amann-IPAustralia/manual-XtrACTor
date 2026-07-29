@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:3ba8e0208ce2f7d22be6398b1e5bb28964447e7ba52bfa800289c0bf6c280562",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "22  Power of registered owner to deal with trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "22",
+  "ref": "TMA1995/s22",
+  "text": "(1) The registered owner of a trade mark may, subject only to any rights appearing in the Register to be vested in another person, deal with the trade mark as its absolute owner and give in good faith discharges for any consideration for that dealing. (2) This section does not protect a person who deals with the registered owner otherwise than: (a) as a purchaser in good faith for value; and (b) without notice of any fraud on the part of the owner. Note: For registered owner see section 6. (2A) Despite subsection (1), the recording in the Register of a right that is a PPSA security interest does not affect a dealing with a trade mark. Note: For PPSA security interest see section 6. (3) Equities in relation to a registered trade mark may be enforced against the registered owner, except to the prejudice of a purchaser in good faith for value. Note: For registered owner and registered trade mark see section 6. (4) Subsection (3) does not apply in relation to an equity that is a PPSA security interest. Note: The Personal Property Securities Act 2009 deals with the rights of purchasers of personal property (including intellectual property such as trade marks) that is subject to PPSA security interests. That Act also provides for the priority and enforcement of PPSA security interests. See the following provisions of that Act: (a) Part 2.5 (taking personal property free of security interests); (b) Part 2.6 (priority between security interests); (c) Chapter 4 (enforcement of security interests).",
+  "title": "Power of registered owner to deal with trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:d91d0f4d81fd3d4f62edff6ec5363436c1378c321d5d2cba9f16d5b1274ad3f5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s22(1)",
+      "style": "subsection",
+      "text": "(1) The registered owner of a trade mark may, subject only to any rights appearing in the Register to be vested in another person, deal with the trade mark as its absolute owner and give in good faith discharges for any consideration for that dealing."
+    },
+    {
+      "content_hash": "sha256:524878ecfb29e3a0d748f697dd7badf9d9ae817b98b74b96aedbc2147503494b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s22(2)",
+      "style": "subsection",
+      "text": "(2) This section does not protect a person who deals with the registered owner otherwise than:"
+    },
+    {
+      "content_hash": "sha256:d716f8f42b0b995c3b92cbb59a23bc1ab2563a05d71553cd51254b10dbcb9819",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s22(2)",
+      "ref": "TMA1995/s22(2)(a)",
+      "style": "paragraph",
+      "text": "(a) as a purchaser in good faith for value; and"
+    },
+    {
+      "content_hash": "sha256:c3f245bfbd2b042c5333c90ce79ac5b03b41ffb616a490366f6abd945797b97b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s22(2)",
+      "ref": "TMA1995/s22(2)(b)",
+      "style": "paragraph",
+      "text": "(b) without notice of any fraud on the part of the owner."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s22(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s22(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:fa69de87931b96e268de5c2408a39c0a2e0d1d375fe5d5625646eab8f9d3b3d4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s22(2A)",
+      "style": "subsection",
+      "text": "(2A) Despite subsection (1), the recording in the Register of a right that is a PPSA security interest does not affect a dealing with a trade mark."
+    },
+    {
+      "content_hash": "sha256:9503ddf40033425eb343496c3409c9efe4cce135d05806f88b840bf20f8d12eb",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 10,
+          "text": "PPSA security interest",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s22(2A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s22(2A)~1",
+      "style": "notetext",
+      "text": "Note: For PPSA security interest see section 6."
+    },
+    {
+      "content_hash": "sha256:d579a0f57797dceb7ac65f96c8438bcef0d59b31f74c9878be0222b85bc07e6c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s22(3)",
+      "style": "subsection",
+      "text": "(3) Equities in relation to a registered trade mark may be enforced against the registered owner, except to the prejudice of a purchaser in good faith for value."
+    },
+    {
+      "content_hash": "sha256:26325cc811a4826f280d8d6b070712e21a6564b224d17cc256a6d1663dcd955f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 31,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s22(3)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:85abb7c76b6ec7e80b51de6850d50cc86b6ff6c11fd3852b3a47d283455d5b2a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s22(4)",
+      "style": "subsection",
+      "text": "(4) Subsection (3) does not apply in relation to an equity that is a PPSA security interest."
+    },
+    {
+      "content_hash": "sha256:ab9f11e075f126658bb9f9e9d7aca61c0c94ad4291f89672f3513eae7b6126df",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 47,
+          "start": 10,
+          "text": "Personal Property Securities Act 2009",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s22(4)",
+      "ref": "TMA1995/s22(4)~1",
+      "style": "notetext",
+      "text": "Note: The Personal Property Securities Act 2009 deals with the rights of purchasers of personal property (including intellectual property such as trade marks) that is subject to PPSA security interests. That Act also provides for the priority and enforcement of PPSA security interests. See the following provisions of that Act:"
+    },
+    {
+      "content_hash": "sha256:f01918a6f6ad5d07179676557d87e3745a8a88712da7f484e7827f2ff259a85b",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s22(4)~1",
+      "ref": "TMA1995/s22(4)~1~1",
+      "style": "notepara",
+      "text": "(a) Part 2.5 (taking personal property free of security interests);"
+    },
+    {
+      "content_hash": "sha256:187a5d6463a8ab660225e4833a0da121d283765cce8fe4b0a8668a933c86ca2b",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s22(4)~1",
+      "ref": "TMA1995/s22(4)~1~2",
+      "style": "notepara",
+      "text": "(b) Part 2.6 (priority between security interests);"
+    },
+    {
+      "content_hash": "sha256:67b20ec95734a66c293fb0510aa3ca4b9d3f5e7130eaea3f90fa54bd48b1e677",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s22(4)~1",
+      "ref": "TMA1995/s22(4)~1~3",
+      "style": "notepara",
+      "text": "(c) Chapter 4 (enforcement of security interests)."
+    }
+  ]
+}

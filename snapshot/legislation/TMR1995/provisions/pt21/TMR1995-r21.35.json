@@ -1,0 +1,401 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:cc2740095200656c42133f4350b3bd28e1faa05b24a7f2428efe52240245e5de",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.35  Review of decisions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.35",
+  "ref": "TMR1995/r21.35",
+  "text": "(1) In this regulation: decision has the same meaning as in the Administrative Review Tribunal Act 2024. (2) Application may be made to the ART for review of a decision of: (a) the Board under the following provisions: (i) regulation 20.5 (‘evidence of academic qualifications’); (ii) regulation 20.7 (‘evidence of knowledge requirements’); or (b) the Designated Manager under the following provisions of the Patents Regulations 1991 in their application to trade marks attorneys: (i) regulation 20.28 (‘failure to comply with continuing professional education requirements’); (ii) subregulation 20.29(3) (imposing a condition when restoring attorney’s name to Register of Trade Marks Attorneys); (iii) regulation 20.31 (‘returning to the Register in other circumstances’); or (ba) the Designated Manager under the following provisions: (i) regulation 20.14B (suspending registration for serious offence); (ii) regulation 20A.8 (failing to maintain professional indemnity insurance); or (bb) a Panel of the Disciplinary Tribunal under regulation 20A.18 (decision of Panel of Disciplinary Tribunal); or (c) a Panel of the Disciplinary Tribunal under the following provisions of the Patents Regulations 1991 in their application to trade marks attorneys: (i) regulation 20.43 (‘decision of Panel of Disciplinary Tribunal’); (ii) regulation 20.44 (‘penalties—professional misconduct’); (iii) regulation 20.45 (‘penalties—unsatisfactory professional conduct’); (iv) regulation 20.46 (‘finding that attorney was unqualified at time of registration’); (v) regulation 20.47 (‘finding that registration obtained by fraud’).",
+  "title": "Review of decisions",
+  "units": [
+    {
+      "content_hash": "sha256:c0447edfac33f2239cf9a60e09509ea3212af7ec31d50c10798d6017dd449bfc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.35(1)",
+      "style": "subsection",
+      "text": "(1) In this regulation:"
+    },
+    {
+      "content_hash": "sha256:f7f55ab3ae2ce5e5f24ddae982db25d4a4f0f5a8b45af460965d22740db67ab2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 8,
+          "start": 0,
+          "text": "decision",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 79,
+          "start": 40,
+          "text": "Administrative Review Tribunal Act 2024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.35~1",
+      "style": "Definition",
+      "text": "decision has the same meaning as in the Administrative Review Tribunal Act 2024."
+    },
+    {
+      "content_hash": "sha256:d96e7400145749fd12cd977a6c54b0c18feb29ae0f3abd1989f86905d356820a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.35(2)",
+      "style": "subsection",
+      "text": "(2) Application may be made to the ART for review of a decision of:"
+    },
+    {
+      "content_hash": "sha256:d83f5c5a91a802696f4d5c9cfdd71356635d539788f6ee83c6373e9d58a5aa94",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.35(2)",
+      "ref": "TMR1995/r21.35(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Board under the following provisions:"
+    },
+    {
+      "content_hash": "sha256:98f78ca8a742805dcb537858f55f3a592be570e88f588414951cceb6fe5388f3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.35(2)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.5",
+          "mention": "regulation 20.5"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) regulation 20.5 (‘evidence of academic qualifications’);"
+    },
+    {
+      "content_hash": "sha256:0d65ae670e97e246ef6d0c572f43f27f4728d851376ae2fa96c242686145d3b5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.35(2)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.7",
+          "mention": "regulation 20.7"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) regulation 20.7 (‘evidence of knowledge requirements’); or"
+    },
+    {
+      "content_hash": "sha256:4875e34528b8f7e8d2e188688a4e5674c81e921165284cf60c9a3a9fbb7938c2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 72,
+          "start": 65,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 86,
+          "start": 73,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 89,
+          "start": 86,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.35(2)",
+      "ref": "TMR1995/r21.35(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the Designated Manager under the following provisions of the Patents Regulations 1991 in their application to trade marks attorneys:"
+    },
+    {
+      "content_hash": "sha256:b6827f8ade35207e2a76f092f2c9ce802414d6cfdf897f8ef43063116bb01095",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.35(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.28",
+          "mention": "regulation 20.28"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) regulation 20.28 (‘failure to comply with continuing professional education requirements’);"
+    },
+    {
+      "content_hash": "sha256:d34cf5e72ddf8b4c1b4d288173ed214bd9ac8012ca3dec4eee3f1c1ab1831f0a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r21.35(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.29(3)",
+          "mention": "subregulation 20.29(3)"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) subregulation 20.29(3) (imposing a condition when restoring attorney’s name to Register of Trade Marks Attorneys);"
+    },
+    {
+      "content_hash": "sha256:5151f2f1bdc75e94cb9ec190dc4820c0f6ec4f12d0e1894abf3b9af06468445e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r21.35(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.31",
+          "mention": "regulation 20.31"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) regulation 20.31 (‘returning to the Register in other circumstances’); or"
+    },
+    {
+      "content_hash": "sha256:a6d2e5a99bb07a8072ddac967ea04e5f1ab2e7a1e8ceb4316aec09582bcccffe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(ba)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r21.35(2)",
+      "ref": "TMR1995/r21.35(2)(ba)",
+      "style": "paragraph",
+      "text": "(ba) the Designated Manager under the following provisions:"
+    },
+    {
+      "content_hash": "sha256:b64a1cfbfdac4a5fa44883d3ca12720c4d2f5c94f71ca2e2f7fcc0de5ddaea8f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r21.35(2)(ba)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.14B",
+          "mention": "regulation 20.14B"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(ba)(i)",
+      "style": "paragraphsub",
+      "text": "(i) regulation 20.14B (suspending registration for serious offence);"
+    },
+    {
+      "content_hash": "sha256:0c1f72423c7e1346c2371655b76ca05d51d1329ec936662d55b93da2cdd24eac",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r21.35(2)(ba)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.8",
+          "mention": "regulation 20A.8"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(ba)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) regulation 20A.8 (failing to maintain professional indemnity insurance); or"
+    },
+    {
+      "content_hash": "sha256:26ec327fb3d1233f21381d9e45f4becceff305387c6269fc8d5959b130259256",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(bb)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r21.35(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.18",
+          "mention": "regulation 20A.18"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(bb)",
+      "style": "paragraph",
+      "text": "(bb) a Panel of the Disciplinary Tribunal under regulation 20A.18 (decision of Panel of Disciplinary Tribunal); or"
+    },
+    {
+      "content_hash": "sha256:c7c429ca72bbe7bbecb44707bd82b86c795ea96966bc43572e9cdfe501d5b76d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 86,
+          "start": 79,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 100,
+          "start": 87,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 103,
+          "start": 100,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r21.35(2)",
+      "ref": "TMR1995/r21.35(2)(c)",
+      "style": "paragraph",
+      "text": "(c) a Panel of the Disciplinary Tribunal under the following provisions of the Patents Regulations 1991 in their application to trade marks attorneys:"
+    },
+    {
+      "content_hash": "sha256:b62cf7d098578397558d392ed1cb2ad0abeb6e52302b92fe3a64ca56fac65a30",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r21.35(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.43",
+          "mention": "regulation 20.43"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) regulation 20.43 (‘decision of Panel of Disciplinary Tribunal’);"
+    },
+    {
+      "content_hash": "sha256:a9026f6b8f8c52400f5342c80c561f3dc6fca925b1a7ee4aaf64f9bf58cad67a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r21.35(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.44",
+          "mention": "regulation 20.44"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) regulation 20.44 (‘penalties—professional misconduct’);"
+    },
+    {
+      "content_hash": "sha256:6c3a5a0aa82ffa9b23dc4003ad46a50851ef3cab388a38218e6d3885a82c087b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r21.35(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.45",
+          "mention": "regulation 20.45"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(c)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) regulation 20.45 (‘penalties—unsatisfactory professional conduct’);"
+    },
+    {
+      "content_hash": "sha256:4cfb9fdc38e7f774b3ea3e5e93fd182fbfa5dd9175f3bad052a2f5ea7b244a17",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r21.35(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.46",
+          "mention": "regulation 20.46"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(c)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) regulation 20.46 (‘finding that attorney was unqualified at time of registration’);"
+    },
+    {
+      "content_hash": "sha256:c2cfcfae0b44d19849a680094fa39eb8ee28727eaf0eaa80028d889f1cf52212",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(v)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r21.35(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.47",
+          "mention": "regulation 20.47"
+        }
+      ],
+      "ref": "TMR1995/r21.35(2)(c)(v)",
+      "style": "paragraphsub",
+      "text": "(v) regulation 20.47 (‘finding that registration obtained by fraud’)."
+    }
+  ]
+}

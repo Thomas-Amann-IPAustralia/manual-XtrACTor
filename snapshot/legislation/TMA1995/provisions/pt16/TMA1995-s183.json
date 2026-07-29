@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:4386e7dcb95488c77ebf76bbb6a680fee910b132dad60c5ad0dc1ccf0fa7ba33",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "183  Delegation of Commission’s powers and functions"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "183",
+  "ref": "TMA1995/s183",
+  "text": "The Commission may, by resolution, delegate all or any of its powers and functions under this Part to a member of the Commission. Note: See section 34AB of the Acts Interpretation Act 1901 about the effect of this section.",
+  "title": "Delegation of Commission’s powers and functions",
+  "units": [
+    {
+      "content_hash": "sha256:419d8629b5c0cd8ba41a758d56f87968b0f17ef44578a389c40ed07bd4737910",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s183~1",
+      "style": "subsection",
+      "text": "The Commission may, by resolution, delegate all or any of its powers and functions under this Part to a member of the Commission."
+    },
+    {
+      "content_hash": "sha256:1133e212d36243d2d12bbf3e0a7bacbf15453db12cfc8fb0f92710e362fd412d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 58,
+          "start": 30,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s183~1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s34A",
+          "mention": "section 34AB of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s183~1~1",
+      "style": "notetext",
+      "text": "Note: See section 34AB of the Acts Interpretation Act 1901 about the effect of this section."
+    }
+  ]
+}

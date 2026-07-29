@@ -1,0 +1,120 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:ad23096f3b2daf692062f22aef17e3fac42d34d8b48b24f46020a0cffb5e4bf0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.5  Consideration of applications"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.5",
+  "ref": "TMR1995/r16.5",
+  "text": "(1) In considering an application for registration of a certification trade mark for the purposes of making a decision under subsection 175(2), (3) or (4) of the Act (which deal with consideration of applications), the Commission must have regard to the matters specified in subregulation (2). (2) The Commission must have regard to: (a) the initial assessment; and (b) any response in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3) that is relevant; and (c) any relevant submission that is made to the Commission in writing about the initial assessment, whether or not the submission is made in relation to a conference; and (d) any relevant oral submission made during a conference; and (e) any other relevant matter.",
+  "title": "Consideration of applications",
+  "units": [
+    {
+      "content_hash": "sha256:2708552e6317c3cf105122704df63d7ff90f2d1775cdbded086d3e5cba148273",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(2)",
+          "mention": "subsection 175(2)"
+        }
+      ],
+      "ref": "TMR1995/r16.5(1)",
+      "style": "subsection",
+      "text": "(1) In considering an application for registration of a certification trade mark for the purposes of making a decision under subsection 175(2), (3) or (4) of the Act (which deal with consideration of applications), the Commission must have regard to the matters specified in subregulation (2)."
+    },
+    {
+      "content_hash": "sha256:44b208dff796a3ba75513d3fc10742403484c167d4ae373c6774ce28ba5cc10c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.5(2)",
+      "style": "subsection",
+      "text": "(2) The Commission must have regard to:"
+    },
+    {
+      "content_hash": "sha256:a82f56deec667267f42add122aa7d30d2886f654ff1c43e7658778b60f0edbe7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r16.5(2)",
+      "ref": "TMR1995/r16.5(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the initial assessment; and"
+    },
+    {
+      "content_hash": "sha256:e6af75a340583f8d64d988e370156cc145198cdcf65b3a790a7935410f767586",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.5(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(2)",
+          "mention": "subregulation 16.3(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.5(2)(b)",
+      "style": "paragraph",
+      "text": "(b) any response in relation to a notice under subregulation 16.3(2) or a publication under subregulation 16.3(3) that is relevant; and"
+    },
+    {
+      "content_hash": "sha256:3df220d569acaacd1e5c9df8980abdf27ae307afbe8da0427304a4f70a667d5d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r16.5(2)",
+      "ref": "TMR1995/r16.5(2)(c)",
+      "style": "paragraph",
+      "text": "(c) any relevant submission that is made to the Commission in writing about the initial assessment, whether or not the submission is made in relation to a conference; and"
+    },
+    {
+      "content_hash": "sha256:b23bcd40cd722931d8e609b48ec8679aa7a63a5a3e6e7f2931d68b19b740b40f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r16.5(2)",
+      "ref": "TMR1995/r16.5(2)(d)",
+      "style": "paragraph",
+      "text": "(d) any relevant oral submission made during a conference; and"
+    },
+    {
+      "content_hash": "sha256:cbf59dcc1dcdaf13731b5455b778815da42ca030532032e43d26f71d109be922",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r16.5(2)",
+      "ref": "TMR1995/r16.5(2)(e)",
+      "style": "paragraph",
+      "text": "(e) any other relevant matter."
+    }
+  ]
+}

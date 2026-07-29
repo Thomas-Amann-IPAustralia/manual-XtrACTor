@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:7af8c5f29c3242577fb2ab415e5034070f3c2d8b7a5a996c88a39ee9433ed9d2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "59  Applicant not intending to use trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "59",
+  "ref": "TMA1995/s59",
+  "text": "The registration of a trade mark may be opposed on the ground that the applicant does not intend: (a) to use, or authorise the use of, the trade mark in Australia; or (b) to assign the trade mark to a body corporate for use by the body corporate in Australia; in relation to the goods and/or services specified in the application. Note: For applicant see section 6.",
+  "title": "Applicant not intending to use trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:ee9c6db79dced3c78a68422ec6c571b7e9c5e682603d52d656ef29a05e94cd63",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s59~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark may be opposed on the ground that the applicant does not intend:"
+    },
+    {
+      "content_hash": "sha256:d3457787fa803abac873df89333f3d8eb378d2baaaec82214f17831b813276cc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s59~1",
+      "ref": "TMA1995/s59~1(a)",
+      "style": "paragraph",
+      "text": "(a) to use, or authorise the use of, the trade mark in Australia; or"
+    },
+    {
+      "content_hash": "sha256:cebdc17acc240cd8ea0a2b807bde769a7ccf98632f221eb89fee4d8b62483579",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s59~1",
+      "ref": "TMA1995/s59~1(b)",
+      "style": "paragraph",
+      "text": "(b) to assign the trade mark to a body corporate for use by the body corporate in Australia;"
+    },
+    {
+      "content_hash": "sha256:6be541a552e40029ff0731e4bb49d6988ddc0292f57bc674b6bbec751eadaf44",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s59~2",
+      "style": "subsection2",
+      "text": "in relation to the goods and/or services specified in the application."
+    },
+    {
+      "content_hash": "sha256:41e164bb53fd8c2e42da3fec14283d1b0cdedb4ba275d504e98fa3bf72a5b01e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s59~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s59~2~1",
+      "style": "notetext",
+      "text": "Note: For applicant see section 6."
+    }
+  ]
+}

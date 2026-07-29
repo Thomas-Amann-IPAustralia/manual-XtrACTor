@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:99d43a7d3e9924a2023d9155e9eca77819f7b8a9d743db2e2152a16f79b25f4e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.9  Examination—applicant’s response to report"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.9",
+  "ref": "TMR1995/r4.9",
+  "text": "(1) An applicant may respond in writing to the Registrar’s report under regulation 4.8. (2) The response may: (a) contest a belief of the Registrar that is expressed in the report; and (b) contest another matter that is mentioned in the report; and (c) provide further documents or evidence in support of the application; and (d) request that the application be amended in accordance with the Act. Note: Section 65 of the Act relates to the amendment of an application after particulars of the application have been published.",
+  "title": "Examination—applicant’s response to report",
+  "units": [
+    {
+      "content_hash": "sha256:12980e01e8a80040cd9e26e5d736d2ffe41c0ee535fd14bbe76252c6d232ce16",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "regulation 4.8"
+        }
+      ],
+      "ref": "TMR1995/r4.9(1)",
+      "style": "subsection",
+      "text": "(1) An applicant may respond in writing to the Registrar’s report under regulation 4.8."
+    },
+    {
+      "content_hash": "sha256:595d53b825407be60421e9c1351be4f12003418867b58b77544234bb57da9dc2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.9(2)",
+      "style": "subsection",
+      "text": "(2) The response may:"
+    },
+    {
+      "content_hash": "sha256:b5b899a4a6abf4d7c1994bc72fe7c7a7ed3eb038daf1d1a0184ff09e39e38829",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.9(2)",
+      "ref": "TMR1995/r4.9(2)(a)",
+      "style": "paragraph",
+      "text": "(a) contest a belief of the Registrar that is expressed in the report; and"
+    },
+    {
+      "content_hash": "sha256:8cab189ec328ba60bc1bca14fa4522e1e5884764f99dfa24602fe7ac50af411d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.9(2)",
+      "ref": "TMR1995/r4.9(2)(b)",
+      "style": "paragraph",
+      "text": "(b) contest another matter that is mentioned in the report; and"
+    },
+    {
+      "content_hash": "sha256:92f8bf5159b6690fe61f95e45e78b33a53c7c6151d1a2ebc51325071604d0106",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.9(2)",
+      "ref": "TMR1995/r4.9(2)(c)",
+      "style": "paragraph",
+      "text": "(c) provide further documents or evidence in support of the application; and"
+    },
+    {
+      "content_hash": "sha256:306df2bf5d4a58f2c108e554fd13fc0d5df52b56953ed506a14aac439eda8e0b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.9(2)",
+      "ref": "TMR1995/r4.9(2)(d)",
+      "style": "paragraph",
+      "text": "(d) request that the application be amended in accordance with the Act."
+    },
+    {
+      "content_hash": "sha256:d03b8209f6617de1598d9f49728d78f5364909b3b5359e09d491d7841ab1f437",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.9(2)(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65",
+          "mention": "Section 65"
+        }
+      ],
+      "ref": "TMR1995/r4.9(2)(d)~1",
+      "style": "notetext",
+      "text": "Note: Section 65 of the Act relates to the amendment of an application after particulars of the application have been published."
+    }
+  ]
+}

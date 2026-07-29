@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:ba821df70b995337d2f1b8faa3a4efa48e35625ca798da463926f2db8e30a21f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.2A  AFS request submitted as application—requirements for filing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.2A",
+  "ref": "TMR1995/r4.2A",
+  "text": "An AFS request that is submitted as an application for registration of a trade mark under this Part may be taken as having been filed only if the Registrar is satisfied that all fees have been paid in respect of the application within the period of 5 working days mentioned in subregulation 3A.5(1), or such extended period as decided by the Registrar under regulation 3A.7.",
+  "title": "AFS request submitted as application—requirements for filing",
+  "units": [
+    {
+      "content_hash": "sha256:ba821df70b995337d2f1b8faa3a4efa48e35625ca798da463926f2db8e30a21f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.5(1)",
+          "mention": "subregulation 3A.5(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.7",
+          "mention": "regulation 3A.7"
+        }
+      ],
+      "ref": "TMR1995/r4.2A~1",
+      "style": "subsection",
+      "text": "An AFS request that is submitted as an application for registration of a trade mark under this Part may be taken as having been filed only if the Registrar is satisfied that all fees have been paid in respect of the application within the period of 5 working days mentioned in subregulation 3A.5(1), or such extended period as decided by the Registrar under regulation 3A.7."
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:b36831a2a71118ab4026e39a8435da1a1ac2d276002c56a57ab67d5d5924ab24",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.28  Extension of time—prescribed acts and documents"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.28",
+  "ref": "TMR1995/r21.28",
+  "text": "(1) For the purposes of paragraph (a) of the definition of relevant act in subsection 224(8) of the Act, the following acts are prescribed: (a) complying with the requirements of subregulation 4.2(1); (aa) filing notice of a claim to a right of priority under subsection 29(1) of the Act; (b) applying for the registration of a trade mark in the circumstances described in paragraph 29(1)(b) of the Act; (c) making a divisional application for the registration of a trade mark under subsection 45(1) of the Act; (f) filing evidence under regulation 5.14, 9.16, 17A.34J or 17A.48R; (j) requesting that an application for the registration of a trade mark be amended under paragraph 64(b) of the Act; (k) requesting renewal of the registration of a trade mark under sections 79, 80D or 80G of the Act; (n) complying with the authorised user’s request referred to in regulation 13.2; (o) complying with a request for information referred to in regulation 13.3; (p) responding to a notice under subregulation 16.3(2); (q) responding to a publication under subregulation 16.3(3); (r) making a claim for priority under section 29 of the Act for an application for the registration of a trade mark in the circumstances mentioned in section 244 of the Act; (s) the filing of a document or the giving of advice to the Registrar under Part 3A; (t) an action or step prescribed in Part 20. (2) For the purposes of paragraph (b) of the definition of relevant act in subsection 224(8) of the Act, the following documents are prescribed: (a) a notice of opposition to the registration of a trade mark under section 52 of the Act; (aa) a notice of intention to defend under subsection 52A(1) of the Act; (b) a notice of opposition to which section 96 of the Act or subregulation 17A.32(1), regulation 17A.48F or subregulation 21.20B(1) applies; (ba) a notice of intention to defend under subregulation 9.15(1), 17A.34H(1) or 17A.48Q(1); (c) any of the following documents required or permitted to be submitted under Part 3A: (i) an AFS request; (ii) a submission; (iii) an attachment; (iv) accompanying material; (v) a written advice.",
+  "title": "Extension of time—prescribed acts and documents",
+  "units": [
+    {
+      "content_hash": "sha256:2fc90aed57f8a34c5089c97404e487d815380a9f0f324addee1be3124bdf1b3b",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 71,
+          "start": 59,
+          "text": "relevant act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(8)",
+          "mention": "subsection 224(8)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of paragraph (a) of the definition of relevant act in subsection 224(8) of the Act, the following acts are prescribed:"
+    },
+    {
+      "content_hash": "sha256:2315def15a0a0ed6e80b2ee32738ad47746e4dc1d0cb253341eb878c19a474eb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2(1)",
+          "mention": "subregulation 4.2(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(a)",
+      "style": "paragraph",
+      "text": "(a) complying with the requirements of subregulation 4.2(1);"
+    },
+    {
+      "content_hash": "sha256:49e32e2d1c793e7939fbef61c598e95a5842ea053831e8b8c9112d965ea81b33",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(aa)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)",
+          "mention": "subsection 29(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(aa)",
+      "style": "paragraph",
+      "text": "(aa) filing notice of a claim to a right of priority under subsection 29(1) of the Act;"
+    },
+    {
+      "content_hash": "sha256:bc34c1151979b060aa6502b53d1fe385bb686c89e8f57cc7c49ed566f8b157a9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)(b)",
+          "mention": "paragraph 29(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(b)",
+      "style": "paragraph",
+      "text": "(b) applying for the registration of a trade mark in the circumstances described in paragraph 29(1)(b) of the Act;"
+    },
+    {
+      "content_hash": "sha256:cc5663b431277734320817fe384893414f9e9e9e181a584e60801b6bfededa77",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45(1)",
+          "mention": "subsection 45(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(c)",
+      "style": "paragraph",
+      "text": "(c) making a divisional application for the registration of a trade mark under subsection 45(1) of the Act;"
+    },
+    {
+      "content_hash": "sha256:fe0cb345af982a289896adff3d385f753aeb6f7637a19987def623d5bbcf7d65",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J",
+          "mention": "regulation 5.14, 9.16, 17A.34J or 17A.48R"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48R",
+          "mention": "regulation 5.14, 9.16, 17A.34J or 17A.48R"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.14",
+          "mention": "regulation 5.14, 9.16, 17A.34J or 17A.48R"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16",
+          "mention": "regulation 5.14, 9.16, 17A.34J or 17A.48R"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(f)",
+      "style": "paragraph",
+      "text": "(f) filing evidence under regulation 5.14, 9.16, 17A.34J or 17A.48R;"
+    },
+    {
+      "content_hash": "sha256:dc53d40a2655530ed2556750c5b9f252054f830010f9415eaeeac608a8c7fd16",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(j)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64(b)",
+          "mention": "paragraph 64(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(j)",
+      "style": "paragraph",
+      "text": "(j) requesting that an application for the registration of a trade mark be amended under paragraph 64(b) of the Act;"
+    },
+    {
+      "content_hash": "sha256:7039faba0d3318cee90e4df2ad2c5452b9cae7bf86987c04b0aad773f2e5d10d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(k)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "sections 79, 80D or 80G"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80D",
+          "mention": "sections 79, 80D or 80G"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80G",
+          "mention": "sections 79, 80D or 80G"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(k)",
+      "style": "paragraph",
+      "text": "(k) requesting renewal of the registration of a trade mark under sections 79, 80D or 80G of the Act;"
+    },
+    {
+      "content_hash": "sha256:be6d17447ea77f0cabc6759bac9ff6af2f383f9fe1e03bc002f13cf9a7a9a0ee",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(n)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.2",
+          "mention": "regulation 13.2"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(n)",
+      "style": "paragraph",
+      "text": "(n) complying with the authorised user’s request referred to in regulation 13.2;"
+    },
+    {
+      "content_hash": "sha256:fd069abc050dbd7c8390ce310923bdbb38e99eff0bab73f970436e4fa6c6496c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(o)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.3",
+          "mention": "regulation 13.3"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(o)",
+      "style": "paragraph",
+      "text": "(o) complying with a request for information referred to in regulation 13.3;"
+    },
+    {
+      "content_hash": "sha256:acf2d2dc58d4b01081b0abe5962370a0e1445425a02b049e0dfb1b8f8d898273",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(p)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(2)",
+          "mention": "subregulation 16.3(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(p)",
+      "style": "paragraph",
+      "text": "(p) responding to a notice under subregulation 16.3(2);"
+    },
+    {
+      "content_hash": "sha256:4f9e63c1a219151dd85925eba30905b78e057701e0744fa88eee9d2ea1ffe800",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(q)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(3)",
+          "mention": "subregulation 16.3(3)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(q)",
+      "style": "paragraph",
+      "text": "(q) responding to a publication under subregulation 16.3(3);"
+    },
+    {
+      "content_hash": "sha256:7e79a5f82f9ba9ca5dc5f36a7db28cb16b8e5f8bf3d932f554af35375e97dfb8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(r)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s244",
+          "mention": "section 244"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        }
+      ],
+      "ref": "TMR1995/r21.28(1)(r)",
+      "style": "paragraph",
+      "text": "(r) making a claim for priority under section 29 of the Act for an application for the registration of a trade mark in the circumstances mentioned in section 244 of the Act;"
+    },
+    {
+      "content_hash": "sha256:592456146eb478115b31e497065d955cd08b106d770c8da80086aadbd8c17668",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(s)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "ref": "TMR1995/r21.28(1)(s)",
+      "style": "paragraph",
+      "text": "(s) the filing of a document or the giving of advice to the Registrar under Part 3A;"
+    },
+    {
+      "content_hash": "sha256:5e6157c5507bab46fee9dd244155fc1536a44a8da080378f06861f0d492b965b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(t)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r21.28(1)",
+      "ref": "TMR1995/r21.28(1)(t)",
+      "style": "paragraph",
+      "text": "(t) an action or step prescribed in Part 20."
+    },
+    {
+      "content_hash": "sha256:40495a068a13ee3f3297299b633f5a41917b460951ceeabe6281380431bf8486",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 71,
+          "start": 59,
+          "text": "relevant act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(8)",
+          "mention": "subsection 224(8)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of paragraph (b) of the definition of relevant act in subsection 224(8) of the Act, the following documents are prescribed:"
+    },
+    {
+      "content_hash": "sha256:17d0366e8609d8eb20df3f15e10b4407dd5884fbf1238a4fa0aaf5d978687526",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r21.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52",
+          "mention": "section 52"
+        }
+      ],
+      "ref": "TMR1995/r21.28(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a notice of opposition to the registration of a trade mark under section 52 of the Act;"
+    },
+    {
+      "content_hash": "sha256:95af3e9961e9c5b8b8197864d81f04d7b8cfca56c37d6924aa74d302c71cf2f7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(aa)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r21.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52A(1)",
+          "mention": "subsection 52A(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(2)(aa)",
+      "style": "paragraph",
+      "text": "(aa) a notice of intention to defend under subsection 52A(1) of the Act;"
+    },
+    {
+      "content_hash": "sha256:423f35ca1309d10cd782431f5efb2c32e27b97c9ee1970d9f120a554f6c75585",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r21.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96",
+          "mention": "section 96"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48F",
+          "mention": "regulation 17A.48F"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.20B(1)",
+          "mention": "subregulation 21.20B(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to which section 96 of the Act or subregulation 17A.32(1), regulation 17A.48F or subregulation 21.20B(1) applies;"
+    },
+    {
+      "content_hash": "sha256:81245014d7fc7401743adb712f50268d64b4ac183351305943b16413830d1afe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(ba)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r21.28(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H(1)",
+          "mention": "subregulation 9.15(1), 17A.34H(1) or 17A.48Q(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48Q(1)",
+          "mention": "subregulation 9.15(1), 17A.34H(1) or 17A.48Q(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15(1)",
+          "mention": "subregulation 9.15(1), 17A.34H(1) or 17A.48Q(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.28(2)(ba)",
+      "style": "paragraph",
+      "text": "(ba) a notice of intention to defend under subregulation 9.15(1), 17A.34H(1) or 17A.48Q(1);"
+    },
+    {
+      "content_hash": "sha256:a046854ae11686dde41b1adbdcc8e909f5693681efc0457154e92fb466e674b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r21.28(2)",
+      "ref": "TMR1995/r21.28(2)(c)",
+      "style": "paragraph",
+      "text": "(c) any of the following documents required or permitted to be submitted under Part 3A:"
+    },
+    {
+      "content_hash": "sha256:e952e6d1f9d5575dfdb0f1b66b36a743610e49f5179c3abfeb1f2889f9a4271e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r21.28(2)(c)",
+      "ref": "TMR1995/r21.28(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an AFS request;"
+    },
+    {
+      "content_hash": "sha256:567c3cf4504d83dc0de214a761e1b7aadd91e3d85eb08c0f2c61c3e734959c65",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r21.28(2)(c)",
+      "ref": "TMR1995/r21.28(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a submission;"
+    },
+    {
+      "content_hash": "sha256:444eee4c05536a2ed6169b216a7bcb3e96d8b21bc2ce6eab178fc524b84ba2b7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r21.28(2)(c)",
+      "ref": "TMR1995/r21.28(2)(c)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) an attachment;"
+    },
+    {
+      "content_hash": "sha256:d82a70ac11625c58d3674e6e25d9f3b2cff2bee12b54fc50c20c835e613a6363",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r21.28(2)(c)",
+      "ref": "TMR1995/r21.28(2)(c)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) accompanying material;"
+    },
+    {
+      "content_hash": "sha256:475e9c29a1bd7cc0291a151250b496b57824caca4d11c1d49e5347ee0e9ee0ef",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(v)",
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r21.28(2)(c)",
+      "ref": "TMR1995/r21.28(2)(c)(v)",
+      "style": "paragraphsub",
+      "text": "(v) a written advice."
+    }
+  ]
+}

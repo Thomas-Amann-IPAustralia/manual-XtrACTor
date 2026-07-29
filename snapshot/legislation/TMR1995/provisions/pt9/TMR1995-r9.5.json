@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div2"
+  ],
+  "content_hash": "sha256:2ee44d786c40f6960534f33748153459e23dcac2dcabd6fa0208090737ce8907",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 2—Application for removal",
+    "9.5  Application for removal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.5",
+  "ref": "TMR1995/r9.5",
+  "text": "For paragraph 92(2)(a) of the Act, an application for removal must be in an approved form.",
+  "title": "Application for removal",
+  "units": [
+    {
+      "content_hash": "sha256:2ee44d786c40f6960534f33748153459e23dcac2dcabd6fa0208090737ce8907",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(2)(a)",
+          "mention": "paragraph 92(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r9.5~1",
+      "style": "subsection",
+      "text": "For paragraph 92(2)(a) of the Act, an application for removal must be in an approved form."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt11",
+    "TMA1995/pt11/div2"
+  ],
+  "content_hash": "sha256:5ee111d2be3b8191e93c064ea4f14f1a5319c393a08da30cd9a582c9490833d5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 11—Voluntary recording of claims to interests in and rights in respect of trade marks",
+    "Division 2—Interests in, and rights in respect of, registered trade marks",
+    "114  Record of claims to interest etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "114",
+  "ref": "TMA1995/s114",
+  "text": "(1) If the application has been made in accordance with section 113, the Registrar must enter in the Register the particulars of the claim set out in the application. (2) If: (a) a trade mark is registered; and (b) immediately before the registration, particulars of a claim to an interest in, or right in respect of, the trade mark were recorded under Division 3; the Registrar must enter those particulars in the Register.",
+  "title": "Record of claims to interest etc.",
+  "units": [
+    {
+      "content_hash": "sha256:b1e1a79e30203025a020837a99bf5fa748c86977089f39082f8374fca8367b2e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s113",
+          "mention": "section 113"
+        }
+      ],
+      "ref": "TMA1995/s114(1)",
+      "style": "subsection",
+      "text": "(1) If the application has been made in accordance with section 113, the Registrar must enter in the Register the particulars of the claim set out in the application."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s114(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:b01c9d10613972d69d7c2d92c5fccee9765958efddc030c0a7cbe7d3220934f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s114(2)",
+      "ref": "TMA1995/s114(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark is registered; and"
+    },
+    {
+      "content_hash": "sha256:f21f34e9b1bd2e6e66e92cb2c801c6e442890d855a785c2e43ce58c1f71c8f94",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s114(2)",
+      "ref": "TMA1995/s114(2)(b)",
+      "style": "paragraph",
+      "text": "(b) immediately before the registration, particulars of a claim to an interest in, or right in respect of, the trade mark were recorded under Division 3;"
+    },
+    {
+      "content_hash": "sha256:32232126976412d3df8f09378c5171d2679e7e72d03d4e40e94b0cd8594188fe",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s114~1",
+      "style": "subsection2",
+      "text": "the Registrar must enter those particulars in the Register."
+    }
+  ]
+}

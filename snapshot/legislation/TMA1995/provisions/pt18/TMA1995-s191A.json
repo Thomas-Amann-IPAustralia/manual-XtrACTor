@@ -1,0 +1,92 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:d3a9b6e5933835fbad4fa9e6fa7cd8e58692de40c75c3674f9f9b27f5a1a6278",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "191A  Jurisdiction of the Federal Circuit and Family Court of Australia (Division 2)"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "191A",
+  "ref": "TMA1995/s191A",
+  "text": "(1) The Federal Circuit and Family Court of Australia (Division 2) has jurisdiction with respect to matters arising under this Act. (2) The jurisdiction of the Federal Circuit and Family Court of Australia (Division 2) to hear and determine appeals against decisions, directions or orders of the Registrar is exclusive of the jurisdiction of any other court except the jurisdiction of: (a) the Federal Court under subsection 191(2) of this Act; and (b) the High Court under section 75 of the Constitution. (3) A prosecution for an offence against this Act may not be started in the Federal Circuit and Family Court of Australia (Division 2).",
+  "title": "Jurisdiction of the Federal Circuit and Family Court of Australia (Division 2)",
+  "units": [
+    {
+      "content_hash": "sha256:4d21aa4d732ae7b47c1e5106e28f1c72f837e4f687ec728511c791bf8d8a0c9a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s191A(1)",
+      "style": "subsection",
+      "text": "(1) The Federal Circuit and Family Court of Australia (Division 2) has jurisdiction with respect to matters arising under this Act."
+    },
+    {
+      "content_hash": "sha256:a843c3941384c100f1f3715250840c058c1ce6ef6819efeadc5b3bb7f7e2d49d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s191A(2)",
+      "style": "subsection",
+      "text": "(2) The jurisdiction of the Federal Circuit and Family Court of Australia (Division 2) to hear and determine appeals against decisions, directions or orders of the Registrar is exclusive of the jurisdiction of any other court except the jurisdiction of:"
+    },
+    {
+      "content_hash": "sha256:754c916f8dfbfd320b5b0fb3eb4e4bb9cde7dcb477f7477f5185372648401cab",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s191A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s191(2)",
+          "mention": "subsection 191(2)"
+        }
+      ],
+      "ref": "TMA1995/s191A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Federal Court under subsection 191(2) of this Act; and"
+    },
+    {
+      "content_hash": "sha256:7b0c4309c0308faee14fa49e520a39b722cc576af62201b1c44fc7f3b989c602",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s191A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75",
+          "mention": "section 75"
+        }
+      ],
+      "ref": "TMA1995/s191A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the High Court under section 75 of the Constitution."
+    },
+    {
+      "content_hash": "sha256:528f1d9c2cb9d7783ec3e67cec577198646c976d442eff5e47e49e421d83f61f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s191A(3)",
+      "style": "subsection",
+      "text": "(3) A prosecution for an offence against this Act may not be started in the Federal Circuit and Family Court of Australia (Division 2)."
+    }
+  ]
+}

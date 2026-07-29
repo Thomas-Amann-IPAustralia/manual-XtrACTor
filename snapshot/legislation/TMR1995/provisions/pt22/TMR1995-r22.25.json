@@ -1,0 +1,84 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div5"
+  ],
+  "content_hash": "sha256:3d2ffac326555d4bde07a9b5e025a2040632ddb9b40d6de02723815e10d3de39",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 5—Amendments made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020",
+    "22.25  Amendments made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.25",
+  "ref": "TMR1995/r22.25",
+  "text": "The amendments of items 14 to 20 of the table in clause 1 of Schedule 9 to these Regulations made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020 apply in relation to a hearing if: (a) the request for the hearing is made on or after 1 October 2020; or (b) if no request is made for the hearing—the Registrar notifies a person under subregulation 21.16(1) or (2) in relation to the hearing on or after 1 October 2020.",
+  "title": "Amendments made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020",
+  "units": [
+    {
+      "content_hash": "sha256:94a02fba3c861bf28d257dd78e5c45e4903a27ea5094a8c6a0abde34a64bb22a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 174,
+          "start": 105,
+          "text": "Intellectual Property Laws Amendment (Fee Amounts and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 188,
+          "start": 175,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 191,
+          "start": 188,
+          "text": "020",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.25~1",
+      "style": "subsection",
+      "text": "The amendments of items 14 to 20 of the table in clause 1 of Schedule 9 to these Regulations made by the Intellectual Property Laws Amendment (Fee Amounts and Other Measures) Regulations 2020 apply in relation to a hearing if:"
+    },
+    {
+      "content_hash": "sha256:2f121b20771086364346e643ceebf7e4783799c8286c641a04e9aa9b43dbbdbc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.25~1",
+      "ref": "TMR1995/r22.25~1(a)",
+      "style": "paragraph",
+      "text": "(a) the request for the hearing is made on or after 1 October 2020; or"
+    },
+    {
+      "content_hash": "sha256:8fe33930030240e49803255b6593c8c5233b0d664625a8cdf5bf05770ebbe99e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.25~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16(1)",
+          "mention": "subregulation 21.16(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.25~1(b)",
+      "style": "paragraph",
+      "text": "(b) if no request is made for the hearing—the Registrar notifies a person under subregulation 21.16(1) or (2) in relation to the hearing on or after 1 October 2020."
+    }
+  ]
+}

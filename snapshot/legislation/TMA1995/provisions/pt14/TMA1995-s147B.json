@@ -1,0 +1,361 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:490cef8ce1effd41573f3a9a9a9904a3a709802d876c7327d740fe798e729d15",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "147B  Possessing or disposing of things for use in trade marks offence"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "147B",
+  "ref": "TMA1995/s147B",
+  "text": "Indictable offence (1) A person commits an offence if: (a) the person possesses or disposes of: (i) a die, block, machine or instrument; or (ii) a computer, or other device, programmed to draw a registered trade mark or part of a registered trade mark; or (iii) a representation of a registered trade mark or of part of a registered trade mark; and (b) the die, block, machine, instrument, computer, device or representation is likely to be used for, or in the course of, an offence; and (c) the offence is an offence against section 145 or 146. Penalty: Imprisonment for 5 years or 550 penalty units, or both. Note: For registered trade mark see section 6. (2) Strict liability applies to paragraph (1)(c). Note: For strict liability, see section 6.1 of the Criminal Code. Summary offence (3) A person commits an offence if: (a) the person possesses or disposes of: (i) a die, block, machine or instrument; or (ii) a computer, or other device, programmed to draw a registered trade mark or part of a registered trade mark; or (iii) a representation of a registered trade mark or of part of a registered trade mark; and (b) the die, block, machine, instrument, computer, device or representation is likely to be used for, or in the course of, an offence; and (c) the offence is an offence against section 145 or 146. Penalty: Imprisonment for 12 months or 60 penalty units, or both. (4) The fault element for paragraph (3)(b) is negligence. (5) Strict liability applies to paragraph (3)(c). Note: For strict liability, see section 6.1 of the Criminal Code.",
+  "title": "Possessing or disposing of things for use in trade marks offence",
+  "units": [
+    {
+      "content_hash": "sha256:5489c833f1431fc09e204ec579fa213253d281e4f665069419c4ff44a2031615",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B~1",
+      "style": "SubsectionHead",
+      "text": "Indictable offence"
+    },
+    {
+      "content_hash": "sha256:16eabc02bd00ed0fb3c19d05e5853eae8bf24682ee97695b0bf991d76adc3a9c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B(1)",
+      "style": "subsection",
+      "text": "(1) A person commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:de833916dc64fb6aabc071685bb15054be19f3732686441aabc32ef35b82d99f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s147B(1)",
+      "ref": "TMA1995/s147B(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person possesses or disposes of:"
+    },
+    {
+      "content_hash": "sha256:59de99d9ee5bff91d4d14f3524c7c343a5360e4b404642ab6e084d97c7a71107",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s147B(1)(a)",
+      "ref": "TMA1995/s147B(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a die, block, machine or instrument; or"
+    },
+    {
+      "content_hash": "sha256:39b4e2b9f98c508da7f80a84a51853080c53e17085d108b571632b97225c861f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s147B(1)(a)",
+      "ref": "TMA1995/s147B(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a computer, or other device, programmed to draw a registered trade mark or part of a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:2d69458bb682e392ca0ca498b1dd52d66199b581b963e6865145f902bd1df39f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s147B(1)(a)",
+      "ref": "TMA1995/s147B(1)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a representation of a registered trade mark or of part of a registered trade mark; and"
+    },
+    {
+      "content_hash": "sha256:8b86eed5ca8d9ebd93a3d07e248d09341b0414c4887d2808a17917b157be1c75",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s147B(1)",
+      "ref": "TMA1995/s147B(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the die, block, machine, instrument, computer, device or representation is likely to be used for, or in the course of, an offence; and"
+    },
+    {
+      "content_hash": "sha256:be833fa3ea573ac9d4458e773029f827d11cb941cb186c0ba20135a9666d2903",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s147B(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s145",
+          "mention": "section 145 or 146"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s146",
+          "mention": "section 145 or 146"
+        }
+      ],
+      "ref": "TMA1995/s147B(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the offence is an offence against section 145 or 146."
+    },
+    {
+      "content_hash": "sha256:e0f57a3df59f748357cd0d38454b6c93a46966d47ba4cb7235f1a5c2b6736f3e",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B~2",
+      "style": "Penalty",
+      "text": "Penalty: Imprisonment for 5 years or 550 penalty units, or both."
+    },
+    {
+      "content_hash": "sha256:48edc9e7118618be3f615e1f7d65a2a703b12d564f06e64025fa38badc28c0f1",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s147B~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s147B~2~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:90b8fffa384c6deeb42ae6048c662b9a9f021e7259b44be2d46bcb6dc9c49d09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B(2)",
+      "style": "subsection",
+      "text": "(2) Strict liability applies to paragraph (1)(c)."
+    },
+    {
+      "content_hash": "sha256:04f0ab2fa10486a5cb969f90e70cf78f32b7385217f794c4bf1b95ab9bf086c5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 64,
+          "start": 51,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s147B(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.1",
+          "mention": "section 6.1"
+        }
+      ],
+      "ref": "TMA1995/s147B(2)~1",
+      "style": "notetext",
+      "text": "Note: For strict liability, see section 6.1 of the Criminal Code."
+    },
+    {
+      "content_hash": "sha256:b3fc36d3f6a4ec266b97a4108ff2375eaa77cad9565138319a3f78e27a12df37",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B~3",
+      "style": "SubsectionHead",
+      "text": "Summary offence"
+    },
+    {
+      "content_hash": "sha256:2ca7578c00d8fa3bd60560e8fd21f52ed7db27b8b06ae5bbcd237339f5666804",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B(3)",
+      "style": "subsection",
+      "text": "(3) A person commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:de833916dc64fb6aabc071685bb15054be19f3732686441aabc32ef35b82d99f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s147B(3)",
+      "ref": "TMA1995/s147B(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the person possesses or disposes of:"
+    },
+    {
+      "content_hash": "sha256:59de99d9ee5bff91d4d14f3524c7c343a5360e4b404642ab6e084d97c7a71107",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s147B(3)(a)",
+      "ref": "TMA1995/s147B(3)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a die, block, machine or instrument; or"
+    },
+    {
+      "content_hash": "sha256:39b4e2b9f98c508da7f80a84a51853080c53e17085d108b571632b97225c861f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s147B(3)(a)",
+      "ref": "TMA1995/s147B(3)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a computer, or other device, programmed to draw a registered trade mark or part of a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:2d69458bb682e392ca0ca498b1dd52d66199b581b963e6865145f902bd1df39f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s147B(3)(a)",
+      "ref": "TMA1995/s147B(3)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a representation of a registered trade mark or of part of a registered trade mark; and"
+    },
+    {
+      "content_hash": "sha256:8b86eed5ca8d9ebd93a3d07e248d09341b0414c4887d2808a17917b157be1c75",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s147B(3)",
+      "ref": "TMA1995/s147B(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the die, block, machine, instrument, computer, device or representation is likely to be used for, or in the course of, an offence; and"
+    },
+    {
+      "content_hash": "sha256:be833fa3ea573ac9d4458e773029f827d11cb941cb186c0ba20135a9666d2903",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s147B(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s145",
+          "mention": "section 145 or 146"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s146",
+          "mention": "section 145 or 146"
+        }
+      ],
+      "ref": "TMA1995/s147B(3)(c)",
+      "style": "paragraph",
+      "text": "(c) the offence is an offence against section 145 or 146."
+    },
+    {
+      "content_hash": "sha256:12792a43610101787140dc47fdcd79d3db96dcc20b7e0f12e613a474a243e1f2",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B~4",
+      "style": "Penalty",
+      "text": "Penalty: Imprisonment for 12 months or 60 penalty units, or both."
+    },
+    {
+      "content_hash": "sha256:53de82d9801d60e567d3156950e6a36ebeab97ec5da4da9d7f255106081766e7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 22,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B(4)",
+      "style": "subsection",
+      "text": "(4) The fault element for paragraph (3)(b) is negligence."
+    },
+    {
+      "content_hash": "sha256:6b0d2a9746577d0a56f888c6b0c3faa999d345e1c19bbbb47a18678e9ce7f89d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 23,
+      "parent_ref": null,
+      "ref": "TMA1995/s147B(5)",
+      "style": "subsection",
+      "text": "(5) Strict liability applies to paragraph (3)(c)."
+    },
+    {
+      "content_hash": "sha256:04f0ab2fa10486a5cb969f90e70cf78f32b7385217f794c4bf1b95ab9bf086c5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 64,
+          "start": 51,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s147B(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.1",
+          "mention": "section 6.1"
+        }
+      ],
+      "ref": "TMA1995/s147B(5)~1",
+      "style": "notetext",
+      "text": "Note: For strict liability, see section 6.1 of the Criminal Code."
+    }
+  ]
+}

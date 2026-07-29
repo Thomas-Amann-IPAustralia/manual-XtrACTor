@@ -1,0 +1,99 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div7"
+  ],
+  "content_hash": "sha256:b0af641d5129ca962730a7b3b9b4307aa240b658dd2ec0513b9632f04be3847b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 7—Amendments made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024",
+    "22.30  Amendments made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.30",
+  "ref": "TMR1995/r22.30",
+  "text": "(1) The amendments of Schedule 8 made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024 apply in respect of proceedings that begin on or after the commencement of that instrument. (2) Items 7A and 7B of the table in subclause 1(1) of Schedule 9, as inserted by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024, apply to the filing or amendment of a statement of grounds and particulars if the notice of intention to oppose is filed under regulation 5.6 or 17A.33 on or after the commencement of that instrument.",
+  "title": "Amendments made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024",
+  "units": [
+    {
+      "content_hash": "sha256:aaf915e11bf7cd15a9e682d6ab14b887ad769d50320349ed36e251be5bf8cf6c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 121,
+          "start": 45,
+          "text": "Intellectual Property Legislation Amendment (Fee Amounts and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 135,
+          "start": 122,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 138,
+          "start": 135,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.30(1)",
+      "style": "subsection",
+      "text": "(1) The amendments of Schedule 8 made by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024 apply in respect of proceedings that begin on or after the commencement of that instrument."
+    },
+    {
+      "content_hash": "sha256:d72d72a6162b2ea467ddaee8e6729781d2d07912bc9ff1c3fa1448bdcce4b240",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 161,
+          "start": 85,
+          "text": "Intellectual Property Legislation Amendment (Fee Amounts and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 175,
+          "start": 162,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 178,
+          "start": 175,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33",
+          "mention": "regulation 5.6 or 17A.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.6",
+          "mention": "regulation 5.6 or 17A.33"
+        }
+      ],
+      "ref": "TMR1995/r22.30(2)",
+      "style": "subsection",
+      "text": "(2) Items 7A and 7B of the table in subclause 1(1) of Schedule 9, as inserted by the Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024, apply to the filing or amendment of a statement of grounds and particulars if the notice of intention to oppose is filed under regulation 5.6 or 17A.33 on or after the commencement of that instrument."
+    }
+  ]
+}

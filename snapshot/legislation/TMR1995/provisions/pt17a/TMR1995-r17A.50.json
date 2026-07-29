@@ -1,0 +1,242 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div6"
+  ],
+  "content_hash": "sha256:ab7053fbe395a8f5c574b71f9b846dcff0e9eb7ab4365eafc8ceb2b478d8612d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 6—Collective and certification trade marks",
+    "17A.50  Certification trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.50",
+  "ref": "TMR1995/r17A.50",
+  "text": "(1) Part 16 of the Act and Part 16 of these Regulations (except regulation 16.1) apply in relation to a certification trade mark that is the subject of an IRDA or that is a protected international trade mark. Note: See section 169 of the Act for the meaning of certification trade mark. (2) For that application, a reference in those Parts: (a) to an application for registration of a certification trade mark is taken to be a reference to an IRDA in respect of a certification trade mark; and (b) to an applicant for registration of a certification trade mark is taken to be a reference to the holder of an IRDA in respect of a certification trade mark; and (c) to a registered certification trade mark, or a certification trade mark that is registered, is taken to be a reference to a certification trade mark that is a protected international trade mark; and (d) to the registered owner of a registered trade mark is taken to be a reference to the holder of a protected international trade mark that is a certification trade mark; and (e) to goods or services in respect of which a certification trade mark is registered is taken to be a reference to goods or services in respect of which a certification trade mark is protected; and (f) to assignment of a certification trade mark is taken to be a reference to change of ownership of a certification trade mark. (3) Also for that application: (a) a reference in section 170 of the Act to another provision of the Act is taken to be a reference to that other provision as it is applied by this Part to a trade mark that is the subject of an IRDA or that is a protected international trade mark; and (b) each reference in section 170 and 171 of the Act to a certification trade mark is taken to be a reference to a certification trade mark that is the subject of an IRDA or that is a protected international trade mark; and (c) each reference in Part 16 of these Regulations to the prospective assignee is taken to be a reference to the new holder of the international registration in respect of Australia who is identified in the notification to the Registrar under Rule 27(1) of the Madrid Regulations. (4) For subsection 173(1) of the Act, the holder of an IRDA in respect of a certification trade mark must file a copy of the rules governing the use of the certification trade mark with the Registrar as soon as practicable after the Registrar is notified of the IRDA. (5) When the holder files a copy of the rules in accordance with subregulation (4), the holder must notify the Registrar, in writing, of the holder’s address for service in Australia or New Zealand.",
+  "title": "Certification trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:2e5ca2afdadf810329e260d334fa06360af9e6b8e0653c1a944ebc58b7234984",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.1",
+          "mention": "regulation 16.1"
+        }
+      ],
+      "ref": "TMR1995/r17A.50(1)",
+      "style": "subsection",
+      "text": "(1) Part 16 of the Act and Part 16 of these Regulations (except regulation 16.1) apply in relation to a certification trade mark that is the subject of an IRDA or that is a protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:36f86788b5fc43a15f7cb9978de15e8cff26a36f484ce197609a920bc6c7b139",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 76,
+          "start": 52,
+          "text": "certification trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.50(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s169",
+          "mention": "section 169"
+        }
+      ],
+      "ref": "TMR1995/r17A.50(1)~1",
+      "style": "notetext",
+      "text": "Note: See section 169 of the Act for the meaning of certification trade mark."
+    },
+    {
+      "content_hash": "sha256:d8162d6b079f82a7472d04bf99f8f053c51a47766f7542db00967e6ed4b01806",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.50(2)",
+      "style": "subsection",
+      "text": "(2) For that application, a reference in those Parts:"
+    },
+    {
+      "content_hash": "sha256:2e50c208dfbbdfcc395ca7b62fc75251d37518962bb52fcbcd0693f166cfc79a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(a)",
+      "style": "paragraph",
+      "text": "(a) to an application for registration of a certification trade mark is taken to be a reference to an IRDA in respect of a certification trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f695541456499026895f7f8ec44a9a984c88349fb6215cbca61df8b9bde843b1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(b)",
+      "style": "paragraph",
+      "text": "(b) to an applicant for registration of a certification trade mark is taken to be a reference to the holder of an IRDA in respect of a certification trade mark; and"
+    },
+    {
+      "content_hash": "sha256:09b43586276a882f9f941a43cb31101d8a7b812f053534918aba3d66c7b5ecfa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(c)",
+      "style": "paragraph",
+      "text": "(c) to a registered certification trade mark, or a certification trade mark that is registered, is taken to be a reference to a certification trade mark that is a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f62afea305d24c9c560f9aba2ca59391207b1b28f2a5f29748c36afb80a73a00",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(d)",
+      "style": "paragraph",
+      "text": "(d) to the registered owner of a registered trade mark is taken to be a reference to the holder of a protected international trade mark that is a certification trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f13a790f79a8a6e3c30049294a8ba226daf448e949d47a8bfd5f270a23378973",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(e)",
+      "style": "paragraph",
+      "text": "(e) to goods or services in respect of which a certification trade mark is registered is taken to be a reference to goods or services in respect of which a certification trade mark is protected; and"
+    },
+    {
+      "content_hash": "sha256:ddb80a8b7cf85d42ec376dd6f40801fa9c72f4437761eeb9a4bacc54b22b0641",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.50(2)",
+      "ref": "TMR1995/r17A.50(2)(f)",
+      "style": "paragraph",
+      "text": "(f) to assignment of a certification trade mark is taken to be a reference to change of ownership of a certification trade mark."
+    },
+    {
+      "content_hash": "sha256:eee6aa33974c10663a698cba99a52e5934244187b3ba8c6dc896d55638ebd9b4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.50(3)",
+      "style": "subsection",
+      "text": "(3) Also for that application:"
+    },
+    {
+      "content_hash": "sha256:ac8eca61367796c94ec76e80ce831e54099a4ef29e249299b4e14d942ecec2b7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.50(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s170",
+          "mention": "section 170"
+        }
+      ],
+      "ref": "TMR1995/r17A.50(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a reference in section 170 of the Act to another provision of the Act is taken to be a reference to that other provision as it is applied by this Part to a trade mark that is the subject of an IRDA or that is a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:519aa66b37f3ba2c691b3b8ac3c8b397aad22f7f2de498ee47062dabe4d9247c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.50(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s170",
+          "mention": "section 170 and 171"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s171",
+          "mention": "section 170 and 171"
+        }
+      ],
+      "ref": "TMR1995/r17A.50(3)(b)",
+      "style": "paragraph",
+      "text": "(b) each reference in section 170 and 171 of the Act to a certification trade mark is taken to be a reference to a certification trade mark that is the subject of an IRDA or that is a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f8b0c89eae4bcdd8cf1225eabd6106aa2179e0564c1c61810131b386b0b68b1f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.50(3)",
+      "ref": "TMR1995/r17A.50(3)(c)",
+      "style": "paragraph",
+      "text": "(c) each reference in Part 16 of these Regulations to the prospective assignee is taken to be a reference to the new holder of the international registration in respect of Australia who is identified in the notification to the Registrar under Rule 27(1) of the Madrid Regulations."
+    },
+    {
+      "content_hash": "sha256:e3951c9b17ac798c8fda05c9c5ac8215da50cb9890c1fcf12a9b1f6d97260c63",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(1)",
+          "mention": "subsection 173(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.50(4)",
+      "style": "subsection",
+      "text": "(4) For subsection 173(1) of the Act, the holder of an IRDA in respect of a certification trade mark must file a copy of the rules governing the use of the certification trade mark with the Registrar as soon as practicable after the Registrar is notified of the IRDA."
+    },
+    {
+      "content_hash": "sha256:021eae82709e4cb83abb041e636dda1265542f51deb1e33c88c096b0bb3d4aeb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.50(5)",
+      "style": "subsection",
+      "text": "(5) When the holder files a copy of the rules in accordance with subregulation (4), the holder must notify the Registrar, in writing, of the holder’s address for service in Australia or New Zealand."
+    }
+  ]
+}

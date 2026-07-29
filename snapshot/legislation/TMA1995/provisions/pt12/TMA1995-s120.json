@@ -1,0 +1,452 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:386a295955510a093598e5e0f574c2c668947d911fecc4e36ef669f1003c3eda",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "120  When is a registered trade mark infringed?"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "120",
+  "ref": "TMA1995/s120",
+  "text": "(1) A person infringes a registered trade mark if the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to goods or services in respect of which the trade mark is registered. Note 1: For registered trade mark see section 6. Note 2: For deceptively similar see section 10. Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A. (2) A person infringes a registered trade mark if the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to: (a) goods of the same description as that of goods (registered goods) in respect of which the trade mark is registered; or (b) services that are closely related to registered goods; or (c) services of the same description as that of services (registered services) in respect of which the trade mark is registered; or (d) goods that are closely related to registered services. However, the person is not taken to have infringed the trade mark if the person establishes that using the sign as the person did is not likely to deceive or cause confusion. Note 1: For registered trade mark see section 6. Note 2: For deceptively similar see section 10. Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A. (3) A person infringes a registered trade mark if: (a) the trade mark is well known in Australia; and (b) the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to: (i) goods (unrelated goods) that are not of the same description as that of the goods in respect of which the trade mark is registered (registered goods) or are not closely related to services in respect of which the trade mark is registered (registered services); or (ii) services (unrelated services) that are not of the same description as that of the registered services or are not closely related to registered goods; and (c) because the trade mark is well known, the sign would be likely to be taken as indicating a connection between the unrelated goods or services and the registered owner of the trade mark; and (d) for that reason, the interests of the registered owner are likely to be adversely affected. Note 1: For registered trade mark see section 6. Note 2: For deceptively similar see section 10. Note 3: For well known in Australia see subsection (4). Note 4: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A. (4) In deciding, for the purposes of paragraph (3)(a), whether a trade mark is well known in Australia, one must take account of the extent to which the trade mark is known within the relevant sector of the public, whether as a result of the promotion of the trade mark or for any other reason.",
+  "title": "When is a registered trade mark infringed?",
+  "units": [
+    {
+      "content_hash": "sha256:5330fa04caf56f950025e213a65516a72c046d0306afb263059971822f9bbf28",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s120(1)",
+      "style": "subsection",
+      "text": "(1) A person infringes a registered trade mark if the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to goods or services in respect of which the trade mark is registered."
+    },
+    {
+      "content_hash": "sha256:645e5b179e62d4868525c62b411d0565efe4a06da511fd3b5d37947172776d43",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 12,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s120(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s120(1)~1",
+      "style": "notetext",
+      "text": "Note 1: For registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:7922eee9d23edc7e9cbeb9abcd12bdfbb09bb9d92b77a683a4b05ded6cbc5be2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s120(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s120(1)~2",
+      "style": "notetext",
+      "text": "Note 2: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:f904ac3de044959b37a9aa708db51719a2f3f9f7840fb984b8b364a2abe8beb8",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s120(1)",
+      "ref": "TMA1995/s120(1)~3",
+      "style": "notetext",
+      "text": "Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:454bee96605ff93ce81aeeb05fb5d2c9d14c64955c46cb958d8e7cb91938f671",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s120(2)",
+      "style": "subsection",
+      "text": "(2) A person infringes a registered trade mark if the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:9ef2be88525f8804eb9975dbc7694951965bcb92dc230b93576fb123ae43861f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 68,
+          "start": 52,
+          "text": "registered goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s120(2)",
+      "ref": "TMA1995/s120(2)(a)",
+      "style": "paragraph",
+      "text": "(a) goods of the same description as that of goods (registered goods) in respect of which the trade mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:1426bd1fd4e45e985919b1875323e6f0c6514fed276efa029bac82605439e0b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s120(2)",
+      "ref": "TMA1995/s120(2)(b)",
+      "style": "paragraph",
+      "text": "(b) services that are closely related to registered goods; or"
+    },
+    {
+      "content_hash": "sha256:3f685b3d0d6b84b099b37ee107b7631ccdce2bd000d607aecb0ce6a23b71fc30",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 77,
+          "start": 58,
+          "text": "registered services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s120(2)",
+      "ref": "TMA1995/s120(2)(c)",
+      "style": "paragraph",
+      "text": "(c) services of the same description as that of services (registered services) in respect of which the trade mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:c82905a7766e1e7cbc97f6cfb6920060555a7d69ff8f67b24752ab45d679944c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s120(2)",
+      "ref": "TMA1995/s120(2)(d)",
+      "style": "paragraph",
+      "text": "(d) goods that are closely related to registered services."
+    },
+    {
+      "content_hash": "sha256:5bd7d813394519527d992744ac86a5722409529e0f01ab87baefe6ea08068fed",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s120~1",
+      "style": "subsection2",
+      "text": "However, the person is not taken to have infringed the trade mark if the person establishes that using the sign as the person did is not likely to deceive or cause confusion."
+    },
+    {
+      "content_hash": "sha256:645e5b179e62d4868525c62b411d0565efe4a06da511fd3b5d37947172776d43",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 12,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s120~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s120~1~1",
+      "style": "notetext",
+      "text": "Note 1: For registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:7922eee9d23edc7e9cbeb9abcd12bdfbb09bb9d92b77a683a4b05ded6cbc5be2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s120~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s120~1~2",
+      "style": "notetext",
+      "text": "Note 2: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:f904ac3de044959b37a9aa708db51719a2f3f9f7840fb984b8b364a2abe8beb8",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s120~1",
+      "ref": "TMA1995/s120~1~3",
+      "style": "notetext",
+      "text": "Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:399af761c3f0e5534f511b063e102ffa0fe4c14952e34fbf4411951ce401d4ee",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s120(3)",
+      "style": "subsection",
+      "text": "(3) A person infringes a registered trade mark if:"
+    },
+    {
+      "content_hash": "sha256:fa979c717eb4d35e7c4e441dff68f9c761ab93dc503746163aa1b4989a65f034",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s120(3)",
+      "ref": "TMA1995/s120(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark is well known in Australia; and"
+    },
+    {
+      "content_hash": "sha256:3a68b4abf2637c07ed8af1d069ffd25d69f93d4d0cc46ea8850b17d2eea0a5e9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s120(3)",
+      "ref": "TMA1995/s120(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the person uses as a trade mark a sign that is substantially identical with, or deceptively similar to, the trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:d1515202e5337a2cbfd2ee93f00e10ec7372d78689c85a6898c75d405300fe83",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 11,
+          "text": "unrelated goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 152,
+          "start": 136,
+          "text": "registered goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 262,
+          "start": 243,
+          "text": "registered services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s120(3)(b)",
+      "ref": "TMA1995/s120(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) goods (unrelated goods) that are not of the same description as that of the goods in respect of which the trade mark is registered (registered goods) or are not closely related to services in respect of which the trade mark is registered (registered services); or"
+    },
+    {
+      "content_hash": "sha256:4589cc381145b127d5a7f04cd7d615ec86ad95069283ed93d3a919b4b79fa446",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 15,
+          "text": "unrelated services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s120(3)(b)",
+      "ref": "TMA1995/s120(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) services (unrelated services) that are not of the same description as that of the registered services or are not closely related to registered goods; and"
+    },
+    {
+      "content_hash": "sha256:81b1325060756e11419b99227b8d919ee76b3369c1a6f46195b49aefefb86735",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s120(3)",
+      "ref": "TMA1995/s120(3)(c)",
+      "style": "paragraph",
+      "text": "(c) because the trade mark is well known, the sign would be likely to be taken as indicating a connection between the unrelated goods or services and the registered owner of the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:194d11ca427dbe07e700f43444f4c58499ab2d46754d1861fe9e921ae3845345",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s120(3)",
+      "ref": "TMA1995/s120(3)(d)",
+      "style": "paragraph",
+      "text": "(d) for that reason, the interests of the registered owner are likely to be adversely affected."
+    },
+    {
+      "content_hash": "sha256:645e5b179e62d4868525c62b411d0565efe4a06da511fd3b5d37947172776d43",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 12,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s120(3)(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s120(3)(d)~1",
+      "style": "notetext",
+      "text": "Note 1: For registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:7922eee9d23edc7e9cbeb9abcd12bdfbb09bb9d92b77a683a4b05ded6cbc5be2",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s120(3)(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s120(3)(d)~2",
+      "style": "notetext",
+      "text": "Note 2: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:5df7d887a654b56c378bcdd9c37706cfe6bec17660853178c0ff04f8c158c5df",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 35,
+          "start": 12,
+          "text": "well known in Australia",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s120(3)(d)",
+      "ref": "TMA1995/s120(3)(d)~3",
+      "style": "notetext",
+      "text": "Note 3: For well known in Australia see subsection (4)."
+    },
+    {
+      "content_hash": "sha256:3a629f411448cae9c0326cd1480fa8bd063907c1401e21d8c7e3f11cf10e6569",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s120(3)(d)",
+      "ref": "TMA1995/s120(3)(d)~4",
+      "style": "notetext",
+      "text": "Note 4: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:d8c8b1c676c18a5bac301c37060423e16b2deabfca9bd2c8596e8cc36454ede4",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 102,
+          "start": 79,
+          "text": "well known in Australia",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 25,
+      "parent_ref": null,
+      "ref": "TMA1995/s120(4)",
+      "style": "subsection",
+      "text": "(4) In deciding, for the purposes of paragraph (3)(a), whether a trade mark is well known in Australia, one must take account of the extent to which the trade mark is known within the relevant sector of the public, whether as a result of the promotion of the trade mark or for any other reason."
+    }
+  ]
+}

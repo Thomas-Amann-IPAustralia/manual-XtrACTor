@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt19"
+  ],
+  "content_hash": "sha256:45064eafe79594e22da735e2f75d951d1316efbd3fd49533f597adea87886592",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 19—Administration",
+    "19.2  Persons to whom Registrar may delegate (Act, s 206(1))"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "19.2",
+  "ref": "TMR1995/r19.2",
+  "text": "For subsection 206(1) of the Act, a person holding, or performing the duties of, an office in the Trade Marks Office stated in Schedule 6 is a person to whom the Registrar may delegate all or any of the Registrar’s powers or functions under the Act.",
+  "title": "Persons to whom Registrar may delegate (Act, s 206(1))",
+  "units": [
+    {
+      "content_hash": "sha256:45064eafe79594e22da735e2f75d951d1316efbd3fd49533f597adea87886592",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s206(1)",
+          "mention": "subsection 206(1)"
+        }
+      ],
+      "ref": "TMR1995/r19.2~1",
+      "style": "subsection",
+      "text": "For subsection 206(1) of the Act, a person holding, or performing the duties of, an office in the Trade Marks Office stated in Schedule 6 is a person to whom the Registrar may delegate all or any of the Registrar’s powers or functions under the Act."
+    }
+  ]
+}

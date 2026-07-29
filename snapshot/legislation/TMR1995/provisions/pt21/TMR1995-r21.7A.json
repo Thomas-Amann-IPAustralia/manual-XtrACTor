@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:2e02528efa467a63e945813d5d9521fa986584b8d21b1623f4460840131e7ca4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.7A  Service by post"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.7A",
+  "ref": "TMR1995/r21.7A",
+  "text": "Service by post is a prescribed means by which a document may be served on, or given or sent to, a person for the purposes of paragraphs 215(6)(a) and (b) of the Act.",
+  "title": "Service by post",
+  "units": [
+    {
+      "content_hash": "sha256:2e02528efa467a63e945813d5d9521fa986584b8d21b1623f4460840131e7ca4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215(6)(a)",
+          "mention": "paragraphs 215(6)(a)"
+        }
+      ],
+      "ref": "TMR1995/r21.7A~1",
+      "style": "subsection",
+      "text": "Service by post is a prescribed means by which a document may be served on, or given or sent to, a person for the purposes of paragraphs 215(6)(a) and (b) of the Act."
+    }
+  ]
+}

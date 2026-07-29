@@ -1,0 +1,58 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:3b0916cf7de23bba32d3fdaa88616e9b13a4e160dc5cef4e3d7724559312cb93",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48C  Application for cessation of protection"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48C",
+  "ref": "TMR1995/r17A.48C",
+  "text": "(1) A person may make an application for cessation of protection. (2) However, an application may not be made under subregulation (1) if an action concerning the protected international trade mark is pending in a prescribed court. (3) If subregulation (2) applies, a person may apply to the court for an order directing the Registrar to cease protecting the protected international trade mark.",
+  "title": "Application for cessation of protection",
+  "units": [
+    {
+      "content_hash": "sha256:f855f75382267b60f2cea371abc30e5a936864bf0c5ecd4809ffd0f73cc0bf68",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48C(1)",
+      "style": "subsection",
+      "text": "(1) A person may make an application for cessation of protection."
+    },
+    {
+      "content_hash": "sha256:331a6dd737c330359fb04451c018e89bbdf646e6b826e8653700dfe96f22a77c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48C(2)",
+      "style": "subsection",
+      "text": "(2) However, an application may not be made under subregulation (1) if an action concerning the protected international trade mark is pending in a prescribed court."
+    },
+    {
+      "content_hash": "sha256:e7c195ebbbfc3922d1ea1f500a4ca5950207080127587171ee540c050a285bfe",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48C(3)",
+      "style": "subsection",
+      "text": "(3) If subregulation (2) applies, a person may apply to the court for an order directing the Registrar to cease protecting the protected international trade mark."
+    }
+  ]
+}

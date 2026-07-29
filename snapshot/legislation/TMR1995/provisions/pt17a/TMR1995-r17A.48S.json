@@ -1,0 +1,162 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:53cc09ffd784aaaa70c8c84ad453bd579faf4873251c881d42d0bcd210b0996b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48S  Request for hearing and circumstances in which opposition taken to have ended"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48S",
+  "ref": "TMR1995/r17A.48S",
+  "text": "(1) If an opponent requests the Registrar, within the period for filing evidence in support mentioned in subregulation 17A.48R(3), to hear the opposition, the Registrar must do so. (2) The opposition is taken to have ended, but not to have been discontinued or dismissed, if the opponent does not: (a) file evidence in support in accordance with subregulation 17A.48R(3); or (b) ask for a hearing under subregulation (1). (3) The application for cessation of protection is taken to be unopposed if: (a) the opposition is taken to have ended under subregulation (2); and (b) the Registrar is satisfied that the application for cessation of protection is in order. Note 1: See section 97 of the Act in relation to what the Registrar must do if the application for cessation of protection is unopposed. Note 2: Regulations 21.15 and 21.16 deal with hearings.",
+  "title": "Request for hearing and circumstances in which opposition taken to have ended",
+  "units": [
+    {
+      "content_hash": "sha256:3ea0aab11b870b8a24a657e8719cc79b44196c3ad60c7773f9058cf4ef95ff18",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48R(3)",
+          "mention": "subregulation 17A.48R(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48S(1)",
+      "style": "subsection",
+      "text": "(1) If an opponent requests the Registrar, within the period for filing evidence in support mentioned in subregulation 17A.48R(3), to hear the opposition, the Registrar must do so."
+    },
+    {
+      "content_hash": "sha256:5b2eec76973aecae07892cc84e2ed126a339c21fbbb64b41399038333de2c9e0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48S(2)",
+      "style": "subsection",
+      "text": "(2) The opposition is taken to have ended, but not to have been discontinued or dismissed, if the opponent does not:"
+    },
+    {
+      "content_hash": "sha256:773897af8b2a93d9b6ff46c0fe109e7a5b483d02b8b869db09ebf0e986165746",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.48S(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48R(3)",
+          "mention": "subregulation 17A.48R(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48S(2)(a)",
+      "style": "paragraph",
+      "text": "(a) file evidence in support in accordance with subregulation 17A.48R(3); or"
+    },
+    {
+      "content_hash": "sha256:ab2f809b35b9688388f3f60baa3fa0a5f80a7c5eca6b610d676e16d01ad68a78",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.48S(2)",
+      "ref": "TMR1995/r17A.48S(2)(b)",
+      "style": "paragraph",
+      "text": "(b) ask for a hearing under subregulation (1)."
+    },
+    {
+      "content_hash": "sha256:13f579db81443d1d2928924ad471ab2b20b3664e82522b7f3fa15e091dc1a072",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48S(3)",
+      "style": "subsection",
+      "text": "(3) The application for cessation of protection is taken to be unopposed if:"
+    },
+    {
+      "content_hash": "sha256:618642b526dbde2d01099c255d02d650ee8995056aeb850bb5a4498145de1584",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.48S(3)",
+      "ref": "TMR1995/r17A.48S(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the opposition is taken to have ended under subregulation (2); and"
+    },
+    {
+      "content_hash": "sha256:6e0100d18db9b6acf0fe1e8ed678cd205b97bedfbd9bdb070542fcb1c8ee7bb2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.48S(3)",
+      "ref": "TMR1995/r17A.48S(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is satisfied that the application for cessation of protection is in order."
+    },
+    {
+      "content_hash": "sha256:12691544bebd336c38aa1b9a8e7e08bb7712a828818aefcc9561d59570018203",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.48S(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s97",
+          "mention": "section 97"
+        }
+      ],
+      "ref": "TMR1995/r17A.48S(3)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: See section 97 of the Act in relation to what the Registrar must do if the application for cessation of protection is unopposed."
+    },
+    {
+      "content_hash": "sha256:966befd07fc2d8e14e950ef4447e68651b9fa340b4a7aceb55fdb73a5b76d8de",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.48S(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.15",
+          "mention": "Regulations 21.15 and 21.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "Regulations 21.15 and 21.16"
+        }
+      ],
+      "ref": "TMR1995/r17A.48S(3)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: Regulations 21.15 and 21.16 deal with hearings."
+    }
+  ]
+}

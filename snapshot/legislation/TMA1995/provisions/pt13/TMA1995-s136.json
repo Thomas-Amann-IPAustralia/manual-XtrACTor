@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:2483308ff92ebc659202f168cee5c05f3935c90744a175fa52d4f1ced7620ba2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "136  Claim for release of seized goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "136",
+  "ref": "TMA1995/s136",
+  "text": "(1) The designated owner may make a claim to the ComptrollerGeneral of Customs for the release of seized goods. Note: For designated owner and seized goods see section 6. (2) The claim must be made before the end of the claim period for the goods. Note: For claim period see section 6. (3) The claim must contain the information prescribed by the regulations. Note: Sections 137.1 and 137.2 of the Criminal Code create offences for providing false or misleading information or documents.",
+  "title": "Claim for release of seized goods",
+  "units": [
+    {
+      "content_hash": "sha256:6e3c80de1e6fe78648d377c729704db7f53b4a33f60770c2c8e5d92563ab1a17",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s136(1)",
+      "style": "subsection",
+      "text": "(1) The designated owner may make a claim to the ComptrollerGeneral of Customs for the release of seized goods."
+    },
+    {
+      "content_hash": "sha256:064a128381677079cf65a59349784c69537f4aa6ad8944a3e91c3e9cd4f07b10",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 43,
+          "start": 31,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s136(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s136(1)~1",
+      "style": "notetext",
+      "text": "Note: For designated owner and seized goods see section 6."
+    },
+    {
+      "content_hash": "sha256:80296ceb9e09f138ba2d67988edc3f76983bdcb2421ac77313c16052665230da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s136(2)",
+      "style": "subsection",
+      "text": "(2) The claim must be made before the end of the claim period for the goods."
+    },
+    {
+      "content_hash": "sha256:9b05cdc285c9571c70a89625e54febc5cfcdaf16ce5fd83596a659b3c8d91305",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "claim period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s136(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s136(2)~1",
+      "style": "notetext",
+      "text": "Note: For claim period see section 6."
+    },
+    {
+      "content_hash": "sha256:560b400f8e98b5a1a196306e6607ec4b8212b89a1556a42d732a3106fad3f912",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s136(3)",
+      "style": "subsection",
+      "text": "(3) The claim must contain the information prescribed by the regulations."
+    },
+    {
+      "content_hash": "sha256:b3641c8df24345b938985d299f5188901f77566852e399a522ad60df0817f685",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 51,
+          "start": 38,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s136(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s137.1",
+          "mention": "Sections 137.1 and 137.2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s137.2",
+          "mention": "Sections 137.1 and 137.2"
+        }
+      ],
+      "ref": "TMA1995/s136(3)~1",
+      "style": "notetext",
+      "text": "Note: Sections 137.1 and 137.2 of the Criminal Code create offences for providing false or misleading information or documents."
+    }
+  ]
+}

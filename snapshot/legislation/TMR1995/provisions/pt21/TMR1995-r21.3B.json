@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:d3a175326cee29f6a801ce8940f5cc749afa1a7c574bd8d4726a94c5ab06f0c3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.3B  Directions by Registrar for filing of documents"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.3B",
+  "ref": "TMR1995/r21.3B",
+  "text": "For the purposes of subsection 213B(3) of the Act, the direction must be published on the IP Australia website.",
+  "title": "Directions by Registrar for filing of documents",
+  "units": [
+    {
+      "content_hash": "sha256:d3a175326cee29f6a801ce8940f5cc749afa1a7c574bd8d4726a94c5ab06f0c3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213B(3)",
+          "mention": "subsection 213B(3)"
+        }
+      ],
+      "ref": "TMR1995/r21.3B~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 213B(3) of the Act, the direction must be published on the IP Australia website."
+    }
+  ]
+}

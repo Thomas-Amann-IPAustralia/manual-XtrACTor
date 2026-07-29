@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:a183914ac58f02d2c243d8af786f5902f8390549062299e58eea3828b81eb9eb",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.19  Expedited examinations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.19",
+  "ref": "TMR1995/r4.19",
+  "text": "(1) The Registrar must, to the extent that is practicable, examine applications for the registration of trade marks in relation to which requests under regulation 4.18 are granted: (a) in the order in which the requests are filed; and (b) before examination of an application for registration of a trade mark in relation to which: (i) a request under regulation 4.18 is not made; or (ii) a request made under that regulation is not granted. (2) In the absence of a request for expedited examination of an application for registration of a trade mark, the Registrar may expedite examination of the application if he or she reasonably believes that expedited examination is warranted. (3) The relationship of an application mentioned in subregulation (2) to another application for registration of a trade mark is a relevant circumstance for the purposes of that subregulation.",
+  "title": "Expedited examinations",
+  "units": [
+    {
+      "content_hash": "sha256:9dcd4b53c008a0f7a3b6f61ba14e5b9fdac9f8ff87e46565b1ca4062e4653d8b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "regulation 4.18"
+        }
+      ],
+      "ref": "TMR1995/r4.19(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must, to the extent that is practicable, examine applications for the registration of trade marks in relation to which requests under regulation 4.18 are granted:"
+    },
+    {
+      "content_hash": "sha256:dff8ede0b8737dda3cee4b0348b4c9dd2a49cfc718cecc92765d93a33e1f880e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.19(1)",
+      "ref": "TMR1995/r4.19(1)(a)",
+      "style": "paragraph",
+      "text": "(a) in the order in which the requests are filed; and"
+    },
+    {
+      "content_hash": "sha256:8f5d2b6f5050b98d125936277ade5d01d0540f11d8ccdc5f94cc16d756f3e05b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.19(1)",
+      "ref": "TMR1995/r4.19(1)(b)",
+      "style": "paragraph",
+      "text": "(b) before examination of an application for registration of a trade mark in relation to which:"
+    },
+    {
+      "content_hash": "sha256:cc10bbf2f52338107e3fd0d07c49cead63521168809e59b7a9ded5497a5329bf",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.19(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "regulation 4.18"
+        }
+      ],
+      "ref": "TMR1995/r4.19(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a request under regulation 4.18 is not made; or"
+    },
+    {
+      "content_hash": "sha256:4e11fc87e4160d69d65785d3f4fe4d60f229b9205f9b7011bbef9eb68c71667f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.19(1)(b)",
+      "ref": "TMR1995/r4.19(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a request made under that regulation is not granted."
+    },
+    {
+      "content_hash": "sha256:0a19836baf1514e3e027ac5702a5d601999e23f5c3325b2ee2a90864e9f28a32",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.19(2)",
+      "style": "subsection",
+      "text": "(2) In the absence of a request for expedited examination of an application for registration of a trade mark, the Registrar may expedite examination of the application if he or she reasonably believes that expedited examination is warranted."
+    },
+    {
+      "content_hash": "sha256:62f9d706f5c1a87ac46ca7b48be22efb63580b94659cee355c32b5c619eb4d88",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.19(3)",
+      "style": "subsection",
+      "text": "(3) The relationship of an application mentioned in subregulation (2) to another application for registration of a trade mark is a relevant circumstance for the purposes of that subregulation."
+    }
+  ]
+}

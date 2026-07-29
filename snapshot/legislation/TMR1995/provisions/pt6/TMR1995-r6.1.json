@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div1"
+  ],
+  "content_hash": "sha256:a2f1b5fc0afe1b70e9a54afebc355ea47aae4e5ec95b714f2b65f92779447579",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 1—Amendment of application for registration of trade mark and other documents",
+    "6.1  Amendment of applications by Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.1",
+  "ref": "TMR1995/r6.1",
+  "text": "(1) For the purposes of subsection 63(2) of the Act (which deals with amendment), if the Registrar proposes to amend an application for the registration of a trade mark, the Registrar must by notification to the applicant: (a) set out the proposed amendment and the reason for making the amendment; and (b) state that the proposed amendment will be made at the end of a reasonable period stated in the notification, unless the applicant objects to the amendment within that period. (2) If an applicant objects to an amendment proposed by the Registrar within the period mentioned in paragraph (1)(b), the Registrar must not make the amendment unless the objection is withdrawn.",
+  "title": "Amendment of applications by Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:c37f5063e96d0abbf5694c66751cafb1323bf13456ffc3b8c6895f3605857ab6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s63(2)",
+          "mention": "subsection 63(2)"
+        }
+      ],
+      "ref": "TMR1995/r6.1(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 63(2) of the Act (which deals with amendment), if the Registrar proposes to amend an application for the registration of a trade mark, the Registrar must by notification to the applicant:"
+    },
+    {
+      "content_hash": "sha256:3674b3b04c71ccabe9e15e1480e11959105fca772426c6cc07ae924bd8bd60ce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r6.1(1)",
+      "ref": "TMR1995/r6.1(1)(a)",
+      "style": "paragraph",
+      "text": "(a) set out the proposed amendment and the reason for making the amendment; and"
+    },
+    {
+      "content_hash": "sha256:1e903aed94d18513b2431844a9c0da334c6409cd413f312a9177327a53270e9e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r6.1(1)",
+      "ref": "TMR1995/r6.1(1)(b)",
+      "style": "paragraph",
+      "text": "(b) state that the proposed amendment will be made at the end of a reasonable period stated in the notification, unless the applicant objects to the amendment within that period."
+    },
+    {
+      "content_hash": "sha256:abdc93c80fb939c3e1fe25e89d9acfdc042d4a3a11a909eaac9f68395005054f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r6.1(2)",
+      "style": "subsection",
+      "text": "(2) If an applicant objects to an amendment proposed by the Registrar within the period mentioned in paragraph (1)(b), the Registrar must not make the amendment unless the objection is withdrawn."
+    }
+  ]
+}

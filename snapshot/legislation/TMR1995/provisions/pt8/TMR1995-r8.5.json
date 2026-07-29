@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:47c912a2444de72025d9610907b233e6ba680f9fa2c808bb69423f55161e810b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.5  Amendment because of inconsistency with international agreements—opposition practice and procedure"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.5",
+  "ref": "TMR1995/r8.5",
+  "text": "The Registrar may: (a) decide the practice and procedure to be followed in an opposition under subsection 83A(4) of the Act; and (b) direct the registered owner of the registered trade mark who made the request for amendment, and a person (an opponent) who filed a notice of opposition, accordingly.",
+  "title": "Amendment because of inconsistency with international agreements—opposition practice and procedure",
+  "units": [
+    {
+      "content_hash": "sha256:bd42aa14d060938d872cffb6beb16645a2ad869f1760eb409d30e0229fba955a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.5~1",
+      "style": "subsection",
+      "text": "The Registrar may:"
+    },
+    {
+      "content_hash": "sha256:0a7ab680f61e98cdd6075568a532c17752a8ac72904e2b0cee542ce3c52aadb0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r8.5~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s83A(4)",
+          "mention": "subsection 83A(4)"
+        }
+      ],
+      "ref": "TMR1995/r8.5~1(a)",
+      "style": "paragraph",
+      "text": "(a) decide the practice and procedure to be followed in an opposition under subsection 83A(4) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:95db9e0421a2a83fd302eacbb6c45d17f9298c64ff8724fc54e37265d44a2b53",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 122,
+          "start": 114,
+          "text": "opponent",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r8.5~1",
+      "ref": "TMR1995/r8.5~1(b)",
+      "style": "paragraph",
+      "text": "(b) direct the registered owner of the registered trade mark who made the request for amendment, and a person (an opponent) who filed a notice of opposition, accordingly."
+    }
+  ]
+}

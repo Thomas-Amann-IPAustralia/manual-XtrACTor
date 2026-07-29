@@ -1,0 +1,150 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt11",
+    "TMA1995/pt11/div3"
+  ],
+  "content_hash": "sha256:2134d77c0aeb86f6c9ef39928d3b8e7ed1f89f3cf707cd24b49ab45bfc33ed8a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 11—Voluntary recording of claims to interests in and rights in respect of trade marks",
+    "Division 3—Interests in, and rights in respect of, unregistered trade marks",
+    "117  Application for recording of interest or right in trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "117",
+  "ref": "TMA1995/s117",
+  "text": "Scope (1) This section applies in relation to an interest in, or right in respect of, a trade mark, if a person has applied for the registration of the trade mark. Application for recording of interest or right (2) A person claiming the interest or right may apply to the Registrar for a record to be kept of the claim. (3) The application must: (a) be in an approved form; and (b) be accompanied by proof to the reasonable satisfaction of the Registrar of the applicant’s entitlement to the claimed interest or right; and (c) be filed in accordance with the regulations. Note: For registered trade mark, approved form and file see section 6.",
+  "title": "Application for recording of interest or right in trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:b073f6c68ef8721107fd9815b19b2c35ec111d526b75c2123d1111ba64424000",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s117~1",
+      "style": "SubsectionHead",
+      "text": "Scope"
+    },
+    {
+      "content_hash": "sha256:8016ec06d3b9e50ad2be2eeb9367e178621eb146edc41eaf84466853db83d470",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s117(1)",
+      "style": "subsection",
+      "text": "(1) This section applies in relation to an interest in, or right in respect of, a trade mark, if a person has applied for the registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:f8d3a2e838be5dfb6581d31940c71a048df8a4578248f275c3b9bfc13d9e3a64",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s117~2",
+      "style": "SubsectionHead",
+      "text": "Application for recording of interest or right"
+    },
+    {
+      "content_hash": "sha256:18e94b8d3832a130cd23b6812b8d3f96f38a28032e7a25a579fb7aa9751e18ec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s117(2)",
+      "style": "subsection",
+      "text": "(2) A person claiming the interest or right may apply to the Registrar for a record to be kept of the claim."
+    },
+    {
+      "content_hash": "sha256:bc4212e02ce0d75499c9b122009f338a627bef1fa419bc602e2195729607fb0c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s117(3)",
+      "style": "subsection",
+      "text": "(3) The application must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s117(3)",
+      "ref": "TMA1995/s117(3)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:7983eb5b932af91bd463c339e1191b1f04f0c9461305b7e84172e3877f120336",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s117(3)",
+      "ref": "TMA1995/s117(3)(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by proof to the reasonable satisfaction of the Registrar of the applicant’s entitlement to the claimed interest or right; and"
+    },
+    {
+      "content_hash": "sha256:3e8cc0abdaec9d09243921f4a171db1988d9da5885dde7613f7a6f13f93ed0b2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s117(3)",
+      "ref": "TMA1995/s117(3)(c)",
+      "style": "paragraph",
+      "text": "(c) be filed in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:4115751a5d5f183ba3de3cd3234e20b2b1fb2ac2eff5e1afbf6cc9502c72369f",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 46,
+          "start": 33,
+          "text": "approved form",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 55,
+          "start": 51,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s117(3)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s117(3)(c)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark, approved form and file see section 6."
+    }
+  ]
+}

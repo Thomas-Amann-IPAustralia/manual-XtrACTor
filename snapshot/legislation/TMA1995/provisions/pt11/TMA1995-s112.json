@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt11",
+    "TMA1995/pt11/div1"
+  ],
+  "content_hash": "sha256:da28bff083bfd62a9cb5dbbada51449dd5eadbb757b664545350254d1fcad8ba",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 11—Voluntary recording of claims to interests in and rights in respect of trade marks",
+    "Division 1—Preliminary",
+    "112  Object of Part"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "112",
+  "ref": "TMA1995/s112",
+  "text": "This Part makes provision: (a) for recording in the Register claims to interests in, and rights in respect of, registered trade marks that may not be so recorded under another Part; and (b) for the Registrar to keep a record of claims to interests in, and rights in respect of, trade marks for which registration is sought. Note: For registered trade mark see section 6.",
+  "title": "Object of Part",
+  "units": [
+    {
+      "content_hash": "sha256:5e7f35687bb63575c568ae9049ea3bb5424e26e8a5bab3278e7473beba0864d7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s112~1",
+      "style": "subsection",
+      "text": "This Part makes provision:"
+    },
+    {
+      "content_hash": "sha256:61296c8a5cdd947fccf32f413fd23c74d4649ac726362c7e74e26c3cbbba9cad",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s112~1",
+      "ref": "TMA1995/s112~1(a)",
+      "style": "paragraph",
+      "text": "(a) for recording in the Register claims to interests in, and rights in respect of, registered trade marks that may not be so recorded under another Part; and"
+    },
+    {
+      "content_hash": "sha256:6ef146a9fe0960e8c1b063c4443fc63c846c6889101508cf589eba7473ad46c3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s112~1",
+      "ref": "TMA1995/s112~1(b)",
+      "style": "paragraph",
+      "text": "(b) for the Registrar to keep a record of claims to interests in, and rights in respect of, trade marks for which registration is sought."
+    },
+    {
+      "content_hash": "sha256:48edc9e7118618be3f615e1f7d65a2a703b12d564f06e64025fa38badc28c0f1",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s112~1(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s112~1(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark see section 6."
+    }
+  ]
+}

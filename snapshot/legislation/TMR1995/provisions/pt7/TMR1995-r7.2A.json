@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div1"
+  ],
+  "content_hash": "sha256:cd8c28c72ee352111b7ab75960be0138b4ac6082dfefe83cf63ab95254c40be3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "7.2A  Publication of registration"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.2A",
+  "ref": "TMR1995/r7.2A",
+  "text": "For the purposes of paragraph 71(a) of the Act, the registration must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Publication of registration",
+  "units": [
+    {
+      "content_hash": "sha256:cd8c28c72ee352111b7ab75960be0138b4ac6082dfefe83cf63ab95254c40be3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s71(a)",
+          "mention": "paragraph 71(a)"
+        }
+      ],
+      "ref": "TMR1995/r7.2A~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 71(a) of the Act, the registration must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

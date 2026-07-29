@@ -1,0 +1,198 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:61bd6b7f97798d01fb9998d97b0026ab2bd05bfcd1b230f4359f29852c0cb4b4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "248  Revival of application for registration of trade mark that had lapsed before 1 January 1996"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "248",
+  "ref": "TMA1995/s248",
+  "text": "(1) If: (a) an application under the repealed Act for the registration of a trade mark had lapsed (under subsection 48(1) of that Act); and (b) the application would have been pending immediately before 1 January 1996 if: (i) an application had been made to the Registrar under the repealed Act for an extension of the time within which the application for registration would be accepted; and (ii) the Registrar had allowed an extension of that time under that Act; the applicant may apply in writing to the Registrar for a declaration that the application is revived. Note: For pending see subsection 11(2). (2) The Registrar must grant the application if he or she considers, in all the circumstances of the case, that it is fair and reasonable to do so. (3) If the Registrar declares that the application is revived, the application is to be dealt with as if it were an application that was pending immediately before 1 January 1996. Note 1: For pending see subsection 11(2). Note 2: Sections 240 to 247 make provision relating to applications for registration of trade marks that were pending immediately before 1 January 1996.",
+  "title": "Revival of application for registration of trade mark that had lapsed before 1 January 1996",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s248(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:0f0f2026f21e77828ecac5bf148f0a1a589d108a0dea29926e6e4cb6bb783845",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s248(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s48(1)",
+          "mention": "subsection 48(1)"
+        }
+      ],
+      "ref": "TMA1995/s248(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an application under the repealed Act for the registration of a trade mark had lapsed (under subsection 48(1) of that Act); and"
+    },
+    {
+      "content_hash": "sha256:66b5e63fdeea4eea40e39938769885c3ab2b01d58c1b524234b3653213fd3e28",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s248(1)",
+      "ref": "TMA1995/s248(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the application would have been pending immediately before 1 January 1996 if:"
+    },
+    {
+      "content_hash": "sha256:b3e2ca6d3c39635ad881930152bfc6f47e35040bb73b71005df7a57cda238610",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s248(1)(b)",
+      "ref": "TMA1995/s248(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an application had been made to the Registrar under the repealed Act for an extension of the time within which the application for registration would be accepted; and"
+    },
+    {
+      "content_hash": "sha256:a966688c8a431d28f9a468e1a3b9183925c0d6e693aee3e6927302d82b3c4ab9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s248(1)(b)",
+      "ref": "TMA1995/s248(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the Registrar had allowed an extension of that time under that Act;"
+    },
+    {
+      "content_hash": "sha256:749a61acccaa9976710012f6c976a2b22613755bcb479ea8e0400b4b5f071671",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s248~1",
+      "style": "subsection2",
+      "text": "the applicant may apply in writing to the Registrar for a declaration that the application is revived."
+    },
+    {
+      "content_hash": "sha256:32ae5b463db2655403c087cf9f9ce32ba7d7113d90b4be7fd4341e9c4b40dd8f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s248~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s248~1~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:c6f99387b8b24e24ceaa302ab6146f24a611b10de419009da6b0b481e336f859",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s248(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must grant the application if he or she considers, in all the circumstances of the case, that it is fair and reasonable to do so."
+    },
+    {
+      "content_hash": "sha256:460cb3dff0e9199389413dbcfb9480afb777a660119503ae397ff73c2eafa264",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s248(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar declares that the application is revived, the application is to be dealt with as if it were an application that was pending immediately before 1 January 1996."
+    },
+    {
+      "content_hash": "sha256:696e75384e9f8d5d12d0de8f5cabbbb3de55de9abe43a94b0a3c8d3728f271ca",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s248(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s248(3)~1",
+      "style": "notetext",
+      "text": "Note 1: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:8498336c6a7e846b4b29d416fdf704df351f822b74c310e0e7182a49a76a28d0",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s248(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s240",
+          "mention": "Sections 240 to 247"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s247",
+          "mention": "Sections 240 to 247"
+        }
+      ],
+      "ref": "TMA1995/s248(3)~2",
+      "style": "notetext",
+      "text": "Note 2: Sections 240 to 247 make provision relating to applications for registration of trade marks that were pending immediately before 1 January 1996."
+    }
+  ]
+}

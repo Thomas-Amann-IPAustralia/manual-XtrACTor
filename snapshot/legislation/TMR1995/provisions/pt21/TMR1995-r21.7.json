@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:61aca28b3d17d87d7617e47e2ed1886b2fda75df74f843b622f96abf33abbf45",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.7  Declarations—additional material"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.7",
+  "ref": "TMR1995/r21.7",
+  "text": "(1) If: (a) a person is required by the Act or these regulations to file a declaration or serve a copy of the declaration; and (b) it is not practicable to include in, or attach to, the declaration or copy any material to which the declaration refers; the person must file or serve the material to which the declaration refers, or a copy of the material, at the same time as the declaration or as soon as practicable after that time. (2) A declaration is not taken to have been filed or served until any material to which the declaration refers, or any copy of the material, is filed or served.",
+  "title": "Declarations—additional material",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.7(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:c3231ea3de840ab0dc6a187dfc4130fe645c28d6e7571a4661101945d13c7846",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.7(1)",
+      "ref": "TMR1995/r21.7(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a person is required by the Act or these regulations to file a declaration or serve a copy of the declaration; and"
+    },
+    {
+      "content_hash": "sha256:60ebf84c593a51b944c5a0e9bac85ac3cc8f5e8047a05333933bc732799cfac9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.7(1)",
+      "ref": "TMR1995/r21.7(1)(b)",
+      "style": "paragraph",
+      "text": "(b) it is not practicable to include in, or attach to, the declaration or copy any material to which the declaration refers;"
+    },
+    {
+      "content_hash": "sha256:fd327d237ea06d34c5cde72f1ce453a4ea55c87f9a410fd5491cb6527c9019ad",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.7~1",
+      "style": "subsection2",
+      "text": "the person must file or serve the material to which the declaration refers, or a copy of the material, at the same time as the declaration or as soon as practicable after that time."
+    },
+    {
+      "content_hash": "sha256:c8a3a30fcfdd8ad29769910b7eaae4f9d8f1ec9636495df3e07bd0064341cfe3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.7(2)",
+      "style": "subsection",
+      "text": "(2) A declaration is not taken to have been filed or served until any material to which the declaration refers, or any copy of the material, is filed or served."
+    }
+  ]
+}

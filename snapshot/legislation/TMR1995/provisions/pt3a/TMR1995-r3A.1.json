@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3a",
+    "TMR1995/pt3a/div1"
+  ],
+  "content_hash": "sha256:9494b697f27dc2e51496b91c31264eceab2a9a9c01202c5810811ed89c9b79b4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3A—Assisted filing service",
+    "Division 1—General",
+    "3A.1  Purpose of Part"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3A.1",
+  "ref": "TMR1995/r3A.1",
+  "text": "This Part provides for an assisted filing service to enable a person proposing to make an application under Part 4 of the Act to request: (a) a preliminary assessment from the Registrar concerning the likelihood of the application for the proposed trade mark being successful under Part 4 of the Act; and (b) information concerning the requirements for registration under Part 4 of the Act.",
+  "title": "Purpose of Part",
+  "units": [
+    {
+      "content_hash": "sha256:c9cdc56679debf4bc723c3d9a558bce04fac43265b332601cc98050609224c10",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.1~1",
+      "style": "subsection",
+      "text": "This Part provides for an assisted filing service to enable a person proposing to make an application under Part 4 of the Act to request:"
+    },
+    {
+      "content_hash": "sha256:048010ac7634db1fb3eb0ba33dd4cd3ce63b610a94b0720abafaf238be3cf409",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r3A.1~1",
+      "ref": "TMR1995/r3A.1~1(a)",
+      "style": "paragraph",
+      "text": "(a) a preliminary assessment from the Registrar concerning the likelihood of the application for the proposed trade mark being successful under Part 4 of the Act; and"
+    },
+    {
+      "content_hash": "sha256:b244c26325517c8fbc027f1b859b8ea17dea736d6535db54172f1a7157f5d1a5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r3A.1~1",
+      "ref": "TMR1995/r3A.1~1(b)",
+      "style": "paragraph",
+      "text": "(b) information concerning the requirements for registration under Part 4 of the Act."
+    }
+  ]
+}

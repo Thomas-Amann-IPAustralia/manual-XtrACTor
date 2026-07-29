@@ -1,0 +1,232 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:4007e1eac9d6a66ff07cee7200d5f5a9c98508d94a7f2f72ac0f1918a88141cd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "153  Disobeying summons etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "153",
+  "ref": "TMA1995/s153",
+  "text": "(1) A person: (a) who has been summonsed to appear as a witness before the Registrar; and (b) to whom a reasonable sum has been tendered in payment for expenses; must not fail to appear in answer to the summons. Penalty: 10 penalty units. (2) A person: (a) who has been required by the Registrar to produce a document or any other thing; and (b) to whom a reasonable sum has been tendered in payment for expenses; must not fail to produce the document or thing. Penalty: 10 penalty units. (2A) Subsections (1) and (2) do not apply if the person has a reasonable excuse. Note: A defendant bears an evidential burden in relation to the matter in subsection (2A), see subsection 13.3(3) of the Criminal Code. (3) An offence under this section is an offence of strict liability. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For strict liability, see section 6.1 of the Criminal Code.",
+  "title": "Disobeying summons etc.",
+  "units": [
+    {
+      "content_hash": "sha256:31bea5ccff5b63a760e07227adf3ffc0c007fbc289291b5ce114de80cf9e8c9b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s153(1)",
+      "style": "subsection",
+      "text": "(1) A person:"
+    },
+    {
+      "content_hash": "sha256:1ae7dc76e9e306a5c1c0d3493fabd42fe2c4d7ce5bfbebfdc8807919c6f8ca96",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s153(1)",
+      "ref": "TMA1995/s153(1)(a)",
+      "style": "paragraph",
+      "text": "(a) who has been summonsed to appear as a witness before the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:505521a107ba46c3cb9078e40c6174a049d157236b2bc665c14233c29e927126",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s153(1)",
+      "ref": "TMA1995/s153(1)(b)",
+      "style": "paragraph",
+      "text": "(b) to whom a reasonable sum has been tendered in payment for expenses;"
+    },
+    {
+      "content_hash": "sha256:18c224313f2fe3c8a138039823ec05949156f83622f3a2c3a32ac47fcbc50d63",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s153~1",
+      "style": "subsection2",
+      "text": "must not fail to appear in answer to the summons."
+    },
+    {
+      "content_hash": "sha256:2e132337ca948054e9c5b18cc7720084950ece3640ae35ed0a7c44512e4b5595",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s153~2",
+      "style": "Penalty",
+      "text": "Penalty: 10 penalty units."
+    },
+    {
+      "content_hash": "sha256:411f310437d1670385681ee059ff2c5af8fbc748fdba39f4a63dcb1a20332788",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s153(2)",
+      "style": "subsection",
+      "text": "(2) A person:"
+    },
+    {
+      "content_hash": "sha256:5cad2f0b48548b90a5fa240553e1fbd541ecb431224a405454ba23a10dadf0d0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s153(2)",
+      "ref": "TMA1995/s153(2)(a)",
+      "style": "paragraph",
+      "text": "(a) who has been required by the Registrar to produce a document or any other thing; and"
+    },
+    {
+      "content_hash": "sha256:505521a107ba46c3cb9078e40c6174a049d157236b2bc665c14233c29e927126",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s153(2)",
+      "ref": "TMA1995/s153(2)(b)",
+      "style": "paragraph",
+      "text": "(b) to whom a reasonable sum has been tendered in payment for expenses;"
+    },
+    {
+      "content_hash": "sha256:5e44b6eb92d3b7ab94dd5450a8eef9233306bf9f5ca1da23cf62ac2b840263f0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s153~3",
+      "style": "subsection2",
+      "text": "must not fail to produce the document or thing."
+    },
+    {
+      "content_hash": "sha256:2e132337ca948054e9c5b18cc7720084950ece3640ae35ed0a7c44512e4b5595",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s153~4",
+      "style": "Penalty",
+      "text": "Penalty: 10 penalty units."
+    },
+    {
+      "content_hash": "sha256:4757be51058d62c07d28bc5c3dcff9d54ea9a31537c99ec1ecc54cb052c2f566",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s153(2A)",
+      "style": "subsection",
+      "text": "(2A) Subsections (1) and (2) do not apply if the person has a reasonable excuse."
+    },
+    {
+      "content_hash": "sha256:f512e2ef7601256d5fc82b3a76695178ddf3bfac007deae06298015f1041f576",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 134,
+          "start": 121,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s153(2A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s13.3(3)",
+          "mention": "subsection 13.3(3)"
+        }
+      ],
+      "ref": "TMA1995/s153(2A)~1",
+      "style": "notetext",
+      "text": "Note: A defendant bears an evidential burden in relation to the matter in subsection (2A), see subsection 13.3(3) of the Criminal Code."
+    },
+    {
+      "content_hash": "sha256:5c8c9bb05fcd5bb6c170f3f686d202af9677d878031dfff2dea7ff810b98a26e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s153(3)",
+      "style": "subsection",
+      "text": "(3) An offence under this section is an offence of strict liability."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s153(3)",
+      "ref": "TMA1995/s153(3)~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:6355dc6e944140af7af54cf00be1ae680cba7df9ea851d1c02148bd5acbd6728",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "strict liability",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 66,
+          "start": 53,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s153(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.1",
+          "mention": "section 6.1"
+        }
+      ],
+      "ref": "TMA1995/s153(3)~2",
+      "style": "notetext",
+      "text": "Note 2: For strict liability, see section 6.1 of the Criminal Code."
+    }
+  ]
+}

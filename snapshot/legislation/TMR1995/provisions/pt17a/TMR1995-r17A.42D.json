@@ -1,0 +1,208 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv2"
+  ],
+  "content_hash": "sha256:25f9d38a9c89294f976292165ca834c9bbc976c7d55b0909202b5f955517eb4c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 2—Amendment or cessation of protection by Registrar",
+    "17A.42D  Effect of amendment or cessation of protection by Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.42D",
+  "ref": "TMR1995/r17A.42D",
+  "text": "(1) This regulation applies if the Registrar exercises any of the powers mentioned in subregulation 17A.42A(1). (2) Subject to subregulation (3), the exercise by the Registrar of a power mentioned in subregulation 17A.42A(1) is taken to have had effect from the date of effect of the protection of the protected international trade mark, and in particular: (a) any reduction in scope of the protection is taken to apply from that date; and (b) any condition or limitation imposed by the Registrar is taken to have had effect from that date; and (c) any removal or amendment of an entry in the Record of International Registrations is taken to have had effect from that date. Note: See regulation 17A.4 for the meaning of date of effect. (3) For subregulation (2), the exercise of a power mentioned in subregulation 17A.42A(1) has effect as follows: (a) for the application of a provision in Part 12, 13 or 14 of the Act as applied by regulation 17A.39, or a provision in Part 13 of these regulations—from the date the power is exercised; (b) for the application of subsection 230(2) of the Act as applied by regulation 17A.71: (i) in relation to a defendant who was the holder of the protected international trade mark before the exercise of the power—from the date the power is exercised; or (ii) in relation to a defendant who was an authorised user of the protected international trade mark before the exercise of the power—from the date the defendant becomes aware of the exercise of the power.",
+  "title": "Effect of amendment or cessation of protection by Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:3e560da9da429dab33209bb81b416410161c1ce4bac0c7893dd9511974adfacd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42A(1)",
+          "mention": "subregulation 17A.42A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if the Registrar exercises any of the powers mentioned in subregulation 17A.42A(1)."
+    },
+    {
+      "content_hash": "sha256:d0d6a371f936ea6394f333b463b9098c8e6bd51e5a106922be6be19b051c57d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42A(1)",
+          "mention": "subregulation 17A.42A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(2)",
+      "style": "subsection",
+      "text": "(2) Subject to subregulation (3), the exercise by the Registrar of a power mentioned in subregulation 17A.42A(1) is taken to have had effect from the date of effect of the protection of the protected international trade mark, and in particular:"
+    },
+    {
+      "content_hash": "sha256:02ee247ea01ad455fc7a8c6bbe2e91112f691a3fda7825657cfb173a9ff96169",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.42D(2)",
+      "ref": "TMR1995/r17A.42D(2)(a)",
+      "style": "paragraph",
+      "text": "(a) any reduction in scope of the protection is taken to apply from that date; and"
+    },
+    {
+      "content_hash": "sha256:3ad26839aff01fca74b21f8040b18fa8ebd27a263d9bd95a8e7536b7b5673c17",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.42D(2)",
+      "ref": "TMR1995/r17A.42D(2)(b)",
+      "style": "paragraph",
+      "text": "(b) any condition or limitation imposed by the Registrar is taken to have had effect from that date; and"
+    },
+    {
+      "content_hash": "sha256:169ed08d34e516763b417d73e7c64a19e2aa425a9beb92ba65d3dbe97ade59bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.42D(2)",
+      "ref": "TMR1995/r17A.42D(2)(c)",
+      "style": "paragraph",
+      "text": "(c) any removal or amendment of an entry in the Record of International Registrations is taken to have had effect from that date."
+    },
+    {
+      "content_hash": "sha256:551cd58103b0e70e11b5bb842d70cf6cd35b63ded89e8e7d262afeeae23ecb54",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 60,
+          "start": 46,
+          "text": "date of effect",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.42D(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.4",
+          "mention": "regulation 17A.4"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(2)(c)~1",
+      "style": "notetext",
+      "text": "Note: See regulation 17A.4 for the meaning of date of effect."
+    },
+    {
+      "content_hash": "sha256:25088e73dc03a91b3e50ce2f9767fc4e9f157bf7595f2ecc7412bb7d260fd979",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42A(1)",
+          "mention": "subregulation 17A.42A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(3)",
+      "style": "subsection",
+      "text": "(3) For subregulation (2), the exercise of a power mentioned in subregulation 17A.42A(1) has effect as follows:"
+    },
+    {
+      "content_hash": "sha256:367bc3388495a770d6f3b3a1aedf5de5b90aad6c2d49e36b44f112ce22b8993a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.42D(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.39",
+          "mention": "regulation 17A.39"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(3)(a)",
+      "style": "paragraph",
+      "text": "(a) for the application of a provision in Part 12, 13 or 14 of the Act as applied by regulation 17A.39, or a provision in Part 13 of these regulations—from the date the power is exercised;"
+    },
+    {
+      "content_hash": "sha256:93525f1715a07e205ae8db844b2e9ee2fcce16e16a8f50826a114958ac60a718",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.42D(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s230(2)",
+          "mention": "subsection 230(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.71",
+          "mention": "regulation 17A.71"
+        }
+      ],
+      "ref": "TMR1995/r17A.42D(3)(b)",
+      "style": "paragraph",
+      "text": "(b) for the application of subsection 230(2) of the Act as applied by regulation 17A.71:"
+    },
+    {
+      "content_hash": "sha256:81418db07148e3423eecaea994e64f1e28d0a20e94e5e311b1b0cacebbeb5e33",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.42D(3)(b)",
+      "ref": "TMR1995/r17A.42D(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) in relation to a defendant who was the holder of the protected international trade mark before the exercise of the power—from the date the power is exercised; or"
+    },
+    {
+      "content_hash": "sha256:60ac4674231e10c9ddd5b8039afc8784e6764882258fc2f4bf0f0063086b7fe0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.42D(3)(b)",
+      "ref": "TMR1995/r17A.42D(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) in relation to a defendant who was an authorised user of the protected international trade mark before the exercise of the power—from the date the defendant becomes aware of the exercise of the power."
+    }
+  ]
+}

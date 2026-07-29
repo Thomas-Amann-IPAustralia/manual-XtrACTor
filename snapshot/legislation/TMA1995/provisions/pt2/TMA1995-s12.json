@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:f0c714853658535f373f035e5a52c3d7256ce6f17a1cb2ae3ce3e0c29a46b406",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "12  Definition of priority date"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "12",
+  "ref": "TMA1995/s12",
+  "text": "The priority date for the registration of a trade mark in respect of particular goods or services is: (a) if the trade mark is registered—the date of registration of the trade mark in respect of those goods or services; or (b) if the registration of the trade mark is being sought—the day that would be the date of registration of the trade mark in respect of those goods or services if the trade mark were registered.",
+  "title": "Definition of priority date",
+  "units": [
+    {
+      "content_hash": "sha256:d3757ee6255bc6b9b6ca4412992904000b2aee504287432ac478af07587ffbfd",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 4,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s12~1",
+      "style": "subsection",
+      "text": "The priority date for the registration of a trade mark in respect of particular goods or services is:"
+    },
+    {
+      "content_hash": "sha256:d5ee1be85f8d7b7cca80622d2bf6ef2d144027adf84d783afcd80a5d9a8112ec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s12~1",
+      "ref": "TMA1995/s12~1(a)",
+      "style": "paragraph",
+      "text": "(a) if the trade mark is registered—the date of registration of the trade mark in respect of those goods or services; or"
+    },
+    {
+      "content_hash": "sha256:fe74107817d8c0471d5fe5271bafea40d13c7740d42cb0a37a1d609a09867c52",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s12~1",
+      "ref": "TMA1995/s12~1(b)",
+      "style": "paragraph",
+      "text": "(b) if the registration of the trade mark is being sought—the day that would be the date of registration of the trade mark in respect of those goods or services if the trade mark were registered."
+    }
+  ]
+}

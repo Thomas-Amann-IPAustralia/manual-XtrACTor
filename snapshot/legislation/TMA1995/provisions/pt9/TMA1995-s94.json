@@ -1,0 +1,81 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:0d1b6f3afaafdf17824f4927f9301a256f0b62cb6bdf515fedfd645914f06834",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "94  Referral to court"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "94",
+  "ref": "TMA1995/s94",
+  "text": "If: (a) an application has been made to the Registrar under subsection 92(1); and (b) the Registrar is of the opinion that the matter should be decided by a prescribed court; the Registrar may refer the matter to such a court and the court may hear and determine the matter as if an application had been made to it under subsection 92(3).",
+  "title": "Referral to court",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s94~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:05b48bb17955767ef64a99aa40858462e135670d92d1073166430203a61eca91",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s94~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(1)",
+          "mention": "subsection 92(1)"
+        }
+      ],
+      "ref": "TMA1995/s94~1(a)",
+      "style": "paragraph",
+      "text": "(a) an application has been made to the Registrar under subsection 92(1); and"
+    },
+    {
+      "content_hash": "sha256:edaeab7929e11f37127d1232c5439a3d7bc444d77fdcd21b6b15ab2e92ec3bd0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s94~1",
+      "ref": "TMA1995/s94~1(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is of the opinion that the matter should be decided by a prescribed court;"
+    },
+    {
+      "content_hash": "sha256:f3ddb06862b049275e29ea74a2db51481e3fb8df56fa1876332cca8ffefb9377",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(3)",
+          "mention": "subsection 92(3)"
+        }
+      ],
+      "ref": "TMA1995/s94~2",
+      "style": "subsection2",
+      "text": "the Registrar may refer the matter to such a court and the court may hear and determine the matter as if an application had been made to it under subsection 92(3)."
+    }
+  ]
+}

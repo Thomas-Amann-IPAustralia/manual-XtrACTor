@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:2f88d0f7947175ee8b0848fb073d85a207c525734ba8ebcc03eabfc890e5a0b1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.12  Publication of rules"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.12",
+  "ref": "TMR1995/r16.12",
+  "text": "(1) The Registrar must publish the rules governing the use of the certification trade mark as soon as practicable after a copy of the rules is filed in accordance with subsection 173(1) of the Act. (2) The Registrar must publish the certified copy of the rules, provided to the Registrar by the Commission in accordance with subsection 175(2) of the Act, as soon as practicable after the Registrar publishes acceptance of the application in a computer database maintained by the Trade Marks Office in accordance with regulation 16.7A. (3) The Registrar may publish the rules, or the certified copy of the rules, in any manner the Registrar thinks fit, including (but not limited to): (a) a listing in a computer database that is publicly available; or (b) making the rules or certified copy of the rules available for public inspection.",
+  "title": "Publication of rules",
+  "units": [
+    {
+      "content_hash": "sha256:760479e48118315252719915634140be9822808a78e31723cf20c09177a35b0d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(1)",
+          "mention": "subsection 173(1)"
+        }
+      ],
+      "ref": "TMR1995/r16.12(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must publish the rules governing the use of the certification trade mark as soon as practicable after a copy of the rules is filed in accordance with subsection 173(1) of the Act."
+    },
+    {
+      "content_hash": "sha256:4b2aaf7f5596540b269a2b3935e512fd0317d319de71b7e519101617374df71f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(2)",
+          "mention": "subsection 175(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.7A",
+          "mention": "regulation 16.7A"
+        }
+      ],
+      "ref": "TMR1995/r16.12(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must publish the certified copy of the rules, provided to the Registrar by the Commission in accordance with subsection 175(2) of the Act, as soon as practicable after the Registrar publishes acceptance of the application in a computer database maintained by the Trade Marks Office in accordance with regulation 16.7A."
+    },
+    {
+      "content_hash": "sha256:7bfc83e5acb00add47c2c0a696acc88acd62bfc6d3df82b55ea28738a715697f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.12(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may publish the rules, or the certified copy of the rules, in any manner the Registrar thinks fit, including (but not limited to):"
+    },
+    {
+      "content_hash": "sha256:065506fe964e98e10cdbf37e89d42aaf9f8b63d8adca35f5fb3573cff0232d56",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.12(3)",
+      "ref": "TMR1995/r16.12(3)(a)",
+      "style": "paragraph",
+      "text": "(a) a listing in a computer database that is publicly available; or"
+    },
+    {
+      "content_hash": "sha256:fc53d25c9713c5d276fcd08bb5497e7bb3076abe6f20bf702ee55bd36fa9a3ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r16.12(3)",
+      "ref": "TMR1995/r16.12(3)(b)",
+      "style": "paragraph",
+      "text": "(b) making the rules or certified copy of the rules available for public inspection."
+    }
+  ]
+}

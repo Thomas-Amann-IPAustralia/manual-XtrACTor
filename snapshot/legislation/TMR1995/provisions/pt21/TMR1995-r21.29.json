@@ -1,0 +1,175 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:30f45e918ed381adfc9cf744bbf6f6f990edc49af987131b611f820028028ef0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.29  Convention countries"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.29",
+  "ref": "TMR1995/r21.29",
+  "text": "(1) For the definition of Convention country in subsection 6(1) of the Act, the following countries are prescribed: (a) a foreign country that is a signatory to the Paris Convention for the Protection of Industrial Property of 20 March 1883, as in force from time to time; (b) a foreign country that is a full member of the World Trade Organization. Note 1: For signatories to the Paris Convention for the Protection of Industrial Property, see www.wipo.int. Note 2: For full members of the World Trade Organization, see www.wto.org. (2) For the purposes of subsection 225(2) of the Act, an application for the registration of a trade mark, being an application that is made under the treaty done at Bangui in the Central African Republic on 2 March 1977 entitled the Agreement Relating to the Creation of an African Intellectual Property Organisation, Constituting a Revision of the Agreement Relating to the Creation of an African and Malagasy Office of Industrial Property (a treaty subsisting between 2 or more Convention countries), is, in accordance with the terms of that treaty, declared to be equivalent to an application made in each of those Convention countries. (3) For the purposes of subsection 225(2) of the Act, an application for the registration of a trade mark, being an application that is made under the Benelux Convention Concerning Trademarks done at Brussels on 19 March 1962 (being a treaty subsisting between 2 or more Convention countries), is, in accordance with the terms of that treaty, declared to be equivalent to an application made in each Convention country that is a High Contracting party within the meaning of that treaty. (4) For subsection 225(2) of the Act, an application, under the terms of the Treaty Establishing the European Community done at Rome on 25 March 1957, for registration of a European Community trade mark is equivalent to an application made in each Convention country party to the treaty.",
+  "title": "Convention countries",
+  "units": [
+    {
+      "content_hash": "sha256:c1eea80df05f2fdab8f3f416618b44ea1b265d24ef29e220ccfa3692afecad58",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 44,
+          "start": 26,
+          "text": "Convention country",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6(1)",
+          "mention": "subsection 6(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.29(1)",
+      "style": "subsection",
+      "text": "(1) For the definition of Convention country in subsection 6(1) of the Act, the following countries are prescribed:"
+    },
+    {
+      "content_hash": "sha256:4416b77ae13245ac6436c1e69ccd57419e0d6c4f7b84ce2908e4fd5fe3bb787f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.29(1)",
+      "ref": "TMR1995/r21.29(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a foreign country that is a signatory to the Paris Convention for the Protection of Industrial Property of 20 March 1883, as in force from time to time;"
+    },
+    {
+      "content_hash": "sha256:73d63fe7cf1e24e6ca5b47361cb310c5cf17b487300e1293b009c5240b52ced8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.29(1)",
+      "ref": "TMR1995/r21.29(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a foreign country that is a full member of the World Trade Organization."
+    },
+    {
+      "content_hash": "sha256:c7bbc176ff940a016cb80bd8ce292da0a46a401fa90336700f733f4381aad10b",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.29(1)(b)",
+      "ref": "TMR1995/r21.29(1)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For signatories to the Paris Convention for the Protection of Industrial Property, see www.wipo.int."
+    },
+    {
+      "content_hash": "sha256:1c364f3e49ae2cecf0910f6ec2cfbf0f803b17f1bfcc6664b06ab243c45c646e",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.29(1)(b)",
+      "ref": "TMR1995/r21.29(1)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: For full members of the World Trade Organization, see www.wto.org."
+    },
+    {
+      "content_hash": "sha256:217a964dca1bf8537b9e07dffdba9bfa9e8c4b2917b8e5c9b713a8885ce4af3c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 441,
+          "start": 234,
+          "text": "Agreement Relating to the Creation of an African Intellectual Property Organisation, Constituting a Revision of the Agreement Relating to the Creation of an African and Malagasy Office of Industrial Property",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225(2)",
+          "mention": "subsection 225(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.29(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of subsection 225(2) of the Act, an application for the registration of a trade mark, being an application that is made under the treaty done at Bangui in the Central African Republic on 2 March 1977 entitled the Agreement Relating to the Creation of an African Intellectual Property Organisation, Constituting a Revision of the Agreement Relating to the Creation of an African and Malagasy Office of Industrial Property (a treaty subsisting between 2 or more Convention countries), is, in accordance with the terms of that treaty, declared to be equivalent to an application made in each of those Convention countries."
+    },
+    {
+      "content_hash": "sha256:090fdcd9be5920382d0f23007ac2329d51e08aae8414cee2885b30d626fbd9ed",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 191,
+          "start": 151,
+          "text": "Benelux Convention Concerning Trademarks",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225(2)",
+          "mention": "subsection 225(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.29(3)",
+      "style": "subsection",
+      "text": "(3) For the purposes of subsection 225(2) of the Act, an application for the registration of a trade mark, being an application that is made under the Benelux Convention Concerning Trademarks done at Brussels on 19 March 1962 (being a treaty subsisting between 2 or more Convention countries), is, in accordance with the terms of that treaty, declared to be equivalent to an application made in each Convention country that is a High Contracting party within the meaning of that treaty."
+    },
+    {
+      "content_hash": "sha256:e1ef13c84100cdab6866620edce3aa8cde3a84f89ab5c9c8f08dad0671f87651",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 119,
+          "start": 77,
+          "text": "Treaty Establishing the European Community",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225(2)",
+          "mention": "subsection 225(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.29(4)",
+      "style": "subsection",
+      "text": "(4) For subsection 225(2) of the Act, an application, under the terms of the Treaty Establishing the European Community done at Rome on 25 March 1957, for registration of a European Community trade mark is equivalent to an application made in each Convention country party to the treaty."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:e1be0f449f621f86b8df5be80cb10abf1e92a2c61d047e2e019d0f2f6ffa3167",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.23  Notice of nonpayment of fee"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.23",
+  "ref": "TMR1995/r21.23",
+  "text": "For subregulation 21.21A(3), the Registrar or the ComptrollerGeneral of Customs must, in writing or by telephone: (a) if a fee mentioned in Part 3A has not been paid or waived within the period prescribed in that Part for the payment of the fee—advise the requester that the fee has not been paid and that the AFS request has been discontinued; or (b) in any other case—notify the person concerned, or his or her agent, that the fee has not been paid, within 14 working days after the doing of the act, or the filing of the document, for which the fee is payable.",
+  "title": "Notice of nonpayment of fee",
+  "units": [
+    {
+      "content_hash": "sha256:99a542024ba506daa5989ce126e1dffe496707bcfac359cd78d4b9d7d5bb3e5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A(3)",
+          "mention": "subregulation 21.21A(3)"
+        }
+      ],
+      "ref": "TMR1995/r21.23~1",
+      "style": "subsection",
+      "text": "For subregulation 21.21A(3), the Registrar or the ComptrollerGeneral of Customs must, in writing or by telephone:"
+    },
+    {
+      "content_hash": "sha256:4e7f9648a93cd98daab795c590d92ef6fdee3e637c3a693e47c5410fe392b710",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.23~1",
+      "ref": "TMR1995/r21.23~1(a)",
+      "style": "paragraph",
+      "text": "(a) if a fee mentioned in Part 3A has not been paid or waived within the period prescribed in that Part for the payment of the fee—advise the requester that the fee has not been paid and that the AFS request has been discontinued; or"
+    },
+    {
+      "content_hash": "sha256:f3f3df9ba9d8f67cbb54d81802f5c45c95bb145c9ff902f706ab86881f89e396",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.23~1",
+      "ref": "TMR1995/r21.23~1(b)",
+      "style": "paragraph",
+      "text": "(b) in any other case—notify the person concerned, or his or her agent, that the fee has not been paid, within 14 working days after the doing of the act, or the filing of the document, for which the fee is payable."
+    }
+  ]
+}

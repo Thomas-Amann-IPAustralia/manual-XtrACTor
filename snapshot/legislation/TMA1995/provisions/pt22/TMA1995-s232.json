@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div1"
+  ],
+  "content_hash": "sha256:125bc0762ecc5b181f70de6c1208c754c23483a95e7118121dc7cf9a26b83fe7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 1—Repeal",
+    "232  Repeal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "232",
+  "ref": "TMA1995/s232",
+  "text": "The Trade Marks Act 1955 is repealed.",
+  "title": "Repeal",
+  "units": [
+    {
+      "content_hash": "sha256:125bc0762ecc5b181f70de6c1208c754c23483a95e7118121dc7cf9a26b83fe7",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 4,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s232~1",
+      "style": "subsection",
+      "text": "The Trade Marks Act 1955 is repealed."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt17"
+  ],
+  "content_hash": "sha256:3d9f5706cf0909b8da6cbc9b2a70cd640bfbf70a9e4900487c7865aa5c0e1c41",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 17—Defensive trade marks",
+    "185  Defensive trade marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "185",
+  "ref": "TMA1995/s185",
+  "text": "(1) If, because of the extent to which a registered trade mark has been used in relation to all or any of the goods or services in respect of which it is registered, it is likely that its use in relation to other goods or services will be taken to indicate that there is a connection between those other goods or services and the registered owner of the trade mark, the trade mark may, on the application of the registered owner, be registered as a defensive trade mark in respect of any or all of those other goods or services. Note: For registered trade mark and registered owner see section 6. (2) A trade mark may be registered as a defensive trade mark in respect of particular goods or services even if the registered owner does not use or intend to use the trade mark in relation to those goods or services. (3) A trade mark may be registered as a defensive trade mark in respect of particular goods or services even if it is already registered otherwise than as a defensive trade mark in the name of the applicant in respect of those goods or services. (4) A trade mark that is registered as a defensive trade mark in respect of particular goods or services may be subsequently registered otherwise than as a defensive trade mark in the name of the registered owner in respect of the same goods or services.",
+  "title": "Defensive trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:f375000bf09412d3f2c7765806ec0fb5c1fab4f628bae9eedbae68ccbb1d808a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 469,
+          "start": 449,
+          "text": "defensive trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s185(1)",
+      "style": "subsection",
+      "text": "(1) If, because of the extent to which a registered trade mark has been used in relation to all or any of the goods or services in respect of which it is registered, it is likely that its use in relation to other goods or services will be taken to indicate that there is a connection between those other goods or services and the registered owner of the trade mark, the trade mark may, on the application of the registered owner, be registered as a defensive trade mark in respect of any or all of those other goods or services."
+    },
+    {
+      "content_hash": "sha256:e39fe086fa4c20f2d67d92ec50802aa1028d7a51258d36683247e77cc1c66e62",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 36,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s185(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s185(1)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark and registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:f48c321182e0b1b5a491976ecdbbfbab1c152d839610e377607078c167833a4d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s185(2)",
+      "style": "subsection",
+      "text": "(2) A trade mark may be registered as a defensive trade mark in respect of particular goods or services even if the registered owner does not use or intend to use the trade mark in relation to those goods or services."
+    },
+    {
+      "content_hash": "sha256:85bb1a3c122b93e476862b92e33a0f91459afe76241c3615ed63fd4c97e02e3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s185(3)",
+      "style": "subsection",
+      "text": "(3) A trade mark may be registered as a defensive trade mark in respect of particular goods or services even if it is already registered otherwise than as a defensive trade mark in the name of the applicant in respect of those goods or services."
+    },
+    {
+      "content_hash": "sha256:407ef4c6fcc11aff8d4341753bb41af0f821741e645afc477c4ecafdab36fb3c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s185(4)",
+      "style": "subsection",
+      "text": "(4) A trade mark that is registered as a defensive trade mark in respect of particular goods or services may be subsequently registered otherwise than as a defensive trade mark in the name of the registered owner in respect of the same goods or services."
+    }
+  ]
+}

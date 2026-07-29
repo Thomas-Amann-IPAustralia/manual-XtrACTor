@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:282acf39bf2c271511163d1ec4a9092690e8d39843c80736ac0feac1bbcb4ec9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "144  Modification in relation to Norfolk Island etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "144",
+  "ref": "TMA1995/s144",
+  "text": "The regulations may provide for the modification or adaptation of this Part in its application to: (a) Norfolk Island; or (b) Christmas Island; or (c) Cocos (Keeling) Islands.",
+  "title": "Modification in relation to Norfolk Island etc.",
+  "units": [
+    {
+      "content_hash": "sha256:ca50ebe01a9098412c668e95b595c4edbc40deb25dc66e4673ee6f2851ec0519",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s144~1",
+      "style": "subsection",
+      "text": "The regulations may provide for the modification or adaptation of this Part in its application to:"
+    },
+    {
+      "content_hash": "sha256:f05a33a91db0f553034ca66be13b6f43c0dff11519109e2516be85c92b37c6ba",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s144~1",
+      "ref": "TMA1995/s144~1(a)",
+      "style": "paragraph",
+      "text": "(a) Norfolk Island; or"
+    },
+    {
+      "content_hash": "sha256:670f88e269f79e4c09f4a88c78f92c1bc7086d527ab922cff32bd9a81eaf6446",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s144~1",
+      "ref": "TMA1995/s144~1(b)",
+      "style": "paragraph",
+      "text": "(b) Christmas Island; or"
+    },
+    {
+      "content_hash": "sha256:91135c3713ac0b498b1b92e3cfa3abfb9b58aaee7026de9fabbefdd21056356b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s144~1",
+      "ref": "TMA1995/s144~1(c)",
+      "style": "paragraph",
+      "text": "(c) Cocos (Keeling) Islands."
+    }
+  ]
+}

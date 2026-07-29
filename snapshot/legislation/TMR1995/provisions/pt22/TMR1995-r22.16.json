@@ -1,0 +1,122 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div3"
+  ],
+  "content_hash": "sha256:466b91c04451bfb2b8ebb4dc8c35e6ee3916d4d870b94e5c5a75eb0f6e00ec5e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 3—Transitional provisions for Schedule 4 to the Intellectual Property Laws Amendment Act 2015 and Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016",
+    "22.16  Continuation of certain disciplinary proceedings—individuals"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.16",
+  "ref": "TMR1995/r22.16",
+  "text": "(1) This regulation applies if: (a) before the commencement day disciplinary proceedings had been commenced against a registered trade marks attorney by the Professional Standards Board for Patent and Trade Marks Attorneys under Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to the registered trade marks attorney because of Division 6 of Part 20 of the old regulations); and (b) the proceedings had not been completed before the commencement day. (2) Despite the amendments and repeals made by Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016, on and after the commencement day: (a) Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to a registered trade marks attorney because of Division 6 of Part 20 of the old regulations) continues to apply in relation to the proceedings; and (b) the appointment of the person constituting the Patents and Trade Marks Attorneys Disciplinary Tribunal conducting the proceedings is continued in force for the purpose of completing the proceedings; and (c) for the purposes of the proceedings, references in Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to the registered trade marks attorney because of Division 6 of Part 20 of the old regulations) to the Professional Standards Board for Patent and Trade Marks Attorneys are taken to be references to the TransTasman IP Attorneys Board.",
+  "title": "Continuation of certain disciplinary proceedings—individuals",
+  "units": [
+    {
+      "content_hash": "sha256:cb0a79f261bac8f975e6fc68fb30b5d8c59b049f970f1858d9f67f8e1510362e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.16(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if:"
+    },
+    {
+      "content_hash": "sha256:e678fa5f3f8ecd5d4ad5472e8150effe24d8ddd3003354079efa74ab794e2e08",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.16(1)",
+      "ref": "TMR1995/r22.16(1)(a)",
+      "style": "paragraph",
+      "text": "(a) before the commencement day disciplinary proceedings had been commenced against a registered trade marks attorney by the Professional Standards Board for Patent and Trade Marks Attorneys under Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to the registered trade marks attorney because of Division 6 of Part 20 of the old regulations); and"
+    },
+    {
+      "content_hash": "sha256:4b4bbc7f9b5119758bd38705af1227e50f34150d81833c5ab777c163f783fc91",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.16(1)",
+      "ref": "TMR1995/r22.16(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the proceedings had not been completed before the commencement day."
+    },
+    {
+      "content_hash": "sha256:e7e760b339f5e961d1c8d7b660720fcf939d6fdab160f67f5703418f418f980a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 163,
+          "start": 65,
+          "text": "Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 168,
+          "start": 164,
+          "text": "2016",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2016",
+          "mention": "Regulation 2016"
+        }
+      ],
+      "ref": "TMR1995/r22.16(2)",
+      "style": "subsection",
+      "text": "(2) Despite the amendments and repeals made by Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016, on and after the commencement day:"
+    },
+    {
+      "content_hash": "sha256:d21b112e82ddb4bc1447bc36e381128c4d4a0f594d55a3acb356229b5d951537",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r22.16(2)",
+      "ref": "TMR1995/r22.16(2)(a)",
+      "style": "paragraph",
+      "text": "(a) Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to a registered trade marks attorney because of Division 6 of Part 20 of the old regulations) continues to apply in relation to the proceedings; and"
+    },
+    {
+      "content_hash": "sha256:e62879134323b29bb6d0935f2a9fef6fed7dc159f60cfd5ffa04c03acf7d7ed5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r22.16(2)",
+      "ref": "TMR1995/r22.16(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the appointment of the person constituting the Patents and Trade Marks Attorneys Disciplinary Tribunal conducting the proceedings is continued in force for the purpose of completing the proceedings; and"
+    },
+    {
+      "content_hash": "sha256:8e4b8a2597e4986fbd995e0ce119e684ae20756acbad07117f973d60053b5761",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r22.16(2)",
+      "ref": "TMR1995/r22.16(2)(c)",
+      "style": "paragraph",
+      "text": "(c) for the purposes of the proceedings, references in Part 8 of Chapter 20 of the old Patents regulations (as that Part applied to the registered trade marks attorney because of Division 6 of Part 20 of the old regulations) to the Professional Standards Board for Patent and Trade Marks Attorneys are taken to be references to the TransTasman IP Attorneys Board."
+    }
+  ]
+}

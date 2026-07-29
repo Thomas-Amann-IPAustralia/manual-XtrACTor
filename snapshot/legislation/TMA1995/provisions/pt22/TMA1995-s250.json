@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:938f27501a20b284b1c22811b5b33da0c720dcd3e3a2394ad5b9c75d6e864d53",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "250  Rectification of Register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "250",
+  "ref": "TMA1995/s250",
+  "text": "If proceedings arising from an application to a court under section 22 (Rectification of Register) of the repealed Act were pending immediately before 1 January 1996, the matter is to be decided under the repealed Act as if the old register were to be rectified, but any order made by the Court may only be in respect of the rectification of the Register. Note: For old register see section 6.",
+  "title": "Rectification of Register",
+  "units": [
+    {
+      "content_hash": "sha256:2a0c0fc738fe822294058d0fba40c53c4974aef0d5731091a2be04a1530c47f4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s22",
+          "mention": "section 22"
+        }
+      ],
+      "ref": "TMA1995/s250~1",
+      "style": "subsection",
+      "text": "If proceedings arising from an application to a court under section 22 (Rectification of Register) of the repealed Act were pending immediately before 1 January 1996, the matter is to be decided under the repealed Act as if the old register were to be rectified, but any order made by the Court may only be in respect of the rectification of the Register."
+    },
+    {
+      "content_hash": "sha256:34491267f06a075ab1f2441535f1d7ebdd116bdb0f5ae13e35bda7437cd5c9f3",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s250~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s250~1~1",
+      "style": "notetext",
+      "text": "Note: For old register see section 6."
+    }
+  ]
+}

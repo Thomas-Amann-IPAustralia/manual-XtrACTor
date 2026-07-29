@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:8aea7dc66d46485a87f81dab5031672da86713e497ea10c1419af22758d265ce",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "96A  Circumstances in which opposition may proceed in name of a person other than the person who filed the notice"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "96A",
+  "ref": "TMA1995/s96A",
+  "text": "If: (a) after a person has filed a notice of opposition, the right or interest on which the person relied to file the notice of opposition becomes vested in another person; and (b) the other person: (i) notifies the Registrar or the court (as the case may be) in writing that the right or interest is vested in him or her; and (ii) does not withdraw the opposition; the opposition is to proceed as if the notice of opposition had been filed in that other person’s name. Note: For file see section 6.",
+  "title": "Circumstances in which opposition may proceed in name of a person other than the person who filed the notice",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s96A~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:6f8d50da009e9c5fd2e90ac57f038b75d66573d75171ded2c300738c8c85bc33",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s96A~1",
+      "ref": "TMA1995/s96A~1(a)",
+      "style": "paragraph",
+      "text": "(a) after a person has filed a notice of opposition, the right or interest on which the person relied to file the notice of opposition becomes vested in another person; and"
+    },
+    {
+      "content_hash": "sha256:b4176cd18e9fb102e21922dcef3756ead152a08a5220e5f9d3a83f2c4dde0f68",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s96A~1",
+      "ref": "TMA1995/s96A~1(b)",
+      "style": "paragraph",
+      "text": "(b) the other person:"
+    },
+    {
+      "content_hash": "sha256:a18da5fb22a4b582c858d9d45d95ec36d73e46deeb0dba2770171cebff401f81",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s96A~1(b)",
+      "ref": "TMA1995/s96A~1(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) notifies the Registrar or the court (as the case may be) in writing that the right or interest is vested in him or her; and"
+    },
+    {
+      "content_hash": "sha256:ee9d588c3c15ae22282f1c64e6cc49396e0bcfabe37ac532ce8e0114c48f8800",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s96A~1(b)",
+      "ref": "TMA1995/s96A~1(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) does not withdraw the opposition;"
+    },
+    {
+      "content_hash": "sha256:7bd0c5e34e92bcdd7c3ce71cfec09a9164e0cfa73013fb07f40ea6bb0477a3fb",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s96A~2",
+      "style": "subsection2",
+      "text": "the opposition is to proceed as if the notice of opposition had been filed in that other person’s name."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s96A~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s96A~2~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    }
+  ]
+}

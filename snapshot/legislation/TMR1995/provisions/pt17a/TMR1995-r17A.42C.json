@@ -1,0 +1,126 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv2"
+  ],
+  "content_hash": "sha256:c501da2288f8a080cacc03f594d6d05d3466baa1d90f52c1a67e9594412e4b3a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 2—Amendment or cessation of protection by Registrar",
+    "17A.42C  Hearings and procedure"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.42C",
+  "ref": "TMR1995/r17A.42C",
+  "text": "(1) The Registrar may conduct the following hearings under this Subdivision: (a) a hearing at which the Registrar may determine whether or not to exercise a power or powers mentioned in subregulation 17A.42A(1); (b) a preliminary hearing at which the Registrar may give directions as to the procedure to be adopted in a hearing mentioned in paragraph (a). (2) The Registrar may determine the procedure to be adopted in a hearing under this subdivision as the Registrar sees fit, according to the circumstances in the particular case. (3) Regulation 21.14 does not apply to a hearing under this subdivision. Note: Regulation 21.14 provides for the conduct of proceedings generally under these Regulations. (4) The Registrar may hear any person if the Registrar is satisfied that it would be reasonable to do so in all the circumstances.",
+  "title": "Hearings and procedure",
+  "units": [
+    {
+      "content_hash": "sha256:1f48b7e670cc3f895bb29dc9e649d0ff419b753c7f3812ce906880fb190edb9c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42C(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may conduct the following hearings under this Subdivision:"
+    },
+    {
+      "content_hash": "sha256:60293e53c0bb32ced395d788bea04f0b1a0b56b7c550d584c747a0dc3b842dca",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.42C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42A(1)",
+          "mention": "subregulation 17A.42A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.42C(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a hearing at which the Registrar may determine whether or not to exercise a power or powers mentioned in subregulation 17A.42A(1);"
+    },
+    {
+      "content_hash": "sha256:5680982b84257715a59c7889b264b684f72ec3674581a667bcfd5f65df049452",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.42C(1)",
+      "ref": "TMR1995/r17A.42C(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a preliminary hearing at which the Registrar may give directions as to the procedure to be adopted in a hearing mentioned in paragraph (a)."
+    },
+    {
+      "content_hash": "sha256:f812841376875e798a340c11fa18ca83d8abdb2c35bd122441ca0f3096fc000b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42C(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may determine the procedure to be adopted in a hearing under this subdivision as the Registrar sees fit, according to the circumstances in the particular case."
+    },
+    {
+      "content_hash": "sha256:3318b836446c667f3ccdb94bdb34624e80d73d9057de1950da6657c2660e8fdd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.14",
+          "mention": "Regulation 21.14"
+        }
+      ],
+      "ref": "TMR1995/r17A.42C(3)",
+      "style": "subsection",
+      "text": "(3) Regulation 21.14 does not apply to a hearing under this subdivision."
+    },
+    {
+      "content_hash": "sha256:c40c171713ed24e744c083a8a7819199829535ccd5148ea2745325eeeb34df93",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.42C(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.14",
+          "mention": "Regulation 21.14"
+        }
+      ],
+      "ref": "TMR1995/r17A.42C(3)~1",
+      "style": "notetext",
+      "text": "Note: Regulation 21.14 provides for the conduct of proceedings generally under these Regulations."
+    },
+    {
+      "content_hash": "sha256:6bbe44489517ced6b6a7f7d9115248a7bf66e895603091a12d48581d896ff55e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.42C(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar may hear any person if the Registrar is satisfied that it would be reasonable to do so in all the circumstances."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:c715dbd7eee5c0770e7a37f0c1d3e485873a8ee926d3a54f212ed4dda5e6640a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "77  Renewal before registration expires"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "77",
+  "ref": "TMA1995/s77",
+  "text": "(1) If a request for the renewal of the registration of a trade mark is made in accordance with section 75, the Registrar must renew the registration for a period of 10 years from the day on which the registration of the trade mark would expire if it were not renewed. (2) The Registrar must give notification of the renewal to the registered owner of the trade mark in accordance with the regulations. Note: For registered owner see section 6.",
+  "title": "Renewal before registration expires",
+  "units": [
+    {
+      "content_hash": "sha256:64c0e2c7d030b71e31ce2d873943592884a6812fe35d0173b070964f6fa2a8a9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75",
+          "mention": "section 75"
+        }
+      ],
+      "ref": "TMA1995/s77(1)",
+      "style": "subsection",
+      "text": "(1) If a request for the renewal of the registration of a trade mark is made in accordance with section 75, the Registrar must renew the registration for a period of 10 years from the day on which the registration of the trade mark would expire if it were not renewed."
+    },
+    {
+      "content_hash": "sha256:1251eba230a4d8fee11d87c0cbc0b74e1940fb3941e70e9ba0e717a0affe8027",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s77(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must give notification of the renewal to the registered owner of the trade mark in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s77(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s77(2)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:38a7755a802e9f0332b3dbc1ae7c6991b936f6d2f61ef34df7fbcc82a043f4d6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "136A  Seized goods not claimed are forfeited"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "136A",
+  "ref": "TMA1995/s136A",
+  "text": "(1) Seized goods are forfeited to the Commonwealth if a claim for the release of the goods is not made within the claim period for the goods. Note: For seized goods and claim period see section 6. (2) However, if the ComptrollerGeneral of Customs allows a late claim for the goods (see section 136B), the goods are taken not to have been forfeited.",
+  "title": "Seized goods not claimed are forfeited",
+  "units": [
+    {
+      "content_hash": "sha256:7f8fbd1ae17609f57a3981e1a7157ba4fd8b18d854da8b40326b458cca28e9c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s136A(1)",
+      "style": "subsection",
+      "text": "(1) Seized goods are forfeited to the Commonwealth if a claim for the release of the goods is not made within the claim period for the goods."
+    },
+    {
+      "content_hash": "sha256:df11e5a13cda5ff6b4c32f45d8c43ce9b7d36112b40420487cdfdbce414d4b2c",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 39,
+          "start": 27,
+          "text": "claim period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s136A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s136A(1)~1",
+      "style": "notetext",
+      "text": "Note: For seized goods and claim period see section 6."
+    },
+    {
+      "content_hash": "sha256:0e3075abc191ab0d06da9decc378c2ba1b1d481d4981c546f6e90f3605ef2df8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136B",
+          "mention": "section 136B"
+        }
+      ],
+      "ref": "TMA1995/s136A(2)",
+      "style": "subsection",
+      "text": "(2) However, if the ComptrollerGeneral of Customs allows a late claim for the goods (see section 136B), the goods are taken not to have been forfeited."
+    }
+  ]
+}

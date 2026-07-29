@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:3668472497fbdf09f7c923921a17b5fe0e2e85fdc9bbb77b6531533baa4ca499",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.8  Amendment because of inconsistency with international agreements—notification of dismissal or discontinuance of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.8",
+  "ref": "TMR1995/r8.8",
+  "text": "If an opposition under subsection 83A(4) of the Act is dismissed under section 222 of the Act or is discontinued, the Registrar must notify the registered owner of the registered trade mark, and each opponent, of the dismissal or discontinuance.",
+  "title": "Amendment because of inconsistency with international agreements—notification of dismissal or discontinuance of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:3668472497fbdf09f7c923921a17b5fe0e2e85fdc9bbb77b6531533baa4ca499",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s222",
+          "mention": "section 222"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s83A(4)",
+          "mention": "subsection 83A(4)"
+        }
+      ],
+      "ref": "TMR1995/r8.8~1",
+      "style": "subsection",
+      "text": "If an opposition under subsection 83A(4) of the Act is dismissed under section 222 of the Act or is discontinued, the Registrar must notify the registered owner of the registered trade mark, and each opponent, of the dismissal or discontinuance."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:0bfa5d8c3d3f848705c9ec93edeb0b253019607736f18a52f43601105c91418e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "96  Notice of opposition"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "96",
+  "ref": "TMA1995/s96",
+  "text": "Applications to Registrar (1) Any person may oppose an application under subsection 92(1) by filing a notice of opposition with the Registrar. (2) The notice of opposition under subsection (1) must be filed: (a) in accordance with the regulations; and (b) within the prescribed period. (3) Regulations made for the purposes of paragraph (2)(a) or (b) may make different provision with respect to different components (if any) of the notice of opposition. (4) Subsection (3) does not limit subsection 33(3A) of the Acts Interpretation Act 1901. Applications to prescribed court (5) Any person may oppose an application under subsection 92(3) by filing a notice of opposition with the court. (6) A notice of opposition under subsection (5): (a) must be in a form approved by the court; and (b) must be filed in accordance with the rules of court.",
+  "title": "Notice of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:4ae4e7b05d750c3dc3245c66d905ba8bf9f496c1793cb19ba894f433e73d5e48",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s96~1",
+      "style": "SubsectionHead",
+      "text": "Applications to Registrar"
+    },
+    {
+      "content_hash": "sha256:87db218944a0bb6257dc1d040ab130f7a98a65acd553ce09630d6e5cc4724b89",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(1)",
+          "mention": "subsection 92(1)"
+        }
+      ],
+      "ref": "TMA1995/s96(1)",
+      "style": "subsection",
+      "text": "(1) Any person may oppose an application under subsection 92(1) by filing a notice of opposition with the Registrar."
+    },
+    {
+      "content_hash": "sha256:8b49a1f1f2ba957e60e0a20490ae9426fd88ad0c39dc46ba66715b5d8e99212d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s96(2)",
+      "style": "subsection",
+      "text": "(2) The notice of opposition under subsection (1) must be filed:"
+    },
+    {
+      "content_hash": "sha256:30c3caafd8fc0ee139066067162d5331449cfc214f3f542282f44eb8e725d466",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s96(2)",
+      "ref": "TMA1995/s96(2)(a)",
+      "style": "paragraph",
+      "text": "(a) in accordance with the regulations; and"
+    },
+    {
+      "content_hash": "sha256:37d77fc7224512ae475c0cb92bbd09e20f35971a47b33a440c29e4414720d63b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s96(2)",
+      "ref": "TMA1995/s96(2)(b)",
+      "style": "paragraph",
+      "text": "(b) within the prescribed period."
+    },
+    {
+      "content_hash": "sha256:55aeb9bb6e7a76d4d6d56984a15ecad1d301f86b15c1280b29a9638b71ebc32b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s96(3)",
+      "style": "subsection",
+      "text": "(3) Regulations made for the purposes of paragraph (2)(a) or (b) may make different provision with respect to different components (if any) of the notice of opposition."
+    },
+    {
+      "content_hash": "sha256:ad5fd867711482d2086452842a12ab49306642e5069dccbf9116008d1ad3741f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 87,
+          "start": 59,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s33(3A)",
+          "mention": "subsection 33(3A) of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s96(4)",
+      "style": "subsection",
+      "text": "(4) Subsection (3) does not limit subsection 33(3A) of the Acts Interpretation Act 1901."
+    },
+    {
+      "content_hash": "sha256:f013b11cb23d103902c558f0cc96fc4c15f6af78f7a05aef97dd9c6bbde19ea6",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s96~2",
+      "style": "SubsectionHead",
+      "text": "Applications to prescribed court"
+    },
+    {
+      "content_hash": "sha256:d0d2fa3a47998889336dcb8d9e41c5e792345d8a7c9d3a64b2c3f9a7ba0ace47",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(3)",
+          "mention": "subsection 92(3)"
+        }
+      ],
+      "ref": "TMA1995/s96(5)",
+      "style": "subsection",
+      "text": "(5) Any person may oppose an application under subsection 92(3) by filing a notice of opposition with the court."
+    },
+    {
+      "content_hash": "sha256:1f0062caaf69f25edbde0fbfa9d4ce84e64155bdf2df7f43ef110fd160a02c1f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s96(6)",
+      "style": "subsection",
+      "text": "(6) A notice of opposition under subsection (5):"
+    },
+    {
+      "content_hash": "sha256:ce5230a19b76a3ead3b3eee8817cf5f3e37151f8f2e104627e52dee4fd606fc5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s96(6)",
+      "ref": "TMA1995/s96(6)(a)",
+      "style": "paragraph",
+      "text": "(a) must be in a form approved by the court; and"
+    },
+    {
+      "content_hash": "sha256:69d4157e06eb69c687ed36032706474bafa46fb392bbaec98e7f8a66ea34d2b5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s96(6)",
+      "ref": "TMA1995/s96(6)(b)",
+      "style": "paragraph",
+      "text": "(b) must be filed in accordance with the rules of court."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div6"
+  ],
+  "content_hash": "sha256:2325b82c9ae34736f02fd56aa4210181bf697ac96e1fa84d0adbaeaba8c16e08",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 6—Amendments made by the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024",
+    "22.29  Amendments made by Part 4 of Schedule 1"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.29",
+  "ref": "TMR1995/r22.29",
+  "text": "(1) The amendments of regulations 3A.5 and 4.2A, made by Part 4 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, apply in relation to an opinion formed under subregulation 3A.4(1) in relation to an AFS request, if the opinion: (a) is formed after the commencement of that Part; or (b) was formed before the commencement of that Part but for which the Registrar has not informed the requester under subregulation 3A.4(2) as at that commencement. (2) Regulations 3A.6 and 3A.7, as added by Part 4 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, apply in relation to an opinion formed under subregulation 3A.4(1) in relation to an AFS request, if the opinion: (a) is formed after the commencement of that Part; or (b) was formed before the commencement of that Part but for which the Registrar has not informed the requester under subregulation 3A.4(2) as at that commencement.",
+  "title": "Amendments made by Part 4 of Schedule 1",
+  "units": [
+    {
+      "content_hash": "sha256:f4698c4f456c6d92316f86d2a0806a39f5bfba6e165c9bf4953f74f0a12118fe",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 145,
+          "start": 85,
+          "text": "Intellectual Property Laws Amendment (Regulator Performance)",
+          "weight": "italic"
+        },
+        {
+          "end": 159,
+          "start": 146,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 162,
+          "start": 159,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(1)",
+          "mention": "subregulation 3A.4(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.5",
+          "mention": "regulations 3A.5 and 4.2A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2A",
+          "mention": "regulations 3A.5 and 4.2A"
+        }
+      ],
+      "ref": "TMR1995/r22.29(1)",
+      "style": "subsection",
+      "text": "(1) The amendments of regulations 3A.5 and 4.2A, made by Part 4 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, apply in relation to an opinion formed under subregulation 3A.4(1) in relation to an AFS request, if the opinion:"
+    },
+    {
+      "content_hash": "sha256:917a7864f8478e29f16ce905b0cb0f66cc8c82decd880103efc7947fb5f68264",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.29(1)",
+      "ref": "TMR1995/r22.29(1)(a)",
+      "style": "paragraph",
+      "text": "(a) is formed after the commencement of that Part; or"
+    },
+    {
+      "content_hash": "sha256:492895f2307c97650388767f6b4d047e9d36293e1e35c25025b7b9a9b25f9bef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.29(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(2)",
+          "mention": "subregulation 3A.4(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.29(1)(b)",
+      "style": "paragraph",
+      "text": "(b) was formed before the commencement of that Part but for which the Registrar has not informed the requester under subregulation 3A.4(2) as at that commencement."
+    },
+    {
+      "content_hash": "sha256:7fbe0ee378221f68b63ee16538dfe504987791271c1c62da2b0ff8ef392b7a48",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 131,
+          "start": 71,
+          "text": "Intellectual Property Laws Amendment (Regulator Performance)",
+          "weight": "italic"
+        },
+        {
+          "end": 145,
+          "start": 132,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 148,
+          "start": 145,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(1)",
+          "mention": "subregulation 3A.4(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.6",
+          "mention": "Regulations 3A.6 and 3A.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.7",
+          "mention": "Regulations 3A.6 and 3A.7"
+        }
+      ],
+      "ref": "TMR1995/r22.29(2)",
+      "style": "subsection",
+      "text": "(2) Regulations 3A.6 and 3A.7, as added by Part 4 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, apply in relation to an opinion formed under subregulation 3A.4(1) in relation to an AFS request, if the opinion:"
+    },
+    {
+      "content_hash": "sha256:917a7864f8478e29f16ce905b0cb0f66cc8c82decd880103efc7947fb5f68264",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r22.29(2)",
+      "ref": "TMR1995/r22.29(2)(a)",
+      "style": "paragraph",
+      "text": "(a) is formed after the commencement of that Part; or"
+    },
+    {
+      "content_hash": "sha256:492895f2307c97650388767f6b4d047e9d36293e1e35c25025b7b9a9b25f9bef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r22.29(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(2)",
+          "mention": "subregulation 3A.4(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.29(2)(b)",
+      "style": "paragraph",
+      "text": "(b) was formed before the commencement of that Part but for which the Registrar has not informed the requester under subregulation 3A.4(2) as at that commencement."
+    }
+  ]
+}

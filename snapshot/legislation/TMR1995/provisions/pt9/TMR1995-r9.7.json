@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdiva"
+  ],
+  "content_hash": "sha256:0db06dc0347d83754e1db06da626115db3759e2ff7fffaeb2a8e76c0f804431d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "9.7  Components of notice of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.7",
+  "ref": "TMR1995/r9.7",
+  "text": "(1) The components of a notice of opposition are: (a) a notice of intention to oppose; and (b) a statement of grounds and particulars. (2) A notice of opposition is taken to be filed when both of its components have been filed.",
+  "title": "Components of notice of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:c7cc1eb0c001ae8f506f723b44274ea486d502e74252e9da994efb666198e940",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.7(1)",
+      "style": "subsection",
+      "text": "(1) The components of a notice of opposition are:"
+    },
+    {
+      "content_hash": "sha256:683b017412cf3a67c35aac1b40947be235b6fe4920d752f3cb687c48c7e4e046",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r9.7(1)",
+      "ref": "TMR1995/r9.7(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a notice of intention to oppose; and"
+    },
+    {
+      "content_hash": "sha256:5dec2cc8aa2c33afc0689ae76f92d146ca8d44c3dc006f74901fea33bc1df7aa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r9.7(1)",
+      "ref": "TMR1995/r9.7(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a statement of grounds and particulars."
+    },
+    {
+      "content_hash": "sha256:26be15945339babdc92f154b67b9fe8161f38a03bb2cdafe3fde6b1b8a00bee4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.7(2)",
+      "style": "subsection",
+      "text": "(2) A notice of opposition is taken to be filed when both of its components have been filed."
+    }
+  ]
+}

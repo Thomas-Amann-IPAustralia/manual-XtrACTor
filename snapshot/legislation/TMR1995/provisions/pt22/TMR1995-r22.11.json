@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div2"
+  ],
+  "content_hash": "sha256:b92db600c71964e14b61167c75966630819a02226404afa43c0528bdc0cc34d4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 2—Amendments made by particular instruments",
+    "22.11  Amendments made by the Trade Marks Amendment (Fees) Regulation 2016"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.11",
+  "ref": "TMR1995/r22.11",
+  "text": "The amendments of Schedule 9 made by items 2 and 3 of the Trade Marks Amendment (Fees) Regulation 2016 apply in relation to an AFS request that is submitted on or after the commencement of those items.",
+  "title": "Amendments made by the Trade Marks Amendment (Fees) Regulation 2016",
+  "units": [
+    {
+      "content_hash": "sha256:b92db600c71964e14b61167c75966630819a02226404afa43c0528bdc0cc34d4",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 97,
+          "start": 58,
+          "text": "Trade Marks Amendment (Fees) Regulation",
+          "weight": "italic"
+        },
+        {
+          "end": 102,
+          "start": 98,
+          "text": "2016",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2016",
+          "mention": "Regulation 2016"
+        }
+      ],
+      "ref": "TMR1995/r22.11~1",
+      "style": "subsection",
+      "text": "The amendments of Schedule 9 made by items 2 and 3 of the Trade Marks Amendment (Fees) Regulation 2016 apply in relation to an AFS request that is submitted on or after the commencement of those items."
+    }
+  ]
+}

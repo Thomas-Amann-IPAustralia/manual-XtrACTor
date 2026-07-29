@@ -1,0 +1,93 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:b7504196f50e447a774382903b0b6232311ea6c7143d42afb33a8e3660185c95",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.3  Grounds for application for rectification of Register—registered trade mark identical etc to trade mark protected under Madrid Protocol"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.3",
+  "ref": "TMR1995/r8.3",
+  "text": "For section 189A of the Act, and in addition to anything in Part 8 of the Act, an application for the rectification of the Register in relation to a trade mark may be made on any of the grounds mentioned in regulation 4.15A. Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A: (a) may be inconsistent with the Act; and (b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency.",
+  "title": "Grounds for application for rectification of Register—registered trade mark identical etc to trade mark protected under Madrid Protocol",
+  "units": [
+    {
+      "content_hash": "sha256:b0ab07fb55c85588945fa0e6316071f4b339d41e6dabc612c5b5059f588e1a8d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.15A",
+          "mention": "regulation 4.15A"
+        }
+      ],
+      "ref": "TMR1995/r8.3~1",
+      "style": "subsection",
+      "text": "For section 189A of the Act, and in addition to anything in Part 8 of the Act, an application for the rectification of the Register in relation to a trade mark may be made on any of the grounds mentioned in regulation 4.15A."
+    },
+    {
+      "content_hash": "sha256:3611224eb4375abb78f2a3044868637fc04c0b145c00170be9c96c19ca901ad0",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r8.3~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A",
+          "mention": "section 189A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s189A(3)",
+          "mention": "subsection 189A(3)"
+        }
+      ],
+      "ref": "TMR1995/r8.3~1~1",
+      "style": "notetext",
+      "text": "Note: Under subsection 189A(3) of the Act, regulations made for the purposes of section 189A:"
+    },
+    {
+      "content_hash": "sha256:6453cd85da834e968aecd19f6854b8cce1e7ec5f9e9f362fe3472f72fc35d4ad",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r8.3~1~1",
+      "ref": "TMR1995/r8.3~1~1~1",
+      "style": "notepara",
+      "text": "(a) may be inconsistent with the Act; and"
+    },
+    {
+      "content_hash": "sha256:0ec09edeb2da7ceabe37c78fea685a52cf4b1c5aff044823c76249b1ff0bf5d4",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r8.3~1~1",
+      "ref": "TMR1995/r8.3~1~1~2",
+      "style": "notepara",
+      "text": "(b) prevail over the Act (including any other regulations or other instruments made under the Act), to the extent of any inconsistency."
+    }
+  ]
+}

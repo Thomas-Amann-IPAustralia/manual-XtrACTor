@@ -1,0 +1,230 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:36311d92754a0ea33e97abec732d66bb149a577c8004ce2f28ee98bb3bcb54e2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "33  Application accepted or rejected"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "33",
+  "ref": "TMA1995/s33",
+  "text": "(1) The Registrar must, after the examination, accept the application unless he or she is satisfied that: (a) the application has not been made in accordance with this Act; or (b) there are grounds under this Act for rejecting it. Note: For this Act see section 6. (2) The Registrar may accept the application subject to conditions or limitations. Note: For limitations see section 6. (3) If the Registrar is satisfied that: (a) the application has not been made in accordance with this Act; or (b) there are grounds under this Act for rejecting it; the Registrar must reject the application. Note: For this Act see section 6. (4) The Registrar may not reject an application without giving the applicant an opportunity of being heard. Note: For applicant see section 6.",
+  "title": "Application accepted or rejected",
+  "units": [
+    {
+      "content_hash": "sha256:a071ed6dcfc5c0c8ef6f02ab77cb17839891e28ff5d1e8a8941caf2ce8eed167",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s33(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must, after the examination, accept the application unless he or she is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:649e269d5e80491d4821d08b0f84e7de75c3ebb82a4ae78e4a315784e27357f8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s33(1)",
+      "ref": "TMA1995/s33(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application has not been made in accordance with this Act; or"
+    },
+    {
+      "content_hash": "sha256:27b4cbdcc8891e9a67b09ebd06b64e95050941281e0dcd9c6fe491118c3d9197",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s33(1)",
+      "ref": "TMA1995/s33(1)(b)",
+      "style": "paragraph",
+      "text": "(b) there are grounds under this Act for rejecting it."
+    },
+    {
+      "content_hash": "sha256:45c9ab07e9b64f7abe9f570e047a508c487df75b6a56f1a5d5e6c2f7a85d9f9f",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s33(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s33(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: For this Act see section 6."
+    },
+    {
+      "content_hash": "sha256:9123fcbfbf6f63496b26e8e2a76d3bcf923caba81c89b0af1d3c52bf5577d9ec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s33(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may accept the application subject to conditions or limitations."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s33(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s33(2)~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    },
+    {
+      "content_hash": "sha256:da8ed57768f6a081a25834ad5b025207a615144d9de6e31df439f6d67e987f40",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s33(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:649e269d5e80491d4821d08b0f84e7de75c3ebb82a4ae78e4a315784e27357f8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s33(3)",
+      "ref": "TMA1995/s33(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the application has not been made in accordance with this Act; or"
+    },
+    {
+      "content_hash": "sha256:c811e5cb040501fc7c4d367fc1afb23226dcc39e31d982207c6a91a8a43466f7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s33(3)",
+      "ref": "TMA1995/s33(3)(b)",
+      "style": "paragraph",
+      "text": "(b) there are grounds under this Act for rejecting it;"
+    },
+    {
+      "content_hash": "sha256:a77da41ca0696745da8ada7b8f05abff194a468e770dd29cc67dc17b33276e70",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s33~1",
+      "style": "subsection2",
+      "text": "the Registrar must reject the application."
+    },
+    {
+      "content_hash": "sha256:45c9ab07e9b64f7abe9f570e047a508c487df75b6a56f1a5d5e6c2f7a85d9f9f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s33~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s33~1~1",
+      "style": "notetext",
+      "text": "Note: For this Act see section 6."
+    },
+    {
+      "content_hash": "sha256:bf8c0b25fc506600b605bbda09111bada1f72bcb3bbe7eb03bcb5b890decb812",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s33(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar may not reject an application without giving the applicant an opportunity of being heard."
+    },
+    {
+      "content_hash": "sha256:41e164bb53fd8c2e42da3fec14283d1b0cdedb4ba275d504e98fa3bf72a5b01e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s33(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s33(4)~1",
+      "style": "notetext",
+      "text": "Note: For applicant see section 6."
+    }
+  ]
+}

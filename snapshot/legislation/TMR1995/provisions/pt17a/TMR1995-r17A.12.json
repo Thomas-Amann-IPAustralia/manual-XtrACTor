@@ -1,0 +1,58 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:cab24f468ef2ffa61e2e9abbf296887dd1879402c495e42111eadcd5da8a1b56",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.12  Registrar to examine, and report on, IRDA"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.12",
+  "ref": "TMR1995/r17A.12",
+  "text": "If the Registrar receives from the International Bureau a notification of an IRDA, the Registrar must examine and report on: (a) whether the IRDA is in accordance with this Division; and (b) whether there are grounds under Subdivision 2 for rejecting it.",
+  "title": "Registrar to examine, and report on, IRDA",
+  "units": [
+    {
+      "content_hash": "sha256:92e3bea9bb09a56c395550caec66ea39187f6ea8eb44dec295f581c26eb208da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.12~1",
+      "style": "subsection",
+      "text": "If the Registrar receives from the International Bureau a notification of an IRDA, the Registrar must examine and report on:"
+    },
+    {
+      "content_hash": "sha256:4a893d3a9a665d5cd041136468fb0fbe79d5939e77f3e5be705cf3330334eda6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.12~1",
+      "ref": "TMR1995/r17A.12~1(a)",
+      "style": "paragraph",
+      "text": "(a) whether the IRDA is in accordance with this Division; and"
+    },
+    {
+      "content_hash": "sha256:ed59261ad6a57cf4c27f4512051472a861f9752a3fbbe7d39950e50050a83a3d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.12~1",
+      "ref": "TMR1995/r17A.12~1(b)",
+      "style": "paragraph",
+      "text": "(b) whether there are grounds under Subdivision 2 for rejecting it."
+    }
+  ]
+}

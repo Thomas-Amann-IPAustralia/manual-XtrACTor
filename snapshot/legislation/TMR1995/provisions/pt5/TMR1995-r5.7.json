@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdiva"
+  ],
+  "content_hash": "sha256:0e648da4add4d0a20975096d38179a95771ea1757adde906bd97b0034d4cc01a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "5.7  Filing of statement of grounds and particulars"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.7",
+  "ref": "TMR1995/r5.7",
+  "text": "(1) A statement of grounds and particulars must be filed within one month from the day the notice of intention to oppose is filed. (2) The statement must be in an approved form.",
+  "title": "Filing of statement of grounds and particulars",
+  "units": [
+    {
+      "content_hash": "sha256:4ee62c8d3deee2007d68cedcdf4884cbc1c7eb75b69ee6870bef52aaba803bb8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.7(1)",
+      "style": "subsection",
+      "text": "(1) A statement of grounds and particulars must be filed within one month from the day the notice of intention to oppose is filed."
+    },
+    {
+      "content_hash": "sha256:0010dd15020467c5cb1bd83da0645b329a6d34505ea9ae2517fe653b96151c08",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.7(2)",
+      "style": "subsection",
+      "text": "(2) The statement must be in an approved form."
+    }
+  ]
+}

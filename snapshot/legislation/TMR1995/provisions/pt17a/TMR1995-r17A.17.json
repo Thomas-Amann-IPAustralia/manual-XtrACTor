@@ -1,0 +1,110 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:135983ce1228809a35a7e114a8bed57e0ae09c7a643998798415a51c9e8a18e2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.17  Examination—holder’s response to report"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.17",
+  "ref": "TMR1995/r17A.17",
+  "text": "(1) The holder of the IRDA may respond in writing to the Registrar’s report under regulation 17A.16. (2) The response may do any of the following: (a) contest a belief of the Registrar that is expressed in the report; (b) contest another matter that is mentioned in the report; (c) provide further documents or evidence in support of the IRDA; (d) request a hearing from the Registrar. (3) The holder must notify the Registrar, in writing, of the holder’s address for service in Australia or New Zealand.",
+  "title": "Examination—holder’s response to report",
+  "units": [
+    {
+      "content_hash": "sha256:25276fdedb4297de72ce048349019882eddc6d57c94bb75b88e0b6cb813ffa12",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16",
+          "mention": "regulation 17A.16"
+        }
+      ],
+      "ref": "TMR1995/r17A.17(1)",
+      "style": "subsection",
+      "text": "(1) The holder of the IRDA may respond in writing to the Registrar’s report under regulation 17A.16."
+    },
+    {
+      "content_hash": "sha256:478bf6e1246e1b07e041fcf08e385c73da57cdbff9af17f2901015bc7132ba2d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.17(2)",
+      "style": "subsection",
+      "text": "(2) The response may do any of the following:"
+    },
+    {
+      "content_hash": "sha256:d6b8832483de6892c70022d924195526f2882bced04a7c5c2b4d583f0626b69b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.17(2)",
+      "ref": "TMR1995/r17A.17(2)(a)",
+      "style": "paragraph",
+      "text": "(a) contest a belief of the Registrar that is expressed in the report;"
+    },
+    {
+      "content_hash": "sha256:5b3c4a383e70ac01386f5c25f16a9d707a492bba1db172e9c48fcbf33d5515f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.17(2)",
+      "ref": "TMR1995/r17A.17(2)(b)",
+      "style": "paragraph",
+      "text": "(b) contest another matter that is mentioned in the report;"
+    },
+    {
+      "content_hash": "sha256:0b8eabcd9a516a0e8cb7380d56b32a8132917f80f4ff94042bfcaa918978e3ad",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.17(2)",
+      "ref": "TMR1995/r17A.17(2)(c)",
+      "style": "paragraph",
+      "text": "(c) provide further documents or evidence in support of the IRDA;"
+    },
+    {
+      "content_hash": "sha256:909647e1944a6d474bff247b4717f562b1809c144eb073a42a7c3c50a0be6733",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.17(2)",
+      "ref": "TMR1995/r17A.17(2)(d)",
+      "style": "paragraph",
+      "text": "(d) request a hearing from the Registrar."
+    },
+    {
+      "content_hash": "sha256:58baf69131dbeb41a893aa9130aae1f01a8ff4559398df7f46a3fa8a8939f2cb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.17(3)",
+      "style": "subsection",
+      "text": "(3) The holder must notify the Registrar, in writing, of the holder’s address for service in Australia or New Zealand."
+    }
+  ]
+}

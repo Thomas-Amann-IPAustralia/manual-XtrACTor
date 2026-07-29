@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ipaustralia.gov.au/schemas/frl/instrument/1.0.0",
+  "title": "Compiled instrument",
+  "description": "One law, as one compilation of it. Holds everything constant across the provisions read from that compilation, so those fields are stored once and joined rather than copied onto every provision record — and, just as importantly, so that a new compilation moves one file rather than all of them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["code", "title_id", "name", "symbol", "register_id", "document", "counts", "captured_at", "extractor_version"],
+
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,8}[0-9]{4}$",
+      "description": "The instrument identifier used throughout both corpora, and the prefix of every provision ref. Chosen to equal what tmm_snapshot.citations already emits, so a Manual provision edge joins to this snapshot without a lookup table.",
+      "examples": ["TMA1995", "TMR1995"]
+    },
+
+    "title_id": {
+      "type": "string",
+      "description": "The Federal Register's permanent identifier for the law, unchanged across every amendment. Distinct from register_id, which names one compiled version. C…A… is an Act; F…L…/F…B… a legislative instrument.",
+      "examples": ["C2004A04969", "F1996B00084"]
+    },
+
+    "name": { "type": "string", "examples": ["Trade Marks Act 1995"] },
+
+    "symbol": {
+      "enum": ["s", "r"],
+      "description": "'s' for a law divided into sections, 'r' for one divided into regulations. Decides the reference grammar, and must agree with tmm_snapshot.citations.instrument_kind — asserted in the tests, because where the two disagree one of the corpora is addressing provisions that do not exist."
+    },
+
+    "short_title": { "type": ["string", "null"], "description": "From the ShortT-styled paragraph." },
+    "long_title": { "type": ["string", "null"], "description": "From the LongT-styled paragraph. 'An Act relating to trade marks'." },
+    "number_and_year": { "type": ["string", "null"], "examples": ["No. 119, 1995", "Statutory Rules No. 341, 1995"] },
+    "made_under": { "type": ["string", "null"], "description": "The enabling Act, for a legislative instrument. Null for an Act." },
+
+    "register_id": {
+      "type": "string",
+      "description": "The compiled version this snapshot holds, and the whole amendment-detection mechanism: it changes if and only if a new compilation is registered. Comparing it to the live value costs one small JSON GET and is strictly better than hashing the document — stable, semantically meaningful, and immune to a rendering change that alters bytes without altering law.",
+      "examples": ["C2024C00545", "F2026C00009"]
+    },
+
+    "compilation_number": { "type": ["string", "null"], "examples": ["47", "53"] },
+    "compilation_start": { "type": ["string", "null"], "format": "date", "description": "The date this compilation took effect." },
+    "status": { "type": ["string", "null"], "examples": ["InForce"] },
+    "registered_at": { "type": ["string", "null"] },
+
+    "has_unincorporated_amendments": {
+      "type": ["boolean", "null"],
+      "description": "The blind spot in register_id, recorded rather than papered over. True means amendments have been made and have commenced but are not yet incorporated into ANY compilation — so the document held here is legally out of date and register_id has not moved. There is nothing newer to fetch in that state; a reader needs to know the snapshot is behind."
+    },
+
+    "amendments": {
+      "type": "array",
+      "description": "The Register's own reasons[] for this compilation, flattened to a stable shape and sorted. Read defensively because the structured fields are unreliable: affectedByTitle and amendedByTitle can each be null while the other holds the id, and series_type is nullable even where it is populated elsewhere. 'markdown' is kept whatever happens, because it is the one field always present and it names the amending instrument in prose.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "affect": { "type": ["string", "null"], "examples": ["Amend"] },
+          "markdown": { "type": ["string", "null"] },
+          "title_id": { "type": ["string", "null"] },
+          "name": { "type": ["string", "null"] },
+          "provisions": { "type": ["string", "null"], "description": "Which parts of the amending instrument did the amending — 'sch 11 (items 80-88)'." },
+          "series_type": { "type": ["string", "null"] },
+          "year": { "type": ["integer", "null"] },
+          "number": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["format", "content_hash", "bytes"],
+      "description": "The compiled file this snapshot was read from. Word rather than PDF: the PDF is the only authorised rendition but is bad for extraction, while the Word document carries the Office of Parliamentary Counsel stylesheet that every structural field here is derived from. Keep the PDF alongside if legal authority ever matters. How the bytes were obtained — API, site fallback, or already on disk — is a property of the run and lives in manifest.json, so that --from-raw and a live crawl do not rewrite this file at each other.",
+      "properties": {
+        "format": { "enum": ["Word", "Pdf", "Epub"] },
+        "content_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+        "bytes": { "type": "integer", "minimum": 1, "description": "Checked against the Register's own sizeInBytes before the snapshot is overwritten. A truncated download is a well-formed zip that parses into a shorter Act, and the shorter Act validates." }
+      }
+    },
+
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["containers", "provisions", "units"],
+      "properties": {
+        "containers": { "type": "integer", "minimum": 0 },
+        "provisions": { "type": "integer", "minimum": 1 },
+        "units": { "type": "integer", "minimum": 0 }
+      }
+    },
+
+    "captured_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this compilation was first seen. Carried forward while every other field matches, so a probe that finds nothing new writes nothing."
+    },
+
+    "extractor_version": { "type": "string", "examples": ["legislation/0.1.0"] }
+  }
+}

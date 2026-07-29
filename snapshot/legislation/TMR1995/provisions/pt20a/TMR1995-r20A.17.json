@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:a6f01ee220fea2867ea2562761ac47ab04487e5b77409c9ce0d0228fbbc46fc5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.17  Protection of certain persons"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.17",
+  "ref": "TMR1995/r20A.17",
+  "text": "(1) A person who is a member of a Panel of the Disciplinary Tribunal conducting a hearing of disciplinary proceedings under this Part has, in the performance of his or her duties as a member of the Panel, the same protection and immunity as a Justice of the High Court. (2) A member of the Board has, in exercising a power under this Part, the same protection and immunity as a Justice of the High Court. (3) A legal practitioner or other person appearing before a Panel of the Disciplinary Tribunal has the same protection and immunity as a barrister has in appearing for a party in proceedings in the High Court. (4) A person summoned to attend or appearing before a Panel of the Disciplinary Tribunal as a witness: (a) has the same protection; and (b) is, in addition to the penalties provided by this Part, subject to the same liabilities; as a witness in proceedings in the High Court.",
+  "title": "Protection of certain persons",
+  "units": [
+    {
+      "content_hash": "sha256:4320e6a848264e94e934edf3e21a06a50b92fe231bb04227a88c45c868052c7b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.17(1)",
+      "style": "subsection",
+      "text": "(1) A person who is a member of a Panel of the Disciplinary Tribunal conducting a hearing of disciplinary proceedings under this Part has, in the performance of his or her duties as a member of the Panel, the same protection and immunity as a Justice of the High Court."
+    },
+    {
+      "content_hash": "sha256:7eafb6d43ce8d09625af4b5927adbcb7baac41f11c54d26f5e967239e08c35f0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.17(2)",
+      "style": "subsection",
+      "text": "(2) A member of the Board has, in exercising a power under this Part, the same protection and immunity as a Justice of the High Court."
+    },
+    {
+      "content_hash": "sha256:4ef01a3a1dc7a0155bfca00ff036ede97ce4dfbac0e8399b2d6c3e430f5ea25e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.17(3)",
+      "style": "subsection",
+      "text": "(3) A legal practitioner or other person appearing before a Panel of the Disciplinary Tribunal has the same protection and immunity as a barrister has in appearing for a party in proceedings in the High Court."
+    },
+    {
+      "content_hash": "sha256:8ccd1d760c918d9144ac7bda89bb8e17e88e40386cb5f6e3acdbfc9425d3b1db",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.17(4)",
+      "style": "subsection",
+      "text": "(4) A person summoned to attend or appearing before a Panel of the Disciplinary Tribunal as a witness:"
+    },
+    {
+      "content_hash": "sha256:d8b341f3a017df7d76f7597a58b1108e3a2b6c11ba0857c4084791ce4a7bc406",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.17(4)",
+      "ref": "TMR1995/r20A.17(4)(a)",
+      "style": "paragraph",
+      "text": "(a) has the same protection; and"
+    },
+    {
+      "content_hash": "sha256:074e547388e2ac5d83abcc68193a9f45615724591b11bbe222153a5262781fcc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.17(4)",
+      "ref": "TMR1995/r20A.17(4)(b)",
+      "style": "paragraph",
+      "text": "(b) is, in addition to the penalties provided by this Part, subject to the same liabilities;"
+    },
+    {
+      "content_hash": "sha256:e5d90f711011a51da6b425b0fd8ceff300fff6d58b59fa928362eb94dedfb546",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.17~1",
+      "style": "subsection2",
+      "text": "as a witness in proceedings in the High Court."
+    }
+  ]
+}

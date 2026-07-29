@@ -1,0 +1,126 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt6"
+  ],
+  "content_hash": "sha256:256d2d6d66023fd0cd0c7744477b755447c4c51420e2c166abd530071f860692",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "63  Amendment of application for registration of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "63",
+  "ref": "TMA1995/s63",
+  "text": "(1) The Registrar may, at the request of the applicant or of his or her agent, amend an application for the registration of a trade mark in accordance with section 64, 65 or 65A. (2) If: (a) an application for the registration of a trade mark may be amended under section 65; and (b) the applicant has not asked that the application be amended; the Registrar may, on his or her own initiative but in accordance with the regulations, amend the application as necessary: (c) to remove any ground on which the application could be rejected; or (d) so as to ensure that the application is made in accordance with this Act.",
+  "title": "Amendment of application for registration of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:b177ac934ce759c16e62d7edf022190c1f2be57a4a1381056d6b28471506f78e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "section 64, 65 or 65A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65",
+          "mention": "section 64, 65 or 65A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65A",
+          "mention": "section 64, 65 or 65A"
+        }
+      ],
+      "ref": "TMA1995/s63(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, at the request of the applicant or of his or her agent, amend an application for the registration of a trade mark in accordance with section 64, 65 or 65A."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s63(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:d33a2812f971af443d5be83f3a1d3f45e357722badb1f32e57f79d1bf97a97fe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s63(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65",
+          "mention": "section 65"
+        }
+      ],
+      "ref": "TMA1995/s63(2)(a)",
+      "style": "paragraph",
+      "text": "(a) an application for the registration of a trade mark may be amended under section 65; and"
+    },
+    {
+      "content_hash": "sha256:7adb016977c12997912fda11f065ea5fcbaa01dd2f475f1cb559973a69528a27",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s63(2)",
+      "ref": "TMA1995/s63(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant has not asked that the application be amended;"
+    },
+    {
+      "content_hash": "sha256:f3f0624189212e44b97d76267332667d95ef8ccb7dd0c036046b77f24ec812b0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s63~1",
+      "style": "subsection2",
+      "text": "the Registrar may, on his or her own initiative but in accordance with the regulations, amend the application as necessary:"
+    },
+    {
+      "content_hash": "sha256:75b26e312f06cba1167157e02faef89fc7e0b529b617fc78d32f011cc9974e3b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s63~1",
+      "ref": "TMA1995/s63~1(c)",
+      "style": "paragraph",
+      "text": "(c) to remove any ground on which the application could be rejected; or"
+    },
+    {
+      "content_hash": "sha256:6dabe47daab224746f9a5e351f05de4f224b3505ace0ddd3b76ef7a6acf77c04",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s63~1",
+      "ref": "TMA1995/s63~1(d)",
+      "style": "paragraph",
+      "text": "(d) so as to ensure that the application is made in accordance with this Act."
+    }
+  ]
+}

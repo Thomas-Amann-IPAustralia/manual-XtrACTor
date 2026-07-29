@@ -1,0 +1,64 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:3d6c673a54fa90340873995d8f48167d9dbde9d25779e8324b77b074c76e734c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "229A  Designated Manager may disclose information to ASIC"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "229A",
+  "ref": "TMA1995/s229A",
+  "text": "The Designated Manager may disclose to the Australian Securities and Investments Commission, information (including personal information within the meaning of the Privacy Act 1988) that is: (a) relevant to the functions of the Commission; and (b) obtained by the Designated Manager as a result of the performance of functions and duties, or the exercise of powers, in relation to incorporated trade marks attorneys.",
+  "title": "Designated Manager may disclose information to ASIC",
+  "units": [
+    {
+      "content_hash": "sha256:9825b66753150ae2a3edee91d3e711b7c4dc7a100d4c59f0c59ba383aaf850f2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 179,
+          "start": 163,
+          "text": "Privacy Act 1988",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s229A~1",
+      "style": "subsection",
+      "text": "The Designated Manager may disclose to the Australian Securities and Investments Commission, information (including personal information within the meaning of the Privacy Act 1988) that is:"
+    },
+    {
+      "content_hash": "sha256:2e0a718d1c3086eb8f3ec0b5aae946f9a4c2c4f5ef420435b2c0a4156ec6e44f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s229A~1",
+      "ref": "TMA1995/s229A~1(a)",
+      "style": "paragraph",
+      "text": "(a) relevant to the functions of the Commission; and"
+    },
+    {
+      "content_hash": "sha256:ec14165b47fee657a2244905a6a82c7325ac3de4ac6d5996665c2434a1ae47c8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s229A~1",
+      "ref": "TMA1995/s229A~1(b)",
+      "style": "paragraph",
+      "text": "(b) obtained by the Designated Manager as a result of the performance of functions and duties, or the exercise of powers, in relation to incorporated trade marks attorneys."
+    }
+  ]
+}

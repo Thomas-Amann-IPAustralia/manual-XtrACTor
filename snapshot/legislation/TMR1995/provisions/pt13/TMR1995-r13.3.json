@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:475abca3afb59dd4bd3f7331dc8bf9dd890c68f1f3e7a2ae89410b7f1fd5457e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.3  Notice of objection to importationprescribed document"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.3",
+  "ref": "TMR1995/r13.3",
+  "text": "For subsection 132(1) of the Act, a document that sets out the particulars of registration of the registered trade mark is prescribed.",
+  "title": "Notice of objection to importationprescribed document",
+  "units": [
+    {
+      "content_hash": "sha256:475abca3afb59dd4bd3f7331dc8bf9dd890c68f1f3e7a2ae89410b7f1fd5457e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(1)",
+          "mention": "subsection 132(1)"
+        }
+      ],
+      "ref": "TMR1995/r13.3~1",
+      "style": "subsection",
+      "text": "For subsection 132(1) of the Act, a document that sets out the particulars of registration of the registered trade mark is prescribed."
+    }
+  ]
+}

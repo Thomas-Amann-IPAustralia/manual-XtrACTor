@@ -1,0 +1,347 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3a",
+    "TMR1995/pt3a/div2"
+  ],
+  "content_hash": "sha256:7a5f0a9aca0ab1856cdbe0b03a47eea72ae4de34bdb93b1959132ffbdc280165",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3A—Assisted filing service",
+    "Division 2—Request for filing assistance",
+    "3A.5  AFS request—formal requirements for amendment or proceeding to Part 4 application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3A.5",
+  "ref": "TMR1995/r3A.5",
+  "text": "(1) The requester may, within 5 working days after being informed by the Registrar under subregulation 3A.4(2), or within an extended period as decided by the Registrar under regulation 3A.7: (a) amend the AFS request under subregulation 3A.5(2); or (b) submit the AFS request as an application for registration of a trade mark under Part 4 of the Act by payment of the fee prescribed by item 35 of the table in subclause 1(1) of Schedule 9. (2) If the requester advises the Registrar under paragraph (1)(a) that the AFS request is to be amended: (a) for the purpose of adding one or more classes of goods or services to the AFS request; or (b) to significantly change the graphical representation of the trade mark; the advice must include: (c) details of the goods and/or services or the graphical representation; and (d) any material to be attached to the AFS request; and (e) any other document required by the Registrar; and (f) any fee prescribed in relation to the amendment. (3) For the fee prescribed for an amendment mentioned in subregulation (2), the Registrar may: (a) decide to waive the fee; or (b) decide not to waive the fee, and require that payment of the fee be made within the period of 5 working days after that decision. (4) For an amended AFS request to which subregulation (2) applies, and in respect of which the fee mentioned in subregulation (3) has been paid or waived: (a) the Registrar must amend the AFS request and as soon as practicable: (i) assess the amended AFS request in accordance with regulation 3A.4; and (ii) inform the requester under subregulation 3A.4(2); and (b) the period mentioned in subregulation (1) is extended to 5 working days after the Registrar informs the requester in accordance with subparagraph (a)(ii). (5) If the requester advises the Registrar that the AFS request is to be amended for a purpose other than that mentioned in subregulation (2), the Registrar: (a) must amend the AFS request; and (b) may assess the amended AFS request, insofar as the Registrar considers practicable, having regard to: (i) the complexity of the amendments requested; and (ii) the length of time that remains of the period mentioned in subregulation (1); and (c) insofar as it has been practicable to assess the amended AFS request—must inform the requester of the assessment. (6) An AFS request is discontinued if a requester fails to submit an application under Part 4 of the Act after following the procedure mentioned in subregulation (1).",
+  "title": "AFS request—formal requirements for amendment or proceeding to Part 4 application",
+  "units": [
+    {
+      "content_hash": "sha256:b08ceaa3ecc4ee8632e0868a24405a2cc8443c8152c6e66bc04039a0c053426f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(2)",
+          "mention": "subregulation 3A.4(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.7",
+          "mention": "regulation 3A.7"
+        }
+      ],
+      "ref": "TMR1995/r3A.5(1)",
+      "style": "subsection",
+      "text": "(1) The requester may, within 5 working days after being informed by the Registrar under subregulation 3A.4(2), or within an extended period as decided by the Registrar under regulation 3A.7:"
+    },
+    {
+      "content_hash": "sha256:7ca044ac2a4b700837290eea27449bb540b27b71ab9a658cfffb25aa670c6a0e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r3A.5(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.5(2)",
+          "mention": "subregulation 3A.5(2)"
+        }
+      ],
+      "ref": "TMR1995/r3A.5(1)(a)",
+      "style": "paragraph",
+      "text": "(a) amend the AFS request under subregulation 3A.5(2); or"
+    },
+    {
+      "content_hash": "sha256:b91439a43857a19d3af8efa1b5c021a2e84d09a0df9505aa38112d424e196781",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r3A.5(1)",
+      "ref": "TMR1995/r3A.5(1)(b)",
+      "style": "paragraph",
+      "text": "(b) submit the AFS request as an application for registration of a trade mark under Part 4 of the Act by payment of the fee prescribed by item 35 of the table in subclause 1(1) of Schedule 9."
+    },
+    {
+      "content_hash": "sha256:d16276a4122eac0e8ec0bd14dcc08e41e042cd3fe61ee353ddaf7cb76f4518ea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5(2)",
+      "style": "subsection",
+      "text": "(2) If the requester advises the Registrar under paragraph (1)(a) that the AFS request is to be amended:"
+    },
+    {
+      "content_hash": "sha256:73e57ebb02112b8962fe2b42190c55f9ba8f6038673fbf2cf69ea24221fcb5e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r3A.5(2)",
+      "ref": "TMR1995/r3A.5(2)(a)",
+      "style": "paragraph",
+      "text": "(a) for the purpose of adding one or more classes of goods or services to the AFS request; or"
+    },
+    {
+      "content_hash": "sha256:68c5017581e5fab247af747dd4e07f0f7233659be62badcf1f4e7c7deb6a6a1d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r3A.5(2)",
+      "ref": "TMR1995/r3A.5(2)(b)",
+      "style": "paragraph",
+      "text": "(b) to significantly change the graphical representation of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:fbc5b2c5211a1d70d15b75fb977e4a6ad047e882ca47927279465863f826641f",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5~1",
+      "style": "subsection2",
+      "text": "the advice must include:"
+    },
+    {
+      "content_hash": "sha256:485631d8f408581952e2bd8cf72660cabebb2815502cba1ca95d12b245f17878",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r3A.5~1",
+      "ref": "TMR1995/r3A.5~1(c)",
+      "style": "paragraph",
+      "text": "(c) details of the goods and/or services or the graphical representation; and"
+    },
+    {
+      "content_hash": "sha256:935d5c3ea8661ac9e0c17fbdab50c8fcdc79ce9fcf3104ec70e395ec654e881e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r3A.5~1",
+      "ref": "TMR1995/r3A.5~1(d)",
+      "style": "paragraph",
+      "text": "(d) any material to be attached to the AFS request; and"
+    },
+    {
+      "content_hash": "sha256:9e1fad1aae31d75c4de011b668d1df058403023242014d29088c440901ceafc3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r3A.5~1",
+      "ref": "TMR1995/r3A.5~1(e)",
+      "style": "paragraph",
+      "text": "(e) any other document required by the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:5b57d32185276dfbc74e098039d537cb71a7b365f00a0897cdb56777c3cabcb4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r3A.5~1",
+      "ref": "TMR1995/r3A.5~1(f)",
+      "style": "paragraph",
+      "text": "(f) any fee prescribed in relation to the amendment."
+    },
+    {
+      "content_hash": "sha256:167b5c8b2301c1b3692a4edd65fbf61a3e10165cffa371186605f259fa4eff4a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5(3)",
+      "style": "subsection",
+      "text": "(3) For the fee prescribed for an amendment mentioned in subregulation (2), the Registrar may:"
+    },
+    {
+      "content_hash": "sha256:235691c105357bce0b03a4219736c452b037ef33c72575213d5a9df69e66956d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r3A.5(3)",
+      "ref": "TMR1995/r3A.5(3)(a)",
+      "style": "paragraph",
+      "text": "(a) decide to waive the fee; or"
+    },
+    {
+      "content_hash": "sha256:6753a7ee6c86b6d703d9bb920b94a2777c12656a7531edb01f49e4e6ec68f65a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r3A.5(3)",
+      "ref": "TMR1995/r3A.5(3)(b)",
+      "style": "paragraph",
+      "text": "(b) decide not to waive the fee, and require that payment of the fee be made within the period of 5 working days after that decision."
+    },
+    {
+      "content_hash": "sha256:ef27222dc84cc63aebeb469abad9eb0da1b58d572d346583f6d0815b448ae754",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5(4)",
+      "style": "subsection",
+      "text": "(4) For an amended AFS request to which subregulation (2) applies, and in respect of which the fee mentioned in subregulation (3) has been paid or waived:"
+    },
+    {
+      "content_hash": "sha256:828aaf951167c70d9bb7dfb946bd22057da53989f2332f92b852e717d55fc59b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r3A.5(4)",
+      "ref": "TMR1995/r3A.5(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar must amend the AFS request and as soon as practicable:"
+    },
+    {
+      "content_hash": "sha256:d0fbc9810b9be43ecf82c5eb79fdf71df620e82eea494c36e767367c61bd2844",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r3A.5(4)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4",
+          "mention": "regulation 3A.4"
+        }
+      ],
+      "ref": "TMR1995/r3A.5(4)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) assess the amended AFS request in accordance with regulation 3A.4; and"
+    },
+    {
+      "content_hash": "sha256:4ea251a007941b8f21bcd719412582850617d822fae5b3197a4f6c7865a30dc0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r3A.5(4)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(2)",
+          "mention": "subregulation 3A.4(2)"
+        }
+      ],
+      "ref": "TMR1995/r3A.5(4)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) inform the requester under subregulation 3A.4(2); and"
+    },
+    {
+      "content_hash": "sha256:ce68b3cdf707ff132fb2f5c9cbf8e91a67af20c1d8a6c164063f778be93da163",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r3A.5(4)",
+      "ref": "TMR1995/r3A.5(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the period mentioned in subregulation (1) is extended to 5 working days after the Registrar informs the requester in accordance with subparagraph (a)(ii)."
+    },
+    {
+      "content_hash": "sha256:e3c9dca0eb6135e99b472ff4c7040cb37faa7ef0193de82240e2c843686873b7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 20,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5(5)",
+      "style": "subsection",
+      "text": "(5) If the requester advises the Registrar that the AFS request is to be amended for a purpose other than that mentioned in subregulation (2), the Registrar:"
+    },
+    {
+      "content_hash": "sha256:e5085788f696748696c59cb661047310586f8494657ab1d7010327d7f88b0499",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r3A.5(5)",
+      "ref": "TMR1995/r3A.5(5)(a)",
+      "style": "paragraph",
+      "text": "(a) must amend the AFS request; and"
+    },
+    {
+      "content_hash": "sha256:79f86d633fd24333f1f782373b38bbb80729b0655a7647627fc6cd4a45660adb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r3A.5(5)",
+      "ref": "TMR1995/r3A.5(5)(b)",
+      "style": "paragraph",
+      "text": "(b) may assess the amended AFS request, insofar as the Registrar considers practicable, having regard to:"
+    },
+    {
+      "content_hash": "sha256:feb1eea35722b7f357173dcd9d6f16bc2e05f2eaf5a8e3fe6c89e11f0c085449",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r3A.5(5)(b)",
+      "ref": "TMR1995/r3A.5(5)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the complexity of the amendments requested; and"
+    },
+    {
+      "content_hash": "sha256:efd1af9aa7ee01414dc4b10dcc7ac38e5cd458d05173dfbf8013c708b406d87f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r3A.5(5)(b)",
+      "ref": "TMR1995/r3A.5(5)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the length of time that remains of the period mentioned in subregulation (1); and"
+    },
+    {
+      "content_hash": "sha256:8243091381eab071be60457943fa0fa5f3793c36a0a3f9cebdac08ab1f40bdf1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r3A.5(5)",
+      "ref": "TMR1995/r3A.5(5)(c)",
+      "style": "paragraph",
+      "text": "(c) insofar as it has been practicable to assess the amended AFS request—must inform the requester of the assessment."
+    },
+    {
+      "content_hash": "sha256:25595c8c899a510aaa0f657c9a2671629b8847c3f4e396be1406c9ca9c69a971",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 26,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.5(6)",
+      "style": "subsection",
+      "text": "(6) An AFS request is discontinued if a requester fails to submit an application under Part 4 of the Act after following the procedure mentioned in subregulation (1)."
+    }
+  ]
+}

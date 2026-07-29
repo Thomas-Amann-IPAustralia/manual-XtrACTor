@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:15e39e8ebbd8c44f236964af04ea1fb5b6865103bbbbb5e5749b25eefc83bb64",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "73  Ceasing of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "73",
+  "ref": "TMA1995/s73",
+  "text": "The registration of a trade mark ceases if: (a) the trade mark is removed from the Register under section 78 or 80F or under Part 9; or (b) the registration of the trade mark is cancelled. Note: Section 84C explains the effect of revocation of the registration of a trade mark, applying some provisions as if the registration had ceased at a particular time (but for most purposes treating the registration as if it had never occurred).",
+  "title": "Ceasing of registration",
+  "units": [
+    {
+      "content_hash": "sha256:56f1978c988401019e517915f4ab135b2e58317bdef03fb5897e03eacad23c16",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s73~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark ceases if:"
+    },
+    {
+      "content_hash": "sha256:93a0988066e4e6c2201faea5a469ba7f646c208073e280efb601785a60c0fc06",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s73~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s78",
+          "mention": "section 78 or 80F"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80F",
+          "mention": "section 78 or 80F"
+        }
+      ],
+      "ref": "TMA1995/s73~1(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark is removed from the Register under section 78 or 80F or under Part 9; or"
+    },
+    {
+      "content_hash": "sha256:fe69311d0ca32b3821d0dcc497a3bf9941bd685572699383b6bedd336b29d863",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s73~1",
+      "ref": "TMA1995/s73~1(b)",
+      "style": "paragraph",
+      "text": "(b) the registration of the trade mark is cancelled."
+    },
+    {
+      "content_hash": "sha256:ebc0e64b1938d8c03072edb9ddb8f0c6179bcf667d196b8ac8a2be3141866a1e",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s73~1(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s84C",
+          "mention": "Section 84C"
+        }
+      ],
+      "ref": "TMA1995/s73~1(b)~1",
+      "style": "notetext",
+      "text": "Note: Section 84C explains the effect of revocation of the registration of a trade mark, applying some provisions as if the registration had ceased at a particular time (but for most purposes treating the registration as if it had never occurred)."
+    }
+  ]
+}

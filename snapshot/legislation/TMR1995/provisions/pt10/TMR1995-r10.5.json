@@ -1,0 +1,84 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt10"
+  ],
+  "content_hash": "sha256:62d0dd81ac9e511fa7dce08c8ba60649086b7dfd8d56eb7450cb382f8f0134d5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "10.5  Notification to persons recorded as claiming right or interest in trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "10.5",
+  "ref": "TMR1995/r10.5",
+  "text": "(1) For the purposes of section 111 of the Act, the Registrar must notify a person recorded under Part 11 of the Act as claiming an interest in, or a right in respect of, a trade mark that the Registrar will record the assignment or transmission of the trade mark at the end of a period of 2 months from the date of the notification, unless: (a) the application to assign or transmit the trade mark is withdrawn; or (b) a prescribed court determines otherwise; or (c) each person to whom the Registrar must notify under this subregulation has already notified the Registrar in writing that the person consents to the assignment or transmission. (2) Each notification under subregulation (1) in respect of a particular trade mark must be given on the same day.",
+  "title": "Notification to persons recorded as claiming right or interest in trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:5a4c22b79595e106bcbfca2b88969ad4846402697cf442b6c9aab1a67f8e567c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s111",
+          "mention": "section 111"
+        }
+      ],
+      "ref": "TMR1995/r10.5(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of section 111 of the Act, the Registrar must notify a person recorded under Part 11 of the Act as claiming an interest in, or a right in respect of, a trade mark that the Registrar will record the assignment or transmission of the trade mark at the end of a period of 2 months from the date of the notification, unless:"
+    },
+    {
+      "content_hash": "sha256:ef052f8e77b44f08a73633367247d00c17a2335b8c5b07d235b63db33fb92dc4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r10.5(1)",
+      "ref": "TMR1995/r10.5(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application to assign or transmit the trade mark is withdrawn; or"
+    },
+    {
+      "content_hash": "sha256:3ecd22d07e58d71cb7230c1d7a3a532f2284df5cd9aff5ac5da366143ef40df5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r10.5(1)",
+      "ref": "TMR1995/r10.5(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a prescribed court determines otherwise; or"
+    },
+    {
+      "content_hash": "sha256:4bb536049badfc649c513ca86d4e073bdf973d4949f2bd8a66a6b160f066f566",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r10.5(1)",
+      "ref": "TMR1995/r10.5(1)(c)",
+      "style": "paragraph",
+      "text": "(c) each person to whom the Registrar must notify under this subregulation has already notified the Registrar in writing that the person consents to the assignment or transmission."
+    },
+    {
+      "content_hash": "sha256:f1e628f9f0c6bbd85d582ca86666bf8c99c0c079c46486272151943f09c661bb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.5(2)",
+      "style": "subsection",
+      "text": "(2) Each notification under subregulation (1) in respect of a particular trade mark must be given on the same day."
+    }
+  ]
+}

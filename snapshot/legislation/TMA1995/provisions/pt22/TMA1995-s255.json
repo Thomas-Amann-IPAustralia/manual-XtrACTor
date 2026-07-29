@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:405010f5e922b962667cc40af8a751c1279f35264251e3a52f950af4bcc029b8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "255  Application of this Act—general"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "255",
+  "ref": "TMA1995/s255",
+  "text": "(1) If: (a) an action or proceeding validly brought for the purposes of the repealed Act was still pending immediately before 1 January 1996; and (b) that action or proceeding could have been brought under this Act if this Act had been in force when the action or proceeding was started; then, except as otherwise provided by this Division or the regulations, this Act applies in relation to the action or proceeding as if it were an action or proceeding validly brought on 1 January 1996 under the relevant provision of this Act. (2) Anything done under the repealed Act for the purposes of the action or proceeding is taken to have been done: (a) on 1 January 1996; and (b) in accordance with this Act.",
+  "title": "Application of this Act—general",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s255(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:2c2f265ad5a738a0a8001a454079d3e7fb2d856d1501e5d94ea94a9ecfb76075",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s255(1)",
+      "ref": "TMA1995/s255(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an action or proceeding validly brought for the purposes of the repealed Act was still pending immediately before 1 January 1996; and"
+    },
+    {
+      "content_hash": "sha256:4c67ccab5b1a1b3674855fd99aa147c2d355859863ce54e1f6a980790d694b78",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s255(1)",
+      "ref": "TMA1995/s255(1)(b)",
+      "style": "paragraph",
+      "text": "(b) that action or proceeding could have been brought under this Act if this Act had been in force when the action or proceeding was started;"
+    },
+    {
+      "content_hash": "sha256:5e95151717ddf92b91322aa54b813528b6b0d262737d6c88c53e5304186f4595",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s255~1",
+      "style": "subsection2",
+      "text": "then, except as otherwise provided by this Division or the regulations, this Act applies in relation to the action or proceeding as if it were an action or proceeding validly brought on 1 January 1996 under the relevant provision of this Act."
+    },
+    {
+      "content_hash": "sha256:f8961b3c6d82b9f690ffdc9a5079596ce23dd1f808885fa40063b22f1c336a01",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s255(2)",
+      "style": "subsection",
+      "text": "(2) Anything done under the repealed Act for the purposes of the action or proceeding is taken to have been done:"
+    },
+    {
+      "content_hash": "sha256:b6daa172cf97f8430d1c2b52ad6831321ef99901b145c38b2fc2fbb531675c2a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s255(2)",
+      "ref": "TMA1995/s255(2)(a)",
+      "style": "paragraph",
+      "text": "(a) on 1 January 1996; and"
+    },
+    {
+      "content_hash": "sha256:e75a6392f51e981c2fc5f385df0d8c61d065312f5c8e482187aa0fb00c720e27",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s255(2)",
+      "ref": "TMA1995/s255(2)(b)",
+      "style": "paragraph",
+      "text": "(b) in accordance with this Act."
+    }
+  ]
+}

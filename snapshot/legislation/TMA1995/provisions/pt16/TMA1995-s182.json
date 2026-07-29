@@ -1,0 +1,103 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:e656f87e2a71a9f627f4d18082fe1302907edc44a4628e7ebc2f4e84753c781b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "182  Variation of rules by order of court"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "182",
+  "ref": "TMA1995/s182",
+  "text": "(1) A prescribed court may, on the application of a person aggrieved, make such orders as it thinks fit for varying the rules governing the use of a certification trade mark. Note: For prescribed court see section 190. (2) Notice of an application to the prescribed court must be given to the Commission. (3) Except for cases in which the court directs the Commission to appear, a delegate of the Commission may appear before the court and be heard at his or her discretion. (4) A copy of any order made by the court under this section must be given to the Commission. (5) If the court orders that the rules are to be varied, the registered owner of the certification trade mark must give to the Registrar a copy of the rules as varied that is certified by the Commission to be a true copy.",
+  "title": "Variation of rules by order of court",
+  "units": [
+    {
+      "content_hash": "sha256:5b924d99ed9851ecd870bd4c60c1323943eace86f1cd360dfac022a2c1412800",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s182(1)",
+      "style": "subsection",
+      "text": "(1) A prescribed court may, on the application of a person aggrieved, make such orders as it thinks fit for varying the rules governing the use of a certification trade mark."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s182(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s182(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:ca1ee641e01e17de4ba9ea392f6fccb44823a98a9290e25134aae75f10c756b7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s182(2)",
+      "style": "subsection",
+      "text": "(2) Notice of an application to the prescribed court must be given to the Commission."
+    },
+    {
+      "content_hash": "sha256:f616c7775abc736b18020fa168a1adaab23ab99af0893b5904d95f875d5f48b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s182(3)",
+      "style": "subsection",
+      "text": "(3) Except for cases in which the court directs the Commission to appear, a delegate of the Commission may appear before the court and be heard at his or her discretion."
+    },
+    {
+      "content_hash": "sha256:020013e3dbc2ad3fd67d96b1e1534f5a1499f532b153d6b2d5d2a663061d0792",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s182(4)",
+      "style": "subsection",
+      "text": "(4) A copy of any order made by the court under this section must be given to the Commission."
+    },
+    {
+      "content_hash": "sha256:550a588fbae26f14bc320cbc62670152a909746a383ff28cc4e5555ed515abcc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s182(5)",
+      "style": "subsection",
+      "text": "(5) If the court orders that the rules are to be varied, the registered owner of the certification trade mark must give to the Registrar a copy of the rules as varied that is certified by the Commission to be a true copy."
+    }
+  ]
+}

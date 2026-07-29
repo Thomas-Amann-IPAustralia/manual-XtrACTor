@@ -1,0 +1,255 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdiva"
+  ],
+  "content_hash": "sha256:3b6680cabd5c9bd81bd564dda470075a99f597e36963a5179b60b08f7ab82b4b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "5.9  Extension of time for filing—application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.9",
+  "ref": "TMR1995/r5.9",
+  "text": "(1) A person who intends to oppose an application under subsection 52(1) of the Act may request the Registrar to extend: (a) the period for filing a notice of intention to oppose under subregulation 5.6(1); or (b) the period for filing a statement of grounds and particulars under subregulation 5.7(1). (2) A request under paragraph (1)(a) or (b) may be made: (a) within the period for filing the document in question; or (b) before the trade mark is entered on the Register under section 69 of the Act. Note: See subparagraph (3)(b)(ii) and subregulation 5.10(2) in relation to the consequences of making the request after the filing period has ended. (3) The request must: (a) be in an approved form; and (b) be accompanied by a declaration stating: (i) the facts and circumstances forming the basis for the grounds; and (ii) if the period for filing the notice or the statement of grounds and particulars has ended—the reason why the request was not made within the period. Note: Regulations 21.6 and 21.7 deal with making and filing declarations. (4) The request may be made only on either or both of the following grounds: (a) an error or omission by the person, the person’s agent, the Registrar or an employee; (b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee.",
+  "title": "Extension of time for filing—application",
+  "units": [
+    {
+      "content_hash": "sha256:9313e7c3835d0b03ab6bc99d3cf778bd8d319fa9101bc19f5ebad4912835f9d1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52(1)",
+          "mention": "subsection 52(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.9(1)",
+      "style": "subsection",
+      "text": "(1) A person who intends to oppose an application under subsection 52(1) of the Act may request the Registrar to extend:"
+    },
+    {
+      "content_hash": "sha256:63394d8f86e479b86068e6496ef25758e87aa657157ce3f3e3394c3ec95b530e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r5.9(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.6(1)",
+          "mention": "subregulation 5.6(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.9(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the period for filing a notice of intention to oppose under subregulation 5.6(1); or"
+    },
+    {
+      "content_hash": "sha256:91badc97cafd00aeaccdcc58901fc54831ac37012a82860685480b66c3a30839",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r5.9(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.7(1)",
+          "mention": "subregulation 5.7(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.9(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the period for filing a statement of grounds and particulars under subregulation 5.7(1)."
+    },
+    {
+      "content_hash": "sha256:8b8a6eee78b1f0e618949266e0c0bd7815c940f55c7796d285009393522f9aae",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.9(2)",
+      "style": "subsection",
+      "text": "(2) A request under paragraph (1)(a) or (b) may be made:"
+    },
+    {
+      "content_hash": "sha256:2148099f64a27c61f0252857241ca7563144666e4340f46612f71971e83c04a6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r5.9(2)",
+      "ref": "TMR1995/r5.9(2)(a)",
+      "style": "paragraph",
+      "text": "(a) within the period for filing the document in question; or"
+    },
+    {
+      "content_hash": "sha256:651235d47ad2fa2511546d92f8120090d27194742425d10cc790f43992319037",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r5.9(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        }
+      ],
+      "ref": "TMR1995/r5.9(2)(b)",
+      "style": "paragraph",
+      "text": "(b) before the trade mark is entered on the Register under section 69 of the Act."
+    },
+    {
+      "content_hash": "sha256:03c024697b8a4367416eb883a37842095d5faaf6428bebe39cd13f82529a37ba",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r5.9(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.10(2)",
+          "mention": "subregulation 5.10(2)"
+        }
+      ],
+      "ref": "TMR1995/r5.9(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: See subparagraph (3)(b)(ii) and subregulation 5.10(2) in relation to the consequences of making the request after the filing period has ended."
+    },
+    {
+      "content_hash": "sha256:0a92bf2ebe18617bcb6cdd7bc6cb113992ac36ddda3e9b7213c033e9ddfac17e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.9(3)",
+      "style": "subsection",
+      "text": "(3) The request must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r5.9(3)",
+      "ref": "TMR1995/r5.9(3)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:2d420a08c669f7f2a1a079730f38e4e783ee02f8657e9dfcfc84dd1ab305fe39",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r5.9(3)",
+      "ref": "TMR1995/r5.9(3)(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by a declaration stating:"
+    },
+    {
+      "content_hash": "sha256:296537dee092a2edcc4f913369be2f61a9c78f1bb06edea887231f202ef83903",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r5.9(3)(b)",
+      "ref": "TMR1995/r5.9(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the facts and circumstances forming the basis for the grounds; and"
+    },
+    {
+      "content_hash": "sha256:6090390339f3a48fba88b4af85dd2461ad60fecfe04dc5ea839040e4606c1861",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r5.9(3)(b)",
+      "ref": "TMR1995/r5.9(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the period for filing the notice or the statement of grounds and particulars has ended—the reason why the request was not made within the period."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r5.9(3)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r5.9(3)(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    },
+    {
+      "content_hash": "sha256:2d893847889593a12b11fa9842e5f62e8f499c8f9d7223f1ec555355cc52c41f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.9(4)",
+      "style": "subsection",
+      "text": "(4) The request may be made only on either or both of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:38903ca2c75b5f493c3d17ec91bba0081930b1c77d8a38e013a64324ab84ae23",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r5.9(4)",
+      "ref": "TMR1995/r5.9(4)(a)",
+      "style": "paragraph",
+      "text": "(a) an error or omission by the person, the person’s agent, the Registrar or an employee;"
+    },
+    {
+      "content_hash": "sha256:5f8ee212d9c278a80e5c8c418e99df489b8dd6c93ce4fe3a447b02125a36b092",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r5.9(4)",
+      "ref": "TMR1995/r5.9(4)(b)",
+      "style": "paragraph",
+      "text": "(b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div2"
+  ],
+  "content_hash": "sha256:edabfcc9eca111b5892a2de0ea473a4f292408937541e1afa68a768d2684c818",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 2—Opposition to amendment after particulars published",
+    "6.6  Notice of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.6",
+  "ref": "TMR1995/r6.6",
+  "text": "(1) For subsection 65A(4) of the Act, a person may oppose a request for amendment by filing a notice of opposition, in an approved form, within one month from the publication of the request for the amendment in a computer database maintained by the Trade Marks Office in accordance with regulation 6.3A. (2) The Registrar must give a copy of the notice to the applicant.",
+  "title": "Notice of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:9b95c24b18d4f0787459271deb56332cbbcd26837c4465b162adc4c028434029",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65A(4)",
+          "mention": "subsection 65A(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.3A",
+          "mention": "regulation 6.3A"
+        }
+      ],
+      "ref": "TMR1995/r6.6(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 65A(4) of the Act, a person may oppose a request for amendment by filing a notice of opposition, in an approved form, within one month from the publication of the request for the amendment in a computer database maintained by the Trade Marks Office in accordance with regulation 6.3A."
+    },
+    {
+      "content_hash": "sha256:b0e7e60718b61ab662101868d66e1124604fc33c6e8a3619de0a043fa6ffcbc9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r6.6(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must give a copy of the notice to the applicant."
+    }
+  ]
+}

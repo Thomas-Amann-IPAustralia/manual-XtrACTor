@@ -1,0 +1,146 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdivb"
+  ],
+  "content_hash": "sha256:6e0f5470e2599cb8399fcc5f4a18f454e7cc1dc6531700671e12829feeab7cc5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision B—Notice of intention to defend",
+    "9.15A  Extension of time for filing—application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.15A",
+  "ref": "TMR1995/r9.15A",
+  "text": "(1) A person may apply to the Registrar to extend the period for filing a notice of intention to defend. (2) The application must be made before the end of the period of 2 months beginning on the day after the end of the period mentioned in subregulation 9.15(1). (3) The application must: (a) be in the approved form; and (b) be accompanied by a declaration stating the facts and circumstances forming the basis for the grounds for making the application. Note: Regulations 21.6 and 21.7 deal with making and filing declarations. (4) The application may be made only on either or both of the following grounds: (a) an error or omission by the person, the person’s agent, the Registrar or an employee; (b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee.",
+  "title": "Extension of time for filing—application",
+  "units": [
+    {
+      "content_hash": "sha256:f1483eef601c64cc4c305a8847e8c6bd34ecd8a342f867b8a780df9c34c25e5f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15A(1)",
+      "style": "subsection",
+      "text": "(1) A person may apply to the Registrar to extend the period for filing a notice of intention to defend."
+    },
+    {
+      "content_hash": "sha256:b2b2a22626c9a29b6cbb906ab70b62c1db6c1046cab50223d4295aef47f43c3b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15(1)",
+          "mention": "subregulation 9.15(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.15A(2)",
+      "style": "subsection",
+      "text": "(2) The application must be made before the end of the period of 2 months beginning on the day after the end of the period mentioned in subregulation 9.15(1)."
+    },
+    {
+      "content_hash": "sha256:bc4212e02ce0d75499c9b122009f338a627bef1fa419bc602e2195729607fb0c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15A(3)",
+      "style": "subsection",
+      "text": "(3) The application must:"
+    },
+    {
+      "content_hash": "sha256:1a5388894f152ff52e786273183169a0da8d520e430ff5cb63f8b91c691f3e84",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r9.15A(3)",
+      "ref": "TMR1995/r9.15A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) be in the approved form; and"
+    },
+    {
+      "content_hash": "sha256:d695851256c8af7a2ca4bbf1db6ed95f8c50b13c14fcb6e8dd74ddd7d529a485",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r9.15A(3)",
+      "ref": "TMR1995/r9.15A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by a declaration stating the facts and circumstances forming the basis for the grounds for making the application."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r9.15A(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r9.15A(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    },
+    {
+      "content_hash": "sha256:7f6aa301f1a1ce218d8856b67918bd5d4deddbddd4f70d81a9f97c8b2c43dd9f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15A(4)",
+      "style": "subsection",
+      "text": "(4) The application may be made only on either or both of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:38903ca2c75b5f493c3d17ec91bba0081930b1c77d8a38e013a64324ab84ae23",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r9.15A(4)",
+      "ref": "TMR1995/r9.15A(4)(a)",
+      "style": "paragraph",
+      "text": "(a) an error or omission by the person, the person’s agent, the Registrar or an employee;"
+    },
+    {
+      "content_hash": "sha256:5f8ee212d9c278a80e5c8c418e99df489b8dd6c93ce4fe3a447b02125a36b092",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r9.15A(4)",
+      "ref": "TMR1995/r9.15A(4)(b)",
+      "style": "paragraph",
+      "text": "(b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee."
+    }
+  ]
+}

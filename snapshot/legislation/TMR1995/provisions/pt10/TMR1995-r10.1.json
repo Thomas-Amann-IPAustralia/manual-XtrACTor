@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt10"
+  ],
+  "content_hash": "sha256:086b742c23deea1f6553aa8d3aa5d9cd81c2c4eb459e9ae31aa349acf612442d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "10.1  Applications for assignment etc to be recorded or entered"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "10.1",
+  "ref": "TMR1995/r10.1",
+  "text": "For the purposes of paragraphs 107(2)(b) and 109(2)(b) of the Act (which deal with assignment and transmission), the following documents are prescribed: (a) a document that establishes the title to a trade mark of the assignee, or of the person to whom the trade mark has been transmitted; (b) evidence in writing of consent of the Commission to the assignment of a certification trade mark.",
+  "title": "Applications for assignment etc to be recorded or entered",
+  "units": [
+    {
+      "content_hash": "sha256:ef814e1892e985e60083267c071cdeacd1356c790f8fbbb2097bddc3f1ea225a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s107(2)(b)",
+          "mention": "paragraphs 107(2)(b) and 109(2)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s109(2)(b)",
+          "mention": "paragraphs 107(2)(b) and 109(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r10.1~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraphs 107(2)(b) and 109(2)(b) of the Act (which deal with assignment and transmission), the following documents are prescribed:"
+    },
+    {
+      "content_hash": "sha256:0320aab08c6662c71e97d88957f8822b22fda354fb124e6277b325a40d048211",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r10.1~1",
+      "ref": "TMR1995/r10.1~1(a)",
+      "style": "paragraph",
+      "text": "(a) a document that establishes the title to a trade mark of the assignee, or of the person to whom the trade mark has been transmitted;"
+    },
+    {
+      "content_hash": "sha256:3426366e830f55817fc27a576075e2125b91822d82f8b310e5e9938eb229496d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r10.1~1",
+      "ref": "TMR1995/r10.1~1(b)",
+      "style": "paragraph",
+      "text": "(b) evidence in writing of consent of the Commission to the assignment of a certification trade mark."
+    }
+  ]
+}

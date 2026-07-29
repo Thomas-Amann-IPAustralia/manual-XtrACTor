@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:450bdf77042a1f95d070d0e5773b6511d2b6b6289d4422b5843c5a4eb7192c5d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.1  Action period"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.1",
+  "ref": "TMR1995/r13.1",
+  "text": "For the definition of action period in section 6 of the Act, the period is 10 working days.",
+  "title": "Action period",
+  "units": [
+    {
+      "content_hash": "sha256:450bdf77042a1f95d070d0e5773b6511d2b6b6289d4422b5843c5a4eb7192c5d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 35,
+          "start": 22,
+          "text": "action period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/r13.1~1",
+      "style": "subsection",
+      "text": "For the definition of action period in section 6 of the Act, the period is 10 working days."
+    }
+  ]
+}

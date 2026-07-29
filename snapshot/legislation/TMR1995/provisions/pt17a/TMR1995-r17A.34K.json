@@ -1,0 +1,195 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:1a5cdd1ee969d005d796ef4023be6c3fe029b1677a620d9bf8adf7d51540c445",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34K  Extension of time for filing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34K",
+  "ref": "TMR1995/r17A.34K",
+  "text": "(1) A party may request the Registrar to extend a period for filing evidence mentioned in regulation 17A.34J. (2) The Registrar may extend the period only if the Registrar is satisfied that: (a) the party: (i) has made all reasonable efforts to comply with all relevant filing requirements of this Subdivision; and (ii) despite acting promptly and diligently at all times to ensure the filing of the evidence within the period, is unable to do so; or (b) there are exceptional circumstances that justify the extension. (3) The Registrar: (a) must decide the length of the extended period having regard to what is reasonable in the circumstances; and (b) may do so on terms that the Registrar considers appropriate. (4) In this regulation: exceptional circumstances includes the following: (a) a circumstance beyond the control of a party that prevents the party from complying with a filing requirement under this Subdivision; (b) an error or omission by the Registrar or an employee that prevents a party from complying with a filing requirement under this Subdivision; (c) an order of a court or a direction by the Registrar that the opposition be stayed.",
+  "title": "Extension of time for filing",
+  "units": [
+    {
+      "content_hash": "sha256:4e62570b66d0484e04cd46db602a7a96f8214cb0b161d705187c1fc42c700b41",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J",
+          "mention": "regulation 17A.34J"
+        }
+      ],
+      "ref": "TMR1995/r17A.34K(1)",
+      "style": "subsection",
+      "text": "(1) A party may request the Registrar to extend a period for filing evidence mentioned in regulation 17A.34J."
+    },
+    {
+      "content_hash": "sha256:e42f436ca81290042b0e491803ef21c003cffaa5cefcf2908c5f58db35cdbc5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34K(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may extend the period only if the Registrar is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:9b4b86aad2f745123025b81842351232d2b4d6f013162159266b40e700493f09",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.34K(2)",
+      "ref": "TMR1995/r17A.34K(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the party:"
+    },
+    {
+      "content_hash": "sha256:42a06f3390d63461941d1e816881b80378a0d47f754a5bb59c38c6dfac8301bc",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.34K(2)(a)",
+      "ref": "TMR1995/r17A.34K(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) has made all reasonable efforts to comply with all relevant filing requirements of this Subdivision; and"
+    },
+    {
+      "content_hash": "sha256:725ccf129ef2f9591a620bed4550232cddb6690d37ffd20a780e91d7f4280f3b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.34K(2)(a)",
+      "ref": "TMR1995/r17A.34K(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) despite acting promptly and diligently at all times to ensure the filing of the evidence within the period, is unable to do so; or"
+    },
+    {
+      "content_hash": "sha256:df8473208787424a5c1e95038b11808b8095a494ab3c692a4e6fcb4613468ffe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.34K(2)",
+      "ref": "TMR1995/r17A.34K(2)(b)",
+      "style": "paragraph",
+      "text": "(b) there are exceptional circumstances that justify the extension."
+    },
+    {
+      "content_hash": "sha256:bd842e6d5af324291e8ac3dfb28b10332862cc54974a21dd1c0277bfef27270c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34K(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar:"
+    },
+    {
+      "content_hash": "sha256:bdfb2565261dc461ad7b8c4372313176afc5d0fa17de5f3c80ada08599d0a048",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.34K(3)",
+      "ref": "TMR1995/r17A.34K(3)(a)",
+      "style": "paragraph",
+      "text": "(a) must decide the length of the extended period having regard to what is reasonable in the circumstances; and"
+    },
+    {
+      "content_hash": "sha256:8c7ef9ec1cf36b9c604ff3c258c67d7d81737a14c3bb04d60dee7708edfba247",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.34K(3)",
+      "ref": "TMR1995/r17A.34K(3)(b)",
+      "style": "paragraph",
+      "text": "(b) may do so on terms that the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:4ba8086a7a7a666868fb546423bcb576e25ed5f0700cdeb9ac26d078e3aa4597",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34K(4)",
+      "style": "subsection",
+      "text": "(4) In this regulation:"
+    },
+    {
+      "content_hash": "sha256:5659efb3021f7f5ced54cdca4db1ed29e963c5180522a29bfddadff829e62f43",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 0,
+          "text": "exceptional circumstances",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34K~1",
+      "style": "Definition",
+      "text": "exceptional circumstances includes the following:"
+    },
+    {
+      "content_hash": "sha256:5511d497a472ee7f3ea10b6a3f85d850eebf9058d5833b6e21effbb83d95f687",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.34K~1",
+      "ref": "TMR1995/r17A.34K~1(a)",
+      "style": "paragraph",
+      "text": "(a) a circumstance beyond the control of a party that prevents the party from complying with a filing requirement under this Subdivision;"
+    },
+    {
+      "content_hash": "sha256:9004da32b8c9dcc922c984599403f16afbba6581425ebff620bbc604bfc3661e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.34K~1",
+      "ref": "TMR1995/r17A.34K~1(b)",
+      "style": "paragraph",
+      "text": "(b) an error or omission by the Registrar or an employee that prevents a party from complying with a filing requirement under this Subdivision;"
+    },
+    {
+      "content_hash": "sha256:227709c31f80853b83d52095ad04f450b1afecb7217b6af06192b498dfbfead6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.34K~1",
+      "ref": "TMR1995/r17A.34K~1(c)",
+      "style": "paragraph",
+      "text": "(c) an order of a court or a direction by the Registrar that the opposition be stayed."
+    }
+  ]
+}

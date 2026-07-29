@@ -1,0 +1,112 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:e5890f022f801570b1e4707d20d5bf9e6fd2f0979d69db43b4de6b840b2bf61d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "74  Disclaimers"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "74",
+  "ref": "TMA1995/s74",
+  "text": "(1) An applicant for the registration of a trade mark, or the registered owner of a registered trade mark, may, by notice in writing given to the Registrar, disclaim any exclusive right to use, or authorise the use of, a specified part of the trade mark. (2) The disclaimer affects only the rights given by this Act to the registered owner of the trade mark on registration of the trade mark. (3) The Registrar must, on registering the trade mark or on receiving notice of the disclaimer (whichever is later), enter the particulars of the disclaimer in the Register. (4) A disclaimer properly made may not be revoked. Note: For applicant, registered owner, registered trade mark and Register see section 6.",
+  "title": "Disclaimers",
+  "units": [
+    {
+      "content_hash": "sha256:a8694c14550c965880b1b3a8f15c9bd05b1c98f80578d70fe7439e3ac31b5ceb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s74(1)",
+      "style": "subsection",
+      "text": "(1) An applicant for the registration of a trade mark, or the registered owner of a registered trade mark, may, by notice in writing given to the Registrar, disclaim any exclusive right to use, or authorise the use of, a specified part of the trade mark."
+    },
+    {
+      "content_hash": "sha256:0c27044b76f8556b9de8ccb8366e9ad2696508c6cc89f96bc691ca258d072117",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s74(2)",
+      "style": "subsection",
+      "text": "(2) The disclaimer affects only the rights given by this Act to the registered owner of the trade mark on registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:7af317c81d01981b391643e7bc48c911a813dcd6f1075adb2700e56c27abe44d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s74(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must, on registering the trade mark or on receiving notice of the disclaimer (whichever is later), enter the particulars of the disclaimer in the Register."
+    },
+    {
+      "content_hash": "sha256:48dc154ae4e480dc846352472551a2d2bd08700a7d692bd4f17a100f8259e7ac",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s74(4)",
+      "style": "subsection",
+      "text": "(4) A disclaimer properly made may not be revoked."
+    },
+    {
+      "content_hash": "sha256:00ff9a5c3e8518c37bb0a652eadb3a80c6bb237c4987441fc201ae7a745b0ad5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 37,
+          "start": 21,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 60,
+          "start": 39,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 73,
+          "start": 65,
+          "text": "Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s74(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s74(4)~1",
+      "style": "notetext",
+      "text": "Note: For applicant, registered owner, registered trade mark and Register see section 6."
+    }
+  ]
+}

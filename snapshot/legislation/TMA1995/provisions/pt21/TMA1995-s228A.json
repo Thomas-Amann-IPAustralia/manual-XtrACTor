@@ -1,0 +1,417 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:17f061c63224a528141955b7c4e9b5a5046f10eb325cbf07075259c0c3605dd1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "228A  Registration of trade marks attorneys"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "228A",
+  "ref": "TMA1995/s228A",
+  "text": "(1) A Register of Trade Marks Attorneys is to be kept by the Designated Manager. Note: For Designated Manager see section 6. (2) The Register of Trade Marks Attorneys may be kept wholly or partly by use of a computer. (3) If the Register of Trade Marks Attorneys is kept wholly or partly by use of a computer, references in this Act to an entry in the Register of Trade Marks Attorneys are to be read as including references to a record of particulars kept by use of the computer and comprising the Register of Trade Marks Attorneys or part of the Register of Trade Marks Attorneys. Registration of individuals (4) The Designated Manager must register as a trade marks attorney an individual who: (a) holds such qualifications as are specified in, or ascertained in accordance with, the regulations; and (b) is of good fame, integrity and character; and (c) has not been convicted of a prescribed offence during the previous 5 years; and (d) is not under sentence of imprisonment for a prescribed offence; and (e) meets any other requirements prescribed by the regulations. The registration is to consist of entering the individual’s name in the Register of Trade Marks Attorneys. (5) A qualification specified in, or ascertained in accordance with, regulations made for the purposes of paragraph (4)(a) may consist of passing an examination conducted by the Board. This subsection does not limit paragraph (4)(a). Note: For Board see section 6. (6) Paragraphs (4)(c) and (d) do not limit paragraph (4)(b). Registration of companies (6A) The Designated Manager must register as a trade marks attorney a company that: (a) has at least one trade marks attorney director; and (b) has given the Designated Manager written notice in the approved form of its intention to act as a trade marks attorney; and (c) meets the requirements (if any) prescribed by the regulations. The registration is to consist of entering the company’s name in the Register of Trade Marks Attorneys. Note: For company and trade marks attorney director see section 6. (6B) A company registered as a trade marks attorney is an incorporated trade marks attorney. (6C) A trade marks attorney director of a company is an individual who is both: (a) a registered trade marks attorney; and (b) a validly appointed director of the company. (7) A person may apply to the Administrative Review Tribunal for review of a decision of the Designated Manager not to register the person as a trade marks attorney. (8) A reference in this section to conviction of an offence includes a reference to the making of an order under section 19B of the Crimes Act 1914, or a corresponding provision of a law of a State or a Territory, in relation to the offence.",
+  "title": "Registration of trade marks attorneys",
+  "units": [
+    {
+      "content_hash": "sha256:a3350709d43bbeed2935e36d478b07e33e411f3013388161ac9e649c2183a8d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(1)",
+      "style": "subsection",
+      "text": "(1) A Register of Trade Marks Attorneys is to be kept by the Designated Manager."
+    },
+    {
+      "content_hash": "sha256:e4073bd1232c744d12253ef390bdf1863cf01ee0530e2c0b5ffa13223d17f036",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 10,
+          "text": "Designated Manager",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s228A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s228A(1)~1",
+      "style": "notetext",
+      "text": "Note: For Designated Manager see section 6."
+    },
+    {
+      "content_hash": "sha256:1995208e650238d5523e268029d4ca88c15bb210d97a54218f2dbb3d6020f498",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(2)",
+      "style": "subsection",
+      "text": "(2) The Register of Trade Marks Attorneys may be kept wholly or partly by use of a computer."
+    },
+    {
+      "content_hash": "sha256:bead5b10196678030a9ff7eef46499f4115739dee08d086921bfd5ad268f84eb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(3)",
+      "style": "subsection",
+      "text": "(3) If the Register of Trade Marks Attorneys is kept wholly or partly by use of a computer, references in this Act to an entry in the Register of Trade Marks Attorneys are to be read as including references to a record of particulars kept by use of the computer and comprising the Register of Trade Marks Attorneys or part of the Register of Trade Marks Attorneys."
+    },
+    {
+      "content_hash": "sha256:f0052b07708c1bc1f3fe7ad8d65b80d4c4680c8748335e9f7ad33a88adefd56a",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A~1",
+      "style": "SubsectionHead",
+      "text": "Registration of individuals"
+    },
+    {
+      "content_hash": "sha256:1b9579218ad1417ee8ac6bf612923a55b713a24a1271d0ffc77372fc84180ed9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(4)",
+      "style": "subsection",
+      "text": "(4) The Designated Manager must register as a trade marks attorney an individual who:"
+    },
+    {
+      "content_hash": "sha256:332530208b0da21382a5776f50a24bf8ea49e594d3a90b781d7ae7756a4c24c0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s228A(4)",
+      "ref": "TMA1995/s228A(4)(a)",
+      "style": "paragraph",
+      "text": "(a) holds such qualifications as are specified in, or ascertained in accordance with, the regulations; and"
+    },
+    {
+      "content_hash": "sha256:b66e3c9794e059f61f9e4604c8bf192e3bf667b0e61303060a1985edb333a7fb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s228A(4)",
+      "ref": "TMA1995/s228A(4)(b)",
+      "style": "paragraph",
+      "text": "(b) is of good fame, integrity and character; and"
+    },
+    {
+      "content_hash": "sha256:c5dda544adf90cb4116f881ad46bb83acabee0b56489c715ccd6799d050a782d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s228A(4)",
+      "ref": "TMA1995/s228A(4)(c)",
+      "style": "paragraph",
+      "text": "(c) has not been convicted of a prescribed offence during the previous 5 years; and"
+    },
+    {
+      "content_hash": "sha256:98d9071ecae6e4138988db9ab9fe6c9bdb94db3433fcf4fa59bff34be6855b4e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s228A(4)",
+      "ref": "TMA1995/s228A(4)(d)",
+      "style": "paragraph",
+      "text": "(d) is not under sentence of imprisonment for a prescribed offence; and"
+    },
+    {
+      "content_hash": "sha256:b8ff278047791f6fe5ba1f28cd6c1b94495707d91778886a27191510acbcac7b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s228A(4)",
+      "ref": "TMA1995/s228A(4)(e)",
+      "style": "paragraph",
+      "text": "(e) meets any other requirements prescribed by the regulations."
+    },
+    {
+      "content_hash": "sha256:5f80c9298df2e49581300d2f4d8dbd6cf7aa5a5129c5c0bf1d49b794409120a8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A~2",
+      "style": "subsection2",
+      "text": "The registration is to consist of entering the individual’s name in the Register of Trade Marks Attorneys."
+    },
+    {
+      "content_hash": "sha256:b4eef43da4d230c7eac24d28aab47027b252bbb3e0f2dc26deafb1a2a20bc907",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(5)",
+      "style": "subsection",
+      "text": "(5) A qualification specified in, or ascertained in accordance with, regulations made for the purposes of paragraph (4)(a) may consist of passing an examination conducted by the Board. This subsection does not limit paragraph (4)(a)."
+    },
+    {
+      "content_hash": "sha256:124fde31d91a32242024bbe3dd5673845df11c158f2d8f79dc90076b0116dc5b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "Board",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s228A(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s228A(5)~1",
+      "style": "notetext",
+      "text": "Note: For Board see section 6."
+    },
+    {
+      "content_hash": "sha256:4194bb22e0a6efa0604c6ddbfb4eb91727f67a3340811f63124b8c34b8b9fbf9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(6)",
+      "style": "subsection",
+      "text": "(6) Paragraphs (4)(c) and (d) do not limit paragraph (4)(b)."
+    },
+    {
+      "content_hash": "sha256:2169c012b06ab9ad9fcbba6cc4353360b32abb47b34f8f10463a3bf872db9214",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A~3",
+      "style": "SubsectionHead",
+      "text": "Registration of companies"
+    },
+    {
+      "content_hash": "sha256:cc5bef2a4398d43dcefbedb6fbce0eb4df0da8677591e1dc4138d568696855ce",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6A)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(6A)",
+      "style": "subsection",
+      "text": "(6A) The Designated Manager must register as a trade marks attorney a company that:"
+    },
+    {
+      "content_hash": "sha256:a89bed6c2f330aee4c13f84659630d5cc71d062f5d9d684acec6e2d8df424f84",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s228A(6A)",
+      "ref": "TMA1995/s228A(6A)(a)",
+      "style": "paragraph",
+      "text": "(a) has at least one trade marks attorney director; and"
+    },
+    {
+      "content_hash": "sha256:5012bb84a201b3c7bfbf1cecddc24d8145b0678786004f42389f5ed30dce26b1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s228A(6A)",
+      "ref": "TMA1995/s228A(6A)(b)",
+      "style": "paragraph",
+      "text": "(b) has given the Designated Manager written notice in the approved form of its intention to act as a trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:aba508d28043836ff4471307cc0e7157dd3cb787c801953471cf8328ecef93e6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s228A(6A)",
+      "ref": "TMA1995/s228A(6A)(c)",
+      "style": "paragraph",
+      "text": "(c) meets the requirements (if any) prescribed by the regulations."
+    },
+    {
+      "content_hash": "sha256:0a9eddf3ca3051759a7be0c5a73c9a95d61fa04d10ed0bfe381718b87f81cf4d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A~4",
+      "style": "subsection2",
+      "text": "The registration is to consist of entering the company’s name in the Register of Trade Marks Attorneys."
+    },
+    {
+      "content_hash": "sha256:8e13a37f94e3d20927444ebc93d98fb90b192658bf8717f98c323c67bfbc1fd5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "company",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 51,
+          "start": 22,
+          "text": "trade marks attorney director",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s228A~4",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s228A~4~1",
+      "style": "notetext",
+      "text": "Note: For company and trade marks attorney director see section 6."
+    },
+    {
+      "content_hash": "sha256:8aae8fe962a72e66c9c749026d6e8ca607c32a34adf1be128be3f5123604ba9f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 91,
+          "start": 58,
+          "text": "incorporated trade marks attorney",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(6B)",
+      "ordinal": 23,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(6B)",
+      "style": "subsection",
+      "text": "(6B) A company registered as a trade marks attorney is an incorporated trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:c123fee1a74714464d68d73f3ced7e53e561c56f1e8f0398bca5cc481b066dbb",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 36,
+          "start": 7,
+          "text": "trade marks attorney director",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(6C)",
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(6C)",
+      "style": "subsection",
+      "text": "(6C) A trade marks attorney director of a company is an individual who is both:"
+    },
+    {
+      "content_hash": "sha256:c8204be3084491802dc1d401f70c8e070bc9c845987ca70d402422a9afa26d78",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s228A(6C)",
+      "ref": "TMA1995/s228A(6C)(a)",
+      "style": "paragraph",
+      "text": "(a) a registered trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:679992b706a6ef9a829bffc0b0433ecd1cacf4fa3b600520e7824b856873a129",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 26,
+      "parent_ref": "TMA1995/s228A(6C)",
+      "ref": "TMA1995/s228A(6C)(b)",
+      "style": "paragraph",
+      "text": "(b) a validly appointed director of the company."
+    },
+    {
+      "content_hash": "sha256:f7b417c824dc6cc914bb35c266c139a5a5d1cee1eca4b89bd6eeba80c21d280d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 27,
+      "parent_ref": null,
+      "ref": "TMA1995/s228A(7)",
+      "style": "subsection",
+      "text": "(7) A person may apply to the Administrative Review Tribunal for review of a decision of the Designated Manager not to register the person as a trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:8ce455f6af2833f45c11f7e9058ca1cd4b3878780d2967062de2305743de6233",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 147,
+          "start": 132,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(8)",
+      "ordinal": 28,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s19B",
+          "mention": "section 19B"
+        }
+      ],
+      "ref": "TMA1995/s228A(8)",
+      "style": "subsection",
+      "text": "(8) A reference in this section to conviction of an offence includes a reference to the making of an order under section 19B of the Crimes Act 1914, or a corresponding provision of a law of a State or a Territory, in relation to the offence."
+    }
+  ]
+}

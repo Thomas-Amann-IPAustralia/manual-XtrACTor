@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:c993b5414f0ee7b9b8a74d6c35a6b2f1e454bb79c34451599c42f9bb23620644",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "23  Limitation on rights if similar trade marks etc. registered by different persons"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "23",
+  "ref": "TMA1995/s23",
+  "text": "If trade marks that are substantially identical or deceptively similar have been registered by more than one person (whether in respect of the same or different goods or services), the registered owner of any one of those trade marks does not have the right to prevent the registered owner of any other of those trade marks from using that trade mark except to the extent that the firstmentioned owner is authorised to do so under the registration of his or her trade mark. Note: For deceptively similar see section 10.",
+  "title": "Limitation on rights if similar trade marks etc. registered by different persons",
+  "units": [
+    {
+      "content_hash": "sha256:262692c0cc15d256559207973a8c120b6e7c4d60b30349c1f55081b8bc03647e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s23~1",
+      "style": "subsection",
+      "text": "If trade marks that are substantially identical or deceptively similar have been registered by more than one person (whether in respect of the same or different goods or services), the registered owner of any one of those trade marks does not have the right to prevent the registered owner of any other of those trade marks from using that trade mark except to the extent that the firstmentioned owner is authorised to do so under the registration of his or her trade mark."
+    },
+    {
+      "content_hash": "sha256:537418b6b46fbb13715796df377b37f0c06f46be0c58f068a8dfcc1774f56b30",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 29,
+          "start": 10,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s23~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s23~1~1",
+      "style": "notetext",
+      "text": "Note: For deceptively similar see section 10."
+    }
+  ]
+}

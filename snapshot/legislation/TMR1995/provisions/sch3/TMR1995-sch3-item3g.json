@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/sch3"
+  ],
+  "content_hash": "sha256:259b7e3c177f985404410a073a695b292be18a91fb26074b88a492a35bbfbb1f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 3—Modifications of Part 13 of the Act (Norfolk Island)",
+    "3G  Section 136E (note)"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "3G",
+  "ref": "TMR1995/sch3/item3g",
+  "text": "Repeal the note, substitute: Note 1: For designated owner see section 131A. Note 2: For seized goods see section 6.",
+  "title": "Section 136E (note)",
+  "units": [
+    {
+      "content_hash": "sha256:4d5864317d3976e23f9f1df8d49c8a5d34ceba35a44dd4616eebee758eb75d9f",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item3g~1",
+      "style": "Item",
+      "text": "Repeal the note, substitute:"
+    },
+    {
+      "content_hash": "sha256:f09c94a2cd5cfa6a35320e865a063677740977f53f2c7d5ff10ff60a2c69c530",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/sch3/item3g~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s131A",
+          "mention": "section 131A"
+        }
+      ],
+      "ref": "TMR1995/sch3/item3g~1~1",
+      "style": "notetext",
+      "text": "Note 1: For designated owner see section 131A."
+    },
+    {
+      "content_hash": "sha256:30654dd4db09dae830f66475d5c3cfbf5c4846b35323749237f536c192edeca7",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 12,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMR1995/sch3/item3g~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/sch3/item3g~1~2",
+      "style": "notetext",
+      "text": "Note 2: For seized goods see section 6."
+    }
+  ]
+}

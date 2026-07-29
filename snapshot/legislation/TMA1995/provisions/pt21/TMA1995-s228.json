@@ -1,0 +1,171 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:33b0979a5b3e1fe859bc1fd9a9268b35901cb664c7ec595b18add4dbf9afdf4e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "228  Use of trade mark for export trade"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "228",
+  "ref": "TMA1995/s228",
+  "text": "(1) If: (a) a trade mark is applied in Australia: (i) to, or in relation to goods that are to be exported from Australia (export goods); or (ii) in relation to services that are to be exported from Australia (export services); or (b) any other act is done in Australia to export goods or export services which, if done in relation to goods or services to be dealt with or provided in the course of trade in Australia, would constitute a use of the trade mark in Australia; the application of the trade mark or the other act is taken, for the purposes of this Act, to constitute use of the trade mark in relation to the export goods or export services. Note: For applied to or in relation to goods and applied in relation to services see section 9. (2) Subsection (1) applies to an act done before 1 January 1996 as it applies to an act done on or after that day, but it does not affect: (a) a decision of a court made before that day; or (b) the determination of an appeal from such a decision.",
+  "title": "Use of trade mark for export trade",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s228(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:9e9ff85ca0cd52a199b9eaf5e7e0cd5643586a70b7d23e4fedfb4db98a121d6f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s228(1)",
+      "ref": "TMA1995/s228(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark is applied in Australia:"
+    },
+    {
+      "content_hash": "sha256:4b75f39d0c6f0a0f770728e52c21e0456945df0e480e9c5ad1bac3b0db169f0d",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 72,
+          "text": "export goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s228(1)(a)",
+      "ref": "TMA1995/s228(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to, or in relation to goods that are to be exported from Australia (export goods); or"
+    },
+    {
+      "content_hash": "sha256:c578c11e616851220d8212532d8485fc2be0d256238b7b80e6424fc299c30308",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 69,
+          "text": "export services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s228(1)(a)",
+      "ref": "TMA1995/s228(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) in relation to services that are to be exported from Australia (export services); or"
+    },
+    {
+      "content_hash": "sha256:ce655e7902891fe01bfe5df279f3645ebfedad9d715e20ea44bd665837f1fb93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s228(1)",
+      "ref": "TMA1995/s228(1)(b)",
+      "style": "paragraph",
+      "text": "(b) any other act is done in Australia to export goods or export services which, if done in relation to goods or services to be dealt with or provided in the course of trade in Australia, would constitute a use of the trade mark in Australia;"
+    },
+    {
+      "content_hash": "sha256:75d207b801e9080ee707bbb15f986145b6742a68d7a1f0b26ecaa5d2a5bd87e5",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s228~1",
+      "style": "subsection2",
+      "text": "the application of the trade mark or the other act is taken, for the purposes of this Act, to constitute use of the trade mark in relation to the export goods or export services."
+    },
+    {
+      "content_hash": "sha256:36af5abadbc25b095d87682288444f42ee78fd3f55f70343e894987bcfa964d7",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 44,
+          "start": 10,
+          "text": "applied to or in relation to goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 80,
+          "start": 49,
+          "text": "applied in relation to services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s228~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s9",
+          "mention": "section 9"
+        }
+      ],
+      "ref": "TMA1995/s228~1~1",
+      "style": "notetext",
+      "text": "Note: For applied to or in relation to goods and applied in relation to services see section 9."
+    },
+    {
+      "content_hash": "sha256:271e511c11df6a3d88ab3dfb1d05d3c015e2c10ba84ea03f136a34f1087bcbbb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s228(2)",
+      "style": "subsection",
+      "text": "(2) Subsection (1) applies to an act done before 1 January 1996 as it applies to an act done on or after that day, but it does not affect:"
+    },
+    {
+      "content_hash": "sha256:4b5ae7c2bddcaa44522c2ec780f23b67a14f9f4ff574c614c21f1287e35b9873",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s228(2)",
+      "ref": "TMA1995/s228(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a decision of a court made before that day; or"
+    },
+    {
+      "content_hash": "sha256:b600d7091d50331b7ed82472a556a9ac41a2f12dfdf3549807ab0bb64438a4c5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s228(2)",
+      "ref": "TMA1995/s228(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the determination of an appeal from such a decision."
+    }
+  ]
+}

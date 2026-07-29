@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:423d4c458887dddd2791da628cb1b3b53f49cec70ace8042f35d4c6998fc7479",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "103  Registrar to comply with order of court"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "103",
+  "ref": "TMA1995/s103",
+  "text": "A court making an order under section 101 or 102 must cause a copy of the order to be served on the Registrar and the Registrar must comply with the order.",
+  "title": "Registrar to comply with order of court",
+  "units": [
+    {
+      "content_hash": "sha256:423d4c458887dddd2791da628cb1b3b53f49cec70ace8042f35d4c6998fc7479",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s101",
+          "mention": "section 101 or 102"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s102",
+          "mention": "section 101 or 102"
+        }
+      ],
+      "ref": "TMA1995/s103~1",
+      "style": "subsection",
+      "text": "A court making an order under section 101 or 102 must cause a copy of the order to be served on the Registrar and the Registrar must comply with the order."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div2"
+  ],
+  "content_hash": "sha256:d773c3e7dbd7a31ecaea7e73c57f760b2b86346c6ff576b9efa9fbe29b4adb62",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 2—Grounds for rejecting an application",
+    "41  Trade mark not distinguishing applicant’s goods or services"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "41",
+  "ref": "TMA1995/s41",
+  "text": "(1) An application for the registration of a trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s goods or services in respect of which the trade mark is sought to be registered (the designated goods or services) from the goods or services of other persons. Note: For goods of a person and services of a person see section 6. (2) A trade mark is taken not to be capable of distinguishing the designated goods or services from the goods or services of other persons only if either subsection (3) or (4) applies to the trade mark. (3) This subsection applies to a trade mark if: (a) the trade mark is not to any extent inherently adapted to distinguish the designated goods or services from the goods or services of other persons; and (b) the applicant has not used the trade mark before the filing date in respect of the application to such an extent that the trade mark does in fact distinguish the designated goods or services as being those of the applicant. (4) This subsection applies to a trade mark if: (a) the trade mark is, to some extent, but not sufficiently, inherently adapted to distinguish the designated goods or services from the goods or services of other persons; and (b) the trade mark does not and will not distinguish the designated goods or services as being those of the applicant having regard to the combined effect of the following: (i) the extent to which the trade mark is inherently adapted to distinguish the goods or services from the goods or services of other persons; (ii) the use, or intended use, of the trade mark by the applicant; (iii) any other circumstances. Note 1: Trade marks that are not inherently adapted to distinguish goods or services are mostly trade marks that consist wholly of a sign that is ordinarily used to indicate: (a) the kind, quality, quantity, intended purpose, value, geographical origin, or some other characteristic, of goods or services; or (b) the time of production of goods or of the rendering of services. Note 2: For goods of a person and services of a person see section 6. Note 3: Use of a trade mark by a predecessor in title of an applicant and an authorised use of a trade mark by another person are each taken to be use of the trade mark by the applicant (see subsections (5) and 7(3) and section 8). (5) For the purposes of this section, the use of a trade mark by a predecessor in title of an applicant for the registration of the trade mark is taken to be a use of the trade mark by the applicant. Note 1: For applicant and predecessor in title see section 6. Note 2: If a predecessor in title had authorised another person to use the trade mark, any authorised use of the trade mark by the other person is taken to be a use of the trade mark by the predecessor in title (see subsection 7(3) and section 8).",
+  "title": "Trade mark not distinguishing applicant’s goods or services",
+  "units": [
+    {
+      "content_hash": "sha256:42edf378286a04aacd5a7217202c4fb2c177bfc1d5bd612770ee17c4880ac34a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 253,
+          "start": 225,
+          "text": "designated goods or services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s41(1)",
+      "style": "subsection",
+      "text": "(1) An application for the registration of a trade mark must be rejected if the trade mark is not capable of distinguishing the applicant’s goods or services in respect of which the trade mark is sought to be registered (the designated goods or services) from the goods or services of other persons."
+    },
+    {
+      "content_hash": "sha256:f4ed97b0946a049130af49b167bf58b72bef6f5f219154723f0fcf4e6eaf954d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 10,
+          "text": "goods of a person",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 32,
+          "text": "services of a person",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s41(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s41(1)~1",
+      "style": "notetext",
+      "text": "Note: For goods of a person and services of a person see section 6."
+    },
+    {
+      "content_hash": "sha256:73b419ef5ac321ac86a6a7ddeb7cab3efbe54952013cbe479a0de9756c25c1de",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s41(2)",
+      "style": "subsection",
+      "text": "(2) A trade mark is taken not to be capable of distinguishing the designated goods or services from the goods or services of other persons only if either subsection (3) or (4) applies to the trade mark."
+    },
+    {
+      "content_hash": "sha256:48904844d1e5ed90a77992727ff78209bd126de4c14f6fa6b4f0ef8dfb28c2a9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s41(3)",
+      "style": "subsection",
+      "text": "(3) This subsection applies to a trade mark if:"
+    },
+    {
+      "content_hash": "sha256:76241011c8a8aea35c61bdeda3214d427c829977a9b8826f3448f26ead4ec629",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s41(3)",
+      "ref": "TMA1995/s41(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark is not to any extent inherently adapted to distinguish the designated goods or services from the goods or services of other persons; and"
+    },
+    {
+      "content_hash": "sha256:a12916424e0f0382bf0700dbbd63a39f5fe5ceaf8f36592dff6fa1e4acddfa8e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s41(3)",
+      "ref": "TMA1995/s41(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant has not used the trade mark before the filing date in respect of the application to such an extent that the trade mark does in fact distinguish the designated goods or services as being those of the applicant."
+    },
+    {
+      "content_hash": "sha256:8b656a68f583151cbe7df3a69c46c63cbdce4975127544744834633d08f8da7b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s41(4)",
+      "style": "subsection",
+      "text": "(4) This subsection applies to a trade mark if:"
+    },
+    {
+      "content_hash": "sha256:d57518cca8fd35a5b8d3980d85df43948532fc28b0af0fbd5f75007b0836ebde",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s41(4)",
+      "ref": "TMA1995/s41(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark is, to some extent, but not sufficiently, inherently adapted to distinguish the designated goods or services from the goods or services of other persons; and"
+    },
+    {
+      "content_hash": "sha256:555681a7276c9e1199f72d2b1f5fe2dcfa01b4b90a78b326fd3e1e356870bb09",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s41(4)",
+      "ref": "TMA1995/s41(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the trade mark does not and will not distinguish the designated goods or services as being those of the applicant having regard to the combined effect of the following:"
+    },
+    {
+      "content_hash": "sha256:78fddb0ab3979454b0517be5e428fd9658fa7330cf598a9d6abdfe13b7fb5091",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s41(4)(b)",
+      "ref": "TMA1995/s41(4)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the extent to which the trade mark is inherently adapted to distinguish the goods or services from the goods or services of other persons;"
+    },
+    {
+      "content_hash": "sha256:561732b2a05f06c88a901f3b83b19d734a301aadb5029cc69f1a8ea74a692624",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s41(4)(b)",
+      "ref": "TMA1995/s41(4)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the use, or intended use, of the trade mark by the applicant;"
+    },
+    {
+      "content_hash": "sha256:57f8b0e8c8487d59125934371d108f05ec8ca1ce3ebab40598eed7178a277f23",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s41(4)(b)",
+      "ref": "TMA1995/s41(4)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) any other circumstances."
+    },
+    {
+      "content_hash": "sha256:3cc9e3129f93107ce0ae91cc9ca8275c2a150ae5872731689308d1465fe3e2be",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s41(4)(b)(iii)",
+      "ref": "TMA1995/s41(4)(b)(iii)~1",
+      "style": "notetext",
+      "text": "Note 1: Trade marks that are not inherently adapted to distinguish goods or services are mostly trade marks that consist wholly of a sign that is ordinarily used to indicate:"
+    },
+    {
+      "content_hash": "sha256:f4ab32f02abfb88e708d404b43cb8249ef5822832989a3b568a97dd98fb33339",
+      "depth": 4,
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s41(4)(b)(iii)~1",
+      "ref": "TMA1995/s41(4)(b)(iii)~1~1",
+      "style": "notepara",
+      "text": "(a) the kind, quality, quantity, intended purpose, value, geographical origin, or some other characteristic, of goods or services; or"
+    },
+    {
+      "content_hash": "sha256:06cc322c325fa7772f20f38c288f075d97210c7ad0e33a8328a36d0458199aa0",
+      "depth": 4,
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s41(4)(b)(iii)~1",
+      "ref": "TMA1995/s41(4)(b)(iii)~1~2",
+      "style": "notepara",
+      "text": "(b) the time of production of goods or of the rendering of services."
+    },
+    {
+      "content_hash": "sha256:0d6ccb9b41e83698c343226f21fa535fa843b9e48fe521cdf213b034cb5bb80a",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 29,
+          "start": 12,
+          "text": "goods of a person",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 54,
+          "start": 34,
+          "text": "services of a person",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s41(4)(b)(iii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s41(4)(b)(iii)~2",
+      "style": "notetext",
+      "text": "Note 2: For goods of a person and services of a person see section 6."
+    },
+    {
+      "content_hash": "sha256:f10afca72a1c5f25f8ddb44d860c82451d75e786238a20e0b93820e61c5b841f",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s41(4)(b)(iii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s41(4)(b)(iii)~3",
+      "style": "notetext",
+      "text": "Note 3: Use of a trade mark by a predecessor in title of an applicant and an authorised use of a trade mark by another person are each taken to be use of the trade mark by the applicant (see subsections (5) and 7(3) and section 8)."
+    },
+    {
+      "content_hash": "sha256:b91a28293b2c879c780d7777a8bd8d87ee16227262ed0e31223d4168d6f28eec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s41(5)",
+      "style": "subsection",
+      "text": "(5) For the purposes of this section, the use of a trade mark by a predecessor in title of an applicant for the registration of the trade mark is taken to be a use of the trade mark by the applicant."
+    },
+    {
+      "content_hash": "sha256:02107a300a22cd6724f2d3d7035c636d3b23c9582caa38a980d532f888fd5641",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 12,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 46,
+          "start": 26,
+          "text": "predecessor in title",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s41(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s41(5)~1",
+      "style": "notetext",
+      "text": "Note 1: For applicant and predecessor in title see section 6."
+    },
+    {
+      "content_hash": "sha256:86e890ec424931e7d09365ac26789ff4478bf842908c7a61a39a999697ec38c1",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s41(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s41(5)~2",
+      "style": "notetext",
+      "text": "Note 2: If a predecessor in title had authorised another person to use the trade mark, any authorised use of the trade mark by the other person is taken to be a use of the trade mark by the predecessor in title (see subsection 7(3) and section 8)."
+    }
+  ]
+}

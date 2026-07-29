@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div3"
+  ],
+  "content_hash": "sha256:81b4ec2d2ded1fcf38b539aa29b04db44b7f9317437b6228c050fd460b7f4699",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "7.6  Prescribed period (Act s 80A(3))"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.6",
+  "ref": "TMR1995/r7.6",
+  "text": "For subsection 80A(3) of the Act, the prescribed period is 2 months. Note: Paragraph 80A(3)(b) of the Act provides that the prescribed period commences on the Register entry day.",
+  "title": "Prescribed period (Act s 80A(3))",
+  "units": [
+    {
+      "content_hash": "sha256:f1d83aec2553e69fab195d0cdfaff4720c15d0d92699f4ddfebeb74b7f7f60fe",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80A(3)",
+          "mention": "subsection 80A(3)"
+        }
+      ],
+      "ref": "TMR1995/r7.6~1",
+      "style": "subsection",
+      "text": "For subsection 80A(3) of the Act, the prescribed period is 2 months."
+    },
+    {
+      "content_hash": "sha256:2bc4e84e27319ee032d17bdc6f352893dd7c4d6d4408cea997b2d6a282e41bcf",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r7.6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80A(3)(b)",
+          "mention": "Paragraph 80A(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/r7.6~1~1",
+      "style": "notetext",
+      "text": "Note: Paragraph 80A(3)(b) of the Act provides that the prescribed period commences on the Register entry day."
+    }
+  ]
+}

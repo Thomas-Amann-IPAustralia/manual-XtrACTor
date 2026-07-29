@@ -1,0 +1,672 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv4"
+  ],
+  "content_hash": "sha256:35e8448729414824c467c511170f9b6c598bf30bc16669a3c817dabc47522fc1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 4—Extension of protection",
+    "17A.36  When trade mark becomes a protected international trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.36",
+  "ref": "TMR1995/r17A.36",
+  "text": "(1) In this regulation: appeal period, in relation to an opposition decision, means the period within which an appeal from the decision can be made under regulation 17A.34P, not including any extension of the period that the court may allow in a particular case. (2) If: (a) the Registrar accepts an IRDA; and (b) either: (i) no notice of intention to oppose is filed within the period (the relevant period) allowed under subregulation 17A.33(1) or that period as extended; or (ii) a notice of intention to oppose is filed within the period allowed under subregulation 17A.33(1) or that period as extended but no statement of grounds and particulars is filed within the period (the relevant period) allowed under subregulation 17A.34A(1) or that period as extended; the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the relevant period or that period as extended, as the case requires. However, this subregulation has effect subject to subregulation (2AA). (2AA) If: (a) subparagraph (2)(b)(i) or (ii) applies and before the end of the relevant period or that period as extended, the Registrar notifies the holder of the IRDA of the Registrar’s intention to revoke the acceptance of the IRDA; and (b) at the end of the relevant period or that period as extended, the Registrar has not made a decision whether or not to revoke the acceptance of the IRDA; then: (c) the trade mark that is the subject of the IRDA does not become a protected international trade mark at the end of the relevant period or that period as extended; and (d) if, after the end of the relevant period or that period as extended, the Registrar makes a decision to not revoke the acceptance of the IRDA—the trade mark that is the subject of the IRDA becomes a protected international trade mark when that decision is made. Note: If the Registrar makes a decision to revoke the acceptance of the IRDA, the IRDA is taken never to have been accepted: see subregulation 17A.27(2). (2A) If: (a) the Registrar accepts an IRDA; and (b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and (c) the opposition has been dismissed or withdrawn; the trade mark that is the subject of the IRDA becomes a protected international trade mark after the opposition has been dismissed or withdrawn. (3) If: (a) the Registrar accepts an IRDA; and (b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and (c) the result of the decision on the opposition is that the trade mark that is the subject of the IRDA should be protected in Australia; and (d) no appeal from the decision on the opposition is made within the appeal period; then, subject to subregulation (4), the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, at the end of the appeal period. (3A) If: (a) the Registrar accepts an IRDA; and (b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and (c) an appeal is made from the decision on the opposition within the appeal period, or any extension of that period; and (d) the appeal has been dismissed or withdrawn; the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, after the appeal has been dismissed or withdrawn. (4) If: (a) the Registrar accepts an IRDA; and (b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and (c) an appeal is made from the decision on the opposition within the appeal period, or any extension of that period; and (d) the decision on the appeal is that the trade mark that is the subject of the IRDA should be protected in Australia; the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the appeal, when that decision is made. (5) If, at the end of 18 months after the Registrar was notified of an IRDA, the International Bureau has not received: (a) a notification under subregulation 17A.16(1), 17A.25(2) or 17A.32(2); or (b) a notification of the possibility that oppositions may be filed after the 18month period; in respect of the IRDA, the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 18month period. (6) If: (a) within 18 months after the Registrar was notified of an IRDA, the International Bureau receives notification of the possibility that oppositions may be filed after the 18month period; and (b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and (c) the International Bureau does not receive notification under subregulation 17A.32(2) within 7 months after the opposition period begins; the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 7month period.",
+  "title": "When trade mark becomes a protected international trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:c0447edfac33f2239cf9a60e09509ea3212af7ec31d50c10798d6017dd449bfc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(1)",
+      "style": "subsection",
+      "text": "(1) In this regulation:"
+    },
+    {
+      "content_hash": "sha256:14cecccd94695936e9596d4392ab6aaea196948107f8350e8578853bbdabfa83",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 13,
+          "start": 0,
+          "text": "appeal period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34P",
+          "mention": "regulation 17A.34P"
+        }
+      ],
+      "ref": "TMR1995/r17A.36~1",
+      "style": "Definition",
+      "text": "appeal period, in relation to an opposition decision, means the period within which an appeal from the decision can be made under regulation 17A.34P, not including any extension of the period that the court may allow in a particular case."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:7a5d6cc8cbe7887ab7db6e70d9754ef6234d64209acc24dda4ebca2cd5747ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.36(2)",
+      "ref": "TMR1995/r17A.36(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar accepts an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.36(2)",
+      "ref": "TMR1995/r17A.36(2)(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:19378f8abf7d0b4db9f07f8a6b4a4d713e65338e8482cacfcf371b87aca53bac",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 69,
+          "text": "relevant period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.36(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33(1)",
+          "mention": "subregulation 17A.33(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) no notice of intention to oppose is filed within the period (the relevant period) allowed under subregulation 17A.33(1) or that period as extended; or"
+    },
+    {
+      "content_hash": "sha256:025d2e00c1d6c0a1d69cf4328959c29cb62f2fc8d87a5fbfc86d2823e9014681",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 220,
+          "start": 205,
+          "text": "relevant period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.36(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33(1)",
+          "mention": "subregulation 17A.33(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34A(1)",
+          "mention": "subregulation 17A.34A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a notice of intention to oppose is filed within the period allowed under subregulation 17A.33(1) or that period as extended but no statement of grounds and particulars is filed within the period (the relevant period) allowed under subregulation 17A.34A(1) or that period as extended;"
+    },
+    {
+      "content_hash": "sha256:7dfcd119d5cb705f201802e010b4a5655bdfa46805cd05cb84ca3244d304f023",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~2",
+      "style": "subsection2",
+      "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the relevant period or that period as extended, as the case requires. However, this subregulation has effect subject to subregulation (2AA)."
+    },
+    {
+      "content_hash": "sha256:612596ca695b6eed143a3e94a65998e7507dcf261d7bc7bf692b4d1a81b9a731",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2AA)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(2AA)",
+      "style": "subsection",
+      "text": "(2AA) If:"
+    },
+    {
+      "content_hash": "sha256:9462d2e66ead379be64ddcba9621f1ff2665b9420af9716ec607ac03a040b254",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.36(2AA)",
+      "ref": "TMR1995/r17A.36(2AA)(a)",
+      "style": "paragraph",
+      "text": "(a) subparagraph (2)(b)(i) or (ii) applies and before the end of the relevant period or that period as extended, the Registrar notifies the holder of the IRDA of the Registrar’s intention to revoke the acceptance of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:236e360202a0e79cfa515b611e5121e742c9fed571dcffbda893c905c27857f6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.36(2AA)",
+      "ref": "TMR1995/r17A.36(2AA)(b)",
+      "style": "paragraph",
+      "text": "(b) at the end of the relevant period or that period as extended, the Registrar has not made a decision whether or not to revoke the acceptance of the IRDA;"
+    },
+    {
+      "content_hash": "sha256:3d07e6c3c10497481107bd9525d6d73a2a4d7402ee8b0f0a6e9e4b02f27096a9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~3",
+      "style": "subsection2",
+      "text": "then:"
+    },
+    {
+      "content_hash": "sha256:cea7a310b156214dc8eed9ec92d32df886e21f9041582012ccee6ded3a4be3aa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.36~3",
+      "ref": "TMR1995/r17A.36~3(c)",
+      "style": "paragraph",
+      "text": "(c) the trade mark that is the subject of the IRDA does not become a protected international trade mark at the end of the relevant period or that period as extended; and"
+    },
+    {
+      "content_hash": "sha256:b10441a77efde9de8e557167c356311bc2d48dc30f2d92b6be4b60bea455bac1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.36~3",
+      "ref": "TMR1995/r17A.36~3(d)",
+      "style": "paragraph",
+      "text": "(d) if, after the end of the relevant period or that period as extended, the Registrar makes a decision to not revoke the acceptance of the IRDA—the trade mark that is the subject of the IRDA becomes a protected international trade mark when that decision is made."
+    },
+    {
+      "content_hash": "sha256:8e741a9d0c0cd77d1b8c839213aaf6273029fbfabd2ce544fef8a78fb045002b",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r17A.36~3(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.27(2)",
+          "mention": "subregulation 17A.27(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36~3(d)~1",
+      "style": "notetext",
+      "text": "Note: If the Registrar makes a decision to revoke the acceptance of the IRDA, the IRDA is taken never to have been accepted: see subregulation 17A.27(2)."
+    },
+    {
+      "content_hash": "sha256:b989f12e924e55184cd49b4fa854db07812c4f5587e29129818fc03afc79753c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(2A)",
+      "style": "subsection",
+      "text": "(2A) If:"
+    },
+    {
+      "content_hash": "sha256:7a5d6cc8cbe7887ab7db6e70d9754ef6234d64209acc24dda4ebca2cd5747ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r17A.36(2A)",
+      "ref": "TMR1995/r17A.36(2A)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar accepts an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:655434e9363f0a8ff5eaef2fc1e237d5cc1a33aa2588483b8e16e9fd84b6ea7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r17A.36(2A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(2A)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and"
+    },
+    {
+      "content_hash": "sha256:ec4848e4668ecc1fbb229f90c6a29746d252a0589ae2792bfbd9646777a4460f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r17A.36(2A)",
+      "ref": "TMR1995/r17A.36(2A)(c)",
+      "style": "paragraph",
+      "text": "(c) the opposition has been dismissed or withdrawn;"
+    },
+    {
+      "content_hash": "sha256:426e0a6cb9fc5f7ca1f47f4dbdd6b030d1ad7480dcff1c7d06444383349b6bf0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~4",
+      "style": "subsection2",
+      "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark after the opposition has been dismissed or withdrawn."
+    },
+    {
+      "content_hash": "sha256:24e675c10bea93c07af4426fdb5f111d52d0c73a1faf42284f832d7b2f6ff252",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(3)",
+      "style": "subsection",
+      "text": "(3) If:"
+    },
+    {
+      "content_hash": "sha256:7a5d6cc8cbe7887ab7db6e70d9754ef6234d64209acc24dda4ebca2cd5747ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r17A.36(3)",
+      "ref": "TMR1995/r17A.36(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar accepts an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:655434e9363f0a8ff5eaef2fc1e237d5cc1a33aa2588483b8e16e9fd84b6ea7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r17A.36(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(3)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and"
+    },
+    {
+      "content_hash": "sha256:1b591792619df2795827a647eacb963a0c6b9c9ca76a72eb33736694358724d1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r17A.36(3)",
+      "ref": "TMR1995/r17A.36(3)(c)",
+      "style": "paragraph",
+      "text": "(c) the result of the decision on the opposition is that the trade mark that is the subject of the IRDA should be protected in Australia; and"
+    },
+    {
+      "content_hash": "sha256:ea841b0f97276b7301e52e4bf9bf1e536b9479225fd19df4d710d6a2926628c2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r17A.36(3)",
+      "ref": "TMR1995/r17A.36(3)(d)",
+      "style": "paragraph",
+      "text": "(d) no appeal from the decision on the opposition is made within the appeal period;"
+    },
+    {
+      "content_hash": "sha256:cdd71e347a31495cbc4546408915b1a3d81cba4672a53db42cf87a1ecf46dc58",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 26,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~5",
+      "style": "subsection2",
+      "text": "then, subject to subregulation (4), the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, at the end of the appeal period."
+    },
+    {
+      "content_hash": "sha256:ab6b1e1ba179c8963baa43d5ae6219c7fc38ce06447e15ecf820c2d576854ec1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3A)",
+      "ordinal": 27,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(3A)",
+      "style": "subsection",
+      "text": "(3A) If:"
+    },
+    {
+      "content_hash": "sha256:7a5d6cc8cbe7887ab7db6e70d9754ef6234d64209acc24dda4ebca2cd5747ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 28,
+      "parent_ref": "TMR1995/r17A.36(3A)",
+      "ref": "TMR1995/r17A.36(3A)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar accepts an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:655434e9363f0a8ff5eaef2fc1e237d5cc1a33aa2588483b8e16e9fd84b6ea7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 29,
+      "parent_ref": "TMR1995/r17A.36(3A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(3A)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and"
+    },
+    {
+      "content_hash": "sha256:2260965185be7d4067b438ab36fea07edeacdb6e889cb603de18e4c555fbcea8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 30,
+      "parent_ref": "TMR1995/r17A.36(3A)",
+      "ref": "TMR1995/r17A.36(3A)(c)",
+      "style": "paragraph",
+      "text": "(c) an appeal is made from the decision on the opposition within the appeal period, or any extension of that period; and"
+    },
+    {
+      "content_hash": "sha256:635e16948e714a14c59295652321274fdd3912c7ae99b74083d4e80c595d2898",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 31,
+      "parent_ref": "TMR1995/r17A.36(3A)",
+      "ref": "TMR1995/r17A.36(3A)(d)",
+      "style": "paragraph",
+      "text": "(d) the appeal has been dismissed or withdrawn;"
+    },
+    {
+      "content_hash": "sha256:987f94e797a93e3bd86222a35093da1ca49e396516008f6d64e072017e65d68c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 32,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~6",
+      "style": "subsection2",
+      "text": "the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the opposition, after the appeal has been dismissed or withdrawn."
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 33,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:7a5d6cc8cbe7887ab7db6e70d9754ef6234d64209acc24dda4ebca2cd5747ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 34,
+      "parent_ref": "TMR1995/r17A.36(4)",
+      "ref": "TMR1995/r17A.36(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar accepts an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:655434e9363f0a8ff5eaef2fc1e237d5cc1a33aa2588483b8e16e9fd84b6ea7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 35,
+      "parent_ref": "TMR1995/r17A.36(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(4)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and"
+    },
+    {
+      "content_hash": "sha256:2260965185be7d4067b438ab36fea07edeacdb6e889cb603de18e4c555fbcea8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 36,
+      "parent_ref": "TMR1995/r17A.36(4)",
+      "ref": "TMR1995/r17A.36(4)(c)",
+      "style": "paragraph",
+      "text": "(c) an appeal is made from the decision on the opposition within the appeal period, or any extension of that period; and"
+    },
+    {
+      "content_hash": "sha256:767f69134420cb57ea109cde15064e844b36033a90b295006b37e3755e6d95c2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 37,
+      "parent_ref": "TMR1995/r17A.36(4)",
+      "ref": "TMR1995/r17A.36(4)(d)",
+      "style": "paragraph",
+      "text": "(d) the decision on the appeal is that the trade mark that is the subject of the IRDA should be protected in Australia;"
+    },
+    {
+      "content_hash": "sha256:72dd9c11368c128b7f4a4335167ec0aa43d067a74f1c5084b542f33d24d4d7f9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 38,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~7",
+      "style": "subsection2",
+      "text": "the trade mark becomes a protected international trade mark, to the extent permitted by the decision on the appeal, when that decision is made."
+    },
+    {
+      "content_hash": "sha256:4f1cd7339279e25b169fb204261c235f54b0dbf187733b5a9c12a679b34c8de9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 39,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(5)",
+      "style": "subsection",
+      "text": "(5) If, at the end of 18 months after the Registrar was notified of an IRDA, the International Bureau has not received:"
+    },
+    {
+      "content_hash": "sha256:4f3bcf7f3f01f18b0680a1cf2a71c3cef8d13ed836117732b128908978d4e7b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 40,
+      "parent_ref": "TMR1995/r17A.36(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16(1)",
+          "mention": "subregulation 17A.16(1), 17A.25(2) or 17A.32(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.25(2)",
+          "mention": "subregulation 17A.16(1), 17A.25(2) or 17A.32(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(2)",
+          "mention": "subregulation 17A.16(1), 17A.25(2) or 17A.32(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(5)(a)",
+      "style": "paragraph",
+      "text": "(a) a notification under subregulation 17A.16(1), 17A.25(2) or 17A.32(2); or"
+    },
+    {
+      "content_hash": "sha256:f92ae01cbefd95204e2234bc31b750c646085582326f50a94a808e27a68e9249",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 41,
+      "parent_ref": "TMR1995/r17A.36(5)",
+      "ref": "TMR1995/r17A.36(5)(b)",
+      "style": "paragraph",
+      "text": "(b) a notification of the possibility that oppositions may be filed after the 18month period;"
+    },
+    {
+      "content_hash": "sha256:1a4c6275dd7df8358a8508d8e69b7ff6044e155e9cd46560fa8542466e393c2d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 42,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~8",
+      "style": "subsection2",
+      "text": "in respect of the IRDA, the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 18month period."
+    },
+    {
+      "content_hash": "sha256:c69e902e303843f8c1a10148bf81b0e73dee514ebd0d40ec1f0bc8e9886965d7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 43,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36(6)",
+      "style": "subsection",
+      "text": "(6) If:"
+    },
+    {
+      "content_hash": "sha256:ef6dfd4820d182bfbca777b46902965d7196fee7d6188750bc2838beff0d40b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 44,
+      "parent_ref": "TMR1995/r17A.36(6)",
+      "ref": "TMR1995/r17A.36(6)(a)",
+      "style": "paragraph",
+      "text": "(a) within 18 months after the Registrar was notified of an IRDA, the International Bureau receives notification of the possibility that oppositions may be filed after the 18month period; and"
+    },
+    {
+      "content_hash": "sha256:655434e9363f0a8ff5eaef2fc1e237d5cc1a33aa2588483b8e16e9fd84b6ea7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 45,
+      "parent_ref": "TMR1995/r17A.36(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(6)(b)",
+      "style": "paragraph",
+      "text": "(b) a notice of opposition to the IRDA is filed as mentioned in subregulation 17A.32(1); and"
+    },
+    {
+      "content_hash": "sha256:30632044d86ab77317755985cef82ee17a18ea00c0aa79146ac8c45b36445860",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 46,
+      "parent_ref": "TMR1995/r17A.36(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(2)",
+          "mention": "subregulation 17A.32(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.36(6)(c)",
+      "style": "paragraph",
+      "text": "(c) the International Bureau does not receive notification under subregulation 17A.32(2) within 7 months after the opposition period begins;"
+    },
+    {
+      "content_hash": "sha256:ebccece1447d8ee27aa4b1d37ac8ceb4b578c9be7a64347eeb277bbbc1f926f2",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 47,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.36~9",
+      "style": "subsection2",
+      "text": "the trade mark that is the subject of the IRDA becomes a protected international trade mark at the end of the 7month period."
+    }
+  ]
+}

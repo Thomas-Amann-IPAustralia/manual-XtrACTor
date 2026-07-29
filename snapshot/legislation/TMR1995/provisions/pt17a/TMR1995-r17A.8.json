@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div2"
+  ],
+  "content_hash": "sha256:b2b7dd234ee03bc4452b74139a46c809e9c03c174bf1c28b8df31ea1ae29ed76",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 2—Application for international registration of a trade mark",
+    "17A.8  Functions of Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.8",
+  "ref": "TMR1995/r17A.8",
+  "text": "(1) The Registrar must perform the functions, under the Protocol, of the Office of origin in relation to: (a) the application; and (b) if the application results in an international registration, the international registration. (2) In particular, the Registrar must: (a) check the application; and (b) certify that the information in the application corresponds with the information held by the Registrar in respect of the application for registration of the trade mark (the basic application) or the registration of the trade mark (the basic registration), as the case requires; and (c) if the application results in an international registration—notify the International Bureau if the basic application or the basic registration is withdrawn, restricted or cancelled or lapses, expires or otherwise ceases to have effect in respect of some or all of the goods or services listed in the international registration: (i) within 5 years after the date of the international registration; or (ii) after that time, if the action that resulted in the basic application or the basic registration being so affected began before the end of that 5 year period. Note: The detailed functions for the Office of origin are set out in the Protocol and the Madrid Regulations.",
+  "title": "Functions of Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:da8d33a497893b29e0f7f91363db2d4e3d522e01859b6698724afe1b10c74b82",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.8(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must perform the functions, under the Protocol, of the Office of origin in relation to:"
+    },
+    {
+      "content_hash": "sha256:b4b9e91aee1d6d9d4a7980954676f93464fda53e8b8aa42073534915d0942d93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.8(1)",
+      "ref": "TMR1995/r17A.8(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application; and"
+    },
+    {
+      "content_hash": "sha256:94cc48fa6c2fdf7d673bf33ce617a990a54b429deaa7ba3c156491958baad363",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.8(1)",
+      "ref": "TMR1995/r17A.8(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the application results in an international registration, the international registration."
+    },
+    {
+      "content_hash": "sha256:b46056b09c2a64883498eea1458f5a380c599f560fb41db251b7311bbc0619cb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.8(2)",
+      "style": "subsection",
+      "text": "(2) In particular, the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:065fa65c901f51ccb5da6070b3c1284f64b7cf262c5823140877cf4ca5e582d3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.8(2)",
+      "ref": "TMR1995/r17A.8(2)(a)",
+      "style": "paragraph",
+      "text": "(a) check the application; and"
+    },
+    {
+      "content_hash": "sha256:b487f38d98cd5d7f774d677824fb36bd7ba04bcf4e5f180206763a9a52b6af9f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 194,
+          "start": 177,
+          "text": "basic application",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 257,
+          "start": 239,
+          "text": "basic registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.8(2)",
+      "ref": "TMR1995/r17A.8(2)(b)",
+      "style": "paragraph",
+      "text": "(b) certify that the information in the application corresponds with the information held by the Registrar in respect of the application for registration of the trade mark (the basic application) or the registration of the trade mark (the basic registration), as the case requires; and"
+    },
+    {
+      "content_hash": "sha256:1175b557196db1c320c1c7a175add9262d6fd30b0d289d2bae7be5931513e373",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.8(2)",
+      "ref": "TMR1995/r17A.8(2)(c)",
+      "style": "paragraph",
+      "text": "(c) if the application results in an international registration—notify the International Bureau if the basic application or the basic registration is withdrawn, restricted or cancelled or lapses, expires or otherwise ceases to have effect in respect of some or all of the goods or services listed in the international registration:"
+    },
+    {
+      "content_hash": "sha256:b6b492e42f1615e15d4d48737d567ec175155ba6f69145a63586d72f55d43cb8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.8(2)(c)",
+      "ref": "TMR1995/r17A.8(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) within 5 years after the date of the international registration; or"
+    },
+    {
+      "content_hash": "sha256:dcf6c1cd25d4389bc6d17a6ee71e243be573b51920a982a2cd8977222b138887",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.8(2)(c)",
+      "ref": "TMR1995/r17A.8(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) after that time, if the action that resulted in the basic application or the basic registration being so affected began before the end of that 5 year period."
+    },
+    {
+      "content_hash": "sha256:9494d8985c93e40340ff6dde72b09bcf9adcd2a966ccc7490b987b1e2ede7fab",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.8(2)(c)(ii)",
+      "ref": "TMR1995/r17A.8(2)(c)(ii)~1",
+      "style": "notetext",
+      "text": "Note: The detailed functions for the Office of origin are set out in the Protocol and the Madrid Regulations."
+    }
+  ]
+}

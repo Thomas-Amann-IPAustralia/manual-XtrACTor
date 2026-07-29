@@ -1,0 +1,576 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:cac28235afc1cb7db8da4330f6f1845fe602656cda6fd150c7f65a9e1403cb3f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.22  Period for which acceptance is deferred"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.22",
+  "ref": "TMR1995/r17A.22",
+  "text": "(1) The period for which acceptance of an IRDA is deferred (the deferment period) begins immediately after: (a) for deferral under subregulation 17A.21(1)—the date the Trade Marks Office receives the request; or (b) for deferral under subregulation 17A.21(2) or (3)—the date of the notification of deferment issued under subregulation 17A.21(4). (2) The deferment period ends: (a) when the IRDA is withdrawn; or (b) if paragraph (a) does not apply—when the Registrar is reasonably satisfied that there are no longer grounds for rejecting the IRDA under subsection 44(1) or (2) of the Act (as applied by regulation 17A.28); or (c) if paragraphs (a) and (b) do not apply—in accordance with subregulation (3). (3) For paragraph (2)(c), the deferment period ends: (a) if acceptance is deferred because of subparagraph 17A.21(1)(c)(i)—when proceedings relating to the registration of, or the extension of protection to, the other trade mark are finalised; and (b) if acceptance is deferred because of subparagraph 17A.21(1)(c)(ii)—at the end of 6 months from the date of commencement of deferment; and (c) if acceptance is deferred because of subparagraph 17A.21(1)(c)(iii)—when proceedings under Part 9 of the Act or regulation 17A.48C relating to the other trade mark are finalised; and (d) if acceptance is deferred because of subparagraph 17A.21(1)(c)(iv)—when the proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark are determined or otherwise disposed of; and (e) if acceptance is deferred because of subparagraph 17A.21(1)(c)(v)—when the registration of the other trade mark is renewed or the other trade mark is removed from the Register; and (f) if acceptance is deferred because of subparagraph 17A.21(1)(c)(vi)—when the international registration of the other trade mark is renewed or the other trade mark is removed from the International Register; and (g) if acceptance is deferred because of paragraph 17A.21(2)(a)—at the end of 2 months after the beginning of the period in which: (i) proceedings mentioned in paragraph 17A.21(2)(b) may be begun; or (ii) an application mentioned in paragraph 17A.21(2)(c) may be made; and (h) if acceptance is deferred because of paragraph 17A.21(2)(b) or (c)—at the end of: (i) 3 months after the determination, or other disposal, of the proceedings or review; or (ii) such time as the court to which any appeal is brought, or the ART, or a court to which any appeal arising from review by the ART is brought, allows; and (ha) if acceptance is deferred because of paragraph 17A.21(2)(ca)—at the end of the earlier of the following days: (i) the day the holder withdraws the request to be heard; (ii) the day the Registrar decides to accept or reject the IRDA; and (i) if acceptance is deferred because of paragraph 17A.21(2)(d)—at the end of a period after the death of the holder that the Registrar reasonably regards as sufficient in the circumstances; and (j) if acceptance is deferred because of subregulation 17A.21(3): (i) if the Commission gives a certificate under subsection 175(2)of the Act (as applied by regulation 17A.50) in respect of the IRDA—when the Registrar accepts the IRDA in respect of the certification trade mark; or (ii) if the Commission does not give such a certificate—at the end of 2 months after the date of the notice to the Registrar under subsection 175(4) of the Act (as applied by regulation 17A.50). (4) If acceptance of an IRDA is deferred as a result of the operation of more than 1 of the provisions of paragraph 17A.21(1)(c) and subregulation 17A.21(2), the deferment period ends in accordance with the relevant provision of subregulation (3) under which the deferment period ends later or last, as the case requires. (5) The Registrar must notify the holder of: (a) the end of a period of deferment; and (b) if acceptance is deferred under subregulation 17A.21(1)—the last day of the relevant period mentioned in paragraph 17A.20(1)(a) or (b).",
+  "title": "Period for which acceptance is deferred",
+  "units": [
+    {
+      "content_hash": "sha256:ff5ce60405539fee4cb8d8e9581cb1d2a5fa2fcafb308730435dededc760408c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 80,
+          "start": 64,
+          "text": "deferment period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.22(1)",
+      "style": "subsection",
+      "text": "(1) The period for which acceptance of an IRDA is deferred (the deferment period) begins immediately after:"
+    },
+    {
+      "content_hash": "sha256:1d37c0f83a8f87a204b5908f2826c1e02738d2b6167e9c0e5e57b8a4abcf579f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.22(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(1)",
+          "mention": "subregulation 17A.21(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(1)(a)",
+      "style": "paragraph",
+      "text": "(a) for deferral under subregulation 17A.21(1)—the date the Trade Marks Office receives the request; or"
+    },
+    {
+      "content_hash": "sha256:02d78e896fcb21b92656d412a2d86680acc633f17704f11ad545d36ade75563c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.22(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(2)",
+          "mention": "subregulation 17A.21(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(4)",
+          "mention": "subregulation 17A.21(4)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(1)(b)",
+      "style": "paragraph",
+      "text": "(b) for deferral under subregulation 17A.21(2) or (3)—the date of the notification of deferment issued under subregulation 17A.21(4)."
+    },
+    {
+      "content_hash": "sha256:8c781ff2eb96035f4199c40ffb8551a0ca1fc5736245da54302217f86bc99fa5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.22(2)",
+      "style": "subsection",
+      "text": "(2) The deferment period ends:"
+    },
+    {
+      "content_hash": "sha256:da724d9095a0388969e158bb1934560eac20ed568396cf7e72950a825d3e1aef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.22(2)",
+      "ref": "TMR1995/r17A.22(2)(a)",
+      "style": "paragraph",
+      "text": "(a) when the IRDA is withdrawn; or"
+    },
+    {
+      "content_hash": "sha256:cf443341e9606d3b084201c77826b6d7e030e1ff63740d818e44aab8a912631f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.22(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)",
+          "mention": "subsection 44(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.28",
+          "mention": "regulation 17A.28"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if paragraph (a) does not apply—when the Registrar is reasonably satisfied that there are no longer grounds for rejecting the IRDA under subsection 44(1) or (2) of the Act (as applied by regulation 17A.28); or"
+    },
+    {
+      "content_hash": "sha256:a7999c7a0f48a42d46016d5794514d758d7689376864c1b5fb6fcf93857a5f44",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.22(2)",
+      "ref": "TMR1995/r17A.22(2)(c)",
+      "style": "paragraph",
+      "text": "(c) if paragraphs (a) and (b) do not apply—in accordance with subregulation (3)."
+    },
+    {
+      "content_hash": "sha256:77e0ee951dd098c16f0733837a2d531798deecfbee0fe7c6df9c923ef45ef824",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.22(3)",
+      "style": "subsection",
+      "text": "(3) For paragraph (2)(c), the deferment period ends:"
+    },
+    {
+      "content_hash": "sha256:50dc31abacf5d3c68d82c18a7ddee3bea8a12c65998975d41beaca94dd25e3c8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(i)",
+          "mention": "subparagraph 17A.21(1)(c)(i)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(a)",
+      "style": "paragraph",
+      "text": "(a) if acceptance is deferred because of subparagraph 17A.21(1)(c)(i)—when proceedings relating to the registration of, or the extension of protection to, the other trade mark are finalised; and"
+    },
+    {
+      "content_hash": "sha256:ed6e2c989aa487cfdc784167a66830ac0ed04c54e557f2084133550644f66f69",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(ii)",
+          "mention": "subparagraph 17A.21(1)(c)(ii)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(b)",
+      "style": "paragraph",
+      "text": "(b) if acceptance is deferred because of subparagraph 17A.21(1)(c)(ii)—at the end of 6 months from the date of commencement of deferment; and"
+    },
+    {
+      "content_hash": "sha256:883d41d6c3c5cbd88eae08e0d31c28e07839007c233d80bbf98059d13deb6941",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(iii)",
+          "mention": "subparagraph 17A.21(1)(c)(iii)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48C",
+          "mention": "regulation 17A.48C"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(c)",
+      "style": "paragraph",
+      "text": "(c) if acceptance is deferred because of subparagraph 17A.21(1)(c)(iii)—when proceedings under Part 9 of the Act or regulation 17A.48C relating to the other trade mark are finalised; and"
+    },
+    {
+      "content_hash": "sha256:acbf25e393b6748a304a146c1c9939b8d7d2f73209da59a5304a694597c30e72",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(iv)",
+          "mention": "subparagraph 17A.21(1)(c)(iv)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(d)",
+      "style": "paragraph",
+      "text": "(d) if acceptance is deferred because of subparagraph 17A.21(1)(c)(iv)—when the proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark are determined or otherwise disposed of; and"
+    },
+    {
+      "content_hash": "sha256:2b8b5f8dad278c2d04f14b4446a5b58aea8c625917a996fa3bca5211e426d90a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(v)",
+          "mention": "subparagraph 17A.21(1)(c)(v)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(e)",
+      "style": "paragraph",
+      "text": "(e) if acceptance is deferred because of subparagraph 17A.21(1)(c)(v)—when the registration of the other trade mark is renewed or the other trade mark is removed from the Register; and"
+    },
+    {
+      "content_hash": "sha256:e1e50de9654a5e5b5abfe29b51d1d170eda22b5722c6d329efe929fd8f58e08e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)(vi)",
+          "mention": "subparagraph 17A.21(1)(c)(vi)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(f)",
+      "style": "paragraph",
+      "text": "(f) if acceptance is deferred because of subparagraph 17A.21(1)(c)(vi)—when the international registration of the other trade mark is renewed or the other trade mark is removed from the International Register; and"
+    },
+    {
+      "content_hash": "sha256:eec1e4a7738df38d979abe9a752b95ab42afceeb42974b10e6b9a2f6231b7c2c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(a)",
+          "mention": "paragraph 17A.21(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(g)",
+      "style": "paragraph",
+      "text": "(g) if acceptance is deferred because of paragraph 17A.21(2)(a)—at the end of 2 months after the beginning of the period in which:"
+    },
+    {
+      "content_hash": "sha256:c1102ada3de7ca2f6d6dcb16bc6c2ade2bcc99b7e3ff0072c02f562a388a572c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r17A.22(3)(g)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(b)",
+          "mention": "paragraph 17A.21(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(g)(i)",
+      "style": "paragraphsub",
+      "text": "(i) proceedings mentioned in paragraph 17A.21(2)(b) may be begun; or"
+    },
+    {
+      "content_hash": "sha256:33d29a434614744af9dfffbc430ee8cc5bd1190598912d540b9aa8c1bd015a9a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r17A.22(3)(g)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(c)",
+          "mention": "paragraph 17A.21(2)(c)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(g)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) an application mentioned in paragraph 17A.21(2)(c) may be made; and"
+    },
+    {
+      "content_hash": "sha256:e5c892faafb47a3ba6f00b7859c67bd566d6eab82ff845f5827744462fecd440",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(h)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(b)",
+          "mention": "paragraph 17A.21(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(h)",
+      "style": "paragraph",
+      "text": "(h) if acceptance is deferred because of paragraph 17A.21(2)(b) or (c)—at the end of:"
+    },
+    {
+      "content_hash": "sha256:ecfcc99acc9531961a840c4ee2b66f503df2d52947d00dba18c9c08519a6916c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r17A.22(3)(h)",
+      "ref": "TMR1995/r17A.22(3)(h)(i)",
+      "style": "paragraphsub",
+      "text": "(i) 3 months after the determination, or other disposal, of the proceedings or review; or"
+    },
+    {
+      "content_hash": "sha256:c91d862cce42a0d134a486ae4f0a32fd9ca730447291edffcf2a45c6cdd49363",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r17A.22(3)(h)",
+      "ref": "TMR1995/r17A.22(3)(h)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) such time as the court to which any appeal is brought, or the ART, or a court to which any appeal arising from review by the ART is brought, allows; and"
+    },
+    {
+      "content_hash": "sha256:6bf6b89ccb9001e22835064c0a5d3f0c4508f0fd47cfc5f05e33d9f7d0458167",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(ha)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(ca)",
+          "mention": "paragraph 17A.21(2)(ca)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(ha)",
+      "style": "paragraph",
+      "text": "(ha) if acceptance is deferred because of paragraph 17A.21(2)(ca)—at the end of the earlier of the following days:"
+    },
+    {
+      "content_hash": "sha256:f5e591ea97b268299d1f37754506dc7604a98b6ae4639e68dcba92237d7125dc",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r17A.22(3)(ha)",
+      "ref": "TMR1995/r17A.22(3)(ha)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the day the holder withdraws the request to be heard;"
+    },
+    {
+      "content_hash": "sha256:d16bbc7d93cd3b965ac0f08c50da1e9cf5197344f07fd84f92ae7c167c18129e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r17A.22(3)(ha)",
+      "ref": "TMR1995/r17A.22(3)(ha)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the day the Registrar decides to accept or reject the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:36511555ecaf57f57f3cf7f8eace9b41a873edcbe82abe7fe4219b31fb607857",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(2)(d)",
+          "mention": "paragraph 17A.21(2)(d)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(i)",
+      "style": "paragraph",
+      "text": "(i) if acceptance is deferred because of paragraph 17A.21(2)(d)—at the end of a period after the death of the holder that the Registrar reasonably regards as sufficient in the circumstances; and"
+    },
+    {
+      "content_hash": "sha256:60526c3b1462080155581d6203b945173bf2008dc1aaa10ac73dccd3bf4933be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(j)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r17A.22(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(3)",
+          "mention": "subregulation 17A.21(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(j)",
+      "style": "paragraph",
+      "text": "(j) if acceptance is deferred because of subregulation 17A.21(3):"
+    },
+    {
+      "content_hash": "sha256:2b713666e4bdb7d63f2f0ec1cf0855deee74169b88619563d80f3634db847108",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r17A.22(3)(j)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(2)",
+          "mention": "subsection 175(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.50",
+          "mention": "regulation 17A.50"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(j)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if the Commission gives a certificate under subsection 175(2)of the Act (as applied by regulation 17A.50) in respect of the IRDA—when the Registrar accepts the IRDA in respect of the certification trade mark; or"
+    },
+    {
+      "content_hash": "sha256:ae31c99808d23a1c5a8c5fd2d8394d494d69681133625f9dc72c48a05228c026",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 27,
+      "parent_ref": "TMR1995/r17A.22(3)(j)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(4)",
+          "mention": "subsection 175(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.50",
+          "mention": "regulation 17A.50"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(3)(j)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the Commission does not give such a certificate—at the end of 2 months after the date of the notice to the Registrar under subsection 175(4) of the Act (as applied by regulation 17A.50)."
+    },
+    {
+      "content_hash": "sha256:88278d09cdd0b111ede4d42a9c81f6d9a0b406dde24c2f4cd2636eba82a2b761",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 28,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.21(1)(c)",
+          "mention": "paragraph 17A.21(1)(c)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(2)",
+          "mention": "subregulation 17A.21(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(4)",
+      "style": "subsection",
+      "text": "(4) If acceptance of an IRDA is deferred as a result of the operation of more than 1 of the provisions of paragraph 17A.21(1)(c) and subregulation 17A.21(2), the deferment period ends in accordance with the relevant provision of subregulation (3) under which the deferment period ends later or last, as the case requires."
+    },
+    {
+      "content_hash": "sha256:981f6131f22446f9eafef7faa0d3793dd7d4269a657d16dbe782c5b377b89e6c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 29,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.22(5)",
+      "style": "subsection",
+      "text": "(5) The Registrar must notify the holder of:"
+    },
+    {
+      "content_hash": "sha256:ad09e3083221930de2aede002a157ae41d031f1d31642c7c857ce500fcf6bc22",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 30,
+      "parent_ref": "TMR1995/r17A.22(5)",
+      "ref": "TMR1995/r17A.22(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the end of a period of deferment; and"
+    },
+    {
+      "content_hash": "sha256:fac528351926bf9506d96be0bb9af4cb2745edfad8596d68227823a12d82f6b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 31,
+      "parent_ref": "TMR1995/r17A.22(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.20(1)(a)",
+          "mention": "paragraph 17A.20(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21(1)",
+          "mention": "subregulation 17A.21(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.22(5)(b)",
+      "style": "paragraph",
+      "text": "(b) if acceptance is deferred under subregulation 17A.21(1)—the last day of the relevant period mentioned in paragraph 17A.20(1)(a) or (b)."
+    }
+  ]
+}

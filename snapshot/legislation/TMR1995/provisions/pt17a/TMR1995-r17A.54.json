@@ -1,0 +1,152 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div8"
+  ],
+  "content_hash": "sha256:9e5177e9df31628cd9e72c44f1957cb138b07437700791840f3a158903f71941",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 8—Concurrence between registration and international registration",
+    "17A.54  Effect of registration and protection of the same trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.54",
+  "ref": "TMR1995/r17A.54",
+  "text": "(1) This regulation applies if: (a) a trade mark that is a registered trade mark becomes a protected international trade mark; and (b) the registered owner of the trade mark is the holder of the protected international trade mark; and (c) some or all of the goods or services covered by the registered trade mark are covered by the protected international trade mark. (2) The date of effect of protection of the protected international trade mark in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark is taken to be the date of registration of the registered trade mark in respect of those particular goods or services. (3) However, subregulation (2) does not apply if the date of registration of the registered trade mark in respect of those particular goods or services is later than the date of effect of the protection of the protected international trade mark under subregulation 17A.4(1) or (2). (4) The holder of the protected international trade mark may file an application in the approved form for particulars of the international registration of the trade mark to be entered in the Register. (5) If the Registrar receives an application under subregulation (4), the Registrar must: (a) enter the particulars in the Register; and (b) notify the International Bureau in accordance with rule 21 of the Madrid Regulations. (6) This regulation does not affect the rights and protections conferred under the Act in respect of the registered trade mark.",
+  "title": "Effect of registration and protection of the same trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:cb0a79f261bac8f975e6fc68fb30b5d8c59b049f970f1858d9f67f8e1510362e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.54(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if:"
+    },
+    {
+      "content_hash": "sha256:9b97edab22f7f319e4c1a3b5e9af5b1ac2b728f1a6c79e9368a0f9ad918e1e18",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.54(1)",
+      "ref": "TMR1995/r17A.54(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark that is a registered trade mark becomes a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:4fb7c4a8002eafb0e3faf697e18ce21d665b476b940cd059060d8140d797bc32",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.54(1)",
+      "ref": "TMR1995/r17A.54(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the registered owner of the trade mark is the holder of the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:2f2fae58549867ae0a5d6eec469fd2d7ece0241f5ea7549ab248f57a1bd8afc1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.54(1)",
+      "ref": "TMR1995/r17A.54(1)(c)",
+      "style": "paragraph",
+      "text": "(c) some or all of the goods or services covered by the registered trade mark are covered by the protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:04d7ad67c9a3902c9dc7a8d9f593cd0cac2456190edfdcaa697ccd579eb524b6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.54(2)",
+      "style": "subsection",
+      "text": "(2) The date of effect of protection of the protected international trade mark in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark is taken to be the date of registration of the registered trade mark in respect of those particular goods or services."
+    },
+    {
+      "content_hash": "sha256:2f241d5d6a83e324479e84bdc20659cb5af86564b1135a34f8f2f3a54bd4d89c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.4(1)",
+          "mention": "subregulation 17A.4(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.54(3)",
+      "style": "subsection",
+      "text": "(3) However, subregulation (2) does not apply if the date of registration of the registered trade mark in respect of those particular goods or services is later than the date of effect of the protection of the protected international trade mark under subregulation 17A.4(1) or (2)."
+    },
+    {
+      "content_hash": "sha256:e76341b659c24fe236ca91f2a10c4f93ccdbcdd32b728051abbafb5e46663e84",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.54(4)",
+      "style": "subsection",
+      "text": "(4) The holder of the protected international trade mark may file an application in the approved form for particulars of the international registration of the trade mark to be entered in the Register."
+    },
+    {
+      "content_hash": "sha256:2b86e1cb17c32f464ef0f7bfd5314495c82bd5ad7b5d2d499d820a5d77af9d6e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.54(5)",
+      "style": "subsection",
+      "text": "(5) If the Registrar receives an application under subregulation (4), the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:f3bcf8b1b35ba7d94e2cd7f3f079de1e71b47465b75af143f9f95520d2907e67",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.54(5)",
+      "ref": "TMR1995/r17A.54(5)(a)",
+      "style": "paragraph",
+      "text": "(a) enter the particulars in the Register; and"
+    },
+    {
+      "content_hash": "sha256:b2e6c67820cf855d12a94b0b09de5423ba36de058ae47ceea2dd7df71e453ec9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.54(5)",
+      "ref": "TMR1995/r17A.54(5)(b)",
+      "style": "paragraph",
+      "text": "(b) notify the International Bureau in accordance with rule 21 of the Madrid Regulations."
+    },
+    {
+      "content_hash": "sha256:e750f0b18c60fefc906a51b8ffc5f8e7da2681d225b6078b8bf9c1b02230bd62",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.54(6)",
+      "style": "subsection",
+      "text": "(6) This regulation does not affect the rights and protections conferred under the Act in respect of the registered trade mark."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdivb"
+  ],
+  "content_hash": "sha256:20336f29a837f6e45e515bee8c22f7e675ac0a152f5632bdc34a5dd5e9d45b7c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision B—Cancelling registration",
+    "84  Cancellation of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "84",
+  "ref": "TMA1995/s84",
+  "text": "(1) The Registrar must cancel the registration of a trade mark in accordance with the regulations if the registered owner asks in writing that the registration be cancelled. Note: For registered owner see section 6. (2) Before cancelling the registration of the trade mark, the Registrar must notify in accordance with the regulations: (a) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark; and (b) if: (i) an application has been made to the Registrar for a record of the assignment or transmission of the trade mark to a person to be entered in the Register (see section 109); and (ii) the assignment has not yet been recorded; the person to whom the trade mark has been assigned or transmitted.",
+  "title": "Cancellation of registration",
+  "units": [
+    {
+      "content_hash": "sha256:37125f975d15d2154f6ffc4de91ed20b13ccaf8e12de0bfd6e5824e0cf576cf5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s84(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must cancel the registration of a trade mark in accordance with the regulations if the registered owner asks in writing that the registration be cancelled."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s84(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s84(1)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:4c46022748eeac3632007f9b3a2e6eed09bd5744bfce2629902563c0cc3be0a9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s84(2)",
+      "style": "subsection",
+      "text": "(2) Before cancelling the registration of the trade mark, the Registrar must notify in accordance with the regulations:"
+    },
+    {
+      "content_hash": "sha256:d3992b1095661917853983fd02ac8a7eeda12b763b16886295f66707455e7ae7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s84(2)",
+      "ref": "TMA1995/s84(2)(a)",
+      "style": "paragraph",
+      "text": "(a) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:e218de3c28287f23a0cefba3faa3343a956d204d06f4491c717a5cbc5234a213",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s84(2)",
+      "ref": "TMA1995/s84(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if:"
+    },
+    {
+      "content_hash": "sha256:5e41e2d9d7c9c7e9ae60e8e1b4b0b932d986806174746c4f287524b1e50d3d9b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s84(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s109",
+          "mention": "section 109"
+        }
+      ],
+      "ref": "TMA1995/s84(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an application has been made to the Registrar for a record of the assignment or transmission of the trade mark to a person to be entered in the Register (see section 109); and"
+    },
+    {
+      "content_hash": "sha256:f1363c167dc65a0bf98287b2544bbc895558f318bfb2593ae4bd8bb42d456af1",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s84(2)(b)",
+      "ref": "TMA1995/s84(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the assignment has not yet been recorded;"
+    },
+    {
+      "content_hash": "sha256:3ef0cc27205a75a7bb39f85fd4286460eacea8a3dcb0d33c08f0ee3e17ed7a36",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s84(2)",
+      "ref": "TMA1995/s84(2)~1",
+      "style": "paragraph",
+      "text": "the person to whom the trade mark has been assigned or transmitted."
+    }
+  ]
+}

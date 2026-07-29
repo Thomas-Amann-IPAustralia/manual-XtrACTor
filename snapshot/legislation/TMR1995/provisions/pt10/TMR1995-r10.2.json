@@ -1,0 +1,188 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt10"
+  ],
+  "content_hash": "sha256:ce59ecebea1b4f728a841a0952de310e05eeb6d9166a7427f948e1f7ae7983f4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "10.2  Recording of assignment etc—trade marks not registered"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "10.2",
+  "ref": "TMR1995/r10.2",
+  "text": "(1) For the purposes of paragraph 108(1)(a) of the Act (which deals with assignment and transmission), the Registrar must record particulars of the assignment or transmission of a trade mark in accordance with this regulation unless: (a) the application to assign or transmit the trade mark is withdrawn; or (b) a prescribed court determines otherwise. (2) If there is no record made under Part 11 of the Act of a person claiming an interest in, or a right in respect of, the trade mark, the Registrar must record the particulars after ascertaining that a claim has not been recorded. (3) If: (a) there is a record made under Part 11 of the Act of a person, or persons, claiming an interest in, or a right in respect of, the trade mark; and (b) the Registrar has notified that person, or each of those persons, under subregulation 10.5(1); and (c) that person or each of those persons has, within the period of 2 months from the date of the notice mentioned in paragraph (b), given written notice to the Registrar consenting to the assignment or transmission; the Registrar must record the particulars after the Registrar has received the last notice consenting to the assignment or transmission. (4) If: (a) paragraphs (3)(a) and (b) apply; and (b) the person, or any of the persons, notified by the Registrar under subregulation 10.5(1) has not consented in writing to the assignment or transmission of the trade mark within the period of 2 months from the date of the notice; the Registrar must record the particulars as soon as practicable after the end of that period.",
+  "title": "Recording of assignment etc—trade marks not registered",
+  "units": [
+    {
+      "content_hash": "sha256:70e71179fbefd29b2c67d05529ecebe3eb60816471cf1e688c37c9342486b888",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s108(1)(a)",
+          "mention": "paragraph 108(1)(a)"
+        }
+      ],
+      "ref": "TMR1995/r10.2(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of paragraph 108(1)(a) of the Act (which deals with assignment and transmission), the Registrar must record particulars of the assignment or transmission of a trade mark in accordance with this regulation unless:"
+    },
+    {
+      "content_hash": "sha256:ef052f8e77b44f08a73633367247d00c17a2335b8c5b07d235b63db33fb92dc4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r10.2(1)",
+      "ref": "TMR1995/r10.2(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application to assign or transmit the trade mark is withdrawn; or"
+    },
+    {
+      "content_hash": "sha256:166963c71f01566a3cd79f67095a9553d1d291a6b4f8d12c0e121e34d5869ad2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r10.2(1)",
+      "ref": "TMR1995/r10.2(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a prescribed court determines otherwise."
+    },
+    {
+      "content_hash": "sha256:34a5f2f37f5c467f1b0467104ac40932cb3efcb3def9eb13ab50634fa498b3a4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.2(2)",
+      "style": "subsection",
+      "text": "(2) If there is no record made under Part 11 of the Act of a person claiming an interest in, or a right in respect of, the trade mark, the Registrar must record the particulars after ascertaining that a claim has not been recorded."
+    },
+    {
+      "content_hash": "sha256:24e675c10bea93c07af4426fdb5f111d52d0c73a1faf42284f832d7b2f6ff252",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.2(3)",
+      "style": "subsection",
+      "text": "(3) If:"
+    },
+    {
+      "content_hash": "sha256:9a514a3cb64a42342468dd2893c1a50af581bc4067c472d278bd6aba9cf6365c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r10.2(3)",
+      "ref": "TMR1995/r10.2(3)(a)",
+      "style": "paragraph",
+      "text": "(a) there is a record made under Part 11 of the Act of a person, or persons, claiming an interest in, or a right in respect of, the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:ab6adc7018cd620ab5008d491d1193617623830d01d3fb6d988b0665270f61a8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r10.2(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.5(1)",
+          "mention": "subregulation 10.5(1)"
+        }
+      ],
+      "ref": "TMR1995/r10.2(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar has notified that person, or each of those persons, under subregulation 10.5(1); and"
+    },
+    {
+      "content_hash": "sha256:4bbafee1bd4c5598ba127468201d503e14c987b311163004e135a92e5272a5af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r10.2(3)",
+      "ref": "TMR1995/r10.2(3)(c)",
+      "style": "paragraph",
+      "text": "(c) that person or each of those persons has, within the period of 2 months from the date of the notice mentioned in paragraph (b), given written notice to the Registrar consenting to the assignment or transmission;"
+    },
+    {
+      "content_hash": "sha256:f8ce240ad8c7ba60e30c059c75fccfa8c8fc275d90aa33b898e8cd6289ad29fb",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.2~1",
+      "style": "subsection2",
+      "text": "the Registrar must record the particulars after the Registrar has received the last notice consenting to the assignment or transmission."
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.2(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:b6f1285c1d914e22c8905b224ffdd1f14ad69681e9166e23bc46c149d0d5ddaf",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r10.2(4)",
+      "ref": "TMR1995/r10.2(4)(a)",
+      "style": "paragraph",
+      "text": "(a) paragraphs (3)(a) and (b) apply; and"
+    },
+    {
+      "content_hash": "sha256:9670fee990fe38a01979a0a8773470839ccc4245c110488888f063a988c61034",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r10.2(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.5(1)",
+          "mention": "subregulation 10.5(1)"
+        }
+      ],
+      "ref": "TMR1995/r10.2(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the person, or any of the persons, notified by the Registrar under subregulation 10.5(1) has not consented in writing to the assignment or transmission of the trade mark within the period of 2 months from the date of the notice;"
+    },
+    {
+      "content_hash": "sha256:a6dc473641b2ab0ba9e787d5ae61a0a5eb1dce9fd53035369379675b227db72e",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMR1995/r10.2~2",
+      "style": "subsection2",
+      "text": "the Registrar must record the particulars as soon as practicable after the end of that period."
+    }
+  ]
+}

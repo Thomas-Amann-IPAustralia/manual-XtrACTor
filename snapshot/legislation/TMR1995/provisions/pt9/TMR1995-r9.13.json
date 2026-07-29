@@ -1,0 +1,96 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdiva"
+  ],
+  "content_hash": "sha256:58fc4e76acf1b59b1fbda2a7ce94089063780960668f6162461bf9f28d5adc68",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "9.13  Amendment of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.13",
+  "ref": "TMR1995/r9.13",
+  "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake. (2) If an opposition is proceeding in the name of a person other than the opponent under section 96A of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name. (3) The Registrar may grant the request on terms that the Registrar considers appropriate. (4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant. (5) Regulation 9.4 does not apply to this regulation.",
+  "title": "Amendment of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:4d6013cc5a0a63aaefeb5ff47eb4ae2b979452d09a4c918d758ccb90ac0dbd15",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.13(1)",
+      "style": "subsection",
+      "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake."
+    },
+    {
+      "content_hash": "sha256:187af1406f7bcab87f10d000a6eeb2629e78f8cec851467db7085330c81b74cc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96A",
+          "mention": "section 96A"
+        }
+      ],
+      "ref": "TMR1995/r9.13(2)",
+      "style": "subsection",
+      "text": "(2) If an opposition is proceeding in the name of a person other than the opponent under section 96A of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name."
+    },
+    {
+      "content_hash": "sha256:5aa000f23232521778db130979588f4a4d9bb79dfb7484229904d3d4ad181932",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.13(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may grant the request on terms that the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:f0e963abe9f0cbffce3c3487ed77f019188f58cebee8d876d5f1a2ba6c824a12",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.13(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant."
+    },
+    {
+      "content_hash": "sha256:4781fb09ac34bba867b0b6f23285c0a00a1dd150c490c1a1595ffe099b737cb1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.4",
+          "mention": "Regulation 9.4"
+        }
+      ],
+      "ref": "TMR1995/r9.13(5)",
+      "style": "subsection",
+      "text": "(5) Regulation 9.4 does not apply to this regulation."
+    }
+  ]
+}

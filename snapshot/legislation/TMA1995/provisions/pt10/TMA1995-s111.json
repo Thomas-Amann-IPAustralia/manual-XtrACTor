@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt10"
+  ],
+  "content_hash": "sha256:d01646e32f685196b7d3497bb5f947d9eb39ee23e14c38450f86fd7a86056019",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "111  Notification of application to be given to person recorded as claiming interest in trade mark etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "111",
+  "ref": "TMA1995/s111",
+  "text": "If an application made under section 107 or 109 in relation to the assignment or transmission of a trade mark complies with this Act, the Registrar must notify in accordance with the regulations any person recorded under Part 11 as claiming an interest in, or a right in respect of, the trade mark.",
+  "title": "Notification of application to be given to person recorded as claiming interest in trade mark etc.",
+  "units": [
+    {
+      "content_hash": "sha256:d01646e32f685196b7d3497bb5f947d9eb39ee23e14c38450f86fd7a86056019",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s107",
+          "mention": "section 107 or 109"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s109",
+          "mention": "section 107 or 109"
+        }
+      ],
+      "ref": "TMA1995/s111~1",
+      "style": "subsection",
+      "text": "If an application made under section 107 or 109 in relation to the assignment or transmission of a trade mark complies with this Act, the Registrar must notify in accordance with the regulations any person recorded under Part 11 as claiming an interest in, or a right in respect of, the trade mark."
+    }
+  ]
+}

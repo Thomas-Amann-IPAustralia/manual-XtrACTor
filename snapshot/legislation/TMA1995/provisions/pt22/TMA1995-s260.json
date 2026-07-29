@@ -1,0 +1,330 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div4"
+  ],
+  "content_hash": "sha256:00c2c4d8e6db496ababeec5658820b847d083fe06f187e01c6a062bbc94a8d5a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 4—General",
+    "260  Address for service"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "260",
+  "ref": "TMA1995/s260",
+  "text": "(1) If, immediately before 1 January 1996, the address for service of an applicant for the registration of a trade mark, or of an opponent to the registration, under subsection 132(1) or (2) of the repealed Act (existing address) was an address in Australia, that address remains the address for service of the applicant or opponent for the purposes of this Act until he or she notifies another address to the Registrar under section 215. Note: For applicant and opponent see section 6. (2) If the existing address of an applicant for the registration of a trade mark or of an opponent to the registration is not an address in Australia, the applicant or opponent must give in writing to the Registrar an address in Australia as his or her address for service. (3) If, immediately before 1 January 1996, the proprietor of an existing registered mark had an agent in Australia for the purposes of subsection 70(1) of the repealed Act, the address of that agent is the address for service of the registered owner of the mark for the purposes of this Act until the registered owner notifies another address to the Registrar under section 215. Note: For existing registered mark see section 6. (4) If: (a) immediately before 1 January 1996, the proprietor of an existing registered mark did not have an agent in Australia for the purposes of subsection 70(1) of the repealed Act; and (b) the address then entered in the old register as the address of the proprietor was an address in Australia; that address is the address for service of the registered owner of the mark for the purposes of this Act until the registered owner notifies another address to the Registrar under section 215. Note: For existing registered mark and old register see section 6. (5) If: (a) immediately before 1 January 1996, the proprietor of an existing registered mark did not have an agent in Australia for the purposes of subsection 70(1) of the repealed Act; and (b) the address then entered in the old register as the address of the proprietor was not an address in Australia; that address is not to be used as the address for service of the registered owner of the mark, and the registered owner must give in writing to the Registrar an address in Australia as his or her address for service. Note: For existing registered mark and old register see section 6.",
+  "title": "Address for service",
+  "units": [
+    {
+      "content_hash": "sha256:2adce92f1c80811ce0de687715eb400f9ac664449b6862655035c9cec1a047ec",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 228,
+          "start": 212,
+          "text": "existing address",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132(1)",
+          "mention": "subsection 132(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "section 215"
+        }
+      ],
+      "ref": "TMA1995/s260(1)",
+      "style": "subsection",
+      "text": "(1) If, immediately before 1 January 1996, the address for service of an applicant for the registration of a trade mark, or of an opponent to the registration, under subsection 132(1) or (2) of the repealed Act (existing address) was an address in Australia, that address remains the address for service of the applicant or opponent for the purposes of this Act until he or she notifies another address to the Registrar under section 215."
+    },
+    {
+      "content_hash": "sha256:fd1891348ef730dc487f2b98c715a3bbb5637595319ca62dcaee6a58e9d980d4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 32,
+          "start": 24,
+          "text": "opponent",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s260(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s260(1)~1",
+      "style": "notetext",
+      "text": "Note: For applicant and opponent see section 6."
+    },
+    {
+      "content_hash": "sha256:fd54fe954108e7de727aa523b7f368c37ea506eb13f84b56aa3f3362838a077f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s260(2)",
+      "style": "subsection",
+      "text": "(2) If the existing address of an applicant for the registration of a trade mark or of an opponent to the registration is not an address in Australia, the applicant or opponent must give in writing to the Registrar an address in Australia as his or her address for service."
+    },
+    {
+      "content_hash": "sha256:a79635936f53f6dfbf3ce3b5118b199a3a60cf63ae74be8435901b3643c194b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "section 215"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s70(1)",
+          "mention": "subsection 70(1)"
+        }
+      ],
+      "ref": "TMA1995/s260(3)",
+      "style": "subsection",
+      "text": "(3) If, immediately before 1 January 1996, the proprietor of an existing registered mark had an agent in Australia for the purposes of subsection 70(1) of the repealed Act, the address of that agent is the address for service of the registered owner of the mark for the purposes of this Act until the registered owner notifies another address to the Registrar under section 215."
+    },
+    {
+      "content_hash": "sha256:4101ae20ff15a88819162b840ff47f43c6d70f3cf9d3f639a4f89b709ae37195",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s260(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s260(3)~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark see section 6."
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s260(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:fd573323cd8ad374c5e38991b97c0fd884c159e5820fa4eb612278676282fcac",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s260(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s70(1)",
+          "mention": "subsection 70(1)"
+        }
+      ],
+      "ref": "TMA1995/s260(4)(a)",
+      "style": "paragraph",
+      "text": "(a) immediately before 1 January 1996, the proprietor of an existing registered mark did not have an agent in Australia for the purposes of subsection 70(1) of the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:b6384b45d1b9587c11da718d912972588e802fbca884ba0749027796dbc2e5d5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s260(4)",
+      "ref": "TMA1995/s260(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the address then entered in the old register as the address of the proprietor was an address in Australia;"
+    },
+    {
+      "content_hash": "sha256:62d3fabafc12d161ee0a11fa3173d956459d1ff59681c1422526e9e91f8715fb",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "section 215"
+        }
+      ],
+      "ref": "TMA1995/s260~1",
+      "style": "subsection2",
+      "text": "that address is the address for service of the registered owner of the mark for the purposes of this Act until the registered owner notifies another address to the Registrar under section 215."
+    },
+    {
+      "content_hash": "sha256:79bb3822b970804ece5ff903966bb1665bf69cc7883528d04c5e59cd146b9f6b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 51,
+          "start": 39,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s260~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s260~1~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark and old register see section 6."
+    },
+    {
+      "content_hash": "sha256:d5b32294abcaec5637769ca050e4fa4cf8769964bdd2fc35ab12e058bdacb7aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s260(5)",
+      "style": "subsection",
+      "text": "(5) If:"
+    },
+    {
+      "content_hash": "sha256:fd573323cd8ad374c5e38991b97c0fd884c159e5820fa4eb612278676282fcac",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s260(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s70(1)",
+          "mention": "subsection 70(1)"
+        }
+      ],
+      "ref": "TMA1995/s260(5)(a)",
+      "style": "paragraph",
+      "text": "(a) immediately before 1 January 1996, the proprietor of an existing registered mark did not have an agent in Australia for the purposes of subsection 70(1) of the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:f4c90fa2d58516f2df154117b600c81b3d86c6bb8cc2be654cf28b1233903339",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s260(5)",
+      "ref": "TMA1995/s260(5)(b)",
+      "style": "paragraph",
+      "text": "(b) the address then entered in the old register as the address of the proprietor was not an address in Australia;"
+    },
+    {
+      "content_hash": "sha256:8dff47e6e8908a8f6dcde440da2560aaba1c04ee35ca8a9cbbdd96f097a5e8a3",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s260~2",
+      "style": "subsection2",
+      "text": "that address is not to be used as the address for service of the registered owner of the mark, and the registered owner must give in writing to the Registrar an address in Australia as his or her address for service."
+    },
+    {
+      "content_hash": "sha256:79bb3822b970804ece5ff903966bb1665bf69cc7883528d04c5e59cd146b9f6b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 51,
+          "start": 39,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s260~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s260~2~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark and old register see section 6."
+    }
+  ]
+}

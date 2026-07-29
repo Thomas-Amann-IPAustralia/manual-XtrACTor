@@ -1,0 +1,159 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:3015d2d0d314ef98157c45f709d8716c027f0067d064565dcc2b4367dd9b1787",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.15  Claim for priority"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.15",
+  "ref": "TMR1995/r17A.15",
+  "text": "(1) If: (a) a person has made an application for the registration of a trade mark in 1 or more Convention countries; and (b) within 6 months after the day on which that application, or the first of those applications, was made, that person or another person (successor in title) of whom that person is a predecessor in title makes an IRDA in respect of some or all of the goods, services or goods and services in respect of which registration was sought in that country or those countries; that person or that person’s successor in title may claim a right of priority for the protection of the trade mark in respect of any or all of those goods, services or goods and services. (2) The right of priority must be claimed in the IRDA that is notified to the Registrar in accordance with this Division. Note: Rule 9(4)(iv) of the Madrid Regulations contains requirements relating to claims for priority. (3) The priority claimed is for the protection of the trade mark in respect of the goods, services or goods and services: (a) if an application to register the trade mark was made in only 1 Convention country—from (and including) the day on which the application was made in that country; or (b) if applications to register the trade mark were made in more than 1 Convention country—from (and including) the day on which the earliest of those applications was made. Note: For Convention country see section 225 of the Act.",
+  "title": "Claim for priority",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.15(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:5ab94cbe2084ba4c84d6f94c670df8c0e26bcf3e33caee83565f11d45f04eaf3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.15(1)",
+      "ref": "TMR1995/r17A.15(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a person has made an application for the registration of a trade mark in 1 or more Convention countries; and"
+    },
+    {
+      "content_hash": "sha256:cfb3d445c53ca88407d750b1400d51eeb44ff883703ae348ef36fe04d855f4c1",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 156,
+          "start": 138,
+          "text": "successor in title",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.15(1)",
+      "ref": "TMR1995/r17A.15(1)(b)",
+      "style": "paragraph",
+      "text": "(b) within 6 months after the day on which that application, or the first of those applications, was made, that person or another person (successor in title) of whom that person is a predecessor in title makes an IRDA in respect of some or all of the goods, services or goods and services in respect of which registration was sought in that country or those countries;"
+    },
+    {
+      "content_hash": "sha256:b8ef38e9d78c9b78e374dfdf0bbe6537f13ab089bcd416b6a9a81798ec9672d8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.15~1",
+      "style": "subsection2",
+      "text": "that person or that person’s successor in title may claim a right of priority for the protection of the trade mark in respect of any or all of those goods, services or goods and services."
+    },
+    {
+      "content_hash": "sha256:1b909b2072b2e0a5bcd6d391334601846babd6c6400acfcb1c4057aba7f06142",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.15(2)",
+      "style": "subsection",
+      "text": "(2) The right of priority must be claimed in the IRDA that is notified to the Registrar in accordance with this Division."
+    },
+    {
+      "content_hash": "sha256:34a09348980c1c3d81784efa981fb95d3f9ae8993c3e7c2ecaf047ff45979afb",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.15(2)",
+      "ref": "TMR1995/r17A.15(2)~1",
+      "style": "notetext",
+      "text": "Note: Rule 9(4)(iv) of the Madrid Regulations contains requirements relating to claims for priority."
+    },
+    {
+      "content_hash": "sha256:3ef30e045554abb06bae5f5a72b5a8409c152bbb71cd4f49d0389774865732b0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.15(3)",
+      "style": "subsection",
+      "text": "(3) The priority claimed is for the protection of the trade mark in respect of the goods, services or goods and services:"
+    },
+    {
+      "content_hash": "sha256:7a1663e9bfa7b9fc1867ff09a098903b065031248570281c4d95386bb7a8795b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.15(3)",
+      "ref": "TMR1995/r17A.15(3)(a)",
+      "style": "paragraph",
+      "text": "(a) if an application to register the trade mark was made in only 1 Convention country—from (and including) the day on which the application was made in that country; or"
+    },
+    {
+      "content_hash": "sha256:1d713fb3e453e324812e157156edd4b235a63868bd5f2876842d578d3c9afde6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.15(3)",
+      "ref": "TMR1995/r17A.15(3)(b)",
+      "style": "paragraph",
+      "text": "(b) if applications to register the trade mark were made in more than 1 Convention country—from (and including) the day on which the earliest of those applications was made."
+    },
+    {
+      "content_hash": "sha256:d1b75b1e15cb5be8063daf9054dd22133b33ac2a63bfa74331b0efaabf0fdc2f",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 10,
+          "text": "Convention country",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.15(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225",
+          "mention": "section 225"
+        }
+      ],
+      "ref": "TMR1995/r17A.15(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: For Convention country see section 225 of the Act."
+    }
+  ]
+}
