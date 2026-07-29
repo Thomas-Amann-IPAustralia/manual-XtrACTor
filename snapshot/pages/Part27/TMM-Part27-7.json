@@ -33,6 +33,32 @@
         "TMM/Part12/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 84,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s44.html",
+          "start": 79,
+          "text": "s 44."
+        },
+        {
+          "end": 525,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:45",
+          "start": 523,
+          "text": "45"
+        },
+        {
+          "end": 532,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:46",
+          "start": 530,
+          "text": "46"
+        },
+        {
+          "end": 1239,
+          "href": "/trademark/1.-divisional-applications---general",
+          "start": 1208,
+          "text": "Part 12 Divisional Applications"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part27/7",
       "provisions": [
@@ -62,9 +88,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:dabb7509b9df7c1f42d6e0504be38f19da97a0b8016cdfc8d237b1548e7b70f6",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "27.7. Dividing the application",
     "images": [],
     "last_amended": "2023-10-10",

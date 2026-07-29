@@ -52,6 +52,68 @@
         "TMM/Part35/6"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 169,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s178.html",
+          "start": 158,
+          "text": "section 178"
+        },
+        {
+          "end": 318,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s16.8.html",
+          "start": 310,
+          "text": "reg 16.8"
+        },
+        {
+          "end": 432,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s16.8.html",
+          "start": 421,
+          "text": "reg 16.8(2)"
+        },
+        {
+          "end": 582,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s178.html",
+          "start": 568,
+          "text": "section 178(2)"
+        },
+        {
+          "end": 770,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s175.html",
+          "start": 756,
+          "text": "section 175(2)"
+        },
+        {
+          "end": 784,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s16.10.html",
+          "start": 772,
+          "text": "reg 16.10(1)"
+        },
+        {
+          "end": 1046,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s178.html",
+          "start": 1032,
+          "text": "section 178(3)"
+        },
+        {
+          "end": 1469,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s178.html",
+          "start": 1455,
+          "text": "section 178(5)"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part35/8",
       "provisions": [
@@ -104,9 +166,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:2ad9dbec703c57d859e525d96695e541ec48b6a74da0fc96fcdb7beb92fb7cbd",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "35.8. Variation of rules",
     "images": [],
     "last_amended": "2026-02-11",

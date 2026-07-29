@@ -68,6 +68,38 @@
         "TMM/Part24/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 362,
+          "href": "/trademark/3.-effect-of-a-disclaimer-on-registration#1",
+          "start": 361,
+          "text": "1"
+        },
+        {
+          "end": 821,
+          "href": "/trademark/3.-effect-of-a-disclaimer-on-registration#2",
+          "start": 820,
+          "text": "2"
+        },
+        {
+          "end": 962,
+          "href": "/trademark/3.-effect-of-a-disclaimer-on-registration#3",
+          "start": 961,
+          "text": "3"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part24/3",
       "provisions": [
@@ -92,9 +124,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:1775fcbbcb0f363b39f539ae66a3b12fb7b06165d2c0baa170d7c8341f2da8d4",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-02-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 24.3. Effect of a disclaimer on registration",
     "images": [],
     "last_amended": "2025-02-20",

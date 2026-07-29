@@ -20,6 +20,14 @@
         "TMM/Part5/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 97,
+          "href": "/trademark/1.-background1",
+          "start": 54,
+          "text": "Part 5 Data capture, indexing and scanning."
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/4",
       "provisions": [],
@@ -47,6 +55,14 @@
         "TMM/Part5/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 403,
+          "href": "/trademark/1.-background1",
+          "start": 361,
+          "text": "Part 5 Data Capture, Indexing and Scanning"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/4",
       "provisions": [],
@@ -58,9 +74,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:59ea575ffec28603514d68fa04c3673c5a728fbef48ed18e6d4cb636e2058cac",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.4 Indexing",
     "images": [],
     "last_amended": "2026-04-17",

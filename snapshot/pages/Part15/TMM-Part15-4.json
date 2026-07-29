@@ -37,6 +37,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 11,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 0,
+          "text": "Section 224"
+        },
+        {
+          "end": 222,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 208,
+          "text": "section 224(4)"
+        },
+        {
+          "end": 415,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.25.html",
+          "start": 405,
+          "text": "reg. 21.25"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part15/4",
       "provisions": [
@@ -87,6 +107,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part15/4",
       "provisions": [
@@ -119,6 +140,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part15/4",
       "provisions": [],
@@ -150,6 +172,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part15/4",
       "provisions": [
@@ -208,6 +231,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part15/4",
       "provisions": [],
@@ -303,6 +327,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 1528,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:203",
+          "start": 1517,
+          "text": "section 203"
+        }
+      ],
       "ordinal": 6,
       "page_ref": "TMM/Part15/4",
       "provisions": [
@@ -321,9 +353,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:b9f9ca52311ed246995222c703141852162d561117a2a73d2b898f16d3c24e3d",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "15.4. Grounds on which the Registrar may grant an extension of time",
     "images": [],
     "last_amended": "2022-04-20",

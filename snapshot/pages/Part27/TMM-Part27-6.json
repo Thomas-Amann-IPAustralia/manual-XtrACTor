@@ -31,6 +31,20 @@
         "TMM/Part60/4/20"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 544,
+          "href": "/trademark/1.-what-if-a-trade-mark-is-not-used-",
+          "start": 489,
+          "text": "Part 48 Removal of Trade Mark from Register for Non-Use"
+        },
+        {
+          "end": 622,
+          "href": "/trademark/4.20-cessation-of-protection-because-of-non-use",
+          "start": 575,
+          "text": "4.20 Cessation of Protection because of Non-Use"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part27/6",
       "provisions": [],
@@ -42,9 +56,9 @@
     "amendment_note": "Content Updated",
     "archived": false,
     "content_hash": "sha256:de54900a221d4aa975e0e6fc470d68cdce84cc9f7f73246e1e4860d9ce55127b",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2024-11-21",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "27.6. Removal of the conflicting trade mark",
     "images": [],
     "last_amended": "2024-11-21",

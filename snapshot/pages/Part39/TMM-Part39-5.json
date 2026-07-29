@@ -43,6 +43,32 @@
         "TMM/Part12/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1255,
+          "href": "/trademark/1.-applications-in-australia-convention-applications-where-the-applicant-claims-a-right-of-priority-on-the-basis-of-an-application-in-a-convention-country",
+          "start": 1224,
+          "text": "Part 11 Convention Applications"
+        },
+        {
+          "end": 1287,
+          "href": "/trademark/1.-divisional-applications---general",
+          "start": 1256,
+          "text": "Part 12 Divisional Applications"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part39/5",
       "provisions": [
@@ -85,9 +111,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:3f2cc2de5660928c59c7fa69f11a84667774088da5f0fe3ffefeafd91acebdc7",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 39.5. Date and term of registration",
     "images": [],
     "last_amended": "2025-06-04",

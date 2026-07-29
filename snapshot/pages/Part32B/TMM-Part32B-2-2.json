@@ -53,6 +53,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 72,
+          "href": "https://www.legislation.gov.au/C2004A02362/latest/text",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part32B/2/2",
       "provisions": [
@@ -147,6 +167,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part32B/2/2",
       "provisions": [],
@@ -158,9 +179,9 @@
     "amendment_note": "Hyperlinks fixed.",
     "archived": false,
     "content_hash": "sha256:62de00f6d772e0df54887bc9b50478955a3a96a95ddaa24d1eb1b200a12d40dc",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "32B.2.2 Section 43: Deception and Confusion",
     "images": [],
     "last_amended": "2025-01-10",

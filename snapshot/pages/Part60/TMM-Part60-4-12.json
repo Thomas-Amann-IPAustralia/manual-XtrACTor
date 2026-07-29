@@ -57,6 +57,50 @@
         "TMM/Part15/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 32,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 21,
+          "text": "Section 224"
+        },
+        {
+          "end": 88,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.6.html",
+          "start": 80,
+          "text": "Reg 21.6"
+        },
+        {
+          "end": 111,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.25.html",
+          "start": 102,
+          "text": "Reg 21.25"
+        },
+        {
+          "end": 153,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.28.html",
+          "start": 144,
+          "text": "Reg 21.28"
+        },
+        {
+          "end": 213,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.33.html",
+          "start": 204,
+          "text": "Reg 21.33"
+        },
+        {
+          "end": 268,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.20.html",
+          "start": 249,
+          "text": "Reg 17A.20 (3), (4)"
+        },
+        {
+          "end": 436,
+          "href": "/trademark/1.-when-the-general-provision-applies",
+          "start": 388,
+          "text": "Part 15 General Provisions for Extension of Time"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/12",
       "provisions": [
@@ -119,6 +163,14 @@
         "TMM/Part15/4"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 343,
+          "href": "/trademark/4.-grounds-on-which-the-registrar-may-grant-an-extension-of-time",
+          "start": 271,
+          "text": "Part 15 .4 Grounds on which the Registrar may grant an extension of time"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/12",
       "provisions": [],
@@ -130,9 +182,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:d565871aa455559b2ece759ece0a47c2069b1bf9d25cdf2ddd8eeab474729c8f",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.12 Extension of Time",
     "images": [],
     "last_amended": "2026-04-17",

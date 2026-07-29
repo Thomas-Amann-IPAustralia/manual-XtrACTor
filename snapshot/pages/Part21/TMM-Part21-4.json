@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -83,6 +84,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -177,6 +179,20 @@
         "TMM/Part10/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1475,
+          "href": "/trademark/3.-representation-of-the-trade-mark---general",
+          "start": 1410,
+          "text": "3.1 A graphical representation of the trade mark will be required"
+        },
+        {
+          "end": 1498,
+          "href": "/trademark/3.-representation-of-the-trade-mark---general",
+          "start": 1476,
+          "text": "3.5 Colour trade marks"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -216,6 +232,20 @@
         "TMM/Part21/3/3/7"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 216,
+          "href": "/trademark/3.-shape-three-dimensional-trade-marks#3.7-researching-shape-marks-for-section-41",
+          "start": 205,
+          "text": "paragraph 3"
+        },
+        {
+          "end": 747,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s41.html",
+          "start": 731,
+          "text": "subsection 41(5)"
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part21/4",
       "provisions": [
@@ -262,6 +292,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -311,6 +342,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part21/4",
       "provisions": [
@@ -353,6 +385,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -379,6 +412,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -408,6 +442,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 9,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -437,6 +472,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -479,6 +515,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 11,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -529,6 +566,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 12,
       "page_ref": "TMM/Part21/4",
       "provisions": [
@@ -567,6 +605,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 13,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -607,6 +646,14 @@
         "TMM/Part23/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 145,
+          "href": "/trademark/1.-introduction8",
+          "start": 127,
+          "text": "Part 23 - Evidence"
+        }
+      ],
       "ordinal": 14,
       "page_ref": "TMM/Part21/4",
       "provisions": [],
@@ -618,9 +665,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:b4c5ab70b103856ddf0448302d7f44feb92127fad4f03bc14c5c090ac0d09c8c",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "21.4. Colour and coloured trade marks",
     "images": [],
     "last_amended": "2022-04-20",

@@ -78,6 +78,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "landing",
+      "links": [
+        {
+          "end": 81,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 27,
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "end": 348,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 286,
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part10/x-relevant-legislation21",
       "provisions": [
@@ -162,9 +176,9 @@
     "amendment_note": "Rename to Landing page, add published date and Act/Reg links.",
     "archived": false,
     "content_hash": "sha256:43743d55b8359711bf8fff1a0f3db13d38d2154336b2f07477e04c4e9936b7a5",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "10. Landing Page",
     "images": [],
     "last_amended": "2025-01-17",

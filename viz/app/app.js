@@ -52,6 +52,103 @@ function marked(text, needle) {
 }
 
 const SOURCE_ROOT = 'https://manuals.ipaustralia.gov.au';
+const SOURCE_HOST = 'manuals.ipaustralia.gov.au';
+
+/** `fetch.normalise_url`, in the browser: the key a Manual URL is known by.
+ *
+ * Absolutises against the site root, drops query and fragment, lowercases the
+ * host, strips a trailing slash, and forces the scheme on the Manual's own
+ * host — which links to itself as `http://`, `https://` and relative paths
+ * indifferently. Mirrors the pipeline because it has to agree with it: this is
+ * how a link's href finds the page the snapshot filed it under.
+ */
+function normaliseUrl(href) {
+  try {
+    const url = new URL(String(href), SOURCE_ROOT);
+    const host = url.hostname.toLowerCase();
+    const scheme = host === SOURCE_HOST ? 'https' : url.protocol.replace(':', '');
+    let path = url.pathname || '/';
+    if (path.length > 1) path = path.replace(/\/+$/, '');
+    return `${scheme}://${host}${url.port ? ':' + url.port : ''}${path}`;
+  } catch (err) {
+    return null;
+  }
+}
+
+/** A link's href as something a browser can follow: absolute, fragment kept. */
+function absoluteHref(href) {
+  try {
+    return new URL(String(href), SOURCE_ROOT).href;
+  } catch (err) {
+    return String(href);
+  }
+}
+
+/** Where each block's text sits in `chunk.text`.
+ *
+ * Derived, not stored — the snapshot's own contract is that joining the
+ * blocks' text with single spaces reproduces `text` exactly, so the offsets
+ * follow from the lengths. Blocks with no text (images) contribute nothing and
+ * no separator, which is the same step the join in `validate.py` takes.
+ *
+ * This is the join that lets a chunk-level link offset find the block it falls
+ * in. Nothing is added to a chunk to make it work — viz/README.md.
+ */
+function blockStarts(chunk) {
+  const starts = [];
+  let at = 0;
+  for (const block of chunk.blocks || []) {
+    if (typeof block.text !== 'string') { starts.push(null); continue; }
+    starts.push(at);
+    at += block.text.length + 1;
+  }
+  return starts;
+}
+
+/** Text with the Manual's own hyperlinks put back, and the search term marked.
+ *
+ * `links` carry offsets into `chunk.text`; `offset` says where this run of
+ * text starts in it. A link is drawn only where the snapshot's own words agree
+ * with the text at those offsets — if a stale bundle is being served against a
+ * newer snapshot, the reader gets the prose rather than a link pointing at the
+ * wrong words.
+ */
+function linked(text, offset, links, needle) {
+  const inside = (links || []).filter((link) =>
+    link.end > link.start &&
+    link.start >= offset &&
+    link.end <= offset + text.length &&
+    text.slice(link.start - offset, link.end - offset) === link.text);
+  if (!inside.length) return marked(text, needle);
+
+  const frag = document.createDocumentFragment();
+  let at = 0;
+  for (const link of inside) {
+    const start = link.start - offset;
+    if (start < at) continue;                       // overlaps the one before it
+    if (start > at) frag.append(marked(text.slice(at, start), needle));
+    frag.append(sourceLink(link, needle));
+    at = link.end - offset;
+  }
+  frag.append(marked(text.slice(at), needle));
+  return frag;
+}
+
+/** One anchor, as the Manual set it. Internal targets stay in the viewer. */
+function sourceLink(link, needle) {
+  const target = INDEX.pageByUrl.get(normaliseUrl(link.href));
+  if (target) {
+    return h('a', {
+      class: 'src-link', href: hashFor(['page', target]),
+      title: `${link.href} — in this snapshot as ${target}`,
+      onclick: (e) => { e.preventDefault(); go(['page', target]); },
+    }, marked(link.text, needle));
+  }
+  return h('a', {
+    class: 'src-link out', href: absoluteHref(link.href), rel: 'noreferrer',
+    title: link.href,
+  }, marked(link.text, needle));
+}
 
 const AUSTLII = {
   TMA1995: 'https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/',
@@ -73,6 +170,7 @@ const INSTRUMENT_NAMES = {
 const DATA = { manual: null, chunks: null, ready: false };
 const INDEX = {
   pageByRef: new Map(),
+  pageByUrl: new Map(),   // normalised url -> page_ref, so a link's href finds its page
   chunkByRef: new Map(),
   chunksByPage: new Map(),
   partByRef: new Map(),
@@ -203,6 +301,8 @@ async function boot() {
   for (const page of DATA.manual.pages) {
     INDEX.pageByRef.set(page.page_ref, page);
     INDEX.partByRef.set(page.page_ref, page.part_id);
+    const key = normaliseUrl(page.url);
+    if (key && !INDEX.pageByUrl.has(key)) INDEX.pageByUrl.set(key, page.page_ref);
   }
   renderCorpus();
   buildControls();
@@ -691,7 +791,7 @@ function chunkPreview(chunk) {
   if (chunk.heading_path.length > 1) {
     frag.append(h('p', { class: 'hint', text: chunk.heading_path.join('  ›  ') }));
   }
-  frag.append(h('div', { class: 'prose' }, h('p', {}, marked(chunk.text, S.q))));
+  frag.append(h('div', { class: 'prose' }, h('p', {}, linked(chunk.text, 0, chunk.links, S.q))));
   frag.append(citationBlock(chunk));
   frag.append(h('p', { style: 'margin-top:.8rem' },
     h('button', { class: 'link-btn', text: 'Open this chunk in full →', onclick: () => go(['chunk', chunk.chunk_ref]) })));
@@ -777,7 +877,7 @@ function viewChunk(chunkRef) {
   // The index carries `text` and not `blocks`, so the flat string paints at
   // once and the structure replaces it when the page file lands. If that fetch
   // fails the reader is left with the passage rather than with a spinner.
-  const prose = h('div', { class: 'prose' }, h('p', {}, marked(chunk.text, S.q)));
+  const prose = h('div', { class: 'prose' }, h('p', {}, linked(chunk.text, 0, chunk.links, S.q)));
   const verbatim = h('div', {});
 
   const container = h('div', {},
@@ -790,6 +890,7 @@ function viewChunk(chunkRef) {
         meta('Heading source', chunk.heading_source || 'none (lead-in prose)'),
         meta('Kind', chunk.kind || 'body'),
         meta('Words', num(chunk.text.split(/\s+/).filter(Boolean).length)),
+        meta('Links', chunk.links && chunk.links.length ? num(chunk.links.length) : 'none'),
         meta('Content hash', (chunk.content_hash || '').replace('sha256:', '').slice(0, 16) + '…'),
         h('div', {}, h('dt', { text: 'On the page' }),
           h('dd', {}, h('a', {
@@ -829,15 +930,20 @@ function viewChunk(chunkRef) {
 function renderBlocks(chunk) {
   const frag = document.createDocumentFragment();
   const blocks = chunk.blocks || [];
-  if (!blocks.length) return h('p', {}, marked(chunk.text, S.q));
+  const links = chunk.links || [];
+  if (!blocks.length) return h('p', {}, linked(chunk.text, 0, links, S.q));
 
   const tables = chunk.tables || [];
+  const starts = blockStarts(chunk);
   let tableAt = 0;
   let stack = [];   // [{depth, list}]
+  let index = -1;
 
   const closeTo = (depth) => { while (stack.length && stack[stack.length - 1].depth > depth) stack.pop(); };
+  const words = (block, i) => linked(block.text, starts[i], links, S.q);
 
   for (const block of blocks) {
+    index += 1;
     if (block.kind === 'list_item') {
       const depth = block.depth || 1;
       closeTo(depth);
@@ -852,16 +958,16 @@ function renderBlocks(chunk) {
         }
         stack.push({ depth, list });
       }
-      stack[stack.length - 1].list.append(h('li', {}, marked(block.text, S.q)));
+      stack[stack.length - 1].list.append(h('li', {}, words(block, index)));
       continue;
     }
 
     stack = [];
     if (block.kind === 'heading') {
-      frag.append(h('h5', {}, marked(block.text, S.q)));
+      frag.append(h('h5', {}, words(block, index)));
     } else if (block.kind === 'table') {
       const grid = tables[tableAt++];
-      frag.append(grid ? renderTable(grid) : h('p', {}, marked(block.text, S.q)));
+      frag.append(grid ? renderTable(grid, starts[index], links) : h('p', {}, words(block, index)));
     } else if (block.kind === 'image') {
       frag.append(h('p', { class: 'img-note' },
         'Image in the source at this point',
@@ -869,20 +975,31 @@ function renderBlocks(chunk) {
         '. The bytes are not in the snapshot: ',
         h('a', { href: SOURCE_ROOT + block.src, rel: 'noreferrer', text: block.src })));
     } else {
-      frag.append(h('p', {}, marked(block.text, S.q)));
+      frag.append(h('p', {}, words(block, index)));
     }
   }
   return frag;
 }
 
-function renderTable(grid) {
+/** The grid, with any links in its cells put back.
+ *
+ * A cell's place in `chunk.text` follows from the same join the blocks do: the
+ * table block's text is its non-empty cells joined with single spaces, in
+ * document order. `offset` is where the whole table starts; a cell holding no
+ * words contributes neither text nor separator.
+ */
+function renderTable(grid, offset, links) {
+  let at = offset === undefined || offset === null ? null : offset;
   const rows = (grid.cells || []).map((row, r) => h('tr', {}, row.map((cell) => {
     const tag = grid.header_row === r ? 'th' : 'td';
+    const text = cell.text || '';
+    const start = at;
+    if (at !== null && text) at += text.length + 1;
     return h(tag, {
       colspan: cell.colspan || null,
       rowspan: cell.rowspan || null,
       scope: tag === 'th' ? 'col' : null,
-    }, marked(cell.text || '', S.q));
+    }, start === null ? marked(text, S.q) : linked(text, start, links, S.q));
   })));
   return h('div', { class: 'scroll-x' },
     h('table', { class: 'tm-table' },
@@ -899,10 +1016,12 @@ function reassembled(page, doc) {
   let previous = [];
   let blockCount = 0;
   let tableCount = 0;
+  let linkCount = 0;
 
   for (const chunk of chunks) {
     blockCount += (chunk.blocks || []).length;
     tableCount += (chunk.tables || []).length;
+    linkCount += (chunk.links || []).length;
 
     // The mark opens the chunk, so it precedes the headings: a heading in
     // heading_path is the new chunk's own, and putting the rule after it read
@@ -926,7 +1045,7 @@ function reassembled(page, doc) {
 
   return h('section', { class: 'card', style: 'padding:1.2rem 1.4rem' },
     h('p', { class: 'hint' },
-      `Reassembled from ${plural(chunks.length, 'chunk')}, ${plural(blockCount, 'block')} and ${plural(tableCount, 'table')} — in ordinal order, with headings taken from each chunk's own ancestry. Nothing is added: each dashed rule opens a chunk and everything below it down to the next rule — heading included — is that chunk, and every one of them is a passage you can address, filter and cite on its own.`),
+      `Reassembled from ${plural(chunks.length, 'chunk')}, ${plural(blockCount, 'block')}, ${plural(tableCount, 'table')} and ${plural(linkCount, 'link')} — in ordinal order, with headings taken from each chunk's own ancestry. Nothing is added: each dashed rule opens a chunk and everything below it down to the next rule — heading included — is that chunk, and every one of them is a passage you can address, filter and cite on its own. The hyperlinks are the Manual's, drawn at the offsets each chunk's links record; one naming a page in this snapshot opens it here rather than on the live site.`),
     chunks.length ? body : h('p', { class: 'busy', text: 'This page has no chunks to reassemble.' }),
     h('p', { class: 'hint', style: 'margin-top:1.2rem' },
       'Compare with ', h('a', { href: page.url, rel: 'noreferrer', text: 'the live page' }), '.'));

@@ -123,6 +123,50 @@
         "TMM/Part9/7"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 232,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s84.html",
+          "start": 231,
+          "text": ")"
+        },
+        {
+          "end": 1313,
+          "href": "/trademark/1.-how-a-document-is-filed",
+          "start": 1279,
+          "text": "Part 2 General Filing Requirements"
+        },
+        {
+          "end": 1775,
+          "href": "/trademark/7.-changes-of-name-address-and-address-for-service",
+          "start": 1725,
+          "text": "7. Change of name, address and address for service"
+        },
+        {
+          "end": 2043,
+          "href": "/trademark/1.-what-is-assignment-and-transmission-",
+          "start": 2008,
+          "text": "Part 43 Assignment and Transmission"
+        },
+        {
+          "end": 2095,
+          "href": "/trademark/1.-background",
+          "start": 2044,
+          "text": "Part 44 Claim of Interest or Rights in a Trade Mark"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part41/3",
       "provisions": [
@@ -202,6 +246,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part41/3",
       "provisions": [
@@ -220,9 +265,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:182a4c6e0027526cfa776abd9070704f783382ac886dc1353c2e9c4b0e281bc4",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 41.3. Cancellation process",
     "images": [],
     "last_amended": "2025-02-10",

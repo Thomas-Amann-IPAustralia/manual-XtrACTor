@@ -69,6 +69,32 @@
         "TMM/Part60/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 100,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s44.html",
+          "start": 95,
+          "text": "s 44,"
+        },
+        {
+          "end": 987,
+          "href": "/trademark/1.-introduction4",
+          "start": 980,
+          "text": "Part 28"
+        },
+        {
+          "end": 1392,
+          "href": "/trademark/1.-introduction",
+          "start": 1385,
+          "text": "Part 60"
+        },
+        {
+          "end": 1436,
+          "href": "/trademark/1.-introduction",
+          "start": 1409,
+          "text": "Part 60 The Madrid Protocol"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part27/1",
       "provisions": [
@@ -86,9 +112,9 @@
     "amendment_note": "Content updated.",
     "archived": false,
     "content_hash": "sha256:775af15479290cadca0c0963f89bc7de96cbbab1415a02e836b9a72c14032679",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "27.1. Introduction",
     "images": [],
     "last_amended": "2023-10-10",

@@ -423,3 +423,73 @@ def test_blocks_that_add_back_up_pass(tmp_path):
         },
     )
     assert validate_snapshot(tmp_path) == []
+
+
+# -- links whose offsets have drifted --------------------------------------
+
+
+def test_a_link_whose_offsets_name_other_words_is_caught(tmp_path):
+    """The offsets are what put a hyperlink back where the Manual set it. One
+    that has drifted underlines the wrong words and is well-formed while doing
+    it, so the schema cannot see it and this is the only check that can."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="Under section 217A a fee applies.",
+                    links=[
+                        {
+                            "href": "/act/s217a",
+                            "text": "section 217A",
+                            "start": 5,
+                            "end": 17,
+                        }
+                    ],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "name different words")
+
+
+def test_a_link_running_past_the_end_of_the_text_is_caught(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="Short.",
+                    links=[
+                        {"href": "/a", "text": "Short.", "start": 0, "end": 40}
+                    ],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "is not a span of a")
+
+
+def test_a_link_that_names_its_own_words_passes(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="Under section 217A a fee applies.",
+                    links=[
+                        {
+                            "href": "/act/s217a",
+                            "text": "section 217A",
+                            "start": 6,
+                            "end": 18,
+                        }
+                    ],
+                )
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []

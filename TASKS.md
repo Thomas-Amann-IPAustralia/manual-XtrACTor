@@ -247,6 +247,43 @@ implementing any of it, raise the scope question rather than deciding it.
 
 ---
 
+## T12 — Provision hrefs that are not AustLII
+
+**Not started.** Opened by the 0.7.0 review so the gap is tracked rather than
+rediscovered. It is a change to what `extraction: "href"` asserts, which is why
+it was not folded into the change that found it.
+
+`citations._href_edges` reads one URL shape — an AustLII `consol_act` or
+`consol_reg` node — and that is what makes a provision edge `href` rather than
+`regex`. The Manual also links its provisions to TimeBase (101 anchors,
+`?id=tmact:217a`) and to the Federal Register of Legislation (475 anchors,
+`C2004A04969`), and every one of those references currently reaches the
+snapshot through the prose alone, at `default` or `ambiguous`. Part 61.2 is the
+worked case: three references to section 217A, two of them hyperlinked, all
+three recorded as a guess. `SOURCE_NOTES.md` §29.
+
+Since `ingest/0.7.0` every one of those hrefs is in `chunk.links`, so the work
+is now a reading of the snapshot rather than a re-crawl.
+
+Two things to settle before writing any of it, both of which are decisions and
+not implementation details:
+
+1. **A TimeBase id names a provision; a Federal Register id names an
+   instrument.** `?id=tmact:217a` is section 217A. `C2004A04969` is the Trade
+   Marks Act 1995 and nothing narrower, so a link to it is evidence about which
+   *instrument* an adjacent reference means — enough to lift `default` to
+   `explicit`, not to produce an edge on its own. Those are two different
+   changes and only the first produces an `href` edge.
+2. **`extraction` currently means one thing.** SCHEMA.md says an `href` edge is
+   the authors telling you what the paragraph is about, and a consumer filtering
+   on it is filtering for that. Adding a second URL vocabulary is fine; doing it
+   silently is not, because it changes what an existing filter returns.
+
+**Done:** not applicable — raise the scope question first, with counts, and
+decide 1 and 2 in `SCHEMA.md` before touching `citations.py`.
+
+---
+
 ## Not in scope
 
 Embeddings, vector stores, retrieval, ranking, an API, a UI, a chatbot, any LLM

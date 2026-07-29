@@ -168,6 +168,56 @@ def normalise_text(text: str) -> str:
     return " ".join(text.translate(_ZERO_WIDTH).replace("\xa0", " ").split())
 
 
+@dataclass
+class _Span:
+    """A tracked element and the range of parts its content occupies."""
+
+    tag: Tag
+    first: int
+    last: int
+
+
+def _flatten_parts(
+    node: Tag, track: frozenset[str]
+) -> tuple[list[str], list[_Span]]:
+    """The strings `flatten_text` joins, and where the tracked elements sit.
+
+    One walk, so that `flatten_text` and `flatten_spans` cannot drift into two
+    readings of the same tree. A span is recorded where its element opens, so
+    the spans come back in document order however deeply they nest.
+
+    A tracked element's own break separators are outside its span: they are the
+    gap between it and its neighbour, not part of its words.
+    """
+    parts: list[str] = []
+    spans: list[_Span] = []
+
+    def visit(item: object) -> None:
+        if isinstance(item, Comment):
+            return
+        if isinstance(item, NavigableString):
+            parts.append(str(item))
+            return
+        if not isinstance(item, Tag):
+            return
+        breaks = item.name in _TEXT_BREAK_TAGS
+        if breaks:
+            parts.append(" ")
+        span: _Span | None = None
+        if item.name in track:
+            span = _Span(item, len(parts), len(parts))
+            spans.append(span)
+        for child in item.children:
+            visit(child)
+        if span is not None:
+            span.last = len(parts)
+        if breaks:
+            parts.append(" ")
+
+    visit(node)
+    return parts, spans
+
+
 def flatten_text(node: Tag) -> str:
     """Element to normalised text, breaking on block elements only.
 
@@ -181,26 +231,99 @@ def flatten_text(node: Tag) -> str:
     whitespace already sits inside the text nodes — and block elements
     contribute one on each side.
     """
-    parts: list[str] = []
-
-    def visit(item: object) -> None:
-        if isinstance(item, Comment):
-            return
-        if isinstance(item, NavigableString):
-            parts.append(str(item))
-            return
-        if not isinstance(item, Tag):
-            return
-        breaks = item.name in _TEXT_BREAK_TAGS
-        if breaks:
-            parts.append(" ")
-        for child in item.children:
-            visit(child)
-        if breaks:
-            parts.append(" ")
-
-    visit(node)
+    parts, _ = _flatten_parts(node, frozenset())
     return normalise_text("".join(parts))
+
+
+def _normalised_positions(raw: str) -> tuple[str, list[int | None]]:
+    """`normalise_text`, and where in its output each input character landed.
+
+    The position list is `None` for a character the normalisation removed — a
+    zero-width, or a space swallowed by the run it belongs to — and the index
+    of the output character otherwise. It is what turns an element's place in
+    the source string into its place in the words, and it exists here, beside
+    the normalisation it mirrors, because the two must never disagree:
+    `tests/test_links.py` asserts the string it returns is `normalise_text`'s
+    over every saved page.
+    """
+    out: list[str] = []
+    at: list[int | None] = []
+    pending = False
+
+    for character in raw:
+        if ord(character) in _ZERO_WIDTH:
+            at.append(None)
+            continue
+        if character == "\xa0":
+            character = " "
+        if character.isspace():
+            # A run of whitespace becomes one space, and only once something
+            # has been emitted for it to follow — which is `str.split()`
+            # dropping the leading run, and `" ".join` collapsing the rest.
+            pending = bool(out)
+            at.append(None)
+            continue
+        if pending:
+            out.append(" ")
+            pending = False
+        at.append(len(out))
+        out.append(character)
+
+    return "".join(out), at
+
+
+def flatten_spans(
+    node: Tag, names: frozenset[str]
+) -> tuple[str, list[tuple[Tag, int, int]]]:
+    """`flatten_text`, plus where each named element's words sit in it.
+
+    Returns the text and, in document order, `(element, start, end)` such that
+    `text[start:end] == flatten_text(element)` — the element's own words, at
+    the offsets they occupy in the whole. That equality is the contract, and it
+    is checked over the whole snapshot in `validate._link_failures` rather than
+    only in a test, because an offset that has drifted by one is a citation
+    pointing at the wrong words and looks like nothing at all.
+
+    An element with no words of its own — the five empty `<a>` elements the CMS
+    has left in the corpus — comes back as an empty span at the point it sits,
+    which keeps the equality true rather than special-casing it away.
+    """
+    parts, spans = _flatten_parts(node, names)
+    raw = "".join(parts)
+
+    # Part index -> offset into `raw`, so a span's part boundaries become
+    # character boundaries.
+    offsets = [0]
+    for part in parts:
+        offsets.append(offsets[-1] + len(part))
+
+    text, positions = _normalised_positions(raw)
+
+    found: list[tuple[Tag, int, int]] = []
+    for span in spans:
+        emitted = [
+            position
+            for position in positions[offsets[span.first] : offsets[span.last]]
+            if position is not None
+        ]
+        if emitted:
+            found.append((span.tag, emitted[0], emitted[-1] + 1))
+            continue
+        # Nothing of this element survived normalisation, so it has no words to
+        # be found by — only a place. That place is where the next word starts,
+        # and the empty span there says 'a link sat here and said nothing',
+        # which is what the source says.
+        following = next(
+            (
+                position
+                for position in positions[offsets[span.last] :]
+                if position is not None
+            ),
+            len(text),
+        )
+        found.append((span.tag, following, following))
+
+    return text, found
 
 
 def extract_images(body: Tag) -> tuple[dict[str, str | None], ...]:

@@ -60,6 +60,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part13/1",
       "provisions": [
@@ -78,9 +92,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:9821dcddcc40f9bcbbeee5973d5951fde5fb263d8bcf65b8a5cd42a6081b0746",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "13.1. Series of Trade Marks - Act",
     "images": [],
     "last_amended": "2026-06-03",

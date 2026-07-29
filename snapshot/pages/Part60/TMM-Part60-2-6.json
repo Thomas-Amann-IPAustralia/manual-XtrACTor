@@ -47,6 +47,38 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 25,
+          "href": "https://www.wipo.int/wipolex/en/text/283483",
+          "start": 16,
+          "text": "Article 7"
+        },
+        {
+          "end": 99,
+          "href": "https://www.wipo.int/wipolex/en/text/596483",
+          "start": 92,
+          "text": "Rule 29"
+        },
+        {
+          "end": 135,
+          "href": "https://www.wipo.int/wipolex/en/text/596483",
+          "start": 128,
+          "text": "Rule 30"
+        },
+        {
+          "end": 170,
+          "href": "https://www.wipo.int/wipolex/en/text/596483",
+          "start": 163,
+          "text": "Rule 31"
+        },
+        {
+          "end": 272,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.42.html",
+          "start": 255,
+          "text": "Regulation 17A.42"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/2/6",
       "provisions": [
@@ -86,6 +118,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part60/2/6",
       "provisions": [],
@@ -111,6 +144,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part60/2/6",
       "provisions": [],
@@ -138,6 +172,14 @@
         "TMM/Part60/3/3/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 108,
+          "href": "/trademark/3.-the-basic-application-or-basic-registration-basic-trade-mark#3.3-five-year-dependency",
+          "start": 84,
+          "text": "3.3 Five Year Dependency"
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part60/2/6",
       "provisions": [],
@@ -149,9 +191,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:51cfdad3ee8a0d52e262ebaf83588497f1172d1fee1deb57e94d2da08919773f",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.2.6 Renewal",
     "images": [],
     "last_amended": "2026-04-17",

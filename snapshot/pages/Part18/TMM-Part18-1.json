@@ -26,6 +26,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part18/1",
       "provisions": [],
@@ -64,6 +78,20 @@
         "TMM/Part47/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 747,
+          "href": "/trademark/1.-overview-of-registration",
+          "start": 712,
+          "text": "Part 39 Registration of a Trademark"
+        },
+        {
+          "end": 806,
+          "href": "/trademark/1.-filing-a-notice-of-opposition",
+          "start": 748,
+          "text": "Part 47 Procedures for Opposing Registration or Protection"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part18/1",
       "provisions": [
@@ -115,6 +143,14 @@
         "TMM/Part52/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 499,
+          "href": "/trademark/1.-what-is-a-decision-",
+          "start": 451,
+          "text": "Part 52 Hearings, Decisions, Reasons and Appeals"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part18/1",
       "provisions": [
@@ -170,6 +206,14 @@
         "TMM/Part7/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 816,
+          "href": "/trademark/1.-withdrawal-of-an-application-notice-or-request",
+          "start": 761,
+          "text": "Part 7 Withdrawal of Applications, Notices and Requests"
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part18/1",
       "provisions": [
@@ -267,6 +311,14 @@
         "TMM/Part16/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 493,
+          "href": "/trademark/1.-what-are-the-time-limits-for-acceptance-of-an-application-to-register-a-trade-mark-",
+          "start": 424,
+          "text": "Part 16 Time Limits for Acceptance of an Application for Registration"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part18/1",
       "provisions": [
@@ -309,9 +361,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:f1ad8c1f888198aecfb106031daee7992a25df08379bee463cfa96e17c787399",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 18.1. Introduction",
     "images": [],
     "last_amended": "2025-02-10",

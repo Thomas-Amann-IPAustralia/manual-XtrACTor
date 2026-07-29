@@ -22,6 +22,32 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 26,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 55,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 61,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 56,
+          "text": "(Cth)"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -59,6 +85,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -96,6 +123,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 556,
+          "href": "http://www.wipo.int",
+          "start": 543,
+          "text": "WIPO web site"
+        },
+        {
+          "end": 1720,
+          "href": "https://www.wipo.int/en/web/madrid-system/legal_texts/index",
+          "start": 1706,
+          "text": "WIPO’s website"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -121,6 +162,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -164,6 +206,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -197,6 +240,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -234,6 +278,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -263,6 +308,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -326,6 +372,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 9,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -355,6 +402,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -380,6 +428,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 11,
       "page_ref": "TMM/Part60/1",
       "provisions": [],
@@ -391,9 +440,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:08f957d0bde962c252063b232349c0c2009c96d7e41b69d0279b08e52b6c0620",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.1. Introduction",
     "images": [],
     "last_amended": "2026-04-17",

@@ -63,6 +63,26 @@
         "TMM/Part43/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1089,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s166.html",
+          "start": 1078,
+          "text": "section 166"
+        },
+        {
+          "end": 1446,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s6.html",
+          "start": 1437,
+          "text": "section 6"
+        },
+        {
+          "end": 1515,
+          "href": "/trademark/3.-application-to-record-assignment-etc",
+          "start": 1506,
+          "text": "section 3"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part43/4",
       "provisions": [
@@ -123,6 +143,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 309,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s111.html",
+          "start": 298,
+          "text": "section 111"
+        },
+        {
+          "end": 322,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s10.5.html",
+          "start": 314,
+          "text": "reg 10.5"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part43/4",
       "provisions": [
@@ -145,9 +179,9 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:cc64778604db95882471a54d5931df1ab0fb9298605b6bd3ca839b655ed020e0",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "43.4. Process for assigning all goods and/or services (full assignment)",
     "images": [],
     "last_amended": "2024-05-16",

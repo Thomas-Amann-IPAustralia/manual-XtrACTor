@@ -45,6 +45,26 @@
         "TMM/Part12/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 207,
+          "href": "/trademark/1.-divisional-applications---general",
+          "start": 176,
+          "text": "Part 12 Divisional Applications"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part13/8",
       "provisions": [
@@ -75,9 +95,9 @@
     "amendment_note": "Whole part reviewed and content updated, including examples.",
     "archived": false,
     "content_hash": "sha256:95e2cfbbac1e4994cbb6adf3d45ee11850a5e4b7d1904b22f4464dcf2d59d735",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "13.8. Divisional Applications from Series",
     "images": [],
     "last_amended": "2026-06-03",

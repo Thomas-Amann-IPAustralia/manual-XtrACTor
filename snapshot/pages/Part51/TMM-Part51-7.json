@@ -33,6 +33,26 @@
         "TMM/Part55/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 751,
+          "href": "/trademark/1.-legislative-basis",
+          "start": 738,
+          "text": "Part 55 Costs"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part51/7",
       "provisions": [
@@ -81,9 +101,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:52783ecad701ce7bbce7947f6b9010dc14fc38e05074ea94e2716924747c3b32",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 51.7. Award of costs",
     "images": [],
     "last_amended": "2025-04-01",

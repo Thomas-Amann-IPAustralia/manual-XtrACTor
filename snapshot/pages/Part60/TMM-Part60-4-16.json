@@ -45,6 +45,32 @@
         "TMM/Part47/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 35,
+          "href": "https://www.wipo.int/wipolex/en/text/596531#rule16",
+          "start": 28,
+          "text": "Rule 16"
+        },
+        {
+          "end": 190,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.34c.html",
+          "start": 179,
+          "text": "Reg 17A.34C"
+        },
+        {
+          "end": 245,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.34d.html",
+          "start": 234,
+          "text": "Reg 17A.34D"
+        },
+        {
+          "end": 393,
+          "href": "/trademark/1.-filing-a-notice-of-opposition",
+          "start": 335,
+          "text": "Part 47 Procedures for Opposing Registration or Protection"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/16",
       "provisions": [
@@ -118,6 +144,14 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 985,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.34c.html",
+          "start": 968,
+          "text": "subreg 17A.34C(4)"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/16",
       "provisions": [
@@ -135,9 +169,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:8dc16b76da8390781c01d0d40f6f015320bd7328523c6c526b3e3b9d72e00403",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.16 Extension of Time to File Notice of Opposition to Protection",
     "images": [],
     "last_amended": "2026-04-17",

@@ -70,6 +70,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "landing",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 495,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 468,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part39/x-relevant-legislation17",
       "provisions": [
@@ -142,9 +156,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:a65a6caa5568f7ae04aa13294e57d4d514221777dae954548fe014a839359a5a",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 39. Landing Page",
     "images": [],
     "last_amended": "2025-06-04",

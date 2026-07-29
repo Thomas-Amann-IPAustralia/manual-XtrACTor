@@ -45,6 +45,32 @@
         "TMM/Part38/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 31,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s38.html",
+          "start": 21,
+          "text": "Section 38"
+        },
+        {
+          "end": 43,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s241.html",
+          "start": 32,
+          "text": "Section 241"
+        },
+        {
+          "end": 84,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.27.html",
+          "start": 67,
+          "text": "Regulation 17A.27"
+        },
+        {
+          "end": 195,
+          "href": "/trademark/1.-what-is-revocation-of-acceptance-",
+          "start": 162,
+          "text": "Part 38. Revocation of Acceptance"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/15",
       "provisions": [
@@ -150,6 +176,14 @@
         "TMM/Part38/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 634,
+          "href": "/trademark/1.-what-is-revocation-of-acceptance-",
+          "start": 602,
+          "text": "Part 38 Revocation of Acceptance"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/15",
       "provisions": [],
@@ -178,6 +212,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part60/4/15",
       "provisions": [],
@@ -189,9 +224,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:f5488597724e2e41d4a064336de7e119e9a8c462b891d02947cc7ad098031e3d",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.15 Revocation of Acceptance",
     "images": [],
     "last_amended": "2026-04-17",

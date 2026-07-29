@@ -1,21 +1,22 @@
 {
   "corpus": {
     "chunks": 2460,
+    "links": 2218,
     "mean_raw_bytes": 88598,
     "pages": 502,
     "parts": 54,
     "raw_bytes": 44299039,
     "raw_files": 500
   },
-  "crawled_at": "2026-07-28T17:23:08Z",
-  "extractor_version": "ingest/0.6.0",
-  "finished_at": "2026-07-28T17:23:48Z",
+  "crawled_at": "2026-07-29T00:00:49Z",
+  "extractor_version": "ingest/0.7.0",
+  "finished_at": "2026-07-29T00:01:14Z",
   "run": {
     "archived": 6,
     "chunks_changed": 0,
-    "chunks_cut": 2460,
+    "chunks_cut": 0,
     "complete": true,
-    "force": true,
+    "force": false,
     "from_raw": true,
     "limit": null,
     "not_modified": 0,
@@ -27,7 +28,7 @@
     "raw_written": 0,
     "retired": [],
     "skipped_not_modified": 0,
-    "unchanged": 0,
+    "unchanged": 500,
     "unreachable": [
       {
         "page_ref": "TMM/Part1/3",

@@ -41,6 +41,14 @@
         "TMM/Part22/16"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1038,
+          "href": "/trademark/16.-surnames",
+          "start": 1026,
+          "text": "paragraph 16"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part22/19",
       "provisions": [
@@ -59,9 +67,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:f8a0f401566cf6143ac8172a5c4e9805d0fabc0948b1cab910e2ffe88132eaf4",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "22.19. Corporate names",
     "images": [],
     "last_amended": "2022-12-19",

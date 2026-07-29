@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part38/1",
       "provisions": [],
@@ -55,6 +56,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 18,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s38.html",
+          "start": 0,
+          "text": "Paragraph 38(1)(a)"
+        },
+        {
+          "end": 593,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s38.html",
+          "start": 575,
+          "text": "Paragraph 38(1)(b)"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part38/1",
       "provisions": [
@@ -91,6 +106,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part38/1",
       "provisions": [],
@@ -127,6 +143,14 @@
         "TMM/Part60/4/15"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 475,
+          "href": "/trademark/4.15-revocation-of-acceptance",
+          "start": 446,
+          "text": "4.15 Revocation of Acceptance"
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part38/1",
       "provisions": [],
@@ -152,6 +176,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part38/1",
       "provisions": [],
@@ -163,9 +188,9 @@
     "amendment_note": "Terminology updated to reflect legislative changes.",
     "archived": false,
     "content_hash": "sha256:dbfc5292c22cddfb284ba97614597eb6e5dd7e63a55bed65726ef9fb6a6046bc",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "38.1. What is revocation of acceptance?",
     "images": [],
     "last_amended": "2024-05-16",

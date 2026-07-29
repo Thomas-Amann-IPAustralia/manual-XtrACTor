@@ -8,7 +8,10 @@ website cannot:
   by pattern, how certain a pattern match was, whether a heading was marked up
   or inferred, whether the page has been archived or amended in a given year.
 - **Put a page back together from its chunks** and read it whole, so the
-  deconstruction can be checked rather than taken on trust.
+  deconstruction can be checked rather than taken on trust. The Manual's own
+  hyperlinks come back with it, drawn at the offsets `chunk.links` records; one
+  naming a page in the snapshot opens that page here rather than on the live
+  site.
 
 Live at
 <https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/>.
@@ -30,6 +33,15 @@ This directory is outside the pipeline and stays there.
 
 If the viewer ever seems to want a new field on a chunk, the answer is no. Derive
 it in `viz/build.py` and put it in a sibling structure.
+
+`links` is worth reading as the example of the rule holding. It was added to the
+data because the snapshot was losing 2,218 of the Manual's hyperlinks
+(`SOURCE_NOTES.md` §29), not because the viewer wanted them, and it carries
+offsets into `chunk.text` and nothing else. Drawing a link inside the right
+paragraph or the right table cell needs to know where each block and cell sits
+in that text, and that is derived here from a contract the snapshot already
+asserts — the blocks' text joined with single spaces *is* the chunk's text — in
+`app.js`'s `blockStarts` and `renderTable`. No field was added for it.
 
 ## Running it locally
 

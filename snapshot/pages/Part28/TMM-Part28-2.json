@@ -96,6 +96,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 166,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s44.html",
+          "start": 165,
+          "text": ","
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part28/2",
       "provisions": [
@@ -131,9 +151,9 @@
     "amendment_note": "Reviewed and updated following Zip Co Limited v Firstmac Limited [2026] HCA 16.",
     "archived": false,
     "content_hash": "sha256:26561a6e794b8e35f231d1e81bd3c157dda02119147e3542efad5f6e67ab7d36",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "28.2. Honest concurrent use - para 44(3)(a)",
     "images": [],
     "last_amended": "2026-06-17",

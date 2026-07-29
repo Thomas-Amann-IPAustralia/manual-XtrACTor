@@ -22,6 +22,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 34,
+          "href": "https://www.prod.legislation.gov.au/F1996B00084/2024-05-17/text",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "end": 190,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s4.18.html",
+          "start": 182,
+          "text": "reg 4.18"
+        },
+        {
+          "end": 332,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s4.19.html",
+          "start": 324,
+          "text": "reg 4.19"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part6/1",
       "provisions": [
@@ -81,6 +101,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part6/1",
       "provisions": [
@@ -154,6 +175,14 @@
         "TMM/Part11/4"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 616,
+          "href": "/trademark/4.-convention-documents",
+          "start": 593,
+          "text": "4. Convention documents"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part6/1",
       "provisions": [
@@ -184,9 +213,9 @@
     "amendment_note": "Links to legislation added. Minor content update.",
     "archived": false,
     "content_hash": "sha256:1ed490e02618a29df81ad8ca3101d12322b03e2e52bce9503ec2a6d3e238c1f5",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "6.1. Expedited Examination",
     "images": [],
     "last_amended": "2026-02-10",

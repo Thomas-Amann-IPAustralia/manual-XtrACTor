@@ -7,7 +7,8 @@ Beyond schema validation this module asserts the invariants a schema cannot
 express — every chunk.page_ref resolving to the page in its own file, globally
 unique chunk_refs, internal_refs targets existing in the snapshot, ordinals
 contiguous from 1, a provision id naming a kind of provision its instrument
-actually holds, and a chunk's blocks adding back up to its text.
+actually holds, a chunk's blocks adding back up to its text, and a link's
+offsets naming the words the link says it holds.
 
 Reports every failure with file and JSON path rather than stopping at the
 first, and exits non-zero if there were any.
@@ -196,6 +197,46 @@ def _block_failures(chunk: dict[str, Any], at: str) -> list[str]:
     ]
 
 
+def _link_failures(chunk: dict[str, Any], at: str) -> list[str]:
+    """Links whose offsets do not name the words they claim.
+
+    `text[start:end] == link.text` is the whole contract of the field: the
+    offsets are what put a hyperlink back where the Manual set it, and an
+    offset that has drifted underlines the wrong words while looking perfectly
+    well-formed. The schema can check that the numbers are integers and no
+    more, so the check lives here and runs over every link in the snapshot.
+    """
+    failures: list[str] = []
+    links = chunk.get("links")
+    text = chunk.get("text")
+    if not isinstance(links, list) or not isinstance(text, str):
+        return failures
+
+    for index, link in enumerate(links):
+        if not isinstance(link, dict):
+            continue
+        start, end, words = link.get("start"), link.get("end"), link.get("text")
+        if not isinstance(start, int) or not isinstance(end, int):
+            continue
+        if not isinstance(words, str):
+            continue
+        if not 0 <= start <= end <= len(text):
+            failures.append(
+                f"{at} links[{index}]: [{start}, {end}) is not a span of a "
+                f"{len(text)}-character text"
+            )
+            continue
+        if text[start:end] != words:
+            failures.append(
+                f"{at} links[{index}]: text[{start}:{end}] is "
+                f"{text[start:end]!r}, but the link says its words are "
+                f"{words!r}; the offsets are what put the link back where the "
+                "Manual set it, and these name different words"
+            )
+
+    return failures
+
+
 def _location_failures(
     path: Path, where: str, page_ref: str, part_id: Any
 ) -> list[str]:
@@ -328,6 +369,7 @@ def validate_snapshot(root: Path) -> list[str]:
 
             failures.extend(_provision_failures(chunk, at))
             failures.extend(_block_failures(chunk, at))
+            failures.extend(_link_failures(chunk, at))
 
             references = chunk.get("internal_refs")
             if isinstance(references, list):

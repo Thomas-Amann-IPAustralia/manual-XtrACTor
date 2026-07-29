@@ -33,6 +33,14 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 11,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:84a",
+          "start": 0,
+          "text": "Section 84A"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part62/4",
       "provisions": [
@@ -63,9 +71,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:7c8d7d8d643bf448d0c65185202617e019f970961dcf1b9b92367432d7466525",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "62.4. Circumstances under which registration may be revoked",
     "images": [],
     "last_amended": "2022-04-20",

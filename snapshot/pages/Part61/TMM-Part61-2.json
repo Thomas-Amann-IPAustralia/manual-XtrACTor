@@ -22,6 +22,14 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 598,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+          "start": 586,
+          "text": "section 217A"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -60,6 +68,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part61/2",
       "provisions": [],
@@ -93,6 +102,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 272,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+          "start": 260,
+          "text": "section 217A"
+        },
+        {
+          "end": 494,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmreg:sch9",
+          "start": 484,
+          "text": "Schedule 9"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -141,6 +164,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -195,6 +219,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -290,6 +315,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -379,6 +405,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part61/2",
       "provisions": [
@@ -439,9 +466,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:7bf0d2abd703cd26b1d754388a8e047fbb3374502d518623accdc15b1dd938c0",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "61.2. Accessing Documents",
     "images": [],
     "last_amended": "2022-04-20",

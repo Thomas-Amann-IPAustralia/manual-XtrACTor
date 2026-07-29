@@ -22,6 +22,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part29/5",
       "provisions": [],
@@ -55,6 +69,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part29/5",
       "provisions": [],
@@ -105,6 +120,14 @@
         "TMM/Part29/x-annex-a1---table-of-inn-stems"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 416,
+          "href": "/trademark/annex-a1---table-of-inn-stems",
+          "start": 409,
+          "text": "Annex 1"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part29/5",
       "provisions": [],
@@ -136,6 +159,14 @@
         "TMM/Part29/x-annex-a1---table-of-inn-stems"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 309,
+          "href": "/trademark/annex-a1---table-of-inn-stems",
+          "start": 302,
+          "text": "Annex 1"
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part29/5",
       "provisions": [
@@ -193,6 +224,44 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 30,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s43.html",
+          "start": 29,
+          "text": "s"
+        },
+        {
+          "end": 31,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s43.html",
+          "start": 30,
+          "text": "e"
+        },
+        {
+          "end": 1012,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:43",
+          "start": 1002,
+          "text": "section 43"
+        },
+        {
+          "end": 1614,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s41.html",
+          "start": 1604,
+          "text": "section 41"
+        },
+        {
+          "end": 1619,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s43.html",
+          "start": 1618,
+          "text": "s"
+        },
+        {
+          "end": 1620,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s44.html",
+          "start": 1619,
+          "text": "e"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part29/5",
       "provisions": [
@@ -242,6 +311,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 30,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:43",
+          "start": 29,
+          "text": "s"
+        },
+        {
+          "end": 362,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:43",
+          "start": 352,
+          "text": "section 43"
+        }
+      ],
       "ordinal": 6,
       "page_ref": "TMM/Part29/5",
       "provisions": [
@@ -367,6 +450,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part29/5",
       "provisions": [
@@ -402,6 +486,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part29/5",
       "provisions": [],
@@ -413,9 +498,9 @@
     "amendment_note": "Links to legislation added.",
     "archived": false,
     "content_hash": "sha256:49e77dbeb2d920570354ae1832fe7dfb722a4cdf24c0d7b4a14cf2ac438fc760",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-10-23",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
     "images": [],
     "last_amended": "2025-10-23",

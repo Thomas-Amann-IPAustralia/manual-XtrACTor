@@ -65,6 +65,32 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 139,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_reg/tmr1995230/s17.1.html",
+          "start": 124,
+          "text": "Regulation 17.1"
+        },
+        {
+          "end": 275,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.6.html",
+          "start": 260,
+          "text": "Regulation 21.6"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part34/7",
       "provisions": [
@@ -130,6 +156,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part34/7",
       "provisions": [
@@ -191,6 +218,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part34/7",
       "provisions": [],
@@ -202,9 +230,9 @@
     "amendment_note": "Part 34.7 reviewed and updated, including references to recent case law and hearing decisions.",
     "archived": false,
     "content_hash": "sha256:a844faa4221a7564bdf810a52ef9a5377fe5509945c3da5996a6d36042404658",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-05-19",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 34.7. Evidence required for defensive applications",
     "images": [],
     "last_amended": "2026-05-19",

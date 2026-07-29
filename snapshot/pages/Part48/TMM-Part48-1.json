@@ -58,6 +58,44 @@
         "TMM/Part60/4/21"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1128,
+          "href": "/trademark/4.20-cessation-of-protection-because-of-non-use",
+          "start": 1083,
+          "text": "4.20 Cession of Protection because of Non-Use"
+        },
+        {
+          "end": 1190,
+          "href": "/trademark/4.21-opposition-to-cessation-of-protection-because-of-non-use",
+          "start": 1129,
+          "text": "4.21 Opposition to Cessation of Protection because of Non-Use"
+        },
+        {
+          "end": 1556,
+          "href": "/trademark/relevant-legislation49",
+          "start": 1527,
+          "text": "Part 34 Defensive Trade Marks"
+        },
+        {
+          "end": 1590,
+          "href": "/trademark/relevant-legislation",
+          "start": 1557,
+          "text": "Part 35 Certification Trade Marks"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part48/1",
       "provisions": [
@@ -124,9 +162,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:db68c5531ab3e50823b4fd01d670893c1172bba0c5c86a062dfad61daa971811",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 48.1. What if a trade mark is not used?",
     "images": [],
     "last_amended": "2025-04-01",

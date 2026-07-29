@@ -47,6 +47,38 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 25,
+          "href": "https://www.wipo.int/wipolex/en/text/283483",
+          "start": 16,
+          "text": "Article 2"
+        },
+        {
+          "end": 90,
+          "href": "https://www.wipo.int/wipolex/en/text/283483",
+          "start": 81,
+          "text": "Article 6"
+        },
+        {
+          "end": 234,
+          "href": "https://www.wipo.int/wipolex/en/text/283483",
+          "start": 227,
+          "text": "Rule 22"
+        },
+        {
+          "end": 356,
+          "href": "https://www.wipo.int/wipolex/en/text/596483",
+          "start": 349,
+          "text": "Rule 23"
+        },
+        {
+          "end": 524,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.6.html",
+          "start": 504,
+          "text": "Regulation 17A.6 (1)"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/3",
       "provisions": [
@@ -82,6 +114,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
@@ -174,6 +207,14 @@
         "TMM/Part60/4/25"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1654,
+          "href": "/trademark/4.25-transformation",
+          "start": 1625,
+          "text": "Part 60 - 4.25 Transformation"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
@@ -207,6 +248,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
@@ -259,6 +301,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
@@ -285,6 +328,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part60/3",
       "provisions": [],
@@ -296,9 +340,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:3e47139b57709d5aad8b524e13d83ffb9be03ced0d006a1a509f6237305d7db0",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
     "images": [],
     "last_amended": "2026-04-17",
