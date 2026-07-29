@@ -26,9 +26,18 @@
         "27.6. Removal of the conflicting trade mark"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part48/1",
-        "TMM/Part60/4/20"
+        {
+          "extraction": "href",
+          "mention": "Part 48 Removal of Trade Mark from Register for Non-Use",
+          "ref": "TMM/Part48/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.20 Cessation of Protection because of Non-Use",
+          "ref": "TMM/Part60/4/20"
+        }
       ],
       "kind": "body",
       "links": [
@@ -55,16 +64,17 @@
   "page": {
     "amendment_note": "Content Updated",
     "archived": false,
-    "content_hash": "sha256:de54900a221d4aa975e0e6fc470d68cdce84cc9f7f73246e1e4860d9ce55127b",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:2b478950918a430a8674c35112ecdfb56e1458e6b2fa4ac154541b9cef43a542",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-11-21",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "27.6. Removal of the conflicting trade mark",
     "images": [],
     "last_amended": "2024-11-21",
     "nav_title": "6. Removal of the conflicting trade mark",
     "page_ref": "TMM/Part27/6",
     "part_id": "Part27",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-removal-of-the-conflicting-trade-mark"
   }
 }

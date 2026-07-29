@@ -18,6 +18,7 @@ from typing import Any, Iterator
 
 from tmm_snapshot import config
 from tmm_snapshot.chunker import Chunk
+from tmm_snapshot.citations import internal_ref_key
 from tmm_snapshot.page import PageRecord
 
 #: Pages that vanished from the nav are moved under pages/_retired/, and the
@@ -139,11 +140,19 @@ def _chunk_document(chunk: Chunk) -> dict[str, Any]:
     citation list is a property of the sentence it came from, not of the chunk,
     and letting it drive the file order means moving one paragraph rewrites
     every list on the page. See SCHEMA.md §Worked example.
+
+    `internal_refs` sorts on the same key `citations` collapses them with, so
+    the file order and the precedence order cannot disagree. `links` and
+    `headings` are not sorted: document order and outermost-first are the
+    Manual's own orders and are already stable.
     """
     document = asdict(chunk)
     document["provisions"] = sorted(chunk.provisions, key=_provision_key)
     document["cases"] = sorted(chunk.cases, key=_case_key)
-    document["internal_refs"] = sorted(set(chunk.internal_refs))
+    document["internal_refs"] = sorted(
+        {internal_ref_key(ref): ref for ref in chunk.internal_refs}.values(),
+        key=internal_ref_key,
+    )
     return document
 
 
@@ -161,6 +170,7 @@ def _page_document(page: PageRecord, crawled_at: str) -> dict[str, Any]:
         "nav_title": page.nav_title,
         "page_ref": page.page_ref,
         "part_id": page.part_id,
+        "printed_page_ref": page.printed_page_ref,
         "url": page.url,
     }
 
@@ -259,6 +269,29 @@ def write_page(
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(serialised, encoding="utf-8")
     return True
+
+
+def rewrite_settled(path: Path, document: dict[str, Any], now: str) -> bool:
+    """Write back a stored page whose cross references were re-settled.
+
+    The narrow companion to `write_page`, and narrow on purpose: it takes a
+    document that was read from disk and had nothing but `internal_refs`
+    changed, so nothing here re-derives a record. A page skipped at gate 2 was
+    never parsed and has no `PageRecord` to rebuild one from, and inventing one
+    to satisfy a signature would be inventing the fields it could not read.
+
+    `crawled_at` is refreshed because the record did change — the page's own
+    bytes did not, but what this snapshot asserts about it has. That is the
+    same reading `render_page` gives the field: when this version of the record
+    was first seen.
+
+    Callers must have established that something actually moved. Rule 2 is not
+    served by a byte comparison here, because the refreshed timestamp would
+    differ every time and the write would never be skipped.
+    """
+    document = dict(document)
+    document["page"] = {**document.get("page", {}), "crawled_at": now}
+    return _write_if_changed(path, _serialise(document))
 
 
 def write_raw(page_ref: str, html: str, root: Path) -> bool:

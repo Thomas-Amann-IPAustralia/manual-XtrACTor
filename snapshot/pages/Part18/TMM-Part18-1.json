@@ -24,6 +24,7 @@
         "Part 18.1. Introduction"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -73,9 +74,24 @@
         "1.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part18/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part39/1",
-        "TMM/Part47/1"
+        {
+          "extraction": "href",
+          "mention": "Part 39 Registration of a Trademark",
+          "ref": "TMM/Part39/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 47 Procedures for Opposing Registration or Protection",
+          "ref": "TMM/Part47/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -139,8 +155,19 @@
         "1.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part18/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part52/1"
+        {
+          "extraction": "href",
+          "mention": "Part 52 Hearings, Decisions, Reasons and Appeals",
+          "ref": "TMM/Part52/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -202,8 +229,19 @@
         "1.3"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part18/1/1/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part7/1"
+        {
+          "extraction": "href",
+          "mention": "Part 7 Withdrawal of Applications, Notices and Requests",
+          "ref": "TMM/Part7/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -307,8 +345,19 @@
         "1.4"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part18/1/1/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part16/1"
+        {
+          "extraction": "href",
+          "mention": "Part 16 Time Limits for Acceptance of an Application for Registration",
+          "ref": "TMM/Part16/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -360,16 +409,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:f1ad8c1f888198aecfb106031daee7992a25df08379bee463cfa96e17c787399",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:21538ab7d53d4ef2606e58274d984d6e826fdb98b49659711c2e3917f5bf7963",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 18.1. Introduction",
     "images": [],
     "last_amended": "2025-02-10",
     "nav_title": "Part 18.1. Introduction",
     "page_ref": "TMM/Part18/1",
     "part_id": "Part18",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-introduction2"
   }
 }

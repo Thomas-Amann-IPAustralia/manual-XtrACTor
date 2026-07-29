@@ -29,6 +29,13 @@
         "4.27.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/27/4/27/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -83,6 +90,13 @@
         "4.27.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/27/4/27/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -103,16 +117,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:86597676e8763b3d14c73df6f6286972e38adfd306636e893d61a1f3ff99652d",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:eefe46e9fc8820746745a8d1ede00ae4fa5543b0d58e6e542aed029f05491e5d",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.27 Customs",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.27 Customs",
     "page_ref": "TMM/Part60/4/27",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.27-customs"
   }
 }

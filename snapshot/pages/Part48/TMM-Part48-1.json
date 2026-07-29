@@ -51,11 +51,28 @@
         "Part 48.1. What if a trade mark is not used?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part34/x-relevant-legislation49",
-        "TMM/Part35/x-relevant-legislation",
-        "TMM/Part60/4/20",
-        "TMM/Part60/4/21"
+        {
+          "extraction": "href",
+          "mention": "Part 34 Defensive Trade Marks",
+          "ref": "TMM/Part34/x-relevant-legislation49"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 35 Certification Trade Marks",
+          "ref": "TMM/Part35/x-relevant-legislation"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.20 Cession of Protection because of Non-Use",
+          "ref": "TMM/Part60/4/20"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.21 Opposition to Cessation of Protection because of Non-Use",
+          "ref": "TMM/Part60/4/21"
+        }
       ],
       "kind": "body",
       "links": [
@@ -161,16 +178,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:db68c5531ab3e50823b4fd01d670893c1172bba0c5c86a062dfad61daa971811",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:04c32580931b5ebaa78805ddf3ae9279f1f28d8d4386823b2654a0d6b4382ef6",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 48.1. What if a trade mark is not used?",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "1. What if a trade mark is not used?",
     "page_ref": "TMM/Part48/1",
     "part_id": "Part48",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-what-if-a-trade-mark-is-not-used-"
   }
 }

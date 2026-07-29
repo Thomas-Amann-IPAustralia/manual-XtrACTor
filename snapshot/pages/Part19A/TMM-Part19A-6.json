@@ -16,6 +16,7 @@
         "19A.6. Use by the trade mark owner, predecessor in title or an authorised user"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -42,8 +43,19 @@
         "6.1 Use by the trade mark owner"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part19A/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part19A/6/6/3"
+        {
+          "extraction": "href",
+          "mention": "see 6.3 below",
+          "ref": "TMM/Part19A/6/6/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -94,6 +106,13 @@
         "6.2 Use by a predecessor in title"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part19A/6/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -185,6 +204,13 @@
         "6.3 Authorised use"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part19A/6/6/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -271,16 +297,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:9d0d0f45100ddb87dab1a74bfccec3bebe1bc0e6bbdf3b40a23c2ec918771cbc",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:30bab028c4669cbb69eaf6a16403d83ec197320b8c9fc0208361ee5fef40872b",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2023-10-09",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "19A.6. Use by the trade mark owner, predecessor in title or an authorised user",
     "images": [],
     "last_amended": "2023-10-09",
     "nav_title": "6. Use by the trade mark owner, predecessor in title or an authorised user",
     "page_ref": "TMM/Part19A/6",
     "part_id": "Part19A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-use-by-the-trade-mark-owner-predecessor-in-title-or-an-authorised-user"
   }
 }

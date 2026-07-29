@@ -56,9 +56,18 @@
         "43.1. What is assignment and transmission?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part46/1",
-        "TMM/Part9/1"
+        {
+          "extraction": "href",
+          "mention": "Part 46.1",
+          "ref": "TMM/Part46/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 9 Amendments and Changes to Name and Address",
+          "ref": "TMM/Part9/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -175,6 +184,7 @@
         "43.1. What is assignment and transmission?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -304,10 +314,23 @@
         "43.1. What is assignment and transmission?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part33/5",
-        "TMM/Part35/10",
-        "TMM/Part35/9"
+        {
+          "extraction": "href",
+          "mention": "5. Assignment or transmission of collective trade marks",
+          "ref": "TMM/Part33/5"
+        },
+        {
+          "extraction": "href",
+          "mention": "9. Assignment of unregistered certification trade marks",
+          "ref": "TMM/Part35/10"
+        },
+        {
+          "extraction": "href",
+          "mention": "8. Assignment of registered certification trade marks",
+          "ref": "TMM/Part35/9"
+        }
       ],
       "kind": "body",
       "links": [
@@ -374,16 +397,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:6f923347d68530440bad066fc7790e2e5457f14a3cd8609b0c132569f396eaba",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:422493de59e11173d69bfea7cefc838e7afc0f9186d7579653a173f489b8b590",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "43.1. What is assignment and transmission?",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "1. What is assignment and transmission?",
     "page_ref": "TMM/Part43/1",
     "part_id": "Part43",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-what-is-assignment-and-transmission-"
   }
 }

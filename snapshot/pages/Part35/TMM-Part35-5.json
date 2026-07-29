@@ -78,6 +78,7 @@
         "35.5. Rights given by, and rules governing the use of, certification trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -256,8 +257,13 @@
         "35.5. Rights given by, and rules governing the use of, certification trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part17/1"
+        {
+          "extraction": "href",
+          "mention": "Part 17 Deferment of Acceptance",
+          "ref": "TMM/Part17/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -325,16 +331,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
-    "content_hash": "sha256:0912a8cea7a9023bca18856d935ae0ff7b068c3fb506c8f3cb51e92bad83baac",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5f7c000c5bb4821dc608328b61c06fd5036f2297c5464336ccc389316bc38af5",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "35.5. Rights given by, and rules governing the use of, certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",
     "nav_title": "5. Rights given by, and rules governing the use of, certification trade marks",
     "page_ref": "TMM/Part35/5",
     "part_id": "Part35",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-rights-given-by-and-rules-governing-the-use-of-certification-trade-marks"
   }
 }

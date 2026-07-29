@@ -20,6 +20,7 @@
         "61.2. Accessing Documents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -66,6 +67,13 @@
         "2.1 Making a Request"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -100,6 +108,13 @@
         "2.2 Fees and Charges"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -162,6 +177,13 @@
         "2.3 Timeframes"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -217,6 +239,13 @@
         "2.4 Review of Decision"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -313,6 +342,18 @@
         "2.4.1 Access Refusal Decision"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part61/2/2/4/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -403,6 +444,18 @@
         "2.4.2 Access Grant Decision"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/2/2/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part61/2/2/4/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -465,16 +518,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:7bf0d2abd703cd26b1d754388a8e047fbb3374502d518623accdc15b1dd938c0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:d2a0d695f9d149f332d6fcfcfd2a62ccaa3a9971804229526731107da57b3d84",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "61.2. Accessing Documents",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2. Accessing Documents",
     "page_ref": "TMM/Part61/2",
     "part_id": "Part61",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-accessing-documents"
   }
 }

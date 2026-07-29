@@ -168,6 +168,29 @@ _BARE_INTERNAL_REF = re.compile(
     r"\bparts?\s+(?P<part>\d{1,3}[A-Z]?)(?P<rest>(?:\.\d+)+)", re.IGNORECASE
 )
 
+#: The Manual saying, in its own words, that a bare reference is to the Part
+#: the reader is already in: 'see part 2.3.1(c) **of this chapter**'. The
+#: adjective slot takes 'this revised chapter', which Part 32A's annex uses.
+#:
+#: 'of this manual' is deliberately absent and must stay absent: it means the
+#: Manual as a whole, so 'Part 29.9 of this manual' is Part 29 and reading it
+#: locally would invert this rule into the bug it exists to fix.
+_LOCAL_QUALIFIER = re.compile(
+    r"\b(?:of|in|at)\s+th(?:is|e\s+(?:present|current))\s+"
+    r"(?:\w+\s+){0,2}(?:chapter|part|section)\b",
+    re.IGNORECASE,
+)
+
+#: How far past a bare reference to look for that qualifier. Wide enough to
+#: cross ' and 2.3.2 ' — the Manual writes 'parts 2.3.1 and 2.3.2 of this
+#: chapter' and only the first is a match — and cut at a sentence end.
+LOCAL_QUALIFIER_CHARS = 48
+
+#: A sentence boundary: a full stop followed by space or end of string. Not a
+#: bare full stop, which would cut inside '2.3.2' and hide the qualifier behind
+#: the very digits it qualifies.
+_SENTENCE_END = re.compile(r"\.(?:\s|$)")
+
 #: The heading number leading a Drupal anchor: the fragment on
 #: `/trademark/4.-classification-procedures#4.5-goods-or-services-to-be-grouped`
 #: is the target heading's own slug, and it opens with the number the Manual
@@ -548,14 +571,140 @@ def _anchor_ref(page_ref: str, href: str) -> str:
     return f"{page_ref}/{match.group('address').replace('.', '/')}"
 
 
+def internal_ref_key(record: dict) -> tuple[str, ...]:
+    """The stable order of the `internal_refs` array. Rule 2.
+
+    Sorted by target, then by everything else, so that reordering the prose
+    cannot reorder the file. Same argument as `writer._provision_key`, and it
+    lives here because the precedence below has to break ties the same way.
+    """
+    return (
+        str(record.get("ref", "")),
+        str(record.get("extraction", "")),
+        str(record.get("certainty") or ""),
+        str(record.get("mention") or ""),
+    )
+
+
+def _strongest(records: list[dict]) -> list[dict]:
+    """One record per target, keeping the best evidence for it. Sorted.
+
+    A passage that both links to a page and names it in prose asserts one
+    edge, not two, and the hyperlink is the authors saying so — the same
+    collapse `extract_provisions` makes, with the same precedence.
+    """
+    best: dict[str, tuple[int, dict]] = {}
+    for record in records:
+        rank = _PRECEDENCE[
+            "href" if record["extraction"] == "href" else record["certainty"]
+        ]
+        target = record["ref"]
+        if target not in best or rank < best[target][0]:
+            best[target] = (rank, record)
+    return sorted((record for _, record in best.values()), key=internal_ref_key)
+
+
+def _local_reading(
+    page_ref: str | None, part: str, rest: str, page_refs: frozenset[str]
+) -> str | None:
+    """The same digits read as an address inside the Part doing the referring.
+
+    The Manual uses 'part' for both things. 'part 22.15.7' on a Part 32B page
+    is Part 22 (SOURCE_NOTES.md §8) — and 'part 2.3.1 of this chapter' on a
+    Part 32A page is that Part's own section 2.3.1, not Part 2's page 3. Both
+    readings are addresses the inventory can be asked about; this builds the
+    second one so that `_bare_edges` can see whether it competes.
+    """
+    if page_ref is None:
+        return None
+    segments = page_ref.split("/")
+    if len(segments) < 2 or not segments[1].startswith("Part"):
+        return None
+    own = segments[1][len("Part") :]
+    if own.upper() == part.upper():
+        # The reference names the Part it sits in, so there is no second
+        # reading to compete: both are the same document.
+        return None
+    return _resolve_dotted(own, f".{part}{rest}", page_refs)
+
+
+def _bare_edges(
+    text: str, page_refs: frozenset[str], page_ref: str | None
+) -> list[dict]:
+    """Cross references written as prose, with how confidently they were read.
+
+    Three certainties, and they mean what `extract_provisions` means by them.
+
+    `explicit` — the Manual settled it. 'see part 2.3.1(c) **of this chapter**'
+    names the Part the reader is in, so the digits are that Part's own address
+    and not Part 2's. Reading those four words is reading the source, not
+    guessing at it.
+
+    `ambiguous` — both readings resolve against the inventory and nothing in
+    the source chooses. The conventional reading is kept, because the schema
+    has nowhere else to put a target, and the flag beside it is what stops it
+    being mistaken for a fact — exactly the arrangement `extract_provisions`
+    uses for a bare 'section 26' with two Acts in scope.
+
+    `default` — one reading, taken by the convention of SOURCE_NOTES.md §8.
+
+    Before 0.8.0 there was no such distinction and no flag, and three
+    references on Part 32A — a Part about plant varietal names — were stored
+    as confident edges into Part 2, *Filing Requirements*. Two of them sat in
+    the same array as the correct edge, which the paragraph's own hyperlink
+    had already supplied, with nothing to tell a consumer which was which.
+    """
+    edges: list[dict] = []
+
+    for match in _BARE_INTERNAL_REF.finditer(text):
+        part, rest = match.group("part"), match.group("rest")
+        conventional = _resolve_dotted(part, rest, page_refs)
+        local = _local_reading(page_ref, part, rest, page_refs)
+
+        window = text[match.end() : match.end() + LOCAL_QUALIFIER_CHARS]
+        window = _SENTENCE_END.split(window)[0]
+        qualified = _LOCAL_QUALIFIER.search(window) is not None
+
+        if local is not None and qualified:
+            target, certainty = local, "explicit"
+        elif local is not None and conventional is not None:
+            target, certainty = conventional, "ambiguous"
+        elif conventional is not None:
+            target, certainty = conventional, "default"
+        elif local is not None:
+            target, certainty = local, "default"
+        else:
+            # Neither reading names anything in the inventory. Dropped rather
+            # than stored: a consumer will try to follow it. SOURCE_NOTES.md §8.
+            continue
+
+        edges.append(
+            {
+                "ref": target,
+                "extraction": "regex",
+                "certainty": certainty,
+                "mention": " ".join(match.group(0).split()),
+            }
+        )
+
+    return edges
+
+
 def extract_internal_refs(
-    body_fragment: Tag, sitemap: dict[str, NavPage]
-) -> list[str]:
+    links: list[dict],
+    text: str,
+    sitemap: dict[str, NavPage],
+    page_ref: str | None = None,
+) -> list[dict]:
     """Manual-internal cross references, resolved through the sitemap.
 
-    Both hyperlinked and bare dotted forms ("see part 22.15.7"). Unresolvable
-    targets are dropped: a string a consumer will try to follow and cannot is
-    worse than an absent one.
+    Both hyperlinked and bare dotted forms ("see part 22.15.7"), and **each
+    records which it was**. `provisions` has carried `extraction: href|regex`
+    since the beginning, for the reason SCHEMA.md gives: a hyperlink is the
+    authors telling you what a passage is about and a regex match is our
+    inference, and collapsing the two loses the only signal separating them.
+    Until 0.8.0 this field collapsed them — 359 of its edges were the Manual's
+    own links, 34 were prose read by a rule, and all 417 were bare strings.
 
     Hyperlinks resolve by URL, which is the only safe key — the same slug
     belongs to two different Parts (SOURCE_NOTES.md §2), so a reference must
@@ -563,31 +712,49 @@ def extract_internal_refs(
     dropped by that lookup and read separately by `_anchor_ref`, which is where
     the sub-section precision in 137 of the Manual's internal links comes from.
 
+    **Takes the chunk's `links` and `text`, not its markup.** That is the
+    0.8.0 change and it is not a convenience: a page skipped at gate 2 is never
+    parsed, so its refs could never be re-settled against a snapshot that had
+    moved under them, and a heading renamed on one page left dangling refs on
+    every unchanged page that cited it (ARCHITECTURE.md §Settling). `links`
+    holds every anchor's href verbatim and `text` holds the words, so the same
+    function reads a live chunk and a stored one, and there is exactly one
+    reading of the evidence rather than two that can drift apart.
+
+    `page_ref` is the page doing the referring, and is what lets a bare
+    reference be tested against the Part it sits in as well as the Part it
+    names. Optional, because a caller that omits it simply gets the
+    conventional reading — which is what every caller got before 0.8.0.
+
     What comes back may hold candidate chunk refs, which are only refs once
     `resolve_internal_refs` has seen the whole snapshot.
     """
-    refs: set[str] = set()
+    edges: list[dict] = []
 
-    for anchor in body_fragment.find_all("a", href=True):
-        href = str(anchor["href"])
+    for link in links:
+        href = link.get("href")
+        if not isinstance(href, str):
+            continue
         target = sitemap.get(normalise_url(href))
-        if target is not None:
-            refs.add(_anchor_ref(target.page_ref, href))
+        if target is None:
+            continue
+        edges.append(
+            {
+                "ref": _anchor_ref(target.page_ref, href),
+                "extraction": "href",
+                "mention": str(link.get("text") or ""),
+            }
+        )
 
     page_refs = frozenset(page.page_ref for page in sitemap.values())
-    for match in _BARE_INTERNAL_REF.finditer(flatten_text(body_fragment)):
-        resolved = _resolve_dotted(
-            match.group("part"), match.group("rest"), page_refs
-        )
-        if resolved is not None:
-            refs.add(resolved)
+    edges.extend(_bare_edges(text, page_refs, page_ref))
 
-    return sorted(refs)
+    return _strongest(edges)
 
 
 def resolve_internal_refs(
-    refs: list[str], chunk_refs: frozenset[str], page_refs: frozenset[str]
-) -> list[str]:
+    refs: list[dict], chunk_refs: frozenset[str], page_refs: frozenset[str]
+) -> list[dict]:
     """Candidate refs to refs that resolve, against the finished snapshot.
 
     A candidate from `_anchor_ref` names a heading on a page that was cut by a
@@ -601,29 +768,36 @@ def resolve_internal_refs(
     URL. The Manual moving a heading should coarsen a citation, not delete one.
     A candidate matching neither is dropped, which cannot happen for a link
     resolved through the sitemap and can for a stale hand-written anchor.
+
+    Idempotent, and that is load-bearing rather than incidental: a settled ref
+    is a valid candidate for the next run, which is what lets a page skipped at
+    gate 2 be re-settled from its stored record without being re-cut.
     """
-    resolved: set[str] = set()
+    settled: list[dict] = []
 
-    for ref in refs:
+    for record in refs:
+        ref = record["ref"]
+        target: str | None = None
+
         if ref in chunk_refs or ref in page_refs:
-            resolved.add(ref)
-            continue
-
+            target = ref
         # The section exists but was long enough to be split, so its address
         # belongs to no single chunk — `TMM/Part14/4/4/8` is held by
         # `...~1` through `...~4`. A link to the heading is aimed at where the
         # section starts, and that is `~1` by construction. 27 of the Manual's
         # 47 addressed anchors land here.
-        if (opening := f"{ref}~1") in chunk_refs:
-            resolved.add(opening)
-            continue
+        elif f"{ref}~1" in chunk_refs:
+            target = f"{ref}~1"
+        else:
+            segments = ref.split("/")
+            while len(segments) > 1:
+                segments.pop()
+                candidate = "/".join(segments)
+                if candidate in page_refs:
+                    target = candidate
+                    break
 
-        segments = ref.split("/")
-        while len(segments) > 1:
-            segments.pop()
-            candidate = "/".join(segments)
-            if candidate in page_refs:
-                resolved.add(candidate)
-                break
+        if target is not None:
+            settled.append({**record, "ref": target})
 
-    return sorted(resolved)
+    return _strongest(settled)

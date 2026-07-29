@@ -53,8 +53,13 @@
         "Part 9.3. Amendment before particulars of an application are published (Section 64)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part5/2"
+        {
+          "extraction": "href",
+          "mention": "Part 5.2.2.6 Checking, approval, publication and notification",
+          "ref": "TMM/Part5/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -113,6 +118,13 @@
         "3.1"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -159,6 +171,13 @@
         "3.2"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -185,6 +204,13 @@
         "3.3"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -211,6 +237,13 @@
         "3.4"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -256,6 +289,13 @@
         "3.5"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -282,6 +322,13 @@
         "3.6"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part9/3/3/6",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -295,16 +342,17 @@
   "page": {
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
     "archived": false,
-    "content_hash": "sha256:ae8811573f1056a0287d663dd434cdb20785909db898b1cc1f8afb849435ed0c",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:7965af4fed3f505ee6cb28fc93ae24c2ce22b9994c7bddb81b93c6abf8a3edab",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 9.3. Amendment before particulars of an application are published (Section 64)",
     "images": [],
     "last_amended": "2025-10-22",
     "nav_title": "Part 9. 3. Amendment before particulars of an application are published (Section 64)",
     "page_ref": "TMM/Part9/3",
     "part_id": "Part9",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-amendment-before-particulars-of-an-application-are-published-section-64"
   }
 }

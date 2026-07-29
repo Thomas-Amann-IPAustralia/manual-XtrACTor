@@ -6,6 +6,7 @@ Owned by T4. The signatures below are fixed — see ARCHITECTURE.md.
 from __future__ import annotations
 
 import hashlib
+import re
 from dataclasses import dataclass
 from datetime import date, datetime
 
@@ -157,6 +158,10 @@ class PageRecord:
     #: class table, the format of a summons — and without this they record as
     #: indistinguishable from a page with nothing on it. See extract_images.
     images: tuple[dict[str, str | None], ...] = ()
+    #: The address the page's own `<h1>` prints, where that is not `page_ref`.
+    #: Null on 498 of 500 pages. See `printed_page_ref` for the two it is not,
+    #: and why the disagreement is recorded rather than reconciled.
+    printed_page_ref: str | None = None
 
 
 def normalise_text(text: str) -> str:
@@ -354,6 +359,15 @@ def extract_images(body: Tag) -> tuple[dict[str, str | None], ...]:
     one image, and sorting is what stops a reordering of the prose rewriting
     the record. Same reasoning as `internal_refs` — ARCHITECTURE.md
     §Byte-stability.
+
+    **The sort key has to separate a missing `alt` from an empty one**, or the
+    sort is not a total order and rule 2 fails. `(src, alt or "")` collapses
+    `None` and `""` onto one key, so two entries sharing a `src` tie, and
+    `sorted` falls back to the iteration order of a set of strings — which
+    varies with `PYTHONHASHSEED`, so the page rewrites itself on alternate
+    runs. No image in the corpus carries an `alt` today, which is exactly why
+    this was invisible: it is triggered by the amendment the field exists to
+    detect, *"Accessibility fix – alternative text for images"*.
     """
     seen = {
         (str(image["src"]), None if image.get("alt") is None else str(image["alt"]))
@@ -362,8 +376,64 @@ def extract_images(body: Tag) -> tuple[dict[str, str | None], ...]:
     }
     return tuple(
         {"src": src, "alt": alt}
-        for src, alt in sorted(seen, key=lambda pair: (pair[0], pair[1] or ""))
+        for src, alt in sorted(
+            seen, key=lambda pair: (pair[0], pair[1] is not None, pair[1] or "")
+        )
     )
+
+
+#: The address a page prints about itself in its own `<h1>`, in the two forms
+#: the Manual writes: Part-qualified ('Part 20.2. Definition of sign',
+#: '20.2. Background to definition of a trade mark') and page-local
+#: ('16. Surnames', on Part 22). Same shape as `sitemap._LEADING_ADDRESS`,
+#: because it is the same numbering read off a different element.
+_H1_ADDRESS = re.compile(
+    r"^(?:Part\s+)?(?P<address>\d{1,3}[A-Z]?(?:\.\d+)*)\.?(?=\s|:|$)"
+)
+
+
+def printed_page_ref(h1: str | None, nav: NavPage) -> str | None:
+    """The page_ref this page's own `<h1>` prints, when it is not its page_ref.
+
+    `page_ref` comes from the nav, and must — the nav is the only reliable
+    source of Part membership and the only thing that keeps two colliding
+    slugs apart (SOURCE_NOTES.md §2). But the page also prints an address, and
+    on two of the Manual's 500 pages the two disagree:
+
+        TMM/Part20/3   nav '3. Definition of sign'
+                       h1  'Part 20.2. Definition of sign'
+        TMM/Part20/2   h1  '20.2. Background to definition of a trade mark'
+
+    Two pages print 20.2. That is the Manual's defect, not ours, and rule 1
+    says to record an ambiguity rather than resolve it — so the nav still
+    decides the address and this field says, deterministically, that the page
+    itself says otherwise. Without it a bare 'part 20.2' in some other Part
+    resolves to `TMM/Part20/2` with nothing anywhere suggesting it might have
+    meant the other one.
+
+    The second case is milder and is the whole of the rest: Part 1's
+    introduction is `Part 1. Introduction` in the nav, which qualifies down to
+    no page-local address at all, so its `page_ref` is the slug form — while
+    its `<h1>` prints `Part 1.1.` and `TMM/Part1/1` is claimed by nobody.
+
+    `None` where the `<h1>` prints no address (14 pages), where it prints the
+    Part's own number and no more — `20. Relevant Legislation` — or where it
+    agrees, which is the other 484.
+    """
+    match = _H1_ADDRESS.match(h1 or "")
+    if match is None:
+        return None
+
+    address = match.group("address")
+    number = nav.part_id[len("Part") :]
+    if address == number:
+        return None
+    local = address[len(number) + 1 :] if address.startswith(f"{number}.") else address
+    if not local:
+        return None
+
+    printed = f"{nav.page_ref.split('/')[0]}/{nav.part_id}/{local.replace('.', '/')}"
+    return printed if printed != nav.page_ref else None
 
 
 def resolve_nav(url: str, sitemap: dict[str, NavPage]) -> NavPage:
@@ -528,6 +598,14 @@ def canonical_body(body: Tag) -> str:
         parts.append("<" + "|".join([node.name, *attrs]) + ">")
         for child in node.children:
             visit(child)
+        # The close is what makes this a rendering of the *tree*. Without it
+        # the canonical form is a flat sequence of opening tags, and two
+        # different shapes collapse onto one string: `<p>a</p><p>b</p>` and
+        # `<p>a<p>b</p></p>` both read as '<p> a <p> b'. They hash alike, they
+        # flatten to the same `chunk.text`, and they produce different
+        # `blocks` — so gate 2 skipped a page whose structure had moved and
+        # left the snapshot asserting the old one. Found in the 0.7.0 review.
+        parts.append(f"</{node.name}>")
 
     for child in body.children:
         visit(child)
@@ -606,5 +684,6 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
         extractor_version=config.EXTRACTOR_VERSION,
         archived=archived,
         images=extract_images(body),
+        printed_page_ref=printed_page_ref(h1, nav),
     )
     return record, body

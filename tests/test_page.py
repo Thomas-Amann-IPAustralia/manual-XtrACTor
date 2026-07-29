@@ -12,8 +12,11 @@ from tmm_snapshot.page import (
     PageNotInSitemap,
     UnrecognisedMarkup,
     content_hash,
+    extract_images,
+    flatten_text,
     normalise_text,
     parse_page,
+    printed_page_ref,
     resolve_nav,
 )
 from tmm_snapshot.sitemap import NavPage
@@ -24,6 +27,10 @@ from conftest import fixture_html, page_html, page_url
 def parse(name, sitemap):
     nav = resolve_nav(page_url(name), sitemap)
     return parse_page(page_html(name), nav)
+
+
+def fragment(html: str):
+    return BeautifulSoup(html, config.HTML_PARSER).div
 
 
 def body_text(name, sitemap):
@@ -487,3 +494,109 @@ def test_an_image_without_a_src_is_not_recorded(sitemap):
     record = with_images_in_body("part22_1", '<img alt="orphan">', sitemap)
     assert all(image["src"] for image in record.images)
     assert "orphan" not in [image["alt"] for image in record.images]
+
+
+# -- the canonical form is a rendering of the tree -------------------------
+
+
+def test_two_different_shapes_do_not_share_a_content_hash():
+    """`canonical_body` emitted an opening tag per element and no close, so it
+    described a flat sequence rather than a tree. `<p>a</p><p>b</p>` and
+    `<p>a<p>b</p></p>` hashed alike, flattened to the same `chunk.text`, and
+    produced different `blocks` — so gate 2 skipped a page whose structure had
+    moved and left the snapshot asserting the old one. Found in the 0.7.0
+    review."""
+    from tmm_snapshot.blocks import extract_blocks
+
+    siblings = fragment("<div><p>a</p><p>b</p></div>")
+    nested = fragment("<div><p>a<p>b</p></p></div>")
+
+    assert flatten_text(siblings) == flatten_text(nested) == "a b"
+    assert extract_blocks(siblings) != extract_blocks(nested)
+    assert content_hash(siblings) != content_hash(nested)
+
+
+def test_nesting_a_list_item_deeper_is_a_change_to_the_page():
+    """The shape the CMS actually emits — a child `<ul>` as a sibling of the
+    `<li>` it belongs to rather than inside it (SOURCE_NOTES.md §2). It changes
+    what encloses what, so it has to change the hash."""
+    inside = fragment("<div><ul><li>a<ul><li>b</li></ul></li></ul></div>")
+    beside = fragment("<div><ul><li>a</li><ul><li>b</li></ul></ul></div>")
+
+    assert content_hash(inside) != content_hash(beside)
+
+
+def test_the_hash_still_ignores_what_drupal_rewrites():
+    """The other half of the contract, unchanged: classes and ids churn
+    without the Manual having changed, and a changed href is an amendment."""
+    plain = fragment('<div><p class="a" id="x">Text</p></div>')
+    restyled = fragment('<div><p class="b zone" id="y">Text</p></div>')
+    relinked = fragment('<div><p><a href="/one">Text</a></p></div>')
+    moved = fragment('<div><p><a href="/two">Text</a></p></div>')
+
+    assert content_hash(plain) == content_hash(restyled)
+    assert content_hash(relinked) != content_hash(moved)
+
+
+# -- an image sorts one way ------------------------------------------------
+
+
+def test_a_missing_alt_and_an_empty_one_sort_in_a_fixed_order():
+    """`(src, alt or "")` collapsed None and "" onto one key, so two entries
+    sharing a src tied and `sorted` fell back to the iteration order of a set
+    of strings — which varies with PYTHONHASHSEED, and the page rewrote itself
+    on alternate runs. No image in the corpus carries an alt today, which is
+    why it was invisible: it fires on 'Accessibility fix – alternative text for
+    images', the amendment the field exists to detect."""
+    body = fragment(
+        '<div><img src="a.png" alt="described"><img src="a.png" alt="">'
+        '<img src="a.png"></div>'
+    )
+
+    assert extract_images(body) == (
+        {"src": "a.png", "alt": None},
+        {"src": "a.png", "alt": ""},
+        {"src": "a.png", "alt": "described"},
+    )
+
+
+# -- the address a page prints about itself --------------------------------
+
+
+def test_a_page_printing_an_address_that_is_not_its_own_records_the_conflict(
+    sitemap,
+):
+    """TMM/Part20/3 prints 'Part 20.2. Definition of sign' while TMM/Part20/2
+    prints '20.2. Background to definition of a trade mark'. Two pages claim
+    20.2. That is the Manual's defect, the nav still decides the address, and
+    rule 1 says to record the ambiguity rather than resolve it."""
+    nav = NavPage(
+        url="https://manuals.ipaustralia.gov.au/trademark/3.-definition-of-sign",
+        page_ref="TMM/Part20/3",
+        part_id="Part20",
+        part_title="Part 20 What is a Trade Mark?",
+        nav_title="3. Definition of sign",
+        nav_ordinal=3,
+        kind="body",
+    )
+
+    assert printed_page_ref("Part 20.2. Definition of sign", nav) == "TMM/Part20/2"
+
+
+def test_a_page_whose_heading_agrees_records_nothing(sitemap):
+    """498 of 500. Both the Part-qualified form and the page-local one."""
+    nav = NavPage(
+        url="https://manuals.ipaustralia.gov.au/trademark/x",
+        page_ref="TMM/Part22/16",
+        part_id="Part22",
+        part_title="Part 22 Section 41 - Capable of Distinguishing",
+        nav_title="16. Surnames",
+        nav_ordinal=16,
+        kind="body",
+    )
+
+    assert printed_page_ref("22.16. Surnames", nav) is None
+    assert printed_page_ref("16. Surnames", nav) is None
+    assert printed_page_ref("Surnames", nav) is None
+    # '22. Relevant Legislation' names the Part and no page within it.
+    assert printed_page_ref("22. Relevant Legislation", nav) is None

@@ -24,6 +24,7 @@
         "32B.1. Introduction"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -77,6 +78,13 @@
         "1.1 Overview"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -128,6 +136,13 @@
         "1.2 The Wine Australia Act 2013"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -195,6 +210,13 @@
         "1.3 The Register of Protected Geographical Indications and Other Terms"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32B/1/1/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -221,16 +243,17 @@
   "page": {
     "amendment_note": "Hyperlinks fixed.",
     "archived": false,
-    "content_hash": "sha256:a01f6005c0333ef9ce829f388e50c7c6b8a2f7514b368f92b4529effdb5772d7",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5884829b6b7025d5d226d49bcb597cfdb55c01986e79aff6330665742bcd44d8",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32B.1. Introduction",
     "images": [],
     "last_amended": "2025-01-10",
     "nav_title": "Part 32B.1. Introduction",
     "page_ref": "TMM/Part32B/1",
     "part_id": "Part32B",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-introduction3"
   }
 }

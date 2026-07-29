@@ -33,6 +33,13 @@
         "Wheatcroft Bros Ltd’s Trade Marks (1954) 71 RPC 43"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/wheatcroft-bros-ltd-s-trade-marks-1954-71-rpc-43",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -79,6 +86,13 @@
         "\"Ogen\" Trade Mark [1977] RPC 529"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/ogen-trade-mark-1977-rpc-529",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -121,6 +135,13 @@
         "P.A and E.V Strauss [1999], 47 IPR 191 (“Tropical Birch”)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/p-a-and-e-v-strauss-1999-47-ipr-191-tropical-birch",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -186,10 +207,24 @@
         "SFR Holdings Inc [2013] ATMO 77 (“Seadwarf”)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/sfr-holdings-inc-2013-atmo-77-seadwarf~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part2/1",
-        "TMM/Part32A/2/1",
-        "TMM/Part32A/2/3/2/3/1"
+        {
+          "extraction": "href",
+          "mention": "part 2.1",
+          "ref": "TMM/Part32A/2/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "2.3.1(c)",
+          "ref": "TMM/Part32A/2/3/2/3/1"
+        }
       ],
       "kind": "annex",
       "links": [
@@ -245,6 +280,13 @@
         "SFR Holdings Inc [2013] ATMO 77 (“Seadwarf”)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/sfr-holdings-inc-2013-atmo-77-seadwarf~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -319,6 +361,13 @@
         "Mastronardi Produce Ltd v Registrar of Trade Marks [2014] FCA 1021 (“ZIMA”)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/mastronardi-produce-ltd-v-registrar-of-trade-marks-2014-fca-1021-zima",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -381,6 +430,13 @@
         "Buchanan Turf Supplies Pty Ltd v Registrar of Trade Marks [2015] FCA 756"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/x-annex-5---case-law-summaries/buchanan-turf-supplies-pty-ltd-v-registrar-of-trade-marks-2015-fca-756",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "annex",
       "links": [],
@@ -394,16 +450,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:b87d5374ce34de2755ddc5bed32548563a598f2db2bfe4644989f4fb820e3e11",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:7dd505d08106fe10e49196ef9ceef957316994d9e7a6d0b6185a49265baf8b17",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32A. Annex 5 - Case Law Summaries",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "Annex 5 - Case Law Summaries",
     "page_ref": "TMM/Part32A/x-annex-5---case-law-summaries",
     "part_id": "Part32A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/annex-5---case-law-summaries"
   }
 }

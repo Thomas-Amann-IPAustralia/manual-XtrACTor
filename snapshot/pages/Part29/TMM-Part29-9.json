@@ -69,6 +69,7 @@
         "29.9. Geographical references"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -115,6 +116,13 @@
         "9.2 Is the Trade Mark likely to deceive Australian consumers?"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -268,6 +276,13 @@
         "9.3 Is the Trade Mark Likely to Cause Confusion?"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/3~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -353,6 +368,13 @@
         "9.3 Is the Trade Mark Likely to Cause Confusion?"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/3~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -406,6 +428,13 @@
         "9.4 Services Claims"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -447,6 +476,13 @@
         "9.5 Overcoming Grounds for Rejection"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -481,6 +517,18 @@
         "XYZ Company"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/5",
+          "source": "emphasis"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part29/9#7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -523,6 +571,13 @@
         "Grown in Australia"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/grown-in-australia",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -550,6 +605,18 @@
         "XYZ Company"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/grown-in-australia",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part29/9#9",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -592,6 +659,13 @@
         "Casino’s best beef"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/casino-s-best-beef",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -631,6 +705,13 @@
         "9.6 Business Identifiers"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/6",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -694,6 +775,13 @@
         "9.7 Implied endorsement or licensing"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part29/9/9/7",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -707,10 +795,10 @@
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
-    "content_hash": "sha256:974ae69d17c26bf2f696a4eed96c4c5454f3e7fa5f106149132d7acac57a7194",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6da0bedd338a435017a6d54497962a31641367b7ac5b4a8f3c1d1854fff1e977",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "29.9. Geographical references",
     "images": [
       {
@@ -726,6 +814,7 @@
     "nav_title": "9. Geographical References",
     "page_ref": "TMM/Part29/9",
     "part_id": "Part29",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/10.-geographical-references"
   }
 }

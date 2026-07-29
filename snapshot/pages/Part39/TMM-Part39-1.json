@@ -43,10 +43,23 @@
         "Part 39.1. Overview of registration"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part19B/1",
-        "TMM/Part43/1",
-        "TMM/Part8/1"
+        {
+          "extraction": "href",
+          "mention": "Part 19B Rights Given by Registration of a Trade Mark",
+          "ref": "TMM/Part19B/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 43 Assignment",
+          "ref": "TMM/Part43/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 8 Amalgamation of Applications for Registration",
+          "ref": "TMM/Part8/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -110,16 +123,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:c685fd1ca61079ba35a6b68518f0ab0ed4593f84b14bac11401ce2a1fb020922",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:033b7b52e6200c628b218c40c7b67383f45b4130c9f4069380a6ff771beb9d93",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 39.1. Overview of registration",
     "images": [],
     "last_amended": "2025-06-04",
     "nav_title": "1. Overview of registration",
     "page_ref": "TMM/Part39/1",
     "part_id": "Part39",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-overview-of-registration"
   }
 }

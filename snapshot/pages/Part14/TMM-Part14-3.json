@@ -31,6 +31,7 @@
         "14.3. Requirement for a clear specification and for correct classification"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -116,9 +117,18 @@
         "14.3. Requirement for a clear specification and for correct classification"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part14/5",
-        "TMM/Part14/6"
+        {
+          "extraction": "href",
+          "mention": "5",
+          "ref": "TMM/Part14/5"
+        },
+        {
+          "extraction": "href",
+          "mention": "6",
+          "ref": "TMM/Part14/6"
+        }
       ],
       "kind": "body",
       "links": [
@@ -191,16 +201,17 @@
   "page": {
     "amendment_note": "Amended post MGS implementation",
     "archived": false,
-    "content_hash": "sha256:b8f6e809603fb59de1919c96a015479081ec124e4232dfcd7f231c584d62677d",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:f0358d1ea76cb617b1ddb565f20f1dce608d2efbdc0ed2dc1f35266c8af78b06",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2024-04-05",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "14.3. Requirement for a clear specification and for correct classification",
     "images": [],
     "last_amended": "2024-04-05",
     "nav_title": "3. Requirement for a clear specification and for correct classification",
     "page_ref": "TMM/Part14/3",
     "part_id": "Part14",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-requirement-for-a-clear-specification-and-for-correct-classification"
   }
 }

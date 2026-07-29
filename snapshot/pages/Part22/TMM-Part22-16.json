@@ -16,6 +16,7 @@
         "16. Surnames"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -94,6 +95,13 @@
         "16.1 Searching and research for Surnames"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -148,6 +156,13 @@
         "16.1 Searching and research for Surnames"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/1~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -174,6 +189,13 @@
         "16.2 Surname only"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -204,6 +226,13 @@
         "16.3 Combination of a surname and other words/additional matter"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -238,6 +267,13 @@
         "16.4 Plural or possessive surnames"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -264,6 +300,13 @@
         "16.5 Word which is both a surname and a geographical name"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -297,8 +340,19 @@
         "16.6 Word which is both a surname and a descriptive word"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/14"
+        {
+          "extraction": "href",
+          "mention": "see paragraph 14.3",
+          "ref": "TMM/Part22/14"
+        }
       ],
       "kind": "body",
       "links": [
@@ -347,6 +401,13 @@
         "16.7 Trade marks consisting of two or more surnames"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/16/16/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -360,16 +421,17 @@
   "page": {
     "amendment_note": "Minor update.",
     "archived": false,
-    "content_hash": "sha256:3a76c09b0ee535a6f3520de72abd34229137b1e6a043d17ed1ff697197cc7bff",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:ea428343634f47d4183744c1d4f9ecb18d7f0351ef8ea5c4cce698e514b66750",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "16. Surnames",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "16. Surnames",
     "page_ref": "TMM/Part22/16",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/16.-surnames"
   }
 }

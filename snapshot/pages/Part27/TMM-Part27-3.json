@@ -39,6 +39,7 @@
         "27.3. Amending the goods and/or services of the applicant's specification"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -94,6 +95,13 @@
         "3.1 Deleting goods or services from the application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -187,6 +195,13 @@
         "3.2 Excluding goods and/or services from the application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -228,6 +243,13 @@
         "3.2 Excluding goods and/or services from the application"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -259,6 +281,18 @@
         "3.2.1"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part27/3/3/2/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -334,6 +368,18 @@
         "3.2.2"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part27/3/3/2/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -400,6 +446,18 @@
         "3.2.3"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part27/3/3/2/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -452,6 +510,18 @@
         "3.2.4"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part27/3/3/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -501,10 +571,29 @@
         "3.3 Defining the area of interest of the goods and/or services"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part27/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part14/6",
-        "TMM/Part60/4/10",
-        "TMM/Part9/4"
+        {
+          "extraction": "href",
+          "mention": "6.4 Wording of exclusions and restrictions",
+          "ref": "TMM/Part14/6"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.10 Amendments",
+          "ref": "TMM/Part60/4/10"
+        },
+        {
+          "extraction": "href",
+          "mention": "4. Amendments after particulars of an application have been published",
+          "ref": "TMM/Part9/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -568,16 +657,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:79f14b774aa36d86bd029e4c8a742ea637cb420a57ef24dca6562f6b7d6816da",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:adc2ae74e77efd5ad5f1c72c5b590430fe18d2e669343448fbf65171c83fe631",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "27.3. Amending the goods and/or services of the applicant's specification",
     "images": [],
     "last_amended": "2023-10-10",
     "nav_title": "3. Amending the goods and/or services of the applicant's specification",
     "page_ref": "TMM/Part27/3",
     "part_id": "Part27",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-amending-the-goods-and-or-services-of-the-applicants-specification"
   }
 }

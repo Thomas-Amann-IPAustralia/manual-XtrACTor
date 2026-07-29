@@ -25,8 +25,13 @@
         "22.1. Registrability under section 41 of the Trade Marks Act 1995"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part35/4"
+        {
+          "extraction": "href",
+          "mention": "4. The registrability of certification trade marks",
+          "ref": "TMM/Part35/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -103,6 +108,13 @@
         "1.1 The 1955 Act"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -168,9 +180,24 @@
         "1.2 Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part12/9",
-        "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+        {
+          "extraction": "href",
+          "mention": "9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
+          "ref": "TMM/Part12/9"
+        },
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+        }
       ],
       "kind": "body",
       "links": [
@@ -226,16 +253,17 @@
   "page": {
     "amendment_note": "Minor updates.",
     "archived": false,
-    "content_hash": "sha256:34a1558a98111e8f268ed2eb193fff5cfcc804a4e5e4c4085d4618649125d9de",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:db8c36a098a91abb06c5ec1cc6d96133547ac8c9dceda0d2cee1d8668cddd15e",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.1. Registrability under section 41 of the Trade Marks Act 1995",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "1. Registrability under section 41 of the Trade Marks Act 1995",
     "page_ref": "TMM/Part22/1",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-registrability-under-section-41-of-the-trade-marks-act-1995"
   }
 }

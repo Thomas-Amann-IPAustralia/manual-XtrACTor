@@ -37,7 +37,9 @@ CHUNK = {
     "fragment": None,
     "heading_path": ["Part 22", "22.1. Something"],
     "heading_source": None,
-    "internal_refs": ["TMM/Part35/4"],
+    "internal_refs": [
+        {"ref": "TMM/Part35/4", "extraction": "href", "mention": "Part 35.4"}
+    ],
     "kind": "body",
     "ordinal": 1,
     "page_ref": "TMM/Part22/1",

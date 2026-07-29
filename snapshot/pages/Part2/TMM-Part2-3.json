@@ -25,6 +25,13 @@
         "2.3.1 Who may apply for a trade mark"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -114,6 +121,13 @@
         "2.3.2 Minimum filing requirements and when an application is taken to be filed"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -249,6 +263,13 @@
         "2.3.2.1 Application form provided by the Registrar"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -282,6 +303,13 @@
         "2.3.2.2 Other filing requirements for an application to register a trade mark"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -316,6 +344,13 @@
         "2.3.3 Requirements for filing documents"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -375,6 +410,13 @@
         "2.3.4 Documents requiring a signature"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -424,6 +466,13 @@
         "2.3.5 Applicants etc. must supply an address for service"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -457,7 +506,21 @@
         "2.3.6 Supporting documentation for an application, notice or request"
       ],
       "heading_source": "markup",
-      "internal_refs": [],
+      "headings": [
+        {
+          "level": 2,
+          "ref": "TMM/Part2/3/2/3/6",
+          "source": "markup"
+        }
+      ],
+      "internal_refs": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 1.4.1",
+          "ref": "TMM/Part2/1"
+        }
+      ],
       "kind": "body",
       "links": [],
       "ordinal": 8,
@@ -489,16 +552,17 @@
   "page": {
     "amendment_note": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website.",
     "archived": false,
-    "content_hash": "sha256:67c9867dacfbdc26bf4799f5f9de13886b00f19552fce04e2e51a260f38b2c80",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:34469be8a4f51a59d50a7304472f0d8d9944468a189837b31cb78be334e93300",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-07-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 2.3 Who may apply, and filing requirements for trade mark applications, notices and requests",
     "images": [],
     "last_amended": "2026-07-13",
     "nav_title": "Part 2.3 Who may apply, and filing requirements for trade mark applications, notices and requests",
     "page_ref": "TMM/Part2/3",
     "part_id": "Part2",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/part-2.3-who-may-apply-for-a-trade-mark--what-are-the-filing-requirements-for-applications-notices"
   }
 }

@@ -115,8 +115,57 @@
 
     "internal_refs": {
       "type": "array",
-      "description": "Manual-internal cross references, resolved to chunk or page refs. Unresolvable targets are dropped, not guessed. A ref equal to this chunk's own page_ref is kept, not filtered: it means the target is elsewhere on this same page, which tells a retrieval layer to offer a sibling chunk rather than another page.",
-      "items": { "type": "string" }
+      "description": "Manual-internal cross references, resolved to chunk or page refs, and carrying how each was found. Unresolvable targets are dropped, not guessed. A ref equal to this chunk's own page_ref is kept, not filtered: it means the target is elsewhere on this same page, which tells a retrieval layer to offer a sibling chunk rather than another page. One record per target — a passage that both links to a page and names it in prose asserts one edge, and the hyperlink is the stronger evidence for it.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref", "extraction"],
+        "properties": {
+          "ref": {
+            "type": "string",
+            "description": "The target, as a page_ref or a chunk_ref.",
+            "examples": ["TMM/Part12/9", "TMM/Part14/4/4/5"]
+          },
+          "extraction": {
+            "enum": ["href", "regex"],
+            "description": "The same distinction 'provisions' draws, and it is load-bearing for the same reason: an href is the Manual's authors linking one passage to another, and a regex edge is our reading of 'see part 22.15.7' in the prose. 359 of the corpus's edges are the first and 34 are the second, and until ingest/0.8.0 both were stored as bare strings with nothing to tell them apart."
+          },
+          "certainty": {
+            "enum": ["explicit", "default", "ambiguous"],
+            "description": "For regex edges. 'default' is the convention of SOURCE_NOTES.md §8 — 'part 22.15.7' names Part 22 — applied where nothing competes. 'explicit' is the Manual settling it in its own words: 'part 2.3.1(c) of this chapter' says the digits are this Part's address and not Part 2's. 'ambiguous' is both readings resolving against the inventory with nothing choosing between them; the conventional target is kept because the record has nowhere else to put one, and the flag beside it is what stops it being read as a fact. Route ambiguous to review; never follow it as though it were established.",
+            "examples": ["default", "explicit", "ambiguous"]
+          },
+          "mention": {
+            "type": ["string", "null"],
+            "description": "The surface form: the anchor's own words for an href edge, the matched phrase for a regex one. The same debugging aid 'mention' is on a provision, and the thing that makes a wrong edge findable."
+          }
+        }
+      }
+    },
+
+    "headings": {
+      "type": "array",
+      "description": "One entry per heading in 'heading_path[2:]', outermost first — the depth of each ancestor, how it was found, and the chunk that holds it. 'heading_path' is a list of strings and so cannot say any of the three. The ancestor's text is deliberately NOT repeated here: it is heading_path[2:][i], and validate.py pins the correspondence over the whole snapshot so that one ancestry cannot become two disagreeing copies of itself.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "source", "ref"],
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Depth, on one scale for both kinds of heading: the digit of an h2-h4, and for an inferred heading the number of components in the number the Manual printed — '3.1' sits where an h3 sits and '3.1.1' where an h4 does. This is what heading ancestry is keyed on, and without it a consumer cannot see the nesting the chunker read, which matters on the three pages where the Manual's numbering and its markup disagree (SOURCE_NOTES.md §28)."
+          },
+          "source": {
+            "enum": ["markup", "emphasis"],
+            "description": "As 'heading_source', but for every ancestor rather than the leaf alone. A chunk can be cut on an h3 while sitting under a heading that was promoted from a bold paragraph, so filtering the corpus to heading_source == 'markup' does not by itself give you an ancestry the Manual marked up."
+          },
+          "ref": {
+            "type": ["string", "null"],
+            "description": "The chunk_ref of the chunk holding this heading's own section, or null where it holds none. Null is the ordinary case for a heading whose content lives entirely in its subsections (SOURCE_NOTES.md §27), and 899 chunks have at least one such ancestor. It is what makes the heading tree addressable: the parent of a chunk is the last entry before it with a ref, and the page where there is none. Where a section was long enough to split, this is its opening fragment, which is where a link to the heading is aimed."
+          }
+        }
+      }
     },
 
     "blocks": {

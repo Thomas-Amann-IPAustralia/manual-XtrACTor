@@ -41,8 +41,13 @@
         "22. Registrability of various kinds of signs"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part21/1"
+        {
+          "extraction": "href",
+          "mention": "Part 21 Non-traditional Signs",
+          "ref": "TMM/Part21/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -88,16 +93,17 @@
   "page": {
     "amendment_note": "Minor update.",
     "archived": false,
-    "content_hash": "sha256:14c083b1b4297b4d5531366d4e37a392178ea47abaff209b46451dbe6737eb83",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:620e2e5acfec82a7abf72c90a8ac301b6d1ad8f7995dce2216764f032396e25f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22. Registrability of various kinds of signs",
     "images": [],
     "last_amended": "2022-12-19",
     "nav_title": "Registrability of Various Kinds of Signs",
     "page_ref": "TMM/Part22/x-registrability-of-various-kinds-of-signs",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/registrability-of-various-kinds-of-signs"
   }
 }

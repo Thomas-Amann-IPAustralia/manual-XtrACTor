@@ -17,7 +17,21 @@
         "5.1"
       ],
       "heading_source": "markup",
-      "internal_refs": [],
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/5/5/1",
+          "source": "markup"
+        }
+      ],
+      "internal_refs": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "part 3.1",
+          "ref": "TMM/Part61/3"
+        }
+      ],
       "kind": "body",
       "links": [],
       "ordinal": 1,
@@ -30,16 +44,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:86667473516c70c3de10521b8541825443661f6ba197f8d2efdfa6ab4778f126",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:8e2f66a8b25e585120609b2427089d16a89e34ddc4f06180606fba382b6f1cf0",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "61.5. Confidential Information in Correspondence",
     "images": [],
     "last_amended": "2022-07-29",
     "nav_title": "5. Confidential Information in Correspondence",
     "page_ref": "TMM/Part61/5",
     "part_id": "Part61",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-confidential-information-in-correspondence"
   }
 }

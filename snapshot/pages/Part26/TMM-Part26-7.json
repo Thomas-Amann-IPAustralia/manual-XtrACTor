@@ -45,9 +45,18 @@
         "26.7. Trade marks with the same priority/filing date"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part11/1",
-        "TMM/Part12/1"
+        {
+          "extraction": "href",
+          "mention": "Part 11 Convention Applications",
+          "ref": "TMM/Part11/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 12 Divisional Applications",
+          "ref": "TMM/Part12/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -144,6 +153,7 @@
         "26.7. Trade marks with the same priority/filing date"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -193,16 +203,17 @@
   "page": {
     "amendment_note": "Minor update.",
     "archived": false,
-    "content_hash": "sha256:f72c923e8ae48cf312b14e8cfc2cdd41c53ccbbb392260e2111d21d20effb7b4",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:569da650eda45afd6c0b9a1be1dbc6bcc31b3a43ac398bdb9759003dc2d2c3f4",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "26.7. Trade marks with the same priority/filing date",
     "images": [],
     "last_amended": "2024-05-23",
     "nav_title": "7. Trade marks with the same priority/filing date",
     "page_ref": "TMM/Part26/7",
     "part_id": "Part26",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/7.-trade-marks-with-the-same-priority-filing-date"
   }
 }

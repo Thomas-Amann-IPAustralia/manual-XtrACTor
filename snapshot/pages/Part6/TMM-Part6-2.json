@@ -40,8 +40,13 @@
         "6.2. Expedited Examination process"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part6/1"
+        {
+          "extraction": "href",
+          "mention": "paragraph 1.1.",
+          "ref": "TMM/Part6/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -87,16 +92,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Minor content update.",
     "archived": false,
-    "content_hash": "sha256:47b099a61527ddaeed58b83176a79be949308db39a6293fc78b161794655f022",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:4a6a148ef13d0cf863a40625b575ff1b1615515381ee9bc653d85e93835580b4",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "6.2. Expedited Examination process",
     "images": [],
     "last_amended": "2026-02-10",
     "nav_title": "2. Expedited Examination Process",
     "page_ref": "TMM/Part6/2",
     "part_id": "Part6",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-expedited-examination-process"
   }
 }

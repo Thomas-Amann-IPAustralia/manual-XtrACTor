@@ -51,6 +51,7 @@
         "Part 52.2.What is a hearing?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -193,6 +194,7 @@
         "Part 52.2.What is a hearing?"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -268,6 +270,13 @@
         "2.1 What are inter partes hearings?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part52/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -325,6 +334,13 @@
         "2.2 What are ex parte hearings and when do they overlap with inter partes hearings?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part52/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -489,16 +505,59 @@
         "2.3 Circumstances under which ex parte hearings may occur"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part52/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part15/1",
-        "TMM/Part18/1",
-        "TMM/Part22/1",
-        "TMM/Part26/1",
-        "TMM/Part29/1",
-        "TMM/Part30/1",
-        "TMM/Part31/1",
-        "TMM/Part38/1",
-        "TMM/Part9/1"
+        {
+          "extraction": "href",
+          "mention": "Part 15 General Provisions for Extensions of Time",
+          "ref": "TMM/Part15/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 18 Finalisation of Application for Registration",
+          "ref": "TMM/Part18/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 22 Section 41 - Capable of Distinguishing",
+          "ref": "TMM/Part22/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
+          "ref": "TMM/Part26/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 29 Section 43 - Trade Marks Likely to Deceive or Cause Confusion",
+          "ref": "TMM/Part29/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 30 Signs that are Scandalous and Use Contrary to Law",
+          "ref": "TMM/Part30/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 31 Prescribed and Prohibited Signs",
+          "ref": "TMM/Part31/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 38 Revocation of Acceptance",
+          "ref": "TMM/Part38/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 9 Amendments and Changes to Name and Address",
+          "ref": "TMM/Part9/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -616,16 +675,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:86d873223bcc3de2e7a9bfb293e4abbd63b7ea0255ce3c93a5ca5b85ef883da1",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:158dd2ed7eeffb4f8770845aea132945c9244c348524566402670238ecee76ac",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 52.2.What is a hearing?",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "2. What is a hearing?",
     "page_ref": "TMM/Part52/2",
     "part_id": "Part52",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.what-is-a-hearing-"
   }
 }

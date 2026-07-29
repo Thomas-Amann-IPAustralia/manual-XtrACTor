@@ -18,6 +18,7 @@ from tmm_snapshot.citations import (
     extract_provisions,
     resolve_internal_refs,
 )
+from tmm_snapshot.links import extract_links
 from tmm_snapshot.page import flatten_text, parse_page, resolve_nav
 from tmm_snapshot.sitemap import NavPage
 
@@ -35,6 +36,30 @@ def provisions(html: str) -> list[dict]:
 
 def by_id(records: list[dict]) -> dict[str, dict]:
     return {record["id"]: record for record in records}
+
+
+def refs(body, sitemap: dict[str, NavPage], page_ref: str | None = None) -> list[dict]:
+    """`extract_internal_refs` as the chunker calls it: from links and text.
+
+    Since 0.8.0 the function reads the anchors the chunk already recorded
+    rather than the markup, so that the same reading settles a live chunk and
+    a stored one. See ARCHITECTURE.md §Settling.
+    """
+    return extract_internal_refs(
+        extract_links(body), flatten_text(body), sitemap, page_ref
+    )
+
+
+def targets(body, sitemap: dict[str, NavPage], page_ref: str | None = None) -> list[str]:
+    return [record["ref"] for record in refs(body, sitemap, page_ref)]
+
+
+def candidates(*addresses: str) -> list[dict]:
+    """Candidate refs in the record shape `resolve_internal_refs` settles."""
+    return [
+        {"ref": address, "extraction": "href", "mention": "a link"}
+        for address in addresses
+    ]
 
 
 def chunk_texts(name: str, sitemap: dict[str, NavPage]) -> dict[str, str]:
@@ -388,7 +413,7 @@ def test_a_hyperlinked_cross_reference_resolves_through_the_sitemap(sitemap):
         'annex-a1-section-41-prior-to-raising-the-bar">Annex A1</a>.</p>'
     )
 
-    assert extract_internal_refs(body, sitemap) == [
+    assert targets(body, sitemap) == [
         "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
     ]
 
@@ -400,7 +425,7 @@ def test_a_cross_reference_written_with_the_other_scheme_still_resolves(sitemap)
         'annex-a1-section-41-prior-to-raising-the-bar">Annex A1</a></p>'
     )
 
-    assert extract_internal_refs(body, sitemap) == [
+    assert targets(body, sitemap) == [
         "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
     ]
 
@@ -412,7 +437,7 @@ def test_a_bare_dotted_reference_resolves_to_the_page_it_falls_inside(sitemap):
     actually holds."""
     body = fragment("<p>As with such trade marks (see part 22.15.7) examiners…</p>")
 
-    assert extract_internal_refs(body, sitemap) == ["TMM/Part22/15"]
+    assert targets(body, sitemap) == ["TMM/Part22/15"]
 
 
 def test_an_unresolvable_reference_is_dropped_not_stored(sitemap):
@@ -423,14 +448,14 @@ def test_an_unresolvable_reference_is_dropped_not_stored(sitemap):
         "this</a>.</p>"
     )
 
-    assert extract_internal_refs(body, sitemap) == []
+    assert targets(body, sitemap) == []
 
 
 def test_a_part_without_a_dotted_address_is_not_a_page_reference(sitemap):
     """'Part 22 of this Manual' names a Part. TMM/Part22 is not a page."""
     body = fragment("<p>As discussed in Part 22 of this Manual…</p>")
 
-    assert extract_internal_refs(body, sitemap) == []
+    assert targets(body, sitemap) == []
 
 
 def test_a_reference_to_the_page_it_sits_on_is_kept(sitemap):
@@ -452,7 +477,7 @@ def test_a_reference_to_the_page_it_sits_on_is_kept(sitemap):
     )
     on_that_very_page = "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
 
-    assert extract_internal_refs(body, sitemap) == [on_that_very_page]
+    assert targets(body, sitemap) == [on_that_very_page]
 
 
 def test_an_external_link_is_never_an_internal_reference(sitemap):
@@ -462,7 +487,7 @@ def test_an_external_link_is_never_an_internal_reference(sitemap):
         'tma1995121/s41.html">section 41</a></p>'
     )
 
-    assert extract_internal_refs(body, sitemap) == []
+    assert targets(body, sitemap) == []
 
 
 # -- an instrument that cannot hold the provision it is next to -----------
@@ -578,9 +603,7 @@ def test_a_link_to_a_heading_addresses_the_chunk_not_the_page(sitemap):
         'examination#4.5-goods-or-services-to-be-grouped-together-by-class-'
         'number">4.5</a>.</p>'
     )
-    refs = extract_internal_refs(body, sitemap)
-
-    assert refs == ["TMM/Part14/4/4/5"]
+    assert targets(body, sitemap) == ["TMM/Part14/4/4/5"]
 
 
 def test_a_fragment_naming_no_number_stays_a_page_reference(sitemap):
@@ -591,15 +614,15 @@ def test_a_fragment_naming_no_number_stays_a_page_reference(sitemap):
         'examination#a">A</a>.</p>'
     )
 
-    assert extract_internal_refs(body, sitemap) == ["TMM/Part14/4"]
+    assert targets(body, sitemap) == ["TMM/Part14/4"]
 
 
 def test_a_candidate_resolves_to_the_chunk_when_the_chunk_exists():
     assert resolve_internal_refs(
-        ["TMM/Part14/4/4/5"],
+        candidates("TMM/Part14/4/4/5"),
         frozenset({"TMM/Part14/4/4/5"}),
         frozenset({"TMM/Part14/4"}),
-    ) == ["TMM/Part14/4/4/5"]
+    ) == candidates("TMM/Part14/4/4/5")
 
 
 def test_a_candidate_resolves_to_the_opening_fragment_of_a_split_section():
@@ -607,10 +630,10 @@ def test_a_candidate_resolves_to_the_opening_fragment_of_a_split_section():
     no single chunk owns the bare form. The link is aimed at where the section
     starts, which is `~1` by construction. 27 of the 47 addressed anchors."""
     assert resolve_internal_refs(
-        ["TMM/Part14/4/4/8"],
+        candidates("TMM/Part14/4/4/8"),
         frozenset({"TMM/Part14/4/4/8~1", "TMM/Part14/4/4/8~2"}),
         frozenset({"TMM/Part14/4"}),
-    ) == ["TMM/Part14/4/4/8~1"]
+    ) == candidates("TMM/Part14/4/4/8~1")
 
 
 def test_a_candidate_whose_heading_has_gone_falls_back_to_its_page():
@@ -618,11 +641,149 @@ def test_a_candidate_whose_heading_has_gone_falls_back_to_its_page():
     still true. The Manual moving a heading should weaken a citation, not
     delete one."""
     assert resolve_internal_refs(
-        ["TMM/Part27/3/2/2"], frozenset(), frozenset({"TMM/Part27/3"})
-    ) == ["TMM/Part27/3"]
+        candidates("TMM/Part27/3/2/2"), frozenset(), frozenset({"TMM/Part27/3"})
+    ) == candidates("TMM/Part27/3")
 
 
 def test_a_candidate_naming_nothing_at_all_is_dropped():
     assert resolve_internal_refs(
-        ["TMM/Part99/1/2/3"], frozenset(), frozenset({"TMM/Part27/3"})
+        candidates("TMM/Part99/1/2/3"), frozenset(), frozenset({"TMM/Part27/3"})
     ) == []
+
+
+# -- §8 the two things 'part N.M' can mean --------------------------------
+
+
+def test_a_hyperlinked_reference_records_that_it_was_hyperlinked(sitemap):
+    """The distinction `provisions` has always drawn, applied to the field it
+    was missing from. Until 0.8.0 an authored link and a regex hit on the
+    prose were both a bare string, and 34 of the corpus's 417 edges were the
+    second kind with nothing saying so."""
+    body = fragment(
+        '<p>See <a href="/trademark/annex-a1-section-41-prior-to-raising-'
+        'the-bar">Annex A1</a>.</p>'
+    )
+
+    assert refs(body, sitemap) == [
+        {
+            "ref": "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar",
+            "extraction": "href",
+            "mention": "Annex A1",
+        }
+    ]
+
+
+def test_a_bare_reference_records_that_it_was_read_from_the_prose(sitemap):
+    body = fragment("<p>As with such trade marks (see part 22.15.7) examiners…</p>")
+
+    assert refs(body, sitemap) == [
+        {
+            "ref": "TMM/Part22/15",
+            "extraction": "regex",
+            "certainty": "default",
+            "mention": "part 22.15.7",
+        }
+    ]
+
+
+def test_of_this_chapter_means_this_chapter(sitemap):
+    """The finding that made this field carry a certainty at all.
+
+    Part 32A — *Examination of Trade Marks for Plants* — writes 'see part
+    2.3.1(c) of this chapter'. `part 2.3.1` read by the convention of §8 is
+    Part 2, *Filing Requirements*, and that is what the snapshot stored: a
+    confident edge from a passage about plant varietal names to a page about
+    how to file a document, in the Part where SOURCE_NOTES.md §2 says
+    misattribution is the worst failure available.
+
+    The Manual disambiguates it in four words sitting in the same string, so
+    reading them is reading the source rather than guessing at it.
+    """
+    body = fragment(
+        "<p>…rather than an identifier of trade source. (For more information, "
+        "see part 2.3.1(c) of this chapter) A PBR result…</p>"
+    )
+
+    assert refs(body, sitemap, "TMM/Part32A/2/1") == [
+        {
+            "ref": "TMM/Part32A/2/3",
+            "extraction": "regex",
+            "certainty": "explicit",
+            "mention": "part 2.3.1",
+        }
+    ]
+
+
+def test_the_qualifier_is_found_past_a_second_number(sitemap):
+    """'parts 2.3.1 and 2.3.2 of this chapter' — only the first is a match,
+    and the qualifier sits behind the second. A full-stop brake would cut
+    inside '2.3.2' and hide it, which is why the brake is a sentence end."""
+    body = fragment(
+        "<p>Words which have a specific meaning to plants should be taken into "
+        "consideration (see parts 2.3.1 and 2.3.2 of this chapter).</p>"
+    )
+
+    assert [r["ref"] for r in refs(body, sitemap, "TMM/Part32A/2/5")] == [
+        "TMM/Part32A/2/3"
+    ]
+
+
+def test_of_this_manual_is_not_of_this_chapter(sitemap):
+    """'the Manual' is the whole Manual, so 'Part 22.15.7 of this manual' is
+    Part 22 — the reading the rule above must not invert."""
+    body = fragment("<p>See part 22.15.7 of this manual for the practice.</p>")
+
+    assert [r["ref"] for r in refs(body, sitemap, "TMM/Part32A/2/1")] == [
+        "TMM/Part22/15"
+    ]
+
+
+def test_two_readings_and_nothing_choosing_is_ambiguous(sitemap):
+    """Both readings name a page and the Manual does not say which. The
+    conventional target is kept, because the record has nowhere else to put
+    one, and the flag beside it is what stops it being read as a fact — the
+    arrangement `extract_provisions` already uses for a bare 'section 26'."""
+    body = fragment("<p>The requirements set out at part 2.3 apply.</p>")
+    found = refs(body, sitemap, "TMM/Part1/2")
+
+    assert found == [
+        {
+            "ref": "TMM/Part2/3",
+            "extraction": "regex",
+            "certainty": "ambiguous",
+            "mention": "part 2.3",
+        }
+    ]
+
+    # Read from a page in Part 2 there is no second reading to compete, and
+    # the same sentence is a plain 'default'.
+    assert refs(body, sitemap, "TMM/Part2/1")[0]["certainty"] == "default"
+
+
+def test_a_link_and_a_mention_of_one_page_are_one_edge(sitemap):
+    """One target, one record, and the hyperlink is the stronger evidence for
+    it — the same collapse `extract_provisions` makes."""
+    body = fragment(
+        '<p>See <a href="/trademark/2.-what-is-a-trade-mark">Part 22.15</a>, '
+        "and see part 22.15.7.</p>"
+    )
+    found = [r for r in refs(body, sitemap) if r["ref"] == "TMM/Part22/15"]
+
+    assert len(found) == 1
+    assert found[0]["extraction"] == "regex"
+
+
+def test_settling_is_idempotent():
+    """A settled ref is a valid candidate for the next run, which is what lets
+    a page skipped at gate 2 be re-settled from its stored record without
+    being cut again. ARCHITECTURE.md §Settling."""
+    once = resolve_internal_refs(
+        candidates("TMM/Part14/4/4/5"),
+        frozenset({"TMM/Part14/4/4/5"}),
+        frozenset({"TMM/Part14/4"}),
+    )
+    twice = resolve_internal_refs(
+        once, frozenset({"TMM/Part14/4/4/5"}), frozenset({"TMM/Part14/4"})
+    )
+
+    assert once == twice == candidates("TMM/Part14/4/4/5")

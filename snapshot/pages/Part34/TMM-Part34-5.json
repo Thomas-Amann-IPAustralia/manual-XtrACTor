@@ -16,6 +16,7 @@
         "34.5. Grounds for rejection under Division 2 of Part 4 of the Act"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -107,11 +108,34 @@
         "5.1 Sections 39, 40 and 42"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part34/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part30/1",
-        "TMM/Part31/1",
-        "TMM/Part32A/1",
-        "TMM/Part32B/1"
+        {
+          "extraction": "href",
+          "mention": "Part 30 Signs that are Scandalous and Use Contrary to Law",
+          "ref": "TMM/Part30/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 31 Prescribed and Prohibited Signs",
+          "ref": "TMM/Part31/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 32A Examination of Trade Marks for Plants (in class 31)",
+          "ref": "TMM/Part32A/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 32B Examination of Trade Marks for Wines (in class 33)",
+          "ref": "TMM/Part32B/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -213,8 +237,19 @@
         "5.2 Section 43"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part34/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/1"
+        {
+          "extraction": "href",
+          "mention": "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
+          "ref": "TMM/Part29/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -273,8 +308,19 @@
         "5.3 Section 44"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part34/5/5/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/1"
+        {
+          "extraction": "href",
+          "mention": "Part 26 Section 44 and Regulation 4.15A - Conflict with other Signs",
+          "ref": "TMM/Part26/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -330,16 +376,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:f6a7f4aa0a48bea1816e639125b3774964109791ce5d0ccb9067f438b3f03e09",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:be843e195a3f005b6dbd82e7cc57ee68b1f98b7cf2fca69bed0b80f2734082ed",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "34.5. Grounds for rejection under Division 2 of Part 4 of the Act",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "5. Grounds for rejection under Division 2 of Part 4 of the Act",
     "page_ref": "TMM/Part34/5",
     "part_id": "Part34",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-grounds-for-rejection-under-division-2-of-part-4-of-the-act"
   }
 }

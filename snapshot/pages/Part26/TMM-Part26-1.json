@@ -65,8 +65,13 @@
         "26.1. Introduction to section 44 and regulation 4.15A"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part28/1"
+        {
+          "extraction": "href",
+          "mention": "Part 28 Honest Concurrent Use, Prior Use and Other Circumstances",
+          "ref": "TMM/Part28/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -176,16 +181,17 @@
   "page": {
     "amendment_note": "Content updated.",
     "archived": false,
-    "content_hash": "sha256:b7d6ec14018789c8c81078d8d2fda8bad472b2e881648017b718985483299ccf",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:2f40dd914dff5b813aef2014cb0747bcbd4f749a4fd8274ddbcd78c2bfc46624",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "26.1. Introduction to section 44 and regulation 4.15A",
     "images": [],
     "last_amended": "2024-05-23",
     "nav_title": "1. Introduction to section 44 and regulation 4.15A",
     "page_ref": "TMM/Part26/1",
     "part_id": "Part26",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-introduction-to-section-44-and-regulation-4.15a"
   }
 }

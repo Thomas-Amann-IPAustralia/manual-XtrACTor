@@ -16,8 +16,13 @@
         "17.5. The deferment process where the Registrar may grant deferment on their own initiative"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part17/2"
+        {
+          "extraction": "href",
+          "mention": "Part 17.2.2.",
+          "ref": "TMM/Part17/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -69,6 +74,13 @@
         "5.1 Where time is allowed for an appeal to a court or an application to the Administrative Review Tribunal (ART) for review"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/5/5/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -119,6 +131,13 @@
         "5.2 Where an appeal or application or review has been made"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/5/5/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -152,6 +171,13 @@
         "5.4 Where the applicant has died"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/5/5/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -178,6 +204,13 @@
         "5.5 Where an application for a certification trade mark has been sent to the Australian Competition and Consumer Commission (ACCC)"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part17/5/5/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -191,16 +224,17 @@
   "page": {
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package",
     "archived": false,
-    "content_hash": "sha256:7179588fb842ee1234eb6e87ce8ceceeca487de6dfdc43aa553141234be77229",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5e847a0fdc4b17cc52d34fd58ba84816db5897d968fd6ff793193cb46aaad8a5",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-12-22",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "17.5. The deferment process where the Registrar may grant deferment on their own initiative",
     "images": [],
     "last_amended": "2025-12-22",
     "nav_title": "5. The deferment process where the Registrar may grant deferment on his or her own initiative",
     "page_ref": "TMM/Part17/5",
     "part_id": "Part17",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-the-deferment-process-where-the-registrar-may-grant-deferment-on-his-or-her-own-initiative"
   }
 }

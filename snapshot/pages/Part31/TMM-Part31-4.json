@@ -29,6 +29,13 @@
         "4.1 Indication of intellectual property rights etc - Subregs 4.15(a) and (b)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -139,8 +146,25 @@
         "4.2.1 Commonwealth of Australia: Coat of Arms"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/2/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part30/3"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 30.3",
+          "ref": "TMM/Part30/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -329,6 +353,18 @@
         "4.2.2 Commonwealth of Australia: Australian Flags"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/2/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -418,9 +454,30 @@
         "4.2.2 Commonwealth of Australia: Australian Flags"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/2/2~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/9",
-        "TMM/Part30/3"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 29.9",
+          "ref": "TMM/Part29/9"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 30.3.4",
+          "ref": "TMM/Part30/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -472,6 +529,18 @@
         "4.2.3 Commonwealth of Australia: floral and faunal emblems and official colours"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/2/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -518,6 +587,13 @@
         "4.3 Arms and emblems of Australian towns etc - Subreg 4.15(d)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -562,8 +638,20 @@
         "4.4 Article 6ter signs - Subreg 4.15(da) and (e)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part31/2"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 31.2.5",
+          "ref": "TMM/Part31/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -604,6 +692,18 @@
         "4.4.1 (Subreg 4.15(e))"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/4/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -667,6 +767,18 @@
         "4.4.2 (Subreg 4.15(da))"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -747,6 +859,18 @@
         "4.4.3"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/4/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -778,6 +902,18 @@
         "4.4.4"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part31/4/4/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part31/4/4/4/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -798,10 +934,10 @@
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
     "archived": false,
-    "content_hash": "sha256:1b9ca8e60a339f796ad77184dad473b55ef078441fce49e2f50951364b236b4a",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6758ff49f9d970ddbb3ff32842797b65c2ed1f786b8c7769c3abd93fb9b0f71f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "31.4. Practice for examining trade marks containing the signs specified in reg 4.15",
     "images": [
       {
@@ -853,6 +989,7 @@
     "nav_title": "4. Practice regarding the signs prescribed under subsection 39(2) appearing in subreg 4.15",
     "page_ref": "TMM/Part31/4",
     "part_id": "Part31",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-practice-for-examining-trade-marks-containing-the-signs-specified-in-reg-4.15"
   }
 }

@@ -81,6 +81,7 @@
         "Part 51.5. Hearing of the opposition"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -242,8 +243,13 @@
         "Part 51.5. Hearing of the opposition"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part52/1"
+        {
+          "extraction": "href",
+          "mention": "Part 52 Hearings, Decisions, Reasons and Appeals",
+          "ref": "TMM/Part52/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -264,16 +270,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:d7e21a845d732ab36308c78f3faaaac2bb9d22f7707d8a4edcdd850f7fb7814e",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:45a7924095ac5339f84b201f0548671803c9c41046ef5a7d9f6eac769c80b3ab",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 51.5. Hearing of the opposition",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "5. Hearing of the opposition",
     "page_ref": "TMM/Part51/5",
     "part_id": "Part51",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-hearing-of-the-opposition"
   }
 }

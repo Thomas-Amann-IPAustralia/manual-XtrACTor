@@ -47,6 +47,7 @@
         "Part 51.9. Period in which a trade mark can be registered/protected"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -147,9 +148,18 @@
         "Part 51.9. Period in which a trade mark can be registered/protected"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part52/1",
-        "TMM/Part60/1"
+        {
+          "extraction": "href",
+          "mention": "Part 52 Hearings, Decisions, Reasons and Appeals",
+          "ref": "TMM/Part52/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 60 The Madrid Protocol",
+          "ref": "TMM/Part60/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -183,16 +193,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:042e6e5ba0970beb0a13ced33882abee9e302c21a51fd971fccd88a0343fbdbd",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:282d08d47185293184836e51762682321f6b99e767a8a235ef5fe05e78634cf3",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 51.9. Period in which a trade mark can be registered/protected",
     "images": [],
     "last_amended": "2025-04-02",
     "nav_title": "9. Period in which a trade mark can be registered/protected",
     "page_ref": "TMM/Part51/9",
     "part_id": "Part51",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/9.-period-in-which-a-trade-mark-can-be-registered-protected"
   }
 }

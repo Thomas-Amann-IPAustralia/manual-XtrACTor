@@ -37,8 +37,19 @@
         "4.5.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/5/4/5/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part6/1"
+        {
+          "extraction": "href",
+          "mention": "Part 6 Expedited Examination",
+          "ref": "TMM/Part6/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -110,10 +121,29 @@
         "4.5.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/5/4/5/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part11/1",
-        "TMM/Part6/1",
-        "TMM/Part60/4/7"
+        {
+          "extraction": "href",
+          "mention": "Part 11- Convention Applications",
+          "ref": "TMM/Part11/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 6 1.1 Expedited Examination)",
+          "ref": "TMM/Part6/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "4.7.16 Convention Claims",
+          "ref": "TMM/Part60/4/7"
+        }
       ],
       "kind": "body",
       "links": [
@@ -146,16 +176,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:96a6f6e4edab3880e44d9c934852bec20908e834edd598cf303cb10f2993e3fd",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:299a77cae7ad400671d08967d2b71dd0bfbfee1ec4998428fccefd834f7252df",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.5 Expedite",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.5 Expedite",
     "page_ref": "TMM/Part60/4/5",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.5-expedite"
   }
 }

@@ -45,6 +45,13 @@
         "3.1 Relevant Legislation"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part60/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -112,6 +119,13 @@
         "3.2 General Description"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part60/3/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -203,8 +217,19 @@
         "3.3 Five Year Dependency"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part60/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part60/4/25"
+        {
+          "extraction": "href",
+          "mention": "Part 60 - 4.25 Transformation",
+          "ref": "TMM/Part60/4/25"
+        }
       ],
       "kind": "body",
       "links": [
@@ -246,6 +271,13 @@
         "3.4 Monitoring Basic Trade Marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part60/3/3/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -299,6 +331,18 @@
         "3.5.1 Divisional Application"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part60/3/3/5/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -326,6 +370,18 @@
         "3.5.2 Assignment of the Basic Trade Mark"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part60/3/3/5/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -339,16 +395,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:3e47139b57709d5aad8b524e13d83ffb9be03ced0d006a1a509f6237305d7db0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:85224ee4529a0bf9b041bd9af853eebd54d1aa64e1b27a5fc901fca26c4c698f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "3. The Basic Application or Basic Registration (Basic Trade Mark)",
     "page_ref": "TMM/Part60/3",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-the-basic-application-or-basic-registration-basic-trade-mark"
   }
 }

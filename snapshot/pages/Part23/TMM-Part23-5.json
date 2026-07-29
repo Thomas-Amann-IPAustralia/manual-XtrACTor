@@ -24,6 +24,7 @@
         "Part 23.5. Specific evidence requirements for trade marks with no inherent adaptation to distinguish"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -142,6 +143,13 @@
         "5.1 What kind of trade marks are these?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -176,6 +184,13 @@
         "5.2 What does the evidence need to establish?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -209,6 +224,13 @@
         "5.3 Evidence must show use in Australia before the filing date"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -235,6 +257,13 @@
         "5.4 The scope of a registration for a trade mark that is not to any extent inherently adapted to distinguish must reflect actual use"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -277,6 +306,18 @@
         "5.4.1 Geographical limitations:"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/5/5/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -304,6 +345,18 @@
         "5.4.2 Restrictions to the goods and services specification"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/4",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/5/5/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -355,6 +408,13 @@
         "5.5 Aids for assessing evidence of use for trade marks not to any extent inherently adapted to distinguish"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -381,6 +441,13 @@
         "5.6 Additional support for evidence regarding trade marks not to any extent inherently adapted to distinguish"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -408,8 +475,24 @@
         "5.6.1 Supporting declarations"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/6",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/5/5/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part23/x-annex-a3---model-layout-for-supporting-statutory-declaration"
+        {
+          "extraction": "href",
+          "mention": "Annex A3",
+          "ref": "TMM/Part23/x-annex-a3---model-layout-for-supporting-statutory-declaration"
+        }
       ],
       "kind": "body",
       "links": [
@@ -448,6 +531,18 @@
         "5.6.2 Customer surveys"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/5/5/6",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/5/5/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -461,16 +556,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:a05ac044d24b60312bedb84ce619496cddabdd502f7f0dac261dfdeccf4ba0e9",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:4010f76803f2393c3a4a2b36ee39ac5e729941d766818a2545b0213e290c364c",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-02-11",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 23.5. Specific evidence requirements for trade marks with no inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2025-02-11",
     "nav_title": "Part 23.5 Specific evidence requirements for trade marks with no inherent adaptation to distinguish",
     "page_ref": "TMM/Part23/5",
     "part_id": "Part23",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/5.-specific-evidence-requirements-for-trade-marks-with-no-inherent-adaptation-to-distinguish"
   }
 }

@@ -37,8 +37,14 @@
         "28.4. Other circumstances - paragraph 44(3)(b)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part27/4"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 27.4",
+          "ref": "TMM/Part27/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -109,6 +115,13 @@
         "28.4.1 The relevant date"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -148,6 +161,13 @@
         "28.4.2 When is it proper to exercise the discretion?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -228,6 +248,13 @@
         "28.4.3 Relevant circumstances?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/3~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -273,6 +300,13 @@
         "28.4.3 Relevant circumstances?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/3~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -345,6 +379,13 @@
         "28.4.4 Prior registrations"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -395,6 +436,13 @@
         "28.4.4 Prior registrations"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part28/4/28/4/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -415,16 +463,17 @@
   "page": {
     "amendment_note": "Updated colour in text box.",
     "archived": false,
-    "content_hash": "sha256:3d75d5f1a2c7af7691198449879fdc067178afc14174a5491c7dd87aee24f658",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:788f5fda900cfa1bc81d4d1fa1c7fb182f66e79fc5ff10c84432129b13ab87d9",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-08-06",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "28.4. Other circumstances - paragraph 44(3)(b)",
     "images": [],
     "last_amended": "2025-08-06",
     "nav_title": "4. Other circumstances - paragraph 44(3)(b)",
     "page_ref": "TMM/Part28/4",
     "part_id": "Part28",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-other-circumstances---paragraph-443b"
   }
 }

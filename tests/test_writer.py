@@ -162,7 +162,11 @@ def test_arrays_are_sorted_by_a_stable_key(tmp_path):
             {"id": "CASE/2018/FCAFC/109", "citation": "[2018] FCAFC 109"},
             {"id": "CASE/1954/RPC/43", "citation": "(1954) 71 RPC 43"},
         ],
-        internal_refs=["TMM/Part22/15", "TMM/Part12/9", "TMM/Part22/15"],
+        internal_refs=[
+            {"ref": "TMM/Part22/15", "extraction": "href", "mention": "22.15"},
+            {"ref": "TMM/Part12/9", "extraction": "href", "mention": "Part 12.9"},
+            {"ref": "TMM/Part22/15", "extraction": "href", "mention": "22.15"},
+        ],
     )
     writer.write_page(record(), [unsorted], tmp_path)
     stored = json.loads(
@@ -179,7 +183,10 @@ def test_arrays_are_sorted_by_a_stable_key(tmp_path):
         "CASE/1954/RPC/43",
         "CASE/2018/FCAFC/109",
     ]
-    assert written["internal_refs"] == ["TMM/Part12/9", "TMM/Part22/15"]
+    assert [r["ref"] for r in written["internal_refs"]] == [
+        "TMM/Part12/9",
+        "TMM/Part22/15",
+    ]
 
 
 def test_reordered_citations_produce_identical_bytes(tmp_path):

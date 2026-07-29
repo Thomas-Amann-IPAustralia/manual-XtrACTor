@@ -43,6 +43,7 @@
         "Part 29.6. Names of Persons"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -119,6 +120,7 @@
         "Part 29.6. Names of Persons"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -170,6 +172,13 @@
         "6.1 Images of Persons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -270,8 +279,20 @@
         "6.2 Deceased Persons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/6/6/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/6"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 29.6",
+          "ref": "TMM/Part29/6"
+        }
       ],
       "kind": "body",
       "links": [
@@ -361,6 +382,13 @@
         "6.2 Deceased Persons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/6/6/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -408,6 +436,13 @@
         "6.2 Deceased Persons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/6/6/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -434,16 +469,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Content updated.",
     "archived": false,
-    "content_hash": "sha256:bfd92e7771864174e7d5b5359cbe1800058ca3820232a8db53421bb0b6535fb0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:c7d3edab19513d5dd9f4781d3e42b52b2f34e865d0ca807f582c586b83b2ea81",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-23",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 29.6. Names of Persons",
     "images": [],
     "last_amended": "2025-10-23",
     "nav_title": "6. Names of Persons",
     "page_ref": "TMM/Part29/6",
     "part_id": "Part29",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-names-of-persons"
   }
 }

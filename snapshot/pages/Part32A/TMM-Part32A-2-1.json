@@ -16,6 +16,7 @@
         "32A.2.1 Section 42: Contrary to Law"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -81,6 +82,13 @@
         "Section 53: Infringement of PBR"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part32A/2/1/section-53-infringement-of-pbr",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -161,6 +169,13 @@
         "2.1.1 Determining if a trade mark is contrary to law on the basis of a PBR variety or synonym"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part32A/2/1/2/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -202,6 +217,13 @@
         "2.1.1(a) Plain word trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part32A/2/1/2-1-1-a-plain-word-trade-marks",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -372,8 +394,20 @@
         "2.1.1(b) Composite or fancy trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part32A/2/1/2-1-1-b-composite-or-fancy-trade-marks",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part2/3"
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "mention": "part 2.3.1",
+          "ref": "TMM/Part32A/2/3"
+        }
       ],
       "kind": "body",
       "links": [],
@@ -542,6 +576,18 @@
         "2.1.2(a) Amending the goods"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part32A/2/1/2-1-2-a-amending-the-goods",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -576,6 +622,18 @@
         "2.1.2(b) Change in status"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part32A/2/1/2-1-2-b-change-in-status",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -642,8 +700,24 @@
         "2.1.2(c) Letter of consent"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": null,
+          "source": "markup"
+        },
+        {
+          "level": 5,
+          "ref": "TMM/Part32A/2/1/2-1-2-c-letter-of-consent",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part32A/x-annex-4---an-example-of-a-pbr-letter-of-consent"
+        {
+          "extraction": "href",
+          "mention": "Annex 4",
+          "ref": "TMM/Part32A/x-annex-4---an-example-of-a-pbr-letter-of-consent"
+        }
       ],
       "kind": "body",
       "links": [
@@ -683,10 +757,10 @@
   "page": {
     "amendment_note": "Content updated - references to s 27 of the PBR Act removed",
     "archived": false,
-    "content_hash": "sha256:b54f9eafdda708d8a8ae56f41a59f3fd898624697f8e424af5f6e6173df14ad8",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:e0bef8f7b5b47dc5e0809bcaf0a8f9c91983b9def285d66ab5332cdace61a9cd",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32A.2.1 Section 42: Contrary to Law",
     "images": [
       {
@@ -710,6 +784,7 @@
     "nav_title": "2.1 Section 42: Contrary to Law",
     "page_ref": "TMM/Part32A/2/1",
     "part_id": "Part32A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.1-section-42--contrary-to-law"
   }
 }

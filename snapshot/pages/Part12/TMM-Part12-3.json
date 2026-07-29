@@ -59,8 +59,13 @@
         "3. Conditions for a valid divisional application"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part12/x-annex-a1-divisional-checklist-for-divisional-applications-filed-on-or-after-27-march-2007"
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part12/x-annex-a1-divisional-checklist-for-divisional-applications-filed-on-or-after-27-march-2007"
+        }
       ],
       "kind": "body",
       "links": [
@@ -142,6 +147,13 @@
         "3.1 Some only requirement"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/1~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -339,6 +351,13 @@
         "3.1 Some only requirement"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/1~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -456,6 +475,13 @@
         "3.3 Section 46(2) – exclusion of goods and services"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/3~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -498,6 +524,13 @@
         "3.3 Section 46(2) – exclusion of goods and services"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/3~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -694,6 +727,13 @@
         "3.4 Revived parent application"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -720,6 +760,13 @@
         "3.5 Divisional provisions do not apply for International Registrations Designating Australia"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -764,8 +811,19 @@
         "3.6 Divisional and Series applications"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/6",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part13/8"
+        {
+          "extraction": "href",
+          "mention": "Part 13.8 Divisional Applications from Series",
+          "ref": "TMM/Part13/8"
+        }
       ],
       "kind": "body",
       "links": [
@@ -807,8 +865,19 @@
         "3.7 Divisionals and amendments"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part12/3/3/7",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part12/x-annex-a1-divisional-checklist-for-divisional-applications-filed-on-or-after-27-march-2007"
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part12/x-annex-a1-divisional-checklist-for-divisional-applications-filed-on-or-after-27-march-2007"
+        }
       ],
       "kind": "body",
       "links": [
@@ -854,16 +923,17 @@
   "page": {
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
-    "content_hash": "sha256:814fa9d7e63df15cbfd4fe979091211102d91c70e951e850d1490d76a4161926",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:a03dbd5bb805116e5ffb0b8e11cf1a5d68dadde0ed82f2921a46ef6a256e37c7",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "3. Conditions for a valid divisional application",
     "images": [],
     "last_amended": "2026-07-20",
     "nav_title": "3. Conditions for a valid divisional application filed on or after 27 March 2007",
     "page_ref": "TMM/Part12/3",
     "part_id": "Part12",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-conditions-for-a-valid-divisional-application-filed-on-or-after-27-march-2007"
   }
 }

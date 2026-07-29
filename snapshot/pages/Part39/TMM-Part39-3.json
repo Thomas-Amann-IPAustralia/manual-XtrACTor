@@ -48,8 +48,13 @@
         "Part 39.3. Format of Certificate of registration"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part39/x-annex-a1---certificate-of-registration"
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part39/x-annex-a1---certificate-of-registration"
+        }
       ],
       "kind": "body",
       "links": [
@@ -82,16 +87,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:e30c55083ec8ec8528cbfc5fc10931b1b927a8eaf41bac491a10a50d3181475b",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:6e9b180e6abac3febd169c9feae98dd627d9e4abca62fae8af7a628db56819f8",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 39.3. Format of Certificate of registration",
     "images": [],
     "last_amended": "2025-06-04",
     "nav_title": "3. Format of Certificate of registration",
     "page_ref": "TMM/Part39/3",
     "part_id": "Part39",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-format-of-certificate-of-registration"
   }
 }

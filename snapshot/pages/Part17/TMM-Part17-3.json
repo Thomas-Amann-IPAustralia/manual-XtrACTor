@@ -48,9 +48,18 @@
         "17.3. Period of deferment and termination"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part17/x-annex-a1---deferment-of-acceptance-date---grounds-and-time-limits",
-        "TMM/Part42/1"
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part17/x-annex-a1---deferment-of-acceptance-date---grounds-and-time-limits"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 42 Rectification",
+          "ref": "TMM/Part42/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -209,6 +218,7 @@
         "17.3. Period of deferment and termination"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -316,6 +326,7 @@
         "17.3. Period of deferment and termination"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -376,16 +387,17 @@
   "page": {
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package and consolidating material from Part 17.6 (now removed)",
     "archived": false,
-    "content_hash": "sha256:05c0f1bcbb615c4063ce8cc5e01a2b7b771c154df05949e07bd607741fd591a0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:66c350fd614abc9aecf026f388846e6bae0b941d116eebdc29ae1a632dd37405",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "17.3. Period of deferment and termination",
     "images": [],
     "last_amended": "2025-12-19",
     "nav_title": "3. Period of deferment and termination",
     "page_ref": "TMM/Part17/3",
     "part_id": "Part17",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-period-of-deferment"
   }
 }

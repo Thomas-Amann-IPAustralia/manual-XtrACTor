@@ -41,6 +41,7 @@
         "Part 23.3. Evidence of use - general requirements"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -116,8 +117,20 @@
         "3.1 Who has used the trade mark?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part19A/6"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 19A.6",
+          "ref": "TMM/Part19A/6"
+        }
       ],
       "kind": "body",
       "links": [],
@@ -241,6 +254,13 @@
         "3.2 Evidence should be in a declaration"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -316,8 +336,19 @@
         "3.2 Evidence should be in a declaration"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part23/x-annex-a1-information-for-applicants-on-the-preparation-and-presentation-of-a-declaration-including-model-layout"
+        {
+          "extraction": "href",
+          "mention": "Annex A1",
+          "ref": "TMM/Part23/x-annex-a1-information-for-applicants-on-the-preparation-and-presentation-of-a-declaration-including-model-layout"
+        }
       ],
       "kind": "body",
       "links": [
@@ -373,6 +404,18 @@
         "3.2.1 Exhibits must be incorporated in the declaration:"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -400,6 +443,18 @@
         "3.2.2 Who may make the declaration:"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -427,6 +482,18 @@
         "3.2.3 Translations required:"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/2~1",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -475,6 +542,13 @@
         "3.3 When may evidence be submitted?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -506,6 +580,18 @@
         "3.3.1 When should an examiner suggest evidence of use?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/3/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -533,6 +619,18 @@
         "3.3.2 Can an examiner require that evidence be submitted?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/3/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -607,6 +705,18 @@
         "3.4 What information should an applicant supply?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -695,6 +805,18 @@
         "3.4 What information should an applicant supply?"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part23/3/3/4~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -742,6 +864,13 @@
         "3.5 Websites as evidence"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part23/3/3/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -755,16 +884,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:ff2d18cbc6e5fd6e3f0aafd162d3c5a1f4e1437061fa7b153d157ab4447cdab8",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:a78becb363723f0f09bf0a868ddd249df2bcf603cfc321e8c243b89056cde93a",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 23.3. Evidence of use - general requirements",
     "images": [],
     "last_amended": "2025-02-10",
     "nav_title": "Part 23.3 Evidence of use - general requirements",
     "page_ref": "TMM/Part23/3",
     "part_id": "Part23",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/3.-evidence-of-use---general-requirements"
   }
 }

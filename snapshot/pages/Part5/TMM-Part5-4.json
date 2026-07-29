@@ -24,6 +24,7 @@
         "5.4. Regulated signs"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -83,6 +84,13 @@
         "4.1 Capturing and Indexing Prohibited and Prescribed signs"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part5/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -96,16 +104,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:023ea236cb8d680eb5082a05256478b49b57b0af43dae15a150db4f09d7a3804",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:acdb237be50545ac8bea27bcabca7379699948f84cef04c1e04192e5e648dd17",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "5.4. Regulated signs",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "4. Regulated signs",
     "page_ref": "TMM/Part5/4",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-regulated-signs"
   }
 }

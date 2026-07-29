@@ -34,8 +34,13 @@
         "35.2. Certification trade marks and geographical indications (GIs)"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part32B/1"
+        {
+          "extraction": "href",
+          "mention": "Part 32B – Examination of Trade Marks for Wine (in Class 33)",
+          "ref": "TMM/Part32B/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -113,6 +118,13 @@
         "2.1 What are geographical indications (GIs)"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part35/2/2/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -150,6 +162,13 @@
         "2.2 Registration of GIs as certification trade marks"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part35/2/2/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -163,16 +182,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
-    "content_hash": "sha256:85c0d99f43f24c6d0dac5cb4ac0a16206168591b9643b52e51c8e5125dae0544",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:f32b8e8b90adb3faf7b20cf229822144c07c050be2e0850915b8970b43b87f90",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "35.2. Certification trade marks and geographical indications (GIs)",
     "images": [],
     "last_amended": "2026-02-11",
     "nav_title": "2. Certification trade marks and geographical indications (GIs)",
     "page_ref": "TMM/Part35/2",
     "part_id": "Part35",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-certification-trade-marks-and-geographical-indications-gis"
   }
 }

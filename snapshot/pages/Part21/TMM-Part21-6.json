@@ -16,6 +16,7 @@
         "21.6. Sound (auditory) trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -88,8 +89,19 @@
         "6.1 Representations and descriptions of sound trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part10/3"
+        {
+          "extraction": "href",
+          "mention": "3.3 Representation of the trade mark - sound trade marks",
+          "ref": "TMM/Part10/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -140,6 +152,13 @@
         "6.2 Registrability of sounds as trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -167,6 +186,18 @@
         "6.2.1 \"Functional\" sounds"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/6/6/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -198,6 +229,18 @@
         "6.2.2 Sounds which are capable of distinguishing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/6/6/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -317,6 +360,18 @@
         "6.2.3 Sounds which have insufficient adaptation to distinguish."
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/6/6/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -405,6 +460,18 @@
         "6.2.4 Sounds which have no inherent adaptation to distinguish."
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/6/6/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/6/6/2/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -499,16 +566,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:4fa41161780db133bbe0dc8d76d8671943f42eaac84d15135d4330bbf3102b19",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:a41c7f75983e7de752ad0a39f41755cf9bca9ed689260f592c3cebbc84cafb3c",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "21.6. Sound (auditory) trade marks",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "6. Sound (auditory) trade marks",
     "page_ref": "TMM/Part21/6",
     "part_id": "Part21",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/6.-sound-auditory-trade-marks"
   }
 }

@@ -2,8 +2,8 @@
 
 `chunk.text` is the chunk's words, whitespace-normalised, and joining a
 section's paragraphs and list items with single spaces is the correct verbatim
-reading of them. It is also unreadable at the length the Manual writes: 18,735
-`<p>` and `<li>` elements flatten into 2,151 chunks, 8.7 blocks each, with
+reading of them. It is also unreadable at the length the Manual writes: 12,291
+`<p>` and `<li>` elements flatten into 2,460 chunks, five blocks each, with
 nothing left to say where one ended. Part 61.3's ten-item list of documents
 exempt from public inspection arrives as a single run-on line, and the source's
 own semicolons give out halfway down it, so not even a reader can recover the
@@ -16,8 +16,10 @@ record the grid beside it.
 Every field here comes from a tag name or the shape of the tree — no pattern
 matching over the words, nothing inferred about meaning. The kinds are the
 element types the corpus actually contains, counted rather than anticipated:
-`p`, `li` nested up to three deep, `ol`, `ul`, `table`, and loose inline
-content that Drupal leaves sitting directly in a layout `div`.
+`p`, `li` nested up to three deep, `ol`, `ul`, `table`, `img`, and the loose
+inline content Drupal leaves sitting directly in a layout `div`. Measured at
+`ingest/0.8.0`: 7,632 paragraphs, 4,659 list items, 121 tables, 93 images, 12
+headings and 4 loose runs, over 2,460 chunks.
 
 `text` is unchanged and remains the thing that gets quoted. Joining the blocks'
 text reproduces it exactly, which `tests/test_blocks.py` asserts over the whole
@@ -54,7 +56,9 @@ _LIST_TAGS = frozenset({"ul", "ol"})
 
 #: Element name to block kind. Anything absent is inline content and is
 #: gathered into a 'text' block — that is where a stray `<a>` or `<strong>`
-#: left loose in a container ends up, of which the corpus has 1,454.
+#: left loose in a container ends up. The corpus has four, and the number is
+#: worth keeping current: it was 1,454 before §23 made `figure` transparent,
+#: and nearly all of those were tables being recorded as run-on prose.
 _KINDS: dict[str, str] = {
     "p": "paragraph",
     "li": "list_item",

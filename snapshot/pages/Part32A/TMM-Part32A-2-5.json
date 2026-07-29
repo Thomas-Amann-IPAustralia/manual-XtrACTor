@@ -52,11 +52,29 @@
         "32A.2.5 Section 44: Comparison of Trade Marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part2/3",
-        "TMM/Part26/x-relevant-legislation33",
-        "TMM/Part32A/2/3/2/3/1",
-        "TMM/Part32A/2/3/2/3/2"
+        {
+          "extraction": "href",
+          "mention": "Part 26",
+          "ref": "TMM/Part26/x-relevant-legislation33"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "mention": "parts 2.3.1",
+          "ref": "TMM/Part32A/2/3"
+        },
+        {
+          "extraction": "href",
+          "mention": "2.3.1",
+          "ref": "TMM/Part32A/2/3/2/3/1"
+        },
+        {
+          "extraction": "href",
+          "mention": "2.3.2",
+          "ref": "TMM/Part32A/2/3/2/3/2"
+        }
       ],
       "kind": "body",
       "links": [
@@ -118,6 +136,13 @@
         "2.5.1 Similarity of goods within Class 31"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/5/2/5/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -307,6 +332,13 @@
         "2.5.2 Overcoming a section 44 ground for rejection"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part32A/2/5/2/5/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -320,16 +352,17 @@
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
     "archived": false,
-    "content_hash": "sha256:d7163e1008124831f67fcb8a491bc431738a743d4f96ae6b933aef4c05fa9a23",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:cf0d6be3a0cff6cb68bc8db6641dbc3bd158c93bcbd828b7a64e648cecfecef8",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "32A.2.5 Section 44: Comparison of Trade Marks",
     "images": [],
     "last_amended": "2025-10-24",
     "nav_title": "2.5 Section 44: Comparison of Trade Marks",
     "page_ref": "TMM/Part32A/2/5",
     "part_id": "Part32A",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.5-section-44--comparison-of-trade-marks"
   }
 }

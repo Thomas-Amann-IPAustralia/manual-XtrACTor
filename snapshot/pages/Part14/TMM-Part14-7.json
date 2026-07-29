@@ -38,6 +38,13 @@
         "7.1 General Guidance"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -68,6 +75,13 @@
         "7.2 The scope of class headings"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -113,6 +127,13 @@
         "7.3 Limiting and Non-Limiting Words"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -204,6 +225,18 @@
         "7.3.1 Wording that limits a claim:"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part14/7/7/3/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -274,6 +307,18 @@
         "7.3.2 Wording that does not limit a claim"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part14/7/7/3/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -367,6 +412,18 @@
         "7.3.3 Wording that may somewhat limits a claim by indicating a particular area of interest or specialisation."
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part14/7/7/3",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part14/7/7/3/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -380,16 +437,17 @@
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
     "archived": false,
-    "content_hash": "sha256:5272ea51bdb8008a9d39bfde409ebc1ed61c5fa78f715d3454853eb41e98d32e",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:4dcb0f2d621842feeefb4e89ff99c26d63e340aa35d24f3df8f2102fd1fdc8ea",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "14.7. Interpretation of specifications",
     "images": [],
     "last_amended": "2025-10-24",
     "nav_title": "7. Interpretation of specifications",
     "page_ref": "TMM/Part14/7",
     "part_id": "Part14",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/7.-interpretation-of-specifications"
   }
 }

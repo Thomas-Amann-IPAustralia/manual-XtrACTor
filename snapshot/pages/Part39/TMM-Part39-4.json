@@ -20,6 +20,7 @@
         "Part 39.4. Timing"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -72,8 +73,19 @@
         "4.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part15/1"
+        {
+          "extraction": "href",
+          "mention": "Part 15 General Provisions for Extensions of Time",
+          "ref": "TMM/Part15/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -129,6 +141,13 @@
         "4.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -155,6 +174,13 @@
         "4.3"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -188,6 +214,13 @@
         "4.4"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -221,6 +254,13 @@
         "4.5"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -260,6 +300,13 @@
         "4.6"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -298,8 +345,19 @@
         "4.7"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part39/4/4/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part18/1"
+        {
+          "extraction": "href",
+          "mention": "Part 18 Finalisation of Applications for Registration",
+          "ref": "TMM/Part18/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -320,16 +378,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:cc591ab5e5c20e55b726176f52c159b7f30958f870c9f8f6e0e0f7ef72aafaea",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:061f70e13aa06a8d684bad406413e3829631c08d968ee0605cc86261466c298f",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 39.4. Timing",
     "images": [],
     "last_amended": "2025-06-04",
     "nav_title": "4. Timing",
     "page_ref": "TMM/Part39/4",
     "part_id": "Part39",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-timing"
   }
 }

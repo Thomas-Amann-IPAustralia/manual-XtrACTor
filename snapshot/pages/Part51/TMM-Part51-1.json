@@ -43,6 +43,7 @@
         "Part 51.1. Evidence"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -113,9 +114,19 @@
         "Part 51.1. Evidence"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part51/2",
-        "TMM/Part51/2/2/4"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 51.2.2.6",
+          "ref": "TMM/Part51/2"
+        },
+        {
+          "extraction": "href",
+          "mention": "Part 51.2.2.6",
+          "ref": "TMM/Part51/2/2/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -182,6 +193,13 @@
         "1.1 Evidence in support"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part51/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -249,6 +267,13 @@
         "1.2 Evidence in answer"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part51/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -338,6 +363,13 @@
         "1.3 Evidence in reply"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part51/1/1/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -397,6 +429,13 @@
         "1.4 Confidentiality of information in evidence"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part51/1/1/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -417,16 +456,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:67e870e5d2d38bc7fd34ab8d44baa4d342a08be79e2c22ddfe806678894b5eac",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:4673f6ee0aa11528783a9c87881b0b356bb4f9074478a22a089558fa3cd21f47",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 51.1. Evidence",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "1. Evidence",
     "page_ref": "TMM/Part51/1",
     "part_id": "Part51",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-evidence"
   }
 }

@@ -16,6 +16,7 @@
         "61.1. Availability of Documents"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -78,6 +79,13 @@
         "1.1 What documents are available for public access"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -115,6 +123,13 @@
         "1.2 Documents available under the Freedom of Information Act 1982 (FOI Act)"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -168,6 +183,13 @@
         "1.3 Documents available outside of the FOI Act"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part61/1/1/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -188,16 +210,17 @@
   "page": {
     "amendment_note": "FOI content updated.",
     "archived": false,
-    "content_hash": "sha256:55aa10d0198d8fdd54380b6bbade1b8ce19f66f9006fe5b384074d962c6e9f2f",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:837ed6b25a312263d90a0d6213ae6d677a6d91c61bf61418be14b5bd1026e0e4",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "61.1. Availability of Documents",
     "images": [],
     "last_amended": "2022-07-29",
     "nav_title": "1. Availability of Documents",
     "page_ref": "TMM/Part61/1",
     "part_id": "Part61",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-availability-of-documents"
   }
 }

@@ -16,6 +16,7 @@
         "21.7. Scent trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -79,8 +80,19 @@
         "7.1 Presentations and descriptions of scent trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/7/7/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part10/3"
+        {
+          "extraction": "href",
+          "mention": "3.4 Representation of the trade mark - scent trade marks",
+          "ref": "TMM/Part10/3"
+        }
       ],
       "kind": "body",
       "links": [
@@ -114,6 +126,13 @@
         "7.2 Registrability of scents as trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/7/7/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -168,6 +187,18 @@
         "7.2.1 Scents not adapted to distinguish"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/7/7/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/7/7/2/1~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -198,6 +229,18 @@
         "7.2.1 Scents not adapted to distinguish"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part21/7/7/2",
+          "source": "markup"
+        },
+        {
+          "level": 4,
+          "ref": "TMM/Part21/7/7/2/1~1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -211,16 +254,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:29c7ac4f46502e3bb7f9c1e48596e607e31aba29049b7d611b9cc5e347ddc019",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:9b7092640cb4317eb8b95af3a4a0f56bcec4a6141b4c43c49299c2656ecabb83",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "21.7. Scent trade marks",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "7. Scent trade marks",
     "page_ref": "TMM/Part21/7",
     "part_id": "Part21",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/7.-scent-trade-marks"
   }
 }

@@ -28,6 +28,7 @@
         "29.8. Internet Domain Names"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -81,6 +82,13 @@
         "8.1 Top Level Domain Names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/8/8/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -128,6 +136,13 @@
         "8.2 2nd level and Sub Domain Names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/8/8/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -187,6 +202,13 @@
         "8.3 Radio Call Signs and Frequencies"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part29/8/8/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -236,16 +258,17 @@
   "page": {
     "amendment_note": "Removed publication date",
     "archived": false,
-    "content_hash": "sha256:4a677273dda20b1284f0557a5b94d74cbb102a9587e3fd8db12e56b1d624bc3c",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:d10f8e243a942fdcb13132c3b814191877be850429c853e9a134c2b8ae54ffe7",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "29.8. Internet Domain Names",
     "images": [],
     "last_amended": "2025-01-13",
     "nav_title": "8. Internet Domain Names",
     "page_ref": "TMM/Part29/8",
     "part_id": "Part29",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/8.-internet-domain-names"
   }
 }

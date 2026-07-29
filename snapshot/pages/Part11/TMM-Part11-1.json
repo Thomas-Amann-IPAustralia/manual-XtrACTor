@@ -24,6 +24,7 @@
         "1. Applications in Australia (convention applications) where the applicant claims a right of priority on the basis of an application in a Convention country"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -84,6 +85,13 @@
         "1.1 Obligation to provide for Convention claims"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -136,6 +144,13 @@
         "1.2 Convention countries"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -194,6 +209,13 @@
         "1.3 Who may apply?"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -237,6 +259,13 @@
         "1.4 Timing of the application and claim for priority"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -295,6 +324,13 @@
         "1.5 Representation of the trade mark"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/5",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -321,9 +357,24 @@
         "1.6 Specification of goods and services"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part11/1/1/6",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part11/2",
-        "TMM/Part11/5"
+        {
+          "extraction": "href",
+          "mention": "2.4",
+          "ref": "TMM/Part11/2"
+        },
+        {
+          "extraction": "href",
+          "mention": "5",
+          "ref": "TMM/Part11/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -350,16 +401,17 @@
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
-    "content_hash": "sha256:99f51991959c58164de2aeb46bfa382854fdf4355e32736a3682e7f6e2c0f236",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:d2eca3d2f41f89672fce4a3c112c449abb8c3b1261a9fbe045eab47557371020",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "1. Applications in Australia (convention applications) where the applicant claims a right of priority on the basis of an application in a Convention country",
     "images": [],
     "last_amended": "2025-01-13",
     "nav_title": "Part 11.1. Applications in Australia (convention applications) where the applicant claims a right of priority",
     "page_ref": "TMM/Part11/1",
     "part_id": "Part11",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/1.-applications-in-australia-convention-applications-where-the-applicant-claims-a-right-of-priority-on-the-basis-of-an-application-in-a-convention-country"
   }
 }

@@ -67,8 +67,13 @@
         "Part 51.8. Rights of appeal"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part52/1"
+        {
+          "extraction": "href",
+          "mention": "Part 52 Hearings, Decisions, Reasons and Appeals",
+          "ref": "TMM/Part52/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -156,16 +161,17 @@
   "page": {
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
-    "content_hash": "sha256:fbab89469571b27db1caae4964996b308d594507ded32cb9b0fa5bfa9956bdfd",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:5715581d6f40015a916f6dce571f3a72c3493b4c69a99ff6bd7e3bb6f7839f32",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 51.8. Rights of appeal",
     "images": [],
     "last_amended": "2025-04-01",
     "nav_title": "8. Rights of appeal",
     "page_ref": "TMM/Part51/8",
     "part_id": "Part51",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/8.-rights-of-appeal"
   }
 }

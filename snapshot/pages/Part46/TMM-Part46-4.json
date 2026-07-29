@@ -32,6 +32,7 @@
         "Part 46.4. Grounds for opposition to registration of national trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -105,6 +106,13 @@
         "4.1 Registration may be opposed on the ground that the applicant is not the owner of the trade mark - section 58"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -160,8 +168,19 @@
         "4.1.1 First use"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/1/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part19A/x-relevant-legislation16"
+        {
+          "extraction": "href",
+          "mention": "Part 19A Use of a Trade Mark",
+          "ref": "TMM/Part19A/x-relevant-legislation16"
+        }
       ],
       "kind": "body",
       "links": [
@@ -213,8 +232,19 @@
         "4.1.2 The same or substantially the same trade mark"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/1/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/5"
+        {
+          "extraction": "href",
+          "mention": "5. Similarity of trade marks",
+          "ref": "TMM/Part26/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -260,6 +290,13 @@
         "4.1.3 Same goods or services"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/1/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -309,9 +346,24 @@
         "4.3 Registration may be opposed on the ground that the opponent has prior use of a similar trade mark – section 58A"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part19A/x-relevant-legislation16",
-        "TMM/Part26/5"
+        {
+          "extraction": "href",
+          "mention": "Part 19A Use of a Trade Mark",
+          "ref": "TMM/Part19A/x-relevant-legislation16"
+        },
+        {
+          "extraction": "href",
+          "mention": "5. Similarity of trade marks",
+          "ref": "TMM/Part26/5"
+        }
       ],
       "kind": "body",
       "links": [
@@ -423,6 +475,13 @@
         "4.4 Registration may be opposed on the ground that the applicant does not intend to use the trade mark - section 59"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -462,6 +521,13 @@
         "4.5 Registration may be opposed on the ground that use of the trade mark may confuse or deceive because of another trade mark with a reputation in Australia - section 60"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -538,6 +604,13 @@
         "4.5.1 Reputation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/5/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -601,6 +674,13 @@
         "4.5.2 The likelihood of deception or confusion"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/5/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -634,6 +714,13 @@
         "4.6 Registration may be opposed on the ground that the trade mark contains or consists of a false geographical indication - section 61"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -693,6 +780,13 @@
         "4.6.1 Geographical indication"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/6/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -731,8 +825,19 @@
         "4.6.2 Similar goods"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/6/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part26/4"
+        {
+          "extraction": "href",
+          "mention": "4. Similarity of goods and services",
+          "ref": "TMM/Part26/4"
+        }
       ],
       "kind": "body",
       "links": [
@@ -813,8 +918,19 @@
         "4.6.3 Defences to subsection 61(1) ground"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/6/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/x-relevant-legislation53"
+        {
+          "extraction": "href",
+          "mention": "Part 29 Trade Marks likely to Deceive or Cause Confusion",
+          "ref": "TMM/Part29/x-relevant-legislation53"
+        }
       ],
       "kind": "body",
       "links": [
@@ -935,6 +1051,13 @@
         "4.7 Registration may be opposed on the grounds of improper amendment or acceptance on the basis of evidence or submissions false in material particulars - section 62"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1016,6 +1139,13 @@
         "4.8 Registration may be opposed on the ground that the application was made in bad faith – 62A"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/8",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -1059,10 +1189,29 @@
         "4.9 Registration of certification and defensive trade marks - additional grounds of opposition"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part46/4/4/9",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part34/9",
-        "TMM/Part35/4",
-        "TMM/Part35/7"
+        {
+          "extraction": "href",
+          "mention": "9. Grounds for opposing a defensive registration under section 187",
+          "ref": "TMM/Part34/9"
+        },
+        {
+          "extraction": "href",
+          "mention": "4. The registrability of certification trade marks",
+          "ref": "TMM/Part35/4"
+        },
+        {
+          "extraction": "href",
+          "mention": "6. Opposition to the registration of a certification trade mark",
+          "ref": "TMM/Part35/7"
+        }
       ],
       "kind": "body",
       "links": [
@@ -1108,16 +1257,17 @@
   "page": {
     "amendment_note": "Minor updates to 60.4.5 and 60.4.5.1 based on Taylor v Killer Queen LLC [2026] HCA 5.",
     "archived": false,
-    "content_hash": "sha256:d63c38392aa64c6f0990a0666fcc8c5162c934ddd86dc8ca91cc3c986a4e870e",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:bd036bfca1c7df1f0400f94ad25672b6aa314b998cfe15be414bed2a7a3d996a",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-03-30",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 46.4. Grounds for opposition to registration of national trade marks",
     "images": [],
     "last_amended": "2026-03-30",
     "nav_title": "4. Grounds for opposition to registration of national trade marks",
     "page_ref": "TMM/Part46/4",
     "part_id": "Part46",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.-grounds-for-opposition-to-registration-of-national-trade-marks"
   }
 }

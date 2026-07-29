@@ -20,6 +20,7 @@
         "Part 49.1 Application for removal or cessation of protection of a trade mark for non-use"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -101,6 +102,13 @@
         "1.1 Form"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -151,8 +159,19 @@
         "1.2 Fee"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part4/x-relevant-legislation15"
+        {
+          "extraction": "href",
+          "mention": "Part 4 Fees",
+          "ref": "TMM/Part4/x-relevant-legislation15"
+        }
       ],
       "kind": "body",
       "links": [
@@ -198,6 +217,13 @@
         "1.3 Grounds"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -245,6 +271,13 @@
         "1.4 Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Bill 2018"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -290,6 +323,13 @@
         "1.5 Full or partial removal"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -316,6 +356,13 @@
         "1.6 Processing"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -353,6 +400,13 @@
         "1.7 Court action"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -402,6 +456,13 @@
         "1.8 Notification and publication"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/8",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -453,6 +514,13 @@
         "1.9 Trade mark removed"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part49/1/1/9",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -473,16 +541,17 @@
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
     "archived": false,
-    "content_hash": "sha256:f1865bac59fb9364307c7934323f19e8458b59a6fd7a4fb8cbcb8ebee40b0ac0",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:05bab1b61b07f05e3a691fa92dea7314787c36a0eeb1aad0b707fcf55d5e867b",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Part 49.1 Application for removal or cessation of protection of a trade mark for non-use",
     "images": [],
     "last_amended": "2025-10-24",
     "nav_title": "1. Application for removal or cessation of protection of a trade mark for non-use",
     "page_ref": "TMM/Part49/1",
     "part_id": "Part49",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/49.1-application-for-removal-or-cessation-of-protection-of-a-trade-mark-for-non-use"
   }
 }

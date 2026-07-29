@@ -32,8 +32,13 @@
         "Glossary of Image Descriptors"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part5/x-list-of-top-level-terms"
+        {
+          "extraction": "href",
+          "mention": "top level terms",
+          "ref": "TMM/Part5/x-list-of-top-level-terms"
+        }
       ],
       "kind": "body",
       "links": [
@@ -67,6 +72,13 @@
         "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part5/x-glossary-of-image-descriptors/a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -237,16 +249,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:54b792d5b29ddeaa5c061749b5abb94cd29ddae46b47a1ace4c02b0edf96ef76",
-    "crawled_at": "2026-07-28T23:50:27Z",
+    "content_hash": "sha256:463c2ce5f91af4617bd3956609c08b2bb72f6f6039b36bb9338a0e5b13a888e0",
+    "crawled_at": "2026-07-29T04:00:31Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "Glossary of Image Descriptors",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "Glossary of Image Descriptors",
     "page_ref": "TMM/Part5/x-glossary-of-image-descriptors",
     "part_id": "Part5",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/glossary-of-image-descriptors"
   }
 }

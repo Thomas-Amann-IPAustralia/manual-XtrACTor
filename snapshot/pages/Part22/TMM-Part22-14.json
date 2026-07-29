@@ -24,6 +24,7 @@
         "22.14. New terminology and \"fashionable\" words"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -66,6 +67,13 @@
         "14.1 E trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -115,8 +123,19 @@
         "14.2 Domain names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/26"
+        {
+          "extraction": "href",
+          "mention": "paragraph 26",
+          "ref": "TMM/Part22/26"
+        }
       ],
       "kind": "body",
       "links": [
@@ -169,6 +188,13 @@
         "14.2 Domain names"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/2~1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -263,6 +289,13 @@
         "14.3 Smart and Intelligent trade marks"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -341,6 +374,13 @@
         "14.4 Phonewords"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/4",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -435,8 +475,19 @@
         "14.5 Hashtags"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part22/26"
+        {
+          "extraction": "href",
+          "mention": "paragraph 26",
+          "ref": "TMM/Part22/26"
+        }
       ],
       "kind": "body",
       "links": [
@@ -519,6 +570,13 @@
         "14.6 Cryptocurrency"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/14/14/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -539,10 +597,10 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:74de6fc82e4c25ad3920778d1b4ac08267704e50e31e5912a714142ea096fc36",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:d1d1ed81a7bfa2d2251b5ebdfede152c407edee8265ba858486435a2fb4d4814",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.14. New terminology and \"fashionable\" words",
     "images": [
       {
@@ -554,6 +612,7 @@
     "nav_title": "14. New terminology and \"fashionable\" words",
     "page_ref": "TMM/Part22/14",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/14.-new-terminology-and--fashionable--words"
   }
 }

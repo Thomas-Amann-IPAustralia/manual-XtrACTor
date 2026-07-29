@@ -29,8 +29,13 @@
         "22.25. Devices"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part22/26"
+        {
+          "extraction": "href",
+          "mention": "Part 22.26 Composite trade marks",
+          "ref": "TMM/Part22/26"
+        }
       ],
       "kind": "body",
       "links": [
@@ -77,6 +82,13 @@
         "25.1 Representations of the goods and other representations that signify the nature of the goods / services"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -135,6 +147,13 @@
         "25.2 Representations that signify the qualities or characteristics of goods/services"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -198,6 +217,13 @@
         "25.3 Devices that indicate geographical origin"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -269,6 +295,13 @@
         "25.5 Simple geometric shapes"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/5",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -362,6 +395,13 @@
         "25.6 Markings, lines, threads etc."
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/6",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -397,8 +437,19 @@
         "25.7 Images of persons"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/7",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part29/6"
+        {
+          "extraction": "href",
+          "mention": "6.1 Images of persons",
+          "ref": "TMM/Part29/6"
+        }
       ],
       "kind": "body",
       "links": [
@@ -460,6 +511,13 @@
         "25.8 Barcodes"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part22/25/25/8",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -473,10 +531,10 @@
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
-    "content_hash": "sha256:83a787fe294b2b002ed8668d29d3dcb8676e1f1a48a5e0d72f621d0096a53a3a",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:982d417d990abd9098ebd89d4c6d7f519beb84b58d3a3d77d7eff442999f27ac",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "22.25. Devices",
     "images": [
       {
@@ -532,6 +590,7 @@
     "nav_title": "25. Devices",
     "page_ref": "TMM/Part22/25",
     "part_id": "Part22",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/25.-devices"
   }
 }

@@ -28,6 +28,7 @@
         "38.2. Reasons for revocation"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -73,6 +74,13 @@
         "2.1"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part38/2/2/1",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -99,6 +107,13 @@
         "2.2"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part38/2/2/2",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -153,6 +168,13 @@
         "2.3"
       ],
       "heading_source": "markup",
+      "headings": [
+        {
+          "level": 3,
+          "ref": "TMM/Part38/2/2/3",
+          "source": "markup"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -166,16 +188,17 @@
   "page": {
     "amendment_note": "Update hyperlinks",
     "archived": false,
-    "content_hash": "sha256:0724c4b31894dacefc3ae2d358d583576edb699e583e10d1cc69d5cc6170a190",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:92577b2a89fa308621722afa66ab963ab9d82c8eb127cd69cafd4be1d3713ff5",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "38.2. Reasons for revocation",
     "images": [],
     "last_amended": "2022-04-20",
     "nav_title": "2. Reasons for revocation",
     "page_ref": "TMM/Part38/2",
     "part_id": "Part38",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/2.-reasons-for-revocation"
   }
 }

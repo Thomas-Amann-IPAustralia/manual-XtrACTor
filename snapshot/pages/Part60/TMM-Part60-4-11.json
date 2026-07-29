@@ -41,8 +41,19 @@
         "4.11.1 Relevant Legislation"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/11/4/11/1",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [
-        "TMM/Part17/1"
+        {
+          "extraction": "href",
+          "mention": "Part 17 Deferment of Acceptance",
+          "ref": "TMM/Part17/1"
+        }
       ],
       "kind": "body",
       "links": [
@@ -114,6 +125,13 @@
         "4.11.2 General Description"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/11/4/11/2",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -189,6 +207,13 @@
         "4.11.3 Request for deferment by applicant"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/11/4/11/3",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [
@@ -263,6 +288,13 @@
         "4.11.4 Deferment by the Registrar on their own initiative"
       ],
       "heading_source": "emphasis",
+      "headings": [
+        {
+          "level": 4,
+          "ref": "TMM/Part60/4/11/4/11/4",
+          "source": "emphasis"
+        }
+      ],
       "internal_refs": [],
       "kind": "body",
       "links": [],
@@ -276,16 +308,17 @@
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
-    "content_hash": "sha256:cfcb022fa0ce2a02eeb4911a35498a87d197d9aae9be8059c9d2bc9888d92b94",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:0158c48e98600d8cce2d84477c884413f5f4317b33bc339c4532c2a6d6fe10bc",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "60.4.11 Deferment of Acceptance",
     "images": [],
     "last_amended": "2026-04-17",
     "nav_title": "4.11 Deferment of Acceptance",
     "page_ref": "TMM/Part60/4/11",
     "part_id": "Part60",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/4.11-deferment-of-acceptance"
   }
 }

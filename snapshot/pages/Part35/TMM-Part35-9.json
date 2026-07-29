@@ -67,8 +67,14 @@
         "35.9. Assignment of registered certification trade marks"
       ],
       "heading_source": null,
+      "headings": [],
       "internal_refs": [
-        "TMM/Part35/6"
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "mention": "Part 35.6",
+          "ref": "TMM/Part35/6"
+        }
       ],
       "kind": "body",
       "links": [
@@ -217,16 +223,17 @@
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
-    "content_hash": "sha256:47e3660f43ad47b7203a9ad50f8a73a793c19583f1fdec7e3d29b2a3215dc0e6",
-    "crawled_at": "2026-07-28T23:50:28Z",
+    "content_hash": "sha256:eef13134b571e9b6dbe9f40cafd05092a3ab04f6f24edb8bea15c6115534cf1e",
+    "crawled_at": "2026-07-29T04:00:32Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.7.0",
+    "extractor_version": "ingest/0.8.0",
     "h1": "35.9. Assignment of registered certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",
     "nav_title": "9. Assignment of registered certification trade marks",
     "page_ref": "TMM/Part35/9",
     "part_id": "Part35",
+    "printed_page_ref": null,
     "url": "https://manuals.ipaustralia.gov.au/trademark/9.-assignment-of-registered-certification-trade-marks"
   }
 }
