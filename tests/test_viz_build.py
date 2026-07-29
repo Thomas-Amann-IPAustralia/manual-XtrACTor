@@ -1,9 +1,11 @@
 """The viewer bundle builder.
 
-Two things are worth testing here and they are both about the boundary rather
-than the pixels: the builder must not add a field to a chunk, and it must not
-touch the snapshot it reads. Everything else it does is presentation, and
-presentation is not what this repository is for.
+Three things are worth testing here and they are all about the boundary rather
+than the pixels: the builder must not add a field to a chunk or to a provision,
+it must not touch the snapshot it reads, and the join it derives between the
+two halves must be the snapshot's own — an id that lands, landing, and one that
+does not, counted rather than coerced. Everything else it does is presentation,
+and presentation is not what this repository is for.
 """
 
 from __future__ import annotations
@@ -63,6 +65,148 @@ PAGE = {
     "part_id": "Part22",
     "url": "https://manuals.ipaustralia.gov.au/trademark/22.1",
 }
+
+
+INSTRUMENT = {
+    "amendments": [],
+    "captured_at": "2026-07-28T17:18:39Z",
+    "code": "TMA1995",
+    "compilation_number": "47",
+    "compilation_start": "2024-10-14",
+    "counts": {"containers": 1, "provisions": 2, "units": 3},
+    "document": {"bytes": 12, "content_hash": "sha256:" + "3" * 64, "format": "Word"},
+    "extractor_version": "legislation/0.2.0",
+    "has_unincorporated_amendments": False,
+    "long_title": "An Act relating to trade marks",
+    "made_under": None,
+    "name": "Trade Marks Act 1995",
+    "number_and_year": "No. 119, 1995",
+    "register_id": "C2024C00545",
+    "registered_at": "2024-10-14T13:40:38.9539588",
+    "short_title": "Trade Marks Act 1995",
+    "status": "InForce",
+    "symbol": "s",
+    "title_id": "C2004A04969",
+}
+
+CONTENTS = {
+    "containers": [
+        {"kind": "Part", "number": "4", "parent_ref": None, "ref": "TMA1995/pt4", "title": "Application"}
+    ],
+    "instrument": "TMA1995",
+    "provisions": [
+        {
+            "container_ref": "TMA1995/pt4",
+            "kind": "section",
+            "number": "41",
+            "ordinal": 1,
+            "ref": "TMA1995/s41",
+            "title": "Trade mark not distinguishing",
+        },
+        {
+            "container_ref": "TMA1995/pt4",
+            "kind": "section",
+            "number": "177",
+            "ordinal": 2,
+            "ref": "TMA1995/s177",
+            "title": "Additional ground",
+        },
+    ],
+}
+
+PROVISION = {
+    "captured_at": "2026-07-28T17:18:39Z",
+    "containers": ["TMA1995/pt4"],
+    "content_hash": "sha256:" + "2" * 64,
+    "extractor_version": "legislation/0.2.0",
+    "heading_path": ["Trade Marks Act 1995", "Part 4—Application", "41  Trade mark not distinguishing"],
+    "instrument": "TMA1995",
+    "kind": "section",
+    "number": "41",
+    "ref": "TMA1995/s41",
+    "text": "(1) An application must be rejected. (a) unless section 177 applies.",
+    "title": "Trade mark not distinguishing",
+    "units": [
+        {
+            "content_hash": "sha256:" + "4" * 64,
+            "depth": 0,
+            "kind": "subsection",
+            "number": "(1)",
+            "ordinal": 1,
+            "parent_ref": None,
+            "ref": "TMA1995/s41(1)",
+            "style": "subsection",
+            "text": "(1) An application must be rejected.",
+        },
+        {
+            "content_hash": "sha256:" + "5" * 64,
+            "depth": 1,
+            "kind": "paragraph",
+            "number": "(a)",
+            "ordinal": 2,
+            "parent_ref": "TMA1995/s41(1)",
+            "provisions": [
+                {"certainty": "default", "extraction": "regex", "id": "TMA1995/s177", "mention": "section 177"}
+            ],
+            "ref": "TMA1995/s41(1)(a)",
+            "style": "paragraphsub",
+            "text": "(a) unless section 177 applies.",
+        },
+    ],
+}
+
+SECOND_PROVISION = {
+    **PROVISION,
+    "content_hash": "sha256:" + "6" * 64,
+    "heading_path": ["Trade Marks Act 1995", "Part 4—Application", "177  Additional ground"],
+    "number": "177",
+    "ref": "TMA1995/s177",
+    "text": "(1) An additional ground.",
+    "title": "Additional ground",
+    "units": [
+        {
+            "content_hash": "sha256:" + "7" * 64,
+            "depth": 0,
+            "kind": "subsection",
+            "number": "(1)",
+            "ordinal": 1,
+            "parent_ref": None,
+            "ref": "TMA1995/s177(1)",
+            "style": "subsection",
+            "text": "(1) An additional ground.",
+        }
+    ],
+}
+
+
+def write_legislation(root: Path) -> Path:
+    """The other half of the snapshot, one instrument deep."""
+    base = root / "legislation"
+    (base / "TMA1995" / "provisions" / "pt4").mkdir(parents=True)
+    (base / "manifest.json").write_text(
+        json.dumps(
+            {
+                "corpus": {"instruments": 1, "provisions": 2, "units": 3},
+                "crawled_at": "2026-07-28T17:30:00Z",
+                "extractor_version": "legislation/0.2.0",
+            },
+            sort_keys=True,
+        ),
+        encoding="utf-8",
+    )
+    where = base / "TMA1995"
+    (where / "instrument.json").write_text(json.dumps(INSTRUMENT, sort_keys=True), encoding="utf-8")
+    (where / "contents.json").write_text(json.dumps(CONTENTS, sort_keys=True), encoding="utf-8")
+    (where / "endnotes.json").write_text(
+        json.dumps({"endnotes": [{"number": 4, "paragraphs": [], "ref": "TMA1995/endnote4", "tables": [], "title": "Amendment history"}]}, sort_keys=True),
+        encoding="utf-8",
+    )
+    for provision in (PROVISION, SECOND_PROVISION):
+        name = provision["ref"].replace("/", "-") + ".json"
+        (where / "provisions" / "pt4" / name).write_text(
+            json.dumps(provision, sort_keys=True, indent=2) + "\n", encoding="utf-8"
+        )
+    return base
 
 
 def write_snapshot(root: Path, *, in_sitemap: bool = True, retired: bool = False) -> Path:
@@ -202,6 +346,145 @@ def test_a_snapshot_that_was_never_crawled_says_so(tmp_path):
     (tmp_path / "snapshot").mkdir()
     with pytest.raises(viz.SnapshotError, match="sitemap.json is missing"):
         viz.build_site(tmp_path / "snapshot", tmp_path / "dist")
+
+
+def add_page(root: Path, page_ref: str, provisions: list[dict]) -> None:
+    """A second page, so a test can put its own citation edges in the corpus."""
+    sitemap = json.loads((root / "sitemap.json").read_text(encoding="utf-8"))
+    page = {**PAGE, "page_ref": page_ref, "url": PAGE["url"] + "-b"}
+    sitemap["pages"].append(
+        {
+            "kind": "body",
+            "nav_ordinal": 2,
+            "nav_title": page["nav_title"],
+            "page_ref": page_ref,
+            "part_id": page["part_id"],
+            "part_title": "Part 22 Section 41",
+            "url": page["url"],
+        }
+    )
+    (root / "sitemap.json").write_text(json.dumps(sitemap, sort_keys=True), encoding="utf-8")
+    chunk = {**CHUNK, "chunk_ref": page_ref + "#1", "page_ref": page_ref, "provisions": provisions}
+    (root / "pages" / page["part_id"] / (page_ref.replace("/", "-") + ".json")).write_text(
+        json.dumps({"chunks": [chunk], "page": page}, sort_keys=True, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def test_the_legislation_half_is_built_beside_the_manual(tmp_path):
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    out = tmp_path / "dist"
+
+    counts = viz.build_site(snapshot, out)
+    assert counts == {"parts": 1, "pages": 1, "chunks": 1, "instruments": 1, "provisions": 2}
+
+    # The provision, instrument, contents and endnote files are carried through
+    # byte for byte, the same bargain the page files get.
+    stored = snapshot / "legislation" / "TMA1995" / "provisions" / "pt4" / "TMA1995-s41.json"
+    carried = out / "legislation" / "TMA1995" / "provisions" / "pt4" / "TMA1995-s41.json"
+    assert carried.read_text(encoding="utf-8") == stored.read_text(encoding="utf-8")
+    for name in ("instrument.json", "contents.json", "endnotes.json"):
+        assert (out / "legislation" / "TMA1995" / name).is_file()
+
+    law = json.loads((out / "data" / "legislation.json").read_text(encoding="utf-8"))
+    (instrument,) = law["instruments"]
+    assert instrument["provision_count"] == 2
+    assert instrument["unit_count"] == 3
+    assert law["files"]["TMA1995/s41"] == "TMA1995/provisions/pt4/TMA1995-s41.json"
+    assert law["units"] == {"TMA1995/s41": 2, "TMA1995/s177": 1}
+    # Document order, from contents.json — not the order the files sort in.
+    assert [p["ref"] for p in law["provisions"]] == ["TMA1995/s41", "TMA1995/s177"]
+    assert {"value": "section", "count": 2} in law["facets"]["kinds"]
+    # The instrument's own cross-reference graph, for free: s41 points at s177.
+    assert law["cites"] == {"TMA1995/s41": ["TMA1995/s177"]}
+    assert law["cited_by"] == {"TMA1995/s177": ["TMA1995/s41"]}
+
+
+def test_index_provisions_are_a_strict_subset_of_the_stored_provision(tmp_path):
+    """Rule: the viewer adds no field to a provision either. Mechanised here."""
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    out = tmp_path / "dist"
+    viz.build_site(snapshot, out)
+
+    law = json.loads((out / "data" / "legislation.json").read_text(encoding="utf-8"))
+    indexed = next(p for p in law["provisions"] if p["ref"] == "TMA1995/s41")
+
+    assert set(indexed) <= set(PROVISION), "the viewer invented a provision field"
+    for field, value in indexed.items():
+        assert value == PROVISION[field], f"the viewer rewrote {field}"
+    assert "units" not in indexed, "the units are the third tier, not the index"
+
+    # Everything derived sits beside the provisions, keyed by ref.
+    for key in ("cited_by", "cited_by_manual", "cites", "edges", "files", "tables", "unit_owners", "units"):
+        assert key in law
+
+
+def test_index_provision_and_instrument_fields_are_in_their_schemas():
+    provision = json.loads((REPO / "schema" / "provision.schema.json").read_text(encoding="utf-8"))
+    instrument = json.loads((REPO / "schema" / "instrument.schema.json").read_text(encoding="utf-8"))
+    assert set(viz.INDEX_PROVISION_FIELDS) <= set(provision["properties"])
+    assert set(viz.INDEX_INSTRUMENT_FIELDS) <= set(instrument["properties"])
+
+
+def test_the_join_lands_by_ref_and_counts_what_does_not(tmp_path):
+    """The whole of the join: an id is a ref, or it is nothing. Never coerced."""
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    add_page(
+        snapshot,
+        "TMM/Part22/2",
+        [
+            # A unit address: the Manual cites the paragraph, the snapshot files
+            # it under the section holding it.
+            {"extraction": "regex", "id": "TMA1995/s41(1)(a)", "mention": "paragraph 41(1)(a)"},
+            # A section this compilation does not have. In scope, so it counts.
+            {"extraction": "regex", "id": "TMA1995/s999", "mention": "section 999"},
+            # Out of scope entirely — a different Act, which this snapshot does
+            # not hold, so it is not a miss.
+            {"extraction": "regex", "id": "AIA1901/s7", "mention": "section 7"},
+        ],
+    )
+    out = tmp_path / "dist"
+    viz.build_site(snapshot, out)
+    law = json.loads((out / "data" / "legislation.json").read_text(encoding="utf-8"))
+
+    assert law["cited_by_manual"]["TMA1995/s41"] == ["TMM/Part22/1#1", "TMM/Part22/2#1"]
+    assert law["cited_by_manual_units"] == {"TMA1995/s41(1)(a)": ["TMM/Part22/2#1"]}
+    assert law["unit_owners"]["TMA1995/s41(1)(a)"] == "TMA1995/s41"
+    assert law["join"]["edges"] == 3, "AIA1901 is not in this corpus and is not counted against it"
+    assert law["join"]["resolved"] == 2
+    assert law["join"]["unresolved_edges"] == 1
+    assert law["join"]["unresolved"] == [{"value": "TMA1995/s999", "count": 1}]
+
+
+def test_a_legislation_snapshot_that_disagrees_with_itself_is_raised(tmp_path):
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    (snapshot / "legislation" / "TMA1995" / "provisions" / "pt4" / "TMA1995-s177.json").unlink()
+
+    with pytest.raises(viz.SnapshotError, match="disagree"):
+        viz.build_site(snapshot, tmp_path / "dist")
+
+
+def test_a_half_written_instrument_is_raised_not_skipped(tmp_path):
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    (snapshot / "legislation" / "TMA1995" / "contents.json").unlink()
+
+    with pytest.raises(viz.SnapshotError, match="contents.json is missing"):
+        viz.build_site(snapshot, tmp_path / "dist")
+
+
+def test_a_snapshot_without_legislation_builds_the_manual_alone(tmp_path):
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    out = tmp_path / "dist"
+    counts = viz.build_site(snapshot, out)
+
+    assert "provisions" not in counts
+    assert not (out / "data" / "legislation.json").exists()
+    assert not (out / "legislation").exists()
 
 
 @pytest.mark.skipif(

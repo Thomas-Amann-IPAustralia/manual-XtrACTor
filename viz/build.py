@@ -1,19 +1,27 @@
 """Build the static viewer bundle from `snapshot/`.
 
-This is a *reader* of the snapshot and nothing else. `tmm_snapshot` does not
-import it, it never writes inside `snapshot/`, and it adds no field to any
-chunk: every chunk object it emits is a strict field-subset of the chunk on
-disk, byte-for-byte identical in the fields it keeps. Anything the viewer needs
-that the snapshot does not assert — a reverse citation index, a table count, a
-facet vocabulary — is emitted *beside* the chunks, never on them, so that no
-part of this file can ever become a reason to change the data contract.
+This is a *reader* of the snapshot and nothing else. `tmm_snapshot` and
+`frl_snapshot` do not import it, it never writes inside `snapshot/`, and it
+adds no field to any chunk or provision: every chunk and provision object it
+emits is a strict field-subset of the record on disk, byte-for-byte identical
+in the fields it keeps. Anything the viewer needs that the snapshot does not
+assert — a reverse citation index, a table count, a facet vocabulary, the
+Manual-to-legislation join — is emitted *beside* those records, never on them,
+so that no part of this file can ever become a reason to change the data
+contract.
 
 Output (all under --out, which is build output and is not committed):
 
     index.html, app.css, app.js     the viewer, copied from viz/app/
     data/manual.json                parts, pages, facet vocabularies, corpus stats
     data/chunks.json                every chunk minus blocks/tables, plus sibling indexes
+    data/legislation.json           instruments, contents, provisions minus units, plus
+                                    the citation graph and the join with the Manual
     pages/<Part>/<file>.json        the page files verbatim, for the deepest disclosure level
+    legislation/<code>/…            the instrument, contents, endnote and provision files verbatim
+
+The legislation half is optional: a snapshot with no `legislation/` directory
+builds a Manual-only bundle, and the viewer notices and says so.
 
 Deterministic: same snapshot in, byte-identical bundle out. No clock is read.
 
@@ -67,6 +75,48 @@ INDEX_PAGE_FIELDS = (
     "page_ref",
     "part_id",
     "url",
+)
+
+# The provision fields the viewer carries in its index. A strict subset of
+# provision.schema.json, and the same bargain the chunk index strikes: `units`
+# is absent — it is the bulk of the corpus and is fetched per provision when a
+# reader opens one — while `text` is present, because the units' text joined
+# with single spaces *is* that string, so a provision paints and searches
+# before its structure arrives.
+INDEX_PROVISION_FIELDS = (
+    "containers",
+    "content_hash",
+    "heading_path",
+    "instrument",
+    "kind",
+    "number",
+    "ref",
+    "text",
+    "title",
+)
+
+# Instrument fields carried through verbatim from instrument.json. Everything
+# on the record except `document`, which describes the stored .docx rather than
+# the law and is of no use to a reader.
+INDEX_INSTRUMENT_FIELDS = (
+    "amendments",
+    "captured_at",
+    "code",
+    "compilation_number",
+    "compilation_start",
+    "counts",
+    "extractor_version",
+    "has_unincorporated_amendments",
+    "long_title",
+    "made_under",
+    "name",
+    "number_and_year",
+    "register_id",
+    "registered_at",
+    "short_title",
+    "status",
+    "symbol",
+    "title_id",
 )
 
 APP_DIR = Path(__file__).resolve().parent / "app"
@@ -278,6 +328,250 @@ def build_chunks(snapshot: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def load_legislation(root: Path) -> dict[str, Any] | None:
+    """Read `snapshot/legislation/` into memory, or None if it was never crawled.
+
+    The two halves of the snapshot are crawled by separate pipelines and a
+    checkout can legitimately hold one without the other, so an absent
+    directory is a shape the viewer supports rather than an error. A *present*
+    directory missing the files an instrument is made of is an error: that is a
+    half-written corpus, and rule 3 says raise.
+    """
+    base = root / "legislation"
+    if not base.is_dir():
+        return None
+
+    manifest_path = base / "manifest.json"
+    manifest = _read_json(manifest_path) if manifest_path.is_file() else {}
+
+    instruments: list[dict[str, Any]] = []
+    for directory in sorted(p for p in base.iterdir() if p.is_dir()):
+        record_path = directory / "instrument.json"
+        contents_path = directory / "contents.json"
+        for required in (record_path, contents_path):
+            if not required.is_file():
+                raise SnapshotError(
+                    f"{required} is missing — the legislation snapshot is incomplete, "
+                    "refusing to build a partial instrument"
+                )
+        provisions = []
+        for path in sorted((directory / "provisions").rglob("*.json"), key=lambda p: p.as_posix()):
+            doc = _read_json(path)
+            if not isinstance(doc, dict) or "ref" not in doc or "units" not in doc:
+                raise SnapshotError(f"{path} is not a provision file: expected keys 'ref' and 'units'")
+            provisions.append({"path": path, "rel": path.relative_to(base).as_posix(), "record": doc})
+        instruments.append(
+            {
+                "dir": directory,
+                "record": _read_json(record_path),
+                "contents": _read_json(contents_path),
+                "endnotes": (directory / "endnotes.json").is_file(),
+                "provisions": provisions,
+            }
+        )
+
+    return {"manifest": manifest, "instruments": instruments}
+
+
+def build_legislation(legislation: dict[str, Any], snapshot: dict[str, Any]) -> dict[str, Any]:
+    """The Act and the Regulations, and the edges that tie them to the Manual.
+
+    Same rule as `build_chunks`: the provision objects here are field-subsets
+    of the records on disk, and everything derived — the cross-reference graph,
+    the reverse index from a provision to the Manual chunks citing it, the unit
+    and table counts, the file each record was read from — sits beside them in
+    maps keyed by ref.
+
+    The join needs no lookup table. A Manual chunk's `provisions[].id` is
+    already this corpus's own ref grammar (`LEGISLATION_NOTES.md` §8), so an
+    edge either names a provision here, or names a unit inside one, or names
+    nothing this snapshot holds — and the third case is counted and reported
+    rather than coerced into one of the first two.
+    """
+    instruments: list[dict[str, Any]] = []
+    containers: dict[str, list[dict[str, Any]]] = {}
+    provisions: list[dict[str, Any]] = []
+    files: dict[str, str] = {}
+    unit_counts: dict[str, int] = {}
+    table_counts: dict[str, int] = {}
+    owner: dict[str, str] = {}          # unit ref -> the provision holding it
+    known: set[str] = set()             # provision refs
+    edges: list[tuple[str, str]] = []   # (citing provision ref, cited id)
+    # A provision's outgoing references, gathered off its units and deduplicated
+    # — the same shape a chunk carries in `provisions`, so one predicate reads
+    # both corpora. Beside the provisions, never on them: the record's own
+    # statement of this is on the units, and the units are not in the index.
+    by_provision: dict[str, dict[tuple[str, str, str], dict[str, Any]]] = defaultdict(dict)
+
+    kinds: dict[str, int] = defaultdict(int)
+    per_instrument: dict[str, int] = defaultdict(int)
+    units_per_instrument: dict[str, int] = defaultdict(int)
+    cited_instruments: dict[str, int] = defaultdict(int)
+    extraction: dict[str, int] = defaultdict(int)
+    certainty: dict[str, int] = defaultdict(int)
+
+    for entry in legislation["instruments"]:
+        record = entry["record"]
+        code = record["code"]
+        contents = entry["contents"]
+        containers[code] = contents.get("containers", [])
+
+        # contents.json is the instrument's own document order. A provision
+        # file with no entry in it, or an entry with no file, means the two
+        # disagree about what the instrument contains — which is not something
+        # to paper over with a sort key.
+        order = {row["ref"]: row["ordinal"] for row in contents.get("provisions", [])}
+        found = {entry_p["record"]["ref"] for entry_p in entry["provisions"]}
+        missing = sorted(set(order) - found)
+        extra = sorted(found - set(order))
+        if missing or extra:
+            raise SnapshotError(
+                f"{code}: contents.json and provisions/ disagree — "
+                f"{len(missing)} listed without a file, {len(extra)} filed without a listing "
+                f"(first: {(missing or extra)[0]})"
+            )
+
+        for provision_entry in sorted(entry["provisions"], key=lambda e: order[e["record"]["ref"]]):
+            provision = provision_entry["record"]
+            ref = provision["ref"]
+            known.add(ref)
+            provisions.append({f: provision[f] for f in INDEX_PROVISION_FIELDS if f in provision})
+            files[ref] = provision_entry["rel"]
+            units = provision.get("units", [])
+            unit_counts[ref] = len(units)
+            tables = sum(1 for unit in units if unit.get("table"))
+            if tables:
+                table_counts[ref] = tables
+            kinds[provision["kind"]] += 1
+            per_instrument[code] += 1
+            units_per_instrument[code] += len(units)
+            for unit in units:
+                if "ref" in unit:
+                    owner[unit["ref"]] = ref
+                for reference in unit.get("provisions", []):
+                    edges.append((ref, reference["id"]))
+                    cited_instruments[reference["id"].split("/", 1)[0]] += 1
+                    extraction[reference["extraction"]] += 1
+                    certainty[reference.get("certainty") or "none"] += 1
+                    row = {
+                        "id": reference["id"],
+                        "extraction": reference["extraction"],
+                        "certainty": reference.get("certainty"),
+                        "unit": unit.get("ref"),
+                    }
+                    key = (row["id"], row["extraction"], row["certainty"] or "")
+                    by_provision[ref].setdefault(key, row)
+
+        # As with a page object: the verbatim fields first, then the three
+        # derived keys, named so it is obvious which side of the line they sit
+        # on. A provision object gets no such treatment — everything derived
+        # about one is in the sibling maps below, keyed by its ref.
+        instruments.append(
+            {
+                **{f: record[f] for f in INDEX_INSTRUMENT_FIELDS if f in record},
+                "provision_count": per_instrument[code],
+                "unit_count": units_per_instrument[code],
+                "endnotes": entry["endnotes"],
+            }
+        )
+
+    def resolve(identifier: str) -> str | None:
+        """The provision an id names: itself, or the one holding the unit."""
+        if identifier in known:
+            return identifier
+        return owner.get(identifier)
+
+    cites: dict[str, set[str]] = defaultdict(set)
+    cited_by: dict[str, set[str]] = defaultdict(set)
+    # Which provision holds a cited unit, for the unit refs anything actually
+    # cites. `TMA1995/s41(3)(a)` is a provision of the Act in the citing
+    # sense and a unit of section 41 in the storage sense, and a consumer
+    # cannot get from one to the other by string surgery — `TMA1995/s4` is a
+    # prefix of `TMA1995/s41`. So the mapping is stated, not implied.
+    unit_owners: dict[str, str] = {}
+    for source, identifier in edges:
+        target = resolve(identifier)
+        if target is None:
+            continue
+        if identifier != target:
+            unit_owners[identifier] = target
+        if target == source:
+            continue
+        cites[source].add(target)
+        cited_by[target].add(source)
+
+    # The join, in the direction the Manual points. An edge is in scope if it
+    # names an instrument this snapshot holds; whether it lands is then a fact,
+    # not a judgement, and the miss rate is worth reporting rather than hiding.
+    in_corpus = set(per_instrument)
+    manual_by_provision: dict[str, set[str]] = defaultdict(set)
+    manual_by_unit: dict[str, set[str]] = defaultdict(set)
+    scoped = resolved = 0
+    unresolved: dict[str, int] = defaultdict(int)
+    for entry in snapshot["pages"]:
+        for chunk in entry["chunks"]:
+            for reference in chunk.get("provisions", []):
+                identifier = reference["id"]
+                if identifier.split("/", 1)[0] not in in_corpus:
+                    continue
+                scoped += 1
+                target = resolve(identifier)
+                if target is None:
+                    unresolved[identifier] += 1
+                    continue
+                resolved += 1
+                manual_by_provision[target].add(chunk["chunk_ref"])
+                if identifier != target:
+                    unit_owners[identifier] = target
+                    manual_by_unit[identifier].add(chunk["chunk_ref"])
+
+    def ranked(counts: dict[str, int]) -> list[dict[str, Any]]:
+        return [
+            {"value": value, "count": count}
+            for value, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+        ]
+
+    def sorted_map(index: dict[str, set[str]]) -> dict[str, list[str]]:
+        return {key: sorted(values) for key, values in sorted(index.items())}
+
+    return {
+        "captured_at": legislation["manifest"].get("crawled_at"),
+        "cited_by": sorted_map(cited_by),
+        "cited_by_manual": sorted_map(manual_by_provision),
+        "cited_by_manual_units": sorted_map(manual_by_unit),
+        "cites": sorted_map(cites),
+        "containers": {code: containers[code] for code in sorted(containers)},
+        "corpus": legislation["manifest"].get("corpus", {}),
+        "edges": {
+            ref: sorted(rows.values(), key=lambda row: (row["id"], row["extraction"]))
+            for ref, rows in sorted(by_provision.items())
+        },
+        "extractor_version": legislation["manifest"].get("extractor_version"),
+        "facets": {
+            "certainty": ranked(certainty),
+            "extraction": ranked(extraction),
+            "instruments": ranked(cited_instruments),
+            "kinds": ranked(kinds),
+        },
+        "files": dict(sorted(files.items())),
+        "instruments": instruments,
+        "join": {
+            "chunks": len({ref for refs in manual_by_provision.values() for ref in refs}),
+            "edges": scoped,
+            "provisions": len(manual_by_provision),
+            "resolved": resolved,
+            # Every one of them, not a sample: a reader who wants to know why
+            # the number is not 100% is owed the list, and it is small.
+            "unresolved": ranked(unresolved),
+            "unresolved_edges": scoped - resolved,
+        },
+        "provisions": provisions,
+        "tables": dict(sorted(table_counts.items())),
+        "unit_owners": dict(sorted(unit_owners.items())),
+        "units": dict(sorted(unit_counts.items())),
+    }
+
+
 def _write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
@@ -289,6 +583,8 @@ def build_site(snapshot_root: Path, out: Path) -> dict[str, int]:
     snapshot = load_snapshot(snapshot_root)
     manual = build_manual(snapshot)
     chunks = build_chunks(snapshot)
+    legislation = load_legislation(snapshot_root)
+    law = build_legislation(legislation, snapshot) if legislation else None
 
     if out.exists():
         shutil.rmtree(out)
@@ -307,11 +603,34 @@ def build_site(snapshot_root: Path, out: Path) -> dict[str, int]:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(entry["path"], destination)
 
-    return {
+    if law is not None:
+        _write_json(out / "data" / "legislation.json", law)
+        # The instrument, contents and endnote files keep their snapshot names,
+        # so the viewer addresses them by convention (legislation/<code>/…) and
+        # only the provision files, whose names are sanitised refs, need the
+        # `files` map to be found.
+        for entry in legislation["instruments"]:
+            code = entry["record"]["code"]
+            for name in ("instrument.json", "contents.json", "endnotes.json"):
+                source = entry["dir"] / name
+                if source.is_file():
+                    destination = out / "legislation" / code / name
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copyfile(source, destination)
+            for provision in entry["provisions"]:
+                destination = out / "legislation" / provision["rel"]
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(provision["path"], destination)
+
+    counts = {
         "parts": len(manual["parts"]),
         "pages": len(manual["pages"]),
         "chunks": len(chunks["chunks"]),
     }
+    if law is not None:
+        counts["instruments"] = len(law["instruments"])
+        counts["provisions"] = len(law["provisions"])
+    return counts
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -326,10 +645,15 @@ def main(argv: list[str] | None = None) -> int:
         print(f"viz/build.py: {exc}", file=sys.stderr)
         return 1
 
-    print(
+    line = (
         f"built {args.out}: {counts['parts']} parts, {counts['pages']} pages, "
         f"{counts['chunks']} chunks"
     )
+    if "provisions" in counts:
+        line += f", {counts['instruments']} instruments, {counts['provisions']} provisions"
+    else:
+        line += " — no legislation/ in this snapshot, building the Manual half alone"
+    print(line)
     return 0
 
 
