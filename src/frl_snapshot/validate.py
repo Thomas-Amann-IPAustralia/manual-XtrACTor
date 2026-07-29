@@ -206,8 +206,11 @@ def main(argv: list[str] | None = None) -> int:
 
     root = args.root or config.snapshot_root()
     if not root.is_dir():
-        print(f"no legislation snapshot at {root}", file=sys.stderr)
-        return 1
+        # A checkout that has never been crawled holds nothing to validate, and
+        # a validator that fails there is a validator everybody learns to
+        # ignore. Same reasoning as `tmm_snapshot.validate`.
+        print(f"no legislation snapshot at {root}; nothing to validate")
+        return 0
 
     failures, summary = validate(root)
     for failure in failures:

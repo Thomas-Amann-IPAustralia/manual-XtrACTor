@@ -1,0 +1,102 @@
+# Scheduled legislation check. Opens a pull request when a law was amended.
+#
+# The same arrangement as `crawl.yml`, and never auto-merges, for the same
+# reason: the human read is the audit trail. Here it is a person confirming
+# what an amending Act actually did to a provision, with the Register's own
+# `reasons[]` and the diff of the provision file side by side.
+#
+# Cheaper than the Manual crawl by orders of magnitude. When nothing has
+# changed the whole run is two small JSON requests: a compilation has an
+# identifier that changes if and only if a new compilation was registered, so
+# there is nothing to download and nothing to hash until it moves.
+# LEGISLATION_NOTES.md §2.
+name: legislation
+
+on:
+  schedule:
+    # Mondays 19:30 UTC — Tuesday morning in Canberra, and half an hour after
+    # the Manual crawl so the two do not open pull requests at the same moment.
+    # Daily would be defensible and weekly is plenty: compilations are
+    # registered on the order of weeks to months.
+    - cron: "30 19 * * 1"
+  workflow_dispatch:
+    inputs:
+      instrument:
+        description: "Restrict to one instrument, e.g. TMA1995"
+        required: false
+        type: string
+      dry_run:
+        description: "Probe and parse, report, write nothing"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: legislation
+  cancel-in-progress: false
+
+jobs:
+  legislation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e '.[test]'
+
+      - name: Snapshot
+        id: run
+        env:
+          # Surfaced in the User-Agent so the Register can reach a person
+          # rather than a log file.
+          TMM_CONTACT: ${{ vars.TMM_CONTACT }}
+        run: |
+          set -o pipefail
+          args=""
+          if [ -n "${{ inputs.instrument }}" ]; then
+            args="$args --instrument ${{ inputs.instrument }}"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            args="$args --dry-run"
+          fi
+          python -m frl_snapshot.crawl $args | tee report.md
+
+      - name: Validate
+        if: inputs.dry_run != true
+        run: python -m frl_snapshot.validate
+
+      - name: Anything to review?
+        id: changed
+        run: |
+          # manifest.json carries the run timestamp and so differs on every
+          # run. A pull request for it alone would be a pull request with
+          # nothing in it, every week, and the habit that teaches a reviewer is
+          # the one this arrangement exists to prevent.
+          if git status --porcelain -- snapshot/legislation \
+              ':!snapshot/legislation/manifest.json' | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open a pull request
+        if: steps.changed.outputs.changed == 'true' && inputs.dry_run != true
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: legislation/${{ github.run_id }}
+          base: ${{ github.event.repository.default_branch }}
+          title: "legislation: a compilation moved"
+          body-path: report.md
+          commit-message: "legislation: refresh from the Federal Register"
+          add-paths: snapshot/legislation
+          delete-branch: true

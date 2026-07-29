@@ -1,13 +1,26 @@
-# Trade Marks Manual — snapshot
+# Australian trade marks corpus — snapshot
 
-An offline, structured snapshot of the [IP Australia Trade Marks Manual of
-Practice and Procedure](https://manuals.ipaustralia.gov.au/trademark), committed
-to this repository and refreshed on a schedule.
+An offline, structured snapshot of the Australian trade marks corpus, committed
+to this repository and refreshed on a schedule:
+
+- the [IP Australia Trade Marks Manual of Practice and
+  Procedure](https://manuals.ipaustralia.gov.au/trademark) — practice;
+- the **Trade Marks Act 1995** and **Trade Marks Regulations 1995**, from the
+  Federal Register of Legislation — law.
 
 The Manual is published only as rendered HTML: no API, no bulk download, no
-change feed. This repo crawls it, parses it into a stable structure, and commits
-the result — so the git history becomes a readable amendment log, and downstream
-work can build against a fixed, versioned corpus rather than a live website.
+change feed. The legislation has an API but serves its text as compiled Word
+documents. This repo reads both, parses them into a stable structure, and
+commits the result — so the git history becomes a readable amendment log, and
+downstream work can build against a fixed, versioned corpus rather than a live
+website.
+
+The two halves join without a lookup table. A Manual passage citing section 41
+records `provisions[].id == "TMA1995/s41"`, and that is the ref of a provision
+record holding the text of section 41: 2,603 of the Manual's 2,776 in-scope
+provision edges resolve. Every field on both sides is derived from the source by
+regex, href parsing or structural traversal — no model output anywhere in the
+pipeline.
 
 ## Browse it
 
@@ -31,6 +44,16 @@ snapshot/sitemap.json      the Manual's structure
 snapshot/retired.json      pages that left the Manual, and when
 snapshot/pages/            page records with their chunks, one file per page
 snapshot/raw/              verbatim source HTML
+
+snapshot/legislation/
+  manifest.json            run metadata for the legislation pipeline
+  TMA1995/
+    instrument.json        which compilation is held, and what amended it
+    contents.json          Parts, Divisions and provisions in document order
+    endnotes.json          the instrument's own amendment history, verbatim
+    provisions/pt4/…json   one file per section, with its numbered units
+    raw/…docx              the verbatim compiled document
+  TMR1995/…
 ```
 
 Each page file holds one page record and the chunks cut from it. A chunk is a
@@ -38,6 +61,23 @@ retrievable passage — normally the prose under one heading — carrying its
 heading ancestry, a content hash, the statutory and case citations extracted
 from it, the paragraph, list and table structure its text was flattened from,
 and the Manual's own hyperlinks with the offsets into that text where they sit.
+
+Each provision file holds one section, regulation, Schedule clause or Schedule
+item, and the numbered units inside it — `s41(3)(a)` is addressed and retrievable
+in its own right, because that is how the law is cited. Every unit carries the
+Office of Parliamentary Counsel paragraph style it was derived from, so the
+evidence for the structure travels with the record.
+
+## Refreshing it
+
+```bash
+python -m tmm_snapshot.crawl      # the Manual
+python -m frl_snapshot.crawl      # the Act and the Regulations
+```
+
+The legislation crawler costs the Register two small JSON requests when nothing
+has changed: a compilation has an identifier that changes if and only if the law
+was amended, so there is nothing to download or hash until it moves.
 
 ## What this is not
 

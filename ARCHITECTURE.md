@@ -76,12 +76,38 @@ What is held back is the records and their text, about two megabytes, not the
 rather than being dropped: the page half was established by URL and is still
 true.
 
+## Two pipelines
+
+`tmm_snapshot` reads the Manual; `frl_snapshot` reads the Act and the
+Regulations. They are siblings, not layers — different source, different fetch,
+different parse — and neither imports the other's internals. What they share is
+stated once and asserted in tests:
+
+- **The reference grammar.** `TMA1995/s41` is what the Manual's citation layer
+  emits and what the legislation snapshot uses as a provision ref. That is the
+  join between the corpora, and it is the reason `frl_snapshot.references`
+  *reuses* `tmm_snapshot.citations` rather than re-implementing it — a second
+  reading of the same references would agree with the first until, quietly, it
+  did not. `LEGISLATION_NOTES.md` §8.
+- **The three rules, and the serialisation settings that make rule 2 hold.**
+  `frl_snapshot.config.JSON_DUMP_KWARGS` is `tmm_snapshot`'s, imported rather
+  than restated.
+
+The one deliberate asymmetry is in the address. A Manual `page_ref` carries its
+Part because the nav is the only thing that makes a page unique. A provision ref
+does **not** carry its Part, because a section number is already unique within
+its instrument and putting the Part in the address would break every citation
+the moment a Part was reorganised. Where a number genuinely is not unique —
+Schedule clauses and items restart at 1 in every Schedule — the Schedule is in
+the ref.
+
 ## Repository layout
 
 ```
 CLAUDE.md               orientation, loaded every session
 ARCHITECTURE.md         this file
 SOURCE_NOTES.md         the Manual's quirks
+LEGISLATION_NOTES.md    the Register's quirks
 SCHEMA.md               data contract in prose
 TASKS.md                work packages
 schema/
@@ -102,6 +128,17 @@ src/tmm_snapshot/
   diff.py               compare two snapshots, emit a change report
   crawl.py              orchestration, CLI entry point
   validate.py           validate snapshot/ against schema/
+src/frl_snapshot/
+  config.py             the instrument registry, API base, politeness
+  api.py                the Register's OData API, and only what we need of it
+  docx.py               .docx -> ordered stream of styled blocks. One reading.
+  structure.py          block stream -> containers and provisions
+  units.py              a provision's blocks -> its numbered tree
+  endnotes.py           the compilation's own amendment history
+  references.py         statutory cross references, via tmm_snapshot.citations
+  writer.py             deterministic serialisation to snapshot/legislation/
+  crawl.py              orchestration, CLI entry point
+  validate.py           validate snapshot/legislation/ and the cross-corpus join
 tests/
   fixtures/             saved HTML, committed, never fetched at test time
   test_*.py
@@ -142,7 +179,54 @@ snapshot/
   raw/
     Part22/
       TMM-Part22-1.html               verbatim source, unmodified
+  legislation/
+    manifest.json                     run metadata for the legislation pipeline
+    TMA1995/
+      instrument.json                 identity + compilation state + amendments
+      contents.json                   the structure in document order
+      endnotes.json                   the instrument's own amendment history
+      provisions/
+        pt4/
+          TMA1995-s41.json            the section, and its numbered units
+      raw/
+        TMA1995-C2024C00545.docx      verbatim compiled document
+    TMR1995/
+      provisions/
+        sch3/
+          TMR1995-sch3-item1.json
 ```
+
+**`snapshot/legislation/` is a sibling of `pages/`, not a child.**
+`tmm_snapshot.validate` walks `snapshot/pages/` and would otherwise try these
+files against the Manual's schema.
+
+**Why the section is the file.** It is the citable unit — everything cites
+"section 41", never "Part 3, seventh paragraph" — it is the unit Endnote 4
+records amendments against, and it is a readable size for a diff. Its
+subsections and paragraphs live inside it, exactly as a Manual page's chunks
+live inside the page file, and for the same reason: one file per unit gives
+thousands of tiny files, one file for the Act gives an unreadable diff.
+
+**Three things a provision file deliberately does not carry**, each of which
+would turn one amendment into a whole-corpus diff:
+
+- `register_id` — changes on every compilation. It lives on `instrument.json`,
+  which is one file and *should* move every time.
+- An instrument-wide ordinal — inserting section 41A would renumber everything
+  after it. Document order lives in `contents.json`, the analogue of
+  `sitemap.json`.
+- How the bytes were obtained — that is a property of the run, so it is in
+  `manifest.json`. Left on the record it flips between `api` and `raw` and makes
+  `--from-raw` and a live crawl rewrite the file at each other.
+
+**Why keep the raw `.docx`.** Same two reasons as the Manual's raw HTML: it is
+what a parser fix is re-run against without going back to the Register, and it
+is the audit artefact. Unlike the HTML it is a zip, so it diffs as a binary
+blob and contributes nothing readable to a pull request — the readable diff for
+this corpus is the provision files, which are finer-grained than the Manual's
+page files. It is safe to store verbatim because the Register pins every zip
+entry's timestamp, so re-fetching an unchanged compilation gives identical
+bytes.
 
 `retired.json` sits at the snapshot root rather than inside `pages/_retired/`
 so that everything under `pages/` is a page file and the validator can walk the
@@ -460,7 +544,25 @@ rendering because the comparison is the part with an opinion: what counts as
 retirement, what counts as a page merely renamed in the nav, and what a
 partial run is not allowed to conclude.
 
-## Skip logic
+## Skip logic — legislation
+
+One gate, and it is better than anything the Manual can have. `Versions/Find`
+returns the `registerId` of the current compilation, which changes if and only
+if a new compilation was registered. Comparing it to the stored one answers
+"has this law been amended" exactly, for one small JSON GET, with no download
+and no hashing. It cannot be defeated by a re-render that changes bytes without
+changing law — which is precisely what a content hash cannot distinguish.
+
+Its blind spot is `hasUnincorporatedAmendments`, and that is recorded rather
+than papered over: true means amendments have commenced but are in no
+compilation yet, so the document is out of date and `registerId` has not moved.
+Nothing can be fetched in that state, so the flag reaches `instrument.json` and
+the run report.
+
+**A failed probe raises.** Treating an API error as "unchanged" freezes the
+snapshot silently, which is worse than a crawl that stops.
+
+## Skip logic — the Manual
 
 Three gates, cheapest first:
 
