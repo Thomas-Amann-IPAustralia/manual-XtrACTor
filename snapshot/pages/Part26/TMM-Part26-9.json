@@ -61,12 +61,6 @@
       "page_ref": "TMM/Part26/9",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(v)",
-          "mention": "subparagraph 4.13(1)(c)(v)"
-        },
-        {
           "extraction": "href",
           "id": "TMA1995/s74A",
           "mention": "74A"
@@ -100,9 +94,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:f3be73433487d491e8069fb910c16449ca296626030a1efef204cb63247c2625",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "26.9. Grounds for rejection when the citation is in its renewal period",
     "images": [],
     "last_amended": "2022-04-20",

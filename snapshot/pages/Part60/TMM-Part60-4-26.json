@@ -70,12 +70,6 @@
       "page_ref": "TMM/Part60/4/26",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A",
-          "mention": "Regulation 17A"
-        },
-        {
           "extraction": "href",
           "id": "TMR1995/r17A.54",
           "mention": "Regulation 17A Division 8"
@@ -309,9 +303,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:13333176f22137af028d5a1d725b6ff6c1246c951c4db0c7ccd169d20e65f936",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "60.4.26 Replacement",
     "images": [],
     "last_amended": "2026-04-17",

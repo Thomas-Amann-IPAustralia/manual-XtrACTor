@@ -144,12 +144,6 @@
           "mention": "part 17A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r17A",
-          "mention": "Regulation 17A"
-        },
-        {
           "extraction": "href",
           "id": "TMR1995/r17A.2",
           "mention": "Regulation 17A.2"
@@ -628,9 +622,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:d01c6a17e26deb4f3049830f403d9005e0ec6e9a750783cc3ac9b38b76e0e96d",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "60.4.24 Change in Ownership of an International Registration",
     "images": [],
     "last_amended": "2026-04-17",

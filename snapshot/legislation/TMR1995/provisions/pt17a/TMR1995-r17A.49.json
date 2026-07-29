@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div6"
   ],
   "content_hash": "sha256:9c778e9faf5e2e31e310eb9b6ae228b5c37784f1581c3ac15441e094548b4cb4",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -126,12 +126,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s17A.28(2)(a)(ii)",
-          "mention": "subparagraph 17A.28(2)(a)(ii)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s41",
           "mention": "section 41"
         }
@@ -177,7 +171,7 @@
       "number": null,
       "ordinal": 10,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.49~1",
+      "ref": "TMR1995/r17A.49/protected-international-collective-trade-mark",
       "style": "Definition",
       "text": "protected international collective trade mark means a collective trade mark that is a protected international trade mark."
     }

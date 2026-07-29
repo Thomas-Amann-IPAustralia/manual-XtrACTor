@@ -1505,3 +1505,106 @@ The other 11 pages whose `<h1>` prints a page-local rather than a
 Part-qualified address — *"16. Surnames"* on Part 22, the Part 12 divisionals —
 all agree with their `page_ref`, and are why the comparison has to accept both
 forms rather than assuming the qualified one.
+
+---
+
+## 32. An instrument's numbering is a second reading of a citation
+
+§20 established one invariant on a provision id: an Act holds sections and
+Regulations hold regulations, so `TMR1995/s224` names nothing and is rejected.
+There is a second fact of exactly the same nature, and until the 0.8.0 review
+nothing read it.
+
+Measured over the legislation snapshot:
+
+| | |
+|---|---|
+| Trade Marks Act section numbers containing a dot | **0 of 315** |
+| Trade Marks Regulations regulation numbers containing a dot | **401 of 401** |
+
+So `TMA1995/s4.7` and `TMR1995/r2016` are as impossible as `TMR1995/s224`, and
+**204 such edges reached the 0.8.0 corpus — 162 dotted Act sections and 42
+undotted regulations — 159 of them at `certainty: "default"`**, which says the
+instrument was assumed by convention. The number's own shape disproves the
+convention, so the assumption was being made against the evidence.
+
+`citations.instrument_holds` now reads both facts, `validate.py` enforces both,
+and a regex edge that fails either is **dropped rather than recorded**.
+
+### Why they are dropped and not re-attributed
+
+This is the interesting part, and the obvious change is the wrong one.
+
+75% of the dotted edges name a regulation that exists — `TMA1995/s21.28(1)(a)`
+against a real `TMR1995/r21.28(1)(a)` — which reads like a straightforward
+misattribution waiting to be corrected. It is not. **The Manual numbers its own
+Part-internal paragraphs `N.M` too**, and that is what almost all of them are:
+
+```
+'These are stated in paragraph 4.3.'                     -> Part 14's paragraph 4.3
+'(see paragraph 6.5)'                                    -> Part 14's heading 6.5
+'Paragraphs 4.7 to 4.11 give examples of amendments'     -> Part 14 again
+'see paragraph 5.1.4 of this Part'                       -> says so itself
+```
+
+The first of those sits in a chunk that *already* carries
+`internal_refs → TMM/Part14/6/6/5` for the same words. The two numbering systems
+have the same shape, so "it names a real regulation" is a coincidence and not
+evidence — re-attributing would turn a visibly broken edge into an invisibly
+wrong one that resolves.
+
+The `section`-worded ones are a third thing again, and they are why
+`INSTRUMENT_DOTTED` lists only instruments whose numbering has actually been
+read:
+
+```
+'The definition of "an offence of strict liability" is provided by section 6.1'
+'Sections 137.1 and 137.2'          'Manual section 5.2'
+```
+
+Those are the **Criminal Code Act 1995**, which genuinely numbers its sections
+`6.1`, `11.5` and `137.1` — and `TMR1995/r6.1` exists and is about something
+else entirely. An instrument absent from the table cannot contradict anything;
+asserting it were undotted would silently drop real edges.
+
+Only 5 of the 78 dotted Manual references sit next to an explicit naming of the
+Regulations, and those are lost. That is the price, it is small, and it buys
+the removal of 199 edges the pipeline could not place.
+
+### A kind-neutral word
+
+An Act and a set of Regulations both have *paragraphs*, so `paragraph` and
+`subparagraph` state no kind, where `section` and `regulation` each do. They
+were forcing a section, which meant a paragraph the Manual explicitly attributed
+to the Regulations could not be attributed to them at all. A kind-neutral word
+now takes its symbol from whatever instrument the source names, and falls back
+to a section where none is named.
+
+### `Regulation 2016` is an instrument, not a provision
+
+Commonwealth drafting went singular around 2015. `_ANY_INSTRUMENT` matched only
+`Regulations <year>`, so the *Defence Regulation 2016* and the *Intellectual
+Property Legislation Amendment (Raising the Bar) Regulation 2013* were not
+recognised as titles and their years were read as provision numbers — 13 edges
+on `TMR1995/r2016`, `r2013` and `r1991`, at `default`.
+
+## 33. An AustLII node prefix says what kind of thing the node is
+
+`/legis/cth/consol_reg/tmr1995230/sch2.html` is **Schedule 2** of the
+Regulations. The extractor stripped the node's alpha prefix and kept the digits,
+so it read `2`, took the symbol from `consol_reg`, and emitted `TMR1995/r2` —
+regulation 2, which does not exist.
+
+Eight links in the corpus, and every one of them `extraction: "href"`: the
+strongest evidence the schema carries, on an edge that was wrong. Surveyed
+across all 946 AustLII links, exactly two prefixes occur:
+
+| Prefix | Links | Means |
+|---|---|---|
+| `s` | 938 | a provision. AustLII writes a regulation as `sN` too — `/consol_reg/…/s4.5.html` is regulation 4.5 — so the symbol comes from the instrument, not from the prefix |
+| `sch` | 8 | a Schedule |
+
+`sch` now yields `TMR1995/sch2`, which is the same segment the legislation
+snapshot uses for that Schedule, so the id is a foreign key onto a record that
+was already there. An unrecognised prefix raises, for the same reason an
+unrecognised database fragment does.

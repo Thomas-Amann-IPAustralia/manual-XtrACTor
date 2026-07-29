@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div2"
   ],
   "content_hash": "sha256:409815a5d6842bed5fb18bdbddb44b4a1605149fd2cffd964f079199433770f8",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -40,14 +40,6 @@
       "number": null,
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2016",
-          "mention": "Regulation 2016"
-        }
-      ],
       "ref": "TMR1995/r22.13~1",
       "style": "subsection",
       "text": "The amendment of these Regulations made by item 1 of Schedule 5 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016 applies in relation to an IRDA if notification of the IRDA is received by the Registrar from the International Bureau on or after commencement of that item."

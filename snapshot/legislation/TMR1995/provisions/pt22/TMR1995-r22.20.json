@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div4"
   ],
   "content_hash": "sha256:4c2d1f4366f2d661c06d4815739ddad7e70df52e9bf3f61ad7784aafa3eca1c6",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -446,12 +446,6 @@
       "ordinal": 6,
       "parent_ref": null,
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.59(1)(b)",
-          "mention": "paragraph 17A.59(1)(b)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",

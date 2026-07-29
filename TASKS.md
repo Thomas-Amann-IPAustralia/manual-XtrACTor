@@ -299,7 +299,7 @@ The design decisions worth knowing before touching it, each argued where it
 lives: the `.docx` is read through `zipfile` rather than converted to HTML
 (§4 — no dependency added, and conversion discards the styles that *are* the
 structure); the section is the file; a provision ref does not carry its Part;
-and 2,603 of the Manual's 2,776 in-scope provision edges resolve against it,
+and 2,611 of the Manual's 2,687 in-scope provision edges resolve against it,
 which is what the shared ref grammar was for (§8).
 
 **Done:** `pytest -q` green; `python -m frl_snapshot.validate` clean;

@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt4"
   ],
   "content_hash": "sha256:47c9fd1e4c57f0a94469e3e911c80a30ae239516e3b5bc641e04ef7913d90a36",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 4—Application for registration",
@@ -156,14 +156,6 @@
       "number": "(a)",
       "ordinal": 9,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(i)",
-          "mention": "subparagraph 4.13(1)(c)(i)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(a)",
       "style": "paragraph",
       "text": "(a) if acceptance is deferred because of subparagraph 4.13(1)(c)(i)—when proceedings relating to the registration of, or the extension of protection to, the other trade mark are finalised; and"
@@ -175,14 +167,6 @@
       "number": "(b)",
       "ordinal": 10,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(ii)",
-          "mention": "subparagraph 4.13(1)(c)(ii)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(b)",
       "style": "paragraph",
       "text": "(b) if acceptance is deferred because of subparagraph 4.13(1)(c)(ii)—at the end of 6 months from the date of commencement of deferment; and"
@@ -195,12 +179,6 @@
       "ordinal": 11,
       "parent_ref": "TMR1995/r4.14(3)",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(iii)",
-          "mention": "subparagraph 4.13(1)(c)(iii)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -219,14 +197,6 @@
       "number": "(d)",
       "ordinal": 12,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(iv)",
-          "mention": "subparagraph 4.13(1)(c)(iv)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(d)",
       "style": "paragraph",
       "text": "(d) if acceptance is deferred because of subparagraph 4.13(1)(c)(iv)—when the proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark are determined or otherwise disposed of; and"
@@ -238,14 +208,6 @@
       "number": "(e)",
       "ordinal": 13,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(v)",
-          "mention": "subparagraph 4.13(1)(c)(v)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(e)",
       "style": "paragraph",
       "text": "(e) if acceptance is deferred because of subparagraph 4.13(1)(c)(v)—when the registration of the other trade mark is renewed or the other trade mark is removed from the Register; and"
@@ -257,14 +219,6 @@
       "number": "(ea)",
       "ordinal": 14,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)(vi)",
-          "mention": "subparagraph 4.13(1)(c)(vi)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(ea)",
       "style": "paragraph",
       "text": "(ea) if acceptance is deferred because of subparagraph 4.13(1)(c)(vi)—when the international registration of the other trade mark is renewed or the other trade mark is removed from the International Register; and"
@@ -276,14 +230,6 @@
       "number": "(f)",
       "ordinal": 15,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(a)",
-          "mention": "paragraph 4.13(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(f)",
       "style": "paragraph",
       "text": "(f) if acceptance is deferred because of paragraph 4.13(2)(a)—at the end of 2 months after the beginning of the period in which:"
@@ -295,14 +241,6 @@
       "number": "(i)",
       "ordinal": 16,
       "parent_ref": "TMR1995/r4.14(3)(f)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(b)",
-          "mention": "paragraph 4.13(2)(b)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(f)(i)",
       "style": "paragraphsub",
       "text": "(i) proceedings mentioned in paragraph 4.13(2)(b) may be begun; or"
@@ -314,14 +252,6 @@
       "number": "(ii)",
       "ordinal": 17,
       "parent_ref": "TMR1995/r4.14(3)(f)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(c)",
-          "mention": "paragraph 4.13(2)(c)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(f)(ii)",
       "style": "paragraphsub",
       "text": "(ii) an application mentioned in paragraph 4.13(2)(c) may be made; and"
@@ -333,14 +263,6 @@
       "number": "(g)",
       "ordinal": 18,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(b)",
-          "mention": "paragraph 4.13(2)(b)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(g)",
       "style": "paragraph",
       "text": "(g) if acceptance is deferred because of paragraph 4.13(2)(b) or (c)—at the end of:"
@@ -374,14 +296,6 @@
       "number": "(ga)",
       "ordinal": 21,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(ca)",
-          "mention": "paragraph 4.13(2)(ca)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(ga)",
       "style": "paragraph",
       "text": "(ga) if acceptance is deferred because of paragraph 4.13(2)(ca)—at the end of the earlier of the following days:"
@@ -415,14 +329,6 @@
       "number": "(h)",
       "ordinal": 24,
       "parent_ref": "TMR1995/r4.14(3)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.13(2)(d)",
-          "mention": "paragraph 4.13(2)(d)"
-        }
-      ],
       "ref": "TMR1995/r4.14(3)(h)",
       "style": "paragraph",
       "text": "(h) if acceptance is deferred because of paragraph 4.13(2)(d)—at the end of a period after the death of the applicant that the Registrar reasonably regards as sufficient in the circumstances; and"
@@ -495,12 +401,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s4.13(1)(c)",
-          "mention": "paragraph 4.13(1)(c)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r4.13(2)",
           "mention": "subregulation 4.13(2)"
         }
@@ -539,12 +439,6 @@
       "ordinal": 31,
       "parent_ref": "TMR1995/r4.14(5)",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.12(1)(a)",
-          "mention": "paragraph 4.12(1)(a)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",

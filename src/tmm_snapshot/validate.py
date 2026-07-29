@@ -27,7 +27,12 @@ from typing import Any, Iterator
 from jsonschema import Draft202012Validator
 
 from tmm_snapshot import config
-from tmm_snapshot.citations import INSTRUMENT_KIND
+from tmm_snapshot.citations import (
+    INSTRUMENT_DOTTED,
+    INSTRUMENT_KIND,
+    SCHEDULE_ADDRESS,
+    instrument_holds,
+)
 
 #: Retired pages are validated too. They stay in the snapshot precisely so that
 #: old citations keep resolving, and a citation resolving to a malformed record
@@ -156,6 +161,11 @@ def _provision_failures(chunk: dict[str, Any], at: str) -> list[str]:
         expected = INSTRUMENT_KIND.get(instrument)
         if expected is None or not address:
             continue
+        if SCHEDULE_ADDRESS.match(address):
+            # A Schedule, addressed by the same segment the legislation
+            # snapshot uses. It is not a section or a regulation and neither
+            # rule below applies to it.
+            continue
         if address[0] != expected:
             holds = "sections" if expected == "s" else "regulations"
             failures.append(
@@ -164,6 +174,15 @@ def _provision_failures(chunk: dict[str, Any], at: str) -> list[str]:
                 f"{'regulations' if address[0] == 'r' else 'sections'}, but it "
                 f"holds {holds}; the instrument and the reference word "
                 "disagree and one of them is wrong"
+            )
+        elif not instrument_holds(identifier):
+            dotted = INSTRUMENT_DOTTED[instrument]
+            failures.append(
+                f"{at} provisions[{index}]: {identifier} names a provision "
+                f"number {'without' if dotted else 'with'} a dot, and "
+                f"{instrument} numbers every one of its provisions "
+                f"{'with' if dotted else 'without'} one; the instrument cannot "
+                "express this address, so the edge names nothing"
             )
 
     return failures

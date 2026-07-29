@@ -88,6 +88,42 @@ def _provision_failures(path: Path, document: dict[str, Any]) -> Iterator[str]:
         if unit.get("content_hash") != writer.sha256(unit.get("text", "")):
             yield f"{path}: unit {unit.get('ref')!r} content_hash does not match its text"
 
+    # `number_collision` is the flag SCHEMA.md tells consumers to route to
+    # review and never hydrate from, so a unit carrying it must be one whose
+    # printed number a sibling really does print too. Until 0.8.0 it was also
+    # set by an addressing rule of ours that merged the address spaces of
+    # separate unnumbered ancestors — 51 of 63 flags said the drafter had
+    # numbered two provisions alike when the drafter had done nothing of the
+    # sort. Checked here so that can never again be reported as the law's
+    # defect.
+    printed: dict[tuple[str | None, str], int] = {}
+    for unit in units:
+        number = unit.get("number")
+        if number is None:
+            continue
+        key = (unit.get("parent_ref"), str(number))
+        printed[key] = printed.get(key, 0) + 1
+    for unit in units:
+        number = unit.get("number")
+        flagged = bool(unit.get("number_collision"))
+        shared = (
+            number is not None
+            and printed.get((unit.get("parent_ref"), str(number)), 0) > 1
+        )
+        if flagged and not shared:
+            yield (
+                f"{path}: unit {unit.get('ref')!r} is flagged "
+                f"number_collision, but no sibling prints {number!r}; the flag "
+                "says the instrument is defective and must not be set by an "
+                "address this pipeline chose"
+            )
+        if shared and not flagged:
+            yield (
+                f"{path}: unit {unit.get('ref')!r} shares the printed number "
+                f"{number!r} with a sibling and is not flagged "
+                "number_collision; a citation to it names two provisions"
+            )
+
     if document.get("content_hash") != writer.sha256(document.get("text", "")):
         yield f"{path}: content_hash does not match text"
 
@@ -99,7 +135,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, Any]]:
     instrument_schema = _load(config.INSTRUMENT_SCHEMA_PATH)
 
     seen_refs: dict[str, Path] = {}
-    unit_refs: set[str] = set()
+    unit_refs: dict[str, Path] = {}
     totals = {"instruments": 0, "provisions": 0, "units": 0}
 
     for code in sorted(config.INSTRUMENTS):
@@ -148,9 +184,21 @@ def validate(root: Path) -> tuple[list[str], dict[str, Any]]:
                     f"the file sits under {code}"
                 )
 
-            unit_refs.update(
-                str(unit.get("ref")) for unit in document.get("units", [])
-            )
+            # Collected with the file that claimed each, not unioned into a
+            # set: a unit ref is an address like a provision ref, and two
+            # provisions claiming one merged silently while `addressable`
+            # quietly under-reported.
+            for unit in document.get("units", []):
+                unit_ref = str(unit.get("ref"))
+                owner = unit_refs.get(unit_ref)
+                if owner is not None:
+                    failures.append(
+                        f"{path}: unit ref {unit_ref!r} is also claimed by "
+                        f"{owner}; a unit address is a citation and two "
+                        "provisions cannot share one"
+                    )
+                else:
+                    unit_refs[unit_ref] = path
             totals["provisions"] += 1
             totals["units"] += len(document.get("units", []))
 
@@ -165,7 +213,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, Any]]:
 
     summary = dict(totals)
     summary["addressable"] = len(seen_refs) + len(unit_refs)
-    summary["manual_edges"] = _manual_coverage(seen_refs.keys() | unit_refs)
+    summary["manual_edges"] = _manual_coverage(set(seen_refs) | set(unit_refs))
     return failures, summary
 
 

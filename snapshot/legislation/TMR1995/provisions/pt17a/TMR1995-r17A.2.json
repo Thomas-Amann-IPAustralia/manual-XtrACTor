@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div1"
   ],
   "content_hash": "sha256:5b7f3304309caf7022cdbb403a1393ae09091750dd421c5f83482ef79f8414f8",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -34,7 +34,7 @@
       "number": null,
       "ordinal": 1,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~1",
+      "ref": "TMR1995/r17A.2/change-of-ownership",
       "style": "Definition",
       "text": "change of ownership includes assignment or transmission."
     },
@@ -59,7 +59,7 @@
       "number": null,
       "ordinal": 2,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~2",
+      "ref": "TMR1995/r17A.2/contracting-party-of-the-holder",
       "style": "Definition",
       "text": "Contracting Party of the holder has the meaning given by Rule 1(xxvibis) of the Madrid Regulations."
     },
@@ -84,7 +84,7 @@
       "number": null,
       "ordinal": 3,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~3",
+      "ref": "TMR1995/r17A.2/date-of-international-registration",
       "style": "Definition",
       "text": "date of international registration means the date recorded in the International Register as the international registration date for a trade mark in respect of which a request was made under Article 3ter (1) of the Protocol for extension of protection to Australia."
     },
@@ -109,7 +109,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~4",
+      "ref": "TMR1995/r17A.2/date-of-recording",
       "style": "Definition",
       "text": "date of recording means the date recorded in the International Register as the recordal date for a request made under Article 3ter (2) of the Protocol for extension of protection to Australia."
     },
@@ -128,7 +128,7 @@
       "number": null,
       "ordinal": 5,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~5",
+      "ref": "TMR1995/r17A.2/holder",
       "style": "Definition",
       "text": "holder means:"
     },
@@ -138,8 +138,8 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 6,
-      "parent_ref": "TMR1995/r17A.2~5",
-      "ref": "TMR1995/r17A.2(a)",
+      "parent_ref": "TMR1995/r17A.2/holder",
+      "ref": "TMR1995/r17A.2/holder(a)",
       "style": "paragraph",
       "text": "(a) in relation to an IRDA or a protected international trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the Record of International Registrations; and"
     },
@@ -149,8 +149,8 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 7,
-      "parent_ref": "TMR1995/r17A.2~5",
-      "ref": "TMR1995/r17A.2(b)",
+      "parent_ref": "TMR1995/r17A.2/holder",
+      "ref": "TMR1995/r17A.2/holder(b)",
       "style": "paragraph",
       "text": "(b) in relation to another international registration of a trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the International Register."
     },
@@ -169,7 +169,7 @@
       "number": null,
       "ordinal": 8,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~6",
+      "ref": "TMR1995/r17A.2/international-bureau",
       "style": "Definition",
       "text": "International Bureau means the International Bureau of the World Intellectual Property Organisation."
     },
@@ -188,7 +188,7 @@
       "number": null,
       "ordinal": 9,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~7",
+      "ref": "TMR1995/r17A.2/international-register",
       "style": "Definition",
       "text": "International Register means the register maintained by the International Bureau for the purposes of the Protocol."
     },
@@ -207,7 +207,7 @@
       "number": null,
       "ordinal": 10,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~8",
+      "ref": "TMR1995/r17A.2/international-registration",
       "style": "Definition",
       "text": "international registration of a trade mark means registration of the mark in the International Register."
     },
@@ -238,7 +238,7 @@
       "number": null,
       "ordinal": 11,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~9",
+      "ref": "TMR1995/r17A.2/international-registration-designating-australia",
       "style": "Definition",
       "text": "international registration designating Australia, or IRDA, means a request, made under Article 3ter (1) or (2) of the Protocol, for extension to Australia of the protection resulting from the international registration of a trade mark."
     },
@@ -257,7 +257,7 @@
       "number": null,
       "ordinal": 12,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~10",
+      "ref": "TMR1995/r17A.2/madrid-regulations",
       "style": "Definition",
       "text": "Madrid Regulations means the Regulations under the Madrid Protocol, as the Regulations are in force for Australia on 1 November 2024."
     },
@@ -267,8 +267,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 13,
-      "parent_ref": "TMR1995/r17A.2~10",
-      "ref": "TMR1995/r17A.2~10~1",
+      "parent_ref": "TMR1995/r17A.2/madrid-regulations",
+      "ref": "TMR1995/r17A.2/madrid-regulations~1",
       "style": "notetext",
       "text": "Note 1: The Regulations could in 2025 be viewed on the World Intellectual Property Organization website (www.wipo.int)."
     },
@@ -286,7 +286,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 14,
-      "parent_ref": "TMR1995/r17A.2~10",
+      "parent_ref": "TMR1995/r17A.2/madrid-regulations",
       "provisions": [
         {
           "certainty": "default",
@@ -295,7 +295,7 @@
           "mention": "regulation 2.1"
         }
       ],
-      "ref": "TMR1995/r17A.2~10~2",
+      "ref": "TMR1995/r17A.2/madrid-regulations~2",
       "style": "notetext",
       "text": "Note 2: For Madrid Protocol, see regulation 2.1 of these Regulations."
     },
@@ -314,7 +314,7 @@
       "number": null,
       "ordinal": 15,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~11",
+      "ref": "TMR1995/r17A.2/office-of-origin",
       "style": "Definition",
       "text": "Office of origin has the meaning given by Article 2(2) of the Protocol."
     },
@@ -341,7 +341,7 @@
           "mention": "regulation 17A.3"
         }
       ],
-      "ref": "TMR1995/r17A.2~12",
+      "ref": "TMR1995/r17A.2/priority-date",
       "style": "Definition",
       "text": "priority date, for a trade mark that is the subject of an IRDA or a protected international trade mark, has the meaning given by regulation 17A.3."
     },
@@ -360,7 +360,7 @@
       "number": null,
       "ordinal": 17,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~13",
+      "ref": "TMR1995/r17A.2/protected-international-trade-mark",
       "style": "Definition",
       "text": "protected international trade mark means a trade mark to which protection resulting from international registration of the mark is extended in Australia in accordance with these Regulations."
     },
@@ -379,7 +379,7 @@
       "number": null,
       "ordinal": 18,
       "parent_ref": null,
-      "ref": "TMR1995/r17A.2~14",
+      "ref": "TMR1995/r17A.2/protocol",
       "style": "Definition",
       "text": "Protocol means the Madrid Protocol."
     },
@@ -406,7 +406,7 @@
           "mention": "regulation 17A.66"
         }
       ],
-      "ref": "TMR1995/r17A.2~15",
+      "ref": "TMR1995/r17A.2/record-of-international-registrations",
       "style": "Definition",
       "text": "Record of International Registrations means the record required to be kept by regulation 17A.66."
     }

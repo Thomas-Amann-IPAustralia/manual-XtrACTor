@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div1"
   ],
   "content_hash": "sha256:a740afc6c01ff5a5705d35f351e5566f05c4c3bc8c4d56ffc2d04885e084f3ec",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -102,14 +102,6 @@
       "number": "(2)",
       "ordinal": 5,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.14(2)(a)",
-          "mention": "paragraph 4.14(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r22.4(2)",
       "style": "subsection",
       "text": "(2) Subject to paragraph 4.14(2)(a), the deferment period for an application referred to in subregulation (1) ends:"
@@ -174,12 +166,6 @@
       "ordinal": 10,
       "parent_ref": "TMR1995/r22.4(3)",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.14(3)(a)",
-          "mention": "paragraph 4.14(3)(a)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",

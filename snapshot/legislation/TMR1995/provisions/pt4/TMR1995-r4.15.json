@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt4"
   ],
   "content_hash": "sha256:0e92a39730130410d615b5f180f4a106dc23cdb64f50e608b9d8253101fc1c50",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 4—Application for registration",
@@ -153,14 +153,6 @@
       "number": null,
       "ordinal": 10,
       "parent_ref": "TMR1995/r4.15(f)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s4.15(e)",
-          "mention": "paragraph 4.15(e)"
-        }
-      ],
       "ref": "TMR1995/r4.15(f)~2",
       "style": "notetext",
       "text": "Note 2: A list of the marks mentioned in paragraph 4.15(e) is available at the Trade Marks Office and suboffices (if any)."

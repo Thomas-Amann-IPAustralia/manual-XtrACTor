@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt9",
     "TMR1995/pt9/div3",
     "TMR1995/pt9/div3/sdivc"
   ],
   "content_hash": "sha256:7f7779e8c94d0675247b76066e50e3c227865da5cf301bb10504bd28e1eb1f05",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 9—Removal of trade mark from Register for nonuse",
@@ -154,7 +154,7 @@
       "number": null,
       "ordinal": 11,
       "parent_ref": null,
-      "ref": "TMR1995/r9.18~1",
+      "ref": "TMR1995/r9.18/exceptional-circumstances",
       "style": "Definition",
       "text": "exceptional circumstances includes the following:"
     },
@@ -164,8 +164,8 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 12,
-      "parent_ref": "TMR1995/r9.18~1",
-      "ref": "TMR1995/r9.18(a)",
+      "parent_ref": "TMR1995/r9.18/exceptional-circumstances",
+      "ref": "TMR1995/r9.18/exceptional-circumstances(a)",
       "style": "paragraph",
       "text": "(a) a circumstance beyond the control of a party that prevents the party from complying with a filing requirement under this Part;"
     },
@@ -175,8 +175,8 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 13,
-      "parent_ref": "TMR1995/r9.18~1",
-      "ref": "TMR1995/r9.18(b)",
+      "parent_ref": "TMR1995/r9.18/exceptional-circumstances",
+      "ref": "TMR1995/r9.18/exceptional-circumstances(b)",
       "style": "paragraph",
       "text": "(b) an error or omission by the Registrar or an employee that prevents a party from complying with a filing requirement under this Part;"
     },
@@ -186,8 +186,8 @@
       "kind": "paragraph",
       "number": "(c)",
       "ordinal": 14,
-      "parent_ref": "TMR1995/r9.18~1",
-      "ref": "TMR1995/r9.18(c)",
+      "parent_ref": "TMR1995/r9.18/exceptional-circumstances",
+      "ref": "TMR1995/r9.18/exceptional-circumstances(c)",
       "style": "paragraph",
       "text": "(c) an order of a court or a direction by the Registrar that the opposition be stayed."
     }

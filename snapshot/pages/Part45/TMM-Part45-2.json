@@ -173,14 +173,7 @@
       "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part45/2",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s2.1.1",
-          "mention": "section 2.1.1"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "These are copies of documents described in section 2.1.1, but are not certified by the Registrar. These documents do not have the legal status of being necessarily admissible in evidence as if they were the original. They are usually obtained for information only, rather than for official purposes."
     },
@@ -304,9 +297,9 @@
     "amendment_note": "Page renamed. Links updated. Content regarding requests and delivery added.",
     "archived": false,
     "content_hash": "sha256:6378f656c267ff768a24280d4f8c2c196fbf40568bee0ec4a2c490559cafca38",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 45.2. Types of document copies and delivery dispatch",
     "images": [],
     "last_amended": "2025-02-25",

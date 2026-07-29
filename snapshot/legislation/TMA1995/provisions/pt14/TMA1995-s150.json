@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt14"
   ],
   "content_hash": "sha256:5a592376a465178f05b4e147f8f2346ed07d2f582f31f0323b8acb41054fda31",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 14—Offences",
@@ -76,20 +76,6 @@
       "number": "(2)",
       "ordinal": 5,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11.2",
-          "mention": "section 11.2 or 11.2A"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s11.2A",
-          "mention": "section 11.2 or 11.2A"
-        }
-      ],
       "ref": "TMA1995/s150(2)",
       "style": "subsection",
       "text": "(2) Subsection (1) does not affect the operation of section 11.2 or 11.2A of the Criminal Code."

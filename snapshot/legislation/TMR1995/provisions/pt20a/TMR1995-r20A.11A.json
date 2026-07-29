@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt20a",
     "TMR1995/pt20a/div5",
     "TMR1995/pt20a/div5/sdivb"
   ],
   "content_hash": "sha256:5aba4c33c878eb46672e21f10c3200eabede18f22874a02c35c63fa445835084",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20A—Incorporated trade marks attorneys",
@@ -61,14 +61,6 @@
       "number": "(2)",
       "ordinal": 4,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20A.11D(2)(a)",
-          "mention": "paragraph 20A.11D(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r20A.11A(2)",
       "style": "subsection",
       "text": "(2) Subject to paragraph 20A.11D(2)(a), all members of a Panel of the Disciplinary Tribunal must be present at a meeting of the Panel."
@@ -91,14 +83,6 @@
       "number": "(4)",
       "ordinal": 6,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s20A.11D(2)(a)",
-          "mention": "paragraph 20A.11D(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r20A.11A(4)",
       "style": "subsection",
       "text": "(4) However, if, in accordance with paragraph 20A.11D(2)(a), a hearing of proceedings is continued with 2 members of the Panel, questions arising at the hearing must be determined by a unanimous vote of the 2 members."

@@ -162,18 +162,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s5.2",
-          "mention": "section 5.2"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.3",
-          "mention": "Section 5.3"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s56",
           "mention": "sections 35, 56, 67, 83(2), 83A(8), 84D and 104"
         },
@@ -302,14 +290,7 @@
       "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part52/5",
-      "provisions": [
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMA1995/s5.5",
-          "mention": "Section 5.5"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "Such an appeal is not an appeal merely to decide whether the decision of the Registrar can be supported but a complete re-decision, on the material before the court, of the entire question. The appeal is in the nature of a de novo hearing. The Metro case (Registrar of Trade Marks v Woolworths Ltd [1999] FCA 1020) confirmed that this established practice under the 1955 Act is maintained under the 1995 Act. In the Metro case Justice French noted that \"(t)he Court is entitled, on hearing an appeal against a decision or direction of the Registrar, to admit further evidence, to permit examination and cross-examination of witnesses, to order issues of fact to be tried as it directs, to affirm, reverse or vary the Registrar’s decision or direction and to give any judgment or make any order that in all the circumstances it thinks fit.\" Justice Frenc noted further that because the appeal is in the nature of a re-hearing, \"(t)here is therefore no presumption in favour of the correctness of the Registrar's decision save that weight will be given to the Registrar's opinion as that of a skilled and experienced person.\" An appeal to the Federal Court or Federal Circuit and Family Court of Australia (Division 2) must be instituted within 21 days after the date of the decision appealed from (or within such further time as the Court allows on application - see Manual Section 5.5)."
     },
@@ -757,9 +738,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:c0617144c3ef78e99ff1f9fd151d78a1118ee83716d10f40fbb52f9f8eaa2917",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 52.5. Rights of appeal from decisions of the Registrar",
     "images": [],
     "last_amended": "2025-04-02",

@@ -550,12 +550,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s3.4",
-          "mention": "paragraph 3.4"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s75",
           "mention": "paragraph 75"
         }
@@ -861,9 +855,9 @@
     "amendment_note": "Part 21.3 reviewed, content updated, including reference to Koninklijke Douwe Egberts BV v Cantarella Bros Pty Ltd [2024] FCA 1277.",
     "archived": false,
     "content_hash": "sha256:eb1131b3e1fe08f2d992092e4aaa0133be8a49b7c1a702d92ded2ad25c5ff653",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2026-05-13",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "21.3. Shape (three-dimensional) trade marks",
     "images": [],
     "last_amended": "2026-05-13",

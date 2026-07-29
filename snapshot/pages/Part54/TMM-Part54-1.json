@@ -104,14 +104,7 @@
       ],
       "ordinal": 2,
       "page_ref": "TMM/Part54/1",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s54.1.4",
-          "mention": "section 54.1.4"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "A subpoena is a document issued by a court, requiring the person named to attend at the court to give oral evidence and/or produce documents or other things. A subpoena requiring the person named to attend the court for the purpose of giving evidence is known as a “subpoena to give evidence”; a subpoena requiring the person named to attend the court and produce a document or thing is known as a “subpoena for production”. Persons must comply with the requirements of a subpoena. Failure to do so will render the person liable to contempt of court. Any officer of a government department who handles a response to a subpoena must be aware that if it is incorrectly handled, they may become personally liable for contempt of court. The consequences of mishandling a subpoena were outlined in a circular from the Australian Government Solicitor issued in 1990 (see Annex A1) A person is not bound to comply with a subpoena if the requirements are oppressive or it is served too late for compliance. This might be where the requirement is for a wide selection of files, and the time is not adequate. The subpoena, however, remains valid until it is set aside on notice of motion. (See section 54.1.4)."
     },
@@ -331,9 +324,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:6385d94d53aadf1df6ad25fb04622dd71084c96908a4be9556e7f14ff2e093b4",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 54.1. Subpoenas",
     "images": [],
     "last_amended": "2025-04-02",

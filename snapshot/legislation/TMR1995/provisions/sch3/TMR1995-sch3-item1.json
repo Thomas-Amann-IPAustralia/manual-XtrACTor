@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/sch3"
   ],
   "content_hash": "sha256:bbcfb2012e371391d28b2ca17d123b07455284df09742676e419de5058e3a514",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Schedule 3—Modifications of Part 13 of the Act (Norfolk Island)",
@@ -77,7 +77,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/sch3/item1~4",
+      "ref": "TMR1995/sch3/item1/customs-act-1901-ni",
       "style": "Definition",
       "text": "Customs Act 1901 (NI) means the Customs Act 1901 in its application to Norfolk Island in accordance with the Norfolk Island Customs Ordinance 2016."
     },
@@ -96,7 +96,7 @@
       "number": null,
       "ordinal": 5,
       "parent_ref": null,
-      "ref": "TMR1995/sch3/item1~5",
+      "ref": "TMR1995/sch3/item1/designated-owner",
       "style": "Definition",
       "text": "designated owner, in relation to goods imported into Norfolk Island, means:"
     },
@@ -114,7 +114,7 @@
       "kind": "paragraph",
       "number": "(a)",
       "ordinal": 6,
-      "parent_ref": "TMR1995/sch3/item1~5",
+      "parent_ref": "TMR1995/sch3/item1/designated-owner",
       "provisions": [
         {
           "certainty": "default",
@@ -123,7 +123,7 @@
           "mention": "section 68"
         }
       ],
-      "ref": "TMR1995/sch3/item1(a)",
+      "ref": "TMR1995/sch3/item1/designated-owner(a)",
       "style": "paragraph",
       "text": "(a) the person identified as the owner of the goods on the entry made in relation to the goods under section 68 of the Customs Act 1901 (NI); or"
     },
@@ -133,7 +133,7 @@
       "kind": "paragraph",
       "number": "(b)",
       "ordinal": 7,
-      "parent_ref": "TMR1995/sch3/item1~5",
+      "parent_ref": "TMR1995/sch3/item1/designated-owner",
       "provisions": [
         {
           "certainty": "default",
@@ -142,7 +142,7 @@
           "mention": "section 133A"
         }
       ],
-      "ref": "TMR1995/sch3/item1(b)",
+      "ref": "TMR1995/sch3/item1/designated-owner(b)",
       "style": "paragraph",
       "text": "(b) if no such entry exists—the person determined to be the owner of the goods under section 133A of the Act."
     }

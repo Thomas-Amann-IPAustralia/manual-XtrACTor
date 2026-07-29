@@ -283,12 +283,6 @@
           "extraction": "regex",
           "id": "TMR1995/r12.38",
           "mention": "Regulation 12.38"
-        },
-        {
-          "certainty": "ambiguous",
-          "extraction": "regex",
-          "id": "TMR1995/r2",
-          "mention": "regulation 2"
         }
       ],
       "tables": [],
@@ -299,9 +293,9 @@
     "amendment_note": "Fixing citation format",
     "archived": false,
     "content_hash": "sha256:bce0d8e1810141bc25e1c77a73220c2071119ce9f6e339f68a9d397c19d2109d",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2025-12-05",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "30. Annex A1 - Examples of Legislation which may trigger the provisions of section 42(b)",
     "images": [],
     "last_amended": "2025-12-05",

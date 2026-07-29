@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/sch4"
   ],
   "content_hash": "sha256:7eb7320edb8299e0e531c7cb21d9c5fdc09664008b1cf88dd32d5ba87c2d0bf1",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Schedule 4—Modifications of Part 13 of the Act (Christmas Island)",
@@ -65,7 +65,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/sch4/item1~4",
+      "ref": "TMR1995/sch4/item1/comptroller",
       "style": "Definition",
       "text": "Comptroller means the Comptroller of the Indian Ocean Territories Customs Service."
     },
@@ -98,7 +98,7 @@
           "mention": "subsection 68(2)"
         }
       ],
-      "ref": "TMR1995/sch4/item1~5",
+      "ref": "TMR1995/sch4/item1/designated-owner",
       "style": "Definition",
       "text": "designated owner, in relation to goods imported into Christmas Island, means the person identified as the owner of the goods on the entry made in relation to the goods under subsection 68(2) or (3) of the Customs Act 1901 of Christmas Island."
     }

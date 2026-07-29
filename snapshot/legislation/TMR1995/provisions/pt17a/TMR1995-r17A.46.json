@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div5",
     "TMR1995/pt17a/div5/sdiv3"
   ],
   "content_hash": "sha256:62dbb2ad1e0a1dbbc2bc44e4b4fc6277bbf52acbd67ecd3160c0d2213e8b856c",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -58,14 +58,6 @@
       "number": "(b)",
       "ordinal": 3,
       "parent_ref": "TMR1995/r17A.46(1)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.45(2)(a)",
-          "mention": "paragraph 17A.45(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r17A.46(1)(b)",
       "style": "paragraph",
       "text": "(b) on the ground that the trade mark is liable to deceive or confuse (a ground referred to in paragraph 17A.45(2)(a)); or"
@@ -77,14 +69,6 @@
       "number": "(c)",
       "ordinal": 4,
       "parent_ref": "TMR1995/r17A.46(1)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.45(2)(c)",
-          "mention": "paragraph 17A.45(2)(c)"
-        }
-      ],
       "ref": "TMR1995/r17A.46(1)(c)",
       "style": "paragraph",
       "text": "(c) on the ground referred to in paragraph 17A.45(2)(c);"

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div2"
   ],
   "content_hash": "sha256:e55d3e44a9c4c48321ec8b9551fdce78bbabba060bf3384862aff7461adf13be",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -46,14 +46,6 @@
       "number": "(1)",
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2013",
-          "mention": "Regulation 2013"
-        }
-      ],
       "ref": "TMR1995/r22.9(1)",
       "style": "subsection",
       "text": "(1) The amendments of these Regulations made by the items of Part 2 of Schedule 3 to the Intellectual Property Legislation Amendment (Raising the Bar) Regulation 2013 (No. 1) apply as set out in the following table."
@@ -66,36 +58,6 @@
       "ordinal": 2,
       "parent_ref": null,
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.20E(1)(a)",
-          "mention": "paragraph 21.20E(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.15(1)(a)",
-          "mention": "paragraph 5.15(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.15(3)(c)(i)",
-          "mention": "subparagraph 5.15(3)(c)(i)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.8(3)(b)",
-          "mention": "paragraph 5.8(3)(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s6.9(1)(a)",
-          "mention": "paragraph 6.9(1)(a)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -209,12 +171,6 @@
           "extraction": "regex",
           "id": "TMR1995/r17A.48V",
           "mention": "regulation 17A.48V"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2",
-          "mention": "subregulations 5.6(1), 9.8(1), 17A.33(1) and 17A.48G(1) to 2"
         },
         {
           "certainty": "default",
@@ -500,14 +456,6 @@
       "number": "(2)",
       "ordinal": 3,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2013",
-          "mention": "Regulation 2013"
-        }
-      ],
       "ref": "TMR1995/r22.9(2)",
       "style": "subsection",
       "text": "(2) The amendment of these Regulations made by item 41 of Schedule 4 to the Intellectual Property Legislation Amendment (Raising the Bar) Regulation 2013 (No. 1) applies in relation to a charge that:"
@@ -567,14 +515,6 @@
       "number": "(3)",
       "ordinal": 6,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2013",
-          "mention": "Regulation 2013"
-        }
-      ],
       "ref": "TMR1995/r22.9(3)",
       "style": "subsection",
       "text": "(3) The amendments of these Regulations made by item 95 of Schedule 6 to the Intellectual Property Legislation Amendment (Raising the Bar) Regulation 2013 (No. 1) apply in relation to a hearing for which the Registrar issues a hearing notice, or an invitation to be heard, on or after 15 April 2013."

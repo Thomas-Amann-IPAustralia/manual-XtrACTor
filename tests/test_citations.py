@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 
 from tmm_snapshot import config
 from tmm_snapshot.citations import (
+    instrument_holds,
     _ANCHOR_HEADING_ADDRESS,
     UnknownInstrument,
     extract_cases,
@@ -787,3 +788,109 @@ def test_settling_is_idempotent():
     )
 
     assert once == twice == candidates("TMM/Part14/4/4/5")
+
+
+# --------------------------------------------------------------------------
+# The 0.8.0 review: the node prefix, and the numbering invariant
+# --------------------------------------------------------------------------
+
+
+def test_a_schedule_href_addresses_the_schedule_not_a_regulation():
+    """`/consol_reg/tmr1995230/sch2.html` is Schedule 2 of the Regulations.
+
+    Stripping the node's alpha prefix read it as `2` and produced
+    `TMR1995/r2` — a regulation, on `extraction: "href"`, which is the
+    strongest evidence the schema can carry. Eight edges in the 0.8.0 corpus.
+    The segment emitted now is the one the legislation snapshot uses for the
+    same Schedule, so the id is a foreign key onto it.
+    """
+    found = provisions(
+        '<p><a href="http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/'
+        'consol_reg/tmr1995230/sch2.html">Schedule 2</a></p>'
+    )
+
+    assert [record["id"] for record in found] == ["TMR1995/sch2"]
+    assert found[0]["extraction"] == "href"
+
+
+def test_an_unreadable_node_prefix_raises_rather_than_guessing_the_kind():
+    with pytest.raises(UnknownInstrument, match="node prefix"):
+        provisions(
+            '<p><a href="https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/'
+            'consol_act/tma1995121/pt3.html">a Part</a></p>'
+        )
+
+
+@pytest.mark.parametrize(
+    ("identifier", "held"),
+    [
+        ("TMA1995/s41", True),
+        ("TMA1995/s223A(2)(b)", True),
+        # The Act numbers none of its 315 sections with a dot.
+        ("TMA1995/s4.7", False),
+        ("TMA1995/s21.28(1)(a)", False),
+        # The Regulations number all 401 of theirs with one.
+        ("TMR1995/r4.15", True),
+        ("TMR1995/r2016", False),
+        ("TMR1995/r17A", False),
+        # The kind check that came before it still holds.
+        ("TMR1995/s224", False),
+        # A Schedule is neither, and neither rule applies to it.
+        ("TMR1995/sch2", True),
+        # An instrument whose numbering nobody has read cannot contradict
+        # anything: the Criminal Code really does number sections 6.1 and
+        # 137.1, and a whitelist that guessed would drop real edges.
+        ("AIA1901/s7", True),
+        ("CCA1995/s137.1", True),
+    ],
+)
+def test_instrument_holds_reads_the_number_as_well_as_the_word(identifier, held):
+    assert instrument_holds(identifier) is held
+
+
+def test_a_dotted_address_is_not_attributed_to_the_act():
+    """'see paragraph 4.3' is the Manual's own paragraph 4.3 far more often
+    than it is anything statutory, and the Act cannot hold a dotted section
+    number at all. Dropped rather than re-attributed to the Regulations: the
+    Manual's Part-internal numbering and the Regulations' numbering are the
+    same shape, so `TMR1995/r4.3` existing is a coincidence, not evidence.
+    """
+    assert provisions("<p>These are stated in paragraph 4.3.</p>") == []
+
+
+def test_an_undotted_regulation_address_is_dropped():
+    assert provisions("<p>See Regulation 17A for the procedure.</p>") == []
+
+
+def test_a_named_instrument_ending_in_a_singular_regulation_is_a_title():
+    """'Defence Regulation 2016' is an instrument, not regulation 2016.
+
+    Commonwealth drafting went singular around 2015, and without it the year
+    was read as a provision number: `TMR1995/r2016` at certainty `default`.
+    """
+    assert provisions(
+        "<p>A term prohibited by the Defence Regulation 2016 (Cth).</p>"
+    ) == []
+
+
+def test_a_kind_neutral_word_takes_the_symbol_from_the_instrument_named():
+    """An Act and a set of Regulations both have paragraphs, so 'paragraph'
+    states no kind. Left forcing a section, a paragraph the Manual explicitly
+    attributed to the Regulations could not be attributed to them at all."""
+    found = by_id(
+        provisions(
+            "<p>Under paragraph 4.12(1)(b) of the Trade Marks Regulations "
+            "1995, an extension applies.</p>"
+        )
+    )
+
+    assert "TMR1995/r4.12(1)(b)" in found
+    assert found["TMR1995/r4.12(1)(b)"]["certainty"] == "explicit"
+
+
+def test_a_bare_kind_neutral_word_still_reads_as_a_section():
+    """The great majority of bare 'paragraph N(a)' references in this corpus
+    are the Act, and nothing in the sentence says otherwise."""
+    assert "TMA1995/s44(3)(a)" in by_id(
+        provisions("<p>Rejected under paragraph 44(3)(a).</p>")
+    )

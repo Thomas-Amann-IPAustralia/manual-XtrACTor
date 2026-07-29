@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/sch8",
     "TMR1995/sch8/pt2"
   ],
   "content_hash": "sha256:2b772e1e5a560b1d1a8cc20c9833329fc6164c85f707a34acac24b6289cba251",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Schedule 8—Costs, expenses and allowances",
@@ -35,10 +35,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 2,
       "parent_ref": "TMR1995/sch8/pt2/div2~1",
-      "ref": "TMR1995/sch8/pt2/div2(a)",
+      "ref": "TMR1995/sch8/pt2/div2~1(a)",
       "style": "paragraph",
       "text": "(a) if the person is remunerated in his or her occupation by wages, salary or fees—an amount equal to the amount of wages, salary or fees not paid to the person because of his or her attendance for that purpose; and"
     },
@@ -47,10 +46,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 3,
       "parent_ref": "TMR1995/sch8/pt2/div2~1",
-      "ref": "TMR1995/sch8/pt2/div2(b)",
+      "ref": "TMR1995/sch8/pt2/div2~1(b)",
       "style": "paragraph",
       "text": "(b) in any other case—an amount of not less than $210, or more than $1,050, for each day on which he or she so attends."
     },
@@ -70,10 +68,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 5,
       "parent_ref": "TMR1995/sch8/pt2/div2~2",
-      "ref": "TMR1995/sch8/pt2/div2(a)~2",
+      "ref": "TMR1995/sch8/pt2/div2~2(a)",
       "style": "paragraph",
       "text": "(a) if the person is remunerated in his or her occupation by wages, salary or fees—an amount equal to the amount of wages, salary or fees not paid to the person because of his or her attendance for that purpose; and"
     },
@@ -82,10 +79,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 6,
       "parent_ref": "TMR1995/sch8/pt2/div2~2",
-      "ref": "TMR1995/sch8/pt2/div2(b)~2",
+      "ref": "TMR1995/sch8/pt2/div2~2(b)",
       "style": "paragraph",
       "text": "(b) in any other case—an amount of not less than $120, or more than $195, for each day on which he or she so attends."
     }

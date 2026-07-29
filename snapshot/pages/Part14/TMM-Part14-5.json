@@ -1035,14 +1035,7 @@
       ],
       "ordinal": 17,
       "page_ref": "TMM/Part14/5",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s5.2.3",
-          "mention": "paragraph 5.2.3"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "This is a rapidly expanding area, and the exact nature of the claimed Internet services can sometimes be difficult to determine. The question to be asked in classifying such services is this: is the application being made for Internet services as such, or is it simply being made for services offered over the Internet or in relation to the Internet? If the services are simply ones being offered over the Internet, then it is these services which need to be classified, as they are not an Internet service as such. For example Internet-based retailing services fall in class 35, Internet-based education services fall in class 41, Internet-based publication of texts (other than publicity texts) falls in class 41, Internet-based publication of publicity texts falls in class 35, and information services offered over the Internet fall in the class appropriate to the information being supplied (see paragraph 5.2.3). If the services are specialised Internet services as such, they will fall predominantly in classes 38 or 42. Class 38 covers access-related services such as Internet access provider services. Class 42 covers general computer, computer programming and computer software-related services such as creating and maintaining web sites for others or hosting web sites for others as well as search engine services."
     },
@@ -1471,9 +1464,9 @@
     "amendment_note": "Amended post MGS implementation",
     "archived": false,
     "content_hash": "sha256:f3900415d29a3213bdd2cc088b59fd406137a64d05a560b0e9cbab9cea2c99b8",
-    "crawled_at": "2026-07-29T04:00:31Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2024-03-28",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "14.5. Principles of classification and finding the correct class for specific items",
     "images": [],
     "last_amended": "2024-03-28",

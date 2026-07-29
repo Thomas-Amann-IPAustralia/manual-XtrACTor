@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/sch8",
     "TMR1995/sch8/pt2"
   ],
   "content_hash": "sha256:684ab31c7489e7fb52bddfbc472eaa910e2dbe2ff0f0c6d5718895adf1da45c5",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Schedule 8—Costs, expenses and allowances",
@@ -46,10 +46,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 3,
       "parent_ref": "TMR1995/sch8/pt2/div1~2",
-      "ref": "TMR1995/sch8/pt2/div1(a)",
+      "ref": "TMR1995/sch8/pt2/div1~2(a)",
       "style": "paragraph",
       "text": "(a) $500;"
     },
@@ -58,10 +57,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 4,
       "parent_ref": "TMR1995/sch8/pt2/div1~2",
-      "ref": "TMR1995/sch8/pt2/div1(b)",
+      "ref": "TMR1995/sch8/pt2/div1~2(b)",
       "style": "paragraph",
       "text": "(b) the sum of the fees paid."
     },
@@ -81,10 +79,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 6,
       "parent_ref": "TMR1995/sch8/pt2/div1~3",
-      "ref": "TMR1995/sch8/pt2/div1(a)~2",
+      "ref": "TMR1995/sch8/pt2/div1~3(a)",
       "style": "paragraph",
       "text": "(a) a reasonable amount for allowances for transport between the usual place of residence of the person and the place that he or she attends for that purpose; and"
     },
@@ -93,10 +90,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 7,
       "parent_ref": "TMR1995/sch8/pt2/div1~3",
-      "ref": "TMR1995/sch8/pt2/div1(b)~2",
+      "ref": "TMR1995/sch8/pt2/div1~3(b)",
       "style": "paragraph",
       "text": "(b) if the person is required to be absent overnight from his or her usual place of residence—a reasonable amount for allowances up to a daily maximum of $1,050 for meals and accommodation."
     }

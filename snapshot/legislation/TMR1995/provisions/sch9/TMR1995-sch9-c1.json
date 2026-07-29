@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/sch9"
   ],
   "content_hash": "sha256:dc49875ebc84df1d14b433cab829e8f8755c54549a780867deb40e36f291f452",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Schedule 9—Fees",
@@ -71,12 +71,6 @@
           "extraction": "regex",
           "id": "TMA1995/s27(5)",
           "mention": "subsection 27(5) or 45(1)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s3A.5(1)(b)",
-          "mention": "paragraph 3A.5(1)(b)"
         },
         {
           "certainty": "default",

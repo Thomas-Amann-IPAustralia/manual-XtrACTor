@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt14"
   ],
   "content_hash": "sha256:631f7900c1268addf57ee7b4e849cb24e0a75263cc5e102703b3fa434bff527d",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 14—Offences",
@@ -98,14 +98,6 @@
       "number": null,
       "ordinal": 7,
       "parent_ref": "TMA1995/s154(1A)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s13.3(3)",
-          "mention": "subsection 13.3(3)"
-        }
-      ],
       "ref": "TMA1995/s154(1A)~1",
       "style": "notetext",
       "text": "Note: A defendant bears an evidential burden in relation to the matter in subsection (1A), see subsection 13.3(3) of the Criminal Code."
@@ -161,14 +153,6 @@
       "number": null,
       "ordinal": 10,
       "parent_ref": "TMA1995/s154(2)",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s6.1",
-          "mention": "section 6.1"
-        }
-      ],
       "ref": "TMA1995/s154(2)~2",
       "style": "notetext",
       "text": "Note 2: For strict liability, see section 6.1 of the Criminal Code."

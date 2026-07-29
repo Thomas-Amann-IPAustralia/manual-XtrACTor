@@ -67,18 +67,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.15(5)(a)",
-          "mention": "paragraph 21.15(5)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.15(5)(d)",
-          "mention": "paragraph 21.15(5)(d)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s33(4)",
           "mention": "subsection 33(4)"
         },
@@ -96,9 +84,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:18d53b15f0161dabe6885c20ba50d7bb408592dd0cb7eb20f8a4ba3186ae64c9",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 52.3. Is a hearing always necessary?",
     "images": [],
     "last_amended": "2025-04-02",

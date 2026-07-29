@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div5",
     "TMR1995/pt17a/div5/sdiv2"
   ],
   "content_hash": "sha256:f21438816749b56cb80dc91a77753e2861d4cb174ab1edbc87b73675c1bbc322",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -28,14 +28,6 @@
       "number": "(1)",
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s17A.42A(2)(a)",
-          "mention": "paragraph 17A.42A(2)(a)"
-        }
-      ],
       "ref": "TMR1995/r17A.42B(1)",
       "style": "subsection",
       "text": "(1) For paragraph 17A.42A(2)(a), the Registrar may give a written notice to the holder by sending it to:"

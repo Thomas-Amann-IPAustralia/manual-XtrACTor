@@ -1575,12 +1575,6 @@
           "extraction": "regex",
           "id": "TMA1995/s83(7)",
           "mention": "Section 83(7)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2(3)",
-          "mention": "subregulation 2(3)"
         }
       ],
       "tables": [],
@@ -1708,16 +1702,10 @@
           "mention": "section 43"
         },
         {
-          "certainty": "default",
+          "certainty": "ambiguous",
           "extraction": "regex",
           "id": "TMR1995/r12.38",
           "mention": "Regulation 12.38"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2016",
-          "mention": "Regulation 2016"
         }
       ],
       "tables": [],
@@ -2007,9 +1995,9 @@
     "amendment_note": "Updated content at 3.4.1 in relation to copyright in the Aboriginal and Torres Strait Islander flags.",
     "archived": false,
     "content_hash": "sha256:695ecc1e422f4a765153d8cb1031f316185f0859238717ada0e5efcf0fc83969",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2026-07-21",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "30.3. Use contrary to law",
     "images": [
       {

@@ -114,12 +114,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(f)",
-          "mention": "paragraph 21.28(1)(f)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r17A.34K",
           "mention": "regs 5.15, 9.18, 17A.34K and 17A.48T"
         },
@@ -215,30 +209,6 @@
       "ordinal": 3,
       "page_ref": "TMM/Part15/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(a)",
-          "mention": "paragraph 21.28(2)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(aa)",
-          "mention": "paragraph 21.28(2)(aa)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(b)",
-          "mention": "paragraph 21.28(2)(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(ba)",
-          "mention": "paragraph 21.28(2)(ba)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -354,12 +324,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(a)",
-          "mention": "paragraph 21.28(1)(a)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMR1995/r4.2",
           "mention": "reg 4.2"
         }
@@ -403,12 +367,6 @@
       "ordinal": 5,
       "page_ref": "TMM/Part15/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(aa)",
-          "mention": "paragraph 21.28(aa)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -464,12 +422,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(b)",
-          "mention": "paragraph 21.28(1)(b)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s29(1)(b)",
           "mention": "paragraph 29(1)(b)"
         }
@@ -513,12 +465,6 @@
       "ordinal": 7,
       "page_ref": "TMM/Part15/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(c)",
-          "mention": "paragraphs 21.28(1)(c)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -574,12 +520,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(j)",
-          "mention": "paragraph 21.28(1)(j)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s64",
           "mention": "section 64"
         },
@@ -632,12 +572,6 @@
         {
           "certainty": "default",
           "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(k)",
-          "mention": "paragraph 21.28(1)(k)"
-        },
-        {
-          "certainty": "default",
-          "extraction": "regex",
           "id": "TMA1995/s79",
           "mention": "section 79"
         }
@@ -680,14 +614,7 @@
       "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part15/2",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(1)(n)",
-          "mention": "paragraphs 21.28(1)(n)"
-        }
-      ],
+      "provisions": [],
       "tables": [],
       "text": "Times allowed by the Chief Executive Officer of Customs in Part 13 and by the Australian Competition and Consumer Commission in Part 16 - these acts are prescribed by paragraphs 21.28(1)(n) - (q)."
     },
@@ -727,12 +654,6 @@
       "ordinal": 11,
       "page_ref": "TMM/Part15/2",
       "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s21.28(2)(b)",
-          "mention": "paragraph 21.28(2)(b)"
-        },
         {
           "certainty": "default",
           "extraction": "regex",
@@ -903,9 +824,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:173814ab0c8aeefd638d5eb44eab2c29995b84b198cd64159510f51c6ef12412",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:27Z",
     "date_published": "2025-07-04",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "Part 15.2. When the general provision does not apply",
     "images": [],
     "last_amended": "2025-07-04",

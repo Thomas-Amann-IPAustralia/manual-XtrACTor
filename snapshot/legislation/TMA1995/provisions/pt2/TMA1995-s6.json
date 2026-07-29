@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt2"
   ],
   "content_hash": "sha256:d37999af886d68c012337b9cac03e3262d151ca70dd141e1797bbab0ff46c0a5",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 2—Interpretation",
@@ -51,7 +51,7 @@
           "mention": "section 136C"
         }
       ],
-      "ref": "TMA1995/s6~1",
+      "ref": "TMA1995/s6/action-period",
       "style": "Definition",
       "text": "action period, in relation to particular seized goods, means the period prescribed by the regulations after notice of a claim for release of the goods is given to the objector under section 136C."
     },
@@ -70,7 +70,7 @@
       "number": null,
       "ordinal": 3,
       "parent_ref": null,
-      "ref": "TMA1995/s6~2",
+      "ref": "TMA1995/s6/applicant",
       "style": "Definition",
       "text": "applicant, in relation to an application, means the person in whose name the application is for the time being proceeding."
     },
@@ -103,7 +103,7 @@
           "mention": "section 9"
         }
       ],
-      "ref": "TMA1995/s6~3",
+      "ref": "TMA1995/s6/applied-to",
       "style": "Definition",
       "text": "applied to and applied in relation to have the respective meanings given in section 9."
     },
@@ -122,7 +122,7 @@
       "number": null,
       "ordinal": 5,
       "parent_ref": null,
-      "ref": "TMA1995/s6~4",
+      "ref": "TMA1995/s6/approved-form",
       "style": "Definition",
       "text": "approved form means a form approved by the Registrar for the purposes of the provision in which the expression appears."
     },
@@ -141,7 +141,7 @@
       "number": null,
       "ordinal": 6,
       "parent_ref": null,
-      "ref": "TMA1995/s6~5",
+      "ref": "TMA1995/s6/assignment",
       "style": "Definition",
       "text": "assignment, in relation to a trade mark, means an assignment by act of the parties concerned."
     },
@@ -160,7 +160,7 @@
       "number": null,
       "ordinal": 7,
       "parent_ref": null,
-      "ref": "TMA1995/s6~6",
+      "ref": "TMA1995/s6/australia",
       "style": "Definition",
       "text": "Australia includes the following external Territories:"
     },
@@ -169,10 +169,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 8,
-      "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6(a)",
+      "parent_ref": "TMA1995/s6/australia",
+      "ref": "TMA1995/s6/australia(a)",
       "style": "paragraph",
       "text": "(a) Christmas Island;"
     },
@@ -181,10 +180,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 9,
-      "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6(b)",
+      "parent_ref": "TMA1995/s6/australia",
+      "ref": "TMA1995/s6/australia(b)",
       "style": "paragraph",
       "text": "(b) Cocos (Keeling) Islands;"
     },
@@ -193,10 +191,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
-      "number_collision": true,
       "ordinal": 10,
-      "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6(c)",
+      "parent_ref": "TMA1995/s6/australia",
+      "ref": "TMA1995/s6/australia(c)",
       "style": "paragraph",
       "text": "(c) Norfolk Island."
     },
@@ -221,7 +218,7 @@
       "number": null,
       "ordinal": 11,
       "parent_ref": null,
-      "ref": "TMA1995/s6~7",
+      "ref": "TMA1995/s6/australian-continental-shelf",
       "style": "Definition",
       "text": "Australian continental shelf has the same meaning as in the Seas and Submerged Lands Act 1973."
     },
@@ -248,7 +245,7 @@
           "mention": "section 8"
         }
       ],
-      "ref": "TMA1995/s6~8",
+      "ref": "TMA1995/s6/authorised-use",
       "style": "Definition",
       "text": "authorised use, in relation to a trade mark, has the meaning given by section 8."
     },
@@ -275,7 +272,7 @@
           "mention": "section 8"
         }
       ],
-      "ref": "TMA1995/s6~9",
+      "ref": "TMA1995/s6/authorised-user",
       "style": "Definition",
       "text": "authorised user, in relation to a trade mark, has the meaning given by section 8."
     },
@@ -300,7 +297,7 @@
       "number": null,
       "ordinal": 14,
       "parent_ref": null,
-      "ref": "TMA1995/s6~10",
+      "ref": "TMA1995/s6/board",
       "style": "Definition",
       "text": "Board has the same meaning as in the Patents Act 1990."
     },
@@ -327,7 +324,7 @@
           "mention": "section 169"
         }
       ],
-      "ref": "TMA1995/s6~11",
+      "ref": "TMA1995/s6/certification-trade-mark",
       "style": "Definition",
       "text": "certification trade mark has the meaning given by section 169."
     },
@@ -354,7 +351,7 @@
           "mention": "section 134"
         }
       ],
-      "ref": "TMA1995/s6~12",
+      "ref": "TMA1995/s6/claim-period",
       "style": "Definition",
       "text": "claim period, in relation to particular seized goods, means the period prescribed by the regulations after notice of seizure of the goods is given to the designated owner under section 134."
     },
@@ -381,7 +378,7 @@
           "mention": "section 162"
         }
       ],
-      "ref": "TMA1995/s6~13",
+      "ref": "TMA1995/s6/collective-trade-mark",
       "style": "Definition",
       "text": "collective trade mark has the meaning given by section 162."
     },
@@ -406,7 +403,7 @@
       "number": null,
       "ordinal": 18,
       "parent_ref": null,
-      "ref": "TMA1995/s6~14",
+      "ref": "TMA1995/s6/commission",
       "style": "Definition",
       "text": "Commission means the Australian Competition and Consumer Commission established under the Competition and Consumer Act 2010."
     },
@@ -431,7 +428,7 @@
       "number": null,
       "ordinal": 19,
       "parent_ref": null,
-      "ref": "TMA1995/s6~15",
+      "ref": "TMA1995/s6/company",
       "style": "Definition",
       "text": "company means a company registered under the Corporations Act 2001."
     },
@@ -476,7 +473,7 @@
           "mention": "subsection 11(3) or 14(2)"
         }
       ],
-      "ref": "TMA1995/s6~16",
+      "ref": "TMA1995/s6/comptroller",
       "style": "Definition",
       "text": "ComptrollerGeneral of Customs means the person who is the ComptrollerGeneral of Customs in accordance with subsection 11(3) or 14(2) of the Australian Border Force Act 2015."
     },
@@ -495,7 +492,7 @@
       "number": null,
       "ordinal": 21,
       "parent_ref": null,
-      "ref": "TMA1995/s6~17",
+      "ref": "TMA1995/s6/convention-country",
       "style": "Definition",
       "text": "Convention country means a foreign country or region of a kind prescribed by the regulations."
     },
@@ -514,7 +511,7 @@
       "number": null,
       "ordinal": 22,
       "parent_ref": null,
-      "ref": "TMA1995/s6~18",
+      "ref": "TMA1995/s6/date-of-registration",
       "style": "Definition",
       "text": "date of registration means:"
     },
@@ -523,9 +520,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 23,
-      "parent_ref": "TMA1995/s6~18",
+      "parent_ref": "TMA1995/s6/date-of-registration",
       "provisions": [
         {
           "certainty": "default",
@@ -534,7 +530,7 @@
           "mention": "subsection 72(1)"
         }
       ],
-      "ref": "TMA1995/s6(a)~2",
+      "ref": "TMA1995/s6/date-of-registration(a)",
       "style": "paragraph",
       "text": "(a) in relation to the registration of a trade mark in respect of particular goods or services other than a trade mark to which paragraph (b) applies—the day from which the registration of the trade mark in respect of those goods or services is taken to have had effect under subsection 72(1) or (2); or"
     },
@@ -543,9 +539,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 24,
-      "parent_ref": "TMA1995/s6~18",
+      "parent_ref": "TMA1995/s6/date-of-registration",
       "provisions": [
         {
           "certainty": "default",
@@ -560,7 +555,7 @@
           "mention": "subsection 239A(4)"
         }
       ],
-      "ref": "TMA1995/s6(b)~2",
+      "ref": "TMA1995/s6/date-of-registration(b)",
       "style": "paragraph",
       "text": "(b) in relation to a trade mark to which subsection 239A(3) applies—the day referred to in subsection 239A(4)."
     },
@@ -587,7 +582,7 @@
           "mention": "section 10"
         }
       ],
-      "ref": "TMA1995/s6~19",
+      "ref": "TMA1995/s6/deceptively-similar",
       "style": "Definition",
       "text": "deceptively similar has the meaning given by section 10."
     },
@@ -614,7 +609,7 @@
           "mention": "section 185"
         }
       ],
-      "ref": "TMA1995/s6~20",
+      "ref": "TMA1995/s6/defensive-trade-mark",
       "style": "Definition",
       "text": "defensive trade mark has the meaning given by section 185."
     },
@@ -633,7 +628,7 @@
       "number": null,
       "ordinal": 27,
       "parent_ref": null,
-      "ref": "TMA1995/s6~21",
+      "ref": "TMA1995/s6/deputy-registrar",
       "style": "Definition",
       "text": "Deputy Registrar means a Deputy Registrar of Trade Marks."
     },
@@ -658,7 +653,7 @@
       "number": null,
       "ordinal": 28,
       "parent_ref": null,
-      "ref": "TMA1995/s6~22",
+      "ref": "TMA1995/s6/designated-manager",
       "style": "Definition",
       "text": "Designated Manager has the same meaning as in the Patents Act 1990."
     },
@@ -677,7 +672,7 @@
       "number": null,
       "ordinal": 29,
       "parent_ref": null,
-      "ref": "TMA1995/s6~23",
+      "ref": "TMA1995/s6/designated-owner",
       "style": "Definition",
       "text": "designated owner, in relation to goods imported into Australia, means:"
     },
@@ -694,9 +689,8 @@
       ],
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 30,
-      "parent_ref": "TMA1995/s6~23",
+      "parent_ref": "TMA1995/s6/designated-owner",
       "provisions": [
         {
           "certainty": "default",
@@ -705,7 +699,7 @@
           "mention": "section 68"
         }
       ],
-      "ref": "TMA1995/s6(a)~3",
+      "ref": "TMA1995/s6/designated-owner(a)",
       "style": "paragraph",
       "text": "(a) the person identified as the owner of the goods on the entry made in relation to the goods under section 68 of the Customs Act 1901; or"
     },
@@ -714,9 +708,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 31,
-      "parent_ref": "TMA1995/s6~23",
+      "parent_ref": "TMA1995/s6/designated-owner",
       "provisions": [
         {
           "certainty": "default",
@@ -725,7 +718,7 @@
           "mention": "section 133A"
         }
       ],
-      "ref": "TMA1995/s6(b)~3",
+      "ref": "TMA1995/s6/designated-owner(b)",
       "style": "paragraph",
       "text": "(b) if no such entry exists—the person determined to be the owner of the goods under section 133A of this Act."
     },
@@ -752,7 +745,7 @@
           "mention": "section 45"
         }
       ],
-      "ref": "TMA1995/s6~24",
+      "ref": "TMA1995/s6/divisional-application",
       "style": "Definition",
       "text": "divisional application has the meaning given by section 45."
     },
@@ -771,7 +764,7 @@
       "number": null,
       "ordinal": 33,
       "parent_ref": null,
-      "ref": "TMA1995/s6~25",
+      "ref": "TMA1995/s6/employee",
       "style": "Definition",
       "text": "employee means a person, other than the Registrar or a Deputy Registrar, who:"
     },
@@ -788,10 +781,9 @@
       ],
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 34,
-      "parent_ref": "TMA1995/s6~25",
-      "ref": "TMA1995/s6(a)~4",
+      "parent_ref": "TMA1995/s6/employee",
+      "ref": "TMA1995/s6/employee(a)",
       "style": "paragraph",
       "text": "(a) is a person engaged under the Public Service Act 1999 and is employed in the Trade Marks Office; or"
     },
@@ -800,10 +792,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 35,
-      "parent_ref": "TMA1995/s6~25",
-      "ref": "TMA1995/s6(b)~4",
+      "parent_ref": "TMA1995/s6/employee",
+      "ref": "TMA1995/s6/employee(b)",
       "style": "paragraph",
       "text": "(b) is not such a person but performs services, in the Trade Marks Office, for or on behalf of the Commonwealth."
     },
@@ -830,7 +821,7 @@
           "mention": "section 31"
         }
       ],
-      "ref": "TMA1995/s6~26",
+      "ref": "TMA1995/s6/examine",
       "style": "Definition",
       "text": "examine, in relation to an application for the registration of a trade mark, means to carry out an examination under section 31 in relation to the application."
     },
@@ -849,7 +840,7 @@
       "number": null,
       "ordinal": 37,
       "parent_ref": null,
-      "ref": "TMA1995/s6~27",
+      "ref": "TMA1995/s6/existing-registered-mark",
       "style": "Definition",
       "text": "existing registered mark means a mark that was registered in Part A, B, C or D of the old register before 1 January 1996 and whose registration under the repealed Act was due to expire after that day."
     },
@@ -868,7 +859,7 @@
       "number": null,
       "ordinal": 38,
       "parent_ref": null,
-      "ref": "TMA1995/s6~28",
+      "ref": "TMA1995/s6/federal-court",
       "style": "Definition",
       "text": "Federal Court means the Federal Court of Australia."
     },
@@ -887,7 +878,7 @@
       "number": null,
       "ordinal": 39,
       "parent_ref": null,
-      "ref": "TMA1995/s6~29",
+      "ref": "TMA1995/s6/file",
       "style": "Definition",
       "text": "file means to file at the Trade Marks Office."
     },
@@ -897,7 +888,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 40,
-      "parent_ref": "TMA1995/s6~29",
+      "parent_ref": "TMA1995/s6/file",
       "provisions": [
         {
           "certainty": "default",
@@ -906,7 +897,7 @@
           "mention": "section 213"
         }
       ],
-      "ref": "TMA1995/s6~29~1",
+      "ref": "TMA1995/s6/file~1",
       "style": "notetext",
       "text": "Note: See section 213."
     },
@@ -925,7 +916,7 @@
       "number": null,
       "ordinal": 41,
       "parent_ref": null,
-      "ref": "TMA1995/s6~30",
+      "ref": "TMA1995/s6/filing-date",
       "style": "Definition",
       "text": "filing date means:"
     },
@@ -934,10 +925,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 42,
-      "parent_ref": "TMA1995/s6~30",
-      "ref": "TMA1995/s6(a)~5",
+      "parent_ref": "TMA1995/s6/filing-date",
+      "ref": "TMA1995/s6/filing-date(a)",
       "style": "paragraph",
       "text": "(a) in relation to an application for the registration of a trade mark other than an application referred to in another paragraph of this definition—the day on which the application is filed; or"
     },
@@ -946,9 +936,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 43,
-      "parent_ref": "TMA1995/s6~30",
+      "parent_ref": "TMA1995/s6/filing-date",
       "provisions": [
         {
           "certainty": "default",
@@ -957,7 +946,7 @@
           "mention": "section 45"
         }
       ],
-      "ref": "TMA1995/s6(b)~5",
+      "ref": "TMA1995/s6/filing-date(b)",
       "style": "paragraph",
       "text": "(b) in relation to a divisional application for the registration of a trade mark—the filing date of the application that is the parent application (within the meaning of section 45) in relation to the divisional application; or"
     },
@@ -966,9 +955,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
-      "number_collision": true,
       "ordinal": 44,
-      "parent_ref": "TMA1995/s6~30",
+      "parent_ref": "TMA1995/s6/filing-date",
       "provisions": [
         {
           "certainty": "default",
@@ -983,7 +971,7 @@
           "mention": "subsection 241(5)"
         }
       ],
-      "ref": "TMA1995/s6(c)~2",
+      "ref": "TMA1995/s6/filing-date(c)",
       "style": "paragraph",
       "text": "(c) in relation to an application to which section 241 applies—the day referred to in subsection 241(5); or"
     },
@@ -993,7 +981,7 @@
       "kind": "paragraph",
       "number": "(d)",
       "ordinal": 45,
-      "parent_ref": "TMA1995/s6~30",
+      "parent_ref": "TMA1995/s6/filing-date",
       "provisions": [
         {
           "certainty": "default",
@@ -1008,7 +996,7 @@
           "mention": "subsection 243(6)"
         }
       ],
-      "ref": "TMA1995/s6(d)",
+      "ref": "TMA1995/s6/filing-date(d)",
       "style": "paragraph",
       "text": "(d) in relation to an application made under section 243—the day referred to in subsection 243(6); or"
     },
@@ -1018,8 +1006,8 @@
       "kind": "paragraph",
       "number": "(e)",
       "ordinal": 46,
-      "parent_ref": "TMA1995/s6~30",
-      "ref": "TMA1995/s6(e)",
+      "parent_ref": "TMA1995/s6/filing-date",
+      "ref": "TMA1995/s6/filing-date(e)",
       "style": "paragraph",
       "text": "(e) in relation to a prescribed application—the day determined in the prescribed way."
     },
@@ -1038,7 +1026,7 @@
       "number": null,
       "ordinal": 47,
       "parent_ref": null,
-      "ref": "TMA1995/s6~31",
+      "ref": "TMA1995/s6/geographical-indication",
       "style": "Definition",
       "text": "geographical indication, in relation to goods, means a sign that identifies the goods as originating in a country, or in a region or locality in that country, where a given quality, reputation or other characteristic of the goods is essentially attributable to their geographical origin."
     },
@@ -1057,7 +1045,7 @@
       "number": null,
       "ordinal": 48,
       "parent_ref": null,
-      "ref": "TMA1995/s6~32",
+      "ref": "TMA1995/s6/goods-of-a-person",
       "style": "Definition",
       "text": "goods of a person means goods dealt with or provided in the course of trade by the person."
     },
@@ -1076,7 +1064,7 @@
       "number": null,
       "ordinal": 49,
       "parent_ref": null,
-      "ref": "TMA1995/s6~33",
+      "ref": "TMA1995/s6/incorporated-legal-practice",
       "style": "Definition",
       "text": "incorporated legal practice means a body corporate recognised under a law of the Commonwealth, a State or a Territory as an incorporated legal practice (however described)."
     },
@@ -1103,7 +1091,7 @@
           "mention": "subsection 228A(6B)"
         }
       ],
-      "ref": "TMA1995/s6~34",
+      "ref": "TMA1995/s6/incorporated-trade-marks-attorney",
       "style": "Definition",
       "text": "incorporated trade marks attorney has the meaning given by subsection 228A(6B)."
     },
@@ -1130,7 +1118,7 @@
           "mention": "subsection 229(3)"
         }
       ],
-      "ref": "TMA1995/s6~35",
+      "ref": "TMA1995/s6/intellectual-property-advice",
       "style": "Definition",
       "text": "intellectual property advice has the meaning given by subsection 229(3)."
     },
@@ -1149,7 +1137,7 @@
       "number": null,
       "ordinal": 52,
       "parent_ref": null,
-      "ref": "TMA1995/s6~36",
+      "ref": "TMA1995/s6/lawyer",
       "style": "Definition",
       "text": "lawyer means a barrister or solicitor of the High Court or of the Supreme Court of a State or Territory."
     },
@@ -1168,7 +1156,7 @@
       "number": null,
       "ordinal": 53,
       "parent_ref": null,
-      "ref": "TMA1995/s6~37",
+      "ref": "TMA1995/s6/limitations",
       "style": "Definition",
       "text": "limitations means limitations of the exclusive right to use a trade mark given by the registration of the trade mark, including limitations of that right as to:"
     },
@@ -1177,10 +1165,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 54,
-      "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6(a)~6",
+      "parent_ref": "TMA1995/s6/limitations",
+      "ref": "TMA1995/s6/limitations(a)",
       "style": "paragraph",
       "text": "(a) mode of use; or"
     },
@@ -1189,10 +1176,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 55,
-      "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6(b)~6",
+      "parent_ref": "TMA1995/s6/limitations",
+      "ref": "TMA1995/s6/limitations(b)",
       "style": "paragraph",
       "text": "(b) use within a territorial area within Australia; or"
     },
@@ -1201,10 +1187,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
-      "number_collision": true,
       "ordinal": 56,
-      "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6(c)~3",
+      "parent_ref": "TMA1995/s6/limitations",
+      "ref": "TMA1995/s6/limitations(c)",
       "style": "paragraph",
       "text": "(c) use in relation to goods or services to be exported."
     },
@@ -1231,7 +1216,7 @@
           "mention": "section 6A"
         }
       ],
-      "ref": "TMA1995/s6~38",
+      "ref": "TMA1995/s6/month",
       "style": "Definition",
       "text": "month: the end of a period with a length expressed in months is worked out under section 6A."
     },
@@ -1258,7 +1243,7 @@
           "mention": "section 132"
         }
       ],
-      "ref": "TMA1995/s6~39",
+      "ref": "TMA1995/s6/notified-trade-mark",
       "style": "Definition",
       "text": "notified trade mark means a trade mark in respect of which a notice under section 132 is in force."
     },
@@ -1285,7 +1270,7 @@
           "mention": "section 132"
         }
       ],
-      "ref": "TMA1995/s6~40",
+      "ref": "TMA1995/s6/objector",
       "style": "Definition",
       "text": "objector, in relation to seized goods, means any person who has given under section 132 a notice in respect of those goods that is in force."
     },
@@ -1304,7 +1289,7 @@
       "number": null,
       "ordinal": 60,
       "parent_ref": null,
-      "ref": "TMA1995/s6~41",
+      "ref": "TMA1995/s6/old-register",
       "style": "Definition",
       "text": "old register means the Register of Trade Marks kept under the repealed Act."
     },
@@ -1323,7 +1308,7 @@
       "number": null,
       "ordinal": 61,
       "parent_ref": null,
-      "ref": "TMA1995/s6~42",
+      "ref": "TMA1995/s6/opponent",
       "style": "Definition",
       "text": "opponent, in relation to the registration of a trade mark, means:"
     },
@@ -1332,9 +1317,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 62,
-      "parent_ref": "TMA1995/s6~42",
+      "parent_ref": "TMA1995/s6/opponent",
       "provisions": [
         {
           "certainty": "default",
@@ -1343,7 +1327,7 @@
           "mention": "section 52"
         }
       ],
-      "ref": "TMA1995/s6(a)~7",
+      "ref": "TMA1995/s6/opponent(a)",
       "style": "paragraph",
       "text": "(a) the person who has filed (under section 52) a notice of opposition to the registration of the trade mark; or"
     },
@@ -1352,9 +1336,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 63,
-      "parent_ref": "TMA1995/s6~42",
+      "parent_ref": "TMA1995/s6/opponent",
       "provisions": [
         {
           "certainty": "default",
@@ -1363,7 +1346,7 @@
           "mention": "section 53"
         }
       ],
-      "ref": "TMA1995/s6(b)~7",
+      "ref": "TMA1995/s6/opponent(b)",
       "style": "paragraph",
       "text": "(b) if section 53 applies—a person in whose name the notice of opposition is taken to have been filed."
     },
@@ -1390,7 +1373,7 @@
           "mention": "section 15"
         }
       ],
-      "ref": "TMA1995/s6~43",
+      "ref": "TMA1995/s6/originate",
       "style": "Definition",
       "text": "originate, in relation to wine, has the meaning given by section 15."
     },
@@ -1415,7 +1398,7 @@
       "number": null,
       "ordinal": 65,
       "parent_ref": null,
-      "ref": "TMA1995/s6~44",
+      "ref": "TMA1995/s6/patent-attorney",
       "style": "Definition",
       "text": "patent attorney means a person registered as a patent attorney under the Patents Act 1990."
     },
@@ -1442,7 +1425,7 @@
           "mention": "section 11"
         }
       ],
-      "ref": "TMA1995/s6~45",
+      "ref": "TMA1995/s6/pending",
       "style": "Definition",
       "text": "pending, in relation to an application for the registration of a trade mark, has the meaning given by section 11."
     },
@@ -1461,7 +1444,7 @@
       "number": null,
       "ordinal": 67,
       "parent_ref": null,
-      "ref": "TMA1995/s6~46",
+      "ref": "TMA1995/s6/person",
       "style": "Definition",
       "text": "person includes a body of persons, whether incorporated or not."
     },
@@ -1486,7 +1469,7 @@
       "number": null,
       "ordinal": 68,
       "parent_ref": null,
-      "ref": "TMA1995/s6~47",
+      "ref": "TMA1995/s6/personal-information",
       "style": "Definition",
       "text": "personal information has the same meaning as in the Privacy Act 1988."
     },
@@ -1511,7 +1494,7 @@
       "number": null,
       "ordinal": 69,
       "parent_ref": null,
-      "ref": "TMA1995/s6~48",
+      "ref": "TMA1995/s6/ppsa-security-interest",
       "style": "Definition",
       "text": "PPSA security interest (short for Personal Property Securities Act security interest) means a security interest within the meaning of the Personal Property Securities Act 2009 and to which that Act applies, other than a transitional security interest within the meaning of that Act."
     },
@@ -1529,8 +1512,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 70,
-      "parent_ref": "TMA1995/s6~48",
-      "ref": "TMA1995/s6~48~1",
+      "parent_ref": "TMA1995/s6/ppsa-security-interest",
+      "ref": "TMA1995/s6/ppsa-security-interest~1",
       "style": "notetext",
       "text": "Note 1: The Personal Property Securities Act 2009 applies to certain security interests in personal property. See the following provisions of that Act:"
     },
@@ -1540,7 +1523,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 71,
-      "parent_ref": "TMA1995/s6~48~1",
+      "parent_ref": "TMA1995/s6/ppsa-security-interest~1",
       "provisions": [
         {
           "certainty": "default",
@@ -1549,7 +1532,7 @@
           "mention": "section 8"
         }
       ],
-      "ref": "TMA1995/s6~48~1~1",
+      "ref": "TMA1995/s6/ppsa-security-interest~1~1",
       "style": "notepara",
       "text": "(a) section 8 (interests to which the Act does not apply);"
     },
@@ -1567,7 +1550,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 72,
-      "parent_ref": "TMA1995/s6~48~1",
+      "parent_ref": "TMA1995/s6/ppsa-security-interest~1",
       "provisions": [
         {
           "certainty": "default",
@@ -1576,7 +1559,7 @@
           "mention": "section 12"
         }
       ],
-      "ref": "TMA1995/s6~48~1~2",
+      "ref": "TMA1995/s6/ppsa-security-interest~1~2",
       "style": "notepara",
       "text": "(b) section 12 (meaning of security interest);"
     },
@@ -1586,8 +1569,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 73,
-      "parent_ref": "TMA1995/s6~48~1",
-      "ref": "TMA1995/s6~48~1~3",
+      "parent_ref": "TMA1995/s6/ppsa-security-interest~1",
+      "ref": "TMA1995/s6/ppsa-security-interest~1~3",
       "style": "notepara",
       "text": "(c) Chapter 9 (transitional provisions)."
     },
@@ -1611,7 +1594,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 74,
-      "parent_ref": "TMA1995/s6~48",
+      "parent_ref": "TMA1995/s6/ppsa-security-interest",
       "provisions": [
         {
           "certainty": "default",
@@ -1620,7 +1603,7 @@
           "mention": "section 308"
         }
       ],
-      "ref": "TMA1995/s6~48~2",
+      "ref": "TMA1995/s6/ppsa-security-interest~2",
       "style": "notetext",
       "text": "Note 2: For the meaning of transitional security interest, see section 308 of the Personal Property Securities Act 2009."
     },
@@ -1639,7 +1622,7 @@
       "number": null,
       "ordinal": 75,
       "parent_ref": null,
-      "ref": "TMA1995/s6~49",
+      "ref": "TMA1995/s6/predecessor-in-title",
       "style": "Definition",
       "text": "predecessor in title, in relation to a person who claims to be the owner of a trade mark, means:"
     },
@@ -1648,10 +1631,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 76,
-      "parent_ref": "TMA1995/s6~49",
-      "ref": "TMA1995/s6(a)~8",
+      "parent_ref": "TMA1995/s6/predecessor-in-title",
+      "ref": "TMA1995/s6/predecessor-in-title(a)",
       "style": "paragraph",
       "text": "(a) if the trade mark was assigned or transmitted to one or more than one other person before it was assigned or transmitted to the firstmentioned person—that other person or any one of those other persons; or"
     },
@@ -1660,10 +1642,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 77,
-      "parent_ref": "TMA1995/s6~49",
-      "ref": "TMA1995/s6(b)~8",
+      "parent_ref": "TMA1995/s6/predecessor-in-title",
+      "ref": "TMA1995/s6/predecessor-in-title(b)",
       "style": "paragraph",
       "text": "(b) if paragraph (a) does not apply—the person who assigned the trade mark, or from whom the trade mark was transmitted, to the firstmentioned person."
     },
@@ -1673,7 +1654,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 78,
-      "parent_ref": "TMA1995/s6(b)~8",
+      "parent_ref": "TMA1995/s6/predecessor-in-title(b)",
       "provisions": [
         {
           "certainty": "default",
@@ -1682,7 +1663,7 @@
           "mention": "section 106"
         }
       ],
-      "ref": "TMA1995/s6(b)~8~1",
+      "ref": "TMA1995/s6/predecessor-in-title(b)~1",
       "style": "notetext",
       "text": "Note: In the case of a trade mark that is neither registered nor the subject of an application for registration, the trade mark may be assigned or transmitted in Australia only in conjunction with the goodwill of a business concerned with the trade mark. If the trade mark is registered or the subject of an application for registration, section 106 provides that the trade mark may be assigned or transmitted with or without the goodwill of the business."
     },
@@ -1701,7 +1682,7 @@
       "number": null,
       "ordinal": 79,
       "parent_ref": null,
-      "ref": "TMA1995/s6~50",
+      "ref": "TMA1995/s6/preferred-means",
       "style": "Definition",
       "text": "preferred means:"
     },
@@ -1710,9 +1691,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 80,
-      "parent_ref": "TMA1995/s6~50",
+      "parent_ref": "TMA1995/s6/preferred-means",
       "provisions": [
         {
           "certainty": "default",
@@ -1721,7 +1701,7 @@
           "mention": "subsection 213A(4)"
         }
       ],
-      "ref": "TMA1995/s6(a)~9",
+      "ref": "TMA1995/s6/preferred-means(a)",
       "style": "paragraph",
       "text": "(a) in relation to filing a document with the Trade Marks Office—means the means specified under subsection 213A(4); or"
     },
@@ -1730,9 +1710,8 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 81,
-      "parent_ref": "TMA1995/s6~50",
+      "parent_ref": "TMA1995/s6/preferred-means",
       "provisions": [
         {
           "certainty": "default",
@@ -1741,7 +1720,7 @@
           "mention": "subsection 223A"
         }
       ],
-      "ref": "TMA1995/s6(b)~9",
+      "ref": "TMA1995/s6/preferred-means(b)",
       "style": "paragraph",
       "text": "(b) in relation to paying a fee—means the means specified under subsection 223AA(4)."
     },
@@ -1768,7 +1747,7 @@
           "mention": "section 190"
         }
       ],
-      "ref": "TMA1995/s6~51",
+      "ref": "TMA1995/s6/prescribed-court",
       "style": "Definition",
       "text": "prescribed court means a court that is under section 190 a prescribed court for the purposes of this Act."
     },
@@ -1795,7 +1774,7 @@
           "mention": "section 12"
         }
       ],
-      "ref": "TMA1995/s6~52",
+      "ref": "TMA1995/s6/priority-date",
       "style": "Definition",
       "text": "priority date has the meaning given by section 12."
     },
@@ -1822,7 +1801,7 @@
           "mention": "section 207"
         }
       ],
-      "ref": "TMA1995/s6~53",
+      "ref": "TMA1995/s6/register",
       "style": "Definition",
       "text": "Register means the Register of Trade Marks kept under section 207."
     },
@@ -1841,7 +1820,7 @@
       "number": null,
       "ordinal": 85,
       "parent_ref": null,
-      "ref": "TMA1995/s6~54",
+      "ref": "TMA1995/s6/registered-owner",
       "style": "Definition",
       "text": "registered owner, in relation to a registered trade mark, means the person in whose name the trade mark is registered."
     },
@@ -1860,7 +1839,7 @@
       "number": null,
       "ordinal": 86,
       "parent_ref": null,
-      "ref": "TMA1995/s6~55",
+      "ref": "TMA1995/s6/registered-trade-mark",
       "style": "Definition",
       "text": "registered trade mark means a trade mark whose particulars are entered in the Register under this Act."
     },
@@ -1870,8 +1849,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 87,
-      "parent_ref": "TMA1995/s6~55",
-      "ref": "TMA1995/s6~55~1",
+      "parent_ref": "TMA1995/s6/registered-trade-mark",
+      "ref": "TMA1995/s6/registered-trade-mark~1",
       "style": "notetext",
       "text": "Note: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
     },
@@ -1890,7 +1869,7 @@
       "number": null,
       "ordinal": 88,
       "parent_ref": null,
-      "ref": "TMA1995/s6~56",
+      "ref": "TMA1995/s6/registered-trade-marks-attorney",
       "style": "Definition",
       "text": "registered trade marks attorney means a person registered as a trade marks attorney under this Act."
     },
@@ -1909,7 +1888,7 @@
       "number": null,
       "ordinal": 89,
       "parent_ref": null,
-      "ref": "TMA1995/s6~57",
+      "ref": "TMA1995/s6/registrar",
       "style": "Definition",
       "text": "Registrar means the Registrar of Trade Marks."
     },
@@ -1919,7 +1898,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 90,
-      "parent_ref": "TMA1995/s6~57",
+      "parent_ref": "TMA1995/s6/registrar",
       "provisions": [
         {
           "certainty": "default",
@@ -1952,7 +1931,7 @@
           "mention": "Sections 201, 202, 203, 204 and 206"
         }
       ],
-      "ref": "TMA1995/s6~57~1",
+      "ref": "TMA1995/s6/registrar~1",
       "style": "notetext",
       "text": "Note: Sections 201, 202, 203, 204 and 206 deal with the office, powers and functions of the Registrar of Trade Marks."
     },
@@ -1979,7 +1958,7 @@
           "mention": "subsection 68(2)"
         }
       ],
-      "ref": "TMA1995/s6~58",
+      "ref": "TMA1995/s6/registration-number",
       "style": "Definition",
       "text": "registration number, in relation to a registered trade mark, means the number given to it under subsection 68(2)."
     },
@@ -2006,7 +1985,7 @@
           "mention": "section 13"
         }
       ],
-      "ref": "TMA1995/s6~59",
+      "ref": "TMA1995/s6/remove-from-the-register",
       "style": "Definition",
       "text": "remove from the Register, in relation to a trade mark, has the meaning given by section 13."
     },
@@ -2033,7 +2012,7 @@
           "mention": "section 16"
         }
       ],
-      "ref": "TMA1995/s6~60",
+      "ref": "TMA1995/s6/repealed-act",
       "style": "Definition",
       "text": "repealed Act has the meaning given by section 16."
     },
@@ -2060,7 +2039,7 @@
           "mention": "section 133"
         }
       ],
-      "ref": "TMA1995/s6~61",
+      "ref": "TMA1995/s6/seized-goods",
       "style": "Definition",
       "text": "seized goods means goods seized under section 133."
     },
@@ -2079,7 +2058,7 @@
       "number": null,
       "ordinal": 95,
       "parent_ref": null,
-      "ref": "TMA1995/s6~62",
+      "ref": "TMA1995/s6/services-of-a-person",
       "style": "Definition",
       "text": "services of a person means services dealt with or provided in the course of trade by the person."
     },
@@ -2098,7 +2077,7 @@
       "number": null,
       "ordinal": 96,
       "parent_ref": null,
-      "ref": "TMA1995/s6~63",
+      "ref": "TMA1995/s6/sign",
       "style": "Definition",
       "text": "sign includes the following or any combination of the following, namely, any letter, word, name, signature, numeral, device, brand, heading, label, ticket, aspect of packaging, shape, colour, sound or scent."
     },
@@ -2125,7 +2104,7 @@
           "mention": "subsection 14(1)"
         }
       ],
-      "ref": "TMA1995/s6~64",
+      "ref": "TMA1995/s6/similar-goods",
       "style": "Definition",
       "text": "similar goods has the meaning given by subsection 14(1)."
     },
@@ -2152,7 +2131,7 @@
           "mention": "subsection 14(2)"
         }
       ],
-      "ref": "TMA1995/s6~65",
+      "ref": "TMA1995/s6/similar-services",
       "style": "Definition",
       "text": "similar services has the meaning given by subsection 14(2)."
     },
@@ -2171,7 +2150,7 @@
       "number": null,
       "ordinal": 99,
       "parent_ref": null,
-      "ref": "TMA1995/s6~66",
+      "ref": "TMA1995/s6/this-act",
       "style": "Definition",
       "text": "this Act includes the regulations."
     },
@@ -2198,7 +2177,7 @@
           "mention": "section 17"
         }
       ],
-      "ref": "TMA1995/s6~67",
+      "ref": "TMA1995/s6/trade-mark",
       "style": "Definition",
       "text": "trade mark has the meaning given by section 17."
     },
@@ -2225,7 +2204,7 @@
           "mention": "subsection 228A(6C)"
         }
       ],
-      "ref": "TMA1995/s6~68",
+      "ref": "TMA1995/s6/trade-marks-attorney-director",
       "style": "Definition",
       "text": "trade marks attorney director has the meaning given by subsection 228A(6C)."
     },
@@ -2252,7 +2231,7 @@
           "mention": "subsection 157A(8)"
         }
       ],
-      "ref": "TMA1995/s6~69",
+      "ref": "TMA1995/s6/trade-marks-work",
       "style": "Definition",
       "text": "trade marks work has the meaning given by subsection 157A(8)."
     },
@@ -2271,7 +2250,7 @@
       "number": null,
       "ordinal": 103,
       "parent_ref": null,
-      "ref": "TMA1995/s6~70",
+      "ref": "TMA1995/s6/transmission",
       "style": "Definition",
       "text": "transmission means:"
     },
@@ -2280,10 +2259,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 104,
-      "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6(a)~10",
+      "parent_ref": "TMA1995/s6/transmission",
+      "ref": "TMA1995/s6/transmission(a)",
       "style": "paragraph",
       "text": "(a) transmission by operation of law; or"
     },
@@ -2292,10 +2270,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 105,
-      "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6(b)~10",
+      "parent_ref": "TMA1995/s6/transmission",
+      "ref": "TMA1995/s6/transmission(b)",
       "style": "paragraph",
       "text": "(b) devolution on the personal representative of a deceased person; or"
     },
@@ -2304,10 +2281,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
-      "number_collision": true,
       "ordinal": 106,
-      "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6(c)~4",
+      "parent_ref": "TMA1995/s6/transmission",
+      "ref": "TMA1995/s6/transmission(c)",
       "style": "paragraph",
       "text": "(c) any other kind of transfer except assignment."
     },
@@ -2334,7 +2310,7 @@
           "mention": "subsections 7(1)"
         }
       ],
-      "ref": "TMA1995/s6~71",
+      "ref": "TMA1995/s6/use-of-a-trade-mark",
       "style": "Definition",
       "text": "use of a trade mark has a meaning affected by subsections 7(1), (2) and (3)."
     },
@@ -2361,7 +2337,7 @@
           "mention": "subsection 7(4)"
         }
       ],
-      "ref": "TMA1995/s6~72",
+      "ref": "TMA1995/s6/use-of-a-trade-mark-in-relation-to-goods",
       "style": "Definition",
       "text": "use of a trade mark in relation to goods has the meaning given by subsection 7(4)."
     },
@@ -2388,7 +2364,7 @@
           "mention": "subsection 7(5)"
         }
       ],
-      "ref": "TMA1995/s6~73",
+      "ref": "TMA1995/s6/use-of-a-trade-mark-in-relation-to-services",
       "style": "Definition",
       "text": "use of a trade mark in relation to services has the meaning given by subsection 7(5)."
     },
@@ -2407,7 +2383,7 @@
       "number": null,
       "ordinal": 110,
       "parent_ref": null,
-      "ref": "TMA1995/s6~74",
+      "ref": "TMA1995/s6/word",
       "style": "Definition",
       "text": "word includes an abbreviation of a word."
     },
@@ -2426,7 +2402,7 @@
       "number": null,
       "ordinal": 111,
       "parent_ref": null,
-      "ref": "TMA1995/s6~75",
+      "ref": "TMA1995/s6/working-day",
       "style": "Definition",
       "text": "working day means a day that is not:"
     },
@@ -2435,10 +2411,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 112,
-      "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6(a)~11",
+      "parent_ref": "TMA1995/s6/working-day",
+      "ref": "TMA1995/s6/working-day(a)",
       "style": "paragraph",
       "text": "(a) a Saturday; or"
     },
@@ -2447,10 +2422,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 113,
-      "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6(b)~11",
+      "parent_ref": "TMA1995/s6/working-day",
+      "ref": "TMA1995/s6/working-day(b)",
       "style": "paragraph",
       "text": "(b) a Sunday; or"
     },
@@ -2459,10 +2433,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
-      "number_collision": true,
       "ordinal": 114,
-      "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6(c)~5",
+      "parent_ref": "TMA1995/s6/working-day",
+      "ref": "TMA1995/s6/working-day(c)",
       "style": "paragraph",
       "text": "(c) a public holiday in the Australian Capital Territory."
     },
@@ -2481,7 +2454,7 @@
       "number": null,
       "ordinal": 115,
       "parent_ref": null,
-      "ref": "TMA1995/s6~76",
+      "ref": "TMA1995/s6/world-trade-organization",
       "style": "Definition",
       "text": "World Trade Organization means the body of that name established by the WTO Agreement, done at Marrakesh on 15 April 1994."
     },
@@ -2491,8 +2464,8 @@
       "kind": "note",
       "number": null,
       "ordinal": 116,
-      "parent_ref": "TMA1995/s6~76",
-      "ref": "TMA1995/s6~76~1",
+      "parent_ref": "TMA1995/s6/world-trade-organization",
+      "ref": "TMA1995/s6/world-trade-organization~1",
       "style": "notetext",
       "text": "Note: The text of the WTO Agreement is set out in Australian Treaty Series 1995 No. 8 ([1995] ATS 8). In 2009, the text of an Agreement in the Australian Treaty Series was accessible through the Australian Treaties Library on the AustLII website (www.austlii.edu.au)."
     },

@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMA1995/pt12"
   ],
   "content_hash": "sha256:a8d1a7ad914c3874866dd083ea16108ecc417fef66ae4d322dfd5a8ca3c04678",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 12—Infringement of trade marks",
@@ -125,7 +125,7 @@
       "number": null,
       "ordinal": 8,
       "parent_ref": null,
-      "ref": "TMA1995/s128~1",
+      "ref": "TMA1995/s128/prescribed-period",
       "style": "Definition",
       "text": "prescribed period has the same meaning as in Division 3 of Part 7."
     },
@@ -143,7 +143,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 9,
-      "parent_ref": "TMA1995/s128~1",
+      "parent_ref": "TMA1995/s128/prescribed-period",
       "provisions": [
         {
           "certainty": "default",
@@ -152,7 +152,7 @@
           "mention": "section 6"
         }
       ],
-      "ref": "TMA1995/s128~1~1",
+      "ref": "TMA1995/s128/prescribed-period~1",
       "style": "notetext",
       "text": "Note: For month see section 6."
     }

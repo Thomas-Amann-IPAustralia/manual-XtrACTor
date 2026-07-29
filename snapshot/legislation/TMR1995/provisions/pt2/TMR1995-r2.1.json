@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T08:29:42Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt2"
   ],
   "content_hash": "sha256:af3c7c746ff72340bcdf0724b90426ab8b28f169c4e119acc613aa07ef785d80",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 2—Interpretation",
@@ -80,7 +80,7 @@
           "mention": "regulation 20.2A"
         }
       ],
-      "ref": "TMR1995/r2.1~3",
+      "ref": "TMR1995/r2.1/accredited-course-of-study",
       "style": "Definition",
       "text": "accredited course of study means a course of study that is accredited by the Board under regulation 20.2A of the Patents Regulations 1991."
     },
@@ -105,7 +105,7 @@
       "number": null,
       "ordinal": 4,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~4",
+      "ref": "TMR1995/r2.1/act",
       "style": "Definition",
       "text": "Act means the Trade Marks Act 1995."
     },
@@ -132,7 +132,7 @@
           "mention": "subregulation 3A.3(1)"
         }
       ],
-      "ref": "TMR1995/r2.1~5",
+      "ref": "TMR1995/r2.1/afs-request",
       "style": "Definition",
       "text": "AFS request has the meaning given by subregulation 3A.3(1)."
     },
@@ -151,7 +151,7 @@
       "number": null,
       "ordinal": 6,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~6",
+      "ref": "TMR1995/r2.1/art",
       "style": "Definition",
       "text": "ART means the Administrative Review Tribunal."
     },
@@ -170,7 +170,7 @@
       "number": null,
       "ordinal": 7,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~7",
+      "ref": "TMR1995/r2.1/certificate-of-verification",
       "style": "Definition",
       "text": "certificate of verification means a statement:"
     },
@@ -179,10 +179,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 8,
-      "parent_ref": "TMR1995/r2.1~7",
-      "ref": "TMR1995/r2.1(a)",
+      "parent_ref": "TMR1995/r2.1/certificate-of-verification",
+      "ref": "TMR1995/r2.1/certificate-of-verification(a)",
       "style": "paragraph",
       "text": "(a) that a document to which the statement relates:"
     },
@@ -192,8 +191,8 @@
       "kind": "paragraph",
       "number": "(i)",
       "ordinal": 9,
-      "parent_ref": "TMR1995/r2.1(a)",
-      "ref": "TMR1995/r2.1(a)(i)",
+      "parent_ref": "TMR1995/r2.1/certificate-of-verification(a)",
+      "ref": "TMR1995/r2.1/certificate-of-verification(a)(i)",
       "style": "paragraphsub",
       "text": "(i) has been translated by a person who is proficient in both the language from which the document has been translated into English and English; and"
     },
@@ -203,8 +202,8 @@
       "kind": "paragraph",
       "number": "(ii)",
       "ordinal": 10,
-      "parent_ref": "TMR1995/r2.1(a)",
-      "ref": "TMR1995/r2.1(a)(ii)",
+      "parent_ref": "TMR1995/r2.1/certificate-of-verification(a)",
+      "ref": "TMR1995/r2.1/certificate-of-verification(a)(ii)",
       "style": "paragraphsub",
       "text": "(ii) is a true and complete translation of the accompanying document to the best of the knowledge of the person who signs the statement; and"
     },
@@ -213,10 +212,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 11,
-      "parent_ref": "TMR1995/r2.1~7",
-      "ref": "TMR1995/r2.1(b)",
+      "parent_ref": "TMR1995/r2.1/certificate-of-verification",
+      "ref": "TMR1995/r2.1/certificate-of-verification(b)",
       "style": "paragraph",
       "text": "(b) that is dated and signed."
     },
@@ -235,7 +233,7 @@
       "number": null,
       "ordinal": 12,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~8",
+      "ref": "TMR1995/r2.1/code-of-conduct",
       "style": "Definition",
       "text": "Code of Conduct means the standard of practice titled “Code of Conduct for Patent and Trade Mark Attorneys” that is established by the Board from time to time."
     },
@@ -260,7 +258,7 @@
       "number": null,
       "ordinal": 13,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~9",
+      "ref": "TMR1995/r2.1/designated-manager",
       "style": "Definition",
       "text": "Designated Manager has the same meaning as in the Patents Act 1990."
     },
@@ -305,7 +303,7 @@
           "mention": "regulation 20.61"
         }
       ],
-      "ref": "TMR1995/r2.1~10",
+      "ref": "TMR1995/r2.1/disciplinary-tribunal",
       "style": "Definition",
       "text": "Disciplinary Tribunal means the TransTasman IP Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991."
     },
@@ -324,7 +322,7 @@
       "number": null,
       "ordinal": 15,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~11",
+      "ref": "TMR1995/r2.1/earlier-application",
       "style": "Definition",
       "text": "earlier application, in relation to an application for the registration of a trade mark for which a right of priority is claimed, means an application for the registration of that trade mark in a Convention country:"
     },
@@ -333,10 +331,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 16,
-      "parent_ref": "TMR1995/r2.1~11",
-      "ref": "TMR1995/r2.1(a)~2",
+      "parent_ref": "TMR1995/r2.1/earlier-application",
+      "ref": "TMR1995/r2.1/earlier-application(a)",
       "style": "paragraph",
       "text": "(a) that was filed, at the trade marks office (or its equivalent) of that Convention country, before the application for which the right of priority is claimed; and"
     },
@@ -345,10 +342,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 17,
-      "parent_ref": "TMR1995/r2.1~11",
-      "ref": "TMR1995/r2.1(b)~2",
+      "parent_ref": "TMR1995/r2.1/earlier-application",
+      "ref": "TMR1995/r2.1/earlier-application(b)",
       "style": "paragraph",
       "text": "(b) on which the claim for the right of priority is based."
     },
@@ -367,7 +363,7 @@
       "number": null,
       "ordinal": 18,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~12",
+      "ref": "TMR1995/r2.1/expedited-dispatch",
       "style": "Definition",
       "text": "expedited dispatch means a means of supplying documents that can reasonably be expected usually to be faster than ordinary post."
     },
@@ -392,7 +388,7 @@
       "number": null,
       "ordinal": 19,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~13",
+      "ref": "TMR1995/r2.1/information-system",
       "style": "Definition",
       "text": "information system has the same meaning as in the Electronic Transactions Act 1999."
     },
@@ -419,7 +415,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~14",
+      "ref": "TMR1995/r2.1/international-register",
       "style": "Definition",
       "text": "International Register has the meaning given by regulation 17A.2."
     },
@@ -446,7 +442,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~15",
+      "ref": "TMR1995/r2.1/international-registration",
       "style": "Definition",
       "text": "international registration has the meaning given by regulation 17A.2."
     },
@@ -473,7 +469,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~16",
+      "ref": "TMR1995/r2.1/irda",
       "style": "Definition",
       "text": "IRDA has the meaning given by regulation 17A.2."
     },
@@ -492,7 +488,7 @@
       "number": null,
       "ordinal": 23,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~17",
+      "ref": "TMR1995/r2.1/madrid-protocol",
       "style": "Definition",
       "text": "Madrid Protocol means the Protocol Relating to the Madrid Agreement concerning the International Registration of Marks, as signed at Madrid on 28 June 1989."
     },
@@ -519,7 +515,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~18",
+      "ref": "TMR1995/r2.1/madrid-regulations",
       "style": "Definition",
       "text": "Madrid Regulations has the meaning given by regulation 17A.2."
     },
@@ -546,7 +542,7 @@
           "mention": "regulation 2.2"
         }
       ],
-      "ref": "TMR1995/r2.1~19",
+      "ref": "TMR1995/r2.1/month",
       "style": "Definition",
       "text": "month, for a period with a length expressed in months, has the meaning given by regulation 2.2."
     },
@@ -571,7 +567,7 @@
       "number": null,
       "ordinal": 26,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~20",
+      "ref": "TMR1995/r2.1/official-goods-and-services-pick-list",
       "style": "Definition",
       "text": "official goods and services pick list: goods or services are specified, in an application to register a trade mark in respect of the goods or services, by using the official goods and services pick list if:"
     },
@@ -580,10 +576,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 27,
-      "parent_ref": "TMR1995/r2.1~20",
-      "ref": "TMR1995/r2.1(a)~3",
+      "parent_ref": "TMR1995/r2.1/official-goods-and-services-pick-list",
+      "ref": "TMR1995/r2.1/official-goods-and-services-pick-list(a)",
       "style": "paragraph",
       "text": "(a) the application is filed by means of a digital information system that is:"
     },
@@ -593,8 +588,8 @@
       "kind": "paragraph",
       "number": "(i)",
       "ordinal": 28,
-      "parent_ref": "TMR1995/r2.1(a)~3",
-      "ref": "TMR1995/r2.1(a)~3(i)",
+      "parent_ref": "TMR1995/r2.1/official-goods-and-services-pick-list(a)",
+      "ref": "TMR1995/r2.1/official-goods-and-services-pick-list(a)(i)",
       "style": "paragraphsub",
       "text": "(i) made available by IP Australia; and"
     },
@@ -604,8 +599,8 @@
       "kind": "paragraph",
       "number": "(ii)",
       "ordinal": 29,
-      "parent_ref": "TMR1995/r2.1(a)~3",
-      "ref": "TMR1995/r2.1(a)~3(ii)",
+      "parent_ref": "TMR1995/r2.1/official-goods-and-services-pick-list(a)",
+      "ref": "TMR1995/r2.1/official-goods-and-services-pick-list(a)(ii)",
       "style": "paragraphsub",
       "text": "(ii) a preferred means of filing the application; and"
     },
@@ -614,10 +609,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 30,
-      "parent_ref": "TMR1995/r2.1~20",
-      "ref": "TMR1995/r2.1(b)~3",
+      "parent_ref": "TMR1995/r2.1/official-goods-and-services-pick-list",
+      "ref": "TMR1995/r2.1/official-goods-and-services-pick-list(b)",
       "style": "paragraph",
       "text": "(b) the applicant specifies the goods or services in the application by selecting the goods or services from a prepopulated list of goods or services that is made available by the digital information system for that purpose."
     },
@@ -636,7 +630,7 @@
       "number": null,
       "ordinal": 31,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~21",
+      "ref": "TMR1995/r2.1/panel-chair",
       "style": "Definition",
       "text": "Panel Chair, in relation to a Panel of the Disciplinary Tribunal, means:"
     },
@@ -645,10 +639,9 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
-      "number_collision": true,
       "ordinal": 32,
-      "parent_ref": "TMR1995/r2.1~21",
-      "ref": "TMR1995/r2.1(a)~4",
+      "parent_ref": "TMR1995/r2.1/panel-chair",
+      "ref": "TMR1995/r2.1/panel-chair(a)",
       "style": "paragraph",
       "text": "(a) the President; or"
     },
@@ -677,9 +670,8 @@
       ],
       "kind": "paragraph",
       "number": "(b)",
-      "number_collision": true,
       "ordinal": 33,
-      "parent_ref": "TMR1995/r2.1~21",
+      "parent_ref": "TMR1995/r2.1/panel-chair",
       "provisions": [
         {
           "certainty": "default",
@@ -688,7 +680,7 @@
           "mention": "subregulation 20.64(2)"
         }
       ],
-      "ref": "TMR1995/r2.1(b)~4",
+      "ref": "TMR1995/r2.1/panel-chair(b)",
       "style": "paragraph",
       "text": "(b) if the President is unable to perform his or her functions in relation to proceedings of the Panel because of a conflict of interest—the person appointed under subregulation 20.64(2) of the Patents Regulations 1991 to be the Panel Chair for the proceedings."
     },
@@ -715,7 +707,7 @@
           "mention": "regulation 20A.11"
         }
       ],
-      "ref": "TMR1995/r2.1~22",
+      "ref": "TMR1995/r2.1/panel-of-the-disciplinary-tribunal",
       "style": "Definition",
       "text": "Panel of the Disciplinary Tribunal means a Panel constituted under regulation 20A.11."
     },
@@ -734,7 +726,7 @@
       "number": null,
       "ordinal": 35,
       "parent_ref": null,
-      "ref": "TMR1995/r2.1~23",
+      "ref": "TMR1995/r2.1/president",
       "style": "Definition",
       "text": "President means the President of the Disciplinary Tribunal."
     },
@@ -761,7 +753,7 @@
           "mention": "regulation 17A.3"
         }
       ],
-      "ref": "TMR1995/r2.1~24",
+      "ref": "TMR1995/r2.1/priority-date",
       "style": "Definition",
       "text": "priority date, for a trade mark that is the subject of an IRDA or a protected international trade mark, has the meaning given by regulation 17A.3."
     },
@@ -788,7 +780,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~25",
+      "ref": "TMR1995/r2.1/protected-international-trade-mark",
       "style": "Definition",
       "text": "protected international trade mark has the meaning given by regulation 17A.2."
     },
@@ -815,7 +807,7 @@
           "mention": "regulation 17A.2"
         }
       ],
-      "ref": "TMR1995/r2.1~26",
+      "ref": "TMR1995/r2.1/record-of-international-registrations",
       "style": "Definition",
       "text": "Record of International Registrations has the meaning given by regulation 17A.2."
     },
@@ -842,7 +834,7 @@
           "mention": "section 228A"
         }
       ],
-      "ref": "TMR1995/r2.1~27",
+      "ref": "TMR1995/r2.1/register-of-trade-marks-attorneys",
       "style": "Definition",
       "text": "Register of Trade Marks Attorneys means the register mentioned in section 228A of the Act."
     },
@@ -869,7 +861,7 @@
           "mention": "subregulation 3A.3(1)"
         }
       ],
-      "ref": "TMR1995/r2.1~28",
+      "ref": "TMR1995/r2.1/requester",
       "style": "Definition",
       "text": "requester has the meaning given by subregulation 3A.3(1)."
     }

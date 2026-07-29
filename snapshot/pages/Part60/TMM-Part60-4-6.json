@@ -151,11 +151,6 @@
       "provisions": [
         {
           "extraction": "href",
-          "id": "TMR1995/r1",
-          "mention": "Schedule 1"
-        },
-        {
-          "extraction": "href",
           "id": "TMR1995/r17A.14",
           "mention": "Reg 17A.14"
         },
@@ -178,6 +173,11 @@
           "extraction": "href",
           "id": "TMR1995/r4.4",
           "mention": "Reg 4.4"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/sch1",
+          "mention": "Schedule 1"
         }
       ],
       "tables": [],
@@ -257,9 +257,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:c34377647f01e3f742d7e0f3723d258e4b84940051c6cdf3997a4284ba408323",
-    "crawled_at": "2026-07-29T04:00:32Z",
+    "crawled_at": "2026-07-29T13:31:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.8.0",
+    "extractor_version": "ingest/0.9.0",
     "h1": "60.4.6 Classification of Goods and Services",
     "images": [],
     "last_amended": "2026-04-17",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T13:31:29Z",
   "containers": [
     "TMR1995/pt22",
     "TMR1995/pt22/div2"
   ],
   "content_hash": "sha256:b92db600c71964e14b61167c75966630819a02226404afa43c0528bdc0cc34d4",
-  "extractor_version": "legislation/0.1.0",
+  "extractor_version": "legislation/0.2.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 22—Application, saving and transitional provisions",
@@ -40,14 +40,6 @@
       "number": null,
       "ordinal": 1,
       "parent_ref": null,
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMR1995/r2016",
-          "mention": "Regulation 2016"
-        }
-      ],
       "ref": "TMR1995/r22.11~1",
       "style": "subsection",
       "text": "The amendments of Schedule 9 made by items 2 and 3 of the Trade Marks Amendment (Fees) Regulation 2016 apply in relation to an AFS request that is submitted on or after the commencement of those items."
