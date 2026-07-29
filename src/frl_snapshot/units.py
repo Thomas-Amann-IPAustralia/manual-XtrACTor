@@ -121,6 +121,15 @@ def split_units(provision: Provision) -> list[Unit]:
     # ref -> next unnumbered child index, so a note or an unlabelled paragraph
     # gets a positional address that is stable while its siblings are.
     unnumbered: dict[str, int] = {}
+    #: unit ref -> the ref its children should build their addresses from.
+    #: For a numbered unit that is its own ref; for an unnumbered one it is
+    #: whatever *its* parent would have given, so an unnumbered ancestor is
+    #: transparent to the address. Section 42 is the case: its paragraphs hang
+    #: off an unnumbered opening subsection, and everyone — the Manual 39
+    #: times, the courts, the Act's own cross references — cites them as
+    #: 's 42(a)' and 's 42(b)'. Addressing them 's42~1(a)' would be internally
+    #: consistent and would match no citation anybody writes.
+    address_of: dict[str, str] = {}
     # depth -> the unit currently open at that depth, for parent lookup.
     open_at: dict[int, Unit] = {}
     last_non_note: Unit | None = None
@@ -159,8 +168,13 @@ def split_units(provision: Provision) -> list[Unit]:
         number = _number(block, kind)
 
         parent_ref = parent.ref if parent is not None else provision.ref
+        address_parent = (
+            address_of.get(parent.ref, parent.ref)
+            if parent is not None
+            else provision.ref
+        )
         if number is not None:
-            base = f"{parent_ref}{number}"
+            base = f"{address_parent}{number}"
         else:
             seat = unnumbered.get(parent_ref, 0) + 1
             unnumbered[parent_ref] = seat
@@ -193,6 +207,7 @@ def split_units(provision: Provision) -> list[Unit]:
             grid=block.grid,
         )
         units.append(unit)
+        address_of[ref] = ref if number is not None else address_parent
 
         open_at[depth] = unit
         for deeper in [key for key in open_at if key > depth]:

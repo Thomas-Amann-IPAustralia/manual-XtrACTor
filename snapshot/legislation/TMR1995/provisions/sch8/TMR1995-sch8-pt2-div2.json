@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T08:29:42Z",
   "containers": [
     "TMR1995/sch8",
     "TMR1995/sch8/pt2"
@@ -35,9 +35,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 2,
       "parent_ref": "TMR1995/sch8/pt2/div2~1",
-      "ref": "TMR1995/sch8/pt2/div2~1(a)",
+      "ref": "TMR1995/sch8/pt2/div2(a)",
       "style": "paragraph",
       "text": "(a) if the person is remunerated in his or her occupation by wages, salary or fees—an amount equal to the amount of wages, salary or fees not paid to the person because of his or her attendance for that purpose; and"
     },
@@ -46,9 +47,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 3,
       "parent_ref": "TMR1995/sch8/pt2/div2~1",
-      "ref": "TMR1995/sch8/pt2/div2~1(b)",
+      "ref": "TMR1995/sch8/pt2/div2(b)",
       "style": "paragraph",
       "text": "(b) in any other case—an amount of not less than $210, or more than $1,050, for each day on which he or she so attends."
     },
@@ -68,9 +70,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 5,
       "parent_ref": "TMR1995/sch8/pt2/div2~2",
-      "ref": "TMR1995/sch8/pt2/div2~2(a)",
+      "ref": "TMR1995/sch8/pt2/div2(a)~2",
       "style": "paragraph",
       "text": "(a) if the person is remunerated in his or her occupation by wages, salary or fees—an amount equal to the amount of wages, salary or fees not paid to the person because of his or her attendance for that purpose; and"
     },
@@ -79,9 +82,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 6,
       "parent_ref": "TMR1995/sch8/pt2/div2~2",
-      "ref": "TMR1995/sch8/pt2/div2~2(b)",
+      "ref": "TMR1995/sch8/pt2/div2(b)~2",
       "style": "paragraph",
       "text": "(b) in any other case—an amount of not less than $120, or more than $195, for each day on which he or she so attends."
     }

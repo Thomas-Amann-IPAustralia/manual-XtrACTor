@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T08:29:42Z",
   "containers": [
     "TMA1995/pt2"
   ],
@@ -169,9 +169,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 8,
       "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6~6(a)",
+      "ref": "TMA1995/s6(a)",
       "style": "paragraph",
       "text": "(a) Christmas Island;"
     },
@@ -180,9 +181,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 9,
       "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6~6(b)",
+      "ref": "TMA1995/s6(b)",
       "style": "paragraph",
       "text": "(b) Cocos (Keeling) Islands;"
     },
@@ -191,9 +193,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
+      "number_collision": true,
       "ordinal": 10,
       "parent_ref": "TMA1995/s6~6",
-      "ref": "TMA1995/s6~6(c)",
+      "ref": "TMA1995/s6(c)",
       "style": "paragraph",
       "text": "(c) Norfolk Island."
     },
@@ -520,6 +523,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 23,
       "parent_ref": "TMA1995/s6~18",
       "provisions": [
@@ -530,7 +534,7 @@
           "mention": "subsection 72(1)"
         }
       ],
-      "ref": "TMA1995/s6~18(a)",
+      "ref": "TMA1995/s6(a)~2",
       "style": "paragraph",
       "text": "(a) in relation to the registration of a trade mark in respect of particular goods or services other than a trade mark to which paragraph (b) applies—the day from which the registration of the trade mark in respect of those goods or services is taken to have had effect under subsection 72(1) or (2); or"
     },
@@ -539,6 +543,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 24,
       "parent_ref": "TMA1995/s6~18",
       "provisions": [
@@ -555,7 +560,7 @@
           "mention": "subsection 239A(4)"
         }
       ],
-      "ref": "TMA1995/s6~18(b)",
+      "ref": "TMA1995/s6(b)~2",
       "style": "paragraph",
       "text": "(b) in relation to a trade mark to which subsection 239A(3) applies—the day referred to in subsection 239A(4)."
     },
@@ -689,6 +694,7 @@
       ],
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 30,
       "parent_ref": "TMA1995/s6~23",
       "provisions": [
@@ -699,7 +705,7 @@
           "mention": "section 68"
         }
       ],
-      "ref": "TMA1995/s6~23(a)",
+      "ref": "TMA1995/s6(a)~3",
       "style": "paragraph",
       "text": "(a) the person identified as the owner of the goods on the entry made in relation to the goods under section 68 of the Customs Act 1901; or"
     },
@@ -708,6 +714,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 31,
       "parent_ref": "TMA1995/s6~23",
       "provisions": [
@@ -718,7 +725,7 @@
           "mention": "section 133A"
         }
       ],
-      "ref": "TMA1995/s6~23(b)",
+      "ref": "TMA1995/s6(b)~3",
       "style": "paragraph",
       "text": "(b) if no such entry exists—the person determined to be the owner of the goods under section 133A of this Act."
     },
@@ -781,9 +788,10 @@
       ],
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 34,
       "parent_ref": "TMA1995/s6~25",
-      "ref": "TMA1995/s6~25(a)",
+      "ref": "TMA1995/s6(a)~4",
       "style": "paragraph",
       "text": "(a) is a person engaged under the Public Service Act 1999 and is employed in the Trade Marks Office; or"
     },
@@ -792,9 +800,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 35,
       "parent_ref": "TMA1995/s6~25",
-      "ref": "TMA1995/s6~25(b)",
+      "ref": "TMA1995/s6(b)~4",
       "style": "paragraph",
       "text": "(b) is not such a person but performs services, in the Trade Marks Office, for or on behalf of the Commonwealth."
     },
@@ -925,9 +934,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 42,
       "parent_ref": "TMA1995/s6~30",
-      "ref": "TMA1995/s6~30(a)",
+      "ref": "TMA1995/s6(a)~5",
       "style": "paragraph",
       "text": "(a) in relation to an application for the registration of a trade mark other than an application referred to in another paragraph of this definition—the day on which the application is filed; or"
     },
@@ -936,6 +946,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 43,
       "parent_ref": "TMA1995/s6~30",
       "provisions": [
@@ -946,7 +957,7 @@
           "mention": "section 45"
         }
       ],
-      "ref": "TMA1995/s6~30(b)",
+      "ref": "TMA1995/s6(b)~5",
       "style": "paragraph",
       "text": "(b) in relation to a divisional application for the registration of a trade mark—the filing date of the application that is the parent application (within the meaning of section 45) in relation to the divisional application; or"
     },
@@ -955,6 +966,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
+      "number_collision": true,
       "ordinal": 44,
       "parent_ref": "TMA1995/s6~30",
       "provisions": [
@@ -971,7 +983,7 @@
           "mention": "subsection 241(5)"
         }
       ],
-      "ref": "TMA1995/s6~30(c)",
+      "ref": "TMA1995/s6(c)~2",
       "style": "paragraph",
       "text": "(c) in relation to an application to which section 241 applies—the day referred to in subsection 241(5); or"
     },
@@ -996,7 +1008,7 @@
           "mention": "subsection 243(6)"
         }
       ],
-      "ref": "TMA1995/s6~30(d)",
+      "ref": "TMA1995/s6(d)",
       "style": "paragraph",
       "text": "(d) in relation to an application made under section 243—the day referred to in subsection 243(6); or"
     },
@@ -1007,7 +1019,7 @@
       "number": "(e)",
       "ordinal": 46,
       "parent_ref": "TMA1995/s6~30",
-      "ref": "TMA1995/s6~30(e)",
+      "ref": "TMA1995/s6(e)",
       "style": "paragraph",
       "text": "(e) in relation to a prescribed application—the day determined in the prescribed way."
     },
@@ -1165,9 +1177,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 54,
       "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6~37(a)",
+      "ref": "TMA1995/s6(a)~6",
       "style": "paragraph",
       "text": "(a) mode of use; or"
     },
@@ -1176,9 +1189,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 55,
       "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6~37(b)",
+      "ref": "TMA1995/s6(b)~6",
       "style": "paragraph",
       "text": "(b) use within a territorial area within Australia; or"
     },
@@ -1187,9 +1201,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
+      "number_collision": true,
       "ordinal": 56,
       "parent_ref": "TMA1995/s6~37",
-      "ref": "TMA1995/s6~37(c)",
+      "ref": "TMA1995/s6(c)~3",
       "style": "paragraph",
       "text": "(c) use in relation to goods or services to be exported."
     },
@@ -1317,6 +1332,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 62,
       "parent_ref": "TMA1995/s6~42",
       "provisions": [
@@ -1327,7 +1343,7 @@
           "mention": "section 52"
         }
       ],
-      "ref": "TMA1995/s6~42(a)",
+      "ref": "TMA1995/s6(a)~7",
       "style": "paragraph",
       "text": "(a) the person who has filed (under section 52) a notice of opposition to the registration of the trade mark; or"
     },
@@ -1336,6 +1352,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 63,
       "parent_ref": "TMA1995/s6~42",
       "provisions": [
@@ -1346,7 +1363,7 @@
           "mention": "section 53"
         }
       ],
-      "ref": "TMA1995/s6~42(b)",
+      "ref": "TMA1995/s6(b)~7",
       "style": "paragraph",
       "text": "(b) if section 53 applies—a person in whose name the notice of opposition is taken to have been filed."
     },
@@ -1631,9 +1648,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 76,
       "parent_ref": "TMA1995/s6~49",
-      "ref": "TMA1995/s6~49(a)",
+      "ref": "TMA1995/s6(a)~8",
       "style": "paragraph",
       "text": "(a) if the trade mark was assigned or transmitted to one or more than one other person before it was assigned or transmitted to the firstmentioned person—that other person or any one of those other persons; or"
     },
@@ -1642,9 +1660,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 77,
       "parent_ref": "TMA1995/s6~49",
-      "ref": "TMA1995/s6~49(b)",
+      "ref": "TMA1995/s6(b)~8",
       "style": "paragraph",
       "text": "(b) if paragraph (a) does not apply—the person who assigned the trade mark, or from whom the trade mark was transmitted, to the firstmentioned person."
     },
@@ -1654,7 +1673,7 @@
       "kind": "note",
       "number": null,
       "ordinal": 78,
-      "parent_ref": "TMA1995/s6~49(b)",
+      "parent_ref": "TMA1995/s6(b)~8",
       "provisions": [
         {
           "certainty": "default",
@@ -1663,7 +1682,7 @@
           "mention": "section 106"
         }
       ],
-      "ref": "TMA1995/s6~49(b)~1",
+      "ref": "TMA1995/s6(b)~8~1",
       "style": "notetext",
       "text": "Note: In the case of a trade mark that is neither registered nor the subject of an application for registration, the trade mark may be assigned or transmitted in Australia only in conjunction with the goodwill of a business concerned with the trade mark. If the trade mark is registered or the subject of an application for registration, section 106 provides that the trade mark may be assigned or transmitted with or without the goodwill of the business."
     },
@@ -1691,6 +1710,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 80,
       "parent_ref": "TMA1995/s6~50",
       "provisions": [
@@ -1701,7 +1721,7 @@
           "mention": "subsection 213A(4)"
         }
       ],
-      "ref": "TMA1995/s6~50(a)",
+      "ref": "TMA1995/s6(a)~9",
       "style": "paragraph",
       "text": "(a) in relation to filing a document with the Trade Marks Office—means the means specified under subsection 213A(4); or"
     },
@@ -1710,6 +1730,7 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 81,
       "parent_ref": "TMA1995/s6~50",
       "provisions": [
@@ -1720,7 +1741,7 @@
           "mention": "subsection 223A"
         }
       ],
-      "ref": "TMA1995/s6~50(b)",
+      "ref": "TMA1995/s6(b)~9",
       "style": "paragraph",
       "text": "(b) in relation to paying a fee—means the means specified under subsection 223AA(4)."
     },
@@ -2259,9 +2280,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 104,
       "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6~70(a)",
+      "ref": "TMA1995/s6(a)~10",
       "style": "paragraph",
       "text": "(a) transmission by operation of law; or"
     },
@@ -2270,9 +2292,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 105,
       "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6~70(b)",
+      "ref": "TMA1995/s6(b)~10",
       "style": "paragraph",
       "text": "(b) devolution on the personal representative of a deceased person; or"
     },
@@ -2281,9 +2304,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
+      "number_collision": true,
       "ordinal": 106,
       "parent_ref": "TMA1995/s6~70",
-      "ref": "TMA1995/s6~70(c)",
+      "ref": "TMA1995/s6(c)~4",
       "style": "paragraph",
       "text": "(c) any other kind of transfer except assignment."
     },
@@ -2411,9 +2435,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 112,
       "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6~75(a)",
+      "ref": "TMA1995/s6(a)~11",
       "style": "paragraph",
       "text": "(a) a Saturday; or"
     },
@@ -2422,9 +2447,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 113,
       "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6~75(b)",
+      "ref": "TMA1995/s6(b)~11",
       "style": "paragraph",
       "text": "(b) a Sunday; or"
     },
@@ -2433,9 +2459,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
+      "number_collision": true,
       "ordinal": 114,
       "parent_ref": "TMA1995/s6~75",
-      "ref": "TMA1995/s6~75(c)",
+      "ref": "TMA1995/s6(c)~5",
       "style": "paragraph",
       "text": "(c) a public holiday in the Australian Capital Territory."
     },

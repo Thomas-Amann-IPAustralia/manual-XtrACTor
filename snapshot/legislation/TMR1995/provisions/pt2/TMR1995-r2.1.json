@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-29T06:47:36Z",
+  "captured_at": "2026-07-29T08:29:42Z",
   "containers": [
     "TMR1995/pt2"
   ],
@@ -179,9 +179,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 8,
       "parent_ref": "TMR1995/r2.1~7",
-      "ref": "TMR1995/r2.1~7(a)",
+      "ref": "TMR1995/r2.1(a)",
       "style": "paragraph",
       "text": "(a) that a document to which the statement relates:"
     },
@@ -191,8 +192,8 @@
       "kind": "paragraph",
       "number": "(i)",
       "ordinal": 9,
-      "parent_ref": "TMR1995/r2.1~7(a)",
-      "ref": "TMR1995/r2.1~7(a)(i)",
+      "parent_ref": "TMR1995/r2.1(a)",
+      "ref": "TMR1995/r2.1(a)(i)",
       "style": "paragraphsub",
       "text": "(i) has been translated by a person who is proficient in both the language from which the document has been translated into English and English; and"
     },
@@ -202,8 +203,8 @@
       "kind": "paragraph",
       "number": "(ii)",
       "ordinal": 10,
-      "parent_ref": "TMR1995/r2.1~7(a)",
-      "ref": "TMR1995/r2.1~7(a)(ii)",
+      "parent_ref": "TMR1995/r2.1(a)",
+      "ref": "TMR1995/r2.1(a)(ii)",
       "style": "paragraphsub",
       "text": "(ii) is a true and complete translation of the accompanying document to the best of the knowledge of the person who signs the statement; and"
     },
@@ -212,9 +213,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 11,
       "parent_ref": "TMR1995/r2.1~7",
-      "ref": "TMR1995/r2.1~7(b)",
+      "ref": "TMR1995/r2.1(b)",
       "style": "paragraph",
       "text": "(b) that is dated and signed."
     },
@@ -331,9 +333,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 16,
       "parent_ref": "TMR1995/r2.1~11",
-      "ref": "TMR1995/r2.1~11(a)",
+      "ref": "TMR1995/r2.1(a)~2",
       "style": "paragraph",
       "text": "(a) that was filed, at the trade marks office (or its equivalent) of that Convention country, before the application for which the right of priority is claimed; and"
     },
@@ -342,9 +345,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 17,
       "parent_ref": "TMR1995/r2.1~11",
-      "ref": "TMR1995/r2.1~11(b)",
+      "ref": "TMR1995/r2.1(b)~2",
       "style": "paragraph",
       "text": "(b) on which the claim for the right of priority is based."
     },
@@ -576,9 +580,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 27,
       "parent_ref": "TMR1995/r2.1~20",
-      "ref": "TMR1995/r2.1~20(a)",
+      "ref": "TMR1995/r2.1(a)~3",
       "style": "paragraph",
       "text": "(a) the application is filed by means of a digital information system that is:"
     },
@@ -588,8 +593,8 @@
       "kind": "paragraph",
       "number": "(i)",
       "ordinal": 28,
-      "parent_ref": "TMR1995/r2.1~20(a)",
-      "ref": "TMR1995/r2.1~20(a)(i)",
+      "parent_ref": "TMR1995/r2.1(a)~3",
+      "ref": "TMR1995/r2.1(a)~3(i)",
       "style": "paragraphsub",
       "text": "(i) made available by IP Australia; and"
     },
@@ -599,8 +604,8 @@
       "kind": "paragraph",
       "number": "(ii)",
       "ordinal": 29,
-      "parent_ref": "TMR1995/r2.1~20(a)",
-      "ref": "TMR1995/r2.1~20(a)(ii)",
+      "parent_ref": "TMR1995/r2.1(a)~3",
+      "ref": "TMR1995/r2.1(a)~3(ii)",
       "style": "paragraphsub",
       "text": "(ii) a preferred means of filing the application; and"
     },
@@ -609,9 +614,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 30,
       "parent_ref": "TMR1995/r2.1~20",
-      "ref": "TMR1995/r2.1~20(b)",
+      "ref": "TMR1995/r2.1(b)~3",
       "style": "paragraph",
       "text": "(b) the applicant specifies the goods or services in the application by selecting the goods or services from a prepopulated list of goods or services that is made available by the digital information system for that purpose."
     },
@@ -639,9 +645,10 @@
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
+      "number_collision": true,
       "ordinal": 32,
       "parent_ref": "TMR1995/r2.1~21",
-      "ref": "TMR1995/r2.1~21(a)",
+      "ref": "TMR1995/r2.1(a)~4",
       "style": "paragraph",
       "text": "(a) the President; or"
     },
@@ -670,6 +677,7 @@
       ],
       "kind": "paragraph",
       "number": "(b)",
+      "number_collision": true,
       "ordinal": 33,
       "parent_ref": "TMR1995/r2.1~21",
       "provisions": [
@@ -680,7 +688,7 @@
           "mention": "subregulation 20.64(2)"
         }
       ],
-      "ref": "TMR1995/r2.1~21(b)",
+      "ref": "TMR1995/r2.1(b)~4",
       "style": "paragraph",
       "text": "(b) if the President is unable to perform his or her functions in relation to proceedings of the Panel because of a conflict of interest—the person appointed under subregulation 20.64(2) of the Patents Regulations 1991 to be the Panel Chair for the proceedings."
     },
