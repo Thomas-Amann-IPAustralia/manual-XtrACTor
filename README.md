@@ -35,8 +35,9 @@ snapshot/raw/              verbatim source HTML
 
 Each page file holds one page record and the chunks cut from it. A chunk is a
 retrievable passage — normally the prose under one heading — carrying its
-heading ancestry, a content hash, and the statutory and case citations extracted
-from it.
+heading ancestry, a content hash, the statutory and case citations extracted
+from it, the paragraph, list and table structure its text was flattened from,
+and the Manual's own hyperlinks with the offsets into that text where they sit.
 
 ## What this is not
 

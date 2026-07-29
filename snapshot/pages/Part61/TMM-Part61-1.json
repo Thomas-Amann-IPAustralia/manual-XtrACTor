@@ -18,6 +18,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 12,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+          "start": 0,
+          "text": "Section 217A"
+        },
+        {
+          "end": 225,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmreg:21.11a",
+          "start": 208,
+          "text": "regulation 21.11A"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part61/1",
       "provisions": [
@@ -66,6 +80,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part61/1",
       "provisions": [
@@ -102,6 +117,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 116,
+          "href": "https://www.legislation.gov.au/Series/C2004A02562",
+          "start": 84,
+          "text": "Freedom of Information (FOI) Act"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part61/1",
       "provisions": [],
@@ -147,6 +170,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part61/1",
       "provisions": [
@@ -165,9 +189,9 @@
     "amendment_note": "FOI content updated.",
     "archived": false,
     "content_hash": "sha256:55aa10d0198d8fdd54380b6bbade1b8ce19f66f9006fe5b384074d962c6e9f2f",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "61.1. Availability of Documents",
     "images": [],
     "last_amended": "2022-07-29",

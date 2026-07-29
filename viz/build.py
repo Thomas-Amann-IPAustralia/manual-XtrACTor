@@ -43,6 +43,7 @@ INDEX_CHUNK_FIELDS = (
     "heading_source",
     "internal_refs",
     "kind",
+    "links",
     "ordinal",
     "page_ref",
     "provisions",

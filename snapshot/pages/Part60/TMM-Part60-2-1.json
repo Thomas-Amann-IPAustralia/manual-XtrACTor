@@ -71,6 +71,38 @@
         "TMM/Part60/2/4"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 26,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 55,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 61,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 56,
+          "text": "(Cth)"
+        },
+        {
+          "end": 1441,
+          "href": "/trademark/2.4-certifying-process",
+          "start": 1419,
+          "text": "2.4 Certifying Process"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/2/1",
       "provisions": [],
@@ -82,9 +114,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:08325d1dfeba2fa8b123121e01290734ef8b78251f53c89267970ae3aa1ba114",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.2.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",

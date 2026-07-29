@@ -22,6 +22,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -55,6 +56,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -105,6 +107,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -143,6 +146,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -176,6 +180,20 @@
         "TMM/Part22/23"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 389,
+          "href": "/trademark/22.-numerals",
+          "start": 387,
+          "text": "22"
+        },
+        {
+          "end": 396,
+          "href": "/trademark/23.-combinations-of-letters-and-numerals",
+          "start": 394,
+          "text": "23"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part22/9",
       "provisions": [
@@ -235,6 +253,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -265,6 +284,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -290,6 +310,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part22/9",
       "provisions": [],
@@ -301,9 +322,9 @@
     "amendment_note": "Minor updates.",
     "archived": false,
     "content_hash": "sha256:20dcb4ba3643a50c7723be32a29f75f3a155e23ce435bc8b0652c26a8e473d7f",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "22.9. Words",
     "images": [],
     "last_amended": "2022-12-19",

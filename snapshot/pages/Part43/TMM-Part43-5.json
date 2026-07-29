@@ -41,6 +41,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 703,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s106.html",
+          "start": 692,
+          "text": "section 106"
+        },
+        {
+          "end": 1093,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s6.html",
+          "start": 1084,
+          "text": "section 6"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part43/5",
       "provisions": [
@@ -101,6 +115,14 @@
         "TMM/Part43/4"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 398,
+          "href": "/trademark/4.-process-for-assigning-all-goods-and-or-services-full-assignment",
+          "start": 395,
+          "text": "4.6"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part43/5",
       "provisions": [],
@@ -112,9 +134,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:35c52a852c1c6a57926d5638b1c45994dfb1b805e4dbfc50c8d32c8c9b015ffe",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "43.5. Process for assigning only some goods and/or services (partial assignment)",
     "images": [],
     "last_amended": "2022-04-20",

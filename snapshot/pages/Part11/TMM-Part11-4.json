@@ -30,6 +30,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 62,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 0,
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        },
+        {
+          "end": 117,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 63,
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part11/4",
       "provisions": [],
@@ -72,6 +86,20 @@
         "TMM/Part6/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1406,
+          "href": "/trademark/1.-expedited-examination",
+          "start": 1360,
+          "text": "1.2 Expedition of examination by the Registrar"
+        },
+        {
+          "end": 1438,
+          "href": "/trademark/1.-deferment-of-acceptance---introduction",
+          "start": 1407,
+          "text": "Part 17 Deferment of Acceptance"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part11/4",
       "provisions": [],
@@ -104,6 +132,14 @@
         "TMM/Part47/4"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 895,
+          "href": "/trademark/4.-opposition-may-proceed-in-the-name-of-another-person",
+          "start": 843,
+          "text": "4. Making convention documents available to opponent"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part11/4",
       "provisions": [
@@ -122,9 +158,9 @@
     "amendment_note": "Turn off publish date, add Act/Reg links.",
     "archived": false,
     "content_hash": "sha256:590a12dc91075a637fdc927837e6bf18ad9f8c3c221c165f2bccf333ce41ca8e",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "11.4. Convention documents",
     "images": [],
     "last_amended": "2025-01-13",

@@ -70,6 +70,26 @@
         "TMM/Part55/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 1940,
+          "href": "/trademark/3.-applications-for-an-award-of-costs",
+          "start": 1929,
+          "text": "part 55.3.3"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part55/2",
       "provisions": [
@@ -142,6 +162,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part55/2",
       "provisions": [
@@ -189,6 +210,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part55/2",
       "provisions": [],
@@ -235,6 +257,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part55/2",
       "provisions": [],
@@ -285,6 +308,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part55/2",
       "provisions": [],
@@ -366,6 +390,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part55/2",
       "provisions": [
@@ -404,6 +429,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part55/2",
       "provisions": [],
@@ -415,9 +441,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:b3b9023131829883645b9b620ebbd0b49bf6afa7d017dd8afbc90eacb80e24e4",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 55.2. Award of costs",
     "images": [],
     "last_amended": "2025-04-02",

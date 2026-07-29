@@ -36,6 +36,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -80,6 +94,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -171,6 +186,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -294,6 +310,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -333,6 +350,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -378,6 +396,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -417,6 +436,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -462,6 +482,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -507,6 +528,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 9,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -546,6 +568,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -579,6 +602,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 11,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -624,6 +648,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 12,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -663,6 +688,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 13,
       "page_ref": "TMM/Part15/2",
       "provisions": [
@@ -702,6 +728,14 @@
         "TMM/Part35/x-relevant-legislation"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 364,
+          "href": "/trademark/relevant-legislation",
+          "start": 333,
+          "text": "Part 11 Convention Applications"
+        }
+      ],
       "ordinal": 14,
       "page_ref": "TMM/Part15/2",
       "provisions": [],
@@ -713,9 +747,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:90e70bf15367aae666d7ee0b68f0b3f73799bf7a0cd97b2c7728c3aaf98c81e5",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-07-04",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 15.2. When the general provision does not apply",
     "images": [],
     "last_amended": "2025-07-04",

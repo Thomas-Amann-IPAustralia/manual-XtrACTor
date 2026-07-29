@@ -30,6 +30,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 26,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "end": 61,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995 (Cth)"
+        },
+        {
+          "end": 84,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.11.html",
+          "start": 62,
+          "text": "Division 3 of Part 17A"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/1",
       "provisions": [
@@ -47,9 +67,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:fd447cc5e1641a819aa4056c085cbed6c8ff8f7a3889a61b3a131428f1c4720e",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",

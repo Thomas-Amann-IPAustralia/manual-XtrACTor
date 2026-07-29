@@ -70,6 +70,26 @@
         "TMM/Part23/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1742,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:41",
+          "start": 1729,
+          "text": "section 41(4)"
+        },
+        {
+          "end": 2228,
+          "href": "https://manuals.ipaustralia.gov.au/trademark/1.-introduction8",
+          "start": 2143,
+          "text": "Part 23 Overcoming Grounds for Rejection under Section 41 – including Evidence of Use"
+        },
+        {
+          "end": 2228,
+          "href": "/trademark/1.-introduction8",
+          "start": 2228,
+          "text": ""
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part22/5",
       "provisions": [
@@ -100,9 +120,9 @@
     "amendment_note": "Minor update.",
     "archived": false,
     "content_hash": "sha256:93ed24a8d486bac2032a07d6b2fbdbc6cd2156ee8053a8200505370ab5789dab",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "22.5. Trade marks considered to have limited inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

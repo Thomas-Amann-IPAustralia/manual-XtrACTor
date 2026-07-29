@@ -31,6 +31,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part34/1",
       "provisions": [],
@@ -60,6 +61,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 434,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s120.html",
+          "start": 423,
+          "text": "section 120"
+        },
+        {
+          "end": 781,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s120.html",
+          "start": 764,
+          "text": "subsection 120(3)"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part34/1",
       "provisions": [
@@ -82,9 +97,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:36fc237e9bcd3dfb6ce4e92e57660ea56b8a25c083ff0431ebcc296c730b94f8",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "34.1. Australian trademarks law and defensive trade marks",
     "images": [],
     "last_amended": "2022-04-20",

@@ -484,12 +484,16 @@ def _corpus(root: Path, sitemap: dict[str, NavPage]) -> dict[str, object]:
     """
     sizes = [path.stat().st_size for path in (Path(root) / "raw").rglob("*.html")]
     chunks = 0
+    links = 0
     for path in writer.iter_page_files(Path(root)):
         document = writer.read_page_file(path)
         if document is not None:
-            chunks += len(document.get("chunks", []))
+            for chunk in document.get("chunks", []):
+                chunks += 1
+                links += len(chunk.get("links", []))
     return {
         "chunks": chunks,
+        "links": links,
         "mean_raw_bytes": round(sum(sizes) / len(sizes)) if sizes else 0,
         "pages": len(sitemap),
         "parts": len({nav.part_id for nav in sitemap.values()}),

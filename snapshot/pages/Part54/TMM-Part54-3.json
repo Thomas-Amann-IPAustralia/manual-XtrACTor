@@ -28,6 +28,20 @@
         "TMM/Part54/3"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -81,6 +95,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -125,6 +140,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part54/3",
       "provisions": [],
@@ -154,6 +170,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part54/3",
       "provisions": [],
@@ -194,6 +211,14 @@
         "TMM/Part54/x-annex-a3---format-of-notice-requiring-production"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 58,
+          "href": "/trademark/annex-a3---format-of-notice-requiring-production",
+          "start": 50,
+          "text": "Annex A3"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part54/3",
       "provisions": [],
@@ -228,6 +253,20 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 308,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/tma1995121/s202.html",
+          "start": 305,
+          "text": "202"
+        },
+        {
+          "end": 316,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/tma1995121/s153.html",
+          "start": 313,
+          "text": "153"
+        }
+      ],
       "ordinal": 6,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -296,6 +335,32 @@
         "TMM/Part54/3/3/6"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 122,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/tma1995121/s153.html",
+          "start": 108,
+          "text": "section 153(2)"
+        },
+        {
+          "end": 394,
+          "href": "/trademark/3.-production-of-documents#3.6-registrar-s-consideration-of-produced-documents",
+          "start": 393,
+          "text": "4"
+        },
+        {
+          "end": 612,
+          "href": "/trademark/3.-production-of-documents#3.4-response-to-a-notice-requiring-production",
+          "start": 599,
+          "text": "part 54.3.4.2"
+        },
+        {
+          "end": 1541,
+          "href": "/trademark/3.-production-of-documents#3.4-response-to-a-notice-requiring-production",
+          "start": 1528,
+          "text": "part 54.3.4.2"
+        }
+      ],
       "ordinal": 7,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -360,6 +425,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part54/3",
       "provisions": [],
@@ -433,6 +499,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 9,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -466,6 +533,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -502,6 +570,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 11,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -558,6 +627,14 @@
         "TMM/Part54/2"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1158,
+          "href": "/trademark/2.-summonsing-a-witness",
+          "start": 1154,
+          "text": "54.2"
+        }
+      ],
       "ordinal": 12,
       "page_ref": "TMM/Part54/3",
       "provisions": [
@@ -576,9 +653,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:76beae3521c71a984ca85b46f9f56c8f68a1ada2c42f42a69fe4dbbbf84ac4f6",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 54.3. Production of documents",
     "images": [],
     "last_amended": "2025-04-02",

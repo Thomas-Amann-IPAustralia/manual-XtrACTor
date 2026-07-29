@@ -66,6 +66,14 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 81,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s33.html",
+          "start": 71,
+          "text": "Section 33"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part20/4",
       "provisions": [
@@ -105,6 +113,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part20/4",
       "provisions": [],
@@ -130,6 +139,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part20/4",
       "provisions": [],
@@ -155,6 +165,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part20/4",
       "provisions": [],
@@ -166,9 +177,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:68ac9443c548f6b41bec1edeee2ee42213d92f96029743a19deb37934c381605",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "20.4. Presumption of registrability",
     "images": [],
     "last_amended": "2022-04-20",

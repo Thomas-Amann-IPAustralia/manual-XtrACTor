@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part21/5",
       "provisions": [],
@@ -63,6 +64,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 21,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s40.html",
+          "start": 0,
+          "text": "Section 40 of the Act"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part21/5",
       "provisions": [
@@ -94,6 +103,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part21/5",
       "provisions": [],
@@ -105,9 +115,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:5c000f67cc007cc8d3a61ade8ba930f6cc32dbab76d299e58dc22bbe98842a57",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "21.5. \"Sensory\" trade marks - sounds and scents",
     "images": [],
     "last_amended": "2022-04-20",

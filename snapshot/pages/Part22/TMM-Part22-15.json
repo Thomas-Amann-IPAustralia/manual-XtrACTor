@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -75,6 +76,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -111,6 +113,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -153,6 +156,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -223,6 +227,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part22/15",
       "provisions": [
@@ -267,6 +272,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -307,6 +313,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part22/15",
       "provisions": [
@@ -376,6 +383,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -402,6 +410,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 9,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -436,6 +445,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 10,
       "page_ref": "TMM/Part22/15",
       "provisions": [
@@ -540,6 +550,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 11,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -565,6 +576,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 12,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -602,6 +614,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 13,
       "page_ref": "TMM/Part22/15",
       "provisions": [
@@ -700,6 +713,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 14,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -744,6 +758,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 15,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -809,6 +824,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 16,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -838,6 +854,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 17,
       "page_ref": "TMM/Part22/15",
       "provisions": [],
@@ -889,6 +906,20 @@
         "TMM/Part22/26"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1286,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s41.html",
+          "start": 1276,
+          "text": "section 41"
+        },
+        {
+          "end": 1584,
+          "href": "/trademark/26.-composite-trade-marks",
+          "start": 1572,
+          "text": "paragraph 26"
+        }
+      ],
       "ordinal": 18,
       "page_ref": "TMM/Part22/15",
       "provisions": [
@@ -945,9 +976,9 @@
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
     "content_hash": "sha256:de3fd53a2b75f917eae543e109eb258293eb804bf6751209e12d9dba43372a2b",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-11-06",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "22.15. Geographical names",
     "images": [
       {

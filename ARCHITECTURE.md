@@ -64,6 +64,7 @@ src/tmm_snapshot/
   citations.py          provisions, cases, internal refs
   tables.py             table markup -> the grid
   blocks.py             chunk markup -> the paragraphs and list items
+  links.py              chunk markup -> the hyperlinks, and where they sit
   writer.py             deterministic serialisation to snapshot/
   diff.py               compare two snapshots, emit a change report
   crawl.py              orchestration, CLI entry point
@@ -229,7 +230,18 @@ class PageRecord:
 def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
     """Returns the record and the cleaned body element for the chunker.
     Raises if the page is not in the sitemap or the markup shape is unrecognised."""
+
+def flatten_text(node: Tag) -> str:
+def flatten_spans(node: Tag, names: frozenset[str]) -> tuple[str, list[tuple[Tag, int, int]]]:
 ```
+
+`flatten_text` is the corpus's one reading of an element as words, and every
+other module takes it from here rather than calling `get_text` — which is wrong
+for this markup in both directions, for the reasons in its docstring.
+
+`flatten_spans` is the 0.7.0 addition and returns the same string plus, for each
+named element, the offsets its own words occupy in it. Both run the same walk,
+so an element's span cannot come to disagree with the text it is a span of.
 
 ### `chunker.py`
 
@@ -250,19 +262,21 @@ class Chunk:
     tables: list[dict] = field(default_factory=list)   # added by the 0.3.0 review
     blocks: list[dict] = field(default_factory=list)   # added by the 0.5.0 review
     heading_source: str | None = None                  # added by the 0.6.0 review
+    links: list[dict] = field(default_factory=list)    # added by the 0.7.0 review
 
 def chunk_body(body: Tag, page: PageRecord, nav: NavPage,
                sitemap: dict[str, NavPage] | None = None) -> list[Chunk]:
 ```
 
-`tables`, `blocks`, `heading_source` and `PageRecord.images` are additions made
-after reviewing a complete crawl, and all four are defaulted, so every existing
-caller and every existing test still compiles against the original shape. What
-they are for is in `SOURCE_NOTES.md` §§16–19 and §§23–27: the pipeline was
-dropping 121 tables' worth of structure and 169 images on the floor, eight
-pages whose entire content is an image were recording as indistinguishable from
-blank, and 18,735 paragraphs and list items were flattening into 2,151
-undifferentiated strings.
+`tables`, `blocks`, `heading_source`, `links` and `PageRecord.images` are
+additions made after reviewing a complete crawl, and all five are defaulted, so
+every existing caller and every existing test still compiles against the
+original shape. What they are for is in `SOURCE_NOTES.md` §§16–19 and §§23–29:
+the pipeline was dropping 121 tables' worth of structure and 169 images on the
+floor, eight pages whose entire content is an image were recording as
+indistinguishable from blank, 18,735 paragraphs and list items were flattening
+into 2,151 undifferentiated strings, and 2,218 hyperlinks were being discarded
+with the markup that carried them.
 
 **`heading_source` is the one field recording an inference, and it is why the
 inference is allowed.** 456 of the Manual's numbered subsections are set as
@@ -339,6 +353,31 @@ be split across a fragment boundary, while to this module it is scaffolding
 hiding the grid. And an `image` block is the only block with no `text` — an
 `<img>` contributes no words, and a block carrying `""` would put a stray space
 into the join above. `SOURCE_NOTES.md` §§23–24.
+
+### `links.py`
+
+```python
+def extract_links(fragment: Tag) -> list[dict]:
+```
+
+The 0.7.0 addition, and the same argument a third time: `chunk.text` is the
+words with the markup gone, and every `<a>` the Manual set went with it.
+`provisions` and `internal_refs` kept what each was about — the provision
+named, the page resolved to — deduplicated, sorted and positionless; 792 of the
+corpus's 2,218 anchors matched neither and reached the snapshot in no form at
+all. `SOURCE_NOTES.md` §29.
+
+A link carries `href` verbatim and the offsets into `chunk.text` where its own
+words sit, so `text[start:end] == link.text`. That is checked in
+`validate._link_failures` over the whole snapshot and not in a test alone,
+because an offset drifted by one underlines the wrong words while remaining
+perfectly well-formed. The offsets come from `page.flatten_spans`, which walks
+the tree once for both the text and the spans — a second walk would be a second
+reading of the same markup, and the two would eventually disagree.
+
+Unlike every other list on a chunk, `links` is neither sorted nor deduplicated
+by the writer: document order is the Manual's own order, and two links to one
+target are two links.
 
 ### `writer.py`
 

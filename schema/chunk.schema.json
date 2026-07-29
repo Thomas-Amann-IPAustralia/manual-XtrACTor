@@ -161,6 +161,37 @@
       }
     },
 
+    "links": {
+      "type": "array",
+      "description": "Every hyperlink in this chunk, in document order, with the offsets into 'text' where the Manual set it. 'provisions' and 'internal_refs' record what a link means and only where the extractor can say so — an AustLII provision href, or an href naming a page in the nav — deduplicated, sorted, and with the href itself discarded. 792 of the corpus's 2,218 in-chunk anchors reach neither: TimeBase and Federal Register links to the same Acts, WIPO and jade.io, and 47 internal links naming Manual pages that are not in the nav. This is the anchors themselves, verbatim and positioned, which is the only form in which the passage can be read back as the Manual set it. Not deduplicated: two links to one target are two links.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["href", "text", "start", "end"],
+        "properties": {
+          "href": {
+            "type": "string",
+            "description": "The href exactly as written — root-relative for a Manual page, absolute for everything else. Resolving one against the site root, or against the nav, is a join the consumer can do; rewriting it here would make the record something other than what the source says. Same rule as an image's 'src'.",
+            "examples": ["/trademark/2.-accessing-documents", "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a"]
+          },
+          "text": {
+            "type": "string",
+            "description": "The anchor's own words, and equal to text[start:end]. May be empty: five anchors in the corpus hold no words at all, and one of them is where TMA1995/s42 on Part 32A.1 comes from, so dropping them would lose a citation the pipeline already reads."
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Offset into 'text' where the anchor's words begin. With 'end' this is what lets a reader put the link back where the Manual had it — matching on the anchor's words instead would be ambiguous in the 91 places where one chunk sets the same words as a link twice."
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Offset into 'text' just past the anchor's words. Equal to 'start' for an anchor with no words, which records the point it sat at."
+          }
+        }
+      }
+    },
+
     "tables": {
       "type": "array",
       "description": "The grid of every table in this chunk, in document order. 'text' renders a table as a run of cell text — the correct verbatim reading, and no use to anything that needs to know which cell sat under which column. Empty on the great majority of chunks.",

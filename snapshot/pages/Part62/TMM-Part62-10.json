@@ -25,6 +25,20 @@
         "TMM/Part60/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 209,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmreg:17a.42f",
+          "start": 191,
+          "text": "regulation 17A.42F"
+        },
+        {
+          "end": 241,
+          "href": "/trademark/1.-introduction",
+          "start": 212,
+          "text": "Part 60 - The Madrid Protocol"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part62/10",
       "provisions": [
@@ -43,9 +57,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:2d676966147cbb645c306349c418809e9a9b260b11eaff37d032b1c9ae16f9b7",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "62.10. Right of appeal: cessation of protection",
     "images": [],
     "last_amended": "2022-04-20",

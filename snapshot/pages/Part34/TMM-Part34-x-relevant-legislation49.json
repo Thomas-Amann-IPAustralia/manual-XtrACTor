@@ -30,6 +30,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "landing",
+      "links": [
+        {
+          "end": 15,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/",
+          "start": 8,
+          "text": "Part 17"
+        },
+        {
+          "end": 62,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17.1.html",
+          "start": 54,
+          "text": "Reg 17.1"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part34/x-relevant-legislation49",
       "provisions": [
@@ -47,9 +61,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:46bf7ebc1a8e8fcb0496ba705197a771730531e1473dc7f902f4b44b94d17ef0",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "34. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

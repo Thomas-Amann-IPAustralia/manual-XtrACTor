@@ -45,6 +45,32 @@
         "TMM/Part17/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 31,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s36.html",
+          "start": 21,
+          "text": "Section 36"
+        },
+        {
+          "end": 89,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.21.html",
+          "start": 79,
+          "text": "Reg 17A.21"
+        },
+        {
+          "end": 124,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.22.html",
+          "start": 114,
+          "text": "Reg 17A.22"
+        },
+        {
+          "end": 248,
+          "href": "/trademark/1.-deferment-of-acceptance---introduction",
+          "start": 217,
+          "text": "Part 17 Deferment of Acceptance"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/11",
       "provisions": [
@@ -90,6 +116,20 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 60,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.21.html",
+          "start": 43,
+          "text": "Regulation 17A.21"
+        },
+        {
+          "end": 214,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.22.html",
+          "start": 197,
+          "text": "Regulation 17A.22"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/11",
       "provisions": [
@@ -151,6 +191,20 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 146,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s92.html",
+          "start": 136,
+          "text": "section 92"
+        },
+        {
+          "end": 192,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.48.html",
+          "start": 150,
+          "text": "Part 17A, Subdivision D of the Regulations"
+        }
+      ],
       "ordinal": 3,
       "page_ref": "TMM/Part60/4/11",
       "provisions": [
@@ -211,6 +265,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part60/4/11",
       "provisions": [],
@@ -222,9 +277,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:cfcb022fa0ce2a02eeb4911a35498a87d197d9aae9be8059c9d2bc9888d92b94",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.11 Deferment of Acceptance",
     "images": [],
     "last_amended": "2026-04-17",

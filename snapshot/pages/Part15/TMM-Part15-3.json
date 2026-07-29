@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part15/3",
       "provisions": [],
@@ -43,6 +44,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part15/3",
       "provisions": [],
@@ -68,6 +70,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part15/3",
       "provisions": [],
@@ -93,6 +96,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part15/3",
       "provisions": [],
@@ -118,6 +122,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 218,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s21.33.html",
+          "start": 209,
+          "text": "Reg 21.33"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part15/3",
       "provisions": [
@@ -164,6 +176,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 232,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s204.html",
+          "start": 221,
+          "text": "section 204"
+        }
+      ],
       "ordinal": 6,
       "page_ref": "TMM/Part15/3",
       "provisions": [
@@ -200,6 +220,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part15/3",
       "provisions": [
@@ -232,6 +253,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 60,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 43,
+          "text": "subsection 224(1)"
+        },
+        {
+          "end": 177,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 171,
+          "text": "224(5)"
+        }
+      ],
       "ordinal": 8,
       "page_ref": "TMM/Part15/3",
       "provisions": [
@@ -268,6 +303,14 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 18,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s224.html",
+          "start": 0,
+          "text": "Subsection 224(3A)"
+        }
+      ],
       "ordinal": 9,
       "page_ref": "TMM/Part15/3",
       "provisions": [
@@ -285,9 +328,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:3db78d998b6bfef3cd0894000e31a0e501b70b8f14c7cf1c728c7fb0d8bd9fa3",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "15.3. Circumstances in which the Registrar must extend time",
     "images": [],
     "last_amended": "2022-04-20",

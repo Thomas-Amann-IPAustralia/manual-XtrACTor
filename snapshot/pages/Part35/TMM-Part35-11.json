@@ -37,6 +37,44 @@
         "TMM/Part43/7"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 417,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s180.html",
+          "start": 405,
+          "text": "Sections 180"
+        },
+        {
+          "end": 426,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s180a.html",
+          "start": 422,
+          "text": "180A"
+        },
+        {
+          "end": 477,
+          "href": "http://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s10.1.html",
+          "start": 462,
+          "text": "regulation 10.1"
+        },
+        {
+          "end": 729,
+          "href": "/trademark/7.-transmission-of-certification-trade-marks",
+          "start": 685,
+          "text": "7. Transmission of certification trade marks"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part35/11",
       "provisions": [
@@ -64,9 +102,9 @@
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
     "archived": false,
     "content_hash": "sha256:d87cf7e24578f8c8b3a7719a8b4956d7bb6baf285c182aa9c356a0ad5795ee4d",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "35.11. Transmission of certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",

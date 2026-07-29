@@ -30,6 +30,20 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "href": "https://www.legislation.gov.au/F1996B00084/latest/versions",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part55/4",
       "provisions": [],
@@ -91,6 +105,7 @@
         "TMM/Part55/5"
       ],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part55/4",
       "provisions": [
@@ -150,6 +165,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part55/4",
       "provisions": [],
@@ -213,6 +229,14 @@
         "TMM/Part55/x-annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1537,
+          "href": "/trademark/annex-a1---taxing-of-costs-in--multiple--oppositions-relying-on-same-evidence",
+          "start": 1528,
+          "text": "Annex A1."
+        }
+      ],
       "ordinal": 4,
       "page_ref": "TMM/Part55/4",
       "provisions": [],
@@ -224,9 +248,9 @@
     "amendment_note": "Page renamed. Links updated.",
     "archived": false,
     "content_hash": "sha256:8f1cd7262a0094dfe4530c558abff2e2ac52d71bd64c8c6bab013f90d23d5c7b",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "Part 55.4. Determination of the amount of costs",
     "images": [],
     "last_amended": "2025-04-02",

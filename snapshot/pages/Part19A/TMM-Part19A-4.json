@@ -18,6 +18,7 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 1,
       "page_ref": "TMM/Part19A/4",
       "provisions": [],
@@ -56,6 +57,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part19A/4",
       "provisions": [],
@@ -94,6 +96,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part19A/4",
       "provisions": [],
@@ -136,6 +139,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part19A/4",
       "provisions": [],
@@ -178,6 +182,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 5,
       "page_ref": "TMM/Part19A/4",
       "provisions": [],
@@ -212,6 +217,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part19A/4",
       "provisions": [
@@ -252,6 +258,32 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 273,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s228.html",
+          "start": 257,
+          "text": "subsection 228(1"
+        },
+        {
+          "end": 637,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s228.html",
+          "start": 626,
+          "text": "section 228"
+        },
+        {
+          "end": 745,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s228.html",
+          "start": 728,
+          "text": "subsection 228(2)"
+        },
+        {
+          "end": 1218,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s228.html",
+          "start": 1201,
+          "text": "subsection 228(2)"
+        }
+      ],
       "ordinal": 7,
       "page_ref": "TMM/Part19A/4",
       "provisions": [
@@ -292,9 +324,9 @@
     "amendment_note": "Tagged with chapter: Part 19A Use of a Trade Mark",
     "archived": false,
     "content_hash": "sha256:31040280a7f04ec0829df8c05e83a133bb2b280a45fafa555ce08b5f8ebe2db4",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-05-28",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "19A.4. Australian Use",
     "images": [],
     "last_amended": "2025-05-28",

@@ -36,6 +36,32 @@
         "TMM/Part22/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 20,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "href": "https://www.legislation.gov.au/C2004A04969/latest/versions",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 72,
+          "href": "https://www.legislation.gov.au/C2004A02362/latest/text",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "end": 96,
+          "href": "/trademark/1.-registrability-under-section-41-of-the-trade-marks-act-1995",
+          "start": 89,
+          "text": "Part 22"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -86,6 +112,14 @@
         "TMM/Part22/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 1291,
+          "href": "/trademark/1.-registrability-under-section-41-of-the-trade-marks-act-1995",
+          "start": 1284,
+          "text": "Part 22"
+        }
+      ],
       "ordinal": 2,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -132,6 +166,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 3,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -212,6 +247,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 4,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [],
@@ -245,6 +281,20 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [
+        {
+          "end": 346,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s41.html",
+          "start": 336,
+          "text": "section 41"
+        },
+        {
+          "end": 534,
+          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s42.html",
+          "start": 524,
+          "text": "section 42"
+        }
+      ],
       "ordinal": 5,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -293,6 +343,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -348,6 +399,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 7,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -391,6 +443,7 @@
       "heading_source": "markup",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 8,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [],
@@ -422,6 +475,14 @@
         "TMM/Part22/15"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 323,
+          "href": "/trademark/15.-geographical-names",
+          "start": 311,
+          "text": "part 22.15.7"
+        }
+      ],
       "ordinal": 9,
       "page_ref": "TMM/Part32B/2/3",
       "provisions": [
@@ -440,9 +501,9 @@
     "amendment_note": "Accessibility fix – alternative text for images",
     "archived": false,
     "content_hash": "sha256:09cac33338a03f00907b2adfc9d172157e51e353b1dca553794c07d7f45a97ec",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "32B.2.3 Section 41: Capacity to Distinguish",
     "images": [
       {

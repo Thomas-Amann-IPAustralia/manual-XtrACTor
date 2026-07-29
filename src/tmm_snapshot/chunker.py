@@ -28,6 +28,7 @@ from tmm_snapshot.citations import (
     extract_internal_refs,
     extract_provisions,
 )
+from tmm_snapshot.links import extract_links
 from tmm_snapshot.page import PageRecord, flatten_text, normalise_text
 from tmm_snapshot.sitemap import NavPage
 from tmm_snapshot.tables import extract_tables
@@ -135,6 +136,11 @@ class Chunk:
     #: `text` exactly, so nothing here is a second copy of the words in a
     #: different shape — it is the shape itself. See blocks.py.
     blocks: list[dict] = field(default_factory=list)
+    #: The hyperlinks in this chunk, with the offsets into `text` at which the
+    #: Manual set them. `provisions` and `internal_refs` record what a link
+    #: means where the extractor can say; this records the link. 766 of the
+    #: corpus's anchors reach neither of those fields. See links.py.
+    links: list[dict] = field(default_factory=list)
     #: How the leaf of `heading_path` was found: 'markup' for an `<h2>`-`<h4>`,
     #: 'emphasis' for a bold numbered paragraph promoted by
     #: `_inferred_heading`, None for the prose above a page's first heading.
@@ -713,6 +719,7 @@ def chunk_body(
                     internal_refs=extract_internal_refs(fragment, inventory),
                     tables=extract_tables(fragment),
                     blocks=extract_blocks(fragment),
+                    links=extract_links(fragment),
                     heading_source=headings[-1].source if headings else None,
                 )
             )

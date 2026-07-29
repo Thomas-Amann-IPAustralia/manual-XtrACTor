@@ -267,6 +267,13 @@ main:focus { outline: none; }
 mark { background: #ffe9a8; color: inherit; border-radius: 2px; padding: 0 .1em; }
 @media (prefers-color-scheme: dark) { mark { background: #5b4a17; color: #f5e7bd; } }
 
+/* The Manual's own hyperlinks, at the offsets `chunk.links` records. An
+   outbound one leaves the snapshot and says so with the arrow; an internal one
+   stays in the viewer and is left plain. */
+.src-link { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.src-link.out::after { content: '↗'; font-size: .7em; vertical-align: .35em; margin-left: .1em; opacity: .7; }
+.tm-table .src-link { font-size: inherit; }
+
 .tm-table { border-collapse: collapse; margin: .8rem 0; font-family: var(--sans); font-size: .86rem; width: 100%; }
 .tm-table td, .tm-table th { border: 1px solid var(--line-2); padding: .35rem .5rem; text-align: left; vertical-align: top; }
 .tm-table th { background: var(--surface-2); font-weight: 600; }

@@ -65,6 +65,56 @@
         "TMM/Part5/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 25,
+          "href": "https://www.wipo.int/wipolex/en/text/283484",
+          "start": 16,
+          "text": "Article 3"
+        },
+        {
+          "end": 93,
+          "href": "https://www.wipo.int/wipolex/en/text/596531#rule14",
+          "start": 80,
+          "text": "Rule 14(1)(2)"
+        },
+        {
+          "end": 160,
+          "href": "https://www.wipo.int/wipolex/en/text/596531#rule24",
+          "start": 150,
+          "text": "Rule 24(8)"
+        },
+        {
+          "end": 253,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.2.html",
+          "start": 243,
+          "text": "Part 17A.2"
+        },
+        {
+          "end": 285,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.3.html",
+          "start": 275,
+          "text": "Part 17A.3"
+        },
+        {
+          "end": 321,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.4.html",
+          "start": 311,
+          "text": "Part 17A.4"
+        },
+        {
+          "end": 356,
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_reg/tmr1995230/s17a.11.html",
+          "start": 348,
+          "text": "Part 17A"
+        },
+        {
+          "end": 462,
+          "href": "/trademark/1.-background1",
+          "start": 420,
+          "text": "Part 5 Data Capture, Indexing and Scanning"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part60/4/3",
       "provisions": [
@@ -131,6 +181,7 @@
       "heading_source": "emphasis",
       "internal_refs": [],
       "kind": "body",
+      "links": [],
       "ordinal": 2,
       "page_ref": "TMM/Part60/4/3",
       "provisions": [],
@@ -142,9 +193,9 @@
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
     "archived": false,
     "content_hash": "sha256:4aeb98c0b87b7114017d000e21f3e0acc8db56567b0ce67d6826507c6bd47510",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "60.4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
     "images": [],
     "last_amended": "2026-04-17",

@@ -1302,3 +1302,105 @@ pages like `TMM/Part60/4/7`. Within a page, `heading_path` gives the structure
 the markup asserts and `chunk_ref` gives the number the Manual prints; where
 those two disagree they disagree because the source does, and the three pages
 above are the whole of it.
+
+---
+
+## 29. The Manual's hyperlinks were not in the snapshot
+
+Found on 28 July 2026, by a reader looking at the reassembled Part 61.2 in the
+viewer and noticing that the Manual's link on *section 217A* was gone.
+
+It was, and so were 2,217 others. `chunk.text` is the words with the markup
+gone, and until `ingest/0.7.0` the markup that went included every `<a>` on the
+page. Two fields kept part of what the anchors said, and only the part each was
+about:
+
+- `provisions` records an AustLII provision href as `extraction: "href"` — the
+  strongest citation edge the pipeline produces — but records the *provision*,
+  deduplicated per chunk, with the URL and the position discarded.
+- `internal_refs` records an href naming a page in the nav, resolved to a
+  `page_ref` or `chunk_ref`, sorted, deduplicated, and again positionless.
+
+Everything else was dropped where it was found. The corpus:
+
+| Where the link points | Anchors |
+|---|---|
+| AustLII | 966 |
+| The Manual itself | 527 |
+| Federal Register of Legislation | 475 |
+| TimeBase | 101 |
+| WIPO | 86 |
+| jade.io | 24 |
+| Everything else — IP Australia, APRA, PM&C, WHO, WTO, UPOV, ACCC, Wikipedia | 39 |
+
+**792 of the 2,218 reached the snapshot in no form whatever.** Every
+legislation.gov.au and TimeBase link is in that number, and so is every jade.io
+link to a decision the Manual is discussing.
+
+### Part 61.2 is the case worth reading
+
+The page cites section 217A of the Act three times and hyperlinks it twice —
+to `timebase.com.au/IPAust/index.cfm?id=tmact:217a`, not to AustLII. So
+`_href_edges` never saw it, and the three references were left to the regex
+path, which recorded:
+
+```json
+{ "id": "TMA1995/s217A", "extraction": "regex", "certainty": "default",
+  "mention": "section 217A" }
+```
+
+`default` means *a bare "section N", assumed to be the Trade Marks Act*. The
+assumption is right, and the page was carrying the authors' own statement of it
+in an href the snapshot was throwing away.
+
+### What 0.7.0 does
+
+`links.py` records every anchor in the chunk, in document order, with its href
+verbatim and the offsets into `chunk.text` at which the Manual set it:
+
+```json
+{ "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+  "text": "section 217A", "start": 260, "end": 272 }
+```
+
+`text[start:end] == link.text` is the contract, and `validate.py` checks it
+over every link in the snapshot rather than in a test alone. Offsets rather
+than words, because 91 anchors share their words with another anchor in the
+same chunk and matching them up afterwards would be a guess between the two.
+Not deduplicated, because two links to one target are two links — the
+difference from `internal_refs`, which answers a different question.
+
+The field says what the Manual linked and where. It does not say what the link
+*means*: `TMA1995/s217A` is still a `default` regex edge, because promoting it
+would mean teaching the citation layer to read TimeBase and Federal Register
+URLs, which is a change to what `extraction: "href"` asserts and belongs in its
+own change. The href is now in the record for that work to be done from.
+
+### The five anchors this does not reach
+
+An `<a>` inside an `<h2>`–`<h4>` that opens subsections is inside a heading,
+and a heading's words reach the snapshot as a `heading_path` string with no
+structure to hang an offset on. Two on Part 2.1, three on Part 31.4:
+
+| Page | Heading | Links to |
+|---|---|---|
+| Part 2.1 | `Trade Marks Act 1995` | legislation.gov.au |
+| Part 2.1 | `Trade Mark Regulations 1995` | legislation.gov.au |
+| Part 31.4 | `Subregs 4.15(a) and (b)`, `Subreg 4.15(d)`, `Subreg 4.15(da) and (e)` | AustLII r4.15 |
+
+2,218 of 2,223 are recorded. The five are named here rather than made to
+disappear, and a heading that is *itself* a chunk — the Part 5 glossary's A–Z
+index heading, which is one `<h3>` holding 26 anchors — is not affected: its
+text is a chunk's text and its links are recorded like any other.
+
+### What it makes visible
+
+47 of the 527 internal links name a Manual URL that is not in the nav
+inventory. `internal_refs` drops those, correctly — an unresolvable reference
+is worse than an absent one — and so, until now, a link the Manual had broken
+looked exactly like no link at all. 26 are the glossary's A–Z anchors, which
+point at `/trademark/a` … `/trademark/z` and never resolved; the other 21 are
+ordinary cross references to pages that have moved, four of them to
+`4.-factors-to-consider-when-assessing-section-43` from three pages in two
+Parts. That is a defect in the Manual, it is now in the data, and a crawl will
+show it being fixed.

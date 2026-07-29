@@ -56,6 +56,11 @@ PAGE_SLUGS = {
     # heading_path at all. The corpus's worst case. SOURCE_NOTES.md §25.
     # Saved 28 July 2026 from the 0.5.0 snapshot.
     "part10_3": "3.-representation-of-the-trade-mark---general",
+    # Links section 217A of the Act to TimeBase rather than to AustLII, three
+    # times, so the citation layer never read the href and the passage recorded
+    # the reference as a guess from its prose. The page `links` was written
+    # for. SOURCE_NOTES.md §29. Saved 28 July 2026 from the 0.6.0 snapshot.
+    "part61_2": "2.-accessing-documents",
 }
 
 

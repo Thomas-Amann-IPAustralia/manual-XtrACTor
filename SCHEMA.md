@@ -257,6 +257,48 @@ copy of the chunk. A list item holds its own words only — the items nested und
 it are their own blocks and are not repeated in their parent, or the blocks
 would add up to more than the chunk. `SOURCE_NOTES.md` §19.
 
+**`links`** — every hyperlink in the chunk, in document order, with the offsets
+into `text` at which the Manual set it. 2,218 of them across 759 chunks on 423
+pages. `SOURCE_NOTES.md` §29.
+
+```json
+{
+  "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+  "text": "section 217A",
+  "start": 260,
+  "end": 272
+}
+```
+
+`text` is the words with the markup gone, and the markup that went included
+every `<a>` on the page. `provisions` and `internal_refs` each kept the part of
+an anchor they are about — the provision it names, the page it resolves to —
+deduplicated, sorted, and with the URL and the position discarded. **792 of the
+2,218 reached neither**: every legislation.gov.au and TimeBase link to the Acts,
+every jade.io link to a decision, and 47 internal links naming Manual pages that
+are not in the nav. Part 61.2 links *section 217A* to TimeBase rather than to
+AustLII, which is why the passage records that citation as a `default` guess
+from its prose while the authors' own statement of it sat in an href nobody was
+keeping.
+
+**`text[start:end]` is the link's own words.** That equality is the contract and
+`validate.py` checks it over every link in the snapshot. Offsets rather than a
+search for the words: 91 anchors share their words with another anchor in the
+same chunk, and matching them up afterwards would be a guess between the two.
+`start == end` for the five anchors in the corpus that hold no words at all —
+one of them is where `TMA1995/s42` on Part 32A.1 comes from — and records the
+point they sat at.
+
+`href` is verbatim, root-relative for a Manual page and absolute otherwise.
+Resolving it, against the site root or against the nav, is a join the consumer
+does. **Not deduplicated:** two links to one target are two links, which is the
+difference from `internal_refs` and follows from what the field is for.
+
+The five anchors the field does not reach are inside `<h2>`–`<h4>` headings that
+open subsections, whose words reach the snapshot as a `heading_path` string with
+nothing to hang an offset on. They are listed page by page in `SOURCE_NOTES.md`
+§29 rather than left to be discovered.
+
 **`tables`** — the grid of every table in the chunk, in document order. Empty
 on the great majority of chunks; 121 tables live across 45 pages, and some of
 those pages are essentially nothing else. `SOURCE_NOTES.md` §17.
@@ -438,6 +480,17 @@ Part 22.1 heading 1.2, exactly as the pipeline emits it:
   "internal_refs": [
     "TMM/Part12/9",
     "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar"
+  ],
+  "links": [
+    { "href": "https://austlii.edu.au/…/tma1995121/s41.html",
+      "text": "Section 41", "start": 0, "end": 10 },
+    { "href": "/trademark/annex-a1-section-41-prior-to-raising-the-bar",
+      "text": "Annex A1", "start": 169, "end": 177 },
+    { "href": "https://austlii.edu.au/…/tma1995121/s6.html",
+      "text": "Section 6", "start": 465, "end": 474 },
+    { "href": "/trademark/9.-divisional-applications-and-the-intellectual-property-laws-amendment-raising-the-bar-act-2012",
+      "text": "9. Divisional Applications and the Intellectual Property Laws Amendment (Raising the Bar) Act 2012",
+      "start": 705, "end": 803 }
   ]
 }
 ```
@@ -447,6 +500,13 @@ this passage; it is one edge, not four, and the hyperlink is the evidence for it
 And `AIA1901/s7` is correctly attributed away from the Trade Marks Act by the
 adjacent instrument name — which is exactly the mechanism that fails on the
 anaphoric `"section 26 of the Act"` case, and why `certainty` exists.
+
+`links` is the same passage read a third way. The first entry is the href
+`TMA1995/s41` was extracted from, so the evidence for that edge is now in the
+record beside it rather than only in the raw HTML; the second and fourth are the
+two `internal_refs`, at the words the Manual hung them on. Nothing is
+duplicated — one field says which provision, one says which page, and this one
+says where the anchor was.
 
 The chunk runs on past the section's last paragraph into the *Note* below it,
 which the CMS renders in a `div.zone` of its own. That is deliberate: zones are

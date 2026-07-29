@@ -34,6 +34,26 @@
       "heading_source": null,
       "internal_refs": [],
       "kind": "landing",
+      "links": [
+        {
+          "end": 20,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a",
+          "start": 8,
+          "text": "Section 217A"
+        },
+        {
+          "end": 121,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmact:226a",
+          "start": 109,
+          "text": "Section 226A"
+        },
+        {
+          "end": 241,
+          "href": "http://www.timebase.com.au/IPAust/index.cfm?id=tmreg:21.11a",
+          "start": 224,
+          "text": "Regulation 21.11A"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part61/x-relevant-legislation43",
       "provisions": [
@@ -64,9 +84,9 @@
     "amendment_note": "Update hyperlinks",
     "archived": false,
     "content_hash": "sha256:02dd0f04c8feee49f1fdbd803774c9f9a3184840a85c60aa8b8cd487df01b604",
-    "crawled_at": "2026-07-28T17:18:40Z",
+    "crawled_at": "2026-07-28T23:50:28Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "61. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

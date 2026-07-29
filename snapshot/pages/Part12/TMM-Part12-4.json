@@ -29,6 +29,14 @@
         "TMM/Part43/1"
       ],
       "kind": "body",
+      "links": [
+        {
+          "end": 404,
+          "href": "/trademark/1.-what-is-assignment-and-transmission-",
+          "start": 369,
+          "text": "Part 43 Assignment and Transmission"
+        }
+      ],
       "ordinal": 1,
       "page_ref": "TMM/Part12/4",
       "provisions": [],
@@ -40,9 +48,9 @@
     "amendment_note": "Part reviewed, content updated.",
     "archived": false,
     "content_hash": "sha256:942c30d642db9e3dd9f6739bb06f76cbe26955334302be628d5935d42375fcf4",
-    "crawled_at": "2026-07-28T17:18:39Z",
+    "crawled_at": "2026-07-28T23:50:27Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.6.0",
+    "extractor_version": "ingest/0.7.0",
     "h1": "4. In whose name may a divisional application be filed?",
     "images": [],
     "last_amended": "2026-07-20",
