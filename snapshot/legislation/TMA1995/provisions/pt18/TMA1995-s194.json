@@ -1,0 +1,191 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:924832a77b719b621eab674b43cd6fcae4e9e348fede92884074dcbe836f8d78",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "194  Transfer of proceedings"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "194",
+  "ref": "TMA1995/s194",
+  "text": "(1) A prescribed court in which an action or proceeding under this Act has been started may, on the application of a party made at any stage, by an order, transfer the action or proceeding to another prescribed court having jurisdiction to hear and determine the action or proceeding. Note: For prescribed court see section 190. (2) When a court transfers an action or proceeding to another court: (a) all relevant documents of record filed in the transferring court must be sent to the other court by the Registrar or other appropriate officer of the transferring court; and (b) the action or proceeding must continue in the other court as if: (i) it had been started there; and (ii) all steps taken in the transferring court had been taken in the other court. (3) This section does not apply in relation to a transfer of proceedings between the Federal Court and the Federal Circuit and Family Court of Australia (Division 2). Note 1: For transfers of proceedings from the Federal Circuit and Family Court of Australia (Division 2) to the Federal Court, see section 153 of the Federal Circuit and Family Court of Australia Act 2021 and section 32AC of the Federal Court of Australia Act 1976. Note 2: For transfers of proceedings from the Federal Court to the Federal Circuit and Family Court of Australia (Division 2), see section 32AB of the Federal Court of Australia Act 1976.",
+  "title": "Transfer of proceedings",
+  "units": [
+    {
+      "content_hash": "sha256:b2c0f95de96311ec3fb6cab98e5ce377ea99bb218ce421d53787c3767e8374bd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s194(1)",
+      "style": "subsection",
+      "text": "(1) A prescribed court in which an action or proceeding under this Act has been started may, on the application of a party made at any stage, by an order, transfer the action or proceeding to another prescribed court having jurisdiction to hear and determine the action or proceeding."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s194(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s194(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:7dde8b736513ad62c329f4afc80181186c7d1afc03a43042210c0b2766498cd9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s194(2)",
+      "style": "subsection",
+      "text": "(2) When a court transfers an action or proceeding to another court:"
+    },
+    {
+      "content_hash": "sha256:b382cdfd6b5bb9911973849786f370ddf3540bcf45df5e94a5c36a3524927fcb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s194(2)",
+      "ref": "TMA1995/s194(2)(a)",
+      "style": "paragraph",
+      "text": "(a) all relevant documents of record filed in the transferring court must be sent to the other court by the Registrar or other appropriate officer of the transferring court; and"
+    },
+    {
+      "content_hash": "sha256:308a1706190459966e8e483248217e50f87551442d5e6166a1cbbbdad9a2f127",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s194(2)",
+      "ref": "TMA1995/s194(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the action or proceeding must continue in the other court as if:"
+    },
+    {
+      "content_hash": "sha256:9f5e7ec81e8e7295d4e31de6fd88eccda24d12ab1f433f9e533bda596ca487d5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s194(2)(b)",
+      "ref": "TMA1995/s194(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) it had been started there; and"
+    },
+    {
+      "content_hash": "sha256:47b067c87ae3883db4f49f03a8f8f2017b10ae085df6e8716f9967db06264fe4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s194(2)(b)",
+      "ref": "TMA1995/s194(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) all steps taken in the transferring court had been taken in the other court."
+    },
+    {
+      "content_hash": "sha256:ac8686af7cd22ced614c18a75b330013c4e3800f05b2ab447b5a403187fcb24c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s194(3)",
+      "style": "subsection",
+      "text": "(3) This section does not apply in relation to a transfer of proceedings between the Federal Court and the Federal Circuit and Family Court of Australia (Division 2)."
+    },
+    {
+      "content_hash": "sha256:4f022fad721958d3e7bc8c2e102a405c6ec12addafb18a0de5ce42ec6e572ddb",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 204,
+          "start": 150,
+          "text": "Federal Circuit and Family Court of Australia Act 2021",
+          "weight": "italic"
+        },
+        {
+          "end": 264,
+          "start": 229,
+          "text": "Federal Court of Australia Act 1976",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s194(3)",
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s153",
+          "mention": "section 153"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s32A",
+          "mention": "section 32A"
+        }
+      ],
+      "ref": "TMA1995/s194(3)~1",
+      "style": "notetext",
+      "text": "Note 1: For transfers of proceedings from the Federal Circuit and Family Court of Australia (Division 2) to the Federal Court, see section 153 of the Federal Circuit and Family Court of Australia Act 2021 and section 32AC of the Federal Court of Australia Act 1976."
+    },
+    {
+      "content_hash": "sha256:096222eeb9f519cac854ab2a8a692f1b1837f10f048a44e158f49c867580641f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 186,
+          "start": 151,
+          "text": "Federal Court of Australia Act 1976",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s194(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s32A",
+          "mention": "section 32A"
+        }
+      ],
+      "ref": "TMA1995/s194(3)~2",
+      "style": "notetext",
+      "text": "Note 2: For transfers of proceedings from the Federal Court to the Federal Circuit and Family Court of Australia (Division 2), see section 32AB of the Federal Court of Australia Act 1976."
+    }
+  ]
+}

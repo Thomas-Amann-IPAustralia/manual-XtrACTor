@@ -1,0 +1,150 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/sch3"
+  ],
+  "content_hash": "sha256:bbcfb2012e371391d28b2ca17d123b07455284df09742676e419de5058e3a514",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 3—Modifications of Part 13 of the Act (Norfolk Island)",
+    "1  After section 131"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "1",
+  "ref": "TMR1995/sch3/item1",
+  "text": "Insert: 131A Definitions In this Part: Customs Act 1901 (NI) means the Customs Act 1901 in its application to Norfolk Island in accordance with the Norfolk Island Customs Ordinance 2016. designated owner, in relation to goods imported into Norfolk Island, means: (a) the person identified as the owner of the goods on the entry made in relation to the goods under section 68 of the Customs Act 1901 (NI); or (b) if no such entry exists—the person determined to be the owner of the goods under section 133A of the Act.",
+  "title": "After section 131",
+  "units": [
+    {
+      "content_hash": "sha256:8445d5cfe714f4491bdd7be3a32948e53e2a96ef2d6d75ca8d501fbc73a359c4",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item1~1",
+      "style": "Item",
+      "text": "Insert:"
+    },
+    {
+      "content_hash": "sha256:e8f33066e43b2f861734fed7d08b6aae0b4fc4809da3ace7a3a1a7c412a83995",
+      "depth": 0,
+      "kind": "special",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item1~2",
+      "style": "Specials",
+      "text": "131A Definitions"
+    },
+    {
+      "content_hash": "sha256:a6d5c0aac57a71ccac99b977f8ee7f5cf661de5dcb6394735ba66e5c06c8e810",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item1~3",
+      "style": "subsection",
+      "text": "In this Part:"
+    },
+    {
+      "content_hash": "sha256:a83af39456542e11d0f30d11001c7c0c23e9c8ffc6fb87dc83f8cec1f376e665",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 0,
+          "text": "Customs Act 1901 (NI)",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 48,
+          "start": 32,
+          "text": "Customs Act 1901",
+          "weight": "italic"
+        },
+        {
+          "end": 146,
+          "start": 109,
+          "text": "Norfolk Island Customs Ordinance 2016",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item1~4",
+      "style": "Definition",
+      "text": "Customs Act 1901 (NI) means the Customs Act 1901 in its application to Norfolk Island in accordance with the Norfolk Island Customs Ordinance 2016."
+    },
+    {
+      "content_hash": "sha256:8cadac7dd0462edd704ebe5b4a4a0c5b2f6184e3dc78665110e54d6efedba3d3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 0,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item1~5",
+      "style": "Definition",
+      "text": "designated owner, in relation to goods imported into Norfolk Island, means:"
+    },
+    {
+      "content_hash": "sha256:e3a0bbd3f833949003dbe3f3d865b014c24a3b1082ae200e9b61658defc7589a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 135,
+          "start": 119,
+          "text": "Customs Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/sch3/item1~5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s68",
+          "mention": "section 68"
+        }
+      ],
+      "ref": "TMR1995/sch3/item1(a)",
+      "style": "paragraph",
+      "text": "(a) the person identified as the owner of the goods on the entry made in relation to the goods under section 68 of the Customs Act 1901 (NI); or"
+    },
+    {
+      "content_hash": "sha256:d1a7a41f2e7f9bebfe0b6e76e1b3fd25f6a79062159165e2c0acc7be8aca4361",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/sch3/item1~5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s133A",
+          "mention": "section 133A"
+        }
+      ],
+      "ref": "TMR1995/sch3/item1(b)",
+      "style": "paragraph",
+      "text": "(b) if no such entry exists—the person determined to be the owner of the goods under section 133A of the Act."
+    }
+  ]
+}

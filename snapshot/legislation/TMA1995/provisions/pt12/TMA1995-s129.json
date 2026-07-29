@@ -1,0 +1,345 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:2160ab63d553bffd37c498c375e3ee32a52cf534997fd4fe5258a1cbb094ee16",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "129  Application for relief from unjustified threats"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "129",
+  "ref": "TMA1995/s129",
+  "text": "(1) If a person threatens to bring an action against another person (threatened person) on the ground that the threatened person has infringed: (a) a registered trade mark; or (b) a trade mark alleged by the person to be registered; any person aggrieved by the threat (plaintiff) may bring an action (either in a prescribed court or in any other court having jurisdiction) against the person making the threat (defendant). Note: For prescribed court see section 190. (2) The purpose of the action is to obtain from the court: (a) a declaration that the threat is unjustified; and (b) an injunction restraining the defendant from continuing to make the threat. The plaintiff may also recover any damages that he or she has sustained because of the defendant’s conduct. (2A) The court may include an additional amount in an assessment of damages the plaintiff has sustained because of the defendant’s conduct, if the court considers it appropriate to do so having regard to: (a) the flagrancy of the threat; and (b) the need to deter similar threats; and (c) the conduct of the defendant that occurred after the defendant made the threat; and (d) any benefit shown to have accrued to the defendant because of the threat; and (e) all other relevant matters. (3) The action may be brought whether or not the defendant is the registered owner, or an authorised user, of the trade mark alleged to have been infringed. Note: For authorised user see section 8. (4) The court may not find in favour of the plaintiff if the defendant satisfies the court that: (a) the trade mark is registered; and (b) the acts of the threatened person in respect of which the defendant threatened to bring an action constitute an infringement of the trade mark. (6) This section does not make a lawyer, registered trade marks attorney or patent attorney liable to an action for an act done in a professional capacity on behalf of a client. Note: For lawyer, registered trade marks attorney and patent attorney see section 6.",
+  "title": "Application for relief from unjustified threats",
+  "units": [
+    {
+      "content_hash": "sha256:e75a853beea384c332c2089875c2f78d72f6be64c4c528577486395de43085ba",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 86,
+          "start": 69,
+          "text": "threatened person",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(1)",
+      "style": "subsection",
+      "text": "(1) If a person threatens to bring an action against another person (threatened person) on the ground that the threatened person has infringed:"
+    },
+    {
+      "content_hash": "sha256:d61baf4b34426de2ea3230ae24c4ed7914af4714771ef40e2c381f7ebb6cf1e4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s129(1)",
+      "ref": "TMA1995/s129(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:05d5f4bb1497a6a88388aae36755116827c0c94389766dab320bd6d236fdefd6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s129(1)",
+      "ref": "TMA1995/s129(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a trade mark alleged by the person to be registered;"
+    },
+    {
+      "content_hash": "sha256:fcddf689a647ecd856f533230af969e9e9695292ca08a192a3064c3655548a7f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 45,
+          "start": 36,
+          "text": "plaintiff",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 187,
+          "start": 178,
+          "text": "defendant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s129~1",
+      "style": "subsection2",
+      "text": "any person aggrieved by the threat (plaintiff) may bring an action (either in a prescribed court or in any other court having jurisdiction) against the person making the threat (defendant)."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s129~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s129~1~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:1777e368f78e770874cdf07f46730de4535ec6e7c13aeb789193fe69bcc071e6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(2)",
+      "style": "subsection",
+      "text": "(2) The purpose of the action is to obtain from the court:"
+    },
+    {
+      "content_hash": "sha256:266a8024f5aa9bb5b4efa13edca36e6434253c2f8bb3e13de5e899fb7d15ad06",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s129(2)",
+      "ref": "TMA1995/s129(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a declaration that the threat is unjustified; and"
+    },
+    {
+      "content_hash": "sha256:fc2a25019b1a95bc9211c50113ac95763b5dab7c2819545659afe063aca9b80a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s129(2)",
+      "ref": "TMA1995/s129(2)(b)",
+      "style": "paragraph",
+      "text": "(b) an injunction restraining the defendant from continuing to make the threat."
+    },
+    {
+      "content_hash": "sha256:bd764b05f18584c60c766b11b3d56142f793b37ef27c616b0033c9bc4d29bfd4",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s129~2",
+      "style": "subsection2",
+      "text": "The plaintiff may also recover any damages that he or she has sustained because of the defendant’s conduct."
+    },
+    {
+      "content_hash": "sha256:a7ea8c7c43bf83cf12b03f10ebcfb5d07465f2418da34f454f819a8172a51274",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(2A)",
+      "style": "subsection",
+      "text": "(2A) The court may include an additional amount in an assessment of damages the plaintiff has sustained because of the defendant’s conduct, if the court considers it appropriate to do so having regard to:"
+    },
+    {
+      "content_hash": "sha256:0b258da32bd452e4ad4d755933636061dbf16471b5fb380fbe4e26e7d40486f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s129(2A)",
+      "ref": "TMA1995/s129(2A)(a)",
+      "style": "paragraph",
+      "text": "(a) the flagrancy of the threat; and"
+    },
+    {
+      "content_hash": "sha256:ee12d03643faa5bdcf629c45e9da8689ecde77877cac3c87b3d8a77c6aaf3c59",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s129(2A)",
+      "ref": "TMA1995/s129(2A)(b)",
+      "style": "paragraph",
+      "text": "(b) the need to deter similar threats; and"
+    },
+    {
+      "content_hash": "sha256:0d3f01ba1d38b735b98e32687ca8157c25be6fb37f32dab3a06e86ea99976531",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s129(2A)",
+      "ref": "TMA1995/s129(2A)(c)",
+      "style": "paragraph",
+      "text": "(c) the conduct of the defendant that occurred after the defendant made the threat; and"
+    },
+    {
+      "content_hash": "sha256:8ea0281d9925933534736b937c229ad29f3eb6d7d2ae297ebedd5b915ed35583",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s129(2A)",
+      "ref": "TMA1995/s129(2A)(d)",
+      "style": "paragraph",
+      "text": "(d) any benefit shown to have accrued to the defendant because of the threat; and"
+    },
+    {
+      "content_hash": "sha256:5739c15e72e739b13169e036274649d590a2e64e0d9d4ee1b13de2c8cdc89953",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s129(2A)",
+      "ref": "TMA1995/s129(2A)(e)",
+      "style": "paragraph",
+      "text": "(e) all other relevant matters."
+    },
+    {
+      "content_hash": "sha256:7ef605fc3c234b4c44739feb7f13a7983b9fc86211bed70fedf610d2c74f11f0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(3)",
+      "style": "subsection",
+      "text": "(3) The action may be brought whether or not the defendant is the registered owner, or an authorised user, of the trade mark alleged to have been infringed."
+    },
+    {
+      "content_hash": "sha256:27962ed924ab0587f84c9a104384e5f8f5aaedd8ec7c5c558cfeed404d769ed4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 10,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s129(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s129(3)~1",
+      "style": "notetext",
+      "text": "Note: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:eb70592fc649b55b935abdcb4ba1e563579a24f4429365aa2e84c5c162808f95",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(4)",
+      "style": "subsection",
+      "text": "(4) The court may not find in favour of the plaintiff if the defendant satisfies the court that:"
+    },
+    {
+      "content_hash": "sha256:ea8b48fd8a58a56b0089075da0437cc5c68e35fec1aabf2b34984dcc0f32d0e1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s129(4)",
+      "ref": "TMA1995/s129(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark is registered; and"
+    },
+    {
+      "content_hash": "sha256:a8bf25bcf5bfb238e13b19eb117ee73837b706b1205eec1084c9d83794f86f63",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s129(4)",
+      "ref": "TMA1995/s129(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the acts of the threatened person in respect of which the defendant threatened to bring an action constitute an infringement of the trade mark."
+    },
+    {
+      "content_hash": "sha256:6f7c5abf0be72355a8c55ed42bd43403f352a6e5956bc1c0ad2ee7070b86f8d8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMA1995/s129(6)",
+      "style": "subsection",
+      "text": "(6) This section does not make a lawyer, registered trade marks attorney or patent attorney liable to an action for an act done in a professional capacity on behalf of a client."
+    },
+    {
+      "content_hash": "sha256:c80d7528bb8b8083caac8505a2545c858dbaa2e08f7a44d9a6845b5751e947b9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 10,
+          "text": "lawyer",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 49,
+          "start": 18,
+          "text": "registered trade marks attorney",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 69,
+          "start": 54,
+          "text": "patent attorney",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s129(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s129(6)~1",
+      "style": "notetext",
+      "text": "Note: For lawyer, registered trade marks attorney and patent attorney see section 6."
+    }
+  ]
+}

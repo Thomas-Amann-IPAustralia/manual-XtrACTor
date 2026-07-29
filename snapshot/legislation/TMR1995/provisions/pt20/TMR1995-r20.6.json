@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:b3beb74ce731f69095f4e9ecd797467433881a64b47920d55caf971fa890e14e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.6  Academic qualifications"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.6",
+  "ref": "TMR1995/r20.6",
+  "text": "The Designated Manager must not approve an applicant for registration as a trade marks attorney unless the applicant has or is entitled to: (a) a level 5 or higher AQF qualification; or (b) a qualification awarded by an overseas institution that the Board is satisfied is equivalent to a level 5 or higher AQF qualification.",
+  "title": "Academic qualifications",
+  "units": [
+    {
+      "content_hash": "sha256:6e09cf51dbb6a04fbfb7d0362b3e1b13c425f870be61c8a56fa13ec96e743f9d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.6~1",
+      "style": "subsection",
+      "text": "The Designated Manager must not approve an applicant for registration as a trade marks attorney unless the applicant has or is entitled to:"
+    },
+    {
+      "content_hash": "sha256:ec927f3b00c2a0316d4423b10e97747bb146f5aaefce9f609c12c5baa33c6a82",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.6~1",
+      "ref": "TMR1995/r20.6(a)",
+      "style": "paragraph",
+      "text": "(a) a level 5 or higher AQF qualification; or"
+    },
+    {
+      "content_hash": "sha256:e979b81561b7c7f874d9bf82ea93f05b2fdc58f367706ca79f86e9c4cfa9a86b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.6~1",
+      "ref": "TMR1995/r20.6(b)",
+      "style": "paragraph",
+      "text": "(b) a qualification awarded by an overseas institution that the Board is satisfied is equivalent to a level 5 or higher AQF qualification."
+    }
+  ]
+}

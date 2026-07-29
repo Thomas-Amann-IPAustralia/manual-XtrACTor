@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:fad43b486f5c96607f120b951a6f95752121186e43b2b71f3b090c9cdcfd8556",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "226B  Certain proceedings do not lie"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "226B",
+  "ref": "TMA1995/s226B",
+  "text": "No criminal or civil action or proceeding lies against the Registrar, a Deputy Registrar or an employee for publishing, or otherwise making available, reasonably and in good faith, information required or permitted by this Act to be published or otherwise made available. Note: For employee see section 6.",
+  "title": "Certain proceedings do not lie",
+  "units": [
+    {
+      "content_hash": "sha256:4a6d70c834ea8e28a56af1e50c685db5f6e5fcd4a7fa7603e49baf80b0734f27",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s226B~1",
+      "style": "subsection",
+      "text": "No criminal or civil action or proceeding lies against the Registrar, a Deputy Registrar or an employee for publishing, or otherwise making available, reasonably and in good faith, information required or permitted by this Act to be published or otherwise made available."
+    },
+    {
+      "content_hash": "sha256:abb3c0c053e73d1951afc68e80bd49b797a9988a21665b8e7cd4a8291c841288",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "employee",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s226B~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s226B~1~1",
+      "style": "notetext",
+      "text": "Note: For employee see section 6."
+    }
+  ]
+}

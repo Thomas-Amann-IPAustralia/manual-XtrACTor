@@ -1,0 +1,206 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:aafa69e0d46e8453bcbbcdf7b95812fef2e6903f7cd9ba5299e7b5057e198856",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.11A  Documents to be made available for public inspection"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.11A",
+  "ref": "TMR1995/r21.11A",
+  "text": "(1) For subsection 217A(1) of the Act each document held by the Registrar that relates to a trade mark is prescribed, other than a document mentioned in subregulation (2). (2) For subregulation (1), the documents are: (a) a document that would be privileged from production in legal proceedings on the ground of legal professional privilege; and (b) a document that is subject to an order of a court or tribunal that prohibits disclosure of the document or information in the document; and (c) a document: (i) whose production the Registrar has required under paragraph 202(c) of the Act; and (ii) that the Registrar is satisfied should not be made available for public inspection; and (d) a document that solely contains evidence of the use or proposed use of a trade mark; and (e) a declaration stating the reasons for a request for expedited examination under regulation 4.18; and (f) a document filed by an applicant for an extension of time under subsection 224(2) or (3) of the Act in relation to an application under those provisions, other than the application for an extension of time; and (g) a document filed in the course of opposition proceedings under the Act and Regulations, other than the notice of opposition; and (h) a document containing any information that the Registrar requires to be held confidentially under paragraph 226A(1)(a) of the Act; and (i) a document prepared by the Registrar, a Deputy Registrar or an employee in the Trade Marks Office that contains information obtained from a document to which any of paragraphs (a) to (h) applies, being information that is the reason, or contributes to the reason, why that paragraph applies to the document.",
+  "title": "Documents to be made available for public inspection",
+  "units": [
+    {
+      "content_hash": "sha256:34a0ef435d7303a50462540145fcc840ff5774069c18aa914fa64044cc3766a5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s217A(1)",
+          "mention": "subsection 217A(1)"
+        }
+      ],
+      "ref": "TMR1995/r21.11A(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 217A(1) of the Act each document held by the Registrar that relates to a trade mark is prescribed, other than a document mentioned in subregulation (2)."
+    },
+    {
+      "content_hash": "sha256:491ee973fc68634e6ad23988fa40f744dceffb4871b2407d466d54a2ac335180",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.11A(2)",
+      "style": "subsection",
+      "text": "(2) For subregulation (1), the documents are:"
+    },
+    {
+      "content_hash": "sha256:82dfeb1e18ccb50e12e2bbc1f623e676f0f64eb8e983cbbbfbc18c8d1b3e4333",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a document that would be privileged from production in legal proceedings on the ground of legal professional privilege; and"
+    },
+    {
+      "content_hash": "sha256:444c28bea457206147f377049dead10e243753618724fb84587c6da85cfad8d8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a document that is subject to an order of a court or tribunal that prohibits disclosure of the document or information in the document; and"
+    },
+    {
+      "content_hash": "sha256:9ef19623225460f69f29a4186905bf8357cae24826746a00fad5b9591685d221",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(c)",
+      "style": "paragraph",
+      "text": "(c) a document:"
+    },
+    {
+      "content_hash": "sha256:4ad290eca567a14cefb27aabb06453453fa0c40b0bebda96160b2bdc9730063d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.11A(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s202(c)",
+          "mention": "paragraph 202(c)"
+        }
+      ],
+      "ref": "TMR1995/r21.11A(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) whose production the Registrar has required under paragraph 202(c) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:8f4531ae74300769081431acc354ac46f2dc8c4ae758a992c068367003902b7d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.11A(2)(c)",
+      "ref": "TMR1995/r21.11A(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that the Registrar is satisfied should not be made available for public inspection; and"
+    },
+    {
+      "content_hash": "sha256:8392de22f7ea8f2d9a84b49bd6359d5bf82a9f86ae7b1aca7b9618b9e2e10afc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(d)",
+      "style": "paragraph",
+      "text": "(d) a document that solely contains evidence of the use or proposed use of a trade mark; and"
+    },
+    {
+      "content_hash": "sha256:c04d03505f41db0d2218e953e9792718a15baf46011e66368cd443623cde2c20",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "regulation 4.18"
+        }
+      ],
+      "ref": "TMR1995/r21.11A(2)(e)",
+      "style": "paragraph",
+      "text": "(e) a declaration stating the reasons for a request for expedited examination under regulation 4.18; and"
+    },
+    {
+      "content_hash": "sha256:facd85ba5d1c6b869c86960962152ac1ac9ad4d52be06c17f6b456347d2af132",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(2)",
+          "mention": "subsection 224(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.11A(2)(f)",
+      "style": "paragraph",
+      "text": "(f) a document filed by an applicant for an extension of time under subsection 224(2) or (3) of the Act in relation to an application under those provisions, other than the application for an extension of time; and"
+    },
+    {
+      "content_hash": "sha256:2ed5a61a0c7abcedc5ef6dc8464e83062e5d56b2edb4eb18fd671e288b9108df",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(g)",
+      "style": "paragraph",
+      "text": "(g) a document filed in the course of opposition proceedings under the Act and Regulations, other than the notice of opposition; and"
+    },
+    {
+      "content_hash": "sha256:1285cd289591106d32741564efd2ab73f9b9b17a6ced880e4df02c20a7295f85",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(h)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s226A(1)(a)",
+          "mention": "paragraph 226A(1)(a)"
+        }
+      ],
+      "ref": "TMR1995/r21.11A(2)(h)",
+      "style": "paragraph",
+      "text": "(h) a document containing any information that the Registrar requires to be held confidentially under paragraph 226A(1)(a) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:2739f42cecbb35ce9da3154c8e092aa9f0f04566311d9f117023d330b241798a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r21.11A(2)",
+      "ref": "TMR1995/r21.11A(2)(i)",
+      "style": "paragraph",
+      "text": "(i) a document prepared by the Registrar, a Deputy Registrar or an employee in the Trade Marks Office that contains information obtained from a document to which any of paragraphs (a) to (h) applies, being information that is the reason, or contributes to the reason, why that paragraph applies to the document."
+    }
+  ]
+}

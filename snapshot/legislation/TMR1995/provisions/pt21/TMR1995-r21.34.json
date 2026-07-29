@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:e80f654a6c9fdf83282900ed1679baf53a6d99f1efc4aebd07695f1979cf8b65",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.34  Requirements cannot be complied with for reasonable cause"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.34",
+  "ref": "TMR1995/r21.34",
+  "text": "If: (a) under these regulations, a person is required to do an act or thing, sign a document, make a declaration or file or give to the Registrar a document or evidence; and (b) the Registrar is reasonably satisfied that the person cannot comply with the requirement; subject to any condition that the Registrar may reasonably impose, the Registrar may dispense with the requirement.",
+  "title": "Requirements cannot be complied with for reasonable cause",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.34~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:4b80351b986bf57a45506eaf0d6db696bef55dd5cc05f4e125dbbc6e756e7aad",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.34~1",
+      "ref": "TMR1995/r21.34(a)",
+      "style": "paragraph",
+      "text": "(a) under these regulations, a person is required to do an act or thing, sign a document, make a declaration or file or give to the Registrar a document or evidence; and"
+    },
+    {
+      "content_hash": "sha256:328a860148a56a28e99ad3e05c451b044386ca250c1d775fb700302329f7a35b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.34~1",
+      "ref": "TMR1995/r21.34(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is reasonably satisfied that the person cannot comply with the requirement;"
+    },
+    {
+      "content_hash": "sha256:3ee799df3eb0ddb48fa7d90289e609a3e2ac4bab58657ee8b8c3c1f976721f32",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.34~2",
+      "style": "subsection2",
+      "text": "subject to any condition that the Registrar may reasonably impose, the Registrar may dispense with the requirement."
+    }
+  ]
+}

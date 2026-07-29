@@ -1,0 +1,512 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div4"
+  ],
+  "content_hash": "sha256:4c2d1f4366f2d661c06d4815739ddad7e70df52e9bf3f61ad7784aafa3eca1c6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 4—Amendments made by the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018",
+    "22.20  Amendments made by Part 2 of Schedule 2"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.20",
+  "ref": "TMR1995/r22.20",
+  "text": "(1) The amendments of regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to notifications occurring on or after the commencement of that Part. (2) The amendments of regulations 4.8 and 4.10 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to reports given on or after the commencement of that Part. (3) Regulation 4.2, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under subregulation 4.2(2) before that commencement. (4) Regulation 6.1, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under subregulation 6.1(1) before that commencement. (5) Regulations 10.4 and 10.5, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continue to apply on and after that commencement in relation to a notice given under subregulation 10.5(1) before that commencement. (6) Regulation 17A.59, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under paragraph 17A.59(1)(b) before that commencement. (7) The repeal and substitution of regulation 21.10 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to withdrawals occurring on or after the commencement of that Part.",
+  "title": "Amendments made by Part 2 of Schedule 2",
+  "units": [
+    {
+      "content_hash": "sha256:e53d20f8fdfdfd4045745fb3370d5263da96df1ed032ea8709b513068c3de33d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 297,
+          "start": 222,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 319,
+          "start": 298,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 333,
+          "start": 320,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 336,
+          "start": 333,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.4",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.5",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r11.3",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.18",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.19",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.22",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.25",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.59",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.33",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.9",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.11",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.13",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.14",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.3",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.1",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.4",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r7.5",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r7.7",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r7.8",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.1",
+          "mention": "regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33"
+        }
+      ],
+      "ref": "TMR1995/r22.20(1)",
+      "style": "subsection",
+      "text": "(1) The amendments of regulations 4.2, 4.3, 4.11, 4.13, 4.14, 4.18, 6.1, 6.4, 7.5, 7.7, 7.8, 8.1, 10.4, 10.5, 11.3, 17A.18, 17A.19, 17A.21, 17A.22, 17A.25, 17A.59, 21.9, 21.16 and 21.33 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to notifications occurring on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:36b1fcd681f9b9c8308b67ee4bb2b3d22df3e748fcd45451978ba7d623b1de2d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 158,
+          "start": 83,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 180,
+          "start": 159,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 194,
+          "start": 181,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 197,
+          "start": 194,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.10",
+          "mention": "regulations 4.8 and 4.10"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "regulations 4.8 and 4.10"
+        }
+      ],
+      "ref": "TMR1995/r22.20(2)",
+      "style": "subsection",
+      "text": "(2) The amendments of regulations 4.8 and 4.10 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to reports given on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:77005cf36b32caada76a1da373affd97834a86be7bddbaa4cebd4fd79515ad20",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 174,
+          "start": 99,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 196,
+          "start": 175,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 210,
+          "start": 197,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 213,
+          "start": 210,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2",
+          "mention": "Regulation 4.2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.2(2)",
+          "mention": "subregulation 4.2(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.20(3)",
+      "style": "subsection",
+      "text": "(3) Regulation 4.2, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under subregulation 4.2(2) before that commencement."
+    },
+    {
+      "content_hash": "sha256:06041d413be0db51ef01170abdca3b47ecdabe4cfaece04c180aaeec27a69b8f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 174,
+          "start": 99,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 196,
+          "start": 175,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 210,
+          "start": 197,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 213,
+          "start": 210,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.1",
+          "mention": "Regulation 6.1"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r6.1(1)",
+          "mention": "subregulation 6.1(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.20(4)",
+      "style": "subsection",
+      "text": "(4) Regulation 6.1, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under subregulation 6.1(1) before that commencement."
+    },
+    {
+      "content_hash": "sha256:aa279a3dc2f0280312caf56cb6fe92603a05254d193ef47d10eb7743b03bf524",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 185,
+          "start": 110,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 207,
+          "start": 186,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 221,
+          "start": 208,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 224,
+          "start": 221,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.4",
+          "mention": "Regulations 10.4 and 10.5"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.5",
+          "mention": "Regulations 10.4 and 10.5"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r10.5(1)",
+          "mention": "subregulation 10.5(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.20(5)",
+      "style": "subsection",
+      "text": "(5) Regulations 10.4 and 10.5, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continue to apply on and after that commencement in relation to a notice given under subregulation 10.5(1) before that commencement."
+    },
+    {
+      "content_hash": "sha256:012d93d32f1ef44038fcc06aa0a0152bd67f67e65a4b32cb6d752d69ac875327",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 177,
+          "start": 102,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 199,
+          "start": 178,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 213,
+          "start": 200,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 216,
+          "start": 213,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.59(1)(b)",
+          "mention": "paragraph 17A.59(1)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.59",
+          "mention": "Regulation 17A.59"
+        }
+      ],
+      "ref": "TMR1995/r22.20(6)",
+      "style": "subsection",
+      "text": "(6) Regulation 17A.59, as in force immediately before the commencement of Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, continues to apply on and after that commencement in relation to a notice given under paragraph 17A.59(1)(b) before that commencement."
+    },
+    {
+      "content_hash": "sha256:6d46e78fd50e8738a0316a94459c17bf8134cace7bf2c8ec663264e85aec0e88",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 163,
+          "start": 88,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 185,
+          "start": 164,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 199,
+          "start": 186,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 202,
+          "start": 199,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.10",
+          "mention": "regulation 21.10"
+        }
+      ],
+      "ref": "TMR1995/r22.20(7)",
+      "style": "subsection",
+      "text": "(7) The repeal and substitution of regulation 21.10 made by Part 2 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to withdrawals occurring on or after the commencement of that Part."
+    }
+  ]
+}

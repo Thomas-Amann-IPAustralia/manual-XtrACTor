@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:45533dc9567be66a3abc3ccbca170560e2d728351abc3144887e9f7ed3c88276",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "130  Counterclaim for infringement"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "130",
+  "ref": "TMA1995/s130",
+  "text": "If the defendant in an action brought under section 129 would be entitled to bring against the plaintiff an action for infringement of the registered trade mark (infringement action): (a) the defendant may file in the court a counterclaim against the plaintiff for any relief to which the defendant would be entitled in the infringement action; and (b) the provisions of this Act applicable to infringement actions apply in relation to the counterclaim as if it were an infringement action brought by the defendant against the plaintiff.",
+  "title": "Counterclaim for infringement",
+  "units": [
+    {
+      "content_hash": "sha256:69390aebf15b9d9afbc91f99c9a684df43d4952a0ccdd7379c154cedf613c732",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 181,
+          "start": 162,
+          "text": "infringement action",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s129",
+          "mention": "section 129"
+        }
+      ],
+      "ref": "TMA1995/s130~1",
+      "style": "subsection",
+      "text": "If the defendant in an action brought under section 129 would be entitled to bring against the plaintiff an action for infringement of the registered trade mark (infringement action):"
+    },
+    {
+      "content_hash": "sha256:4e9774b98e035e5ecc056c684e393f8c24265ad79099883fe29be704d820202b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s130~1",
+      "ref": "TMA1995/s130(a)",
+      "style": "paragraph",
+      "text": "(a) the defendant may file in the court a counterclaim against the plaintiff for any relief to which the defendant would be entitled in the infringement action; and"
+    },
+    {
+      "content_hash": "sha256:4e9299e185d76b37db6633d5bc2fd1b6c94c2e4f8a3f48236f2fa86a56801a36",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s130~1",
+      "ref": "TMA1995/s130(b)",
+      "style": "paragraph",
+      "text": "(b) the provisions of this Act applicable to infringement actions apply in relation to the counterclaim as if it were an infringement action brought by the defendant against the plaintiff."
+    }
+  ]
+}

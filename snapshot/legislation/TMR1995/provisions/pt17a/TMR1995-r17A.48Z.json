@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:31f22b832f41827067dbca53e7e7788d8dfe2f3fc3d2b0f423b0651158630d62",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48Z  Cessation of protection of protected international trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48Z",
+  "ref": "TMR1995/r17A.48Z",
+  "text": "If the Registrar dismisses the opposition under regulation 17A.48K, the Registrar must cease protection in respect of the goods, services, or both, specified in the application for cessation of protection.",
+  "title": "Cessation of protection of protected international trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:31f22b832f41827067dbca53e7e7788d8dfe2f3fc3d2b0f423b0651158630d62",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48K",
+          "mention": "regulation 17A.48K"
+        }
+      ],
+      "ref": "TMR1995/r17A.48Z~1",
+      "style": "subsection",
+      "text": "If the Registrar dismisses the opposition under regulation 17A.48K, the Registrar must cease protection in respect of the goods, services, or both, specified in the application for cessation of protection."
+    }
+  ]
+}

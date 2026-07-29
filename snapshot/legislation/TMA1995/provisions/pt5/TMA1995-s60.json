@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:b981c43df6fedd1f8604c1244acb825de3192f420355bbc001f0032c2e83485c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "60  Trade mark similar to trade mark that has acquired a reputation in Australia"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "60",
+  "ref": "TMA1995/s60",
+  "text": "The registration of a trade mark in respect of particular goods or services may be opposed on the ground that: (a) another trade mark had, before the priority date for the registration of the firstmentioned trade mark in respect of those goods or services, acquired a reputation in Australia; and (b) because of the reputation of that other trade mark, the use of the firstmentioned trade mark would be likely to deceive or cause confusion. Note: For priority date see section 12.",
+  "title": "Trade mark similar to trade mark that has acquired a reputation in Australia",
+  "units": [
+    {
+      "content_hash": "sha256:f41363a7d4d4cf58a7022f536b7ff5129445002a0ccf9eca7f105aae6fa0f709",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s60~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark in respect of particular goods or services may be opposed on the ground that:"
+    },
+    {
+      "content_hash": "sha256:581a1c5e216da75eef27bf521fb35dcec8dbbb064c54f5af8349ca834b2689c2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s60~1",
+      "ref": "TMA1995/s60(a)",
+      "style": "paragraph",
+      "text": "(a) another trade mark had, before the priority date for the registration of the firstmentioned trade mark in respect of those goods or services, acquired a reputation in Australia; and"
+    },
+    {
+      "content_hash": "sha256:ef51cb8fd3c1dd68d6d9cc1d589246f108554fcf6c4080a45eda542c80c2ed90",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s60~1",
+      "ref": "TMA1995/s60(b)",
+      "style": "paragraph",
+      "text": "(b) because of the reputation of that other trade mark, the use of the firstmentioned trade mark would be likely to deceive or cause confusion."
+    },
+    {
+      "content_hash": "sha256:aced9815f87184917c74be79ca6b780ea98b51a5647eca14a11f11e98d0a2ef2",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 23,
+          "start": 10,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s60(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s12",
+          "mention": "section 12"
+        }
+      ],
+      "ref": "TMA1995/s60(b)~1",
+      "style": "notetext",
+      "text": "Note: For priority date see section 12."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div2"
+  ],
+  "content_hash": "sha256:30082a02f448ac58fa4c0dab08c940b38e23c62c6fe855eb6cf0d75eae920881",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 2—Marks registered under the repealed Act",
+    "233  Automatic registration under this Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "233",
+  "ref": "TMA1995/s233",
+  "text": "(1) All trade marks that, immediately before 1 January 1996, were registered in Part A or B, or both Parts A and B, of the old register are registered trade marks for the purposes of this Act. Note: For old register and registered trade mark see section 6. (2) All trade marks that, immediately before 1 January 1996, were registered as certification trade marks in Part C of the old register are registered certification trade marks for the purposes of this Act. (3) All trade marks that, immediately before 1 January 1996, were registered as defensive trade marks in Part D of the old register are registered as defensive trade marks for the purposes of this Act.",
+  "title": "Automatic registration under this Act",
+  "units": [
+    {
+      "content_hash": "sha256:aebb456d9adc4a84d315d630ba47939d16040de612a387754101943a3dc7b0b9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s233(1)",
+      "style": "subsection",
+      "text": "(1) All trade marks that, immediately before 1 January 1996, were registered in Part A or B, or both Parts A and B, of the old register are registered trade marks for the purposes of this Act."
+    },
+    {
+      "content_hash": "sha256:6f0872a92157adb5f1e84ca7eb45d9b3b9c05d4bc618d06e50e2cc82b4d088ba",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "old register",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 48,
+          "start": 27,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s233(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s233(1)~1",
+      "style": "notetext",
+      "text": "Note: For old register and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:cfca7e51d23b8cb1113723fc590653edbe607e5ce9c7575636678bb066ead6df",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s233(2)",
+      "style": "subsection",
+      "text": "(2) All trade marks that, immediately before 1 January 1996, were registered as certification trade marks in Part C of the old register are registered certification trade marks for the purposes of this Act."
+    },
+    {
+      "content_hash": "sha256:1363c0adcb1d6842e21bdf200726610a66debd699dd207ccddc7ed83ff333644",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s233(3)",
+      "style": "subsection",
+      "text": "(3) All trade marks that, immediately before 1 January 1996, were registered as defensive trade marks in Part D of the old register are registered as defensive trade marks for the purposes of this Act."
+    }
+  ]
+}

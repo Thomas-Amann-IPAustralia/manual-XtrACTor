@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:c48cdda2cca86a1df958112c8017f29846bac744a44258f55795fe7d8242daa2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "79  Renewal within 6 months after registration expires"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "79",
+  "ref": "TMA1995/s79",
+  "text": "If, within 6 months after the registration of a trade mark has expired, a person asks the Registrar, in accordance with subsection 75(2), to renew the registration of the trade mark, the Registrar must renew the registration of the trade mark for 10 years from the day on which the registration expired. Note: For month see section 6.",
+  "title": "Renewal within 6 months after registration expires",
+  "units": [
+    {
+      "content_hash": "sha256:bca8338197e56589cf9c70706a61f0b4a22402d07e6ede8e0c6ad3b326db0815",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75(2)",
+          "mention": "subsection 75(2)"
+        }
+      ],
+      "ref": "TMA1995/s79~1",
+      "style": "subsection",
+      "text": "If, within 6 months after the registration of a trade mark has expired, a person asks the Registrar, in accordance with subsection 75(2), to renew the registration of the trade mark, the Registrar must renew the registration of the trade mark for 10 years from the day on which the registration expired."
+    },
+    {
+      "content_hash": "sha256:c079d3291c395e1cec6ab58944e84750edf7c0969c8897809e5f99519633b6ab",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "month",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s79~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s79~1~1",
+      "style": "notetext",
+      "text": "Note: For month see section 6."
+    }
+  ]
+}

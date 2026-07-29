@@ -1,0 +1,323 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div4"
+  ],
+  "content_hash": "sha256:025bcdcc36b6cce440a5a13d5daa03d5470f651105fa5e6ddb73a30b29e410de",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 4—Amendments made by the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018",
+    "22.21  Amendments made by Part 3 of Schedule 2"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.21",
+  "ref": "TMR1995/r22.21",
+  "text": "(1) The repeal of regulations 5.3, 9.3, 17A.30 and 17A.48A made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to documents or evidence filed on or after the commencement of that Part. (2) The repeal and substitution of regulations 21.2 and 21.4, and the repeal of regulation 21.18, made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to documents filed on or after the commencement of that Part. (3) Regulation 21.5A, as inserted by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, applies in relation to evidence filed on or after the commencement of that Part. (4) The repeal of subregulation 21.17(1) made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to evidence given on or after the commencement of that Part. (5) The amendments of items 1 and 3 of the table in clause 1 of Schedule 9, and the repeal of regulation 21.21AA (so far as it relates to those items), made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to applications filed on or after the commencement of that Part. (6) The amendment of item 10 of the table in clause 1 of Schedule 9, and the repeal of regulation 21.21AA (so far as it relates to that item), made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to fees paid on or after the commencement of that Part.",
+  "title": "Amendments made by Part 3 of Schedule 2",
+  "units": [
+    {
+      "content_hash": "sha256:89dad1728d237f0fc805f94914645001f838b971cadd40062c1aca3979757ce8",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 170,
+          "start": 95,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 192,
+          "start": 171,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 206,
+          "start": 193,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 209,
+          "start": 206,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.30",
+          "mention": "regulations 5.3, 9.3, 17A.30 and 17A.48A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48A",
+          "mention": "regulations 5.3, 9.3, 17A.30 and 17A.48A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.3",
+          "mention": "regulations 5.3, 9.3, 17A.30 and 17A.48A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.3",
+          "mention": "regulations 5.3, 9.3, 17A.30 and 17A.48A"
+        }
+      ],
+      "ref": "TMR1995/r22.21(1)",
+      "style": "subsection",
+      "text": "(1) The repeal of regulations 5.3, 9.3, 17A.30 and 17A.48A made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to documents or evidence filed on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:30e636d541dd4ce6045a223f796b9d27392d7628b09c541b5ebccd83b3300cb0",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 209,
+          "start": 134,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 231,
+          "start": 210,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 245,
+          "start": 232,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 248,
+          "start": 245,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.18",
+          "mention": "regulation 21.18"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.2",
+          "mention": "regulations 21.2 and 21.4"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.4",
+          "mention": "regulations 21.2 and 21.4"
+        }
+      ],
+      "ref": "TMR1995/r22.21(2)",
+      "style": "subsection",
+      "text": "(2) The repeal and substitution of regulations 21.2 and 21.4, and the repeal of regulation 21.18, made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to documents filed on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:901028d6123ce0bd46bfa75dbcac3f3a0fe463ad351eaf2cfd39363626c4ebb6",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 140,
+          "start": 65,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 162,
+          "start": 141,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 176,
+          "start": 163,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 179,
+          "start": 176,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.5A",
+          "mention": "Regulation 21.5A"
+        }
+      ],
+      "ref": "TMR1995/r22.21(3)",
+      "style": "subsection",
+      "text": "(3) Regulation 21.5A, as inserted by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, applies in relation to evidence filed on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:6adaa3fd5dc10b7441f5a3431c99a2f4b4e7ff25339323c86502f926e5052edd",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 152,
+          "start": 77,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 174,
+          "start": 153,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 188,
+          "start": 175,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 191,
+          "start": 188,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.17(1)",
+          "mention": "subregulation 21.17(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.21(4)",
+      "style": "subsection",
+      "text": "(4) The repeal of subregulation 21.17(1) made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to evidence given on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:5d2355f5b1878597dbd63b4c8e3ec9ff34bee06322a59bf2e701b9b95ccd1565",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 263,
+          "start": 188,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 285,
+          "start": 264,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 299,
+          "start": 286,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 302,
+          "start": 299,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A",
+          "mention": "regulation 21.21A"
+        }
+      ],
+      "ref": "TMR1995/r22.21(5)",
+      "style": "subsection",
+      "text": "(5) The amendments of items 1 and 3 of the table in clause 1 of Schedule 9, and the repeal of regulation 21.21AA (so far as it relates to those items), made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to applications filed on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:a4c400bdfb126cd97873030bd29586928dd1bc6bc17d75208058e59998ad556a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 254,
+          "start": 179,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 276,
+          "start": 255,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 290,
+          "start": 277,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 293,
+          "start": 290,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21A",
+          "mention": "regulation 21.21A"
+        }
+      ],
+      "ref": "TMR1995/r22.21(6)",
+      "style": "subsection",
+      "text": "(6) The amendment of item 10 of the table in clause 1 of Schedule 9, and the repeal of regulation 21.21AA (so far as it relates to that item), made by Part 3 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to fees paid on or after the commencement of that Part."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:ed2198af4bcf7903a5893bce50a738f52bbb93dc2e95f0cd73fed83eab87c3b5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.12  Notification of hearing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.12",
+  "ref": "TMR1995/r20A.12",
+  "text": "(1) As soon as practicable after receiving an application under regulation 20A.10, the Panel Chair of a Panel of the Disciplinary Tribunal must: (a) fix a day, time and place to hear the application; and (b) notify the incorporated trade marks attorney and the Board of that day, time and place. (3) The day of hearing must not be less than 21 days after the day the incorporated trade marks attorney is notified of the hearing.",
+  "title": "Notification of hearing",
+  "units": [
+    {
+      "content_hash": "sha256:91a9b3f0497604f9e1bf0c1cb5c981544e21b061a6c0a21907fe6e5ab59e292a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.10",
+          "mention": "regulation 20A.10"
+        }
+      ],
+      "ref": "TMR1995/r20A.12(1)",
+      "style": "subsection",
+      "text": "(1) As soon as practicable after receiving an application under regulation 20A.10, the Panel Chair of a Panel of the Disciplinary Tribunal must:"
+    },
+    {
+      "content_hash": "sha256:4750d56bbbc41e930a01248220e36d033816825d1b4123fa6eae7ff018ca1fb9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.12(1)",
+      "ref": "TMR1995/r20A.12(1)(a)",
+      "style": "paragraph",
+      "text": "(a) fix a day, time and place to hear the application; and"
+    },
+    {
+      "content_hash": "sha256:9fab158495969308da98acc680a041a09a90462b62533d6ceb69646463ccd930",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.12(1)",
+      "ref": "TMR1995/r20A.12(1)(b)",
+      "style": "paragraph",
+      "text": "(b) notify the incorporated trade marks attorney and the Board of that day, time and place."
+    },
+    {
+      "content_hash": "sha256:77e7ceadf3471bdd852644ba33815aafa5df4f59240c991689ef054249f0609c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.12(3)",
+      "style": "subsection",
+      "text": "(3) The day of hearing must not be less than 21 days after the day the incorporated trade marks attorney is notified of the hearing."
+    }
+  ]
+}

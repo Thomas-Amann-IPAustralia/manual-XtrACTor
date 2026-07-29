@@ -1,0 +1,93 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt2"
+  ],
+  "content_hash": "sha256:fa24c2af4011c6d226abfb62b182910bdda0b0cc3ed22246e30996514904e5fc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 2—Interpretation",
+    "2.2  Period expressed in months"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "2.2",
+  "ref": "TMR1995/r2.2",
+  "text": "In these Regulations, a period expressed in months and dating from an event, ends: (a) on the day, in the relevant subsequent month, which has the same number as the day of the event; or (b) if the relevant subsequent month has no day with the same number—on the last day of the month. Note: This provision expresses a contrary intention to section 2G and subsection 36(1) of the Acts Interpretation Act 1901, and is in accordance with the Madrid Protocol. The difference between the two occurs when the initiating event is on the last day of a calendar month, which has fewer days than the month in which the period ends. For example, a period of 3 months from an event on 30 September ends on 30 December under this rule; it would end on 31 December under the Acts Interpretation Act 1901 provisions.",
+  "title": "Period expressed in months",
+  "units": [
+    {
+      "content_hash": "sha256:6d988e38463a6971cd6c36d78f8bdb8725b4c4a127ef6abf1b77a769b39fb394",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r2.2~1",
+      "style": "subsection",
+      "text": "In these Regulations, a period expressed in months and dating from an event, ends:"
+    },
+    {
+      "content_hash": "sha256:23aceff61171ab0d0f70b4e74b084708468c23dc378f4e37b399877c083663b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r2.2~1",
+      "ref": "TMR1995/r2.2(a)",
+      "style": "paragraph",
+      "text": "(a) on the day, in the relevant subsequent month, which has the same number as the day of the event; or"
+    },
+    {
+      "content_hash": "sha256:172f4b31bbb65968e22fecc8387313c5f4cea23acd4ba30cf6b38c0acf3256b4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r2.2~1",
+      "ref": "TMR1995/r2.2(b)",
+      "style": "paragraph",
+      "text": "(b) if the relevant subsequent month has no day with the same number—on the last day of the month."
+    },
+    {
+      "content_hash": "sha256:fe6cd31bd00f0ce3b7dadf18b92b9c820a807e4ec7122d0dc23285820abd1cbb",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 122,
+          "start": 94,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        },
+        {
+          "end": 504,
+          "start": 476,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r2.2(b)",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s36(1)",
+          "mention": "subsection 36(1) of the Acts Interpretation Act 1901"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s2G",
+          "mention": "section 2G"
+        }
+      ],
+      "ref": "TMR1995/r2.2(b)~1",
+      "style": "notetext",
+      "text": "Note: This provision expresses a contrary intention to section 2G and subsection 36(1) of the Acts Interpretation Act 1901, and is in accordance with the Madrid Protocol. The difference between the two occurs when the initiating event is on the last day of a calendar month, which has fewer days than the month in which the period ends. For example, a period of 3 months from an event on 30 September ends on 30 December under this rule; it would end on 31 December under the Acts Interpretation Act 1901 provisions."
+    }
+  ]
+}

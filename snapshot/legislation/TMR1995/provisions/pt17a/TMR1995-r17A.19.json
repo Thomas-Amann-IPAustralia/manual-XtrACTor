@@ -1,0 +1,91 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:e8c1af265786f8aca46d64aaf22f31dc6769a739eacb919ec913d409c90cd5de",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.19  Examination—additional requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.19",
+  "ref": "TMR1995/r17A.19",
+  "text": "(1) In the course of an examination of an IRDA for which a right of priority is claimed, the Registrar may notify the holder that the holder is required to file: (a) a copy of any earlier application certified in the trade marks office (however described) of the Convention country in which it was filed; and (b) if the earlier application is not in English: (i) a translation of the earlier application into English; and (ii) a certificate of verification relating to the translation. (2) If the holder is the successor in title to the person who made the earlier application, the Registrar may notify the holder that the holder is required to file documentary evidence that is sufficient to establish the passing of title to the holder.",
+  "title": "Examination—additional requirements",
+  "units": [
+    {
+      "content_hash": "sha256:e7fb43b06bffedcb061dba57d73ffc712feb0d2e422601d186a2723db6e31e01",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.19(1)",
+      "style": "subsection",
+      "text": "(1) In the course of an examination of an IRDA for which a right of priority is claimed, the Registrar may notify the holder that the holder is required to file:"
+    },
+    {
+      "content_hash": "sha256:8c36dc0b8dba799086a8e9025584de61047a8a6de6f3cd7a5db9005624530b9c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.19(1)",
+      "ref": "TMR1995/r17A.19(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a copy of any earlier application certified in the trade marks office (however described) of the Convention country in which it was filed; and"
+    },
+    {
+      "content_hash": "sha256:b74dbb6f6367a3f7cc6b54f452e611226ba776c5e4fcf14911949f5f62bd1a0c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.19(1)",
+      "ref": "TMR1995/r17A.19(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the earlier application is not in English:"
+    },
+    {
+      "content_hash": "sha256:4ee9cbccaa2a5119aec45c25d2817ad7b6eb300cad5c82d3cea9978d9ed3c476",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.19(1)(b)",
+      "ref": "TMR1995/r17A.19(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a translation of the earlier application into English; and"
+    },
+    {
+      "content_hash": "sha256:f3376dd6c5cd49b81655406fef6b2fd308ee13ab2fab869526ce80a63ad4bd3b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.19(1)(b)",
+      "ref": "TMR1995/r17A.19(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a certificate of verification relating to the translation."
+    },
+    {
+      "content_hash": "sha256:4637af09de20131c2a5fb5057f6693a310256cece07857fea2fc59883aaa1837",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.19(2)",
+      "style": "subsection",
+      "text": "(2) If the holder is the successor in title to the person who made the earlier application, the Registrar may notify the holder that the holder is required to file documentary evidence that is sufficient to establish the passing of title to the holder."
+    }
+  ]
+}

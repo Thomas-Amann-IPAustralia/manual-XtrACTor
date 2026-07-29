@@ -1,0 +1,113 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div1"
+  ],
+  "content_hash": "sha256:08a59a701001b3d9d17c2d356e255c1b6e6d270988bf0d235fa0c77397811774",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—General",
+    "54A  Lapsing of opposed application if no notice to defend the application filed"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "54A",
+  "ref": "TMA1995/s54A",
+  "text": "(1) Subject to subsection (2), an application lapses if: (a) a notice of opposition to the registration of the trade mark is filed (see subsection 52(1)); and (b) the applicant does not file an intention to defend the application for registration of the trade mark within the prescribed period, or that period as extended (see section 52A). (2) If, after the prescribed period has expired, the Registrar extends the period within which the notice to defend the application may be filed (see section 52A), the application: (a) is taken not to have lapsed when the prescribed period expired; and (b) lapses if the notice to defend the application is not filed within the extended period.",
+  "title": "Lapsing of opposed application if no notice to defend the application filed",
+  "units": [
+    {
+      "content_hash": "sha256:cb47dae5959c82b7e185a9f92047b44c177982a27a5ed93d1016d0a23a02eae8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s54A(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (2), an application lapses if:"
+    },
+    {
+      "content_hash": "sha256:97458abeca2c5f5c84fe633a11291b4a62258f4bc6b4a8e2649ae25be13f9233",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s54A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52(1)",
+          "mention": "subsection 52(1)"
+        }
+      ],
+      "ref": "TMA1995/s54A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a notice of opposition to the registration of the trade mark is filed (see subsection 52(1)); and"
+    },
+    {
+      "content_hash": "sha256:648742e16b038eb11f318c4699c721f00164d2c62ef6d85f600c924f9603a53d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s54A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52A",
+          "mention": "section 52A"
+        }
+      ],
+      "ref": "TMA1995/s54A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant does not file an intention to defend the application for registration of the trade mark within the prescribed period, or that period as extended (see section 52A)."
+    },
+    {
+      "content_hash": "sha256:5a4da468342af9f8a2160498bfe18ce8263f7b49836623735265d223beb0d6d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52A",
+          "mention": "section 52A"
+        }
+      ],
+      "ref": "TMA1995/s54A(2)",
+      "style": "subsection",
+      "text": "(2) If, after the prescribed period has expired, the Registrar extends the period within which the notice to defend the application may be filed (see section 52A), the application:"
+    },
+    {
+      "content_hash": "sha256:27645116a3c7e21d13914d21c950422b634f9bae24845dddbe500e8713b3889d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s54A(2)",
+      "ref": "TMA1995/s54A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) is taken not to have lapsed when the prescribed period expired; and"
+    },
+    {
+      "content_hash": "sha256:c0572630e8c7363f3c2c320d7c96426a35337d35d0d26a68585b72dc89dcff62",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s54A(2)",
+      "ref": "TMA1995/s54A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) lapses if the notice to defend the application is not filed within the extended period."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:c4ad525120f578a596a9100448d7cb14fcce1be06956a37642049531d1429acb",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "143  Power to require information"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "143",
+  "ref": "TMA1995/s143",
+  "text": "(1) If: (a) goods that may be seized under this Part are imported into Australia; and (b) the ComptrollerGeneral of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent; the ComptrollerGeneral of Customs may ask the importer of the goods or an agent of the importer: (c) to produce any document in his or her possession relating to the goods; and (d) to give information about: (i) the name and address of the person by whom the goods were consigned to Australia; and (ii) the name and address of the person in Australia to whom the goods were consigned. Note 1: For applied to in relation to goods see section 9. Note 2: In obtaining information for the purposes of this subsection, the ComptrollerGeneral of Customs must comply with Australian Privacy Principles 3 and 5. (2) If the importer or his or her agent fails to comply with the request within the prescribed period, the importer or agent commits an offence punishable, on conviction, by imprisonment for a period not exceeding 6 months. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For month see section 6.",
+  "title": "Power to require information",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s143(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:ae7d503dfd83e7816d2a597881e93825db4f68f16fe48d85b53a427903f1f4d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s143(1)",
+      "ref": "TMA1995/s143(1)(a)",
+      "style": "paragraph",
+      "text": "(a) goods that may be seized under this Part are imported into Australia; and"
+    },
+    {
+      "content_hash": "sha256:9ab848dbb24c8f48e801208a3a318b2747209bc20324b86a7fd5273a42db537b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s143(1)",
+      "ref": "TMA1995/s143(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the ComptrollerGeneral of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent;"
+    },
+    {
+      "content_hash": "sha256:4fd8b01de415447bcf0e65d8dae5fa57958548970053204169a80c1ded9e02d7",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s143~1",
+      "style": "subsection2",
+      "text": "the ComptrollerGeneral of Customs may ask the importer of the goods or an agent of the importer:"
+    },
+    {
+      "content_hash": "sha256:524f6f419afdb1c97e7d86311861339f41c2a39558414da573f71453f471a4f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s143~1",
+      "ref": "TMA1995/s143(c)",
+      "style": "paragraph",
+      "text": "(c) to produce any document in his or her possession relating to the goods; and"
+    },
+    {
+      "content_hash": "sha256:4a04a39104a808752b9ef6fca558d4404abce8e15fbafecba41dc5b8d5399efb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s143~1",
+      "ref": "TMA1995/s143(d)",
+      "style": "paragraph",
+      "text": "(d) to give information about:"
+    },
+    {
+      "content_hash": "sha256:ae8aaa9c9f193e47ab730874ab01b79ff986c8da3620938c68f8b27a6a070ab8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s143(d)",
+      "ref": "TMA1995/s143(d)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the name and address of the person by whom the goods were consigned to Australia; and"
+    },
+    {
+      "content_hash": "sha256:b323e9aeecd0b9a913cf0707c42e3ea974340e9ec290bc2beac30d890f0d1441",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s143(d)",
+      "ref": "TMA1995/s143(d)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the name and address of the person in Australia to whom the goods were consigned."
+    },
+    {
+      "content_hash": "sha256:234ef7d79959e93da93d71b78ca295f26c96219fe2f35a7e6331e06c957afd4a",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 43,
+          "start": 12,
+          "text": "applied to in relation to goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s143(d)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s9",
+          "mention": "section 9"
+        }
+      ],
+      "ref": "TMA1995/s143(d)(ii)~1",
+      "style": "notetext",
+      "text": "Note 1: For applied to in relation to goods see section 9."
+    },
+    {
+      "content_hash": "sha256:edb5d7d1d5a4e049a7eeff03cd253564ecf077247427c32ec491b9dfac97e550",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s143(d)(ii)",
+      "ref": "TMA1995/s143(d)(ii)~2",
+      "style": "notetext",
+      "text": "Note 2: In obtaining information for the purposes of this subsection, the ComptrollerGeneral of Customs must comply with Australian Privacy Principles 3 and 5."
+    },
+    {
+      "content_hash": "sha256:c8abb1de2a406f81ee334ff4151ac48e679bbd0c75eb3df8a31b34369fc9adbf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s143(2)",
+      "style": "subsection",
+      "text": "(2) If the importer or his or her agent fails to comply with the request within the prescribed period, the importer or agent commits an offence punishable, on conviction, by imprisonment for a period not exceeding 6 months."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s143(2)",
+      "ref": "TMA1995/s143(2)~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:00a59be79f2392c252c05fac5e5c6f2d612801bcd03e0f2cb8267fcae9149a26",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 12,
+          "text": "month",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s143(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s143(2)~2",
+      "style": "notetext",
+      "text": "Note 2: For month see section 6."
+    }
+  ]
+}

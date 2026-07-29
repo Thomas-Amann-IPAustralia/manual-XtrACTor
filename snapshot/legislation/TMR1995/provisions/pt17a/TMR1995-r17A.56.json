@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div9"
+  ],
+  "content_hash": "sha256:4aa72d89513f875718466604e0be802f73fb44183252bdc34828576de75e88d0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 9—Change in ownership of international registration",
+    "17A.56  Application of Division"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.56",
+  "ref": "TMR1995/r17A.56",
+  "text": "This Division applies if the Registrar receives notification from the International Bureau of a change of ownership of the international registration of a trade mark that is the subject of an IRDA or is a protected international trade mark. Note: Change of ownership is defined in regulation 17A.2 to include assignment or transmission.",
+  "title": "Application of Division",
+  "units": [
+    {
+      "content_hash": "sha256:c4fdf9c737384e7072fdbfc1093daecdafea446f4b59a769a6c09ecf8faf0a59",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.56~1",
+      "style": "subsection",
+      "text": "This Division applies if the Registrar receives notification from the International Bureau of a change of ownership of the international registration of a trade mark that is the subject of an IRDA or is a protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:b80b06c6a5b048d1d82da571c7292d2ea3b72d16344b43747a0dec11ef4bdc52",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 6,
+          "text": "Change of ownership",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.56~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.2",
+          "mention": "regulation 17A.2"
+        }
+      ],
+      "ref": "TMR1995/r17A.56~1~1",
+      "style": "notetext",
+      "text": "Note: Change of ownership is defined in regulation 17A.2 to include assignment or transmission."
+    }
+  ]
+}

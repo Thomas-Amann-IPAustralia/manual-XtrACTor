@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [],
+  "content_hash": "sha256:d0a5500c62ae78e0e52155836949fa0a292fe8790b95f50e093058b93cd9ea3f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "2  Signs that may not be registered as trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "container",
+  "number": "2",
+  "ref": "TMR1995/sch2",
+  "text": "(paragraph 4.15(f)) Austrade C.E.S. Olympic Champion Repatriation Returned Airman Returned Sailor Returned Soldier",
+  "title": "Signs that may not be registered as trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:562c5e0c971304bc9d8ae9e3abc1665023f79aa1dc3b7d517a7cd329c581565b",
+      "depth": 0,
+      "kind": "note",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.15(f)",
+          "mention": "paragraph 4.15(f)"
+        }
+      ],
+      "ref": "TMR1995/sch2~1",
+      "style": "notemargin",
+      "text": "(paragraph 4.15(f))"
+    },
+    {
+      "content_hash": "sha256:2118186a991c3b619b4a7b5ea2d903a1c123ffb0eef141a6d12f2683f0fba5b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~2",
+      "style": "subsection",
+      "text": "Austrade"
+    },
+    {
+      "content_hash": "sha256:29d2b89517248d304b15f41444d7add887d8288feb892ad2e2357175fa526ead",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~3",
+      "style": "subsection",
+      "text": "C.E.S."
+    },
+    {
+      "content_hash": "sha256:d13afa841eefdf502d530fc4ddf8804857083ef01233d0ced3a8c45096e2a99b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~4",
+      "style": "subsection",
+      "text": "Olympic Champion"
+    },
+    {
+      "content_hash": "sha256:1bd2a6b50d9227e610831a8622ac586f928f8e2e98eae153e264842eb00e136e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~5",
+      "style": "subsection",
+      "text": "Repatriation"
+    },
+    {
+      "content_hash": "sha256:88311831831715154f2b83a03fe402ce20cf375be178e5be17c4822ba1126a30",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~6",
+      "style": "subsection",
+      "text": "Returned Airman"
+    },
+    {
+      "content_hash": "sha256:867a10d1242181ddda4fcfb31a9ed9245d748658c637d49f2a61e56795f9f1b3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~7",
+      "style": "subsection",
+      "text": "Returned Sailor"
+    },
+    {
+      "content_hash": "sha256:52eeaad660de010989ed34a8a66e967667094c2553ea37ecf9c343b28f3a1faa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/sch2~8",
+      "style": "subsection",
+      "text": "Returned Soldier"
+    }
+  ]
+}

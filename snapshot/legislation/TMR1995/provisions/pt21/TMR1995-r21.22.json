@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:bc31edd1b30ff31b6b9706d5887a16922e542e0c83473dda427d93a05ae5dece",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.22  How fees are to be paid"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.22",
+  "ref": "TMR1995/r21.22",
+  "text": "(1) For the purposes of subsection 223(2) of the Act (which deals with payment of fees), a fee, other than a fee payable under Part 13 of the Act, must be paid to the Registrar. Note: See subsection 223(2C), and section 223AA, of the Act for the means of paying a fee to the Registrar. (1A) For the purposes of subsection 223AA(3) of the Act, the Registrar must publish the determination on the IP Australia website. (2) A fee payable under Part 13 of the Act must be paid to the ComptrollerGeneral of Customs. The fee must be paid in accordance with a direction given by the ComptrollerGeneral of Customs as to the way in which it is to be paid.",
+  "title": "How fees are to be paid",
+  "units": [
+    {
+      "content_hash": "sha256:1fc6b7e9a5f949c108635bc406ce98d2ebe56059a55cb9ad549e9bdd63e4dfb0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(2)",
+          "mention": "subsection 223(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.22(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 223(2) of the Act (which deals with payment of fees), a fee, other than a fee payable under Part 13 of the Act, must be paid to the Registrar."
+    },
+    {
+      "content_hash": "sha256:304492ce025a5fa2322209b8c5b0e9206f373c9da29eab001ee42867e61ea90c",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.22(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(2C)",
+          "mention": "subsection 223(2C)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A",
+          "mention": "section 223A"
+        }
+      ],
+      "ref": "TMR1995/r21.22(1)~1",
+      "style": "notetext",
+      "text": "Note: See subsection 223(2C), and section 223AA, of the Act for the means of paying a fee to the Registrar."
+    },
+    {
+      "content_hash": "sha256:d2a9f675d01abd223085cd96772034e8440d02cab863fc7f7e7ae27626f10c39",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1A)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A",
+          "mention": "subsection 223A"
+        }
+      ],
+      "ref": "TMR1995/r21.22(1A)",
+      "style": "subsection",
+      "text": "(1A) For the purposes of subsection 223AA(3) of the Act, the Registrar must publish the determination on the IP Australia website."
+    },
+    {
+      "content_hash": "sha256:9bd49b111362719a51c83f376c2aef4a3bc14b7bfa9e566535c3523bc6cdb42e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.22(2)",
+      "style": "subsection",
+      "text": "(2) A fee payable under Part 13 of the Act must be paid to the ComptrollerGeneral of Customs. The fee must be paid in accordance with a direction given by the ComptrollerGeneral of Customs as to the way in which it is to be paid."
+    }
+  ]
+}

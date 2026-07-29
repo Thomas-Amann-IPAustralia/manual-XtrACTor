@@ -1,0 +1,50 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv2"
+  ],
+  "content_hash": "sha256:86e7e223760cea161330e40899bdea00c9c8345c9deccabb8a2d344cdcebc704",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 2—Amendment or cessation of protection by Registrar",
+    "17A.42F  Appeals to Federal Court or Federal Magistrates Court"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.42F",
+  "ref": "TMR1995/r17A.42F",
+  "text": "A person who made submissions to the Registrar, or was heard by the Registrar, during the course of proceedings mentioned in paragraph 17A.42C(1)(a), may appeal to the Federal Court or Federal Magistrates Court from a decision of the Registrar to exercise, or not exercise, a power mentioned in subregulation 17A.42A(1).",
+  "title": "Appeals to Federal Court or Federal Magistrates Court",
+  "units": [
+    {
+      "content_hash": "sha256:86e7e223760cea161330e40899bdea00c9c8345c9deccabb8a2d344cdcebc704",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.42C(1)(a)",
+          "mention": "paragraph 17A.42C(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42A(1)",
+          "mention": "subregulation 17A.42A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.42F~1",
+      "style": "subsection",
+      "text": "A person who made submissions to the Registrar, or was heard by the Registrar, during the course of proceedings mentioned in paragraph 17A.42C(1)(a), may appeal to the Federal Court or Federal Magistrates Court from a decision of the Registrar to exercise, or not exercise, a power mentioned in subregulation 17A.42A(1)."
+    }
+  ]
+}

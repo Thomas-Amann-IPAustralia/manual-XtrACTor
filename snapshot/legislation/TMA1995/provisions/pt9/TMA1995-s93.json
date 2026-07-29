@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:54ef06c1062e631e12fa53034f8b4e92c210b28961e110e29dec7f41c8b04768",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "93  Time for making application"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "93",
+  "ref": "TMA1995/s93",
+  "text": "(1) A nonuse application on the ground mentioned in paragraph 92(4)(a) may be made at any time after the filing date in respect of the application for the registration of the trade mark. Note: For filing date see section 6. (2) A nonuse application on the ground mentioned in paragraph 92(4)(b) may only be made after a period of 3 years beginning from the date the particulars of the trade mark were entered into the Register under section 69. Note: The registration of a trade mark is taken to have effect earlier than the date the particulars of the trade mark are entered into the Register (see sections 72 and 239A).",
+  "title": "Time for making application",
+  "units": [
+    {
+      "content_hash": "sha256:641c6701936c55f535574c0640143c38213374936660b53b957fec91026aa25b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(a)",
+          "mention": "paragraph 92(4)(a)"
+        }
+      ],
+      "ref": "TMA1995/s93(1)",
+      "style": "subsection",
+      "text": "(1) A nonuse application on the ground mentioned in paragraph 92(4)(a) may be made at any time after the filing date in respect of the application for the registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s93(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s93(1)~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    },
+    {
+      "content_hash": "sha256:f7fda6ae88c3d6d675d97bfaccd8fce254b590a2dd5223b36e1643eda654faa5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "paragraph 92(4)(b)"
+        }
+      ],
+      "ref": "TMA1995/s93(2)",
+      "style": "subsection",
+      "text": "(2) A nonuse application on the ground mentioned in paragraph 92(4)(b) may only be made after a period of 3 years beginning from the date the particulars of the trade mark were entered into the Register under section 69."
+    },
+    {
+      "content_hash": "sha256:b8366d40e9269101057f12b9bf4324ca2a36aea7815af9eecabd76fbb263e447",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s93(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s239A",
+          "mention": "sections 72 and 239A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72",
+          "mention": "sections 72 and 239A"
+        }
+      ],
+      "ref": "TMA1995/s93(2)~1",
+      "style": "notetext",
+      "text": "Note: The registration of a trade mark is taken to have effect earlier than the date the particulars of the trade mark are entered into the Register (see sections 72 and 239A)."
+    }
+  ]
+}

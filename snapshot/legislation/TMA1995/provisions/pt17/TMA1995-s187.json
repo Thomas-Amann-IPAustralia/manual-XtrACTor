@@ -1,0 +1,112 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt17"
+  ],
+  "content_hash": "sha256:bc10c8300a6664cc9347560b370ba2fb88be1616ea5ba061a47841d97441fb6a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 17—Defensive trade marks",
+    "187  Additional grounds for rejecting application for registration or opposing registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "187",
+  "ref": "TMA1995/s187",
+  "text": "In addition to any other ground on which: (a) an application for the registration of a trade mark as a defensive trade mark may be rejected; or (b) the registration of a trade mark as a defensive trade mark may be opposed; the application must be rejected or the registration may be opposed: (c) if the trade mark is not registered as a trade mark in the name of the applicant; or (d) in the case of a registered trade mark—if it is not likely that the use of the trade mark in relation to the goods or services in respect of which its registration as a defensive trade mark is sought will be taken to indicate that there is a connection between those goods or services and the registered owner. Note: Division 2 of Part 4 sets out the main grounds for rejecting an application but section 41 does not apply to defensive trade marks (see section 186). Division 2 of Part 5 sets out the main grounds for opposing registration.",
+  "title": "Additional grounds for rejecting application for registration or opposing registration",
+  "units": [
+    {
+      "content_hash": "sha256:101cddfcb7f5d46d4beb324ed59805fa634fd24b4b3305e016ed10e1e5567ce2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s187~1",
+      "style": "subsection",
+      "text": "In addition to any other ground on which:"
+    },
+    {
+      "content_hash": "sha256:4447354a5f18a9519eda6b89f6d92c3d894c66694a52f942294aaa3505cd5d46",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s187~1",
+      "ref": "TMA1995/s187(a)",
+      "style": "paragraph",
+      "text": "(a) an application for the registration of a trade mark as a defensive trade mark may be rejected; or"
+    },
+    {
+      "content_hash": "sha256:754cf348fa0e524be91ee0b04e04e9e9606f6fd3df21a487ca6066e509c304c5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s187~1",
+      "ref": "TMA1995/s187(b)",
+      "style": "paragraph",
+      "text": "(b) the registration of a trade mark as a defensive trade mark may be opposed;"
+    },
+    {
+      "content_hash": "sha256:bef27dab803b8282c086f1bd8fdee65c024aafb739b2e24ddec449e88286e33b",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s187~2",
+      "style": "subsection2",
+      "text": "the application must be rejected or the registration may be opposed:"
+    },
+    {
+      "content_hash": "sha256:88c55e7055ca1e57b0105a647a750d7fab70f0d5293f49d2cbfb311a03e7c173",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s187~2",
+      "ref": "TMA1995/s187(c)",
+      "style": "paragraph",
+      "text": "(c) if the trade mark is not registered as a trade mark in the name of the applicant; or"
+    },
+    {
+      "content_hash": "sha256:5aefbba65af54a65141993e81bc587086f99cdc1a80b5e57e6c7bd5159b8b643",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s187~2",
+      "ref": "TMA1995/s187(d)",
+      "style": "paragraph",
+      "text": "(d) in the case of a registered trade mark—if it is not likely that the use of the trade mark in relation to the goods or services in respect of which its registration as a defensive trade mark is sought will be taken to indicate that there is a connection between those goods or services and the registered owner."
+    },
+    {
+      "content_hash": "sha256:a03f96dbe38584fb9fe5d3f88c6d416e897b4a70356b1d46ab8067fa61e22563",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s187(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s186",
+          "mention": "section 186"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "section 41"
+        }
+      ],
+      "ref": "TMA1995/s187(d)~1",
+      "style": "notetext",
+      "text": "Note: Division 2 of Part 4 sets out the main grounds for rejecting an application but section 41 does not apply to defensive trade marks (see section 186). Division 2 of Part 5 sets out the main grounds for opposing registration."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdiva"
+  ],
+  "content_hash": "sha256:457b9ad7d23805df698e66cdb3a29b50008909e4645a7c276c80415a27b97805",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision A—Amending Register",
+    "82A  Linking series registrations"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "82A",
+  "ref": "TMA1995/s82A",
+  "text": "(1) Subsection (2) applies if: (a) before the commencement of this section, 2 or more applications were made each seeking the registration of the same 2 or more trade marks in respect of goods or services of different classes; and (b) the filing date of each of those applications is the same; and (c) the trade marks are registered trade marks for the purposes of this Act with the same registered owner. Note: For filing date, registered owner and registered trade mark see section 6. (2) The registered owner may apply to the Registrar, in writing, to have those trade marks, or so many of those trade marks as are identified in the application to the Registrar, dealt with under this Act as if they were registered as a series in one registration in respect of all goods and services in respect of which the trade marks, or the identified trade marks, were registered. Note: For this Act and registered owner see section 6. (3) If an application is made under subsection (2), the Registrar must deal with the trade marks, or the identified trade marks, as if they were one registration.",
+  "title": "Linking series registrations",
+  "units": [
+    {
+      "content_hash": "sha256:f2fcf2214e169073658e200c97b2b8360427ab9117c0d8da0e79b7d76cd7f320",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s82A(1)",
+      "style": "subsection",
+      "text": "(1) Subsection (2) applies if:"
+    },
+    {
+      "content_hash": "sha256:02e29626852175849e05493fe6a0d733f3c72f6f573a1bbb94df33693d3d137b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s82A(1)",
+      "ref": "TMA1995/s82A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) before the commencement of this section, 2 or more applications were made each seeking the registration of the same 2 or more trade marks in respect of goods or services of different classes; and"
+    },
+    {
+      "content_hash": "sha256:fdcec9c81ba624616b167891d9f9965b681c6aff33a685a0532c2ac43dfb78d9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s82A(1)",
+      "ref": "TMA1995/s82A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the filing date of each of those applications is the same; and"
+    },
+    {
+      "content_hash": "sha256:8e46fd1266609bda7c90626457f02c0b4654c00560f653c59c70de6d89a43784",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s82A(1)",
+      "ref": "TMA1995/s82A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the trade marks are registered trade marks for the purposes of this Act with the same registered owner."
+    },
+    {
+      "content_hash": "sha256:16e79b37c652e003ab9f0fb7814e783037a999cf7baf9c8d060b1b7b0f2874eb",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 39,
+          "start": 23,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 65,
+          "start": 44,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s82A(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s82A(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For filing date, registered owner and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:678327d6f55cb4dbfc6a58ac78b794865994f1a9973478d9a75d4927627d7d99",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s82A(2)",
+      "style": "subsection",
+      "text": "(2) The registered owner may apply to the Registrar, in writing, to have those trade marks, or so many of those trade marks as are identified in the application to the Registrar, dealt with under this Act as if they were registered as a series in one registration in respect of all goods and services in respect of which the trade marks, or the identified trade marks, were registered."
+    },
+    {
+      "content_hash": "sha256:950c0d3f221545305fa7719c610604a9f06ff972bb5405a25582b53a182a1b10",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 39,
+          "start": 23,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s82A(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s82A(2)~1",
+      "style": "notetext",
+      "text": "Note: For this Act and registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:984cc1d886b7b2cf9f7530eb28c67fea5fb53710db513318263af8864d0b3728",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s82A(3)",
+      "style": "subsection",
+      "text": "(3) If an application is made under subsection (2), the Registrar must deal with the trade marks, or the identified trade marks, as if they were one registration."
+    }
+  ]
+}

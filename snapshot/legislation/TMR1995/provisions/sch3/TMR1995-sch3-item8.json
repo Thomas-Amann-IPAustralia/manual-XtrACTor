@@ -1,0 +1,127 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/sch3"
+  ],
+  "content_hash": "sha256:1fae0993667666ee262191efd6fd07bca5fd2b33555129de03e58ed7da947e4a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 3—Modifications of Part 13 of the Act (Norfolk Island)",
+    "8  Further amendments—Norfolk Island"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "8",
+  "ref": "TMR1995/sch3/item8",
+  "text": "The following provisions are amended by omitting each mention of “Australia” and substituting “Norfolk Island”: (a) section 131; (b) subsection 133(1); (c) paragraph 134(4)(a); (d) subparagraph 136C(2)(b)(ii); (e) section 143.",
+  "title": "Further amendments—Norfolk Island",
+  "units": [
+    {
+      "content_hash": "sha256:b0c9e3e8e7788e3d393476acefb7351ae3d6413c199b51ce6953acd77049d689",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/sch3/item8~1",
+      "style": "subsection",
+      "text": "The following provisions are amended by omitting each mention of “Australia” and substituting “Norfolk Island”:"
+    },
+    {
+      "content_hash": "sha256:21f259e61b479835ddb8296d42e62f4c8d48eca564170e2880de63f61fc45cc3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/sch3/item8~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s131",
+          "mention": "section 131"
+        }
+      ],
+      "ref": "TMR1995/sch3/item8(a)",
+      "style": "paragraph",
+      "text": "(a) section 131;"
+    },
+    {
+      "content_hash": "sha256:c54fd6f86a28d1ca18545eecd727b7746805da20e984c87c5b4c133804d80179",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/sch3/item8~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s133(1)",
+          "mention": "subsection 133(1)"
+        }
+      ],
+      "ref": "TMR1995/sch3/item8(b)",
+      "style": "paragraph",
+      "text": "(b) subsection 133(1);"
+    },
+    {
+      "content_hash": "sha256:6750fb3fc55f55d19864f98c32fa78fc610f71a9c4c5a307f32b74528e2fb7bf",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/sch3/item8~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s134(4)(a)",
+          "mention": "paragraph 134(4)(a)"
+        }
+      ],
+      "ref": "TMR1995/sch3/item8(c)",
+      "style": "paragraph",
+      "text": "(c) paragraph 134(4)(a);"
+    },
+    {
+      "content_hash": "sha256:23c45049ec78e9979347d1ebd7e727db87d452409bcb7a3b99acd34a02a35781",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/sch3/item8~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136C(2)(b)(ii)",
+          "mention": "subparagraph 136C(2)(b)(ii)"
+        }
+      ],
+      "ref": "TMR1995/sch3/item8(d)",
+      "style": "paragraph",
+      "text": "(d) subparagraph 136C(2)(b)(ii);"
+    },
+    {
+      "content_hash": "sha256:86a90f611c4b8ef2e154e3b2fee1109819fa94d0c6586453822203f4db14a1d3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/sch3/item8~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s143",
+          "mention": "section 143"
+        }
+      ],
+      "ref": "TMR1995/sch3/item8(e)",
+      "style": "paragraph",
+      "text": "(e) section 143."
+    }
+  ]
+}

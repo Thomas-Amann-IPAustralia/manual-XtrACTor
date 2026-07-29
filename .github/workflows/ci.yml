@@ -47,5 +47,21 @@ jobs:
         # there is a validator everybody learns to ignore.
         run: python -m tmm_snapshot.validate
 
-      - name: CLI loads
-        run: python -m tmm_snapshot.crawl --help
+      - name: Legislation snapshot validates against schema/
+        run: python -m frl_snapshot.validate
+
+      - name: Legislation corpus is unmoved by this commit
+        # The legislation half's equivalent of `crawl --from-raw --force
+        # --dry-run`, and unlike the Manual's it is cheap enough to run on
+        # every push: it re-cuts both instruments from the stored .docx with no
+        # network at all. A non-zero count means this commit changes the
+        # corpus, which is either the point of the commit or a bug in it —
+        # either way the diff should show it rather than the next crawl.
+        run: |
+          python -m frl_snapshot.crawl --from-raw --force
+          git diff --exit-code -- snapshot/legislation ':!snapshot/legislation/manifest.json'
+
+      - name: CLIs load
+        run: |
+          python -m tmm_snapshot.crawl --help
+          python -m frl_snapshot.crawl --help

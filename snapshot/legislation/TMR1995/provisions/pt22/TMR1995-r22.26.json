@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div6"
+  ],
+  "content_hash": "sha256:8829346595cf5f8683cbc5bf955b7ac575b4c166aac32ddbc01617da165d3db4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 6—Amendments made by the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024",
+    "22.26  Amendments made by Part 1 of Schedule 1"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.26",
+  "ref": "TMR1995/r22.26",
+  "text": "Despite the amendments of regulation 21.21 and clause 1 of Schedule 9 made by Part 1 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, those provisions, as in force immediately before the commencement of that Part, continue to apply in relation to a trade mark for which particulars were entered in the Register under section 69 of the Act before that commencement.",
+  "title": "Amendments made by Part 1 of Schedule 1",
+  "units": [
+    {
+      "content_hash": "sha256:8829346595cf5f8683cbc5bf955b7ac575b4c166aac32ddbc01617da165d3db4",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 166,
+          "start": 106,
+          "text": "Intellectual Property Laws Amendment (Regulator Performance)",
+          "weight": "italic"
+        },
+        {
+          "end": 180,
+          "start": 167,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 183,
+          "start": 180,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21",
+          "mention": "regulation 21.21"
+        }
+      ],
+      "ref": "TMR1995/r22.26~1",
+      "style": "subsection",
+      "text": "Despite the amendments of regulation 21.21 and clause 1 of Schedule 9 made by Part 1 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, those provisions, as in force immediately before the commencement of that Part, continue to apply in relation to a trade mark for which particulars were entered in the Register under section 69 of the Act before that commencement."
+    }
+  ]
+}

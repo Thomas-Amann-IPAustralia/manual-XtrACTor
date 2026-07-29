@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt6"
+  ],
+  "content_hash": "sha256:5049e83cfd9fd73b56ad8c2749fbdbacfbfa695dbc318d5ad71686f999ac8f6c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "66A  Registrar may require certain requests to be in writing"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "66A",
+  "ref": "TMA1995/s66A",
+  "text": "The Registrar may require a request under section 63 or 66 to be in writing if the Registrar is of the opinion that the amendment requested is not minor.",
+  "title": "Registrar may require certain requests to be in writing",
+  "units": [
+    {
+      "content_hash": "sha256:5049e83cfd9fd73b56ad8c2749fbdbacfbfa695dbc318d5ad71686f999ac8f6c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s63",
+          "mention": "section 63 or 66"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s66",
+          "mention": "section 63 or 66"
+        }
+      ],
+      "ref": "TMA1995/s66A~1",
+      "style": "subsection",
+      "text": "The Registrar may require a request under section 63 or 66 to be in writing if the Registrar is of the opinion that the amendment requested is not minor."
+    }
+  ]
+}

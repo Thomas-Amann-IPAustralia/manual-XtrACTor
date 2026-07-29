@@ -1,0 +1,91 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:1593bc20da279953f5d90a6b8a0181836d33647613d2fac0f66499d92c472b1f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34P  Appeal"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34P",
+  "ref": "TMR1995/r17A.34P",
+  "text": "(1) Section 56 of the Act applies in relation to the Registrar’s decision on the opposition as if a reference in that section: (a) to an applicant were a reference to the holder of an IRDA; and (b) to a decision under section 55 of the Act were a reference to a decision under regulation 17A.34N. (2) If an appeal is made, the Registrar must tell the International Bureau of the decision on the appeal.",
+  "title": "Appeal",
+  "units": [
+    {
+      "content_hash": "sha256:92bb0f72ad71a4df01c79fc8a3ea468d1460b22002004acd5f6990f800df7784",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s56",
+          "mention": "Section 56"
+        }
+      ],
+      "ref": "TMR1995/r17A.34P(1)",
+      "style": "subsection",
+      "text": "(1) Section 56 of the Act applies in relation to the Registrar’s decision on the opposition as if a reference in that section:"
+    },
+    {
+      "content_hash": "sha256:34071fde4ed3efc2a84c2c0b97333598640a86679b627891cdb0fd2527f61afd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.34P(1)",
+      "ref": "TMR1995/r17A.34P(1)(a)",
+      "style": "paragraph",
+      "text": "(a) to an applicant were a reference to the holder of an IRDA; and"
+    },
+    {
+      "content_hash": "sha256:2f04414070e84d37a10182f071c65b897c471b565b7c3930401f9189fa5dd3f6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.34P(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s55",
+          "mention": "section 55"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34N",
+          "mention": "regulation 17A.34N"
+        }
+      ],
+      "ref": "TMR1995/r17A.34P(1)(b)",
+      "style": "paragraph",
+      "text": "(b) to a decision under section 55 of the Act were a reference to a decision under regulation 17A.34N."
+    },
+    {
+      "content_hash": "sha256:c1d34dc6d1db7d92d86bbfc497e5dca3de2f49f49470858fb6c21647ffb1c9b9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34P(2)",
+      "style": "subsection",
+      "text": "(2) If an appeal is made, the Registrar must tell the International Bureau of the decision on the appeal."
+    }
+  ]
+}

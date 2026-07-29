@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [],
+  "content_hash": "sha256:5d099d5faa66187d597e503c7293b1a6415544b4c2a0ddfbb5b2dc08c80ca9ac",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "9  Fees"
+  ],
+  "instrument": "TMR1995",
+  "kind": "container",
+  "number": "9",
+  "ref": "TMR1995/sch9",
+  "text": "Note: See regulation 21.21.",
+  "title": "Fees",
+  "units": [
+    {
+      "content_hash": "sha256:5d099d5faa66187d597e503c7293b1a6415544b4c2a0ddfbb5b2dc08c80ca9ac",
+      "depth": 0,
+      "kind": "note",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.21",
+          "mention": "regulation 21.21"
+        }
+      ],
+      "ref": "TMR1995/sch9~1",
+      "style": "notemargin",
+      "text": "Note: See regulation 21.21."
+    }
+  ]
+}

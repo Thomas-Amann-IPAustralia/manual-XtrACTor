@@ -1,0 +1,141 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:f7b752057f19984814fe7b2c2b344fc9d4b0d057c7eb0320788cf1134e08c520",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "141A  Failure to comply with undertaking etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "141A",
+  "ref": "TMA1995/s141A",
+  "text": "(1) If an amount payable under an undertaking in relation to goods covered by a notice given under section 132 is not paid in accordance with the undertaking, the ComptrollerGeneral of Customs may decide not to seize goods covered by the notice until the amount owing is paid. (2) An amount not paid under an undertaking: (a) is a debt due by the objector, or by the objectors jointly or each of them separately, to the Commonwealth; and (b) may be recovered by an action taken in a court of competent jurisdiction. Note: For objector see section 6. (3) If the amount paid under an undertaking in relation to goods covered by a notice given under section 132 is in accordance with the undertaking but is not sufficient to meet the expenses incurred by the Commonwealth as a result of the action taken by the ComptrollerGeneral of Customs under this Part because of the notice, the amount of the difference between those expenses and the amount paid: (a) is a debt due by the objector, or by the objectors jointly or each of them separately, to the Commonwealth; and (b) may be recovered by an action taken in a court of competent jurisdiction.",
+  "title": "Failure to comply with undertaking etc.",
+  "units": [
+    {
+      "content_hash": "sha256:f67c3954ba00819641b56533b4fadbded1acbbbc1d7960cfd13861328042b90f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132",
+          "mention": "section 132"
+        }
+      ],
+      "ref": "TMA1995/s141A(1)",
+      "style": "subsection",
+      "text": "(1) If an amount payable under an undertaking in relation to goods covered by a notice given under section 132 is not paid in accordance with the undertaking, the ComptrollerGeneral of Customs may decide not to seize goods covered by the notice until the amount owing is paid."
+    },
+    {
+      "content_hash": "sha256:b3e293a2d62fae9869c55b11c5d6f88948f8209a79ce3e9d052b5f897740c99d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s141A(2)",
+      "style": "subsection",
+      "text": "(2) An amount not paid under an undertaking:"
+    },
+    {
+      "content_hash": "sha256:ae1cfbb3f565ac1511df0fc2349fc5ef11c486f4d00879a26d15347fa3816e8e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s141A(2)",
+      "ref": "TMA1995/s141A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) is a debt due by the objector, or by the objectors jointly or each of them separately, to the Commonwealth; and"
+    },
+    {
+      "content_hash": "sha256:5bbb1f3a920b0c26b356ac1849b5dd74c001979e63479b3359d69319e9b2c111",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s141A(2)",
+      "ref": "TMA1995/s141A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) may be recovered by an action taken in a court of competent jurisdiction."
+    },
+    {
+      "content_hash": "sha256:5ae32d8745bd4718fc21c847fb9e93f921d0fb005ceb6534a203c64b659c24b0",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "objector",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s141A(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s141A(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: For objector see section 6."
+    },
+    {
+      "content_hash": "sha256:1c63cb72d873ea7778b98c3d1053b94411e41ee7fc80811a23f06a4e81b42710",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132",
+          "mention": "section 132"
+        }
+      ],
+      "ref": "TMA1995/s141A(3)",
+      "style": "subsection",
+      "text": "(3) If the amount paid under an undertaking in relation to goods covered by a notice given under section 132 is in accordance with the undertaking but is not sufficient to meet the expenses incurred by the Commonwealth as a result of the action taken by the ComptrollerGeneral of Customs under this Part because of the notice, the amount of the difference between those expenses and the amount paid:"
+    },
+    {
+      "content_hash": "sha256:ae1cfbb3f565ac1511df0fc2349fc5ef11c486f4d00879a26d15347fa3816e8e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s141A(3)",
+      "ref": "TMA1995/s141A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) is a debt due by the objector, or by the objectors jointly or each of them separately, to the Commonwealth; and"
+    },
+    {
+      "content_hash": "sha256:5bbb1f3a920b0c26b356ac1849b5dd74c001979e63479b3359d69319e9b2c111",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s141A(3)",
+      "ref": "TMA1995/s141A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) may be recovered by an action taken in a court of competent jurisdiction."
+    }
+  ]
+}

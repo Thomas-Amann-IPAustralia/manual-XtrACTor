@@ -1,0 +1,111 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:230d89608962ee5a7d181a0d0e6add344cd68e92a997d9896e0594afbc05f491",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "227  Notice regarding review of decision by Administrative Review Tribunal"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "227",
+  "ref": "TMA1995/s227",
+  "text": "(1) If, under a provision of this Act, an application may be made to the Administrative Review Tribunal for the review of a decision of a person: (a) the person must give a written notice of the decision to any person affected by it; and (b) the notice must include a statement to the effect that, subject to the Administrative Review Tribunal Act 2024, application may be made to the Administrative Review Tribunal for the review of the decision to which the notice relates by or on behalf of the person or persons whose interests are affected by the decision. (2) Failure to comply with subsection (1) in relation to a decision does not affect the validity of the decision. (3) In this section: decision has the same meaning as in the Administrative Review Tribunal Act 2024.",
+  "title": "Notice regarding review of decision by Administrative Review Tribunal",
+  "units": [
+    {
+      "content_hash": "sha256:d903aae7e4f106410801830878f0637f4ec0a360daf25252aa0e958ff8ceec24",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s227(1)",
+      "style": "subsection",
+      "text": "(1) If, under a provision of this Act, an application may be made to the Administrative Review Tribunal for the review of a decision of a person:"
+    },
+    {
+      "content_hash": "sha256:7a9c73f99a392c566ec297770c19e3214c515c2c879f372c781fa82f337fb520",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s227(1)",
+      "ref": "TMA1995/s227(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person must give a written notice of the decision to any person affected by it; and"
+    },
+    {
+      "content_hash": "sha256:da66074d5a86fa7665925580bf19768eec7ef26eed7f4543985d3be7ba5da7ab",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 114,
+          "start": 75,
+          "text": "Administrative Review Tribunal Act 2024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s227(1)",
+      "ref": "TMA1995/s227(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the notice must include a statement to the effect that, subject to the Administrative Review Tribunal Act 2024, application may be made to the Administrative Review Tribunal for the review of the decision to which the notice relates by or on behalf of the person or persons whose interests are affected by the decision."
+    },
+    {
+      "content_hash": "sha256:f619e767a728ea149791f6536beb8594c14016d460b7d9593107939b3268eba7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s227(2)",
+      "style": "subsection",
+      "text": "(2) Failure to comply with subsection (1) in relation to a decision does not affect the validity of the decision."
+    },
+    {
+      "content_hash": "sha256:62da2009f058acd85b339386a881d27680a4781b330ac9a02eebda4f466895c6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s227(3)",
+      "style": "subsection",
+      "text": "(3) In this section:"
+    },
+    {
+      "content_hash": "sha256:f7f55ab3ae2ce5e5f24ddae982db25d4a4f0f5a8b45af460965d22740db67ab2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 8,
+          "start": 0,
+          "text": "decision",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 79,
+          "start": 40,
+          "text": "Administrative Review Tribunal Act 2024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s227~1",
+      "style": "Definition",
+      "text": "decision has the same meaning as in the Administrative Review Tribunal Act 2024."
+    }
+  ]
+}

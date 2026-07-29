@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div9"
+  ],
+  "content_hash": "sha256:cfb85cbca764f692aa2d533d61c59b2c5d707acbd77d3c2c31ceb0b9ed332acd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 9—Change in ownership of international registration",
+    "17A.60  Recording change of ownership"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.60",
+  "ref": "TMR1995/r17A.60",
+  "text": "If the change of ownership has effect in Australia, the Registrar must record it in the Record of International Registrations. Note: If regulation 17A.57, 17A.58 or 17A.59 does not apply to the trade mark, the change of ownership of the international registration has effect in Australia in accordance with the Protocol.",
+  "title": "Recording change of ownership",
+  "units": [
+    {
+      "content_hash": "sha256:60e2fb97dda18fd9b1b46ada823a1538277e8b39e8ba0d52bc1156140bdcd463",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.60~1",
+      "style": "subsection",
+      "text": "If the change of ownership has effect in Australia, the Registrar must record it in the Record of International Registrations."
+    },
+    {
+      "content_hash": "sha256:66e66396f0d5b118cc3ef768b62980fe0232bc32e52dfa0972d13cf44fc38c40",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.60~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.57",
+          "mention": "regulation 17A.57, 17A.58 or 17A.59"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.58",
+          "mention": "regulation 17A.57, 17A.58 or 17A.59"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.59",
+          "mention": "regulation 17A.57, 17A.58 or 17A.59"
+        }
+      ],
+      "ref": "TMR1995/r17A.60~1~1",
+      "style": "notetext",
+      "text": "Note: If regulation 17A.57, 17A.58 or 17A.59 does not apply to the trade mark, the change of ownership of the international registration has effect in Australia in accordance with the Protocol."
+    }
+  ]
+}

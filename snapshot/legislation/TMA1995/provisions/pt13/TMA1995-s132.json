@@ -1,0 +1,289 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:1926750b9c76346104812c2aa7d3e7200fdb51d6597c9aee3621b60b2a3f3fe3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "132  Notice of objection to importation"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "132",
+  "ref": "TMA1995/s132",
+  "text": "(1) The registered owner of a registered trade mark may give to the ComptrollerGeneral of Customs a notice in writing objecting to the importation after the date of the notice of goods that infringe the trade mark. The notice is to be given together with any prescribed document. (2) If: (a) the registered owner of the registered trade mark has not given a notice under subsection (1); or (b) any notice given under subsection (1) is no longer in force; an authorised user of the trade mark having power to give a notice under subsection (1) may ask the registered owner to give such a notice in respect of the trade mark. Note 1: For authorised user see section 8. Note 2: An authorised user of the trade mark may not have power to give a notice under subsection (1) because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26). (3) The authorised user may give the notice to the ComptrollerGeneral of Customs: (a) at any time, with the consent of the registered owner; or (b) during the prescribed period, if the registered owner refuses to comply with the request on a particular occasion during the prescribed period; or (c) after the end of the prescribed period, if the registered owner has failed to give such a notice during the prescribed period. The authorised user must give also to the ComptrollerGeneral of Customs, together with the notice: (d) any document prescribed for the purposes of subsection (1); and (e) any other prescribed document. (4) A notice given by the registered owner of a trade mark remains in force for 4 years from the day on which the notice is given unless it is revoked, before the end of that period, by notice in writing given to the ComptrollerGeneral of Customs by the person who is then the registered owner of the trade mark. (5) A notice given by an authorised user of the trade mark remains in force for 4 years unless it is revoked, before the end of that period, by notice in writing given to the ComptrollerGeneral of Customs: (a) if the authorised user has power to revoke the notice—by the authorised user; or (b) in any other case—by the person who is then the registered owner of the trade mark. Note 1: For authorised user see section 8. Note 2: An authorised user of a trade mark may not have power to revoke the notice because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26).",
+  "title": "Notice of objection to importation",
+  "units": [
+    {
+      "content_hash": "sha256:c082883e1aa1776932a3e16b7ec04653c24a31e7b9f2af51eb15b1b87b41cd2f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s132(1)",
+      "style": "subsection",
+      "text": "(1) The registered owner of a registered trade mark may give to the ComptrollerGeneral of Customs a notice in writing objecting to the importation after the date of the notice of goods that infringe the trade mark. The notice is to be given together with any prescribed document."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s132(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:5e3cbd9f3371581a4a931cbf3f68db3fe1df6dcee57c3ed1371f6770498d414a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s132(2)",
+      "ref": "TMA1995/s132(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner of the registered trade mark has not given a notice under subsection (1); or"
+    },
+    {
+      "content_hash": "sha256:6e9d0e0ccbd53b412a5bd76742777d42c0be878d75fe84374bb82ad0f08a6a13",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s132(2)",
+      "ref": "TMA1995/s132(2)(b)",
+      "style": "paragraph",
+      "text": "(b) any notice given under subsection (1) is no longer in force;"
+    },
+    {
+      "content_hash": "sha256:f680afda5e7577fc7636294c2aa1bfb28533e039ac26e70bd38e571474e01a52",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s132~1",
+      "style": "subsection2",
+      "text": "an authorised user of the trade mark having power to give a notice under subsection (1) may ask the registered owner to give such a notice in respect of the trade mark."
+    },
+    {
+      "content_hash": "sha256:189d086ba6aed022519baaf75930b02e5938815f8fd2d5d55b9e3a5239510094",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s132~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s132~1~1",
+      "style": "notetext",
+      "text": "Note 1: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:6bdf2532a134177c33a24902fdf3ba0130f293e08a13ad7d398700cb530ad7c9",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s132~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26",
+          "mention": "section 26"
+        }
+      ],
+      "ref": "TMA1995/s132~1~2",
+      "style": "notetext",
+      "text": "Note 2: An authorised user of the trade mark may not have power to give a notice under subsection (1) because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26)."
+    },
+    {
+      "content_hash": "sha256:fa976af09b5d9d4772c165265d7e823703d4acfa26ea7fdaf0cb18dff94b5e72",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s132(3)",
+      "style": "subsection",
+      "text": "(3) The authorised user may give the notice to the ComptrollerGeneral of Customs:"
+    },
+    {
+      "content_hash": "sha256:9091099f6a97a6e457aebab70f2ea7585ffcb7a89a54ebe674c79705cc4f7074",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s132(3)",
+      "ref": "TMA1995/s132(3)(a)",
+      "style": "paragraph",
+      "text": "(a) at any time, with the consent of the registered owner; or"
+    },
+    {
+      "content_hash": "sha256:c4ee7efef7738e43ae2b67973d60ed3c2f9ab4dfd7a3e696510a884d8e91ce53",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s132(3)",
+      "ref": "TMA1995/s132(3)(b)",
+      "style": "paragraph",
+      "text": "(b) during the prescribed period, if the registered owner refuses to comply with the request on a particular occasion during the prescribed period; or"
+    },
+    {
+      "content_hash": "sha256:685599baecee5a5664addfb54d88a2d2a118845843fdafc3ff8dd1085bfdf905",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s132(3)",
+      "ref": "TMA1995/s132(3)(c)",
+      "style": "paragraph",
+      "text": "(c) after the end of the prescribed period, if the registered owner has failed to give such a notice during the prescribed period."
+    },
+    {
+      "content_hash": "sha256:c6fe66e5e6a9c96d2a63e389645b68711a834cee49ed976c760a30f682ed77b9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s132~2",
+      "style": "subsection2",
+      "text": "The authorised user must give also to the ComptrollerGeneral of Customs, together with the notice:"
+    },
+    {
+      "content_hash": "sha256:fc7938cca9f936606c5ceec65f7a5b2d711d301db051d59db2e331463169ab3b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s132~2",
+      "ref": "TMA1995/s132(d)",
+      "style": "paragraph",
+      "text": "(d) any document prescribed for the purposes of subsection (1); and"
+    },
+    {
+      "content_hash": "sha256:fc97ac9fe1cfc5b0250a21444d141b2d0f107525c17e9641fd4e82a8b6b025bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s132~2",
+      "ref": "TMA1995/s132(e)",
+      "style": "paragraph",
+      "text": "(e) any other prescribed document."
+    },
+    {
+      "content_hash": "sha256:db41af5f311f2498ad63b305f5021e0cda58e7faa8689bfaf8ca79714926a32c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s132(4)",
+      "style": "subsection",
+      "text": "(4) A notice given by the registered owner of a trade mark remains in force for 4 years from the day on which the notice is given unless it is revoked, before the end of that period, by notice in writing given to the ComptrollerGeneral of Customs by the person who is then the registered owner of the trade mark."
+    },
+    {
+      "content_hash": "sha256:ecd577075ca535e4adb09cf0a25cf69a57985dc334cb92a6ce581e6aeea0481b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s132(5)",
+      "style": "subsection",
+      "text": "(5) A notice given by an authorised user of the trade mark remains in force for 4 years unless it is revoked, before the end of that period, by notice in writing given to the ComptrollerGeneral of Customs:"
+    },
+    {
+      "content_hash": "sha256:ed74174e86806fc21289ebe5a73a8c55e47ae2d70a21bd371c923de24c08c394",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s132(5)",
+      "ref": "TMA1995/s132(5)(a)",
+      "style": "paragraph",
+      "text": "(a) if the authorised user has power to revoke the notice—by the authorised user; or"
+    },
+    {
+      "content_hash": "sha256:a4a0162d755b3c4b8db26242f9861c9b2e05eb7beb8ee2263bf674c8f8ab8ae4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s132(5)",
+      "ref": "TMA1995/s132(5)(b)",
+      "style": "paragraph",
+      "text": "(b) in any other case—by the person who is then the registered owner of the trade mark."
+    },
+    {
+      "content_hash": "sha256:189d086ba6aed022519baaf75930b02e5938815f8fd2d5d55b9e3a5239510094",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s132(5)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s132(5)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:e12ca6fdf2dab544b78074f7b0df812eec138840df27bb56d91ff26393d114be",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s132(5)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26",
+          "mention": "section 26"
+        }
+      ],
+      "ref": "TMA1995/s132(5)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: An authorised user of a trade mark may not have power to revoke the notice because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26)."
+    }
+  ]
+}

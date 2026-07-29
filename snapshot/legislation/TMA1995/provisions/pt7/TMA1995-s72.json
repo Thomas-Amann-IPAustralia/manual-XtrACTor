@@ -1,0 +1,222 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:80449e569582efead55be8ead7ce15a321e88fc56de0944ce58e7ddbde40afcd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "72  Date and term of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "72",
+  "ref": "TMA1995/s72",
+  "text": "(1) Subject to subsection (2), the registration of a trade mark in respect of the goods and/or services in respect of which the trade mark is registered is taken to have had effect from (and including) the filing date in respect of the application for registration. Note: For filing date see section 6. (2) If: (a) the application was in respect of a trade mark whose registration had also been sought in one or more than one Convention country; and (b) the applicant claimed a right of priority under section 29 for the registration of the trade mark in respect of particular goods or services; and (c) the trade mark is registered under this Act; the registration of the trade mark in respect of those goods or services is taken to have had effect: (d) if an application to register the trade mark was made in only one Convention country—from (and including) the day on which the application was made in that country; or (e) if applications to register the trade mark were made in more than one Convention country—from (and including) the day on which the earliest of those applications was made. Note: For Convention country see section 225. (3) Unless it is earlier cancelled, or the trade mark is earlier removed from the Register, the registration of the trade mark expires 10 years after the filing date in respect of the application for its registration. Note 1: This is so even for a trade mark whose registration in respect of particular goods or services has effect from (and including) the day on which an application was made in a Convention country. Note 2: For filing date see section 6.",
+  "title": "Date and term of registration",
+  "units": [
+    {
+      "content_hash": "sha256:f0a1256af200de89effb5914d68aa5a0df753e060dca11ed4dc83651ed58dbd7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s72(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (2), the registration of a trade mark in respect of the goods and/or services in respect of which the trade mark is registered is taken to have had effect from (and including) the filing date in respect of the application for registration."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s72(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s72(1)~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s72(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:5a8f066d8e347e5334a310f888306faa053bef7e0186ec1ad538a1b99304c46a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s72(2)",
+      "ref": "TMA1995/s72(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application was in respect of a trade mark whose registration had also been sought in one or more than one Convention country; and"
+    },
+    {
+      "content_hash": "sha256:387797a3df848a537a84ddb6b615ea93b5bebbc329d08e07107a8d24541aa04c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s72(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        }
+      ],
+      "ref": "TMA1995/s72(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant claimed a right of priority under section 29 for the registration of the trade mark in respect of particular goods or services; and"
+    },
+    {
+      "content_hash": "sha256:6d94e8b2e5c5e3bfad3163b67bd5564fe0024c25d72aa2e5eb1a7ccc912b7d6e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s72(2)",
+      "ref": "TMA1995/s72(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the trade mark is registered under this Act;"
+    },
+    {
+      "content_hash": "sha256:4ed98384a419c91253373da8c657a57eeb2d9e6b278ec961d92641aa39d3cbdc",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s72~1",
+      "style": "subsection2",
+      "text": "the registration of the trade mark in respect of those goods or services is taken to have had effect:"
+    },
+    {
+      "content_hash": "sha256:aa75adcd8b3621a980bb1e5a8c0bc68860e811ce58e587ace09b7ed5aac886af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s72~1",
+      "ref": "TMA1995/s72(d)",
+      "style": "paragraph",
+      "text": "(d) if an application to register the trade mark was made in only one Convention country—from (and including) the day on which the application was made in that country; or"
+    },
+    {
+      "content_hash": "sha256:4f22b679aeef1d2f847996ae0718f8f24842698a2645325d683bdf81780eb7f1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s72~1",
+      "ref": "TMA1995/s72(e)",
+      "style": "paragraph",
+      "text": "(e) if applications to register the trade mark were made in more than one Convention country—from (and including) the day on which the earliest of those applications was made."
+    },
+    {
+      "content_hash": "sha256:9059baa7aa7e3be6e019cfb3e1ad972366c94a44a09147c3e2a7047e7e172117",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 10,
+          "text": "Convention country",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s72(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225",
+          "mention": "section 225"
+        }
+      ],
+      "ref": "TMA1995/s72(e)~1",
+      "style": "notetext",
+      "text": "Note: For Convention country see section 225."
+    },
+    {
+      "content_hash": "sha256:2793583dea31c16504e8e5958859642c3e2c134149d9fefb20f8e411eb368e01",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s72(3)",
+      "style": "subsection",
+      "text": "(3) Unless it is earlier cancelled, or the trade mark is earlier removed from the Register, the registration of the trade mark expires 10 years after the filing date in respect of the application for its registration."
+    },
+    {
+      "content_hash": "sha256:caeb40741d7d4cc7001fc6c710145754f28d4108803490fd2883a65d61f668dd",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s72(3)",
+      "ref": "TMA1995/s72(3)~1",
+      "style": "notetext",
+      "text": "Note 1: This is so even for a trade mark whose registration in respect of particular goods or services has effect from (and including) the day on which an application was made in a Convention country."
+    },
+    {
+      "content_hash": "sha256:e8f00d527f174881cd1e0c15e97945428d70d6bd9cd9ad0110d46b80eb9909f3",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 23,
+          "start": 12,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s72(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s72(3)~2",
+      "style": "notetext",
+      "text": "Note 2: For filing date see section 6."
+    }
+  ]
+}

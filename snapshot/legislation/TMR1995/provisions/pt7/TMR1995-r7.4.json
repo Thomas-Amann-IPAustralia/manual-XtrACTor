@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div2"
+  ],
+  "content_hash": "sha256:ac61d5d9131fb678e4c3c36018857ff41cdf855e01bf7267c22d0096a4a48d47",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "7.4  Notice of renewal due—when and how given"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.4",
+  "ref": "TMR1995/r7.4",
+  "text": "(1) For the purposes of section 76 of the Act (which deals with notice of renewal due), the period in relation to notifying a registered owner that renewal of the registration of a trade mark is due is 2 months ending on the day on which the registration of the trade mark expires. (2) A notice that the renewal is due must include: (a) a statement of the date on which the registration of the trade mark will expire; and (b) a statement of any fee payable.",
+  "title": "Notice of renewal due—when and how given",
+  "units": [
+    {
+      "content_hash": "sha256:87e0988f89e0f99e076af057b665a36287ccea42b526b4da8bfc379c6d7c1eb3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s76",
+          "mention": "section 76"
+        }
+      ],
+      "ref": "TMR1995/r7.4(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of section 76 of the Act (which deals with notice of renewal due), the period in relation to notifying a registered owner that renewal of the registration of a trade mark is due is 2 months ending on the day on which the registration of the trade mark expires."
+    },
+    {
+      "content_hash": "sha256:4c916ae919bbb1ae1b5d8d01cfc6420acaf527dbe562b3d66d18b705e44bcbec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r7.4(2)",
+      "style": "subsection",
+      "text": "(2) A notice that the renewal is due must include:"
+    },
+    {
+      "content_hash": "sha256:eb3f84e134c04574787cf9098caac6e2dd30dacde1ed9bca20004d17e8ae2377",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r7.4(2)",
+      "ref": "TMR1995/r7.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a statement of the date on which the registration of the trade mark will expire; and"
+    },
+    {
+      "content_hash": "sha256:f319dcf05361c2b24ac9f258ab2ad6e79a2e8a1f03bc897bb61e76f24b31cc96",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r7.4(2)",
+      "ref": "TMR1995/r7.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a statement of any fee payable."
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:b060007ab90e98e81b784c6dc0c56e866d39b34485df93114e6631f6fb945232",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "24  Trade mark consisting of sign that becomes accepted as sign describing article etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "24",
+  "ref": "TMA1995/s24",
+  "text": "(1) This section applies if a registered trade mark consists of, or contains, a sign that, after the date of registration of the trade mark, becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service. Note: For registered trade mark, sign and date of registration see section 6. (2) If the trade mark consists of the sign, the registered owner: (a) does not have any exclusive rights to use, or authorise other persons to use, the trade mark in relation to: (i) the article or substance or other goods of the same description; or (ii) the service or other services of the same description; and (b) is taken to have ceased to have those exclusive rights from and including the day determined by the court under subsection (4). Note: For registered owner see section 6. (3) If the trade mark contains the sign, the registered owner: (a) does not have any exclusive rights to use, or authorise other persons to use, the sign in relation to: (i) the article or substance or other goods of the same description; or (ii) the service or other services of the same description; and (b) is taken to have ceased to have those exclusive rights from the day determined by the court under subsection (4). Note: For registered owner see section 6. (4) For the purposes of subsections (2) and (3), a prescribed court may determine the day on which a sign first became generally accepted within the relevant trade as the sign that describes or is the name of the article, substance or service. Note: For prescribed court see section 190.",
+  "title": "Trade mark consisting of sign that becomes accepted as sign describing article etc.",
+  "units": [
+    {
+      "content_hash": "sha256:0919e848d6282beedf4b53e321cb25eb80085b664c2e8826c21bf36086d8b654",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s24(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if a registered trade mark consists of, or contains, a sign that, after the date of registration of the trade mark, becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service."
+    },
+    {
+      "content_hash": "sha256:541d0c5721fa4fbdaca9edd9fd3d1602c12a8675a379c344e5a4744af1829958",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 37,
+          "start": 33,
+          "text": "sign",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 62,
+          "start": 42,
+          "text": "date of registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s24(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s24(1)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark, sign and date of registration see section 6."
+    },
+    {
+      "content_hash": "sha256:720abb0653fa2553ff6f6a0541bcbadbd91c4bc5e767dbe278b04617bc2a454b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s24(2)",
+      "style": "subsection",
+      "text": "(2) If the trade mark consists of the sign, the registered owner:"
+    },
+    {
+      "content_hash": "sha256:9f89000862a173a2835d846a72e743840cc6e0025d968d04b9989e95c37cb520",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s24(2)",
+      "ref": "TMA1995/s24(2)(a)",
+      "style": "paragraph",
+      "text": "(a) does not have any exclusive rights to use, or authorise other persons to use, the trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:19cc2a0be2844e0a740a82cbb4b5ea7c51983658efa3018a80cb752854e12eb3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s24(2)(a)",
+      "ref": "TMA1995/s24(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the article or substance or other goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:22ef0c2cd44ea82944082fd02b933fed8b32249f6011f02c316976b489492ffa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s24(2)(a)",
+      "ref": "TMA1995/s24(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the service or other services of the same description; and"
+    },
+    {
+      "content_hash": "sha256:bd42c6ba026dba822ccf803dd1dd5976cdb502c5be8fa3789035b8384e2d0001",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s24(2)",
+      "ref": "TMA1995/s24(2)(b)",
+      "style": "paragraph",
+      "text": "(b) is taken to have ceased to have those exclusive rights from and including the day determined by the court under subsection (4)."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s24(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s24(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:f64e997228a085386c70d1664b76ce3549453461ae54e60ffed3c77b670d38f2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s24(3)",
+      "style": "subsection",
+      "text": "(3) If the trade mark contains the sign, the registered owner:"
+    },
+    {
+      "content_hash": "sha256:0d729ebc25e3b4bcc591d21ab2cd0ada47dd510f9e06f4d4337e791627911971",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s24(3)",
+      "ref": "TMA1995/s24(3)(a)",
+      "style": "paragraph",
+      "text": "(a) does not have any exclusive rights to use, or authorise other persons to use, the sign in relation to:"
+    },
+    {
+      "content_hash": "sha256:19cc2a0be2844e0a740a82cbb4b5ea7c51983658efa3018a80cb752854e12eb3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s24(3)(a)",
+      "ref": "TMA1995/s24(3)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the article or substance or other goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:22ef0c2cd44ea82944082fd02b933fed8b32249f6011f02c316976b489492ffa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s24(3)(a)",
+      "ref": "TMA1995/s24(3)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the service or other services of the same description; and"
+    },
+    {
+      "content_hash": "sha256:6b8de165efc8ae8b848df0ee465ffb10e3c456013dcd1f64b2c891a3c1f91dbf",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s24(3)",
+      "ref": "TMA1995/s24(3)(b)",
+      "style": "paragraph",
+      "text": "(b) is taken to have ceased to have those exclusive rights from the day determined by the court under subsection (4)."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s24(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s24(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:c0c6e4082b388122c96aa31304ab344627ba747b0d781be114f4eac268ddac84",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s24(4)",
+      "style": "subsection",
+      "text": "(4) For the purposes of subsections (2) and (3), a prescribed court may determine the day on which a sign first became generally accepted within the relevant trade as the sign that describes or is the name of the article, substance or service."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s24(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s24(4)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:d0b620e35ce5f21d156ef463430c41a11d0ef19652ee46ac54832859c5a15896",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "127  Special case—plaintiff not entitled to damages etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "127",
+  "ref": "TMA1995/s127",
+  "text": "If: (a) in an action for the infringement of a trade mark registered in respect of particular goods or services, the court finds that the defendant has infringed the trade mark; and (b) either: (i) the defendant has applied to the court under subsection 92(3) for an order directing the Registrar to remove the trade mark from the Register in respect of those goods or services; or (ii) the defendant has applied to the Registrar under subsection 92(1) for the trade mark to be removed from the Register in respect of those goods or services, and the matter has been referred to a court under section 94; and (c) the court finds that, because the trade mark has not during a particular period (critical period) been used in good faith by its registered owner in relation to those goods or services, there are grounds (under subsection 92(4)) for so removing the trade mark from the Register; the court may not grant relief to the plaintiff by way of damages or an account of profits in respect of any infringement of the trade mark that happened during the critical period.",
+  "title": "Special case—plaintiff not entitled to damages etc.",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s127~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:14975ac3cc3fef63fdcf2d2ac3953640e9da6bca567f0f82392c81eb1fb1705e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s127~1",
+      "ref": "TMA1995/s127(a)",
+      "style": "paragraph",
+      "text": "(a) in an action for the infringement of a trade mark registered in respect of particular goods or services, the court finds that the defendant has infringed the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s127~1",
+      "ref": "TMA1995/s127(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:1151ab56b218d6d6abf111d529ace221026c6c1689dbbda1b92cf7cf172e4890",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s127(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(3)",
+          "mention": "subsection 92(3)"
+        }
+      ],
+      "ref": "TMA1995/s127(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the defendant has applied to the court under subsection 92(3) for an order directing the Registrar to remove the trade mark from the Register in respect of those goods or services; or"
+    },
+    {
+      "content_hash": "sha256:21027bafdb396add949f522eaa7ecdda0ea88b6f2fa734a076362b03afb052d3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s127(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(1)",
+          "mention": "subsection 92(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s94",
+          "mention": "section 94"
+        }
+      ],
+      "ref": "TMA1995/s127(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the defendant has applied to the Registrar under subsection 92(1) for the trade mark to be removed from the Register in respect of those goods or services, and the matter has been referred to a court under section 94; and"
+    },
+    {
+      "content_hash": "sha256:51167733b4ab95967cfa9e39aea2e87b9ea730a82856f1b5358581d9dc1b3b77",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 100,
+          "start": 85,
+          "text": "critical period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s127~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)",
+          "mention": "subsection 92(4)"
+        }
+      ],
+      "ref": "TMA1995/s127(c)",
+      "style": "paragraph",
+      "text": "(c) the court finds that, because the trade mark has not during a particular period (critical period) been used in good faith by its registered owner in relation to those goods or services, there are grounds (under subsection 92(4)) for so removing the trade mark from the Register;"
+    },
+    {
+      "content_hash": "sha256:afa206bb5f5b17b838b06782ef1c1fe772bd1602481e89dc056919acfc0f8e76",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s127~2",
+      "style": "subsection2",
+      "text": "the court may not grant relief to the plaintiff by way of damages or an account of profits in respect of any infringement of the trade mark that happened during the critical period."
+    }
+  ]
+}

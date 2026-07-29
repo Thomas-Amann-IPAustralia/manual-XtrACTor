@@ -1,0 +1,250 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:5f1a5e436b4a6219058fe3dd3772ad3a6349442cd596fd2c7ebb4453878f8499",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "175  Certificate by Commission"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "175",
+  "ref": "TMA1995/s175",
+  "text": "(1) The Commission must consider the application and any documents received under section 174 in accordance with the regulations. (2) If the Commission is satisfied that: (a) the attributes a person must have to become an approved certifier are sufficient to enable the person to assess competently whether goods and/or services meet the certification requirements; and (b) the rules referred to in section 173: (i) would not be to the detriment of the public; and (ii) are satisfactory having regard to the criteria prescribed for the purposes of this paragraph; the Commission must give a certificate to that effect and send a copy to the Registrar. The Commission must also send a certified copy of the rules to the Registrar. Note 1: For applicant see section 6. Note 2: For approved certifier see paragraph 173(2)(c). Note 3: For certification requirements see paragraph 173(2)(a). (3) The Commission may require the applicant to make amendments or modifications to the rules as the Commission considers necessary. (4) If the Commission is not satisfied as set out in subsection (2): (a) the Commission must notify the applicant and the Registrar, in writing, of its decision not to give a certificate; and (b) the Registrar must publish the matter in accordance with the regulations. (5) An application may be made to the Administrative Review Tribunal for the review of a decision of the Commission refusing to give a certificate.",
+  "title": "Certificate by Commission",
+  "units": [
+    {
+      "content_hash": "sha256:42780db627776469bbd61cd6c0f9e994b50d88cecdf6806347ae1fb17d5d073e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s174",
+          "mention": "section 174"
+        }
+      ],
+      "ref": "TMA1995/s175(1)",
+      "style": "subsection",
+      "text": "(1) The Commission must consider the application and any documents received under section 174 in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:c22d2a630a20bc456eb1372ceffcd6cef9e873b010edcde9eea808373a60e773",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s175(2)",
+      "style": "subsection",
+      "text": "(2) If the Commission is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:6032c8209bba89ec6a71c988fb394bb14af27f9b1063c57d06f802e855bbbf4f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s175(2)",
+      "ref": "TMA1995/s175(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the attributes a person must have to become an approved certifier are sufficient to enable the person to assess competently whether goods and/or services meet the certification requirements; and"
+    },
+    {
+      "content_hash": "sha256:05257536f1fed1b8dca2cc19fa3f4401529e81ba7d0bee0325da8b6ae1c3b3f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s175(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173",
+          "mention": "section 173"
+        }
+      ],
+      "ref": "TMA1995/s175(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the rules referred to in section 173:"
+    },
+    {
+      "content_hash": "sha256:6547356bef210c83221d6c6f00c61793bcbac6527af5866175455445d51efa44",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s175(2)(b)",
+      "ref": "TMA1995/s175(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) would not be to the detriment of the public; and"
+    },
+    {
+      "content_hash": "sha256:5a9f0d1da8e975ecddb20686e014cee9dec62002df4239cf7f935ff65183b718",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s175(2)(b)",
+      "ref": "TMA1995/s175(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) are satisfactory having regard to the criteria prescribed for the purposes of this paragraph;"
+    },
+    {
+      "content_hash": "sha256:2001a2ba7868ce58cb887c765d1d8e07a25e4e87fb5139ee2e0607055beafa6f",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s175~1",
+      "style": "subsection2",
+      "text": "the Commission must give a certificate to that effect and send a copy to the Registrar. The Commission must also send a certified copy of the rules to the Registrar."
+    },
+    {
+      "content_hash": "sha256:2b0ed2e3bddc751391e7100be4dda43761ee43959e1ba43a4c037155863222d9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 12,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s175~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s175~1~1",
+      "style": "notetext",
+      "text": "Note 1: For applicant see section 6."
+    },
+    {
+      "content_hash": "sha256:5b71329dca2cc6d2f472baac87e112bdd4e3105ed36eaffba8f3358afe09e024",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 12,
+          "text": "approved certifier",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s175~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(2)(c)",
+          "mention": "paragraph 173(2)(c)"
+        }
+      ],
+      "ref": "TMA1995/s175~1~2",
+      "style": "notetext",
+      "text": "Note 2: For approved certifier see paragraph 173(2)(c)."
+    },
+    {
+      "content_hash": "sha256:ddfbbb909d53f6e579adc44468ab6a629ba2aa47b72199a6536b8f938e3ddc97",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 38,
+          "start": 12,
+          "text": "certification requirements",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s175~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s173(2)(a)",
+          "mention": "paragraph 173(2)(a)"
+        }
+      ],
+      "ref": "TMA1995/s175~1~3",
+      "style": "notetext",
+      "text": "Note 3: For certification requirements see paragraph 173(2)(a)."
+    },
+    {
+      "content_hash": "sha256:a39590f46e1968090309a912ff8a605b59750f5c7841c2759d0a3f9df92464d5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s175(3)",
+      "style": "subsection",
+      "text": "(3) The Commission may require the applicant to make amendments or modifications to the rules as the Commission considers necessary."
+    },
+    {
+      "content_hash": "sha256:effa13834acfa3af6f1727b84e849298e70580595d7a59a07fd371e548488aab",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s175(4)",
+      "style": "subsection",
+      "text": "(4) If the Commission is not satisfied as set out in subsection (2):"
+    },
+    {
+      "content_hash": "sha256:cb63cf387b6c75d93145f854d2e17e351564a957d8fd874cc433d7952fcceb04",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s175(4)",
+      "ref": "TMA1995/s175(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the Commission must notify the applicant and the Registrar, in writing, of its decision not to give a certificate; and"
+    },
+    {
+      "content_hash": "sha256:bee8e68a18b7fd1e5b5ed3a8a8c053f4197119e35be105bab3f0b864b717a88c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s175(4)",
+      "ref": "TMA1995/s175(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar must publish the matter in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:7ddcecffde996e220e33d6e1bf66a340cefa8faba0619c51bd1722f6ff511f09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s175(5)",
+      "style": "subsection",
+      "text": "(5) An application may be made to the Administrative Review Tribunal for the review of a decision of the Commission refusing to give a certificate."
+    }
+  ]
+}

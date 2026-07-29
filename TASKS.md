@@ -284,6 +284,81 @@ decide 1 and 2 in `SCHEMA.md` before touching `citations.py`.
 
 ---
 
+---
+
+## T13 — The legislation snapshot
+
+**Landed as `legislation/0.1.0`.** `src/frl_snapshot/`, writing
+`snapshot/legislation/`. Read `LEGISLATION_NOTES.md` before changing any of it.
+
+The Trade Marks Act 1995 and Trade Marks Regulations 1995, read from the Federal
+Register of Legislation's OData API as compiled Word documents and cut on the
+Office of Parliamentary Counsel's paragraph styles. 763 provisions, 5,813 units.
+
+The design decisions worth knowing before touching it, each argued where it
+lives: the `.docx` is read through `zipfile` rather than converted to HTML
+(§4 — no dependency added, and conversion discards the styles that *are* the
+structure); the section is the file; a provision ref does not carry its Part;
+and 2,603 of the Manual's 2,776 in-scope provision edges resolve against it,
+which is what the shared ref grammar was for (§8).
+
+**Done:** `pytest -q` green; `python -m frl_snapshot.validate` clean;
+`python -m frl_snapshot.crawl --from-raw --force` writes zero files on an
+unchanged corpus.
+
+---
+
+## T14 — Amendment edges from Endnote 4
+
+**Not started, and deliberately not scheduled.** Recorded so the gap is tracked
+rather than rediscovered.
+
+Every compilation carries its own amendment history: Endnote 3 lists every
+amending instrument, Endnote 4 lists 317 rows of `provision affected | how
+affected` for the Act alone. Both are captured verbatim in
+`snapshot/legislation/<CODE>/endnotes.json`.
+
+What is *not* done is resolving the provision column to refs — which would give
+the graph `provision ←amended by→ instrument`, per provision, back to 1995. It
+is the single most valuable edge set available in this corpus and it is not
+deterministic in the way the rest of the pipeline is. The column holds `s 41`,
+`s 41(3)(a)`, `ss 41–43`, `Part 1`, `Div 2 of Part 3`, `Sch 1`, `Reader's Guide`
+and `List of terms`. A resolver that handles the easy 60% and quietly mangles
+the rest is exactly the silently-wrong record rule 3 exists to prevent.
+
+Before writing any of it, settle two things — both decisions, not implementation
+details:
+
+1. **What an unresolvable row becomes.** Dropped is wrong (it loses history);
+   guessed is forbidden. Probably a record carrying the label verbatim and no
+   ref, with the resolution rate reported the way the §8 coverage figure is.
+2. **What a range means.** `ss 41–43` is three edges or one; `Div 2 of Part 3`
+   is an edge to a container, which nothing in this snapshot currently addresses
+   as an amendable thing.
+
+**Done:** not applicable — raise the scope question first, with counts.
+
+---
+
+## T15 — Point-in-time compilations
+
+**Not started.** The snapshot holds the *latest* compilation of each instrument.
+
+The Register serves every historical one: `/v1/Versions?$filter=titleId eq '…'`
+lists each with the exact window it was in force, and
+`documents/find(registerId='…')` fetches it. So a point-in-time archive is
+reachable without any new parsing — it is a layout question, not an extraction
+one, and the answer changes the repository's shape (one file per provision per
+version, or a version axis inside each file).
+
+Worth it for one concrete reason: the Manual's Annexes discuss superseded
+numbering — `TMA1995/s41(6)` is the pre-2012 section 41 — and those citations
+cannot resolve against a latest-only corpus.
+
+**Done:** not applicable — raise the layout question before building.
+
+---
+
 ## Not in scope
 
 Embeddings, vector stores, retrieval, ranking, an API, a UI, a chatbot, any LLM

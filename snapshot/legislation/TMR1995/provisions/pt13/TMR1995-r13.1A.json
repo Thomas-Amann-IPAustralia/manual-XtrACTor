@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:81c8b6d1ec7b76d6d413973c0ff763338c6ad70b490ab89921b4924d40dbb32e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.1A  Definition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.1A",
+  "ref": "TMR1995/r13.1A",
+  "text": "In this Part, a reference to the ComptrollerGeneral of Customs includes a reference to: (b) for Christmas Island—the Comptroller as defined in the Customs Act 1901 of Christmas Island; and (c) for the Cocos (Keeling) Islands—the Comptroller as defined in the Customs Act 1901 of the Cocos (Keeling) Islands.",
+  "title": "Definition",
+  "units": [
+    {
+      "content_hash": "sha256:2afbcfb5f8f6844e1f2737a066e49eb611efb2f369596e6f323da65c6db213c3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r13.1A~1",
+      "style": "subsection",
+      "text": "In this Part, a reference to the ComptrollerGeneral of Customs includes a reference to:"
+    },
+    {
+      "content_hash": "sha256:c85b6862a415b128c7da728e807dc6ce928a551fe1534f1334fb528fcd54e7a5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 75,
+          "start": 59,
+          "text": "Customs Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r13.1A~1",
+      "ref": "TMR1995/r13.1A(b)",
+      "style": "paragraph",
+      "text": "(b) for Christmas Island—the Comptroller as defined in the Customs Act 1901 of Christmas Island; and"
+    },
+    {
+      "content_hash": "sha256:f9761cba687153f6e49a603a15a18d8f69079ae947c22107e9754495fbe6e3b0",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 86,
+          "start": 70,
+          "text": "Customs Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r13.1A~1",
+      "ref": "TMR1995/r13.1A(c)",
+      "style": "paragraph",
+      "text": "(c) for the Cocos (Keeling) Islands—the Comptroller as defined in the Customs Act 1901 of the Cocos (Keeling) Islands."
+    }
+  ]
+}

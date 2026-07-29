@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div3"
+  ],
+  "content_hash": "sha256:cfbf463604edd9d309879f82aa42e5455883b1db6d06168f7fdf390dcc8bf980",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 3—Maintaining registration",
+    "20A.5  Requirements for remaining on Register of Trade Marks Attorneys"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.5",
+  "ref": "TMR1995/r20A.5",
+  "text": "(1) To remain on the Register of Trade Marks Attorneys, a registered incorporated trade marks attorney must, for every year of registration, pay the annual registration fee. (2) The Designated Manager must, not later than 1 June in each year, give to each registered incorporated trade marks attorney notice of the fee that is payable. (3) The annual registration fee is payable on 1 July each year by a registered incorporated trade marks attorney: (a) whose name is on the Register of Trade Marks Attorneys on that day; and (b) that has not asked the Designated Manager, under regulation 20A.6, to remove its name from the Register of Trade Marks Attorneys.",
+  "title": "Requirements for remaining on Register of Trade Marks Attorneys",
+  "units": [
+    {
+      "content_hash": "sha256:b436bb71a0ea7e1c26e4fd68bcccaf76c117adf77ed88222dde8f9a6d5fbdc7b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.5(1)",
+      "style": "subsection",
+      "text": "(1) To remain on the Register of Trade Marks Attorneys, a registered incorporated trade marks attorney must, for every year of registration, pay the annual registration fee."
+    },
+    {
+      "content_hash": "sha256:7089149895f807f30b50085217f4b19f780cb6664ff54038b36f48b6d4ebd152",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.5(2)",
+      "style": "subsection",
+      "text": "(2) The Designated Manager must, not later than 1 June in each year, give to each registered incorporated trade marks attorney notice of the fee that is payable."
+    },
+    {
+      "content_hash": "sha256:ff05ecbf0b8b86cd1ff64aaaa21951839482059f6f26fddd2278133d8c26e6da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.5(3)",
+      "style": "subsection",
+      "text": "(3) The annual registration fee is payable on 1 July each year by a registered incorporated trade marks attorney:"
+    },
+    {
+      "content_hash": "sha256:c53b965966686800cb86923646920e53b37b8136d8a394268171093e886f0aae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.5(3)",
+      "ref": "TMR1995/r20A.5(3)(a)",
+      "style": "paragraph",
+      "text": "(a) whose name is on the Register of Trade Marks Attorneys on that day; and"
+    },
+    {
+      "content_hash": "sha256:d19b7b61e0a8302dc0c5af15d7cc89c45743ec0784cb5e9c05888994357032f3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.5(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.6",
+          "mention": "regulation 20A.6"
+        }
+      ],
+      "ref": "TMR1995/r20A.5(3)(b)",
+      "style": "paragraph",
+      "text": "(b) that has not asked the Designated Manager, under regulation 20A.6, to remove its name from the Register of Trade Marks Attorneys."
+    }
+  ]
+}

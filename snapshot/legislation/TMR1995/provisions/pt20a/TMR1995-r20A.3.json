@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div2"
+  ],
+  "content_hash": "sha256:bb761179510b1babe0d7be3d7f0fb7ccf90b90b7760f9f88070b1e80bdacfa23",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20A.3  Form of application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.3",
+  "ref": "TMR1995/r20A.3",
+  "text": "An application for registration as an incorporated trade marks attorney must: (a) be in writing, in a form approved by the Designated Manager; and (b) be accompanied by the following evidence and material: (i) the name of each trade marks attorney director of the company; (ii) evidence that the company is a registered company under the Corporations Act 2001; (iii) evidence that the company has adequate and appropriate professional indemnity insurance; and (c) be accompanied by the fee set out in item 36 of Schedule 9.",
+  "title": "Form of application",
+  "units": [
+    {
+      "content_hash": "sha256:918e944236e15b4ebd0d5dab4ebcc1a4f15bf8d0304dd8d44bd62e42b8474e09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.3~1",
+      "style": "subsection",
+      "text": "An application for registration as an incorporated trade marks attorney must:"
+    },
+    {
+      "content_hash": "sha256:2f22d3dfd58be34bb69445d45f158d5f9147af0257adfe81502616b13c4a849b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.3~1",
+      "ref": "TMR1995/r20A.3(a)",
+      "style": "paragraph",
+      "text": "(a) be in writing, in a form approved by the Designated Manager; and"
+    },
+    {
+      "content_hash": "sha256:4858f63ec9adb3ba36fdec9854eed5994657b28d32258b1de6fcd6ee3782cf2c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.3~1",
+      "ref": "TMR1995/r20A.3(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by the following evidence and material:"
+    },
+    {
+      "content_hash": "sha256:4474413d4edb8c1c59130608dc53a8ce595aa0eef22de8d5bd40cb5cd1125b8f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.3(b)",
+      "ref": "TMR1995/r20A.3(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the name of each trade marks attorney director of the company;"
+    },
+    {
+      "content_hash": "sha256:b4de3698a3ffafa07f7aa457723cee2c5d1d5c126539d32b1ed56d5984a1d99f",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 86,
+          "start": 65,
+          "text": "Corporations Act 2001",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.3(b)",
+      "ref": "TMR1995/r20A.3(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) evidence that the company is a registered company under the Corporations Act 2001;"
+    },
+    {
+      "content_hash": "sha256:d11c617005e94a1c4e8d39f852ad2ce26fefd729c12a3940229356917ff54690",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.3(b)",
+      "ref": "TMR1995/r20A.3(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) evidence that the company has adequate and appropriate professional indemnity insurance; and"
+    },
+    {
+      "content_hash": "sha256:03b0f8bf6acb6fb6c73741109f21c9c7f01261595c24092d05fcb0cc2968b7dc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20A.3~1",
+      "ref": "TMR1995/r20A.3(c)",
+      "style": "paragraph",
+      "text": "(c) be accompanied by the fee set out in item 36 of Schedule 9."
+    }
+  ]
+}

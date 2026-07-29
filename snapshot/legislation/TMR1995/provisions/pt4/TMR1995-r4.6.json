@@ -1,0 +1,103 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:5289e00e3e30de5bcbe69b20cb00b50a85365e966ce8a20cab4ba4c39ccdedda",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.6  How to claim priority"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.6",
+  "ref": "TMR1995/r4.6",
+  "text": "(1) For the purposes of subsection 29(1) of the Act (which deals with claims for priority), an applicant must claim a right of priority for an application by filing notice of the claim. (2) Any notice under subregulation (1) must specify, in respect of the earlier application or, if there is more than 1 earlier application, in respect of each earlier application: (a) the Convention country in which the earlier application was filed at the trade marks office (or its equivalent) of that Convention country; and (b) the date on which the earlier application was filed. (3) If, as a result of a claim for a right of priority, more than 1 priority date applies in relation to an application, a person who claims a right of priority under subsection 29(1) of the Act must specify the goods and/or services to which each priority date relates. (4) The applicant must inform the Registrar of the number allocated to each earlier application in the trade marks office, or its equivalent, of the Convention country in which each earlier application was filed.",
+  "title": "How to claim priority",
+  "units": [
+    {
+      "content_hash": "sha256:9c2d67e3a1da80189fe4082e75dfe228f19285068d518e4f73cb4696ba410c8b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)",
+          "mention": "subsection 29(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.6(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 29(1) of the Act (which deals with claims for priority), an applicant must claim a right of priority for an application by filing notice of the claim."
+    },
+    {
+      "content_hash": "sha256:64dfefafd46612a2ceda2182a8b65e33a347fd6ea83c2239a63d737266595696",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.6(2)",
+      "style": "subsection",
+      "text": "(2) Any notice under subregulation (1) must specify, in respect of the earlier application or, if there is more than 1 earlier application, in respect of each earlier application:"
+    },
+    {
+      "content_hash": "sha256:2f935586acd91705310e32c95d0355191fd71b3e0054d045f961a7ee027faa0d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.6(2)",
+      "ref": "TMR1995/r4.6(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Convention country in which the earlier application was filed at the trade marks office (or its equivalent) of that Convention country; and"
+    },
+    {
+      "content_hash": "sha256:1870780429a5f213d8fd906e599c58c10273646cfbe52130f2a7f64f7dc93911",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.6(2)",
+      "ref": "TMR1995/r4.6(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the date on which the earlier application was filed."
+    },
+    {
+      "content_hash": "sha256:068ddd8f69ae8d7040c94d073e612a28067d171cb5a590766e6e88abfbda4bd2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29(1)",
+          "mention": "subsection 29(1)"
+        }
+      ],
+      "ref": "TMR1995/r4.6(3)",
+      "style": "subsection",
+      "text": "(3) If, as a result of a claim for a right of priority, more than 1 priority date applies in relation to an application, a person who claims a right of priority under subsection 29(1) of the Act must specify the goods and/or services to which each priority date relates."
+    },
+    {
+      "content_hash": "sha256:e0a6fcd3218538288f05d890d21423a688ea01fbaabc459f487a723c8372dfeb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.6(4)",
+      "style": "subsection",
+      "text": "(4) The applicant must inform the Registrar of the number allocated to each earlier application in the trade marks office, or its equivalent, of the Convention country in which each earlier application was filed."
+    }
+  ]
+}

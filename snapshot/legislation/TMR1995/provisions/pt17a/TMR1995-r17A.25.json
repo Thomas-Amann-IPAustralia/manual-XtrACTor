@@ -1,0 +1,170 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:f8c22806fd5103df28fc1d7220072aea27c4ad61f1729542e59294ad20477efc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.25  Notice of final decision on examination"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.25",
+  "ref": "TMR1995/r17A.25",
+  "text": "(1) If the Registrar decides to accept the IRDA as notified, the Registrar: (a) must publish the decision in a computer database maintained by the Trade Marks Office: (i) specifying the particulars of the IRDA; and (ii) stating that, unless a notice of opposition is filed as mentioned in subregulation 17A.32(1), the trade mark that is the subject of the IRDA will be protected in Australia in respect of the goods, services or goods and services in respect of which protection was sought; and (c) may notify the International Bureau, in writing, of the decision. (2) If the Registrar made a report under regulation 17A.16 in respect of the IRDA, the Registrar: (a) must notify the International Bureau of the final decision on examination in accordance with the Madrid Regulations; and (b) must notify the holder of the final decision on examination; and (c) if the final decision on examination is to accept the IRDA in whole or in part, must publish the decision in a computer database maintained by the Trade Marks Office: (i) specifying the particulars of the IRDA; and (ii) stating that, unless a notice of opposition is filed as mentioned in subregulation 17A.32(1), the trade mark that is the subject of the IRDA will be protected in Australia, to the extent of the final decision, in respect of the goods, services or goods and services in respect of which protection was sought.",
+  "title": "Notice of final decision on examination",
+  "units": [
+    {
+      "content_hash": "sha256:452594a6636e85622c5cf1a3259ffffec0f8b4f2fcc8683ab1b190e0d43da67d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.25(1)",
+      "style": "subsection",
+      "text": "(1) If the Registrar decides to accept the IRDA as notified, the Registrar:"
+    },
+    {
+      "content_hash": "sha256:8e555912b8f5e10e79f3f330d6cb2fb0c82f6fab419b32eb9dee5cd2df5c225b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.25(1)",
+      "ref": "TMR1995/r17A.25(1)(a)",
+      "style": "paragraph",
+      "text": "(a) must publish the decision in a computer database maintained by the Trade Marks Office:"
+    },
+    {
+      "content_hash": "sha256:c2876ed5454623576ecc58f8f908360f9df0f28d9e56219a9321cbd98801458b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.25(1)(a)",
+      "ref": "TMR1995/r17A.25(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) specifying the particulars of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:b584ef46626976b13cb8fc2a97c4a823bcc37ef3504bfa215435347d8076e9a2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.25(1)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.25(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) stating that, unless a notice of opposition is filed as mentioned in subregulation 17A.32(1), the trade mark that is the subject of the IRDA will be protected in Australia in respect of the goods, services or goods and services in respect of which protection was sought; and"
+    },
+    {
+      "content_hash": "sha256:68b668ec5f3bd72f07b95d79001839975247ca8e05e1e61bfdd6b9379caab12f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.25(1)",
+      "ref": "TMR1995/r17A.25(1)(c)",
+      "style": "paragraph",
+      "text": "(c) may notify the International Bureau, in writing, of the decision."
+    },
+    {
+      "content_hash": "sha256:e17156fd06be5aed54a09a48a81213fc3b23907375fb68f2e50e9bfd24620931",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16",
+          "mention": "regulation 17A.16"
+        }
+      ],
+      "ref": "TMR1995/r17A.25(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar made a report under regulation 17A.16 in respect of the IRDA, the Registrar:"
+    },
+    {
+      "content_hash": "sha256:47e46b02848d3709d588a7d570c6840a232785238eadf30c4e8bbc4810bf9bb2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.25(2)",
+      "ref": "TMR1995/r17A.25(2)(a)",
+      "style": "paragraph",
+      "text": "(a) must notify the International Bureau of the final decision on examination in accordance with the Madrid Regulations; and"
+    },
+    {
+      "content_hash": "sha256:d55a7a08da76a6a254e0c09f63808580743e622480d390044cc0457ac2f63049",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.25(2)",
+      "ref": "TMR1995/r17A.25(2)(b)",
+      "style": "paragraph",
+      "text": "(b) must notify the holder of the final decision on examination; and"
+    },
+    {
+      "content_hash": "sha256:891d60aad474cbd2ddfd9984764c824e985b4190ee697ff82c4a874a9536eb63",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.25(2)",
+      "ref": "TMR1995/r17A.25(2)(c)",
+      "style": "paragraph",
+      "text": "(c) if the final decision on examination is to accept the IRDA in whole or in part, must publish the decision in a computer database maintained by the Trade Marks Office:"
+    },
+    {
+      "content_hash": "sha256:c2876ed5454623576ecc58f8f908360f9df0f28d9e56219a9321cbd98801458b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.25(2)(c)",
+      "ref": "TMR1995/r17A.25(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) specifying the particulars of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:3ad73af34212d2897ec1c16ea75fbafddf1991b827332798d8e6125af6254ccb",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.25(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.25(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) stating that, unless a notice of opposition is filed as mentioned in subregulation 17A.32(1), the trade mark that is the subject of the IRDA will be protected in Australia, to the extent of the final decision, in respect of the goods, services or goods and services in respect of which protection was sought."
+    }
+  ]
+}

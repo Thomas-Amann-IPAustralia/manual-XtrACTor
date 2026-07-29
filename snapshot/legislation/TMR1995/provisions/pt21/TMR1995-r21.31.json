@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:0b525657415b253a20c8d46f6c87424db381e8632d63a6a878c10c7ccee464a0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.31  Incapacity of certain persons"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.31",
+  "ref": "TMR1995/r21.31",
+  "text": "(1) If a person is incapable of doing anything required or permitted by the Act or these regulations to be done because of infancy or physical or mental disability, a court may, on the application of a person acting on behalf of the incapable person or of another person interested in the thing being done: (a) do the thing; or (b) appoint a person to do the thing; in the name, and on behalf, of the incapable person. (2) A thing done in the name of, and on behalf of, an incapable person is taken to have been done by that person as if the person had not been incapable when the thing was done.",
+  "title": "Incapacity of certain persons",
+  "units": [
+    {
+      "content_hash": "sha256:c4516d012e42d10e3e9a8c8c34869eee80f3cb43443ac78f79935bd50fdfee8c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.31(1)",
+      "style": "subsection",
+      "text": "(1) If a person is incapable of doing anything required or permitted by the Act or these regulations to be done because of infancy or physical or mental disability, a court may, on the application of a person acting on behalf of the incapable person or of another person interested in the thing being done:"
+    },
+    {
+      "content_hash": "sha256:075fd572f49937848785c2b1c7a6865fd594e1980d3966865d27c5f283f46441",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.31(1)",
+      "ref": "TMR1995/r21.31(1)(a)",
+      "style": "paragraph",
+      "text": "(a) do the thing; or"
+    },
+    {
+      "content_hash": "sha256:914a549655f0ca62d56622c12cb4610e9d9145cca786a5b1d7d975839e3c1afa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.31(1)",
+      "ref": "TMR1995/r21.31(1)(b)",
+      "style": "paragraph",
+      "text": "(b) appoint a person to do the thing;"
+    },
+    {
+      "content_hash": "sha256:cdc622e6a78620bb994288a48e2967dc9d6b6d519bfd4cecb0836808b84a599d",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.31~1",
+      "style": "subsection2",
+      "text": "in the name, and on behalf, of the incapable person."
+    },
+    {
+      "content_hash": "sha256:2b99447b80e3b17dab8c7d7920b9db27094a8a0435611065784fde6a4a12a644",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.31(2)",
+      "style": "subsection",
+      "text": "(2) A thing done in the name of, and on behalf of, an incapable person is taken to have been done by that person as if the person had not been incapable when the thing was done."
+    }
+  ]
+}

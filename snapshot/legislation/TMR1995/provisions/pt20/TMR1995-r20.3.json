@@ -1,0 +1,135 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:8caf4b9dca8a6e20f8113aaa2795df2c6acd7dddf5f6f27cff4dabb34b55262e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.3  Evidence that applicant meets registration requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.3",
+  "ref": "TMR1995/r20.3",
+  "text": "(1) An application for registration as a trade marks attorney must be accompanied by the following: (a) evidence that the Board is satisfied that the applicant has, or is entitled to the award of, an academic qualification of a kind mentioned in regulation 20.6; (b) evidence that the Board is satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney; (c) a declaration, by the applicant, that he or she: (i) has not, in the 5 years preceding the application, committed an offence prescribed by subregulation 20.10(1); and (ii) is not under sentence of imprisonment for an offence prescribed by subregulation 20.10(2); (d) a declaration, by another person, that the applicant is of good fame, integrity and character. (2) A declaration under paragraph (1)(d) must contain details of the basis of the opinion that the applicant is of good fame, integrity and character.",
+  "title": "Evidence that applicant meets registration requirements",
+  "units": [
+    {
+      "content_hash": "sha256:7fc36ceac0210325e3826bcf9409616bea9abbb80712f7059313f446e09e5ff5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.3(1)",
+      "style": "subsection",
+      "text": "(1) An application for registration as a trade marks attorney must be accompanied by the following:"
+    },
+    {
+      "content_hash": "sha256:7d7196f34145f12419a2a671d80fc0ef01743dcda05a767e9b4faf22f54d0db0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.3(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.6",
+          "mention": "regulation 20.6"
+        }
+      ],
+      "ref": "TMR1995/r20.3(1)(a)",
+      "style": "paragraph",
+      "text": "(a) evidence that the Board is satisfied that the applicant has, or is entitled to the award of, an academic qualification of a kind mentioned in regulation 20.6;"
+    },
+    {
+      "content_hash": "sha256:b5ec13f10e33168aa73f1b952e6f098dfcf922b437966eae89fac567d69f5fed",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.3(1)",
+      "ref": "TMR1995/r20.3(1)(b)",
+      "style": "paragraph",
+      "text": "(b) evidence that the Board is satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney;"
+    },
+    {
+      "content_hash": "sha256:59259827603950ca1ed196ce888a9987ab8e1004442029e111a05cf473cc992c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.3(1)",
+      "ref": "TMR1995/r20.3(1)(c)",
+      "style": "paragraph",
+      "text": "(c) a declaration, by the applicant, that he or she:"
+    },
+    {
+      "content_hash": "sha256:24343803263b56c24ef0b91ac12a2e7a4226d352467fb934959aa2eb53b21cf6",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.3(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.10(1)",
+          "mention": "subregulation 20.10(1)"
+        }
+      ],
+      "ref": "TMR1995/r20.3(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) has not, in the 5 years preceding the application, committed an offence prescribed by subregulation 20.10(1); and"
+    },
+    {
+      "content_hash": "sha256:4c8f7712b64b1ad543ccb2c344645280f97a6ca313987e9583013e6007ce3536",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.3(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.10(2)",
+          "mention": "subregulation 20.10(2)"
+        }
+      ],
+      "ref": "TMR1995/r20.3(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) is not under sentence of imprisonment for an offence prescribed by subregulation 20.10(2);"
+    },
+    {
+      "content_hash": "sha256:62458d5a4be397ec175fc78f970a4f17b75d6d6326a9f25214101f385161788f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.3(1)",
+      "ref": "TMR1995/r20.3(1)(d)",
+      "style": "paragraph",
+      "text": "(d) a declaration, by another person, that the applicant is of good fame, integrity and character."
+    },
+    {
+      "content_hash": "sha256:c194a327fbfc92759f9fec7515f78333f8177e7fab8b159ad3480daa92e10df8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.3(2)",
+      "style": "subsection",
+      "text": "(2) A declaration under paragraph (1)(d) must contain details of the basis of the opinion that the applicant is of good fame, integrity and character."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:8e4a4a630e0c37d7ad7b6e2ada32545e2fbf71890faeaf9da22cd63090348bfa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.13  Hearings to be public except in special circumstances"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.13",
+  "ref": "TMR1995/r20A.13",
+  "text": "(1) A hearing before a Panel of the Disciplinary Tribunal must be in public. (2) However, if the Panel Chair is reasonably satisfied that it is desirable to do so, in the public interest or because of the confidential nature of any evidence or matter, the Panel Chair may: (a) direct that a hearing, or a part of a hearing, is to take place in private and give directions as to the persons who may be present; and (b) give directions restricting or prohibiting the publication or disclosure of: (i) evidence given before the Panel, whether in public or in private; or (ii) matters contained in documents lodged with the Panel or received in evidence by the Panel. (3) A person commits an offence if the person: (a) is given a direction under paragraph (2)(a) or (b); and (b) does not comply with the direction. Penalty: 5 penalty units.",
+  "title": "Hearings to be public except in special circumstances",
+  "units": [
+    {
+      "content_hash": "sha256:9def7433338ef14dd432b31f701c98a8831f733571a3c9465061bffcc2838c5b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.13(1)",
+      "style": "subsection",
+      "text": "(1) A hearing before a Panel of the Disciplinary Tribunal must be in public."
+    },
+    {
+      "content_hash": "sha256:aff112283408676a0a0ba3aa805d239d0aff0845271c932c0eb0844b82910c64",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.13(2)",
+      "style": "subsection",
+      "text": "(2) However, if the Panel Chair is reasonably satisfied that it is desirable to do so, in the public interest or because of the confidential nature of any evidence or matter, the Panel Chair may:"
+    },
+    {
+      "content_hash": "sha256:9c6c5b6c3f2940313c7593172275a70997021f635b01a963928bd6db3e670c58",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.13(2)",
+      "ref": "TMR1995/r20A.13(2)(a)",
+      "style": "paragraph",
+      "text": "(a) direct that a hearing, or a part of a hearing, is to take place in private and give directions as to the persons who may be present; and"
+    },
+    {
+      "content_hash": "sha256:2155a45bcfa04a75e8793eea7cd1c6d1ad6c539c1a8b188ea4977142daca5cf0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.13(2)",
+      "ref": "TMR1995/r20A.13(2)(b)",
+      "style": "paragraph",
+      "text": "(b) give directions restricting or prohibiting the publication or disclosure of:"
+    },
+    {
+      "content_hash": "sha256:b2dbdac0f202e833239c3584db1afd038c59a1f97d83f926e5c55b14cab5be87",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.13(2)(b)",
+      "ref": "TMR1995/r20A.13(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) evidence given before the Panel, whether in public or in private; or"
+    },
+    {
+      "content_hash": "sha256:4e09d3d7a1e915d54860fb34e922640bf8261579336e911ee337885df5cc3afd",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.13(2)(b)",
+      "ref": "TMR1995/r20A.13(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) matters contained in documents lodged with the Panel or received in evidence by the Panel."
+    },
+    {
+      "content_hash": "sha256:d720ae49041a50ff041f0891e7ffd188c6164423b2bdfc8524620b440b3f5e33",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.13(3)",
+      "style": "subsection",
+      "text": "(3) A person commits an offence if the person:"
+    },
+    {
+      "content_hash": "sha256:ea84c6f973505d6d18f412e5e443571a0057e1eb3a3b981b251bd7d5d6aec9f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20A.13(3)",
+      "ref": "TMR1995/r20A.13(3)(a)",
+      "style": "paragraph",
+      "text": "(a) is given a direction under paragraph (2)(a) or (b); and"
+    },
+    {
+      "content_hash": "sha256:16cd078d4e6972d33b5783b923d72af77a573b9bf99099791a2793e1a4d686e2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r20A.13(3)",
+      "ref": "TMR1995/r20A.13(3)(b)",
+      "style": "paragraph",
+      "text": "(b) does not comply with the direction."
+    },
+    {
+      "content_hash": "sha256:0ddebf83aadbf2e8577fcff5e5c2a8eb407af9fc37120ab484679895c9d0dc3f",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.13~1",
+      "style": "Penalty",
+      "text": "Penalty: 5 penalty units."
+    }
+  ]
+}

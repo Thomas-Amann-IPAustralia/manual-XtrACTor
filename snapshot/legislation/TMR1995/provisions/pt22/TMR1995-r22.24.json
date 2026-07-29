@@ -1,0 +1,194 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div4"
+  ],
+  "content_hash": "sha256:949d43ac246e4f75f026af4059f0ddbce92feb39cba572eb5d49420ce71e8867",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 4—Amendments made by the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018",
+    "22.24  Amendments made by Part 10 of Schedule 2"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.24",
+  "ref": "TMR1995/r22.24",
+  "text": "(1) Regulations 8.5 to 8.8, as inserted by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, apply in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of that Part. (2) The amendments of table items 5 and 6 in Part 1 of Schedule 8 made by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018. (3) The amendment of item 8 of the table in clause 1 of Schedule 9 made by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of that Part.",
+  "title": "Amendments made by Part 10 of Schedule 2",
+  "units": [
+    {
+      "content_hash": "sha256:1f5773bcc2bd5fe0928d418202d243bdc51ae828e9c3d9b80de8c409e2e4750f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 147,
+          "start": 72,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 169,
+          "start": 148,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 183,
+          "start": 170,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 186,
+          "start": 183,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.4(1)",
+          "mention": "subregulation 8.4(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.5",
+          "mention": "Regulations 8.5 to 8.8"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.8",
+          "mention": "Regulations 8.5 to 8.8"
+        }
+      ],
+      "ref": "TMR1995/r22.24(1)",
+      "style": "subsection",
+      "text": "(1) Regulations 8.5 to 8.8, as inserted by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018, apply in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of that Part."
+    },
+    {
+      "content_hash": "sha256:5c8efe435bd75737e10bc86b076b51ca59090569cb16f0e2ceaf116a2676c9af",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 178,
+          "start": 103,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 200,
+          "start": 179,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 214,
+          "start": 201,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 217,
+          "start": 214,
+          "text": "018",
+          "weight": "italic"
+        },
+        {
+          "end": 448,
+          "start": 373,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 470,
+          "start": 449,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 484,
+          "start": 471,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 487,
+          "start": 484,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.4(1)",
+          "mention": "subregulation 8.4(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.24(2)",
+      "style": "subsection",
+      "text": "(2) The amendments of table items 5 and 6 in Part 1 of Schedule 8 made by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018."
+    },
+    {
+      "content_hash": "sha256:6739568ea8f70d2eea5c03a070cfd02a37190e5a77f1dfcec75f3f4ba288ee63",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 179,
+          "start": 104,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 201,
+          "start": 180,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 215,
+          "start": 202,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 218,
+          "start": 215,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r8.4(1)",
+          "mention": "subregulation 8.4(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.24(3)",
+      "style": "subsection",
+      "text": "(3) The amendment of item 8 of the table in clause 1 of Schedule 9 made by Part 10 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 applies in relation to requests for amendment referred to in subregulation 8.4(1) that are made on or after the commencement of that Part."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div6"
+  ],
+  "content_hash": "sha256:008eb7617ebbfa4bd15999deadffe84919a8625fbb5d21e52a0e65d458081d1c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 6—Miscellaneous",
+    "9.23  Removal of trade mark from register"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.23",
+  "ref": "TMR1995/r9.23",
+  "text": "If the Registrar dismisses the opposition under regulation 9.10, the Registrar must remove the trade mark from the Register in respect of the goods, services, or both, specified in the application for removal.",
+  "title": "Removal of trade mark from register",
+  "units": [
+    {
+      "content_hash": "sha256:008eb7617ebbfa4bd15999deadffe84919a8625fbb5d21e52a0e65d458081d1c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.10",
+          "mention": "regulation 9.10"
+        }
+      ],
+      "ref": "TMR1995/r9.23~1",
+      "style": "subsection",
+      "text": "If the Registrar dismisses the opposition under regulation 9.10, the Registrar must remove the trade mark from the Register in respect of the goods, services, or both, specified in the application for removal."
+    }
+  ]
+}

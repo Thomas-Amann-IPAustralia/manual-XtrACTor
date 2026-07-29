@@ -1,0 +1,245 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:898dddbaa07550143613bd861a727777fdf3d8f38b38162e979a38c2c832c6ad",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "98  Trade mark restored to Register in certain circumstances"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "98",
+  "ref": "TMA1995/s98",
+  "text": "(1) If: (a) the Registrar has removed a trade mark from the Register under subsection 97(1) because no notice of opposition was filed within the period provided under the regulations; and (b) the Registrar subsequently extends the period within which the notice may be filed; and (c) a notice of opposition is filed within the extended period; the Registrar must restore the trade mark to the Register. Also, the trade mark is taken not to have been removed from the Register. (2) If: (a) a person filed a notice of opposition under subsection 96(1) to an application for the removal of a trade mark from the Register; and (b) the person failed to do a thing (the relevant thing): (i) that the person is required or permitted by the regulations to do in relation to the person’s opposition to the application; and (ii) that is prescribed by the regulations for the purposes of this subparagraph; and (c) as a result of the person’s failure to do the relevant thing, the application is taken under the regulations to be unopposed; and (d) the Registrar removed the trade mark from the Register under paragraph 97(1)(a); and (e) the Registrar subsequently extends the period under the regulations within which the person is required or permitted to do the relevant thing; and (f) the person does the relevant thing within the extended period; the Registrar must restore the trade mark to the Register. Also, the trade mark is taken not to have been removed from the Register. Note: For file see section 6.",
+  "title": "Trade mark restored to Register in certain circumstances",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s98(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:5246f6cccfb46bb6834ac5088e2147beda33f57a2add1f34ab1581d113f5624f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s98(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s97(1)",
+          "mention": "subsection 97(1)"
+        }
+      ],
+      "ref": "TMA1995/s98(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar has removed a trade mark from the Register under subsection 97(1) because no notice of opposition was filed within the period provided under the regulations; and"
+    },
+    {
+      "content_hash": "sha256:8f24666da73c3ee109d8220ef92fe17abf60401fd195f10cf8508e469b5d756e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s98(1)",
+      "ref": "TMA1995/s98(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar subsequently extends the period within which the notice may be filed; and"
+    },
+    {
+      "content_hash": "sha256:34c435c7d4863cbd8903138faa91ed7207621daa189a3b55dfb11712f530fb40",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s98(1)",
+      "ref": "TMA1995/s98(1)(c)",
+      "style": "paragraph",
+      "text": "(c) a notice of opposition is filed within the extended period;"
+    },
+    {
+      "content_hash": "sha256:bc29ab6d61575a696e01edbbf69051527ef564c97a93d66dff66168751621b7c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s98~1",
+      "style": "subsection2",
+      "text": "the Registrar must restore the trade mark to the Register. Also, the trade mark is taken not to have been removed from the Register."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s98(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:d677721cba2dd2aa0950f3d5ff68f3893b6a95773eb94e4b0e860f3c4e3fa76f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s98(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96(1)",
+          "mention": "subsection 96(1)"
+        }
+      ],
+      "ref": "TMA1995/s98(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a person filed a notice of opposition under subsection 96(1) to an application for the removal of a trade mark from the Register; and"
+    },
+    {
+      "content_hash": "sha256:e9594b336cc9d7b2dc83e774f9c0a3a474e0451e04d6acaff49a0c04752e2c77",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 55,
+          "start": 41,
+          "text": "relevant thing",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s98(2)",
+      "ref": "TMA1995/s98(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the person failed to do a thing (the relevant thing):"
+    },
+    {
+      "content_hash": "sha256:22241a64cecbd2b463bd0d48264931d85a18610ee759acf69575b4c493ccae53",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s98(2)(b)",
+      "ref": "TMA1995/s98(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) that the person is required or permitted by the regulations to do in relation to the person’s opposition to the application; and"
+    },
+    {
+      "content_hash": "sha256:d95f3be4c116c7df8c4a94c573a63508fc3082466ead97a7a474d0234c914b33",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s98(2)(b)",
+      "ref": "TMA1995/s98(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that is prescribed by the regulations for the purposes of this subparagraph; and"
+    },
+    {
+      "content_hash": "sha256:d196469e520791c45d86f47c53ec93c259646ecce91cb71a1d851f3a460ea8d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s98(2)",
+      "ref": "TMA1995/s98(2)(c)",
+      "style": "paragraph",
+      "text": "(c) as a result of the person’s failure to do the relevant thing, the application is taken under the regulations to be unopposed; and"
+    },
+    {
+      "content_hash": "sha256:a0a42ab8821f086dc7f5a56597b0c13b3574943c06ed8dcedb3faf716a27b143",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s98(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s97(1)(a)",
+          "mention": "paragraph 97(1)(a)"
+        }
+      ],
+      "ref": "TMA1995/s98(2)(d)",
+      "style": "paragraph",
+      "text": "(d) the Registrar removed the trade mark from the Register under paragraph 97(1)(a); and"
+    },
+    {
+      "content_hash": "sha256:73c09589da2f290a3a2598e9cf76ec911831e1bf9369dadb2277d6dc9fdbae3f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s98(2)",
+      "ref": "TMA1995/s98(2)(e)",
+      "style": "paragraph",
+      "text": "(e) the Registrar subsequently extends the period under the regulations within which the person is required or permitted to do the relevant thing; and"
+    },
+    {
+      "content_hash": "sha256:0d774a7bbed60986ee2ffda60778fca68d5d83224043f0dde042fd185684db11",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s98(2)",
+      "ref": "TMA1995/s98(2)(f)",
+      "style": "paragraph",
+      "text": "(f) the person does the relevant thing within the extended period;"
+    },
+    {
+      "content_hash": "sha256:bc29ab6d61575a696e01edbbf69051527ef564c97a93d66dff66168751621b7c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s98~2",
+      "style": "subsection2",
+      "text": "the Registrar must restore the trade mark to the Register. Also, the trade mark is taken not to have been removed from the Register."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s98~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s98~2~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    }
+  ]
+}

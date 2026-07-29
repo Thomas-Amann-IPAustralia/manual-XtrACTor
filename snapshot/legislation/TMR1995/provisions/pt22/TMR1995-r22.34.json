@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div8"
+  ],
+  "content_hash": "sha256:b4c2f642c9d9fb33b1ffcb889fc1dd979052090f9ee32ad68bf13dc34c88c988",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 8—Amendments made by the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025",
+    "22.34  Application provision—Registrar’s power to revoke acceptance of IRDA"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.34",
+  "ref": "TMR1995/r22.34",
+  "text": "The amendments made by Schedule 4 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 apply in relation to an IRDA that is accepted on or after the day on which that Schedule commences, whether the IRDA was notified, as mentioned in regulation 17A.12, before, on or after that day.",
+  "title": "Application provision—Registrar’s power to revoke acceptance of IRDA",
+  "units": [
+    {
+      "content_hash": "sha256:b4c2f642c9d9fb33b1ffcb889fc1dd979052090f9ee32ad68bf13dc34c88c988",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 118,
+          "start": 41,
+          "text": "Trade Marks Amendment (International Registrations, Hearings and Oppositions)",
+          "weight": "italic"
+        },
+        {
+          "end": 132,
+          "start": 119,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 135,
+          "start": 132,
+          "text": "025",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.12",
+          "mention": "regulation 17A.12"
+        }
+      ],
+      "ref": "TMR1995/r22.34~1",
+      "style": "subsection",
+      "text": "The amendments made by Schedule 4 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 apply in relation to an IRDA that is accepted on or after the day on which that Schedule commences, whether the IRDA was notified, as mentioned in regulation 17A.12, before, on or after that day."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt10"
+  ],
+  "content_hash": "sha256:83e1d8ffa92e4fa2f0e5e422087f356477eedab1aba220b1b4ff3aec3efc4ab9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "107  Applications for record to be made of assignment etc. of trade mark whose registration is sought"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "107",
+  "ref": "TMA1995/s107",
+  "text": "(1) If a trade mark whose registration is being sought is assigned or transmitted: (a) the applicant for the registration of the trade mark; or (b) the person to whom it has been assigned or transmitted; must apply to the Registrar for the assignment or transmission to be recorded. (2) The application must: (a) be in an approved form; and (b) be filed, together with any prescribed document, in accordance with the regulations. Note: For approved form and file see section 6.",
+  "title": "Applications for record to be made of assignment etc. of trade mark whose registration is sought",
+  "units": [
+    {
+      "content_hash": "sha256:a4f80e74a10eca492670d4da5c8c2b9435ac65b87dde3f4b9f15c04ddcce9a7c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s107(1)",
+      "style": "subsection",
+      "text": "(1) If a trade mark whose registration is being sought is assigned or transmitted:"
+    },
+    {
+      "content_hash": "sha256:042df4dfae291e4a1c7ed120f49b4a3b5110f4eb317976e947eba4f41e874f5a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s107(1)",
+      "ref": "TMA1995/s107(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant for the registration of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:e97072290e431d2aefebeca7ad863eec09bccdd8e549a077c039d82b13849e3e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s107(1)",
+      "ref": "TMA1995/s107(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the person to whom it has been assigned or transmitted;"
+    },
+    {
+      "content_hash": "sha256:1fce033dd691806b46a79875cec427265ee9425efc47f77ae7341a3e57e0e6f6",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s107~1",
+      "style": "subsection2",
+      "text": "must apply to the Registrar for the assignment or transmission to be recorded."
+    },
+    {
+      "content_hash": "sha256:be58620e00530a9d2dbd6c80cd1881688763f0fb2fc8632206812e85d828f239",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s107(2)",
+      "style": "subsection",
+      "text": "(2) The application must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s107(2)",
+      "ref": "TMA1995/s107(2)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:101acfb20c1b2b495711e417169f97d4ff4e9bc52a4ccd8479d9fdb0ce7543a3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s107(2)",
+      "ref": "TMA1995/s107(2)(b)",
+      "style": "paragraph",
+      "text": "(b) be filed, together with any prescribed document, in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:e5a03974c482df65a68399fab47363aa301e8b95d426af96b922555d75efcd40",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 23,
+          "start": 10,
+          "text": "approved form",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 32,
+          "start": 28,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s107(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s107(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: For approved form and file see section 6."
+    }
+  ]
+}

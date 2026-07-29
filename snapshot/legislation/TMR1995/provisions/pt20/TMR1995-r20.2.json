@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:a19b49bc9d9278eecc44e6ff04e8603075f8430e6976655664fd65f97517bd94",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.2  Form of application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.2",
+  "ref": "TMR1995/r20.2",
+  "text": "An application for registration as a trade marks attorney must: (a) be in writing, in a form approved by the Designated Manager; and (b) be accompanied by evidence and material mentioned in regulation 20.3; and (c) be accompanied by the fee mentioned in item 28 of Schedule 9.",
+  "title": "Form of application",
+  "units": [
+    {
+      "content_hash": "sha256:35036c8a25715177f8ede7eaf9d514404bb675b83db393612f65037083523f96",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.2~1",
+      "style": "subsection",
+      "text": "An application for registration as a trade marks attorney must:"
+    },
+    {
+      "content_hash": "sha256:2f22d3dfd58be34bb69445d45f158d5f9147af0257adfe81502616b13c4a849b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.2~1",
+      "ref": "TMR1995/r20.2(a)",
+      "style": "paragraph",
+      "text": "(a) be in writing, in a form approved by the Designated Manager; and"
+    },
+    {
+      "content_hash": "sha256:c3d06a2819e0c9e3452b585e76c33fc874255b586380767940c80ba1fba1e07d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.2~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.3",
+          "mention": "regulation 20.3"
+        }
+      ],
+      "ref": "TMR1995/r20.2(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by evidence and material mentioned in regulation 20.3; and"
+    },
+    {
+      "content_hash": "sha256:707578e9b5f1b811ab537d6e193b44ab033224a7f8a784fcfd5f5bfe292b9d10",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.2~1",
+      "ref": "TMR1995/r20.2(c)",
+      "style": "paragraph",
+      "text": "(c) be accompanied by the fee mentioned in item 28 of Schedule 9."
+    }
+  ]
+}

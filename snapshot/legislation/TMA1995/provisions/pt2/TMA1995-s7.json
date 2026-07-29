@@ -1,0 +1,149 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:841f0544dc5bbff7ac6db8425018f4d1e308931d8ed6f1c63baec8067f179758",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "7  Use of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "7",
+  "ref": "TMA1995/s7",
+  "text": "(1) If the Registrar or a prescribed court, having regard to the circumstances of a particular case, thinks fit, the Registrar or the court may decide that a person has used a trade mark if it is established that the person has used the trade mark with additions or alterations that do not substantially affect the identity of the trade mark. Note: For prescribed court see section 190. (2) To avoid any doubt, it is stated that, if a trade mark consists of the following, or any combination of the following, namely, any letter, word, name or numeral, any aural representation of the trade mark is, for the purposes of this Act, a use of the trade mark. (3) An authorised use of a trade mark by a person (see section 8) is taken, for the purposes of this Act, to be a use of the trade mark by the owner of the trade mark. (4) In this Act: use of a trade mark in relation to goods means use of the trade mark upon, or in physical or other relation to, the goods (including secondhand goods). (5) In this Act: use of a trade mark in relation to services means use of the trade mark in physical or other relation to the services.",
+  "title": "Use of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:86a28c43974a39d74a1d79dc67c1af7b84f14118f1c0d4eb207fa5278ccfc430",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s7(1)",
+      "style": "subsection",
+      "text": "(1) If the Registrar or a prescribed court, having regard to the circumstances of a particular case, thinks fit, the Registrar or the court may decide that a person has used a trade mark if it is established that the person has used the trade mark with additions or alterations that do not substantially affect the identity of the trade mark."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s7(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s7(1)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:e6f695490bf91eb12cafd312bb60c419b6baf84f8378c8aa27c5c47239f7d1da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s7(2)",
+      "style": "subsection",
+      "text": "(2) To avoid any doubt, it is stated that, if a trade mark consists of the following, or any combination of the following, namely, any letter, word, name or numeral, any aural representation of the trade mark is, for the purposes of this Act, a use of the trade mark."
+    },
+    {
+      "content_hash": "sha256:11a54d049634bbebdee3a3bcf37340cabcfffb3cc65616749ca6fee434e0ad9a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s7(3)",
+      "style": "subsection",
+      "text": "(3) An authorised use of a trade mark by a person (see section 8) is taken, for the purposes of this Act, to be a use of the trade mark by the owner of the trade mark."
+    },
+    {
+      "content_hash": "sha256:be57945543080ca6c4d904b49162bbac5833431b1439895bee37c00fce0d4561",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s7(4)",
+      "style": "subsection",
+      "text": "(4) In this Act:"
+    },
+    {
+      "content_hash": "sha256:6eea78c87a54219ec1f4d926465a88fa065ec397d4328f89c845725e3896a252",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 40,
+          "start": 0,
+          "text": "use of a trade mark in relation to goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s7~1",
+      "style": "Definition",
+      "text": "use of a trade mark in relation to goods means use of the trade mark upon, or in physical or other relation to, the goods (including secondhand goods)."
+    },
+    {
+      "content_hash": "sha256:059c68cea48068ba95faacd36e4a9ce9745d8dcdadc47a6f5d4a63e5b9a2b533",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s7(5)",
+      "style": "subsection",
+      "text": "(5) In this Act:"
+    },
+    {
+      "content_hash": "sha256:8ed5e2e6bb84a11f1f5e27165a7e4a0211383d2fbbe630c762f5ed2d030274ff",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 43,
+          "start": 0,
+          "text": "use of a trade mark in relation to services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s7~2",
+      "style": "Definition",
+      "text": "use of a trade mark in relation to services means use of the trade mark in physical or other relation to the services."
+    }
+  ]
+}

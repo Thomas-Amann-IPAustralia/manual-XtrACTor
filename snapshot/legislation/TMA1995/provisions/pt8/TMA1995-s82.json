@@ -1,0 +1,82 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdiva"
+  ],
+  "content_hash": "sha256:15892d545cddc9362a57ee799b824a442e9c16a28b7bf4b20bc135e40c460fcd",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision A—Amending Register",
+    "82  Adaptation of classification"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "82",
+  "ref": "TMA1995/s82",
+  "text": "The Registrar may, in accordance with the regulations, amend the Register (whether by making, removing or altering entries) for the purpose of adapting the designation of the goods or services in respect of which trade marks are registered to reflect any change that has occurred in the classification of goods or services for the purposes of this Act. Note 1: For Register see section 6. Note 2: For the classification of goods and services see subsection 19(3).",
+  "title": "Adaptation of classification",
+  "units": [
+    {
+      "content_hash": "sha256:627974d93a6061cbab064aeddc8e0a33200afdaa7b4a0a13663d51851bdfde7a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s82~1",
+      "style": "subsection",
+      "text": "The Registrar may, in accordance with the regulations, amend the Register (whether by making, removing or altering entries) for the purpose of adapting the designation of the goods or services in respect of which trade marks are registered to reflect any change that has occurred in the classification of goods or services for the purposes of this Act."
+    },
+    {
+      "content_hash": "sha256:83691dd477afc347eba4ee2efec63d49198449bcfc146b2d0717a6a729faad2d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 12,
+          "text": "Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s82~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s82~1~1",
+      "style": "notetext",
+      "text": "Note 1: For Register see section 6."
+    },
+    {
+      "content_hash": "sha256:c490e49c75b2c256ff2dbb42a0b3fb2f3fd814bfaeda552962d1a9467a661191",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s82~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s19(3)",
+          "mention": "subsection 19(3)"
+        }
+      ],
+      "ref": "TMA1995/s82~1~2",
+      "style": "notetext",
+      "text": "Note 2: For the classification of goods and services see subsection 19(3)."
+    }
+  ]
+}

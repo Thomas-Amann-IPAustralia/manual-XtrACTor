@@ -1,0 +1,115 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:ac5afa218347ee01a1a1aac9597a3c3099b7f888be2f70a658dc6ff094c7599d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48N  Amendment of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48N",
+  "ref": "TMR1995/r17A.48N",
+  "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake. (2) If an opposition is proceeding in the name of a person other than the opponent under section 96A of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name. (3) The Registrar may grant the request on terms that the Registrar considers appropriate. (4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant. (5) Regulation 17A.48B does not apply to a request under subregulation (1) or (2). (6) Section 96A of the Act applies in relation to the opposition.",
+  "title": "Amendment of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:4d6013cc5a0a63aaefeb5ff47eb4ae2b979452d09a4c918d758ccb90ac0dbd15",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48N(1)",
+      "style": "subsection",
+      "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake."
+    },
+    {
+      "content_hash": "sha256:187af1406f7bcab87f10d000a6eeb2629e78f8cec851467db7085330c81b74cc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96A",
+          "mention": "section 96A"
+        }
+      ],
+      "ref": "TMR1995/r17A.48N(2)",
+      "style": "subsection",
+      "text": "(2) If an opposition is proceeding in the name of a person other than the opponent under section 96A of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name."
+    },
+    {
+      "content_hash": "sha256:5aa000f23232521778db130979588f4a4d9bb79dfb7484229904d3d4ad181932",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48N(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may grant the request on terms that the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:f0e963abe9f0cbffce3c3487ed77f019188f58cebee8d876d5f1a2ba6c824a12",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48N(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar grants the request, the Registrar must give a copy of the amended notice of intention to oppose to the applicant."
+    },
+    {
+      "content_hash": "sha256:9ceb3e2f79acb891ca8da34bcd2785b5bbbc12eeb28004884b998034cae49f2d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48B",
+          "mention": "Regulation 17A.48B"
+        }
+      ],
+      "ref": "TMR1995/r17A.48N(5)",
+      "style": "subsection",
+      "text": "(5) Regulation 17A.48B does not apply to a request under subregulation (1) or (2)."
+    },
+    {
+      "content_hash": "sha256:51e67127cbd481c5bbb41f5a4319334c22b4b9cde4d44056c066e0bcd9c61279",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96A",
+          "mention": "Section 96A"
+        }
+      ],
+      "ref": "TMR1995/r17A.48N(6)",
+      "style": "subsection",
+      "text": "(6) Section 96A of the Act applies in relation to the opposition."
+    }
+  ]
+}

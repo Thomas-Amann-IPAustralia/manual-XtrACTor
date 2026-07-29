@@ -1,0 +1,124 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:474358fa87af6aa387606eab9d74baac4054b887fb47c3c8db89fc9ea41a072f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "254  Acts not constituting infringement of existing registered mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "254",
+  "ref": "TMA1995/s254",
+  "text": "(1) This section applies if: (a) immediately before 1 January 1996, a person was engaging in conduct that did not constitute an infringement of a mark registered under the repealed Act; and (b) the mark is an existing registered mark for the purposes of this Act; and (c) the person has, on or after that day, continuously engaged in, and is engaging in, that conduct; and (d) that conduct is an infringement of the existing registered mark under this Act. (2) In spite of section 120, the person does not infringe the existing registered mark by engaging in that conduct. Note: For existing registered mark see section 6.",
+  "title": "Acts not constituting infringement of existing registered mark",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s254(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:ab6f41f588ab6a8ee623d5eb2b68fd4090304f0babe1ed6b76c5ca2f77b3b033",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s254(1)",
+      "ref": "TMA1995/s254(1)(a)",
+      "style": "paragraph",
+      "text": "(a) immediately before 1 January 1996, a person was engaging in conduct that did not constitute an infringement of a mark registered under the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:5b198922fee0280088d0a82673312192aa70f075e11e9bec9ef5d13e35ad2bae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s254(1)",
+      "ref": "TMA1995/s254(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the mark is an existing registered mark for the purposes of this Act; and"
+    },
+    {
+      "content_hash": "sha256:3ae05e0c1600efd03680648bcbf21a7e4d2fa207235785a2f068b641bbc2a0be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s254(1)",
+      "ref": "TMA1995/s254(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the person has, on or after that day, continuously engaged in, and is engaging in, that conduct; and"
+    },
+    {
+      "content_hash": "sha256:eca4f3820a89c2ce63878d31caa70221219f22ee6e6ce8ade49afebb8a930e88",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s254(1)",
+      "ref": "TMA1995/s254(1)(d)",
+      "style": "paragraph",
+      "text": "(d) that conduct is an infringement of the existing registered mark under this Act."
+    },
+    {
+      "content_hash": "sha256:ee0ce67067d6a9d5e30203cfa2befae89b41ca82dbe2deb0ddc3d9aa4e2312f3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s254(2)",
+      "style": "subsection",
+      "text": "(2) In spite of section 120, the person does not infringe the existing registered mark by engaging in that conduct."
+    },
+    {
+      "content_hash": "sha256:4101ae20ff15a88819162b840ff47f43c6d70f3cf9d3f639a4f89b709ae37195",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s254(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s254(2)~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark see section 6."
+    }
+  ]
+}

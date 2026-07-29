@@ -1,0 +1,80 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:cd9b8e858e0699b263b2335a810f6e165afac360b384bdd0c38d0369718a8de6",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80E  Renewal within prescribed period"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80E",
+  "ref": "TMA1995/s80E",
+  "text": "(1) If a request for the renewal of the registration of the trade mark is made in accordance with section 80D, the Registrar must renew, or successively renew, the registration for the potential renewal period or periods to which the request relates. (2) The Registrar must give notification of the renewal or renewals to the registered owner of the trade mark in accordance with the regulations. Note: For registered owner see section 6.",
+  "title": "Renewal within prescribed period",
+  "units": [
+    {
+      "content_hash": "sha256:fdfd16820d19ba46279c7eaa5de08474fd908c0ff31d6c433652248dc0d18cab",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80D",
+          "mention": "section 80D"
+        }
+      ],
+      "ref": "TMA1995/s80E(1)",
+      "style": "subsection",
+      "text": "(1) If a request for the renewal of the registration of the trade mark is made in accordance with section 80D, the Registrar must renew, or successively renew, the registration for the potential renewal period or periods to which the request relates."
+    },
+    {
+      "content_hash": "sha256:ca265c34a96c5e2a128d8d196fab08b90a0c337d0ec810941822056021b9e9ee",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s80E(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must give notification of the renewal or renewals to the registered owner of the trade mark in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s80E(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80E(2)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    }
+  ]
+}

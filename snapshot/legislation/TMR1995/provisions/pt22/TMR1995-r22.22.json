@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div4"
+  ],
+  "content_hash": "sha256:83560e7685a3c922fb167dc26ca1693da9bbbbb62a469b17c42fc328f6f44ae1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 4—Amendments made by the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018",
+    "22.22  Amendments made by Part 4 of Schedule 2"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.22",
+  "ref": "TMR1995/r22.22",
+  "text": "The amendments of subregulations 17A.36(2), (2A), (3), (3A), (4) and (6) made by Part 4 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to acceptance of an IRDA on or after the commencement of that Part.",
+  "title": "Amendments made by Part 4 of Schedule 2",
+  "units": [
+    {
+      "content_hash": "sha256:83560e7685a3c922fb167dc26ca1693da9bbbbb62a469b17c42fc328f6f44ae1",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 184,
+          "start": 109,
+          "text": "Intellectual Property Laws Amendment (Productivity Commission Response Part",
+          "weight": "italic"
+        },
+        {
+          "end": 206,
+          "start": 185,
+          "text": "1 and Other Measures)",
+          "weight": "italic"
+        },
+        {
+          "end": 220,
+          "start": 207,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 223,
+          "start": 220,
+          "text": "018",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.36(2)",
+          "mention": "subregulations 17A.36(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.22~1",
+      "style": "subsection",
+      "text": "The amendments of subregulations 17A.36(2), (2A), (3), (3A), (4) and (6) made by Part 4 of Schedule 2 to the Intellectual Property Laws Amendment (Productivity Commission Response Part 1 and Other Measures) Regulations 2018 apply in relation to acceptance of an IRDA on or after the commencement of that Part."
+    }
+  ]
+}

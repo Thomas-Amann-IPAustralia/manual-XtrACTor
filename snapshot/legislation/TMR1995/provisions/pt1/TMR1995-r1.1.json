@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt1"
+  ],
+  "content_hash": "sha256:a356807807434be55976eb97c545725ee4f35ffcac11b2ca6d9c149b4e449ba3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 1—Preliminary",
+    "1.1  Name of regulations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "1.1",
+  "ref": "TMR1995/r1.1",
+  "text": "These Regulations are the Trade Marks Regulations 1995.",
+  "title": "Name of regulations",
+  "units": [
+    {
+      "content_hash": "sha256:a356807807434be55976eb97c545725ee4f35ffcac11b2ca6d9c149b4e449ba3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 37,
+          "start": 26,
+          "text": "Trade Marks",
+          "weight": "italic"
+        },
+        {
+          "end": 51,
+          "start": 38,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 54,
+          "start": 51,
+          "text": "995",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r1.1~1",
+      "style": "subsection",
+      "text": "These Regulations are the Trade Marks Regulations 1995."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt6"
+  ],
+  "content_hash": "sha256:58edff24ab326a173da0fcafcd90b8113f3df8567b701e773f90790b7e99de01",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "65  Amendment after particulars of application have been published—request for amendment not published"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "65",
+  "ref": "TMA1995/s65",
+  "text": "(1) If the particulars of the application have been published under section 30, the application may be amended as provided in this section. (2) An amendment may be made to the representation of the trade mark if the amendment does not substantially affect the identity of the trade mark as at the time when the particulars of the application were published. (3) An amendment may be made to an application to which section 51 applies to remove one or more trade marks from the application. (4) An amendment may be made to correct an error in the classification of goods or services specified in the application. (5) An amendment may be made to add to the class or classes of goods or services specified in the application one or more other classes of goods or services if the Registrar is of the opinion that it is fair and reasonable in all the circumstances to do so. (6) An amendment may be made to change the type of registration sought in the application (for example, an application for the registration of a trade mark as a certification trade mark may be amended to an application for registration as a collective trade mark). (7) An amendment may be made to any other particular specified in the application unless the amendment would have the effect of extending the rights that (apart from the amendment) the applicant would have under the registration if it were granted. (8) Without limiting subsection (7), if the application specifies an applicant without legal personality, an amendment may be made under that subsection to change the reference to the specified applicant to a reference to a person with legal personality if that person can be identified as having made the application.",
+  "title": "Amendment after particulars of application have been published—request for amendment not published",
+  "units": [
+    {
+      "content_hash": "sha256:5028d04b32457944ab15e00d926b8d077b49d3b4834ed3c0cf4b2401ea117831",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "ref": "TMA1995/s65(1)",
+      "style": "subsection",
+      "text": "(1) If the particulars of the application have been published under section 30, the application may be amended as provided in this section."
+    },
+    {
+      "content_hash": "sha256:5e047018dd855fe5672a182c993e0846e03a99efdc54080e90edd65ac8989f9b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(2)",
+      "style": "subsection",
+      "text": "(2) An amendment may be made to the representation of the trade mark if the amendment does not substantially affect the identity of the trade mark as at the time when the particulars of the application were published."
+    },
+    {
+      "content_hash": "sha256:1fea24cce70104883746f85f981e4f762e2a9341dfdf20724ebf659f6c3583da",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s51",
+          "mention": "section 51"
+        }
+      ],
+      "ref": "TMA1995/s65(3)",
+      "style": "subsection",
+      "text": "(3) An amendment may be made to an application to which section 51 applies to remove one or more trade marks from the application."
+    },
+    {
+      "content_hash": "sha256:edce598a37fb83c439ee6ef339338a5608773628e00b9a7b788a0ae32cd18dda",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(4)",
+      "style": "subsection",
+      "text": "(4) An amendment may be made to correct an error in the classification of goods or services specified in the application."
+    },
+    {
+      "content_hash": "sha256:ec058fa304ba8cb0915a561226d15e6c1d6027e0e5876fd7bad58f33e1d44e73",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(5)",
+      "style": "subsection",
+      "text": "(5) An amendment may be made to add to the class or classes of goods or services specified in the application one or more other classes of goods or services if the Registrar is of the opinion that it is fair and reasonable in all the circumstances to do so."
+    },
+    {
+      "content_hash": "sha256:f1d596ce21d81ad204feb5fdcc4368f6165540a3f31e9d0414b755d4bb711949",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(6)",
+      "style": "subsection",
+      "text": "(6) An amendment may be made to change the type of registration sought in the application (for example, an application for the registration of a trade mark as a certification trade mark may be amended to an application for registration as a collective trade mark)."
+    },
+    {
+      "content_hash": "sha256:bf2fedc3940fcff1fda0aed977664214ff1a1cd8161458e02d063177778d3ac5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(7)",
+      "style": "subsection",
+      "text": "(7) An amendment may be made to any other particular specified in the application unless the amendment would have the effect of extending the rights that (apart from the amendment) the applicant would have under the registration if it were granted."
+    },
+    {
+      "content_hash": "sha256:2bf16750cbb02167e07e36795be447de2575e15545fa815718c4b90d7d70d7e9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(8)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s65(8)",
+      "style": "subsection",
+      "text": "(8) Without limiting subsection (7), if the application specifies an applicant without legal personality, an amendment may be made under that subsection to change the reference to the specified applicant to a reference to a person with legal personality if that person can be identified as having made the application."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:c680bc2f9ad43c996b519157722d556115b27828715615b7c91c425da75d140f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "71  Notification of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "71",
+  "ref": "TMA1995/s71",
+  "text": "When a trade mark has been registered, the Registrar must: (a) publish the registration in accordance with the regulations; and (b) give to the registered owner of the trade mark a certificate of registration in an approved form. Note: For registered owner and approved form see section 6.",
+  "title": "Notification of registration",
+  "units": [
+    {
+      "content_hash": "sha256:83a3083fd70cadeca9eb5f71aa89a0d265cf59f1f1e0f985de8ba90452609e0f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s71~1",
+      "style": "subsection",
+      "text": "When a trade mark has been registered, the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:a270b511fcdd123cc10260339ee91766751d8c2871249784c766aada2a896210",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s71~1",
+      "ref": "TMA1995/s71(a)",
+      "style": "paragraph",
+      "text": "(a) publish the registration in accordance with the regulations; and"
+    },
+    {
+      "content_hash": "sha256:2e4f8b905e240fe95c4d623eab1ba69ddee0c066bee39c3cdfcca648b537b667",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s71~1",
+      "ref": "TMA1995/s71(b)",
+      "style": "paragraph",
+      "text": "(b) give to the registered owner of the trade mark a certificate of registration in an approved form."
+    },
+    {
+      "content_hash": "sha256:353e808b2091ca9a7de2a0536d17409c27373f3210c8665d95671edb4cf73a0b",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 44,
+          "start": 31,
+          "text": "approved form",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s71(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s71(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner and approved form see section 6."
+    }
+  ]
+}

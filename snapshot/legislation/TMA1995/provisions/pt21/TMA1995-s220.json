@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div2"
+  ],
+  "content_hash": "sha256:c912fc1d499cb2830f784172597b69fe775026caa43bc00a7db9e0020b50c1d5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 2—Proceedings before the Registrar or a court",
+    "220  Death of party to proceeding before Registrar"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "220",
+  "ref": "TMA1995/s220",
+  "text": "If a person who is party to a proceeding pending before the Registrar dies, the Registrar may: (a) on being so asked, substitute in the proceeding another person in the place of the deceased party if the Registrar is satisfied that the interest of the deceased party has been transmitted to that other person; or (b) allow the proceeding to continue without any substitution if the Registrar is of the opinion that the interest of the deceased party is sufficiently represented by the surviving parties.",
+  "title": "Death of party to proceeding before Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:a67bb36fb41ae2564670a7f7f4cde8085520455e68d74d3546605d19642ecf39",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s220~1",
+      "style": "subsection",
+      "text": "If a person who is party to a proceeding pending before the Registrar dies, the Registrar may:"
+    },
+    {
+      "content_hash": "sha256:470c2a5c0c18ee237f5064567a66e8c62d5a84fcc5c97298de8af2cf5ba2be1c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s220~1",
+      "ref": "TMA1995/s220(a)",
+      "style": "paragraph",
+      "text": "(a) on being so asked, substitute in the proceeding another person in the place of the deceased party if the Registrar is satisfied that the interest of the deceased party has been transmitted to that other person; or"
+    },
+    {
+      "content_hash": "sha256:10d0c2dcf4dc001277a63aee730de3f2f028b1a1738e6f725509318bcea3f361",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s220~1",
+      "ref": "TMA1995/s220(b)",
+      "style": "paragraph",
+      "text": "(b) allow the proceeding to continue without any substitution if the Registrar is of the opinion that the interest of the deceased party is sufficiently represented by the surviving parties."
+    }
+  ]
+}

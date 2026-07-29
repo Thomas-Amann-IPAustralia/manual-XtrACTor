@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div2",
+    "TMR1995/pt5/div2/sdiva"
+  ],
+  "content_hash": "sha256:7e6c18c25302ba7045b81506f55a52e5bbb0d2373b074eb2ef0f5ac437aa5bbb",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Filing of opposition documents",
+    "Subdivision A—Notice of opposition",
+    "5.6  Filing of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.6",
+  "ref": "TMR1995/r5.6",
+  "text": "(1) For subsection 52(2) of the Act, the period for filing a notice of intention to oppose is 2 months from the day the acceptance of the trade mark application is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A. (2) The notice must be in an approved form. (3) The Registrar must give a copy of the notice to the applicant.",
+  "title": "Filing of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:0336a5a2f59949155204b107b3955b57786ab5e0ca2ab45a48264906fbfc29f7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52(2)",
+          "mention": "subsection 52(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.11A",
+          "mention": "regulation 4.11A"
+        }
+      ],
+      "ref": "TMR1995/r5.6(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 52(2) of the Act, the period for filing a notice of intention to oppose is 2 months from the day the acceptance of the trade mark application is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A."
+    },
+    {
+      "content_hash": "sha256:cff104fd035bdb4288a7e06c320cc644bb966a51671a54d50c6cc8c9a48c5d52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.6(2)",
+      "style": "subsection",
+      "text": "(2) The notice must be in an approved form."
+    },
+    {
+      "content_hash": "sha256:b5aec6cdb0731ceddcf13fb51c33abba66782a3f94ef0e1262296c8252b4a173",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.6(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must give a copy of the notice to the applicant."
+    }
+  ]
+}

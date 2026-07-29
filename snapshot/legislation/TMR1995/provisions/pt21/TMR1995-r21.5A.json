@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:15ea7121c4db2f19a8a0be0b422c3e45b06a27dad30c67389236b3bb140e9d37",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.5A  Consequences for evidence not meeting filing requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.5A",
+  "ref": "TMR1995/r21.5A",
+  "text": "(1) If, in relation to evidence received at the Trade Marks Office, a person does not comply with a direction under section 213C of the Act, the Registrar may treat the evidence: (a) as not having been filed and notify the person, including in the notification a statement indicating how the direction has not been complied with; or (b) as having been filed, but direct the person to do such things as are necessary to ensure that the direction is complied with. (2) If the Registrar gives a direction under paragraph (1)(b) and the person does not comply with the direction within the period specified in the direction, the Registrar may treat the evidence as not having been filed.",
+  "title": "Consequences for evidence not meeting filing requirements",
+  "units": [
+    {
+      "content_hash": "sha256:bb13682fb480cf1e198da7cf740e915896f836cd81c3866c3585d3e34d9c32c1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213C",
+          "mention": "section 213C"
+        }
+      ],
+      "ref": "TMR1995/r21.5A(1)",
+      "style": "subsection",
+      "text": "(1) If, in relation to evidence received at the Trade Marks Office, a person does not comply with a direction under section 213C of the Act, the Registrar may treat the evidence:"
+    },
+    {
+      "content_hash": "sha256:71d59295353e685bf0ec64684d699d08d24e050a652877a2d4027a59d865c948",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.5A(1)",
+      "ref": "TMR1995/r21.5A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) as not having been filed and notify the person, including in the notification a statement indicating how the direction has not been complied with; or"
+    },
+    {
+      "content_hash": "sha256:566ca082bcbd1379e6c133092fd44e8edfa8005bc2aa126d473af82899dd86d3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.5A(1)",
+      "ref": "TMR1995/r21.5A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) as having been filed, but direct the person to do such things as are necessary to ensure that the direction is complied with."
+    },
+    {
+      "content_hash": "sha256:3f096802b53bb08542ea42fb7dde0ac021393f706ffe1db89880fd9d639509fa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.5A(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar gives a direction under paragraph (1)(b) and the person does not comply with the direction within the period specified in the direction, the Registrar may treat the evidence as not having been filed."
+    }
+  ]
+}

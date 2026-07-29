@@ -1,0 +1,206 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:a740afc6c01ff5a5705d35f351e5566f05c4c3bc8c4d56ffc2d04885e084f3ec",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.4  Certain deferments continue"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.4",
+  "ref": "TMR1995/r22.4",
+  "text": "(1) If: (a) the Registrar has deferred acceptance of an application for registration of a trade mark under subsection 33(3) of the Trade Marks Act 1955; and (b) the deferment was in force immediately before the commencement of these regulations; the deferment is in force under subregulation 4.13(1) after the commencement of these regulations as if the Registrar had deferred acceptance of the application on the day on which it was deferred under the Trade Marks Act 1955. (2) Subject to paragraph 4.14(2)(a), the deferment period for an application referred to in subregulation (1) ends: (a) when the Registrar is reasonably satisfied that there are no longer grounds for rejecting the application under subsection 44(1) or (2) of the Act because of another trade mark in respect of which an application for registration has been made by another person; or (b) if the period does not end in accordance with paragraph (a)—when proceedings in respect of the application for registration of the other trade mark are finalised. (3) If acceptance of the application is deferred as a result of the operation of more than 1 provision of these regulations, the deferment period ends in accordance with whichever of the provisions of: (a) paragraph (2)(b); and (b) subregulation 4.14(3), other than paragraph 4.14(3)(a); under which the deferment period ends later or last, as the case requires.",
+  "title": "Certain deferments continue",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.4(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:69406e060e5cf92835445d4a91aa31c284520b72bcb1092a724ec16e7628bc39",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 143,
+          "start": 123,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.4(1)",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s33(3)",
+          "mention": "subsection 33(3) of the Trade Marks Act 1955"
+        }
+      ],
+      "ref": "TMR1995/r22.4(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar has deferred acceptance of an application for registration of a trade mark under subsection 33(3) of the Trade Marks Act 1955; and"
+    },
+    {
+      "content_hash": "sha256:7b9b0fe88e058cba2c6519a702790dc4e12766874a4929fecbc9d49ec0800b9f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.4(1)",
+      "ref": "TMR1995/r22.4(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the deferment was in force immediately before the commencement of these regulations;"
+    },
+    {
+      "content_hash": "sha256:b8510137e750b54089159dd63498d6b81ae69e034089ca2df7258aeddd06bae9",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 227,
+          "start": 207,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.13(1)",
+          "mention": "subregulation 4.13(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.4~1",
+      "style": "subsection2",
+      "text": "the deferment is in force under subregulation 4.13(1) after the commencement of these regulations as if the Registrar had deferred acceptance of the application on the day on which it was deferred under the Trade Marks Act 1955."
+    },
+    {
+      "content_hash": "sha256:51235ca67fe30caf2ad6ee2203297f532bb225267b369a3e8dcc173fd263a8b9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.14(2)(a)",
+          "mention": "paragraph 4.14(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r22.4(2)",
+      "style": "subsection",
+      "text": "(2) Subject to paragraph 4.14(2)(a), the deferment period for an application referred to in subregulation (1) ends:"
+    },
+    {
+      "content_hash": "sha256:0e000569a6ea0d0118f5b90b3120bf693d2e6a21afbc75a0cb3a0b36e38439b7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r22.4(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)",
+          "mention": "subsection 44(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.4(2)(a)",
+      "style": "paragraph",
+      "text": "(a) when the Registrar is reasonably satisfied that there are no longer grounds for rejecting the application under subsection 44(1) or (2) of the Act because of another trade mark in respect of which an application for registration has been made by another person; or"
+    },
+    {
+      "content_hash": "sha256:7e26cc1c2d42c046529d1d554cf1845de8f957ea47e1a91ec8533fd4a75f63a9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r22.4(2)",
+      "ref": "TMR1995/r22.4(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if the period does not end in accordance with paragraph (a)—when proceedings in respect of the application for registration of the other trade mark are finalised."
+    },
+    {
+      "content_hash": "sha256:4da8e55088c6e76eae6ba357d076025871d2ea540c0cedcaebf553cd945bd739",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.4(3)",
+      "style": "subsection",
+      "text": "(3) If acceptance of the application is deferred as a result of the operation of more than 1 provision of these regulations, the deferment period ends in accordance with whichever of the provisions of:"
+    },
+    {
+      "content_hash": "sha256:c8c5d2528929bfb86885b9ec3083e84a9b88e88beaf6fec86edad0b607dc5e13",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r22.4(3)",
+      "ref": "TMR1995/r22.4(3)(a)",
+      "style": "paragraph",
+      "text": "(a) paragraph (2)(b); and"
+    },
+    {
+      "content_hash": "sha256:feba53e25d1f45ae95b2d030e3516f8a96769cebdcce28db96a7b6960d019922",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r22.4(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.14(3)(a)",
+          "mention": "paragraph 4.14(3)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.14(3)",
+          "mention": "subregulation 4.14(3)"
+        }
+      ],
+      "ref": "TMR1995/r22.4(3)(b)",
+      "style": "paragraph",
+      "text": "(b) subregulation 4.14(3), other than paragraph 4.14(3)(a);"
+    },
+    {
+      "content_hash": "sha256:a15a30da2bbc3ed41d7d728245711a038815effd7b4ec8ec48153bce8a3f03b2",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.4~2",
+      "style": "subsection2",
+      "text": "under which the deferment period ends later or last, as the case requires."
+    }
+  ]
+}

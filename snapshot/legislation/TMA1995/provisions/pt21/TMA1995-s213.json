@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:656410393782896c39c4aaf73f440ac2f12935ac5626a2ec2ce51057544a13fc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "213  Filing of documents"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "213",
+  "ref": "TMA1995/s213",
+  "text": "For the purposes of this Act, a document may be filed with the Trade Marks Office by a means determined in an instrument under subsection 213A(1).",
+  "title": "Filing of documents",
+  "units": [
+    {
+      "content_hash": "sha256:656410393782896c39c4aaf73f440ac2f12935ac5626a2ec2ce51057544a13fc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213A(1)",
+          "mention": "subsection 213A(1)"
+        }
+      ],
+      "ref": "TMA1995/s213~1",
+      "style": "subsection",
+      "text": "For the purposes of this Act, a document may be filed with the Trade Marks Office by a means determined in an instrument under subsection 213A(1)."
+    }
+  ]
+}

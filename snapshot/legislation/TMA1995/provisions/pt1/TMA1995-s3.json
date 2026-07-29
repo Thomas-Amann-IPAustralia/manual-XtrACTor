@@ -1,0 +1,43 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt1"
+  ],
+  "content_hash": "sha256:b59d192ac1003234082fff6706df6c8f073df55600fa16e16905888f89953427",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 1—Preliminary",
+    "3  Act binds the Crown"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "3",
+  "ref": "TMA1995/s3",
+  "text": "(1) This Act binds the Crown in right of the Commonwealth, of each of the States, of the Australian Capital Territory and of the Northern Territory. (2) Nothing in this Act makes the Crown liable to be prosecuted for an offence.",
+  "title": "Act binds the Crown",
+  "units": [
+    {
+      "content_hash": "sha256:7a49470c9f615d7d0718d8a78e5fe75385147c66feadc240e14ee8015eccef0b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s3(1)",
+      "style": "subsection",
+      "text": "(1) This Act binds the Crown in right of the Commonwealth, of each of the States, of the Australian Capital Territory and of the Northern Territory."
+    },
+    {
+      "content_hash": "sha256:ed9f23f2480574800ef7b90459d2d9065080eaa4c9291b24e2fb738ebc63bb77",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s3(2)",
+      "style": "subsection",
+      "text": "(2) Nothing in this Act makes the Crown liable to be prosecuted for an offence."
+    }
+  ]
+}

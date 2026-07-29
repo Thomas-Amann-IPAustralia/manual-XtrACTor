@@ -1,0 +1,138 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt20"
+  ],
+  "content_hash": "sha256:3e16d915335fad0027da222adc8cd0acff50c36ee95bbde736eb19eb96706594",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 20—The Register and official documents",
+    "210  Evidence—the Register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "210",
+  "ref": "TMA1995/s210",
+  "text": "(1) The Register is prima facie evidence of any particular or other matter entered in it. Note: See section 116 about records of claims to interests and rights made under Part 11. (2) A copy of, or an extract from, the Register that is certified by the Registrar to be a true record or extract is admissible in any proceedings as if it were the original. (3) If the Register or a part of the Register is kept by using a computer, a document certified by the Registrar as reproducing in writing a computer record of all or any of the particulars comprised in the Register or in that part of the Register is admissible in any proceedings as prima facie evidence of those particulars. (4) This section does not apply in relation to any particular or other matter entered in the Register in relation to a PPSA security interest. Note 1: For PPSA security interest see section 6. Note 2: Certain particulars relating to registrations in respect of PPSA security interests under the Personal Property Securities Act 2009 are admissible in evidence: see section 174 of that Act.",
+  "title": "Evidence—the Register",
+  "units": [
+    {
+      "content_hash": "sha256:324df484859af56c3b343137076d1ec41449ca68b5b9db8c43f64f0f23e5169a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s210(1)",
+      "style": "subsection",
+      "text": "(1) The Register is prima facie evidence of any particular or other matter entered in it."
+    },
+    {
+      "content_hash": "sha256:437ea8f7bfac9b01834de27f012feb0a7752060bf045c93044023b2bc8f29d69",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s210(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s116",
+          "mention": "section 116"
+        }
+      ],
+      "ref": "TMA1995/s210(1)~1",
+      "style": "notetext",
+      "text": "Note: See section 116 about records of claims to interests and rights made under Part 11."
+    },
+    {
+      "content_hash": "sha256:e9a9ace798123f67678965d9ec99ec02e1576ea6e5a9a545a23f098434a26d4e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s210(2)",
+      "style": "subsection",
+      "text": "(2) A copy of, or an extract from, the Register that is certified by the Registrar to be a true record or extract is admissible in any proceedings as if it were the original."
+    },
+    {
+      "content_hash": "sha256:7eb6a68785c66c6c175b176feb89b2883d119f911d54347d17e0602cddc72667",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s210(3)",
+      "style": "subsection",
+      "text": "(3) If the Register or a part of the Register is kept by using a computer, a document certified by the Registrar as reproducing in writing a computer record of all or any of the particulars comprised in the Register or in that part of the Register is admissible in any proceedings as prima facie evidence of those particulars."
+    },
+    {
+      "content_hash": "sha256:2e9e6ba23d4393e6282e4e1a3aa00236ddb791696bfbf5b560b76bbfd00daf5b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s210(4)",
+      "style": "subsection",
+      "text": "(4) This section does not apply in relation to any particular or other matter entered in the Register in relation to a PPSA security interest."
+    },
+    {
+      "content_hash": "sha256:d75a037e43324ce00f0701b75f9952687d5758731f579151b171d828ecdd387e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 12,
+          "text": "PPSA security interest",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s210(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s210(4)~1",
+      "style": "notetext",
+      "text": "Note 1: For PPSA security interest see section 6."
+    },
+    {
+      "content_hash": "sha256:c268bc161f36ff6ead0e9ff456bc02bd57bdf782e889c85be538e05901c17e1b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 139,
+          "start": 102,
+          "text": "Personal Property Securities Act 2009",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s210(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s174",
+          "mention": "section 174"
+        }
+      ],
+      "ref": "TMA1995/s210(4)~2",
+      "style": "notetext",
+      "text": "Note 2: Certain particulars relating to registrations in respect of PPSA security interests under the Personal Property Securities Act 2009 are admissible in evidence: see section 174 of that Act."
+    }
+  ]
+}

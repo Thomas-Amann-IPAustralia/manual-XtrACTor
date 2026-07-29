@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:4df9d5f4eca102b4ce4a0cfa1602affbfab04809851575eef9c3769e3fa75df4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48Y  Registrar must notify parties of dismissal or discontinuance of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48Y",
+  "ref": "TMR1995/r17A.48Y",
+  "text": "If an opposition is dismissed under regulation 17A.48K or discontinued, the Registrar must notify the parties of the dismissal or discontinuance.",
+  "title": "Registrar must notify parties of dismissal or discontinuance of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:4df9d5f4eca102b4ce4a0cfa1602affbfab04809851575eef9c3769e3fa75df4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48K",
+          "mention": "regulation 17A.48K"
+        }
+      ],
+      "ref": "TMR1995/r17A.48Y~1",
+      "style": "subsection",
+      "text": "If an opposition is dismissed under regulation 17A.48K or discontinued, the Registrar must notify the parties of the dismissal or discontinuance."
+    }
+  ]
+}

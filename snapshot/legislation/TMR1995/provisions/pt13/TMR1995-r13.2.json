@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:6829c5e91806b24db13c6d9a5fbf1a71d97676c98e23e29cd58872bcedd3f7ce",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.2  Claim period"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.2",
+  "ref": "TMR1995/r13.2",
+  "text": "For the definition of claim period in section 6 of the Act, the period is 10 working days.",
+  "title": "Claim period",
+  "units": [
+    {
+      "content_hash": "sha256:6829c5e91806b24db13c6d9a5fbf1a71d97676c98e23e29cd58872bcedd3f7ce",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 22,
+          "text": "claim period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/r13.2~1",
+      "style": "subsection",
+      "text": "For the definition of claim period in section 6 of the Act, the period is 10 working days."
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div1"
+  ],
+  "content_hash": "sha256:5b7f3304309caf7022cdbb403a1393ae09091750dd421c5f83482ef79f8414f8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 1—General",
+    "17A.2  Definitions for Part"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.2",
+  "ref": "TMR1995/r17A.2",
+  "text": "change of ownership includes assignment or transmission. Contracting Party of the holder has the meaning given by Rule 1(xxvibis) of the Madrid Regulations. date of international registration means the date recorded in the International Register as the international registration date for a trade mark in respect of which a request was made under Article 3ter (1) of the Protocol for extension of protection to Australia. date of recording means the date recorded in the International Register as the recordal date for a request made under Article 3ter (2) of the Protocol for extension of protection to Australia. holder means: (a) in relation to an IRDA or a protected international trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the Record of International Registrations; and (b) in relation to another international registration of a trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the International Register. International Bureau means the International Bureau of the World Intellectual Property Organisation. International Register means the register maintained by the International Bureau for the purposes of the Protocol. international registration of a trade mark means registration of the mark in the International Register. international registration designating Australia, or IRDA, means a request, made under Article 3ter (1) or (2) of the Protocol, for extension to Australia of the protection resulting from the international registration of a trade mark. Madrid Regulations means the Regulations under the Madrid Protocol, as the Regulations are in force for Australia on 1 November 2024. Note 1: The Regulations could in 2025 be viewed on the World Intellectual Property Organization website (www.wipo.int). Note 2: For Madrid Protocol, see regulation 2.1 of these Regulations. Office of origin has the meaning given by Article 2(2) of the Protocol. priority date, for a trade mark that is the subject of an IRDA or a protected international trade mark, has the meaning given by regulation 17A.3. protected international trade mark means a trade mark to which protection resulting from international registration of the mark is extended in Australia in accordance with these Regulations. Protocol means the Madrid Protocol. Record of International Registrations means the record required to be kept by regulation 17A.66.",
+  "title": "Definitions for Part",
+  "units": [
+    {
+      "content_hash": "sha256:cec3eb0efce0ea5e94b73c3faa9851af8650f1b7269deb35eb654352425c3e55",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 0,
+          "text": "change of ownership",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~1",
+      "style": "Definition",
+      "text": "change of ownership includes assignment or transmission."
+    },
+    {
+      "content_hash": "sha256:fd0b7f5b32b601067f30cb56111479f03f2c91a2b4f1045bbfd9164f103eaa78",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 0,
+          "text": "Contracting Party of the holder",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 71,
+          "start": 68,
+          "text": "bis",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~2",
+      "style": "Definition",
+      "text": "Contracting Party of the holder has the meaning given by Rule 1(xxvibis) of the Madrid Regulations."
+    },
+    {
+      "content_hash": "sha256:fba2b21759d87ef0daa04daa4ef4641d1054ad8fda14c4c0d11aaf84c89ae4c2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 0,
+          "text": "date of international registration",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 202,
+          "start": 199,
+          "text": "ter",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~3",
+      "style": "Definition",
+      "text": "date of international registration means the date recorded in the International Register as the international registration date for a trade mark in respect of which a request was made under Article 3ter (1) of the Protocol for extension of protection to Australia."
+    },
+    {
+      "content_hash": "sha256:e1f96b2a2879dffd8c5dd5a1699d48d47c6be1c9773a50a805643f394b17e33a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 0,
+          "text": "date of recording",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 130,
+          "start": 127,
+          "text": "ter",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~4",
+      "style": "Definition",
+      "text": "date of recording means the date recorded in the International Register as the recordal date for a request made under Article 3ter (2) of the Protocol for extension of protection to Australia."
+    },
+    {
+      "content_hash": "sha256:0b1534352b780170a359c53300bb8257c1793f7a2a6455f8b1c66754b99780b3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 6,
+          "start": 0,
+          "text": "holder",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~5",
+      "style": "Definition",
+      "text": "holder means:"
+    },
+    {
+      "content_hash": "sha256:fec4cf51eb7f17cdd44ab7e6d9810a47a3c46ba89727ca574dc430b513a48236",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.2~5",
+      "ref": "TMR1995/r17A.2(a)",
+      "style": "paragraph",
+      "text": "(a) in relation to an IRDA or a protected international trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the Record of International Registrations; and"
+    },
+    {
+      "content_hash": "sha256:7eef3995b0837b2e09e6755c8b30043a269d1170d565952d868aecfb8397ac38",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.2~5",
+      "ref": "TMR1995/r17A.2(b)",
+      "style": "paragraph",
+      "text": "(b) in relation to another international registration of a trade mark—the person or persons in whose name or names the international registration of the trade mark is recorded in the International Register."
+    },
+    {
+      "content_hash": "sha256:3ea95c2297a482f46c309226f212723ad4cb3dec86f77641aa94eab8a4bedd26",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 0,
+          "text": "International Bureau",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~6",
+      "style": "Definition",
+      "text": "International Bureau means the International Bureau of the World Intellectual Property Organisation."
+    },
+    {
+      "content_hash": "sha256:067a8e6f63514e57b0905c7b01fe16669fc7d222d4f5dff78dab982facacfdc5",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 0,
+          "text": "International Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~7",
+      "style": "Definition",
+      "text": "International Register means the register maintained by the International Bureau for the purposes of the Protocol."
+    },
+    {
+      "content_hash": "sha256:d8c10b37b85ba40cac1ed442cd280474ebd847446a8f72eec025ce4ff22394f1",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 0,
+          "text": "international registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~8",
+      "style": "Definition",
+      "text": "international registration of a trade mark means registration of the mark in the International Register."
+    },
+    {
+      "content_hash": "sha256:59ef831d74af9e00fcd92ad22bd5f9e687f6279b5c50763aca92ebb217752ec7",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 48,
+          "start": 0,
+          "text": "international registration designating Australia",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 57,
+          "start": 53,
+          "text": "IRDA",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 99,
+          "start": 96,
+          "text": "ter",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~9",
+      "style": "Definition",
+      "text": "international registration designating Australia, or IRDA, means a request, made under Article 3ter (1) or (2) of the Protocol, for extension to Australia of the protection resulting from the international registration of a trade mark."
+    },
+    {
+      "content_hash": "sha256:b3b1896f4c1ee80337b986b9b10e57b32bf04a1a1a0f4d1ae687989edc22a710",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 0,
+          "text": "Madrid Regulations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~10",
+      "style": "Definition",
+      "text": "Madrid Regulations means the Regulations under the Madrid Protocol, as the Regulations are in force for Australia on 1 November 2024."
+    },
+    {
+      "content_hash": "sha256:1ed7530691ff38443d491d5d2632bc3fe3f6bd83fd8c51285139ccf0c23a67e9",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.2~10",
+      "ref": "TMR1995/r17A.2~10~1",
+      "style": "notetext",
+      "text": "Note 1: The Regulations could in 2025 be viewed on the World Intellectual Property Organization website (www.wipo.int)."
+    },
+    {
+      "content_hash": "sha256:9c0a028091cac0edc8099eeb0c248039e4d253ac944a5c7081bab65aea540e00",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "Madrid Protocol",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.2~10",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r2.1",
+          "mention": "regulation 2.1"
+        }
+      ],
+      "ref": "TMR1995/r17A.2~10~2",
+      "style": "notetext",
+      "text": "Note 2: For Madrid Protocol, see regulation 2.1 of these Regulations."
+    },
+    {
+      "content_hash": "sha256:e6edef55c645ddcaf7ba6e91a076215429099d3ee292e24b24f8bf4e8bca9e35",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 0,
+          "text": "Office of origin",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~11",
+      "style": "Definition",
+      "text": "Office of origin has the meaning given by Article 2(2) of the Protocol."
+    },
+    {
+      "content_hash": "sha256:09da8c601abed0c32f925f8cbc5ba791d4a10e04740ec288eac297c553395e62",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 13,
+          "start": 0,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.3",
+          "mention": "regulation 17A.3"
+        }
+      ],
+      "ref": "TMR1995/r17A.2~12",
+      "style": "Definition",
+      "text": "priority date, for a trade mark that is the subject of an IRDA or a protected international trade mark, has the meaning given by regulation 17A.3."
+    },
+    {
+      "content_hash": "sha256:c6c3db73c990c5550a7144beafd04d1318ae789073a40b36a67390dbff2cdaa4",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 0,
+          "text": "protected international trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~13",
+      "style": "Definition",
+      "text": "protected international trade mark means a trade mark to which protection resulting from international registration of the mark is extended in Australia in accordance with these Regulations."
+    },
+    {
+      "content_hash": "sha256:31161d32cc2bfedb30b8e73042220a35e276a5bedec13620988cb6ee5ba971d3",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 8,
+          "start": 0,
+          "text": "Protocol",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.2~14",
+      "style": "Definition",
+      "text": "Protocol means the Madrid Protocol."
+    },
+    {
+      "content_hash": "sha256:571d95d2b936c83e615d2125eff14056133830cd842a759836a3be6af412f724",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 37,
+          "start": 0,
+          "text": "Record of International Registrations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.66",
+          "mention": "regulation 17A.66"
+        }
+      ],
+      "ref": "TMR1995/r17A.2~15",
+      "style": "Definition",
+      "text": "Record of International Registrations means the record required to be kept by regulation 17A.66."
+    }
+  ]
+}

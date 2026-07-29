@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:eed4282edbef05603a3f810f25e22ddf7bcbdf2f4510513d54c239a39ddcc622",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "16  Definition of repealed Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "16",
+  "ref": "TMA1995/s16",
+  "text": "(1) The repealed Act means: (a) the Trade Marks Act 1955 as in force immediately before its repeal; and (b) the regulations under that Act that were in force immediately before its repeal. Note: For the repeal of the Trade Marks Act 1955 see section 232. (2) In this Act, unless the contrary intention appears, a reference to a particular section of the repealed Act includes a reference to the regulations made for the purposes of that section and that were in force immediately before that Act was repealed.",
+  "title": "Definition of repealed Act",
+  "units": [
+    {
+      "content_hash": "sha256:7a16f05ab4d92fde083f092c1d19ad3970239145e155b35f61305a67e5317261",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 8,
+          "text": "repealed Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s16(1)",
+      "style": "subsection",
+      "text": "(1) The repealed Act means:"
+    },
+    {
+      "content_hash": "sha256:b853ef2d623e4b98919e32e270be65d3a734a578415ae47b1667e2d81b6e6f90",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 8,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s16(1)",
+      "ref": "TMA1995/s16(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the Trade Marks Act 1955 as in force immediately before its repeal; and"
+    },
+    {
+      "content_hash": "sha256:a34e3b8c2593744bab18844621cf3d9cbeaa686122245ae126eed8ed3326ed70",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s16(1)",
+      "ref": "TMA1995/s16(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the regulations under that Act that were in force immediately before its repeal."
+    },
+    {
+      "content_hash": "sha256:73467312b6d3592b5e9bb0839f1c7ad702171cb75add60aabddb7e15dcc78aae",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 48,
+          "start": 28,
+          "text": "Trade Marks Act 1955",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s16(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s232",
+          "mention": "section 232"
+        }
+      ],
+      "ref": "TMA1995/s16(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: For the repeal of the Trade Marks Act 1955 see section 232."
+    },
+    {
+      "content_hash": "sha256:809b004e2b8d111efdb6e6dda24c04cc13bc9014834ea7a70f034f13704ddc8b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s16(2)",
+      "style": "subsection",
+      "text": "(2) In this Act, unless the contrary intention appears, a reference to a particular section of the repealed Act includes a reference to the regulations made for the purposes of that section and that were in force immediately before that Act was repealed."
+    }
+  ]
+}

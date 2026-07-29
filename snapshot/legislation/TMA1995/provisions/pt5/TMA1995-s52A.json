@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div1"
+  ],
+  "content_hash": "sha256:f5e7866884bed0e5aa1b193080f7b22f726da34a4bb0ea94b2464842201ad0ac",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—General",
+    "52A  Notice of intention to defend opposition to registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "52A",
+  "ref": "TMA1995/s52A",
+  "text": "(1) If a notice of opposition is filed in accordance with section 52, the applicant may file a notice of intention to defend the application for registration of a trade mark. Note: Failure to file a notice of intention will result in the application lapsing: see section 54A. (2) The notice must be filed within the prescribed period, or within that period as extended by the Registrar in accordance with the regulations.",
+  "title": "Notice of intention to defend opposition to registration",
+  "units": [
+    {
+      "content_hash": "sha256:d438e2db64fa438213e5e4c7b7998241112b83006dd7dd66cbb0ccc95519d328",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52",
+          "mention": "section 52"
+        }
+      ],
+      "ref": "TMA1995/s52A(1)",
+      "style": "subsection",
+      "text": "(1) If a notice of opposition is filed in accordance with section 52, the applicant may file a notice of intention to defend the application for registration of a trade mark."
+    },
+    {
+      "content_hash": "sha256:c1b9f2915778439d9c36723c4f4a0037dd2c3dd43c001fc3a1889a9d08e24ba7",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s52A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s54A",
+          "mention": "section 54A"
+        }
+      ],
+      "ref": "TMA1995/s52A(1)~1",
+      "style": "notetext",
+      "text": "Note: Failure to file a notice of intention will result in the application lapsing: see section 54A."
+    },
+    {
+      "content_hash": "sha256:08bb6672f882dad1bb293ba6fbb4b873e0ac0f78b6868f3f0a9c2f4e04d94d36",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s52A(2)",
+      "style": "subsection",
+      "text": "(2) The notice must be filed within the prescribed period, or within that period as extended by the Registrar in accordance with the regulations."
+    }
+  ]
+}

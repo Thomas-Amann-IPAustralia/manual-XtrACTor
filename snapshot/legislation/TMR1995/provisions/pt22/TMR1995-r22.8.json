@@ -1,0 +1,259 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:c1e6cc64abeb5065177bb4234b4fb41ed5f484db97bff0dcf2ecc8bd200e68d9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.8  Trade marks attorney examination requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.8",
+  "ref": "TMR1995/r22.8",
+  "text": "(1) For a person who passed an examination, or was exempted from having to pass the examination, for at least 1 subject under Schedule 5 of the Patents Regulations 1991 as in force on 26 January 1999, the period of 5 years for paragraph 20.3A(1)(b) of the Patents Regulations 1991 is taken to commence on 27 January 1999. (2) Subregulation (3) applies to a person who has passed an examination, or been exempted from having to pass the examination, for at least 1 subject mentioned in Schedule 5 as in force on 26 January 1999. (3) A pass in an examination for a subject mentioned in column 1 of the following table is taken to be a pass for paragraph 20.1(1)(a) in a topic group mentioned in column 2 of the table: Column 1 Subject Column 2 Topic group Legal Process Group A—Legal process and overview of intellectual property Patent Attorneys’ Practice, Part 2 Group B—Professional conduct Trade Marks law of Australia and the Practice of the Trade Marks Office Group C—Trade mark law Patent Attorneys’ Practice, Part 1 and Patent Attorneys’ Practice, Part 2 Group D—Trade mark practice (4) For registration as a trade marks attorney, a person is taken to have passed an examination for Patent Attorney’s Practice 1 and Patent Attorney’s Practice 2 if the person: (a) before 27 January 1999, passed an examination for a subject that the Board considers is equivalent to topic groups A and C mentioned in Schedule 5 to the Patents Regulations 1991; and (b) applies for registration as a trade marks attorney before 27 January 2001; and (c) provides a declaration by an employer or the employer’s representative that the person’s principal field of practice for 2 continuous years has been in trade marks matters.",
+  "title": "Trade marks attorney examination requirements",
+  "units": [
+    {
+      "content_hash": "sha256:afdeb0c7e625520ad085a51d5ed91f13bca27e23ac8d31388620f6c1e64a962b",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 151,
+          "start": 144,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 165,
+          "start": 152,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 168,
+          "start": 165,
+          "text": "991",
+          "weight": "italic"
+        },
+        {
+          "end": 263,
+          "start": 256,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 277,
+          "start": 264,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 280,
+          "start": 277,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20.3A(1)(b)",
+          "mention": "paragraph 20.3A(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r22.8(1)",
+      "style": "subsection",
+      "text": "(1) For a person who passed an examination, or was exempted from having to pass the examination, for at least 1 subject under Schedule 5 of the Patents Regulations 1991 as in force on 26 January 1999, the period of 5 years for paragraph 20.3A(1)(b) of the Patents Regulations 1991 is taken to commence on 27 January 1999."
+    },
+    {
+      "content_hash": "sha256:47b70d7f710dc4c6ebb7b0018d1120d3b2b5593f9647181f40aa0e94508c86a2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.8(2)",
+      "style": "subsection",
+      "text": "(2) Subregulation (3) applies to a person who has passed an examination, or been exempted from having to pass the examination, for at least 1 subject mentioned in Schedule 5 as in force on 26 January 1999."
+    },
+    {
+      "content_hash": "sha256:6144f2aebcf84af5be05d35889d1937a78feb4fd4afb192c19fb49f39c3eded1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20.1(1)(a)",
+          "mention": "paragraph 20.1(1)(a)"
+        }
+      ],
+      "ref": "TMR1995/r22.8(3)",
+      "style": "subsection",
+      "text": "(3) A pass in an examination for a subject mentioned in column 1 of the following table is taken to be a pass for paragraph 20.1(1)(a) in a topic group mentioned in column 2 of the table:"
+    },
+    {
+      "content_hash": "sha256:0d956ae6b01f420116b09e8caf8fb39c9c1798df9782ca43ff2fd4220fb67e62",
+      "depth": 0,
+      "kind": "table",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.8~1",
+      "style": "<table>",
+      "table": {
+        "rows": [
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Column 1 Subject"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Column 2 Topic group"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Legal Process"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Group A—Legal process and overview of intellectual property"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Patent Attorneys’ Practice, Part 2"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Group B—Professional conduct"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Trade Marks law of Australia and the Practice of the Trade Marks Office"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Group C—Trade mark law"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Patent Attorneys’ Practice, Part 1 and Patent Attorneys’ Practice, Part 2"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Group D—Trade mark practice"
+            }
+          ]
+        ]
+      },
+      "text": "Column 1 Subject Column 2 Topic group Legal Process Group A—Legal process and overview of intellectual property Patent Attorneys’ Practice, Part 2 Group B—Professional conduct Trade Marks law of Australia and the Practice of the Trade Marks Office Group C—Trade mark law Patent Attorneys’ Practice, Part 1 and Patent Attorneys’ Practice, Part 2 Group D—Trade mark practice"
+    },
+    {
+      "content_hash": "sha256:684b4cdd2a87f66c21a2a6f5fe0d185b2f41aa3a9130c8d86a3a187d106c47c0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.8(4)",
+      "style": "subsection",
+      "text": "(4) For registration as a trade marks attorney, a person is taken to have passed an examination for Patent Attorney’s Practice 1 and Patent Attorney’s Practice 2 if the person:"
+    },
+    {
+      "content_hash": "sha256:92d52c082c041607b22d7c8826c49e83944d5a1251f5b8b992f0adbd3b05235a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 165,
+          "start": 158,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 179,
+          "start": 166,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 182,
+          "start": 179,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r22.8(4)",
+      "ref": "TMR1995/r22.8(4)(a)",
+      "style": "paragraph",
+      "text": "(a) before 27 January 1999, passed an examination for a subject that the Board considers is equivalent to topic groups A and C mentioned in Schedule 5 to the Patents Regulations 1991; and"
+    },
+    {
+      "content_hash": "sha256:4d628a454269b7b61b4a8f10b9f345c29e310795579b8918aec33aca5e277bfd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r22.8(4)",
+      "ref": "TMR1995/r22.8(4)(b)",
+      "style": "paragraph",
+      "text": "(b) applies for registration as a trade marks attorney before 27 January 2001; and"
+    },
+    {
+      "content_hash": "sha256:bddb68c3fd3ceebe85c5ee58678f485acde251c88c4a678fd0acc5d4fb2f9acd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r22.8(4)",
+      "ref": "TMR1995/r22.8(4)(c)",
+      "style": "paragraph",
+      "text": "(c) provides a declaration by an employer or the employer’s representative that the person’s principal field of practice for 2 continuous years has been in trade marks matters."
+    }
+  ]
+}

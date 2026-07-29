@@ -1,0 +1,274 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:22c4bf4b9939664090ffa19b5400c62af32becd739ccbc88c77af266f5038bb7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.24B  Days when office not open for business"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.24B",
+  "ref": "TMR1995/r21.24B",
+  "text": "(1) For paragraph 223A(2)(a) of the Act, the days on which the Trade Marks Office, or a suboffice of the Trade Marks Office, is not open for business are: (a) Saturday; and (b) Sunday; and (c) Australia Day; and (d) Anzac Day. (2) For paragraph 223A(2)(b) of the Act, the table sets out prescribed persons. Item Person 1 The Director General of IP Australia 2 The Deputy Director General of IP Australia 3 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Director General of IP Australia 4 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Deputy Director General of IP Australia 5 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of another SES employee of IP Australia Note: SES employee is explained in section 34 of the Public Service Act 1999. That meaning is applied generally to Commonwealth legislation by section 2B of the Acts Interpretation Act 1901. (3) For paragraph 223A(2)(b) of the Act, the prescribed way of publishing a declaration is on the IP Australia website.",
+  "title": "Days when office not open for business",
+  "units": [
+    {
+      "content_hash": "sha256:4d1e51d766dac1dddf0203b45bbcbe1454b085ff1625a36a9fbe1c079df708b9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A(2)(a)",
+          "mention": "paragraph 223A(2)(a)"
+        }
+      ],
+      "ref": "TMR1995/r21.24B(1)",
+      "style": "subsection",
+      "text": "(1) For paragraph 223A(2)(a) of the Act, the days on which the Trade Marks Office, or a suboffice of the Trade Marks Office, is not open for business are:"
+    },
+    {
+      "content_hash": "sha256:f8fb923c85e3b039a8228ddbf2d9cef38f2ce835cf7e0cf00b6737c70ece28f3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.24B(1)",
+      "ref": "TMR1995/r21.24B(1)(a)",
+      "style": "paragraph",
+      "text": "(a) Saturday; and"
+    },
+    {
+      "content_hash": "sha256:b7c0ab5bbd9e3624d393d5c26d21db132059efbfba3a6127d9ac89c9d5f60aad",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.24B(1)",
+      "ref": "TMR1995/r21.24B(1)(b)",
+      "style": "paragraph",
+      "text": "(b) Sunday; and"
+    },
+    {
+      "content_hash": "sha256:c6cdd0425d4776cbbc84bbf90622d21724d662d3738fe15b42ece13913e0a196",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.24B(1)",
+      "ref": "TMR1995/r21.24B(1)(c)",
+      "style": "paragraph",
+      "text": "(c) Australia Day; and"
+    },
+    {
+      "content_hash": "sha256:3eb727a84c456ca0e12bab29a2b07e43182080ba1e96ffc70143d0c2de0d50ee",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.24B(1)",
+      "ref": "TMR1995/r21.24B(1)(d)",
+      "style": "paragraph",
+      "text": "(d) Anzac Day."
+    },
+    {
+      "content_hash": "sha256:481f66630f902c30fa0f94e8ec83fae298053955a093f315a993849a2a0ec029",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A(2)(b)",
+          "mention": "paragraph 223A(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.24B(2)",
+      "style": "subsection",
+      "text": "(2) For paragraph 223A(2)(b) of the Act, the table sets out prescribed persons."
+    },
+    {
+      "content_hash": "sha256:6dbe61025e630b58917c29c2b6249d2ab54b614f51cd9532e7a97817430e6064",
+      "depth": 0,
+      "kind": "table",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.24B~1",
+      "style": "<table>",
+      "table": {
+        "rows": [
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Item"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": true,
+              "text": "Person"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "1"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "The Director General of IP Australia"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "2"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "The Deputy Director General of IP Australia"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "3"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Director General of IP Australia"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "4"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Deputy Director General of IP Australia"
+            }
+          ],
+          [
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "5"
+            },
+            {
+              "colspan": 1,
+              "continues": false,
+              "heading": false,
+              "text": "Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of another SES employee of IP Australia"
+            }
+          ]
+        ]
+      },
+      "text": "Item Person 1 The Director General of IP Australia 2 The Deputy Director General of IP Australia 3 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Director General of IP Australia 4 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of the Deputy Director General of IP Australia 5 Another person who: (a) is an SES employee of IP Australia; and (b) acts with the agreement of another SES employee of IP Australia"
+    },
+    {
+      "content_hash": "sha256:7d853f6467763cac33909667831b8c3a7f3a6a42ca1eadf458543acf724db649",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 6,
+          "text": "SES employee",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 71,
+          "start": 53,
+          "text": "Public Service Act",
+          "weight": "italic"
+        },
+        {
+          "end": 76,
+          "start": 72,
+          "text": "1999",
+          "weight": "italic"
+        },
+        {
+          "end": 189,
+          "start": 161,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.24B~1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s2B",
+          "mention": "section 2B of the Acts Interpretation Act 1901"
+        },
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s34",
+          "mention": "section 34"
+        }
+      ],
+      "ref": "TMR1995/r21.24B~1~1",
+      "style": "notetext",
+      "text": "Note: SES employee is explained in section 34 of the Public Service Act 1999. That meaning is applied generally to Commonwealth legislation by section 2B of the Acts Interpretation Act 1901."
+    },
+    {
+      "content_hash": "sha256:dd922f5af0f223571b03aa57dd9c3ae085cdee97c7f0c64fff3375be71620688",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A(2)(b)",
+          "mention": "paragraph 223A(2)(b)"
+        }
+      ],
+      "ref": "TMR1995/r21.24B(3)",
+      "style": "subsection",
+      "text": "(3) For paragraph 223A(2)(b) of the Act, the prescribed way of publishing a declaration is on the IP Australia website."
+    }
+  ]
+}

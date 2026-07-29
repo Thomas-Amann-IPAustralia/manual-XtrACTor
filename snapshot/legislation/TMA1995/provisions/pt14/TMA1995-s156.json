@@ -1,0 +1,521 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:d33646dacc4ebf7f0cca027682bbb3c4a6fde66b38fb1724d33481d6ae2f1251",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "156  Acting or holding out without being registered"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "156",
+  "ref": "TMA1995/s156",
+  "text": "Individuals (1) An individual commits an offence if: (a) the individual describes himself or herself, or holds himself or herself out, or permits himself or herself to be described or held out, as a trade marks attorney; and (b) the individual is not a registered trade marks attorney. Penalty: 30 penalty units. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For registered trade marks attorney see section 6. (2) An individual commits an offence if: (a) the individual describes himself or herself, or holds himself or herself out, or permits himself or herself to be described or held out, as a trade marks agent; and (b) the individual is not a registered trade marks attorney, a patent attorney or a lawyer. Penalty: 30 penalty units. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For registered trade marks attorney, patent attorney and lawyer see section 6. Companies (3) A company commits an offence if: (a) the company describes itself, or holds itself out, or permits itself to be described or held out, as a trade marks attorney; and (b) the company is not a registered trade marks attorney. Penalty: 150 penalty units. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For company and registered trade marks attorney see section 6. (3A) A company commits an offence if: (a) the company describes itself, or holds itself out, or permits itself to be described or held out, as a trade marks agent; and (b) the company is not a registered trade marks attorney, a patent attorney or an incorporated legal practice. Penalty: 150 penalty units. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For company, registered trade marks attorney, patent attorney and incorporated legal practice see section 6. Common rules (4) In spite of section 15B of the Crimes Act 1914, a prosecution for an offence against this section may be started at any time within 5 years after the offence was committed. (6) An offence under this section is an offence of strict liability. Note: For strict liability, see section 6.1 of the Criminal Code.",
+  "title": "Acting or holding out without being registered",
+  "units": [
+    {
+      "content_hash": "sha256:d64d3d9970aad6dd6d030970ede387d195a969a78984a13908c4369ba8aa86fa",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~1",
+      "style": "SubsectionHead",
+      "text": "Individuals"
+    },
+    {
+      "content_hash": "sha256:f8c5e8ec80b5a484f4ef2bb7cda4f57e3de9dc8c8bb9f8cf8f0a486b0e1bad52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s156(1)",
+      "style": "subsection",
+      "text": "(1) An individual commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:37dddc6acda0cca83375ebbfbeb38cdfdb1f8cfac1acecfadedda51f93fc6d4c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s156(1)",
+      "ref": "TMA1995/s156(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the individual describes himself or herself, or holds himself or herself out, or permits himself or herself to be described or held out, as a trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:827e2c569e94cb446e763f5af4bd405a2bef0813b163b8bd9f88d30a28fd1f9e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s156(1)",
+      "ref": "TMA1995/s156(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the individual is not a registered trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:fe7d44e9370bc8f0eb4b62eff428aabc6845a0be9d057d8cd80c8f3b6e1801a9",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~2",
+      "style": "Penalty",
+      "text": "Penalty: 30 penalty units."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s156~2",
+      "ref": "TMA1995/s156~2~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:cb972ca59a1381ca6cec7146397aeb9901b3b43c5425e9d01d078fcc49ad8903",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 43,
+          "start": 12,
+          "text": "registered trade marks attorney",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s156~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s156~2~2",
+      "style": "notetext",
+      "text": "Note 2: For registered trade marks attorney see section 6."
+    },
+    {
+      "content_hash": "sha256:8ba433c863337141509ff25c09d831a6f8cc6233a47c218dc3d35b8e93099364",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s156(2)",
+      "style": "subsection",
+      "text": "(2) An individual commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:de7fe28c4cd19f3d9692fb708cfb008ae57dd92b8fb353a1c13c234b1d12142e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s156(2)",
+      "ref": "TMA1995/s156(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the individual describes himself or herself, or holds himself or herself out, or permits himself or herself to be described or held out, as a trade marks agent; and"
+    },
+    {
+      "content_hash": "sha256:32d1ac73374a2258a23d529a3bb2efdb6660edd7ba185ac12969bc68c7f38bb4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s156(2)",
+      "ref": "TMA1995/s156(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the individual is not a registered trade marks attorney, a patent attorney or a lawyer."
+    },
+    {
+      "content_hash": "sha256:fe7d44e9370bc8f0eb4b62eff428aabc6845a0be9d057d8cd80c8f3b6e1801a9",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~3",
+      "style": "Penalty",
+      "text": "Penalty: 30 penalty units."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s156~3",
+      "ref": "TMA1995/s156~3~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:47fd688a1e07eb06e23dac93e5f54b619756adb422efdb1a31ac340646bfc399",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 43,
+          "start": 12,
+          "text": "registered trade marks attorney",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 60,
+          "start": 45,
+          "text": "patent attorney",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 71,
+          "start": 65,
+          "text": "lawyer",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s156~3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s156~3~2",
+      "style": "notetext",
+      "text": "Note 2: For registered trade marks attorney, patent attorney and lawyer see section 6."
+    },
+    {
+      "content_hash": "sha256:4923413b40d7212dd643a8a42286c8c6d26588dc5dea81a74204fb2a2aef3034",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~4",
+      "style": "SubsectionHead",
+      "text": "Companies"
+    },
+    {
+      "content_hash": "sha256:3777582d9278cf422a76c2d8173f256e7a4ceea85a6ab4eac240ff30866cd253",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s156(3)",
+      "style": "subsection",
+      "text": "(3) A company commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:cf3e88f7c3a5365301103b7648e3cd14686bd3fa4f1c9843597ead01fc4d45b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s156(3)",
+      "ref": "TMA1995/s156(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the company describes itself, or holds itself out, or permits itself to be described or held out, as a trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:71e39ef1264f1c7ae9840b673ca2c15aeb59a264871d9537ed5e9c73f4db53d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s156(3)",
+      "ref": "TMA1995/s156(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the company is not a registered trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:a78440a336f2ed79e82afeb14996136a1ef1f762a75787a83737180d13ae0bc6",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~5",
+      "style": "Penalty",
+      "text": "Penalty: 150 penalty units."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s156~5",
+      "ref": "TMA1995/s156~5~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:ceff464cf0be20517c29fe89c29a7ce60ac2d5ea6fd2ce77fc477241ea38b5af",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "company",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 55,
+          "start": 24,
+          "text": "registered trade marks attorney",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s156~5",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s156~5~2",
+      "style": "notetext",
+      "text": "Note 2: For company and registered trade marks attorney see section 6."
+    },
+    {
+      "content_hash": "sha256:213ca892308bac31e617e832dd0fab80b3b7acc947fc701114ddbf1dd37b0280",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3A)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMA1995/s156(3A)",
+      "style": "subsection",
+      "text": "(3A) A company commits an offence if:"
+    },
+    {
+      "content_hash": "sha256:d19f80372759f2eacc4e30527880d1c5c47e70e95786c987000e2879ea1e56de",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s156(3A)",
+      "ref": "TMA1995/s156(3A)(a)",
+      "style": "paragraph",
+      "text": "(a) the company describes itself, or holds itself out, or permits itself to be described or held out, as a trade marks agent; and"
+    },
+    {
+      "content_hash": "sha256:ae86de087059b5f67f4b0dc7e06788a8184c2fded2c5da068d5da208d80a7f54",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s156(3A)",
+      "ref": "TMA1995/s156(3A)(b)",
+      "style": "paragraph",
+      "text": "(b) the company is not a registered trade marks attorney, a patent attorney or an incorporated legal practice."
+    },
+    {
+      "content_hash": "sha256:a78440a336f2ed79e82afeb14996136a1ef1f762a75787a83737180d13ae0bc6",
+      "depth": 0,
+      "kind": "penalty",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~6",
+      "style": "Penalty",
+      "text": "Penalty: 150 penalty units."
+    },
+    {
+      "content_hash": "sha256:0c0265842a889c8695345a3aa21b8a675147717d2f47b12b484f335717e8ef63",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 117,
+          "start": 102,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s156~6",
+      "ref": "TMA1995/s156~6~1",
+      "style": "notetext",
+      "text": "Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914)."
+    },
+    {
+      "content_hash": "sha256:43d0bb8670eb226869c1402e0fb4b5f46d1a9df013d4116807f47b3a9ad0ffb5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "company",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 21,
+          "text": "registered trade marks attorney",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 69,
+          "start": 54,
+          "text": "patent attorney",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 101,
+          "start": 74,
+          "text": "incorporated legal practice",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 26,
+      "parent_ref": "TMA1995/s156~6",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s156~6~2",
+      "style": "notetext",
+      "text": "Note 2: For company, registered trade marks attorney, patent attorney and incorporated legal practice see section 6."
+    },
+    {
+      "content_hash": "sha256:9d670edbbda051ea586e1bfe98bd65856c6dc3f106044fe11ef6198045e225c3",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 27,
+      "parent_ref": null,
+      "ref": "TMA1995/s156~7",
+      "style": "SubsectionHead",
+      "text": "Common rules"
+    },
+    {
+      "content_hash": "sha256:226deb463a2e89a7d3e0a57a127f58ed46de50984cbc8ae0a6b144de1a40084e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 50,
+          "start": 35,
+          "text": "Crimes Act 1914",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 28,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s15B",
+          "mention": "section 15B"
+        }
+      ],
+      "ref": "TMA1995/s156(4)",
+      "style": "subsection",
+      "text": "(4) In spite of section 15B of the Crimes Act 1914, a prosecution for an offence against this section may be started at any time within 5 years after the offence was committed."
+    },
+    {
+      "content_hash": "sha256:e512a8627dddeb06b3a7f4fa32c37af159d903fa0d7d2338f43f7dfb34683f7a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 29,
+      "parent_ref": null,
+      "ref": "TMA1995/s156(6)",
+      "style": "subsection",
+      "text": "(6) An offence under this section is an offence of strict liability."
+    },
+    {
+      "content_hash": "sha256:04f0ab2fa10486a5cb969f90e70cf78f32b7385217f794c4bf1b95ab9bf086c5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "strict liability",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 64,
+          "start": 51,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 30,
+      "parent_ref": "TMA1995/s156(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6.1",
+          "mention": "section 6.1"
+        }
+      ],
+      "ref": "TMA1995/s156(6)~1",
+      "style": "notetext",
+      "text": "Note: For strict liability, see section 6.1 of the Criminal Code."
+    }
+  ]
+}

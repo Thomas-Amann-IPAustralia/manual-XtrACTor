@@ -1,0 +1,365 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:b72846597b214d380833bd960df8705689512a36a29427f1f2bd6a62a74a6d88",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34M  Hearing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34M",
+  "ref": "TMR1995/r17A.34M",
+  "text": "(1) This regulation applies to an opposition if: (a) the opposition has not been dismissed under regulation 17A.34B; or (b) the opposition has not been decided under regulation 17A.34N; or (c) the opposition is not taken to have succeeded under regulation 17A.34H. (2) The holder of an IRDA may request the Registrar to hold a hearing if: (a) the evidentiary period mentioned in subregulation 17A.34J(3) has ended; and (b) either: (i) all evidence for the opposition proceeding has been filed; or (ii) no evidence has been filed in that period. (3) A party may request the Registrar to hold a hearing if: (a) an evidentiary period mentioned in any of subregulations 17A.34J(4) to (6) has ended; and (b) either: (i) all evidence for the opposition proceeding has been filed; or (ii) no evidence has been filed in that period. (4) The Registrar: (a) must hold a hearing of the opposition if requested by a party in writing; or (b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition. (5) The hearing may, at the Registrar’s discretion, be: (a) an oral hearing; or (b) by written submissions. (6) If the Registrar decides on an oral hearing: (a) the Registrar must notify the parties of the date, time and place of the hearing; and (b) the opponent must file a summary of submissions at least 10 business days before the hearing; and (c) the holder of the IRDA must file a summary of submissions at least 5 business days before the hearing. (7) The Registrar may take into account a party’s failure to file a summary of submissions under subregulation (6) in making an award of costs. Note: Regulations 21.15 and 21.16 deal with hearings.",
+  "title": "Hearing",
+  "units": [
+    {
+      "content_hash": "sha256:410f5b691ef6eea60ccfb24fe62905f9d8a6633468398e43aad68378b478c7c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies to an opposition if:"
+    },
+    {
+      "content_hash": "sha256:d2ec27af5f9cf86250bbca5737764fe50614d087089c8acb61f79ac29ab7b298",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.34M(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34B",
+          "mention": "regulation 17A.34B"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the opposition has not been dismissed under regulation 17A.34B; or"
+    },
+    {
+      "content_hash": "sha256:e37957647fa3762da76ffaa7c53a2ac9a6849c872e58feb6e389cc5a5f6948f2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.34M(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34N",
+          "mention": "regulation 17A.34N"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the opposition has not been decided under regulation 17A.34N; or"
+    },
+    {
+      "content_hash": "sha256:10fa74427c387933e68e40cf5e2fbf1a767d314dd78711386207cd2bd403999c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.34M(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H",
+          "mention": "regulation 17A.34H"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the opposition is not taken to have succeeded under regulation 17A.34H."
+    },
+    {
+      "content_hash": "sha256:a814460007a7744495149bfa7fbc179f60e6d1110eebb3ca96a12bccab1cd310",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(2)",
+      "style": "subsection",
+      "text": "(2) The holder of an IRDA may request the Registrar to hold a hearing if:"
+    },
+    {
+      "content_hash": "sha256:344a1c4291b90920f92347f660a3cb622d41f865bbfec79b66ff4ba9da277109",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.34M(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J(3)",
+          "mention": "subregulation 17A.34J(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the evidentiary period mentioned in subregulation 17A.34J(3) has ended; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.34M(2)",
+      "ref": "TMR1995/r17A.34M(2)(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:2c02f982255953fead6dfed7713f7b9a30291615af97a755104269a2a58fa3e8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.34M(2)(b)",
+      "ref": "TMR1995/r17A.34M(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) all evidence for the opposition proceeding has been filed; or"
+    },
+    {
+      "content_hash": "sha256:fb2997ea0d651f044a11618b146d6eec8b01f65b932e00c06c82c7dec2f4e389",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.34M(2)(b)",
+      "ref": "TMR1995/r17A.34M(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) no evidence has been filed in that period."
+    },
+    {
+      "content_hash": "sha256:0ded39bdb03d0841b08f7cf6fcdece2ae38907e989620c7d3db5235a15514798",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(3)",
+      "style": "subsection",
+      "text": "(3) A party may request the Registrar to hold a hearing if:"
+    },
+    {
+      "content_hash": "sha256:81bd7b51c8623fd3e3a7ffc08dc3fe47aad804bc89d3d895b2cdf3df8e464651",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.34M(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34J(4)",
+          "mention": "subregulations 17A.34J(4)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(3)(a)",
+      "style": "paragraph",
+      "text": "(a) an evidentiary period mentioned in any of subregulations 17A.34J(4) to (6) has ended; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.34M(3)",
+      "ref": "TMR1995/r17A.34M(3)(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:2c02f982255953fead6dfed7713f7b9a30291615af97a755104269a2a58fa3e8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.34M(3)(b)",
+      "ref": "TMR1995/r17A.34M(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) all evidence for the opposition proceeding has been filed; or"
+    },
+    {
+      "content_hash": "sha256:fb2997ea0d651f044a11618b146d6eec8b01f65b932e00c06c82c7dec2f4e389",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.34M(3)(b)",
+      "ref": "TMR1995/r17A.34M(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) no evidence has been filed in that period."
+    },
+    {
+      "content_hash": "sha256:2a0abf27edf4e79a970cc8108634b8119c6f73324d90cb9bdf68c611ad81c984",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar:"
+    },
+    {
+      "content_hash": "sha256:879c987d8a06eed59cfc8a03931ca50454ba786240084f429a460f293a9f9d11",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r17A.34M(4)",
+      "ref": "TMR1995/r17A.34M(4)(a)",
+      "style": "paragraph",
+      "text": "(a) must hold a hearing of the opposition if requested by a party in writing; or"
+    },
+    {
+      "content_hash": "sha256:b8ba4c9d7ba5c9120cfbc3937b8af5d387928b62385b56ddc17cef2c6b397b4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r17A.34M(4)",
+      "ref": "TMR1995/r17A.34M(4)(b)",
+      "style": "paragraph",
+      "text": "(b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition."
+    },
+    {
+      "content_hash": "sha256:c928d4aa16d2ccfc03def503d7613767406c53bbc5c2a7db30c7036307d49fd5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(5)",
+      "style": "subsection",
+      "text": "(5) The hearing may, at the Registrar’s discretion, be:"
+    },
+    {
+      "content_hash": "sha256:90d7e34453e9bfa1dfabd545645aaf39117e7a53b21e46ea37ff619163f02069",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r17A.34M(5)",
+      "ref": "TMR1995/r17A.34M(5)(a)",
+      "style": "paragraph",
+      "text": "(a) an oral hearing; or"
+    },
+    {
+      "content_hash": "sha256:6bbc230682811c7e30ebdedf6cf4a55e8bd3a69b7fbc5374f183f6672ac6ec9b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r17A.34M(5)",
+      "ref": "TMR1995/r17A.34M(5)(b)",
+      "style": "paragraph",
+      "text": "(b) by written submissions."
+    },
+    {
+      "content_hash": "sha256:4e2f62e8a81462c3886656995cb2ee33ddd30b71102a37c3d04263b95d9b5e2a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(6)",
+      "style": "subsection",
+      "text": "(6) If the Registrar decides on an oral hearing:"
+    },
+    {
+      "content_hash": "sha256:e0b322bfe8a35efb40cfacae240ee20b43f33e04911d4698643667f181a7eb4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r17A.34M(6)",
+      "ref": "TMR1995/r17A.34M(6)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar must notify the parties of the date, time and place of the hearing; and"
+    },
+    {
+      "content_hash": "sha256:9a03f71c8329b75f630ad917ea9316f4e205e7980916c21d378a4547edaa8e93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r17A.34M(6)",
+      "ref": "TMR1995/r17A.34M(6)(b)",
+      "style": "paragraph",
+      "text": "(b) the opponent must file a summary of submissions at least 10 business days before the hearing; and"
+    },
+    {
+      "content_hash": "sha256:b411105f2333bdac53ba368252f23f9834d815ea07b2823dad18e3e001919e89",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r17A.34M(6)",
+      "ref": "TMR1995/r17A.34M(6)(c)",
+      "style": "paragraph",
+      "text": "(c) the holder of the IRDA must file a summary of submissions at least 5 business days before the hearing."
+    },
+    {
+      "content_hash": "sha256:84cc86a996339941c78c8fddc52d5a247ccad43ac57568d30f163b6443e6898d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 25,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34M(7)",
+      "style": "subsection",
+      "text": "(7) The Registrar may take into account a party’s failure to file a summary of submissions under subregulation (6) in making an award of costs."
+    },
+    {
+      "content_hash": "sha256:e77e49f555ccacb7f3739e93c02ef305f41afc1e1598f843c03d200ea2929f25",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r17A.34M(7)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.15",
+          "mention": "Regulations 21.15 and 21.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "Regulations 21.15 and 21.16"
+        }
+      ],
+      "ref": "TMR1995/r17A.34M(7)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.15 and 21.16 deal with hearings."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:75619f2b302364bdde45da4cac40d49de6ce99ea70b5a42a029606ef64312504",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80G  Renewal within 6 months after end of prescribed period"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80G",
+  "ref": "TMA1995/s80G",
+  "text": "(1) If: (a) the registration of the trade mark is not renewed under section 80E; and (b) within 6 months after the end of the prescribed period, a person asks the Registrar to renew, or successively renew, the registration of the trade mark for one or more potential renewal periods nominated in the request; the Registrar must renew, or successively renew, the registration for the potential renewal period or periods to which the request relates. Note: For month see section 6. (2) The nomination must cover at least the first potential renewal period. (3) If the nomination relates to more than one potential renewal period, the nomination must cover continuous periods. (4) The request must: (a) be in an approved form; and (b) be filed in accordance with the regulations.",
+  "title": "Renewal within 6 months after end of prescribed period",
+  "units": [
+    {
+      "content_hash": "sha256:2016d0c74cdc8bfb58951144ada28ba147cd9659396b57d30a4becbd26994b23",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s80G(1)",
+      "style": "subsection",
+      "text": "(1) If:"
+    },
+    {
+      "content_hash": "sha256:9502ed1ea0eb0ef61b1440ef13d3f98e3dcba50c9a999a394c0444fdc12b83b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80G(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80E",
+          "mention": "section 80E"
+        }
+      ],
+      "ref": "TMA1995/s80G(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the registration of the trade mark is not renewed under section 80E; and"
+    },
+    {
+      "content_hash": "sha256:4e2a71b4d9e636210e87190ed192ed112abb83cc4bbe536870070e5b1c7d6c3b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s80G(1)",
+      "ref": "TMA1995/s80G(1)(b)",
+      "style": "paragraph",
+      "text": "(b) within 6 months after the end of the prescribed period, a person asks the Registrar to renew, or successively renew, the registration of the trade mark for one or more potential renewal periods nominated in the request;"
+    },
+    {
+      "content_hash": "sha256:e96831afffd0fc43def24979445a80606275926e0520e8301492125e9371c3a7",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s80G~1",
+      "style": "subsection2",
+      "text": "the Registrar must renew, or successively renew, the registration for the potential renewal period or periods to which the request relates."
+    },
+    {
+      "content_hash": "sha256:c079d3291c395e1cec6ab58944e84750edf7c0969c8897809e5f99519633b6ab",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "month",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s80G~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80G~1~1",
+      "style": "notetext",
+      "text": "Note: For month see section 6."
+    },
+    {
+      "content_hash": "sha256:4c5807aca975b2808162263a11897f7d5af5458477305de343b9b654874bf05e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s80G(2)",
+      "style": "subsection",
+      "text": "(2) The nomination must cover at least the first potential renewal period."
+    },
+    {
+      "content_hash": "sha256:d8cd3553198a1a0100a1292dce0394e7ccdb91b9c8a11cb4aaf4ddc4348a787a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s80G(3)",
+      "style": "subsection",
+      "text": "(3) If the nomination relates to more than one potential renewal period, the nomination must cover continuous periods."
+    },
+    {
+      "content_hash": "sha256:fc2e94f0e5d655d2107b28fa72473615cb7d9474844ee0bdfee6cc90e5ea4394",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s80G(4)",
+      "style": "subsection",
+      "text": "(4) The request must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s80G(4)",
+      "ref": "TMA1995/s80G(4)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:dd5163e130a77232a53515419d25f78cd6b491b6a93926496071dadc71f359ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s80G(4)",
+      "ref": "TMA1995/s80G(4)(b)",
+      "style": "paragraph",
+      "text": "(b) be filed in accordance with the regulations."
+    }
+  ]
+}

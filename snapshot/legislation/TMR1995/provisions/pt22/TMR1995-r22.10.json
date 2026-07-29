@@ -1,0 +1,118 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div2"
+  ],
+  "content_hash": "sha256:e0bb39b1cf4710269dc0030da672af62d2d63272d8c6e30cc17efb6642220253",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 2—Amendments made by particular instruments",
+    "22.10  Amendments made by the Customs and Other Legislation Amendment (Australian Border Force) Regulation 2015"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.10",
+  "ref": "TMR1995/r22.10",
+  "text": "(1) An instrument in force under subregulation 13.5(1) immediately before 1 July 2015 has effect on and after that day as if it were an instrument of the ComptrollerGeneral of Customs in force under that subregulation. (2) A notification under subregulation 17A.42E(1) before 1 July 2015 is taken on and after that day to have been a notification under that subregulation to the ComptrollerGeneral of Customs. (3) A fee paid before 1 July 2015 to the Customs CEO as mentioned in subregulation 21.22(2) is taken on and after that day to have been a fee paid to the ComptrollerGeneral of Customs. (4) A direction of the Customs CEO that was in force under subregulation 21.22(3) immediately before 1 July 2015 continues in force on and after that day as if it were a direction of the ComptrollerGeneral of Customs. (5) An advice or notification by the Customs CEO under regulation 21.23 before 1 July 2015 is taken on and after that day to have been an advice or notification under that regulation by the ComptrollerGeneral of Customs.",
+  "title": "Amendments made by the Customs and Other Legislation Amendment (Australian Border Force) Regulation 2015",
+  "units": [
+    {
+      "content_hash": "sha256:86299f34b5b5943b2b4d98ed121067bf70c512b48c7842f09ac6a9584496ed01",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.5(1)",
+          "mention": "subregulation 13.5(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.10(1)",
+      "style": "subsection",
+      "text": "(1) An instrument in force under subregulation 13.5(1) immediately before 1 July 2015 has effect on and after that day as if it were an instrument of the ComptrollerGeneral of Customs in force under that subregulation."
+    },
+    {
+      "content_hash": "sha256:61e4b9a6c10f310e358cccc17f9db6bfb372a6162a028e90d4f635bb4247118d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.42E(1)",
+          "mention": "subregulation 17A.42E(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.10(2)",
+      "style": "subsection",
+      "text": "(2) A notification under subregulation 17A.42E(1) before 1 July 2015 is taken on and after that day to have been a notification under that subregulation to the ComptrollerGeneral of Customs."
+    },
+    {
+      "content_hash": "sha256:d41620d8ba4510a1100343a16c07c0cd2210e55677b1f924c7c391c87f7271e2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.22(2)",
+          "mention": "subregulation 21.22(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.10(3)",
+      "style": "subsection",
+      "text": "(3) A fee paid before 1 July 2015 to the Customs CEO as mentioned in subregulation 21.22(2) is taken on and after that day to have been a fee paid to the ComptrollerGeneral of Customs."
+    },
+    {
+      "content_hash": "sha256:4aa9b7d59dbc6bb068f81e59a08a1bf8714ff70ddc234a4fbd96fdbd60da19c8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.22(3)",
+          "mention": "subregulation 21.22(3)"
+        }
+      ],
+      "ref": "TMR1995/r22.10(4)",
+      "style": "subsection",
+      "text": "(4) A direction of the Customs CEO that was in force under subregulation 21.22(3) immediately before 1 July 2015 continues in force on and after that day as if it were a direction of the ComptrollerGeneral of Customs."
+    },
+    {
+      "content_hash": "sha256:df401485e67ab745cb9f36aebcb53c4b64b9023b3138ea0e8b2b358d3785a050",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.23",
+          "mention": "regulation 21.23"
+        }
+      ],
+      "ref": "TMR1995/r22.10(5)",
+      "style": "subsection",
+      "text": "(5) An advice or notification by the Customs CEO under regulation 21.23 before 1 July 2015 is taken on and after that day to have been an advice or notification under that regulation by the ComptrollerGeneral of Customs."
+    }
+  ]
+}

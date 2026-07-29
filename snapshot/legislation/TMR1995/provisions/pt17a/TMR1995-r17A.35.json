@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:dd9bcfd1b32429c0677dc7bf7eaa087c4e8babd0f6a42b9545afb60ddd56d0ca",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.35  Registrar must notify parties of dismissal or discontinuance of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.35",
+  "ref": "TMR1995/r17A.35",
+  "text": "If an opposition is dismissed under regulation 17A.34B or discontinued, the Registrar must notify the parties of the dismissal or discontinuance.",
+  "title": "Registrar must notify parties of dismissal or discontinuance of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:dd9bcfd1b32429c0677dc7bf7eaa087c4e8babd0f6a42b9545afb60ddd56d0ca",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34B",
+          "mention": "regulation 17A.34B"
+        }
+      ],
+      "ref": "TMR1995/r17A.35~1",
+      "style": "subsection",
+      "text": "If an opposition is dismissed under regulation 17A.34B or discontinued, the Registrar must notify the parties of the dismissal or discontinuance."
+    }
+  ]
+}

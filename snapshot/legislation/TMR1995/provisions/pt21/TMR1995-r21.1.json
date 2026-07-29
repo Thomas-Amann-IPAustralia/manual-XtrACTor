@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:8fab1ba467090b2ec1fbc67ff4053a6c39b86b30390d52aada750b422bf7a774",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.1  Compliance with instructions on approved forms"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.1",
+  "ref": "TMR1995/r21.1",
+  "text": "If: (a) an application, notice, request or declaration under the Act or these regulations is required to be in an approved form; and (b) a blank form that may be used in making an application, request or declaration or giving notice: (i) is supplied by the Registrar; and (ii) contains directions about completing that form; the person who completes the form must comply with those directions.",
+  "title": "Compliance with instructions on approved forms",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.1~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:e7b6aac125b8de3f7cbac4474d34cc347f90a2f7f7f1cd43199c87671d34a7b0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.1~1",
+      "ref": "TMR1995/r21.1(a)",
+      "style": "paragraph",
+      "text": "(a) an application, notice, request or declaration under the Act or these regulations is required to be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:b9c1bb7010769860a650dc01f3e9b90dce50a5dc9b3883ae45669e6d4d49ee9a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.1~1",
+      "ref": "TMR1995/r21.1(b)",
+      "style": "paragraph",
+      "text": "(b) a blank form that may be used in making an application, request or declaration or giving notice:"
+    },
+    {
+      "content_hash": "sha256:024da949f760eb05a059e001035d445eaab06d03abc6e0b6671527d1a7ceaecc",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.1(b)",
+      "ref": "TMR1995/r21.1(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) is supplied by the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:f694bee143f4c881e131479e88048bb7f8c47b6e84fb49da4363fd8ddbce1c4c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.1(b)",
+      "ref": "TMR1995/r21.1(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) contains directions about completing that form;"
+    },
+    {
+      "content_hash": "sha256:32500db48168c61d1665d6d069bb6cced2ae600c596bb18ec86adb8ae6fcf7be",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.1~2",
+      "style": "subsection2",
+      "text": "the person who completes the form must comply with those directions."
+    }
+  ]
+}

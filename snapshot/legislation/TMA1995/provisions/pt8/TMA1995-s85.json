@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:a0408ab4ba378332bf7d225f73cced18c81cd48b711cb4ff02888ff0c729d65b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "85  Amendment to correct error or omission"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "85",
+  "ref": "TMA1995/s85",
+  "text": "A prescribed court may, on the application of an aggrieved person, order that the Register be rectified by: (a) entering in the Register particulars that were wrongly omitted from it; or (b) correcting any error in an entry in the Register. Note: For prescribed court see section 190.",
+  "title": "Amendment to correct error or omission",
+  "units": [
+    {
+      "content_hash": "sha256:5728ac935ab411d55fce19aa1ee81f8a6e6addf784e93ff5a42e806bf07cd99c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s85~1",
+      "style": "subsection",
+      "text": "A prescribed court may, on the application of an aggrieved person, order that the Register be rectified by:"
+    },
+    {
+      "content_hash": "sha256:aebd87aa34ed1109ca5b0cd3db474eef958d3d9fe78d7c04dc96f4adb396fc84",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s85~1",
+      "ref": "TMA1995/s85(a)",
+      "style": "paragraph",
+      "text": "(a) entering in the Register particulars that were wrongly omitted from it; or"
+    },
+    {
+      "content_hash": "sha256:bf0b97520bc3c788ad8215cbe777b8824323f477d9dd70f097d450bc03ee9f18",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s85~1",
+      "ref": "TMA1995/s85(b)",
+      "style": "paragraph",
+      "text": "(b) correcting any error in an entry in the Register."
+    },
+    {
+      "content_hash": "sha256:a048ea502ca67fefe2c78e648bfe07146d38c4efd789725d3c560282782e56ae",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s85(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s85(b)~1",
+      "style": "notetext",
+      "text": "Note: For prescribed court see section 190."
+    }
+  ]
+}

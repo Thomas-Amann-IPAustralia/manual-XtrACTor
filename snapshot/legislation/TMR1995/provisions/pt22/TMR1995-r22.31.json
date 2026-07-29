@@ -1,0 +1,203 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div8"
+  ],
+  "content_hash": "sha256:225a0d6f77ddef950bf1d4d67604b72cd31fb1cb81dd05eabe74c8ab85694904",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 8—Amendments made by the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025",
+    "22.31  Application provisions—increased period for filing of notice of intention to defend"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.31",
+  "ref": "TMR1995/r22.31",
+  "text": "(1) The amendment of subregulation 5.13(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the acceptance of the trade mark application, as mentioned in subregulation 5.6(1), is on or after the day on which that Schedule commences. (2) The amendment of subregulation 9.15(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the application for removal, as mentioned in subregulation 9.8(1), is on or after the day on which that Schedule commences. (3) The amendment of subregulation 17A.34H(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the acceptance of the IRDA, as mentioned in subregulation 17A.33(1), is on or after the day on which that Schedule commences. (4) The amendment of subregulation 17A.48Q(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the application for cessation of protection, as mentioned in subregulation 17A.48G(1), is on or after the day on which that Schedule commences.",
+  "title": "Application provisions—increased period for filing of notice of intention to defend",
+  "units": [
+    {
+      "content_hash": "sha256:a5e27fed5d6a268f1b7233b1d9f151e36a3cccb1011c4a66067096e92bd80e00",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 146,
+          "start": 69,
+          "text": "Trade Marks Amendment (International Registrations, Hearings and Oppositions)",
+          "weight": "italic"
+        },
+        {
+          "end": 160,
+          "start": 147,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 163,
+          "start": 160,
+          "text": "025",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.13(1)",
+          "mention": "subregulation 5.13(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.6(1)",
+          "mention": "subregulation 5.6(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.31(1)",
+      "style": "subsection",
+      "text": "(1) The amendment of subregulation 5.13(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the acceptance of the trade mark application, as mentioned in subregulation 5.6(1), is on or after the day on which that Schedule commences."
+    },
+    {
+      "content_hash": "sha256:2681a17f00b16f78266e904fe2703a0397aef100bf79f8a4959baf813ea49cd5",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 146,
+          "start": 69,
+          "text": "Trade Marks Amendment (International Registrations, Hearings and Oppositions)",
+          "weight": "italic"
+        },
+        {
+          "end": 160,
+          "start": 147,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 163,
+          "start": 160,
+          "text": "025",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15(1)",
+          "mention": "subregulation 9.15(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.8(1)",
+          "mention": "subregulation 9.8(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.31(2)",
+      "style": "subsection",
+      "text": "(2) The amendment of subregulation 9.15(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the application for removal, as mentioned in subregulation 9.8(1), is on or after the day on which that Schedule commences."
+    },
+    {
+      "content_hash": "sha256:118cff0b840a49f0b64923f0b6d097538e137ab60e1d2bb92b98053b519eb2e8",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 149,
+          "start": 72,
+          "text": "Trade Marks Amendment (International Registrations, Hearings and Oppositions)",
+          "weight": "italic"
+        },
+        {
+          "end": 163,
+          "start": 150,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 166,
+          "start": 163,
+          "text": "025",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33(1)",
+          "mention": "subregulation 17A.33(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H(1)",
+          "mention": "subregulation 17A.34H(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.31(3)",
+      "style": "subsection",
+      "text": "(3) The amendment of subregulation 17A.34H(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the acceptance of the IRDA, as mentioned in subregulation 17A.33(1), is on or after the day on which that Schedule commences."
+    },
+    {
+      "content_hash": "sha256:71dbb34ea973fa37b8283df8ae6c3d593d6c788fda1cafb7ea389045192acd0c",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 149,
+          "start": 72,
+          "text": "Trade Marks Amendment (International Registrations, Hearings and Oppositions)",
+          "weight": "italic"
+        },
+        {
+          "end": 163,
+          "start": 150,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 166,
+          "start": 163,
+          "text": "025",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48G(1)",
+          "mention": "subregulation 17A.48G(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48Q(1)",
+          "mention": "subregulation 17A.48Q(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.31(4)",
+      "style": "subsection",
+      "text": "(4) The amendment of subregulation 17A.48Q(1) made by Schedule 1 to the Trade Marks Amendment (International Registrations, Hearings and Oppositions) Regulations 2025 applies where the publication of the application for cessation of protection, as mentioned in subregulation 17A.48G(1), is on or after the day on which that Schedule commences."
+    }
+  ]
+}

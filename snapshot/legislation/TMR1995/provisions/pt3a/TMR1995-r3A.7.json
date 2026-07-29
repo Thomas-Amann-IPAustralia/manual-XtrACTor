@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3a",
+    "TMR1995/pt3a/div2"
+  ],
+  "content_hash": "sha256:3046725221176eb682a7a3c034ff585b6fc502158e7caa66c129872505495e7f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3A—Assisted filing service",
+    "Division 2—Request for filing assistance",
+    "3A.7  AFS request—grant of extension of time"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3A.7",
+  "ref": "TMR1995/r3A.7",
+  "text": "(1) The Registrar may grant the application only if the Registrar is satisfied that the grounds set out in the application justify the extension. (2) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances. (3) The Registrar must not grant more than one extension for an AFS request.",
+  "title": "AFS request—grant of extension of time",
+  "units": [
+    {
+      "content_hash": "sha256:c3fa5c9be47a875718d184409065fd5a976be02db4889872a4acd7d652b9e60b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.7(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant the application only if the Registrar is satisfied that the grounds set out in the application justify the extension."
+    },
+    {
+      "content_hash": "sha256:d50a7b3649a8877d2f1ca89f21eeee0fe77092046d59bcb40c65a0771ec6d109",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.7(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    },
+    {
+      "content_hash": "sha256:b3ae0579a8d56f0beda55b2534430987c50ac5cf3409629c272d69233f7f3f5d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.7(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must not grant more than one extension for an AFS request."
+    }
+  ]
+}

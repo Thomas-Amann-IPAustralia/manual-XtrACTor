@@ -1,0 +1,157 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:21065039b8cda8a2ac9ae76cfd728d55d50f6c6be24917eac238fa4995fdc594",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80F  Failure to renew"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80F",
+  "ref": "TMA1995/s80F",
+  "text": "If the registration of the trade mark is not renewed under section 80E, or is not renewed under section 80E for each of the potential renewal periods, then: (a) subject to sections 80G and 80H, the registration ceases to have effect: (i) if the registration was not renewed under section 80E—when it expired in accordance with section 72(3); or (ii) if the registration was renewed under section 80E for one or more potential renewal periods—at the end of the last of those periods; and (b) unless the registration is renewed under section 80G, the Registrar must remove the trade mark from the Register 6 months after the end of the prescribed period. Note: For month see section 6.",
+  "title": "Failure to renew",
+  "units": [
+    {
+      "content_hash": "sha256:cd91d042cc9c13b771bc2be218574a9f53f4d549455a7f6def5df56945b2e034",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80E",
+          "mention": "section 80E"
+        }
+      ],
+      "ref": "TMA1995/s80F~1",
+      "style": "subsection",
+      "text": "If the registration of the trade mark is not renewed under section 80E, or is not renewed under section 80E for each of the potential renewal periods, then:"
+    },
+    {
+      "content_hash": "sha256:6944e67bb514e60883d83fd6bb2bdebd2c59ee07f2fff2d6c4566e87c04e69b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80F~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80G",
+          "mention": "sections 80G and 80H"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80H",
+          "mention": "sections 80G and 80H"
+        }
+      ],
+      "ref": "TMA1995/s80F(a)",
+      "style": "paragraph",
+      "text": "(a) subject to sections 80G and 80H, the registration ceases to have effect:"
+    },
+    {
+      "content_hash": "sha256:d768688f32e797e908737d5e5f091c6a6f62333ed3391d86ff0483bf588a9faa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s80F(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(3)",
+          "mention": "section 72(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80E",
+          "mention": "section 80E"
+        }
+      ],
+      "ref": "TMA1995/s80F(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if the registration was not renewed under section 80E—when it expired in accordance with section 72(3); or"
+    },
+    {
+      "content_hash": "sha256:2276118c8e075248d69afb9977f5241c536f2d306d5ee36bab6060f7210dde54",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s80F(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80E",
+          "mention": "section 80E"
+        }
+      ],
+      "ref": "TMA1995/s80F(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the registration was renewed under section 80E for one or more potential renewal periods—at the end of the last of those periods; and"
+    },
+    {
+      "content_hash": "sha256:bc2c90d9d1439ec2606c6b45736dcb09fd6c7b027baf1f9bd475afffd8a8c986",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s80F~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80G",
+          "mention": "section 80G"
+        }
+      ],
+      "ref": "TMA1995/s80F(b)",
+      "style": "paragraph",
+      "text": "(b) unless the registration is renewed under section 80G, the Registrar must remove the trade mark from the Register 6 months after the end of the prescribed period."
+    },
+    {
+      "content_hash": "sha256:c079d3291c395e1cec6ab58944e84750edf7c0969c8897809e5f99519633b6ab",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "month",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s80F(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80F(b)~1",
+      "style": "notetext",
+      "text": "Note: For month see section 6."
+    }
+  ]
+}

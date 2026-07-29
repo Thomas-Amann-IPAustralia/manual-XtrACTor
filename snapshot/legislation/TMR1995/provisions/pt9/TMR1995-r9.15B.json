@@ -1,0 +1,74 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdivb"
+  ],
+  "content_hash": "sha256:471a867e3c4e9070483cd96c9be237649188535ca1b1097c662e1f03d890905f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision B—Notice of intention to defend",
+    "9.15B  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.15B",
+  "ref": "TMR1995/r9.15B",
+  "text": "(1) The Registrar may grant an application under subregulation 9.15A(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension. (2) However, if the application is made after the period mentioned in subregulation 9.15(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:d7b4e6cc400a7e23daf7e030f40c2668c70f2354e509a7ae9eb39577d5386c09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15A(1)",
+          "mention": "subregulation 9.15A(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.15B(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant an application under subregulation 9.15A(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension."
+    },
+    {
+      "content_hash": "sha256:dba8401ca1eaaa4fe316148c0c3a73f57e27132827e835d926b6b1961c4aae73",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15(1)",
+          "mention": "subregulation 9.15(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.15B(2)",
+      "style": "subsection",
+      "text": "(2) However, if the application is made after the period mentioned in subregulation 9.15(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15B(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

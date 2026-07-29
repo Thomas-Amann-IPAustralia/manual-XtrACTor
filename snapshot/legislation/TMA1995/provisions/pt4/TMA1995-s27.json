@@ -1,0 +1,288 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div1"
+  ],
+  "content_hash": "sha256:2214b94400f0ecf0fe3c7d8ba866ca0230b73dc967b5d5e62d074a753c849d9d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 1—General",
+    "27  Application—how made"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "27",
+  "ref": "TMA1995/s27",
+  "text": "(1) A person may apply for the registration of a trade mark in respect of goods and/or services if: (a) the person claims to be the owner of the trade mark; and (b) one of the following applies: (i) the person is using or intends to use the trade mark in relation to the goods and/or services; (ii) the person has authorised or intends to authorise another person to use the trade mark in relation to the goods and/or services; (iii) the person intends to assign the trade mark to a body corporate that is about to be constituted with a view to the use by the body corporate of the trade mark in relation to the goods and/or services. Note: For use see section 7. (2) The application must: (a) be in accordance with the regulations; and (b) be filed, together with any prescribed document, in accordance with the regulations; and (c) be made by a person or persons having legal personality. Note: For file see section 6. (2A) Despite paragraph (2)(c), an application for registration of a collective trade mark need not be made by a person or persons having legal personality. Note: For collective trade mark see section 162. (3) Without limiting the particulars that may be included in an application, the application must: (a) include a representation of the trade mark; and (b) specify, in accordance with the regulations, the goods and/or services in respect of which it is sought to register the trade mark. (4) Regulations made for the purposes of paragraph (3)(b) may apply, adopt or incorporate any matter contained in any listing of goods and/or services published by the Registrar from time to time and made available for inspection by the public at the Trade Marks Office and its suboffices (if any). (5) An application may be made in respect of goods and services of one or more of the classes provided for in regulations made under subsection 19(3).",
+  "title": "Application—how made",
+  "units": [
+    {
+      "content_hash": "sha256:ef83022e7a048f1d01d28a8cc271fb03b419d20a0d523f02729877b2c5e37e3a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s27(1)",
+      "style": "subsection",
+      "text": "(1) A person may apply for the registration of a trade mark in respect of goods and/or services if:"
+    },
+    {
+      "content_hash": "sha256:fb3edb79ce1b4c1b374550098c90935a374babe3ac705b752bdfcbcd5ef162ce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s27(1)",
+      "ref": "TMA1995/s27(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person claims to be the owner of the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:62a6549d230e2de86507cb3482932e1be6663bb6145185f983f187eb4a068fd8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s27(1)",
+      "ref": "TMA1995/s27(1)(b)",
+      "style": "paragraph",
+      "text": "(b) one of the following applies:"
+    },
+    {
+      "content_hash": "sha256:de812371a28a18a682d31539393e957ebb280bd747ef45d9fa76f080fd09cd6a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s27(1)(b)",
+      "ref": "TMA1995/s27(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the person is using or intends to use the trade mark in relation to the goods and/or services;"
+    },
+    {
+      "content_hash": "sha256:f86f8e76632173a1eb3ca3c0778af9888a8f74d09bee1c9b4763a85633f50301",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s27(1)(b)",
+      "ref": "TMA1995/s27(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the person has authorised or intends to authorise another person to use the trade mark in relation to the goods and/or services;"
+    },
+    {
+      "content_hash": "sha256:4a4be127c828a18e941856d449482adc4c5d50d19f5fb3db2cea991ff998324a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s27(1)(b)",
+      "ref": "TMA1995/s27(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the person intends to assign the trade mark to a body corporate that is about to be constituted with a view to the use by the body corporate of the trade mark in relation to the goods and/or services."
+    },
+    {
+      "content_hash": "sha256:c17d4cc8952be09e5f6a325464ff3618fffc890de9848386c24100fcf538e431",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 13,
+          "start": 10,
+          "text": "use",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s27(1)(b)(iii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7",
+          "mention": "section 7"
+        }
+      ],
+      "ref": "TMA1995/s27(1)(b)(iii)~1",
+      "style": "notetext",
+      "text": "Note: For use see section 7."
+    },
+    {
+      "content_hash": "sha256:be58620e00530a9d2dbd6c80cd1881688763f0fb2fc8632206812e85d828f239",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s27(2)",
+      "style": "subsection",
+      "text": "(2) The application must:"
+    },
+    {
+      "content_hash": "sha256:3f8fe412891d7911b48e19c66ccb39dae8ecca70b1fd98fdc7badac6010d5553",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s27(2)",
+      "ref": "TMA1995/s27(2)(a)",
+      "style": "paragraph",
+      "text": "(a) be in accordance with the regulations; and"
+    },
+    {
+      "content_hash": "sha256:4b79bdd8f29e2d3947cf92c2f96db3b68a9ea542ede69ca025570dce6c322e7a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s27(2)",
+      "ref": "TMA1995/s27(2)(b)",
+      "style": "paragraph",
+      "text": "(b) be filed, together with any prescribed document, in accordance with the regulations; and"
+    },
+    {
+      "content_hash": "sha256:fa256dfbdb84d00ad8a3c1c2c2ffeb42372b8374ebb2cdb27f4466a63891eaf5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s27(2)",
+      "ref": "TMA1995/s27(2)(c)",
+      "style": "paragraph",
+      "text": "(c) be made by a person or persons having legal personality."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s27(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s27(2)(c)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    },
+    {
+      "content_hash": "sha256:2b1f75bba4f572e9cab6fe78e2003a360bba066b2e3ca8bd9101c2aaeed17a8e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2A)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s27(2A)",
+      "style": "subsection",
+      "text": "(2A) Despite paragraph (2)(c), an application for registration of a collective trade mark need not be made by a person or persons having legal personality."
+    },
+    {
+      "content_hash": "sha256:28613b079173903cc13aa2420903dcf3d01dca1e0ff9bfc90984e9699ef248ba",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "collective trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s27(2A)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s162",
+          "mention": "section 162"
+        }
+      ],
+      "ref": "TMA1995/s27(2A)~1",
+      "style": "notetext",
+      "text": "Note: For collective trade mark see section 162."
+    },
+    {
+      "content_hash": "sha256:f1c451a58f1d66a5c80ed2454c140f60394584f1af4377c31642f8688dde5b83",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMA1995/s27(3)",
+      "style": "subsection",
+      "text": "(3) Without limiting the particulars that may be included in an application, the application must:"
+    },
+    {
+      "content_hash": "sha256:4d83a4fa8878c080d36646e7e3554b2018d05470790b1db8ff0e724fa115cb9a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s27(3)",
+      "ref": "TMA1995/s27(3)(a)",
+      "style": "paragraph",
+      "text": "(a) include a representation of the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:2e05a87a5ec3e156da51773dbf47d6220a158dbe72342306f71f82272164bf88",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s27(3)",
+      "ref": "TMA1995/s27(3)(b)",
+      "style": "paragraph",
+      "text": "(b) specify, in accordance with the regulations, the goods and/or services in respect of which it is sought to register the trade mark."
+    },
+    {
+      "content_hash": "sha256:724cdf3e6a7a1812722a609193a356bdd3390af3abb8ab5b0e04be6f3690382b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s27(4)",
+      "style": "subsection",
+      "text": "(4) Regulations made for the purposes of paragraph (3)(b) may apply, adopt or incorporate any matter contained in any listing of goods and/or services published by the Registrar from time to time and made available for inspection by the public at the Trade Marks Office and its suboffices (if any)."
+    },
+    {
+      "content_hash": "sha256:d645441a5bd4f559aebe28690e7edb7482c9d475338a6bf725c96af233afd86c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 19,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s19(3)",
+          "mention": "subsection 19(3)"
+        }
+      ],
+      "ref": "TMA1995/s27(5)",
+      "style": "subsection",
+      "text": "(5) An application may be made in respect of goods and services of one or more of the classes provided for in regulations made under subsection 19(3)."
+    }
+  ]
+}

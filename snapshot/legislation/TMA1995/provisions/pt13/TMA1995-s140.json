@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:b9dbd17a67968cc15026f1b543815ba3c8d74778322ceab36be2dbffc5af03fc",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "140  Power of ComptrollerGeneral of Customs to retain control of goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "140",
+  "ref": "TMA1995/s140",
+  "text": "In spite of this Part, the ComptrollerGeneral of Customs: (a) must not release, or dispose of, any seized goods; or (b) must not take any action in relation to the goods to give effect to any order of a court under section 137; if the ComptrollerGeneral of Customs is required or allowed to retain control of the goods under any other law of the Commonwealth. Note: For seized goods see section 6.",
+  "title": "Power of ComptrollerGeneral of Customs to retain control of goods",
+  "units": [
+    {
+      "content_hash": "sha256:163c4bcfbfeffc48a6f6c8a2b3314939b63f179a41206d609ad8847c245f222e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s140~1",
+      "style": "subsection",
+      "text": "In spite of this Part, the ComptrollerGeneral of Customs:"
+    },
+    {
+      "content_hash": "sha256:255cb0da0ad86888138948bbd5651cee73d8c5c2c31378938000550d54912812",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s140~1",
+      "ref": "TMA1995/s140(a)",
+      "style": "paragraph",
+      "text": "(a) must not release, or dispose of, any seized goods; or"
+    },
+    {
+      "content_hash": "sha256:26e8d060d34f7e1af71d0fd6e6572b85b3d61f11be0752620d5d0c12833cf7d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s140~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s137",
+          "mention": "section 137"
+        }
+      ],
+      "ref": "TMA1995/s140(b)",
+      "style": "paragraph",
+      "text": "(b) must not take any action in relation to the goods to give effect to any order of a court under section 137;"
+    },
+    {
+      "content_hash": "sha256:b0cdafc8263833ac8e0d4470ca886bfc916992de0f2e45d7c4b7c7a76399a081",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s140~2",
+      "style": "subsection2",
+      "text": "if the ComptrollerGeneral of Customs is required or allowed to retain control of the goods under any other law of the Commonwealth."
+    },
+    {
+      "content_hash": "sha256:bdbd71a8886ac325eecb334acb2503f3858dc61ea3a98f27965470f16ce3f940",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s140~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s140~2~1",
+      "style": "notetext",
+      "text": "Note: For seized goods see section 6."
+    }
+  ]
+}

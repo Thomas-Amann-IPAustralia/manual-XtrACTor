@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt19"
+  ],
+  "content_hash": "sha256:6a199a4bed960cf182cb32aaf4b050afa6c60a7359545899a491b088271c0596",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 19—Administration",
+    "204  Registrar to act as soon as practicable"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "204",
+  "ref": "TMA1995/s204",
+  "text": "If: (a) the Registrar is required under this Act to do any act or thing; and (b) no time or period is provided within which the act or thing is to be done; the Registrar is to do the act or thing as soon as practicable.",
+  "title": "Registrar to act as soon as practicable",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s204~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:a88f3e03d8225a48e7ef34161611d41874d7cdab18ece55fa9d7f0cf0147d608",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s204~1",
+      "ref": "TMA1995/s204(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar is required under this Act to do any act or thing; and"
+    },
+    {
+      "content_hash": "sha256:cabcfe529fb19b5ac5ccade02428591addfa1b603682e7fff064b80efb336d6f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s204~1",
+      "ref": "TMA1995/s204(b)",
+      "style": "paragraph",
+      "text": "(b) no time or period is provided within which the act or thing is to be done;"
+    },
+    {
+      "content_hash": "sha256:d3377ba0780b75200f82eb77ea71b3d0c735927b510ec24c97fa362ae7e2596c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s204~2",
+      "style": "subsection2",
+      "text": "the Registrar is to do the act or thing as soon as practicable."
+    }
+  ]
+}

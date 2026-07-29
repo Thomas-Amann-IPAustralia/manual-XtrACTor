@@ -1,0 +1,116 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:664d36c2dfebc97c351b178ce62fc274b9843ced6faa098fbbb54d98e75ebe04",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "214A  Notifications by Registrar under this Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "214A",
+  "ref": "TMA1995/s214A",
+  "text": "(1) If under this Act the Registrar is required or permitted: (a) to notify a person of a matter; or (b) to notify a person that the person is required to do a thing; the Registrar may so notify the person by any means of communication (including by electronic means). Note 1: A reference to this Act includes the regulations (see section 6). Note 2: Section 215 deals with the service etc. of documents on a person. (2) However, the notification must be by a means of communication such that the content of the notification is readily accessible so as to be usable for subsequent reference.",
+  "title": "Notifications by Registrar under this Act",
+  "units": [
+    {
+      "content_hash": "sha256:9aaf968ba6f5686e53935f38413171782b970f640d2804276880829830ad1014",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s214A(1)",
+      "style": "subsection",
+      "text": "(1) If under this Act the Registrar is required or permitted:"
+    },
+    {
+      "content_hash": "sha256:3690ad1c72b46fa5a85035bef4a6a22a25fbed212652fcef4231ad254e3ce687",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s214A(1)",
+      "ref": "TMA1995/s214A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) to notify a person of a matter; or"
+    },
+    {
+      "content_hash": "sha256:0940d0ece9a5457eb71d79abd8aa2697f0b405fe452bb26877276193a476ff82",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s214A(1)",
+      "ref": "TMA1995/s214A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) to notify a person that the person is required to do a thing;"
+    },
+    {
+      "content_hash": "sha256:2e820848293d595c8a1c4981c054541cbe9041399e5f79fdd4b6eb63638fe092",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s214A~1",
+      "style": "subsection2",
+      "text": "the Registrar may so notify the person by any means of communication (including by electronic means)."
+    },
+    {
+      "content_hash": "sha256:7a96c00dc64a3048c16fadb10ba1eb85956f25940970652c7a553134ee111d32",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s214A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s214A~1~1",
+      "style": "notetext",
+      "text": "Note 1: A reference to this Act includes the regulations (see section 6)."
+    },
+    {
+      "content_hash": "sha256:70e87076c2b6ffaa9685efa96e9f2e0af8323a15bcd6f9416d91c9ea990a0499",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s214A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s215",
+          "mention": "Section 215"
+        }
+      ],
+      "ref": "TMA1995/s214A~1~2",
+      "style": "notetext",
+      "text": "Note 2: Section 215 deals with the service etc. of documents on a person."
+    },
+    {
+      "content_hash": "sha256:97298c0053ea9a1a7a47e49b4f03796c72f5f63c6faa1b6a0386bf152543cd78",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s214A(2)",
+      "style": "subsection",
+      "text": "(2) However, the notification must be by a means of communication such that the content of the notification is readily accessible so as to be usable for subsequent reference."
+    }
+  ]
+}

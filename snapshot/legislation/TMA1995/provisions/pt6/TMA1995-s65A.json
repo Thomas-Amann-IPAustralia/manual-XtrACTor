@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt6"
+  ],
+  "content_hash": "sha256:e578cd358641aaeaa9398a2bc9de95faf8f63029cdab91e09163489af00b9525",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "65A  Amendment after particulars of application have been published—request for amendment published"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "65A",
+  "ref": "TMA1995/s65A",
+  "text": "(1) This section applies if: (a) the particulars of the application have been published under section 30; and (b) the amendment requested is not an amendment which could be made under section 65. (2) The application may be amended to correct a clerical error or an obvious mistake in the application if the Registrar is of the opinion that it is fair and reasonable in all the circumstances of the case to make the amendment under this section. (3) Subject to subsection (5), the Registrar must publish the request for the amendment in accordance with the regulations. (4) Subject to subsection (5), a person may, as prescribed, oppose the granting of the request for the amendment. (5) If the Registrar is satisfied that a request for an amendment would not be granted even in the absence of opposition under subsection (4): (a) the Registrar need not publish the request in accordance with subsection (3); and (b) the request cannot be opposed, despite subsection (4); and (c) the Registrar must refuse to grant the request.",
+  "title": "Amendment after particulars of application have been published—request for amendment published",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s65A(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:ca2873ccc61fc54cbf1f43afdde98e16b3175992a24fd4158a12bcfa3c6c7b2b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s65A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "ref": "TMA1995/s65A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the particulars of the application have been published under section 30; and"
+    },
+    {
+      "content_hash": "sha256:a430e708004c26fc0c6d14f1185bfd6345ba7af6db44f4d5681a5adb329b730a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s65A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65",
+          "mention": "section 65"
+        }
+      ],
+      "ref": "TMA1995/s65A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the amendment requested is not an amendment which could be made under section 65."
+    },
+    {
+      "content_hash": "sha256:86a1379060c7b4891ce00226fe33029cbd25f768fb4227155e03ffc415486a21",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s65A(2)",
+      "style": "subsection",
+      "text": "(2) The application may be amended to correct a clerical error or an obvious mistake in the application if the Registrar is of the opinion that it is fair and reasonable in all the circumstances of the case to make the amendment under this section."
+    },
+    {
+      "content_hash": "sha256:3c715e1c7769fdfb5240ce9a1ebb856548b2bc5105fa6419d5ac1d8ec4325d61",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s65A(3)",
+      "style": "subsection",
+      "text": "(3) Subject to subsection (5), the Registrar must publish the request for the amendment in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:dec833b5e650fce0fbc00d45721513cbc583bab856ef092d5696f31f2dc23214",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s65A(4)",
+      "style": "subsection",
+      "text": "(4) Subject to subsection (5), a person may, as prescribed, oppose the granting of the request for the amendment."
+    },
+    {
+      "content_hash": "sha256:43a2e251d78eb6da7d4afd4d7969abb72ccd86ab45bea9ab4af0c0aa72d42f2c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s65A(5)",
+      "style": "subsection",
+      "text": "(5) If the Registrar is satisfied that a request for an amendment would not be granted even in the absence of opposition under subsection (4):"
+    },
+    {
+      "content_hash": "sha256:1acb53d742d640344ed4d6e2903ea955a78025d90a20f4a22c58e0c6670aa53c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s65A(5)",
+      "ref": "TMA1995/s65A(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar need not publish the request in accordance with subsection (3); and"
+    },
+    {
+      "content_hash": "sha256:24c60ffe1ce5f7fbf086419e5faa516ed59d61eae2b89a8aa00c415043eb4c55",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s65A(5)",
+      "ref": "TMA1995/s65A(5)(b)",
+      "style": "paragraph",
+      "text": "(b) the request cannot be opposed, despite subsection (4); and"
+    },
+    {
+      "content_hash": "sha256:f9a50eb24d4c610a67d3ddfd2937c8145be889a468b48c9628e689ffb884a301",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s65A(5)",
+      "ref": "TMA1995/s65A(5)(c)",
+      "style": "paragraph",
+      "text": "(c) the Registrar must refuse to grant the request."
+    }
+  ]
+}

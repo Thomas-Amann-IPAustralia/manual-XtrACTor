@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:ba939003f3128769312fc507af704fc0f60ca2963894eb4611263ee722e8c600",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.10  Prescribed offences"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.10",
+  "ref": "TMR1995/r20.10",
+  "text": "(1) For paragraph 228A(4)(c) of the Act, an offence against the Act, the Designs Act 2003 or the Patents Act 1990 is a prescribed offence. (2) For paragraph 228A(4)(d) of the Act, an offence of dishonesty for which the maximum penalty is imprisonment for at least 2 years is a prescribed offence.",
+  "title": "Prescribed offences",
+  "units": [
+    {
+      "content_hash": "sha256:86580fb332d49906231d09c7389241bc9a29556b45856491f9c879e221d848ec",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 89,
+          "start": 73,
+          "text": "Designs Act 2003",
+          "weight": "italic"
+        },
+        {
+          "end": 113,
+          "start": 97,
+          "text": "Patents Act 1990",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "ambiguous",
+          "extraction": "regex",
+          "id": "TMA1995/s228A(4)(c)",
+          "mention": "paragraph 228A(4)(c)"
+        }
+      ],
+      "ref": "TMR1995/r20.10(1)",
+      "style": "subsection",
+      "text": "(1) For paragraph 228A(4)(c) of the Act, an offence against the Act, the Designs Act 2003 or the Patents Act 1990 is a prescribed offence."
+    },
+    {
+      "content_hash": "sha256:17c8bbfdcda3467756d4e02e80310c919b977c28485b482a023b002d18f617af",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s228A(4)(d)",
+          "mention": "paragraph 228A(4)(d)"
+        }
+      ],
+      "ref": "TMR1995/r20.10(2)",
+      "style": "subsection",
+      "text": "(2) For paragraph 228A(4)(d) of the Act, an offence of dishonesty for which the maximum penalty is imprisonment for at least 2 years is a prescribed offence."
+    }
+  ]
+}

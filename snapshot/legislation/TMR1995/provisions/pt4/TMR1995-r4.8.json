@@ -1,0 +1,128 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:9b771cde9b349e56ace66aeaedfe1aaa6a177d522c2faebdbf73817299f4048c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.8  Examination of application—report to applicant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.8",
+  "ref": "TMR1995/r4.8",
+  "text": "(1) For the purposes of section 31 of the Act (which deals with examination and reporting), if in the course of an examination of an application the Registrar reasonably believes that: (a) the application has not been made in accordance with the Act or these regulations; or (b) there are grounds under Division 2 of Part 4 of the Act for rejecting it; the Registrar must report that belief by notification to the applicant. (2) A report under subregulation (1) must include notification of the date on which the application will lapse if it is not accepted earlier. (3) If the Registrar reasonably suspects that the provisions of paragraph 27(1)(b) of the Act do not apply in relation to all of the goods and/or services specified in an application for registration of a trade mark, the Registrar may require the applicant to make a declaration to the Registrar that those provisions apply to all of those goods and/or services. Note: Section 37 of the Act and regulation 4.12 deal with the lapsing of an application before acceptance.",
+  "title": "Examination of application—report to applicant",
+  "units": [
+    {
+      "content_hash": "sha256:b49812f8edb85b34c7d9821d8d3e43d097a44bcee47a642c85dbc88a8983e22d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s31",
+          "mention": "section 31"
+        }
+      ],
+      "ref": "TMR1995/r4.8(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of section 31 of the Act (which deals with examination and reporting), if in the course of an examination of an application the Registrar reasonably believes that:"
+    },
+    {
+      "content_hash": "sha256:38384a0aebb4a02092f0bc93bad1846641c5e3e1b9e5d6173ea06f81bfdd76c4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.8(1)",
+      "ref": "TMR1995/r4.8(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application has not been made in accordance with the Act or these regulations; or"
+    },
+    {
+      "content_hash": "sha256:a86954ee71fec3fb1da638ec81de3360bc8e19ae7c3d4732323fdd734fc1f14b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.8(1)",
+      "ref": "TMR1995/r4.8(1)(b)",
+      "style": "paragraph",
+      "text": "(b) there are grounds under Division 2 of Part 4 of the Act for rejecting it;"
+    },
+    {
+      "content_hash": "sha256:de9ff66bcc363c67243a13a1fd52b02aaa71b42bc5226bf643dc4565325e23bf",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.8~1",
+      "style": "subsection2",
+      "text": "the Registrar must report that belief by notification to the applicant."
+    },
+    {
+      "content_hash": "sha256:8baecec255266933012c252d29fb9e4408d69c426bc956bc5ebed7238e63fb21",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.8(2)",
+      "style": "subsection",
+      "text": "(2) A report under subregulation (1) must include notification of the date on which the application will lapse if it is not accepted earlier."
+    },
+    {
+      "content_hash": "sha256:2239ef5a2860a543b8417bf515ce16c57b0e333659612d7873805dd7e501224a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27(1)(b)",
+          "mention": "paragraph 27(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r4.8(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar reasonably suspects that the provisions of paragraph 27(1)(b) of the Act do not apply in relation to all of the goods and/or services specified in an application for registration of a trade mark, the Registrar may require the applicant to make a declaration to the Registrar that those provisions apply to all of those goods and/or services."
+    },
+    {
+      "content_hash": "sha256:2de5dce5d67b4d9f8d857090eea71ad84da02edb581df7986143cfc1270a4f10",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.8(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s37",
+          "mention": "Section 37"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.12",
+          "mention": "regulation 4.12"
+        }
+      ],
+      "ref": "TMR1995/r4.8(3)~1",
+      "style": "notetext",
+      "text": "Note: Section 37 of the Act and regulation 4.12 deal with the lapsing of an application before acceptance."
+    }
+  ]
+}

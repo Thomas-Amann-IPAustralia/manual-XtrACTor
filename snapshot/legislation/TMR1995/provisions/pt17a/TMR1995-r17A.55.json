@@ -1,0 +1,160 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div8"
+  ],
+  "content_hash": "sha256:9102f280877900481aa79b9216aca99d9d897c2049feb812dd46dc8fb951d095",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 8—Concurrence between registration and international registration",
+    "17A.55  Effect of cancellation, removal or expiry of registered trade mark"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.55",
+  "ref": "TMR1995/r17A.55",
+  "text": "Cancellation of registration of the registered trade mark (1) Subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark if the registration of the registered trade mark is cancelled. (2) Subregulation (1) does not apply if the cancellation is at the request of the registered owner. Removal of registered trade mark (3) If the Registrar removes the registered trade mark from the Register in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark, subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark and those particular goods or services. (4) Subregulation (3) does not apply if the removal is under paragraph 78(b) or 80F(b) of the Act. Amendment or correction of entry in the Register (5) If, in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark, the Registrar amends or corrects an entry in the Register relating to the registered trade mark so that the registered trade mark is no longer registered in respect of those particular goods or services, subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark and those particular goods or services. (6) Subregulation (5) does not apply if the amendment is at the request of the registered owner.",
+  "title": "Effect of cancellation, removal or expiry of registered trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:9664e8c97777d29e6da8169211fb42fd52b5ff47424075fb823091cad6739543",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.55~1",
+      "style": "SubsectionHead",
+      "text": "Cancellation of registration of the registered trade mark"
+    },
+    {
+      "content_hash": "sha256:88d9bcda348a2ff7ad1fd3e45dbeff6899334d200f9c315e5dbd1f86f1dcd7b4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.54(2)",
+          "mention": "Subregulation 17A.54(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.55(1)",
+      "style": "subsection",
+      "text": "(1) Subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark if the registration of the registered trade mark is cancelled."
+    },
+    {
+      "content_hash": "sha256:62b783c262970a3cc2bbdff3a69be8a1564a14be8fcb27b0c1f2e27273988bad",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.55(2)",
+      "style": "subsection",
+      "text": "(2) Subregulation (1) does not apply if the cancellation is at the request of the registered owner."
+    },
+    {
+      "content_hash": "sha256:76676f53be9e8ed776293d1297307dd2487d3dc60de9de408d11ffa06f3f07bc",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.55~2",
+      "style": "SubsectionHead",
+      "text": "Removal of registered trade mark"
+    },
+    {
+      "content_hash": "sha256:7ba21e0cd2b360bf50d3a65f2e4df9554d4ba9a47045ddbbc49d19e6adcdc112",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.54(2)",
+          "mention": "subregulation 17A.54(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.55(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar removes the registered trade mark from the Register in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark, subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark and those particular goods or services."
+    },
+    {
+      "content_hash": "sha256:67ec792361ad16dcf3af36d992d334194e108ef53fba5dd2b88ff6041910a501",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s78(b)",
+          "mention": "paragraph 78(b) or 80F(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80F(b)",
+          "mention": "paragraph 78(b) or 80F(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.55(4)",
+      "style": "subsection",
+      "text": "(4) Subregulation (3) does not apply if the removal is under paragraph 78(b) or 80F(b) of the Act."
+    },
+    {
+      "content_hash": "sha256:fabaf7d89d60259e09dd104ca95f724142bbe07c8cd4f6354259d7628cde1c58",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.55~3",
+      "style": "SubsectionHead",
+      "text": "Amendment or correction of entry in the Register"
+    },
+    {
+      "content_hash": "sha256:2191fa32a4884f270f30e615b6285661c8767d7d0512e48c340bd3abdb6d76cc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.54(2)",
+          "mention": "subregulation 17A.54(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.55(5)",
+      "style": "subsection",
+      "text": "(5) If, in respect of particular goods or services that are covered by the registered trade mark and the protected international trade mark, the Registrar amends or corrects an entry in the Register relating to the registered trade mark so that the registered trade mark is no longer registered in respect of those particular goods or services, subregulation 17A.54(2) ceases to apply in relation to the protected international trade mark and those particular goods or services."
+    },
+    {
+      "content_hash": "sha256:4681838b28f43a290af72563a51fbf08bf07399d295c8ca3a6f96832876684d0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.55(6)",
+      "style": "subsection",
+      "text": "(6) Subregulation (5) does not apply if the amendment is at the request of the registered owner."
+    }
+  ]
+}

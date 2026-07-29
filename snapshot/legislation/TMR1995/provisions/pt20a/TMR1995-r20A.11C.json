@@ -1,0 +1,110 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:e89b179aed77b12e00b423e74c1e5976e2b92392b8ddd81d8650dbbf56d764d4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.11C  Panel Chair unavailable to complete hearing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.11C",
+  "ref": "TMR1995/r20A.11C",
+  "text": "(1) This regulation applies if: (a) a hearing of proceedings in relation to a particular matter has been commenced or completed by a Panel of the Disciplinary Tribunal; and (b) before the matter has been determined, the Panel Chair has: (i) ceased to be a member; or (ii) for any reason, ceased to be available as a member of the Panel. (2) The matter is to be reheard by a new Panel constituted in accordance with regulation 20A.11. (3) The new Panel may, for the purposes of performing or exercising the Disciplinary Tribunal’s functions or powers in relation to that matter, have regard to any record of the proceedings before the Panel as previously constituted for the purposes of hearing that matter.",
+  "title": "Panel Chair unavailable to complete hearing",
+  "units": [
+    {
+      "content_hash": "sha256:cb0a79f261bac8f975e6fc68fb30b5d8c59b049f970f1858d9f67f8e1510362e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11C(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies if:"
+    },
+    {
+      "content_hash": "sha256:b467e5855f050902ec4e84cdd05d821080cc89b4ab1d2e99ce561d5cd2b90bfa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.11C(1)",
+      "ref": "TMR1995/r20A.11C(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a hearing of proceedings in relation to a particular matter has been commenced or completed by a Panel of the Disciplinary Tribunal; and"
+    },
+    {
+      "content_hash": "sha256:63a67fd553dd8d2f91e9d9e0eeecd6498cd7acdaa545730c8d45fe7359908d38",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.11C(1)",
+      "ref": "TMR1995/r20A.11C(1)(b)",
+      "style": "paragraph",
+      "text": "(b) before the matter has been determined, the Panel Chair has:"
+    },
+    {
+      "content_hash": "sha256:11ecc3bff5fa140f9587aa218b0668b0ff7124102e2a9013fa7f0e253536b9e9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.11C(1)(b)",
+      "ref": "TMR1995/r20A.11C(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) ceased to be a member; or"
+    },
+    {
+      "content_hash": "sha256:1dc35d6e793c24e7f5813f7123e12b21e63e2764f27ba01ea24a2c75036f6af5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.11C(1)(b)",
+      "ref": "TMR1995/r20A.11C(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) for any reason, ceased to be available as a member of the Panel."
+    },
+    {
+      "content_hash": "sha256:e695f160ac24578079af27c3571b0076945fcdcea53059f9ba42cc1bfcb53ffd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.11",
+          "mention": "regulation 20A.11"
+        }
+      ],
+      "ref": "TMR1995/r20A.11C(2)",
+      "style": "subsection",
+      "text": "(2) The matter is to be reheard by a new Panel constituted in accordance with regulation 20A.11."
+    },
+    {
+      "content_hash": "sha256:6d7cd54f07e984137efc694419f5649a390a6b39eac6325f5a1009a1db43e1fb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11C(3)",
+      "style": "subsection",
+      "text": "(3) The new Panel may, for the purposes of performing or exercising the Disciplinary Tribunal’s functions or powers in relation to that matter, have regard to any record of the proceedings before the Panel as previously constituted for the purposes of hearing that matter."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:be469f9148fe0eefbde61c9287f8fc3ce41403de3e66af542f93712a97cdb7d7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.4  Specification of goods and/or services"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.4",
+  "ref": "TMR1995/r4.4",
+  "text": "(1) For the purposes of paragraph 27(3)(b) of the Act, the following subregulations set out the manner of specifying, in an application for the registration of a trade mark, the goods and/or services in respect of which registration is sought. (2) The expression ‘all goods’, ‘all services’, ‘all other goods’, or ‘all other services’ must not be used in an application for registration of a trade mark to specify the goods and/or services in respect of which registration is sought. (3) The goods and/or services must be grouped according to the appropriate classes described in Schedule 1. (4) The applicant must nominate the class number that is appropriate to the goods or services in each group. (5) The groups must be listed in the order of their class numbers. (6) The goods and/or services must, as far as practicable, be specified in terms appearing in any listing of goods and services that is: (a) published by the Registrar; and (b) made available for inspection by the public at the Trade Marks Office and its suboffices (if any). (7) If any of the goods and/or services cannot be specified using terms referred to in subregulation (6), the applicant must provide sufficient information to enable the Registrar to decide the classification of the goods and/or services.",
+  "title": "Specification of goods and/or services",
+  "units": [
+    {
+      "content_hash": "sha256:20c8409bc208b28ffac8de86e6b5bae4e76672607309a0670fbd453b78fa9d11",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27(3)(b)",
+          "mention": "paragraph 27(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/r4.4(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of paragraph 27(3)(b) of the Act, the following subregulations set out the manner of specifying, in an application for the registration of a trade mark, the goods and/or services in respect of which registration is sought."
+    },
+    {
+      "content_hash": "sha256:8829489dd9a17d33d4fa8d4b9e7b4cc70c81111d975a1b85bc156e86e66650cf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(2)",
+      "style": "subsection",
+      "text": "(2) The expression ‘all goods’, ‘all services’, ‘all other goods’, or ‘all other services’ must not be used in an application for registration of a trade mark to specify the goods and/or services in respect of which registration is sought."
+    },
+    {
+      "content_hash": "sha256:7ffad8b0a25ab3a8144a4bc5e873cda3a8673f5bea6c1eeb8f7be93caa18f289",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(3)",
+      "style": "subsection",
+      "text": "(3) The goods and/or services must be grouped according to the appropriate classes described in Schedule 1."
+    },
+    {
+      "content_hash": "sha256:1f2138d22e7f1206f076756d400404f7ba8e11b2ffd9160a86b358040b4c31f1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(4)",
+      "style": "subsection",
+      "text": "(4) The applicant must nominate the class number that is appropriate to the goods or services in each group."
+    },
+    {
+      "content_hash": "sha256:631ddc092c853ff8fab4f437b057235d712c941607f3bad26022371ec1f85a3e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(5)",
+      "style": "subsection",
+      "text": "(5) The groups must be listed in the order of their class numbers."
+    },
+    {
+      "content_hash": "sha256:4afac1a58ba6e4715a6d8f51d8b2174a06a3fd08aa53b0bca62095f3c0dd4aec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(6)",
+      "style": "subsection",
+      "text": "(6) The goods and/or services must, as far as practicable, be specified in terms appearing in any listing of goods and services that is:"
+    },
+    {
+      "content_hash": "sha256:c1a342e6479937b99c21224945272526a6374797a82481f343e230167c341c0b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r4.4(6)",
+      "ref": "TMR1995/r4.4(6)(a)",
+      "style": "paragraph",
+      "text": "(a) published by the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:aa5c86a91887e4d3d7eb67b1c85e1a64086e95d6161e1186caad50e5ff36a257",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r4.4(6)",
+      "ref": "TMR1995/r4.4(6)(b)",
+      "style": "paragraph",
+      "text": "(b) made available for inspection by the public at the Trade Marks Office and its suboffices (if any)."
+    },
+    {
+      "content_hash": "sha256:3126f3a4121e3daa9f1bf149037eb9ab408cc4fcde1d2807c8e44e95f85d4695",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.4(7)",
+      "style": "subsection",
+      "text": "(7) If any of the goods and/or services cannot be specified using terms referred to in subregulation (6), the applicant must provide sufficient information to enable the Registrar to decide the classification of the goods and/or services."
+    }
+  ]
+}

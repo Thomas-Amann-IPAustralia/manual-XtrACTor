@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:6e418426df0420e81248ab2f65906c4ced8d3d644e5c3828f33e9b17f65e2d3e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.14A  Representation of trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.14A",
+  "ref": "TMR1995/r17A.14A",
+  "text": "If the representation of a trade mark in an IRDA includes words of a language other than English, the holder of the IRDA must file a translation of the words into English, if required to do so by the Registrar. Note: Rule 9(4)(a)(xii) of the Madrid Regulations provides that a transliteration is required if the trade mark consists of or contains matter in characters other than Latin characters or numbers expressed in numerals other than Arabic or Roman numerals.",
+  "title": "Representation of trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:60321650cba98a413a2351faa7a8720481b01da93d96f8de47f497191155689b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.14A~1",
+      "style": "subsection",
+      "text": "If the representation of a trade mark in an IRDA includes words of a language other than English, the holder of the IRDA must file a translation of the words into English, if required to do so by the Registrar."
+    },
+    {
+      "content_hash": "sha256:b82fc567ebb642b8544f99a0a5e023c4f2060aaaefd0afe021508d30b09b54d2",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.14A~1",
+      "ref": "TMR1995/r17A.14A~1~1",
+      "style": "notetext",
+      "text": "Note: Rule 9(4)(a)(xii) of the Madrid Regulations provides that a transliteration is required if the trade mark consists of or contains matter in characters other than Latin characters or numbers expressed in numerals other than Arabic or Roman numerals."
+    }
+  ]
+}

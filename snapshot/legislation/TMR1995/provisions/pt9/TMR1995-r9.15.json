@@ -1,0 +1,91 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div3",
+    "TMR1995/pt9/div3/sdivb"
+  ],
+  "content_hash": "sha256:feabe791eb2f6c23d99cc345559be1d8838845b64c2a1d1a8a8c630cf2043c5b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 3—Filing of opposition documents",
+    "Subdivision B—Notice of intention to defend",
+    "9.15  Filing of notice of intention to defend"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.15",
+  "ref": "TMR1995/r9.15",
+  "text": "(1) A notice of intention to defend must be filed within 2 months from the day the applicant is given a copy of the statement of grounds and particulars. (2) The Registrar must give the opponent a copy of the notice. (3) If the applicant does not file the notice of intention to defend within the period mentioned in subregulation (1) or that period as extended, the Registrar may decide to: (a) take the opposition to have succeeded; and (b) refuse to remove the trade mark from the Register. (4) The Registrar must notify the parties of the Registrar’s decision.",
+  "title": "Filing of notice of intention to defend",
+  "units": [
+    {
+      "content_hash": "sha256:f7a6565bd7b66ab4f65714fb530c65108385e6200bbb40ffce8f6c92ccea1a54",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15(1)",
+      "style": "subsection",
+      "text": "(1) A notice of intention to defend must be filed within 2 months from the day the applicant is given a copy of the statement of grounds and particulars."
+    },
+    {
+      "content_hash": "sha256:b376414ffc37020a9f2258dc4adae84b57ebfe264f270a1406c43748dcc5ac20",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must give the opponent a copy of the notice."
+    },
+    {
+      "content_hash": "sha256:a3a431acf842a4095bbed9df4462f614cc2db6cbcbd67baf64a7a39e420f6184",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15(3)",
+      "style": "subsection",
+      "text": "(3) If the applicant does not file the notice of intention to defend within the period mentioned in subregulation (1) or that period as extended, the Registrar may decide to:"
+    },
+    {
+      "content_hash": "sha256:3b159763950642aff2fb8f1e9f7214c0484336b6c39ba5122e33292c7d26abfa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r9.15(3)",
+      "ref": "TMR1995/r9.15(3)(a)",
+      "style": "paragraph",
+      "text": "(a) take the opposition to have succeeded; and"
+    },
+    {
+      "content_hash": "sha256:f8bb0e489ddcf2d5644b8d98f05d1dc8cf1f6cb15b971e092f88458e815c46b1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r9.15(3)",
+      "ref": "TMR1995/r9.15(3)(b)",
+      "style": "paragraph",
+      "text": "(b) refuse to remove the trade mark from the Register."
+    },
+    {
+      "content_hash": "sha256:929cd48f2c5618c6c8d7108620977c78b586aefb5f3366f653b7c6f153e9b60c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.15(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must notify the parties of the Registrar’s decision."
+    }
+  ]
+}

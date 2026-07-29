@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div2"
+  ],
+  "content_hash": "sha256:0b025277f72ef31e4d0f0f000a9bc7b5953b334f5dbb32756e08f97fba915818",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 2—Marks registered under the repealed Act",
+    "235  Term of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "235",
+  "ref": "TMA1995/s235",
+  "text": "The registration of an existing registered mark expires on the day on which it would have expired under the repealed Act if that Act had not been repealed. Note: For existing registered mark see section 6.",
+  "title": "Term of registration",
+  "units": [
+    {
+      "content_hash": "sha256:15feda37a64ee508c0cf9f6c69c7187e41663eb1478e0a33235c677a1bec82d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s235~1",
+      "style": "subsection",
+      "text": "The registration of an existing registered mark expires on the day on which it would have expired under the repealed Act if that Act had not been repealed."
+    },
+    {
+      "content_hash": "sha256:4101ae20ff15a88819162b840ff47f43c6d70f3cf9d3f639a4f89b709ae37195",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s235~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s235~1~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark see section 6."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:01ed28d365bd26acd17473bb0bb0caffb35e19467ca75bf05ef68ef2f5882bed",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34HB  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34HB",
+  "ref": "TMR1995/r17A.34HB",
+  "text": "(1) The Registrar may grant an application under subregulation 17A.34HA(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension. (2) However, if the application is made after the period mentioned in subregulation 17A.34H(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:106082c1199dc3929fcb9752e35b5ff54369c22d54e5ef07f12ecbaed058a2df",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H",
+          "mention": "subregulation 17A.34H"
+        }
+      ],
+      "ref": "TMR1995/r17A.34HB(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant an application under subregulation 17A.34HA(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension."
+    },
+    {
+      "content_hash": "sha256:a21c331051bc9d6b1e729e26e68a39dcf72ac6e84124ec39e370294f1a072ec0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34H(1)",
+          "mention": "subregulation 17A.34H(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34HB(2)",
+      "style": "subsection",
+      "text": "(2) However, if the application is made after the period mentioned in subregulation 17A.34H(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34HB(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

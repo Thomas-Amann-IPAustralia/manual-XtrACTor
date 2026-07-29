@@ -1,0 +1,43 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt20"
+  ],
+  "content_hash": "sha256:10a45bb0491ca2abbe3fc418971338b8186b46a8fa259c907810fd01835bfbd1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 20—The Register and official documents",
+    "208  Register may be kept on computer"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "208",
+  "ref": "TMA1995/s208",
+  "text": "(1) The Register may be kept in whole or in part by using a computer. (2) Any record of a particular or other matter made by using a computer for the purpose of keeping the Register is taken to be an entry in the Register.",
+  "title": "Register may be kept on computer",
+  "units": [
+    {
+      "content_hash": "sha256:063d44a15e3d9242d608cb25c7f740e7c8f8925096ab0850cecc0b2b9054e203",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s208(1)",
+      "style": "subsection",
+      "text": "(1) The Register may be kept in whole or in part by using a computer."
+    },
+    {
+      "content_hash": "sha256:24990db8cdac1de3e9dddca0fa45b6c79bc70e761e5e331f44db8130aeedbc57",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s208(2)",
+      "style": "subsection",
+      "text": "(2) Any record of a particular or other matter made by using a computer for the purpose of keeping the Register is taken to be an entry in the Register."
+    }
+  ]
+}

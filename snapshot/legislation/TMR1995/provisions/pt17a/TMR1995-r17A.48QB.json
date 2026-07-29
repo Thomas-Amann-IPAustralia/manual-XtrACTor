@@ -1,0 +1,74 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:88931ca567002a27297b1c230bb6c3c04b32fdd892ceb43d2ee040f938da0018",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48QB  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48QB",
+  "ref": "TMR1995/r17A.48QB",
+  "text": "(1) The Registrar may grant an application under subregulation 17A.48QA(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension. (2) However, if the application is made after the period mentioned in subregulation 17A.48Q(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:93e6acb94ad20a89ff7d5fc35f1d4577bfce6012b600dfaccbf96f6d99c739dc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48Q",
+          "mention": "subregulation 17A.48Q"
+        }
+      ],
+      "ref": "TMR1995/r17A.48QB(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant an application under subregulation 17A.48QA(1) for an extension of time only if the Registrar is satisfied that the grounds set out in the application justify the extension."
+    },
+    {
+      "content_hash": "sha256:e11d958ff4ee8a975e844065df30c89d780c4774e3f96b1f90024d4afd5a7778",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48Q(1)",
+          "mention": "subregulation 17A.48Q(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.48QB(2)",
+      "style": "subsection",
+      "text": "(2) However, if the application is made after the period mentioned in subregulation 17A.48Q(1) has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the application."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48QB(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdiv3"
+  ],
+  "content_hash": "sha256:2357170a2600602f2b8a8b8907fe3e8433b4d9a86fb62c9faf1e6baba163d948",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision 3—Amendment or cessation of protection by prescribed court",
+    "17A.47  Duties and powers of Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.47",
+  "ref": "TMR1995/r17A.47",
+  "text": "Section 90 of the Act applies, with the necessary modifications, for the purposes of an application under regulation 17A.43, 17A.44 or 17A.45. Note: Article 5(6) of the Protocol requires the Registrar to notify the International Bureau of an invalidation of the effect of an international registration.",
+  "title": "Duties and powers of Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:d969eabe18b73ce72308b4b8d31504a7f3ca66b8fe3ad557655d918ee2c79a54",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s90",
+          "mention": "Section 90"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.43",
+          "mention": "regulation 17A.43, 17A.44 or 17A.45"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.44",
+          "mention": "regulation 17A.43, 17A.44 or 17A.45"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.45",
+          "mention": "regulation 17A.43, 17A.44 or 17A.45"
+        }
+      ],
+      "ref": "TMR1995/r17A.47~1",
+      "style": "subsection",
+      "text": "Section 90 of the Act applies, with the necessary modifications, for the purposes of an application under regulation 17A.43, 17A.44 or 17A.45."
+    },
+    {
+      "content_hash": "sha256:a75aaedbc704b47141feccba1f632b137b54428f9830d93d09774a073eee9dcb",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.47~1",
+      "ref": "TMR1995/r17A.47~1~1",
+      "style": "notetext",
+      "text": "Note: Article 5(6) of the Protocol requires the Registrar to notify the International Bureau of an invalidation of the effect of an international registration."
+    }
+  ]
+}

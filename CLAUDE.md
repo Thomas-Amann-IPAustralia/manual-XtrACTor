@@ -5,10 +5,23 @@ Follow the links when you need depth.
 
 ## What this repo does
 
-Scrapes the **IP Australia Trade Marks Manual of Practice and Procedure**
-(`manuals.ipaustralia.gov.au/trademark`) and commits a structured offline
-snapshot to this repository. The snapshot is the deliverable. Git history is the
-amendment history of the Manual.
+Commits a structured offline snapshot of the Australian trade marks corpus, in
+two halves that share one reference grammar:
+
+- **The Manual.** Scrapes the **IP Australia Trade Marks Manual of Practice and
+  Procedure** (`manuals.ipaustralia.gov.au/trademark`), which is published only
+  as rendered HTML. `src/tmm_snapshot/`, written to `snapshot/pages/`.
+- **The law.** Reads the **Trade Marks Act 1995** and **Trade Marks Regulations
+  1995** from the Federal Register of Legislation's API as compiled Word
+  documents. `src/frl_snapshot/`, written to `snapshot/legislation/`.
+
+The snapshot is the deliverable. Git history is the amendment history.
+
+The two halves join without a lookup table: a Manual chunk citing section 41
+carries `provisions[].id == "TMA1995/s41"`, and that is the ref of a provision
+record in the legislation snapshot. 2,603 of the Manual's 2,776 in-scope
+provision edges resolve. Keeping that true is a constraint on both pipelines —
+`LEGISLATION_NOTES.md` §8.
 
 ## What this repo does NOT do
 
@@ -45,7 +58,8 @@ corrupts every downstream answer and nobody finds out.
 | Document | Read it when |
 |---|---|
 | `ARCHITECTURE.md` | Before writing any code. Pipeline stages, module boundaries, function signatures, on-disk layout. |
-| `SOURCE_NOTES.md` | Before writing any parser. The Manual's real quirks, each one already discovered the hard way. |
+| `SOURCE_NOTES.md` | Before writing any parser for the Manual. Its real quirks, each already discovered the hard way. |
+| `LEGISLATION_NOTES.md` | Before touching `frl_snapshot/`. The Register's API, the OPC stylesheet, and where the compiled documents fight back. |
 | `SCHEMA.md` | Whenever you touch the output shape. The data contract, in prose. |
 | `schema/*.json` | The contract itself. Machine-checkable. Output must validate. |
 | `TASKS.md` | To find your work package and its done-criteria. |
@@ -66,9 +80,11 @@ corrupts every downstream answer and nobody finds out.
 ## Before you commit
 
 ```bash
-pytest -q                       # all tests
-python -m tmm_snapshot.validate # output validates against schema/
+pytest -q                        # all tests
+python -m tmm_snapshot.validate  # Manual output validates against schema/
+python -m frl_snapshot.validate  # legislation output, plus the cross-corpus join
 python -m tmm_snapshot.crawl --from-raw --force --dry-run
+python -m frl_snapshot.crawl --from-raw --force        # 2s, no network
 ```
 
 The third one is the check that a parser change did not move the corpus, and
@@ -79,8 +95,15 @@ and `pages written` is the count of files your change would alter — 25 seconds
 no network, and it is how you find out whether you owe an `EXTRACTOR_VERSION`
 bump.
 
-`crawl --dry-run --limit 5` is a live fetch of a Commonwealth agency site.
-Run it when you have changed the fetching, not on every commit.
+`frl_snapshot.crawl --from-raw --force` is the same check for the legislation
+half and needs no `--dry-run`: it re-cuts both instruments from the stored
+`.docx` and reports `files written`, which is the count of files your change
+would alter. Zero means the corpus did not move.
+
+`tmm_snapshot.crawl --dry-run --limit 5` is a live fetch of a Commonwealth
+agency site. Run it when you have changed the fetching, not on every commit.
+The legislation crawler is gentler — two small JSON probes unless a compilation
+actually changed — but the same rule applies.
 
 Commit messages: `<area>: <what changed>`, e.g. `chunker: split on h4 headings`.
 
@@ -98,6 +121,12 @@ them:
   layer depends on. See `SOURCE_NOTES.md`.
 - *"The nav tree is huge and repeated on every page — I'll skip parsing it."* It is
   the only reliable source of Part membership. See `SOURCE_NOTES.md` §2.
+- *"Mammoth converts the .docx to HTML in one line."* It also discards every
+  `w:pStyle`, which is the entire structure of a compiled Act. Same trap as the
+  point above it. See `LEGISLATION_NOTES.md` §4.
+- *"Endnote 4 lists every amendment per provision — I'll resolve the labels to
+  refs."* Two thirds of them parse and the rest are `Div 2 of Part 3` and
+  `Reader's Guide`. See `LEGISLATION_NOTES.md` §7.
 
 ## Courtesy to the source
 

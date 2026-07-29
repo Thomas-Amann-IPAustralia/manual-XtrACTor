@@ -1,0 +1,262 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div4"
+  ],
+  "content_hash": "sha256:6a67c36ab016c5bcd375cccfc09fc45c94417c86456e9799c92f2da41a86c36f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 4—Protected international trade marks—rights and protection",
+    "17A.39  Rights given to, and protection of, protected international trade marks"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.39",
+  "ref": "TMR1995/r17A.39",
+  "text": "(1) Subject to this Part, sections 20 to 26 of the Act and Parts 12, 13 and 14 of the Act (except section 128 of the Act) and regulations 3.2, 13.1, 13.2 and 13.3 apply in relation to a protected international trade mark. (2) For that application, a reference in those sections, Parts or regulations: (a) to a registered trade mark or a trade mark that is registered is taken to be a reference to the protected international trade mark or a trade mark that is a protected international trade mark; and (b) to a registered owner of a trade mark is taken to be a reference to the holder of the protected international trade mark; and (c) to goods or services in respect of which a trade mark is registered is taken to be a reference to goods or services covered by the protected international trade mark; and (d) to the date of registration of a trade mark is taken to be a reference to the date of effect of the protection of the trade mark; and (e) to the Register is taken to be a reference to the Record of International Registrations; and (f) to a trade mark the registration of which has ceased is taken to be a reference to a protected international trade mark in relation to which the extension of protection in Australia has ceased. Note: See regulation 17A.4 for the meaning of date of effect. (3) Also for that application: (a) the reference in paragraph 127(b) of the Act to a defendant having applied under subsection 92(3) for an order directing the Registrar to remove a trade mark from the Register is taken to be a reference to the defendant having applied under subregulation 17A.48C(3) for an order directing the Registrar to cease protection; and (b) the reference in paragraph 129(1)(b) of the Act to a trade mark alleged to be registered is taken to be a reference to a trade mark alleged to be a protected international trade mark; and (c) the reference in regulation 13.1 to the particulars of registration of the registered trade mark is taken to be a reference to the particulars of the protected international trade mark recorded in the Record of International Registrations.",
+  "title": "Rights given to, and protection of, protected international trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:ecf203d1574e9799992290e761ff07f34016d7950b2eacad906db1b480770af9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s128",
+          "mention": "section 128"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s20",
+          "mention": "sections 20 to 26"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26",
+          "mention": "sections 20 to 26"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.1",
+          "mention": "regulations 3.2, 13.1, 13.2 and 13.3"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.2",
+          "mention": "regulations 3.2, 13.1, 13.2 and 13.3"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.3",
+          "mention": "regulations 3.2, 13.1, 13.2 and 13.3"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3.2",
+          "mention": "regulations 3.2, 13.1, 13.2 and 13.3"
+        }
+      ],
+      "ref": "TMR1995/r17A.39(1)",
+      "style": "subsection",
+      "text": "(1) Subject to this Part, sections 20 to 26 of the Act and Parts 12, 13 and 14 of the Act (except section 128 of the Act) and regulations 3.2, 13.1, 13.2 and 13.3 apply in relation to a protected international trade mark."
+    },
+    {
+      "content_hash": "sha256:7e154b33aadb910e30e8e55b39e7de8631a4e05027181b534610d966a3cbd8ef",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.39(2)",
+      "style": "subsection",
+      "text": "(2) For that application, a reference in those sections, Parts or regulations:"
+    },
+    {
+      "content_hash": "sha256:c26abb90b8f1494a676d79198c34d9e218ac77b290ce3ff260cee0149ed04ef3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(a)",
+      "style": "paragraph",
+      "text": "(a) to a registered trade mark or a trade mark that is registered is taken to be a reference to the protected international trade mark or a trade mark that is a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f124221af208010349bf5bcf47b5a14f1e731028d4ce8f0aea584ca0b5c50403",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(b)",
+      "style": "paragraph",
+      "text": "(b) to a registered owner of a trade mark is taken to be a reference to the holder of the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:8d81f30edef9115784c7f395a6a3567e2f95e2656e862917c7c1d2db5a798d9c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(c)",
+      "style": "paragraph",
+      "text": "(c) to goods or services in respect of which a trade mark is registered is taken to be a reference to goods or services covered by the protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:d61e2e28f6a7bb9503e8ae3e07c9accbfa97b6ab7cb96999b2a5827a2ec32275",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(d)",
+      "style": "paragraph",
+      "text": "(d) to the date of registration of a trade mark is taken to be a reference to the date of effect of the protection of the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:f9eb37328c1817f9b5d79a073ef026283d3065431b552db58ff2fbf73b7754e6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(e)",
+      "style": "paragraph",
+      "text": "(e) to the Register is taken to be a reference to the Record of International Registrations; and"
+    },
+    {
+      "content_hash": "sha256:3acaa8276c60007707a8a885974870f82ffe5985964ee58a6d7f521611d89442",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.39(2)",
+      "ref": "TMR1995/r17A.39(2)(f)",
+      "style": "paragraph",
+      "text": "(f) to a trade mark the registration of which has ceased is taken to be a reference to a protected international trade mark in relation to which the extension of protection in Australia has ceased."
+    },
+    {
+      "content_hash": "sha256:551cd58103b0e70e11b5bb842d70cf6cd35b63ded89e8e7d262afeeae23ecb54",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 60,
+          "start": 46,
+          "text": "date of effect",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.39(2)(f)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.4",
+          "mention": "regulation 17A.4"
+        }
+      ],
+      "ref": "TMR1995/r17A.39(2)(f)~1",
+      "style": "notetext",
+      "text": "Note: See regulation 17A.4 for the meaning of date of effect."
+    },
+    {
+      "content_hash": "sha256:eee6aa33974c10663a698cba99a52e5934244187b3ba8c6dc896d55638ebd9b4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.39(3)",
+      "style": "subsection",
+      "text": "(3) Also for that application:"
+    },
+    {
+      "content_hash": "sha256:4b55f732a397c8e99627cc59bc668dc7b4abe6b2c2fbd6edcfdfc52d63695069",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.39(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s127(b)",
+          "mention": "paragraph 127(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(3)",
+          "mention": "subsection 92(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48C(3)",
+          "mention": "subregulation 17A.48C(3)"
+        }
+      ],
+      "ref": "TMR1995/r17A.39(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the reference in paragraph 127(b) of the Act to a defendant having applied under subsection 92(3) for an order directing the Registrar to remove a trade mark from the Register is taken to be a reference to the defendant having applied under subregulation 17A.48C(3) for an order directing the Registrar to cease protection; and"
+    },
+    {
+      "content_hash": "sha256:8d299af515f7f424ec6cbb98498330a1e08ff3407e2d923aa0984bc5d9ef8b44",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.39(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s129(1)(b)",
+          "mention": "paragraph 129(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.39(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the reference in paragraph 129(1)(b) of the Act to a trade mark alleged to be registered is taken to be a reference to a trade mark alleged to be a protected international trade mark; and"
+    },
+    {
+      "content_hash": "sha256:77d95f67597d49e369cb57ae37bef9828951998e07715c2e20d64a6bf96a819a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.39(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.1",
+          "mention": "regulation 13.1"
+        }
+      ],
+      "ref": "TMR1995/r17A.39(3)(c)",
+      "style": "paragraph",
+      "text": "(c) the reference in regulation 13.1 to the particulars of registration of the registered trade mark is taken to be a reference to the particulars of the protected international trade mark recorded in the Record of International Registrations."
+    }
+  ]
+}

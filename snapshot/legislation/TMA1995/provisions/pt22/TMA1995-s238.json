@@ -1,0 +1,81 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div2"
+  ],
+  "content_hash": "sha256:a2ea38b96fc145d29f77ed946697d58780c8ef38ea8250d7f6c6ddf45491ff8e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 2—Marks registered under the repealed Act",
+    "238  Disclaimers"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "238",
+  "ref": "TMA1995/s238",
+  "text": "If the particulars entered in the Register under paragraph 207(2)(a) in respect of an existing registered mark include particulars of a disclaimer made (under section 32 of the repealed Act) by the registered proprietor of the mark about the exclusive right to use a specified part of the mark, that disclaimer has effect as if it were a disclaimer made under section 74 of this Act. Note: For existing registered mark see section 6.",
+  "title": "Disclaimers",
+  "units": [
+    {
+      "content_hash": "sha256:65acd1629f2e15299f5e557ffec02c3e4e38cd3f0c9a8d64d5fc3899813ac3c7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s207(2)(a)",
+          "mention": "paragraph 207(2)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s32",
+          "mention": "section 32"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s74",
+          "mention": "section 74"
+        }
+      ],
+      "ref": "TMA1995/s238~1",
+      "style": "subsection",
+      "text": "If the particulars entered in the Register under paragraph 207(2)(a) in respect of an existing registered mark include particulars of a disclaimer made (under section 32 of the repealed Act) by the registered proprietor of the mark about the exclusive right to use a specified part of the mark, that disclaimer has effect as if it were a disclaimer made under section 74 of this Act."
+    },
+    {
+      "content_hash": "sha256:4101ae20ff15a88819162b840ff47f43c6d70f3cf9d3f639a4f89b709ae37195",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 34,
+          "start": 10,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s238~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s238~1~1",
+      "style": "notetext",
+      "text": "Note: For existing registered mark see section 6."
+    }
+  ]
+}

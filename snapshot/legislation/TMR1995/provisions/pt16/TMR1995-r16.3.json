@@ -1,0 +1,222 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:58b4349bf791a4425018734f6cb4706ef16425824d65e551df7486d6004373ba",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.3  Initial assessment of applications by Commission"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.3",
+  "ref": "TMR1995/r16.3",
+  "text": "(1) For the purposes of subsection 175(1) of the Act (which deals with consideration of applications), the Commission must make an initial assessment of an application and of any documents received under regulation 16.2 in relation to the application as soon as practicable after receipt. (2) As soon as practicable after the initial assessment, the Commission must: (a) notify the applicant and the Registrar of the initial assessment; and (b) state in the notice to the applicant that the initial assessment will be published in a computer database maintained by the Trade Marks Office in accordance with subregulation (3); and (c) state in the notice to the applicant that the applicant, or another person, may: (i) respond in writing to the Commission; and (ii) request the Commission in writing to hold a conference; in relation to the initial assessment not more than 1 month after the date of the publication in the computer database maintained by the Trade Marks Office. (3) After receiving notice from the Commission, the Registrar must: (a) publish the initial assessment in a computer database maintained by the Trade Marks Office; and (b) include in the publication a statement mentioned in paragraph (2)(c). (4) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation (3): (a) a person responds in writing to the Commission in relation to a notice under subregulation (2) or a publication under subregulation (3); and (b) no person requests the Commission in writing to hold a conference on a matter included in the initial assessment; the Commission must, before making a decision on the application: (c) give to the applicant and each respondent a copy of each response to which paragraph (a) refers that is received from another person; and (d) invite the applicant and each respondent to make a written submission on each response mentioned in paragraph (c).",
+  "title": "Initial assessment of applications by Commission",
+  "units": [
+    {
+      "content_hash": "sha256:4359c82fd7a97f35e77843df2ddaded89992bb2b1cca89b6d980e112a2ab0c3b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(1)",
+          "mention": "subsection 175(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.2",
+          "mention": "regulation 16.2"
+        }
+      ],
+      "ref": "TMR1995/r16.3(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 175(1) of the Act (which deals with consideration of applications), the Commission must make an initial assessment of an application and of any documents received under regulation 16.2 in relation to the application as soon as practicable after receipt."
+    },
+    {
+      "content_hash": "sha256:559e611ade6aecc2715e318e7497c41555c46a6252cad89528b91cb236c7f386",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.3(2)",
+      "style": "subsection",
+      "text": "(2) As soon as practicable after the initial assessment, the Commission must:"
+    },
+    {
+      "content_hash": "sha256:b9c62d8cab78b8be339a91026f10f2100c65315e66ef8229c5582023d20381ea",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r16.3(2)",
+      "ref": "TMR1995/r16.3(2)(a)",
+      "style": "paragraph",
+      "text": "(a) notify the applicant and the Registrar of the initial assessment; and"
+    },
+    {
+      "content_hash": "sha256:c5ff391b501b910aadca308d23517ff8eacbfab26f104e08161dd21e1a91ef83",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.3(2)",
+      "ref": "TMR1995/r16.3(2)(b)",
+      "style": "paragraph",
+      "text": "(b) state in the notice to the applicant that the initial assessment will be published in a computer database maintained by the Trade Marks Office in accordance with subregulation (3); and"
+    },
+    {
+      "content_hash": "sha256:c8fa7aae7222b7a629803685367ef3935c087dfa1b7cca0d313707b47efeea50",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r16.3(2)",
+      "ref": "TMR1995/r16.3(2)(c)",
+      "style": "paragraph",
+      "text": "(c) state in the notice to the applicant that the applicant, or another person, may:"
+    },
+    {
+      "content_hash": "sha256:11abec967be25bd5fb8623cb9febfdd81c38789a56bc3285809026218149a46e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r16.3(2)(c)",
+      "ref": "TMR1995/r16.3(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) respond in writing to the Commission; and"
+    },
+    {
+      "content_hash": "sha256:4c1835ba1addd5eb72cb9161efa6cc7f877a4c928daac7084abb1fa788acfd4a",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r16.3(2)(c)",
+      "ref": "TMR1995/r16.3(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) request the Commission in writing to hold a conference;"
+    },
+    {
+      "content_hash": "sha256:8a31a9940369d7dbc51f69f8f10a4dbd0bacc5aa27686e63e705e8581816e363",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r16.3(2)",
+      "ref": "TMR1995/r16.3(2)~1",
+      "style": "paragraph",
+      "text": "in relation to the initial assessment not more than 1 month after the date of the publication in the computer database maintained by the Trade Marks Office."
+    },
+    {
+      "content_hash": "sha256:6ad1a8b6f52deef43b28f286d30e7871ff35c5d5047e1a67eab99926d298b1a2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.3(3)",
+      "style": "subsection",
+      "text": "(3) After receiving notice from the Commission, the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:52160c110e72573311f4bc6daff1502820c97d1e35b4ff1b92cfadf8f6e8b7cb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r16.3(3)",
+      "ref": "TMR1995/r16.3(3)(a)",
+      "style": "paragraph",
+      "text": "(a) publish the initial assessment in a computer database maintained by the Trade Marks Office; and"
+    },
+    {
+      "content_hash": "sha256:9d845a348dceaf67a9bea8a4dd7b805cb312f24776699d5a235c6e193d555a04",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r16.3(3)",
+      "ref": "TMR1995/r16.3(3)(b)",
+      "style": "paragraph",
+      "text": "(b) include in the publication a statement mentioned in paragraph (2)(c)."
+    },
+    {
+      "content_hash": "sha256:173b173760062209ac2d79f3c021bc58d228ae7c2161cead7f3edfd3577c59c0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.3(4)",
+      "style": "subsection",
+      "text": "(4) If, in the period that ends 1 month after the date the initial assessment is published in a computer database maintained by the Trade Marks Office in accordance with subregulation (3):"
+    },
+    {
+      "content_hash": "sha256:1485b37b585bc44ba1396f659d21aa30f51eaf7142d8f2e0f7d90cab5d933277",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r16.3(4)",
+      "ref": "TMR1995/r16.3(4)(a)",
+      "style": "paragraph",
+      "text": "(a) a person responds in writing to the Commission in relation to a notice under subregulation (2) or a publication under subregulation (3); and"
+    },
+    {
+      "content_hash": "sha256:3dbfc1770943f7b6e99a89afade2ec6e8b882cce0ba11b521dfb8f6a3f73e0b5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r16.3(4)",
+      "ref": "TMR1995/r16.3(4)(b)",
+      "style": "paragraph",
+      "text": "(b) no person requests the Commission in writing to hold a conference on a matter included in the initial assessment;"
+    },
+    {
+      "content_hash": "sha256:694afd6178c60d620fcb953074d85235951235647bcaa6733399dc18047adbe8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.3~1",
+      "style": "subsection2",
+      "text": "the Commission must, before making a decision on the application:"
+    },
+    {
+      "content_hash": "sha256:6a9101cd765628ce140652a98461b0228df4feb28c3bbce967208a3301de303f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r16.3~1",
+      "ref": "TMR1995/r16.3(c)",
+      "style": "paragraph",
+      "text": "(c) give to the applicant and each respondent a copy of each response to which paragraph (a) refers that is received from another person; and"
+    },
+    {
+      "content_hash": "sha256:789bb88d5cc1181d4235f482afc23d0570a9c3eb07bd364aae0a8bc9e7815d1a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r16.3~1",
+      "ref": "TMR1995/r16.3(d)",
+      "style": "paragraph",
+      "text": "(d) invite the applicant and each respondent to make a written submission on each response mentioned in paragraph (c)."
+    }
+  ]
+}

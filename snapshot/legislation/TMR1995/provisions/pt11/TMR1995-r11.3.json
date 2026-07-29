@@ -1,0 +1,178 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt11"
+  ],
+  "content_hash": "sha256:281a9057b694242de5b7e4af679d5638421b4baa645d25456ce35a7ac128960e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 11—Voluntary recording of claims to interests in and rights in respect of trade marks",
+    "11.3  Cancellation of particulars—claimed interests or rights"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "11.3",
+  "ref": "TMR1995/r11.3",
+  "text": "(1) For the purposes of sections 115 and 119 of the Act (which deal with amendment and cancellation of particulars), particulars of a claim to an interest in, or to a right in respect of, a trade mark, entered in the Register or recorded under Division 3 of Part 11 of the Act may be cancelled in accordance with this regulation. (2) A request to cancel particulars of a claim to an interest in, or to a right in respect of, a trade mark must be made in writing: (a) by the person whose claim is recorded; or (b) by the owner of the trade mark; or (c) together by the person whose claim is recorded and the owner of the trade mark; or (d) if the request has with it the written consent to the cancellation of 1 of the persons mentioned in paragraph (c)—by the other person mentioned in that paragraph. (3) If a request is made under paragraph (2)(a), (c) or (d), the Registrar must cancel the particulars in accordance with the request. (4) If a request is made under paragraph (2)(b), the Registrar must notify the person whose claim is recorded that: (a) the request has been made; and (b) unless the request is withdrawn or a prescribed court orders otherwise, the Registrar will cancel particulars of the claim in accordance with the request as soon as practicable after the end of a period of 2 months from the date of the notification. (5) Unless a request made under paragraph (2)(b) is withdrawn or a prescribed court determines otherwise, the Registrar must, as soon as practicable: (a) if, before the end of the period mentioned in paragraph (4)(b), a person the particulars of whose claim are recorded informs the Registrar in writing that the person does not object to cancellation of the particulars—cancel the particulars in accordance with the request; or (b) if paragraph (a) does not apply—cancel the particulars after the end of that period in accordance with the request.",
+  "title": "Cancellation of particulars—claimed interests or rights",
+  "units": [
+    {
+      "content_hash": "sha256:9966765273caafd21e66b20132d4dca657cf6670a56e16d24d2cd4e7b103630a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s115",
+          "mention": "sections 115 and 119"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s119",
+          "mention": "sections 115 and 119"
+        }
+      ],
+      "ref": "TMR1995/r11.3(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of sections 115 and 119 of the Act (which deal with amendment and cancellation of particulars), particulars of a claim to an interest in, or to a right in respect of, a trade mark, entered in the Register or recorded under Division 3 of Part 11 of the Act may be cancelled in accordance with this regulation."
+    },
+    {
+      "content_hash": "sha256:40d29c32b085fe462e2af94a695372c890c85430a2388c53f8ab28e3c3f59a09",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r11.3(2)",
+      "style": "subsection",
+      "text": "(2) A request to cancel particulars of a claim to an interest in, or to a right in respect of, a trade mark must be made in writing:"
+    },
+    {
+      "content_hash": "sha256:ba4b00db608ad1b01bf5f2d3fe0397eab6f75432ddf8c50affce71c6b137dc63",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r11.3(2)",
+      "ref": "TMR1995/r11.3(2)(a)",
+      "style": "paragraph",
+      "text": "(a) by the person whose claim is recorded; or"
+    },
+    {
+      "content_hash": "sha256:0e9d2310752420f612c47a8308bc8ed07898cb7583ac31c24f6532df4fc84225",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r11.3(2)",
+      "ref": "TMR1995/r11.3(2)(b)",
+      "style": "paragraph",
+      "text": "(b) by the owner of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:283db30a86c222ecd4ce419fc88e66fd32a1d9c27593c657943b587a9fe341ed",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r11.3(2)",
+      "ref": "TMR1995/r11.3(2)(c)",
+      "style": "paragraph",
+      "text": "(c) together by the person whose claim is recorded and the owner of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:a9f1b7ded1ecabbfffe8ac4ff1be684d6bb1338de1ed0d1840f6a63b048a1091",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r11.3(2)",
+      "ref": "TMR1995/r11.3(2)(d)",
+      "style": "paragraph",
+      "text": "(d) if the request has with it the written consent to the cancellation of 1 of the persons mentioned in paragraph (c)—by the other person mentioned in that paragraph."
+    },
+    {
+      "content_hash": "sha256:6c3205a3614b6322c3d9792b77622053be5a9092e030e5979b563bccf2f4dee0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r11.3(3)",
+      "style": "subsection",
+      "text": "(3) If a request is made under paragraph (2)(a), (c) or (d), the Registrar must cancel the particulars in accordance with the request."
+    },
+    {
+      "content_hash": "sha256:23fa09c0e46e003c3cf44c4272aca41bc61c7b09475bbd9fb8bc4a09caba7268",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r11.3(4)",
+      "style": "subsection",
+      "text": "(4) If a request is made under paragraph (2)(b), the Registrar must notify the person whose claim is recorded that:"
+    },
+    {
+      "content_hash": "sha256:de5b6f60d88fe8d1c8c55449645def020eaf00f6b52815cee461b2f59c2bbd94",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r11.3(4)",
+      "ref": "TMR1995/r11.3(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the request has been made; and"
+    },
+    {
+      "content_hash": "sha256:1e22127d703739b910835a925ac52dba7050e642d4412c6cb66b5b1d3300323d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r11.3(4)",
+      "ref": "TMR1995/r11.3(4)(b)",
+      "style": "paragraph",
+      "text": "(b) unless the request is withdrawn or a prescribed court orders otherwise, the Registrar will cancel particulars of the claim in accordance with the request as soon as practicable after the end of a period of 2 months from the date of the notification."
+    },
+    {
+      "content_hash": "sha256:6261ea51481f9fab21a8308943e3b1804c92206c393eb2703233a7114fcd86f8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r11.3(5)",
+      "style": "subsection",
+      "text": "(5) Unless a request made under paragraph (2)(b) is withdrawn or a prescribed court determines otherwise, the Registrar must, as soon as practicable:"
+    },
+    {
+      "content_hash": "sha256:b0cfce94e3c3f20aa2b7e7badcab69b7373dfa63f0f94a0997f7a958bcd1bfb6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r11.3(5)",
+      "ref": "TMR1995/r11.3(5)(a)",
+      "style": "paragraph",
+      "text": "(a) if, before the end of the period mentioned in paragraph (4)(b), a person the particulars of whose claim are recorded informs the Registrar in writing that the person does not object to cancellation of the particulars—cancel the particulars in accordance with the request; or"
+    },
+    {
+      "content_hash": "sha256:040b2576ab0c26d932aca74dbcaf0b30003d1ede53f4fdf040b5527f11d05245",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r11.3(5)",
+      "ref": "TMR1995/r11.3(5)(b)",
+      "style": "paragraph",
+      "text": "(b) if paragraph (a) does not apply—cancel the particulars after the end of that period in accordance with the request."
+    }
+  ]
+}

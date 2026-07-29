@@ -1,0 +1,263 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:a69daf02138e7901ad2260c033ef0feb01c0103b891afe614a2573e4661eca64",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.8  Knowledge requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.8",
+  "ref": "TMR1995/r20.8",
+  "text": "(1) The Designated Manager must not approve an applicant for registration as a trade marks attorney unless the Board is satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney. (2) Subject to subregulations (3), (4) and (5), the Board must, in satisfying itself whether or not an applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney, take into account whether the applicant has qualifications that meet the minimum requirements set out in Schedule 5 to the Patents Regulations 1991. Note: Schedule 5 to the Patents Regulations 1991 applies to a trade marks attorney as modified by regulation 20.11 of these Regulations. (3) The Board may publish guidelines setting out criteria for deciding whether or not areas of study: (a) are likely to meet the minimum requirements set out in Schedule 5 to the Patents Regulations 1991; and (b) are likely to provide a person with the appropriate level of understanding to practise as a trade marks attorney. (4) The Board may be satisfied that an applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney, despite the fact that the applicant does not meet every requirement set out in Schedule 5 to the Patents Regulations 1991. (5) The Board is not able to be satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney if the knowledge requirements on which the applicant relies were obtained more than 10 years prior to the application. (6) If an applicant has been granted an exemption under regulation 20.9, the applicant is taken to meet the requirement in Schedule 5 to the Patents Regulations 1991 for which the exemption is granted. Note: Subsection 228A(4) of the Act provides that the Designated Manager must register as a trade marks attorney a person who satisfies certain conditions. Paragraph 228A(4)(a) requires that a person hold such qualifications as are specified in, or ascertained in accordance with, the Regulations.",
+  "title": "Knowledge requirements",
+  "units": [
+    {
+      "content_hash": "sha256:c7244444dbb526d137ebe8a834d29a596df4aa56be9090420fc3f8e902a61cb9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.8(1)",
+      "style": "subsection",
+      "text": "(1) The Designated Manager must not approve an applicant for registration as a trade marks attorney unless the Board is satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:1b306c241b30c3cca9b9718d17858dda4f41c76fe081bb6f8f9f7c76c651e433",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 372,
+          "start": 365,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 386,
+          "start": 373,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 389,
+          "start": 386,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.8(2)",
+      "style": "subsection",
+      "text": "(2) Subject to subregulations (3), (4) and (5), the Board must, in satisfying itself whether or not an applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney, take into account whether the applicant has qualifications that meet the minimum requirements set out in Schedule 5 to the Patents Regulations 1991."
+    },
+    {
+      "content_hash": "sha256:6fa9724b821771daf0f3f5ea15acee4b2ea26ffadbed6a1bdad9d349876c0496",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 24,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 45,
+          "start": 32,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 48,
+          "start": 45,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.8(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.11",
+          "mention": "regulation 20.11"
+        }
+      ],
+      "ref": "TMR1995/r20.8(2)~1",
+      "style": "notetext",
+      "text": "Note: Schedule 5 to the Patents Regulations 1991 applies to a trade marks attorney as modified by regulation 20.11 of these Regulations."
+    },
+    {
+      "content_hash": "sha256:d90eba4715a5f85d99c76750099269ba1c6a5ecc555e0ae47c363fc07901c6bc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.8(3)",
+      "style": "subsection",
+      "text": "(3) The Board may publish guidelines setting out criteria for deciding whether or not areas of study:"
+    },
+    {
+      "content_hash": "sha256:5300fee7a920c4a261d3d82ee2e71a3e5aed734119f61d1dcd77d465efb6b55d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 77,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 98,
+          "start": 85,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 101,
+          "start": 98,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.8(3)",
+      "ref": "TMR1995/r20.8(3)(a)",
+      "style": "paragraph",
+      "text": "(a) are likely to meet the minimum requirements set out in Schedule 5 to the Patents Regulations 1991; and"
+    },
+    {
+      "content_hash": "sha256:c56cc3992bd923271e4f58f5e6c96eb9070344810a0ca2cc186a4c041156234f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.8(3)",
+      "ref": "TMR1995/r20.8(3)(b)",
+      "style": "paragraph",
+      "text": "(b) are likely to provide a person with the appropriate level of understanding to practise as a trade marks attorney."
+    },
+    {
+      "content_hash": "sha256:72b3e59634108ddb27866d0531317643b2b4f75243eae58f9a9d958b5097d637",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 282,
+          "start": 275,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 296,
+          "start": 283,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 299,
+          "start": 296,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.8(4)",
+      "style": "subsection",
+      "text": "(4) The Board may be satisfied that an applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney, despite the fact that the applicant does not meet every requirement set out in Schedule 5 to the Patents Regulations 1991."
+    },
+    {
+      "content_hash": "sha256:c2f84def47841dceba69c3eacd8f47819bee8861229cedb6b92cd08be1b43036",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.8(5)",
+      "style": "subsection",
+      "text": "(5) The Board is not able to be satisfied that the applicant has the knowledge of intellectual property law and practice that is required for a person to practise as a trade marks attorney if the knowledge requirements on which the applicant relies were obtained more than 10 years prior to the application."
+    },
+    {
+      "content_hash": "sha256:c2e6849cfd7cee61c08ba45bcb237509da16131197142a34d4fc37da77850f74",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 148,
+          "start": 141,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 162,
+          "start": 149,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 165,
+          "start": 162,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.9",
+          "mention": "regulation 20.9"
+        }
+      ],
+      "ref": "TMR1995/r20.8(6)",
+      "style": "subsection",
+      "text": "(6) If an applicant has been granted an exemption under regulation 20.9, the applicant is taken to meet the requirement in Schedule 5 to the Patents Regulations 1991 for which the exemption is granted."
+    },
+    {
+      "content_hash": "sha256:1e9f4596e93797e4ba65f8f883ad1b189c8f29ab34aa47e0ffd649b5e016341d",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r20.8(6)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s228A(4)",
+          "mention": "Subsection 228A(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s228A(4)(a)",
+          "mention": "Paragraph 228A(4)(a)"
+        }
+      ],
+      "ref": "TMR1995/r20.8(6)~1",
+      "style": "notetext",
+      "text": "Note: Subsection 228A(4) of the Act provides that the Designated Manager must register as a trade marks attorney a person who satisfies certain conditions. Paragraph 228A(4)(a) requires that a person hold such qualifications as are specified in, or ascertained in accordance with, the Regulations."
+    }
+  ]
+}

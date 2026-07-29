@@ -1,0 +1,198 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:bdb4a50c8b6b347b2c34962fb12287ef1a4f48b8f0cf050ed18695ee7f6ffe0a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "231A  Regulations may make provision in relation to the Public Health (Tobacco and Other Products) Act 2023"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "231A",
+  "ref": "TMA1995/s231A",
+  "text": "(1) The regulations may make provision in relation to the effect of the operation of the Public Health (Tobacco and Other Products) Act 2023, and any regulations made under that Act, on: (a) a provision of this Act; or (b) a regulation made under this Act, including: (i) a regulation that applies a provision of this Act; or (ii) a regulation that applies a provision of this Act in modified form. Note: Section 121 of the Public Health (Tobacco and Other Products) Act 2023 also sets out the effect of the operation of that Act on certain provisions of, and regulations made under, this Act. (2) Without limiting subsection (1), regulations made for the purposes of that subsection may clarify or state the effect of the operation of the Public Health (Tobacco and Other Products) Act 2023, and any regulations made under that Act, on a provision of this Act or a regulation made under this Act, including by taking or deeming: (a) something to have (or not to have) happened; or (b) something to be (or not to be) the case; or (c) something to have (or not to have) a particular effect. (3) Regulations made for the purposes of subsection (1): (a) may be inconsistent with this Act; and (b) prevail over this Act (including any other regulations or other instruments made under this Act), to the extent of any inconsistency.",
+  "title": "Regulations may make provision in relation to the Public Health (Tobacco and Other Products) Act 2023",
+  "units": [
+    {
+      "content_hash": "sha256:3b8ecb2010edfcaa32980187f29f2fe3d5ab97ccdfe2963bffa73700751ca1c0",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 140,
+          "start": 89,
+          "text": "Public Health (Tobacco and Other Products) Act 2023",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s231A(1)",
+      "style": "subsection",
+      "text": "(1) The regulations may make provision in relation to the effect of the operation of the Public Health (Tobacco and Other Products) Act 2023, and any regulations made under that Act, on:"
+    },
+    {
+      "content_hash": "sha256:b35a43ee2d4ece8d0850bae3998bbdaa0f910c5687542c66e28e0ba1a368cc24",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s231A(1)",
+      "ref": "TMA1995/s231A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a provision of this Act; or"
+    },
+    {
+      "content_hash": "sha256:8fccf2912a6f0fc181e8998c8a38fc1482bbbe076a45f8146e279287387c1b0e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s231A(1)",
+      "ref": "TMA1995/s231A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a regulation made under this Act, including:"
+    },
+    {
+      "content_hash": "sha256:b9e5e99645eaadbf3fff87bc0ee4e6154798f12af236e09111f5f3be2afd7b4d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s231A(1)(b)",
+      "ref": "TMA1995/s231A(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a regulation that applies a provision of this Act; or"
+    },
+    {
+      "content_hash": "sha256:6e2ff3b66720d2b9ca1ffad56c91997b59cdac8b3f983de424de9ff8ca4e3a1b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s231A(1)(b)",
+      "ref": "TMA1995/s231A(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a regulation that applies a provision of this Act in modified form."
+    },
+    {
+      "content_hash": "sha256:e7237e9d7e20f655aa79ccd57c2ca8a233314b8f2ba4457abc2a9da4600c7849",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 76,
+          "start": 25,
+          "text": "Public Health (Tobacco and Other Products) Act 2023",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s231A(1)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s121",
+          "mention": "Section 121"
+        }
+      ],
+      "ref": "TMA1995/s231A(1)(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note: Section 121 of the Public Health (Tobacco and Other Products) Act 2023 also sets out the effect of the operation of that Act on certain provisions of, and regulations made under, this Act."
+    },
+    {
+      "content_hash": "sha256:b8577078564057192a7b2b49788adb14651c681f6753e02b58fad44b09870172",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 197,
+          "start": 146,
+          "text": "Public Health (Tobacco and Other Products) Act 2023",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s231A(2)",
+      "style": "subsection",
+      "text": "(2) Without limiting subsection (1), regulations made for the purposes of that subsection may clarify or state the effect of the operation of the Public Health (Tobacco and Other Products) Act 2023, and any regulations made under that Act, on a provision of this Act or a regulation made under this Act, including by taking or deeming:"
+    },
+    {
+      "content_hash": "sha256:2f636add34687bc2c07bd6b6bea5c696fab13b9fe00091bc5008c4a1f07c0750",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s231A(2)",
+      "ref": "TMA1995/s231A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) something to have (or not to have) happened; or"
+    },
+    {
+      "content_hash": "sha256:60698a4bb53403e62c53b1cae1b4e8226d26c62e63922423d11e67d5b452c0e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s231A(2)",
+      "ref": "TMA1995/s231A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) something to be (or not to be) the case; or"
+    },
+    {
+      "content_hash": "sha256:ebff71a0e082b32b5f6aa06fffba764bda64c077d5115f81748e84665fde822b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s231A(2)",
+      "ref": "TMA1995/s231A(2)(c)",
+      "style": "paragraph",
+      "text": "(c) something to have (or not to have) a particular effect."
+    },
+    {
+      "content_hash": "sha256:5f4e433a88115e1bbeb4f85859b2a5bc3ec14e9c7329607821c3e96db6e4ccfb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s231A(3)",
+      "style": "subsection",
+      "text": "(3) Regulations made for the purposes of subsection (1):"
+    },
+    {
+      "content_hash": "sha256:8ee1ba4b36ad10f5f11ceebe20cc7c502449de6876e64606ecceb46be03f5ad8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s231A(3)",
+      "ref": "TMA1995/s231A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) may be inconsistent with this Act; and"
+    },
+    {
+      "content_hash": "sha256:11d0c94d76581c704fb0c416ad6b5a2502080dd9491102e17aed7d9e364a83fc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s231A(3)",
+      "ref": "TMA1995/s231A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) prevail over this Act (including any other regulations or other instruments made under this Act), to the extent of any inconsistency."
+    }
+  ]
+}

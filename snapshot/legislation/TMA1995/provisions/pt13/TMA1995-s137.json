@@ -1,0 +1,233 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:ec3d7038c45dac288bdbbe4b83503789cf84d4cb8af70c2318e7c971de3d27fa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "137  Action for infringement of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "137",
+  "ref": "TMA1995/s137",
+  "text": "(1) An objector may bring an action for infringement of a notified trade mark in respect of seized goods. Note: For objector, notified trade mark and seized goods see section 6. (2) The court hearing the action: (a) may, on the application of a person, allow the person to be joined as a defendant to the action; and (b) must allow the ComptrollerGeneral of Customs to appear and be heard. (3) In addition to any relief that the court may grant apart from this section, the court may: (a) at any time, if it thinks it just, order that the seized goods be released to the designated owner subject to the conditions (if any) that the court considers fit to impose; or (b) order that the seized goods be forfeited to the Commonwealth. Note: For seized goods and designated owner see section 6. (4) If: (a) the court decides that the trade mark was not infringed by the importation of the goods; and (b) the designated owner of the goods, or any other defendant, satisfies the court that he or she has suffered loss or damage because the goods were seized; the court may order the objector to pay to the designated owner or other defendant compensation, in the amount determined by the court, for any part of that loss or damage that is attributable to any period beginning on or after the day on which the action was brought. (6) If the court orders that the goods be released, the ComptrollerGeneral of Customs must, subject to section 140, comply with the order.",
+  "title": "Action for infringement of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:68a5ba52950f088588d2831a6d9e69908c05cf1fd710de83326af4e9576d25f7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s137(1)",
+      "style": "subsection",
+      "text": "(1) An objector may bring an action for infringement of a notified trade mark in respect of seized goods."
+    },
+    {
+      "content_hash": "sha256:9885800b251d3c90dd25357a0b02f65f9385731ae11dfd136528f259c6587ff7",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "objector",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 39,
+          "start": 20,
+          "text": "notified trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 56,
+          "start": 44,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s137(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s137(1)~1",
+      "style": "notetext",
+      "text": "Note: For objector, notified trade mark and seized goods see section 6."
+    },
+    {
+      "content_hash": "sha256:665206215823e7a38f6485c812f4119eec898be7b74dee76e06f4ab0a97c7da5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s137(2)",
+      "style": "subsection",
+      "text": "(2) The court hearing the action:"
+    },
+    {
+      "content_hash": "sha256:43c78394969abda9356dfefc26ee5dbe301dc34eb86a7596b3d87e6a55ed5846",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s137(2)",
+      "ref": "TMA1995/s137(2)(a)",
+      "style": "paragraph",
+      "text": "(a) may, on the application of a person, allow the person to be joined as a defendant to the action; and"
+    },
+    {
+      "content_hash": "sha256:4e88b6a2857ec7113fd52d199cd6fbcb2c0c7de78b70f1719523a10a7e0e04fc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s137(2)",
+      "ref": "TMA1995/s137(2)(b)",
+      "style": "paragraph",
+      "text": "(b) must allow the ComptrollerGeneral of Customs to appear and be heard."
+    },
+    {
+      "content_hash": "sha256:270944382ca90d2030cbf286af16453e85366f56e153758b6e042098abfcad60",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s137(3)",
+      "style": "subsection",
+      "text": "(3) In addition to any relief that the court may grant apart from this section, the court may:"
+    },
+    {
+      "content_hash": "sha256:f8e692120825d881f286675933e2863f5846168ff5c88d4749066b6c6b726f5a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s137(3)",
+      "ref": "TMA1995/s137(3)(a)",
+      "style": "paragraph",
+      "text": "(a) at any time, if it thinks it just, order that the seized goods be released to the designated owner subject to the conditions (if any) that the court considers fit to impose; or"
+    },
+    {
+      "content_hash": "sha256:e2dda5ba9850f8e2e9419ce62bf35f974523ec5efc7abda8e402411f2a575847",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s137(3)",
+      "ref": "TMA1995/s137(3)(b)",
+      "style": "paragraph",
+      "text": "(b) order that the seized goods be forfeited to the Commonwealth."
+    },
+    {
+      "content_hash": "sha256:03371ea68ca8bbd60ad8960980d60c469256f9f3dc3d16ee0a22cac7cf5c9942",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 43,
+          "start": 27,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s137(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s137(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: For seized goods and designated owner see section 6."
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s137(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:ff59cf0d0d1d28f1c7dc4f3d5e540d61ca3400a0012e59ec3865c0e13fb8edd4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s137(4)",
+      "ref": "TMA1995/s137(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the court decides that the trade mark was not infringed by the importation of the goods; and"
+    },
+    {
+      "content_hash": "sha256:4d54a9ed2c1981d439cd2808dc9888a39d33c93af1083f6d173fd967a114b0a6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s137(4)",
+      "ref": "TMA1995/s137(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the designated owner of the goods, or any other defendant, satisfies the court that he or she has suffered loss or damage because the goods were seized;"
+    },
+    {
+      "content_hash": "sha256:0f027ca33331c7ad47b3f88f65d806b98b047b783490d21821fdb175975adeb0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s137~1",
+      "style": "subsection2",
+      "text": "the court may order the objector to pay to the designated owner or other defendant compensation, in the amount determined by the court, for any part of that loss or damage that is attributable to any period beginning on or after the day on which the action was brought."
+    },
+    {
+      "content_hash": "sha256:505a876f592b308838a6615da987dce1949d3d4e8d3e2c53ca739218a58970b4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s140",
+          "mention": "section 140"
+        }
+      ],
+      "ref": "TMA1995/s137(6)",
+      "style": "subsection",
+      "text": "(6) If the court orders that the goods be released, the ComptrollerGeneral of Customs must, subject to section 140, comply with the order."
+    }
+  ]
+}

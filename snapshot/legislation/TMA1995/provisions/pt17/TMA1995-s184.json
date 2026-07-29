@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt17"
+  ],
+  "content_hash": "sha256:7072c9c55951131bb564c62e66f0aada0b515cee53eef211dd122ef24eca7042",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 17—Defensive trade marks",
+    "184  Object of Part"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "184",
+  "ref": "TMA1995/s184",
+  "text": "This Part: (a) provides for the registration of certain trade marks as defensive trade marks; and (b) provides to what extent, and subject to what modifications or additions, the provisions of this Act relating to trade marks apply to defensive trade marks.",
+  "title": "Object of Part",
+  "units": [
+    {
+      "content_hash": "sha256:60affcdddc80b9cf16293af307b055f4fe14e526ff38cf0495fa444468d4f160",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s184~1",
+      "style": "subsection",
+      "text": "This Part:"
+    },
+    {
+      "content_hash": "sha256:2c0dcdbd4113337399aa390153246a6bfba411f931122894402fae33abb0a1a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s184~1",
+      "ref": "TMA1995/s184(a)",
+      "style": "paragraph",
+      "text": "(a) provides for the registration of certain trade marks as defensive trade marks; and"
+    },
+    {
+      "content_hash": "sha256:2fc9ebdfef552ddda7ae0fc7832e1fcb799d4ad4d9e1e250523c3f51b3dbafc1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s184~1",
+      "ref": "TMA1995/s184(b)",
+      "style": "paragraph",
+      "text": "(b) provides to what extent, and subject to what modifications or additions, the provisions of this Act relating to trade marks apply to defensive trade marks."
+    }
+  ]
+}

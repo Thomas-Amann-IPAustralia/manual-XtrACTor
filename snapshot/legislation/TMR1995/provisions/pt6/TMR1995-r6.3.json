@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div1"
+  ],
+  "content_hash": "sha256:6e8137c20f3aef5ee80bf2df710419cd112efb85e1536f9c95c890e0c9ebb225",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 1—Amendment of application for registration of trade mark and other documents",
+    "6.3  Filing of declarations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.3",
+  "ref": "TMR1995/r6.3",
+  "text": "If a person requests an amendment under section 64 of the Act (which deals with amendments before publication) or paragraph 66(a) of the Act (which deals with amendment of other documents), the Registrar may require the applicant to file a declaration stating: (a) that a clerical error or obvious mistake was made in the application; and (b) the circumstances in which the error or mistake was made. Note: Regulations 21.6 and 21.7 deal with making and filing declarations.",
+  "title": "Filing of declarations",
+  "units": [
+    {
+      "content_hash": "sha256:60479c011187ea3a2da4b0681aa6dc07e6bde7c8a52bc39cde9455c6851ae7eb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "section 64"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s66(a)",
+          "mention": "paragraph 66(a)"
+        }
+      ],
+      "ref": "TMR1995/r6.3~1",
+      "style": "subsection",
+      "text": "If a person requests an amendment under section 64 of the Act (which deals with amendments before publication) or paragraph 66(a) of the Act (which deals with amendment of other documents), the Registrar may require the applicant to file a declaration stating:"
+    },
+    {
+      "content_hash": "sha256:1780fa97666d1413234396bac1bd959058057dc3cf18187b6d6c04d2be1d5ecd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r6.3~1",
+      "ref": "TMR1995/r6.3(a)",
+      "style": "paragraph",
+      "text": "(a) that a clerical error or obvious mistake was made in the application; and"
+    },
+    {
+      "content_hash": "sha256:567b33fce32d9d76e2fe2273237bec1a18b7308a3c334ec181078581ae644751",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r6.3~1",
+      "ref": "TMR1995/r6.3(b)",
+      "style": "paragraph",
+      "text": "(b) the circumstances in which the error or mistake was made."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r6.3(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r6.3(b)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    }
+  ]
+}

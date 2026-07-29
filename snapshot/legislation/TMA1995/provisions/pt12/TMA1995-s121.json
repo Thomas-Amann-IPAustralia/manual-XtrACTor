@@ -1,0 +1,344 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:37f076530b522b02f90804b4686b5491aab66da2fef7aa2fbdcd4b22907e6762",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "121  Infringement of trade mark by breach of certain restrictions"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "121",
+  "ref": "TMA1995/s121",
+  "text": "(1) This section applies to a registered trade mark if the registered owner, or an authorised user of the trade mark having power to do so, has caused to be displayed on goods (registered goods) in respect of which the trade mark is registered, or on their package, or on the container in which they are offered to the public, a notice (notice of prohibition) prohibiting any act that is under subsection (2) a prohibited act in relation to the goods. Note 1: An authorised user of the trade mark may not have power to cause notices of prohibition to be displayed on goods etc. because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26). Note 2: For registered owner and registered trade mark see section 6. Note 3: For authorised user see section 8. Note 4: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A. (2) Each of the following is a prohibited act: (a) applying the trade mark to registered goods, or using the trade mark in physical relation to them, after the state, condition, getup or packaging in which they were originally offered to the public has been altered; (b) altering, or partially removing or obliterating, any representation of the trade mark applied to registered goods or used in physical relation to them; (c) if the trade mark has been applied to registered goods, or used in physical relation to them, together with other matter indicating that the registered owner or authorised user has dealt with the goods—removing or obliterating, totally or in part, any representation of the trade mark without totally removing or obliterating the other matter; (d) applying another trade mark to registered goods or using another trade mark in physical relation to them; (e) if the trade mark has been applied to registered goods or used in physical relation to them—using on the goods, or on the packaging or container of the goods, any matter that is likely to injure the reputation of the trade mark. Note 1: For applied to see section 9. Note 2: For authorised user see section 8. (3) Subject to subsection (4), a person infringes a trade mark to which this section applies if the person: (a) is the owner of registered goods; and (b) in the course of trade, or with a view to a dealing with the goods in the course of trade: (i) does an act that is prohibited under the notice of prohibition; or (ii) authorises that act to be done. (4) The trade mark is not infringed if the owner of the goods: (a) acquired them in good faith and without being aware of the notice of prohibition; or (b) became the owner of the goods by virtue of a title derived from a person who had so acquired them.",
+  "title": "Infringement of trade mark by breach of certain restrictions",
+  "units": [
+    {
+      "content_hash": "sha256:3a4f0d90d1536eeb664633320c6a49360d3b6593e3550c50d455e8c0c74bfab7",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 193,
+          "start": 177,
+          "text": "registered goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 358,
+          "start": 337,
+          "text": "notice of prohibition",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s121(1)",
+      "style": "subsection",
+      "text": "(1) This section applies to a registered trade mark if the registered owner, or an authorised user of the trade mark having power to do so, has caused to be displayed on goods (registered goods) in respect of which the trade mark is registered, or on their package, or on the container in which they are offered to the public, a notice (notice of prohibition) prohibiting any act that is under subsection (2) a prohibited act in relation to the goods."
+    },
+    {
+      "content_hash": "sha256:341e5bbc6bddf4f19d18a93a0356ad687d9db46b4e2b13231398743853f1a10b",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s121(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26",
+          "mention": "section 26"
+        }
+      ],
+      "ref": "TMA1995/s121(1)~1",
+      "style": "notetext",
+      "text": "Note 1: An authorised user of the trade mark may not have power to cause notices of prohibition to be displayed on goods etc. because of the terms of the agreement between the authorised user and the registered owner of the trade mark (see section 26)."
+    },
+    {
+      "content_hash": "sha256:e8562ecaf07f00cbe61f3fa902e1dd6f83b39232ded13c97914c1b2d9a27480d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 54,
+          "start": 33,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s121(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s121(1)~2",
+      "style": "notetext",
+      "text": "Note 2: For registered owner and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:dc90ffe53c0cff16430b22b895b90d2f32e3a64a63b3e79f097bbf7a4c6e027e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s121(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s121(1)~3",
+      "style": "notetext",
+      "text": "Note 3: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:3a629f411448cae9c0326cd1480fa8bd063907c1401e21d8c7e3f11cf10e6569",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s121(1)",
+      "ref": "TMA1995/s121(1)~4",
+      "style": "notetext",
+      "text": "Note 4: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:5ccc1008191e7dcfe05f1ad23579866a617e86f4ecf18085cafd8cf3a93be13c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s121(2)",
+      "style": "subsection",
+      "text": "(2) Each of the following is a prohibited act:"
+    },
+    {
+      "content_hash": "sha256:14c5fe0599a5e0c576ea07eeffb6cbdf455b91586b54eb4ee4c20ee627ec099f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s121(2)",
+      "ref": "TMA1995/s121(2)(a)",
+      "style": "paragraph",
+      "text": "(a) applying the trade mark to registered goods, or using the trade mark in physical relation to them, after the state, condition, getup or packaging in which they were originally offered to the public has been altered;"
+    },
+    {
+      "content_hash": "sha256:a6cc912e998a84b7c667ff70625dfdb35e7ebefddd14800cf88fa4132fc4c023",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s121(2)",
+      "ref": "TMA1995/s121(2)(b)",
+      "style": "paragraph",
+      "text": "(b) altering, or partially removing or obliterating, any representation of the trade mark applied to registered goods or used in physical relation to them;"
+    },
+    {
+      "content_hash": "sha256:92d133239e28252d2413eb9702906000f56546e98ec6f895b7314d2b7559cce7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s121(2)",
+      "ref": "TMA1995/s121(2)(c)",
+      "style": "paragraph",
+      "text": "(c) if the trade mark has been applied to registered goods, or used in physical relation to them, together with other matter indicating that the registered owner or authorised user has dealt with the goods—removing or obliterating, totally or in part, any representation of the trade mark without totally removing or obliterating the other matter;"
+    },
+    {
+      "content_hash": "sha256:c802792c8e9224f9747397bc9b185d1e2df1f645bd290f2836812bff1ca35c4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s121(2)",
+      "ref": "TMA1995/s121(2)(d)",
+      "style": "paragraph",
+      "text": "(d) applying another trade mark to registered goods or using another trade mark in physical relation to them;"
+    },
+    {
+      "content_hash": "sha256:145f9d96bd07be692691ac72ed758b9eed300921f0e28927031f4a627402baba",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s121(2)",
+      "ref": "TMA1995/s121(2)(e)",
+      "style": "paragraph",
+      "text": "(e) if the trade mark has been applied to registered goods or used in physical relation to them—using on the goods, or on the packaging or container of the goods, any matter that is likely to injure the reputation of the trade mark."
+    },
+    {
+      "content_hash": "sha256:5f5fba29a2806624b81c4b54bf01cc12bffa472154fbf531a3d01ae2112b1c26",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 12,
+          "text": "applied to",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s121(2)(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s9",
+          "mention": "section 9"
+        }
+      ],
+      "ref": "TMA1995/s121(2)(e)~1",
+      "style": "notetext",
+      "text": "Note 1: For applied to see section 9."
+    },
+    {
+      "content_hash": "sha256:13ae90494e1dea74bfed8e1e124bd9ac141f1397160bab9a1d80e146c02e722c",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 27,
+          "start": 12,
+          "text": "authorised user",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s121(2)(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "section 8"
+        }
+      ],
+      "ref": "TMA1995/s121(2)(e)~2",
+      "style": "notetext",
+      "text": "Note 2: For authorised user see section 8."
+    },
+    {
+      "content_hash": "sha256:56eefa860be4e4d7bc74c5e7f1572dad58df4d60d98d0e5026dd1606adf43760",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s121(3)",
+      "style": "subsection",
+      "text": "(3) Subject to subsection (4), a person infringes a trade mark to which this section applies if the person:"
+    },
+    {
+      "content_hash": "sha256:8c8c9b503264edc1ca06ab4cf75c649fe4129eec28974406999e9f7c11b69694",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s121(3)",
+      "ref": "TMA1995/s121(3)(a)",
+      "style": "paragraph",
+      "text": "(a) is the owner of registered goods; and"
+    },
+    {
+      "content_hash": "sha256:19d2e49a7aa5fa1a6c52115d95ffed0e553d61d0f7148e2861d5c3bbe735c460",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s121(3)",
+      "ref": "TMA1995/s121(3)(b)",
+      "style": "paragraph",
+      "text": "(b) in the course of trade, or with a view to a dealing with the goods in the course of trade:"
+    },
+    {
+      "content_hash": "sha256:62b42904ad965f0d1da859fb14c556877e4b7a899b6f7fdb1e43fc1c488c4743",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s121(3)(b)",
+      "ref": "TMA1995/s121(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) does an act that is prohibited under the notice of prohibition; or"
+    },
+    {
+      "content_hash": "sha256:c7a77d3c6d782040b29ac1ca26fe4f6b5f33ccf905e7d511c925f63468420328",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s121(3)(b)",
+      "ref": "TMA1995/s121(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) authorises that act to be done."
+    },
+    {
+      "content_hash": "sha256:13e43c3e5c3c6239497b214c711810bda2426327afe5b91286efb8a95bf65bb6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 19,
+      "parent_ref": null,
+      "ref": "TMA1995/s121(4)",
+      "style": "subsection",
+      "text": "(4) The trade mark is not infringed if the owner of the goods:"
+    },
+    {
+      "content_hash": "sha256:de12a06eec7779f0d321d4f45b837da7b4129646ed37b061a9d6c221a72b23aa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s121(4)",
+      "ref": "TMA1995/s121(4)(a)",
+      "style": "paragraph",
+      "text": "(a) acquired them in good faith and without being aware of the notice of prohibition; or"
+    },
+    {
+      "content_hash": "sha256:1b0b08f11afea434255091f378834a5db9fedec2d6a8613f160c8115c7a8ac55",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s121(4)",
+      "ref": "TMA1995/s121(4)(b)",
+      "style": "paragraph",
+      "text": "(b) became the owner of the goods by virtue of a title derived from a person who had so acquired them."
+    }
+  ]
+}

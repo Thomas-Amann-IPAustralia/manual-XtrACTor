@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:6d42364239b82722992deeaac0a27a89299280c80c259ed870bf3066665f347a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "80  Status of unrenewed trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80",
+  "ref": "TMA1995/s80",
+  "text": "If: (a) the registration of a trade mark (unrenewed trade mark) has not been renewed under section 77 or 79; and (b) an application for the registration of a trade mark is made, or has already been made, by a person other than the person who was registered as the owner of the unrenewed trade mark; the unrenewed trade mark is taken to be a registered trade mark for the purposes of the application at any time when the registration of the unrenewed trade mark could have been renewed under section 79.",
+  "title": "Status of unrenewed trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s80~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:11ef5c706be3e86c10e07f2d91686fe5abe13025f227bf32b035b37e1c5326c5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 58,
+          "start": 38,
+          "text": "unrenewed trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s77",
+          "mention": "section 77 or 79"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 77 or 79"
+        }
+      ],
+      "ref": "TMA1995/s80(a)",
+      "style": "paragraph",
+      "text": "(a) the registration of a trade mark (unrenewed trade mark) has not been renewed under section 77 or 79; and"
+    },
+    {
+      "content_hash": "sha256:d1cbc5856fb1331682e022960812018df2512c1950680cc6f0048d1fce7c62b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s80~1",
+      "ref": "TMA1995/s80(b)",
+      "style": "paragraph",
+      "text": "(b) an application for the registration of a trade mark is made, or has already been made, by a person other than the person who was registered as the owner of the unrenewed trade mark;"
+    },
+    {
+      "content_hash": "sha256:76be070f3ad4ba8e6317aff10356d69b2fc0550ca72a9c6a8b0ccfa9b4617981",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 79"
+        }
+      ],
+      "ref": "TMA1995/s80~2",
+      "style": "subsection2",
+      "text": "the unrenewed trade mark is taken to be a registered trade mark for the purposes of the application at any time when the registration of the unrenewed trade mark could have been renewed under section 79."
+    }
+  ]
+}

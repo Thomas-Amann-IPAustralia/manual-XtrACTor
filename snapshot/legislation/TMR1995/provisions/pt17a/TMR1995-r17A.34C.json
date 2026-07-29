@@ -1,0 +1,285 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:d2bd55cb35c39733fee1b982dae7b4b0b81e103f98f28c0e12f70affdf51f122",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34C  Extension of time for filing—application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34C",
+  "ref": "TMR1995/r17A.34C",
+  "text": "(1) A person who intends to oppose the extension of protection may request the Registrar to extend: (a) the period for filing a notice of intention to oppose under subregulation 17A.33(1); or (b) the period for filing a statement of grounds and particulars under subregulation 17A.34A(1). (2) A request under paragraph (1)(a) or (b) may be made: (a) within the period for filing the document in question; or (b) before the extension of protection of the IRDA is entered on the Record of International Registrations under paragraph 17A.37(1)(b). Note: See subparagraph (3)(b)(ii) and subregulation 17A.34D(2) in relation to the consequences of making the request after the filing period has ended. (3) The request must: (a) be in an approved form; and (b) be accompanied by a declaration stating: (i) the facts and circumstances forming the basis for the grounds; and (ii) if the period for filing the notice or the statement of grounds and particulars has ended—the reason why the request was not made within the period. Note: Regulations 21.6 and 21.7 deal with making and filing declarations. (4) The request must be made only on either or both of the following grounds: (a) an error or omission by the person, the person’s agent, the Registrar or an employee; (b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee. (5) Subsection 52(5) of the Act applies to the request. (6) Regulation 17A.31 does not apply to this regulation.",
+  "title": "Extension of time for filing—application",
+  "units": [
+    {
+      "content_hash": "sha256:f5fb81b8793f78a48e3dc477bc2f910938a887181eef0c795f06db3b32417185",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34C(1)",
+      "style": "subsection",
+      "text": "(1) A person who intends to oppose the extension of protection may request the Registrar to extend:"
+    },
+    {
+      "content_hash": "sha256:713752eca84cd9846cc1571ea8407da4110644a2f681558bedcadd257041b4b6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.34C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33(1)",
+          "mention": "subregulation 17A.33(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the period for filing a notice of intention to oppose under subregulation 17A.33(1); or"
+    },
+    {
+      "content_hash": "sha256:2cd7ff47c369b0e330cbe1ca93a4d84539254bfa485b319f0f2a74e6b6c2333f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.34C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34A(1)",
+          "mention": "subregulation 17A.34A(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the period for filing a statement of grounds and particulars under subregulation 17A.34A(1)."
+    },
+    {
+      "content_hash": "sha256:8b8a6eee78b1f0e618949266e0c0bd7815c940f55c7796d285009393522f9aae",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34C(2)",
+      "style": "subsection",
+      "text": "(2) A request under paragraph (1)(a) or (b) may be made:"
+    },
+    {
+      "content_hash": "sha256:2148099f64a27c61f0252857241ca7563144666e4340f46612f71971e83c04a6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.34C(2)",
+      "ref": "TMR1995/r17A.34C(2)(a)",
+      "style": "paragraph",
+      "text": "(a) within the period for filing the document in question; or"
+    },
+    {
+      "content_hash": "sha256:dbbd3cfd5f2e6f4e86374bdbbd83ef2c2d7539c4008378417a67593896cb95af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.34C(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.37(1)(b)",
+          "mention": "paragraph 17A.37(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(2)(b)",
+      "style": "paragraph",
+      "text": "(b) before the extension of protection of the IRDA is entered on the Record of International Registrations under paragraph 17A.37(1)(b)."
+    },
+    {
+      "content_hash": "sha256:d9df3779c184ae2183e80e287cf27826f672ccea846ee3a59d6f10356150a232",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.34C(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34D(2)",
+          "mention": "subregulation 17A.34D(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(2)(b)~1",
+      "style": "notetext",
+      "text": "Note: See subparagraph (3)(b)(ii) and subregulation 17A.34D(2) in relation to the consequences of making the request after the filing period has ended."
+    },
+    {
+      "content_hash": "sha256:0a92bf2ebe18617bcb6cdd7bc6cb113992ac36ddda3e9b7213c033e9ddfac17e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34C(3)",
+      "style": "subsection",
+      "text": "(3) The request must:"
+    },
+    {
+      "content_hash": "sha256:58d123d84a6c348cac0c8d2dee2668a71cd5982f4d07446c2635ea84d71849b8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.34C(3)",
+      "ref": "TMR1995/r17A.34C(3)(a)",
+      "style": "paragraph",
+      "text": "(a) be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:2d420a08c669f7f2a1a079730f38e4e783ee02f8657e9dfcfc84dd1ab305fe39",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.34C(3)",
+      "ref": "TMR1995/r17A.34C(3)(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by a declaration stating:"
+    },
+    {
+      "content_hash": "sha256:296537dee092a2edcc4f913369be2f61a9c78f1bb06edea887231f202ef83903",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.34C(3)(b)",
+      "ref": "TMR1995/r17A.34C(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the facts and circumstances forming the basis for the grounds; and"
+    },
+    {
+      "content_hash": "sha256:6090390339f3a48fba88b4af85dd2461ad60fecfe04dc5ea839040e4606c1861",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.34C(3)(b)",
+      "ref": "TMR1995/r17A.34C(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the period for filing the notice or the statement of grounds and particulars has ended—the reason why the request was not made within the period."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.34C(3)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(3)(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    },
+    {
+      "content_hash": "sha256:52fdceec9926206ab5af536fc668a1cb0d7c7bf5dfaa89c77231ca7b55248583",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34C(4)",
+      "style": "subsection",
+      "text": "(4) The request must be made only on either or both of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:38903ca2c75b5f493c3d17ec91bba0081930b1c77d8a38e013a64324ab84ae23",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r17A.34C(4)",
+      "ref": "TMR1995/r17A.34C(4)(a)",
+      "style": "paragraph",
+      "text": "(a) an error or omission by the person, the person’s agent, the Registrar or an employee;"
+    },
+    {
+      "content_hash": "sha256:5f8ee212d9c278a80e5c8c418e99df489b8dd6c93ce4fe3a447b02125a36b092",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r17A.34C(4)",
+      "ref": "TMR1995/r17A.34C(4)(b)",
+      "style": "paragraph",
+      "text": "(b) circumstances beyond the control of the person, other than an error or omission by the person, the person’s agent, the Registrar or an employee."
+    },
+    {
+      "content_hash": "sha256:8d2849bbc076003493f4297910c865fc510306247e09a8f4ee0874fe4fc3a860",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52(5)",
+          "mention": "Subsection 52(5)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(5)",
+      "style": "subsection",
+      "text": "(5) Subsection 52(5) of the Act applies to the request."
+    },
+    {
+      "content_hash": "sha256:c9572204b7b89d185d6cfab2aaf76ecc8f5aa9791b30b411a7225dcb59d53cff",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.31",
+          "mention": "Regulation 17A.31"
+        }
+      ],
+      "ref": "TMR1995/r17A.34C(6)",
+      "style": "subsection",
+      "text": "(6) Regulation 17A.31 does not apply to this regulation."
+    }
+  ]
+}

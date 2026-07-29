@@ -1,0 +1,193 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:06866926c5063da1704224f99166a3d5f2b322f8aae4458062f3a2210054ae5b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "101  Determination of opposed application—general"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "101",
+  "ref": "TMA1995/s101",
+  "text": "(1) Subject to subsection (3) and to section 102, if: (a) the proceedings relating to an opposed application have not been discontinued or dismissed; and (b) the Registrar is satisfied that the grounds on which the application was made have been established; the Registrar may decide to remove the trade mark from the Register in respect of any or all of the goods and/or services to which the application relates. (2) Subject to subsection (3) and to section 102, if, at the end of the proceedings relating to an opposed application, the court is satisfied that the grounds on which the application was made have been established, the court may order the Registrar to remove the trade mark from the Register in respect of any or all of the goods and/or services to which the application relates. (3) If satisfied that it is reasonable to do so, the Registrar or the court may decide that the trade mark should not be removed from the Register even if the grounds on which the application was made have been established. (4) Without limiting the matters the Registrar may take into account in deciding under subsection (3) not to remove a trade mark from the Register, the Registrar may take into account whether the trade mark has been used by its registered owner in respect of: (a) similar goods or closely related services; or (b) similar services or closely related goods; to those to which the application relates. Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3)). Note 2: For registered owner see section 6.",
+  "title": "Determination of opposed application—general",
+  "units": [
+    {
+      "content_hash": "sha256:45878059d3964862f16c8dae7b3d739b87e8da2fb1d8e50aa3bc9b659c826f83",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s102",
+          "mention": "section 102"
+        }
+      ],
+      "ref": "TMA1995/s101(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (3) and to section 102, if:"
+    },
+    {
+      "content_hash": "sha256:e73abbab6e21b75bc0de421b60e7f26dd6e61312293a632d59d84d7494109197",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s101(1)",
+      "ref": "TMA1995/s101(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the proceedings relating to an opposed application have not been discontinued or dismissed; and"
+    },
+    {
+      "content_hash": "sha256:38c1dac426b7441bfcb3e2e29e71cbebe00fffcedd702dbdf9681b08f2c07956",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s101(1)",
+      "ref": "TMA1995/s101(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar is satisfied that the grounds on which the application was made have been established;"
+    },
+    {
+      "content_hash": "sha256:6477474e298d90ac914e792e63cef2352bd20c2ec450929d903f492ab8476245",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s101~1",
+      "style": "subsection2",
+      "text": "the Registrar may decide to remove the trade mark from the Register in respect of any or all of the goods and/or services to which the application relates."
+    },
+    {
+      "content_hash": "sha256:1e339be4603c5db7115bcc104ab66395f3eac19a8019b47a9f6a87d6fdab160d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s102",
+          "mention": "section 102"
+        }
+      ],
+      "ref": "TMA1995/s101(2)",
+      "style": "subsection",
+      "text": "(2) Subject to subsection (3) and to section 102, if, at the end of the proceedings relating to an opposed application, the court is satisfied that the grounds on which the application was made have been established, the court may order the Registrar to remove the trade mark from the Register in respect of any or all of the goods and/or services to which the application relates."
+    },
+    {
+      "content_hash": "sha256:197e3a8a4b068cb6462f927c69926c455e5bcbd90d461217ca218cd81f902006",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s101(3)",
+      "style": "subsection",
+      "text": "(3) If satisfied that it is reasonable to do so, the Registrar or the court may decide that the trade mark should not be removed from the Register even if the grounds on which the application was made have been established."
+    },
+    {
+      "content_hash": "sha256:4018de6c45bacd23b2d8e27bab08e32ec5cf6ed436bfafbb364bda07422a4dea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s101(4)",
+      "style": "subsection",
+      "text": "(4) Without limiting the matters the Registrar may take into account in deciding under subsection (3) not to remove a trade mark from the Register, the Registrar may take into account whether the trade mark has been used by its registered owner in respect of:"
+    },
+    {
+      "content_hash": "sha256:1489bdd1776fd04d41b619b3d76b463eb5fc53aee46a0eeae532df4b3f9aa26f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s101(4)",
+      "ref": "TMA1995/s101(4)(a)",
+      "style": "paragraph",
+      "text": "(a) similar goods or closely related services; or"
+    },
+    {
+      "content_hash": "sha256:e686ab78f04bd8d93570a8849218bc553061e15a821663e8a5a823481210d5a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s101(4)",
+      "ref": "TMA1995/s101(4)(b)",
+      "style": "paragraph",
+      "text": "(b) similar services or closely related goods;"
+    },
+    {
+      "content_hash": "sha256:a049547e0c5fdbb0ee400b6205ccf927ac11df39cf30d09a02250bb1fd1dd437",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s101~2",
+      "style": "subsection2",
+      "text": "to those to which the application relates."
+    },
+    {
+      "content_hash": "sha256:218ed517b3eba61446f17551058083d34c3a769b5530faccba5d9c5fde7feae8",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s101~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        }
+      ],
+      "ref": "TMA1995/s101~2~1",
+      "style": "notetext",
+      "text": "Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3))."
+    },
+    {
+      "content_hash": "sha256:7d15db38aed7df06bec461be96bceeae8bb0ee01511b01f7a4c9bafb7b800487",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s101~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s101~2~2",
+      "style": "notetext",
+      "text": "Note 2: For registered owner see section 6."
+    }
+  ]
+}

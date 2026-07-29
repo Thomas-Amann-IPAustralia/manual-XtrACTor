@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:9fdb934239a03fa764fce632ce51f063c469e72e2aefd19a87c00b3ec4f25734",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "217A  Prescribed documents relating to trade marks to be made available for public inspection"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "217A",
+  "ref": "TMA1995/s217A",
+  "text": "(1) The Registrar must make available for public inspection prescribed documents that relate to a trade mark while they are held in the Trade Marks Office at or after the time particulars of the application for registration of the trade mark are published under section 30. (2) A document may be prescribed for the purposes of subsection (1) wholly or partly by reference to the fact that it does not contain information covered by a requirement under section 226A. This does not limit the ways in which documents may be prescribed for those purposes.",
+  "title": "Prescribed documents relating to trade marks to be made available for public inspection",
+  "units": [
+    {
+      "content_hash": "sha256:640cc1a0fa68435ffaa17fb1af7eb456efdfbf5f24ba0bdb1595b676ff15a1c2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        }
+      ],
+      "ref": "TMA1995/s217A(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must make available for public inspection prescribed documents that relate to a trade mark while they are held in the Trade Marks Office at or after the time particulars of the application for registration of the trade mark are published under section 30."
+    },
+    {
+      "content_hash": "sha256:24bc43f1e77bac2afb848a9d103c70c30399a6d8dee75d5722ed5ba98880a45d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s226A",
+          "mention": "section 226A"
+        }
+      ],
+      "ref": "TMA1995/s217A(2)",
+      "style": "subsection",
+      "text": "(2) A document may be prescribed for the purposes of subsection (1) wholly or partly by reference to the fact that it does not contain information covered by a requirement under section 226A. This does not limit the ways in which documents may be prescribed for those purposes."
+    }
+  ]
+}

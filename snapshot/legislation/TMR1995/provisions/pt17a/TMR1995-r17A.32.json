@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:1700d819813d319464bed5692206333e405f7fee1fd9a4ab1a47fb819cfcac32",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.32  Filing of notice of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.32",
+  "ref": "TMR1995/r17A.32",
+  "text": "(1) A notice of opposition is taken to be filed when the notice of intention to oppose and the statement of grounds and particulars have been filed under regulations 17A.33 and 17A.34A. (2) The Registrar must notify the International Bureau of the filing of the notice of opposition in accordance with rule 17, as applicable, of the Madrid Regulations.",
+  "title": "Filing of notice of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:ff22f65308ac8ef5dd6677ce18c633872b5f942c32f6d99488acbbf8be86d96b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.33",
+          "mention": "regulations 17A.33 and 17A.34A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34A",
+          "mention": "regulations 17A.33 and 17A.34A"
+        }
+      ],
+      "ref": "TMR1995/r17A.32(1)",
+      "style": "subsection",
+      "text": "(1) A notice of opposition is taken to be filed when the notice of intention to oppose and the statement of grounds and particulars have been filed under regulations 17A.33 and 17A.34A."
+    },
+    {
+      "content_hash": "sha256:72fceebd0aef745ed6f0b997e8442d3ed32b2ccc43e6f67624906a7c54666f81",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.32(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar must notify the International Bureau of the filing of the notice of opposition in accordance with rule 17, as applicable, of the Madrid Regulations."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:e732a278717ed78d65b1598ee0306dfe63bde71dadec74a5017fd54f398c6c1b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.6  Declarations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.6",
+  "ref": "TMR1995/r21.6",
+  "text": "(1) A declaration required or permitted by the Act or these Regulations must be in an approved form. Note: Declaration forms in the approved form are available on the IP Australia website at www.ipaustralia.gov.au. (2) A declaration in the form of a statutory declaration, required or permitted to be given to a person mentioned in subregulation (3), may be given to the person in an electronic form by a means of electronic communication approved by the Registrar. Note: A declaration that is not in the form of statutory declaration may also be given in an electronic form by means of an electronic communication: see section 11 of the Electronic Transactions Act 1999. (3) For subregulation (2), the following persons may be given declarations, including statutory declarations, in electronic form by electronic means: (a) the Registrar of Trade Marks; (b) the Designated Manager; (c) in relation to a Panel of the Disciplinary Tribunal—the Panel Chair; (d) the Board.",
+  "title": "Declarations",
+  "units": [
+    {
+      "content_hash": "sha256:9104253467f86e081b70295bbdf2a182eced83e013555d0c8f1f4b9a0d2edfb1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.6(1)",
+      "style": "subsection",
+      "text": "(1) A declaration required or permitted by the Act or these Regulations must be in an approved form."
+    },
+    {
+      "content_hash": "sha256:282cd5dc450280cadab8b2c008c9aae292092934761220563279792e9c3d6381",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.6(1)",
+      "ref": "TMR1995/r21.6(1)~1",
+      "style": "notetext",
+      "text": "Note: Declaration forms in the approved form are available on the IP Australia website at www.ipaustralia.gov.au."
+    },
+    {
+      "content_hash": "sha256:91e2c68a49f7a9935519029829afe2a1696e603d218e603a718be6012199c20f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.6(2)",
+      "style": "subsection",
+      "text": "(2) A declaration in the form of a statutory declaration, required or permitted to be given to a person mentioned in subregulation (3), may be given to the person in an electronic form by a means of electronic communication approved by the Registrar."
+    },
+    {
+      "content_hash": "sha256:8be12ea689e8458a62e1bf4e10e16175e450fcd1a2edae41403bde6814a74ea6",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 204,
+          "start": 172,
+          "text": "Electronic Transactions Act 1999",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.6(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11",
+          "mention": "section 11"
+        }
+      ],
+      "ref": "TMR1995/r21.6(2)~1",
+      "style": "notetext",
+      "text": "Note: A declaration that is not in the form of statutory declaration may also be given in an electronic form by means of an electronic communication: see section 11 of the Electronic Transactions Act 1999."
+    },
+    {
+      "content_hash": "sha256:8ac39bab7db9b8d6a1592af606cd07117d4212efbb361e8f6bae588387c1b2a8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.6(3)",
+      "style": "subsection",
+      "text": "(3) For subregulation (2), the following persons may be given declarations, including statutory declarations, in electronic form by electronic means:"
+    },
+    {
+      "content_hash": "sha256:0032a468f126a556861e839993c8f5bc4c5d281e582ddc98f946e568cfce603a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.6(3)",
+      "ref": "TMR1995/r21.6(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar of Trade Marks;"
+    },
+    {
+      "content_hash": "sha256:5c4b6140f0d4c7a86751b04bc798e7ff84082a380d2ebddf369a370a5ffe4d08",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.6(3)",
+      "ref": "TMR1995/r21.6(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the Designated Manager;"
+    },
+    {
+      "content_hash": "sha256:bfbd334726fd4c76aa428cfceccb8d8e0a22179ade6ba25f7895e26fccb7a773",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.6(3)",
+      "ref": "TMR1995/r21.6(3)(c)",
+      "style": "paragraph",
+      "text": "(c) in relation to a Panel of the Disciplinary Tribunal—the Panel Chair;"
+    },
+    {
+      "content_hash": "sha256:e126fbc56832b0de59b7e6dedd881f53573754c381d6c8f5b911ea0bd82e5efb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r21.6(3)",
+      "ref": "TMR1995/r21.6(3)(d)",
+      "style": "paragraph",
+      "text": "(d) the Board."
+    }
+  ]
+}

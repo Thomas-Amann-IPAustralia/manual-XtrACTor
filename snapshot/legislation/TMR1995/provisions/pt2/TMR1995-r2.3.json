@@ -1,0 +1,65 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt2"
+  ],
+  "content_hash": "sha256:2bb538a670c88e7c2ce95c402eb2155d9d9b3ad445004d8530270169bc9736aa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 2—Interpretation",
+    "2.3  Giving of documents by Registrar"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "2.3",
+  "ref": "TMR1995/r2.3",
+  "text": "(1) In these Regulations, the Registrar may give a document to a person by: (a) making the document available to the person in an electronic form; and (b) notifying the person that the document is available. (2) If the Registrar gives a document to a person, the document is taken to have been given to the person on the day the document is dated by the Registrar.",
+  "title": "Giving of documents by Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:ead98d1a0fcce129a877b915b0cbf0ee80041ef2050abb80cc7041fe9276d254",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r2.3(1)",
+      "style": "subsection",
+      "text": "(1) In these Regulations, the Registrar may give a document to a person by:"
+    },
+    {
+      "content_hash": "sha256:5a423848afd7d8dbd2541f0d3c58049bb5f838f769ef299e53b44a2b1e690545",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r2.3(1)",
+      "ref": "TMR1995/r2.3(1)(a)",
+      "style": "paragraph",
+      "text": "(a) making the document available to the person in an electronic form; and"
+    },
+    {
+      "content_hash": "sha256:9e7a730dec62b8e1c5a2bda14ec5a84ab04713ac1cf3cb9cf4a3cf25616c524c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r2.3(1)",
+      "ref": "TMR1995/r2.3(1)(b)",
+      "style": "paragraph",
+      "text": "(b) notifying the person that the document is available."
+    },
+    {
+      "content_hash": "sha256:c659f46548cf1bbb9045521aa3018ff86c88f02df74d6a769d90c7efbc40e3ea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r2.3(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar gives a document to a person, the document is taken to have been given to the person on the day the document is dated by the Registrar."
+    }
+  ]
+}

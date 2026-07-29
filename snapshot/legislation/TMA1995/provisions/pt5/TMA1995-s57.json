@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:7d96040fe733aa71f150167fca312e0da763a447fea92573099c4cf4d2059b73",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "57  Registration may be opposed on same grounds as for rejection"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "57",
+  "ref": "TMA1995/s57",
+  "text": "The registration of a trade mark may be opposed on any of the grounds on which an application for the registration of a trade mark may be rejected under this Act, except the ground that the trade mark cannot be represented graphically. Note: For this Act see section 6.",
+  "title": "Registration may be opposed on same grounds as for rejection",
+  "units": [
+    {
+      "content_hash": "sha256:8b011552bcec6e310de0250dfc22ae2bf2013bb2474bd540b36c11a3c59b3c40",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s57~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark may be opposed on any of the grounds on which an application for the registration of a trade mark may be rejected under this Act, except the ground that the trade mark cannot be represented graphically."
+    },
+    {
+      "content_hash": "sha256:45c9ab07e9b64f7abe9f570e047a508c487df75b6a56f1a5d5e6c2f7a85d9f9f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 18,
+          "start": 10,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s57~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s57~1~1",
+      "style": "notetext",
+      "text": "Note: For this Act see section 6."
+    }
+  ]
+}

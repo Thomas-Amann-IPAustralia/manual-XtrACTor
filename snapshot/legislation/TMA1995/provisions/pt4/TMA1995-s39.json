@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div2"
+  ],
+  "content_hash": "sha256:5c6142286d25888ad60e7b915ee08e6b4c74dfbbc868380658b3cfbba876b358",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 2—Grounds for rejecting an application",
+    "39  Trade mark containing etc. certain signs"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "39",
+  "ref": "TMA1995/s39",
+  "text": "(1) An application for the registration of a trade mark must be rejected if the trade mark contains or consists of a sign that, under regulations made for the purposes of section 18, is not to be used as a trade mark. (2) An application for the registration of a trade mark may be rejected if the trade mark contains or consists of: (a) a sign that is prescribed for the purposes of this subsection; or (b) a sign so nearly resembling: (i) a sign referred to in paragraph (a); or (ii) a sign referred to in subsection (1); as to be likely to be taken for it.",
+  "title": "Trade mark containing etc. certain signs",
+  "units": [
+    {
+      "content_hash": "sha256:6d857a2f8dfd65dcf6a0ee1a35e43de2c299f0c3e8f27450eb77b2eeb2171578",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s18",
+          "mention": "section 18"
+        }
+      ],
+      "ref": "TMA1995/s39(1)",
+      "style": "subsection",
+      "text": "(1) An application for the registration of a trade mark must be rejected if the trade mark contains or consists of a sign that, under regulations made for the purposes of section 18, is not to be used as a trade mark."
+    },
+    {
+      "content_hash": "sha256:2471dc9ce91190f6d5c68ca6f4eb871a1e7318fe124d802664b673813663df7e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s39(2)",
+      "style": "subsection",
+      "text": "(2) An application for the registration of a trade mark may be rejected if the trade mark contains or consists of:"
+    },
+    {
+      "content_hash": "sha256:418b7341613245ac66f8b5ac50884c94a475967eb554204df14063fed3e8ca41",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s39(2)",
+      "ref": "TMA1995/s39(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a sign that is prescribed for the purposes of this subsection; or"
+    },
+    {
+      "content_hash": "sha256:4f207ba284ca71f8f70f1da25c7807b8ee77e110d4814e0db950f5927fe9e784",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s39(2)",
+      "ref": "TMA1995/s39(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a sign so nearly resembling:"
+    },
+    {
+      "content_hash": "sha256:ea65dddea62ae3f68e0c17606517ccf2a6fba3346e723a87fbbf31a0e6cea955",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s39(2)(b)",
+      "ref": "TMA1995/s39(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a sign referred to in paragraph (a); or"
+    },
+    {
+      "content_hash": "sha256:d9fbf3beec580e8eb9dc03a208fe7e77efd0bdbcdc85cd4340a4e5f3b2c512f0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s39(2)(b)",
+      "ref": "TMA1995/s39(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a sign referred to in subsection (1);"
+    },
+    {
+      "content_hash": "sha256:bd31af7659c3cb6f0772aadb187c4da6c507c371d9a18a035134c1ce1701d559",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s39~1",
+      "style": "subsection2",
+      "text": "as to be likely to be taken for it."
+    }
+  ]
+}

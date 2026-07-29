@@ -1,0 +1,157 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt7",
+    "TMR1995/pt7/div1"
+  ],
+  "content_hash": "sha256:b6ed8502acaaba3f49cb10a8c746d638eb5ea8a57406977eae727edeaf672ab0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "7.2  Particulars to be entered in the Register"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "7.2",
+  "ref": "TMR1995/r7.2",
+  "text": "For the purposes of paragraph 69(2)(c) of the Act (which deals with particulars), the following other particulars of a trade mark must be entered in the Register: (a) if the trade mark is registered as a certification trade mark, a collective trade mark or a defensive trade mark—an indication to that effect; (b) the date of the registration; (c) the date on which the Registrar enters the particulars of the registration in the Register under subsection 69(1) of the Act; (d) the particulars of any right of priority claimed under section 29 of the Act; (e) the filing date of the parent application on which any divisional application is based; (f) any number allocated to the parent application for registration of the trade mark; (g) the class numbers of the goods and/or services in respect of which the trade mark is registered; (h) the address of the owner of the trade mark; (i) any other particulars relating to the trade mark that the Registrar reasonably believes to be appropriate.",
+  "title": "Particulars to be entered in the Register",
+  "units": [
+    {
+      "content_hash": "sha256:5ebe327769b4083b66bb52faae17941d668a6e66af8e0204cb11af844dc28cb9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69(2)(c)",
+          "mention": "paragraph 69(2)(c)"
+        }
+      ],
+      "ref": "TMR1995/r7.2~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 69(2)(c) of the Act (which deals with particulars), the following other particulars of a trade mark must be entered in the Register:"
+    },
+    {
+      "content_hash": "sha256:2e54394d0c72b7f30e312f7fb31c188bfb6b405c1f61ca7cac73342392ae2865",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(a)",
+      "style": "paragraph",
+      "text": "(a) if the trade mark is registered as a certification trade mark, a collective trade mark or a defensive trade mark—an indication to that effect;"
+    },
+    {
+      "content_hash": "sha256:f7e012febf7d8b4bda9165635d145aca2f754e731f217251508ceea2dedee55c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(b)",
+      "style": "paragraph",
+      "text": "(b) the date of the registration;"
+    },
+    {
+      "content_hash": "sha256:3b246cbe946eeab1511ddb6b6e53b8531adc1b51f672be87008105b340283245",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r7.2~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69(1)",
+          "mention": "subsection 69(1)"
+        }
+      ],
+      "ref": "TMR1995/r7.2(c)",
+      "style": "paragraph",
+      "text": "(c) the date on which the Registrar enters the particulars of the registration in the Register under subsection 69(1) of the Act;"
+    },
+    {
+      "content_hash": "sha256:a411d4dce1d89817ca6449fe8fb3a6add3832fb680a5b57b9663d687afb5e9dd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r7.2~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        }
+      ],
+      "ref": "TMR1995/r7.2(d)",
+      "style": "paragraph",
+      "text": "(d) the particulars of any right of priority claimed under section 29 of the Act;"
+    },
+    {
+      "content_hash": "sha256:c3b83c55a8f9ef897dba7ec331f1d93d35e690d7f0f35ec87d148f346145de70",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(e)",
+      "style": "paragraph",
+      "text": "(e) the filing date of the parent application on which any divisional application is based;"
+    },
+    {
+      "content_hash": "sha256:937b27f20261722a8f3615d578d14241c805d2ab1e66e4b94de4434ed1aade01",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(f)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(f)",
+      "style": "paragraph",
+      "text": "(f) any number allocated to the parent application for registration of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:f46c7c99c4ae161dd915205b46a339d23b2ffc7f07ecd210aa1d3c53796ada46",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(g)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(g)",
+      "style": "paragraph",
+      "text": "(g) the class numbers of the goods and/or services in respect of which the trade mark is registered;"
+    },
+    {
+      "content_hash": "sha256:bf5cecb2261346af3f1a6e16e59e2c4bc165068bd379d63869f011ca2da53959",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(h)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(h)",
+      "style": "paragraph",
+      "text": "(h) the address of the owner of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:7435c8e85f742c8b3c8db5b153ecece4def083473ff3057936e27e1012e75d54",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r7.2~1",
+      "ref": "TMR1995/r7.2(i)",
+      "style": "paragraph",
+      "text": "(i) any other particulars relating to the trade mark that the Registrar reasonably believes to be appropriate."
+    }
+  ]
+}

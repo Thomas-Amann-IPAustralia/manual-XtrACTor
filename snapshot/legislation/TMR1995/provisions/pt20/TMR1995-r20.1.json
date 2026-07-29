@@ -1,0 +1,161 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div1"
+  ],
+  "content_hash": "sha256:8087d06df88ae9ef48ee04a7c8f98983f5fd8fd83e23ea95e60922fca3994854",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 1—General",
+    "20.1  Interpretation"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.1",
+  "ref": "TMR1995/r20.1",
+  "text": "In this Part: AQF means the Australian Qualifications Framework. serious offence means an offence that: (a) involves obtaining property or a financial advantage by deception or fraudulent conduct; and (b) is either: (i) an indictable offence against a law of the Commonwealth, a State or a Territory (whether or not the offence may be dealt with summarily); or (ii) an offence against a law of a foreign country that would be an indictable offence against a law of the Commonwealth, a State or a Territory if committed in Australia (whether or not the offence could be dealt with summarily if committed in Australia). unsatisfactory professional conduct has the meaning given by regulation 20.32 of the Patents Regulations 1991.",
+  "title": "Interpretation",
+  "units": [
+    {
+      "content_hash": "sha256:a6d5c0aac57a71ccac99b977f8ee7f5cf661de5dcb6394735ba66e5c06c8e810",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.1~1",
+      "style": "subsection",
+      "text": "In this Part:"
+    },
+    {
+      "content_hash": "sha256:b86181fc2ae54e496da79ceec35a4604485e242272494936de2146d72e46e946",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 3,
+          "start": 0,
+          "text": "AQF",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.1~2",
+      "style": "Definition",
+      "text": "AQF means the Australian Qualifications Framework."
+    },
+    {
+      "content_hash": "sha256:8fad86104eafe22083c632a5077911bc436a620d28ed192cd76196a4dd2fb5ed",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 0,
+          "text": "serious offence",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.1~3",
+      "style": "Definition",
+      "text": "serious offence means an offence that:"
+    },
+    {
+      "content_hash": "sha256:51667269f872d79ade2010194b4db0d926df41019488f03273a0146a8878e741",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.1~3",
+      "ref": "TMR1995/r20.1(a)",
+      "style": "paragraph",
+      "text": "(a) involves obtaining property or a financial advantage by deception or fraudulent conduct; and"
+    },
+    {
+      "content_hash": "sha256:9a307f74332265f15649c0360b24936a25f188e093dc396adecf330abd411551",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.1~3",
+      "ref": "TMR1995/r20.1(b)",
+      "style": "paragraph",
+      "text": "(b) is either:"
+    },
+    {
+      "content_hash": "sha256:6981504bd3c3d5b9165819eb4cf7f7f3129fa79c030aea7eb0077ffb9bfbe64d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20.1(b)",
+      "ref": "TMR1995/r20.1(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an indictable offence against a law of the Commonwealth, a State or a Territory (whether or not the offence may be dealt with summarily); or"
+    },
+    {
+      "content_hash": "sha256:08ecee0ea5021c46ebce7a0f31933ca527271d57055d4f9f1f5e1dcd1415bf53",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.1(b)",
+      "ref": "TMR1995/r20.1(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) an offence against a law of a foreign country that would be an indictable offence against a law of the Commonwealth, a State or a Territory if committed in Australia (whether or not the offence could be dealt with summarily if committed in Australia)."
+    },
+    {
+      "content_hash": "sha256:963bc48003ec6aeefeb8c0f3a9eacbf14fd171aff2dd35426c2b69fd7938cba6",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 35,
+          "start": 0,
+          "text": "unsatisfactory professional conduct",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 92,
+          "start": 85,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 106,
+          "start": 93,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 109,
+          "start": 106,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.32",
+          "mention": "regulation 20.32"
+        }
+      ],
+      "ref": "TMR1995/r20.1~4",
+      "style": "Definition",
+      "text": "unsatisfactory professional conduct has the meaning given by regulation 20.32 of the Patents Regulations 1991."
+    }
+  ]
+}

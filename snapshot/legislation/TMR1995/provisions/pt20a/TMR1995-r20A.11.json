@@ -1,0 +1,119 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdivb"
+  ],
+  "content_hash": "sha256:a2fefabc77d76e9996cb1b892f26908862b7558481d985fdb6b71adba1aee632",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision B—Proceedings in Disciplinary Tribunal",
+    "20A.11  Panel of the Disciplinary Tribunal to be constituted"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.11",
+  "ref": "TMR1995/r20A.11",
+  "text": "(1) Except as otherwise provided by this Part, the Disciplinary Tribunal’s functions and powers in relation to disciplinary proceedings under this Part are to be performed and exercised by a Panel of the Disciplinary Tribunal. (2) A Panel of the Disciplinary Tribunal is to be constituted by: (a) a Panel Chair; and (b) 2 other members determined by the Panel Chair under subregulation (3). (3) The Panel Chair is to determine, in writing, the other members of the Disciplinary Tribunal who are to constitute the Panel that is to conduct the proceedings. Note: Regulation 20.64 of the Patents Regulations 1991 sets out requirements relating to the disclosure of conflicts of interest.",
+  "title": "Panel of the Disciplinary Tribunal to be constituted",
+  "units": [
+    {
+      "content_hash": "sha256:9e834dfe7f9113ef634179a6f011606ba0f3d461beb6a622cc82aeab858cd97b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11(1)",
+      "style": "subsection",
+      "text": "(1) Except as otherwise provided by this Part, the Disciplinary Tribunal’s functions and powers in relation to disciplinary proceedings under this Part are to be performed and exercised by a Panel of the Disciplinary Tribunal."
+    },
+    {
+      "content_hash": "sha256:e6f0e21150bfa34e0548eb03896b4fd0c95ae3f5e79d17b73651fb7c6cfedd13",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11(2)",
+      "style": "subsection",
+      "text": "(2) A Panel of the Disciplinary Tribunal is to be constituted by:"
+    },
+    {
+      "content_hash": "sha256:e0377203670f97107288c1ae897b8f7849c26dd53642dbec1320d5d8010cdd1f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.11(2)",
+      "ref": "TMR1995/r20A.11(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a Panel Chair; and"
+    },
+    {
+      "content_hash": "sha256:49db636d92c92b2f1eb02aca973b0352d01330db119d70315f13904510d84cda",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20A.11(2)",
+      "ref": "TMR1995/r20A.11(2)(b)",
+      "style": "paragraph",
+      "text": "(b) 2 other members determined by the Panel Chair under subregulation (3)."
+    },
+    {
+      "content_hash": "sha256:7e908d289cf1b68eadaf89130cd2183adf7985d28581f84522f6462e5dedf89a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.11(3)",
+      "style": "subsection",
+      "text": "(3) The Panel Chair is to determine, in writing, the other members of the Disciplinary Tribunal who are to constitute the Panel that is to conduct the proceedings."
+    },
+    {
+      "content_hash": "sha256:ca5c62e8d696a08acf208a48dffef112aade468a601f2d82bfd186f5c68f72d4",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 37,
+          "start": 30,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 51,
+          "start": 38,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 54,
+          "start": 51,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.11(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.64",
+          "mention": "Regulation 20.64"
+        }
+      ],
+      "ref": "TMR1995/r20A.11(3)~1",
+      "style": "notetext",
+      "text": "Note: Regulation 20.64 of the Patents Regulations 1991 sets out requirements relating to the disclosure of conflicts of interest."
+    }
+  ]
+}

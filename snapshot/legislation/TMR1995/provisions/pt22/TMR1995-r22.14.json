@@ -1,0 +1,115 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div3"
+  ],
+  "content_hash": "sha256:1305f92d069556c9e3898b5eddbcc25ddd4fa8d06445af42d489907cb99c99c5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 3—Transitional provisions for Schedule 4 to the Intellectual Property Laws Amendment Act 2015 and Schedule 2 to the Intellectual Property Legislation Amendment (Single Economic Market and Other Measures) Regulation 2016",
+    "22.14  Definitions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.14",
+  "ref": "TMR1995/r22.14",
+  "text": "In this Division: commencement day means the day on which Schedule 4 to the Intellectual Property Laws Amendment Act 2015 commences. old Patents regulations means the Patents Regulations 1991 as in force immediately before the commencement day. old regulations means these Regulations as in force immediately before the commencement day.",
+  "title": "Definitions",
+  "units": [
+    {
+      "content_hash": "sha256:b7d27cfb4ac28c0a378f1d170fedb205c90a6da56403875cd338db1858a108e3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.14~1",
+      "style": "subsection",
+      "text": "In this Division:"
+    },
+    {
+      "content_hash": "sha256:fcb9db23a0a40cc30834ea925ba247976b97f86ba596be1790f7108697973994",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 0,
+          "text": "commencement day",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 103,
+          "start": 58,
+          "text": "Intellectual Property Laws Amendment Act 2015",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.14~2",
+      "style": "Definition",
+      "text": "commencement day means the day on which Schedule 4 to the Intellectual Property Laws Amendment Act 2015 commences."
+    },
+    {
+      "content_hash": "sha256:0d11820cfddf9921ada9e263b0baf443a15e9a4cb404649d7de1b6db1a10581d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 23,
+          "start": 0,
+          "text": "old Patents regulations",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 41,
+          "start": 34,
+          "text": "Patents",
+          "weight": "italic"
+        },
+        {
+          "end": 55,
+          "start": 42,
+          "text": "Regulations 1",
+          "weight": "italic"
+        },
+        {
+          "end": 58,
+          "start": 55,
+          "text": "991",
+          "weight": "italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.14~3",
+      "style": "Definition",
+      "text": "old Patents regulations means the Patents Regulations 1991 as in force immediately before the commencement day."
+    },
+    {
+      "content_hash": "sha256:6b53562004adc6075f99ecf5bfe22e9ed71276338f5dcd770320d74bcbfacc6a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 0,
+          "text": "old regulations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.14~4",
+      "style": "Definition",
+      "text": "old regulations means these Regulations as in force immediately before the commencement day."
+    }
+  ]
+}

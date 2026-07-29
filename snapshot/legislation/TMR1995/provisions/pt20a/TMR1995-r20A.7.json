@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div4"
+  ],
+  "content_hash": "sha256:18e0e23e601789905c8c80be15212d7ec1d256466f36b641311183e913ad9e9f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 4—Removal from Register of Trade Marks Attorneys",
+    "20A.7  Failure to pay annual registration fee"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.7",
+  "ref": "TMR1995/r20A.7",
+  "text": "If a registered incorporated trade marks attorney does not pay the annual registration fee by 31 July in the year the fee is payable, the Designated Manager must: (a) remove the name of the attorney from the Register of Trade Marks Attorneys; and (b) notify, in writing, the attorney of the removal.",
+  "title": "Failure to pay annual registration fee",
+  "units": [
+    {
+      "content_hash": "sha256:1642076837d34de89c1e9de50491824e74cdb9d892e44f84809e9b9d1144c64c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.7~1",
+      "style": "subsection",
+      "text": "If a registered incorporated trade marks attorney does not pay the annual registration fee by 31 July in the year the fee is payable, the Designated Manager must:"
+    },
+    {
+      "content_hash": "sha256:2908212753c20e4591cacbc60de5912c50715f11abb43151f4a168e26b1ff40e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.7~1",
+      "ref": "TMR1995/r20A.7(a)",
+      "style": "paragraph",
+      "text": "(a) remove the name of the attorney from the Register of Trade Marks Attorneys; and"
+    },
+    {
+      "content_hash": "sha256:d6dce19739ee713e97edd31c9a604f5e280e6e78b34ae773cdbba4c67d4bdf46",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.7~1",
+      "ref": "TMR1995/r20A.7(b)",
+      "style": "paragraph",
+      "text": "(b) notify, in writing, the attorney of the removal."
+    }
+  ]
+}

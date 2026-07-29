@@ -1,0 +1,287 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div4"
+  ],
+  "content_hash": "sha256:079dc7a892bd9527e6fb4441f969e6f055e988277d7e5d748cec4c1e077c57af",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 4—Coolingoff period for opposition",
+    "9.19  Registrar may allow coolingoff period"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.19",
+  "ref": "TMR1995/r9.19",
+  "text": "(1) This regulation applies to an opposition if: (a) the notice of opposition has been filed; and (b) the Registrar has not decided to remove the trade mark under subsection 101(1) of the Act; and (c) the opposition has not been dismissed under regulation 9.10. (2) If the Registrar is satisfied that the parties agree to a coolingoff period, the Registrar must allow a coolingoff period of 6 months. (3) The Registrar must extend the coolingoff period for 6 months if, before the end of the period, the Registrar is satisfied that the parties agree to the extension. (4) The Registrar must not: (a) further extend the coolingoff period; or (b) allow more than one coolingoff period for an opposition. (5) If a party files a notice, in an approved form, requesting the Registrar to discontinue the coolingoff period, the Registrar must do so. (6) The Registrar may direct the parties on steps the parties must take: (a) if the coolingoff period is discontinued; or (b) otherwise—when the coolingoff period ends. (7) The opposition resumes: (a) if the coolingoff period is discontinued; or (b) otherwise—when the coolingoff period ends. (8) If: (a) the coolingoff period begins during the period mentioned in regulation 9.15 or an evidentiary period mentioned in regulation 9.16; and (b) the opposition resumes; the period mentioned in regulation 9.15 or 9.16 restarts when the opposition resumes.",
+  "title": "Registrar may allow coolingoff period",
+  "units": [
+    {
+      "content_hash": "sha256:410f5b691ef6eea60ccfb24fe62905f9d8a6633468398e43aad68378b478c7c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies to an opposition if:"
+    },
+    {
+      "content_hash": "sha256:4a43f65cf19f818febf137661cfe04e4f2e7938744871e4eb58eccab7eb0fd2f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r9.19(1)",
+      "ref": "TMR1995/r9.19(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the notice of opposition has been filed; and"
+    },
+    {
+      "content_hash": "sha256:f7f2d6c843818ce12f021ab89e6c9029e8e03d5b4a5c4014dfc875f917bb76ce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r9.19(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s101(1)",
+          "mention": "subsection 101(1)"
+        }
+      ],
+      "ref": "TMR1995/r9.19(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar has not decided to remove the trade mark under subsection 101(1) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:f4c8b5dfc4c89c9c3dc499d1a089527476968f487baa4d3ce453325c3bf8a995",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r9.19(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.10",
+          "mention": "regulation 9.10"
+        }
+      ],
+      "ref": "TMR1995/r9.19(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the opposition has not been dismissed under regulation 9.10."
+    },
+    {
+      "content_hash": "sha256:697b65568c9b58a1f59199a162d2019566ea521b1af7537a08f1f312f5937475",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar is satisfied that the parties agree to a coolingoff period, the Registrar must allow a coolingoff period of 6 months."
+    },
+    {
+      "content_hash": "sha256:b94b6e27f82cc8db2a7acbc9489daf1e050f5ec8be3d1f668f622ec6f687704d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must extend the coolingoff period for 6 months if, before the end of the period, the Registrar is satisfied that the parties agree to the extension."
+    },
+    {
+      "content_hash": "sha256:6b95a5f6524bea44f6ffb5ba891621182a5deba254922a066bab3788c908a518",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must not:"
+    },
+    {
+      "content_hash": "sha256:73e9338f377283afbf483368bbabdaab1dafc88c136ddbb6a0995181fafe84f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r9.19(4)",
+      "ref": "TMR1995/r9.19(4)(a)",
+      "style": "paragraph",
+      "text": "(a) further extend the coolingoff period; or"
+    },
+    {
+      "content_hash": "sha256:767c8412dc1dd01095894111877c2636c2e2277f8cc9af7a18ff8ef1d5a01607",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r9.19(4)",
+      "ref": "TMR1995/r9.19(4)(b)",
+      "style": "paragraph",
+      "text": "(b) allow more than one coolingoff period for an opposition."
+    },
+    {
+      "content_hash": "sha256:a87b090bedd090291b67ee796c58cd04229e74091af070df10a6769926d63f5c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(5)",
+      "style": "subsection",
+      "text": "(5) If a party files a notice, in an approved form, requesting the Registrar to discontinue the coolingoff period, the Registrar must do so."
+    },
+    {
+      "content_hash": "sha256:08c255dfef438768c3c322274c254095cf622f82d5f4585d60f1b3de94ca8e53",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(6)",
+      "style": "subsection",
+      "text": "(6) The Registrar may direct the parties on steps the parties must take:"
+    },
+    {
+      "content_hash": "sha256:daada1b92ba2425c4027e173cf7d7db3aa28cafa2f63d17e928534ff2f5f42af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r9.19(6)",
+      "ref": "TMR1995/r9.19(6)(a)",
+      "style": "paragraph",
+      "text": "(a) if the coolingoff period is discontinued; or"
+    },
+    {
+      "content_hash": "sha256:ab9f91a2878ad887ae4cc52457fa226b2d9de18e829bd19296ba8f2e1f3d3f57",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r9.19(6)",
+      "ref": "TMR1995/r9.19(6)(b)",
+      "style": "paragraph",
+      "text": "(b) otherwise—when the coolingoff period ends."
+    },
+    {
+      "content_hash": "sha256:8fe3f74186b1db7d4faa5801a677a65ab721ef1cb8cef7d5a4b61b19ba364012",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(7)",
+      "style": "subsection",
+      "text": "(7) The opposition resumes:"
+    },
+    {
+      "content_hash": "sha256:daada1b92ba2425c4027e173cf7d7db3aa28cafa2f63d17e928534ff2f5f42af",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r9.19(7)",
+      "ref": "TMR1995/r9.19(7)(a)",
+      "style": "paragraph",
+      "text": "(a) if the coolingoff period is discontinued; or"
+    },
+    {
+      "content_hash": "sha256:ab9f91a2878ad887ae4cc52457fa226b2d9de18e829bd19296ba8f2e1f3d3f57",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r9.19(7)",
+      "ref": "TMR1995/r9.19(7)(b)",
+      "style": "paragraph",
+      "text": "(b) otherwise—when the coolingoff period ends."
+    },
+    {
+      "content_hash": "sha256:31ea9222f324668d8cad6f9a0821ec8e0e92e5249b0ca74629eb6b8880d27c2d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(8)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMR1995/r9.19(8)",
+      "style": "subsection",
+      "text": "(8) If:"
+    },
+    {
+      "content_hash": "sha256:a64810b29a97931d83dd207152e2dd326c0a9d985163405d75123fce875ed2fb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r9.19(8)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15",
+          "mention": "regulation 9.15"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16",
+          "mention": "regulation 9.16"
+        }
+      ],
+      "ref": "TMR1995/r9.19(8)(a)",
+      "style": "paragraph",
+      "text": "(a) the coolingoff period begins during the period mentioned in regulation 9.15 or an evidentiary period mentioned in regulation 9.16; and"
+    },
+    {
+      "content_hash": "sha256:7804be616bf4ac61285537ff63efb0daeae49111b62147cd865800777d97ba1b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r9.19(8)",
+      "ref": "TMR1995/r9.19(8)(b)",
+      "style": "paragraph",
+      "text": "(b) the opposition resumes;"
+    },
+    {
+      "content_hash": "sha256:fe2875a8fe010d48c6982a2eb72f9938baf473ffdf8751be3f305c34c15ac5d4",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 20,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.15",
+          "mention": "regulation 9.15 or 9.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.16",
+          "mention": "regulation 9.15 or 9.16"
+        }
+      ],
+      "ref": "TMR1995/r9.19~1",
+      "style": "subsection2",
+      "text": "the period mentioned in regulation 9.15 or 9.16 restarts when the opposition resumes."
+    }
+  ]
+}

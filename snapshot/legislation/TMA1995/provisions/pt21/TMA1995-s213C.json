@@ -1,0 +1,149 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:222ad72949b0456bb250b4bf4d32720872d9a14998bd408191f98c9775a07e7e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "213C  Directions by Registrar for filing of evidence"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "213C",
+  "ref": "TMA1995/s213C",
+  "text": "(1) The Registrar may, by writing, give a direction in relation to the filing of evidence in connection with a matter arising under this Act. Note 1: A reference to this Act includes the regulations (see section 6). Note 2: See also paragraph 231(2)(bb) (about regulations). (2) Without limiting subsection (1), a direction under that subsection may relate to the following: (a) the number of copies of evidence to be filed; (b) the form in which evidence is to be filed (including the circumstances in which physical articles, other than documents, are or are not permitted to be filed); (c) the means by which evidence is to be filed. (3) Without limiting paragraph (2)(b), a direction under subsection (1) may require that evidence in writing be in the form of a declaration. (4) The Registrar must publish a direction under subsection (1) in accordance with the regulations. (5) A direction under subsection (1) is not a legislative instrument.",
+  "title": "Directions by Registrar for filing of evidence",
+  "units": [
+    {
+      "content_hash": "sha256:429fc378e9d82384c0584dba4bd3af8ef5294636143367611a4481726687ab6d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s213C(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, by writing, give a direction in relation to the filing of evidence in connection with a matter arising under this Act."
+    },
+    {
+      "content_hash": "sha256:7a96c00dc64a3048c16fadb10ba1eb85956f25940970652c7a553134ee111d32",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s213C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s213C(1)~1",
+      "style": "notetext",
+      "text": "Note 1: A reference to this Act includes the regulations (see section 6)."
+    },
+    {
+      "content_hash": "sha256:91a6324a5f42451607f7b484d5491e7477142f2d3e9d38aadfabf71bbb95d3d6",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s213C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s231(2)(bb)",
+          "mention": "paragraph 231(2)(bb)"
+        }
+      ],
+      "ref": "TMA1995/s213C(1)~2",
+      "style": "notetext",
+      "text": "Note 2: See also paragraph 231(2)(bb) (about regulations)."
+    },
+    {
+      "content_hash": "sha256:127f60af578cd9da2d1bdb00b48214640a2821047d5f329378bb0f520e35d608",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s213C(2)",
+      "style": "subsection",
+      "text": "(2) Without limiting subsection (1), a direction under that subsection may relate to the following:"
+    },
+    {
+      "content_hash": "sha256:3ec01a1691aa61f5809fe44198770b7265b3cf6798d5b948af3eac01d58aa88e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s213C(2)",
+      "ref": "TMA1995/s213C(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the number of copies of evidence to be filed;"
+    },
+    {
+      "content_hash": "sha256:08236f4a0c821f292eb3e39374e638196847dddefa7d80bca5e1073e522e81be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s213C(2)",
+      "ref": "TMA1995/s213C(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the form in which evidence is to be filed (including the circumstances in which physical articles, other than documents, are or are not permitted to be filed);"
+    },
+    {
+      "content_hash": "sha256:0e266ca8ed49de0f6c03e7f1f87f727e0b0b402c47e42da3a212f513a41117f4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s213C(2)",
+      "ref": "TMA1995/s213C(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the means by which evidence is to be filed."
+    },
+    {
+      "content_hash": "sha256:5d57dc958a192b71ed6d10996231361b40bd8e609cc24828e4f8f02b3b6ee1aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s213C(3)",
+      "style": "subsection",
+      "text": "(3) Without limiting paragraph (2)(b), a direction under subsection (1) may require that evidence in writing be in the form of a declaration."
+    },
+    {
+      "content_hash": "sha256:539dd3e826b9a85ab0830e8dbef66271f20b1ffaa4ae484c618a6db544cd2350",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s213C(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must publish a direction under subsection (1) in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:7039b0ab0733c17199fa65eef02a2ff7b6af653167cdc3e26e30b15933ba2a5d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s213C(5)",
+      "style": "subsection",
+      "text": "(5) A direction under subsection (1) is not a legislative instrument."
+    }
+  ]
+}

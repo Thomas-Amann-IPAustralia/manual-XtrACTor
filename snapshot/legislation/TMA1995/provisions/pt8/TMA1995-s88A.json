@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:8218caeb3095ef01ffe4fdf07b2af2b1465008f884ce01462038e78a14de4941",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "88A  Applications by Registrar"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "88A",
+  "ref": "TMA1995/s88A",
+  "text": "The Registrar must not make an application under section 86, 87 or 88 unless he or she considers the application desirable in the public interest.",
+  "title": "Applications by Registrar",
+  "units": [
+    {
+      "content_hash": "sha256:8218caeb3095ef01ffe4fdf07b2af2b1465008f884ce01462038e78a14de4941",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s86",
+          "mention": "section 86, 87 or 88"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s87",
+          "mention": "section 86, 87 or 88"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s88",
+          "mention": "section 86, 87 or 88"
+        }
+      ],
+      "ref": "TMA1995/s88A~1",
+      "style": "subsection",
+      "text": "The Registrar must not make an application under section 86, 87 or 88 unless he or she considers the application desirable in the public interest."
+    }
+  ]
+}

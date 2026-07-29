@@ -1,0 +1,327 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:e1deb3af3c0a702bde2cdf5871eae202364ae49284b8ad4e16ad54ac1f4c1e3d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "87  Amendment or cancellation—loss of exclusive rights to use trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "87",
+  "ref": "TMA1995/s87",
+  "text": "(1) If section 24 or 25 applies in relation to a registered trade mark, a prescribed court may, on the application of an aggrieved person or the Registrar, but subject to subsection (2) and section 89, order that the Register be rectified by: (a) cancelling the registration of the trade mark; or (b) removing or amending any entry in the Register relating to the trade mark; having regard to the effect of section 24 or 25 (as the case may be) on the right of the registered owner of the trade mark to use the trade mark, or any sign that is part of the trade mark, in relation to particular goods or services. (2) If section 24 or 25 applies in relation to the trade mark because the trade mark contains a sign that: (a) has become generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or (b) describes or is the name of: (i) an article or substance that was formerly exploited under a patent; or (ii) a service that was formerly provided as a patented process; the court may decide not to make an order under subsection (1) and allow the trade mark to remain on the Register in respect of: (c) the article or substance or goods of the same description; or (d) the service or services of the same description; subject to any condition or limitation that the court may impose. Note 1: Sections 24 and 25 provide that the registered owner of a trade mark does not have exclusive rights to use, or to authorise the use of, the trade mark if it consists of, or contains, a sign that: (a) becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or (b) is the only commonly known way to describe or identify an article formerly exploited under a patent, or a service formerly provided as a patented process, where the patent has expired more than 2 years ago. Note 2: For registered trade mark, registered owner and Register see section 6. Note 3: For prescribed court see section 190.",
+  "title": "Amendment or cancellation—loss of exclusive rights to use trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:b2f7c5c305afd0c771c0fad9248199e7325713c67ab51d4cbbd9b86c447599bc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s89",
+          "mention": "section 89"
+        }
+      ],
+      "ref": "TMA1995/s87(1)",
+      "style": "subsection",
+      "text": "(1) If section 24 or 25 applies in relation to a registered trade mark, a prescribed court may, on the application of an aggrieved person or the Registrar, but subject to subsection (2) and section 89, order that the Register be rectified by:"
+    },
+    {
+      "content_hash": "sha256:8c1ad9361630fd6e76ed32a38b3bf87c1c87da112c67edcaed7ecfe1f216ab95",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s87(1)",
+      "ref": "TMA1995/s87(1)(a)",
+      "style": "paragraph",
+      "text": "(a) cancelling the registration of the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:935f8c552f872fec1954c6446b8b8f33c08838bac33a8688e457f7881cf638e3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s87(1)",
+      "ref": "TMA1995/s87(1)(b)",
+      "style": "paragraph",
+      "text": "(b) removing or amending any entry in the Register relating to the trade mark;"
+    },
+    {
+      "content_hash": "sha256:1db5cf1b31c7d665396ebb6b4981fcf2be7c44be6f8c029b8dd9e1616752d07e",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        }
+      ],
+      "ref": "TMA1995/s87~1",
+      "style": "subsection2",
+      "text": "having regard to the effect of section 24 or 25 (as the case may be) on the right of the registered owner of the trade mark to use the trade mark, or any sign that is part of the trade mark, in relation to particular goods or services."
+    },
+    {
+      "content_hash": "sha256:81d28bc7a5d68212b69b6c8257ff5547a54eb9e757b7c907d9dee7a5209ff873",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "section 24 or 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "section 24 or 25"
+        }
+      ],
+      "ref": "TMA1995/s87(2)",
+      "style": "subsection",
+      "text": "(2) If section 24 or 25 applies in relation to the trade mark because the trade mark contains a sign that:"
+    },
+    {
+      "content_hash": "sha256:b0a040ea07acaff8d031ee8209b6cdc7551821a8a0a6dece6c7d6add1dd564a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s87(2)",
+      "ref": "TMA1995/s87(2)(a)",
+      "style": "paragraph",
+      "text": "(a) has become generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or"
+    },
+    {
+      "content_hash": "sha256:7650e09f37c408010798c994742b9e6e47f16c71194a7f25b30cd0bb8f090218",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s87(2)",
+      "ref": "TMA1995/s87(2)(b)",
+      "style": "paragraph",
+      "text": "(b) describes or is the name of:"
+    },
+    {
+      "content_hash": "sha256:b5126f0a4d9a4a567bc164fc0a9a792c0013af5cbd711f56a8c9c8c9f2c8e8d2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s87(2)(b)",
+      "ref": "TMA1995/s87(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an article or substance that was formerly exploited under a patent; or"
+    },
+    {
+      "content_hash": "sha256:7f79a74b5667be361425a959c75b6b3e879085e8784678f08570d167de4c44ae",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s87(2)(b)",
+      "ref": "TMA1995/s87(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a service that was formerly provided as a patented process;"
+    },
+    {
+      "content_hash": "sha256:db20af46f4c3489255cd91f26e3f8da521d55ae6038f510362386589bf18d378",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s87~2",
+      "style": "subsection2",
+      "text": "the court may decide not to make an order under subsection (1) and allow the trade mark to remain on the Register in respect of:"
+    },
+    {
+      "content_hash": "sha256:b20680202544c8b29eb4d6caeb04cffde87b86906c090014c5c31ee14d448fce",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s87~2",
+      "ref": "TMA1995/s87(c)",
+      "style": "paragraph",
+      "text": "(c) the article or substance or goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:d9cf6005b521a63f4c686dd8ae6adf8b1cb0ff5b1795120839617b01c64f684c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s87~2",
+      "ref": "TMA1995/s87(d)",
+      "style": "paragraph",
+      "text": "(d) the service or services of the same description;"
+    },
+    {
+      "content_hash": "sha256:e735e796b035dec90dff867169baaa735abbca05197a3b003055e7da8d176cbf",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s87~3",
+      "style": "subsection2",
+      "text": "subject to any condition or limitation that the court may impose."
+    },
+    {
+      "content_hash": "sha256:7888c51ad4019509e0c79e6f595de97f68bbf245fd76ef9f153b3bd6719bb940",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s87~3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s24",
+          "mention": "Sections 24 and 25"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s25",
+          "mention": "Sections 24 and 25"
+        }
+      ],
+      "ref": "TMA1995/s87~3~1",
+      "style": "notetext",
+      "text": "Note 1: Sections 24 and 25 provide that the registered owner of a trade mark does not have exclusive rights to use, or to authorise the use of, the trade mark if it consists of, or contains, a sign that:"
+    },
+    {
+      "content_hash": "sha256:d2a0ed44841a88024484ce258b67adf745bfa29b1fbdd26a763dc1e969820834",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s87~3",
+      "ref": "TMA1995/s87~3~2",
+      "style": "notetext",
+      "text": "(a) becomes generally accepted within the relevant trade as the sign that describes or is the name of an article, substance or service; or"
+    },
+    {
+      "content_hash": "sha256:4b38a310731cb1dd74e125ff4faf4abe28149d5f6144e25517d8d338786d26cc",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s87~3",
+      "ref": "TMA1995/s87~3~3",
+      "style": "notetext",
+      "text": "(b) is the only commonly known way to describe or identify an article formerly exploited under a patent, or a service formerly provided as a patented process, where the patent has expired more than 2 years ago."
+    },
+    {
+      "content_hash": "sha256:4c6b37d6c66dc57050ba4d200fc750410cd97067509ea97dffab4d33f694ef18",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 33,
+          "start": 12,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 51,
+          "start": 35,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 64,
+          "start": 56,
+          "text": "Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s87~3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s87~3~4",
+      "style": "notetext",
+      "text": "Note 2: For registered trade mark, registered owner and Register see section 6."
+    },
+    {
+      "content_hash": "sha256:0975b2ef8cf849eff033b7a962d57dfd4783135edfca17effda6e40b62066dbc",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s87~3",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s87~3~5",
+      "style": "notetext",
+      "text": "Note 3: For prescribed court see section 190."
+    }
+  ]
+}

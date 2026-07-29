@@ -1,0 +1,2878 @@
+{
+  "containers": [
+    {
+      "kind": "Part",
+      "number": "1",
+      "parent_ref": null,
+      "ref": "TMA1995/pt1",
+      "title": "Preliminary"
+    },
+    {
+      "kind": "Part",
+      "number": "2",
+      "parent_ref": null,
+      "ref": "TMA1995/pt2",
+      "title": "Interpretation"
+    },
+    {
+      "kind": "Part",
+      "number": "3",
+      "parent_ref": null,
+      "ref": "TMA1995/pt3",
+      "title": "Trade marks and trade mark rights"
+    },
+    {
+      "kind": "Part",
+      "number": "4",
+      "parent_ref": null,
+      "ref": "TMA1995/pt4",
+      "title": "Application for registration"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt4",
+      "ref": "TMA1995/pt4/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt4",
+      "ref": "TMA1995/pt4/div2",
+      "title": "Grounds for rejecting an application"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt4",
+      "ref": "TMA1995/pt4/div3",
+      "title": "Divisional applications"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMA1995/pt4",
+      "ref": "TMA1995/pt4/div4",
+      "title": "Application for registration of series of trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "5",
+      "parent_ref": null,
+      "ref": "TMA1995/pt5",
+      "title": "Opposition to registration"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt5",
+      "ref": "TMA1995/pt5/div1",
+      "title": "General"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt5",
+      "ref": "TMA1995/pt5/div2",
+      "title": "Grounds for opposing registration"
+    },
+    {
+      "kind": "Part",
+      "number": "6",
+      "parent_ref": null,
+      "ref": "TMA1995/pt6",
+      "title": "Amendment of application for registration of a trade mark and other documents"
+    },
+    {
+      "kind": "Part",
+      "number": "7",
+      "parent_ref": null,
+      "ref": "TMA1995/pt7",
+      "title": "Registration of trade marks"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt7",
+      "ref": "TMA1995/pt7/div1",
+      "title": "Initial registration"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt7",
+      "ref": "TMA1995/pt7/div2",
+      "title": "Renewal of registration (general)"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt7",
+      "ref": "TMA1995/pt7/div3",
+      "title": "Renewal of registration (registration delayed for 10 or more years after filing date)"
+    },
+    {
+      "kind": "Part",
+      "number": "8",
+      "parent_ref": null,
+      "ref": "TMA1995/pt8",
+      "title": "Amendment, cancellation and revocation of registration"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt8",
+      "ref": "TMA1995/pt8/div1",
+      "title": "Action by Registrar"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "A",
+      "parent_ref": "TMA1995/pt8/div1",
+      "ref": "TMA1995/pt8/div1/sdiva",
+      "title": "Amending Register"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "B",
+      "parent_ref": "TMA1995/pt8/div1",
+      "ref": "TMA1995/pt8/div1/sdivb",
+      "title": "Cancelling registration"
+    },
+    {
+      "kind": "Subdivision",
+      "number": "C",
+      "parent_ref": "TMA1995/pt8/div1",
+      "ref": "TMA1995/pt8/div1/sdivc",
+      "title": "Revoking registration"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt8",
+      "ref": "TMA1995/pt8/div2",
+      "title": "Action by court"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt8",
+      "ref": "TMA1995/pt8/div3",
+      "title": "Amendment of certificate of registration"
+    },
+    {
+      "kind": "Part",
+      "number": "9",
+      "parent_ref": null,
+      "ref": "TMA1995/pt9",
+      "title": "Removal of trade mark from Register for nonuse"
+    },
+    {
+      "kind": "Part",
+      "number": "10",
+      "parent_ref": null,
+      "ref": "TMA1995/pt10",
+      "title": "Assignment and transmission of trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "11",
+      "parent_ref": null,
+      "ref": "TMA1995/pt11",
+      "title": "Voluntary recording of claims to interests in and rights in respect of trade marks"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt11",
+      "ref": "TMA1995/pt11/div1",
+      "title": "Preliminary"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt11",
+      "ref": "TMA1995/pt11/div2",
+      "title": "Interests in, and rights in respect of, registered trade marks"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt11",
+      "ref": "TMA1995/pt11/div3",
+      "title": "Interests in, and rights in respect of, unregistered trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "12",
+      "parent_ref": null,
+      "ref": "TMA1995/pt12",
+      "title": "Infringement of trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "13",
+      "parent_ref": null,
+      "ref": "TMA1995/pt13",
+      "title": "Importation of goods infringing Australian trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "14",
+      "parent_ref": null,
+      "ref": "TMA1995/pt14",
+      "title": "Offences"
+    },
+    {
+      "kind": "Part",
+      "number": "15",
+      "parent_ref": null,
+      "ref": "TMA1995/pt15",
+      "title": "Collective trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "16",
+      "parent_ref": null,
+      "ref": "TMA1995/pt16",
+      "title": "Certification trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "17",
+      "parent_ref": null,
+      "ref": "TMA1995/pt17",
+      "title": "Defensive trade marks"
+    },
+    {
+      "kind": "Part",
+      "number": "17A",
+      "parent_ref": null,
+      "ref": "TMA1995/pt17a",
+      "title": "Protected international trade marks under the Madrid Protocol"
+    },
+    {
+      "kind": "Part",
+      "number": "18",
+      "parent_ref": null,
+      "ref": "TMA1995/pt18",
+      "title": "Jurisdiction and powers of courts"
+    },
+    {
+      "kind": "Part",
+      "number": "19",
+      "parent_ref": null,
+      "ref": "TMA1995/pt19",
+      "title": "Administration"
+    },
+    {
+      "kind": "Part",
+      "number": "20",
+      "parent_ref": null,
+      "ref": "TMA1995/pt20",
+      "title": "The Register and official documents"
+    },
+    {
+      "kind": "Part",
+      "number": "21",
+      "parent_ref": null,
+      "ref": "TMA1995/pt21",
+      "title": "Miscellaneous"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt21",
+      "ref": "TMA1995/pt21/div1",
+      "title": "Applications and other documents"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt21",
+      "ref": "TMA1995/pt21/div2",
+      "title": "Proceedings before the Registrar or a court"
+    },
+    {
+      "kind": "Division",
+      "number": "2A",
+      "parent_ref": "TMA1995/pt21",
+      "ref": "TMA1995/pt21/div2a",
+      "title": "Computerised decisionmaking"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt21",
+      "ref": "TMA1995/pt21/div3",
+      "title": "General"
+    },
+    {
+      "kind": "Part",
+      "number": "22",
+      "parent_ref": null,
+      "ref": "TMA1995/pt22",
+      "title": "Repeal and transitional"
+    },
+    {
+      "kind": "Division",
+      "number": "1",
+      "parent_ref": "TMA1995/pt22",
+      "ref": "TMA1995/pt22/div1",
+      "title": "Repeal"
+    },
+    {
+      "kind": "Division",
+      "number": "2",
+      "parent_ref": "TMA1995/pt22",
+      "ref": "TMA1995/pt22/div2",
+      "title": "Marks registered under the repealed Act"
+    },
+    {
+      "kind": "Division",
+      "number": "3",
+      "parent_ref": "TMA1995/pt22",
+      "ref": "TMA1995/pt22/div3",
+      "title": "Matters pending immediately before repeal of repealed Act"
+    },
+    {
+      "kind": "Division",
+      "number": "4",
+      "parent_ref": "TMA1995/pt22",
+      "ref": "TMA1995/pt22/div4",
+      "title": "General"
+    }
+  ],
+  "instrument": "TMA1995",
+  "provisions": [
+    {
+      "container_ref": null,
+      "kind": "front-matter",
+      "number": null,
+      "ordinal": 1,
+      "ref": "TMA1995/front",
+      "title": null
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "1",
+      "ordinal": 2,
+      "ref": "TMA1995/s1",
+      "title": "Short title"
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "2",
+      "ordinal": 3,
+      "ref": "TMA1995/s2",
+      "title": "Commencement"
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "3",
+      "ordinal": 4,
+      "ref": "TMA1995/s3",
+      "title": "Act binds the Crown"
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "4",
+      "ordinal": 5,
+      "ref": "TMA1995/s4",
+      "title": "Application of Act"
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "4A",
+      "ordinal": 6,
+      "ref": "TMA1995/s4A",
+      "title": "Application of the Criminal Code"
+    },
+    {
+      "container_ref": "TMA1995/pt1",
+      "kind": "section",
+      "number": "5",
+      "ordinal": 7,
+      "ref": "TMA1995/s5",
+      "title": "Repeal of Trade Marks Act 1994"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "6",
+      "ordinal": 8,
+      "ref": "TMA1995/s6",
+      "title": "Definitions"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "6A",
+      "ordinal": 9,
+      "ref": "TMA1995/s6A",
+      "title": "Periods expressed in months"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "7",
+      "ordinal": 10,
+      "ref": "TMA1995/s7",
+      "title": "Use of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "8",
+      "ordinal": 11,
+      "ref": "TMA1995/s8",
+      "title": "Definitions of authorised user and authorised use"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "9",
+      "ordinal": 12,
+      "ref": "TMA1995/s9",
+      "title": "Definition of applied to and applied in relation to"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "10",
+      "ordinal": 13,
+      "ref": "TMA1995/s10",
+      "title": "Definition of deceptively similar"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "11",
+      "ordinal": 14,
+      "ref": "TMA1995/s11",
+      "title": "Definition of pending"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "12",
+      "ordinal": 15,
+      "ref": "TMA1995/s12",
+      "title": "Definition of priority date"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "13",
+      "ordinal": 16,
+      "ref": "TMA1995/s13",
+      "title": "Definition of remove from the Register"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "14",
+      "ordinal": 17,
+      "ref": "TMA1995/s14",
+      "title": "Definition of similar goods and similar services"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "15",
+      "ordinal": 18,
+      "ref": "TMA1995/s15",
+      "title": "Definition of originate in relation to wine"
+    },
+    {
+      "container_ref": "TMA1995/pt2",
+      "kind": "section",
+      "number": "16",
+      "ordinal": 19,
+      "ref": "TMA1995/s16",
+      "title": "Definition of repealed Act"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "17",
+      "ordinal": 20,
+      "ref": "TMA1995/s17",
+      "title": "What is a trade mark?"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "18",
+      "ordinal": 21,
+      "ref": "TMA1995/s18",
+      "title": "Certain signs not to be used as trade marks etc."
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "19",
+      "ordinal": 22,
+      "ref": "TMA1995/s19",
+      "title": "Certain trade marks may be registered"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "20",
+      "ordinal": 23,
+      "ref": "TMA1995/s20",
+      "title": "Rights given by registration of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "21",
+      "ordinal": 24,
+      "ref": "TMA1995/s21",
+      "title": "Nature of registered trade mark as property"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "22",
+      "ordinal": 25,
+      "ref": "TMA1995/s22",
+      "title": "Power of registered owner to deal with trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "23",
+      "ordinal": 26,
+      "ref": "TMA1995/s23",
+      "title": "Limitation on rights if similar trade marks etc. registered by different persons"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "24",
+      "ordinal": 27,
+      "ref": "TMA1995/s24",
+      "title": "Trade mark consisting of sign that becomes accepted as sign describing article etc."
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "25",
+      "ordinal": 28,
+      "ref": "TMA1995/s25",
+      "title": "Trade mark relating to article etc. formerly manufactured under patent"
+    },
+    {
+      "container_ref": "TMA1995/pt3",
+      "kind": "section",
+      "number": "26",
+      "ordinal": 29,
+      "ref": "TMA1995/s26",
+      "title": "Powers of authorised user of registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "27",
+      "ordinal": 30,
+      "ref": "TMA1995/s27",
+      "title": "Application—how made"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "28",
+      "ordinal": 31,
+      "ref": "TMA1995/s28",
+      "title": "Application by joint owners"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "29",
+      "ordinal": 32,
+      "ref": "TMA1995/s29",
+      "title": "Application for registration of trade mark whose registration has been sought in a Convention country—claim for priority"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "30",
+      "ordinal": 33,
+      "ref": "TMA1995/s30",
+      "title": "Particulars of application to be published"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "31",
+      "ordinal": 34,
+      "ref": "TMA1995/s31",
+      "title": "Registrar to examine, and report on, application"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "32",
+      "ordinal": 35,
+      "ref": "TMA1995/s32",
+      "title": "Registrar to decide on disputed classification of goods etc."
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "33",
+      "ordinal": 36,
+      "ref": "TMA1995/s33",
+      "title": "Application accepted or rejected"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "34",
+      "ordinal": 37,
+      "ref": "TMA1995/s34",
+      "title": "Notification of decision"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "35",
+      "ordinal": 38,
+      "ref": "TMA1995/s35",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "36",
+      "ordinal": 39,
+      "ref": "TMA1995/s36",
+      "title": "Deferment of acceptance"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "37",
+      "ordinal": 40,
+      "ref": "TMA1995/s37",
+      "title": "Lapsing of application if not accepted in time"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div1",
+      "kind": "section",
+      "number": "38",
+      "ordinal": 41,
+      "ref": "TMA1995/s38",
+      "title": "Revocation of acceptance"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "39",
+      "ordinal": 42,
+      "ref": "TMA1995/s39",
+      "title": "Trade mark containing etc. certain signs"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "40",
+      "ordinal": 43,
+      "ref": "TMA1995/s40",
+      "title": "Trade mark that cannot be represented graphically"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "41",
+      "ordinal": 44,
+      "ref": "TMA1995/s41",
+      "title": "Trade mark not distinguishing applicant’s goods or services"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "42",
+      "ordinal": 45,
+      "ref": "TMA1995/s42",
+      "title": "Trade mark scandalous or its use contrary to law"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "43",
+      "ordinal": 46,
+      "ref": "TMA1995/s43",
+      "title": "Trade mark likely to deceive or cause confusion"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div2",
+      "kind": "section",
+      "number": "44",
+      "ordinal": 47,
+      "ref": "TMA1995/s44",
+      "title": "Identical etc. trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div3",
+      "kind": "section",
+      "number": "45",
+      "ordinal": 48,
+      "ref": "TMA1995/s45",
+      "title": "Divisional applications"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div3",
+      "kind": "section",
+      "number": "46",
+      "ordinal": 49,
+      "ref": "TMA1995/s46",
+      "title": "Rules relating to divisional applications"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div4",
+      "kind": "section",
+      "number": "51",
+      "ordinal": 50,
+      "ref": "TMA1995/s51",
+      "title": "Application—series of trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt4/div4",
+      "kind": "section",
+      "number": "51A",
+      "ordinal": 51,
+      "ref": "TMA1995/s51A",
+      "title": "Linking series applications"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "52",
+      "ordinal": 52,
+      "ref": "TMA1995/s52",
+      "title": "Opposition"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "52A",
+      "ordinal": 53,
+      "ref": "TMA1995/s52A",
+      "title": "Notice of intention to defend opposition to registration"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "53",
+      "ordinal": 54,
+      "ref": "TMA1995/s53",
+      "title": "Circumstances in which opposition may proceed in name of a person other than the person who filed the notice"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "54",
+      "ordinal": 55,
+      "ref": "TMA1995/s54",
+      "title": "Opposition proceedings"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "54A",
+      "ordinal": 56,
+      "ref": "TMA1995/s54A",
+      "title": "Lapsing of opposed application if no notice to defend the application filed"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "55",
+      "ordinal": 57,
+      "ref": "TMA1995/s55",
+      "title": "Decision"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div1",
+      "kind": "section",
+      "number": "56",
+      "ordinal": 58,
+      "ref": "TMA1995/s56",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "57",
+      "ordinal": 59,
+      "ref": "TMA1995/s57",
+      "title": "Registration may be opposed on same grounds as for rejection"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "58",
+      "ordinal": 60,
+      "ref": "TMA1995/s58",
+      "title": "Applicant not owner of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "58A",
+      "ordinal": 61,
+      "ref": "TMA1995/s58A",
+      "title": "Opponent’s earlier use of similar trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "59",
+      "ordinal": 62,
+      "ref": "TMA1995/s59",
+      "title": "Applicant not intending to use trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "60",
+      "ordinal": 63,
+      "ref": "TMA1995/s60",
+      "title": "Trade mark similar to trade mark that has acquired a reputation in Australia"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "61",
+      "ordinal": 64,
+      "ref": "TMA1995/s61",
+      "title": "Trade mark containing or consisting of a false geographical indication"
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "62",
+      "ordinal": 65,
+      "ref": "TMA1995/s62",
+      "title": "Application etc. defective etc."
+    },
+    {
+      "container_ref": "TMA1995/pt5/div2",
+      "kind": "section",
+      "number": "62A",
+      "ordinal": 66,
+      "ref": "TMA1995/s62A",
+      "title": "Application made in bad faith"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "63",
+      "ordinal": 67,
+      "ref": "TMA1995/s63",
+      "title": "Amendment of application for registration of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "64",
+      "ordinal": 68,
+      "ref": "TMA1995/s64",
+      "title": "Amendment before particulars of application are published"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "65",
+      "ordinal": 69,
+      "ref": "TMA1995/s65",
+      "title": "Amendment after particulars of application have been published—request for amendment not published"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "65A",
+      "ordinal": 70,
+      "ref": "TMA1995/s65A",
+      "title": "Amendment after particulars of application have been published—request for amendment published"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "66",
+      "ordinal": 71,
+      "ref": "TMA1995/s66",
+      "title": "Amendment of other documents"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "66A",
+      "ordinal": 72,
+      "ref": "TMA1995/s66A",
+      "title": "Registrar may require certain requests to be in writing"
+    },
+    {
+      "container_ref": "TMA1995/pt6",
+      "kind": "section",
+      "number": "67",
+      "ordinal": 73,
+      "ref": "TMA1995/s67",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "68",
+      "ordinal": 74,
+      "ref": "TMA1995/s68",
+      "title": "Obligation to register"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "69",
+      "ordinal": 75,
+      "ref": "TMA1995/s69",
+      "title": "Registration—how effected"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "70",
+      "ordinal": 76,
+      "ref": "TMA1995/s70",
+      "title": "Colours in registered trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "71",
+      "ordinal": 77,
+      "ref": "TMA1995/s71",
+      "title": "Notification of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "72",
+      "ordinal": 78,
+      "ref": "TMA1995/s72",
+      "title": "Date and term of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "73",
+      "ordinal": 79,
+      "ref": "TMA1995/s73",
+      "title": "Ceasing of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div1",
+      "kind": "section",
+      "number": "74",
+      "ordinal": 80,
+      "ref": "TMA1995/s74",
+      "title": "Disclaimers"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "74A",
+      "ordinal": 81,
+      "ref": "TMA1995/s74A",
+      "title": "Application of this Division"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "75",
+      "ordinal": 82,
+      "ref": "TMA1995/s75",
+      "title": "Request for renewal"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "76",
+      "ordinal": 83,
+      "ref": "TMA1995/s76",
+      "title": "Notice of renewal due"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "77",
+      "ordinal": 84,
+      "ref": "TMA1995/s77",
+      "title": "Renewal before registration expires"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "78",
+      "ordinal": 85,
+      "ref": "TMA1995/s78",
+      "title": "Failure to renew"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "79",
+      "ordinal": 86,
+      "ref": "TMA1995/s79",
+      "title": "Renewal within 6 months after registration expires"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div2",
+      "kind": "section",
+      "number": "80",
+      "ordinal": 87,
+      "ref": "TMA1995/s80",
+      "title": "Status of unrenewed trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80A",
+      "ordinal": 88,
+      "ref": "TMA1995/s80A",
+      "title": "Application of this Division"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80B",
+      "ordinal": 89,
+      "ref": "TMA1995/s80B",
+      "title": "Expiry of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80C",
+      "ordinal": 90,
+      "ref": "TMA1995/s80C",
+      "title": "Notification about renewal"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80D",
+      "ordinal": 91,
+      "ref": "TMA1995/s80D",
+      "title": "Request for renewal"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80E",
+      "ordinal": 92,
+      "ref": "TMA1995/s80E",
+      "title": "Renewal within prescribed period"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80F",
+      "ordinal": 93,
+      "ref": "TMA1995/s80F",
+      "title": "Failure to renew"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80G",
+      "ordinal": 94,
+      "ref": "TMA1995/s80G",
+      "title": "Renewal within 6 months after end of prescribed period"
+    },
+    {
+      "container_ref": "TMA1995/pt7/div3",
+      "kind": "section",
+      "number": "80H",
+      "ordinal": 95,
+      "ref": "TMA1995/s80H",
+      "title": "Status of unrenewed trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdiva",
+      "kind": "section",
+      "number": "81",
+      "ordinal": 96,
+      "ref": "TMA1995/s81",
+      "title": "Correction of Register"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdiva",
+      "kind": "section",
+      "number": "82",
+      "ordinal": 97,
+      "ref": "TMA1995/s82",
+      "title": "Adaptation of classification"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdiva",
+      "kind": "section",
+      "number": "82A",
+      "ordinal": 98,
+      "ref": "TMA1995/s82A",
+      "title": "Linking series registrations"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdiva",
+      "kind": "section",
+      "number": "83",
+      "ordinal": 99,
+      "ref": "TMA1995/s83",
+      "title": "Amendment of particulars of trade mark entered in Register"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdiva",
+      "kind": "section",
+      "number": "83A",
+      "ordinal": 100,
+      "ref": "TMA1995/s83A",
+      "title": "Amendment of registered trade mark—inconsistency with international agreements"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdivb",
+      "kind": "section",
+      "number": "84",
+      "ordinal": 101,
+      "ref": "TMA1995/s84",
+      "title": "Cancellation of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdivc",
+      "kind": "section",
+      "number": "84A",
+      "ordinal": 102,
+      "ref": "TMA1995/s84A",
+      "title": "Registration may be revoked"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdivc",
+      "kind": "section",
+      "number": "84B",
+      "ordinal": 103,
+      "ref": "TMA1995/s84B",
+      "title": "Registration must be revoked if opposition was ignored in registration process"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdivc",
+      "kind": "section",
+      "number": "84C",
+      "ordinal": 104,
+      "ref": "TMA1995/s84C",
+      "title": "Effect of revocation of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div1/sdivc",
+      "kind": "section",
+      "number": "84D",
+      "ordinal": 105,
+      "ref": "TMA1995/s84D",
+      "title": "Appeal from revocation of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "85",
+      "ordinal": 106,
+      "ref": "TMA1995/s85",
+      "title": "Amendment to correct error or omission"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "86",
+      "ordinal": 107,
+      "ref": "TMA1995/s86",
+      "title": "Amendment or cancellation on ground of contravention of condition etc."
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "87",
+      "ordinal": 108,
+      "ref": "TMA1995/s87",
+      "title": "Amendment or cancellation—loss of exclusive rights to use trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "88",
+      "ordinal": 109,
+      "ref": "TMA1995/s88",
+      "title": "Amendment or cancellation—other specified grounds"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "88A",
+      "ordinal": 110,
+      "ref": "TMA1995/s88A",
+      "title": "Applications by Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "89",
+      "ordinal": 111,
+      "ref": "TMA1995/s89",
+      "title": "Rectification may not be granted in certain cases if registered owner not at fault etc."
+    },
+    {
+      "container_ref": "TMA1995/pt8/div2",
+      "kind": "section",
+      "number": "90",
+      "ordinal": 112,
+      "ref": "TMA1995/s90",
+      "title": "Duties and powers of Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt8/div3",
+      "kind": "section",
+      "number": "91",
+      "ordinal": 113,
+      "ref": "TMA1995/s91",
+      "title": "Amendment of certificate of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "92",
+      "ordinal": 114,
+      "ref": "TMA1995/s92",
+      "title": "Application for removal of trade mark from Register etc."
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "93",
+      "ordinal": 115,
+      "ref": "TMA1995/s93",
+      "title": "Time for making application"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "94",
+      "ordinal": 116,
+      "ref": "TMA1995/s94",
+      "title": "Referral to court"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "95",
+      "ordinal": 117,
+      "ref": "TMA1995/s95",
+      "title": "Notification of application"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "96",
+      "ordinal": 118,
+      "ref": "TMA1995/s96",
+      "title": "Notice of opposition"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "96A",
+      "ordinal": 119,
+      "ref": "TMA1995/s96A",
+      "title": "Circumstances in which opposition may proceed in name of a person other than the person who filed the notice"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "97",
+      "ordinal": 120,
+      "ref": "TMA1995/s97",
+      "title": "Removal of trade mark from the Register etc. if application unopposed etc."
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "98",
+      "ordinal": 121,
+      "ref": "TMA1995/s98",
+      "title": "Trade mark restored to Register in certain circumstances"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "99",
+      "ordinal": 122,
+      "ref": "TMA1995/s99",
+      "title": "Proceedings before Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "99A",
+      "ordinal": 123,
+      "ref": "TMA1995/s99A",
+      "title": "Dismissal of opposition filed with Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "100",
+      "ordinal": 124,
+      "ref": "TMA1995/s100",
+      "title": "Burden on opponent to establish use of trade mark etc."
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "101",
+      "ordinal": 125,
+      "ref": "TMA1995/s101",
+      "title": "Determination of opposed application—general"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "102",
+      "ordinal": 126,
+      "ref": "TMA1995/s102",
+      "title": "Determination of opposed application—localised use of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "103",
+      "ordinal": 127,
+      "ref": "TMA1995/s103",
+      "title": "Registrar to comply with order of court"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "104",
+      "ordinal": 128,
+      "ref": "TMA1995/s104",
+      "title": "Appeal"
+    },
+    {
+      "container_ref": "TMA1995/pt9",
+      "kind": "section",
+      "number": "105",
+      "ordinal": 129,
+      "ref": "TMA1995/s105",
+      "title": "Certificate—use of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "106",
+      "ordinal": 130,
+      "ref": "TMA1995/s106",
+      "title": "Assignment etc. of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "107",
+      "ordinal": 131,
+      "ref": "TMA1995/s107",
+      "title": "Applications for record to be made of assignment etc. of trade mark whose registration is sought"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "108",
+      "ordinal": 132,
+      "ref": "TMA1995/s108",
+      "title": "Recording of assignment etc. of trade mark whose registration is sought"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "109",
+      "ordinal": 133,
+      "ref": "TMA1995/s109",
+      "title": "Application for record of assignment etc. of registered trade mark to be entered in Register"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "110",
+      "ordinal": 134,
+      "ref": "TMA1995/s110",
+      "title": "Recording of assignment etc. of registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt10",
+      "kind": "section",
+      "number": "111",
+      "ordinal": 135,
+      "ref": "TMA1995/s111",
+      "title": "Notification of application to be given to person recorded as claiming interest in trade mark etc."
+    },
+    {
+      "container_ref": "TMA1995/pt11/div1",
+      "kind": "section",
+      "number": "112",
+      "ordinal": 136,
+      "ref": "TMA1995/s112",
+      "title": "Object of Part"
+    },
+    {
+      "container_ref": "TMA1995/pt11/div2",
+      "kind": "section",
+      "number": "113",
+      "ordinal": 137,
+      "ref": "TMA1995/s113",
+      "title": "Application for registration of interest or right in trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt11/div2",
+      "kind": "section",
+      "number": "114",
+      "ordinal": 138,
+      "ref": "TMA1995/s114",
+      "title": "Record of claims to interest etc."
+    },
+    {
+      "container_ref": "TMA1995/pt11/div2",
+      "kind": "section",
+      "number": "115",
+      "ordinal": 139,
+      "ref": "TMA1995/s115",
+      "title": "Amendment and cancellation"
+    },
+    {
+      "container_ref": "TMA1995/pt11/div2",
+      "kind": "section",
+      "number": "116",
+      "ordinal": 140,
+      "ref": "TMA1995/s116",
+      "title": "Record not proof etc. of existence of right etc."
+    },
+    {
+      "container_ref": "TMA1995/pt11/div3",
+      "kind": "section",
+      "number": "117",
+      "ordinal": 141,
+      "ref": "TMA1995/s117",
+      "title": "Application for recording of interest or right in trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt11/div3",
+      "kind": "section",
+      "number": "118",
+      "ordinal": 142,
+      "ref": "TMA1995/s118",
+      "title": "Record of claims to interest etc."
+    },
+    {
+      "container_ref": "TMA1995/pt11/div3",
+      "kind": "section",
+      "number": "119",
+      "ordinal": 143,
+      "ref": "TMA1995/s119",
+      "title": "Amendment and cancellation"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "120",
+      "ordinal": 144,
+      "ref": "TMA1995/s120",
+      "title": "When is a registered trade mark infringed?"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "121",
+      "ordinal": 145,
+      "ref": "TMA1995/s121",
+      "title": "Infringement of trade mark by breach of certain restrictions"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "122",
+      "ordinal": 146,
+      "ref": "TMA1995/s122",
+      "title": "When is a trade mark not infringed?"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "122A",
+      "ordinal": 147,
+      "ref": "TMA1995/s122A",
+      "title": "Exhaustion of a registered trade mark in relation to goods"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "123",
+      "ordinal": 148,
+      "ref": "TMA1995/s123",
+      "title": "Services to which registered trade mark has been applied by or with consent of registered owner"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "124",
+      "ordinal": 149,
+      "ref": "TMA1995/s124",
+      "title": "Prior use of identical trade mark etc."
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "125",
+      "ordinal": 150,
+      "ref": "TMA1995/s125",
+      "title": "What courts may hear action for infringement of registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "126",
+      "ordinal": 151,
+      "ref": "TMA1995/s126",
+      "title": "What relief can be obtained from court"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "127",
+      "ordinal": 152,
+      "ref": "TMA1995/s127",
+      "title": "Special case—plaintiff not entitled to damages etc."
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "128",
+      "ordinal": 153,
+      "ref": "TMA1995/s128",
+      "title": "Circumstances in which action may not be brought"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "129",
+      "ordinal": 154,
+      "ref": "TMA1995/s129",
+      "title": "Application for relief from unjustified threats"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "130",
+      "ordinal": 155,
+      "ref": "TMA1995/s130",
+      "title": "Counterclaim for infringement"
+    },
+    {
+      "container_ref": "TMA1995/pt12",
+      "kind": "section",
+      "number": "130A",
+      "ordinal": 156,
+      "ref": "TMA1995/s130A",
+      "title": "Mere notification of registered trade mark not a threat"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "131",
+      "ordinal": 157,
+      "ref": "TMA1995/s131",
+      "title": "Object of Part"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "132",
+      "ordinal": 158,
+      "ref": "TMA1995/s132",
+      "title": "Notice of objection to importation"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "133",
+      "ordinal": 159,
+      "ref": "TMA1995/s133",
+      "title": "ComptrollerGeneral of Customs may seize goods infringing trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "133A",
+      "ordinal": 160,
+      "ref": "TMA1995/s133A",
+      "title": "Determinations about owners of goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "134",
+      "ordinal": 161,
+      "ref": "TMA1995/s134",
+      "title": "Notice of seizure"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "134A",
+      "ordinal": 162,
+      "ref": "TMA1995/s134A",
+      "title": "Inspection, release etc. of seized goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "135",
+      "ordinal": 163,
+      "ref": "TMA1995/s135",
+      "title": "Consent to forfeiture of seized goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136",
+      "ordinal": 164,
+      "ref": "TMA1995/s136",
+      "title": "Claim for release of seized goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136A",
+      "ordinal": 165,
+      "ref": "TMA1995/s136A",
+      "title": "Seized goods not claimed are forfeited"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136B",
+      "ordinal": 166,
+      "ref": "TMA1995/s136B",
+      "title": "Late claim for release of seized goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136C",
+      "ordinal": 167,
+      "ref": "TMA1995/s136C",
+      "title": "Objector to be notified of claim"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136D",
+      "ordinal": 168,
+      "ref": "TMA1995/s136D",
+      "title": "Release of seized goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "136E",
+      "ordinal": 169,
+      "ref": "TMA1995/s136E",
+      "title": "Goods released but not collected are forfeited"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "137",
+      "ordinal": 170,
+      "ref": "TMA1995/s137",
+      "title": "Action for infringement of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "138",
+      "ordinal": 171,
+      "ref": "TMA1995/s138",
+      "title": "Action for infringement by authorised user"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "139",
+      "ordinal": 172,
+      "ref": "TMA1995/s139",
+      "title": "Disposal of seized goods forfeited to the Commonwealth"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "140",
+      "ordinal": 173,
+      "ref": "TMA1995/s140",
+      "title": "Power of ComptrollerGeneral of Customs to retain control of goods"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "141",
+      "ordinal": 174,
+      "ref": "TMA1995/s141",
+      "title": "Insufficient security"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "141A",
+      "ordinal": 175,
+      "ref": "TMA1995/s141A",
+      "title": "Failure to comply with undertaking etc."
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "142",
+      "ordinal": 176,
+      "ref": "TMA1995/s142",
+      "title": "Commonwealth not liable for loss etc. suffered because of seizure"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "143",
+      "ordinal": 177,
+      "ref": "TMA1995/s143",
+      "title": "Power to require information"
+    },
+    {
+      "container_ref": "TMA1995/pt13",
+      "kind": "section",
+      "number": "144",
+      "ordinal": 178,
+      "ref": "TMA1995/s144",
+      "title": "Modification in relation to Norfolk Island etc."
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "145",
+      "ordinal": 179,
+      "ref": "TMA1995/s145",
+      "title": "Falsifying or removing a registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "146",
+      "ordinal": 180,
+      "ref": "TMA1995/s146",
+      "title": "Falsely applying a registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "147",
+      "ordinal": 181,
+      "ref": "TMA1995/s147",
+      "title": "Making a die etc. for use in trade marks offence"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "147A",
+      "ordinal": 182,
+      "ref": "TMA1995/s147A",
+      "title": "Drawing etc. trade marks for use in offence"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "147B",
+      "ordinal": 183,
+      "ref": "TMA1995/s147B",
+      "title": "Possessing or disposing of things for use in trade marks offence"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "148",
+      "ordinal": 184,
+      "ref": "TMA1995/s148",
+      "title": "Goods with false trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "150",
+      "ordinal": 185,
+      "ref": "TMA1995/s150",
+      "title": "Aiding and abetting offences"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "151",
+      "ordinal": 186,
+      "ref": "TMA1995/s151",
+      "title": "False representations regarding trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "152",
+      "ordinal": 187,
+      "ref": "TMA1995/s152",
+      "title": "False entries in Register etc."
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "153",
+      "ordinal": 188,
+      "ref": "TMA1995/s153",
+      "title": "Disobeying summons etc."
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "154",
+      "ordinal": 189,
+      "ref": "TMA1995/s154",
+      "title": "Refusing to give evidence etc."
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "156",
+      "ordinal": 190,
+      "ref": "TMA1995/s156",
+      "title": "Acting or holding out without being registered"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "157",
+      "ordinal": 191,
+      "ref": "TMA1995/s157",
+      "title": "False representation about Trade Marks Office"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "157A",
+      "ordinal": 192,
+      "ref": "TMA1995/s157A",
+      "title": "Incorporated trade marks attorney must have a trade marks attorney director"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "159",
+      "ordinal": 193,
+      "ref": "TMA1995/s159",
+      "title": "Forfeiture orders under the proceeds of crime legislation"
+    },
+    {
+      "container_ref": "TMA1995/pt14",
+      "kind": "section",
+      "number": "160",
+      "ordinal": 194,
+      "ref": "TMA1995/s160",
+      "title": "Conduct of employees and agents of natural persons"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "161",
+      "ordinal": 195,
+      "ref": "TMA1995/s161",
+      "title": "Object of Part"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "162",
+      "ordinal": 196,
+      "ref": "TMA1995/s162",
+      "title": "What is a collective trade mark?"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "163",
+      "ordinal": 197,
+      "ref": "TMA1995/s163",
+      "title": "Application of Act"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "164",
+      "ordinal": 198,
+      "ref": "TMA1995/s164",
+      "title": "Application for registration"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "165",
+      "ordinal": 199,
+      "ref": "TMA1995/s165",
+      "title": "Limitation on rights given by registered collective trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "166",
+      "ordinal": 200,
+      "ref": "TMA1995/s166",
+      "title": "Assignment etc. of collective trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt15",
+      "kind": "section",
+      "number": "167",
+      "ordinal": 201,
+      "ref": "TMA1995/s167",
+      "title": "Infringement of collective trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "168",
+      "ordinal": 202,
+      "ref": "TMA1995/s168",
+      "title": "Object of Part"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "169",
+      "ordinal": 203,
+      "ref": "TMA1995/s169",
+      "title": "What is a certification trade mark?"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "170",
+      "ordinal": 204,
+      "ref": "TMA1995/s170",
+      "title": "Application of Act"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "171",
+      "ordinal": 205,
+      "ref": "TMA1995/s171",
+      "title": "Rights given by registration of a certification trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "172",
+      "ordinal": 206,
+      "ref": "TMA1995/s172",
+      "title": "Rights of persons allowed to use certification trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "173",
+      "ordinal": 207,
+      "ref": "TMA1995/s173",
+      "title": "Rules governing the use of certification trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "174",
+      "ordinal": 208,
+      "ref": "TMA1995/s174",
+      "title": "Registrar to send documents to Commission"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "175",
+      "ordinal": 209,
+      "ref": "TMA1995/s175",
+      "title": "Certificate by Commission"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "176",
+      "ordinal": 210,
+      "ref": "TMA1995/s176",
+      "title": "Acceptance or rejection of application"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "177",
+      "ordinal": 211,
+      "ref": "TMA1995/s177",
+      "title": "Additional ground for rejecting an application or opposing registration—certification trade mark not distinguishing certified goods or services"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "178",
+      "ordinal": 212,
+      "ref": "TMA1995/s178",
+      "title": "Variation of rules"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "179",
+      "ordinal": 213,
+      "ref": "TMA1995/s179",
+      "title": "Registrar must publish rules"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "180",
+      "ordinal": 214,
+      "ref": "TMA1995/s180",
+      "title": "Assignment of registered certification trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "180A",
+      "ordinal": 215,
+      "ref": "TMA1995/s180A",
+      "title": "Assignment of unregistered certification trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "181",
+      "ordinal": 216,
+      "ref": "TMA1995/s181",
+      "title": "Rectification of the Register by order of court"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "182",
+      "ordinal": 217,
+      "ref": "TMA1995/s182",
+      "title": "Variation of rules by order of court"
+    },
+    {
+      "container_ref": "TMA1995/pt16",
+      "kind": "section",
+      "number": "183",
+      "ordinal": 218,
+      "ref": "TMA1995/s183",
+      "title": "Delegation of Commission’s powers and functions"
+    },
+    {
+      "container_ref": "TMA1995/pt17",
+      "kind": "section",
+      "number": "184",
+      "ordinal": 219,
+      "ref": "TMA1995/s184",
+      "title": "Object of Part"
+    },
+    {
+      "container_ref": "TMA1995/pt17",
+      "kind": "section",
+      "number": "185",
+      "ordinal": 220,
+      "ref": "TMA1995/s185",
+      "title": "Defensive trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt17",
+      "kind": "section",
+      "number": "186",
+      "ordinal": 221,
+      "ref": "TMA1995/s186",
+      "title": "Application of Act"
+    },
+    {
+      "container_ref": "TMA1995/pt17",
+      "kind": "section",
+      "number": "187",
+      "ordinal": 222,
+      "ref": "TMA1995/s187",
+      "title": "Additional grounds for rejecting application for registration or opposing registration"
+    },
+    {
+      "container_ref": "TMA1995/pt17",
+      "kind": "section",
+      "number": "189",
+      "ordinal": 223,
+      "ref": "TMA1995/s189",
+      "title": "Cancellation of registration by Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt17a",
+      "kind": "section",
+      "number": "189A",
+      "ordinal": 224,
+      "ref": "TMA1995/s189A",
+      "title": "Regulations implementing the Madrid Protocol"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "190",
+      "ordinal": 225,
+      "ref": "TMA1995/s190",
+      "title": "Prescribed courts"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "191",
+      "ordinal": 226,
+      "ref": "TMA1995/s191",
+      "title": "Jurisdiction of the Federal Court"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "191A",
+      "ordinal": 227,
+      "ref": "TMA1995/s191A",
+      "title": "Jurisdiction of the Federal Circuit and Family Court of Australia (Division 2)"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "192",
+      "ordinal": 228,
+      "ref": "TMA1995/s192",
+      "title": "Jurisdiction of other prescribed courts"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "193",
+      "ordinal": 229,
+      "ref": "TMA1995/s193",
+      "title": "Exercise of jurisdiction"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "194",
+      "ordinal": 230,
+      "ref": "TMA1995/s194",
+      "title": "Transfer of proceedings"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "195",
+      "ordinal": 231,
+      "ref": "TMA1995/s195",
+      "title": "Appeals"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "196",
+      "ordinal": 232,
+      "ref": "TMA1995/s196",
+      "title": "Registrar may appear in appeals"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "197",
+      "ordinal": 233,
+      "ref": "TMA1995/s197",
+      "title": "Powers of Federal Court and Federal Circuit and Family Court of Australia (Division 2) on hearing an appeal"
+    },
+    {
+      "container_ref": "TMA1995/pt18",
+      "kind": "section",
+      "number": "198",
+      "ordinal": 234,
+      "ref": "TMA1995/s198",
+      "title": "Practice and procedure of prescribed courts"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "199",
+      "ordinal": 235,
+      "ref": "TMA1995/s199",
+      "title": "Trade Marks Office and suboffices"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "200",
+      "ordinal": 236,
+      "ref": "TMA1995/s200",
+      "title": "Seal of Trade Marks Office"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "201",
+      "ordinal": 237,
+      "ref": "TMA1995/s201",
+      "title": "Registrar of Trade Marks"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "202",
+      "ordinal": 238,
+      "ref": "TMA1995/s202",
+      "title": "Registrar’s powers"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "203",
+      "ordinal": 239,
+      "ref": "TMA1995/s203",
+      "title": "Exercise of power by Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "204",
+      "ordinal": 240,
+      "ref": "TMA1995/s204",
+      "title": "Registrar to act as soon as practicable"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "205",
+      "ordinal": 241,
+      "ref": "TMA1995/s205",
+      "title": "Deputy Registrar of Trade Marks"
+    },
+    {
+      "container_ref": "TMA1995/pt19",
+      "kind": "section",
+      "number": "206",
+      "ordinal": 242,
+      "ref": "TMA1995/s206",
+      "title": "Delegation of Registrar’s powers and functions"
+    },
+    {
+      "container_ref": "TMA1995/pt20",
+      "kind": "section",
+      "number": "207",
+      "ordinal": 243,
+      "ref": "TMA1995/s207",
+      "title": "The Register"
+    },
+    {
+      "container_ref": "TMA1995/pt20",
+      "kind": "section",
+      "number": "208",
+      "ordinal": 244,
+      "ref": "TMA1995/s208",
+      "title": "Register may be kept on computer"
+    },
+    {
+      "container_ref": "TMA1995/pt20",
+      "kind": "section",
+      "number": "209",
+      "ordinal": 245,
+      "ref": "TMA1995/s209",
+      "title": "Inspection of Register"
+    },
+    {
+      "container_ref": "TMA1995/pt20",
+      "kind": "section",
+      "number": "210",
+      "ordinal": 246,
+      "ref": "TMA1995/s210",
+      "title": "Evidence—the Register"
+    },
+    {
+      "container_ref": "TMA1995/pt20",
+      "kind": "section",
+      "number": "211",
+      "ordinal": 247,
+      "ref": "TMA1995/s211",
+      "title": "Evidence—certified copies of documents"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "212",
+      "ordinal": 248,
+      "ref": "TMA1995/s212",
+      "title": "Making and signing applications etc."
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "213",
+      "ordinal": 249,
+      "ref": "TMA1995/s213",
+      "title": "Filing of documents"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "213A",
+      "ordinal": 250,
+      "ref": "TMA1995/s213A",
+      "title": "Approved means of filing documents"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "213B",
+      "ordinal": 251,
+      "ref": "TMA1995/s213B",
+      "title": "Directions by Registrar for filing of documents"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "213C",
+      "ordinal": 252,
+      "ref": "TMA1995/s213C",
+      "title": "Directions by Registrar for filing of evidence"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "214",
+      "ordinal": 253,
+      "ref": "TMA1995/s214",
+      "title": "Withdrawal of application etc."
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "214A",
+      "ordinal": 254,
+      "ref": "TMA1995/s214A",
+      "title": "Notifications by Registrar under this Act"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "215",
+      "ordinal": 255,
+      "ref": "TMA1995/s215",
+      "title": "Address for service"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "216",
+      "ordinal": 256,
+      "ref": "TMA1995/s216",
+      "title": "Change of name"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "217",
+      "ordinal": 257,
+      "ref": "TMA1995/s217",
+      "title": "Death of applicant etc."
+    },
+    {
+      "container_ref": "TMA1995/pt21/div1",
+      "kind": "section",
+      "number": "217A",
+      "ordinal": 258,
+      "ref": "TMA1995/s217A",
+      "title": "Prescribed documents relating to trade marks to be made available for public inspection"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2",
+      "kind": "section",
+      "number": "218",
+      "ordinal": 259,
+      "ref": "TMA1995/s218",
+      "title": "Description of registered trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2",
+      "kind": "section",
+      "number": "219",
+      "ordinal": 260,
+      "ref": "TMA1995/s219",
+      "title": "Evidence of trade usage"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2",
+      "kind": "section",
+      "number": "220",
+      "ordinal": 261,
+      "ref": "TMA1995/s220",
+      "title": "Death of party to proceeding before Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2",
+      "kind": "section",
+      "number": "221",
+      "ordinal": 262,
+      "ref": "TMA1995/s221",
+      "title": "Costs awarded by Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2",
+      "kind": "section",
+      "number": "222",
+      "ordinal": 263,
+      "ref": "TMA1995/s222",
+      "title": "Security for costs"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div2a",
+      "kind": "section",
+      "number": "222A",
+      "ordinal": 264,
+      "ref": "TMA1995/s222A",
+      "title": "Computerised decisionmaking"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "223",
+      "ordinal": 265,
+      "ref": "TMA1995/s223",
+      "title": "Fees"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "223AA",
+      "ordinal": 266,
+      "ref": "TMA1995/s223AA",
+      "title": "Approved means of paying a fee"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "223A",
+      "ordinal": 267,
+      "ref": "TMA1995/s223A",
+      "title": "Doing act when Trade Marks Office reopens after end of period otherwise provided for doing act"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "224",
+      "ordinal": 268,
+      "ref": "TMA1995/s224",
+      "title": "Extension of time"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "225",
+      "ordinal": 269,
+      "ref": "TMA1995/s225",
+      "title": "Convention countries"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "226",
+      "ordinal": 270,
+      "ref": "TMA1995/s226",
+      "title": "Preparation etc. of documents relating to trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "226A",
+      "ordinal": 271,
+      "ref": "TMA1995/s226A",
+      "title": "Requirements for confidential treatment of information held in the Trade Marks Office"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "226B",
+      "ordinal": 272,
+      "ref": "TMA1995/s226B",
+      "title": "Certain proceedings do not lie"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "227",
+      "ordinal": 273,
+      "ref": "TMA1995/s227",
+      "title": "Notice regarding review of decision by Administrative Review Tribunal"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "228",
+      "ordinal": 274,
+      "ref": "TMA1995/s228",
+      "title": "Use of trade mark for export trade"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "228A",
+      "ordinal": 275,
+      "ref": "TMA1995/s228A",
+      "title": "Registration of trade marks attorneys"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "228B",
+      "ordinal": 276,
+      "ref": "TMA1995/s228B",
+      "title": "Deregistration of trade marks attorneys"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "229",
+      "ordinal": 277,
+      "ref": "TMA1995/s229",
+      "title": "Privileges of trade marks attorney and patent attorney"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "229AA",
+      "ordinal": 278,
+      "ref": "TMA1995/s229AA",
+      "title": "Designated Manager may disclose information to Board"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "229A",
+      "ordinal": 279,
+      "ref": "TMA1995/s229A",
+      "title": "Designated Manager may disclose information to ASIC"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "229B",
+      "ordinal": 280,
+      "ref": "TMA1995/s229B",
+      "title": "Publishing personal information of registered trade marks attorneys"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "230",
+      "ordinal": 281,
+      "ref": "TMA1995/s230",
+      "title": "Passing off actions"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "231",
+      "ordinal": 282,
+      "ref": "TMA1995/s231",
+      "title": "Regulations"
+    },
+    {
+      "container_ref": "TMA1995/pt21/div3",
+      "kind": "section",
+      "number": "231A",
+      "ordinal": 283,
+      "ref": "TMA1995/s231A",
+      "title": "Regulations may make provision in relation to the Public Health (Tobacco and Other Products) Act 2023"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div1",
+      "kind": "section",
+      "number": "232",
+      "ordinal": 284,
+      "ref": "TMA1995/s232",
+      "title": "Repeal"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "233",
+      "ordinal": 285,
+      "ref": "TMA1995/s233",
+      "title": "Automatic registration under this Act"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "234",
+      "ordinal": 286,
+      "ref": "TMA1995/s234",
+      "title": "Registration conclusive after 7 years"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "235",
+      "ordinal": 287,
+      "ref": "TMA1995/s235",
+      "title": "Term of registration"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "236",
+      "ordinal": 288,
+      "ref": "TMA1995/s236",
+      "title": "Renewal"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "237",
+      "ordinal": 289,
+      "ref": "TMA1995/s237",
+      "title": "Restoration of particulars to Register and renewal of registration where registration expired within 12 months before 1 January 1996"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "238",
+      "ordinal": 290,
+      "ref": "TMA1995/s238",
+      "title": "Disclaimers"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "239",
+      "ordinal": 291,
+      "ref": "TMA1995/s239",
+      "title": "Rules governing the use of certification trade marks registered in Part C of the old register"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div2",
+      "kind": "section",
+      "number": "239A",
+      "ordinal": 292,
+      "ref": "TMA1995/s239A",
+      "title": "Linked trade marks"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "240",
+      "ordinal": 293,
+      "ref": "TMA1995/s240",
+      "title": "Applications, notices etc.—general"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "241",
+      "ordinal": 294,
+      "ref": "TMA1995/s241",
+      "title": "Application for registration of trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "242",
+      "ordinal": 295,
+      "ref": "TMA1995/s242",
+      "title": "Divisional application in relation to pending application"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "243",
+      "ordinal": 296,
+      "ref": "TMA1995/s243",
+      "title": "More than one application lodged on same day for registration of same trade mark"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "244",
+      "ordinal": 297,
+      "ref": "TMA1995/s244",
+      "title": "Application for registration of trade mark whose registration has been sought in Convention country"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "245",
+      "ordinal": 298,
+      "ref": "TMA1995/s245",
+      "title": "Application for registration of a mark in Part C of the old register"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "246",
+      "ordinal": 299,
+      "ref": "TMA1995/s246",
+      "title": "Application for registration of a mark in Part D of the old register"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "247",
+      "ordinal": 300,
+      "ref": "TMA1995/s247",
+      "title": "Amendment of application—specification of goods or services"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "248",
+      "ordinal": 301,
+      "ref": "TMA1995/s248",
+      "title": "Revival of application for registration of trade mark that had lapsed before 1 January 1996"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "249",
+      "ordinal": 302,
+      "ref": "TMA1995/s249",
+      "title": "Application for registration of assignment etc."
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "250",
+      "ordinal": 303,
+      "ref": "TMA1995/s250",
+      "title": "Rectification of Register"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "251",
+      "ordinal": 304,
+      "ref": "TMA1995/s251",
+      "title": "Action for removal of trade mark from Register for nonuse"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "252",
+      "ordinal": 305,
+      "ref": "TMA1995/s252",
+      "title": "Action for infringement of trade mark etc."
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "253",
+      "ordinal": 306,
+      "ref": "TMA1995/s253",
+      "title": "Action under this Act for infringement of trade mark under repealed Act"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "254",
+      "ordinal": 307,
+      "ref": "TMA1995/s254",
+      "title": "Acts not constituting infringement of existing registered mark"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "254A",
+      "ordinal": 308,
+      "ref": "TMA1995/s254A",
+      "title": "Acts not constituting infringement of trade mark—pending application under the repealed Act"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "254B",
+      "ordinal": 309,
+      "ref": "TMA1995/s254B",
+      "title": "Part B defence—infringement of existing registered mark"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "254C",
+      "ordinal": 310,
+      "ref": "TMA1995/s254C",
+      "title": "Part B defence—infringement of trade mark (pending application under the repealed Act)"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "255",
+      "ordinal": 311,
+      "ref": "TMA1995/s255",
+      "title": "Application of this Act—general"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div3",
+      "kind": "section",
+      "number": "256",
+      "ordinal": 312,
+      "ref": "TMA1995/s256",
+      "title": "Fees"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div4",
+      "kind": "section",
+      "number": "257",
+      "ordinal": 313,
+      "ref": "TMA1995/s257",
+      "title": "The Registrar and Deputy Registrar"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div4",
+      "kind": "section",
+      "number": "258",
+      "ordinal": 314,
+      "ref": "TMA1995/s258",
+      "title": "Confidential information received by Registrar under section 74 of the repealed Act"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div4",
+      "kind": "section",
+      "number": "259",
+      "ordinal": 315,
+      "ref": "TMA1995/s259",
+      "title": "Documents kept under repealed Act"
+    },
+    {
+      "container_ref": "TMA1995/pt22/div4",
+      "kind": "section",
+      "number": "260",
+      "ordinal": 316,
+      "ref": "TMA1995/s260",
+      "title": "Address for service"
+    }
+  ]
+}

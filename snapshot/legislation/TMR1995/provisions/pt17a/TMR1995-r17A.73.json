@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div11"
+  ],
+  "content_hash": "sha256:19f103d60ae43e207dd912f3c5fa3742ed01d60780f739a7f10ecda93502e6cb",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 11—Miscellaneous",
+    "17A.73  Security for costs"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.73",
+  "ref": "TMR1995/r17A.73",
+  "text": "If a person who neither resides nor carries on business in Australia: (a) files a notice of opposition to an IRDA as mentioned in subregulation 17A.32(1); or (b) applies to the Registrar under regulation 17A.48C for the cessation of the protection extended to a protected international trade mark; the Registrar may require the person to give security for the costs of the proceeding and may, if security is not given, dismiss the proceeding.",
+  "title": "Security for costs",
+  "units": [
+    {
+      "content_hash": "sha256:08b63f24f67fb38918f0661a7aaa42162b3cef25be956c280ea88459fd35146d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.73~1",
+      "style": "subsection",
+      "text": "If a person who neither resides nor carries on business in Australia:"
+    },
+    {
+      "content_hash": "sha256:608e1ec69cee7b354acdda1f5bd7d5de4a8ee32e815196cf311f590bf43cb047",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.73~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.32(1)",
+          "mention": "subregulation 17A.32(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.73(a)",
+      "style": "paragraph",
+      "text": "(a) files a notice of opposition to an IRDA as mentioned in subregulation 17A.32(1); or"
+    },
+    {
+      "content_hash": "sha256:82eae172eea264cd604b648905af12f658c257301dfd1fe426c152d3d07da0cb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.73~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48C",
+          "mention": "regulation 17A.48C"
+        }
+      ],
+      "ref": "TMR1995/r17A.73(b)",
+      "style": "paragraph",
+      "text": "(b) applies to the Registrar under regulation 17A.48C for the cessation of the protection extended to a protected international trade mark;"
+    },
+    {
+      "content_hash": "sha256:19aa52982ed2f0ed42161a1c25d46db9fb0ca72ed894144a7b64fbbf04e3ed1c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.73~2",
+      "style": "subsection2",
+      "text": "the Registrar may require the person to give security for the costs of the proceeding and may, if security is not given, dismiss the proceeding."
+    }
+  ]
+}

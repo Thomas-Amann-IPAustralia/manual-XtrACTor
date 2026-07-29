@@ -1,0 +1,271 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div1"
+  ],
+  "content_hash": "sha256:7f6cc5e87000051ff0a59887df3ab1da61ccd013dc8de7d4408e5145dbac3ab4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 1—Preliminary",
+    "5.2  Definitions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.2",
+  "ref": "TMR1995/r5.2",
+  "text": "In this Part: notice of intention to defend means a notice filed under regulation 5.13. notice of opposition means a notice of opposition under section 52 of the Act. party means an applicant or opponent. statement of grounds and particulars means a statement by an opponent that sets out: (a) the grounds on which the opponent intends to rely; and (b) the facts and circumstances forming the basis for the grounds. trade mark application means an application for registration of a trade mark under section 27 of the Act. Note: The following terms are defined in section 6 of the Act: (a) applicant; (b) approved form; (c) employee; (d) file; (e) month; (f) opponent; (g) person.",
+  "title": "Definitions",
+  "units": [
+    {
+      "content_hash": "sha256:a6d5c0aac57a71ccac99b977f8ee7f5cf661de5dcb6394735ba66e5c06c8e810",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.2~1",
+      "style": "subsection",
+      "text": "In this Part:"
+    },
+    {
+      "content_hash": "sha256:1fc226cffa2f03b050ae335b04d0fe53c8446a80231bde4b704a4329928a514d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 29,
+          "start": 0,
+          "text": "notice of intention to defend",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.13",
+          "mention": "regulation 5.13"
+        }
+      ],
+      "ref": "TMR1995/r5.2~2",
+      "style": "Definition",
+      "text": "notice of intention to defend means a notice filed under regulation 5.13."
+    },
+    {
+      "content_hash": "sha256:281ec08f3439ef174eac3aa14d5660529928cd50842296816d991c244840a83a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 0,
+          "text": "notice of opposition",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s52",
+          "mention": "section 52"
+        }
+      ],
+      "ref": "TMR1995/r5.2~3",
+      "style": "Definition",
+      "text": "notice of opposition means a notice of opposition under section 52 of the Act."
+    },
+    {
+      "content_hash": "sha256:308eaf8187d54624c0afc76b2d928966aa9b20fe73d3caa21d00aa96ec952b13",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 5,
+          "start": 0,
+          "text": "party",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.2~4",
+      "style": "Definition",
+      "text": "party means an applicant or opponent."
+    },
+    {
+      "content_hash": "sha256:520bede0a774c87c35d2e272e4f76b3926d0777fdd752b612bdc7196620b9706",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 36,
+          "start": 0,
+          "text": "statement of grounds and particulars",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.2~5",
+      "style": "Definition",
+      "text": "statement of grounds and particulars means a statement by an opponent that sets out:"
+    },
+    {
+      "content_hash": "sha256:7278e1734e0818add3ca00e55830d787519933027ef92cf57ce057c8edbd410e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r5.2~5",
+      "ref": "TMR1995/r5.2(a)",
+      "style": "paragraph",
+      "text": "(a) the grounds on which the opponent intends to rely; and"
+    },
+    {
+      "content_hash": "sha256:7a789b7488391b66ce32d917430c511ecab1f2c70081dbde1a80cec275ab5e9c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r5.2~5",
+      "ref": "TMR1995/r5.2(b)",
+      "style": "paragraph",
+      "text": "(b) the facts and circumstances forming the basis for the grounds."
+    },
+    {
+      "content_hash": "sha256:79b9dd2e3c6767aaf130bd2d1b5520294d27bed78992cfb2d1e1173986686e92",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 0,
+          "text": "trade mark application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27",
+          "mention": "section 27"
+        }
+      ],
+      "ref": "TMR1995/r5.2~6",
+      "style": "Definition",
+      "text": "trade mark application means an application for registration of a trade mark under section 27 of the Act."
+    },
+    {
+      "content_hash": "sha256:76b076d12524aa8c40a63377d4a4735ae2020895ffdba8bd1f4f8cbfedbbb09a",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r5.2~6",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/r5.2~6~1",
+      "style": "notetext",
+      "text": "Note: The following terms are defined in section 6 of the Act:"
+    },
+    {
+      "content_hash": "sha256:337c4366a836c58999fd569ad706242c6acaeba625f2c246a953f63d852a867c",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~1",
+      "style": "notepara",
+      "text": "(a) applicant;"
+    },
+    {
+      "content_hash": "sha256:a01ef1641fe66095803e8e3b458c02574a68761fd710102c91f38af6a2bfaf71",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~2",
+      "style": "notepara",
+      "text": "(b) approved form;"
+    },
+    {
+      "content_hash": "sha256:97247c5f9f326d460f287362482193cec26ef6a201bf804d5bae0fbe60694fcb",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~3",
+      "style": "notepara",
+      "text": "(c) employee;"
+    },
+    {
+      "content_hash": "sha256:54903596a1e09cc0be0608df99d52f2a2dac88267a3372910a9e056a05a99324",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~4",
+      "style": "notepara",
+      "text": "(d) file;"
+    },
+    {
+      "content_hash": "sha256:b6954e146200b0a4b7d6324d50010a552cebeb5cc6d8dc909d86565cb5bfab0b",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~5",
+      "style": "notepara",
+      "text": "(e) month;"
+    },
+    {
+      "content_hash": "sha256:6738a8ae3d90234b94f2b0762513038ab6bfd0adfa34ac47ece83c11963eb81a",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~6",
+      "style": "notepara",
+      "text": "(f) opponent;"
+    },
+    {
+      "content_hash": "sha256:e80f63a9badac9669ec01a5f124311a984c2447c9b3fed4e839535093718fac8",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r5.2~6~1",
+      "ref": "TMR1995/r5.2~6~1~7",
+      "style": "notepara",
+      "text": "(g) person."
+    }
+  ]
+}

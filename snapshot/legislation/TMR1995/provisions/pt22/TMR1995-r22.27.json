@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div6"
+  ],
+  "content_hash": "sha256:4d3a14971499a7e66bb29b06db326b52b57261378b604f1789c78c4bdc75904a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 6—Amendments made by the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024",
+    "22.27  Amendments made by Part 2 of Schedule 1"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.27",
+  "ref": "TMR1995/r22.27",
+  "text": "Regulation 9.18A, as inserted by Part 2 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, applies in relation to a trade mark removed from the Register under paragraph 97(1)(a) of the Act after the commencement of that Part.",
+  "title": "Amendments made by Part 2 of Schedule 1",
+  "units": [
+    {
+      "content_hash": "sha256:4d3a14971499a7e66bb29b06db326b52b57261378b604f1789c78c4bdc75904a",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 121,
+          "start": 61,
+          "text": "Intellectual Property Laws Amendment (Regulator Performance)",
+          "weight": "italic"
+        },
+        {
+          "end": 135,
+          "start": 122,
+          "text": "Regulations 2",
+          "weight": "italic"
+        },
+        {
+          "end": 138,
+          "start": 135,
+          "text": "024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s97(1)(a)",
+          "mention": "paragraph 97(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.18A",
+          "mention": "Regulation 9.18A"
+        }
+      ],
+      "ref": "TMR1995/r22.27~1",
+      "style": "subsection",
+      "text": "Regulation 9.18A, as inserted by Part 2 of Schedule 1 to the Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024, applies in relation to a trade mark removed from the Register under paragraph 97(1)(a) of the Act after the commencement of that Part."
+    }
+  ]
+}

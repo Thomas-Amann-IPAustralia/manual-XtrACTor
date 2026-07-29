@@ -1,0 +1,82 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:7c11866151e51042630786461b8b5aeb23da704f63ad9cfef2d89d484ff8e7a5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "170  Application of Act"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "170",
+  "ref": "TMA1995/s170",
+  "text": "Subject to this Part, the provisions of this Act relating to trade marks (other than sections 8 and 26, paragraph 27(1)(b), sections 33, 34 and 41, sections 121 and 127, Part 9—Removal of trade mark from Register for nonuse and Part 17—Defensive Trade Marks) apply to certification trade marks and so apply as if a reference to a trade mark included a reference to a certification trade mark.",
+  "title": "Application of Act",
+  "units": [
+    {
+      "content_hash": "sha256:7c11866151e51042630786461b8b5aeb23da704f63ad9cfef2d89d484ff8e7a5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s121",
+          "mention": "sections 121 and 127"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s127",
+          "mention": "sections 121 and 127"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s26",
+          "mention": "sections 8 and 26"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27(1)(b)",
+          "mention": "paragraph 27(1)(b)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s33",
+          "mention": "sections 33, 34 and 41"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s34",
+          "mention": "sections 33, 34 and 41"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s41",
+          "mention": "sections 33, 34 and 41"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s8",
+          "mention": "sections 8 and 26"
+        }
+      ],
+      "ref": "TMA1995/s170~1",
+      "style": "subsection",
+      "text": "Subject to this Part, the provisions of this Act relating to trade marks (other than sections 8 and 26, paragraph 27(1)(b), sections 33, 34 and 41, sections 121 and 127, Part 9—Removal of trade mark from Register for nonuse and Part 17—Defensive Trade Marks) apply to certification trade marks and so apply as if a reference to a trade mark included a reference to a certification trade mark."
+    }
+  ]
+}

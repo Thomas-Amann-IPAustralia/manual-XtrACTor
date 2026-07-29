@@ -1,0 +1,266 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:9b5f39898e8eab33c6aa1834d12d8af397d934cb818141f5480e4a26c8bcef6b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "244  Application for registration of trade mark whose registration has been sought in Convention country"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "244",
+  "ref": "TMA1995/s244",
+  "text": "(1) This section applies if: (a) an application for the registration in Australia of a trade mark whose registration had been sought in one or more than one Convention country was made under section 109 of the repealed Act; and (b) immediately before 1 January 1996, the application was still pending. Note 1: For pending see subsection 11(2). Note 2: For Convention country see section 225. (2) If: (a) for the purposes of the repealed Act, the Registrar had been notified that an application had been made in that Convention country or in those Convention countries for the registration of the trade mark; and (b) the trade mark is registered under this Act; subsection 72(2) applies in relation to the registration as if a right of priority had been claimed under section 29 for the registration of the trade mark. (3) If the Registrar had not, for the purposes of the repealed Act, been notified that an application had been made in that Convention country or in those Convention countries for the registration of the trade mark, the applicant must, within 6 months after 1 January 1996 but subject to subsection (5), claim a right of priority for the registration of the trade mark in accordance with section 29 in order to obtain registration from the date on which that application or the earliest of those applications was made in a Convention country. (4) If: (a) the applicant claims a right of priority for the registration of the trade mark under subsection (3); and (b) the trade mark is registered under this Act; subsection 72(2) applies in relation to the registration. (5) If the application is accepted under Part 4, the applicant may not claim a right of priority in accordance with section 29 after the acceptance is advertised.",
+  "title": "Application for registration of trade mark whose registration has been sought in Convention country",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s244(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:179ef966ac3de7ad2a4fbef6b3d8c882bd56af95d53278cfb1ffda35be3ec44f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s244(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s109",
+          "mention": "section 109"
+        }
+      ],
+      "ref": "TMA1995/s244(1)(a)",
+      "style": "paragraph",
+      "text": "(a) an application for the registration in Australia of a trade mark whose registration had been sought in one or more than one Convention country was made under section 109 of the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:d42728da8c0b6e4273add276f441c8fef6bd3be1b30956ed7c77f9f8118328c7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s244(1)",
+      "ref": "TMA1995/s244(1)(b)",
+      "style": "paragraph",
+      "text": "(b) immediately before 1 January 1996, the application was still pending."
+    },
+    {
+      "content_hash": "sha256:696e75384e9f8d5d12d0de8f5cabbbb3de55de9abe43a94b0a3c8d3728f271ca",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s244(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s244(1)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:fa16627c837d86e1bb9f6584d5e4ef5b203ee4f43cc60badc3e372e36478fae5",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 12,
+          "text": "Convention country",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s244(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s225",
+          "mention": "section 225"
+        }
+      ],
+      "ref": "TMA1995/s244(1)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: For Convention country see section 225."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s244(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:51406220594df11cd249017ff20180ba776e7cf8b0e38d47bb0c4f88ad3e7186",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s244(2)",
+      "ref": "TMA1995/s244(2)(a)",
+      "style": "paragraph",
+      "text": "(a) for the purposes of the repealed Act, the Registrar had been notified that an application had been made in that Convention country or in those Convention countries for the registration of the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:8ecb43fb3d83d733221ce2d83cb8dc59d704ec3d875b8f60129c0d0e393f8d90",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s244(2)",
+      "ref": "TMA1995/s244(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the trade mark is registered under this Act;"
+    },
+    {
+      "content_hash": "sha256:1111a20696292ebbb5a265f2d9c9536cbf7a5545175cc691901807d89fa277b6",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(2)",
+          "mention": "subsection 72(2)"
+        }
+      ],
+      "ref": "TMA1995/s244~1",
+      "style": "subsection2",
+      "text": "subsection 72(2) applies in relation to the registration as if a right of priority had been claimed under section 29 for the registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:47db23c66a7333bff8dd20e4cad0ccfaa90d17a08a31f3c5b53aced409e70d82",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        }
+      ],
+      "ref": "TMA1995/s244(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar had not, for the purposes of the repealed Act, been notified that an application had been made in that Convention country or in those Convention countries for the registration of the trade mark, the applicant must, within 6 months after 1 January 1996 but subject to subsection (5), claim a right of priority for the registration of the trade mark in accordance with section 29 in order to obtain registration from the date on which that application or the earliest of those applications was made in a Convention country."
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s244(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:1de040c8ae64e3c23a70f155b7208b5592bb37b32b7a9aca21b9f45a26cf71ee",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s244(4)",
+      "ref": "TMA1995/s244(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant claims a right of priority for the registration of the trade mark under subsection (3); and"
+    },
+    {
+      "content_hash": "sha256:8ecb43fb3d83d733221ce2d83cb8dc59d704ec3d875b8f60129c0d0e393f8d90",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s244(4)",
+      "ref": "TMA1995/s244(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the trade mark is registered under this Act;"
+    },
+    {
+      "content_hash": "sha256:59cc1460acd27a68fe9d17160558caef2765db5bb2e8b8510bd4475710835003",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(2)",
+          "mention": "subsection 72(2)"
+        }
+      ],
+      "ref": "TMA1995/s244~2",
+      "style": "subsection2",
+      "text": "subsection 72(2) applies in relation to the registration."
+    },
+    {
+      "content_hash": "sha256:8d7029edecaa8009bc477bd6b3c03fdf0a5f95afed87fda8cad99128657eaa85",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s29",
+          "mention": "section 29"
+        }
+      ],
+      "ref": "TMA1995/s244(5)",
+      "style": "subsection",
+      "text": "(5) If the application is accepted under Part 4, the applicant may not claim a right of priority in accordance with section 29 after the acceptance is advertised."
+    }
+  ]
+}

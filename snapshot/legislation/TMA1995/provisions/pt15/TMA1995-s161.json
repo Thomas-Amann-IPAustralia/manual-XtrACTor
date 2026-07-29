@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt15"
+  ],
+  "content_hash": "sha256:37189a4f649431825c213cf95be8d1f75121e42661496c20df92e04c633ffa73",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 15—Collective trade marks",
+    "161  Object of Part"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "161",
+  "ref": "TMA1995/s161",
+  "text": "This Part: (a) defines a collective trade mark; and (b) provides to what extent, and subject to what modifications or additions, the provisions of this Act relating to trade marks apply to collective trade marks.",
+  "title": "Object of Part",
+  "units": [
+    {
+      "content_hash": "sha256:60affcdddc80b9cf16293af307b055f4fe14e526ff38cf0495fa444468d4f160",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s161~1",
+      "style": "subsection",
+      "text": "This Part:"
+    },
+    {
+      "content_hash": "sha256:e2871ba3922c0d737052642711a1fc250e4d3846df148d55d2b986c27e962627",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s161~1",
+      "ref": "TMA1995/s161(a)",
+      "style": "paragraph",
+      "text": "(a) defines a collective trade mark; and"
+    },
+    {
+      "content_hash": "sha256:6139ae9b1c6628d3d1dd5a3921b302c41c4b86f227e0eeb9b170b42b192512f5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s161~1",
+      "ref": "TMA1995/s161(b)",
+      "style": "paragraph",
+      "text": "(b) provides to what extent, and subject to what modifications or additions, the provisions of this Act relating to trade marks apply to collective trade marks."
+    }
+  ]
+}

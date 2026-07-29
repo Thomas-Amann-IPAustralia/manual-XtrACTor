@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div1"
+  ],
+  "content_hash": "sha256:a7a2d3700b17aee7d92d16042e203ae360724e535c0a0878157d21d4a3b5895f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 1—Amendment of application for registration of trade mark and other documents",
+    "6.4  Notification of amendments"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.4",
+  "ref": "TMR1995/r6.4",
+  "text": "If the Registrar amends an application, notice or document under Part 6 of the Act, the Registrar must give notification of the amendment to: (a) the person who requested the amendment; and (b) any other person that the Registrar thinks appropriate.",
+  "title": "Notification of amendments",
+  "units": [
+    {
+      "content_hash": "sha256:e0de9081f42a67eddc8c04c584f9b210c9dd39e890b070a211948d78a8518b26",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r6.4~1",
+      "style": "subsection",
+      "text": "If the Registrar amends an application, notice or document under Part 6 of the Act, the Registrar must give notification of the amendment to:"
+    },
+    {
+      "content_hash": "sha256:e477dc45b1a46aa4a6a86cf619323ea84bb3d452c5fd4f479c7b4f939e808c3e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r6.4~1",
+      "ref": "TMR1995/r6.4(a)",
+      "style": "paragraph",
+      "text": "(a) the person who requested the amendment; and"
+    },
+    {
+      "content_hash": "sha256:3403fb00a60aa011ba5b40557554680b5676feef9b5488ee9d22de12ea52ee74",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r6.4~1",
+      "ref": "TMR1995/r6.4(b)",
+      "style": "paragraph",
+      "text": "(b) any other person that the Registrar thinks appropriate."
+    }
+  ]
+}

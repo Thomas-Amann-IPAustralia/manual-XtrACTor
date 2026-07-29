@@ -1,0 +1,106 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt19"
+  ],
+  "content_hash": "sha256:0d82e5b3873afd5df8f2844bbf38a5d147d66483b4c1727ab6bcc2d65a4a54f4",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 19—Administration",
+    "202  Registrar’s powers"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "202",
+  "ref": "TMA1995/s202",
+  "text": "The Registrar may, for the purposes of this Act: (a) summon witnesses; and (b) receive written or oral evidence on oath or affirmation; and (c) require the production of documents or articles; and (d) award costs against a party to proceedings brought before the Registrar; and (e) notify any person of any matter that, in his or her opinion, should be brought to the person’s notice. Note: For the awarding of costs see section 221.",
+  "title": "Registrar’s powers",
+  "units": [
+    {
+      "content_hash": "sha256:742bff4b87458e1451467f8ea462e332972e7c866bbde6de672a9f2645d3bf47",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s202~1",
+      "style": "subsection",
+      "text": "The Registrar may, for the purposes of this Act:"
+    },
+    {
+      "content_hash": "sha256:d76b69e5b8d3ed565a0f1bf6bc435f95fa6cbb9525d0c71adf75f388ab1ec5b2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s202~1",
+      "ref": "TMA1995/s202(a)",
+      "style": "paragraph",
+      "text": "(a) summon witnesses; and"
+    },
+    {
+      "content_hash": "sha256:20620f11d490b5cd841da39cbf6c943cb4cd2b3df0decf8ee97c6bc252c2cc31",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s202~1",
+      "ref": "TMA1995/s202(b)",
+      "style": "paragraph",
+      "text": "(b) receive written or oral evidence on oath or affirmation; and"
+    },
+    {
+      "content_hash": "sha256:869f36c0d039acf33a0b7b4e823090568c8d4e46d6b8e1dc6ad28604af10ccf9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s202~1",
+      "ref": "TMA1995/s202(c)",
+      "style": "paragraph",
+      "text": "(c) require the production of documents or articles; and"
+    },
+    {
+      "content_hash": "sha256:9a6434cc380fb41e550659c6ee752ac4c2e973605a01b64dc61e7224d244ad1a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s202~1",
+      "ref": "TMA1995/s202(d)",
+      "style": "paragraph",
+      "text": "(d) award costs against a party to proceedings brought before the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:af3a0f052af40edbe5c240a3c0633962964f7521ee6c0319a2378082ece62585",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s202~1",
+      "ref": "TMA1995/s202(e)",
+      "style": "paragraph",
+      "text": "(e) notify any person of any matter that, in his or her opinion, should be brought to the person’s notice."
+    },
+    {
+      "content_hash": "sha256:b0b62f3ee5deee91e88e7142a71016a5251d309f2802000f22e15d7702a44445",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s202(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s221",
+          "mention": "section 221"
+        }
+      ],
+      "ref": "TMA1995/s202(e)~1",
+      "style": "notetext",
+      "text": "Note: For the awarding of costs see section 221."
+    }
+  ]
+}

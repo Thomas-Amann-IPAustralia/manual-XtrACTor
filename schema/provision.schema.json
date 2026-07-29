@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ipaustralia.gov.au/schemas/frl/provision/1.0.0",
+  "title": "Compiled provision",
+  "description": "One section, regulation, Schedule clause, Schedule item, container body or front-matter block of a compiled instrument, with the numbered units inside it. Every field is derived from the document's Office of Parliamentary Counsel paragraph styles by structural traversal or by regex over the text those styles delimit. Nothing here may be produced by a language model. Compilation identity (registerId, compilation number) is deliberately NOT on this record: it changes on every amendment and would rewrite every file in the corpus each time one provision moved. It lives on instrument.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ref", "instrument", "kind", "containers", "heading_path", "text", "content_hash", "units", "captured_at", "extractor_version"],
+
+  "properties": {
+    "ref": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,8}[0-9]{4}/[A-Za-z0-9/~.()-]+$",
+      "description": "The citable address, and the id. Chosen to be the string tmm_snapshot.citations already emits for a Manual chunk that cites this provision: a Manual chunk carrying provisions[].id == 'TMA1995/s41' is a foreign key onto the record whose ref is 'TMA1995/s41', with no transformation between them. Note what it does NOT carry: the Part. A section number is unique within its instrument, and putting the Part in the address would break every citation to a section the moment a Part was reorganised. Where a number is genuinely not unique — Schedule clauses and Schedule items both restart at 1 in each Schedule — the Schedule is in the address.",
+      "examples": ["TMA1995/s41", "TMR1995/r3A.3", "TMR1995/sch3/item1", "TMR1995/sch9/c1", "TMA1995/front"]
+    },
+
+    "instrument": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,8}[0-9]{4}$",
+      "description": "FK to instrument.json. Everything about the compilation this provision was read from is joined from there rather than copied here.",
+      "examples": ["TMA1995", "TMR1995"]
+    },
+
+    "kind": {
+      "enum": ["section", "regulation", "clause", "item", "container", "front-matter"],
+      "description": "'section' and 'regulation' are the ordinary case. 'clause' is an ActHead5 inside a Schedule, which is a clause and not a regulation — Schedule 9 of the Regulations opens '1  Table of fees' and reading that as regulation 1 would collide with regulation 1.1. 'item' is a Schedule amendment item. The last two exist so that no text falls out of the corpus: 'container' is a Part or Schedule with law sitting directly under it and no provision heading in between (Schedule 2 of the Regulations is a bare list of prohibited signs), and 'front-matter' is everything before the first numbered heading — in the Act, the compilation's own preamble together with the Reader's Guide, which Endnote 4 tracks as amendable while giving it no number anywhere."
+    },
+
+    "number": {
+      "type": ["string", "null"],
+      "description": "As printed, from the provision heading. null for front-matter, which has none.",
+      "examples": ["41", "3A.3", "133A"]
+    },
+
+    "title": { "type": ["string", "null"] },
+
+    "containers": {
+      "type": "array",
+      "description": "Refs of the Chapter/Part/Division/Subdivision/Schedule ancestry, outermost first. Resolvable against contents.json. Kept as refs rather than titles so a renamed Part is one edit in one file.",
+      "items": { "type": "string" },
+      "examples": [["TMA1995/pt4", "TMA1995/pt4/div2"]]
+    },
+
+    "heading_path": {
+      "type": "array",
+      "description": "Full ancestry as words, outermost first, ending in this provision's own heading. Prepended to the text when the provision enters a prompt so it is self-describing — the same contract as chunk.heading_path in the Manual.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+
+    "text": {
+      "type": "string",
+      "description": "Verbatim, whitespace-normalised, and exactly the join of the units' text with single spaces. That equality is checked by the validator over the whole corpus: it is what stops this field drifting into a second, differently worded copy of the law. May be empty — the compilation retains repealed provisions whose entire content is a heading."
+    },
+
+    "content_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+
+    "units": {
+      "type": "array",
+      "description": "The numbered tree the drafter asserted, in document order. In a statute the boundaries are the addresses: s41(3)(a) is not a paragraph of section 41, it is a provision cited in its own right.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref", "ordinal", "depth", "kind", "text", "content_hash"],
+        "properties": {
+          "ref": {
+            "type": "string",
+            "description": "Parent's ref plus this unit's printed label, so the address a reader would write is the address stored: 'TMA1995/s41(3)(a)'. A unit with no label of its own — a note, an unlabelled paragraph — takes the positional suffix '~n' within its parent, which says plainly that the number is ours and not the drafter's.",
+            "examples": ["TMA1995/s41(3)(a)", "TMA1995/s41(4)(b)(i)", "TMA1995/s41(5)~1"]
+          },
+          "parent_ref": {
+            "type": ["string", "null"],
+            "description": "null means the unit hangs directly off the provision."
+          },
+          "ordinal": { "type": "integer", "minimum": 1, "description": "Position within the provision, contiguous from 1." },
+          "depth": { "type": "integer", "minimum": 0 },
+          "kind": {
+            "enum": ["subsection", "paragraph", "definition", "note", "penalty", "heading", "table", "text", "special"],
+            "description": "'definition' is a Definition-styled paragraph in a definitions provision; its defined term is the leading bold-italic run, recorded in 'emphasis' and left for a consumer to read rather than asserted here. 'heading' is a run-in SubsectionHead, which parents nothing: how far such a heading reaches is a judgement about meaning, not a fact the markup states. 'special' is the OPC 'Specials' style — text set as it will appear once a Schedule's modifications are applied, which looks exactly like a section heading and is not one."
+          },
+          "style": {
+            "type": ["string", "null"],
+            "description": "The w:pStyle verbatim. This is the evidence every other field on the unit was derived from, kept so a consumer can disagree with the derivation without re-reading the .docx.",
+            "examples": ["subsection", "paragraphsub", "notetext", "Definition"]
+          },
+          "number": {
+            "type": ["string", "null"],
+            "description": "The printed label. Also present at the front of 'text', and that is not duplication: the document reads '(3) This subsection applies…' and a reader quoting it should get that, while the address is built from the label alone.",
+            "examples": ["(1)", "(a)", "(iv)"]
+          },
+          "text": { "type": "string" },
+          "content_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "number_collision": {
+            "type": "boolean",
+            "description": "Present and true when a sibling prints the same number. The Regulations do this twice — r17A.61(2) has two paragraphs (b), r20A.22(2)(b) has two subparagraphs (ii) — so a citation to either address names two provisions and cannot be resolved to one. Recorded rather than fixed, the same answer page.printed_page_ref gives to the two Manual pages that both print the address 20.2. Route to review; never hydrate from it silently."
+          },
+          "emphasis": {
+            "type": "array",
+            "description": "Bold, italic and bold-italic stretches of 'text', in document order, neither sorted nor deduplicated. Recorded rather than interpreted, for the same reason chunk.links records an anchor's offsets rather than deciding what it meant: the leading bold-italic run of a Definition is the defined term, and legislation italicises the names of other instruments, so this is where a defined-terms vocabulary and an instrument-citation layer both come from — without either being asserted here.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "start", "end", "weight"],
+              "properties": {
+                "text": { "type": "string" },
+                "start": { "type": "integer", "minimum": 0, "description": "text[start:end] == this span's text. Checked by the validator over the whole corpus, not in a test alone: an offset drifted by one underlines the wrong words while staying well-formed." },
+                "end": { "type": "integer", "minimum": 0 },
+                "weight": { "enum": ["bold", "italic", "bold-italic"] }
+              }
+            }
+          },
+          "provisions": {
+            "type": "array",
+            "description": "Statutory references in this unit's words, in the same shape the Manual's chunks carry, so one predicate filters both corpora. Every edge here is extraction 'regex': a compiled instrument carries no hyperlinks at all, which is a fact about the source rather than a gap in the reading. Because the ids are this corpus's own refs, these double as the instrument's internal cross-reference graph.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "extraction"],
+              "properties": {
+                "id": { "type": "string", "examples": ["TMA1995/s41", "TMR1995/r3A.3"] },
+                "extraction": { "enum": ["href", "regex"] },
+                "certainty": { "enum": ["explicit", "default", "ambiguous"] },
+                "mention": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "table": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rows"],
+            "description": "The grid, where the unit is a table. A header row is recorded only where the markup declares one through a TableHeading-styled cell — the first row is never assumed to be a header, the same rule tables.py applies to the Manual.",
+            "properties": {
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["text", "colspan", "heading", "continues"],
+                    "properties": {
+                      "text": { "type": "string" },
+                      "colspan": { "type": "integer", "minimum": 1 },
+                      "heading": { "type": "boolean" },
+                      "continues": { "type": "boolean", "description": "This cell continues a vertical merge from the row above, so the text belongs to the cell that began it." }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "captured_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this version of the provision was first seen — carried forward unchanged while every other field matches. When the run happened is a property of the run and lives in manifest.json."
+    },
+
+    "extractor_version": { "type": "string", "examples": ["legislation/0.1.0"] }
+  }
+}

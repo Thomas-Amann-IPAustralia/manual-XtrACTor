@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdivc"
+  ],
+  "content_hash": "sha256:c86ef568928dfef461dc146ef9f3dca3aabbc8c4af5170ab7edec46d605df8ee",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision C—Revoking registration",
+    "84D  Appeal from revocation of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "84D",
+  "ref": "TMA1995/s84D",
+  "text": "An appeal lies to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar to revoke the registration of a trade mark under section 84A.",
+  "title": "Appeal from revocation of registration",
+  "units": [
+    {
+      "content_hash": "sha256:c86ef568928dfef461dc146ef9f3dca3aabbc8c4af5170ab7edec46d605df8ee",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s84A",
+          "mention": "section 84A"
+        }
+      ],
+      "ref": "TMA1995/s84D~1",
+      "style": "subsection",
+      "text": "An appeal lies to the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) from a decision of the Registrar to revoke the registration of a trade mark under section 84A."
+    }
+  ]
+}

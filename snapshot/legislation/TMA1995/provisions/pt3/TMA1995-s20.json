@@ -1,0 +1,239 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:4c22a02dd7a3cfe95bfce5f3c33b99ba5b8d095789031a4273e525e233ec8b4f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "20  Rights given by registration of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "20",
+  "ref": "TMA1995/s20",
+  "text": "(1) If a trade mark is registered, the registered owner of the trade mark has, subject to this Part, the exclusive rights: (a) to use the trade mark; and (b) to authorise other persons to use the trade mark; in relation to the goods and/or services in respect of which the trade mark is registered. Note 1: For registered owner see section 6. Note 2: For use see section 7. Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A. (2) The registered owner of a trade mark has also the right to obtain relief under this Act if the trade mark has been infringed. Note: For what amounts to an infringement of a trade mark see Part 12. (3) The rights are taken to have accrued to the registered owner as from the date of registration of the trade mark. Note: For date of registration see section 6. (4) If the trade mark is registered subject to conditions or limitations, the rights of the registered owner are restricted by those conditions or limitations. Note: For limitations see section 6. (5) If the trade mark is registered in the name of 2 or more persons as joint owners of the trade mark, the rights granted to those persons under this section are to be exercised by them as if they were the rights of a single person.",
+  "title": "Rights given by registration of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:3418420d73bfd8173a75068689fd325dc8492136b35fdc9ef45cb71eb7d68c46",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s20(1)",
+      "style": "subsection",
+      "text": "(1) If a trade mark is registered, the registered owner of the trade mark has, subject to this Part, the exclusive rights:"
+    },
+    {
+      "content_hash": "sha256:7af01d9dc59c7ee7d92dce9bd0c3b40c896c8200d3c62651e41db03b9c06207d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s20(1)",
+      "ref": "TMA1995/s20(1)(a)",
+      "style": "paragraph",
+      "text": "(a) to use the trade mark; and"
+    },
+    {
+      "content_hash": "sha256:86b242993b33772fda58388090d4d3e8e16dbf8c8ef18ed3aec4ba36ea5365e1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s20(1)",
+      "ref": "TMA1995/s20(1)(b)",
+      "style": "paragraph",
+      "text": "(b) to authorise other persons to use the trade mark;"
+    },
+    {
+      "content_hash": "sha256:3307d73780fe4860af69f3d8480a95ab9d8bb82f5238fd4f662e683a9d73814f",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s20~1",
+      "style": "subsection2",
+      "text": "in relation to the goods and/or services in respect of which the trade mark is registered."
+    },
+    {
+      "content_hash": "sha256:785f3cd36e8b98cd01a0aef08bbbccbc745059ec7fc212dcc9c28285861b5b9a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s20~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s20~1~1",
+      "style": "notetext",
+      "text": "Note 1: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:0ea38179d707eebec26cbbd7b77ac3a196ad280c258f81662f03474a331f18eb",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 12,
+          "text": "use",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s20~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7",
+          "mention": "section 7"
+        }
+      ],
+      "ref": "TMA1995/s20~1~2",
+      "style": "notetext",
+      "text": "Note 2: For use see section 7."
+    },
+    {
+      "content_hash": "sha256:f904ac3de044959b37a9aa708db51719a2f3f9f7840fb984b8b364a2abe8beb8",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s20~1",
+      "ref": "TMA1995/s20~1~3",
+      "style": "notetext",
+      "text": "Note 3: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:f134f1d6da807fe6e57538b51de55c7514dfb7aaf572973a756a9f251417a343",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s20(2)",
+      "style": "subsection",
+      "text": "(2) The registered owner of a trade mark has also the right to obtain relief under this Act if the trade mark has been infringed."
+    },
+    {
+      "content_hash": "sha256:0e549b1dd65480b63276a5a6be6a5162a74fc7ebfe681443dfd19449cf6648f4",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s20(2)",
+      "ref": "TMA1995/s20(2)~1",
+      "style": "notetext",
+      "text": "Note: For what amounts to an infringement of a trade mark see Part 12."
+    },
+    {
+      "content_hash": "sha256:dd5561052b1ed875eef830d2db5d70f5d81a07a7c5574d36724bd081db9a1b5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s20(3)",
+      "style": "subsection",
+      "text": "(3) The rights are taken to have accrued to the registered owner as from the date of registration of the trade mark."
+    },
+    {
+      "content_hash": "sha256:ad60ec01950c8f6f76206dbc1d903432eb029044acb7950215b57f8a1dfab1d9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 30,
+          "start": 10,
+          "text": "date of registration",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s20(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s20(3)~1",
+      "style": "notetext",
+      "text": "Note: For date of registration see section 6."
+    },
+    {
+      "content_hash": "sha256:09b0f1472d7ba494956af12e7d55b9a733286f7a7f966908f3a6c53ccd839b6a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s20(4)",
+      "style": "subsection",
+      "text": "(4) If the trade mark is registered subject to conditions or limitations, the rights of the registered owner are restricted by those conditions or limitations."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s20(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s20(4)~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    },
+    {
+      "content_hash": "sha256:d2de326e8809f552b973219391baf5f97c5de32560528a6bb6fc82a8ef1afcab",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s20(5)",
+      "style": "subsection",
+      "text": "(5) If the trade mark is registered in the name of 2 or more persons as joint owners of the trade mark, the rights granted to those persons under this section are to be exercised by them as if they were the rights of a single person."
+    }
+  ]
+}

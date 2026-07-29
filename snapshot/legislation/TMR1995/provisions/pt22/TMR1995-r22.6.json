@@ -1,0 +1,179 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:56636edaed20a9eeb0694ce1f90345350c5721e02a8a9a3b223bed86793a92ed",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.6  Deferment of acceptance—certain applications"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.6",
+  "ref": "TMR1995/r22.6",
+  "text": "If: (a) an applicant requests the Registrar to defer acceptance of an application for registration of a trade mark because of another trade mark that is registered by another person; and (b) the applicant has lodged an application under section 23 of the Trade Marks Act 1955 in respect of the other trade mark; then: (c) regulation 4.13 applies in relation to the firstmentioned application as if the reference in subparagraph 4.13(1)(c)(iii) to an application under section 92 were a reference to an application under section 23 of the Trade Marks Act 1955; and (d) regulation 4.14 applies in relation to that application as if the reference in paragraph 4.14(3)(c) to Part 9 of the Trade Marks Act 1995 were a reference to section 23 of the Trade Marks Act 1955.",
+  "title": "Deferment of acceptance—certain applications",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.6~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:8f6f67e8879c132c9cf9c8ad55961a851730534a1abe84805135c2fa00ddcfec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.6~1",
+      "ref": "TMR1995/r22.6(a)",
+      "style": "paragraph",
+      "text": "(a) an applicant requests the Registrar to defer acceptance of an application for registration of a trade mark because of another trade mark that is registered by another person; and"
+    },
+    {
+      "content_hash": "sha256:27cab02bb5e4519294d1845ddd7142ee18356d224f81bff1236143a0390c0e29",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 88,
+          "start": 68,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.6~1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s23",
+          "mention": "section 23 of the Trade Marks Act 1955"
+        }
+      ],
+      "ref": "TMR1995/r22.6(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant has lodged an application under section 23 of the Trade Marks Act 1955 in respect of the other trade mark;"
+    },
+    {
+      "content_hash": "sha256:3d07e6c3c10497481107bd9525d6d73a2a4d7402ee8b0f0a6e9e4b02f27096a9",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.6~2",
+      "style": "subsection2",
+      "text": "then:"
+    },
+    {
+      "content_hash": "sha256:7d345fe0d82e75285a6e5addcc43dee989574bb6004e30882a4a64f4a80289f9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 231,
+          "start": 220,
+          "text": "Trade Marks",
+          "weight": "italic"
+        },
+        {
+          "end": 240,
+          "start": 232,
+          "text": "Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r22.6~2",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s23",
+          "mention": "section 23 of the Trade Marks Act 1955"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.13(1)(c)(iii)",
+          "mention": "subparagraph 4.13(1)(c)(iii)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92",
+          "mention": "section 92"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.13",
+          "mention": "regulation 4.13"
+        }
+      ],
+      "ref": "TMR1995/r22.6(c)",
+      "style": "paragraph",
+      "text": "(c) regulation 4.13 applies in relation to the firstmentioned application as if the reference in subparagraph 4.13(1)(c)(iii) to an application under section 92 were a reference to an application under section 23 of the Trade Marks Act 1955; and"
+    },
+    {
+      "content_hash": "sha256:90ac46e12b7afe7afe6b44678976eebb48797f543f0c549f65caddb7c5601a88",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 141,
+          "start": 121,
+          "text": "Trade Marks Act 1995",
+          "weight": "italic"
+        },
+        {
+          "end": 200,
+          "start": 180,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r22.6~2",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s23",
+          "mention": "section 23 of the Trade Marks Act 1955"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s4.14(3)(c)",
+          "mention": "paragraph 4.14(3)(c) to Part 9 of the Trade Marks Act 1995"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.14",
+          "mention": "regulation 4.14"
+        }
+      ],
+      "ref": "TMR1995/r22.6(d)",
+      "style": "paragraph",
+      "text": "(d) regulation 4.14 applies in relation to that application as if the reference in paragraph 4.14(3)(c) to Part 9 of the Trade Marks Act 1995 were a reference to section 23 of the Trade Marks Act 1955."
+    }
+  ]
+}

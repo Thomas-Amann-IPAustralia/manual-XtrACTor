@@ -1,0 +1,191 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:21c1145247d4dfbfc636288dc7204442f75dd891d4f20a1d049979dc0ce662c7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80A  Application of this Division"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80A",
+  "ref": "TMA1995/s80A",
+  "text": "(1) This Division applies to a registered trade mark if particulars of registration were entered in the Register under section 69 on a day (Register entry day) that occurs after the end of the period of 10 years after the filing date of the application for registration. Note: For filing date see section 6. (2) For the purposes of this Division, each of the following is a potential renewal period in relation to the registered trade mark: (a) the period (first potential renewal period) of 10 years that commenced 10 years after the filing date of the application for registration; (b) any successive period of 10 years, being a period that commences before the Register entry day. (3) For the purposes of this Division, the prescribed period is a period that: (a) is specified in the regulations; and (b) commences on the Register entry day.",
+  "title": "Application of this Division",
+  "units": [
+    {
+      "content_hash": "sha256:8cdea6faa67748b7fbc5bfa0d1307e9d4fc5088d260bfc296d4f76d65cc6f796",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 140,
+          "start": 139,
+          "text": "(",
+          "weight": "bold"
+        },
+        {
+          "end": 158,
+          "start": 140,
+          "text": "Register entry day",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 159,
+          "start": 158,
+          "text": ")",
+          "weight": "bold"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s69",
+          "mention": "section 69"
+        }
+      ],
+      "ref": "TMA1995/s80A(1)",
+      "style": "subsection",
+      "text": "(1) This Division applies to a registered trade mark if particulars of registration were entered in the Register under section 69 on a day (Register entry day) that occurs after the end of the period of 10 years after the filing date of the application for registration."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80A(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80A(1)~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    },
+    {
+      "content_hash": "sha256:1e16b39c3d1ad923c390beb362cf46a796d8961e8b1d1b69b59718d046ec2d0d",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 90,
+          "start": 66,
+          "text": "potential renewal period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s80A(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of this Division, each of the following is a potential renewal period in relation to the registered trade mark:"
+    },
+    {
+      "content_hash": "sha256:68cc68bc7497a66aa2742ab49bf1baa7ac9d3714d98a81506de664412b285bc7",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 15,
+          "text": "(",
+          "weight": "bold"
+        },
+        {
+          "end": 46,
+          "start": 16,
+          "text": "first potential renewal period",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 47,
+          "start": 46,
+          "text": ")",
+          "weight": "bold"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s80A(2)",
+      "ref": "TMA1995/s80A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the period (first potential renewal period) of 10 years that commenced 10 years after the filing date of the application for registration;"
+    },
+    {
+      "content_hash": "sha256:c04da10a1d7ec49fbbcbb7fab25bbd6b8d28a495fb2c1605a56775b3a6c73f87",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s80A(2)",
+      "ref": "TMA1995/s80A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) any successive period of 10 years, being a period that commences before the Register entry day."
+    },
+    {
+      "content_hash": "sha256:592796a9e6cfe996dc2072fd249d4c76a79a92d23d4bce032889aa0a0ffc818e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 60,
+          "start": 43,
+          "text": "prescribed period",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s80A(3)",
+      "style": "subsection",
+      "text": "(3) For the purposes of this Division, the prescribed period is a period that:"
+    },
+    {
+      "content_hash": "sha256:3de0a502db7fa672a22834de4e074578a5acc352bd1c40afdbd2bce9d9eb5176",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s80A(3)",
+      "ref": "TMA1995/s80A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) is specified in the regulations; and"
+    },
+    {
+      "content_hash": "sha256:f21ca13814ab299357c7207c84f1f0c7223268f93cab8428dfd223da683107d4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s80A(3)",
+      "ref": "TMA1995/s80A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) commences on the Register entry day."
+    }
+  ]
+}

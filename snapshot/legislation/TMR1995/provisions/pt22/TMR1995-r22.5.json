@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:28ddb78937f801e3955d724d7feaf9989576211c298b36330b27fbd4218ff66a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.5  Certain extensions of time continue"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.5",
+  "ref": "TMR1995/r22.5",
+  "text": "If: (a) the Registrar has extended a period of time under section 130 or 131 of the Trade Marks Act 1955; and (b) the extended period of time had not ended before the commencement of these regulations; the period ends when it would have ended if that section had continued to be in force.",
+  "title": "Certain extensions of time continue",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.5~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:9b03ebd8264d717b33d9e406582b019f83f4c98456b6cd37bf8bb3f04e12fb24",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 100,
+          "start": 80,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.5~1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s130",
+          "mention": "section 130 or 131 of the Trade Marks Act 1955"
+        },
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1955/s131",
+          "mention": "section 130 or 131 of the Trade Marks Act 1955"
+        }
+      ],
+      "ref": "TMR1995/r22.5(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar has extended a period of time under section 130 or 131 of the Trade Marks Act 1955; and"
+    },
+    {
+      "content_hash": "sha256:88715421eee3ed6aeb88bf65f685bc786d85a5bb831025d8e7467aae831bb812",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.5~1",
+      "ref": "TMR1995/r22.5(b)",
+      "style": "paragraph",
+      "text": "(b) the extended period of time had not ended before the commencement of these regulations;"
+    },
+    {
+      "content_hash": "sha256:338aa7910b166cbba551d572df84806e673d249521e5d8333ce0badc32dc606f",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.5~2",
+      "style": "subsection2",
+      "text": "the period ends when it would have ended if that section had continued to be in force."
+    }
+  ]
+}

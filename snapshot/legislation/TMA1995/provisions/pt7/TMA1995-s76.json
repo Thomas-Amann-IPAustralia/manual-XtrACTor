@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:8eb46f7e2fe9145840f07d89b0ac4fe04ad38730c9e2a64b9da78d645deab0b9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "76  Notice of renewal due"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "76",
+  "ref": "TMA1995/s76",
+  "text": "If, at the beginning of the prescribed period, the Registrar has not received a request for the renewal of the registration of the trade mark, the Registrar must, in accordance with the regulations, notify the registered owner of the trade mark that the renewal is due. Note: For registered owner see section 6.",
+  "title": "Notice of renewal due",
+  "units": [
+    {
+      "content_hash": "sha256:6cbfa4eac51dd3c4f9de99055bbe4d8aaabb694a6cd98dda52c32dedaabb721d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s76~1",
+      "style": "subsection",
+      "text": "If, at the beginning of the prescribed period, the Registrar has not received a request for the renewal of the registration of the trade mark, the Registrar must, in accordance with the regulations, notify the registered owner of the trade mark that the renewal is due."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s76~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s76~1~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    }
+  ]
+}

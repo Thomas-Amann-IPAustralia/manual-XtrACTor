@@ -1,0 +1,103 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:9ed5d7395399a3877cad33b0ccc1cf14ccff0d89f76ad49972ed3bad804eb6b5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "249  Application for registration of assignment etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "249",
+  "ref": "TMA1995/s249",
+  "text": "If an application for the registration in the old register of the assignment or transmission of an existing registered mark was pending immediately before 1 January 1996, this Act applies in relation to the application as if: (a) it were an application under section 109 for a record of the assignment or transmission to be entered in the Register; and (b) that application was filed on 1 January 1996. Note: For old register, existing registered mark and file see section 6.",
+  "title": "Application for registration of assignment etc.",
+  "units": [
+    {
+      "content_hash": "sha256:dcf7e73f3b4ca04c49747ce888ff1a7fcec5b591d88dec00e7c6e37286984c67",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s249~1",
+      "style": "subsection",
+      "text": "If an application for the registration in the old register of the assignment or transmission of an existing registered mark was pending immediately before 1 January 1996, this Act applies in relation to the application as if:"
+    },
+    {
+      "content_hash": "sha256:0c556fe493201ef64da14f901d6b2071cd5f354c00468c8698f87427efb078ad",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s249~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s109",
+          "mention": "section 109"
+        }
+      ],
+      "ref": "TMA1995/s249(a)",
+      "style": "paragraph",
+      "text": "(a) it were an application under section 109 for a record of the assignment or transmission to be entered in the Register; and"
+    },
+    {
+      "content_hash": "sha256:95abc7b2dc5217db98099364c661d0bf7306e4b778bd9b621935cf75e60ffbec",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s249~1",
+      "ref": "TMA1995/s249(b)",
+      "style": "paragraph",
+      "text": "(b) that application was filed on 1 January 1996."
+    },
+    {
+      "content_hash": "sha256:49a21dffcf050e077a7054b7bdf4cee80b2bd7a390071e889d3a7b99efeeac81",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "old register",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 48,
+          "start": 24,
+          "text": "existing registered mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 57,
+          "start": 53,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s249(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s249(b)~1",
+      "style": "notetext",
+      "text": "Note: For old register, existing registered mark and file see section 6."
+    }
+  ]
+}

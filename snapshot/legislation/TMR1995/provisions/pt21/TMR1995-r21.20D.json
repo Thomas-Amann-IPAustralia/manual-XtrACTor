@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div2a"
+  ],
+  "content_hash": "sha256:47138c21bd51d97d02575f1f26be8568cbbdc29baa9d99e9a0245dc86471e915",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 2A—Extensions of time",
+    "21.20D  Practice and procedure"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.20D",
+  "ref": "TMR1995/r21.20D",
+  "text": "The Registrar may: (a) decide the practice and procedure to be followed in an opposition to which this Division applies; and (b) direct the parties accordingly.",
+  "title": "Practice and procedure",
+  "units": [
+    {
+      "content_hash": "sha256:bd42aa14d060938d872cffb6beb16645a2ad869f1760eb409d30e0229fba955a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.20D~1",
+      "style": "subsection",
+      "text": "The Registrar may:"
+    },
+    {
+      "content_hash": "sha256:fe7bf50348c42b2aa8be55dfc337c41be6542150c548c5612c8ad1bb7d85b7fd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.20D~1",
+      "ref": "TMR1995/r21.20D(a)",
+      "style": "paragraph",
+      "text": "(a) decide the practice and procedure to be followed in an opposition to which this Division applies; and"
+    },
+    {
+      "content_hash": "sha256:a2af5b012e42c615c75500f343054c688271939c231c2748358defc6830c50ed",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.20D~1",
+      "ref": "TMR1995/r21.20D(b)",
+      "style": "paragraph",
+      "text": "(b) direct the parties accordingly."
+    }
+  ]
+}

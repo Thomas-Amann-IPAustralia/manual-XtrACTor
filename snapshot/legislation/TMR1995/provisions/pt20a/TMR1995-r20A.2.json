@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div1"
+  ],
+  "content_hash": "sha256:ee78ebf7525f80c21c9527e2c5b8eae7d15d3c6c5a6b7a185631d2d4b9632808",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 1—General",
+    "20A.2  Definitions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.2",
+  "ref": "TMR1995/r20A.2",
+  "text": "In this Part: professional indemnity insurance means insurance for claims that may be made against the company in relation to its business, practices or acts as an incorporated trade marks attorney.",
+  "title": "Definitions",
+  "units": [
+    {
+      "content_hash": "sha256:a6d5c0aac57a71ccac99b977f8ee7f5cf661de5dcb6394735ba66e5c06c8e810",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.2~1",
+      "style": "subsection",
+      "text": "In this Part:"
+    },
+    {
+      "content_hash": "sha256:b47dd7a48d3b043200e39413bc54305914984977fb4d987bbfbe4eb68a50fa45",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 0,
+          "text": "professional indemnity insurance",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.2~2",
+      "style": "Definition",
+      "text": "professional indemnity insurance means insurance for claims that may be made against the company in relation to its business, practices or acts as an incorporated trade marks attorney."
+    }
+  ]
+}

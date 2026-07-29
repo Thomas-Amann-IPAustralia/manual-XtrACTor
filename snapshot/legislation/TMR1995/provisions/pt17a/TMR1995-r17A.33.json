@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:88c80cf420dd8089195de5ab90e0c12e38cb59504f42352a8c9fee3cda72676d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.33  Filing of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.33",
+  "ref": "TMR1995/r17A.33",
+  "text": "(1) If the Registrar publishes the acceptance of an IRDA in a computer database maintained by the Trade Marks Office in accordance with regulation 17A.25, a person may oppose the extension of protection by filing a notice of intention to oppose within 2 months from the publication of the acceptance. (2) The notice must be in an approved form. (3) The Registrar must give a copy of the notice to the holder of the IRDA.",
+  "title": "Filing of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:5646f7f47bbe68c53a7fb01967dc8ab13541623b74d4af33fec65ee13a4e44e5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.25",
+          "mention": "regulation 17A.25"
+        }
+      ],
+      "ref": "TMR1995/r17A.33(1)",
+      "style": "subsection",
+      "text": "(1) If the Registrar publishes the acceptance of an IRDA in a computer database maintained by the Trade Marks Office in accordance with regulation 17A.25, a person may oppose the extension of protection by filing a notice of intention to oppose within 2 months from the publication of the acceptance."
+    },
+    {
+      "content_hash": "sha256:cff104fd035bdb4288a7e06c320cc644bb966a51671a54d50c6cc8c9a48c5d52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.33(2)",
+      "style": "subsection",
+      "text": "(2) The notice must be in an approved form."
+    },
+    {
+      "content_hash": "sha256:e0c53f31d97d1361381695b294f3a0b4da4a7a45b807e07b3fbc8d87a1631bfd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.33(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must give a copy of the notice to the holder of the IRDA."
+    }
+  ]
+}

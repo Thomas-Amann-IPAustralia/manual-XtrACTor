@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div10"
+  ],
+  "content_hash": "sha256:cb216aecc744bf5c559265e0eb0fc3cda0a1773f302fefbbcfa35c4989612220",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 10—Recording of claimed interests and rights",
+    "17A.62  Recording of claims"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.62",
+  "ref": "TMR1995/r17A.62",
+  "text": "If the application is made in accordance with regulation 17A.61, the Registrar must record in the Record of International Registrations particulars of the claim.",
+  "title": "Recording of claims",
+  "units": [
+    {
+      "content_hash": "sha256:cb216aecc744bf5c559265e0eb0fc3cda0a1773f302fefbbcfa35c4989612220",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.61",
+          "mention": "regulation 17A.61"
+        }
+      ],
+      "ref": "TMR1995/r17A.62~1",
+      "style": "subsection",
+      "text": "If the application is made in accordance with regulation 17A.61, the Registrar must record in the Record of International Registrations particulars of the claim."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div11"
+  ],
+  "content_hash": "sha256:cd8776410a082d4601ab85c32724761c47af6b5030b46e2121cc299b5c99d484",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 11—Miscellaneous",
+    "17A.71  Passing off actions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.71",
+  "ref": "TMR1995/r17A.71",
+  "text": "Subsection 230(2) of the Act applies for the purposes of an action for passing off arising out of the use of a protected international trade mark in the same way as it applies for the purposes of an action for passing off arising out of the use of a registered trade mark.",
+  "title": "Passing off actions",
+  "units": [
+    {
+      "content_hash": "sha256:cd8776410a082d4601ab85c32724761c47af6b5030b46e2121cc299b5c99d484",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s230(2)",
+          "mention": "Subsection 230(2)"
+        }
+      ],
+      "ref": "TMR1995/r17A.71~1",
+      "style": "subsection",
+      "text": "Subsection 230(2) of the Act applies for the purposes of an action for passing off arising out of the use of a protected international trade mark in the same way as it applies for the purposes of an action for passing off arising out of the use of a registered trade mark."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div2a"
+  ],
+  "content_hash": "sha256:e8defab85d6f83505f6370a47e09778580296b587d1e12a400a555c3c0815b5f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 2A—Computerised decisionmaking",
+    "222A  Computerised decisionmaking"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "222A",
+  "ref": "TMA1995/s222A",
+  "text": "(1) The Registrar may arrange for the use, under the Registrar’s control, of computer programs for any purposes for which the Registrar may, or must, under this Act: (a) make a decision; or (b) exercise any power or comply with any obligation; or (c) do anything else related to making a decision to which paragraph (a) applies or related to exercising a power, or complying with an obligation, to which paragraph (b) applies. Note: A reference to this Act includes the regulations (see section 6). (2) For the purposes of this Act, the Registrar is taken to have: (a) made a decision; or (b) exercised a power or complied with an obligation; or (c) done something else related to the making of a decision or the exercise of a power or the compliance with an obligation; that was made, exercised, complied with or done by the operation of a computer program under an arrangement made under subsection (1). Substituted decisions (3) The Registrar may substitute a decision for a decision the Registrar is taken to have made under paragraph (2)(a) if the Registrar is satisfied that the decision made by the operation of the computer program is incorrect. Review (4) If: (a) the Registrar is taken to have made a decision (the initial decision) under paragraph (2)(a); and (b) under another provision of this Act, an application may be made to the Administrative Review Tribunal for review of the initial decision; and (c) the Registrar, under subsection (3), substitutes a decision for the initial decision; an application may be made to the Administrative Review Tribunal for review of the substituted decision.",
+  "title": "Computerised decisionmaking",
+  "units": [
+    {
+      "content_hash": "sha256:0b49bccdfcb200c15851598f4d848c11b08ae1acc1ba54e0fe0ad5fb2dbb9405",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may arrange for the use, under the Registrar’s control, of computer programs for any purposes for which the Registrar may, or must, under this Act:"
+    },
+    {
+      "content_hash": "sha256:c1c7bad2021bf242c6bba6d9ed12099be7dacb8e3293d89c351ae0e3808cc1ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s222A(1)",
+      "ref": "TMA1995/s222A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) make a decision; or"
+    },
+    {
+      "content_hash": "sha256:2e85c6417edf8afbdde376952414810abcc0527cc36c4c299f02979a33cc748d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s222A(1)",
+      "ref": "TMA1995/s222A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) exercise any power or comply with any obligation; or"
+    },
+    {
+      "content_hash": "sha256:4f2b763aed300319d45bb41fe2cc3fa31c8357822cc8dc717975133693cc5a68",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s222A(1)",
+      "ref": "TMA1995/s222A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) do anything else related to making a decision to which paragraph (a) applies or related to exercising a power, or complying with an obligation, to which paragraph (b) applies."
+    },
+    {
+      "content_hash": "sha256:72dac72a3749a4627a6797b538b94354e4ff1554c96bafb202e649f70ebb1296",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s222A(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s222A(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: A reference to this Act includes the regulations (see section 6)."
+    },
+    {
+      "content_hash": "sha256:2274139138a055bf895dbc5727d9c44db9da06692902a7ecd0825fc86c576464",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of this Act, the Registrar is taken to have:"
+    },
+    {
+      "content_hash": "sha256:31aad067f22e2403d9950bc3fb4d1211cf844a7cb526060a78d6c84db5254fd2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s222A(2)",
+      "ref": "TMA1995/s222A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) made a decision; or"
+    },
+    {
+      "content_hash": "sha256:0280dc515cdc06d93a48bdaabdbc912ffe3479a9dbb65fecf12db168aec436b2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s222A(2)",
+      "ref": "TMA1995/s222A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) exercised a power or complied with an obligation; or"
+    },
+    {
+      "content_hash": "sha256:9e11d4f799601a1ad094e13b3c8d215b90496b8a9795851dc50803d7e0e8bb4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s222A(2)",
+      "ref": "TMA1995/s222A(2)(c)",
+      "style": "paragraph",
+      "text": "(c) done something else related to the making of a decision or the exercise of a power or the compliance with an obligation;"
+    },
+    {
+      "content_hash": "sha256:d24dbf06e4598659330aefa5047d804de27dbfd3e6611eab7e6b7303939d9c9a",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A~1",
+      "style": "subsection2",
+      "text": "that was made, exercised, complied with or done by the operation of a computer program under an arrangement made under subsection (1)."
+    },
+    {
+      "content_hash": "sha256:a70defc5e92cf215b7f5b484929796c0c2154e345468e6af27903d6956e93024",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A~2",
+      "style": "SubsectionHead",
+      "text": "Substituted decisions"
+    },
+    {
+      "content_hash": "sha256:a8c824237e9b683791ec8910753dc55cb1d1c0aac6a20fc419e719fa12e4a088",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may substitute a decision for a decision the Registrar is taken to have made under paragraph (2)(a) if the Registrar is satisfied that the decision made by the operation of the computer program is incorrect."
+    },
+    {
+      "content_hash": "sha256:aff0766a5290e117b8433c351bae7b7b23bed682b2369bd822d88a647cc58512",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A~3",
+      "style": "SubsectionHead",
+      "text": "Review"
+    },
+    {
+      "content_hash": "sha256:d2f5f49ec1f7330ef64587d901daa8b9a298914abdcef152de24da487e3d3c3f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A(4)",
+      "style": "subsection",
+      "text": "(4) If:"
+    },
+    {
+      "content_hash": "sha256:1ccdeb195594ab1daf7a40c5974a5e7ed056a549d5a6cb188ef6137667caa836",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 72,
+          "start": 56,
+          "text": "initial decision",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s222A(4)",
+      "ref": "TMA1995/s222A(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar is taken to have made a decision (the initial decision) under paragraph (2)(a); and"
+    },
+    {
+      "content_hash": "sha256:58c9ce16ba69a53898db59556e7e2d49aaec1836fe11496ef72262b6eb4e7342",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s222A(4)",
+      "ref": "TMA1995/s222A(4)(b)",
+      "style": "paragraph",
+      "text": "(b) under another provision of this Act, an application may be made to the Administrative Review Tribunal for review of the initial decision; and"
+    },
+    {
+      "content_hash": "sha256:93bfd9f2b4c8239749bf5d93807d303dcd0b3a624962dbe0db02516ef9db3343",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s222A(4)",
+      "ref": "TMA1995/s222A(4)(c)",
+      "style": "paragraph",
+      "text": "(c) the Registrar, under subsection (3), substitutes a decision for the initial decision;"
+    },
+    {
+      "content_hash": "sha256:232ff7ef9592e0a429bbaa4756bacb60075989c2d716a65c55f2ae4250634ab4",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s222A~4",
+      "style": "subsection2",
+      "text": "an application may be made to the Administrative Review Tribunal for review of the substituted decision."
+    }
+  ]
+}

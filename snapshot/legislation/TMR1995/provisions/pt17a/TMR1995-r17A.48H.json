@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div5",
+    "TMR1995/pt17a/div5/sdivd"
+  ],
+  "content_hash": "sha256:3cfe367d4547679874cf6c2158a44882709e0cff857b591d1652d24fcefa1911",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 5—Protected international trade marks—amendment or cessation of protection",
+    "Subdivision D—Cessation of protection for nonuse",
+    "17A.48H  Opponent must have address for service"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.48H",
+  "ref": "TMR1995/r17A.48H",
+  "text": "(1) This regulation applies despite any other regulation in this Subdivision. (2) The Registrar is not required to take any action in response to a notice of opposition filed under regulation 17A.48F unless the opponent has notified the Registrar, in writing, of the opponent’s address for service in Australia or New Zealand. (3) A requirement to give a document to an opponent, or to give the opponent an opportunity to make written representations or to be heard, does not apply if no address for service of the opponent is recorded in the Record of International Registrations.",
+  "title": "Opponent must have address for service",
+  "units": [
+    {
+      "content_hash": "sha256:87c6bbef99751b39bf16e280085043386cbea1ccc7aba3d5ba084eed709e0727",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48H(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies despite any other regulation in this Subdivision."
+    },
+    {
+      "content_hash": "sha256:73c0a223ee57a52d6b8f885e75d0c50f1bbade39a3b3df79dcc9df3db8e4035f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48F",
+          "mention": "regulation 17A.48F"
+        }
+      ],
+      "ref": "TMR1995/r17A.48H(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar is not required to take any action in response to a notice of opposition filed under regulation 17A.48F unless the opponent has notified the Registrar, in writing, of the opponent’s address for service in Australia or New Zealand."
+    },
+    {
+      "content_hash": "sha256:74e1f1f3057046727d3555ba7247302001edebd704c53ee6ef8e2c6f598574ed",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.48H(3)",
+      "style": "subsection",
+      "text": "(3) A requirement to give a document to an opponent, or to give the opponent an opportunity to make written representations or to be heard, does not apply if no address for service of the opponent is recorded in the Record of International Registrations."
+    }
+  ]
+}

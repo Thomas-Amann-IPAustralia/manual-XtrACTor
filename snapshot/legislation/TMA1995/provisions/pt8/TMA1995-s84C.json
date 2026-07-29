@@ -1,0 +1,258 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdivc"
+  ],
+  "content_hash": "sha256:b6ca0035b70ccdc2d514494835e573a338e71a0974a33a9968e0cb1c7b50c22f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision C—Revoking registration",
+    "84C  Effect of revocation of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "84C",
+  "ref": "TMA1995/s84C",
+  "text": "(1) This section applies if the Registrar revokes the registration of a trade mark under section 84A or 84B. (2) This Act generally applies as if the registration had never occurred, but: (a) subsection 129(4) applies as if the trade mark had ceased to be registered at the time of the revocation; and (b) if the ComptrollerGeneral of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless: (i) the Registrar gives the ComptrollerGeneral of Customs written notice of the revocation; and (ii) the seizure occurs after the notice is given to the ComptrollerGeneral of Customs; and (c) Part 14 applies as if the trade mark had ceased to be registered at the time of the revocation; and (d) subsection 230(2) applies in relation to a defendant who was the registered owner of the trade mark before the revocation as if the trade mark had ceased to be registered at the time of the revocation; and (e) subsection 230(2) applies in relation to a defendant who was an authorised user of the trade mark before the revocation as if the trade mark had ceased to be registered at the time the defendant became aware of the revocation. Note: For registered owner see section 6. (3) To avoid doubt, paragraph (2)(b) does not, by itself, make the Commonwealth liable if the circumstances described in subparagraphs (2)(b)(i) and (ii) exist. (4) This Act applies as if, just after the revocation: (a) the application for registration of the trade mark reflected the particulars in the Register for the trade mark just before the revocation; and (b) the applicant for registration of the trade mark were the person in whose name the trade mark was registered just before the revocation. (5) This subsection has effect if the Registrar revokes the acceptance of the application for registration of the trade mark after revoking the registration. The Registrar may, but need not, examine the application again under section 31 before rejecting the application. This has effect despite paragraph 38(2)(b).",
+  "title": "Effect of revocation of registration",
+  "units": [
+    {
+      "content_hash": "sha256:dd06c5117848ae33789240311980a420f4d0042f6afc1ffe5b379ed5b2ac9f33",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s84A",
+          "mention": "section 84A or 84B"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s84B",
+          "mention": "section 84A or 84B"
+        }
+      ],
+      "ref": "TMA1995/s84C(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if the Registrar revokes the registration of a trade mark under section 84A or 84B."
+    },
+    {
+      "content_hash": "sha256:b8a1bc78f27a2dcd1abc81388b6c0950d3051780d7c307b93c191c92386fad68",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s84C(2)",
+      "style": "subsection",
+      "text": "(2) This Act generally applies as if the registration had never occurred, but:"
+    },
+    {
+      "content_hash": "sha256:6dada0423e7750a275cebe04402131a7815e9871c26bc469ff2400baf30b8464",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s84C(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s129(4)",
+          "mention": "subsection 129(4)"
+        }
+      ],
+      "ref": "TMA1995/s84C(2)(a)",
+      "style": "paragraph",
+      "text": "(a) subsection 129(4) applies as if the trade mark had ceased to be registered at the time of the revocation; and"
+    },
+    {
+      "content_hash": "sha256:9ae441d97aff2a08c30db2adfe832da218bfbfcffc89e2f9dcfdaf0a2dc7a613",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s84C(2)",
+      "ref": "TMA1995/s84C(2)(b)",
+      "style": "paragraph",
+      "text": "(b) if the ComptrollerGeneral of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless:"
+    },
+    {
+      "content_hash": "sha256:f6dc7c37f966b8fedbebd9b5dcb94286f35ec9760c72fd765692485eaf7c74fa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s84C(2)(b)",
+      "ref": "TMA1995/s84C(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the Registrar gives the ComptrollerGeneral of Customs written notice of the revocation; and"
+    },
+    {
+      "content_hash": "sha256:e1a3360f76a85dcd167905e9ba6805eb7c15a4c49dffc2f283edcc90c0bc3a4e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s84C(2)(b)",
+      "ref": "TMA1995/s84C(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the seizure occurs after the notice is given to the ComptrollerGeneral of Customs; and"
+    },
+    {
+      "content_hash": "sha256:0b388330b61abbf7bb9a3bdb66a778a12b9f84368a8bb3287988ccb6b2f4406f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s84C(2)",
+      "ref": "TMA1995/s84C(2)(c)",
+      "style": "paragraph",
+      "text": "(c) Part 14 applies as if the trade mark had ceased to be registered at the time of the revocation; and"
+    },
+    {
+      "content_hash": "sha256:e75273db2481674627c2c8bb4377cd9becba0389938eba7a351c13a561b2b8ab",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s84C(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s230(2)",
+          "mention": "subsection 230(2)"
+        }
+      ],
+      "ref": "TMA1995/s84C(2)(d)",
+      "style": "paragraph",
+      "text": "(d) subsection 230(2) applies in relation to a defendant who was the registered owner of the trade mark before the revocation as if the trade mark had ceased to be registered at the time of the revocation; and"
+    },
+    {
+      "content_hash": "sha256:6eb3ea4d286ad12703a24eeb179081d18a2b3e76df2510d2d5898778bc6dc0d6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s84C(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s230(2)",
+          "mention": "subsection 230(2)"
+        }
+      ],
+      "ref": "TMA1995/s84C(2)(e)",
+      "style": "paragraph",
+      "text": "(e) subsection 230(2) applies in relation to a defendant who was an authorised user of the trade mark before the revocation as if the trade mark had ceased to be registered at the time the defendant became aware of the revocation."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s84C(2)(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s84C(2)(e)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:1f7d4560b4fcb638b0ae5aa97fbeca6393de6b1b66b1126db8603522d6fa0c37",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s84C(3)",
+      "style": "subsection",
+      "text": "(3) To avoid doubt, paragraph (2)(b) does not, by itself, make the Commonwealth liable if the circumstances described in subparagraphs (2)(b)(i) and (ii) exist."
+    },
+    {
+      "content_hash": "sha256:48a98d8b26b5bf6a6737963df98d0b54d6da6318dbe4f0b04594945cd81f841b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s84C(4)",
+      "style": "subsection",
+      "text": "(4) This Act applies as if, just after the revocation:"
+    },
+    {
+      "content_hash": "sha256:e34b4d16e3e014ef04b9230b5fe6763b4e7029365df390ddbecb77ba1daee049",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s84C(4)",
+      "ref": "TMA1995/s84C(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the application for registration of the trade mark reflected the particulars in the Register for the trade mark just before the revocation; and"
+    },
+    {
+      "content_hash": "sha256:8aef2db041de18725f8a8519e847f7674f77a4eb491689d50be446b1d4e5eed0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s84C(4)",
+      "ref": "TMA1995/s84C(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant for registration of the trade mark were the person in whose name the trade mark was registered just before the revocation."
+    },
+    {
+      "content_hash": "sha256:53c22f094a9b1a3feb29b995d52aef20de0a5ea57eca6830aa8ef9b768382b20",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s31",
+          "mention": "section 31"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s38(2)(b)",
+          "mention": "paragraph 38(2)(b)"
+        }
+      ],
+      "ref": "TMA1995/s84C(5)",
+      "style": "subsection",
+      "text": "(5) This subsection has effect if the Registrar revokes the acceptance of the application for registration of the trade mark after revoking the registration. The Registrar may, but need not, examine the application again under section 31 before rejecting the application. This has effect despite paragraph 38(2)(b)."
+    }
+  ]
+}

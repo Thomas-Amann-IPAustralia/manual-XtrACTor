@@ -1,0 +1,43 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:47e6730054bb7fe6d49a7b285e925a1328f09befe9a52c856c5413903071779a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "131  Object of Part"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "131",
+  "ref": "TMA1995/s131",
+  "text": "The object of this Part is to protect registered trade marks by making provision allowing the ComptrollerGeneral of Customs to seize and deal with goods that are imported into Australia if the importation infringes, or appears to infringe, a registered trade mark. Note: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A.",
+  "title": "Object of Part",
+  "units": [
+    {
+      "content_hash": "sha256:7f8a069f40a78b57c39978d18334511ea7530ce18eb88e30c015e4c535d92e5d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s131~1",
+      "style": "subsection",
+      "text": "The object of this Part is to protect registered trade marks by making provision allowing the ComptrollerGeneral of Customs to seize and deal with goods that are imported into Australia if the importation infringes, or appears to infringe, a registered trade mark."
+    },
+    {
+      "content_hash": "sha256:9af497e51c62089ccde9a9c4857fe27dc4868e2638169109397c26150d0b8227",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s131~1",
+      "ref": "TMA1995/s131~1~1",
+      "style": "notetext",
+      "text": "Note: In addition, the regulations may provide for the effect of a protected international trade mark: see Part 17A."
+    }
+  ]
+}

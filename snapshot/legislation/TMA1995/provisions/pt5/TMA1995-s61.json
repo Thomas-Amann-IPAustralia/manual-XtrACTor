@@ -1,0 +1,337 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:a98a801ad431aa4923ae507b20086a660b82b34243dd284217c7442eb8bebb52",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "61  Trade mark containing or consisting of a false geographical indication"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "61",
+  "ref": "TMA1995/s61",
+  "text": "(1) The registration of a trade mark in respect of particular goods (relevant goods) may be opposed on the ground that the trade mark contains or consists of a sign that is a geographical indication for goods (designated goods) originating in: (a) a country, or in a region or locality in a country, other than the country in which the relevant goods originated; or (b) a region or locality in the country in which the relevant goods originated other than the region or locality in which the relevant goods originated; if the relevant goods are similar to the designated goods or the use of a trade mark in respect of the relevant goods would be likely to deceive or cause confusion. (2) An opposition on a ground referred to in subsection (1) fails if the applicant establishes that: (a) the relevant goods originated in the country, region or locality identified by the geographical indication; or (aa) the sign is not recognised as a geographical indication for the designated goods in the country in which the designated goods originated; or (b) the sign has ceased to be used as a geographical indication for the designated goods in the country in which the designated goods originated; or (c) the applicant, or a predecessor in title of the applicant, used the sign in good faith in respect of the relevant goods, or applied in good faith for the registration of the trade mark in respect of the relevant goods, before: (i) 1 January 1996; or (ii) the day on which the sign was recognised as a geographical indication for the designated goods in their country of origin; whichever is the later; or (d) if the registration of the trade mark is being sought in respect of wine or spirits (relevant wine or spirits)—the sign is identical with the name that, on 1 January 1995, was, in the country in which the relevant wine or spirits originated, the customary name of a variety of grapes used in the production of the relevant wine or spirits. (3) An opposition on a ground referred to in subsection (1) also fails if the applicant establishes that: (a) although the sign is a geographical indication for the designated goods, it is also a geographical indication for the relevant goods; and (b) the applicant has not used, and does not intend to use, the trade mark in relation to the relevant goods in a way that is likely to deceive or confuse members of the public as to the origin of the relevant goods. (4) An opposition on a ground referred to in subsection (1) also fails if the applicant establishes that: (a) the sign consists of a word or term that is a geographical indication; and (b) the word or term is a common English word or term; and (c) the applicant has not used, and does not intend to use, the trade mark in relation to the relevant goods in a way that is likely to deceive or confuse members of the public as to the origin of the relevant goods. Note 1: For applicant, predecessor in title and geographical indication see section 6. Note 2: For originate (in relation to wine only) see section 15.",
+  "title": "Trade mark containing or consisting of a false geographical indication",
+  "units": [
+    {
+      "content_hash": "sha256:b3f780a1a08049ffb53cfbb89a945139bc3881265c54308848e0b464c09bc535",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 83,
+          "start": 69,
+          "text": "relevant goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 226,
+          "start": 210,
+          "text": "designated goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s61(1)",
+      "style": "subsection",
+      "text": "(1) The registration of a trade mark in respect of particular goods (relevant goods) may be opposed on the ground that the trade mark contains or consists of a sign that is a geographical indication for goods (designated goods) originating in:"
+    },
+    {
+      "content_hash": "sha256:02593ba054c76054af612e60a275b73f394e7a381fbacc3c821e3a9f75882804",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s61(1)",
+      "ref": "TMA1995/s61(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a country, or in a region or locality in a country, other than the country in which the relevant goods originated; or"
+    },
+    {
+      "content_hash": "sha256:3579ff1edf7fae3a92e4d985769219639d901887756a1d5a0f2a947096a5cb14",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s61(1)",
+      "ref": "TMA1995/s61(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a region or locality in the country in which the relevant goods originated other than the region or locality in which the relevant goods originated;"
+    },
+    {
+      "content_hash": "sha256:3b6b2fa238ed3e76c3192d915748bc4ca79009fc663f8c85c09d019087a1f5f8",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s61~1",
+      "style": "subsection2",
+      "text": "if the relevant goods are similar to the designated goods or the use of a trade mark in respect of the relevant goods would be likely to deceive or cause confusion."
+    },
+    {
+      "content_hash": "sha256:a4ce47e4490aa714242baa6ec96b707cd2b3d224f1e879cc086b6a5e0c7cd1ea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s61(2)",
+      "style": "subsection",
+      "text": "(2) An opposition on a ground referred to in subsection (1) fails if the applicant establishes that:"
+    },
+    {
+      "content_hash": "sha256:325ef20067ff24818fcbb1a00d93ccb7861d08dbf6577dcb1f98e8332d4ab004",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the relevant goods originated in the country, region or locality identified by the geographical indication; or"
+    },
+    {
+      "content_hash": "sha256:ca356fbb594f903f1ead6acd6d078a053a9083be17f77c75ca2a31878663a591",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(aa)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)(aa)",
+      "style": "paragraph",
+      "text": "(aa) the sign is not recognised as a geographical indication for the designated goods in the country in which the designated goods originated; or"
+    },
+    {
+      "content_hash": "sha256:56279471aa1e3f1e94cb220004e6f80b1e11294971a06a09099a914a94005c4c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the sign has ceased to be used as a geographical indication for the designated goods in the country in which the designated goods originated; or"
+    },
+    {
+      "content_hash": "sha256:8d20e2dd94ca16219ba1bd15a2b20184bb4f9c11f4c04d5beef667a8443a98ab",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the applicant, or a predecessor in title of the applicant, used the sign in good faith in respect of the relevant goods, or applied in good faith for the registration of the trade mark in respect of the relevant goods, before:"
+    },
+    {
+      "content_hash": "sha256:f20e028f9feb3fb4aaf42b82cffca3d89772cafab2d2e20ed829ce861b0e8d5e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s61(2)(c)",
+      "ref": "TMA1995/s61(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) 1 January 1996; or"
+    },
+    {
+      "content_hash": "sha256:0473ae89b4a1428831562781d718b0c6143883591abba405df7ec97dba3c3ea1",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s61(2)(c)",
+      "ref": "TMA1995/s61(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the day on which the sign was recognised as a geographical indication for the designated goods in their country of origin;"
+    },
+    {
+      "content_hash": "sha256:22679d597f382f95ad363867137554987ba1278711cbd0786dc49eb9ccaf1432",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)~1",
+      "style": "paragraph",
+      "text": "whichever is the later; or"
+    },
+    {
+      "content_hash": "sha256:9498ed39197d6cf2c13c4a8616f3538dbe3b614fc0fb386eb56422f70e5d044e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 113,
+          "start": 89,
+          "text": "relevant wine or spirits",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s61(2)",
+      "ref": "TMA1995/s61(2)(d)",
+      "style": "paragraph",
+      "text": "(d) if the registration of the trade mark is being sought in respect of wine or spirits (relevant wine or spirits)—the sign is identical with the name that, on 1 January 1995, was, in the country in which the relevant wine or spirits originated, the customary name of a variety of grapes used in the production of the relevant wine or spirits."
+    },
+    {
+      "content_hash": "sha256:57aa288008bd0a534f6ef4ffe7930dd8768f92cf7c021bbbcd98ad7fd9892466",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s61(3)",
+      "style": "subsection",
+      "text": "(3) An opposition on a ground referred to in subsection (1) also fails if the applicant establishes that:"
+    },
+    {
+      "content_hash": "sha256:23940e2384cf2cae49a12267db38029ea952007d2683e506e08623da5d37e2be",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s61(3)",
+      "ref": "TMA1995/s61(3)(a)",
+      "style": "paragraph",
+      "text": "(a) although the sign is a geographical indication for the designated goods, it is also a geographical indication for the relevant goods; and"
+    },
+    {
+      "content_hash": "sha256:41a2a26de65a98205679b98c2fc37d68ea3ce211c7082a5a0ece3a1f32e9b774",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s61(3)",
+      "ref": "TMA1995/s61(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the applicant has not used, and does not intend to use, the trade mark in relation to the relevant goods in a way that is likely to deceive or confuse members of the public as to the origin of the relevant goods."
+    },
+    {
+      "content_hash": "sha256:381a10de4b87315e559f3f42fee2426a537bf1f2aa26d7a4f25fd295361cce3c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMA1995/s61(4)",
+      "style": "subsection",
+      "text": "(4) An opposition on a ground referred to in subsection (1) also fails if the applicant establishes that:"
+    },
+    {
+      "content_hash": "sha256:7ebb5d4a38567c8e35a1d6fccb296fe178487e2a9c1b325bdbfda5bee82fcdb0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s61(4)",
+      "ref": "TMA1995/s61(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the sign consists of a word or term that is a geographical indication; and"
+    },
+    {
+      "content_hash": "sha256:aefdd3b8fdeed09cafbb67ea86796fa3dd2c71ba944409775c3a80db9cb67101",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s61(4)",
+      "ref": "TMA1995/s61(4)(b)",
+      "style": "paragraph",
+      "text": "(b) the word or term is a common English word or term; and"
+    },
+    {
+      "content_hash": "sha256:7e7d4da7f83404f6403948f566c3742f6b259fc4d249f620eec7311555f3eeaa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s61(4)",
+      "ref": "TMA1995/s61(4)(c)",
+      "style": "paragraph",
+      "text": "(c) the applicant has not used, and does not intend to use, the trade mark in relation to the relevant goods in a way that is likely to deceive or confuse members of the public as to the origin of the relevant goods."
+    },
+    {
+      "content_hash": "sha256:fef6dcc0928d1404964b97d64c79fc8a3f682a5a5c2f9166a1654d012fec14ea",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 12,
+          "text": "applicant",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 43,
+          "start": 23,
+          "text": "predecessor in title",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 71,
+          "start": 48,
+          "text": "geographical indication",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s61(4)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s61(4)(c)~1",
+      "style": "notetext",
+      "text": "Note 1: For applicant, predecessor in title and geographical indication see section 6."
+    },
+    {
+      "content_hash": "sha256:8a3b12beff0ba6ecabebad1700e14a818dab23eab41e0c6612ca09f1577730b1",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 12,
+          "text": "originat",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 21,
+          "start": 20,
+          "text": "e",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s61(4)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s15",
+          "mention": "section 15"
+        }
+      ],
+      "ref": "TMA1995/s61(4)(c)~2",
+      "style": "notetext",
+      "text": "Note 2: For originate (in relation to wine only) see section 15."
+    }
+  ]
+}

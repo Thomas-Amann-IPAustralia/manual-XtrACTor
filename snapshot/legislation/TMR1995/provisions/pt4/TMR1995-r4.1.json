@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:e36997d0da373ca8650d5954828468942b257541596d65a45508fdd3984bffe0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.1  Applications—approved form"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.1",
+  "ref": "TMR1995/r4.1",
+  "text": "(1) For subsection 27(2) of the Act (which deals with applications for registration), an application for the registration of a trade mark must be: (a) in an approved form; or (b) an AFS request mentioned in Part 3A, in respect of which all fees were paid within the prescribed time limits. (2) Any material that is intended by the applicant to form part of the application for registration of a trade mark: (a) must be attached to the application; and (b) is taken to be part of the application.",
+  "title": "Applications—approved form",
+  "units": [
+    {
+      "content_hash": "sha256:1d3d93b508f29c17be0e76791881d7df92389f9a2858de520b66b6245b949e74",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s27(2)",
+          "mention": "subsection 27(2)"
+        }
+      ],
+      "ref": "TMR1995/r4.1(1)",
+      "style": "subsection",
+      "text": "(1) For subsection 27(2) of the Act (which deals with applications for registration), an application for the registration of a trade mark must be:"
+    },
+    {
+      "content_hash": "sha256:e93f1cf4cf27e6e1274bcf71183966d7d079c5a323455d13088b7e53da10c5d3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r4.1(1)",
+      "ref": "TMR1995/r4.1(1)(a)",
+      "style": "paragraph",
+      "text": "(a) in an approved form; or"
+    },
+    {
+      "content_hash": "sha256:d8512889ac041730b55fb8aa9045326e1c85e9c045d73a87197c2c294b1b27e6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.1(1)",
+      "ref": "TMR1995/r4.1(1)(b)",
+      "style": "paragraph",
+      "text": "(b) an AFS request mentioned in Part 3A, in respect of which all fees were paid within the prescribed time limits."
+    },
+    {
+      "content_hash": "sha256:c0814f070ddc55e0c804f178f0fa7bc5c2f65a5403ecd7dfffc16678af6efa8f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.1(2)",
+      "style": "subsection",
+      "text": "(2) Any material that is intended by the applicant to form part of the application for registration of a trade mark:"
+    },
+    {
+      "content_hash": "sha256:569a48fbce511ce6d44324daa197a8235a23849af6f7c7f31ebb6ceef400cce8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r4.1(2)",
+      "ref": "TMR1995/r4.1(2)(a)",
+      "style": "paragraph",
+      "text": "(a) must be attached to the application; and"
+    },
+    {
+      "content_hash": "sha256:e71c732c8b4affc9d8f501395f5bdd1e4074a90bd4e9dab001da5ee8198743c7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r4.1(2)",
+      "ref": "TMR1995/r4.1(2)(b)",
+      "style": "paragraph",
+      "text": "(b) is taken to be part of the application."
+    }
+  ]
+}

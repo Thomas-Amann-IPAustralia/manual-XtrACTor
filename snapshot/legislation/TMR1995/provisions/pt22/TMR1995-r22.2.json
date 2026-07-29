@@ -1,0 +1,162 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:8d06f82e0bc67dca4228771cf0506364f7209cfc49de88ef3c38d6cf30ccdd81",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.2  Fees payable in relation to certain matters"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.2",
+  "ref": "TMR1995/r22.2",
+  "text": "(1) Subject to subregulation (2), a fee payable in relation to proceedings: (a) relating to an application for the registration of a trade mark of a kind mentioned in subsection 241(2) of the Act (which deals with pending applications for registration of trade marks); or (b) of a kind mentioned to which section 251 of the Act (which deals with action for removal of trade marks from the Register for nonuse) applies; is the fee that would have been payable if these regulations had applied to the proceedings. (2) The fee payable for the registration of a trade mark of a kind mentioned in subsection 241(2) of the Act is the fee that was payable under regulations made under the Trade Marks Act 1955, being the regulations as in force when the application was accepted. (5) If: (a) under the repealed Act the registration of a trade mark expires in 1995; and (b) a request is made to renew the registration of the trade mark within the period of 12 months following the expiry; the fee payable in relation to the request is the fee that would have been payable for lodgment of an application for restoration of the trade mark under subsection 71(1) of the repealed Act.",
+  "title": "Fees payable in relation to certain matters",
+  "units": [
+    {
+      "content_hash": "sha256:020e71f0407aad34c0f35155576431b5597c88773839761ae2d6df8cec4d32e6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.2(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subregulation (2), a fee payable in relation to proceedings:"
+    },
+    {
+      "content_hash": "sha256:37c63f1c9ddf9a3aedfe13529373db00cf3076953235d465b31317d4b0b2306c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.2(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s241(2)",
+          "mention": "subsection 241(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.2(1)(a)",
+      "style": "paragraph",
+      "text": "(a) relating to an application for the registration of a trade mark of a kind mentioned in subsection 241(2) of the Act (which deals with pending applications for registration of trade marks); or"
+    },
+    {
+      "content_hash": "sha256:ba417aa4ab0a8d08ba2962f1d9c4c8f9b07f82d01d1136513233ab4fd6bb667f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.2(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s251",
+          "mention": "section 251"
+        }
+      ],
+      "ref": "TMR1995/r22.2(1)(b)",
+      "style": "paragraph",
+      "text": "(b) of a kind mentioned to which section 251 of the Act (which deals with action for removal of trade marks from the Register for nonuse) applies;"
+    },
+    {
+      "content_hash": "sha256:cb875fa48c55bc11961cc5293a4e70939e1c1310b1648acb9e5686a62ba43916",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.2~1",
+      "style": "subsection2",
+      "text": "is the fee that would have been payable if these regulations had applied to the proceedings."
+    },
+    {
+      "content_hash": "sha256:88dc2ce27f043fb199724a6fe4dff2e1a41326704470f5b784b29b3a9058eacb",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 190,
+          "start": 170,
+          "text": "Trade Marks Act 1955",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s241(2)",
+          "mention": "subsection 241(2)"
+        }
+      ],
+      "ref": "TMR1995/r22.2(2)",
+      "style": "subsection",
+      "text": "(2) The fee payable for the registration of a trade mark of a kind mentioned in subsection 241(2) of the Act is the fee that was payable under regulations made under the Trade Marks Act 1955, being the regulations as in force when the application was accepted."
+    },
+    {
+      "content_hash": "sha256:d5b32294abcaec5637769ca050e4fa4cf8769964bdd2fc35ab12e058bdacb7aa",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r22.2(5)",
+      "style": "subsection",
+      "text": "(5) If:"
+    },
+    {
+      "content_hash": "sha256:9d86682b677d9dc0c49b3986aabffa1947e6ac9a6d9a4b1091ff45fd8adfd851",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r22.2(5)",
+      "ref": "TMR1995/r22.2(5)(a)",
+      "style": "paragraph",
+      "text": "(a) under the repealed Act the registration of a trade mark expires in 1995; and"
+    },
+    {
+      "content_hash": "sha256:d18b0e142f9d3d35e45d15ddd8025a72b2fcd8cd864441b272812376cb9d4227",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r22.2(5)",
+      "ref": "TMR1995/r22.2(5)(b)",
+      "style": "paragraph",
+      "text": "(b) a request is made to renew the registration of the trade mark within the period of 12 months following the expiry;"
+    },
+    {
+      "content_hash": "sha256:16e80ada9e1ca59f52b00cac24735c0655271f18427c5f1204cf0f42b53a57d7",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s71(1)",
+          "mention": "subsection 71(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.2~2",
+      "style": "subsection2",
+      "text": "the fee payable in relation to the request is the fee that would have been payable for lodgment of an application for restoration of the trade mark under subsection 71(1) of the repealed Act."
+    }
+  ]
+}

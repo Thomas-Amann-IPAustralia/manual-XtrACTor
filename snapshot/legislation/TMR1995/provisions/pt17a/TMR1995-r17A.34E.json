@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:73dca8510a1a05eef8bfa045ea82aa4ab7a40a58b4d0208072d0d4316bd80728",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34E  Opposition may proceed in name of other person"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34E",
+  "ref": "TMR1995/r17A.34E",
+  "text": "Section 53 of the Act applies to a notice of intention to oppose filed under this Subdivision.",
+  "title": "Opposition may proceed in name of other person",
+  "units": [
+    {
+      "content_hash": "sha256:73dca8510a1a05eef8bfa045ea82aa4ab7a40a58b4d0208072d0d4316bd80728",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s53",
+          "mention": "Section 53"
+        }
+      ],
+      "ref": "TMR1995/r17A.34E~1",
+      "style": "subsection",
+      "text": "Section 53 of the Act applies to a notice of intention to oppose filed under this Subdivision."
+    }
+  ]
+}

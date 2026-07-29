@@ -1,0 +1,193 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:b5fe74e65dd51bf5ba8acceac2845ef9546e8f671000a6b5aae3e17e9326e765",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "9  Definition of applied to and applied in relation to"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "9",
+  "ref": "TMA1995/s9",
+  "text": "(1) For the purposes of this Act: (a) a trade mark is taken to be applied to any goods, material or thing if it is woven in, impressed on, worked into, or affixed or annexed to, the goods, material or thing; and (b) a trade mark is taken to be applied in relation to goods or services: (i) if it is applied to any covering, document, label, reel or thing in or with which the goods are, or are intended to be, dealt with or provided in the course of trade; or (ii) if it is used in a manner likely to lead persons to believe that it refers to, describes or designates the goods or services; and (c) a trade mark is taken also to be applied in relation to goods or services if it is used: (i) on a signboard or in an advertisement (including a televised advertisement); or (ii) in an invoice, wine list, catalogue, business letter, business paper, price list or other commercial document; and goods are delivered, or services provided (as the case may be) to a person following a request or order made by referring to the trade mark as so used. (2) In subparagraph (1)(b)(i): covering includes packaging, frame, wrapper, container, stopper, lid or cap. label includes a band or ticket.",
+  "title": "Definition of applied to and applied in relation to",
+  "units": [
+    {
+      "content_hash": "sha256:dacc202625153c035f381b079b2f2d860ef990435e2acb54d728c0e99b28bef2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s9(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of this Act:"
+    },
+    {
+      "content_hash": "sha256:28a724e8f5c1ce944e728eb1634bfe408f8aa703413c8a0c11ed84dc33a2a361",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 42,
+          "start": 32,
+          "text": "applied to",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s9(1)",
+      "ref": "TMA1995/s9(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark is taken to be applied to any goods, material or thing if it is woven in, impressed on, worked into, or affixed or annexed to, the goods, material or thing; and"
+    },
+    {
+      "content_hash": "sha256:a643436e347b86f14be0a64803aeac83ea39ec3c9d01060332f43a707e82a024",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 54,
+          "start": 32,
+          "text": "applied in relation to",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s9(1)",
+      "ref": "TMA1995/s9(1)(b)",
+      "style": "paragraph",
+      "text": "(b) a trade mark is taken to be applied in relation to goods or services:"
+    },
+    {
+      "content_hash": "sha256:9cad1f6700a39e55a8d11c44f7e02064e3b7ba54775acc52e26a746784914577",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s9(1)(b)",
+      "ref": "TMA1995/s9(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if it is applied to any covering, document, label, reel or thing in or with which the goods are, or are intended to be, dealt with or provided in the course of trade; or"
+    },
+    {
+      "content_hash": "sha256:eeaccc00fdbf28ffd318fb69f6f6e818ed99e051dad9e7145d141c44cbc65048",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s9(1)(b)",
+      "ref": "TMA1995/s9(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if it is used in a manner likely to lead persons to believe that it refers to, describes or designates the goods or services; and"
+    },
+    {
+      "content_hash": "sha256:932889eb38b5aa72a12d88c306cc7d043e027951137a5f827ad6a8be2c20f9f9",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 59,
+          "start": 37,
+          "text": "applied in relation to",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s9(1)",
+      "ref": "TMA1995/s9(1)(c)",
+      "style": "paragraph",
+      "text": "(c) a trade mark is taken also to be applied in relation to goods or services if it is used:"
+    },
+    {
+      "content_hash": "sha256:d993fc419ab09a32e10f772cc8646c19662b195d4a9bfde9584af089e44f9291",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s9(1)(c)",
+      "ref": "TMA1995/s9(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) on a signboard or in an advertisement (including a televised advertisement); or"
+    },
+    {
+      "content_hash": "sha256:99a945920e621ceef72764a46999345a2c97e9812d535ea2e5697dbc11885e2f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s9(1)(c)",
+      "ref": "TMA1995/s9(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) in an invoice, wine list, catalogue, business letter, business paper, price list or other commercial document;"
+    },
+    {
+      "content_hash": "sha256:5cb2dfe46af0b3e6a288fa8eb8ab1dc954499291413f1b4b789504393f7e8df5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s9(1)",
+      "ref": "TMA1995/s9(1)~1",
+      "style": "paragraph",
+      "text": "and goods are delivered, or services provided (as the case may be) to a person following a request or order made by referring to the trade mark as so used."
+    },
+    {
+      "content_hash": "sha256:13ed27a7fec9d3e9f37cabb7a0c50b79878b1797831257e4fef1c1bdbbde2f65",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s9(2)",
+      "style": "subsection",
+      "text": "(2) In subparagraph (1)(b)(i):"
+    },
+    {
+      "content_hash": "sha256:0d5190d4b63fe7db5c185b9604132cfaefc682763da4282fe126a2babbe3d203",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 8,
+          "start": 0,
+          "text": "covering",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s9~1",
+      "style": "Definition",
+      "text": "covering includes packaging, frame, wrapper, container, stopper, lid or cap."
+    },
+    {
+      "content_hash": "sha256:4d5ccddf3172e8ed7ad737361ac958c5407b7b2c896eef94f862c7d47997d053",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 5,
+          "start": 0,
+          "text": "label",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s9~2",
+      "style": "Definition",
+      "text": "label includes a band or ticket."
+    }
+  ]
+}

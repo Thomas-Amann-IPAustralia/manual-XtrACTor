@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt12"
+  ],
+  "content_hash": "sha256:eadfbef73e0f96fb1f53d477116b7d2f6c44ba818aac48112141be6af31bc096",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 12—Infringement of trade marks",
+    "123  Services to which registered trade mark has been applied by or with consent of registered owner"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "123",
+  "ref": "TMA1995/s123",
+  "text": "In spite of section 120, a person who uses a registered trade mark in relation to services that are similar to services in respect of which the trade mark is registered does not infringe the trade mark if the trade mark has been applied in relation to the services by, or with the consent of, the registered owner of the trade mark. Note: For similar services see subsection 14(2).",
+  "title": "Services to which registered trade mark has been applied by or with consent of registered owner",
+  "units": [
+    {
+      "content_hash": "sha256:5ec43184d4bc580eea66215f76b5a4a0c8702c70e7a7d83f983f32e10c513ce8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s120",
+          "mention": "section 120"
+        }
+      ],
+      "ref": "TMA1995/s123~1",
+      "style": "subsection",
+      "text": "In spite of section 120, a person who uses a registered trade mark in relation to services that are similar to services in respect of which the trade mark is registered does not infringe the trade mark if the trade mark has been applied in relation to the services by, or with the consent of, the registered owner of the trade mark."
+    },
+    {
+      "content_hash": "sha256:8513d6ddf7132e90447939409de1ebae0c81cebd1d3c2e4366a250641272cff6",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "similar services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s123~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s14(2)",
+          "mention": "subsection 14(2)"
+        }
+      ],
+      "ref": "TMA1995/s123~1~1",
+      "style": "notetext",
+      "text": "Note: For similar services see subsection 14(2)."
+    }
+  ]
+}

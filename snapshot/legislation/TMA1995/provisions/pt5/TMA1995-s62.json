@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt5",
+    "TMA1995/pt5/div2"
+  ],
+  "content_hash": "sha256:c4e6acc1896199d35bd95a9785abc413beab39fa6c0c4e4e89488cab00c84401",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 5—Opposition to registration",
+    "Division 2—Grounds for opposing registration",
+    "62  Application etc. defective etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "62",
+  "ref": "TMA1995/s62",
+  "text": "The registration of a trade mark may be opposed on any of the following grounds: (a) that the application, or a document filed in support of the application, was amended contrary to this Act; (b) that the Registrar accepted the application for registration on the basis of evidence or representations that were false in material particulars. Note: For file see section 6.",
+  "title": "Application etc. defective etc.",
+  "units": [
+    {
+      "content_hash": "sha256:0f6dd19a52919a6b2479e71452735eeed06beb06ccd7e922bd1b818bdedafe14",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s62~1",
+      "style": "subsection",
+      "text": "The registration of a trade mark may be opposed on any of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:ce73122c533b781c857bd1503760879998b45b9e8adb03d6868ec55dc3270b60",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s62~1",
+      "ref": "TMA1995/s62(a)",
+      "style": "paragraph",
+      "text": "(a) that the application, or a document filed in support of the application, was amended contrary to this Act;"
+    },
+    {
+      "content_hash": "sha256:3027a0b9af7fffb7d30595cad7516f31fc0ef46f2dd6ec94b6963bac8806a057",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s62~1",
+      "ref": "TMA1995/s62(b)",
+      "style": "paragraph",
+      "text": "(b) that the Registrar accepted the application for registration on the basis of evidence or representations that were false in material particulars."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s62(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s62(b)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    }
+  ]
+}

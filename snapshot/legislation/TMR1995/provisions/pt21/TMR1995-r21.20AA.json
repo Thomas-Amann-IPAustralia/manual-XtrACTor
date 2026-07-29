@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div2a"
+  ],
+  "content_hash": "sha256:8f8f4ab2456b4ddbec8489f56adbcf2666a7adb05919154d9117146d28c9da78",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 2A—Extensions of time",
+    "21.20AA  Publication of application for extension of time"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.20AA",
+  "ref": "TMR1995/r21.20AA",
+  "text": "For the purposes of subsection 224(5) of the Act, the application must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Publication of application for extension of time",
+  "units": [
+    {
+      "content_hash": "sha256:8f8f4ab2456b4ddbec8489f56adbcf2666a7adb05919154d9117146d28c9da78",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(5)",
+          "mention": "subsection 224(5)"
+        }
+      ],
+      "ref": "TMR1995/r21.20AA~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 224(5) of the Act, the application must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

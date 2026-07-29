@@ -1,0 +1,439 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:531def3677fa0564e202ffaac94a46e22b7ce6c216f3124c2cf63230cd063488",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "215  Address for service"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "215",
+  "ref": "TMA1995/s215",
+  "text": "(1) The address for service of a person who has filed an application, notice or request is: (a) the address for service stated in the application, notice or request; or (b) if the person subsequently notifies in writing another address to the Registrar—that other address. Note: For file see section 6. (2) When: (a) a trade mark is registered; or (b) a claim to an interest in, or to a right in respect of, a registered trade mark that a person has is recorded in the Register; the Registrar must enter in the Register as the address for service of the registered owner or of the person: (c) if paragraph (d) does not apply—the address given, or last given, by the registered owner or the person to the Registrar under subsection (1); or (d) if, before the Registrar registers the trade mark or records the claim to the interest or right, the registered owner or person gives in writing to the Registrar another address as his or her address for service—that other address. Note: For registered trade mark and registered owner see section 6. (3) The registered owner of a registered trade mark, or any person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register, must notify the Registrar in writing of any change in his or her address for service and the Registrar must amend the Register accordingly. (4) The address for service of: (a) the registered owner of a registered trade mark; or (b) a person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register; is the address set out from time to time in the Register as being the address for service of the registered owner or of the person. (5) An address for service must be an address in Australia or New Zealand. (6) If this Act provides that a document is to be served on, or given or sent to, a person: (a) if the person has an address for service—the document may be served on, or given or sent to, the person by a prescribed means to that address; or (b) if the person does not have an address for service—the document may be served on an agent of the person in Australia or New Zealand or may be sent by a prescribed means to any address of the person in Australia or New Zealand that is known to the Registrar. (7) Subsection (6) does not affect the operation of section 28A of the Acts Interpretation Act 1901. Note: Subsection 28A(1) of the Acts Interpretation Act 1901 provides that a document may be served (this term includes given, or sent, to): “(a) on a natural person: (i) by delivering it to the person personally; or (ii) by leaving it at, or by sending it by prepaid post to, the address of the place of residence or business of the person last known to the person serving the document; or (b) on a body corporate—by leaving it at, or sending it by prepaid post to, the head office, a registered office or a principal office of the body corporate.”. (8) After the time specified in the regulations, a reference in this section to an address includes a reference to an electronic address. (9) The time specified under subsection (8) must be later than the day on which the regulations are registered under the Legislation Act 2003. (10) For the purposes of this section, the question of whether an electronic address is in Australia is to be determined in accordance with the regulations. (11) For the purposes of this section, the question of whether an electronic address is in New Zealand is to be determined in accordance with the regulations.",
+  "title": "Address for service",
+  "units": [
+    {
+      "content_hash": "sha256:724acc3bcadde509fcd2fab4135d92898a31b91eb485b3ed695d866ab5b2900c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(1)",
+      "style": "subsection",
+      "text": "(1) The address for service of a person who has filed an application, notice or request is:"
+    },
+    {
+      "content_hash": "sha256:34f29defa4fe13d763a299f9492eee0c47470c4e2a8c97493bfd51fdd82f6587",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s215(1)",
+      "ref": "TMA1995/s215(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the address for service stated in the application, notice or request; or"
+    },
+    {
+      "content_hash": "sha256:a80a8aa2f84844d11d0af2bbdc8b4ac2aa52bc5e6502e1df9d85964ced920b3a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s215(1)",
+      "ref": "TMA1995/s215(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the person subsequently notifies in writing another address to the Registrar—that other address."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s215(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s215(1)(b)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    },
+    {
+      "content_hash": "sha256:a4e3eb9de3b9996d7d246ea123f35fce1f856e6b02338a00ebcdebcae35316f8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(2)",
+      "style": "subsection",
+      "text": "(2) When:"
+    },
+    {
+      "content_hash": "sha256:ed18dd70727a0351b11abdcde1b8959d0b008ed86a5bc190af549d636dc9d44e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s215(2)",
+      "ref": "TMA1995/s215(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a trade mark is registered; or"
+    },
+    {
+      "content_hash": "sha256:90afe6c190f8403d2e5d719c9cac1bfd04b3eb14e67e42f2b614d5710e32dfb7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s215(2)",
+      "ref": "TMA1995/s215(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a claim to an interest in, or to a right in respect of, a registered trade mark that a person has is recorded in the Register;"
+    },
+    {
+      "content_hash": "sha256:2de8aedf6cb29bd8feb37b5c43cf5ee21d80565476a00d3220bf49f5811d0df0",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s215~1",
+      "style": "subsection2",
+      "text": "the Registrar must enter in the Register as the address for service of the registered owner or of the person:"
+    },
+    {
+      "content_hash": "sha256:3d3f8cb83d3fd5415dd12856b93e694e10e16df29fca8d4a790d568c7a1a94b2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s215~1",
+      "ref": "TMA1995/s215(c)",
+      "style": "paragraph",
+      "text": "(c) if paragraph (d) does not apply—the address given, or last given, by the registered owner or the person to the Registrar under subsection (1); or"
+    },
+    {
+      "content_hash": "sha256:07f6303c5f210f9790fc482ad52a23a9c93eccb5d9ce9f520cb504ea271a8700",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s215~1",
+      "ref": "TMA1995/s215(d)",
+      "style": "paragraph",
+      "text": "(d) if, before the Registrar registers the trade mark or records the claim to the interest or right, the registered owner or person gives in writing to the Registrar another address as his or her address for service—that other address."
+    },
+    {
+      "content_hash": "sha256:e39fe086fa4c20f2d67d92ec50802aa1028d7a51258d36683247e77cc1c66e62",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 36,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s215(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s215(d)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark and registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:0d49cb4a13249253e2b41e6de5c4ddd49a4e3d59002c906260567b2256eb43d3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(3)",
+      "style": "subsection",
+      "text": "(3) The registered owner of a registered trade mark, or any person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register, must notify the Registrar in writing of any change in his or her address for service and the Registrar must amend the Register accordingly."
+    },
+    {
+      "content_hash": "sha256:3b1e5202fd4d6ee8a26612af75efdc7c3b493b8a1ce89a9b12e1c117157b6484",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(4)",
+      "style": "subsection",
+      "text": "(4) The address for service of:"
+    },
+    {
+      "content_hash": "sha256:e9b08cd6903a2df129eda45983a061b42309c31daeae73146e243fbd7c147ef6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s215(4)",
+      "ref": "TMA1995/s215(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner of a registered trade mark; or"
+    },
+    {
+      "content_hash": "sha256:f494ac598cd04b6904d12d4a449f983a0e8aa07349990c7b71b2d97f70aa7ab9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s215(4)",
+      "ref": "TMA1995/s215(4)(b)",
+      "style": "paragraph",
+      "text": "(b) a person whose claim to an interest in, or to a right in respect of, a trade mark is recorded in the Register;"
+    },
+    {
+      "content_hash": "sha256:0d7673b9c6aa0568b8640cb4c339fab2dff589e1b666927e2f0b77685d43d597",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMA1995/s215~2",
+      "style": "subsection2",
+      "text": "is the address set out from time to time in the Register as being the address for service of the registered owner or of the person."
+    },
+    {
+      "content_hash": "sha256:7a60a4bdc0cc87e3621c45f0a8c3a3d41738ac8e981f809ad486378503bc003a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(5)",
+      "style": "subsection",
+      "text": "(5) An address for service must be an address in Australia or New Zealand."
+    },
+    {
+      "content_hash": "sha256:f1afd920412216ed977b6f83a55700f9f07f064a4bcddf351a213dd5a463b28c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(6)",
+      "style": "subsection",
+      "text": "(6) If this Act provides that a document is to be served on, or given or sent to, a person:"
+    },
+    {
+      "content_hash": "sha256:242b236aefcfff6335b90a5c8eb63c393cdd4ccab972d64d21a735b81d3e18b3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s215(6)",
+      "ref": "TMA1995/s215(6)(a)",
+      "style": "paragraph",
+      "text": "(a) if the person has an address for service—the document may be served on, or given or sent to, the person by a prescribed means to that address; or"
+    },
+    {
+      "content_hash": "sha256:c7368bfd11ed1cf622ec23c943efe821e31b35c0310e1f7f71d7784169868476",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s215(6)",
+      "ref": "TMA1995/s215(6)(b)",
+      "style": "paragraph",
+      "text": "(b) if the person does not have an address for service—the document may be served on an agent of the person in Australia or New Zealand or may be sent by a prescribed means to any address of the person in Australia or New Zealand that is known to the Registrar."
+    },
+    {
+      "content_hash": "sha256:548525a13c24107cae65a60d1a8510f7d49675cb15afb45bad3a086dbc5f888f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 99,
+          "start": 71,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 21,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s28A",
+          "mention": "section 28A of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s215(7)",
+      "style": "subsection",
+      "text": "(7) Subsection (6) does not affect the operation of section 28A of the Acts Interpretation Act 1901."
+    },
+    {
+      "content_hash": "sha256:e19feabda91abe0202a635a072bf441ed0e447a72f3173a00dc11f91a519de6d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 59,
+          "start": 31,
+          "text": "Acts Interpretation Act 1901",
+          "weight": "italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s215(7)",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "AIA1901/s28A(1)",
+          "mention": "Subsection 28A(1) of the Acts Interpretation Act 1901"
+        }
+      ],
+      "ref": "TMA1995/s215(7)~1",
+      "style": "notetext",
+      "text": "Note: Subsection 28A(1) of the Acts Interpretation Act 1901 provides that a document may be served (this term includes given, or sent, to):"
+    },
+    {
+      "content_hash": "sha256:623554eeb229c44d566d212116991470e7dd1ebf3d1a1d1e24f5c36b7abcd96e",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s215(7)",
+      "ref": "TMA1995/s215(7)~2",
+      "style": "notetext",
+      "text": "“(a) on a natural person:"
+    },
+    {
+      "content_hash": "sha256:e1a82adb3ca843ed4c7c7c728dfe05f5f8c43071f15bf7b5c909f57a102fd964",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s215(7)",
+      "ref": "TMA1995/s215(7)~3",
+      "style": "notetext",
+      "text": "(i) by delivering it to the person personally; or"
+    },
+    {
+      "content_hash": "sha256:7cb3b745e2fdd3e3998ca2567756930b447f4d30c3ab7f3ee784949cf431bd43",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s215(7)",
+      "ref": "TMA1995/s215(7)~4",
+      "style": "notetext",
+      "text": "(ii) by leaving it at, or by sending it by prepaid post to, the address of the place of residence or business of the person last known to the person serving the document; or"
+    },
+    {
+      "content_hash": "sha256:96153a76d93e663a96de906c51c383e93b64bb854f682ab76347ab4a6e573c6e",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 26,
+      "parent_ref": "TMA1995/s215(7)",
+      "ref": "TMA1995/s215(7)~5",
+      "style": "notetext",
+      "text": "(b) on a body corporate—by leaving it at, or sending it by prepaid post to, the head office, a registered office or a principal office of the body corporate.”."
+    },
+    {
+      "content_hash": "sha256:0e103fa1b65e23c4d0e436d892544489be598b404a730874a4b19299c4a18298",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 90,
+          "start": 83,
+          "text": "address",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(8)",
+      "ordinal": 27,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(8)",
+      "style": "subsection",
+      "text": "(8) After the time specified in the regulations, a reference in this section to an address includes a reference to an electronic address."
+    },
+    {
+      "content_hash": "sha256:0103422eb06daadfe1671602f02c4d78d96eb951c82ee23daa8374c8dc9779e1",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 141,
+          "start": 121,
+          "text": "Legislation Act 2003",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(9)",
+      "ordinal": 28,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(9)",
+      "style": "subsection",
+      "text": "(9) The time specified under subsection (8) must be later than the day on which the regulations are registered under the Legislation Act 2003."
+    },
+    {
+      "content_hash": "sha256:5cd12be369bd65b639b1bfec8d897da7b9b2a2b3ed1fa3ed2b4d5fd07e35d3af",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(10)",
+      "ordinal": 29,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(10)",
+      "style": "subsection",
+      "text": "(10) For the purposes of this section, the question of whether an electronic address is in Australia is to be determined in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:c0fef5aff25612d50fa2d8e4dbd0fe8373926aaab55d364e37fb38cacb54a692",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(11)",
+      "ordinal": 30,
+      "parent_ref": null,
+      "ref": "TMA1995/s215(11)",
+      "style": "subsection",
+      "text": "(11) For the purposes of this section, the question of whether an electronic address is in New Zealand is to be determined in accordance with the regulations."
+    }
+  ]
+}

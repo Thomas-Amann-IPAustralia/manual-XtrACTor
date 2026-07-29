@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt2"
+  ],
+  "content_hash": "sha256:a3b5cb9e51ee7fee9849a3933ebf78292ddf80dedc8f802eea26518309784e1a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 2—Interpretation",
+    "15  Definition of originate in relation to wine"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "15",
+  "ref": "TMA1995/s15",
+  "text": "For the purposes of this Act: (a) a wine is taken to have originated in a foreign country or Australia only if the wine is made from grapes grown within the territory of that country or of Australia, as the case may be; and (b) a wine is taken to have originated in a particular region or locality of a foreign country or of Australia only if the wine is made from grapes grown in that region or locality.",
+  "title": "Definition of originate in relation to wine",
+  "units": [
+    {
+      "content_hash": "sha256:3a49ee7b05a34ae86f9dd03011c14374fbad640af30730869bdc436b0d3d9616",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s15~1",
+      "style": "subsection",
+      "text": "For the purposes of this Act:"
+    },
+    {
+      "content_hash": "sha256:3d48d517be4df6db40bea7da9d449db0dc8ba18e51080bd98307758012e5d1cd",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 38,
+          "start": 28,
+          "text": "originated",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s15~1",
+      "ref": "TMA1995/s15(a)",
+      "style": "paragraph",
+      "text": "(a) a wine is taken to have originated in a foreign country or Australia only if the wine is made from grapes grown within the territory of that country or of Australia, as the case may be; and"
+    },
+    {
+      "content_hash": "sha256:eedeba641b6c8dbcf246b6f60652d83a8b885719576ded91aa950bd4aa511eb2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 38,
+          "start": 28,
+          "text": "originated",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s15~1",
+      "ref": "TMA1995/s15(b)",
+      "style": "paragraph",
+      "text": "(b) a wine is taken to have originated in a particular region or locality of a foreign country or of Australia only if the wine is made from grapes grown in that region or locality."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:00441e4da71902ad0cd48800265316882f38a63e6b14a692d7fafb7cbd162a15",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.25  Extension of time—application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.25",
+  "ref": "TMR1995/r21.25",
+  "text": "For the purposes of subsections 224(2) and (3) of the Act (which deal with extensions of time), an application for an extension of time for doing a relevant act: (a) must be in an approved form; and (b) must be accompanied by a declaration stating: (i) the facts on which the grounds specified in the application are based; and (ii) if the period for doing the relevant act has ended—the reason why the application was not made before the period ended. Note: Regulations 21.6 and 21.7 deal with making and filing declarations.",
+  "title": "Extension of time—application",
+  "units": [
+    {
+      "content_hash": "sha256:770f5172974b65c030d63ddaed89f433e98383f6c610dbdadc33fe1da8cb01a3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224(2)",
+          "mention": "subsections 224(2)"
+        }
+      ],
+      "ref": "TMR1995/r21.25~1",
+      "style": "subsection",
+      "text": "For the purposes of subsections 224(2) and (3) of the Act (which deal with extensions of time), an application for an extension of time for doing a relevant act:"
+    },
+    {
+      "content_hash": "sha256:2695e9231d482fd3cad5fb61f86e639dfbe319f8163bc8279416432eecb3a9c1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.25~1",
+      "ref": "TMR1995/r21.25(a)",
+      "style": "paragraph",
+      "text": "(a) must be in an approved form; and"
+    },
+    {
+      "content_hash": "sha256:10917212e6298931a65838661f0aeb37bd2c78009afa5608bf6bb26e9feb932b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.25~1",
+      "ref": "TMR1995/r21.25(b)",
+      "style": "paragraph",
+      "text": "(b) must be accompanied by a declaration stating:"
+    },
+    {
+      "content_hash": "sha256:59e6070d0bfbe55eb26a2f3fbd814d3841f62b8781a489d865d950bfae871a1f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.25(b)",
+      "ref": "TMR1995/r21.25(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the facts on which the grounds specified in the application are based; and"
+    },
+    {
+      "content_hash": "sha256:367b5a232c98c0366558fdff08201c8ba9eed85d8e581b9dac1a47f386d8c284",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.25(b)",
+      "ref": "TMR1995/r21.25(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the period for doing the relevant act has ended—the reason why the application was not made before the period ended."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.25(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r21.25(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    }
+  ]
+}

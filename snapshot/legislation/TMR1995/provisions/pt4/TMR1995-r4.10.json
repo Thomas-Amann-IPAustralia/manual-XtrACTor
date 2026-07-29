@@ -1,0 +1,120 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt4"
+  ],
+  "content_hash": "sha256:05f666aa262a91b497e08cb77601f102df3c687dbf5bf821c5de824455da2f51",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 4—Application for registration",
+    "4.10  Examination—further report to applicant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "4.10",
+  "ref": "TMR1995/r4.10",
+  "text": "(1) On receipt of a response under regulation 4.9, the Registrar must consider the response. (2) If the Registrar continues to believe that: (a) the application has not been made in accordance with the Act or these regulations; or (b) there are grounds under Division 2 of Part 4 of the Act for rejecting it; the Registrar must report that belief by notification to the applicant. (3) Unless acceptance of an application is deferred, a report under subregulation (2) in relation to that application must include notification of the date on which the application will lapse if it is not accepted earlier. (4) Regulation 4.9 and this regulation apply to a report under subregulation (2) as if it were a report under regulation 4.8.",
+  "title": "Examination—further report to applicant",
+  "units": [
+    {
+      "content_hash": "sha256:6d942a9021c199e60f601fb583c61a349204bb4dc1ecdeaf2617aa2f80065d93",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.9",
+          "mention": "regulation 4.9"
+        }
+      ],
+      "ref": "TMR1995/r4.10(1)",
+      "style": "subsection",
+      "text": "(1) On receipt of a response under regulation 4.9, the Registrar must consider the response."
+    },
+    {
+      "content_hash": "sha256:8c371e24d270e59d46e9a2427319f0e8e5a525527649429ddc523629ba5da51b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.10(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar continues to believe that:"
+    },
+    {
+      "content_hash": "sha256:38384a0aebb4a02092f0bc93bad1846641c5e3e1b9e5d6173ea06f81bfdd76c4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r4.10(2)",
+      "ref": "TMR1995/r4.10(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the application has not been made in accordance with the Act or these regulations; or"
+    },
+    {
+      "content_hash": "sha256:a86954ee71fec3fb1da638ec81de3360bc8e19ae7c3d4732323fdd734fc1f14b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r4.10(2)",
+      "ref": "TMR1995/r4.10(2)(b)",
+      "style": "paragraph",
+      "text": "(b) there are grounds under Division 2 of Part 4 of the Act for rejecting it;"
+    },
+    {
+      "content_hash": "sha256:de9ff66bcc363c67243a13a1fd52b02aaa71b42bc5226bf643dc4565325e23bf",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.10~1",
+      "style": "subsection2",
+      "text": "the Registrar must report that belief by notification to the applicant."
+    },
+    {
+      "content_hash": "sha256:e8af4c8fe2516964efcdd525cad12b6a970ac7d54fc86a29a04702608bddf1a6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r4.10(3)",
+      "style": "subsection",
+      "text": "(3) Unless acceptance of an application is deferred, a report under subregulation (2) in relation to that application must include notification of the date on which the application will lapse if it is not accepted earlier."
+    },
+    {
+      "content_hash": "sha256:a81ec38853a73f75bbd4c4f77eecde484ff68201598e740b29eb195bec078481",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.8",
+          "mention": "regulation 4.8"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.9",
+          "mention": "Regulation 4.9"
+        }
+      ],
+      "ref": "TMR1995/r4.10(4)",
+      "style": "subsection",
+      "text": "(4) Regulation 4.9 and this regulation apply to a report under subregulation (2) as if it were a report under regulation 4.8."
+    }
+  ]
+}

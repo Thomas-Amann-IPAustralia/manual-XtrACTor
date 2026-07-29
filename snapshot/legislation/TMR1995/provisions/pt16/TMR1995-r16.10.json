@@ -1,0 +1,204 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:93812bc5f7f74d50f73e560716ffecc80ecf612482c5c9298f75890211c3a1c1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.10  Decision on variation of rules"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.10",
+  "ref": "TMR1995/r16.10",
+  "text": "(1) The Commission may approve a variation of the rules if the Commission is satisfied that the rules, as varied: (a) would not be to the detriment of the public; and (b) are satisfactory having regard to the criteria prescribed in regulation 16.6; and (c) provide that the attributes a person must have to become an approved certifier are sufficient to enable the person to assess competently whether goods or services meet the certification requirements. (2) If the Commission approves a variation of the rules, the Commission must: (a) notify the registered owner, in writing, of its decision to approve a variation of the rules; and (b) certify in writing that it is satisfied of the matters mentioned in subsection 178(3) of the Act and in subregulation (1); and (c) send a copy of the certificate to the Registrar; and (d) send a certified copy of the rules as varied to the Registrar. (3) If the Commission decides not to approve a variation of the rules, the Commission must notify the Registrar and the registered owner, in writing, of its decision not to approve a variation of the rules. (4) The Registrar must publish in a computer database maintained by the Trade Marks Office notice of the Commission’s decision to approve or not approve a variation of the rules. (5) The notice published under subregulation (4) must include a statement to the effect that, subject to the Administrative Review Tribunal Act 2024, application may be made to the ART for review of the decision to which the notice relates. Note: registered owner is defined in section 6 of the Act.",
+  "title": "Decision on variation of rules",
+  "units": [
+    {
+      "content_hash": "sha256:3508c78c943bc579f8b0a075c96fd55d7477242efcfff4b76431247e13c22d2b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.10(1)",
+      "style": "subsection",
+      "text": "(1) The Commission may approve a variation of the rules if the Commission is satisfied that the rules, as varied:"
+    },
+    {
+      "content_hash": "sha256:0ab418dd51f766edff1d8858b4f5148cb2628f0a5099250ba0ed33809bf0d20c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r16.10(1)",
+      "ref": "TMR1995/r16.10(1)(a)",
+      "style": "paragraph",
+      "text": "(a) would not be to the detriment of the public; and"
+    },
+    {
+      "content_hash": "sha256:329036d5d03790bff0d6004e1614c4a6980a5f96010948af47660bd1789a722d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r16.10(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.6",
+          "mention": "regulation 16.6"
+        }
+      ],
+      "ref": "TMR1995/r16.10(1)(b)",
+      "style": "paragraph",
+      "text": "(b) are satisfactory having regard to the criteria prescribed in regulation 16.6; and"
+    },
+    {
+      "content_hash": "sha256:d647387ee1d0bf3d9e8bac7335263420e923d50fc02640b4df2fbd97f38349f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.10(1)",
+      "ref": "TMR1995/r16.10(1)(c)",
+      "style": "paragraph",
+      "text": "(c) provide that the attributes a person must have to become an approved certifier are sufficient to enable the person to assess competently whether goods or services meet the certification requirements."
+    },
+    {
+      "content_hash": "sha256:04c403dd141a8e9c073f2de4877ac2728f288daaf76afb717e3b91b14c445c5a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.10(2)",
+      "style": "subsection",
+      "text": "(2) If the Commission approves a variation of the rules, the Commission must:"
+    },
+    {
+      "content_hash": "sha256:88813c1524608c949dafef8fe63ae369bf5f4f99920c75e988279be1f96b38ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r16.10(2)",
+      "ref": "TMR1995/r16.10(2)(a)",
+      "style": "paragraph",
+      "text": "(a) notify the registered owner, in writing, of its decision to approve a variation of the rules; and"
+    },
+    {
+      "content_hash": "sha256:efbd10c44d356275152b6cf583f5081f61106f167b93d07151bf3f6f74a7191c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r16.10(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s178(3)",
+          "mention": "subsection 178(3)"
+        }
+      ],
+      "ref": "TMR1995/r16.10(2)(b)",
+      "style": "paragraph",
+      "text": "(b) certify in writing that it is satisfied of the matters mentioned in subsection 178(3) of the Act and in subregulation (1); and"
+    },
+    {
+      "content_hash": "sha256:9bfbb30492bb625a5788cecdda6cac8e9e1c2dd7909aa5eec9d2bb9fcb197fc6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r16.10(2)",
+      "ref": "TMR1995/r16.10(2)(c)",
+      "style": "paragraph",
+      "text": "(c) send a copy of the certificate to the Registrar; and"
+    },
+    {
+      "content_hash": "sha256:b34bb3270bfd53f07060cb20ddea7c7215b51dd4cd84a31de8bc2308b85214ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r16.10(2)",
+      "ref": "TMR1995/r16.10(2)(d)",
+      "style": "paragraph",
+      "text": "(d) send a certified copy of the rules as varied to the Registrar."
+    },
+    {
+      "content_hash": "sha256:f99e6f55ca53f84e07e8e24e2f84d223cf0369a6edd3c7e89e2885c5a42a3972",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.10(3)",
+      "style": "subsection",
+      "text": "(3) If the Commission decides not to approve a variation of the rules, the Commission must notify the Registrar and the registered owner, in writing, of its decision not to approve a variation of the rules."
+    },
+    {
+      "content_hash": "sha256:4539a8fb69b8e58fda068025c6de7232fc052b39045ab349475936b8cc228d36",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.10(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must publish in a computer database maintained by the Trade Marks Office notice of the Commission’s decision to approve or not approve a variation of the rules."
+    },
+    {
+      "content_hash": "sha256:63522ee0637720852b5f74c0c1e6a88d1662b2eb32a1f3d099b47df946522ec9",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 148,
+          "start": 109,
+          "text": "Administrative Review Tribunal Act 2024",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.10(5)",
+      "style": "subsection",
+      "text": "(5) The notice published under subregulation (4) must include a statement to the effect that, subject to the Administrative Review Tribunal Act 2024, application may be made to the ART for review of the decision to which the notice relates."
+    },
+    {
+      "content_hash": "sha256:f89b63651debda76465bf59349735b2c47ea11a5ee9ef49c95b9a67d24b6c5e5",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 6,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r16.10(5)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMR1995/r16.10(5)~1",
+      "style": "notetext",
+      "text": "Note: registered owner is defined in section 6 of the Act."
+    }
+  ]
+}

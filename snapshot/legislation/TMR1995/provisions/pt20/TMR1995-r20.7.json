@@ -1,0 +1,116 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20",
+    "TMR1995/pt20/div2"
+  ],
+  "content_hash": "sha256:50aab06518665ab043a34f7a2099e88c297f292b490fa9edc5958cd8830e6bc7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20—Registered trade marks attorneys",
+    "Division 2—Obtaining registration for first time",
+    "20.7  Evidence of knowledge requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20.7",
+  "ref": "TMR1995/r20.7",
+  "text": "(1) The Board must be satisfied that a person has a knowledge requirement mentioned in regulation 20.8 if: (a) the person makes an application in the form approved by the Board; and (b) the application is accompanied by: (i) evidence that the applicant has the relevant knowledge; and (ii) the original or a certified copy of any academic record that shows the study that contributes to the knowledge. (2) The Board must, within 42 days of deciding whether or not it is satisfied that the person has the knowledge requirement, notify the person, in writing, of its decision. Note: A decision that a person does not have a knowledge requirement is reviewable under regulation 21.35.",
+  "title": "Evidence of knowledge requirements",
+  "units": [
+    {
+      "content_hash": "sha256:a73aecb4803139b9a5ed27d8871e2759c8de786406e4006e50d7b3eb1e39beb7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.8",
+          "mention": "regulation 20.8"
+        }
+      ],
+      "ref": "TMR1995/r20.7(1)",
+      "style": "subsection",
+      "text": "(1) The Board must be satisfied that a person has a knowledge requirement mentioned in regulation 20.8 if:"
+    },
+    {
+      "content_hash": "sha256:fd0500fcf28f4b7a21bfb674ceb3c7315e1c3708d18945ce93a618f515ac75bd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20.7(1)",
+      "ref": "TMR1995/r20.7(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person makes an application in the form approved by the Board; and"
+    },
+    {
+      "content_hash": "sha256:fe392f776cdf456cbc18cbdccd9d968780186ec6771819e10d3b56cc210415de",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20.7(1)",
+      "ref": "TMR1995/r20.7(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the application is accompanied by:"
+    },
+    {
+      "content_hash": "sha256:3757d2c0a9e3fde0b3aa4bb600401a35fd9a4e66b1c3ef463617477bc2d5a49b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r20.7(1)(b)",
+      "ref": "TMR1995/r20.7(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) evidence that the applicant has the relevant knowledge; and"
+    },
+    {
+      "content_hash": "sha256:d9a4794ea4ae7acfc925396e1c424c40b1ec33d3302906d2f960d7170feff9f0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20.7(1)(b)",
+      "ref": "TMR1995/r20.7(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the original or a certified copy of any academic record that shows the study that contributes to the knowledge."
+    },
+    {
+      "content_hash": "sha256:1b41377e1d1e20b9ecc9e7f7e353c4ecbf3eb5633f167dd8157b598e32b9fc17",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r20.7(2)",
+      "style": "subsection",
+      "text": "(2) The Board must, within 42 days of deciding whether or not it is satisfied that the person has the knowledge requirement, notify the person, in writing, of its decision."
+    },
+    {
+      "content_hash": "sha256:cdd649ec3fe1b9d665cbb64e6f56feaf2841a39ef2fc2d4f3b6dd8e17dc9ec4d",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20.7(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.35",
+          "mention": "regulation 21.35"
+        }
+      ],
+      "ref": "TMR1995/r20.7(2)~1",
+      "style": "notetext",
+      "text": "Note: A decision that a person does not have a knowledge requirement is reviewable under regulation 21.35."
+    }
+  ]
+}

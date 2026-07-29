@@ -1,0 +1,130 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div3"
+  ],
+  "content_hash": "sha256:493301000ea15ff48d0f8c8aa9c8f2d69aff8b35978f66db3d8c960fa40cc84f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 3—Divisional applications",
+    "46  Rules relating to divisional applications"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "46",
+  "ref": "TMA1995/s46",
+  "text": "(1) A divisional application must: (a) be for the registration of the trade mark to which the parent application relates; and (b) specify the goods and/or services to which it relates; and (c) specify the goods and/or services that are to remain in the parent application. Note: For divisional application and parent application see section 45. (2) When a divisional application is made, the Registrar must, unless the parent application has lapsed, amend the parent application by excluding the goods and/or services in respect of which the divisional application is made. Note: Section 204 requires the Registrar, where no time or period is specified for doing a thing, to do the thing as soon as practicable. However, it is possible that a parent application will lapse before it is practicable for the Registrar to amend it under subsection (2) of this section.",
+  "title": "Rules relating to divisional applications",
+  "units": [
+    {
+      "content_hash": "sha256:84732731d95d8368eb98fe09814f9c031e6507456f92833a3a495b0792f94088",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s46(1)",
+      "style": "subsection",
+      "text": "(1) A divisional application must:"
+    },
+    {
+      "content_hash": "sha256:e842732f60f87771f3247c2816554be46d0075442fa8b73876bac242f9d299a1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s46(1)",
+      "ref": "TMA1995/s46(1)(a)",
+      "style": "paragraph",
+      "text": "(a) be for the registration of the trade mark to which the parent application relates; and"
+    },
+    {
+      "content_hash": "sha256:71cfa553a5f63bead8ff7f878ce92687b7b59914bf4191f8ee9fb50a4fe3b1d1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s46(1)",
+      "ref": "TMA1995/s46(1)(b)",
+      "style": "paragraph",
+      "text": "(b) specify the goods and/or services to which it relates; and"
+    },
+    {
+      "content_hash": "sha256:4f936c8ca166e35c55731f7a8075d1eb79fac57bed2945b7c8e9ed9cc5aaf841",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s46(1)",
+      "ref": "TMA1995/s46(1)(c)",
+      "style": "paragraph",
+      "text": "(c) specify the goods and/or services that are to remain in the parent application."
+    },
+    {
+      "content_hash": "sha256:1026349f2cbe10949d9aaa2a1bc3bafaac47f518da18c7a04bc79b4ba6865315",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 10,
+          "text": "divisional application",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 55,
+          "start": 37,
+          "text": "parent application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s46(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s45",
+          "mention": "section 45"
+        }
+      ],
+      "ref": "TMA1995/s46(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For divisional application and parent application see section 45."
+    },
+    {
+      "content_hash": "sha256:26f9acbc7a775565bbb0687dcbaad5212f5436c7d56ef270c5c256da7392347a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s46(2)",
+      "style": "subsection",
+      "text": "(2) When a divisional application is made, the Registrar must, unless the parent application has lapsed, amend the parent application by excluding the goods and/or services in respect of which the divisional application is made."
+    },
+    {
+      "content_hash": "sha256:782700619fab954c89482389a4e5e35518f2001c6c61353bb8e35e6dc9c16142",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s46(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s204",
+          "mention": "Section 204"
+        }
+      ],
+      "ref": "TMA1995/s46(2)~1",
+      "style": "notetext",
+      "text": "Note: Section 204 requires the Registrar, where no time or period is specified for doing a thing, to do the thing as soon as practicable. However, it is possible that a parent application will lapse before it is practicable for the Registrar to amend it under subsection (2) of this section."
+    }
+  ]
+}

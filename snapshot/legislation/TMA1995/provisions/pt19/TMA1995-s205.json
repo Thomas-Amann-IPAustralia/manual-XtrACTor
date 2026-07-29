@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt19"
+  ],
+  "content_hash": "sha256:e84fc7313ffd62c472330793f669f3cfd00860eaeae6e1437fae6c5d36ae67a5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 19—Administration",
+    "205  Deputy Registrar of Trade Marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "205",
+  "ref": "TMA1995/s205",
+  "text": "(1) There is to be at least one Deputy Registrar of Trade Marks. (2) Subject to any direction by the Registrar, a Deputy Registrar has all the powers and functions of the Registrar, except the powers of delegation under section 206. (3) A power or function of the Registrar, when exercised by a Deputy Registrar, is taken to have been exercised by the Registrar. (4) The exercise of a power or function of the Registrar by a Deputy Registrar does not prevent the exercise of the power or function by the Registrar. (5) If the exercise of a power or function by the Registrar is dependent on the opinion, belief or state of mind of the Registrar in relation to a matter, that power or function may be exercised by a Deputy Registrar on his or her opinion, belief or state of mind in relation to that matter. (6) If the operation of a provision of this Act or another Act is dependent on the opinion, belief or state of mind of the Registrar in relation to a matter, that provision may operate on the opinion, belief or state of mind of a Deputy Registrar in relation to that matter.",
+  "title": "Deputy Registrar of Trade Marks",
+  "units": [
+    {
+      "content_hash": "sha256:ae87b2646f4a03dad25c5a83bd3fbeb42a67b0b991897a3053c3325e0e5b32b4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s205(1)",
+      "style": "subsection",
+      "text": "(1) There is to be at least one Deputy Registrar of Trade Marks."
+    },
+    {
+      "content_hash": "sha256:c2770b848f030be5cb8d734653ccc72f3bac4b4fe9a4e9cf690b547faf1d19d7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s206",
+          "mention": "section 206"
+        }
+      ],
+      "ref": "TMA1995/s205(2)",
+      "style": "subsection",
+      "text": "(2) Subject to any direction by the Registrar, a Deputy Registrar has all the powers and functions of the Registrar, except the powers of delegation under section 206."
+    },
+    {
+      "content_hash": "sha256:0aae7684d154eb32b109eecec0dfff1755547a1fd468e6c239a417a516965584",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s205(3)",
+      "style": "subsection",
+      "text": "(3) A power or function of the Registrar, when exercised by a Deputy Registrar, is taken to have been exercised by the Registrar."
+    },
+    {
+      "content_hash": "sha256:919ee0e49d8b5214b30842287f494511b8e50804dc20767b0daf28225019eb98",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s205(4)",
+      "style": "subsection",
+      "text": "(4) The exercise of a power or function of the Registrar by a Deputy Registrar does not prevent the exercise of the power or function by the Registrar."
+    },
+    {
+      "content_hash": "sha256:430a84d493348da3effc8b49fc3eff7ba883ca2556856b2a48a979bb8fea64d9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s205(5)",
+      "style": "subsection",
+      "text": "(5) If the exercise of a power or function by the Registrar is dependent on the opinion, belief or state of mind of the Registrar in relation to a matter, that power or function may be exercised by a Deputy Registrar on his or her opinion, belief or state of mind in relation to that matter."
+    },
+    {
+      "content_hash": "sha256:9fff6c7a7fe63e9dee1b4d2d41325bd38fb0e7288a7721cf5930f3aa0517ec98",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s205(6)",
+      "style": "subsection",
+      "text": "(6) If the operation of a provision of this Act or another Act is dependent on the opinion, belief or state of mind of the Registrar in relation to a matter, that provision may operate on the opinion, belief or state of mind of a Deputy Registrar in relation to that matter."
+    }
+  ]
+}

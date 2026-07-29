@@ -1,0 +1,119 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div2"
+  ],
+  "content_hash": "sha256:161e1ca3df3ec59413b60ada121eb68e1dadb08660f6934b4a4571fb278c12b5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 2—Renewal of registration (general)",
+    "78  Failure to renew"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "78",
+  "ref": "TMA1995/s78",
+  "text": "If the registration of a trade mark is not renewed under section 77, then: (a) subject to sections 79 and 80, the registration ceases to have effect when it expires; and (b) unless the registration is renewed under section 79, the Registrar must remove the trade mark from the Register 6 months after the day on which the registration expired. Note: For month and Register see section 6.",
+  "title": "Failure to renew",
+  "units": [
+    {
+      "content_hash": "sha256:55b701c69fb471e549c637e37864945b5d86d97b4925d8d849a6f204c723dacf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s77",
+          "mention": "section 77"
+        }
+      ],
+      "ref": "TMA1995/s78~1",
+      "style": "subsection",
+      "text": "If the registration of a trade mark is not renewed under section 77, then:"
+    },
+    {
+      "content_hash": "sha256:5792da9c859ca5a5abbcaf4da00eec25bd2237010b305c25473eae69635bba0a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s78~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "sections 79 and 80"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s80",
+          "mention": "sections 79 and 80"
+        }
+      ],
+      "ref": "TMA1995/s78(a)",
+      "style": "paragraph",
+      "text": "(a) subject to sections 79 and 80, the registration ceases to have effect when it expires; and"
+    },
+    {
+      "content_hash": "sha256:6a16bfc27f190d8c744e37fe6db10bb86d5f7780570c7febb679408cec291b37",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s78~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s79",
+          "mention": "section 79"
+        }
+      ],
+      "ref": "TMA1995/s78(b)",
+      "style": "paragraph",
+      "text": "(b) unless the registration is renewed under section 79, the Registrar must remove the trade mark from the Register 6 months after the day on which the registration expired."
+    },
+    {
+      "content_hash": "sha256:243b207aafb7f23ce561eeecbb0008f5345af54930d07401a5eca6e2c6607258",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 10,
+          "text": "month",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 28,
+          "start": 20,
+          "text": "Register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s78(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s78(b)~1",
+      "style": "notetext",
+      "text": "Note: For month and Register see section 6."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div2"
+  ],
+  "content_hash": "sha256:3c3d906a383d489c05c9112ee9edb4ab145f66b9dbc8c510a01ef45e83ecdf41",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 2—Application for international registration of a trade mark",
+    "17A.7  Application for international registration"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.7",
+  "ref": "TMR1995/r17A.7",
+  "text": "(1) Subject to subregulation (2), the application must: (a) comply with the requirements of the Protocol; and (b) be filed with the International Bureau through the intermediary of the Trade Marks Office. (2) The applicant must use the official form issued by the International Bureau or another form that requires the same information and uses the same format as the official form.",
+  "title": "Application for international registration",
+  "units": [
+    {
+      "content_hash": "sha256:1227f64d07817a8fc35928f7fdc7ee39b97a0bd5d108be7ac2c449317ae8e153",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.7(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subregulation (2), the application must:"
+    },
+    {
+      "content_hash": "sha256:47032a7fe6e935a458fb1b04850266a317d24bf82b585f671f92485f6732e816",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.7(1)",
+      "ref": "TMR1995/r17A.7(1)(a)",
+      "style": "paragraph",
+      "text": "(a) comply with the requirements of the Protocol; and"
+    },
+    {
+      "content_hash": "sha256:9b1237e7ac74da102934915088d95bc67b113eb5f24fa5fb3d6074f4da3b767f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.7(1)",
+      "ref": "TMR1995/r17A.7(1)(b)",
+      "style": "paragraph",
+      "text": "(b) be filed with the International Bureau through the intermediary of the Trade Marks Office."
+    },
+    {
+      "content_hash": "sha256:77e1f34274cfa6622888313ea9efcce430baca97e22e7dc936526f266cb60254",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.7(2)",
+      "style": "subsection",
+      "text": "(2) The applicant must use the official form issued by the International Bureau or another form that requires the same information and uses the same format as the official form."
+    }
+  ]
+}

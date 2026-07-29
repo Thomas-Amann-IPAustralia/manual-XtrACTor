@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:1ce3878bf567186de1fcb7a423a85aefc101b7e30f5d0f66d74b83b9cbd851b8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "245  Application for registration of a mark in Part C of the old register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "245",
+  "ref": "TMA1995/s245",
+  "text": "(1) Subject to Part 16, section 241 applies to an application for the registration of a mark as a certification trade mark in Part C of the old register as if the reference in subsection (1) to Part A or B of the old register were a reference to Part C of that register. (2) Subject to Part 16, sections 242 to 244 apply to an application for the registration of a mark as a certification trade mark in Part C of the old register. Note: For old register see section 6.",
+  "title": "Application for registration of a mark in Part C of the old register",
+  "units": [
+    {
+      "content_hash": "sha256:1600c6355fd68c9e8cc837234fb1e779e2d9d6e8c3c867e4556b6a9804662a0c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s241",
+          "mention": "section 241"
+        }
+      ],
+      "ref": "TMA1995/s245(1)",
+      "style": "subsection",
+      "text": "(1) Subject to Part 16, section 241 applies to an application for the registration of a mark as a certification trade mark in Part C of the old register as if the reference in subsection (1) to Part A or B of the old register were a reference to Part C of that register."
+    },
+    {
+      "content_hash": "sha256:5e504bfe21219c439e9803c926b72550a84647f0038ff93bcbe314bb7a04e51a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s242",
+          "mention": "sections 242 to 244"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s244",
+          "mention": "sections 242 to 244"
+        }
+      ],
+      "ref": "TMA1995/s245(2)",
+      "style": "subsection",
+      "text": "(2) Subject to Part 16, sections 242 to 244 apply to an application for the registration of a mark as a certification trade mark in Part C of the old register."
+    },
+    {
+      "content_hash": "sha256:34491267f06a075ab1f2441535f1d7ebdd116bdb0f5ae13e35bda7437cd5c9f3",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 22,
+          "start": 10,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s245(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s245(2)~1",
+      "style": "notetext",
+      "text": "Note: For old register see section 6."
+    }
+  ]
+}

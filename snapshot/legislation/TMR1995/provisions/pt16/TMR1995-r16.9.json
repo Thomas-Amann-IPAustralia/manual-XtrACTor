@@ -1,0 +1,101 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:8db5e6d44f4d6b7523333b7ea2d7db47878b9a5d86d6524b7e5651ce1c89a9f3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.9  Consideration of applications to vary rules"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.9",
+  "ref": "TMR1995/r16.9",
+  "text": "(1) The Commission must make an initial assessment of an application for approval of the variation of the rules governing the use of a registered certification trade mark as soon as practicable after it receives the application. (2) Subregulations 16.3(2), (3) and (4) and regulation 16.4 apply to an application to approve the variation of the rules governing the use of a registered certification trade mark as if a reference in those provisions to an application for registration of a certification trade mark were a reference to an application to approve the variation of the rules governing the use of a registered certification trade mark. (3) Subregulation 16.5(2) applies to a decision whether to approve an application for variation of the rules governing the use of a registered certification trade mark. Note: Subsection 178(3) of the Act requires the Commission, in deciding whether to approve a variation, to have regard to prescribed criteria, which are the criteria set out in regulation 16.6.",
+  "title": "Consideration of applications to vary rules",
+  "units": [
+    {
+      "content_hash": "sha256:b634ba9e7d1f58d71df358dc3dbfd807a45724feb4d3288ac1e31ad82909f039",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.9(1)",
+      "style": "subsection",
+      "text": "(1) The Commission must make an initial assessment of an application for approval of the variation of the rules governing the use of a registered certification trade mark as soon as practicable after it receives the application."
+    },
+    {
+      "content_hash": "sha256:c65eed4e93a655fa65ff7dbaa1872947e57a053c092357fb850a20781d9ef0ea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.3(2)",
+          "mention": "Subregulations 16.3(2)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.4",
+          "mention": "regulation 16.4"
+        }
+      ],
+      "ref": "TMR1995/r16.9(2)",
+      "style": "subsection",
+      "text": "(2) Subregulations 16.3(2), (3) and (4) and regulation 16.4 apply to an application to approve the variation of the rules governing the use of a registered certification trade mark as if a reference in those provisions to an application for registration of a certification trade mark were a reference to an application to approve the variation of the rules governing the use of a registered certification trade mark."
+    },
+    {
+      "content_hash": "sha256:8c3f35722601ce16d6be9252cc6f5f650c63547610b694ee1dd5540adeb1a488",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.5(2)",
+          "mention": "Subregulation 16.5(2)"
+        }
+      ],
+      "ref": "TMR1995/r16.9(3)",
+      "style": "subsection",
+      "text": "(3) Subregulation 16.5(2) applies to a decision whether to approve an application for variation of the rules governing the use of a registered certification trade mark."
+    },
+    {
+      "content_hash": "sha256:2b4939db8c1b33bad774383b0f1b1c32f20261e302b24b7f3a6f918463f97c5a",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.9(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s178(3)",
+          "mention": "Subsection 178(3)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.6",
+          "mention": "regulation 16.6"
+        }
+      ],
+      "ref": "TMR1995/r16.9(3)~1",
+      "style": "notetext",
+      "text": "Note: Subsection 178(3) of the Act requires the Commission, in deciding whether to approve a variation, to have regard to prescribed criteria, which are the criteria set out in regulation 16.6."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt10"
+  ],
+  "content_hash": "sha256:a3e2bb115e3a7480288c366a8729160798d7682dcbea077fa85f6e6068b99bf9",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "106  Assignment etc. of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "106",
+  "ref": "TMA1995/s106",
+  "text": "(1) A registered trade mark, or a trade mark whose registration is being sought, may be assigned or transmitted in accordance with this section. (2) The assignment or transmission may be partial, that is, it may apply to some only of the goods and/or services in respect of which registration is sought or the trade mark is registered, but it may not be partial in relation to the use of a trade mark in a particular area. (3) The assignment or transmission may be with or without the goodwill of the business concerned in the relevant goods and/or services. Note: For assignment and transmission see section 6.",
+  "title": "Assignment etc. of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:5eb71be3696ab71d9d7066384423061c4d8bc2710f32e8c3b7abf1f175cd6c45",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s106(1)",
+      "style": "subsection",
+      "text": "(1) A registered trade mark, or a trade mark whose registration is being sought, may be assigned or transmitted in accordance with this section."
+    },
+    {
+      "content_hash": "sha256:66794af9880b444d2d945f46655f5aed3646d05321a1ec14761644c7d2efa3d1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s106(2)",
+      "style": "subsection",
+      "text": "(2) The assignment or transmission may be partial, that is, it may apply to some only of the goods and/or services in respect of which registration is sought or the trade mark is registered, but it may not be partial in relation to the use of a trade mark in a particular area."
+    },
+    {
+      "content_hash": "sha256:942df1557c351f5067bdb1c030463e162bf5b41cfede4e3f8482d3fce327bc9f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s106(3)",
+      "style": "subsection",
+      "text": "(3) The assignment or transmission may be with or without the goodwill of the business concerned in the relevant goods and/or services."
+    },
+    {
+      "content_hash": "sha256:09c401d797d5359ff675038c4062887ffa0850aa9bba0f1b803817fc8ad455de",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 20,
+          "start": 10,
+          "text": "assignment",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 37,
+          "start": 25,
+          "text": "transmission",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s106(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s106(3)~1",
+      "style": "notetext",
+      "text": "Note: For assignment and transmission see section 6."
+    }
+  ]
+}

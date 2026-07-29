@@ -1,0 +1,126 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:3c0586186f8b7aa669f5849a5a2f323bc1288795bc26228d06b5b7fbdc4640be",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "136C  Objector to be notified of claim"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "136C",
+  "ref": "TMA1995/s136C",
+  "text": "(1) If the designated owner makes a claim for the release of seized goods, the ComptrollerGeneral of Customs must, as soon as practicable, give notice of the claim to the objector. Note: For designated owner, objector and seized goods see section 6. (2) The notice: (a) must be in writing; and (b) may include any information that the ComptrollerGeneral of Customs has, and believes on reasonable grounds may be relevant, for the purpose of identifying and locating either or both of the following: (i) the importer of the goods; (ii) any other person or body (whether in or outside Australia) that made arrangements for the goods to be brought to Australia.",
+  "title": "Objector to be notified of claim",
+  "units": [
+    {
+      "content_hash": "sha256:6124ccad45db096f15fd533d2eb7d3abd4e672d19529096714eaad9608fef17a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s136C(1)",
+      "style": "subsection",
+      "text": "(1) If the designated owner makes a claim for the release of seized goods, the ComptrollerGeneral of Customs must, as soon as practicable, give notice of the claim to the objector."
+    },
+    {
+      "content_hash": "sha256:b67b3a48a504823dcafc79c58f40b21178d64ced49548736d49e5863cb5c7d20",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 36,
+          "start": 28,
+          "text": "objector",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 53,
+          "start": 41,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s136C(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s136C(1)~1",
+      "style": "notetext",
+      "text": "Note: For designated owner, objector and seized goods see section 6."
+    },
+    {
+      "content_hash": "sha256:a96bebacbda8e28d3967e7eeff014ea5ce30cf14cd5e700082fee27ad6eadb96",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s136C(2)",
+      "style": "subsection",
+      "text": "(2) The notice:"
+    },
+    {
+      "content_hash": "sha256:733bebaabd375c03eac7c5ad7a58bcae5e388ea4c09b747ee7696f21f20e054e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s136C(2)",
+      "ref": "TMA1995/s136C(2)(a)",
+      "style": "paragraph",
+      "text": "(a) must be in writing; and"
+    },
+    {
+      "content_hash": "sha256:24def26646c1a9a53bf13a5d0b5f367e81c9aa83e9c7877973a6dde843fa8927",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s136C(2)",
+      "ref": "TMA1995/s136C(2)(b)",
+      "style": "paragraph",
+      "text": "(b) may include any information that the ComptrollerGeneral of Customs has, and believes on reasonable grounds may be relevant, for the purpose of identifying and locating either or both of the following:"
+    },
+    {
+      "content_hash": "sha256:318291967cef80b9a9ef28b93c8cc075002f076c16a3de30568ab5c469affe40",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s136C(2)(b)",
+      "ref": "TMA1995/s136C(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the importer of the goods;"
+    },
+    {
+      "content_hash": "sha256:54fd9290209f8875feef4903430c1b43b84416ecd6deae3ea5dc339eaeff208d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s136C(2)(b)",
+      "ref": "TMA1995/s136C(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) any other person or body (whether in or outside Australia) that made arrangements for the goods to be brought to Australia."
+    }
+  ]
+}

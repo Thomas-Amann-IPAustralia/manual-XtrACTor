@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:09fdfd1ae49a3ea8a1c5674f44cf2b80bd543f7cd3a3897b6e5cd6a05ccad364",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "223AA  Approved means of paying a fee"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "223AA",
+  "ref": "TMA1995/s223AA",
+  "text": "(1) For the purposes of subsection 223(2C), the Registrar may, by writing, determine one or more means for paying a fee. (2) The means may be an electronic means or any other means. (3) The Registrar must publish the determination in accordance with the regulations. (4) The Registrar may, in a determination under subsection (1), specify that one or more means for paying a fee are preferred means. Note: Under the regulations, the amount of a fee may be reduced for paying the fee by preferred means. (5) A determination under subsection (1) is not a legislative instrument.",
+  "title": "Approved means of paying a fee",
+  "units": [
+    {
+      "content_hash": "sha256:6be5c10d9292a00075c437102bac331cb9a248dbfa1fc6fb021e192a1a0e1ca0",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223(2C)",
+          "mention": "subsection 223(2C)"
+        }
+      ],
+      "ref": "TMA1995/s223AA(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 223(2C), the Registrar may, by writing, determine one or more means for paying a fee."
+    },
+    {
+      "content_hash": "sha256:ae7f006796558892a800226b8a4f7f266b07f2a0d32e4e19b3306e55bf2c9755",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s223AA(2)",
+      "style": "subsection",
+      "text": "(2) The means may be an electronic means or any other means."
+    },
+    {
+      "content_hash": "sha256:33b2d526f3b891c3f100428733984537197012d370ccd9075b332d546efccfa1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s223AA(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must publish the determination in accordance with the regulations."
+    },
+    {
+      "content_hash": "sha256:8565e9d3afad95c1279f3a89fd69cbf7ab8d6e36bc2fead8b42c854a4f0deadf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s223AA(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar may, in a determination under subsection (1), specify that one or more means for paying a fee are preferred means."
+    },
+    {
+      "content_hash": "sha256:2d7fbb8510faeaf70d4a3f48cc6edfef29ab6d0ffd6ccc954dbbfb1896adaffe",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s223AA(4)",
+      "ref": "TMA1995/s223AA(4)~1",
+      "style": "notetext",
+      "text": "Note: Under the regulations, the amount of a fee may be reduced for paying the fee by preferred means."
+    },
+    {
+      "content_hash": "sha256:df07493dad5922f30a28b872035be53ce867b0c38a7e688db40ab27166caf2c3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s223AA(5)",
+      "style": "subsection",
+      "text": "(5) A determination under subsection (1) is not a legislative instrument."
+    }
+  ]
+}

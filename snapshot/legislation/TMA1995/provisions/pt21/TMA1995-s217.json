@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div1"
+  ],
+  "content_hash": "sha256:0be526cf71e3913ff8c8b34d3069f04f757bf5d6877cfc929956e12f86312ec1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "217  Death of applicant etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "217",
+  "ref": "TMA1995/s217",
+  "text": "(1) If an applicant for the registration of a trade mark dies before registration is granted on the application, his or her legal representative may proceed with the application. Note: For applicant see section 6. (2) If, at any time after a trade mark is registered, the Registrar is satisfied that the person in whose name the trade mark is registered had died (or, in the case of a body corporate, had ceased to exist) before registration was granted, the Registrar may amend the Register by substituting for the name entered in the Register the name of the person who should be the registered owner of the trade mark.",
+  "title": "Death of applicant etc.",
+  "units": [
+    {
+      "content_hash": "sha256:3718c88cbda609c276c860b09391654af4af5ea1d15a543e95d6f27dbbf963b7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s217(1)",
+      "style": "subsection",
+      "text": "(1) If an applicant for the registration of a trade mark dies before registration is granted on the application, his or her legal representative may proceed with the application."
+    },
+    {
+      "content_hash": "sha256:41e164bb53fd8c2e42da3fec14283d1b0cdedb4ba275d504e98fa3bf72a5b01e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 10,
+          "text": "applicant",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s217(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s217(1)~1",
+      "style": "notetext",
+      "text": "Note: For applicant see section 6."
+    },
+    {
+      "content_hash": "sha256:09ecf142dafb0f1cf6368f7f1693c4fbececfb0e8fcf875008e152a989da3fd7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMA1995/s217(2)",
+      "style": "subsection",
+      "text": "(2) If, at any time after a trade mark is registered, the Registrar is satisfied that the person in whose name the trade mark is registered had died (or, in the case of a body corporate, had ceased to exist) before registration was granted, the Registrar may amend the Register by substituting for the name entered in the Register the name of the person who should be the registered owner of the trade mark."
+    }
+  ]
+}

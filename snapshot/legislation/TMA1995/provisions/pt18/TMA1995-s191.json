@@ -1,0 +1,92 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt18"
+  ],
+  "content_hash": "sha256:447bfc8a280119717824e2eaeba5259eda5874ca8f27cea828fc6a8c4b592a85",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 18—Jurisdiction and powers of courts",
+    "191  Jurisdiction of the Federal Court"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "191",
+  "ref": "TMA1995/s191",
+  "text": "(1) The Federal Court has jurisdiction with respect to matters arising under this Act. (2) The jurisdiction of the Federal Court to hear and determine appeals against decisions, directions or orders of the Registrar is exclusive of the jurisdiction of any other court except the jurisdiction of: (a) the Federal Circuit and Family Court of Australia (Division 2) under subsection 191A(2) of this Act; and (b) the High Court under section 75 of the Constitution. (3) A prosecution for an offence against this Act may not be started in the Federal Court.",
+  "title": "Jurisdiction of the Federal Court",
+  "units": [
+    {
+      "content_hash": "sha256:e17cb5a282b3e5f9ad23c98daa4fcba4657d16a2b3adc06b746da55ba46147eb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s191(1)",
+      "style": "subsection",
+      "text": "(1) The Federal Court has jurisdiction with respect to matters arising under this Act."
+    },
+    {
+      "content_hash": "sha256:91927df551fe656df0caec970914f92ea16bf46c3382e1ec24045b4f14ef5442",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s191(2)",
+      "style": "subsection",
+      "text": "(2) The jurisdiction of the Federal Court to hear and determine appeals against decisions, directions or orders of the Registrar is exclusive of the jurisdiction of any other court except the jurisdiction of:"
+    },
+    {
+      "content_hash": "sha256:4d57d11348879f025612fb0860ae01b747a007393aaf2eb59368205a247dbaf2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s191(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s191A(2)",
+          "mention": "subsection 191A(2)"
+        }
+      ],
+      "ref": "TMA1995/s191(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the Federal Circuit and Family Court of Australia (Division 2) under subsection 191A(2) of this Act; and"
+    },
+    {
+      "content_hash": "sha256:7b0c4309c0308faee14fa49e520a39b722cc576af62201b1c44fc7f3b989c602",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s191(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s75",
+          "mention": "section 75"
+        }
+      ],
+      "ref": "TMA1995/s191(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the High Court under section 75 of the Constitution."
+    },
+    {
+      "content_hash": "sha256:2760a27486a6b7302770e98607f788624b7ddc21e6e06834db00bcfd5c9e78ea",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s191(3)",
+      "style": "subsection",
+      "text": "(3) A prosecution for an offence against this Act may not be started in the Federal Court."
+    }
+  ]
+}

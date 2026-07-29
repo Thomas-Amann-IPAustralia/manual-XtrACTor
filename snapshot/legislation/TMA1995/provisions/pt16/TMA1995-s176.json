@@ -1,0 +1,166 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt16"
+  ],
+  "content_hash": "sha256:9350fcf5c5fe4dad1eed4099daadd1eb5ca01a35fa03d0de98947b070e2e857a",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 16—Certification trade marks",
+    "176  Acceptance or rejection of application"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "176",
+  "ref": "TMA1995/s176",
+  "text": "(1) The Registrar must accept the application if: (a) the application is made in accordance with this Act; and (b) there are no grounds for rejecting the application; and (c) the Commission has given a certificate under subsection 175(2). Otherwise the Registrar must reject the application. (1A) However, the Registrar must give the applicant an opportunity to be heard before rejecting the application solely because one or both of the conditions in paragraphs (1)(a) and (b) are not met. (2) The Registrar may accept the application subject to conditions or limitations. Note: For limitations see section 6. (3) The Registrar must: (a) notify the applicant of the Registrar’s decision under this section; and (b) publish the decision in accordance with the regulations.",
+  "title": "Acceptance or rejection of application",
+  "units": [
+    {
+      "content_hash": "sha256:8065d35e71ba50446f13477d38b33383aaebac0b665bc39050b3c61018bbf6bb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s176(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must accept the application if:"
+    },
+    {
+      "content_hash": "sha256:67701c3af11d69943a822fd096e9ac91cb3fd110575fa07440c27ab442ee82a2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s176(1)",
+      "ref": "TMA1995/s176(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the application is made in accordance with this Act; and"
+    },
+    {
+      "content_hash": "sha256:ce28aa75ae53b91356959c552b5283b0d81a3adf9b931f2d4332773bb1e227a0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s176(1)",
+      "ref": "TMA1995/s176(1)(b)",
+      "style": "paragraph",
+      "text": "(b) there are no grounds for rejecting the application; and"
+    },
+    {
+      "content_hash": "sha256:b74ee41c8832812ee85428958bafef2f87ca3a4a11d0a34d5e3ffe569df05a02",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s176(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s175(2)",
+          "mention": "subsection 175(2)"
+        }
+      ],
+      "ref": "TMA1995/s176(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the Commission has given a certificate under subsection 175(2)."
+    },
+    {
+      "content_hash": "sha256:9a5f8534013cfbed0c89aa7ce46c9c8244fdbc73029bc7e09278a14535467a31",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s176~1",
+      "style": "subsection2",
+      "text": "Otherwise the Registrar must reject the application."
+    },
+    {
+      "content_hash": "sha256:ee17bb5caf1a39f40d50f6375e9657aa3674cb0dbbf860be12bf3dc9d6f702a9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1A)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s176(1A)",
+      "style": "subsection",
+      "text": "(1A) However, the Registrar must give the applicant an opportunity to be heard before rejecting the application solely because one or both of the conditions in paragraphs (1)(a) and (b) are not met."
+    },
+    {
+      "content_hash": "sha256:9123fcbfbf6f63496b26e8e2a76d3bcf923caba81c89b0af1d3c52bf5577d9ec",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s176(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may accept the application subject to conditions or limitations."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s176(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s176(2)~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    },
+    {
+      "content_hash": "sha256:efb70a520ba2025baf755c657c4b6f5dd38a593109e5c51ca2fd4a2d409c2faf",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s176(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must:"
+    },
+    {
+      "content_hash": "sha256:1449ead0fd8455df38355f5a4e99b2b1a4d2b8871ce54d5a077d930c55594ae8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s176(3)",
+      "ref": "TMA1995/s176(3)(a)",
+      "style": "paragraph",
+      "text": "(a) notify the applicant of the Registrar’s decision under this section; and"
+    },
+    {
+      "content_hash": "sha256:da99d24895d6ba64e02ad84481acac078abb012aecf53fa992c570ff8c664b09",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s176(3)",
+      "ref": "TMA1995/s176(3)(b)",
+      "style": "paragraph",
+      "text": "(b) publish the decision in accordance with the regulations."
+    }
+  ]
+}

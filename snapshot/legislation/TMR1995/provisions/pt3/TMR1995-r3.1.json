@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3"
+  ],
+  "content_hash": "sha256:c2498c96cebb168d7ba3313fa8519b2725502701dddafadfcaf8824f50625432",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "3.1  Classification of goods and services"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3.1",
+  "ref": "TMR1995/r3.1",
+  "text": "(1) For the purposes of subsection 19(3) of the Act (which deals with the classification of goods and services): (a) goods are divided into the classes of goods described in column 2 of Part 1 of Schedule 1; and (b) services are divided into the classes of services described in column 2 of Part 2 of Schedule 1. (2) Each class of goods or services described in Schedule 1 has: (a) a class number corresponding to the item number of that class in column 1 of Part 1 or 2 of Schedule 1; and (b) a class heading corresponding to the description of that class in column 2 of Part 1 or 2 of Schedule 1.",
+  "title": "Classification of goods and services",
+  "units": [
+    {
+      "content_hash": "sha256:8ffa62dc1cb631d82832a40bd1c82fdfdda872977089003c91f5ca6d8bc9ff96",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s19(3)",
+          "mention": "subsection 19(3)"
+        }
+      ],
+      "ref": "TMR1995/r3.1(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 19(3) of the Act (which deals with the classification of goods and services):"
+    },
+    {
+      "content_hash": "sha256:5c9930c7f5488f7d0b4f8b7b184720f290c91c582a70324932599dd1eb8141b9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r3.1(1)",
+      "ref": "TMR1995/r3.1(1)(a)",
+      "style": "paragraph",
+      "text": "(a) goods are divided into the classes of goods described in column 2 of Part 1 of Schedule 1; and"
+    },
+    {
+      "content_hash": "sha256:c74c79ff08aac0fca740abd4eaddb61da852a1c8d8226d2f64f08f76f638963a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r3.1(1)",
+      "ref": "TMR1995/r3.1(1)(b)",
+      "style": "paragraph",
+      "text": "(b) services are divided into the classes of services described in column 2 of Part 2 of Schedule 1."
+    },
+    {
+      "content_hash": "sha256:137021fdc63acd0f5f699c9509af22c65c14f3c6d94507cc621e944c05070955",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r3.1(2)",
+      "style": "subsection",
+      "text": "(2) Each class of goods or services described in Schedule 1 has:"
+    },
+    {
+      "content_hash": "sha256:6f4aea4e517fa612564fb0dac5d1fe79177ac2df15e94d97cd08f8b938df3031",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r3.1(2)",
+      "ref": "TMR1995/r3.1(2)(a)",
+      "style": "paragraph",
+      "text": "(a) a class number corresponding to the item number of that class in column 1 of Part 1 or 2 of Schedule 1; and"
+    },
+    {
+      "content_hash": "sha256:d9579bc11e6a42237766fbc466791d19f18363660570fabbdef81e738d1667d8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r3.1(2)",
+      "ref": "TMR1995/r3.1(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a class heading corresponding to the description of that class in column 2 of Part 1 or 2 of Schedule 1."
+    }
+  ]
+}

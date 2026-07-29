@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div2"
+  ],
+  "content_hash": "sha256:4dfe1273bedebd7e7ee22d898f1b873bb995907bdde0583e1b67fc2b4a37df55",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 2—Proceedings before the Registrar",
+    "21.20  Statements of reasons for decision"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.20",
+  "ref": "TMR1995/r21.20",
+  "text": "If: (a) the Registrar notifies a party to proceedings before the Registrar of a decision of the Registrar in the proceedings; and (b) the party requests the Registrar in writing for the reasons for the decision; the Registrar must comply with the request.",
+  "title": "Statements of reasons for decision",
+  "units": [
+    {
+      "content_hash": "sha256:a5461a4dfe82c04bf0a61bec47c4f91312ce74619864b4191ed1fad2b0655256",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.20~1",
+      "style": "subsection",
+      "text": "If:"
+    },
+    {
+      "content_hash": "sha256:dcec4f5796208bb3852b955cfd44395796dc6386c111accbb6a89935960aa8e8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.20~1",
+      "ref": "TMR1995/r21.20(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar notifies a party to proceedings before the Registrar of a decision of the Registrar in the proceedings; and"
+    },
+    {
+      "content_hash": "sha256:d5e1f1e11ae71a8425a9e88ea465275815d46b67b5ab7df0b64774718a0e13b7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.20~1",
+      "ref": "TMR1995/r21.20(b)",
+      "style": "paragraph",
+      "text": "(b) the party requests the Registrar in writing for the reasons for the decision;"
+    },
+    {
+      "content_hash": "sha256:f03f0dccc937b462f9ef715cf2291f16d9bfb76acbe5d052e865e4d7d603dc64",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.20~2",
+      "style": "subsection2",
+      "text": "the Registrar must comply with the request."
+    }
+  ]
+}

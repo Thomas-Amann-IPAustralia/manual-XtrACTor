@@ -1,0 +1,421 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:b402ebef27c6620dc241a562fccb9856960d342a7dfa1d0ab944af04ea3f302f",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.21  Deferment of acceptance"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.21",
+  "ref": "TMR1995/r17A.21",
+  "text": "(1) The Registrar may, at the written request of the holder, defer acceptance of an IRDA if: (a) the request is made within a period mentioned in subregulation 17A.20(1) or that period as extended under regulation 17A.20 or section 224 of the Act; and (b) the Registrar reasonably believes that there are grounds for rejecting the IRDA under subsection 44(1) or (2) of the Act (as applied by regulation 17A.28) because of another trade mark: (i) that is registered by another person; or (ii) that is a protected international trade mark; or (iii) in respect of which an application for registration, or an IRDA, has been made by another person; and (c) the holder: (i) is awaiting the finalisation of proceedings in respect of the application for registration of the other trade mark or the IRDA; or (ii) is seeking to satisfy the Registrar as to: (A) a matter mentioned in paragraph 44(3)(a) or (b) of the Act (as applied by regulation 17A.28); or (B) the matters mentioned in subsection 44(4) of the Act (as applied by regulation 17A.28); in relation to the holder’s trade mark and the other trade mark; or (iii) has filed an application under section 92 of the Act or subregulation 17A.48C(1) in respect of the other trade mark and is awaiting the finalisation of proceedings in respect of that application; or (iv) has begun proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark and the proceedings have not been determined or otherwise disposed of; or (v) is awaiting renewal of the registration of the other trade mark in the period of 6 months after registration of the other trade mark has expired, or removal of the other trade mark from the Register; or (vi) is awaiting renewal of the international registration of the other trade mark in the period of 6 months after the international registration has expired, or removal of the other trade mark from the International Register. (2) The Registrar may, on his or her own initiative, defer acceptance of the IRDA within the period mentioned in subregulation 17A.20(1), or (if such a period is extended under section 224 of the Act or subregulation 17A.20(4)) the extended period, if: (a) the time within which proceedings mentioned in paragraph (b) may be begun, or an application mentioned in paragraph (c) may be made, has not ended; or (b) appeal proceedings under a provision of the Act have begun in a prescribed court in relation to the IRDA; or (c) an application has been made to the ART for review of a decision of the Registrar in relation to the IRDA; or (ca) the holder has made a request to the Registrar to be heard in relation to the IRDA; or (d) the Registrar is informed in writing that the holder has died. (3) The Registrar must defer acceptance of an IRDA in respect of a certification trade mark when a copy of the rules governing the use of the certification trade mark is sent to the Commission in accordance with regulation 16.2 (as applied by regulation 17A.50). (4) The Registrar must notify the holder: (a) if the holder requests the Registrar to defer acceptance of an IRDA—of the Registrar’s decision to defer, or not to defer, acceptance of the IRDA; and (b) if the Registrar otherwise defers acceptance of an IRDA—of the provision under which acceptance of the IRDA is deferred.",
+  "title": "Deferment of acceptance",
+  "units": [
+    {
+      "content_hash": "sha256:75d24a8711fb0be8d3a5c4f789010d2c00681b565d79cf31e4807d241fdeda05",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.21(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may, at the written request of the holder, defer acceptance of an IRDA if:"
+    },
+    {
+      "content_hash": "sha256:936dc1c6a350984d6c79aceb5a39996e358f653bcd0c363ea8bbd9fe1cdcf1f0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.21(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.20",
+          "mention": "regulation 17A.20"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.20(1)",
+          "mention": "subregulation 17A.20(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the request is made within a period mentioned in subregulation 17A.20(1) or that period as extended under regulation 17A.20 or section 224 of the Act; and"
+    },
+    {
+      "content_hash": "sha256:f88d24bfe17dbee7346489dd17c661d320606220f5f720f4cfa86bde24454121",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.21(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(1)",
+          "mention": "subsection 44(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.28",
+          "mention": "regulation 17A.28"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar reasonably believes that there are grounds for rejecting the IRDA under subsection 44(1) or (2) of the Act (as applied by regulation 17A.28) because of another trade mark:"
+    },
+    {
+      "content_hash": "sha256:56d75258d43d2ade9cabee9f1e42cc628fb248130c00e6f2611324eda595e7c5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.21(1)(b)",
+      "ref": "TMR1995/r17A.21(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) that is registered by another person; or"
+    },
+    {
+      "content_hash": "sha256:87981895b3ba8c726a2d4509abdbfdfbd1d3742a6dea265176508bf84dde7d2d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r17A.21(1)(b)",
+      "ref": "TMR1995/r17A.21(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) that is a protected international trade mark; or"
+    },
+    {
+      "content_hash": "sha256:ce6c5653d1c6de878fc48c4deb52d4219b235aa197362802c7b25f162fff0e1b",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r17A.21(1)(b)",
+      "ref": "TMR1995/r17A.21(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) in respect of which an application for registration, or an IRDA, has been made by another person; and"
+    },
+    {
+      "content_hash": "sha256:5eeaf11e4013d01675b499f5acfed16b1904b3abd1a1a9383e0131dc47b921c8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.21(1)",
+      "ref": "TMR1995/r17A.21(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the holder:"
+    },
+    {
+      "content_hash": "sha256:4ea45b2c08ea77b7ae59cfaf95b9b447e07197645c3a9773e254f3873763bbf4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) is awaiting the finalisation of proceedings in respect of the application for registration of the other trade mark or the IRDA; or"
+    },
+    {
+      "content_hash": "sha256:8ef47c813438fbb47281bcd3439811d7b86e22be32eb051559af8c01b41a346d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) is seeking to satisfy the Registrar as to:"
+    },
+    {
+      "content_hash": "sha256:ba19c35f7a906e4f96239df401b384c6ac6a241da0f0db6be0519db3dd82e571",
+      "depth": 3,
+      "kind": "paragraph",
+      "number": "(A)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.21(1)(c)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(3)(a)",
+          "mention": "paragraph 44(3)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.28",
+          "mention": "regulation 17A.28"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(1)(c)(ii)(A)",
+      "style": "paragraphsub-sub",
+      "text": "(A) a matter mentioned in paragraph 44(3)(a) or (b) of the Act (as applied by regulation 17A.28); or"
+    },
+    {
+      "content_hash": "sha256:1e9d1b6b2b35e29d4eaf43017dd4eaaed1f2ea762f94f5c94b66a776e236de0c",
+      "depth": 3,
+      "kind": "paragraph",
+      "number": "(B)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.21(1)(c)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s44(4)",
+          "mention": "subsection 44(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.28",
+          "mention": "regulation 17A.28"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(1)(c)(ii)(B)",
+      "style": "paragraphsub-sub",
+      "text": "(B) the matters mentioned in subsection 44(4) of the Act (as applied by regulation 17A.28);"
+    },
+    {
+      "content_hash": "sha256:7754e830f3fd96b7b54293c7672dfed717fc94bd6aa67170b6bebeef5e96f23c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)~1",
+      "style": "paragraphsub",
+      "text": "in relation to the holder’s trade mark and the other trade mark; or"
+    },
+    {
+      "content_hash": "sha256:2acdf7bfc105c71dc841c22af0141827d28bdb91ddec896bcd30f94fddd1b8e0",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92",
+          "mention": "section 92"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.48C(1)",
+          "mention": "subregulation 17A.48C(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(1)(c)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) has filed an application under section 92 of the Act or subregulation 17A.48C(1) in respect of the other trade mark and is awaiting the finalisation of proceedings in respect of that application; or"
+    },
+    {
+      "content_hash": "sha256:be1ec05a60595393965af2e2811e073a3ba04d1c7386f3d56088cb0d96cbf3a7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) has begun proceedings to have the Register or the Record of International Registrations rectified in respect of the other trade mark and the proceedings have not been determined or otherwise disposed of; or"
+    },
+    {
+      "content_hash": "sha256:716ec09e6a1383f3368a78a870147deee19ee03999078fcecc0c1bd900c558d7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(v)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)(v)",
+      "style": "paragraphsub",
+      "text": "(v) is awaiting renewal of the registration of the other trade mark in the period of 6 months after registration of the other trade mark has expired, or removal of the other trade mark from the Register; or"
+    },
+    {
+      "content_hash": "sha256:ded123f5c2932c77d43a92c81cfa2e746cd6b5cf9e42673725dc984d9ed5b346",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(vi)",
+      "ordinal": 16,
+      "parent_ref": "TMR1995/r17A.21(1)(c)",
+      "ref": "TMR1995/r17A.21(1)(c)(vi)",
+      "style": "paragraphsub",
+      "text": "(vi) is awaiting renewal of the international registration of the other trade mark in the period of 6 months after the international registration has expired, or removal of the other trade mark from the International Register."
+    },
+    {
+      "content_hash": "sha256:7835dda943423db105b00fe9b85663ddb39afb243ed5ee4630c7636d28367f3c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 17,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.20(1)",
+          "mention": "subregulation 17A.20(1)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.20(4)",
+          "mention": "subregulation 17A.20(4)"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(2)",
+      "style": "subsection",
+      "text": "(2) The Registrar may, on his or her own initiative, defer acceptance of the IRDA within the period mentioned in subregulation 17A.20(1), or (if such a period is extended under section 224 of the Act or subregulation 17A.20(4)) the extended period, if:"
+    },
+    {
+      "content_hash": "sha256:d2a0e0d116f167cf778343067bd8c55e8967fcd125d8ce0e6ff5292f50f09713",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r17A.21(2)",
+      "ref": "TMR1995/r17A.21(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the time within which proceedings mentioned in paragraph (b) may be begun, or an application mentioned in paragraph (c) may be made, has not ended; or"
+    },
+    {
+      "content_hash": "sha256:e1cdb0b988f8bc6ea4812e23f86575328e21771c7546490e4ddb6b5eb05d5058",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 19,
+      "parent_ref": "TMR1995/r17A.21(2)",
+      "ref": "TMR1995/r17A.21(2)(b)",
+      "style": "paragraph",
+      "text": "(b) appeal proceedings under a provision of the Act have begun in a prescribed court in relation to the IRDA; or"
+    },
+    {
+      "content_hash": "sha256:7760cfb58ce06c21eeca77d922cbd7046be238918204f7bb5e435a4c18f86545",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r17A.21(2)",
+      "ref": "TMR1995/r17A.21(2)(c)",
+      "style": "paragraph",
+      "text": "(c) an application has been made to the ART for review of a decision of the Registrar in relation to the IRDA; or"
+    },
+    {
+      "content_hash": "sha256:0df4865741f0d94bfd2b5619026794ece147e9c988bdbe898503d719b8ff587e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(ca)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r17A.21(2)",
+      "ref": "TMR1995/r17A.21(2)(ca)",
+      "style": "paragraph",
+      "text": "(ca) the holder has made a request to the Registrar to be heard in relation to the IRDA; or"
+    },
+    {
+      "content_hash": "sha256:a628feb8296b6c627069238a93ef70c79fd94a47b426867ab265417d6bfff3e5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 22,
+      "parent_ref": "TMR1995/r17A.21(2)",
+      "ref": "TMR1995/r17A.21(2)(d)",
+      "style": "paragraph",
+      "text": "(d) the Registrar is informed in writing that the holder has died."
+    },
+    {
+      "content_hash": "sha256:ee6b37765eff728b076465e57011607691b75bf6860edb01406d9ee1f9c755dd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 23,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r16.2",
+          "mention": "regulation 16.2"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.50",
+          "mention": "regulation 17A.50"
+        }
+      ],
+      "ref": "TMR1995/r17A.21(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must defer acceptance of an IRDA in respect of a certification trade mark when a copy of the rules governing the use of the certification trade mark is sent to the Commission in accordance with regulation 16.2 (as applied by regulation 17A.50)."
+    },
+    {
+      "content_hash": "sha256:94dad98a898ef3f427a8a3dd607e1e30d2210efe07a747b04abf773a4dfa02ad",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.21(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must notify the holder:"
+    },
+    {
+      "content_hash": "sha256:e1b27e602cb6fbc11b055571aaab85cb3d0fee4d747fa7c5934a93b554691a64",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r17A.21(4)",
+      "ref": "TMR1995/r17A.21(4)(a)",
+      "style": "paragraph",
+      "text": "(a) if the holder requests the Registrar to defer acceptance of an IRDA—of the Registrar’s decision to defer, or not to defer, acceptance of the IRDA; and"
+    },
+    {
+      "content_hash": "sha256:517d3b783d51f51359e69f77b7df049e09d07d8fad31ff22d1361bc728f5d76a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 26,
+      "parent_ref": "TMR1995/r17A.21(4)",
+      "ref": "TMR1995/r17A.21(4)(b)",
+      "style": "paragraph",
+      "text": "(b) if the Registrar otherwise defers acceptance of an IRDA—of the provision under which acceptance of the IRDA is deferred."
+    }
+  ]
+}

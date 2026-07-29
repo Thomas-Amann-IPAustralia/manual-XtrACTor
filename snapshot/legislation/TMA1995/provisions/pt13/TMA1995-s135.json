@@ -1,0 +1,88 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:6418c2e8f930068da2ca7e6caea40942bbc3dcb472bb88c9a88f4357c12fbe42",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "135  Consent to forfeiture of seized goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "135",
+  "ref": "TMA1995/s135",
+  "text": "(1) The designated owner of any seized goods may, at any time before an objector starts an action for infringement of a notified trade mark in respect of the goods, consent to the goods being forfeited to the Commonwealth by giving notice in writing to that effect to the ComptrollerGeneral of Customs. (2) If the designated owner gives such a notice, the goods are forfeited to the Commonwealth. Note: For designated owner, seized goods, objector and notified trade mark see section 6.",
+  "title": "Consent to forfeiture of seized goods",
+  "units": [
+    {
+      "content_hash": "sha256:b990c2afd8838743e47c4cd1b88e16ad175e6b461376c46d500f1cf62a93b149",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s135(1)",
+      "style": "subsection",
+      "text": "(1) The designated owner of any seized goods may, at any time before an objector starts an action for infringement of a notified trade mark in respect of the goods, consent to the goods being forfeited to the Commonwealth by giving notice in writing to that effect to the ComptrollerGeneral of Customs."
+    },
+    {
+      "content_hash": "sha256:b09478f0f96e77472f855e8b6dd3d7735bdcf5e7abe2ce085e4ec77d1c6482ac",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s135(2)",
+      "style": "subsection",
+      "text": "(2) If the designated owner gives such a notice, the goods are forfeited to the Commonwealth."
+    },
+    {
+      "content_hash": "sha256:14c515ada098d630256a9ac77f77639428e33aaf199d6a1cbf7f84dd14de9298",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 40,
+          "start": 28,
+          "text": "seized goods",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 50,
+          "start": 42,
+          "text": "objector",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 74,
+          "start": 55,
+          "text": "notified trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s135(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s135(2)~1",
+      "style": "notetext",
+      "text": "Note: For designated owner, seized goods, objector and notified trade mark see section 6."
+    }
+  ]
+}

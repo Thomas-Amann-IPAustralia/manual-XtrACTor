@@ -1,0 +1,133 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div2"
+  ],
+  "content_hash": "sha256:494f16346ebf1c83000caea5af297fdc00f93d4214eb43279d464c69f8273cb0",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 2—Marks registered under the repealed Act",
+    "239A  Linked trade marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "239A",
+  "ref": "TMA1995/s239A",
+  "text": "(1) Subsection (2) applies if: (a) the same trade mark was registered before 1 January 1996 in respect of goods or services of different classes; and (b) all the applications for the trade marks were lodged (or were taken under the repealed Act to have been lodged) on the same day with the Trade Marks Office; and (c) the trade marks are registered trade marks for the purposes of this Act with the same registered owner. Note: For registered owner and registered trade mark see section 6. (2) The registered owner may apply to the Registrar, in writing, to have those trade marks, or so many of those trade marks as are identified in the application, dealt with under this Act as if they were one registered trade mark in relation to the goods or services in respect of which the trade marks, or the identified trade marks, were registered. (3) If an application is made under subsection (2), the Registrar must deal with the trade marks, or the identified trade marks, as if they were a single trade mark. (4) The date of registration of the single trade mark is taken to be the day on which the applications mentioned in paragraph (1)(b) were lodged, or were taken to have been lodged (as the case may be), with the Trade Marks Office under the repealed Act.",
+  "title": "Linked trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:f2fcf2214e169073658e200c97b2b8360427ab9117c0d8da0e79b7d76cd7f320",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s239A(1)",
+      "style": "subsection",
+      "text": "(1) Subsection (2) applies if:"
+    },
+    {
+      "content_hash": "sha256:7e6263b5bd82df1b2722113c9868071c71d8b1a4c540e775fa4de9753070839e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s239A(1)",
+      "ref": "TMA1995/s239A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the same trade mark was registered before 1 January 1996 in respect of goods or services of different classes; and"
+    },
+    {
+      "content_hash": "sha256:52fc7a67da2087cc5e252d1d6b079cc687957bfbff5528b1ab8398c288a25485",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s239A(1)",
+      "ref": "TMA1995/s239A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) all the applications for the trade marks were lodged (or were taken under the repealed Act to have been lodged) on the same day with the Trade Marks Office; and"
+    },
+    {
+      "content_hash": "sha256:8e46fd1266609bda7c90626457f02c0b4654c00560f653c59c70de6d89a43784",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s239A(1)",
+      "ref": "TMA1995/s239A(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the trade marks are registered trade marks for the purposes of this Act with the same registered owner."
+    },
+    {
+      "content_hash": "sha256:26325cc811a4826f280d8d6b070712e21a6564b224d17cc256a6d1663dcd955f",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 52,
+          "start": 31,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s239A(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s239A(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner and registered trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:81648aba443f33d0c7f306d4eb28f6c5c8d69d022c65f24be3bff90f9363cafc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s239A(2)",
+      "style": "subsection",
+      "text": "(2) The registered owner may apply to the Registrar, in writing, to have those trade marks, or so many of those trade marks as are identified in the application, dealt with under this Act as if they were one registered trade mark in relation to the goods or services in respect of which the trade marks, or the identified trade marks, were registered."
+    },
+    {
+      "content_hash": "sha256:f724e71c878eadf8cfbe092d8be31235fecfff3b4d5733e1e232f82b9d5ce65e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s239A(3)",
+      "style": "subsection",
+      "text": "(3) If an application is made under subsection (2), the Registrar must deal with the trade marks, or the identified trade marks, as if they were a single trade mark."
+    },
+    {
+      "content_hash": "sha256:fcafc21b2b36299d8c1b904dd234ac7cda86680922ce9ccbd73eb35593c9a560",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s239A(4)",
+      "style": "subsection",
+      "text": "(4) The date of registration of the single trade mark is taken to be the day on which the applications mentioned in paragraph (1)(b) were lodged, or were taken to have been lodged (as the case may be), with the Trade Marks Office under the repealed Act."
+    }
+  ]
+}

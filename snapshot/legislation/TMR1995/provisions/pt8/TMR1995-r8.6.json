@@ -1,0 +1,214 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt8"
+  ],
+  "content_hash": "sha256:61426eed6164beef832293c7f19299bf442e7481ace953807bb7a253f547cfeb",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 8—Amendment and cancellation of registration",
+    "8.6  Amendment because of inconsistency with international agreements—hearing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "8.6",
+  "ref": "TMR1995/r8.6",
+  "text": "(1) The Registrar: (a) must hold a hearing of an opposition under subsection 83A(4) of the Act if requested by the registered owner of the registered trade mark, or an opponent, in writing; or (b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition. (2) The hearing may, at the Registrar’s discretion, be: (a) an oral hearing; or (b) by written submissions. (3) If the Registrar decides on an oral hearing: (a) the Registrar must notify the registered owner of the registered trade mark, and each opponent, of the date, time and place of the hearing; and (b) the registered owner of the registered trade mark must file a summary of submissions at least 5 business days before the hearing; and (c) each opponent must file a summary of submissions at least 10 business days before the hearing. (4) If the registered owner of the registered trade mark, or an opponent, fails to file a summary of submissions under subregulation (3), the Registrar may take that failure into account in making an award of costs. (5) The Registrar must: (a) decide the opposition; and (b) notify the registered owner of the registered trade mark, and each opponent, of the Registrar’s decision. (6) Regulations 21.15 and 21.16 do not apply in relation to an opposition under subsection 83A(4) of the Act.",
+  "title": "Amendment because of inconsistency with international agreements—hearing",
+  "units": [
+    {
+      "content_hash": "sha256:4a51cfaec9a681bc22348a9946cf2012ffccb69940d1dccf65228395699cd120",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.6(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar:"
+    },
+    {
+      "content_hash": "sha256:f4166841aeea4373170ff2ac2b73036396b874cb92936d5e17e6c5febfc57a24",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r8.6(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s83A(4)",
+          "mention": "subsection 83A(4)"
+        }
+      ],
+      "ref": "TMR1995/r8.6(1)(a)",
+      "style": "paragraph",
+      "text": "(a) must hold a hearing of an opposition under subsection 83A(4) of the Act if requested by the registered owner of the registered trade mark, or an opponent, in writing; or"
+    },
+    {
+      "content_hash": "sha256:b8ba4c9d7ba5c9120cfbc3937b8af5d387928b62385b56ddc17cef2c6b397b4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r8.6(1)",
+      "ref": "TMR1995/r8.6(1)(b)",
+      "style": "paragraph",
+      "text": "(b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition."
+    },
+    {
+      "content_hash": "sha256:5883f3602b11a1807dff96e76e546be947ff42e44b7d9560703caf262b6d84d2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.6(2)",
+      "style": "subsection",
+      "text": "(2) The hearing may, at the Registrar’s discretion, be:"
+    },
+    {
+      "content_hash": "sha256:90d7e34453e9bfa1dfabd545645aaf39117e7a53b21e46ea37ff619163f02069",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r8.6(2)",
+      "ref": "TMR1995/r8.6(2)(a)",
+      "style": "paragraph",
+      "text": "(a) an oral hearing; or"
+    },
+    {
+      "content_hash": "sha256:6bbc230682811c7e30ebdedf6cf4a55e8bd3a69b7fbc5374f183f6672ac6ec9b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r8.6(2)",
+      "ref": "TMR1995/r8.6(2)(b)",
+      "style": "paragraph",
+      "text": "(b) by written submissions."
+    },
+    {
+      "content_hash": "sha256:89d4e904f9ca194ea4384ca4cac2cd87191fac5ecdee2b8cb576f0256d9101e1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.6(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar decides on an oral hearing:"
+    },
+    {
+      "content_hash": "sha256:fbc53233d6d4029d37d3222b03fbbb719ae45f7de818af18e27facc70165851e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r8.6(3)",
+      "ref": "TMR1995/r8.6(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar must notify the registered owner of the registered trade mark, and each opponent, of the date, time and place of the hearing; and"
+    },
+    {
+      "content_hash": "sha256:106226193e3bc15104e422ef9804174fdfc86e7821ca944fb7d6a6005b8ed6ab",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r8.6(3)",
+      "ref": "TMR1995/r8.6(3)(b)",
+      "style": "paragraph",
+      "text": "(b) the registered owner of the registered trade mark must file a summary of submissions at least 5 business days before the hearing; and"
+    },
+    {
+      "content_hash": "sha256:b93a9fa1fcaa473deb5eb5e2667fc3ecdedfaa65b90111795071da1fe5c34051",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r8.6(3)",
+      "ref": "TMR1995/r8.6(3)(c)",
+      "style": "paragraph",
+      "text": "(c) each opponent must file a summary of submissions at least 10 business days before the hearing."
+    },
+    {
+      "content_hash": "sha256:64ccaa9dbf072585fe1893509d3bc2db9ef5fffac28aaf9dcb773354724e4399",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.6(4)",
+      "style": "subsection",
+      "text": "(4) If the registered owner of the registered trade mark, or an opponent, fails to file a summary of submissions under subregulation (3), the Registrar may take that failure into account in making an award of costs."
+    },
+    {
+      "content_hash": "sha256:3df09db427576db0a1e123cd1268ea71c2f12e163ecaf04f5d14377616d09886",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMR1995/r8.6(5)",
+      "style": "subsection",
+      "text": "(5) The Registrar must:"
+    },
+    {
+      "content_hash": "sha256:affedf937be6c0157b63403b23a8ba8eebdc8ee1b6fb1c507950a9093737cc71",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r8.6(5)",
+      "ref": "TMR1995/r8.6(5)(a)",
+      "style": "paragraph",
+      "text": "(a) decide the opposition; and"
+    },
+    {
+      "content_hash": "sha256:377705569e975536265c9751b10ddc87365ae6f3904c28d997e1ae31acb11c58",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r8.6(5)",
+      "ref": "TMR1995/r8.6(5)(b)",
+      "style": "paragraph",
+      "text": "(b) notify the registered owner of the registered trade mark, and each opponent, of the Registrar’s decision."
+    },
+    {
+      "content_hash": "sha256:cbd1a6729509ff24c1f034ce53c89c74ae9b4427c49839130c3148cf22dc601d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 15,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s83A(4)",
+          "mention": "subsection 83A(4)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.15",
+          "mention": "Regulations 21.15 and 21.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "Regulations 21.15 and 21.16"
+        }
+      ],
+      "ref": "TMR1995/r8.6(6)",
+      "style": "subsection",
+      "text": "(6) Regulations 21.15 and 21.16 do not apply in relation to an opposition under subsection 83A(4) of the Act."
+    }
+  ]
+}

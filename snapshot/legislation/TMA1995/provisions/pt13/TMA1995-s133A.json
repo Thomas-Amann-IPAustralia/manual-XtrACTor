@@ -1,0 +1,81 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:32e43d940c14f6942621ed5ec363a9934c2b859270fe5b8641e61eb916bc2eb5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "133A  Determinations about owners of goods"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "133A",
+  "ref": "TMA1995/s133A",
+  "text": "An officer of Customs (within the meaning of subsection 4(1) of the Customs Act 1901) may determine that a person is the owner of goods for the purposes of paragraph (b) of the definition of designated owner if the person is an owner (within the meaning of that subsection) of the goods. Note: For designated owner see section 6.",
+  "title": "Determinations about owners of goods",
+  "units": [
+    {
+      "content_hash": "sha256:ad4c537617543714c91772873ead3ae4e2b5e7089f95062dc6f2f3b1f0cc7c3b",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 84,
+          "start": 68,
+          "text": "Customs Act 1901",
+          "weight": "italic"
+        },
+        {
+          "end": 207,
+          "start": 191,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4(1)",
+          "mention": "subsection 4(1)"
+        }
+      ],
+      "ref": "TMA1995/s133A~1",
+      "style": "subsection",
+      "text": "An officer of Customs (within the meaning of subsection 4(1) of the Customs Act 1901) may determine that a person is the owner of goods for the purposes of paragraph (b) of the definition of designated owner if the person is an owner (within the meaning of that subsection) of the goods."
+    },
+    {
+      "content_hash": "sha256:f6a91a2bd5c9b4864f1debe05550cecc76df26d389d33c7cab6f4debcb5e038e",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "designated owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s133A~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s133A~1~1",
+      "style": "notetext",
+      "text": "Note: For designated owner see section 6."
+    }
+  ]
+}

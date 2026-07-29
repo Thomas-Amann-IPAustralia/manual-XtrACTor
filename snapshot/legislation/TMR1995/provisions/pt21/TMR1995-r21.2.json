@@ -1,0 +1,192 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:4a0fcf95896c3b52f549db608b9346897c11e41119aad9cc1db090414fe1e7d8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.2  Requirements for filing documents"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.2",
+  "ref": "TMR1995/r21.2",
+  "text": "(1) A document that is required to be in an approved form and that is filed must be in English and be legible. (2) If any other document is filed: (a) the document must be in English, be in the form (if any) specified in a direction under section 213B of the Act and be legible; or (b) the following apply: (i) the document (the original document) must be filed with a document (the translated document) that is a translation of the original document into English; (ii) the original document must be filed with a certificate of verification; (iii) the translated document must be in the form (if any) specified in a direction under section 213B of the Act and be legible. (3) Subregulation (2) does not apply in relation to an application mentioned in paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a). Note: Regulations 4.11, 5.18 and 17A.19 have specific rules about applications filed in trade marks offices (however described) of Convention countries.",
+  "title": "Requirements for filing documents",
+  "units": [
+    {
+      "content_hash": "sha256:d464b69b70bf01640285af90604d42028a19280a638e3f24784e042248783f82",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.2(1)",
+      "style": "subsection",
+      "text": "(1) A document that is required to be in an approved form and that is filed must be in English and be legible."
+    },
+    {
+      "content_hash": "sha256:791546b22c434c51a912f161b2cf320e1cf69dd89f5ae52631a1b78ef6c5bb52",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.2(2)",
+      "style": "subsection",
+      "text": "(2) If any other document is filed:"
+    },
+    {
+      "content_hash": "sha256:a65219166b337866f7a2046c76b4f876c7036dcd64deca04d881ed57d7b74f7e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.2(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213B",
+          "mention": "section 213B"
+        }
+      ],
+      "ref": "TMR1995/r21.2(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the document must be in English, be in the form (if any) specified in a direction under section 213B of the Act and be legible; or"
+    },
+    {
+      "content_hash": "sha256:646181b88349829254813f86a8a3fc55727cd6abc3fbe0b8679035e4dd6bebae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.2(2)",
+      "ref": "TMR1995/r21.2(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the following apply:"
+    },
+    {
+      "content_hash": "sha256:a854c076e3e9154abeb1160ec60a93ff2292d322b908323a402c3434fa43d053",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 39,
+          "start": 22,
+          "text": "original document",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 95,
+          "start": 76,
+          "text": "translated document",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.2(2)(b)",
+      "ref": "TMR1995/r21.2(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the document (the original document) must be filed with a document (the translated document) that is a translation of the original document into English;"
+    },
+    {
+      "content_hash": "sha256:4ed27286c51032edcf1a0c6efd0956e8bb9e7b45709740ca985056cae2f64fb8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.2(2)(b)",
+      "ref": "TMR1995/r21.2(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the original document must be filed with a certificate of verification;"
+    },
+    {
+      "content_hash": "sha256:07c30085cb14ab2f3b7b0abd44e201415afefce6dbdaa0325050694dcb67a8ec",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.2(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213B",
+          "mention": "section 213B"
+        }
+      ],
+      "ref": "TMR1995/r21.2(2)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the translated document must be in the form (if any) specified in a direction under section 213B of the Act and be legible."
+    },
+    {
+      "content_hash": "sha256:8acfd092c8ec4ed74adaea81b58251f0104c723460548f652b4d78e32b5f5a27",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s17A.19(1)(a)",
+          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s4.11(1)(a)",
+          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s5.18(2)(a)",
+          "mention": "paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)"
+        }
+      ],
+      "ref": "TMR1995/r21.2(3)",
+      "style": "subsection",
+      "text": "(3) Subregulation (2) does not apply in relation to an application mentioned in paragraph 4.11(1)(a), 5.18(2)(a) or 17A.19(1)(a)."
+    },
+    {
+      "content_hash": "sha256:531c64be480adda505408642dcb55a4183a4993d6acb94f2fd65c5a9186c1e23",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r21.2(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.19",
+          "mention": "Regulations 4.11, 5.18 and 17A.19"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.11",
+          "mention": "Regulations 4.11, 5.18 and 17A.19"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.18",
+          "mention": "Regulations 4.11, 5.18 and 17A.19"
+        }
+      ],
+      "ref": "TMR1995/r21.2(3)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 4.11, 5.18 and 17A.19 have specific rules about applications filed in trade marks offices (however described) of Convention countries."
+    }
+  ]
+}

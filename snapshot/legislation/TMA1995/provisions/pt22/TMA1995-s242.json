@@ -1,0 +1,265 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:f85cdcd62f1330f775cb7f204534f3f442f472908a510c62ccdf462d328b44b2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "242  Divisional application in relation to pending application"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "242",
+  "ref": "TMA1995/s242",
+  "text": "(1) This section applies if, immediately before 1 January 1996, an application (initial application) for the registration of a trade mark in the old register was pending and had not been accepted. Note 1: For old register see section 6. Note 2: For pending see subsection 11(2). (2) If: (a) at any time within 6 months after 1 January 1996, the initial application is still pending; and (b) a part of the trade mark, by itself, may be registered as a trade mark; the applicant may, subject to subsection (4), make an application (divisional application) for the registration of that part as a trade mark in respect of any or all of the goods or services specified in the initial application. Note: For pending see subsection 11(1). (3) If the initial application: (a) was amended under the repealed Act to exclude some of the goods and/or services specified in the application before its amendment; and (b) is still pending at any time within one month after 1 January 1996; the applicant may, subject to subsection (4), make an application (divisional application) for the registration of the trade mark in respect of any or all of the goods and/or services that were excluded from the initial application. Note: For pending see subsection 11(1). (4) If the initial application is accepted under Part 4, a divisional application may not be made after the acceptance is advertised.",
+  "title": "Divisional application in relation to pending application",
+  "units": [
+    {
+      "content_hash": "sha256:676667225e0203865fcb5eb656066d745f1480a15e1aa4a02cd31caca3847c52",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 99,
+          "start": 80,
+          "text": "initial application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s242(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if, immediately before 1 January 1996, an application (initial application) for the registration of a trade mark in the old register was pending and had not been accepted."
+    },
+    {
+      "content_hash": "sha256:fe71aacd1f710941f36ea003f04086b5b5691a48d379d7cb09b2ea3a4544302a",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 24,
+          "start": 12,
+          "text": "old register",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s242(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s242(1)~1",
+      "style": "notetext",
+      "text": "Note 1: For old register see section 6."
+    },
+    {
+      "content_hash": "sha256:977e468c2fc323162798114ed8cdb26d09d3a96672ddf209976fa3d8a6d98fb8",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 19,
+          "start": 12,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s242(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s242(1)~2",
+      "style": "notetext",
+      "text": "Note 2: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s242(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:22ec20bbfaf1ea1402bb3cdb4e0d2fd50383e42831bfc5c9a627573615610cf7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s242(2)",
+      "ref": "TMA1995/s242(2)(a)",
+      "style": "paragraph",
+      "text": "(a) at any time within 6 months after 1 January 1996, the initial application is still pending; and"
+    },
+    {
+      "content_hash": "sha256:12077f073d44443fedf8277882b4b231ab1ab1c44c871c09b7089963f6d4b69c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s242(2)",
+      "ref": "TMA1995/s242(2)(b)",
+      "style": "paragraph",
+      "text": "(b) a part of the trade mark, by itself, may be registered as a trade mark;"
+    },
+    {
+      "content_hash": "sha256:1f81af3c088abfe9d37a109799916a66b1a5f0b11f1013498f0906097163c16e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 89,
+          "start": 67,
+          "text": "divisional application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s242~1",
+      "style": "subsection2",
+      "text": "the applicant may, subject to subsection (4), make an application (divisional application) for the registration of that part as a trade mark in respect of any or all of the goods or services specified in the initial application."
+    },
+    {
+      "content_hash": "sha256:c8c138f9e1d428f81c684bb637698fb9e11938b798531a197a35a6d9023f76e2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s242~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(1)",
+          "mention": "subsection 11(1)"
+        }
+      ],
+      "ref": "TMA1995/s242~1~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(1)."
+    },
+    {
+      "content_hash": "sha256:9b630b87ef4c6034c428832bd81790e52b7c635e831b4ed893f2078c054d32a5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s242(3)",
+      "style": "subsection",
+      "text": "(3) If the initial application:"
+    },
+    {
+      "content_hash": "sha256:ffd6cfbeb31a03b28fe46de7484f2db50c64424ad0fbce593d902746cade95e6",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s242(3)",
+      "ref": "TMA1995/s242(3)(a)",
+      "style": "paragraph",
+      "text": "(a) was amended under the repealed Act to exclude some of the goods and/or services specified in the application before its amendment; and"
+    },
+    {
+      "content_hash": "sha256:caf44b2a94fad9d45f3fcbbe2bad70a022eb8cb1b33bc219f050c296fb7b0469",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s242(3)",
+      "ref": "TMA1995/s242(3)(b)",
+      "style": "paragraph",
+      "text": "(b) is still pending at any time within one month after 1 January 1996;"
+    },
+    {
+      "content_hash": "sha256:62d7efe0b3143758a4994b63d3ae37eacf40fec452dd263751d3be29c8d20ff2",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 89,
+          "start": 67,
+          "text": "divisional application",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "text",
+      "number": null,
+      "ordinal": 12,
+      "parent_ref": null,
+      "ref": "TMA1995/s242~2",
+      "style": "subsection2",
+      "text": "the applicant may, subject to subsection (4), make an application (divisional application) for the registration of the trade mark in respect of any or all of the goods and/or services that were excluded from the initial application."
+    },
+    {
+      "content_hash": "sha256:c8c138f9e1d428f81c684bb637698fb9e11938b798531a197a35a6d9023f76e2",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s242~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(1)",
+          "mention": "subsection 11(1)"
+        }
+      ],
+      "ref": "TMA1995/s242~2~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(1)."
+    },
+    {
+      "content_hash": "sha256:8a65262865ab27aea29088ae07b265c76b359e258f646cd86a6b0c206f3cff2f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 14,
+      "parent_ref": null,
+      "ref": "TMA1995/s242(4)",
+      "style": "subsection",
+      "text": "(4) If the initial application is accepted under Part 4, a divisional application may not be made after the acceptance is advertised."
+    }
+  ]
+}

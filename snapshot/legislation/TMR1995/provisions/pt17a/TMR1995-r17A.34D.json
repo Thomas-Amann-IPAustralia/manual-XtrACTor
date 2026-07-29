@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:6f2c2bebde3d0ce4d61ca39f89426c3f8db39a539d2a6c9a36d48da152aa17ff",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34D  Extension of time for filing—grant"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34D",
+  "ref": "TMR1995/r17A.34D",
+  "text": "(1) The Registrar may grant a request under subregulation 17A.34C(1) for an extension of time if the Registrar is satisfied that the grounds set out in the request justify the extension. (2) However, if the request is made after the period for filing the notice or statement of grounds and particulars has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the request. (3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances.",
+  "title": "Extension of time for filing—grant",
+  "units": [
+    {
+      "content_hash": "sha256:607e10e943a4b5c3187ed0ef624d5e877a16c6a81c21eda998430ccf451452cb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.34C(1)",
+          "mention": "subregulation 17A.34C(1)"
+        }
+      ],
+      "ref": "TMR1995/r17A.34D(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may grant a request under subregulation 17A.34C(1) for an extension of time if the Registrar is satisfied that the grounds set out in the request justify the extension."
+    },
+    {
+      "content_hash": "sha256:8b57622576fdc01366129ac2ce5d2de5396e4c4483b04e737c4c251074d9f7b5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34D(2)",
+      "style": "subsection",
+      "text": "(2) However, if the request is made after the period for filing the notice or statement of grounds and particulars has ended, the Registrar must not grant the extension unless the Registrar is satisfied that there is sufficient reason for the delay in making the request."
+    },
+    {
+      "content_hash": "sha256:f804f34b52948d52c085379a0f891ba7337efe9b3bab01e3a86f0043b5c65d3d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34D(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar must decide the length of the extended period having regard to what is reasonable in the circumstances."
+    }
+  ]
+}

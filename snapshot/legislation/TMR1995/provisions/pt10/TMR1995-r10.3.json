@@ -1,0 +1,103 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt10"
+  ],
+  "content_hash": "sha256:ff6a6f845b7e13c000034e0f60d3eecaa6e9dbc5f2616e569eaa34d33f86ac24",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 10—Assignment and transmission of trade marks",
+    "10.3  Particulars of recorded assignment or transmission to be published"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "10.3",
+  "ref": "TMR1995/r10.3",
+  "text": "For the purposes of paragraph 108(1)(b) of the Act (which deals with assignment and transmission): (a) the following particulars of an assignment or transmission of a trade mark for which registration is sought must be published: (i) if a number has been allocated in the Trade Marks Office to the application for registration of the trade mark—the number; (ii) the name of the person to whom the trade mark is recorded as having been assigned or transmitted; (iii) the day on which the particulars of the assignment or transmission were recorded; and (b) if details of an application for registration of the trade mark have been published in a way described in subregulation 4.7(2)—the particulars of the assignment or transmission mentioned in paragraph (a) must be published in the same way.",
+  "title": "Particulars of recorded assignment or transmission to be published",
+  "units": [
+    {
+      "content_hash": "sha256:dfe96fa65cde63062c1aaed87514798c3d9e6240a275dd7bb948a8d8b04a2e97",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s108(1)(b)",
+          "mention": "paragraph 108(1)(b)"
+        }
+      ],
+      "ref": "TMR1995/r10.3~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 108(1)(b) of the Act (which deals with assignment and transmission):"
+    },
+    {
+      "content_hash": "sha256:1d7d0991084a273c0ccddbbb316c7e911b2240454edb5eb402f5e5c42ac7c001",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r10.3~1",
+      "ref": "TMR1995/r10.3(a)",
+      "style": "paragraph",
+      "text": "(a) the following particulars of an assignment or transmission of a trade mark for which registration is sought must be published:"
+    },
+    {
+      "content_hash": "sha256:a88c253eb60d4e8d8d6f5b2eff774e490807caf0ebc3332344c223a339c8141c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r10.3(a)",
+      "ref": "TMR1995/r10.3(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if a number has been allocated in the Trade Marks Office to the application for registration of the trade mark—the number;"
+    },
+    {
+      "content_hash": "sha256:335c47bf323d6370761d4a6a831f62e204b9e8c330454ccdd32d0f45b64cce4e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r10.3(a)",
+      "ref": "TMR1995/r10.3(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the name of the person to whom the trade mark is recorded as having been assigned or transmitted;"
+    },
+    {
+      "content_hash": "sha256:8cc5beb253ba845356f3e7ab7bd8d8adffd4e3c52f85799d8c048735ee09a5ab",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r10.3(a)",
+      "ref": "TMR1995/r10.3(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) the day on which the particulars of the assignment or transmission were recorded; and"
+    },
+    {
+      "content_hash": "sha256:9bee1c989f051c209a79a63075eb4b0052010880dc9c8dc60f53b7ac381d534a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r10.3~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.7(2)",
+          "mention": "subregulation 4.7(2)"
+        }
+      ],
+      "ref": "TMR1995/r10.3(b)",
+      "style": "paragraph",
+      "text": "(b) if details of an application for registration of the trade mark have been published in a way described in subregulation 4.7(2)—the particulars of the assignment or transmission mentioned in paragraph (a) must be published in the same way."
+    }
+  ]
+}

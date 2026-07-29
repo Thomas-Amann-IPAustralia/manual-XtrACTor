@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [],
+  "content_hash": "sha256:f9f6109061a6968d0575ce68d6c7987f096a40a8dce0f80da9fccbba4ecb2159",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "5  Modifications of Part 13 of the Act (Cocos (Keeling) Islands)"
+  ],
+  "instrument": "TMR1995",
+  "kind": "container",
+  "number": "5",
+  "ref": "TMR1995/sch5",
+  "text": "Note See regulation 13.9.",
+  "title": "Modifications of Part 13 of the Act (Cocos (Keeling) Islands)",
+  "units": [
+    {
+      "content_hash": "sha256:f9f6109061a6968d0575ce68d6c7987f096a40a8dce0f80da9fccbba4ecb2159",
+      "depth": 0,
+      "kind": "note",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r13.9",
+          "mention": "regulation 13.9"
+        }
+      ],
+      "ref": "TMR1995/sch5~1",
+      "style": "notemargin",
+      "text": "Note See regulation 13.9."
+    }
+  ]
+}

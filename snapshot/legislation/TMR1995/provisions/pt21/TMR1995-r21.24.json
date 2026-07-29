@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:4e5f295d2874365a7270bd2a0b30cef0a6e1abad11ec7490e86207806add2842",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.24  Refunds etc of fees"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.24",
+  "ref": "TMR1995/r21.24",
+  "text": "(1) If, because of an error or omission by an employee, a person becomes liable to pay a fee for which the person would not otherwise have been liable, the Registrar may: (a) remit the whole or part of the fee; or (b) if the fee has been paid—refund the whole or part of the fee to that person. (2) If: (a) the acceptance of an application for registration of a trade mark; or (b) the registration of a trade mark; is delayed because of an error or omission by an employee, the period that the Registrar reasonably believes to be equal to the period of the delay resulting from the error or omission is not to be taken into account for the purposes of calculating the amount of the fee for the matter in relation to which the error or omission was made.",
+  "title": "Refunds etc of fees",
+  "units": [
+    {
+      "content_hash": "sha256:630e5adbc3bebf08dc0ff26f3b410ff2b17b7e609d2cf5e050c280fe8257c3d9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.24(1)",
+      "style": "subsection",
+      "text": "(1) If, because of an error or omission by an employee, a person becomes liable to pay a fee for which the person would not otherwise have been liable, the Registrar may:"
+    },
+    {
+      "content_hash": "sha256:6678e14b9e4265b0df51deaa13bb1e3c0ee3256b0d45aec4a6cbb83da80243fc",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.24(1)",
+      "ref": "TMR1995/r21.24(1)(a)",
+      "style": "paragraph",
+      "text": "(a) remit the whole or part of the fee; or"
+    },
+    {
+      "content_hash": "sha256:415988fd95e936ec7a0a65fd4736dfb511e7e8539374f3f387c566980179097c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.24(1)",
+      "ref": "TMR1995/r21.24(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if the fee has been paid—refund the whole or part of the fee to that person."
+    },
+    {
+      "content_hash": "sha256:bb666eda17e414110015af87c2dd0c3d78b74fabc581c73458998cde3af0565b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.24(2)",
+      "style": "subsection",
+      "text": "(2) If:"
+    },
+    {
+      "content_hash": "sha256:b093d3375e6d65fa689b9f87fa32d51c9bb91491df1a3a6c488abf4ed86652c1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.24(2)",
+      "ref": "TMR1995/r21.24(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the acceptance of an application for registration of a trade mark; or"
+    },
+    {
+      "content_hash": "sha256:5cf1cfcca30b6d1fb84c3f5e462a1ed3b9552274a958194f295889a1477f910d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.24(2)",
+      "ref": "TMR1995/r21.24(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the registration of a trade mark;"
+    },
+    {
+      "content_hash": "sha256:efaf6f97c5c952c27e0b9d5232d899974789cfce0f6815bdeb6e2bbe48206d45",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.24~1",
+      "style": "subsection2",
+      "text": "is delayed because of an error or omission by an employee, the period that the Registrar reasonably believes to be equal to the period of the delay resulting from the error or omission is not to be taken into account for the purposes of calculating the amount of the fee for the matter in relation to which the error or omission was made."
+    }
+  ]
+}

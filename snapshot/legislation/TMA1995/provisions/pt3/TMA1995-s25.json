@@ -1,0 +1,230 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt3"
+  ],
+  "content_hash": "sha256:9f3b2f15e3f47ad09a1554f8cd89ab96225d26a11b9d280672269968ce5de369",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 3—Trade marks and trade mark rights",
+    "25  Trade mark relating to article etc. formerly manufactured under patent"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "25",
+  "ref": "TMA1995/s25",
+  "text": "(1) This section applies if: (a) a registered trade mark consists of, or contains, a sign that describes or is the name of: (i) an article or substance that was formerly exploited under a patent; or (ii) a service that was formerly provided as a patented process; and (b) it is at least 2 years since the patent has expired or ceased; and (c) the sign is the only commonly known way to describe or identify the article, substance or service. Note: For registered trade mark and sign see section 6. (2) If the trade mark consists of the sign, the registered owner: (a) does not have any exclusive rights to use, or authorise other persons to use, the trade mark in relation to: (i) the article or substance or other goods of the same description; or (ii) the service or other services of the same description; and (b) is taken to have ceased to have those exclusive rights from the end of the period of 2 years after the patent expired or ceased. (3) If the trade mark contains the sign, the registered owner: (a) does not have any exclusive rights to use, or authorise other persons to use, the sign in relation to: (i) the article or substance or other goods of the same description; or (ii) the service or other services of the same description; and (b) is taken to have ceased to have those exclusive rights from the end of the period of 2 years after the patent expired or ceased.",
+  "title": "Trade mark relating to article etc. formerly manufactured under patent",
+  "units": [
+    {
+      "content_hash": "sha256:cba5453b94b610054399e3950e7b197c1a6bc16fba6ceb709b20a5d0a6033df1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s25(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if:"
+    },
+    {
+      "content_hash": "sha256:1430a8848d523d5350dfc964ee35eb1f2c86543bf0db8abf71c0f2bf34d892ae",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s25(1)",
+      "ref": "TMA1995/s25(1)(a)",
+      "style": "paragraph",
+      "text": "(a) a registered trade mark consists of, or contains, a sign that describes or is the name of:"
+    },
+    {
+      "content_hash": "sha256:b5126f0a4d9a4a567bc164fc0a9a792c0013af5cbd711f56a8c9c8c9f2c8e8d2",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s25(1)(a)",
+      "ref": "TMA1995/s25(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) an article or substance that was formerly exploited under a patent; or"
+    },
+    {
+      "content_hash": "sha256:0c90663ff7b0f211c9923eff7513bd87e0263010b57379262cc4a63de6a09dc5",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s25(1)(a)",
+      "ref": "TMA1995/s25(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a service that was formerly provided as a patented process; and"
+    },
+    {
+      "content_hash": "sha256:419ed74967473aa09212a6112571d442e38344dffeec4899475089073d3d8cf0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s25(1)",
+      "ref": "TMA1995/s25(1)(b)",
+      "style": "paragraph",
+      "text": "(b) it is at least 2 years since the patent has expired or ceased; and"
+    },
+    {
+      "content_hash": "sha256:6632d0450d14c7f72575cee4f8432ec8d6a439f460ecb324e422c7bb82e86f45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s25(1)",
+      "ref": "TMA1995/s25(1)(c)",
+      "style": "paragraph",
+      "text": "(c) the sign is the only commonly known way to describe or identify the article, substance or service."
+    },
+    {
+      "content_hash": "sha256:9ab2a2b202c38e2add37f7b06482fced35812ffdb7305d27d931400de847d6db",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 10,
+          "text": "registered trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 40,
+          "start": 36,
+          "text": "sign",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s25(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s25(1)(c)~1",
+      "style": "notetext",
+      "text": "Note: For registered trade mark and sign see section 6."
+    },
+    {
+      "content_hash": "sha256:720abb0653fa2553ff6f6a0541bcbadbd91c4bc5e767dbe278b04617bc2a454b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s25(2)",
+      "style": "subsection",
+      "text": "(2) If the trade mark consists of the sign, the registered owner:"
+    },
+    {
+      "content_hash": "sha256:9f89000862a173a2835d846a72e743840cc6e0025d968d04b9989e95c37cb520",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s25(2)",
+      "ref": "TMA1995/s25(2)(a)",
+      "style": "paragraph",
+      "text": "(a) does not have any exclusive rights to use, or authorise other persons to use, the trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:19cc2a0be2844e0a740a82cbb4b5ea7c51983658efa3018a80cb752854e12eb3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s25(2)(a)",
+      "ref": "TMA1995/s25(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the article or substance or other goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:22ef0c2cd44ea82944082fd02b933fed8b32249f6011f02c316976b489492ffa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s25(2)(a)",
+      "ref": "TMA1995/s25(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the service or other services of the same description; and"
+    },
+    {
+      "content_hash": "sha256:f6dc12612e53658a0f2fa6d2b8bd067ce8b1e4dfbde52fc108867893ed4c1e7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s25(2)",
+      "ref": "TMA1995/s25(2)(b)",
+      "style": "paragraph",
+      "text": "(b) is taken to have ceased to have those exclusive rights from the end of the period of 2 years after the patent expired or ceased."
+    },
+    {
+      "content_hash": "sha256:f64e997228a085386c70d1664b76ce3549453461ae54e60ffed3c77b670d38f2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s25(3)",
+      "style": "subsection",
+      "text": "(3) If the trade mark contains the sign, the registered owner:"
+    },
+    {
+      "content_hash": "sha256:0d729ebc25e3b4bcc591d21ab2cd0ada47dd510f9e06f4d4337e791627911971",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s25(3)",
+      "ref": "TMA1995/s25(3)(a)",
+      "style": "paragraph",
+      "text": "(a) does not have any exclusive rights to use, or authorise other persons to use, the sign in relation to:"
+    },
+    {
+      "content_hash": "sha256:19cc2a0be2844e0a740a82cbb4b5ea7c51983658efa3018a80cb752854e12eb3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s25(3)(a)",
+      "ref": "TMA1995/s25(3)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the article or substance or other goods of the same description; or"
+    },
+    {
+      "content_hash": "sha256:22ef0c2cd44ea82944082fd02b933fed8b32249f6011f02c316976b489492ffa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s25(3)(a)",
+      "ref": "TMA1995/s25(3)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the service or other services of the same description; and"
+    },
+    {
+      "content_hash": "sha256:f6dc12612e53658a0f2fa6d2b8bd067ce8b1e4dfbde52fc108867893ed4c1e7f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s25(3)",
+      "ref": "TMA1995/s25(3)(b)",
+      "style": "paragraph",
+      "text": "(b) is taken to have ceased to have those exclusive rights from the end of the period of 2 years after the patent expired or ceased."
+    }
+  ]
+}

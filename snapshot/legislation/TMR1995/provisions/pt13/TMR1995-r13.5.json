@@ -1,0 +1,194 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt13"
+  ],
+  "content_hash": "sha256:815aa5489a117accc24488ba3c619c585a551895acfa5c683baf9d688f7adeb8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "13.5  Claim for release of seized goods"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "13.5",
+  "ref": "TMR1995/r13.5",
+  "text": "For the purposes of subsection 136(3) of the Act, the claim must include the following information: (a) the designated owner’s full name, home or business address and address for service; (b) a telephone number for the designated owner; (c) the grounds for seeking the release of the seized goods; (d) if the designated owner’s home or business address is not in Australia: (i) the full name and the home or business address of a person who is the designated owner’s agent in Australia; and (ii) an address for service for the person who is the designated owner’s agent in Australia; and (iii) a telephone number for the person; and (iv) information showing that the person agreed to be the designated owner’s agent; (e) if a person or body other than the agent made arrangements on the designated owner’s behalf for the seized goods to be brought to Australia: (i) the full name, home or business address and address for service of the person or body; and (ii) a telephone number for the person or body. Note: Examples of grounds for paragraph (c) are: (a) that the goods do not infringe the notified trade mark; and (b) that the importation of the goods does not infringe the notified trade mark.",
+  "title": "Claim for release of seized goods",
+  "units": [
+    {
+      "content_hash": "sha256:237789fe004ea3ea7a3d2a3a361e671e09d4ee12b34f7b430d8180c4a8d3cfc1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s136(3)",
+          "mention": "subsection 136(3)"
+        }
+      ],
+      "ref": "TMR1995/r13.5~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 136(3) of the Act, the claim must include the following information:"
+    },
+    {
+      "content_hash": "sha256:38f636f89b05947605f9f4e5950976d73337e22caf5d9f8f4dcba57d83640098",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r13.5~1",
+      "ref": "TMR1995/r13.5(a)",
+      "style": "paragraph",
+      "text": "(a) the designated owner’s full name, home or business address and address for service;"
+    },
+    {
+      "content_hash": "sha256:6944a101e8dca8bb33e9dd7b3f9df2c83fa93a6734565dc9b4b9e26d56be0be1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r13.5~1",
+      "ref": "TMR1995/r13.5(b)",
+      "style": "paragraph",
+      "text": "(b) a telephone number for the designated owner;"
+    },
+    {
+      "content_hash": "sha256:fbb989c9d30daa5adc20bb447d08e0c28db945ce6390dac8f30d60a5f87473aa",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r13.5~1",
+      "ref": "TMR1995/r13.5(c)",
+      "style": "paragraph",
+      "text": "(c) the grounds for seeking the release of the seized goods;"
+    },
+    {
+      "content_hash": "sha256:2a84fd3662ceae7efabd45612c243f142d562f94b77137f06ac3963c2b980681",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r13.5~1",
+      "ref": "TMR1995/r13.5(d)",
+      "style": "paragraph",
+      "text": "(d) if the designated owner’s home or business address is not in Australia:"
+    },
+    {
+      "content_hash": "sha256:fee6c06c6c4884e822672b6dfb0c7d215981f439f4a1e9a523e13030d9603eec",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r13.5(d)",
+      "ref": "TMR1995/r13.5(d)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the full name and the home or business address of a person who is the designated owner’s agent in Australia; and"
+    },
+    {
+      "content_hash": "sha256:77634811f41a4f42efeebfbd81a1df2b47ea83fd517c433823ea86d9eb61544e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r13.5(d)",
+      "ref": "TMR1995/r13.5(d)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) an address for service for the person who is the designated owner’s agent in Australia; and"
+    },
+    {
+      "content_hash": "sha256:89e4abc47b17700587086e99d7f3842c4bafcdbbeed098c8f9df00a3d5ab26f8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r13.5(d)",
+      "ref": "TMR1995/r13.5(d)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) a telephone number for the person; and"
+    },
+    {
+      "content_hash": "sha256:1572d279e9794958f942ffa6a0937400b538b79df65abb2c5585281a0aedc6ce",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iv)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r13.5(d)",
+      "ref": "TMR1995/r13.5(d)(iv)",
+      "style": "paragraphsub",
+      "text": "(iv) information showing that the person agreed to be the designated owner’s agent;"
+    },
+    {
+      "content_hash": "sha256:bdee407d5eca5c555f5912758549189b4f18a957a3a6db1af0ccb7974b1db989",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r13.5~1",
+      "ref": "TMR1995/r13.5(e)",
+      "style": "paragraph",
+      "text": "(e) if a person or body other than the agent made arrangements on the designated owner’s behalf for the seized goods to be brought to Australia:"
+    },
+    {
+      "content_hash": "sha256:fe1d0f80fcbc14d102e2e951cbd2f33684ef1b343cfe9e8e1a4246dcfcb3be52",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r13.5(e)",
+      "ref": "TMR1995/r13.5(e)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the full name, home or business address and address for service of the person or body; and"
+    },
+    {
+      "content_hash": "sha256:5ce3ebc1f2e64420c0d83080a085869afc54b315e56bce4d89fd0a6e7455d6df",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r13.5(e)",
+      "ref": "TMR1995/r13.5(e)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a telephone number for the person or body."
+    },
+    {
+      "content_hash": "sha256:62c8eff758ea8d4fe57db9023c78f99816db7172b9c25879d5ea5464058e271f",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r13.5(e)(ii)",
+      "ref": "TMR1995/r13.5(e)(ii)~1",
+      "style": "notetext",
+      "text": "Note: Examples of grounds for paragraph (c) are:"
+    },
+    {
+      "content_hash": "sha256:657206dc9fcb25c6d9297b879b8a26d4b4905f390d3cc8b6d5332fe687b5cf4b",
+      "depth": 4,
+      "kind": "note",
+      "number": null,
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r13.5(e)(ii)~1",
+      "ref": "TMR1995/r13.5(e)(ii)~1~1",
+      "style": "notepara",
+      "text": "(a) that the goods do not infringe the notified trade mark; and"
+    },
+    {
+      "content_hash": "sha256:2755bfcccbe665a31784704d085b93752a930c498db1a674ac2754a17f8e1e2f",
+      "depth": 4,
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r13.5(e)(ii)~1",
+      "ref": "TMR1995/r13.5(e)(ii)~1~2",
+      "style": "notepara",
+      "text": "(b) that the importation of the goods does not infringe the notified trade mark."
+    }
+  ]
+}

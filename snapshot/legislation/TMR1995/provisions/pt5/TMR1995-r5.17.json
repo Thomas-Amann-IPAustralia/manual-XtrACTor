@@ -1,0 +1,386 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt5",
+    "TMR1995/pt5/div4"
+  ],
+  "content_hash": "sha256:3b2e9722d1c37625f2b9843d215b325eddf1af8177bdbf2f929403aa9e238b2c",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 5—Opposition to registration",
+    "Division 4—Hearing of opposition",
+    "5.17  Hearing"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "5.17",
+  "ref": "TMR1995/r5.17",
+  "text": "(1) This regulation applies to an opposition if: (a) the opposition has not: (i) been dismissed under section 222 of the Act or paragraph 5.8(3)(b) or 5.8(4)(a); or (ii) been decided under subsection 55(1) of the Act; and (b) the trade mark application to which the opposition relates has not lapsed under section 54A of the Act. (2) An applicant may request the Registrar to hold a hearing if: (a) the evidentiary period mentioned in subregulation 5.14(3) has ended; and (b) either: (i) all evidence for the opposition proceeding has been filed; or (ii) no evidence has been filed in that period. (3) A party may request the Registrar to hold a hearing if: (a) an evidentiary period mentioned in any of subregulations 5.14(4) to (6) has ended; and (b) either: (i) all evidence for the opposition proceeding has been filed; or (ii) no evidence has been filed in that period. (4) The Registrar: (a) must hold a hearing of the opposition if requested by a party; or (b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition. (5) The hearing may, at the Registrar’s discretion, be: (a) an oral hearing; or (b) by written submissions. (6) If the Registrar decides on an oral hearing: (a) the Registrar must notify the parties of the date, time and place of the hearing; and (b) the opponent must file a summary of submissions at least 10 business days before the hearing; and (c) the applicant must file a summary of submissions at least 5 business days before the hearing. (7) The Registrar may take into account a party’s failure to file a summary of submissions under subregulation (6) in making an award of costs. Note: Regulations 21.15 and 21.16 deal with hearings.",
+  "title": "Hearing",
+  "units": [
+    {
+      "content_hash": "sha256:410f5b691ef6eea60ccfb24fe62905f9d8a6633468398e43aad68378b478c7c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(1)",
+      "style": "subsection",
+      "text": "(1) This regulation applies to an opposition if:"
+    },
+    {
+      "content_hash": "sha256:b0548d4495b218b8801ee6bb2644c0110efe455c84e8660b3bdcca706c5e4a05",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r5.17(1)",
+      "ref": "TMR1995/r5.17(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the opposition has not:"
+    },
+    {
+      "content_hash": "sha256:703ec6ae58d5f2828765f1fc977f0df3815e80a419a3bde16e2b246ccf686f37",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r5.17(1)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s222",
+          "mention": "section 222"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s5.8(3)(b)",
+          "mention": "paragraph 5.8(3)(b) or 5.8(4)(a)"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s5.8(4)(a)",
+          "mention": "paragraph 5.8(3)(b) or 5.8(4)(a)"
+        }
+      ],
+      "ref": "TMR1995/r5.17(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) been dismissed under section 222 of the Act or paragraph 5.8(3)(b) or 5.8(4)(a); or"
+    },
+    {
+      "content_hash": "sha256:42dd429ed5e24d047a3df8441120e0fedf9e205cd3fb0da29666fd59a1436873",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r5.17(1)(a)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s55(1)",
+          "mention": "subsection 55(1)"
+        }
+      ],
+      "ref": "TMR1995/r5.17(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) been decided under subsection 55(1) of the Act; and"
+    },
+    {
+      "content_hash": "sha256:67081db76e115e8395df4bd09afd36f8d9867ffd1f72724eec3013a114bf59ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r5.17(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s54A",
+          "mention": "section 54A"
+        }
+      ],
+      "ref": "TMR1995/r5.17(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the trade mark application to which the opposition relates has not lapsed under section 54A of the Act."
+    },
+    {
+      "content_hash": "sha256:586c32b35f66afba723ca8bfb8acfd5567cbdbc666f98135131c1409da3f38b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(2)",
+      "style": "subsection",
+      "text": "(2) An applicant may request the Registrar to hold a hearing if:"
+    },
+    {
+      "content_hash": "sha256:686687936f006f8135c52408aad0b62607d893f2f440b71ee9f91b091a483552",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r5.17(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.14(3)",
+          "mention": "subregulation 5.14(3)"
+        }
+      ],
+      "ref": "TMR1995/r5.17(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the evidentiary period mentioned in subregulation 5.14(3) has ended; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r5.17(2)",
+      "ref": "TMR1995/r5.17(2)(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:2c02f982255953fead6dfed7713f7b9a30291615af97a755104269a2a58fa3e8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r5.17(2)(b)",
+      "ref": "TMR1995/r5.17(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) all evidence for the opposition proceeding has been filed; or"
+    },
+    {
+      "content_hash": "sha256:fb2997ea0d651f044a11618b146d6eec8b01f65b932e00c06c82c7dec2f4e389",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r5.17(2)(b)",
+      "ref": "TMR1995/r5.17(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) no evidence has been filed in that period."
+    },
+    {
+      "content_hash": "sha256:0ded39bdb03d0841b08f7cf6fcdece2ae38907e989620c7d3db5235a15514798",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(3)",
+      "style": "subsection",
+      "text": "(3) A party may request the Registrar to hold a hearing if:"
+    },
+    {
+      "content_hash": "sha256:b8a4696dfd1127f23fbab77e8e515b70205dd278dc8af11eac875e608e04a6eb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r5.17(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r5.14(4)",
+          "mention": "subregulations 5.14(4)"
+        }
+      ],
+      "ref": "TMR1995/r5.17(3)(a)",
+      "style": "paragraph",
+      "text": "(a) an evidentiary period mentioned in any of subregulations 5.14(4) to (6) has ended; and"
+    },
+    {
+      "content_hash": "sha256:de6d26218ff58487ec1edef634c337b39848d43872487bed9b58543ca991fb45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r5.17(3)",
+      "ref": "TMR1995/r5.17(3)(b)",
+      "style": "paragraph",
+      "text": "(b) either:"
+    },
+    {
+      "content_hash": "sha256:2c02f982255953fead6dfed7713f7b9a30291615af97a755104269a2a58fa3e8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r5.17(3)(b)",
+      "ref": "TMR1995/r5.17(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) all evidence for the opposition proceeding has been filed; or"
+    },
+    {
+      "content_hash": "sha256:fb2997ea0d651f044a11618b146d6eec8b01f65b932e00c06c82c7dec2f4e389",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r5.17(3)(b)",
+      "ref": "TMR1995/r5.17(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) no evidence has been filed in that period."
+    },
+    {
+      "content_hash": "sha256:2a0abf27edf4e79a970cc8108634b8119c6f73324d90cb9bdf68c611ad81c984",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 16,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar:"
+    },
+    {
+      "content_hash": "sha256:08ad556eca0924ef154307607e94f482b58f1db1feb03f15d3e374c24e71df89",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 17,
+      "parent_ref": "TMR1995/r5.17(4)",
+      "ref": "TMR1995/r5.17(4)(a)",
+      "style": "paragraph",
+      "text": "(a) must hold a hearing of the opposition if requested by a party; or"
+    },
+    {
+      "content_hash": "sha256:b8ba4c9d7ba5c9120cfbc3937b8af5d387928b62385b56ddc17cef2c6b397b4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 18,
+      "parent_ref": "TMR1995/r5.17(4)",
+      "ref": "TMR1995/r5.17(4)(b)",
+      "style": "paragraph",
+      "text": "(b) may decide, on the Registrar’s own initiative, to hold a hearing of the opposition."
+    },
+    {
+      "content_hash": "sha256:c928d4aa16d2ccfc03def503d7613767406c53bbc5c2a7db30c7036307d49fd5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 19,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(5)",
+      "style": "subsection",
+      "text": "(5) The hearing may, at the Registrar’s discretion, be:"
+    },
+    {
+      "content_hash": "sha256:90d7e34453e9bfa1dfabd545645aaf39117e7a53b21e46ea37ff619163f02069",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 20,
+      "parent_ref": "TMR1995/r5.17(5)",
+      "ref": "TMR1995/r5.17(5)(a)",
+      "style": "paragraph",
+      "text": "(a) an oral hearing; or"
+    },
+    {
+      "content_hash": "sha256:6bbc230682811c7e30ebdedf6cf4a55e8bd3a69b7fbc5374f183f6672ac6ec9b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 21,
+      "parent_ref": "TMR1995/r5.17(5)",
+      "ref": "TMR1995/r5.17(5)(b)",
+      "style": "paragraph",
+      "text": "(b) by written submissions."
+    },
+    {
+      "content_hash": "sha256:4e2f62e8a81462c3886656995cb2ee33ddd30b71102a37c3d04263b95d9b5e2a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 22,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(6)",
+      "style": "subsection",
+      "text": "(6) If the Registrar decides on an oral hearing:"
+    },
+    {
+      "content_hash": "sha256:e0b322bfe8a35efb40cfacae240ee20b43f33e04911d4698643667f181a7eb4d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 23,
+      "parent_ref": "TMR1995/r5.17(6)",
+      "ref": "TMR1995/r5.17(6)(a)",
+      "style": "paragraph",
+      "text": "(a) the Registrar must notify the parties of the date, time and place of the hearing; and"
+    },
+    {
+      "content_hash": "sha256:9a03f71c8329b75f630ad917ea9316f4e205e7980916c21d378a4547edaa8e93",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 24,
+      "parent_ref": "TMR1995/r5.17(6)",
+      "ref": "TMR1995/r5.17(6)(b)",
+      "style": "paragraph",
+      "text": "(b) the opponent must file a summary of submissions at least 10 business days before the hearing; and"
+    },
+    {
+      "content_hash": "sha256:d80ac2246909c7bf4fc850bd956a3fe84c32f92d57ccbdd19da58844195f2dfe",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 25,
+      "parent_ref": "TMR1995/r5.17(6)",
+      "ref": "TMR1995/r5.17(6)(c)",
+      "style": "paragraph",
+      "text": "(c) the applicant must file a summary of submissions at least 5 business days before the hearing."
+    },
+    {
+      "content_hash": "sha256:84cc86a996339941c78c8fddc52d5a247ccad43ac57568d30f163b6443e6898d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(7)",
+      "ordinal": 26,
+      "parent_ref": null,
+      "ref": "TMR1995/r5.17(7)",
+      "style": "subsection",
+      "text": "(7) The Registrar may take into account a party’s failure to file a summary of submissions under subregulation (6) in making an award of costs."
+    },
+    {
+      "content_hash": "sha256:e77e49f555ccacb7f3739e93c02ef305f41afc1e1598f843c03d200ea2929f25",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 27,
+      "parent_ref": "TMR1995/r5.17(7)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.15",
+          "mention": "Regulations 21.15 and 21.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.16",
+          "mention": "Regulations 21.15 and 21.16"
+        }
+      ],
+      "ref": "TMR1995/r5.17(7)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.15 and 21.16 deal with hearings."
+    }
+  ]
+}

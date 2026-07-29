@@ -1,0 +1,428 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:904452b79319cac4d618531fd7b863049e48c5ac5b9e152b2cec5e81abdee346",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "100  Burden on opponent to establish use of trade mark etc."
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "100",
+  "ref": "TMA1995/s100",
+  "text": "(1) In any proceedings relating to an opposed application, it is for the opponent to rebut: (a) any allegation made under paragraph 92(4)(a) that, on the day on which the application for the registration of the trade mark was filed, the applicant for registration had no intention in good faith: (i) to use the trade mark in Australia; or (ii) to authorise the use of the trade mark in Australia; or (iii) to assign the trade mark to a body corporate for use by the body corporate in Australia; in relation to the goods and/or services to which the opposed application relates (relevant goods and/or services); or (b) any allegation made under paragraph 92(4)(a) that the trade mark has not, at any time before the period of one month ending on the day on which the opposed application was filed, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services; or (c) any allegation made under paragraph 92(4)(b) that the trade mark has not, at any time during the period of 3 years ending one month before the day on which the opposed application was filed, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services. Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3)). Note 2: For file, month and registered owner see section 6. (2) For the purposes of paragraph 1(b), the opponent is taken to have rebutted the allegation that the trade mark has not, at any time before the period referred to in that paragraph, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services if: (a) the opponent has established that the trade mark or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by its registered owner in relation to those goods or services before that period; or (b) in a case where the trade mark has been assigned but a record of the assignment has not been entered in the Register: (i) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by the assignee in relation to those goods or services before that period and that that use was in accordance with the terms of the assignment; and (ii) the Registrar or the court is of the opinion that it is reasonable, having regard to all the circumstances of the case, to treat the use of the trade mark by the assignee before that period as having been a use of the trade mark in relation to those goods or services by the registered owner. Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3)). Note 2: For registered owner see section 6. (3) For the purposes of paragraph 1(c), the opponent is taken to have rebutted the allegation that the trade mark has not, at any time during the period referred to in that paragraph, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services if: (a) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by its registered owner in relation to those goods or services during that period; or (b) in a case where the trade mark has been assigned but a record of the assignment has not been entered in the Register: (i) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by the assignee of the trade mark in relation to those goods or services during that period and that that use was in accordance with the terms of the assignment; and (ii) the Registrar or the court is of the opinion that it is reasonable, having regard to all the circumstances of the case, to treat the use of the trade mark by the assignee during that period as having been a use of the trade mark in relation to those goods or services by the registered owner; or (c) the opponent has established that the trade mark was not used by its registered owner in relation to those goods and/or services during that period because of circumstances (whether affecting traders generally or only the registered owner of the trade mark) that were an obstacle to the use of the trade mark during that period. Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3)). Note 2: For registered owner see section 6.",
+  "title": "Burden on opponent to establish use of trade mark etc.",
+  "units": [
+    {
+      "content_hash": "sha256:f2402b1b30c6e8992a00a6e5599536c35f845f3b152c9340f142efe56614e85e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s100(1)",
+      "style": "subsection",
+      "text": "(1) In any proceedings relating to an opposed application, it is for the opponent to rebut:"
+    },
+    {
+      "content_hash": "sha256:1a47309db012149201ed2a34bd6f63205046fa4301056e7d9384313ec97e5f4b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s100(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(a)",
+          "mention": "paragraph 92(4)(a)"
+        }
+      ],
+      "ref": "TMA1995/s100(1)(a)",
+      "style": "paragraph",
+      "text": "(a) any allegation made under paragraph 92(4)(a) that, on the day on which the application for the registration of the trade mark was filed, the applicant for registration had no intention in good faith:"
+    },
+    {
+      "content_hash": "sha256:313f364b2aea250cefe050819abdabbb935c8e066a9142e9b810130a8db4443e",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s100(1)(a)",
+      "ref": "TMA1995/s100(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to use the trade mark in Australia; or"
+    },
+    {
+      "content_hash": "sha256:34a70264b011079a12530031301b50b001c96abd075608bc9c2108d64d65024f",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s100(1)(a)",
+      "ref": "TMA1995/s100(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to authorise the use of the trade mark in Australia; or"
+    },
+    {
+      "content_hash": "sha256:9d5d8db1c94dd17cc4875e8aef281c2d5f9a3c2ade8c2ea1b9205c83fd197a07",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s100(1)(a)",
+      "ref": "TMA1995/s100(1)(a)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) to assign the trade mark to a body corporate for use by the body corporate in Australia;"
+    },
+    {
+      "content_hash": "sha256:5ab4e258c8476a3ca5639fde28664aa862cfbfccf1dd85cc22d6f42c5ba9e4ab",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 113,
+          "start": 83,
+          "text": "relevant goods and/or services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s100(1)",
+      "ref": "TMA1995/s100(1)~1",
+      "style": "paragraph",
+      "text": "in relation to the goods and/or services to which the opposed application relates (relevant goods and/or services); or"
+    },
+    {
+      "content_hash": "sha256:91a4214e585ec7e0cce48057b60f1a7a980a3b95d516688c5d2b122883bb6f00",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s100(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(a)",
+          "mention": "paragraph 92(4)(a)"
+        }
+      ],
+      "ref": "TMA1995/s100(1)(b)",
+      "style": "paragraph",
+      "text": "(b) any allegation made under paragraph 92(4)(a) that the trade mark has not, at any time before the period of one month ending on the day on which the opposed application was filed, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services; or"
+    },
+    {
+      "content_hash": "sha256:037c90ba8216e547a07542984fb9c17dd70bf334cde59cb6e0ac72636ff7cd53",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s100(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "paragraph 92(4)(b)"
+        }
+      ],
+      "ref": "TMA1995/s100(1)(c)",
+      "style": "paragraph",
+      "text": "(c) any allegation made under paragraph 92(4)(b) that the trade mark has not, at any time during the period of 3 years ending one month before the day on which the opposed application was filed, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services."
+    },
+    {
+      "content_hash": "sha256:218ed517b3eba61446f17551058083d34c3a769b5530faccba5d9c5fde7feae8",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s100(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        }
+      ],
+      "ref": "TMA1995/s100(1)(c)~1",
+      "style": "notetext",
+      "text": "Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3))."
+    },
+    {
+      "content_hash": "sha256:3054b46c240c78988dc0d89d07beec5f81daa37fea9c7d2929725d1e5d3507b3",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 12,
+          "text": "file",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 23,
+          "start": 18,
+          "text": "month",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 44,
+          "start": 28,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s100(1)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s100(1)(c)~2",
+      "style": "notetext",
+      "text": "Note 2: For file, month and registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:af7bb753a645d7712c526f090ec38a5a60a550cfa992288f373d6285589edb3e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s1(b)",
+          "mention": "paragraph 1(b)"
+        }
+      ],
+      "ref": "TMA1995/s100(2)",
+      "style": "subsection",
+      "text": "(2) For the purposes of paragraph 1(b), the opponent is taken to have rebutted the allegation that the trade mark has not, at any time before the period referred to in that paragraph, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services if:"
+    },
+    {
+      "content_hash": "sha256:dcfa64cae34c964a96ead652c1e3c108f23b7b3e8493e8285738ad471bbbbe5b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s100(2)",
+      "ref": "TMA1995/s100(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the opponent has established that the trade mark or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by its registered owner in relation to those goods or services before that period; or"
+    },
+    {
+      "content_hash": "sha256:5addf8a1e2d1acec57a65e21a06fd355e98d28bad85d409a7f55ff4b8e1750f8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s100(2)",
+      "ref": "TMA1995/s100(2)(b)",
+      "style": "paragraph",
+      "text": "(b) in a case where the trade mark has been assigned but a record of the assignment has not been entered in the Register:"
+    },
+    {
+      "content_hash": "sha256:ae6b4c3204340923fbe2a7c75d98c9b623c7b60bcf451e752bc9520fff8370e3",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s100(2)(b)",
+      "ref": "TMA1995/s100(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by the assignee in relation to those goods or services before that period and that that use was in accordance with the terms of the assignment; and"
+    },
+    {
+      "content_hash": "sha256:4f2adf49f2dc3421047ff97594dde24e5764d537a95eb8cc0eeb13a7f8bdbd1c",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s100(2)(b)",
+      "ref": "TMA1995/s100(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the Registrar or the court is of the opinion that it is reasonable, having regard to all the circumstances of the case, to treat the use of the trade mark by the assignee before that period as having been a use of the trade mark in relation to those goods or services by the registered owner."
+    },
+    {
+      "content_hash": "sha256:218ed517b3eba61446f17551058083d34c3a769b5530faccba5d9c5fde7feae8",
+      "depth": 3,
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s100(2)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        }
+      ],
+      "ref": "TMA1995/s100(2)(b)(ii)~1",
+      "style": "notetext",
+      "text": "Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3))."
+    },
+    {
+      "content_hash": "sha256:7d15db38aed7df06bec461be96bceeae8bb0ee01511b01f7a4c9bafb7b800487",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s100(2)(b)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s100(2)(b)(ii)~2",
+      "style": "notetext",
+      "text": "Note 2: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:aff7e7cd72030f640e97e8e0b205fd0020dc0016385cfc37c51960877f11aa46",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 18,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s1(c)",
+          "mention": "paragraph 1(c)"
+        }
+      ],
+      "ref": "TMA1995/s100(3)",
+      "style": "subsection",
+      "text": "(3) For the purposes of paragraph 1(c), the opponent is taken to have rebutted the allegation that the trade mark has not, at any time during the period referred to in that paragraph, been used, or been used in good faith, by its registered owner in relation to the relevant goods and/or services if:"
+    },
+    {
+      "content_hash": "sha256:a79bd85a5ac625b016cfd3c7e19893455db9581254c3a90e40f705c0bfd52d25",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 19,
+      "parent_ref": "TMA1995/s100(3)",
+      "ref": "TMA1995/s100(3)(a)",
+      "style": "paragraph",
+      "text": "(a) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by its registered owner in relation to those goods or services during that period; or"
+    },
+    {
+      "content_hash": "sha256:5addf8a1e2d1acec57a65e21a06fd355e98d28bad85d409a7f55ff4b8e1750f8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s100(3)",
+      "ref": "TMA1995/s100(3)(b)",
+      "style": "paragraph",
+      "text": "(b) in a case where the trade mark has been assigned but a record of the assignment has not been entered in the Register:"
+    },
+    {
+      "content_hash": "sha256:033284459b3da90ae663a9553b97de5d3e52b3bea3cb51ad6e50e21dd997f6d6",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s100(3)(b)",
+      "ref": "TMA1995/s100(3)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the opponent has established that the trade mark, or the trade mark with additions or alterations not substantially affecting its identity, was used in good faith by the assignee of the trade mark in relation to those goods or services during that period and that that use was in accordance with the terms of the assignment; and"
+    },
+    {
+      "content_hash": "sha256:8a498e9e74fcd9e9c57da1ea07c99687806165b97d359d257100a9d0819ab616",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s100(3)(b)",
+      "ref": "TMA1995/s100(3)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the Registrar or the court is of the opinion that it is reasonable, having regard to all the circumstances of the case, to treat the use of the trade mark by the assignee during that period as having been a use of the trade mark in relation to those goods or services by the registered owner; or"
+    },
+    {
+      "content_hash": "sha256:d96375e670645a123d6b22f4e35356fbed2cf44e819d3519064e611f57b43bc4",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s100(3)",
+      "ref": "TMA1995/s100(3)(c)",
+      "style": "paragraph",
+      "text": "(c) the opponent has established that the trade mark was not used by its registered owner in relation to those goods and/or services during that period because of circumstances (whether affecting traders generally or only the registered owner of the trade mark) that were an obstacle to the use of the trade mark during that period."
+    },
+    {
+      "content_hash": "sha256:218ed517b3eba61446f17551058083d34c3a769b5530faccba5d9c5fde7feae8",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 24,
+      "parent_ref": "TMA1995/s100(3)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        }
+      ],
+      "ref": "TMA1995/s100(3)(c)~1",
+      "style": "notetext",
+      "text": "Note 1: If the registered owner of the trade mark has authorised another person to use it, any authorised use of the trade mark by that person is taken to be a use of the trade mark by the registered owner (see subsection 7(3))."
+    },
+    {
+      "content_hash": "sha256:7d15db38aed7df06bec461be96bceeae8bb0ee01511b01f7a4c9bafb7b800487",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s100(3)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s100(3)(c)~2",
+      "style": "notetext",
+      "text": "Note 2: For registered owner see section 6."
+    }
+  ]
+}

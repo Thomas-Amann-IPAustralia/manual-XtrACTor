@@ -1,0 +1,127 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:c7cde22615cc3116c54e8003a9f91936f093b2f25e17137d67e5453586b8c8f1",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.24C  Period for doing certain acts—acts to which section 223A does not apply"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.24C",
+  "ref": "TMR1995/r21.24C",
+  "text": "For subsection 223A(7) of the Act, the following acts are prescribed: (a) an act done in opposition proceedings, other than the filing of a notice or request with the Trade Marks Office, under the following provisions: (i) Part 5, 9 or 21 of the Act; (ii) Part 5, 9, 17A or 21 of these Regulations; (b) an act done in relation to proceedings in a court or a tribunal; (c) the filing of a notice of opposition with a court under section 96 of the Act; (d) an act done under Part 13 or 16 of the Act; (e) an act done under Part 13, 16 or 20 of these Regulations.",
+  "title": "Period for doing certain acts—acts to which section 223A does not apply",
+  "units": [
+    {
+      "content_hash": "sha256:b29e543fde41e1e325dce93d8c64da26cb04f91d971e580a777079ec49d82749",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s223A(7)",
+          "mention": "subsection 223A(7)"
+        }
+      ],
+      "ref": "TMR1995/r21.24C~1",
+      "style": "subsection",
+      "text": "For subsection 223A(7) of the Act, the following acts are prescribed:"
+    },
+    {
+      "content_hash": "sha256:79d2365bec6f44d5082533fa3896ebafb297b179527fb450aeb2d1edd7643935",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.24C~1",
+      "ref": "TMR1995/r21.24C(a)",
+      "style": "paragraph",
+      "text": "(a) an act done in opposition proceedings, other than the filing of a notice or request with the Trade Marks Office, under the following provisions:"
+    },
+    {
+      "content_hash": "sha256:610552d38fc87ca22e46e92756a79bbd5b2edd367811670dd11ef8d0743387a9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.24C(a)",
+      "ref": "TMR1995/r21.24C(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) Part 5, 9 or 21 of the Act;"
+    },
+    {
+      "content_hash": "sha256:5fced8d033acd73d8af6b04a34704f63d0f5be181760938db9922ceb93f6b7c7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.24C(a)",
+      "ref": "TMR1995/r21.24C(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) Part 5, 9, 17A or 21 of these Regulations;"
+    },
+    {
+      "content_hash": "sha256:20bfca917c9e17ff5b6fbe5d6eefea25d4efbc89edf72081c6beacd3b5ac95de",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r21.24C~1",
+      "ref": "TMR1995/r21.24C(b)",
+      "style": "paragraph",
+      "text": "(b) an act done in relation to proceedings in a court or a tribunal;"
+    },
+    {
+      "content_hash": "sha256:5cfbc8abf3bcc4f90e275b31a3580f7ac346064ada1b9d8552fb4cfee9ba3ca9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.24C~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s96",
+          "mention": "section 96"
+        }
+      ],
+      "ref": "TMR1995/r21.24C(c)",
+      "style": "paragraph",
+      "text": "(c) the filing of a notice of opposition with a court under section 96 of the Act;"
+    },
+    {
+      "content_hash": "sha256:f6235936b7627d7ebc5355ffc533e871d20c48c485b80e8bea803ca767ee83dd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r21.24C~1",
+      "ref": "TMR1995/r21.24C(d)",
+      "style": "paragraph",
+      "text": "(d) an act done under Part 13 or 16 of the Act;"
+    },
+    {
+      "content_hash": "sha256:3b64ed82620928d0acddfdab5205998664008ab328aa0db3dbffb70f99e40c82",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r21.24C~1",
+      "ref": "TMR1995/r21.24C(e)",
+      "style": "paragraph",
+      "text": "(e) an act done under Part 13, 16 or 20 of these Regulations."
+    }
+  ]
+}

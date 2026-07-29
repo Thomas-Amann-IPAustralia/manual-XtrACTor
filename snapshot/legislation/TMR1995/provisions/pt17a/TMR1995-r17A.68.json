@@ -1,0 +1,64 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div11"
+  ],
+  "content_hash": "sha256:1a228133c57bd564dbf6c61084fa80e4a4c098a47d075b9b415c68cc4ece98b8",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 11—Miscellaneous",
+    "17A.68  Evidence—the Record of International Registrations"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.68",
+  "ref": "TMR1995/r17A.68",
+  "text": "(1) The Record of International Registrations is evidence of any particular or other matter entered in it. (2) A copy of, or extract from, the Record of International Registrations that is certified by the Registrar to be a true record or extract is admissible in any proceedings as if it were the original. Note: Section 211 of the Act makes provision in relation to certificates given by the Registrar and certified copies of documents held in the Trade Marks Office.",
+  "title": "Evidence—the Record of International Registrations",
+  "units": [
+    {
+      "content_hash": "sha256:a531a807e6d7dbe900a4598872884343beade735fc96340a5087bae7f0bf59d3",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.68(1)",
+      "style": "subsection",
+      "text": "(1) The Record of International Registrations is evidence of any particular or other matter entered in it."
+    },
+    {
+      "content_hash": "sha256:f36e1832e8ae824b186c70d10fdb41f3804e60a94475f3d0a9eecbee48f43a65",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.68(2)",
+      "style": "subsection",
+      "text": "(2) A copy of, or extract from, the Record of International Registrations that is certified by the Registrar to be a true record or extract is admissible in any proceedings as if it were the original."
+    },
+    {
+      "content_hash": "sha256:7930003a1e64ec8427c2f2359e445748da4ab8a4494d2c64150ace81192504d0",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.68(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s211",
+          "mention": "Section 211"
+        }
+      ],
+      "ref": "TMR1995/r17A.68(2)~1",
+      "style": "notetext",
+      "text": "Note: Section 211 of the Act makes provision in relation to certificates given by the Registrar and certified copies of documents held in the Trade Marks Office."
+    }
+  ]
+}

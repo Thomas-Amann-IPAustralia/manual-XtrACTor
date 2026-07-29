@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt14"
+  ],
+  "content_hash": "sha256:5a592376a465178f05b4e147f8f2346ed07d2f582f31f0323b8acb41054fda31",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 14—Offences",
+    "150  Aiding and abetting offences"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "150",
+  "ref": "TMA1995/s150",
+  "text": "(1) If a person: (a) aids, abets, counsels or procures; or (b) is in any way, directly or indirectly, knowingly concerned in, or party to; the doing of an act outside Australia which, if it were done in Australia, would be an offence against this Act, the person is taken to have committed that offence and is punishable accordingly. (2) Subsection (1) does not affect the operation of section 11.2 or 11.2A of the Criminal Code.",
+  "title": "Aiding and abetting offences",
+  "units": [
+    {
+      "content_hash": "sha256:7382933243ebf9c5b0b1c833bb6c2dcb5045d158b581b961d18d3d43cf30ba1a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s150(1)",
+      "style": "subsection",
+      "text": "(1) If a person:"
+    },
+    {
+      "content_hash": "sha256:c1e1dec22adba53b79c678bbc6e849584c8288d07d0651e11d20a5392e98f0cf",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s150(1)",
+      "ref": "TMA1995/s150(1)(a)",
+      "style": "paragraph",
+      "text": "(a) aids, abets, counsels or procures; or"
+    },
+    {
+      "content_hash": "sha256:7c9d7f9a3e4dc9feaddb21a627cbd5bbf95cab5eaa13c5af1ee9013806c0c059",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s150(1)",
+      "ref": "TMA1995/s150(1)(b)",
+      "style": "paragraph",
+      "text": "(b) is in any way, directly or indirectly, knowingly concerned in, or party to;"
+    },
+    {
+      "content_hash": "sha256:49f3bcc358ae42b3518d5e43f6062381e8f24df2ed6d6e12d29a7cbff7da970c",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s150~1",
+      "style": "subsection2",
+      "text": "the doing of an act outside Australia which, if it were done in Australia, would be an offence against this Act, the person is taken to have committed that offence and is punishable accordingly."
+    },
+    {
+      "content_hash": "sha256:6b9fa66194370cc4812d74dae0f58729083eba6cbd1111b300b22c2dc95d3e6f",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 94,
+          "start": 81,
+          "text": "Criminal Code",
+          "weight": "italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11.2",
+          "mention": "section 11.2 or 11.2A"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11.2A",
+          "mention": "section 11.2 or 11.2A"
+        }
+      ],
+      "ref": "TMA1995/s150(2)",
+      "style": "subsection",
+      "text": "(2) Subsection (1) does not affect the operation of section 11.2 or 11.2A of the Criminal Code."
+    }
+  ]
+}

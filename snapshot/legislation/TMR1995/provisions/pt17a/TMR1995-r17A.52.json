@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div7"
+  ],
+  "content_hash": "sha256:70def3050d486b9431c40789a1e9d1fc5d3e3c48f6f7bb874778871da4c3fbaf",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 7—Transformation of cancelled international registrations",
+    "17A.52  Transformation of IRDA"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.52",
+  "ref": "TMR1995/r17A.52",
+  "text": "(1) If the trade mark is the subject of an IRDA, the Act and these Regulations apply for the purposes of the transformation application as if it were an application for registration. (2) However: (a) the filing date for the transformation application is taken to be the date of international registration or the date of recording, as applicable; and (b) anything already done under this Part for the purposes of the IRDA is to be treated as having been done for the purposes of the transformation application.",
+  "title": "Transformation of IRDA",
+  "units": [
+    {
+      "content_hash": "sha256:14c3241dfa37ae06ff285ccfa24c46f645547362af8bc6eb8dd2b73551f2cff8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.52(1)",
+      "style": "subsection",
+      "text": "(1) If the trade mark is the subject of an IRDA, the Act and these Regulations apply for the purposes of the transformation application as if it were an application for registration."
+    },
+    {
+      "content_hash": "sha256:2e5b0df13c2f084e3ecccf6cde1cc929037909d77193a5469a67ee8b5ed57fd4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.52(2)",
+      "style": "subsection",
+      "text": "(2) However:"
+    },
+    {
+      "content_hash": "sha256:07d9eac2af5fea9c9f2886e93b56fd807409ded6cb2b36f7d78ad8cfc9e08257",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.52(2)",
+      "ref": "TMR1995/r17A.52(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the filing date for the transformation application is taken to be the date of international registration or the date of recording, as applicable; and"
+    },
+    {
+      "content_hash": "sha256:216f40a9ebb3b955fa56b34e0b240d67ed1719fdd4c125a89a8b019d90fa6d57",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r17A.52(2)",
+      "ref": "TMR1995/r17A.52(2)(b)",
+      "style": "paragraph",
+      "text": "(b) anything already done under this Part for the purposes of the IRDA is to be treated as having been done for the purposes of the transformation application."
+    }
+  ]
+}

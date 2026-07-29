@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:eb56cb4f5725e14125661dee0292e3b6fd6f29c73fcc1e19fb6c972b882e6128",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.3C  Directions by Registrar for filing of evidence"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.3C",
+  "ref": "TMR1995/r21.3C",
+  "text": "For the purposes of subsection 213C(4) of the Act, the direction must be published on the IP Australia website.",
+  "title": "Directions by Registrar for filing of evidence",
+  "units": [
+    {
+      "content_hash": "sha256:eb56cb4f5725e14125661dee0292e3b6fd6f29c73fcc1e19fb6c972b882e6128",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s213C(4)",
+          "mention": "subsection 213C(4)"
+        }
+      ],
+      "ref": "TMR1995/r21.3C~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 213C(4) of the Act, the direction must be published on the IP Australia website."
+    }
+  ]
+}

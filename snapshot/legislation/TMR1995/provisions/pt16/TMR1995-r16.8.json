@@ -1,0 +1,73 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:f86a643523fda1951fa45277ea86e0dd2c41348f5508c05d90e4238847ff7c35",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.8  Applications to vary rules"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.8",
+  "ref": "TMR1995/r16.8",
+  "text": "(1) For the purposes of subsection 178(1) of the Act (which deals with the variation of rules), the registered owner of a certification trade mark may apply to the Commission to approve a variation of the rules governing the use of the certification trade mark. (2) An application to approve the variation of the rules governing the use of a registered certification trade mark must: (a) be in writing; and (b) have with it a copy of the rules governing the use of the registered certification trade mark that incorporate the proposed variation.",
+  "title": "Applications to vary rules",
+  "units": [
+    {
+      "content_hash": "sha256:ba404ef623e745ccae5cf40731dcdd91b2268053e39966f016401c5339d40d6e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s178(1)",
+          "mention": "subsection 178(1)"
+        }
+      ],
+      "ref": "TMR1995/r16.8(1)",
+      "style": "subsection",
+      "text": "(1) For the purposes of subsection 178(1) of the Act (which deals with the variation of rules), the registered owner of a certification trade mark may apply to the Commission to approve a variation of the rules governing the use of the certification trade mark."
+    },
+    {
+      "content_hash": "sha256:b743358922ac161dbe3f410898c32fdbfaaca242177236153da3aebdb36b17c1",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r16.8(2)",
+      "style": "subsection",
+      "text": "(2) An application to approve the variation of the rules governing the use of a registered certification trade mark must:"
+    },
+    {
+      "content_hash": "sha256:f4088aeaf0ca12edac03b95e15545cfc240d2916b5b74982ff0d935a43979f75",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r16.8(2)",
+      "ref": "TMR1995/r16.8(2)(a)",
+      "style": "paragraph",
+      "text": "(a) be in writing; and"
+    },
+    {
+      "content_hash": "sha256:cd2e9b82e1c21d40c694fa60caafc38f3034912b4897682f6619d919a46aaa71",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r16.8(2)",
+      "ref": "TMR1995/r16.8(2)(b)",
+      "style": "paragraph",
+      "text": "(b) have with it a copy of the rules governing the use of the registered certification trade mark that incorporate the proposed variation."
+    }
+  ]
+}

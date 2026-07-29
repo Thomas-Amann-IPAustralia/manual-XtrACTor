@@ -1,0 +1,224 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:c7a081aba7a17c5b37606d79e2091df6f68d2dde344c98eaaabd1feb0ae49625",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.20  Period within which final decision on examination must be notified"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.20",
+  "ref": "TMR1995/r17A.20",
+  "text": "(1) For an IRDA in respect of which a report is made under regulation 17A.16, the Registrar must notify his or her decision under regulation 17A.24 (the final decision on examination) to the International Bureau: (a) if paragraph (b) does not apply—within 15 months from the date of that report (whether or not a further report is made under regulation 17A.18); or (b) if a further report raises grounds under Subdivision 2 for rejecting the IRDA that were not raised in the report made under regulation 17A.16—within 15 months from the date of the further report. (2) In determining the period of 15 months for the purposes of paragraph (1)(a) or (b) in relation to an IRDA, no account is to be taken of any period during which acceptance of the IRDA is deferred under regulation 17A.21. (3) The holder of an IRDA may, before the end of a period mentioned in subregulation (1), or that period as extended under section 224 of the Act or as a result of a previous application of subregulation (4), request the Registrar in writing to extend the period. (4) The Registrar must, in accordance with a request made under subregulation (3), extend a period, unless: (a) the period; or (b) that period as extended under section 224 of the Act or as a result of a previous application of this subregulation; would be extended for more than 6 months after the end of the relevant period mentioned in subregulation (1). Note 1: If an extension of the time for acceptance of an IRDA is sought after the end of a period mentioned in subregulation (1), or of an extended period mentioned in subregulation (3), application must be made under section 224 of the Act. Note 2: If a period mentioned in subregulation (1) has been extended by 6 months, any application for a further extension of time must be made under section 224 of the Act.",
+  "title": "Period within which final decision on examination must be notified",
+  "units": [
+    {
+      "content_hash": "sha256:e7f7d85e4898c6e18003cd418f5cc087e1f1eb8408700509b35a1a23a86a8e40",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 182,
+          "start": 153,
+          "text": "final decision on examination",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16",
+          "mention": "regulation 17A.16"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.24",
+          "mention": "regulation 17A.24"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(1)",
+      "style": "subsection",
+      "text": "(1) For an IRDA in respect of which a report is made under regulation 17A.16, the Registrar must notify his or her decision under regulation 17A.24 (the final decision on examination) to the International Bureau:"
+    },
+    {
+      "content_hash": "sha256:de36c80869bd1cfb77b034159e425ce08d5b559ad0de657a3b8a0bb6e2151301",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.20(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.18",
+          "mention": "regulation 17A.18"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(1)(a)",
+      "style": "paragraph",
+      "text": "(a) if paragraph (b) does not apply—within 15 months from the date of that report (whether or not a further report is made under regulation 17A.18); or"
+    },
+    {
+      "content_hash": "sha256:11ac6b77b6154e5bbfae8eb4201a0f1e7d9140a952235866ccabaa49e7acd887",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.20(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.16",
+          "mention": "regulation 17A.16"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(1)(b)",
+      "style": "paragraph",
+      "text": "(b) if a further report raises grounds under Subdivision 2 for rejecting the IRDA that were not raised in the report made under regulation 17A.16—within 15 months from the date of the further report."
+    },
+    {
+      "content_hash": "sha256:8c4e57fd236bc4fff335380d833695419fb0bbb1cd76de2d320e5ca099c3c8b2",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.21",
+          "mention": "regulation 17A.21"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(2)",
+      "style": "subsection",
+      "text": "(2) In determining the period of 15 months for the purposes of paragraph (1)(a) or (b) in relation to an IRDA, no account is to be taken of any period during which acceptance of the IRDA is deferred under regulation 17A.21."
+    },
+    {
+      "content_hash": "sha256:482fdc6a9674180b5fdd113f566b6c12c06e264ddc35c3247a682a6396fbe3d8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(3)",
+      "style": "subsection",
+      "text": "(3) The holder of an IRDA may, before the end of a period mentioned in subregulation (1), or that period as extended under section 224 of the Act or as a result of a previous application of subregulation (4), request the Registrar in writing to extend the period."
+    },
+    {
+      "content_hash": "sha256:93bb62558cb0aebc8f7abb098194e2b8117a057280e0499e3e7b24e268f34380",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.20(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar must, in accordance with a request made under subregulation (3), extend a period, unless:"
+    },
+    {
+      "content_hash": "sha256:fcab08d81d7601106d3c42348971c222a1a7bc66b797ed33e67c9d36c556637c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r17A.20(4)",
+      "ref": "TMR1995/r17A.20(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the period; or"
+    },
+    {
+      "content_hash": "sha256:d2319a1fb8263e5332e27e4fad659a129261e5352abb4e7aebce921956aeaec5",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r17A.20(4)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r17A.20(4)(b)",
+      "style": "paragraph",
+      "text": "(b) that period as extended under section 224 of the Act or as a result of a previous application of this subregulation;"
+    },
+    {
+      "content_hash": "sha256:0f6950182f3a6419f2e566ff2462722e1cb991416ee18c23113a04395a385376",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.20~1",
+      "style": "subsection2",
+      "text": "would be extended for more than 6 months after the end of the relevant period mentioned in subregulation (1)."
+    },
+    {
+      "content_hash": "sha256:0d400c2a357a234e2aa906d8d70e5817dd1a2319c81675072d6547fca090bc1a",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r17A.20~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r17A.20~1~1",
+      "style": "notetext",
+      "text": "Note 1: If an extension of the time for acceptance of an IRDA is sought after the end of a period mentioned in subregulation (1), or of an extended period mentioned in subregulation (3), application must be made under section 224 of the Act."
+    },
+    {
+      "content_hash": "sha256:6bb4d165a71cdf6bbef4b2293fd0a977180335edeb1f2f443473dce6fa9f36da",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r17A.20~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s224",
+          "mention": "section 224"
+        }
+      ],
+      "ref": "TMR1995/r17A.20~1~2",
+      "style": "notetext",
+      "text": "Note 2: If a period mentioned in subregulation (1) has been extended by 6 months, any application for a further extension of time must be made under section 224 of the Act."
+    }
+  ]
+}

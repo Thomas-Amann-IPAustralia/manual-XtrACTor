@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt16"
+  ],
+  "content_hash": "sha256:0b2298089134b09cb7a7354a3853be84f6c9f3b3da41d09c35d22f27a8c9f8ce",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 16—Certification trade marks",
+    "16.7A  Publication of decision to accept or reject application"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "16.7A",
+  "ref": "TMR1995/r16.7A",
+  "text": "For the purposes of paragraph 176(3)(b) of the Act, the decision must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Publication of decision to accept or reject application",
+  "units": [
+    {
+      "content_hash": "sha256:0b2298089134b09cb7a7354a3853be84f6c9f3b3da41d09c35d22f27a8c9f8ce",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s176(3)(b)",
+          "mention": "paragraph 176(3)(b)"
+        }
+      ],
+      "ref": "TMR1995/r16.7A~1",
+      "style": "subsection",
+      "text": "For the purposes of paragraph 176(3)(b) of the Act, the decision must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

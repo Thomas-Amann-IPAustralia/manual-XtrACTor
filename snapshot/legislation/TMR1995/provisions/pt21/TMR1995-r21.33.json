@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div3"
+  ],
+  "content_hash": "sha256:d5403c2d5b2e4203ada76273edaaa4fe65ec1aac5c09e203c7a10f449ad72a1d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "21.33  Directions not otherwise prescribed"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.33",
+  "ref": "TMR1995/r21.33",
+  "text": "If the Registrar reasonably believes that it is necessary for the proper conduct of proceedings for a person to perform an act, file a document or produce evidence that the person is not required by the Act or these regulations to perform, file or produce, the Registrar may by notification to the person require him or her: (a) to perform the act; or (b) file the document; or (c) to produce the evidence; that is specified in the notification.",
+  "title": "Directions not otherwise prescribed",
+  "units": [
+    {
+      "content_hash": "sha256:5adfc274b82ce8e72e4122a90d6762a42a7d835896afb43a8b21e27332aaece9",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.33~1",
+      "style": "subsection",
+      "text": "If the Registrar reasonably believes that it is necessary for the proper conduct of proceedings for a person to perform an act, file a document or produce evidence that the person is not required by the Act or these regulations to perform, file or produce, the Registrar may by notification to the person require him or her:"
+    },
+    {
+      "content_hash": "sha256:8c8f0ac87a1f0b9984437c28efb8026d4c7ceb7ef540daad620d351d8e7341f1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.33~1",
+      "ref": "TMR1995/r21.33(a)",
+      "style": "paragraph",
+      "text": "(a) to perform the act; or"
+    },
+    {
+      "content_hash": "sha256:e865ad95120539526ee3eae5cffaab1b98f61392f173d75b1ef0a39283bedd3d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.33~1",
+      "ref": "TMR1995/r21.33(b)",
+      "style": "paragraph",
+      "text": "(b) file the document; or"
+    },
+    {
+      "content_hash": "sha256:68001ae7ea171957ea93f7e22918783ca92e255fde88543280c645fa5929b287",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r21.33~1",
+      "ref": "TMR1995/r21.33(c)",
+      "style": "paragraph",
+      "text": "(c) to produce the evidence;"
+    },
+    {
+      "content_hash": "sha256:e3dc3751ef9e2d183c85f1306f4860c4a86db7b39e89a3bcdedd083d3bf97a45",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.33~2",
+      "style": "subsection2",
+      "text": "that is specified in the notification."
+    }
+  ]
+}

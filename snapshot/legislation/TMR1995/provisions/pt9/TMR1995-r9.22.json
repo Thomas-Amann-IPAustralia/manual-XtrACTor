@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt9",
+    "TMR1995/pt9/div6"
+  ],
+  "content_hash": "sha256:b0ed394016ab4666f5a2e36c5586c0aa7c867d38f150b5b167fa5ab46117bd26",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "Division 6—Miscellaneous",
+    "9.22  Registrar must notify parties of dismissal or discontinuance of opposition"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "9.22",
+  "ref": "TMR1995/r9.22",
+  "text": "If an opposition is dismissed under regulation 9.10 or discontinued, the Registrar must notify the parties of the dismissal or discontinuance.",
+  "title": "Registrar must notify parties of dismissal or discontinuance of opposition",
+  "units": [
+    {
+      "content_hash": "sha256:b0ed394016ab4666f5a2e36c5586c0aa7c867d38f150b5b167fa5ab46117bd26",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r9.10",
+          "mention": "regulation 9.10"
+        }
+      ],
+      "ref": "TMR1995/r9.22~1",
+      "style": "subsection",
+      "text": "If an opposition is dismissed under regulation 9.10 or discontinued, the Registrar must notify the parties of the dismissal or discontinuance."
+    }
+  ]
+}

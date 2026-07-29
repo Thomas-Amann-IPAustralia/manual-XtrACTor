@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div1"
+  ],
+  "content_hash": "sha256:d3ab8b6ad39d4930c46acf11abb4f2467b38fa95a1e03e63a02870428f58570e",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 1—General",
+    "20A.1  Application of Part 20A"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.1",
+  "ref": "TMR1995/r20A.1",
+  "text": "This Part applies to: (a) an incorporated trade marks attorney; and (b) a company applying for registration as an incorporated trade marks attorney.",
+  "title": "Application of Part 20A",
+  "units": [
+    {
+      "content_hash": "sha256:1b6c13a20d12e210e4e1f128783dec947796ebcb29403cb4c54f93fc11e2184b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.1~1",
+      "style": "subsection",
+      "text": "This Part applies to:"
+    },
+    {
+      "content_hash": "sha256:9aa20231ee8da23d76ba29f4fddbdf7e836bdff5941f393e27bc618d590cc6eb",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.1~1",
+      "ref": "TMR1995/r20A.1(a)",
+      "style": "paragraph",
+      "text": "(a) an incorporated trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:4e97fc7b53d177474ddf85905ba7982b7f368b0f053c8395ea7afc784984ecd0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.1~1",
+      "ref": "TMR1995/r20A.1(b)",
+      "style": "paragraph",
+      "text": "(b) a company applying for registration as an incorporated trade marks attorney."
+    }
+  ]
+}

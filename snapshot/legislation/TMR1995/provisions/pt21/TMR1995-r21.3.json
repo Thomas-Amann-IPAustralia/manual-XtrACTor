@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt21",
+    "TMR1995/pt21/div1"
+  ],
+  "content_hash": "sha256:a144f09e2a290ef7cdaba1b22c98c9784a9b2f55581a92affbfadee31d972559",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 21—Miscellaneous",
+    "Division 1—Applications and other documents",
+    "21.3  Filing of documents—common requirements"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "21.3",
+  "ref": "TMR1995/r21.3",
+  "text": "(1) A person who files an application, notice or request must include in the application, notice or request the business or residential address of: (a) the person making the application or request or giving the notice; or (b) the person on whose behalf the application, notice or request is made. (2) If an address recorded in the Register or included in an application, notice or request that is filed changes, the person whose address changes, or a person acting on behalf of that person, must notify the Registrar of the new address. (3) If the Registrar is notified of a new address, the Registrar must amend the Register, application, notice or request accordingly. Note: Section 212 of the Act also deals with the making and signing of applications, notices and requests.",
+  "title": "Filing of documents—common requirements",
+  "units": [
+    {
+      "content_hash": "sha256:72dc9c3939f1faf89fd677b54195868eda2064ce326a1d8d9b6e37c47a898e45",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.3(1)",
+      "style": "subsection",
+      "text": "(1) A person who files an application, notice or request must include in the application, notice or request the business or residential address of:"
+    },
+    {
+      "content_hash": "sha256:d733f352203acdae2a189c755389285b82de738d7397255bdd7d29dc58cef042",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r21.3(1)",
+      "ref": "TMR1995/r21.3(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the person making the application or request or giving the notice; or"
+    },
+    {
+      "content_hash": "sha256:f8ae3220a2a67ba8c5d94fe4d826cb2561406383b3ff0cd0a29effd534057822",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r21.3(1)",
+      "ref": "TMR1995/r21.3(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the person on whose behalf the application, notice or request is made."
+    },
+    {
+      "content_hash": "sha256:cac05405c5052f6a2500dce685f757f3cd3bccb6ab803f887cfeeab255078854",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.3(2)",
+      "style": "subsection",
+      "text": "(2) If an address recorded in the Register or included in an application, notice or request that is filed changes, the person whose address changes, or a person acting on behalf of that person, must notify the Registrar of the new address."
+    },
+    {
+      "content_hash": "sha256:7354cb5e57179760e5314df609e83c1c9b8656ddca1bc5762a02ad505b769b86",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMR1995/r21.3(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar is notified of a new address, the Registrar must amend the Register, application, notice or request accordingly."
+    },
+    {
+      "content_hash": "sha256:99a47141f0df1f6ecbdab8a0c5f718eaca51f2e5aba0e8789e5311efdaa5afec",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r21.3(3)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s212",
+          "mention": "Section 212"
+        }
+      ],
+      "ref": "TMR1995/r21.3(3)~1",
+      "style": "notetext",
+      "text": "Note: Section 212 of the Act also deals with the making and signing of applications, notices and requests."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdivc"
+  ],
+  "content_hash": "sha256:fdeb65d9ad818ed28c171cdf3466a7df1cb88f39aa655741fff0eb511db0baaa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision C—Opposition to IRDA",
+    "17A.34F  Amendment of notice of intention to oppose"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.34F",
+  "ref": "TMR1995/r17A.34F",
+  "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake. (2) If an opposition proceeds in the name of another person under section 53 of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name. (3) The Registrar may grant a request under subregulation (1) or (2) on terms that the Registrar considers appropriate. (4) If the Registrar grants the request, the Registrar must give a copy of the notice of the amended intention to oppose to the IRDA holder. (5) Regulation 17A.31 does not apply to this regulation.",
+  "title": "Amendment of notice of intention to oppose",
+  "units": [
+    {
+      "content_hash": "sha256:4d6013cc5a0a63aaefeb5ff47eb4ae2b979452d09a4c918d758ccb90ac0dbd15",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34F(1)",
+      "style": "subsection",
+      "text": "(1) An opponent may request the Registrar to amend a notice of intention to oppose to correct a clerical error or obvious mistake."
+    },
+    {
+      "content_hash": "sha256:69c82c08180cda45af9bf3e2541b6aa91c2cfef37c5644d453a82d957c4f57c4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s53",
+          "mention": "section 53"
+        }
+      ],
+      "ref": "TMR1995/r17A.34F(2)",
+      "style": "subsection",
+      "text": "(2) If an opposition proceeds in the name of another person under section 53 of the Act, the person may request the Registrar to amend the notice of intention to oppose to record the person’s name."
+    },
+    {
+      "content_hash": "sha256:d3287975f132a2f142ef7f448bc4bf2e163647d7d9f4c2e546c619fbdcd2c828",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34F(3)",
+      "style": "subsection",
+      "text": "(3) The Registrar may grant a request under subregulation (1) or (2) on terms that the Registrar considers appropriate."
+    },
+    {
+      "content_hash": "sha256:ae72bb112c2c0e9fe9af7817139a886cbdfff8633f67912b5920724a1c1f05eb",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.34F(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar grants the request, the Registrar must give a copy of the notice of the amended intention to oppose to the IRDA holder."
+    },
+    {
+      "content_hash": "sha256:538c8369e9f935dcebfad124594254aedbffa9402bd1ac74cb713de82941e9f6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.31",
+          "mention": "Regulation 17A.31"
+        }
+      ],
+      "ref": "TMR1995/r17A.34F(5)",
+      "style": "subsection",
+      "text": "(5) Regulation 17A.31 does not apply to this regulation."
+    }
+  ]
+}

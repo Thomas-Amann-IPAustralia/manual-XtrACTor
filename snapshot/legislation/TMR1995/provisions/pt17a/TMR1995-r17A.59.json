@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div9"
+  ],
+  "content_hash": "sha256:c0a40d9c773f7ccae360f845933c0d5f8c97f5f41d595c3b58cb7a5a3fa4f23b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 9—Change in ownership of international registration",
+    "17A.59  Trade marks affected by claimed interests and rights"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.59",
+  "ref": "TMR1995/r17A.59",
+  "text": "(1) If a person is recorded under regulation 17A.62 as claiming an interest in, or a right in respect of, the trade mark, the Registrar must: (a) make a declaration to the International Bureau in accordance with rule 27(4) of the Madrid Regulations that, subject to subregulation (2), the change of ownership has no effect in Australia; and (b) notify the person that the change of ownership will have effect at the end of 2 months from the date of the notification unless the person serves on the Registrar an order of a prescribed court directing the Registrar not to withdraw the declaration. (2) At the end of the 2month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia.",
+  "title": "Trade marks affected by claimed interests and rights",
+  "units": [
+    {
+      "content_hash": "sha256:cef0e8a3b1558fde2dc9e0403324aacae5ac1b7a20c376ffb1faec3fc6026008",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r17A.62",
+          "mention": "regulation 17A.62"
+        }
+      ],
+      "ref": "TMR1995/r17A.59(1)",
+      "style": "subsection",
+      "text": "(1) If a person is recorded under regulation 17A.62 as claiming an interest in, or a right in respect of, the trade mark, the Registrar must:"
+    },
+    {
+      "content_hash": "sha256:d04e8ae74a550d38ba38f3b775a41244cff94fa23cf682de7521fca677bc1e89",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r17A.59(1)",
+      "ref": "TMR1995/r17A.59(1)(a)",
+      "style": "paragraph",
+      "text": "(a) make a declaration to the International Bureau in accordance with rule 27(4) of the Madrid Regulations that, subject to subregulation (2), the change of ownership has no effect in Australia; and"
+    },
+    {
+      "content_hash": "sha256:2fdda5e5b9c27fcbaf394d34a28a2d481b0d0242dd3f70cb1d20b5c0da92eb7b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r17A.59(1)",
+      "ref": "TMR1995/r17A.59(1)(b)",
+      "style": "paragraph",
+      "text": "(b) notify the person that the change of ownership will have effect at the end of 2 months from the date of the notification unless the person serves on the Registrar an order of a prescribed court directing the Registrar not to withdraw the declaration."
+    },
+    {
+      "content_hash": "sha256:d64b21f2484584fdaad4a40f39b8bde6a4a3706138c551b16fc3ff9551b5cbd6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r17A.59(2)",
+      "style": "subsection",
+      "text": "(2) At the end of the 2month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia."
+    }
+  ]
+}

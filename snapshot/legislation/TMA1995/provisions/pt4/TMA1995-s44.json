@@ -1,0 +1,555 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt4",
+    "TMA1995/pt4/div2"
+  ],
+  "content_hash": "sha256:b73a558c218bfc662e73b9e7efa97bc24171a1e3dd76c55c6d076f28302b2cfa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 4—Application for registration",
+    "Division 2—Grounds for rejecting an application",
+    "44  Identical etc. trade marks"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "44",
+  "ref": "TMA1995/s44",
+  "text": "(1) Subject to subsections (3) and (4), an application for the registration of a trade mark (applicant’s trade mark) in respect of goods (applicant’s goods) must be rejected if: (a) the applicant’s trade mark is substantially identical with, or deceptively similar to: (i) a trade mark registered by another person in respect of similar goods or closely related services; or (ii) a trade mark whose registration in respect of similar goods or closely related services is being sought by another person; and (b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s goods is not earlier than the priority date for the registration of the other trade mark in respect of the similar goods or closely related services. Note 1: For deceptively similar see section 10. Note 2: For similar goods see subsection 14(1). Note 3: For priority date see section 12. Note 4: The regulations may provide that an application must also be rejected if the trade mark is substantially identical with, or deceptively similar to, a protected international trade mark or a trade mark for which there is a request to extend international registration to Australia: see Part 17A. (2) Subject to subsections (3) and (4), an application for the registration of a trade mark (applicant’s trade mark) in respect of services (applicant’s services) must be rejected if: (a) it is substantially identical with, or deceptively similar to: (i) a trade mark registered by another person in respect of similar services or closely related goods; or (ii) a trade mark whose registration in respect of similar services or closely related goods is being sought by another person; and (b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s services is not earlier than the priority date for the registration of the other trade mark in respect of the similar services or closely related goods. Note 1: For deceptively similar see section 10. Note 2: For similar services see subsection 14(2). Note 3: For priority date see section 12. Note 4: The regulations may provide that an application must also be rejected if the trade mark is substantially identical with, or deceptively similar to, a protected international trade mark or a trade mark for which there is a request to extend international registration to Australia: see Part 17A. (3) If the Registrar in either case is satisfied: (a) that there has been honest concurrent use of the 2 trade marks; or (b) that, because of other circumstances, it is proper to do so; the Registrar may accept the application for the registration of the applicant’s trade mark subject to any conditions or limitations that the Registrar thinks fit to impose. If the applicant’s trade mark has been used only in a particular area, the limitations may include that the use of the trade mark is to be restricted to that particular area. Note: For limitations see section 6. (4) If the Registrar in either case is satisfied that the applicant, or the applicant and the predecessor in title of the applicant, have continuously used the applicant’s trade mark for a period: (a) beginning before the priority date for the registration of the other trade mark in respect of: (i) the similar goods or closely related services; or (ii) the similar services or closely related goods; and (b) ending on the priority date for the registration of the applicant’s trade mark; the Registrar may not reject the application because of the existence of the other trade mark. Note 1: An authorised use of the trade mark by a person is taken to be a use of the trade mark by the owner of the trade mark (see subsection 7(3)). Note 2: For predecessor in title see section 6. Note 3: For priority date see section 12.",
+  "title": "Identical etc. trade marks",
+  "units": [
+    {
+      "content_hash": "sha256:76ae56986ebf87b83c99855263706630dad583c5b4f7cf510ed114f64ea65cd8",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 115,
+          "start": 93,
+          "text": "applicant’s trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 155,
+          "start": 138,
+          "text": "applicant’s goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s44(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsections (3) and (4), an application for the registration of a trade mark (applicant’s trade mark) in respect of goods (applicant’s goods) must be rejected if:"
+    },
+    {
+      "content_hash": "sha256:3858430eb803d23764375a0e3d8b1a82d97f59678b6bb9b1f16017d5624bd2ef",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s44(1)",
+      "ref": "TMA1995/s44(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant’s trade mark is substantially identical with, or deceptively similar to:"
+    },
+    {
+      "content_hash": "sha256:f27b7b6aebfd2e42c8da5fd27c3e57fc44c106562c594ab6aa1a32d3d8ce8751",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s44(1)(a)",
+      "ref": "TMA1995/s44(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a trade mark registered by another person in respect of similar goods or closely related services; or"
+    },
+    {
+      "content_hash": "sha256:acc6c525ee1cfa395c74e4a1c48a9b30bc3c3bdf1f076e5cae550e82afa23de9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s44(1)(a)",
+      "ref": "TMA1995/s44(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a trade mark whose registration in respect of similar goods or closely related services is being sought by another person; and"
+    },
+    {
+      "content_hash": "sha256:4da420d7ac2b8d825e9a7337903491ac1726d1b680b528276fc8d31fc10d2a72",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s44(1)",
+      "ref": "TMA1995/s44(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s goods is not earlier than the priority date for the registration of the other trade mark in respect of the similar goods or closely related services."
+    },
+    {
+      "content_hash": "sha256:47acd93b7e0126fd7e3b0e0e0d09567747dab371e05b737950f7897e0c75dd85",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s44(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s44(1)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:65257c6f51088d622b3a79b506b2194821f37343da3ea43bddfc9cd33cc3b760",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 12,
+          "text": "similar goods",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s44(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s14(1)",
+          "mention": "subsection 14(1)"
+        }
+      ],
+      "ref": "TMA1995/s44(1)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: For similar goods see subsection 14(1)."
+    },
+    {
+      "content_hash": "sha256:b8132cd593073efacd7ae073d842ffe3e66d531d22e10cbfb491520882c52cd8",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 12,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s44(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s12",
+          "mention": "section 12"
+        }
+      ],
+      "ref": "TMA1995/s44(1)(b)~3",
+      "style": "notetext",
+      "text": "Note 3: For priority date see section 12."
+    },
+    {
+      "content_hash": "sha256:cc06dacd17895d23cb71c570a7b20b706e39397095965d2260b22fc5bd03af0a",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s44(1)(b)",
+      "ref": "TMA1995/s44(1)(b)~4",
+      "style": "notetext",
+      "text": "Note 4: The regulations may provide that an application must also be rejected if the trade mark is substantially identical with, or deceptively similar to, a protected international trade mark or a trade mark for which there is a request to extend international registration to Australia: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:ea18d7bd8638de45577aa210f2530b11f594cff7eb650b85a246bbf5ee479bd6",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 115,
+          "start": 93,
+          "text": "applicant’s trade mark",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 161,
+          "start": 141,
+          "text": "applicant’s services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 10,
+      "parent_ref": null,
+      "ref": "TMA1995/s44(2)",
+      "style": "subsection",
+      "text": "(2) Subject to subsections (3) and (4), an application for the registration of a trade mark (applicant’s trade mark) in respect of services (applicant’s services) must be rejected if:"
+    },
+    {
+      "content_hash": "sha256:7e5f8dc4de7b24704f2e23b2205701594b8a401eaf2c347058e3eafbbc323b45",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s44(2)",
+      "ref": "TMA1995/s44(2)(a)",
+      "style": "paragraph",
+      "text": "(a) it is substantially identical with, or deceptively similar to:"
+    },
+    {
+      "content_hash": "sha256:6873e0e1459c10613df1acb882c59f1b0159a3259e9466b7770ecb358626c97d",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s44(2)(a)",
+      "ref": "TMA1995/s44(2)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) a trade mark registered by another person in respect of similar services or closely related goods; or"
+    },
+    {
+      "content_hash": "sha256:42a6f1c11b7e76394975911c8d3774b269cd3066335b5d30a869e02983128cef",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s44(2)(a)",
+      "ref": "TMA1995/s44(2)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) a trade mark whose registration in respect of similar services or closely related goods is being sought by another person; and"
+    },
+    {
+      "content_hash": "sha256:3fd41c62c161743a07d8d1b6055a6903973da9a8ba756a19fe016782f6a1fcc9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s44(2)",
+      "ref": "TMA1995/s44(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the priority date for the registration of the applicant’s trade mark in respect of the applicant’s services is not earlier than the priority date for the registration of the other trade mark in respect of the similar services or closely related goods."
+    },
+    {
+      "content_hash": "sha256:47acd93b7e0126fd7e3b0e0e0d09567747dab371e05b737950f7897e0c75dd85",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s44(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s44(2)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:9b21286d34ad67025e1bb400276013f173917f134eac41f5d69c4556e69545e3",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "similar services",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s44(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s14(2)",
+          "mention": "subsection 14(2)"
+        }
+      ],
+      "ref": "TMA1995/s44(2)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: For similar services see subsection 14(2)."
+    },
+    {
+      "content_hash": "sha256:b8132cd593073efacd7ae073d842ffe3e66d531d22e10cbfb491520882c52cd8",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 12,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s44(2)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s12",
+          "mention": "section 12"
+        }
+      ],
+      "ref": "TMA1995/s44(2)(b)~3",
+      "style": "notetext",
+      "text": "Note 3: For priority date see section 12."
+    },
+    {
+      "content_hash": "sha256:cc06dacd17895d23cb71c570a7b20b706e39397095965d2260b22fc5bd03af0a",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s44(2)(b)",
+      "ref": "TMA1995/s44(2)(b)~4",
+      "style": "notetext",
+      "text": "Note 4: The regulations may provide that an application must also be rejected if the trade mark is substantially identical with, or deceptively similar to, a protected international trade mark or a trade mark for which there is a request to extend international registration to Australia: see Part 17A."
+    },
+    {
+      "content_hash": "sha256:4187ec36106aa27112518ca1c507576d86e62a0de015fe7a8624e0f21db17398",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 19,
+      "parent_ref": null,
+      "ref": "TMA1995/s44(3)",
+      "style": "subsection",
+      "text": "(3) If the Registrar in either case is satisfied:"
+    },
+    {
+      "content_hash": "sha256:31e52977b9827efecd10221b83b4f992d820abfc15ea78b40d25206855cb7bc3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 20,
+      "parent_ref": "TMA1995/s44(3)",
+      "ref": "TMA1995/s44(3)(a)",
+      "style": "paragraph",
+      "text": "(a) that there has been honest concurrent use of the 2 trade marks; or"
+    },
+    {
+      "content_hash": "sha256:f2721265e470e4f0abb2cb3063a909c77051ec5a0bd226a5da4604b861376e24",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s44(3)",
+      "ref": "TMA1995/s44(3)(b)",
+      "style": "paragraph",
+      "text": "(b) that, because of other circumstances, it is proper to do so;"
+    },
+    {
+      "content_hash": "sha256:1f35d12d8466cad220a241a4dd6b5771ac5f1a3cd0bf8a63a518e94bd4afb3c1",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 22,
+      "parent_ref": null,
+      "ref": "TMA1995/s44~1",
+      "style": "subsection2",
+      "text": "the Registrar may accept the application for the registration of the applicant’s trade mark subject to any conditions or limitations that the Registrar thinks fit to impose. If the applicant’s trade mark has been used only in a particular area, the limitations may include that the use of the trade mark is to be restricted to that particular area."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s44~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s44~1~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    },
+    {
+      "content_hash": "sha256:770d59d5f222c3ec181d5c980baf2929bd604747dd6b9d01bbea6538aca57448",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMA1995/s44(4)",
+      "style": "subsection",
+      "text": "(4) If the Registrar in either case is satisfied that the applicant, or the applicant and the predecessor in title of the applicant, have continuously used the applicant’s trade mark for a period:"
+    },
+    {
+      "content_hash": "sha256:7dba1b51edb8eb2355ea829822e64645cda73ddf65f125581c3624d62ebcb729",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s44(4)",
+      "ref": "TMA1995/s44(4)(a)",
+      "style": "paragraph",
+      "text": "(a) beginning before the priority date for the registration of the other trade mark in respect of:"
+    },
+    {
+      "content_hash": "sha256:62d7767814f3c7473606acb0356a287269b4d31b7a97405aab8d137c10d263b4",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 26,
+      "parent_ref": "TMA1995/s44(4)(a)",
+      "ref": "TMA1995/s44(4)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the similar goods or closely related services; or"
+    },
+    {
+      "content_hash": "sha256:2c25b2c43ff6353b7b7e264dfeafdc32c3fd4b55e004dd44c9e5db23ae635915",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 27,
+      "parent_ref": "TMA1995/s44(4)(a)",
+      "ref": "TMA1995/s44(4)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the similar services or closely related goods; and"
+    },
+    {
+      "content_hash": "sha256:22208bd3b0819e40b43ea2dfb4e9db5974e9c4b78202fef4d17aa6d15ebe137a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 28,
+      "parent_ref": "TMA1995/s44(4)",
+      "ref": "TMA1995/s44(4)(b)",
+      "style": "paragraph",
+      "text": "(b) ending on the priority date for the registration of the applicant’s trade mark;"
+    },
+    {
+      "content_hash": "sha256:4bb71839074c5610f61407a19874c83c17cdd477fbce9204d0e1e9585d6cb609",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 29,
+      "parent_ref": null,
+      "ref": "TMA1995/s44~2",
+      "style": "subsection2",
+      "text": "the Registrar may not reject the application because of the existence of the other trade mark."
+    },
+    {
+      "content_hash": "sha256:f33a101bf0ac5e33c0717a8836b93664f07cc25a8538875cb86194d458314db2",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 30,
+      "parent_ref": "TMA1995/s44~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s7(3)",
+          "mention": "subsection 7(3)"
+        }
+      ],
+      "ref": "TMA1995/s44~2~1",
+      "style": "notetext",
+      "text": "Note 1: An authorised use of the trade mark by a person is taken to be a use of the trade mark by the owner of the trade mark (see subsection 7(3))."
+    },
+    {
+      "content_hash": "sha256:1c17ed6fb027771f02f269541bb7eef5bbbcf2eb16ffa065a8d71eab086dbb86",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 32,
+          "start": 12,
+          "text": "predecessor in title",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 31,
+      "parent_ref": "TMA1995/s44~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s44~2~2",
+      "style": "notetext",
+      "text": "Note 2: For predecessor in title see section 6."
+    },
+    {
+      "content_hash": "sha256:b8132cd593073efacd7ae073d842ffe3e66d531d22e10cbfb491520882c52cd8",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 25,
+          "start": 12,
+          "text": "priority date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 32,
+      "parent_ref": "TMA1995/s44~2",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s12",
+          "mention": "section 12"
+        }
+      ],
+      "ref": "TMA1995/s44~2~3",
+      "style": "notetext",
+      "text": "Note 3: For priority date see section 12."
+    }
+  ]
+}

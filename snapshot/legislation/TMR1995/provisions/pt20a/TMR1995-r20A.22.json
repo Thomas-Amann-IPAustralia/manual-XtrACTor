@@ -1,0 +1,234 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div6"
+  ],
+  "content_hash": "sha256:8373b6b16340fd3de85c6c8d9b3a8098b14c9351cd5a7a40a9158f9f9141daf7",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 6—Returning to Register of Trade Marks Attorneys",
+    "20A.22  Restoring name to Register of Trade Marks Attorneys"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.22",
+  "ref": "TMR1995/r20A.22",
+  "text": "(1) This regulation sets out circumstances in which the Designated Manager must restore to the Register of Trade Marks Attorneys the name of an incorporated trade marks attorney that has been removed from the Register of Trade Marks Attorneys under: (a) regulation 20A.6, 20A.7 or 20A.8; or (b) subsection 157A(7) of the Act. (2) The Designated Manager must restore the name if: (a) the attorney requests the Designated Manager, in the form approved by the Designated Manager, to restore the name; and (b) the request includes: (i) the name of each trade marks attorney director of the company; and (ii) evidence that the company is a registered company under the Corporations Act 2001; and (ii) evidence that the company has adequate and appropriate professional indemnity insurance; and (c) the request is made: (i) if the name was removed under regulation 20A.7—on or before 1 September of the year that the name was removed from the Register of Trade Marks Attorneys, or within a further period that the Designated Manager allows; or (ii) in any other case—within 3 years after the name was removed from the Register of Trade Marks Attorneys; and (d) the attorney pays: (i) the annual registration fee for the year the reinstatement is made; and (ii) the fee mentioned in item 39 of Schedule 9.",
+  "title": "Restoring name to Register of Trade Marks Attorneys",
+  "units": [
+    {
+      "content_hash": "sha256:505e4e1b5814a709168aa719ca5aadec7f96ad0729f0b80741556ed4498275d4",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.22(1)",
+      "style": "subsection",
+      "text": "(1) This regulation sets out circumstances in which the Designated Manager must restore to the Register of Trade Marks Attorneys the name of an incorporated trade marks attorney that has been removed from the Register of Trade Marks Attorneys under:"
+    },
+    {
+      "content_hash": "sha256:901024643b2473b1e301754694b354e1bb3cf275fbcc79b4d756039eea8ce0f3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r20A.22(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.6",
+          "mention": "regulation 20A.6, 20A.7 or 20A.8"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.7",
+          "mention": "regulation 20A.6, 20A.7 or 20A.8"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.8",
+          "mention": "regulation 20A.6, 20A.7 or 20A.8"
+        }
+      ],
+      "ref": "TMR1995/r20A.22(1)(a)",
+      "style": "paragraph",
+      "text": "(a) regulation 20A.6, 20A.7 or 20A.8; or"
+    },
+    {
+      "content_hash": "sha256:02a0bf2a07bb726a6e2aea52c0c263a88723128b41f865e9786f7d687e540dd1",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r20A.22(1)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s157A(7)",
+          "mention": "subsection 157A(7)"
+        }
+      ],
+      "ref": "TMR1995/r20A.22(1)(b)",
+      "style": "paragraph",
+      "text": "(b) subsection 157A(7) of the Act."
+    },
+    {
+      "content_hash": "sha256:761d97e132ad1f3c4b709ac3df203732b06458cb9ac35aee0b1e84a07a831b5e",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.22(2)",
+      "style": "subsection",
+      "text": "(2) The Designated Manager must restore the name if:"
+    },
+    {
+      "content_hash": "sha256:9778e9a652ccd80970b23af204538e53ae2ebfcefd0907335430d1ddfae0a5d9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r20A.22(2)",
+      "ref": "TMR1995/r20A.22(2)(a)",
+      "style": "paragraph",
+      "text": "(a) the attorney requests the Designated Manager, in the form approved by the Designated Manager, to restore the name; and"
+    },
+    {
+      "content_hash": "sha256:4a1ae7a313f2298a8fadb94c2dd599ad7e8a1233e0c0c8c5e6a3c64e55b8c56b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r20A.22(2)",
+      "ref": "TMR1995/r20A.22(2)(b)",
+      "style": "paragraph",
+      "text": "(b) the request includes:"
+    },
+    {
+      "content_hash": "sha256:9519f7720aed0faea7e5dffe64da5869c094b9aec787f4515fa6124809e99bab",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 7,
+      "parent_ref": "TMR1995/r20A.22(2)(b)",
+      "ref": "TMR1995/r20A.22(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the name of each trade marks attorney director of the company; and"
+    },
+    {
+      "content_hash": "sha256:81cb7cc8d7c8d3cc8b993796df3663b5cd70d146c738a1ce08e476572c034f35",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 86,
+          "start": 65,
+          "text": "Corporations Act 2001",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "number_collision": true,
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r20A.22(2)(b)",
+      "ref": "TMR1995/r20A.22(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) evidence that the company is a registered company under the Corporations Act 2001; and"
+    },
+    {
+      "content_hash": "sha256:8a7cdd6e231411db1da1012cbe5d0b82a8223786ec9bbefb70c51f8ed68c00f7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "number_collision": true,
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r20A.22(2)(b)",
+      "ref": "TMR1995/r20A.22(2)(b)(ii)~2",
+      "style": "paragraphsub",
+      "text": "(ii) evidence that the company has adequate and appropriate professional indemnity insurance; and"
+    },
+    {
+      "content_hash": "sha256:2a37ae5c92bbe5a9ef41c811b722c94c6114d5b5193deba62175a686d353b640",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r20A.22(2)",
+      "ref": "TMR1995/r20A.22(2)(c)",
+      "style": "paragraph",
+      "text": "(c) the request is made:"
+    },
+    {
+      "content_hash": "sha256:8714a24208ab68d6503dd785809572b332c5f5854c1ee27558252fd26185a3b8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMR1995/r20A.22(2)(c)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20A.7",
+          "mention": "regulation 20A.7"
+        }
+      ],
+      "ref": "TMR1995/r20A.22(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if the name was removed under regulation 20A.7—on or before 1 September of the year that the name was removed from the Register of Trade Marks Attorneys, or within a further period that the Designated Manager allows; or"
+    },
+    {
+      "content_hash": "sha256:477f2693886f42efdb9d8336b480be24428f44b78ba801c6197cd037c68355ce",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMR1995/r20A.22(2)(c)",
+      "ref": "TMR1995/r20A.22(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) in any other case—within 3 years after the name was removed from the Register of Trade Marks Attorneys; and"
+    },
+    {
+      "content_hash": "sha256:a397b81b6950cb8401d8f98e76b13d8be9a611b6c5fdbaeb6a5dd294ebad12cd",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 13,
+      "parent_ref": "TMR1995/r20A.22(2)",
+      "ref": "TMR1995/r20A.22(2)(d)",
+      "style": "paragraph",
+      "text": "(d) the attorney pays:"
+    },
+    {
+      "content_hash": "sha256:2536c2a5a748db52e542f0af5d193d9ca463ab2f1ff7ec44e85397c40a2315e8",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 14,
+      "parent_ref": "TMR1995/r20A.22(2)(d)",
+      "ref": "TMR1995/r20A.22(2)(d)(i)",
+      "style": "paragraphsub",
+      "text": "(i) the annual registration fee for the year the reinstatement is made; and"
+    },
+    {
+      "content_hash": "sha256:cba5352a9381808a54eee742c6160e373a9a451ad714fedb9c980f69eea4dfd7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 15,
+      "parent_ref": "TMR1995/r20A.22(2)(d)",
+      "ref": "TMR1995/r20A.22(2)(d)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) the fee mentioned in item 39 of Schedule 9."
+    }
+  ]
+}

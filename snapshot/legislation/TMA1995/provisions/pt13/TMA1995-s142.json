@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt13"
+  ],
+  "content_hash": "sha256:e976e7c0097b043fdbf20e0eebd4b8e6f3fa1a71b55d56f0c41b5af5c6cfa157",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 13—Importation of goods infringing Australian trade marks",
+    "142  Commonwealth not liable for loss etc. suffered because of seizure"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "142",
+  "ref": "TMA1995/s142",
+  "text": "The Commonwealth is not liable for any loss or damage suffered by a person: (a) because the ComptrollerGeneral of Customs seized, or failed to seize, goods under this Part; or (b) because of the release of any seized goods.",
+  "title": "Commonwealth not liable for loss etc. suffered because of seizure",
+  "units": [
+    {
+      "content_hash": "sha256:ce4d9ad676a002395626ac10e33c83349238878c57ca582aec37b788fedee128",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s142~1",
+      "style": "subsection",
+      "text": "The Commonwealth is not liable for any loss or damage suffered by a person:"
+    },
+    {
+      "content_hash": "sha256:6ced9eda174cb7b51d9a0a753c4d1b17960b09ca25948c01f444ae6a1b91bb7c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s142~1",
+      "ref": "TMA1995/s142(a)",
+      "style": "paragraph",
+      "text": "(a) because the ComptrollerGeneral of Customs seized, or failed to seize, goods under this Part; or"
+    },
+    {
+      "content_hash": "sha256:908236a0424f926271479ddfba1f0b0557b0fbb1a758d9fb47cfd4eafdf201e3",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s142~1",
+      "ref": "TMA1995/s142(b)",
+      "style": "paragraph",
+      "text": "(b) because of the release of any seized goods."
+    }
+  ]
+}

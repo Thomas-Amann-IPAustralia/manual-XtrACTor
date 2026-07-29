@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt21",
+    "TMA1995/pt21/div3"
+  ],
+  "content_hash": "sha256:e5ecd7a2963e28afd6c0a1919f01390bce7a6a3f6da101ddb436fb173e2024a5",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 21—Miscellaneous",
+    "Division 3—General",
+    "229AA  Designated Manager may disclose information to Board"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "229AA",
+  "ref": "TMA1995/s229AA",
+  "text": "The Designated Manager may disclose to the Board personal information: (a) that is about a registered trade marks attorney; and (b) that the Designated Manager considers to be relevant to the Board’s functions.",
+  "title": "Designated Manager may disclose information to Board",
+  "units": [
+    {
+      "content_hash": "sha256:f1677d17f7416c2edc2ffee50236743fb265c08897f5827b7d9950bbea353bcc",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s229AA~1",
+      "style": "subsection",
+      "text": "The Designated Manager may disclose to the Board personal information:"
+    },
+    {
+      "content_hash": "sha256:6e66427368cac74fa04fb5b27b4edd33226e705b09ae8708e96a7f7a1e0a313f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s229AA~1",
+      "ref": "TMA1995/s229AA(a)",
+      "style": "paragraph",
+      "text": "(a) that is about a registered trade marks attorney; and"
+    },
+    {
+      "content_hash": "sha256:4f2f0054f6293fba3a3d82e5104a85658043dabcf7a2d3ce94a6ec5fe7897c71",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s229AA~1",
+      "ref": "TMA1995/s229AA(b)",
+      "style": "paragraph",
+      "text": "(b) that the Designated Manager considers to be relevant to the Board’s functions."
+    }
+  ]
+}

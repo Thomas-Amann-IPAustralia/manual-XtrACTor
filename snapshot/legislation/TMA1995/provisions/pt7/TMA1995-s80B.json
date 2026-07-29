@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div3"
+  ],
+  "content_hash": "sha256:bd70bb80c85f352f2e7a9c6cb634e4b4f92e1868b048eb2d3cacc76c860dfcf3",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 3—Renewal of registration (registration delayed for 10 or more years after filing date)",
+    "80B  Expiry of registration"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "80B",
+  "ref": "TMA1995/s80B",
+  "text": "To avoid doubt, the registration of the trade mark is taken to have expired, in accordance with subsection 72(3), 10 years after the filing date of the application for registration. Note: For filing date see section 6.",
+  "title": "Expiry of registration",
+  "units": [
+    {
+      "content_hash": "sha256:204accb5690aea0c17206e7b0de6c706f9bec7375060fa59b56b33e71767a31c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "subsection 72(3), 10"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s72(3)",
+          "mention": "subsection 72(3), 10"
+        }
+      ],
+      "ref": "TMA1995/s80B~1",
+      "style": "subsection",
+      "text": "To avoid doubt, the registration of the trade mark is taken to have expired, in accordance with subsection 72(3), 10 years after the filing date of the application for registration."
+    },
+    {
+      "content_hash": "sha256:d4917d11e2e22e95b75b8cc0f0a5e6644cdebed09fb0bdc0b2a190f0c2a53e4b",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "filing date",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s80B~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s80B~1~1",
+      "style": "notetext",
+      "text": "Note: For filing date see section 6."
+    }
+  ]
+}

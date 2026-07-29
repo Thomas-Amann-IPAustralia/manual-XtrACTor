@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt19"
+  ],
+  "content_hash": "sha256:8f7b1d00259b7ef4f35a8e7790f65b666adadbaadb6800a3c9dd6478e245a65b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 19—Administration",
+    "19.1  Trade Marks Office and suboffices—business hours"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "19.1",
+  "ref": "TMR1995/r19.1",
+  "text": "The hours of business of the Trade Marks Office and each suboffice (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than: (a) a Saturday or a Sunday; or (b) a public holiday: (i) where the Office or suboffice (if any) is located; or (ii) for the purposes of the Australian Public Service in that place.",
+  "title": "Trade Marks Office and suboffices—business hours",
+  "units": [
+    {
+      "content_hash": "sha256:b392051dde7f23452e14ab43f4cc05f3eaadf86e81d88e596bd035a197782c22",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r19.1~1",
+      "style": "subsection",
+      "text": "The hours of business of the Trade Marks Office and each suboffice (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than:"
+    },
+    {
+      "content_hash": "sha256:549b80baf800568f0c056f8b28d93e5b11769255bbe7527c79e2358063d0506f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r19.1~1",
+      "ref": "TMR1995/r19.1(a)",
+      "style": "paragraph",
+      "text": "(a) a Saturday or a Sunday; or"
+    },
+    {
+      "content_hash": "sha256:3ce60f375b72eacee05c4ea7a1ee111336f01527263eab66efa9ae6ac9362d0f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r19.1~1",
+      "ref": "TMR1995/r19.1(b)",
+      "style": "paragraph",
+      "text": "(b) a public holiday:"
+    },
+    {
+      "content_hash": "sha256:4324d851b566c628ac491d73f90915be64b958cc1d2eaaeceac0e0b54fdc29a9",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r19.1(b)",
+      "ref": "TMR1995/r19.1(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) where the Office or suboffice (if any) is located; or"
+    },
+    {
+      "content_hash": "sha256:650bbfa875066e8e4a5f028a21291c739bde23eb9345225f05ef8f4cc02f92ac",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r19.1(b)",
+      "ref": "TMR1995/r19.1(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) for the purposes of the Australian Public Service in that place."
+    }
+  ]
+}

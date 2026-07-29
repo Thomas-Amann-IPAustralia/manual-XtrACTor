@@ -1,0 +1,145 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/sch4"
+  ],
+  "content_hash": "sha256:7e266fef898650c8278896759ba9460f2fc4ab6b5f321776cf1a76d7fa2a91c2",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Schedule 4—Modifications of Part 13 of the Act (Christmas Island)",
+    "6  Further amendments—Comptroller"
+  ],
+  "instrument": "TMR1995",
+  "kind": "item",
+  "number": "6",
+  "ref": "TMR1995/sch4/item6",
+  "text": "The following provisions are amended by omitting each mention of “ComptrollerGeneral of Customs” and inserting “Comptroller”: (a) sections 131 and 132; (b) section 133, including the heading; (c) sections 134 to 137; (d) section 139, including the note; (e) sections 140 to 143.",
+  "title": "Further amendments—Comptroller",
+  "units": [
+    {
+      "content_hash": "sha256:a85915df1dcdf81a175f232e807224c4a5a4dda9c1660c4691c9edf25f09ea95",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/sch4/item6~1",
+      "style": "subsection",
+      "text": "The following provisions are amended by omitting each mention of “ComptrollerGeneral of Customs” and inserting “Comptroller”:"
+    },
+    {
+      "content_hash": "sha256:cb0012242e067530d8c77408aba8c9ad246ba03bfea891f577b182281f2f8b06",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/sch4/item6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s131",
+          "mention": "sections 131 and 132"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s132",
+          "mention": "sections 131 and 132"
+        }
+      ],
+      "ref": "TMR1995/sch4/item6(a)",
+      "style": "paragraph",
+      "text": "(a) sections 131 and 132;"
+    },
+    {
+      "content_hash": "sha256:8bfc699083a5a4281e7cee6b0333cba16c563bd0fdeab5ae402e0d741b4852d2",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/sch4/item6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s133",
+          "mention": "section 133"
+        }
+      ],
+      "ref": "TMR1995/sch4/item6(b)",
+      "style": "paragraph",
+      "text": "(b) section 133, including the heading;"
+    },
+    {
+      "content_hash": "sha256:113a7e3243d2d4912d4f7a63532ff50caf58e62254b9046dfb4ff7318d89228f",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/sch4/item6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s134",
+          "mention": "sections 134 to 137"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s137",
+          "mention": "sections 134 to 137"
+        }
+      ],
+      "ref": "TMR1995/sch4/item6(c)",
+      "style": "paragraph",
+      "text": "(c) sections 134 to 137;"
+    },
+    {
+      "content_hash": "sha256:3b2d18069db657f4441d7e195767668e68b1fc1f01ba2d8298ad5d11d85a1f39",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/sch4/item6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s139",
+          "mention": "section 139"
+        }
+      ],
+      "ref": "TMR1995/sch4/item6(d)",
+      "style": "paragraph",
+      "text": "(d) section 139, including the note;"
+    },
+    {
+      "content_hash": "sha256:41fb29326bbfd50d3abbb332ca9a5d0df3e5a0d0f32e21dce43b5db04b2d3d49",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 6,
+      "parent_ref": "TMR1995/sch4/item6~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s140",
+          "mention": "sections 140 to 143"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s143",
+          "mention": "sections 140 to 143"
+        }
+      ],
+      "ref": "TMR1995/sch4/item6(e)",
+      "style": "paragraph",
+      "text": "(e) sections 140 to 143."
+    }
+  ]
+}

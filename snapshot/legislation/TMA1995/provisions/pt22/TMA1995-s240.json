@@ -1,0 +1,132 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt22",
+    "TMA1995/pt22/div3"
+  ],
+  "content_hash": "sha256:183d0642c4590066010d9af06b12096801dc20dda8699fdf4d616c0e202f0a5d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 22—Repeal and transitional",
+    "Division 3—Matters pending immediately before repeal of repealed Act",
+    "240  Applications, notices etc.—general"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "240",
+  "ref": "TMA1995/s240",
+  "text": "(1) Subject to this Division, an application, notice or request that: (a) was lodged with the Registrar in accordance with the repealed Act; and (b) was pending immediately before 1 January 1996; is to be dealt with in accordance with this Act. Note: For pending see subsection 11(2). (2) The application, notice or request is taken to have been filed in accordance with this Act. Note: For file see section 6.",
+  "title": "Applications, notices etc.—general",
+  "units": [
+    {
+      "content_hash": "sha256:3c58cf44e62c5aec50c25806a962ac67385cd51e187dd8b8d8b99cf8c05052b7",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s240(1)",
+      "style": "subsection",
+      "text": "(1) Subject to this Division, an application, notice or request that:"
+    },
+    {
+      "content_hash": "sha256:7c688303009e198ba3ecb3d4dbd7a73c3feba5f31169706b390091aed4bd44ea",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s240(1)",
+      "ref": "TMA1995/s240(1)(a)",
+      "style": "paragraph",
+      "text": "(a) was lodged with the Registrar in accordance with the repealed Act; and"
+    },
+    {
+      "content_hash": "sha256:4aa4149117c852a360e00fb1f3bb03d9e322e8454ee43984a4b12033008cf303",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s240(1)",
+      "ref": "TMA1995/s240(1)(b)",
+      "style": "paragraph",
+      "text": "(b) was pending immediately before 1 January 1996;"
+    },
+    {
+      "content_hash": "sha256:a5a9028a5543c0b020bad831b6831ca0099ec1b53aaa841ff4f81c961a69fc32",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 4,
+      "parent_ref": null,
+      "ref": "TMA1995/s240~1",
+      "style": "subsection2",
+      "text": "is to be dealt with in accordance with this Act."
+    },
+    {
+      "content_hash": "sha256:32ae5b463db2655403c087cf9f9ce32ba7d7113d90b4be7fd4341e9c4b40dd8f",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 17,
+          "start": 10,
+          "text": "pending",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s240~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s11(2)",
+          "mention": "subsection 11(2)"
+        }
+      ],
+      "ref": "TMA1995/s240~1~1",
+      "style": "notetext",
+      "text": "Note: For pending see subsection 11(2)."
+    },
+    {
+      "content_hash": "sha256:c3c4aa35ceaa1263020b00b9b719a8b23e6ec877365d105b43427a1bdc0c009b",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 6,
+      "parent_ref": null,
+      "ref": "TMA1995/s240(2)",
+      "style": "subsection",
+      "text": "(2) The application, notice or request is taken to have been filed in accordance with this Act."
+    },
+    {
+      "content_hash": "sha256:29aeb916097adb6e983a880c23ac7e14bfa52946d977727cd218ca87c6eeec42",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 14,
+          "start": 10,
+          "text": "file",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s240(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s240(2)~1",
+      "style": "notetext",
+      "text": "Note: For file see section 6."
+    }
+  ]
+}

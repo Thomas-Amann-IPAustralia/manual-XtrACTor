@@ -1,0 +1,196 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div2"
+  ],
+  "content_hash": "sha256:d0e9ed9d20ac362d2cc5a26da50b66c5845f52e830ed1aa21b427cb48851cb30",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 2—Action by court",
+    "88  Amendment or cancellation—other specified grounds"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "88",
+  "ref": "TMA1995/s88",
+  "text": "(1) Subject to subsection (2) and section 89, a prescribed court may, on the application of an aggrieved person or the Registrar, order that the Register be rectified by: (a) cancelling the registration of a trade mark; or (b) removing or amending an entry wrongly made or remaining on the Register; or (c) entering any condition or limitation affecting the registration of a trade mark that ought to be entered. (2) An application may be made on any of the following grounds, and on no other grounds: (a) any of the grounds on which the registration of the trade mark could have been opposed under this Act; (b) an amendment of the application for the registration of the trade mark was obtained as a result of fraud, false suggestion or misrepresentation; (c) because of the circumstances applying at the time when the application for rectification is filed, the use of the trade mark is likely to deceive or cause confusion; (e) if the application is in respect of an entry in the Register—the entry was made, or has been previously amended, as a result of fraud, false suggestion or misrepresentation. Note 1: For prescribed court see section 190. Note 2: For file, registered owner and this Act see section 6.",
+  "title": "Amendment or cancellation—other specified grounds",
+  "units": [
+    {
+      "content_hash": "sha256:86fca052f84e0fc33b24de9cfc26eafa50ec04aaea943f55fcdc256a045c68dd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s89",
+          "mention": "section 89"
+        }
+      ],
+      "ref": "TMA1995/s88(1)",
+      "style": "subsection",
+      "text": "(1) Subject to subsection (2) and section 89, a prescribed court may, on the application of an aggrieved person or the Registrar, order that the Register be rectified by:"
+    },
+    {
+      "content_hash": "sha256:c2b41a14553950e7a645bd30fad4bb32b72739aa9b123ce563308a6543246737",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s88(1)",
+      "ref": "TMA1995/s88(1)(a)",
+      "style": "paragraph",
+      "text": "(a) cancelling the registration of a trade mark; or"
+    },
+    {
+      "content_hash": "sha256:d1f090b08aec24133598d167ecece4500054447f9fe5af5b89994c37d74c6930",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s88(1)",
+      "ref": "TMA1995/s88(1)(b)",
+      "style": "paragraph",
+      "text": "(b) removing or amending an entry wrongly made or remaining on the Register; or"
+    },
+    {
+      "content_hash": "sha256:517e8150f71e3c1045da567483262073e7daf2b3f163cfaaedc68545f243b6d8",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s88(1)",
+      "ref": "TMA1995/s88(1)(c)",
+      "style": "paragraph",
+      "text": "(c) entering any condition or limitation affecting the registration of a trade mark that ought to be entered."
+    },
+    {
+      "content_hash": "sha256:87bbc7df074978a24820242371798cbf03344f4e5ba68f1780cc5c5c0f86b94f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s88(2)",
+      "style": "subsection",
+      "text": "(2) An application may be made on any of the following grounds, and on no other grounds:"
+    },
+    {
+      "content_hash": "sha256:ecba1c3f45a99e064161f257b237bd02df2407e3ecd8d9ff8d3df28d149e9f43",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s88(2)",
+      "ref": "TMA1995/s88(2)(a)",
+      "style": "paragraph",
+      "text": "(a) any of the grounds on which the registration of the trade mark could have been opposed under this Act;"
+    },
+    {
+      "content_hash": "sha256:5d017b3eaa4979bce86afa6896ac64a166a84fb737aa02cc0f7cad6707595f5d",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s88(2)",
+      "ref": "TMA1995/s88(2)(b)",
+      "style": "paragraph",
+      "text": "(b) an amendment of the application for the registration of the trade mark was obtained as a result of fraud, false suggestion or misrepresentation;"
+    },
+    {
+      "content_hash": "sha256:312cbf6ff1f6b4cf115dc18161dadd724338e7a1aba259a54084715f7e179abd",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s88(2)(b)",
+      "ref": "TMA1995/s88(2)(b)(c)",
+      "style": "paragraphsub",
+      "text": "(c) because of the circumstances applying at the time when the application for rectification is filed, the use of the trade mark is likely to deceive or cause confusion;"
+    },
+    {
+      "content_hash": "sha256:0c1e23d38679dd998109986a93373c30f82a93173dbda592593bc8ffa0246c97",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(e)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s88(2)",
+      "ref": "TMA1995/s88(2)(e)",
+      "style": "paragraph",
+      "text": "(e) if the application is in respect of an entry in the Register—the entry was made, or has been previously amended, as a result of fraud, false suggestion or misrepresentation."
+    },
+    {
+      "content_hash": "sha256:b8046ed52b5f248034dc071d1a645773a42eaa8b205e5b57d14c5799a2653494",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "prescribed court",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s88(2)(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s190",
+          "mention": "section 190"
+        }
+      ],
+      "ref": "TMA1995/s88(2)(e)~1",
+      "style": "notetext",
+      "text": "Note 1: For prescribed court see section 190."
+    },
+    {
+      "content_hash": "sha256:5e8b0f64894287cbda51494eace64c248d8fb88a26f4077e2613ef92685721ed",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 16,
+          "start": 12,
+          "text": "file",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 34,
+          "start": 18,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 47,
+          "start": 39,
+          "text": "this Act",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s88(2)(e)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s88(2)(e)~2",
+      "style": "notetext",
+      "text": "Note 2: For file, registered owner and this Act see section 6."
+    }
+  ]
+}

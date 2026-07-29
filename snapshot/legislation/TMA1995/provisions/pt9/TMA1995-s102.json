@@ -1,0 +1,285 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMA1995/pt9"
+  ],
+  "content_hash": "sha256:bcce28809b838efc029dcec9a5aef870b78569142b5a2807558d127b7a2d41fa",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 9—Removal of trade mark from Register for nonuse",
+    "102  Determination of opposed application—localised use of trade mark"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "102",
+  "ref": "TMA1995/s102",
+  "text": "(1) This section applies if an application for the removal of a trade mark (challenged trade mark) from the Register is made on the ground referred to in paragraph 92(4)(b) and: (a) the applicant is the registered owner of a trade mark that is substantially identical with, or deceptively similar to, the challenged trade mark and is registered in respect of the goods and/or services specified in the application subject to the condition or limitation that the use of the trade mark is to be restricted to: (i) goods and/or services to be dealt with or provided in a particular place (specified place) in Australia (otherwise than for export from Australia); or (ii) goods and/or services to be exported to a particular market (specified market); or (b) the Registrar or the court is of the opinion that such a trade mark may properly be registered in the name of the applicant with that condition or limitation. Note 1: For registered owner see section 6. Note 2: For deceptively similar see section 10. (2) If the Registrar or the court is satisfied: (a) that the challenged trade mark has remained registered for the period referred to in paragraph 92(4)(b); and (b) that during that period there has been no use, or no use in good faith, of the challenged trade mark in relation to: (i) goods or services dealt with or provided in the specified place; or (ii) goods or services to be exported to the specified market; the Registrar may decide, or the court may order, that the challenged trade mark should not be removed from the Register but that the registration of the trade mark should be subject to the conditions or limitations that the Registrar or the court considers necessary to ensure that the registration does not extend to the use of the trade mark in relation to: (c) goods or services dealt with or provided in the specified place; or (d) goods or services to be exported to the specified market. Note: For limitations see section 6.",
+  "title": "Determination of opposed application—localised use of trade mark",
+  "units": [
+    {
+      "content_hash": "sha256:93a9adc35d9d0bb43fe600bb6e897e851ad9c68bae4c3fd81ea41c7453603ab7",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 97,
+          "start": 76,
+          "text": "challenged trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "paragraph 92(4)(b)"
+        }
+      ],
+      "ref": "TMA1995/s102(1)",
+      "style": "subsection",
+      "text": "(1) This section applies if an application for the removal of a trade mark (challenged trade mark) from the Register is made on the ground referred to in paragraph 92(4)(b) and:"
+    },
+    {
+      "content_hash": "sha256:7f52446c420586fb0a8eb6ec999d66fb252bcf6a1057186a61807fcf3f3586d7",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s102(1)",
+      "ref": "TMA1995/s102(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the applicant is the registered owner of a trade mark that is substantially identical with, or deceptively similar to, the challenged trade mark and is registered in respect of the goods and/or services specified in the application subject to the condition or limitation that the use of the trade mark is to be restricted to:"
+    },
+    {
+      "content_hash": "sha256:60cd9a707d3955452a091f6fefbcbae91a9e4db08a06a0f04fa0a479b8d032a6",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 93,
+          "start": 78,
+          "text": "specified place",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s102(1)(a)",
+      "ref": "TMA1995/s102(1)(a)(i)",
+      "style": "paragraphsub",
+      "text": "(i) goods and/or services to be dealt with or provided in a particular place (specified place) in Australia (otherwise than for export from Australia); or"
+    },
+    {
+      "content_hash": "sha256:59fa6a2acc3bf1ce6fc64c565996f1d4b882f9dcd652640f59b358f6a5461a18",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 82,
+          "start": 66,
+          "text": "specified market",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s102(1)(a)",
+      "ref": "TMA1995/s102(1)(a)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) goods and/or services to be exported to a particular market (specified market); or"
+    },
+    {
+      "content_hash": "sha256:896b90d76e19b7e5df0e1bc98aa75fcf80a78b22ae372de7724f5b168d69327e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s102(1)",
+      "ref": "TMA1995/s102(1)(b)",
+      "style": "paragraph",
+      "text": "(b) the Registrar or the court is of the opinion that such a trade mark may properly be registered in the name of the applicant with that condition or limitation."
+    },
+    {
+      "content_hash": "sha256:785f3cd36e8b98cd01a0aef08bbbccbc745059ec7fc212dcc9c28285861b5b9a",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 28,
+          "start": 12,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s102(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s102(1)(b)~1",
+      "style": "notetext",
+      "text": "Note 1: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:7922eee9d23edc7e9cbeb9abcd12bdfbb09bb9d92b77a683a4b05ded6cbc5be2",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 31,
+          "start": 12,
+          "text": "deceptively similar",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s102(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s10",
+          "mention": "section 10"
+        }
+      ],
+      "ref": "TMA1995/s102(1)(b)~2",
+      "style": "notetext",
+      "text": "Note 2: For deceptively similar see section 10."
+    },
+    {
+      "content_hash": "sha256:68a05fdb1784bd4cd70361c482e2ccd5e1143fd4ca5d7d5f9c84c605ed6cd4b8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 8,
+      "parent_ref": null,
+      "ref": "TMA1995/s102(2)",
+      "style": "subsection",
+      "text": "(2) If the Registrar or the court is satisfied:"
+    },
+    {
+      "content_hash": "sha256:7db929c9d1c3cd03a60a82c0e694becc721fc3bd2d9f1ee0cb8634e601902a0e",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s102(2)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s92(4)(b)",
+          "mention": "paragraph 92(4)(b)"
+        }
+      ],
+      "ref": "TMA1995/s102(2)(a)",
+      "style": "paragraph",
+      "text": "(a) that the challenged trade mark has remained registered for the period referred to in paragraph 92(4)(b); and"
+    },
+    {
+      "content_hash": "sha256:0e9169b4ba164a4120ba8749972d0618db99f1386f559e42fabf4ac6791a690b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s102(2)",
+      "ref": "TMA1995/s102(2)(b)",
+      "style": "paragraph",
+      "text": "(b) that during that period there has been no use, or no use in good faith, of the challenged trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:c909b816ab61c28bbb59766ae33ae60b9311ca2abf61a6dc92503f26ce99d5af",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 11,
+      "parent_ref": "TMA1995/s102(2)(b)",
+      "ref": "TMA1995/s102(2)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) goods or services dealt with or provided in the specified place; or"
+    },
+    {
+      "content_hash": "sha256:0590ac1a4672931f77ff9ecee19fc455a69174e050d8baacea82b4f191b4e404",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s102(2)(b)",
+      "ref": "TMA1995/s102(2)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) goods or services to be exported to the specified market;"
+    },
+    {
+      "content_hash": "sha256:fb965860af7b9f0e6762d31f9a22c3c1fdcffc91371c76563352cdccd3d54842",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 13,
+      "parent_ref": null,
+      "ref": "TMA1995/s102~1",
+      "style": "subsection2",
+      "text": "the Registrar may decide, or the court may order, that the challenged trade mark should not be removed from the Register but that the registration of the trade mark should be subject to the conditions or limitations that the Registrar or the court considers necessary to ensure that the registration does not extend to the use of the trade mark in relation to:"
+    },
+    {
+      "content_hash": "sha256:face095db87d299366b9fbea79e549ae25695cc406502563389c1fa3042645e0",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s102~1",
+      "ref": "TMA1995/s102(c)",
+      "style": "paragraph",
+      "text": "(c) goods or services dealt with or provided in the specified place; or"
+    },
+    {
+      "content_hash": "sha256:55ffc3b579695e9b2b1f0ab55a79cee97951497713b06fe1d381fee1b4c4555a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s102~1",
+      "ref": "TMA1995/s102(d)",
+      "style": "paragraph",
+      "text": "(d) goods or services to be exported to the specified market."
+    },
+    {
+      "content_hash": "sha256:905dc28d81c8786fa4d8be28afacf1be3383911fb4aff53a05578c6bd46fcc93",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 21,
+          "start": 10,
+          "text": "limitations",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s102(d)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s102(d)~1",
+      "style": "notetext",
+      "text": "Note: For limitations see section 6."
+    }
+  ]
+}

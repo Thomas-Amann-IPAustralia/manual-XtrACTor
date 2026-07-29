@@ -1,0 +1,144 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt7",
+    "TMA1995/pt7/div1"
+  ],
+  "content_hash": "sha256:bbed23b903bd869fb8c3199f62bb3ed4ebce256b691a4fcf030e409b34136b1d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 7—Registration of trade marks",
+    "Division 1—Initial registration",
+    "68  Obligation to register"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "68",
+  "ref": "TMA1995/s68",
+  "text": "(1) The Registrar must, within the period provided under the regulations, register a trade mark that has been accepted for registration: (a) if there has been no opposition to the registration; or (b) in a case where there has been an opposition: (i) if the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered; or (ii) if the opposition has been withdrawn; or (iii) if the opposition has been dismissed under section 222 or the regulations (if any) made for the purposes of subsection 54(2). Otherwise, the application for the registration of the trade mark lapses. Note: Applications may also lapse if an application for registration is opposed and a notice to defend the application is not filed: see section 54A. (2) On registering the trade mark, the Registrar must give it a number by which it may be identified.",
+  "title": "Obligation to register",
+  "units": [
+    {
+      "content_hash": "sha256:d02e8167facb374f1a1516c02f710154fb4759135f0a8511868029aeeb92f3ce",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s68(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar must, within the period provided under the regulations, register a trade mark that has been accepted for registration:"
+    },
+    {
+      "content_hash": "sha256:5835bb6fd9a3869ff48a487f5a871448e0c545c6875d1e31b00c96fdb5622a70",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMA1995/s68(1)",
+      "ref": "TMA1995/s68(1)(a)",
+      "style": "paragraph",
+      "text": "(a) if there has been no opposition to the registration; or"
+    },
+    {
+      "content_hash": "sha256:68cb120e6ecc61d7f7d58c22589e8d446432679cc920d379589d1e2c3235645b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s68(1)",
+      "ref": "TMA1995/s68(1)(b)",
+      "style": "paragraph",
+      "text": "(b) in a case where there has been an opposition:"
+    },
+    {
+      "content_hash": "sha256:77f7b831b3ddcc27c88c2236bb95c2ca20dcdd16a2f212e3e75bb6bb62d65d53",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s68(1)(b)",
+      "ref": "TMA1995/s68(1)(b)(i)",
+      "style": "paragraphsub",
+      "text": "(i) if the Registrar’s decision, or (in the case of an appeal against the Registrar’s decision) the decision on appeal, is that the trade mark should be registered; or"
+    },
+    {
+      "content_hash": "sha256:852029cee65f90f5b5bbdd4c8406fffebcf0cf0dcc938283170d2d6107ec5705",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 5,
+      "parent_ref": "TMA1995/s68(1)(b)",
+      "ref": "TMA1995/s68(1)(b)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) if the opposition has been withdrawn; or"
+    },
+    {
+      "content_hash": "sha256:d818067a0acc098a03bff877cf2b10da0502b8600d3c7b4ecf6bf5204e947ac7",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(iii)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s68(1)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s222",
+          "mention": "section 222"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s54(2)",
+          "mention": "subsection 54(2)"
+        }
+      ],
+      "ref": "TMA1995/s68(1)(b)(iii)",
+      "style": "paragraphsub",
+      "text": "(iii) if the opposition has been dismissed under section 222 or the regulations (if any) made for the purposes of subsection 54(2)."
+    },
+    {
+      "content_hash": "sha256:2d0862ea964cc85f2d6f99cff5593d5a657baea691a5da8598dc29d65919b735",
+      "depth": 0,
+      "kind": "text",
+      "number": null,
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMA1995/s68~1",
+      "style": "subsection2",
+      "text": "Otherwise, the application for the registration of the trade mark lapses."
+    },
+    {
+      "content_hash": "sha256:f9d6014a051e71a02e1afb96dca6866dfc84f2c95669aefb822cddbfbbb75ee0",
+      "depth": 1,
+      "kind": "note",
+      "number": null,
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s68~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s54A",
+          "mention": "section 54A"
+        }
+      ],
+      "ref": "TMA1995/s68~1~1",
+      "style": "notetext",
+      "text": "Note: Applications may also lapse if an application for registration is opposed and a notice to defend the application is not filed: see section 54A."
+    },
+    {
+      "content_hash": "sha256:0aef4e5ba939786992121dbc251a12297aa3d7eb3d02497be130318d32b35a8f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 9,
+      "parent_ref": null,
+      "ref": "TMA1995/s68(2)",
+      "style": "subsection",
+      "text": "(2) On registering the trade mark, the Registrar must give it a number by which it may be identified."
+    }
+  ]
+}

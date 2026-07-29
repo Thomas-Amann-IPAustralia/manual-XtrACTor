@@ -1,0 +1,392 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMA1995/pt8",
+    "TMA1995/pt8/div1",
+    "TMA1995/pt8/div1/sdivc"
+  ],
+  "content_hash": "sha256:d0f8bc70f17a865b1b7253fe9650d2fce8f3a4f88ae8c64a7e8406de0b3f8bbe",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Act 1995",
+    "Part 8—Amendment, cancellation and revocation of registration",
+    "Division 1—Action by Registrar",
+    "Subdivision C—Revoking registration",
+    "84A  Registration may be revoked"
+  ],
+  "instrument": "TMA1995",
+  "kind": "section",
+  "number": "84A",
+  "ref": "TMA1995/s84A",
+  "text": "Power to revoke (1) The Registrar may revoke the registration of a trade mark if he or she is satisfied that: (a) the trade mark should not have been registered, taking account of all the circumstances that existed when the trade mark became registered (whether or not the Registrar knew then of their existence); and (b) it is reasonable to revoke the registration, taking account of all the circumstances. (2) The circumstances to be taken into account under paragraph (1)(a) include the following: (a) any errors (including errors of judgment) or omissions that led directly or indirectly to the registration; (b) any relevant obligations of Australia under an international agreement; (c) any special circumstances making it appropriate: (i) not to register the trade mark; or (ii) to register the trade mark only if the registration were subject to conditions or limitations to which the registration was not actually subject. (3) The circumstances to be taken into account under paragraph (1)(b) include the following: (a) any use that has been made of the trade mark; (b) any past, current or proposed legal proceedings relating to the trade mark as a registered trade mark or to the registration of the trade mark; (c) other action taken in relation to the trade mark as a registered trade mark; (d) any special circumstances making it appropriate: (i) to revoke the registration; or (ii) not to revoke the registration. Note: For use of a trade mark see section 6. Prerequisites to revocation decision (4) The Registrar may revoke the registration of the trade mark only if the Registrar gives notification of the proposed revocation to each of the following persons within 12 months of registering the trade mark: (a) the registered owner of the trade mark; (b) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark. Note: For registered owner see section 6. (5) The Registrar must not revoke the registration of the trade mark without giving each of the following persons the opportunity to be heard: (a) the registered owner of the trade mark; (b) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark. Note: For registered owner see section 6. No duty to consider whether to revoke (6) The Registrar does not have a duty to consider whether to revoke the registration under this section, whether or not the Registrar is requested to do so.",
+  "title": "Registration may be revoked",
+  "units": [
+    {
+      "content_hash": "sha256:f47e158202d96693a5e6a63c4869b39615fdf2f7658e54ae579f71c9e51bb075",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A~1",
+      "style": "SubsectionHead",
+      "text": "Power to revoke"
+    },
+    {
+      "content_hash": "sha256:182d4818d685bb4e0a330302bcb49e38ddd1b25dbad398555b0fb82b635ae93f",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(1)",
+      "style": "subsection",
+      "text": "(1) The Registrar may revoke the registration of a trade mark if he or she is satisfied that:"
+    },
+    {
+      "content_hash": "sha256:83b887b7604e53ea56395ddd2d894369fe21071b14355805bf2dc92b3d6cdf14",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s84A(1)",
+      "ref": "TMA1995/s84A(1)(a)",
+      "style": "paragraph",
+      "text": "(a) the trade mark should not have been registered, taking account of all the circumstances that existed when the trade mark became registered (whether or not the Registrar knew then of their existence); and"
+    },
+    {
+      "content_hash": "sha256:1ddb58ba8deea7a46aaa0ac4437bb9d6cdd3025ccbc610f1ba5e442ca28a9332",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s84A(1)",
+      "ref": "TMA1995/s84A(1)(b)",
+      "style": "paragraph",
+      "text": "(b) it is reasonable to revoke the registration, taking account of all the circumstances."
+    },
+    {
+      "content_hash": "sha256:100c8415b506c5ecf6b4a11606a2caf0d1c9bdd989da95063d4d3105af59db0d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 5,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(2)",
+      "style": "subsection",
+      "text": "(2) The circumstances to be taken into account under paragraph (1)(a) include the following:"
+    },
+    {
+      "content_hash": "sha256:e5f16124b9da994fdc75405b22e6a9bda3426c21c77b40b8c902b99785524a18",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 6,
+      "parent_ref": "TMA1995/s84A(2)",
+      "ref": "TMA1995/s84A(2)(a)",
+      "style": "paragraph",
+      "text": "(a) any errors (including errors of judgment) or omissions that led directly or indirectly to the registration;"
+    },
+    {
+      "content_hash": "sha256:beb687718488f37374fd3319aaee4c6885d995728a70db159974df78d68b363b",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 7,
+      "parent_ref": "TMA1995/s84A(2)",
+      "ref": "TMA1995/s84A(2)(b)",
+      "style": "paragraph",
+      "text": "(b) any relevant obligations of Australia under an international agreement;"
+    },
+    {
+      "content_hash": "sha256:bd80f57d38ef3d7ee34b5afd3414064e1ebe3516c9bbc3a9cdf21cebf2c36dc9",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 8,
+      "parent_ref": "TMA1995/s84A(2)",
+      "ref": "TMA1995/s84A(2)(c)",
+      "style": "paragraph",
+      "text": "(c) any special circumstances making it appropriate:"
+    },
+    {
+      "content_hash": "sha256:de6ad6389c7b50b6c33a9dad7f10b6e0a94fe5b0cba499cd6f0f77cf9edf5c55",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 9,
+      "parent_ref": "TMA1995/s84A(2)(c)",
+      "ref": "TMA1995/s84A(2)(c)(i)",
+      "style": "paragraphsub",
+      "text": "(i) not to register the trade mark; or"
+    },
+    {
+      "content_hash": "sha256:52a95b0c0cc2eb62959f9c227d17a57a80c0acde8c773b4bb45e676c60b99319",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 10,
+      "parent_ref": "TMA1995/s84A(2)(c)",
+      "ref": "TMA1995/s84A(2)(c)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) to register the trade mark only if the registration were subject to conditions or limitations to which the registration was not actually subject."
+    },
+    {
+      "content_hash": "sha256:fe313f6709f3085f214b38f55c1b690838337ba9cebdc9756966e4992610f917",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 11,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(3)",
+      "style": "subsection",
+      "text": "(3) The circumstances to be taken into account under paragraph (1)(b) include the following:"
+    },
+    {
+      "content_hash": "sha256:ea7a9880f9fe0d099c13690999b808494cb9cc699b57ad6406c9cdf4fae6f774",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 12,
+      "parent_ref": "TMA1995/s84A(3)",
+      "ref": "TMA1995/s84A(3)(a)",
+      "style": "paragraph",
+      "text": "(a) any use that has been made of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:b636f0fc305a7cbae5ca2ce0b3651d6e951ed47f0b56653dbe0986c7ec272e09",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 13,
+      "parent_ref": "TMA1995/s84A(3)",
+      "ref": "TMA1995/s84A(3)(b)",
+      "style": "paragraph",
+      "text": "(b) any past, current or proposed legal proceedings relating to the trade mark as a registered trade mark or to the registration of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:3115e227f070f6a6a61e3e5d9ec2bcbfa59312e24812d82e66ca49db96512638",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 14,
+      "parent_ref": "TMA1995/s84A(3)",
+      "ref": "TMA1995/s84A(3)(c)",
+      "style": "paragraph",
+      "text": "(c) other action taken in relation to the trade mark as a registered trade mark;"
+    },
+    {
+      "content_hash": "sha256:4df964eb2f6aeedf468bb278a04948bb3e1535a0144c02bb3e27bb3aca223652",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 15,
+      "parent_ref": "TMA1995/s84A(3)",
+      "ref": "TMA1995/s84A(3)(d)",
+      "style": "paragraph",
+      "text": "(d) any special circumstances making it appropriate:"
+    },
+    {
+      "content_hash": "sha256:24805db2d753470bdbb3967c68bfa37e84487f40d402aac1700319228c8209aa",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(i)",
+      "ordinal": 16,
+      "parent_ref": "TMA1995/s84A(3)(d)",
+      "ref": "TMA1995/s84A(3)(d)(i)",
+      "style": "paragraphsub",
+      "text": "(i) to revoke the registration; or"
+    },
+    {
+      "content_hash": "sha256:58c22d45514561b125257a6a0668db6bb6033fff1ca541f67400c2eafd6e0dfb",
+      "depth": 2,
+      "kind": "paragraph",
+      "number": "(ii)",
+      "ordinal": 17,
+      "parent_ref": "TMA1995/s84A(3)(d)",
+      "ref": "TMA1995/s84A(3)(d)(ii)",
+      "style": "paragraphsub",
+      "text": "(ii) not to revoke the registration."
+    },
+    {
+      "content_hash": "sha256:93ef24be8b5df30477eb7439bd6dccd5f7151970db0deaea8cdde2d57cddd3f0",
+      "depth": 3,
+      "emphasis": [
+        {
+          "end": 29,
+          "start": 10,
+          "text": "use of a trade mark",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 18,
+      "parent_ref": "TMA1995/s84A(3)(d)(ii)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s84A(3)(d)(ii)~1",
+      "style": "notetext",
+      "text": "Note: For use of a trade mark see section 6."
+    },
+    {
+      "content_hash": "sha256:eb538406060d36f2491cc7410948546ba1d37838519d1cc75b28db90e25c2fa3",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 19,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A~2",
+      "style": "SubsectionHead",
+      "text": "Prerequisites to revocation decision"
+    },
+    {
+      "content_hash": "sha256:5aa5a31f0fa903b80a76243b422f57e0452a8072c7b6977c380bd16b6479f2af",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 20,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(4)",
+      "style": "subsection",
+      "text": "(4) The Registrar may revoke the registration of the trade mark only if the Registrar gives notification of the proposed revocation to each of the following persons within 12 months of registering the trade mark:"
+    },
+    {
+      "content_hash": "sha256:f5e6b0f8ce1f515634108c150fea82223d134f034a4780aa9d9bcc769bda846c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 21,
+      "parent_ref": "TMA1995/s84A(4)",
+      "ref": "TMA1995/s84A(4)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:ecf210cdef4c231c477d9d2376af035633ada07c54d82ae65a0ce47631cfb559",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 22,
+      "parent_ref": "TMA1995/s84A(4)",
+      "ref": "TMA1995/s84A(4)(b)",
+      "style": "paragraph",
+      "text": "(b) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 23,
+      "parent_ref": "TMA1995/s84A(4)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s84A(4)(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:171374cda077db3bef3ee6e066d020730f0cdb4ba5994598e275e1d061f230d6",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(5)",
+      "ordinal": 24,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(5)",
+      "style": "subsection",
+      "text": "(5) The Registrar must not revoke the registration of the trade mark without giving each of the following persons the opportunity to be heard:"
+    },
+    {
+      "content_hash": "sha256:f5e6b0f8ce1f515634108c150fea82223d134f034a4780aa9d9bcc769bda846c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 25,
+      "parent_ref": "TMA1995/s84A(5)",
+      "ref": "TMA1995/s84A(5)(a)",
+      "style": "paragraph",
+      "text": "(a) the registered owner of the trade mark;"
+    },
+    {
+      "content_hash": "sha256:ecf210cdef4c231c477d9d2376af035633ada07c54d82ae65a0ce47631cfb559",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 26,
+      "parent_ref": "TMA1995/s84A(5)",
+      "ref": "TMA1995/s84A(5)(b)",
+      "style": "paragraph",
+      "text": "(b) any person recorded under Part 11 as claiming a right in respect of, or an interest in, the trade mark."
+    },
+    {
+      "content_hash": "sha256:51bc3d2cb875067e368c2072432c782621315c33806e2644e35cc3386a852148",
+      "depth": 2,
+      "emphasis": [
+        {
+          "end": 26,
+          "start": 10,
+          "text": "registered owner",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "note",
+      "number": null,
+      "ordinal": 27,
+      "parent_ref": "TMA1995/s84A(5)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s6",
+          "mention": "section 6"
+        }
+      ],
+      "ref": "TMA1995/s84A(5)(b)~1",
+      "style": "notetext",
+      "text": "Note: For registered owner see section 6."
+    },
+    {
+      "content_hash": "sha256:35fc435e7344c7837ff88323358f05f0aff146148c899af9d2d1888257e6f3d0",
+      "depth": 0,
+      "kind": "heading",
+      "number": null,
+      "ordinal": 28,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A~3",
+      "style": "SubsectionHead",
+      "text": "No duty to consider whether to revoke"
+    },
+    {
+      "content_hash": "sha256:bf6c40133ab6c8f2969883d57f5c378789183420e00e07433171e81abb47c058",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(6)",
+      "ordinal": 29,
+      "parent_ref": null,
+      "ref": "TMA1995/s84A(6)",
+      "style": "subsection",
+      "text": "(6) The Registrar does not have a duty to consider whether to revoke the registration under this section, whether or not the Registrar is requested to do so."
+    }
+  ]
+}

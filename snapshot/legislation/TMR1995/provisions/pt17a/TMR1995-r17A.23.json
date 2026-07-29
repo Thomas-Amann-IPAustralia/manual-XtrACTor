@@ -1,0 +1,50 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt17a",
+    "TMR1995/pt17a/div3",
+    "TMR1995/pt17a/div3/sdiv1"
+  ],
+  "content_hash": "sha256:83420c45af949c10202eb8252c9d320c30076eb900525af4bb8336f4f724f15d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 17A—Protected international trade marks under the Madrid Protocol",
+    "Division 3—International registration designating Australia",
+    "Subdivision 1—General",
+    "17A.23  Expedited examination"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "17A.23",
+  "ref": "TMR1995/r17A.23",
+  "text": "Regulations 4.18 and 4.19 apply in relation to an IRDA as if a reference in those regulations to an application for registration of a trade mark were a reference to the IRDA.",
+  "title": "Expedited examination",
+  "units": [
+    {
+      "content_hash": "sha256:83420c45af949c10202eb8252c9d320c30076eb900525af4bb8336f4f724f15d",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.18",
+          "mention": "Regulations 4.18 and 4.19"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r4.19",
+          "mention": "Regulations 4.18 and 4.19"
+        }
+      ],
+      "ref": "TMR1995/r17A.23~1",
+      "style": "subsection",
+      "text": "Regulations 4.18 and 4.19 apply in relation to an IRDA as if a reference in those regulations to an application for registration of a trade mark were a reference to the IRDA."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "captured_at": "2026-07-29T08:29:42Z",
+  "containers": [
+    "TMR1995/pt22",
+    "TMR1995/pt22/div1"
+  ],
+  "content_hash": "sha256:5bc2c91c05eba2f0a47f5399b4a9986641bcfb65f24189c557e214484fc73c7d",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 22—Application, saving and transitional provisions",
+    "Division 1—General",
+    "22.7  Trade marks attorneys"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "22.7",
+  "ref": "TMR1995/r22.7",
+  "text": "For registration as a trade marks attorney, a person is taken to meet the requirements of subregulation 20.1(1) until 27 January 2001 if the person: (a) was, on 28 February 1998, registered as a patent attorney under section 198 of the Patents Act 1990; or (b) met the requirements of paragraphs 198(2)(c) and (d) of the Patents Act 1990 as in force on 26 January 1999; or (c) is a legal practitioner who acted for a client in trade mark matters before 27 January 1999, and makes a declaration to that effect; or (d) is a person to whom note 4 to subsection 156(2) of the Trade Marks Act 1995 applies.",
+  "title": "Trade marks attorneys",
+  "units": [
+    {
+      "content_hash": "sha256:aaf7c6bf784cc1d0b9c3170fc63813235b0b5be9878e2cfb95944deca2cdd48a",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r20.1(1)",
+          "mention": "subregulation 20.1(1)"
+        }
+      ],
+      "ref": "TMR1995/r22.7~1",
+      "style": "subsection",
+      "text": "For registration as a trade marks attorney, a person is taken to meet the requirements of subregulation 20.1(1) until 27 January 2001 if the person:"
+    },
+    {
+      "content_hash": "sha256:fb41d162a0d3036903e0b4690a14c4bd7fa514341371dd2479487b8ee4223884",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 103,
+          "start": 87,
+          "text": "Patents Act 1990",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 2,
+      "parent_ref": "TMR1995/r22.7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s198",
+          "mention": "section 198"
+        }
+      ],
+      "ref": "TMR1995/r22.7(a)",
+      "style": "paragraph",
+      "text": "(a) was, on 28 February 1998, registered as a patent attorney under section 198 of the Patents Act 1990; or"
+    },
+    {
+      "content_hash": "sha256:5a2c41d48ebbccf8cc11f4c2ec19f4c8363ea49a6eaaeaa8fcc8347ad7a982d3",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 80,
+          "start": 64,
+          "text": "Patents Act 1990",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 3,
+      "parent_ref": "TMR1995/r22.7~1",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s198(2)(c)",
+          "mention": "paragraphs 198(2)(c)"
+        }
+      ],
+      "ref": "TMR1995/r22.7(b)",
+      "style": "paragraph",
+      "text": "(b) met the requirements of paragraphs 198(2)(c) and (d) of the Patents Act 1990 as in force on 26 January 1999; or"
+    },
+    {
+      "content_hash": "sha256:ada0d90be938c8776f491e7e36f0c57f6a07c5dc0816dd95ac303e24a8d1961a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r22.7~1",
+      "ref": "TMR1995/r22.7(c)",
+      "style": "paragraph",
+      "text": "(c) is a legal practitioner who acted for a client in trade mark matters before 27 January 1999, and makes a declaration to that effect; or"
+    },
+    {
+      "content_hash": "sha256:70eb0686054dae02e6420b9fcfbcc341bf1621ae168ad4bc23c2874d9bf7b26d",
+      "depth": 1,
+      "emphasis": [
+        {
+          "end": 79,
+          "start": 59,
+          "text": "Trade Marks Act 1995",
+          "weight": "italic"
+        }
+      ],
+      "kind": "paragraph",
+      "number": "(d)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r22.7~1",
+      "provisions": [
+        {
+          "certainty": "explicit",
+          "extraction": "regex",
+          "id": "TMA1995/s156(2)",
+          "mention": "subsection 156(2) of the Trade Marks Act 1995"
+        }
+      ],
+      "ref": "TMR1995/r22.7(d)",
+      "style": "paragraph",
+      "text": "(d) is a person to whom note 4 to subsection 156(2) of the Trade Marks Act 1995 applies."
+    }
+  ]
+}

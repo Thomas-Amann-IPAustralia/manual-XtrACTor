@@ -1,0 +1,163 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt3a",
+    "TMR1995/pt3a/div2"
+  ],
+  "content_hash": "sha256:69beebfa615fb81ae611cb0967a00a47add8569f2ed8ac51133a1513be5b0230",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 3A—Assisted filing service",
+    "Division 2—Request for filing assistance",
+    "3A.6  AFS request—application for extension of time"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "3A.6",
+  "ref": "TMR1995/r3A.6",
+  "text": "(1) A requester may apply to the Registrar to extend the period for amending or submitting an AFS request under subregulation 3A.5(1). (2) The application must be made within the period of 2 months beginning immediately after the end of the period of 5 working days after the requester is informed by the Registrar under subregulation 3A.4(2). (3) The application must: (a) be in the approved form; and (b) be accompanied by a declaration stating the facts and circumstances forming the basis for the grounds for making the application. Note: Regulations 21.6 and 21.7 deal with making and filing declarations. (4) The application may be made only on any of the following grounds: (a) an error or omission by the requester, the requester’s agent, the Registrar or an employee; (b) circumstances beyond the control of the requester, other than an error or omission by the requester, the requester’s agent, the Registrar or an employee; (c) special circumstances exist that justify an extension of the period.",
+  "title": "AFS request—application for extension of time",
+  "units": [
+    {
+      "content_hash": "sha256:4829bb26c2c0c5ff94642d92913ea69bc7954c23c1f9140e6479e4b1296acfbd",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1)",
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.5(1)",
+          "mention": "subregulation 3A.5(1)"
+        }
+      ],
+      "ref": "TMR1995/r3A.6(1)",
+      "style": "subsection",
+      "text": "(1) A requester may apply to the Registrar to extend the period for amending or submitting an AFS request under subregulation 3A.5(1)."
+    },
+    {
+      "content_hash": "sha256:09e95ddf15358c1316bc24f4200ec4ab3c22e27fe91691fade7fd6c02b1745d8",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(2)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r3A.4(2)",
+          "mention": "subregulation 3A.4(2)"
+        }
+      ],
+      "ref": "TMR1995/r3A.6(2)",
+      "style": "subsection",
+      "text": "(2) The application must be made within the period of 2 months beginning immediately after the end of the period of 5 working days after the requester is informed by the Registrar under subregulation 3A.4(2)."
+    },
+    {
+      "content_hash": "sha256:bc4212e02ce0d75499c9b122009f338a627bef1fa419bc602e2195729607fb0c",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(3)",
+      "ordinal": 3,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.6(3)",
+      "style": "subsection",
+      "text": "(3) The application must:"
+    },
+    {
+      "content_hash": "sha256:1a5388894f152ff52e786273183169a0da8d520e430ff5cb63f8b91c691f3e84",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 4,
+      "parent_ref": "TMR1995/r3A.6(3)",
+      "ref": "TMR1995/r3A.6(3)(a)",
+      "style": "paragraph",
+      "text": "(a) be in the approved form; and"
+    },
+    {
+      "content_hash": "sha256:d695851256c8af7a2ca4bbf1db6ed95f8c50b13c14fcb6e8dd74ddd7d529a485",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 5,
+      "parent_ref": "TMR1995/r3A.6(3)",
+      "ref": "TMR1995/r3A.6(3)(b)",
+      "style": "paragraph",
+      "text": "(b) be accompanied by a declaration stating the facts and circumstances forming the basis for the grounds for making the application."
+    },
+    {
+      "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",
+      "depth": 2,
+      "kind": "note",
+      "number": null,
+      "ordinal": 6,
+      "parent_ref": "TMR1995/r3A.6(3)(b)",
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.6",
+          "mention": "Regulations 21.6 and 21.7"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMR1995/r21.7",
+          "mention": "Regulations 21.6 and 21.7"
+        }
+      ],
+      "ref": "TMR1995/r3A.6(3)(b)~1",
+      "style": "notetext",
+      "text": "Note: Regulations 21.6 and 21.7 deal with making and filing declarations."
+    },
+    {
+      "content_hash": "sha256:3b2c543e766fae936d056bd7a73eb55f1171744d431cfbb18c9429f6eaa09165",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(4)",
+      "ordinal": 7,
+      "parent_ref": null,
+      "ref": "TMR1995/r3A.6(4)",
+      "style": "subsection",
+      "text": "(4) The application may be made only on any of the following grounds:"
+    },
+    {
+      "content_hash": "sha256:c89fe70d1177b89127c229bda5e77a087b54b196b2fdfd007bcce182c391784a",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 8,
+      "parent_ref": "TMR1995/r3A.6(4)",
+      "ref": "TMR1995/r3A.6(4)(a)",
+      "style": "paragraph",
+      "text": "(a) an error or omission by the requester, the requester’s agent, the Registrar or an employee;"
+    },
+    {
+      "content_hash": "sha256:8914b5494614245aecc181b2954114dfeb4a6f282863afeda2673d2adfcde783",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 9,
+      "parent_ref": "TMR1995/r3A.6(4)",
+      "ref": "TMR1995/r3A.6(4)(b)",
+      "style": "paragraph",
+      "text": "(b) circumstances beyond the control of the requester, other than an error or omission by the requester, the requester’s agent, the Registrar or an employee;"
+    },
+    {
+      "content_hash": "sha256:7300037435931d0163f1802fdaf11987fae2b0ebd07a444f02cac847368ac736",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(c)",
+      "ordinal": 10,
+      "parent_ref": "TMR1995/r3A.6(4)",
+      "ref": "TMR1995/r3A.6(4)(c)",
+      "style": "paragraph",
+      "text": "(c) special circumstances exist that justify an extension of the period."
+    }
+  ]
+}

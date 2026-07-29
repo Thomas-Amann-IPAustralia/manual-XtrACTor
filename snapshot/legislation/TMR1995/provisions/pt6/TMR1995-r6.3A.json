@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt6",
+    "TMR1995/pt6/div1"
+  ],
+  "content_hash": "sha256:36072b964152aa43586a64758908dad17ada5aafe4d47a74abfc228426948c36",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 6—Amendment of application for registration of a trade mark and other documents",
+    "Division 1—Amendment of application for registration of trade mark and other documents",
+    "6.3A  Publication of request for amendment"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "6.3A",
+  "ref": "TMR1995/r6.3A",
+  "text": "For the purposes of subsection 65A(3) of the Act, the request for the amendment must be published in a computer database maintained by the Trade Marks Office.",
+  "title": "Publication of request for amendment",
+  "units": [
+    {
+      "content_hash": "sha256:36072b964152aa43586a64758908dad17ada5aafe4d47a74abfc228426948c36",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65A(3)",
+          "mention": "subsection 65A(3)"
+        }
+      ],
+      "ref": "TMR1995/r6.3A~1",
+      "style": "subsection",
+      "text": "For the purposes of subsection 65A(3) of the Act, the request for the amendment must be published in a computer database maintained by the Trade Marks Office."
+    }
+  ]
+}

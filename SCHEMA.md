@@ -5,6 +5,22 @@ The machine-checkable version is `schema/page.schema.json` and
 This document explains what each field is for, because a schema tells you the
 shape and not the reason.
 
+## Two corpora
+
+This contract covers the Manual: a **page** record and the **chunk** records cut
+from it, in `schema/page.schema.json` and `schema/chunk.schema.json`.
+
+The legislation snapshot has its own two, in `schema/instrument.schema.json` and
+`schema/provision.schema.json`, described in §The legislation records below.
+They are separate files rather than an extension of these because a compiled Act
+is not a web page and forcing one shape over both would mean nullable fields
+everywhere and a validator that could not tell a missing value from an
+inapplicable one.
+
+What the two corpora *do* share is the provision id — see §Citations, and
+`LEGISLATION_NOTES.md` §8. That is the join, and it is the only thing either
+schema assumes about the other.
+
 ## Two levels
 
 A **page** is one URL on the Manual site. A **chunk** is one retrievable passage
@@ -622,3 +638,89 @@ layout, not structure (`SOURCE_NOTES.md` §7), and the Note is prose belonging t
 heading 1.2 — it is where `TMA1995/s6` and `TMM/Part12/9` come from. Arrays are
 sorted by id, so the reading order of the provisions is not the order they appear
 in the text.
+
+
+---
+
+## The legislation records
+
+`schema/instrument.schema.json` and `schema/provision.schema.json`. The same
+two-level split as the Manual, for the same reason: everything constant across a
+compilation is stored once and joined, rather than copied onto every record.
+
+### The instrument record
+
+One per law, at `snapshot/legislation/<CODE>/instrument.json`. Identity
+(`code`, `title_id`, `name`, `symbol`), the titles the document states about
+itself, the compilation being held (`register_id`, `compilation_number`,
+`compilation_start`), the Register's own `amendments` array for that
+compilation, a digest of the `.docx` it was read from, and counts.
+
+`register_id` is the load-bearing field. It identifies one compiled version and
+changes if and only if a new compilation is registered, which is the whole
+amendment-detection mechanism. `has_unincorporated_amendments` is its blind
+spot, recorded because a reader needs to know when the snapshot is behind the
+law in force.
+
+### The provision record
+
+One per section, regulation, Schedule clause, Schedule item, container body or
+front-matter block, at
+`snapshot/legislation/<CODE>/provisions/<group>/<CODE>-<ref>.json`.
+
+**`ref` is the citable address and the id**, chosen to equal what
+`tmm_snapshot.citations` already emits: a Manual chunk carrying
+`provisions[].id == "TMA1995/s41"` is a foreign key onto the record whose `ref`
+is `TMA1995/s41`. It does not carry the Part — a section number is unique within
+its instrument, and an address that carried the Part would break every citation
+to it the moment a Part was reorganised.
+
+`text` is verbatim and whitespace-normalised, and is **exactly** the join of the
+units' text with single spaces. The validator checks that equality over the
+whole corpus, the same way it checks that a Manual chunk's blocks join back to
+its text, and for the same reason: it is what stops the two fields drifting into
+differently worded copies of the law.
+
+`units` is the tree the drafter asserted — `subsection`, `paragraph`,
+`definition`, `note`, `penalty`, `heading`, `table`, `text`, `special`. In a
+statute the boundaries are the addresses: `s41(3)(a)` is not a paragraph of
+section 41, it is a provision cited in its own right. Each unit carries:
+
+- **`ref`**, built from the nearest *numbered* ancestor plus its own printed
+  label, so `s42(a)` — how everyone cites it — rather than `s42~1(a)`, which
+  would be internally consistent and match no citation anybody writes. A unit
+  with no label of its own takes the positional suffix `~n`, which says plainly
+  that the number is ours and not the drafter's.
+- **`parent_ref`**, which records the true tree even where the address skips a
+  rung.
+- **`style`**, the `w:pStyle` verbatim. This is the evidence every other field
+  on the unit was derived from, kept so a consumer can disagree with the
+  derivation without re-reading the `.docx`. It is the legislation half's
+  `heading_source`.
+- **`number_collision`**, present and true where a sibling prints the same
+  number. The Regulations do this twice. Same contract as `certainty:
+  "ambiguous"` — route to review, never hydrate from it silently.
+- **`emphasis`**, bold and italic spans with offsets satisfying
+  `text[start:end] == span.text`. Recorded, not interpreted, for the same reason
+  `chunk.links` records an anchor's offsets rather than deciding what it meant:
+  the leading bold-italic run of a `Definition` is the defined term, and
+  legislation italicises the names of other instruments, so a defined-terms
+  vocabulary and an instrument-citation layer both come from here — without
+  either being asserted here.
+- **`provisions`**, in the Manual's own shape, so one predicate filters both
+  corpora. Every edge is `extraction: "regex"`: a compiled instrument carries no
+  hyperlinks at all. Because the ids are this corpus's own refs, these double as
+  the instrument's internal cross-reference graph.
+
+### What is deliberately absent here too
+
+Everything in §What is deliberately absent applies unchanged. Two additions
+specific to this corpus:
+
+- **Amendment edges from Endnote 4.** The endnotes are captured verbatim, both
+  columns, in `endnotes.json`. Resolving `s 41` to `TMA1995/s41` is easy on the
+  rows that are section numbers and is not possible without guessing on
+  `Div 2 of Part 3` or `Reader's Guide`. `LEGISLATION_NOTES.md` §7.
+- **Defined terms as a vocabulary.** The spans are recorded; deciding which of
+  them is the definiendum, and linking uses of a term to its definition, is
+  interpretation. It belongs beside embeddings.

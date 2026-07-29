@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-07-29T06:47:36Z",
+  "containers": [
+    "TMR1995/pt20a",
+    "TMR1995/pt20a/div5",
+    "TMR1995/pt20a/div5/sdiva"
+  ],
+  "content_hash": "sha256:5f996c3dd5c2ca736b77de92ac0f5843a5a7d124d8831efda8361c6caec6e72b",
+  "extractor_version": "legislation/0.1.0",
+  "heading_path": [
+    "Trade Marks Regulations 1995",
+    "Part 20A—Incorporated trade marks attorneys",
+    "Division 5—Discipline",
+    "Subdivision A—General",
+    "20A.9  Definitions"
+  ],
+  "instrument": "TMR1995",
+  "kind": "regulation",
+  "number": "20A.9",
+  "ref": "TMR1995/r20A.9",
+  "text": "In this Part: former attorney means a person whose registration as an incorporated trade marks attorney has been suspended or cancelled under this Division.",
+  "title": "Definitions",
+  "units": [
+    {
+      "content_hash": "sha256:a6d5c0aac57a71ccac99b977f8ee7f5cf661de5dcb6394735ba66e5c06c8e810",
+      "depth": 0,
+      "kind": "subsection",
+      "number": null,
+      "ordinal": 1,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.9~1",
+      "style": "subsection",
+      "text": "In this Part:"
+    },
+    {
+      "content_hash": "sha256:a4f038b740739019fc2fc63873492543d1a5c0957aa90258b3fd326cea19501e",
+      "depth": 0,
+      "emphasis": [
+        {
+          "end": 15,
+          "start": 0,
+          "text": "former attorney",
+          "weight": "bold-italic"
+        }
+      ],
+      "kind": "definition",
+      "number": null,
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMR1995/r20A.9~2",
+      "style": "Definition",
+      "text": "former attorney means a person whose registration as an incorporated trade marks attorney has been suspended or cancelled under this Division."
+    }
+  ]
+}
