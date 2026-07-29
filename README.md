@@ -27,14 +27,18 @@ pipeline.
 <https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/> — a static viewer,
 built from the snapshot in this repository on every crawl that lands.
 
-It does two things the Manual's own site cannot: filter passages by the metadata
+It does three things neither source site can: filter passages by the metadata
 the extraction produced (which Act a passage cites, whether that citation was a
 hyperlink or a pattern match, how certain the match was, whether a heading was
-marked up or inferred, when the page was last amended), and reassemble any page
-from its chunks so the deconstruction can be checked rather than trusted.
+marked up or inferred, when the page was last amended), reassemble any page from
+its chunks so the deconstruction can be checked rather than trusted, and show
+the Act and the Regulations beside the practice — with the join walkable in both
+directions, because a chunk citing section 41 and section 41 itself carry the
+same ref. One set of filters reads both corpora.
 
 The viewer is a reader and nothing more — see `viz/README.md`. It is outside the
-pipeline, it never writes to `snapshot/`, and it adds no field to a chunk.
+pipeline, it never writes to `snapshot/`, and it adds no field to a chunk or to
+a provision.
 
 ## What is here
 

@@ -279,6 +279,23 @@ mark { background: #ffe9a8; color: inherit; border-radius: 2px; padding: 0 .1em;
 .tm-table th { background: var(--surface-2); font-weight: 600; }
 .scroll-x { overflow-x: auto; max-width: 100%; }
 
+/* ---------- a provision, as the drafter numbered it ---------- */
+
+/* The units carry their own printed labels at the front of their text, so the
+   indent is the only thing this stylesheet adds to the shape of the law. */
+.unit { margin: .55rem 0; }
+.unit p { margin: 0; font-family: var(--serif); font-size: 1.02rem; line-height: 1.65; }
+.unit h5 { margin: 1.1rem 0 .2rem; font-family: var(--serif); font-size: .98rem; }
+.unit-note p, .unit-penalty p { font-size: .92rem; color: var(--ink-2); }
+.unit-note, .unit-penalty { border-left: 2px solid var(--line); padding-left: .7rem; }
+.unit-marks { margin-left: .4rem; }
+.unit-marks .badge { vertical-align: baseline; }
+/* A badge that is also a button — the count of Manual passages citing one
+   subsection, which opens them. */
+.as-btn { cursor: pointer; font-family: var(--sans); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; }
+.as-btn:hover { text-decoration: underline; }
+.tm-table td.cont { color: var(--ink-3); }
+
 .img-note {
   border: 1px dashed var(--line-2); border-radius: 6px; padding: .5rem .7rem; margin: .7rem 0;
   font-size: .82rem; color: var(--ink-3);
