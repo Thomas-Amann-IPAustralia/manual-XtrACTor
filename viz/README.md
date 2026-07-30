@@ -17,8 +17,8 @@ things neither source website can:
   that cite it, and its subsection (3) lists the 19 that cite that subsection
   exactly. Nothing joins them but the ref both records already carry.
 - **See the whole citation graph at once**, at `graph.html` — every Part and
-  every cited provision as a node, laid out by a force simulation rather than
-  read one filter result at a time. §The cross-reference network, below.
+  every cited provision as a node, laid out as a network rather than read one
+  filter result at a time. §The cross-reference network, below.
 
 ## One set of predicates, two corpora
 
@@ -91,36 +91,35 @@ from a fifth reading of `snapshot/`: every count in `data/graph.json` is
 already sitting in `manual.json`, `chunks.json` or `legislation.json`, keyed
 by ref, the same discipline the rest of this file holds itself to.
 
-**The layout is a force simulation written for this page** — repulsion,
-springs along each edge, a light pull to centre, collision so nodes don't
-stack — because pulling in a charting library would mean loading code from a
-CDN, which `viz/README.md` has never allowed. It is seeded from a hash of each
-node's own id rather than `Math.random()`, and every force in it is a
-deterministic function of the graph, so the same `data/graph.json` settles
-into the same picture on every reload instead of a fresh scramble each time.
-That is not the byte-stability rule `CLAUDE.md` states for the snapshot —
+**The layout is a force model — repulsion, springs along each edge, a light
+pull to centre, collision so nodes don't stack — settled once, synchronously,
+before the first frame is drawn**, because pulling in a charting library would
+mean loading code from a CDN, which `viz/README.md` has never allowed. It is
+seeded from a hash of each node's own id rather than `Math.random()`, and every
+force in it is a deterministic function of the graph, decayed on a fixed
+schedule with nothing graph-dependent in it, so the same `data/graph.json`
+settles into the same picture on every reload instead of a fresh scramble each
+time. That is not the byte-stability rule `CLAUDE.md` states for the snapshot —
 nothing about a canvas layout is committed — but it is the same instinct
-applied to a reader who comes back tomorrow and expects to recognise what
-they saw today.
+applied to a reader who comes back tomorrow and expects to recognise what they
+saw today. `graph.js` calls this `computeLayout()`, not a simulation: it runs
+to completion inside `boot()`, not tick by tick in front of the reader, and
+positions are fixed by the time the canvas answers to a pointer or a key.
+Nothing pulls a node back afterwards, which is what makes dragging one exactly
+that — the node stays wherever it is dropped.
 
-The camera keeps the graph framed *while* it settles rather than measuring it
-once. A single `fitView()` at boot measures the seed ring — a circle wide
-enough to hold every node before any spring has pulled — and the springs then
-contract the graph to about two thirds of that, so a camera set once was left
-framing a third more empty space than the map needs, for the whole session.
-`autoFit` names what to keep framed (the whole graph, or one node's
-neighbourhood for a deep link) and is dropped the instant the reader pans,
-zooms, drags or focuses something: their framing is not something to correct.
-
-The filters (edge kind, instrument, a "declutter" weight threshold) only
-change what is drawn and clickable; the simulation keeps running on the whole
-graph underneath, so toggling a filter off and back on does not re-scramble
-the layout. What they hide, they say they have hidden: the side panel lists
-only neighbours that are actually on the map and counts the ones it left out,
-and focusing something the filters exclude — reachable by search, or by a link
-from the reader — reports that and offers to relax exactly the filters
-excluding it, rather than flying the camera to a patch of blank canvas where
-the node would have been.
+Because layout never changes after boot, `fitView()` only needs to run when
+something asks to be framed: the whole graph once at boot (or a node's
+neighbourhood, if the page was opened on a deep link), and a node's
+neighbourhood again each time the reader focuses one. The filters (edge kind,
+instrument, a "declutter" weight threshold) only change what is drawn and
+clickable — they never move a node, so toggling a filter off and back on never
+re-scrambles the layout either. What they hide, they say they have hidden: the
+side panel lists only neighbours that are actually on the map and counts the
+ones it left out, and focusing something the filters exclude — reachable by
+search, or by a link from the reader — reports that and offers to relax
+exactly the filters excluding it, rather than flying the camera to a patch of
+blank canvas where the node would have been.
 
 **Two ways through the graph, and neither needs the other.** The side panel is
 one: every neighbour is a real button, its list length disclosed rather than

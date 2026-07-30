@@ -3,12 +3,15 @@
  *
  * Reads data/graph.json, a view viz/build.py derives from the same bundles
  * app.js reads — no field here is a fact this page invented. Layout is a
- * force-directed simulation, written from scratch (no CDN, no framework: the
- * page loads nothing from another origin). Node starting positions are seeded
- * from a hash of the node's own id rather than Math.random(), and every force
- * in the simulation is a deterministic function of the graph, so the same
- * data settles into the same picture on every reload rather than a fresh
- * scramble each time.
+ * force-directed model — repulsion, springs along each edge, a light pull to
+ * centre, collision so nodes don't stack — written from scratch (no CDN, no
+ * framework: the page loads nothing from another origin), but it is not a
+ * running simulation: computeLayout() settles it once, synchronously, before
+ * the first frame is drawn, and positions are then fixed. Node starting
+ * positions are seeded from a hash of the node's own id rather than
+ * Math.random(), and every force is a deterministic function of the graph, so
+ * the same data settles into the same picture on every reload rather than a
+ * fresh scramble each time.
  *
  * Nodes are Parts and provisions, not chunks — see build_graph's own docstring
  * for why. This file does not know how to draw a chunk at all.
@@ -80,7 +83,9 @@ async function getJSON(url) {
 const G = { nodes: [], edges: [] };
 const nodeById = new Map();
 const neighbours = new Map();   // node id -> [{ other, edge }]
-const layout = new Map();       // node id -> { x, y, vx, vy, fx, fy, r }
+// node id -> { x, y, r, degree, edgeCount }, fixed once computeLayout() has
+// run; vx/vy exist on each entry only transiently, while it's running.
+const layout = new Map();
 const theme = {};
 
 const filters = {
@@ -111,19 +116,8 @@ const NEIGHBOUR_CAP = 40;
 let neighbourCap = NEIGHBOUR_CAP;
 
 let camera = { x: 0, y: 0, k: 1 };
-// What the camera should keep framed while the layout is still moving: null for
-// nothing, 'all' for the whole graph, or a node id for that node's
-// neighbourhood. fitView() used to be called once at boot, against the seed ring
-// — a ~2,500-unit circle — and never again, so once the springs had pulled the
-// graph into the ~1,600 units it actually occupies the camera was left 35% too
-// far out, drawing the map at two thirds of the stage for the rest of the
-// session. Cleared the moment the reader takes the view themselves: their
-// framing is not something to correct.
-let autoFit = null;
 let hoveredId = null;
 let focusedId = null;
-let alpha = 1;
-let simActive = true;
 let needsRedraw = true;
 
 const ALPHA_DECAY = 0.026;
@@ -165,7 +159,7 @@ function buildIndex() {
     // edgeCount (how many *distinct* edges touch this node) is what tempers a
     // hub's pull on the layout — see the spring force in tick(). Distinct
     // from `degree` above, which is citation-weighted and drives radius.
-    layout.set(node.id, { x: seed.x, y: seed.y, vx: 0, vy: 0, fx: null, fy: null, r, degree, edgeCount: Math.max(links.length, 1) });
+    layout.set(node.id, { x: seed.x, y: seed.y, r, degree, edgeCount: Math.max(links.length, 1) });
   }
 }
 
@@ -277,23 +271,51 @@ function noteFocusVisibility(node) {
   return true;
 }
 
-/* --------------------------------------------------------------- physics */
+/* ------------------------------------------------------------------ layout */
 
 // A floor on the distance the repulsion force is computed over. Without one,
-// two nodes seeded (or dragged) close together make 1/dist^2 spike toward
-// infinity, one tick's velocity overflows, and — because NaN arithmetic never
-// throws, it just silently propagates — every node the affected ones touch in
-// the next O(n^2) pass is NaN within a handful of ticks and the whole graph
-// vanishes with no error anywhere. Flooring dist bounds the force instead of
-// merely guarding the divide-by-exactly-zero case.
+// two nodes seeded close together make 1/dist^2 spike toward infinity, one
+// step's velocity overflows, and — because NaN arithmetic never throws, it
+// just silently propagates — every node the affected ones touch in the next
+// O(n^2) pass is NaN within a handful of steps and the whole graph vanishes
+// with no error anywhere. Flooring dist bounds the force instead of merely
+// guarding the divide-by-exactly-zero case.
 const DIST_MIN = 1;
 const MAX_SPEED = 60;
 
-function tick() {
+/** Settles the force model — repulsion, springs, a light pull to centre,
+ * collision so nodes don't stack — to completion before the first frame is
+ * drawn, rather than animating it step by step in front of the reader: nobody
+ * was reading anything into watching a graph jiggle for a few seconds before
+ * it stopped. `alpha` decays on a fixed schedule with nothing graph-dependent
+ * in it, so this always takes the same number of steps and, combined with the
+ * seeded starting ring, is a pure function of `data/graph.json` — the same
+ * data settles into the same picture on every reload. Positions are fixed
+ * once this returns; nothing keeps pulling on a node after that, which is why
+ * dragging one (see wireInteraction) just moves it, plainly, with no spring
+ * pulling it back. */
+function computeLayout() {
+  for (const node of G.nodes) {
+    const p = layout.get(node.id);
+    p.vx = 0; p.vy = 0;
+  }
+  let alpha = 1;
+  do {
+    step(alpha);
+    alpha += (0 - alpha) * ALPHA_DECAY;
+  } while (alpha > ALPHA_MIN);
+  for (const node of G.nodes) {
+    const p = layout.get(node.id);
+    delete p.vx; delete p.vy;
+  }
+}
+
+function step(alpha) {
   const nodes = G.nodes;
-  // Repulsion + collision: every pair, once. O(n^2), fine at this corpus's
-  // scale (a few hundred nodes) — see viz/README.md for the size this was
-  // measured against.
+  // Repulsion + collision: every pair, once. O(n^2) per step, fine at this
+  // corpus's scale (a few hundred nodes) run for the few hundred steps
+  // computeLayout takes — see viz/README.md for the size this was measured
+  // against.
   for (let i = 0; i < nodes.length; i++) {
     const a = layout.get(nodes[i].id);
     for (let j = i + 1; j < nodes.length; j++) {
@@ -311,13 +333,13 @@ function tick() {
       const minDist = a.r + b.r + 3;
       if (dist < minDist) {
         const overlap = (minDist - dist) / 2;
-        if (a.fx == null) { a.x -= nx * overlap; a.y -= ny * overlap; }
-        if (b.fx == null) { b.x += nx * overlap; b.y += ny * overlap; }
+        a.x -= nx * overlap; a.y -= ny * overlap;
+        b.x += nx * overlap; b.y += ny * overlap;
       }
       const force = (CHARGE * alpha) / (Math.max(dist, DIST_MIN) ** 2);
       const fx = nx * force, fy = ny * force;
-      if (a.fx == null) { a.vx -= fx; a.vy -= fy; }
-      if (b.fx == null) { b.vx += fx; b.vy += fy; }
+      a.vx -= fx; a.vy -= fy;
+      b.vx += fx; b.vy += fy;
     }
   }
 
@@ -331,28 +353,24 @@ function tick() {
     const strength = LINK_STRENGTH / Math.min(a.edgeCount, b.edgeCount);
     const delta = ((dist - LINK_DISTANCE) / dist) * strength * alpha;
     const mx = dx * delta, my = dy * delta;
-    if (a.fx == null) { a.vx += mx; a.vy += my; }
-    if (b.fx == null) { b.vx -= mx; b.vy -= my; }
+    a.vx += mx; a.vy += my;
+    b.vx -= mx; b.vy -= my;
   }
 
   for (const node of nodes) {
     const p = layout.get(node.id);
-    if (p.fx != null) { p.x = p.fx; p.y = p.fy; p.vx = 0; p.vy = 0; continue; }
     p.vx -= p.x * CENTER_STRENGTH * alpha;
     p.vy -= p.y * CENTER_STRENGTH * alpha;
     p.vx *= (1 - VELOCITY_DECAY);
     p.vy *= (1 - VELOCITY_DECAY);
     // A hard speed cap, independent of what produced vx/vy — the floor on
     // repulsion above keeps any *single* force bounded, but it is cheap
-    // insurance against a chain of them stacking up on one node in one tick.
+    // insurance against a chain of them stacking up on one node in one step.
     const speed = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
     if (speed > MAX_SPEED) { p.vx = (p.vx / speed) * MAX_SPEED; p.vy = (p.vy / speed) * MAX_SPEED; }
     p.x += p.vx;
     p.y += p.vy;
   }
-
-  alpha += (0 - alpha) * ALPHA_DECAY;
-  return alpha > ALPHA_MIN;
 }
 
 /* ------------------------------------------------------------- projection */
@@ -367,7 +385,6 @@ function toWorld(sx, sy) {
 }
 
 function zoomAt(sx, sy, factor) {
-  autoFit = null;
   const [wx, wy] = toWorld(sx, sy);
   camera.k = clamp(camera.k * factor, MIN_K, MAX_K);
   camera.x = (sx - cssWidth / 2) / camera.k - wx;
@@ -382,14 +399,6 @@ function neighbourhoodOf(node) {
     .filter(({ edge }) => visibleEdgeSet.has(edge))
     .map(({ other }) => other);
   return [node, ...shown];
-}
-
-/** Re-frame whatever the camera has been asked to follow, once per settled tick. */
-function applyAutoFit() {
-  if (autoFit === 'all') { fitView(); return; }
-  const node = nodeById.get(autoFit);
-  if (!node) { autoFit = null; return; }
-  fitView(neighbourhoodOf(node));
 }
 
 function fitView(nodesToFit) {
@@ -522,20 +531,10 @@ function draw() {
   ctx.globalAlpha = 1;
 }
 
+// Layout is fixed by computeLayout() before this ever runs, so this is a plain
+// draw-on-demand loop, not a simulation step — it redraws only when something
+// (panning, dragging, a filter change) actually asked for a new frame.
 function frame() {
-  if (simActive) {
-    const budget = performance.now() + 10;
-    let ticked = false;
-    while (performance.now() < budget) {
-      simActive = tick();
-      ticked = true;
-      if (!simActive) break;
-    }
-    if (ticked) {
-      needsRedraw = true;
-      if (autoFit) applyAutoFit();
-    }
-  }
   if (needsRedraw) { draw(); needsRedraw = false; }
   requestAnimationFrame(frame);
 }
@@ -573,10 +572,6 @@ function focusNode(node, { pan = true, moveFocus = false } = {}) {
   // nodes should not fill up the back button with a dozen stops.
   const hash = node ? `#${node.kind === 'part' ? 'part' : 'prov'}:${node.kind === 'part' ? node.part_id : node.ref}` : '';
   history.replaceState(null, '', location.pathname + location.search + hash);
-  // Framing a node is this call's business, and following one is over the moment
-  // the focus moves or is cleared. focusFromHash re-arms it straight afterwards
-  // for the one case that wants it — a deep link, still settling.
-  autoFit = null;
   const hidden = noteFocusVisibility(node);
   // Panning to a node the filters have hidden lands the reader on blank canvas
   // at whatever zoom framed it — the notice above says where it went instead.
@@ -790,7 +785,6 @@ function wireInteraction() {
 
   canvas.addEventListener('pointerdown', (event) => {
     canvas.setPointerCapture(event.pointerId);
-    autoFit = null;
     pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
     if (pointers.size === 1) {
       const rect = canvas.getBoundingClientRect();
@@ -798,7 +792,6 @@ function wireInteraction() {
       dragNode = pick(sx, sy);
       dragged = false;
       lastPan = { x: event.clientX, y: event.clientY };
-      if (dragNode) simActive = true;
     } else if (pointers.size === 2) {
       const pts = [...pointers.values()];
       pinchStart = { dist: Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y), k: camera.k };
@@ -828,9 +821,11 @@ function wireInteraction() {
 
     const rect = canvas.getBoundingClientRect();
     if (dragNode) {
+      // Layout is static — nothing pulls back once computeLayout() has run —
+      // so dragging just sets the node's position directly.
       const [wx, wy] = toWorld(event.clientX - rect.left, event.clientY - rect.top);
       const p = layout.get(dragNode.id);
-      p.fx = wx; p.fy = wy;
+      p.x = wx; p.y = wy;
       dragged = true;
       needsRedraw = true;
     } else if (lastPan) {
@@ -855,8 +850,8 @@ function wireInteraction() {
     }
     if (pointers.size === 0) {
       if (dragNode) {
+        // A dragged node just stays wherever it was dropped.
         if (!dragged) { focusNode(dragNode, { pan: false }); }
-        // A dragged node stays pinned where it was dropped; double-click frees it.
       } else if (!dragged) {
         focusNode(null);
       }
@@ -867,17 +862,6 @@ function wireInteraction() {
   }
   canvas.addEventListener('pointerup', endPointer);
   canvas.addEventListener('pointercancel', endPointer);
-
-  canvas.addEventListener('dblclick', (event) => {
-    const rect = canvas.getBoundingClientRect();
-    const hit = pick(event.clientX - rect.left, event.clientY - rect.top);
-    if (hit) {
-      const p = layout.get(hit.id);
-      p.fx = null; p.fy = null;
-      simActive = true; alpha = Math.max(alpha, 0.25);
-      needsRedraw = true;
-    }
-  });
 
   canvas.addEventListener('wheel', (event) => {
     event.preventDefault();
@@ -898,13 +882,12 @@ function wireInteraction() {
   // is reachable without a pointer.
   canvas.addEventListener('keydown', (event) => {
     if (event.ctrlKey || event.metaKey || event.altKey) return;
-    autoFit = null;
-    const step = 70 / camera.k;
+    const panStep = 70 / camera.k;
     switch (event.key) {
-      case 'ArrowLeft': camera.x += step; break;
-      case 'ArrowRight': camera.x -= step; break;
-      case 'ArrowUp': camera.y += step; break;
-      case 'ArrowDown': camera.y -= step; break;
+      case 'ArrowLeft': camera.x += panStep; break;
+      case 'ArrowRight': camera.x -= panStep; break;
+      case 'ArrowUp': camera.y += panStep; break;
+      case 'ArrowDown': camera.y -= panStep; break;
       case '+': case '=': zoomAt(cssWidth / 2, cssHeight / 2, 1.25); break;
       case '-': case '_': zoomAt(cssWidth / 2, cssHeight / 2, 1 / 1.25); break;
       case '0': focusNode(null); fitView(); announce('View reset to the whole drawn graph.'); break;
@@ -993,14 +976,10 @@ function focusFromHash() {
     setNotice(`This link names ${match[1] === 'part' ? 'a Part' : 'a provision'}, “${wanted}”, that is not on the map.`);
     return false;
   }
+  // focusNode already frames this node's neighbourhood (fitView), which is
+  // all a deep link needs — layout is fixed before boot() ever calls this, so
+  // there is nothing left to settle into afterwards.
   focusNode(target);
-  // Keep this node's neighbourhood framed while the layout settles. Landing on a
-  // deep link used to leave the camera at its initial k of 1 — a zoom picked by
-  // nothing, since how much room the graph needs depends on how many nodes it
-  // has — with the node merely centred at whatever scale that happened to be.
-  autoFit = target.id;
-  simActive = true;
-  alpha = Math.max(alpha, 0.35);
   return true;
 }
 
@@ -1024,6 +1003,7 @@ async function boot() {
   }
 
   buildIndex();
+  computeLayout();
   readTheme();
   buildControls();
   buildLegend();
@@ -1038,7 +1018,7 @@ async function boot() {
   wireInteraction();
   requestAnimationFrame(frame);
 
-  if (!focusFromHash()) { autoFit = 'all'; fitView(); }
+  if (!focusFromHash()) fitView();
   window.addEventListener('hashchange', focusFromHash);
 
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { readTheme(); needsRedraw = true; });
