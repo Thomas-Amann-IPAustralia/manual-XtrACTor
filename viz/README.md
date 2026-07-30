@@ -16,6 +16,9 @@ things neither source website can:
   A chunk citing section 41 opens section 41; section 41 lists the 123 chunks
   that cite it, and its subsection (3) lists the 19 that cite that subsection
   exactly. Nothing joins them but the ref both records already carry.
+- **See the whole citation graph at once**, at `graph.html` — every Part and
+  every cited provision as a node, laid out by a force simulation rather than
+  read one filter result at a time. §The cross-reference network, below.
 
 ## One set of predicates, two corpora
 
@@ -33,7 +36,70 @@ The corpus checkboxes at the top of the panel are the only new question, and
 they are the obvious one: which of the three bodies of text to look in.
 
 Live at
-<https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/>.
+<https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/>, with the
+network view a click away at
+<https://thomas-amann-ipaustralia.github.io/manual-XtrACTor/graph.html>.
+
+## The cross-reference network
+
+`graph.html`, `graph.js`, `graph.css` — a second page, reading a fourth data
+file the first page never touches, `data/graph.json`. The two pages link to
+each other (the masthead on each, and a "see it in the network view" link on
+every Part and every provision) but share nothing at runtime: `graph.js` does
+not import `app.js`, and closing one tab does not lose anything the other
+needs.
+
+**Nodes are Parts and provisions, not chunks or units.** 2,460 chunk nodes and
+763 provision nodes would be a hairball a force layout cannot make legible —
+this repository already has a page-by-page and section-by-section reader for
+that resolution, the one above. A Part is the unit the Manual organises
+itself by everywhere else in this viewer, so it is the unit here too. A
+provision that nothing cites and that cites nothing is left off the map
+entirely: a graph is for edges, and `graph.html` is not the place to browse an
+instrument's full contents — `index.html`'s legislation view already does
+that.
+
+**Three edge kinds, one per citation field `SCHEMA.md` defines**, each
+aggregated up from the chunk or unit that carries it to the Part or provision
+that owns that chunk or unit, with a weight — how many distinct chunks made
+that citation, except provision-to-provision, which `cites` only ever states
+as "does A cite B", not how many times:
+
+| Edge kind | Source field | What it means |
+|---|---|---|
+| `manual_to_law` | a chunk's `provisions` | practice citing the Act or the Regulations |
+| `law_to_law` | a provision's `provisions` | the compiled instruments citing themselves |
+| `manual_to_manual` | a chunk's `internal_refs` | one Part of the Manual pointing at another |
+
+A same-Part pair is dropped rather than drawn as a self-loop — a Part linking
+to its own prose is real (25 chunks do it) but says nothing about how the
+Manual's Parts relate to each other, which is what this map is for.
+
+`build_graph` in `viz/build.py` builds this from the three bundles
+`build_manual`, `build_chunks` and `build_legislation` already produced, not
+from a fifth reading of `snapshot/`: every count in `data/graph.json` is
+already sitting in `manual.json`, `chunks.json` or `legislation.json`, keyed
+by ref, the same discipline the rest of this file holds itself to.
+
+**The layout is a force simulation written for this page** — repulsion,
+springs along each edge, a light pull to centre, collision so nodes don't
+stack — because pulling in a charting library would mean loading code from a
+CDN, which `viz/README.md` has never allowed. It is seeded from a hash of each
+node's own id rather than `Math.random()`, and every force in it is a
+deterministic function of the graph, so the same `data/graph.json` settles
+into the same picture on every reload instead of a fresh scramble each time.
+That is not the byte-stability rule `CLAUDE.md` states for the snapshot —
+nothing about a canvas layout is committed — but it is the same instinct
+applied to a reader who comes back tomorrow and expects to recognise what
+they saw today.
+
+The filters (edge kind, instrument, a "declutter" weight threshold) only
+change what is drawn and clickable; the simulation keeps running on the whole
+graph underneath, so toggling a filter off and back on does not re-scramble
+the layout. The side panel a click opens is the accessible path through the
+graph — every neighbour listed there is a real button, reachable without
+touching the canvas at all, with its own link back into `index.html`'s reader
+for the passage or the provision itself.
 
 ## It is a reader, and only a reader
 
@@ -94,10 +160,13 @@ links, not requests.
 
 ```
 index.html, app.css, app.js     the viewer
+graph.html, graph.css, graph.js the cross-reference network view
 data/manual.json                parts, pages, facet vocabularies, corpus stats  (~400 KB)
 data/chunks.json                every chunk minus blocks/tables, plus sibling indexes  (~4 MB)
 data/legislation.json           instruments, contents, every provision minus units,
                                 plus the citation graph and the join  (~1.3 MB)
+data/graph.json                 728 nodes (54 Parts, 674 cited provisions) and 2,641 edges
+                                (~400 KB)
 pages/<Part>/<file>.json        the page files verbatim  (~9 MB)
 legislation/<code>/…            instrument.json, contents.json, endnotes.json and every
                                 provision file, verbatim  (~6 MB)

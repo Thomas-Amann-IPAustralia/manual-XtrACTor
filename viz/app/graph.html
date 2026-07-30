@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross-reference network — Trade Marks Manual and legislation snapshot</title>
+<meta name="description" content="Every Part of the Trade Marks Manual and every provision of the Trade Marks Act and Regulations it cites, laid out as one network: practice pointing at law, law pointing at itself, and the Manual pointing at itself.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f5c63'/%3E%3Cg fill='%23fff'%3E%3Crect x='7' y='7' width='18' height='4'/%3E%3Crect x='7' y='14' width='11' height='4'/%3E%3Crect x='7' y='21' width='15' height='4'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="graph.css">
+</head>
+<body class="graph-page">
+<a class="skip" href="#graph-canvas">Skip to the network</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <p class="eyebrow">IP Australia · offline snapshot</p>
+      <h1>Cross-reference network <span>— practice and law, one graph</span></h1>
+      <p class="tagline">
+        Every Part of the Manual and every provision of the Act or the Regulations it cites,
+        as nodes; every citation the pipeline extracted, as an edge. Nothing here is a fact the
+        snapshot doesn't already assert elsewhere — this is that same data laid out to be seen
+        rather than filtered.
+      </p>
+    </div>
+    <p class="view-switch">
+      <a href="index.html">← Back to the reader</a>
+    </p>
+  </div>
+</header>
+
+<div class="graph-layout">
+  <aside class="panel graph-panel" id="graph-panel" aria-label="Network controls">
+    <div class="panel-head">
+      <h2>Network</h2>
+      <button type="button" id="g-reset" class="link-btn">Reset view</button>
+    </div>
+
+    <p class="match-line" id="g-status">Loading graph…</p>
+
+    <div class="field">
+      <label for="g-search">Find a Part or a provision</label>
+      <input type="search" id="g-search" list="g-search-list" placeholder="e.g. Part 22, or TMA1995/s41" autocomplete="off" spellcheck="false">
+      <datalist id="g-search-list"></datalist>
+    </div>
+
+    <details class="group" open>
+      <summary>Edges</summary>
+      <div id="g-edge-kinds"></div>
+      <p class="hint">
+        <strong>Practice → law</strong> is a chunk's own <code>provisions</code>; <strong>law → law</strong>
+        is a provision's, the compiled Act and Regulations citing themselves; <strong>within the
+        Manual</strong> is a chunk's <code>internal_refs</code>, one Part pointing at another.
+      </p>
+    </details>
+
+    <details class="group" open>
+      <summary>Legislation</summary>
+      <div id="g-instruments"></div>
+    </details>
+
+    <details class="group" open>
+      <summary>Declutter</summary>
+      <div class="field">
+        <label for="g-weight">Hide edges weaker than</label>
+        <input type="range" id="g-weight" min="1" max="1" value="1" step="1">
+        <p class="hint" id="g-weight-value">Showing every edge.</p>
+      </div>
+      <label class="check"><input type="checkbox" id="g-labels"><span class="lbl">Label every node, not just Parts</span></label>
+    </details>
+
+    <p class="hint">
+      Nodes are Parts and cited provisions, not chunks — 2,460 chunk nodes would be a hairball,
+      not a map. A provision with nothing citing it and nothing it cites has no edge to draw and
+      is left out; the legislation view lists an instrument's full contents for that reading.
+    </p>
+  </aside>
+
+  <main id="main">
+    <div class="graph-stage" id="graph-stage">
+      <canvas id="graph-canvas" tabindex="0" aria-label="Cross-reference network, rendered as a force-directed graph. Use the search field and filters in the panel to explore it; this canvas is not a substitute for that panel."></canvas>
+      <div class="graph-tooltip" id="graph-tooltip" hidden></div>
+      <p class="graph-hint">Drag the background to pan · scroll or pinch to zoom · drag a node to move it · click a node to focus it</p>
+    </div>
+
+    <div class="card focus-panel" id="focus-panel" hidden></div>
+  </main>
+</div>
+
+<footer class="foot">
+  <p>
+    The Manual states the Registrar's practice under the <em>Trade Marks Act 1995</em> (Cth). It
+    is not the legislation and does not bind the Registrar's discretion. The legislation here is
+    one compilation of it, as registered on a date shown against each instrument, and a
+    compilation can be behind the law in force. This is a dated snapshot — check the source page
+    or the Federal Register of Legislation before relying on anything here.
+  </p>
+</footer>
+
+<script src="graph.js"></script>
+</body>
+</html>

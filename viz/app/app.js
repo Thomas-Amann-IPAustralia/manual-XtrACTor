@@ -912,7 +912,9 @@ function viewPart(partId) {
   return h('div', {},
     h('section', { class: 'card page-head' },
       h('h2', { text: part.part_title }),
-      h('p', { class: 'sub', text: `${part.part_id} · ${plural(part.page_count, 'page')} · ${plural(part.chunk_count, 'chunk')}` }),
+      h('p', { class: 'sub' },
+        `${part.part_id} · ${plural(part.page_count, 'page')} · ${plural(part.chunk_count, 'chunk')} · `,
+        h('a', { class: 'link-btn', href: 'graph.html#part:' + partId, text: 'see it in the network view →' })),
       active ? h('p', { class: 'hint', text: `${num(RESULTS.byPart.get(partId) || 0)} chunks in this Part match the current filter. Pages with no match are dimmed.` }) : null),
     h('div', { class: 'rows' }, rows.length ? rows : h('div', { class: 'empty', text: 'This Part has no page files in the snapshot.' })));
 }
@@ -1680,7 +1682,8 @@ function viewProvision(ref) {
     h('section', { class: 'card page-head' },
       h('p', { class: 'hint', text: provision.heading_path.slice(0, -1).join('  ›  ') }),
       h('h2', { text: provisionHeading(provision) }),
-      h('p', { class: 'sub' }, provision.ref, ' ', lawBadges(provision)),
+      h('p', { class: 'sub' }, provision.ref, ' ', lawBadges(provision), ' ',
+        h('a', { class: 'link-btn', href: 'graph.html#prov:' + provision.ref, text: 'see it in the network view →' })),
       h('dl', { class: 'meta-grid' },
         meta('Instrument', instrument ? instrument.name : code),
         meta('Kind', provision.kind),

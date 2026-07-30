@@ -91,6 +91,11 @@ code, .mono { font-family: var(--mono); font-size: .86em; }
 .corpus dd { margin: .1rem 0 0; font-size: 1.4rem; font-family: var(--serif); font-variant-numeric: tabular-nums; }
 .corpus dd small { display: block; font-size: .7rem; font-family: var(--sans); color: var(--ink-3); }
 
+/* Masthead's second row: the link to the other view, on both pages. */
+.masthead-sub { padding-top: 0; padding-bottom: 1.1rem; }
+.view-switch { margin: 0; font-size: .86rem; }
+.view-switch a { font-weight: 600; }
+
 /* ---------- layout ---------- */
 
 .layout {

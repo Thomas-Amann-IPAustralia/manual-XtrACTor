@@ -12,11 +12,15 @@ contract.
 
 Output (all under --out, which is build output and is not committed):
 
-    index.html, app.css, app.js     the viewer, copied from viz/app/
-    data/manual.json                parts, pages, facet vocabularies, corpus stats
-    data/chunks.json                every chunk minus blocks/tables, plus sibling indexes
-    data/legislation.json           instruments, contents, provisions minus units, plus
-                                    the citation graph and the join with the Manual
+    index.html, app.css, app.js      the viewer, copied from viz/app/
+    graph.html, graph.css, graph.js  the cross-reference network view, copied from viz/app/
+    data/manual.json                 parts, pages, facet vocabularies, corpus stats
+    data/chunks.json                 every chunk minus blocks/tables, plus sibling indexes
+    data/legislation.json            instruments, contents, provisions minus units, plus
+                                     the citation graph and the join with the Manual
+    data/graph.json                  Parts and cited provisions as nodes, the three citation
+                                     fields as edges — a view over the three bundles above,
+                                     not a fourth reading of the snapshot
     pages/<Part>/<file>.json        the page files verbatim, for the deepest disclosure level
     legislation/<code>/…            the instrument, contents, endnote and provision files verbatim
 
@@ -572,6 +576,118 @@ def build_legislation(legislation: dict[str, Any], snapshot: dict[str, Any]) -> 
     }
 
 
+def build_graph(
+    manual: dict[str, Any], chunks: dict[str, Any], law: dict[str, Any] | None
+) -> dict[str, Any]:
+    """The cross-reference network: every Part, and every cited provision, as a node.
+
+    A view over the three bundles above, not a fourth reading of the snapshot —
+    every count here is already sitting in `manual`, `chunks` or `law`, keyed by
+    ref exactly as `viz/README.md` requires. Nodes are Parts and provisions, not
+    chunks: 2,460 chunk nodes would be a hairball, not a map, and a Part is
+    already the unit the Manual organises itself by on every other screen of
+    this viewer. A provision with nothing citing it and nothing it cites is left
+    out — a graph is for edges, and the legislation view already lists an
+    instrument's full contents for the reader who wants that.
+
+    Three edge kinds, one per citation field `SCHEMA.md` defines: a chunk's
+    `provisions` (`manual_to_law`), a chunk's `internal_refs` (`manual_to_manual`),
+    and a provision's own `provisions` — the instrument's internal
+    cross-reference graph, already surfaced as `cites`/`cited_by` in
+    build_legislation (`law_to_law`). Edges are aggregated to Part/provision
+    grain and carry a `weight` — the number of distinct citing chunks, except
+    `law_to_law`, which `cites` only ever states as "does A cite B", not how
+    many times.
+    """
+    page_part: dict[str, str] = {page["page_ref"]: page["part_id"] for page in manual["pages"]}
+    chunk_page: dict[str, str] = {chunk["chunk_ref"]: chunk["page_ref"] for chunk in chunks["chunks"]}
+
+    def part_of(ref: str) -> str | None:
+        """The Part owning a page_ref or a chunk_ref — whichever `ref` is."""
+        return page_part.get(chunk_page.get(ref, ref))
+
+    nodes: dict[str, dict[str, Any]] = {}
+    for part in manual["parts"]:
+        part_id = part["part_id"]
+        nodes[f"part:{part_id}"] = {
+            "id": f"part:{part_id}",
+            "kind": "part",
+            "label": "Part " + part_id[4:],
+            "title": part.get("part_title", part_id),
+            "part_id": part_id,
+            "chunks": part.get("chunk_count", 0),
+            "pages": part.get("page_count", 0),
+        }
+
+    # Part -> Part, from a chunk's own internal_refs. The same rule
+    # build_legislation applies to a provision citing itself: a Part linking to
+    # its own prose is real — 25 chunks do it, SCHEMA.md's internal_refs — but it
+    # draws no edge on a map of Parts, so a same-Part pair is dropped rather
+    # than kept as a self-loop.
+    #
+    # build_chunks does not validate that a target resolves to anything in this
+    # snapshot either (SCHEMA.md's internal_refs is a crawl-time contract, not
+    # one this builder re-checks) — a target this lenient pass can't place on
+    # the map is skipped here for the same reason, not raised.
+    manual_edges: dict[tuple[str, str], int] = defaultdict(int)
+    for target_ref, citing_chunks in chunks["cited_by"].items():
+        target_part = part_of(target_ref)
+        if target_part is None:
+            continue
+        for chunk_ref in citing_chunks:
+            source_part = part_of(chunk_ref)
+            if source_part and source_part != target_part:
+                manual_edges[(source_part, target_part)] += 1
+
+    edges: list[dict[str, Any]] = [
+        {"source": f"part:{source}", "target": f"part:{target}", "kind": "manual_to_manual", "weight": weight}
+        for (source, target), weight in manual_edges.items()
+    ]
+
+    if law is not None:
+        provisions_by_ref = {provision["ref"]: provision for provision in law["provisions"]}
+        touched = set(law.get("cited_by_manual", {})) | set(law.get("cites", {})) | set(law.get("cited_by", {}))
+
+        for ref in sorted(touched):
+            provision = provisions_by_ref[ref]
+            nodes[f"prov:{ref}"] = {
+                "id": f"prov:{ref}",
+                "kind": "provision",
+                "label": ref.split("/", 1)[1],
+                "title": provision.get("title"),
+                "ref": ref,
+                "instrument": provision["instrument"],
+                "provision_kind": provision["kind"],
+                "manual_citations": len(law.get("cited_by_manual", {}).get(ref, [])),
+                "law_citations": len(law.get("cites", {}).get(ref, [])) + len(law.get("cited_by", {}).get(ref, [])),
+            }
+
+        # Part -> provision, aggregated from the join build_legislation already
+        # resolved: cited_by_manual's chunk_refs are the citing side, the ref
+        # they are filed under is the provision — section, regulation, whatever
+        # unit a subsection citation resolved up to — a citation landed on.
+        law_edges: dict[tuple[str, str], int] = defaultdict(int)
+        for ref, citing_chunks in law.get("cited_by_manual", {}).items():
+            for chunk_ref in citing_chunks:
+                source_part = part_of(chunk_ref)
+                if source_part:
+                    law_edges[(source_part, ref)] += 1
+        edges.extend(
+            {"source": f"part:{source}", "target": f"prov:{ref}", "kind": "manual_to_law", "weight": weight}
+            for (source, ref), weight in law_edges.items()
+        )
+
+        # Provision -> provision, the instrument's own cross-reference graph.
+        edges.extend(
+            {"source": f"prov:{source}", "target": f"prov:{target}", "kind": "law_to_law", "weight": 1}
+            for source, targets in law.get("cites", {}).items()
+            for target in targets
+        )
+
+    edges.sort(key=lambda edge: (edge["kind"], edge["source"], edge["target"]))
+    return {"nodes": sorted(nodes.values(), key=lambda node: node["id"]), "edges": edges}
+
+
 def _write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
@@ -585,18 +701,20 @@ def build_site(snapshot_root: Path, out: Path) -> dict[str, int]:
     chunks = build_chunks(snapshot)
     legislation = load_legislation(snapshot_root)
     law = build_legislation(legislation, snapshot) if legislation else None
+    graph = build_graph(manual, chunks, law)
 
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True)
 
-    for name in ("index.html", "app.css", "app.js"):
+    for name in ("index.html", "app.css", "app.js", "graph.html", "graph.css", "graph.js"):
         shutil.copyfile(APP_DIR / name, out / name)
     # GitHub Pages runs Jekyll over the upload otherwise, which drops _retired/.
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
     _write_json(out / "data" / "manual.json", manual)
     _write_json(out / "data" / "chunks.json", chunks)
+    _write_json(out / "data" / "graph.json", graph)
 
     for entry in snapshot["pages"]:
         destination = out / "pages" / entry["rel"]
