@@ -643,3 +643,32 @@ def test_the_real_snapshot_graph_has_no_self_loops_and_omits_uncited_provisions(
         key = (edge["source"], edge["target"], edge["kind"])
         assert key not in seen, f"duplicate edge {key}"
         seen.add(key)
+
+
+@pytest.mark.skipif(
+    not (REPO / "snapshot" / "sitemap.json").is_file(),
+    reason="no snapshot in this checkout",
+)
+def test_law_to_law_is_the_one_unweighted_edge_kind(tmp_path):
+    """`weight` counts citing chunks on two kinds and is a fixed 1 on the third.
+
+    Not a fact about presentation, but the viewer has two behaviours resting on
+    it, and both were wrong before it was stated here. `graph.js` exempts
+    `law_to_law` from the declutter threshold — applying a "cited fewer than n
+    times" rule to a kind that is always 1 hid all of them at the first notch —
+    and draws it at a fixed low ink, because normalising a weight against a
+    maximum equal to itself puts every one of those edges at the top of the
+    scale. If build_graph ever learns how many times one provision cites
+    another, this fails, and those are the two places to revisit.
+    """
+    out = tmp_path / "dist"
+    viz.build_site(REPO / "snapshot", out)
+    graph = json.loads((out / "data" / "graph.json").read_text(encoding="utf-8"))
+
+    by_kind: dict[str, set[int]] = {}
+    for edge in graph["edges"]:
+        by_kind.setdefault(edge["kind"], set()).add(edge["weight"])
+
+    assert by_kind["law_to_law"] == {1}, "cites states only that A cites B, never how many times"
+    for kind in ("manual_to_law", "manual_to_manual"):
+        assert max(by_kind[kind]) > 1, f"{kind} is a count of citing chunks and should vary"

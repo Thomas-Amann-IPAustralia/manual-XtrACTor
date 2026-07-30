@@ -38,11 +38,65 @@
     </div>
 
     <p class="match-line" id="g-status">Loading graph…</p>
+    <p class="graph-notice" id="g-notice" role="status" hidden></p>
+    <div id="g-legend"></div>
+
+    <details class="group help" id="g-help">
+      <summary>How to use this map</summary>
+
+      <p class="hint">
+        Each circle is either a <strong>Part of the Manual</strong> or a <strong>provision</strong>
+        of the Act or the Regulations that something cites. Each line is a citation the pipeline
+        extracted. A bigger circle holds more; a heavier line was cited by more chunks. A provision
+        nothing cites and that cites nothing has no line to draw and is not here — use
+        <a href="index.html">the reader</a> to browse an instrument in full.
+      </p>
+
+      <p class="sub-label">With a mouse</p>
+      <ul class="keys">
+        <li><span class="act">Drag the background</span> to pan</li>
+        <li><span class="act">Scroll</span> to zoom where the cursor is</li>
+        <li><span class="act">Hover a circle</span> for its name and size</li>
+        <li><span class="act">Click a circle</span> to focus it: everything else dims and its
+          neighbours are listed below the map</li>
+        <li><span class="act">Drag a circle</span> to pin it where you drop it;
+          <span class="act">double-click</span> it to let the layout have it back</li>
+      </ul>
+
+      <p class="sub-label">On a touch screen</p>
+      <ul class="keys">
+        <li><span class="act">One finger</span> pans, or drags a circle</li>
+        <li><span class="act">Pinch</span> to zoom</li>
+        <li><span class="act">Tap a circle</span> to focus it</li>
+      </ul>
+
+      <p class="sub-label">From the keyboard</p>
+      <p class="hint">Tab to the map, then:</p>
+      <ul class="keys">
+        <li><kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> pan</li>
+        <li><kbd>+</kbd> <kbd>−</kbd> zoom · <kbd>0</kbd> fit the whole map back on screen</li>
+        <li><kbd>n</kbd> <kbd>p</kbd> step to the next or previous node, Parts first, then provisions</li>
+        <li><kbd>Enter</kbd> focus whichever node is nearest the centre</li>
+        <li><kbd>Esc</kbd> clear the focus</li>
+      </ul>
+      <p class="hint">
+        You never have to touch the map at all: search for a node by name below, and every
+        neighbour in the panel under it is a button that focuses that node in turn.
+      </p>
+
+      <p class="sub-label">Sharing what you are looking at</p>
+      <p class="hint">
+        Focusing a node writes it into the address bar, so the URL you are on is a link back to
+        this node. <strong>Open in the reader</strong> takes a node to its passages or its text;
+        every Part and provision in the reader has a link back to here.
+      </p>
+    </details>
 
     <div class="field">
       <label for="g-search">Find a Part or a provision</label>
       <input type="search" id="g-search" list="g-search-list" placeholder="e.g. Part 22, or TMA1995/s41" autocomplete="off" spellcheck="false">
       <datalist id="g-search-list"></datalist>
+      <p class="hint">Type at least two characters, then pick a suggestion to focus that node.</p>
     </div>
 
     <details class="group" open>
@@ -52,6 +106,7 @@
         <strong>Practice → law</strong> is a chunk's own <code>provisions</code>; <strong>law → law</strong>
         is a provision's, the compiled Act and Regulations citing themselves; <strong>within the
         Manual</strong> is a chunk's <code>internal_refs</code>, one Part pointing at another.
+        Unticking a kind removes those lines, and any provision left with no line to draw.
       </p>
     </details>
 
@@ -79,10 +134,11 @@
 
   <main id="main">
     <div class="graph-stage" id="graph-stage">
-      <canvas id="graph-canvas" tabindex="0" aria-label="Cross-reference network, rendered as a force-directed graph. Use the search field and filters in the panel to explore it; this canvas is not a substitute for that panel."></canvas>
+      <canvas id="graph-canvas" tabindex="0" aria-label="Cross-reference network, drawn as a force-directed graph. Arrow keys pan; plus and minus zoom; 0 fits the whole map; n and p step to the next and previous node; Enter focuses the node nearest the centre; Escape clears the focus. Whichever node is focused, its neighbours are listed as buttons in the panel below the map, so the graph can be walked without this canvas."></canvas>
       <div class="graph-tooltip" id="graph-tooltip" hidden></div>
-      <p class="graph-hint">Drag the background to pan · scroll or pinch to zoom · drag a node to move it · click a node to focus it</p>
+      <p class="graph-hint">Drag to pan · scroll or pinch to zoom · click a node to focus it · tab here for keys · see <strong>How to use this map</strong></p>
     </div>
+    <p class="sr-only" id="g-live" role="status" aria-live="polite"></p>
 
     <div class="card focus-panel" id="focus-panel" hidden></div>
   </main>
