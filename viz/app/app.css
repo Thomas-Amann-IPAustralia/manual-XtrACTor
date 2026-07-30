@@ -168,6 +168,20 @@ main:focus { outline: none; }
 .hint { font-size: .76rem; color: var(--ink-3); margin: .5rem 0 .2rem; }
 .hint code { background: var(--surface-2); padding: 0 .25em; border-radius: 3px; }
 
+/* ---------- "how to use this": the instructions each page carries in its own
+   panel, so driving this viewer is documented where it is being driven rather
+   than only in viz/README.md. Shared by index.html and graph.html. ---------- */
+
+.group.help > summary { color: var(--accent); }
+.keys { list-style: none; margin: .3rem 0 .6rem; padding: 0; font-size: .78rem; color: var(--ink-2); }
+.keys li { padding: .18rem 0; line-height: 1.45; }
+.keys .act { font-weight: 600; color: var(--ink); }
+kbd {
+  font-family: var(--mono); font-size: .72rem; padding: .05rem .3rem; margin-right: .1rem;
+  background: var(--surface-2); border: 1px solid var(--line-2); border-bottom-width: 2px;
+  border-radius: 4px; color: var(--ink);
+}
+
 /* ---------- breadcrumbs ---------- */
 
 .crumbs { font-size: .85rem; color: var(--ink-3); margin-bottom: .9rem; display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; }

@@ -75,6 +75,16 @@ A same-Part pair is dropped rather than drawn as a self-loop — a Part linking
 to its own prose is real (25 chunks do it) but says nothing about how the
 Manual's Parts relate to each other, which is what this map is for.
 
+`law_to_law` is the one kind whose `weight` carries no count, and two things in
+`graph.js` turn on that. The declutter threshold skips it — a "cited fewer than
+n times" rule applied to a field that is always 1 hid all 1,312 of those edges
+at the slider's first notch — and it is drawn at a fixed low ink rather than a
+normalised one, because `log(w+1)/log(cap+1)` with `cap == w` puts every edge of
+the kind at the very top of the scale, which had the least informative kind
+drawn most heavily and buried the other two. `tests/test_viz_build.py` states
+the contract, so giving `law_to_law` a real weight fails a test that names both
+places to revisit.
+
 `build_graph` in `viz/build.py` builds this from the three bundles
 `build_manual`, `build_chunks` and `build_legislation` already produced, not
 from a fifth reading of `snapshot/`: every count in `data/graph.json` is
@@ -93,13 +103,38 @@ nothing about a canvas layout is committed — but it is the same instinct
 applied to a reader who comes back tomorrow and expects to recognise what
 they saw today.
 
+The camera keeps the graph framed *while* it settles rather than measuring it
+once. A single `fitView()` at boot measures the seed ring — a circle wide
+enough to hold every node before any spring has pulled — and the springs then
+contract the graph to about two thirds of that, so a camera set once was left
+framing a third more empty space than the map needs, for the whole session.
+`autoFit` names what to keep framed (the whole graph, or one node's
+neighbourhood for a deep link) and is dropped the instant the reader pans,
+zooms, drags or focuses something: their framing is not something to correct.
+
 The filters (edge kind, instrument, a "declutter" weight threshold) only
 change what is drawn and clickable; the simulation keeps running on the whole
 graph underneath, so toggling a filter off and back on does not re-scramble
-the layout. The side panel a click opens is the accessible path through the
-graph — every neighbour listed there is a real button, reachable without
-touching the canvas at all, with its own link back into `index.html`'s reader
-for the passage or the provision itself.
+the layout. What they hide, they say they have hidden: the side panel lists
+only neighbours that are actually on the map and counts the ones it left out,
+and focusing something the filters exclude — reachable by search, or by a link
+from the reader — reports that and offers to relax exactly the filters
+excluding it, rather than flying the camera to a patch of blank canvas where
+the node would have been.
+
+**Two ways through the graph, and neither needs the other.** The side panel is
+one: every neighbour is a real button, its list length disclosed rather than
+silently cut, each with a link back into `index.html`'s reader. The canvas is
+the other, and it answers to the keyboard — arrows pan, `+`/`−` zoom, `0` fits,
+`n`/`p` step through the drawn nodes in a stable order, `Enter` takes whatever
+is nearest the centre, `Escape` clears — with each step announced to a screen
+reader, because keyboard focus stays on the canvas so the next keystroke lands.
+Before that the canvas was a `tabindex="0"` focus stop that no key operated.
+
+**The page documents itself.** "How to use this map" in the panel is the
+instructions for all of the above — pointer, touch and keyboard — and
+`index.html` carries the equivalent for the reader. That is deliberate: a
+reader who opens the published site is not reading this file.
 
 ## It is a reader, and only a reader
 

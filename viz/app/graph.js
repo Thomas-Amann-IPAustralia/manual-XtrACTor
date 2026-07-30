@@ -60,6 +60,13 @@ const EDGE_KINDS = [
   ['manual_to_manual', 'Within the Manual', '--edge-manual-manual'],
 ];
 
+/* `weight` is a count of distinct citing chunks — except on law_to_law, where
+ * build_graph fixes it at 1 because `cites` only ever states *that* A cites B,
+ * never how many times. A "hide edges weaker than n" threshold therefore says
+ * nothing about that kind, and applying it anyway silently deleted all 1,312 of
+ * those edges at the slider's first notch. Only these two kinds answer to it. */
+const WEIGHTED_KINDS = new Set(['manual_to_law', 'manual_to_manual']);
+
 /* --------------------------------------------------------------- data load */
 
 async function getJSON(url) {
@@ -85,12 +92,36 @@ const filters = {
 
 let visibleNodes = [];         // Node objects currently drawn
 let visibleEdges = [];         // Edge objects currently drawn
+// The same membership as the two arrays above, as sets, so the focus panel can
+// ask "is this edge on the map?" without a linear scan per neighbour. Edge
+// objects are the very objects in G.edges, so identity is the right test.
+let visibleNodeIds = new Set();
+let visibleEdgeSet = new Set();
 let maxWeight = { manual_to_law: 1, law_to_law: 1, manual_to_manual: 1 };
 
+// The controls, so a filter can be changed in code — "show me this node after
+// all" — and the panel still shows the truth about what is filtered.
+const kindInputs = new Map();
+const instrumentInputs = new Map();
+let weightInput = null;
+// How many neighbours the focus panel lists before it stops. It used to slice
+// at 60 and say nothing, so s6's 163 citing provisions became 60 with no hint
+// that 103 were missing. Now the cap is disclosed and liftable, per focus.
+const NEIGHBOUR_CAP = 40;
+let neighbourCap = NEIGHBOUR_CAP;
+
 let camera = { x: 0, y: 0, k: 1 };
+// What the camera should keep framed while the layout is still moving: null for
+// nothing, 'all' for the whole graph, or a node id for that node's
+// neighbourhood. fitView() used to be called once at boot, against the seed ring
+// — a ~2,500-unit circle — and never again, so once the springs had pulled the
+// graph into the ~1,600 units it actually occupies the camera was left 35% too
+// far out, drawing the map at two thirds of the stage for the rest of the
+// session. Cleared the moment the reader takes the view themselves: their
+// framing is not something to correct.
+let autoFit = null;
 let hoveredId = null;
 let focusedId = null;
-let followedId = null;         // camera tracks this node while the sim settles
 let alpha = 1;
 let simActive = true;
 let needsRedraw = true;
@@ -124,9 +155,8 @@ function buildIndex() {
   for (const node of G.nodes) if (node.kind === 'provision') instruments.add(node.instrument);
   filters.instruments = instruments;
 
-  let index = 0;
   for (const node of G.nodes) {
-    const seed = seedPosition(node.id, index++, G.nodes.length);
+    const seed = seedPosition(node.id);
     const links = neighbours.get(node.id) || [];
     const degree = links.reduce((sum, n) => sum + n.edge.weight, 0);
     const r = node.kind === 'part'
@@ -152,13 +182,14 @@ function seedPosition(id) {
 function recomputeVisibility() {
   const edgeOk = (edge) => {
     if (!filters.kinds.has(edge.kind)) return false;
-    if (edge.weight < filters.minWeight) return false;
+    if (WEIGHTED_KINDS.has(edge.kind) && edge.weight < filters.minWeight) return false;
     const a = nodeById.get(edge.source), b = nodeById.get(edge.target);
     if (a.kind === 'provision' && !filters.instruments.has(a.instrument)) return false;
     if (b.kind === 'provision' && !filters.instruments.has(b.instrument)) return false;
     return true;
   };
   visibleEdges = G.edges.filter(edgeOk);
+  visibleEdgeSet = new Set(visibleEdges);
 
   const touched = new Set();
   for (const edge of visibleEdges) { touched.add(edge.source); touched.add(edge.target); }
@@ -166,9 +197,41 @@ function recomputeVisibility() {
     if (node.kind === 'part') return true;
     return filters.instruments.has(node.instrument) && touched.has(node.id);
   });
+  visibleNodeIds = new Set(visibleNodes.map((node) => node.id));
 
   updateStatus();
+  // A node focused before the filter changed may have just left the map, or
+  // rejoined it. Either way the panel's neighbour lists and its notice are now
+  // stale, so re-state them against what is actually drawn.
+  if (focusedId != null) {
+    const node = nodeById.get(focusedId);
+    if (node) { noteFocusVisibility(node); renderFocusPanel(node); }
+  }
   needsRedraw = true;
+}
+
+/** Reflect `filters` back into the controls, so a filter changed in code — by
+ * "Show it anyway" — does not leave the checkboxes lying about the state. */
+function syncFilterInputs() {
+  for (const [kind, input] of kindInputs) input.checked = filters.kinds.has(kind);
+  for (const [code, input] of instrumentInputs) input.checked = filters.instruments.has(code);
+  if (weightInput) {
+    weightInput.value = String(filters.minWeight);
+    updateWeightHint();
+  }
+}
+
+/** Relax exactly the filters that are keeping `node` off the map, and no others. */
+function revealNode(node) {
+  if (node.kind === 'provision') filters.instruments.add(node.instrument);
+  for (const { other, edge } of neighbours.get(node.id) || []) {
+    filters.kinds.add(edge.kind);
+    if (other.kind === 'provision') filters.instruments.add(other.instrument);
+  }
+  filters.minWeight = 1;
+  syncFilterInputs();
+  recomputeVisibility();
+  focusNode(node);
 }
 
 function updateStatus() {
@@ -181,6 +244,37 @@ function updateStatus() {
     status.textContent =
       `${num(visibleNodes.length)} of ${num(total)} nodes · ${num(visibleEdges.length)} of ${num(totalE)} edges shown`;
   }
+}
+
+/* The panel's one line for "what you asked for is not what you are looking at".
+ * Kept separate from the status line, which recomputeVisibility owns and would
+ * otherwise overwrite it on the next keystroke. */
+function setNotice(text, actionLabel, onAction) {
+  const notice = document.getElementById('g-notice');
+  if (!notice) return;
+  notice.replaceChildren(...[
+    h('span', { text }),
+    // replaceChildren is the DOM's, not h()'s: a null argument becomes the text
+    // "null" instead of being skipped.
+    actionLabel ? h('button', { class: 'link-btn', type: 'button', text: actionLabel, onclick: onAction }) : null,
+  ].filter(Boolean));
+  notice.hidden = false;
+}
+
+function clearNotice() {
+  const notice = document.getElementById('g-notice');
+  if (!notice) return;
+  notice.hidden = true;
+  notice.replaceChildren();
+}
+
+/** Say so when the focused node is not on the map — the filters, not the data,
+ * are why it is missing, and the reader is owed both facts and the way out. */
+function noteFocusVisibility(node) {
+  if (!node || visibleNodeIds.has(node.id)) { clearNotice(); return false; }
+  setNotice(`${node.label} is filtered off the map — its neighbours are listed below, but nothing is drawn for it.`,
+    'Show it anyway', () => revealNode(node));
+  return true;
 }
 
 /* --------------------------------------------------------------- physics */
@@ -257,11 +351,6 @@ function tick() {
     p.y += p.vy;
   }
 
-  if (followedId != null) {
-    const p = layout.get(followedId);
-    if (p) { camera.x = -p.x; camera.y = -p.y; }
-  }
-
   alpha += (0 - alpha) * ALPHA_DECAY;
   return alpha > ALPHA_MIN;
 }
@@ -278,6 +367,7 @@ function toWorld(sx, sy) {
 }
 
 function zoomAt(sx, sy, factor) {
+  autoFit = null;
   const [wx, wy] = toWorld(sx, sy);
   camera.k = clamp(camera.k * factor, MIN_K, MAX_K);
   camera.x = (sx - cssWidth / 2) / camera.k - wx;
@@ -285,8 +375,28 @@ function zoomAt(sx, sy, factor) {
   needsRedraw = true;
 }
 
+/** A node and the neighbours it is currently drawn joined to — what "look at
+ * this node" should frame. */
+function neighbourhoodOf(node) {
+  const shown = (neighbours.get(node.id) || [])
+    .filter(({ edge }) => visibleEdgeSet.has(edge))
+    .map(({ other }) => other);
+  return [node, ...shown];
+}
+
+/** Re-frame whatever the camera has been asked to follow, once per settled tick. */
+function applyAutoFit() {
+  if (autoFit === 'all') { fitView(); return; }
+  const node = nodeById.get(autoFit);
+  if (!node) { autoFit = null; return; }
+  fitView(neighbourhoodOf(node));
+}
+
 function fitView(nodesToFit) {
-  const pts = (nodesToFit && nodesToFit.length ? nodesToFit : G.nodes).map((n) => layout.get(n.id));
+  // Default to the drawn graph, not the whole of it: fitting 728 nodes when 54
+  // are on screen zooms out to frame mostly nothing.
+  const fallback = visibleNodes.length ? visibleNodes : G.nodes;
+  const pts = (nodesToFit && nodesToFit.length ? nodesToFit : fallback).map((n) => layout.get(n.id));
   if (!pts.length) return;
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
   for (const p of pts) {
@@ -315,7 +425,6 @@ function readTheme() {
   theme.ink = get('--ink', '#16181c');
   theme.ink3 = get('--ink-3', '#767c86');
   theme.surface = get('--surface', '#ffffff');
-  theme.dim = get('--line-2', '#c6c3ba');
   // Canvas text needs a literal font string — it does not go through CSS's
   // cascade, so `var(--sans)` is meaningless as a ctx.font value.
   theme.sansFont = get('--sans', 'sans-serif');
@@ -365,7 +474,12 @@ function draw() {
     const related = emphasised && emphasised.has(edge.source) && emphasised.has(edge.target);
     const dim = emphasised && !related;
     const cap = maxWeight[edge.kind] || 1;
-    const strength = Math.log(edge.weight + 1) / Math.log(cap + 1);
+    // A kind whose weight never varies has no scale to be normalised against:
+    // log(w+1)/log(cap+1) is exactly 1 for every law_to_law edge, which drew all
+    // 1,312 of them at the very top of the ink scale and buried the kinds that
+    // do carry a count under the one that carries only "A cites B". Draw an
+    // unweighted kind at a single quiet value instead.
+    const strength = cap > 1 ? Math.log(edge.weight + 1) / Math.log(cap + 1) : 0.12;
     ctx.globalAlpha = dim ? 0.05 : clamp(0.12 + strength * 0.55, 0.12, 0.75);
     ctx.strokeStyle = edgeColour(edge.kind);
     ctx.lineWidth = clamp(0.6 + strength * 2.2, 0.6, 3) / Math.sqrt(camera.k);
@@ -417,7 +531,10 @@ function frame() {
       ticked = true;
       if (!simActive) break;
     }
-    if (ticked) needsRedraw = true;
+    if (ticked) {
+      needsRedraw = true;
+      if (autoFit) applyAutoFit();
+    }
   }
   if (needsRedraw) { draw(); needsRedraw = false; }
   requestAnimationFrame(frame);
@@ -448,16 +565,27 @@ function searchLabel(node) {
   return node.title ? `${node.label} — ${node.title}` : node.label;
 }
 
-function focusNode(node, { pan = true } = {}) {
+function focusNode(node, { pan = true, moveFocus = false } = {}) {
   focusedId = node ? node.id : null;
-  followedId = null;
+  neighbourCap = NEIGHBOUR_CAP;
   // history.replaceState only — never assign location.hash directly, which
   // navigates and pushes a history entry of its own; clicking through a dozen
   // nodes should not fill up the back button with a dozen stops.
   const hash = node ? `#${node.kind === 'part' ? 'part' : 'prov'}:${node.kind === 'part' ? node.part_id : node.ref}` : '';
   history.replaceState(null, '', location.pathname + location.search + hash);
-  if (node && pan) fitView([node, ...(neighbours.get(node.id) || []).map((n) => n.other)]);
+  // Framing a node is this call's business, and following one is over the moment
+  // the focus moves or is cleared. focusFromHash re-arms it straight afterwards
+  // for the one case that wants it — a deep link, still settling.
+  autoFit = null;
+  const hidden = noteFocusVisibility(node);
+  // Panning to a node the filters have hidden lands the reader on blank canvas
+  // at whatever zoom framed it — the notice above says where it went instead.
+  if (node && pan && !hidden) fitView(neighbourhoodOf(node));
   renderFocusPanel(node);
+  if (node && moveFocus) {
+    const heading = document.querySelector('#focus-panel h3');
+    if (heading) heading.focus();
+  }
   needsRedraw = true;
 }
 
@@ -472,7 +600,13 @@ function renderFocusPanel(node) {
     groups.get(heading).push(entry);
   };
 
+  // Only edges that are actually on the map. The panel used to be built from
+  // every edge regardless of the filters, so switching the Regulations off
+  // still listed regulation neighbours — and clicking one focused a node that
+  // was not drawn.
+  let filteredOut = 0;
   for (const { other, edge } of neighbours.get(node.id) || []) {
+    if (!visibleEdgeSet.has(edge)) { filteredOut++; continue; }
     const mine = edge.source === node.id;
     if (edge.kind === 'manual_to_law') {
       addTo(node.kind === 'part' ? 'Cites (practice → law)' : 'Cited by these Parts', { other, count: edge.weight });
@@ -485,59 +619,93 @@ function renderFocusPanel(node) {
   for (const list of groups.values()) list.sort((a, b) => b.count - a.count || a.other.label.localeCompare(b.other.label));
 
   const isPart = node.kind === 'part';
-  panel.replaceChildren(
+  const capped = [...groups.values()].some((entries) => entries.length > neighbourCap);
+  // replaceChildren is the DOM's, not h()'s: it renders a null argument as the
+  // text "null" rather than skipping it, so the conditional rows are filtered here.
+  panel.replaceChildren(...[
     h('button', { class: 'link-btn close-focus', type: 'button', text: 'Close ✕', onclick: () => focusNode(null) }),
-    h('h3', { text: node.label }),
+    h('h3', { tabindex: '-1', text: node.label }),
     h('p', { class: 'sub', text: isPart ? node.title : [INSTRUMENT_NAMES[node.instrument] || node.instrument, node.title].filter(Boolean).join(' — ') }),
     h('p', { class: 'sub mono', text: isPart ? `${num(node.chunks)} chunks across ${num(node.pages)} pages` : node.ref }),
     h('div', { class: 'neighbour-groups' },
       [...groups.entries()].map(([heading, entries]) => h('div', {},
         h('h4', { text: `${heading} (${entries.length})` }),
-        h('ul', {}, entries.slice(0, 60).map((entry) => h('li', {},
+        h('ul', {}, entries.slice(0, neighbourCap).map((entry) => h('li', {},
           h('button', { class: 'ref-link', text: entry.other.label, title: entry.other.title || entry.other.ref || '', onclick: () => focusNode(entry.other) }),
-          h('span', { class: 'count', text: num(entry.count) })))))),
-      !groups.size ? h('p', { class: 'hint', text: 'No visible edges under the current filters.' }) : null),
+          h('span', { class: 'count', text: num(entry.count) }))),
+          entries.length > neighbourCap
+            ? h('li', { class: 'more' }, h('span', { text: `${num(entries.length - neighbourCap)} more not listed` }))
+            : null)))),
+    !groups.size
+      ? h('p', { class: 'hint', text: filteredOut ? `Every one of this node's ${num(filteredOut)} edges is hidden by the current filters.` : 'Nothing cites this node and it cites nothing.' })
+      : null,
+    filteredOut && groups.size
+      ? h('p', { class: 'hint', text: `${num(filteredOut)} further edges are hidden by the current filters.` })
+      : null,
+    capped
+      ? h('button', { class: 'link-btn', type: 'button', text: 'List every neighbour', onclick: () => { neighbourCap = Infinity; renderFocusPanel(node); } })
+      : null,
     h('a', {
       class: 'link-btn open-link',
       href: `index.html#/${routeFor(node).map(encodeURIComponent).join('/')}`,
       text: 'Open in the reader →',
-    }));
+    }),
+  ].filter(Boolean));
 }
 
 /* -------------------------------------------------------------- controls */
 
+function updateWeightHint() {
+  const hint = document.getElementById('g-weight-value');
+  if (!hint) return;
+  hint.textContent = filters.minWeight <= 1
+    ? 'Showing every edge.'
+    : `Hiding citation edges made by fewer than ${filters.minWeight} chunks. Law → law carries no `
+      + 'count — the instruments only state that one provision cites another — so this never hides those.';
+}
+
 function buildControls() {
   const kindsHost = document.getElementById('g-edge-kinds');
-  kindsHost.replaceChildren(...EDGE_KINDS.map(([key, label]) => {
+  kindInputs.clear();
+  kindsHost.replaceChildren(...EDGE_KINDS.map(([key, label, cssVar]) => {
     const count = G.edges.reduce((n, e) => n + (e.kind === key ? 1 : 0), 0);
+    const input = h('input', {
+      type: 'checkbox', checked: true,
+      onchange: (e) => { e.target.checked ? filters.kinds.add(key) : filters.kinds.delete(key); recomputeVisibility(); },
+    });
+    kindInputs.set(key, input);
     return h('label', { class: 'check' },
-      h('input', {
-        type: 'checkbox', checked: true,
-        onchange: (e) => { e.target.checked ? filters.kinds.add(key) : filters.kinds.delete(key); recomputeVisibility(); },
-      }),
-      h('span', { class: 'lbl', text: label }),
+      input,
+      // The canvas draws these three in three colours and nothing said which was
+      // which: EDGE_KINDS has carried the CSS variable since the view was
+      // written and no control ever read it.
+      h('span', { class: 'lbl' }, h('span', { class: 'line', style: `background:var(${cssVar})` }), label),
       h('span', { class: 'count', text: num(count) }));
   }));
 
   const instrumentsHost = document.getElementById('g-instruments');
+  instrumentInputs.clear();
   instrumentsHost.replaceChildren(...[...filters.instruments].sort().map((code) => {
     const count = G.nodes.reduce((n, node) => n + (node.kind === 'provision' && node.instrument === code ? 1 : 0), 0);
+    const input = h('input', {
+      type: 'checkbox', checked: true,
+      onchange: (e) => { e.target.checked ? filters.instruments.add(code) : filters.instruments.delete(code); recomputeVisibility(); },
+    });
+    instrumentInputs.set(code, input);
     return h('label', { class: 'check' },
-      h('input', {
-        type: 'checkbox', checked: true,
-        onchange: (e) => { e.target.checked ? filters.instruments.add(code) : filters.instruments.delete(code); recomputeVisibility(); },
-      }),
-      h('span', { class: 'lbl', text: INSTRUMENT_NAMES[code] || code }),
+      input,
+      h('span', { class: 'lbl' }, h('span', { class: 'swatch', style: `background:var(${code === 'TMR1995' ? '--node-tmr' : '--node-tma'})` }), INSTRUMENT_NAMES[code] || code),
       h('span', { class: 'count', text: num(count) }));
   }));
 
-  const weightInput = document.getElementById('g-weight');
-  const overallMax = Math.max(maxWeight.manual_to_law, maxWeight.manual_to_manual, maxWeight.law_to_law, 1);
-  weightInput.max = String(overallMax);
+  weightInput = document.getElementById('g-weight');
+  // Only the weighted kinds bound the slider: law_to_law's fixed 1 would peg
+  // the maximum at 1 if it were counted, and being hidden by it is exactly
+  // what WEIGHTED_KINDS exists to prevent.
+  weightInput.max = String(Math.max(maxWeight.manual_to_law, maxWeight.manual_to_manual, 1));
   weightInput.addEventListener('input', () => {
     filters.minWeight = Number(weightInput.value);
-    document.getElementById('g-weight-value').textContent =
-      filters.minWeight <= 1 ? 'Showing every edge.' : `Hiding edges cited fewer than ${filters.minWeight} times.`;
+    updateWeightHint();
     recomputeVisibility();
   });
 
@@ -570,8 +738,48 @@ function buildControls() {
     if (!value) return;
     const hit = G.nodes.find((node) => searchLabel(node) === value) ||
       G.nodes.find((node) => node.label.toLowerCase() === value.toLowerCase());
-    if (hit) { focusNode(hit); search.value = ''; list.replaceChildren(); }
+    if (hit) { focusNode(hit, { moveFocus: true }); search.value = ''; list.replaceChildren(); }
+    else setNotice(`Nothing on this map answers to “${value}”. A provision no chunk cites and that cites nothing has no edge to draw, so it is not here.`);
   });
+  // Escape in a search box means "clear the box", the browser's own convention.
+  // The window-level Escape handler below would otherwise take it and close the
+  // focus panel instead, leaving the half-typed query sitting there.
+  search.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && search.value) {
+      search.value = '';
+      list.replaceChildren();
+      event.stopPropagation();
+    }
+  });
+}
+
+/* ------------------------------------------------- keyboard traversal */
+
+/** The drawn nodes in a stable reading order — the Manual's Parts, then the
+ * provisions, each by label — so `n`/`p` walk the map the same way twice. */
+function traversalOrder() {
+  return visibleNodes.slice().sort((a, b) =>
+    (a.kind === b.kind ? 0 : a.kind === 'part' ? -1 : 1) ||
+    a.label.localeCompare(b.label, 'en-AU', { numeric: true }));
+}
+
+function nodeNearestCentre() {
+  const [wx, wy] = toWorld(cssWidth / 2, cssHeight / 2);
+  let best = null, bestDist = Infinity;
+  for (const node of visibleNodes) {
+    const p = layout.get(node.id);
+    const dist = (p.x - wx) ** 2 + (p.y - wy) ** 2;
+    if (dist < bestDist) { best = node; bestDist = dist; }
+  }
+  return best;
+}
+
+/** Announce the focused node to a screen reader. `n`/`p` stepping keeps keyboard
+ * focus on the canvas so the next keystroke lands, which means nothing else in
+ * the page would say what just got focused. */
+function announce(text) {
+  const live = document.getElementById('g-live');
+  if (live) live.textContent = text;
 }
 
 /* ------------------------------------------------------------- pointing */
@@ -582,8 +790,8 @@ function wireInteraction() {
 
   canvas.addEventListener('pointerdown', (event) => {
     canvas.setPointerCapture(event.pointerId);
+    autoFit = null;
     pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    followedId = null;
     if (pointers.size === 1) {
       const rect = canvas.getBoundingClientRect();
       const sx = event.clientX - rect.left, sy = event.clientY - rect.top;
@@ -637,6 +845,14 @@ function wireInteraction() {
   function endPointer(event) {
     pointers.delete(event.pointerId);
     if (pointers.size < 2) pinchStart = null;
+    if (pointers.size === 1) {
+      // One finger lifted out of a pinch. lastPan still holds where that finger
+      // went down, so the next move would pan by the whole gap between the two
+      // — a jump. Re-anchor on the finger that is still down.
+      const [remaining] = [...pointers.values()];
+      lastPan = { x: remaining.x, y: remaining.y };
+      dragNode = null;
+    }
     if (pointers.size === 0) {
       if (dragNode) {
         if (!dragged) { focusNode(dragNode, { pan: false }); }
@@ -665,7 +881,6 @@ function wireInteraction() {
 
   canvas.addEventListener('wheel', (event) => {
     event.preventDefault();
-    followedId = null;
     const rect = canvas.getBoundingClientRect();
     const factor = Math.exp(-event.deltaY * 0.0015);
     zoomAt(event.clientX - rect.left, event.clientY - rect.top, factor);
@@ -677,6 +892,49 @@ function wireInteraction() {
     needsRedraw = true;
   });
 
+  // The canvas carries tabindex="0" and, until now, no key did anything once you
+  // had tabbed to it: a focus stop that could not be operated. Pan, zoom, and
+  // step from node to node, so the map itself — not only the panel beside it —
+  // is reachable without a pointer.
+  canvas.addEventListener('keydown', (event) => {
+    if (event.ctrlKey || event.metaKey || event.altKey) return;
+    autoFit = null;
+    const step = 70 / camera.k;
+    switch (event.key) {
+      case 'ArrowLeft': camera.x += step; break;
+      case 'ArrowRight': camera.x -= step; break;
+      case 'ArrowUp': camera.y += step; break;
+      case 'ArrowDown': camera.y -= step; break;
+      case '+': case '=': zoomAt(cssWidth / 2, cssHeight / 2, 1.25); break;
+      case '-': case '_': zoomAt(cssWidth / 2, cssHeight / 2, 1 / 1.25); break;
+      case '0': focusNode(null); fitView(); announce('View reset to the whole drawn graph.'); break;
+      case 'Enter': case ' ': {
+        const node = nodeNearestCentre();
+        if (node) { focusNode(node); announce(`${searchLabel(node)} focused.`); }
+        break;
+      }
+      case 'n': case 'N': case 'p': case 'P': {
+        const order = traversalOrder();
+        if (!order.length) break;
+        const back = event.key === 'p' || event.key === 'P';
+        const at = order.findIndex((node) => node.id === focusedId);
+        const next = at === -1
+          ? (back ? order.length - 1 : 0)
+          : (at + (back ? -1 : 1) + order.length) % order.length;
+        focusNode(order[next]);
+        announce(`${searchLabel(order[next])}, ${next + 1} of ${order.length}.`);
+        break;
+      }
+      case 'Escape': focusNode(null); announce('Focus cleared.'); break;
+      default: return;   // Tab, and every key not listed, stays the browser's
+    }
+    needsRedraw = true;
+    event.preventDefault();
+  });
+
+  // Escape anywhere clears the focus. The search box stops its own Escape from
+  // reaching here while it still has text to clear, so the first press empties
+  // the box and a second one — with nothing left to clear — falls through.
   window.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') focusNode(null);
   });
@@ -697,9 +955,13 @@ function showTooltip(node, clientX, clientY, rect) {
 
 /* ---------------------------------------------------------------- legend */
 
+/* Appending this to the panel put it below a paragraph of prose and off the
+ * bottom of a 950px-tall window, where a legend explains nothing. It now fills a
+ * slot the markup reserves for it, above the fold. */
 function buildLegend() {
-  const panel = document.getElementById('graph-panel');
-  panel.append(h('div', { class: 'legend' },
+  const host = document.getElementById('g-legend');
+  if (!host) return;
+  host.replaceChildren(h('div', { class: 'legend' },
     h('span', {}, h('span', { class: 'swatch', style: `background:${theme.part}` }), 'Part of the Manual'),
     h('span', {}, h('span', { class: 'swatch', style: `background:${theme.tma}` }), 'Trade Marks Act 1995'),
     h('span', {}, h('span', { class: 'swatch', style: `background:${theme.tmr}` }), 'Trade Marks Regulations 1995')));
@@ -715,11 +977,28 @@ function buildLegend() {
 function focusFromHash() {
   const match = /^#(part|prov):(.+)$/.exec(location.hash);
   if (!match) return false;
-  const wanted = decodeURIComponent(match[2]);
+  let wanted;
+  try {
+    wanted = decodeURIComponent(match[2]);
+  } catch {
+    // A truncated or hand-edited fragment. `#prov:100%` is the one that turns
+    // up, decodeURIComponent throws URIError on it, and the throw used to escape
+    // boot() — taking the canvas, every listener and the animation loop with it,
+    // leaving a blank stage and no message anywhere. Read it literally instead;
+    // it will match no node and be reported as such below.
+    wanted = match[2];
+  }
   const target = G.nodes.find((node) => (match[1] === 'part' ? node.part_id === wanted : node.ref === wanted));
-  if (!target) return false;
-  focusNode(target, { pan: false });
-  followedId = target.id;   // re-assert: focusNode itself always clears it
+  if (!target) {
+    setNotice(`This link names ${match[1] === 'part' ? 'a Part' : 'a provision'}, “${wanted}”, that is not on the map.`);
+    return false;
+  }
+  focusNode(target);
+  // Keep this node's neighbourhood framed while the layout settles. Landing on a
+  // deep link used to leave the camera at its initial k of 1 — a zoom picked by
+  // nothing, since how much room the graph needs depends on how many nodes it
+  // has — with the node merely centred at whatever scale that happened to be.
+  autoFit = target.id;
   simActive = true;
   alpha = Math.max(alpha, 0.35);
   return true;
@@ -753,11 +1032,14 @@ async function boot() {
   resizeCanvas();
   new ResizeObserver(resizeCanvas).observe(document.getElementById('graph-stage'));
 
-  if (!focusFromHash()) fitView();
-  window.addEventListener('hashchange', focusFromHash);
-
+  // Interaction and the draw loop go up before the deep link is read, not after.
+  // Whatever a fragment does — and one of them used to throw — the map is
+  // already drawn and already answers to the mouse and the keyboard.
   wireInteraction();
   requestAnimationFrame(frame);
+
+  if (!focusFromHash()) { autoFit = 'all'; fitView(); }
+  window.addEventListener('hashchange', focusFromHash);
 
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { readTheme(); needsRedraw = true; });
 }

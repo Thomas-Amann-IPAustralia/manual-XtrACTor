@@ -41,6 +41,49 @@
 
     <p class="match-line" id="match-line">Loading chunks…</p>
 
+    <details class="group help" id="help">
+      <summary>How to use this viewer</summary>
+
+      <p class="hint">
+        Three bodies of text sit side by side here: the Manual, cut into the passages the
+        extractor found in it, and the compiled <em>Trade Marks Act 1995</em> and
+        <em>Regulations</em>, cut into provisions. Nothing below was written for this page — every
+        field shown is one the snapshot already records.
+      </p>
+
+      <p class="sub-label">Finding something</p>
+      <ul class="keys">
+        <li><span class="act">Search</span> matches a passage's text and its headings; matches are
+          highlighted where they fall</li>
+        <li><span class="act">Every group below is a filter</span>, and they combine: choosing a
+          Part and a provision gives you the passages of that Part which cite that provision</li>
+        <li><span class="act">The count under Filter</span> is how many passages and provisions
+          survive what you have chosen. A predicate only one corpus has — Part, heading source,
+          page metadata, case law — leaves the other out rather than being reinterpreted for it</li>
+        <li><span class="act">Clear all</span> puts every filter back</li>
+      </ul>
+
+      <p class="sub-label">Reading it</p>
+      <ul class="keys">
+        <li><span class="act">Click a Part</span> for its pages, a page for its passages, a
+          passage for its paragraphs, lists and tables</li>
+        <li><span class="act">Reassemble</span> on a page puts the passages back together so the
+          way it was cut up can be checked rather than taken on trust</li>
+        <li><span class="act">A citation is a link</span>: a passage citing section 41 opens
+          section 41, and section 41 lists every passage that cites it. Links the Manual made to
+          AustLII stay outbound links</li>
+        <li><span class="act">The breadcrumbs</span> go back up, and the browser's Back button
+          works throughout — the address bar carries your filters and your place, so the URL you
+          are on is a link to exactly what you are looking at</li>
+      </ul>
+
+      <p class="hint">
+        For how the passages and provisions cite each other in the aggregate rather than one
+        result at a time, <a href="graph.html">the network view</a> draws every Part and every
+        cited provision as one graph.
+      </p>
+    </details>
+
     <div class="field">
       <label for="q">Search text and headings</label>
       <input type="search" id="q" placeholder="e.g. capable of distinguishing" autocomplete="off" spellcheck="false">
