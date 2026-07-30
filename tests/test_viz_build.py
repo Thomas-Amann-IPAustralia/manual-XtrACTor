@@ -486,6 +486,109 @@ def test_a_snapshot_without_legislation_builds_the_manual_alone(tmp_path):
     assert not (out / "data" / "legislation.json").exists()
     assert not (out / "legislation").exists()
 
+    # The network view still has a Part-only map to show — it does not need
+    # the legislation half, the same bargain build_manual and build_chunks
+    # already strike.
+    graph = json.loads((out / "data" / "graph.json").read_text(encoding="utf-8"))
+    assert [n["id"] for n in graph["nodes"]] == ["part:Part22"]
+    assert graph["edges"] == []
+
+
+def test_build_graph_aggregates_part_to_part_edges_and_drops_self_loops():
+    """build_graph is a pure view over the three bundles above it — exercised
+    directly here, without going through a snapshot on disk at all."""
+    manual = {
+        "parts": [
+            {"part_id": "Part1", "part_title": "Part 1 Title", "chunk_count": 3, "page_count": 1},
+            {"part_id": "Part2", "part_title": "Part 2 Title", "chunk_count": 1, "page_count": 1},
+        ],
+        "pages": [
+            {"page_ref": "TMM/Part1/1", "part_id": "Part1"},
+            {"page_ref": "TMM/Part2/1", "part_id": "Part2"},
+        ],
+    }
+    chunks = {
+        "chunks": [
+            {"chunk_ref": "TMM/Part1/1#1", "page_ref": "TMM/Part1/1"},
+            {"chunk_ref": "TMM/Part1/1#2", "page_ref": "TMM/Part1/1"},
+            {"chunk_ref": "TMM/Part2/1#1", "page_ref": "TMM/Part2/1"},
+        ],
+        # Part1's two chunks both link to Part2 — a real cross-Part edge,
+        # weight 2. Part1's second chunk also links within Part1: a same-Part
+        # pair a map of Parts has no use for, and it must not appear as a
+        # self-loop.
+        "cited_by": {
+            "TMM/Part2/1": ["TMM/Part1/1#1", "TMM/Part1/1#2"],
+            "TMM/Part1/1": ["TMM/Part1/1#2"],
+        },
+    }
+
+    graph = viz.build_graph(manual, chunks, None)
+
+    assert {n["id"] for n in graph["nodes"]} == {"part:Part1", "part:Part2"}
+    assert graph["edges"] == [
+        {"source": "part:Part1", "target": "part:Part2", "kind": "manual_to_manual", "weight": 2}
+    ]
+
+
+def test_build_graph_adds_a_provision_node_only_when_something_touches_it():
+    manual = {
+        "parts": [{"part_id": "Part1", "part_title": "Part 1", "chunk_count": 1, "page_count": 1}],
+        "pages": [{"page_ref": "TMM/Part1/1", "part_id": "Part1"}],
+    }
+    chunks = {
+        "chunks": [{"chunk_ref": "TMM/Part1/1#1", "page_ref": "TMM/Part1/1"}],
+        "cited_by": {},
+    }
+    law = {
+        "provisions": [
+            {"ref": "TMA1995/s1", "instrument": "TMA1995", "kind": "section", "title": "Cited"},
+            {"ref": "TMA1995/s2", "instrument": "TMA1995", "kind": "section", "title": "Never touched"},
+        ],
+        "cited_by_manual": {"TMA1995/s1": ["TMM/Part1/1#1"]},
+        "cites": {},
+        "cited_by": {},
+    }
+
+    graph = viz.build_graph(manual, chunks, law)
+
+    nodes = {n["id"]: n for n in graph["nodes"]}
+    # s2 cites nothing and nothing cites it — no edge to draw, so it is left
+    # off the map entirely, the same bargain the docstring states.
+    assert set(nodes) == {"part:Part1", "prov:TMA1995/s1"}
+    assert nodes["prov:TMA1995/s1"]["label"] == "s1"
+    assert nodes["prov:TMA1995/s1"]["manual_citations"] == 1
+    assert graph["edges"] == [
+        {"source": "part:Part1", "target": "prov:TMA1995/s1", "kind": "manual_to_law", "weight": 1}
+    ]
+
+
+def test_graph_is_built_beside_the_manual_and_the_legislation(tmp_path):
+    """The integration path: build_site's own manual/chunks/law bundles, fed
+    through build_graph, for the same minimal fixture the rest of this file
+    uses."""
+    snapshot = write_snapshot(tmp_path / "snapshot")
+    write_legislation(snapshot)
+    out = tmp_path / "dist"
+    viz.build_site(snapshot, out)
+
+    graph = json.loads((out / "data" / "graph.json").read_text(encoding="utf-8"))
+    nodes = {n["id"]: n for n in graph["nodes"]}
+    edges = {(e["source"], e["target"], e["kind"]): e for e in graph["edges"]}
+
+    # s177 is cited by nothing in the Manual, but s41(1)(a) cites it, so it is
+    # on the map via law_to_law alone — proof the inclusion rule is "has an
+    # edge", not "the Manual cites it".
+    assert set(nodes) == {"part:Part22", "prov:TMA1995/s41", "prov:TMA1995/s177"}
+    assert nodes["prov:TMA1995/s177"]["manual_citations"] == 0
+    assert edges[("part:Part22", "prov:TMA1995/s41", "manual_to_law")]["weight"] == 1
+    assert edges[("prov:TMA1995/s41", "prov:TMA1995/s177", "law_to_law")]["weight"] == 1
+    # CHUNK's own internal_refs target, TMM/Part35/4, does not resolve to a
+    # Part in this minimal fixture (there is no Part35 page at all) — the same
+    # leniency build_chunks itself extends to that field, so it is dropped
+    # rather than raised on.
+    assert len(graph["edges"]) == 2
+
 
 @pytest.mark.skipif(
     not (REPO / "snapshot" / "sitemap.json").is_file(),
@@ -508,3 +611,35 @@ def test_the_real_snapshot_builds_and_no_chunk_gains_a_field(tmp_path):
         assert set(indexed) <= set(original)
         for field, value in indexed.items():
             assert value == original[field]
+
+
+@pytest.mark.skipif(
+    not (REPO / "snapshot" / "sitemap.json").is_file(),
+    reason="no snapshot in this checkout",
+)
+def test_the_real_snapshot_graph_has_no_self_loops_and_omits_uncited_provisions(tmp_path):
+    out = tmp_path / "dist"
+    viz.build_site(REPO / "snapshot", out)
+
+    graph = json.loads((out / "data" / "graph.json").read_text(encoding="utf-8"))
+    law = json.loads((out / "data" / "legislation.json").read_text(encoding="utf-8"))
+    manual = json.loads((out / "data" / "manual.json").read_text(encoding="utf-8"))
+    node_ids = {n["id"] for n in graph["nodes"]}
+
+    assert node_ids, "the real corpus should yield a non-empty graph"
+    part_nodes = [n for n in graph["nodes"] if n["kind"] == "part"]
+    provision_nodes = [n for n in graph["nodes"] if n["kind"] == "provision"]
+    # Every Part is always on the map; a provision needs an edge to earn a
+    # place on it, and this corpus has plenty that never get one.
+    assert len(part_nodes) == len(manual["parts"])
+    assert 0 < len(provision_nodes) < len(law["provisions"])
+
+    seen = set()
+    for edge in graph["edges"]:
+        assert edge["kind"] in {"manual_to_law", "law_to_law", "manual_to_manual"}
+        assert edge["source"] != edge["target"], "a map of Parts/provisions has no use for a self-loop"
+        assert edge["source"] in node_ids and edge["target"] in node_ids
+        assert edge["weight"] >= 1
+        key = (edge["source"], edge["target"], edge["kind"])
+        assert key not in seen, f"duplicate edge {key}"
+        seen.add(key)
