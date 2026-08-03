@@ -25,7 +25,7 @@ python exports/build_cases.py
 ```
 
 519 rows carrying 411 distinct decisions across 221 chunks on the Manual's 500
-pages. Written for one job: joining this corpus to an external register of
+pages, 438 of them with the decision's party names. Written for one job: joining this corpus to an external register of
 decisions. **The join key is `citation`**, or `case_id`, which is the same fact
 addressed rather than printed.
 
@@ -45,8 +45,9 @@ of 411 falls out of a `GROUP BY case_id` without a second pass.
 | `citation_style` | `neutral` (379 positions, 289 decisions) or `reported` (140 / 122). SCHEMA.md's own two styles. |
 | `year`, `court_or_series`, `number`, `volume`, `first_page` | Parsed from `citation`. Neutral fills `number`; reported fills `volume` and `first_page`. The middle token is usually a court and occasionally a report series cited bracket-style (`AC`), which is why the column is named for both. |
 | `corpus_citation_count` | Positions this decision has across the whole corpus. |
-| `parties` | **Only from an anchor the Manual hung on the case name**, never read out of running prose. 18 rows. See below. |
-| `jade_href` | The jade.io link on the same anchor. 18 rows, the same 18. |
+| `parties` | **Only from markup the Manual set around the case name**, never read out of running prose. 438 rows: 18 from an anchor, 420 from an italic run. See below. |
+| `parties_source` | `anchor` or `emphasis`, and empty where there is no name. Which markup the name came from, because the two are not equally strong. |
+| `jade_href` | The jade.io link on the anchor, where there was one. 18 rows. |
 | `parallel_citation` | The citation printed immediately beside this one. 30 rows. Evidence of an alias, not an assertion of one. |
 | `parallel_case_id` | Set where that neighbour is itself a decision in this corpus. 24 rows, 11 distinct pairs. |
 
@@ -69,13 +70,42 @@ The repository's rule 1 applies here. Nothing in this file is inferred meaning,
 and the two columns that look like they might be are worth being explicit about.
 
 **`parties` is the Manual's words, not ours.** SCHEMA.md's judgement that party
-names are unreliable to extract from prose stands, and this export does not
-reopen it. The 18 rows that have one come from an anchor whose own text
-contains the citation — *"Registrar of Trade Marks v Woolworths Ltd
-[1999] FCA 1020"*, hyperlinked to jade.io by the Manual's authors. Everything
-before the citation in that anchor is the party name because the authors wrote
-it that way. The other 501 positions are blank, and a blank is the correct
-value: a guess in a column meant for joining is worse than nothing.
+names are unreliable to extract *from prose* stands, and this export does not
+reopen it. Every name here comes from markup the authors set around the name
+themselves, in one of two shapes:
+
+- **`anchor`** — an `<a>` whose own text contains the citation:
+  *"Registrar of Trade Marks v Woolworths Ltd [1999] FCA 1020"*, hyperlinked to
+  jade.io. Everything before the citation in that anchor is the party name
+  because the authors wrote it that way. 18 rows, and the stronger of the two:
+  the name and the citation are inside one element, so no adjacency has to be
+  read at all.
+- **`emphasis`** — an italic run ending immediately before the citation:
+  *"`<i>`Self Care IP Holdings Pty Ltd v Allergan Australia Pty Ltd`</i>`
+  [2023] HCA 8"*. 420 rows. Italicising a case name is the legal-writing
+  convention and hyperlinking one is not, which is why there are twenty times
+  as many.
+
+The 81 positions still blank are mostly a citation printed straight after
+another — `[1963] HCA 66; (1963) 109 CLR 407` — where the second carries no
+name of its own. A blank is the correct value there: it is not that the name is
+missing, it is that the Manual gave the decision one name and cited it twice,
+which is the parallel-citation signal `parallel_citation` records.
+
+**This is a correction.** Until `ingest/0.10.0` this file said party names were
+*"not a gap this repository can close deterministically"*, and that was wrong.
+It assumed the only markup evidence was a hyperlink. Reading `<i>` is not a
+different kind of act from reading `<a href>` — both are the authors marking a
+span — and the Manual marks case names far more often than it links them. The
+spans reached the snapshot as `chunk.emphasis` in `ingest/0.10.0`;
+`SOURCE_NOTES.md` §34 has the measurement.
+
+**The adjacency is read here and not in the pipeline**, and that division is
+the point of this directory. `chunk.emphasis` records that the Manual set those
+words apart and where they sit; concluding the words are therefore *this
+decision's parties* is a reading. A reading belongs downstream of the corpus,
+in a file that can be regenerated when the reading improves, and no field
+exists on a chunk for this script's benefit.
 
 **`parallel_citation` is adjacency, and adjacency is evidence.** Two citations
 separated only by `;` or `,` are the drafter's convention for one decision
@@ -112,9 +142,11 @@ register can resolve.
   the Manual does not make; it belongs in a review queue, with the alias pairs.
 - **11 of the 411 ids are probably duplicates** of another id in the same file.
   See above.
-- **Party names are absent from 501 of 519 positions.** Not a gap this
-  repository can close deterministically — it is what an external register is
-  for, and the reason this file exists.
+- **Party names are absent from 81 of 519 positions**, and most of those are
+  the second half of a parallel citation rather than a decision the Manual
+  never named. 356 of the 411 decisions carry a name, and 336 of those carry
+  exactly one across every position — so `GROUP BY case_id` gives a register
+  with a name on nearly all of it.
 
 ### Regenerating
 

@@ -25,6 +25,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import collections
 from collections import Counter
 from pathlib import Path
 from typing import Any, Iterator
@@ -74,6 +75,7 @@ FIELDS = [
     "first_page",
     "corpus_citation_count",
     "parties",
+    "parties_source",
     "jade_href",
     "parallel_citation",
     "parallel_case_id",
@@ -132,9 +134,8 @@ def anchor_evidence(chunk: dict[str, Any], citation: str) -> tuple[str, str]:
 
     Only from an anchor whose own words contain the citation — those are the
     Manual's authors naming the case, not our reading of the prose. 19 of the
-    519 positions have one. Everything else gets empty strings, because
-    SCHEMA.md is right that party names lifted out of running prose are not
-    reliable, and a guess in a column meant for joining is worse than a blank.
+    519 positions have one. Everything else falls through to
+    `emphasis_evidence`.
     """
     for link in chunk["links"]:
         if citation not in link["text"]:
@@ -147,6 +148,53 @@ def anchor_evidence(chunk: dict[str, Any], citation: str) -> tuple[str, str]:
         href = link["href"] if "jade.io" in link["href"].lower() else ""
         return parties, href
     return "", ""
+
+
+#: What may sit between a case name and the citation that follows it: nothing,
+#: a space, an opening bracket the citation itself supplies, or the comma of
+#: `Nikkken Wellness Pty Ltd v van Voorst, [2003] FCA 816`. Anything else and
+#: the two are not adjacent, whatever else is true of them.
+_ADJACENT = re.compile(r"^[\s,;:(]*$")
+
+#: How far back to look. Three characters covers every separator above.
+_ADJACENCY_CHARS = 3
+
+
+def emphasis_evidence(chunk: dict[str, Any], offset: int) -> str:
+    """Party names from the italic run the Manual set immediately before.
+
+    The Manual italicises case names — the legal-writing convention — far more
+    often than it hyperlinks them, and since `ingest/0.10.0` those spans are in
+    the snapshot with their offsets. **437 of the corpus's 522 citation
+    positions have one**, against the 18 an anchor can supply.
+
+    This is a traversal of two recorded facts, and it is done *here* rather
+    than in the pipeline for the reason `exports/README.md` gives about its own
+    standing: the snapshot records that the Manual set those words apart and
+    where they sit, and concluding that the words are therefore this decision's
+    parties is a reading. A reading belongs downstream of the corpus, in a file
+    that can be regenerated when the reading improves, and no field exists on a
+    chunk for this function's benefit.
+
+    Adjacency only. An italic run somewhere else in the paragraph is not
+    evidence about this citation, and is not offered as though it were.
+    """
+    spans = [
+        span
+        for span in chunk.get("emphasis", ())
+        if span["kind"] in {"i", "em"}
+        and span["end"] <= offset
+        and offset - span["end"] <= _ADJACENCY_CHARS
+        and _ADJACENT.match(chunk["text"][span["end"] : offset])
+    ]
+    if not spans:
+        return ""
+    # The innermost, where the CMS nested — `<span><i><i>x</i></i></span>` is
+    # SOURCE_NOTES.md §4 and gives two co-extensive records. Longest wins where
+    # they genuinely differ, because a nested run is a fragment of the name.
+    return max(spans, key=lambda span: span["end"] - span["start"])["text"].strip(
+        " .,;:-("
+    )
 
 
 def parallel(chunk: dict[str, Any], citation: str) -> tuple[str, str]:
@@ -192,6 +240,14 @@ def rows() -> Iterator[dict[str, str]]:
 
                 counts[case["id"]] += 1
                 parties, jade = anchor_evidence(chunk, citation)
+                # An anchor containing the citation is the stronger evidence:
+                # the authors put the name and the citation in one element, so
+                # no adjacency has to be read at all. The italic run is the
+                # same authors marking the same words, one step weaker.
+                parties_source = "anchor" if parties else ""
+                if not parties:
+                    parties = emphasis_evidence(chunk, offset)
+                    parties_source = "emphasis" if parties else ""
                 neighbour, neighbour_id = parallel(chunk, citation)
                 start = max(0, offset - CONTEXT)
                 end = min(len(text), offset + len(citation) + CONTEXT)
@@ -202,6 +258,7 @@ def rows() -> Iterator[dict[str, str]]:
                         "citation": citation,
                         **parse_citation(case["id"], citation),
                         "parties": parties,
+                        "parties_source": parties_source,
                         "jade_href": jade,
                         "parallel_citation": neighbour,
                         "parallel_case_id": neighbour_id,
@@ -245,9 +302,14 @@ def main() -> None:
 
     decisions = len({row["case_id"] for row in ordered})
     named = sum(1 for row in ordered if row["parties"])
+    by_source = collections.Counter(
+        row["parties_source"] for row in ordered if row["parties"]
+    )
     print(
         f"{OUT.relative_to(ROOT)}: {len(ordered)} citation positions, "
-        f"{decisions} distinct decisions, {named} with party names"
+        f"{decisions} distinct decisions, {named} with party names "
+        f"({by_source['anchor']} from an anchor, "
+        f"{by_source['emphasis']} from an italic run)"
     )
 
 
