@@ -47,6 +47,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/1#1~1",
       "content_hash": "sha256:09b4382be81326ed3b401eefdad95895f1072342d4d3da99ffb97d23660602f6",
+      "emphasis": [
+        {
+          "end": 591,
+          "kind": "i",
+          "start": 571,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 591,
+          "kind": "i",
+          "start": 571,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 990,
+          "kind": "i",
+          "start": 923,
+          "text": "Transport Tyre Sales Pty Ltd v Montana Tyres Rims And Tubes Pty Ltd"
+        },
+        {
+          "end": 990,
+          "kind": "i",
+          "start": 923,
+          "text": "Transport Tyre Sales Pty Ltd v Montana Tyres Rims And Tubes Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -175,6 +201,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/1#1~2",
       "content_hash": "sha256:9582eb8c25514c2fa16ba4ce3cb1adaafae350c782fcd127ed905ed1a1219661",
+      "emphasis": [
+        {
+          "end": 443,
+          "kind": "i",
+          "start": 423,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 789,
+          "kind": "b",
+          "start": 784,
+          "text": "Note:"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -293,6 +333,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/1#1~3",
       "content_hash": "sha256:607de7644ff00eca7f8bf539f4c4d32716088ae480f5600ece89f4417367e074",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 3
@@ -384,11 +425,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:422493de59e11173d69bfea7cefc838e7afc0f9186d7579653a173f489b8b590",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.1. What is assignment and transmission?",
     "images": [],
     "last_amended": "2022-04-20",

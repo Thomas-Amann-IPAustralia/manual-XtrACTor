@@ -38,6 +38,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/5#1",
       "content_hash": "sha256:4fffabe9f8fe94208983cb2b4371ef6e608dcf2024f4d55736f405383eae2c91",
+      "emphasis": [
+        {
+          "end": 123,
+          "kind": "strong",
+          "start": 118,
+          "text": "Note:"
+        },
+        {
+          "end": 632,
+          "kind": "i",
+          "start": 364,
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "end": 433,
+          "kind": "u",
+          "start": 430,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -107,11 +127,29 @@
   ],
   "page": {
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "amendments": [
+      {
+        "date": "2025-10-22",
+        "reason": "Added: Note regarding refused amendments and information to be included about the option to be heard."
+      },
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:64e6740ad9e8cb86c73261822150dc70b619c64e7b7ed569ef55f4b8c4b889be",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 9.5. Amendments to other documents",
     "images": [],
     "last_amended": "2025-10-22",

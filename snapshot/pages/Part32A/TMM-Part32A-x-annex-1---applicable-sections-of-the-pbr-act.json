@@ -34,6 +34,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-annex-1---applicable-sections-of-the-pbr-act#1",
       "content_hash": "sha256:99396580957f030791ea57c0b22518549b70857ab6cbf5828caec8e1a25f17f6",
+      "emphasis": [
+        {
+          "end": 11,
+          "kind": "b",
+          "start": 0,
+          "text": "Definitions"
+        },
+        {
+          "end": 27,
+          "kind": "b",
+          "start": 12,
+          "text": "\"plant variety\""
+        },
+        {
+          "end": 27,
+          "kind": "i",
+          "start": 12,
+          "text": "\"plant variety\""
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -202,6 +222,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-annex-1---applicable-sections-of-the-pbr-act/section-11-general-nature-of-pbr",
       "content_hash": "sha256:b62c8ba71a50cbe94242d1806dfb367fb064e7fc894835794ce39f159bcb8bcd",
+      "emphasis": [
+        {
+          "end": 522,
+          "kind": "strong",
+          "start": 517,
+          "text": "Note:"
+        },
+        {
+          "end": 871,
+          "kind": "b",
+          "start": 796,
+          "text": "Section 14: Extension of PBR to harvested material in certain circumstances"
+        },
+        {
+          "end": 1646,
+          "kind": "b",
+          "start": 1548,
+          "text": "Section 15: Extension of PBR to products obtained from harvested material in certain circumstances"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -515,6 +555,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-annex-1---applicable-sections-of-the-pbr-act/section-53-infringement-of-pbr",
       "content_hash": "sha256:e0307ecaab438ab630783cab00c904e036cb30b8a7c3dd1439b3e0cc246dfcde",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -584,11 +625,33 @@
   ],
   "page": {
     "amendment_note": "Content updated - references to s 27 of the PBR Act removed",
+    "amendments": [
+      {
+        "date": "2026-04-20",
+        "reason": "Content updated - references to s 27 of the PBR Act removed"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-03-11",
+        "reason": "Remove text highlights."
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-03-05",
+        "reason": "Additions to Annex 1: definitions, section 14, section 15 of PBR Act."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b8f23cfc6b408b46725b6e945b08971baf1ac263c8b149b94c2ea8f4ec19ddf6",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32A. Annex 1 - Applicable Sections of the PBR Act",
     "images": [],
     "last_amended": "2026-04-20",

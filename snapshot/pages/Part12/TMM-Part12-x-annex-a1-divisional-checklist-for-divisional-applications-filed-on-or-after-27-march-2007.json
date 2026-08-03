@@ -14,6 +14,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/x-annex-a1-divisional-checklist-for-divisional-applications-filed-on-or-after-27-march-2007#1",
       "content_hash": "sha256:04d63794bce8d45f6cd504a384baad6e20bde360a1145c5aca65e34911090c1a",
+      "emphasis": [
+        {
+          "end": 117,
+          "kind": "strong",
+          "start": 115,
+          "text": "NO"
+        },
+        {
+          "end": 128,
+          "kind": "u",
+          "start": 125,
+          "text": "not"
+        },
+        {
+          "end": 536,
+          "kind": "strong",
+          "start": 527,
+          "text": "some only"
+        },
+        {
+          "end": 660,
+          "kind": "strong",
+          "start": 654,
+          "text": "parent"
+        },
+        {
+          "end": 735,
+          "kind": "strong",
+          "start": 732,
+          "text": "YES"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -149,11 +181,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f942040dfc7b6eff189ce26aad64928a02faf181773b0004d4e5db59ff55618e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Annex A1 Divisional Checklist (for divisional applications filed on or after 27 March 2007)",
     "images": [],
     "last_amended": "2026-07-20",

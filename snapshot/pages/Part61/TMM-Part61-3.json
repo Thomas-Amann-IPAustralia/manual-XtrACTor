@@ -61,6 +61,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/3/3/1",
       "content_hash": "sha256:a28c7f1318c900ba362724e30fcb91442766eb91614c48cfca9d5666c9824dc0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -119,6 +120,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/3/3/2",
       "content_hash": "sha256:7af7d0a2e1c4bed41534d1dae4d9586535c404b910957c109c155f366f89ff9a",
+      "emphasis": [
+        {
+          "end": 118,
+          "kind": "i",
+          "start": 91,
+          "text": "Freedom of Information Act."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -152,6 +161,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/3/3/3",
       "content_hash": "sha256:69de312e301a76dd85b4124dfb72a3a114b79f0ed05b167897784ad18453049e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -185,6 +195,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/3/3/4",
       "content_hash": "sha256:508fadfa7fe11b714bf95079ae3e2295db5e756b3a4a2bd5ac5f71f367cb0c35",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -211,11 +222,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed and content updated.",
+    "amendments": [
+      {
+        "date": "2022-07-29",
+        "reason": "Page renamed and content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:a9b9f417591eb14297133c76bc534389ec7bba8a707ed9a0814406bef5f05c41",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61.3. Documents to be made Available for Public Inspection (API)",
     "images": [],
     "last_amended": "2022-07-29",

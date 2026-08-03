@@ -66,6 +66,74 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/x-relevant-legislation15#1",
       "content_hash": "sha256:d1c6f2ecf5716b71d6493ce53644bb8fca2751fbc6474b312e71110be74c83c2",
+      "emphasis": [
+        {
+          "end": 14,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published"
+        },
+        {
+          "end": 47,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 47,
+          "kind": "strong",
+          "start": 27,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 47,
+          "kind": "u",
+          "start": 27,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 53,
+          "kind": "strong",
+          "start": 48,
+          "text": "(Cth)"
+        },
+        {
+          "end": 53,
+          "kind": "u",
+          "start": 48,
+          "text": "(Cth)"
+        },
+        {
+          "end": 257,
+          "kind": "i",
+          "start": 229,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 257,
+          "kind": "strong",
+          "start": 229,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 257,
+          "kind": "u",
+          "start": 229,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 263,
+          "kind": "strong",
+          "start": 258,
+          "text": "(Cth)"
+        },
+        {
+          "end": 263,
+          "kind": "u",
+          "start": 258,
+          "text": "(Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -165,11 +233,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed and links updated.",
+    "amendments": [
+      {
+        "date": "2025-05-14",
+        "reason": "Page renamed and links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2d79eeb43f5a943749ac99f43a6bf65614b6545055bcee4e6bfcefd418bd92e3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "4. Landing Page",
     "images": [],
     "last_amended": "2025-05-14",

@@ -607,3 +607,213 @@ def test_a_number_its_instrument_cannot_express_is_rejected(tmp_path, identifier
         },
     )
     only(validate_snapshot(tmp_path), identifier)
+
+
+# -- emphasis --------------------------------------------------------------
+
+
+def test_an_emphasis_span_whose_offsets_name_other_words_is_caught(tmp_path):
+    """`_link_failures`' contract, on the other positioned field. A span
+    drifted by one character emphasises the wrong words and stays well-formed
+    while doing it, which is exactly what the schema cannot see."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="See Cantarella Bros v Modena [2014] HCA 48.",
+                    emphasis=[
+                        {
+                            "kind": "i",
+                            "text": "Cantarella Bros v Modena",
+                            "start": 3,
+                            "end": 27,
+                        }
+                    ],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "name different words")
+
+
+def test_an_emphasis_span_running_past_the_end_of_the_text_is_caught(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="Short.",
+                    emphasis=[
+                        {"kind": "strong", "text": "Short.", "start": 0, "end": 40}
+                    ],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "is not a non-empty span of a")
+
+
+def test_an_empty_emphasis_span_is_caught(tmp_path):
+    """Stricter than `links`, which keeps zero-width anchors on purpose. An
+    `<i>` around nothing asserts nothing about any words, so `emphasis.py`
+    drops it — one reaching a file means the extractor emitted something it
+    does not believe in."""
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="Some text.",
+                    emphasis=[{"kind": "i", "text": "", "start": 4, "end": 4}],
+                )
+            ],
+        },
+    )
+    only(validate_snapshot(tmp_path), "is not a non-empty span of a")
+
+
+def test_an_emphasis_span_that_names_its_own_words_passes(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(
+                    text="See Cantarella Bros v Modena [2014] HCA 48.",
+                    emphasis=[
+                        {
+                            "kind": "i",
+                            "text": "Cantarella Bros v Modena",
+                            "start": 4,
+                            "end": 28,
+                        }
+                    ],
+                )
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []
+
+
+# -- the amendment history -------------------------------------------------
+
+
+def test_amendments_out_of_order_are_caught(tmp_path):
+    """Newest-first is what makes `[0]` the head that `last_amended` names."""
+    write(
+        tmp_path,
+        {
+            "page": page(
+                last_amended="2024-06-01",
+                amendment_note="Minor updates.",
+                amendments=[
+                    {"date": "2020-01-01", "reason": "Older."},
+                    {"date": "2024-06-01", "reason": "Minor updates."},
+                ],
+            ),
+            "chunks": [chunk()],
+        },
+    )
+    only(validate_snapshot(tmp_path), "is not newest-first")
+
+
+def test_last_amended_disagreeing_with_the_history_is_caught(tmp_path):
+    """Two representations of one fact is the arrangement SCHEMA.md warns
+    about, permitted here only because `parse_page` derives one from the other.
+    This is the check that keeps that true over the whole snapshot."""
+    write(
+        tmp_path,
+        {
+            "page": page(
+                last_amended="2019-01-01",
+                amendment_note="Minor updates.",
+                amendments=[{"date": "2024-06-01", "reason": "Minor updates."}],
+            ),
+            "chunks": [chunk()],
+        },
+    )
+    only(validate_snapshot(tmp_path), "page.last_amended is")
+
+
+def test_an_amendment_note_disagreeing_with_the_history_is_caught(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(
+                last_amended="2024-06-01",
+                amendment_note="Something else.",
+                amendments=[{"date": "2024-06-01", "reason": "Minor updates."}],
+            ),
+            "chunks": [chunk()],
+        },
+    )
+    only(validate_snapshot(tmp_path), "page.amendment_note is")
+
+
+def test_an_unreadable_amendment_date_is_caught(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(
+                last_amended="2024-06-01",
+                amendment_note="Minor updates.",
+                amendments=[
+                    {"date": "2024-06-01", "reason": "Minor updates."},
+                    {"date": "not a date", "reason": "Older."},
+                ],
+            ),
+            "chunks": [chunk()],
+        },
+    )
+    only(validate_snapshot(tmp_path), "is not a date")
+
+
+def test_a_history_agreeing_with_its_head_passes(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(
+                last_amended="2024-06-01",
+                amendment_note="Minor updates.",
+                amendments=[
+                    {"date": "2024-06-01", "reason": "Minor updates."},
+                    {"date": "2022-04-20", "reason": "Update hyperlinks"},
+                    {"date": "2021-11-09", "reason": None},
+                ],
+            ),
+            "chunks": [chunk()],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []
+
+
+def test_a_page_with_no_amendment_table_passes(tmp_path):
+    write(
+        tmp_path,
+        {
+            "page": page(last_amended=None, amendment_note=None, amendments=[]),
+            "chunks": [chunk()],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []
+
+
+def test_a_nested_identical_emphasis_span_is_not_a_failure(tmp_path):
+    """193 of the corpus's spans are `<i><i>x</i></i>`. The validator checks
+    that offsets name their own words, not that spans are distinct."""
+    span = {"kind": "i", "text": "ordinary signification", "start": 4, "end": 26}
+    write(
+        tmp_path,
+        {
+            "page": page(),
+            "chunks": [
+                chunk(text="The ordinary signification of the word.",
+                      emphasis=[span, dict(span)])
+            ],
+        },
+    )
+    assert validate_snapshot(tmp_path) == []

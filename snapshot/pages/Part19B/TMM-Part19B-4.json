@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4#1",
       "content_hash": "sha256:793ffea3327437f0c585143a5540fa90d98272f10e128af102c10c8856b20c57",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -77,6 +78,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4/4/1",
       "content_hash": "sha256:2def47ff446d778ecbb78505971903219b563c1875063dca87dfbca37d78fb4c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -144,6 +146,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4/4/2",
       "content_hash": "sha256:42d22c43b23bfcfb3c9cb55b38d618890315339879ef43c51225368fded66f83",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -190,6 +193,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4/4/3",
       "content_hash": "sha256:bbb448dfa5dc6eb0abb00c9f61a31096c1992d37d2c0b960e0c6e00f43b122b1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -247,6 +251,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4/4/4~1",
       "content_hash": "sha256:4c41bc150e3cd4eb006e2c95153bbbd0a87f031aa7aac3ad998670942dd06d7d",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -358,6 +363,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/4/4/4~2",
       "content_hash": "sha256:8267571c2995e5c7a0969f39f4a3c528943c82cbb82eaafaf012a28a8433c91a",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -510,11 +516,29 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d50a879a3d27d5aa135b83dce8f2c427fd0593f712854c216e6c3f4bb5bc6257",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19B.4. The right to take infringement action",
     "images": [],
     "last_amended": "2022-04-20",

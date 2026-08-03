@@ -10,6 +10,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2#1",
       "content_hash": "sha256:ddc32c6b14822d57cc13b56065f8a2a2ec5a602ebd231ad0faead8b8670b381e",
+      "emphasis": [
+        {
+          "end": 44,
+          "kind": "strong",
+          "start": 41,
+          "text": "may"
+        },
+        {
+          "end": 112,
+          "kind": "strong",
+          "start": 102,
+          "text": "prescribed"
+        },
+        {
+          "end": 192,
+          "kind": "u",
+          "start": 152,
+          "text": "subsection 39(2) (subparagraph 39(2)(a))"
+        },
+        {
+          "end": 196,
+          "kind": "strong",
+          "start": 194,
+          "text": "OR"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -125,6 +151,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/1",
       "content_hash": "sha256:3ecdd41babd07690fc338e88cfb1050a2143f0f90550071b64af7349aede6084",
+      "emphasis": [
+        {
+          "end": 352,
+          "kind": "i",
+          "start": 328,
+          "text": "Circuit Layouts Act 1989"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -177,6 +211,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/2",
       "content_hash": "sha256:a85e785876fd9783cebee964d2bfee0f28bed092f570a7182a0a3d900dc94a6a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -223,6 +258,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/3",
       "content_hash": "sha256:28c5dafee83fd735e7231757c722e507f91a7a088e5446d36d33b3b301c1333c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -269,6 +305,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/4",
       "content_hash": "sha256:e0cf50f48daee235329b41520d245ce894eddab6b1bd9a7f12676caaad365212",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -342,6 +379,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/5",
       "content_hash": "sha256:0fcab20c66cff950328e924b3773c70eb2acd1fbd350bd90f9ca1852edc1cf9a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -427,6 +465,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/2/2/6",
       "content_hash": "sha256:9f1f7d6e8f6ab943bba4cf656d8fd86fe882b858c4490c0c7ba73bc70a628302",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -477,11 +516,29 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-22",
+        "reason": "Whole part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-02-18",
+        "reason": "Minor amendment to layour of text."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:87928b4a23be814818c8084e43e45b809ecbdadcf29fb85f623dce2805c7bcd9",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.2. Prescribed signs - subsection 39(2)",
     "images": [],
     "last_amended": "2026-07-22",

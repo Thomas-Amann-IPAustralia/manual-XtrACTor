@@ -44,6 +44,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/x-relevant-legislation36#1",
       "content_hash": "sha256:494df643ad2ba23cce19c793e73fecb35e364b74aeb37e04c9a466bc0d752eee",
+      "emphasis": [
+        {
+          "end": 14,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published"
+        },
+        {
+          "end": 42,
+          "kind": "strong",
+          "start": 27,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 371,
+          "kind": "strong",
+          "start": 366,
+          "text": "Note:"
+        },
+        {
+          "end": 653,
+          "kind": "i",
+          "start": 633,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 653,
+          "kind": "strong",
+          "start": 633,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 663,
+          "kind": "strong",
+          "start": 654,
+          "text": "(The Act)"
+        },
+        {
+          "end": 763,
+          "kind": "i",
+          "start": 735,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 763,
+          "kind": "strong",
+          "start": 735,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -111,11 +161,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:206a7b273e6a1f607f6b3ea5140518be31da8759f7b0dbf2f267f1c40183df04",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60. Landing Page",
     "images": [],
     "last_amended": "2026-04-17",

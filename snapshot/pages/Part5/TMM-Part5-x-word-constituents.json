@@ -74,6 +74,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents#1",
       "content_hash": "sha256:adf95589fe3f09e3ca842a863f5464aae3f358d6fbde0e5951dfe2ea7f68c7bf",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "strong",
+          "start": 0,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -199,6 +207,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/the-breakdown-of-words",
       "content_hash": "sha256:6eda374ce39d3514fafc4dfecb597cc8c2c39e9e54c3dc8e3b786ad96e045353",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -232,6 +241,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/stop-words",
       "content_hash": "sha256:73157f7f48f7a430aeba244a93d6fd85f81fd5d1b4e889e7e268774581f240de",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -277,6 +287,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters",
       "content_hash": "sha256:5df86a35ce1898999fed56935486fb54827ce055c3d273def6e7c52513934940",
+      "emphasis": [
+        {
+          "end": 291,
+          "kind": "strong",
+          "start": 231,
+          "text": "To indicate a letter or letters the constituent LTR is used."
+        },
+        {
+          "end": 429,
+          "kind": "strong",
+          "start": 411,
+          "text": "equals sign prefix"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -314,6 +338,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters-or-words",
       "content_hash": "sha256:556e422eaa37afce102826b98575dc32b1d0ea52c1e9d488ed7493e75420fd9b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -355,6 +380,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/monograms",
       "content_hash": "sha256:ed7b78f92f39be063b9a71afeb1b9cb2d852162f01be8b5cd564ca798de9b564",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -404,6 +430,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters-which-occur-within-a-word-or-attached-to-words",
       "content_hash": "sha256:b7338893bd386dfd40cbd91bb7976082ed0abf670c9c3fbc82ac99094268e307",
+      "emphasis": [
+        {
+          "end": 1079,
+          "kind": "strong",
+          "start": 1069,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 1092,
+          "kind": "strong",
+          "start": 1080,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -498,6 +538,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters-that-stand-out-as-a-separate-feature-in-a-word",
       "content_hash": "sha256:659aed3b4b68981e5b8a4888d3ef26dfcf61c7b8783aaee711a3ef46c3016f57",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -531,6 +572,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-marks-containing-letters",
       "content_hash": "sha256:36fe12fc414fcaf4c87abdc3e796f479e63faba4bb3443633afd8738a5b7d826",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 11,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -691,6 +746,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/phonetic-equivalents-of-letters",
       "content_hash": "sha256:60285d6a0bf93cc7991cec1f6caa8db5fd10867f928644815c2729ae5a7da35e",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 11,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -771,6 +840,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-in-words",
       "content_hash": "sha256:942cab3ea4795d8001c96e47ae55b48d6a5b78477648edb9bb810e93113f8287",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 11,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -971,6 +1054,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/typescript-or-punctuation-symbols",
       "content_hash": "sha256:26f12261565b5daba0f7342237d073d82f5b37163c02337c595ec7f53068c2b5",
+      "emphasis": [
+        {
+          "end": 148,
+          "kind": "strong",
+          "start": 142,
+          "text": "Symbol"
+        },
+        {
+          "end": 159,
+          "kind": "strong",
+          "start": 149,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 190,
+          "kind": "strong",
+          "start": 160,
+          "text": "Current Automatic Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1186,6 +1289,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/indexing-and-symbols",
       "content_hash": "sha256:b7bed90b5979bdf2c78fc32a4ea10928f59323a3fc291ca5b98ef3947c067764",
+      "emphasis": [
+        {
+          "end": 515,
+          "kind": "strong",
+          "start": 505,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 528,
+          "kind": "strong",
+          "start": 516,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1322,6 +1439,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/accents-umlauts-diacritics",
       "content_hash": "sha256:1a91a52bdabdb1c5390d6286327e86b79359af2b78ae81a28d512147a7baff90",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1359,6 +1477,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/numbers",
       "content_hash": "sha256:d2c1a4b81838947cde35c0e03d68b6eae495e2f56f7480ffe299d415af0aa263",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1408,6 +1527,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/indexing-numbers",
       "content_hash": "sha256:619ceecf37026dfffd0f444f3cb4382d81b351b5154e1169bef74f3632457757",
+      "emphasis": [
+        {
+          "end": 109,
+          "kind": "strong",
+          "start": 103,
+          "text": "Number"
+        },
+        {
+          "end": 122,
+          "kind": "strong",
+          "start": 110,
+          "text": "Constituents"
+        },
+        {
+          "end": 437,
+          "kind": "strong",
+          "start": 427,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 450,
+          "kind": "strong",
+          "start": 438,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1532,6 +1677,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/fractions",
       "content_hash": "sha256:a3e8948d9ed2264246249657b37212219de2f85c0763dce9e07b9b9ac678ea2e",
+      "emphasis": [
+        {
+          "end": 113,
+          "kind": "strong",
+          "start": 107,
+          "text": "Number"
+        },
+        {
+          "end": 126,
+          "kind": "strong",
+          "start": 114,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1608,6 +1767,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/decimals",
       "content_hash": "sha256:e18b9276b69f136d297aad233832b9c01516adb61da39daee6f3f333f5804e8f",
+      "emphasis": [
+        {
+          "end": 108,
+          "kind": "strong",
+          "start": 102,
+          "text": "Number"
+        },
+        {
+          "end": 121,
+          "kind": "strong",
+          "start": 109,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1680,6 +1853,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/examples-of-indexing-trade-marks-containing-numbers",
       "content_hash": "sha256:81e8af348e3c377ed1e59729ba85e20e717556e05d0f5f82c65f2663d4373ca2",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 11,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1768,6 +1955,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/letters-featuring-with-words-or-letters",
       "content_hash": "sha256:3c17d47804c7676aea10d56081411c5ddb8f5f884b381d8c266b57c27af18be8",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 11,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1961,6 +2162,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/ozz-easy-and-quick-phonetics",
       "content_hash": "sha256:8dea60af836cf7edc36df25b78cea5c4882555d6281e5ec92eb528ec8ff2c097",
+      "emphasis": [
+        {
+          "end": 481,
+          "kind": "strong",
+          "start": 467,
+          "text": "EASY phonetics"
+        },
+        {
+          "end": 509,
+          "kind": "strong",
+          "start": 482,
+          "text": "(all with constituent EASY)"
+        },
+        {
+          "end": 523,
+          "kind": "strong",
+          "start": 510,
+          "text": "OZZ phonetics"
+        },
+        {
+          "end": 550,
+          "kind": "strong",
+          "start": 524,
+          "text": "(all with constituent OZZ)"
+        },
+        {
+          "end": 566,
+          "kind": "strong",
+          "start": 551,
+          "text": "QUICK phonetics"
+        },
+        {
+          "end": 595,
+          "kind": "strong",
+          "start": 567,
+          "text": "(all with constituent QUICK)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2037,6 +2276,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-word-constituents/domain-names",
       "content_hash": "sha256:14572ae459b6529a8330d8cd8673e18122ad0a91c975ccc657cd7084ea44862d",
+      "emphasis": [
+        {
+          "end": 447,
+          "kind": "strong",
+          "start": 437,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 460,
+          "kind": "strong",
+          "start": 448,
+          "text": "Constituents"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2176,11 +2429,33 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-13",
+        "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-01-30",
+        "reason": "Updating Indexing procedure for words that contain special characters such as umlauts and accents."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:bc01b49966153e23256b70cd43cdf6bbba7486a11d5660520de192b3d272852a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Word Constituents",
     "images": [
       {

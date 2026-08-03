@@ -14,6 +14,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/x-relevant-legislation53#1",
       "content_hash": "sha256:3f696527a760daafa33f71245248f49304811c8df290a344fdabe287afa9ee77",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -46,11 +54,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0767435328c85b7a94507f8070bd01cf110e9c8369713e95a999b46264196634",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

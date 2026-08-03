@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/4#1",
       "content_hash": "sha256:ede16147baf9c2dc1b8c54225e1da1ba5e2b628cd0eca39c71940047a4477dd8",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -97,6 +135,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/4/4/1~1",
       "content_hash": "sha256:30a635cfa0adaf090d60218b876ed5408cadbddf9bb946fa460b6caf89bfb8e8",
+      "emphasis": [
+        {
+          "end": 12,
+          "kind": "strong",
+          "start": 0,
+          "text": "PLEASE NOTE:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -210,6 +256,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/4/4/1~2",
       "content_hash": "sha256:ba514141f52cd6c639584a1aaffe39773fd08efaa75f0f01a3371fecb3556c02",
+      "emphasis": [
+        {
+          "end": 1493,
+          "kind": "strong",
+          "start": 1490,
+          "text": "may"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -291,6 +345,32 @@
       ],
       "chunk_ref": "TMM/Part51/4/4/2~1",
       "content_hash": "sha256:e8b494dae5d4021be64ea700358044407c298144394049c673df9fea2dee9cdf",
+      "emphasis": [
+        {
+          "end": 327,
+          "kind": "i",
+          "start": 255,
+          "text": "Ayrton Senna Promocoes e Emprendimentos Ltda v Senna Racing Team Pty Ltd"
+        },
+        {
+          "end": 418,
+          "kind": "i",
+          "start": 377,
+          "text": "Cadbury UK Ltd v Registrar of Trade Marks"
+        },
+        {
+          "end": 515,
+          "kind": "i",
+          "start": 464,
+          "text": "Administrative Decisions (Judicial Review) Act 1977"
+        },
+        {
+          "end": 619,
+          "kind": "i",
+          "start": 570,
+          "text": "Cadbury Ltd v Darrell Lea Chocolate Shops Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -340,6 +420,14 @@
       ],
       "chunk_ref": "TMM/Part51/4/4/2~2",
       "content_hash": "sha256:48d4c264727f7a834815c2366281d9873535b011b76b0250e7ffa98655bd26dd",
+      "emphasis": [
+        {
+          "end": 954,
+          "kind": "i",
+          "start": 904,
+          "text": "Lion Nathan Australia Pty Ltd v E & J Gallo Winery"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -388,6 +476,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/4/4/3",
       "content_hash": "sha256:3dd8fd5b008b945e0d6c3aa825dc6ca1752b88ca3edb7a3956a19910c89af09c",
+      "emphasis": [
+        {
+          "end": 1496,
+          "kind": "i",
+          "start": 1468,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -414,11 +510,41 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-04-19",
+        "reason": "Update to examples of circumstances that may be sufficient to allow suspension."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-10-15",
+        "reason": "Remove reference to Decision on the written record (obsolete term)."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:cb2ecb039ec692057380f3b5328f78199ecd6cad51b38c3b517e93646b44cc1a",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 51.4. Suspensions",
     "images": [],
     "last_amended": "2025-04-01",

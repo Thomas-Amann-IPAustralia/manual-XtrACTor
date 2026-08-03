@@ -18,6 +18,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/1#1",
       "content_hash": "sha256:9c7882eef3070c2a29152225ea9ecd741f9f64a3144cbf45e4e4647d793cdd89",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 72,
+          "kind": "i",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "end": 72,
+          "kind": "strong",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "end": 72,
+          "kind": "u",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -71,6 +127,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/1/1/1",
       "content_hash": "sha256:7c737edcd548f36aa4c10588c4c0c22b98dfd7ed73a747cb8053e957388477aa",
+      "emphasis": [
+        {
+          "end": 218,
+          "kind": "i",
+          "start": 194,
+          "text": "Wine Australia Act 2013."
+        },
+        {
+          "end": 504,
+          "kind": "i",
+          "start": 484,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 628,
+          "kind": "i",
+          "start": 608,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -129,6 +205,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/1/1/2",
       "content_hash": "sha256:f2f5ac5aa0a5bb7cf9b885d4f31eab194b3c05f4b0223b4ea53eba5f40ffaaaf",
+      "emphasis": [
+        {
+          "end": 72,
+          "kind": "i",
+          "start": 37,
+          "text": "Wine Australia Corporation Act 1980"
+        },
+        {
+          "end": 487,
+          "kind": "i",
+          "start": 412,
+          "text": "The Agreement Between Australia and the European Community on Trade in Wine"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -203,6 +293,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/1/1/3",
       "content_hash": "sha256:477b4457c36116f72b0b60c7022c87ee4c711c97faa9e34ad3b8fddff85dcf64",
+      "emphasis": [
+        {
+          "end": 66,
+          "kind": "i",
+          "start": 4,
+          "text": "Register of Protected Geographical Indications and Other Terms"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -242,11 +340,29 @@
   ],
   "page": {
     "amendment_note": "Hyperlinks fixed.",
+    "amendments": [
+      {
+        "date": "2025-01-10",
+        "reason": "Hyperlinks fixed."
+      },
+      {
+        "date": "2025-01-09",
+        "reason": "Links to relevant legislation added. Navigation item updated to include part."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5884829b6b7025d5d226d49bcb597cfdb55c01986e79aff6330665742bcd44d8",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32B.1. Introduction",
     "images": [],
     "last_amended": "2025-01-10",

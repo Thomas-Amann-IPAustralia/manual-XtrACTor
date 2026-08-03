@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5#1",
       "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -61,6 +99,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5/5/1",
       "content_hash": "sha256:f1703a4b04c30641621bd8da367c6a3e67ea3283a897a49422b4edfcbaf16b3a",
+      "emphasis": [
+        {
+          "end": 943,
+          "kind": "i",
+          "start": 878,
+          "text": "International Non-Proprietary Names for Pharmaceutical Substances"
+        },
+        {
+          "end": 1087,
+          "kind": "i",
+          "start": 1056,
+          "text": "Search For Pharmaceutical Names"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -117,6 +169,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5/5/2",
       "content_hash": "sha256:5e6f7000434bf3e3aa2a042e54334906a7c2de0fcda9f41545408353a85008a7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -167,6 +220,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5/5/3",
       "content_hash": "sha256:83e38b4ce2a77498c778b9feaa69c1c51f7e1ce3a0e29964705a130cb54639f1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -245,6 +299,50 @@
       ],
       "chunk_ref": "TMM/Part29/5/5/4",
       "content_hash": "sha256:86800dcce4d41f73e2792ad626162693402011f3c8ba4135bbf91f045f2a7b2f",
+      "emphasis": [
+        {
+          "end": 30,
+          "kind": "u",
+          "start": 29,
+          "text": "s"
+        },
+        {
+          "end": 692,
+          "kind": "i",
+          "start": 654,
+          "text": "Aventis Pharma SA v Alphapharm Pty Ltd"
+        },
+        {
+          "end": 780,
+          "kind": "i",
+          "start": 749,
+          "text": "Sanofi-Aventis v Eremad Pty Ltd"
+        },
+        {
+          "end": 1003,
+          "kind": "u",
+          "start": 1002,
+          "text": "s"
+        },
+        {
+          "end": 1463,
+          "kind": "i",
+          "start": 1273,
+          "text": "It is a condition of registration that any use in respect of pharmaceuticals will be limited to such goods containing the substance designated by the International Non-Proprietary Name <INN>"
+        },
+        {
+          "end": 1619,
+          "kind": "u",
+          "start": 1618,
+          "text": "s"
+        },
+        {
+          "end": 1656,
+          "kind": "i",
+          "start": 1636,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -339,6 +437,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5/5/5",
       "content_hash": "sha256:c4235ae85720f19a20037d7a4f5a41161ef68438cf8e1ea2d8e36b90b621b1bb",
+      "emphasis": [
+        {
+          "end": 30,
+          "kind": "u",
+          "start": 29,
+          "text": "s"
+        },
+        {
+          "end": 353,
+          "kind": "u",
+          "start": 352,
+          "text": "s"
+        },
+        {
+          "end": 859,
+          "kind": "i",
+          "start": 625,
+          "text": "It is a condition of registration that any use in respect of pharmaceuticals will be limited to such goods containing substances belonging to the pharmacological group designated by the International Non- Proprietary Name stem <stem>."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -373,10 +491,9 @@
       "page_ref": "TMM/Part29/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s43",
-          "mention": "section 43"
+          "mention": "s"
         }
       ],
       "tables": [],
@@ -482,6 +599,68 @@
       ],
       "chunk_ref": "TMM/Part29/5/5/6~1",
       "content_hash": "sha256:66817de6196f7150720015e718aecdc209059307b7d11869b0767ecd18e8e89a",
+      "emphasis": [
+        {
+          "end": 785,
+          "kind": "strong",
+          "start": 777,
+          "text": "IFLURANE"
+        },
+        {
+          "end": 804,
+          "kind": "strong",
+          "start": 799,
+          "text": "MYCIN"
+        },
+        {
+          "end": 821,
+          "kind": "strong",
+          "start": 817,
+          "text": "ESTR"
+        },
+        {
+          "end": 1007,
+          "kind": "strong",
+          "start": 1004,
+          "text": "not"
+        },
+        {
+          "end": 1065,
+          "kind": "strong",
+          "start": 1062,
+          "text": "AST"
+        },
+        {
+          "end": 1087,
+          "kind": "strong",
+          "start": 1082,
+          "text": "QUINE"
+        },
+        {
+          "end": 1096,
+          "kind": "strong",
+          "start": 1093,
+          "text": "SOM"
+        },
+        {
+          "end": 1122,
+          "kind": "strong",
+          "start": 1119,
+          "text": "SAL"
+        },
+        {
+          "end": 1167,
+          "kind": "i",
+          "start": 1128,
+          "text": "Boehringer Ingelheim International GmbH"
+        },
+        {
+          "end": 1366,
+          "kind": "i",
+          "start": 1362,
+          "text": "most"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -525,6 +704,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/5/5/6~2",
       "content_hash": "sha256:eadbe3089dae6f38315f32f34c7148d18e1cfe8ba1644e9fc9f5963f47adc92e",
+      "emphasis": [
+        {
+          "end": 203,
+          "kind": "strong",
+          "start": 187,
+          "text": "all of the above"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -554,11 +741,33 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added.",
+    "amendments": [
+      {
+        "date": "2025-10-23",
+        "reason": "Links to legislation added."
+      },
+      {
+        "date": "2025-01-13",
+        "reason": "Removed published date Updated Aventis to Medium Neutral"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      },
+      {
+        "date": "2021-05-12",
+        "reason": "Tagging new page to external TM manual"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0fd2a73bd04dc23a651620b7d1a353f75175c1ecfd3b4f4309cba1565a249980",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-23",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
     "images": [],
     "last_amended": "2025-10-23",

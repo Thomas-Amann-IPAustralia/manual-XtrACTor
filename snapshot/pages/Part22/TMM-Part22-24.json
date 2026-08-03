@@ -23,6 +23,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/24#1",
       "content_hash": "sha256:880562cc14d8f6f20d37872e77471785edb39c65c4715e73bc233b1d60a11376",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -85,6 +86,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/24/24/1",
       "content_hash": "sha256:e5aa294f0428e0e255353023798d6caf1befea48dbb0e4dc4bd8e17e2ecd7984",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -135,6 +137,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/24/24/2",
       "content_hash": "sha256:881b734274003b7e4803cdc6e5191f8453288290cd195a9a62ae865b6375a808",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -163,8 +166,7 @@
       "page_ref": "TMM/Part22/24",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41",
           "mention": "section 41"
         }
@@ -175,11 +177,33 @@
   ],
   "page": {
     "amendment_note": "Reviewed - no changes.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Reviewed - no changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-01-25",
+        "reason": "Correcting link to Part 29.5"
+      },
+      {
+        "date": "2022-01-21",
+        "reason": "Fixing link to Part 29.5 INNs and INN stems which was renumbered."
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3da09d14dff60d584418e8451d9f2ec21357d826936af1d38a9ca74658e62577",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.24. Trade marks for pharmaceutical or veterinary substances",
     "images": [],
     "last_amended": "2022-12-19",

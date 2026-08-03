@@ -23,6 +23,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/2#1",
       "content_hash": "sha256:621ea0f3136bfc55a7d3384c7b5b1efeac03df1c0c59e2b7a5384c4f2afb6092",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -86,6 +124,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/2/2/1",
       "content_hash": "sha256:393648be6786eb9ee4351fd896ed363ca3e6ec81626d9f99476bee681d498696",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -153,6 +192,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/2/2/2",
       "content_hash": "sha256:b3f68fa0aee82c0bcfdd3099b07d5efb15e15234443428cadada811e35227ec9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -211,6 +251,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/2/2/3",
       "content_hash": "sha256:3943125b005bfcbd83fbb83da50957fced77b80695c45742726823da95458e75",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -244,6 +285,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/2/2/4",
       "content_hash": "sha256:cc542b5f265ae3460eaf52deeaf30c398bd8dd4c28edebbb4cc730303a4890ef",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -270,11 +312,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:8f443af1d43f98c0137052b3cb9437629f0a7ba81a408f2fc9ba780ba90f1da1",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 48.2. Application for removal/cessation of protection for non-use",
     "images": [],
     "last_amended": "2025-04-01",

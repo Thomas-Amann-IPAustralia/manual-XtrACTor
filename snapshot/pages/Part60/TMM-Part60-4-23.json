@@ -42,6 +42,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/23/4/23/1",
       "content_hash": "sha256:78492185346fbc78cb24abac0f61cce56af87c8e4eeef32f79f105044454440b",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 199,
+          "kind": "i",
+          "start": 171,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 199,
+          "kind": "strong",
+          "start": 171,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 374,
+          "kind": "i",
+          "start": 323,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        },
+        {
+          "end": 374,
+          "kind": "strong",
+          "start": 323,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -183,6 +221,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/23/4/23/2",
       "content_hash": "sha256:aec42cbd6bd7dc96c5ce00b92843a6fceb4b2bcd31603af081437b19ae00db00",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -229,11 +268,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:68aabd8eeb269b65d7bc62e317664e8ca5e5c34e16bbc18b269ece38c93ca89d",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.23 Claim to Interest in, or Right in Respect of a Trade Mark",
     "images": [],
     "last_amended": "2026-04-17",

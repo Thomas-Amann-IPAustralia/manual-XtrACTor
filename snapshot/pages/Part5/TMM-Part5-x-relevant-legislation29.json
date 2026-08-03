@@ -46,6 +46,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-relevant-legislation29#1",
       "content_hash": "sha256:e95bf4335530bb5e47ccd60a16545518f38de97de1de0d8edf36c7ec9509a924",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 273,
+          "kind": "strong",
+          "start": 258,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -150,11 +164,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:178fea62f94911f4932c9f26007df7f9ffb2557265c27cf866faca7665974164",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "5. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

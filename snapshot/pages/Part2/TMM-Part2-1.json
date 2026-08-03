@@ -66,6 +66,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/1/trade-marks-act-1995",
       "content_hash": "sha256:06a34aa6614adc6fbaf5cd4669fe5e8eb0efa91ee1b18fc49cdd00332d4f3aed",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -264,6 +265,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/1/trade-mark-regulations-1995",
       "content_hash": "sha256:cfe4e7d3e24a91b3e6d574e3f3f4be3b385b5baff6c5864c0050793f44d20990",
+      "emphasis": [
+        {
+          "end": 1125,
+          "kind": "i",
+          "start": 1078,
+          "text": "(Means and Form of Filing Documents Instrument)"
+        },
+        {
+          "end": 1176,
+          "kind": "i",
+          "start": 1143,
+          "text": "(Approved Means for Paying a Fee)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -405,11 +420,21 @@
   ],
   "page": {
     "amendment_note": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website.",
+    "amendments": [
+      {
+        "date": "2026-07-13",
+        "reason": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website."
+      },
+      {
+        "date": "2026-07-13",
+        "reason": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:06ff2cf7d91207ba487814a2815aed00b93b94b0c309389d82cfa322c10a4124",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 2.1 Landing Page",
     "images": [],
     "last_amended": "2026-07-13",

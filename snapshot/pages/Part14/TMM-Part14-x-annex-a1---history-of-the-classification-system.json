@@ -10,6 +10,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a1---history-of-the-classification-system#1",
       "content_hash": "sha256:f74b1a3e3d13f02870eb37b72d1f31b8308d4fcf47da6b83f2e068ebd90cb090",
+      "emphasis": [
+        {
+          "end": 36,
+          "kind": "strong",
+          "start": 0,
+          "text": "HISTORY OF THE CLASSIFICATION SYSTEM"
+        },
+        {
+          "end": 36,
+          "kind": "strong",
+          "start": 0,
+          "text": "HISTORY OF THE CLASSIFICATION SYSTEM"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -40,6 +54,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a1---history-of-the-classification-system/the-international-classification-and-the-nice-agreement",
       "content_hash": "sha256:b1859131e3d773f17705d3fb006264d4299fb8020d3ef342134f7ff9a0bc6c30",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -117,6 +132,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a1---history-of-the-classification-system/amendments-to-the-international-classification",
       "content_hash": "sha256:75f76098c1a15bd37713b486ae96d44d395ad1f890784afa844afac9573098e8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -201,6 +217,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a1---history-of-the-classification-system/further-information-on-the-various-editions",
       "content_hash": "sha256:e4fd0af6fd62237c97840889b18cddf2865caffc9e4a003dfeeb37f8a5901937",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -227,11 +244,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3fcccc3ec2778ebd1f9f8bca155bf90a61a8deb71c33455c5db6e047f7a8335a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14. Annex A1 - History of the classification system",
     "images": [],
     "last_amended": "2022-04-20",

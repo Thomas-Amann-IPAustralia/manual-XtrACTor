@@ -54,6 +54,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/3/4/3/1",
       "content_hash": "sha256:c8543e3f0dfc28515fb94eddfae64cdb89ef9dccf28c2120ae2b1f3e657fef0e",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 79,
+          "kind": "i",
+          "start": 52,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 79,
+          "kind": "strong",
+          "start": 52,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 242,
+          "kind": "i",
+          "start": 214,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 242,
+          "kind": "strong",
+          "start": 214,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 419,
+          "kind": "i",
+          "start": 368,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        },
+        {
+          "end": 419,
+          "kind": "strong",
+          "start": 368,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -183,6 +233,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/3/4/3/2",
       "content_hash": "sha256:e494b3f593a812531fdba3b05e5fd52f41d0c7fe63371243f3bf2436256e147c",
+      "emphasis": [
+        {
+          "end": 346,
+          "kind": "strong",
+          "start": 335,
+          "text": "filing date"
+        },
+        {
+          "end": 659,
+          "kind": "strong",
+          "start": 642,
+          "text": "notification date"
+        },
+        {
+          "end": 811,
+          "kind": "strong",
+          "start": 800,
+          "text": "expiry date"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -209,11 +279,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:75f68867732f688dd5e2983059c642bab7ea2f9212f132193dfc253f599d782b",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.3 Filing/Data Capture/Allocation of Australian Trade Mark Number",
     "images": [],
     "last_amended": "2026-04-17",

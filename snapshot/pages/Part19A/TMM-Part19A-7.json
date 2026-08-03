@@ -43,6 +43,20 @@
       ],
       "chunk_ref": "TMM/Part19A/7#1",
       "content_hash": "sha256:3a8b77b69b09f843547e966ac8cfc7c2a65ff1181a76cb7de1120c665cf58a86",
+      "emphasis": [
+        {
+          "end": 848,
+          "kind": "i",
+          "start": 810,
+          "text": "PB Foods Ltd v Malanda Dairy Foods Ltd"
+        },
+        {
+          "end": 1188,
+          "kind": "i",
+          "start": 1138,
+          "text": "PDP Capital Pty Ltd v Grasshopper Ventures Pty Ltd"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -102,6 +116,14 @@
       ],
       "chunk_ref": "TMM/Part19A/7/7/1",
       "content_hash": "sha256:15e54c64fffdcd8f760723b42c1c22f67ef0b2f9035da86b17b40e88b7912634",
+      "emphasis": [
+        {
+          "end": 59,
+          "kind": "i",
+          "start": 3,
+          "text": "E. & J. Gallo Winery v Lion Nathan Australia Pty Limited"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -130,8 +152,7 @@
       "page_ref": "TMM/Part19A/7",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s7(1)",
           "mention": "s 7(1)"
         }
@@ -142,11 +163,37 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2023-10-12",
+        "reason": "Fixed image webpart"
+      },
+      {
+        "date": "2023-10-10",
+        "reason": "Formatting correction."
+      },
+      {
+        "date": "2023-10-09",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:cc13e01748e5cedc6a53110506a04bc76a4ba123d88ad705a4d29dcccd60a59f",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A.7. Use of a trade mark with additions or alterations",
     "images": [
       {

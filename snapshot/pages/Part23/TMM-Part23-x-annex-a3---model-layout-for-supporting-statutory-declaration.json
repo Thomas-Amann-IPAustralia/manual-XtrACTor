@@ -10,6 +10,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part23/x-annex-a3---model-layout-for-supporting-statutory-declaration#1",
       "content_hash": "sha256:c6ff359918039901bda66c836b082d5769edc96ec4513aee2fe466fe65a317d2",
+      "emphasis": [
+        {
+          "end": 11,
+          "kind": "strong",
+          "start": 0,
+          "text": "DECLARATION"
+        },
+        {
+          "end": 91,
+          "kind": "strong",
+          "start": 12,
+          "text": "SUPPORTING STATEMENT FOR AN APPLICATION UNDER SECTION 41 OF THE TRADE MARKS ACT"
+        },
+        {
+          "end": 541,
+          "kind": "i",
+          "start": 92,
+          "text": "1. I, [name], of [address], being the [position] of [company], a position which I have held since [year], solemnly declare that the evidence herein comes from [source of information] and I am duly authorised to speak on my company's behalf in support of the acceptance for registration of application [number] for the trade mark [nominate or describe] in respect of [designated goods/services] in the name of [the applicant/name of authorised user]."
+        },
+        {
+          "end": 687,
+          "kind": "i",
+          "start": 542,
+          "text": "2. My experience in the [trade] in [state/s of the Commonwealth] arises from [number] years in that trade. [Insert other details if appropriate.]"
+        },
+        {
+          "end": 1023,
+          "kind": "i",
+          "start": 688,
+          "text": "3. I identify this trade mark with the goods/services of the applicant only. I consider that its use by any trader other than the applicant on the goods/services designated, or on similar goods/services, could result only from an improper motive on the part of a competitor and would result in confusion and deception within the trade."
+        },
+        {
+          "end": 1116,
+          "kind": "i",
+          "start": 1024,
+          "text": "4. I have known of the use of this trade mark by the applicant since at least [insert year]."
+        },
+        {
+          "end": 1315,
+          "kind": "i",
+          "start": 1117,
+          "text": "And I make this solemn declaration conscientiously believing the same to be true and correct under the provisions of the Trade Marks Act 1995 and Regulation 21.6 of the Trade Marks Regulations 1995."
+        },
+        {
+          "end": 1327,
+          "kind": "i",
+          "start": 1316,
+          "text": "[SIGNATURE]"
+        },
+        {
+          "end": 1341,
+          "kind": "i",
+          "start": 1328,
+          "text": "[INSERT DATE]"
+        },
+        {
+          "end": 1375,
+          "kind": "i",
+          "start": 1342,
+          "text": "[Place where declaration is made]"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 23 Overcoming Grounds for Rejection under Section 41 - including Evidence of Use",
@@ -56,11 +118,29 @@
   ],
   "page": {
     "amendment_note": "Minor typo correction.",
+    "amendments": [
+      {
+        "date": "2025-10-21",
+        "reason": "Minor typo correction."
+      },
+      {
+        "date": "2025-02-11",
+        "reason": "Page renamed. Date published - removed."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9d70b510301c3f30b9542d66371150bedbe2ef9ecfd3ab00489a9a067c4b3e74",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-21",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 23. Annex A3 - Model layout for supporting statutory declaration",
     "images": [],
     "last_amended": "2025-10-21",

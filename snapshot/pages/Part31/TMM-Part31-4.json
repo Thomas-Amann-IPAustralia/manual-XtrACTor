@@ -22,6 +22,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/1",
       "content_hash": "sha256:d500c141157868b0250f4c1b2e33ab6de637536e8121bc57afe1f18d5cb62222",
+      "emphasis": [
+        {
+          "end": 859,
+          "kind": "strong",
+          "start": 844,
+          "text": "Circuit layouts"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -61,10 +69,9 @@
           "mention": ")"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r4.15(a)",
-          "mention": "regulation 4.15(a)"
+          "mention": "sub regulation 4.15(a) and (b"
         }
       ],
       "tables": [],
@@ -138,6 +145,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/2/1",
       "content_hash": "sha256:936bf8c4459af5abb5093f2d6f5ccb4f711affba78806aa3e7cfe44017cade1f",
+      "emphasis": [
+        {
+          "end": 1039,
+          "kind": "strong",
+          "start": 1035,
+          "text": "Note"
+        },
+        {
+          "end": 1145,
+          "kind": "i",
+          "start": 1112,
+          "text": "Competition and Consumer Act 2010"
+        },
+        {
+          "end": 1177,
+          "kind": "i",
+          "start": 1155,
+          "text": "Criminal Code Act 1995"
+        },
+        {
+          "end": 1400,
+          "kind": "strong",
+          "start": 1396,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -342,6 +375,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/2/2~1",
       "content_hash": "sha256:0e200237853f723acd15a310235d0552dc3db4b5d53f6bc921a1ed838f98703a",
+      "emphasis": [
+        {
+          "end": 101,
+          "kind": "strong",
+          "start": 0,
+          "text": "Australian flags include the Australian National flag, Aboriginal flag and Torres Strait Island flag."
+        },
+        {
+          "end": 311,
+          "kind": "i",
+          "start": 283,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 351,
+          "kind": "i",
+          "start": 331,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 530,
+          "kind": "strong",
+          "start": 506,
+          "text": "Australian National Flag"
+        },
+        {
+          "end": 1485,
+          "kind": "strong",
+          "start": 1482,
+          "text": "not"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -408,10 +473,9 @@
           "mention": "Section 39"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r4.15(c)",
-          "mention": "regulation 4.15(c) of the Trade Marks Regulations 1995"
+          "mention": "regulation 4.15(c)"
         }
       ],
       "tables": [],
@@ -443,6 +507,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/2/2~2",
       "content_hash": "sha256:5467d010bcf796f636785457982868db87b907a228c70ecc7ce25832ba793bb8",
+      "emphasis": [
+        {
+          "end": 352,
+          "kind": "strong",
+          "start": 309,
+          "text": "Aboriginal and Torres Strait Islander flags"
+        },
+        {
+          "end": 1077,
+          "kind": "strong",
+          "start": 1072,
+          "text": "Note:"
+        },
+        {
+          "end": 1222,
+          "kind": "i",
+          "start": 1202,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 1222,
+          "kind": "i",
+          "start": 1202,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -521,6 +611,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/2/3",
       "content_hash": "sha256:907b918ee9af43fba5c15822cf5ea36248d9e687e89dcfe27aeb2ec4d6beb6d7",
+      "emphasis": [
+        {
+          "end": 73,
+          "kind": "i",
+          "start": 57,
+          "text": "Acacia pycnantha"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -561,8 +659,7 @@
       "page_ref": "TMM/Part31/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s39",
           "mention": "section 39"
         }
@@ -580,6 +677,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/3",
       "content_hash": "sha256:e0a8f61449b9539c0337def16e84fd8edbf15d5e40a7edd94c0a9e992341b7af",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -608,10 +706,9 @@
       "page_ref": "TMM/Part31/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s39(2)",
-          "mention": "subsection 39(2)"
+          "mention": "subsection 39(2)."
         }
       ],
       "tables": [],
@@ -631,6 +728,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/4",
       "content_hash": "sha256:a82236a74e53e50cd3ab8cd282f5ac2a548996e5c8ad798618621768a94ca36f",
+      "emphasis": [
+        {
+          "end": 37,
+          "kind": "strong",
+          "start": 0,
+          "text": "Notified signs –International flags –"
+        },
+        {
+          "end": 72,
+          "kind": "strong",
+          "start": 37,
+          "text": "Subreg 4.15 (e) and Subreg 4.15(da)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -684,6 +795,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/4/1",
       "content_hash": "sha256:df5bfc45486713e032ebbed43cf0fb88120d8c8dd7426e5b3e9563a6b8a1f764",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -759,6 +871,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/4/2",
       "content_hash": "sha256:8e1a0d9990e5a593d05d10a3b0bdd07cb1bd9460b0c964f17522349234b5c1d6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -851,6 +964,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/4/3",
       "content_hash": "sha256:5a35274c9394f226dfaa5490c875720059ce9291c3b2c1e95e95c13ea679d362",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -894,6 +1008,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/4/4/4/4",
       "content_hash": "sha256:77fdf351a09e43fd6cbd4b78fada8feb27383460687d55f9d2882a21f8c78b0e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -933,11 +1048,37 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-22",
+        "reason": "Whole part reviewed, content updated."
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      },
+      {
+        "date": "2021-02-18",
+        "reason": "Content updated."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6758ff49f9d970ddbb3ff32842797b65c2ed1f786b8c7769c3abd93fb9b0f71f",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.4. Practice for examining trade marks containing the signs specified in reg 4.15",
     "images": [
       {

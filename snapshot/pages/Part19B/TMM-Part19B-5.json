@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/5#1",
       "content_hash": "sha256:f885e374ed2ec4a7efb6f801c60a815641fa5d7d344059671e6228db1615e85c",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -74,6 +112,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19B/5/5/1",
       "content_hash": "sha256:b447587490b1405a865de65dc5b13566ee28df17ea36c4cf949cfb90468c8f8e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -143,6 +182,20 @@
       ],
       "chunk_ref": "TMM/Part19B/5/5/2",
       "content_hash": "sha256:22aa005c9fcc32f7eb460b1c7a9b5c9947b601b6ed1fe10b5a10ac7986178380",
+      "emphasis": [
+        {
+          "end": 213,
+          "kind": "strong",
+          "start": 210,
+          "text": "and"
+        },
+        {
+          "end": 690,
+          "kind": "i",
+          "start": 629,
+          "text": "Mayne Industries Pty Ltd v Advanced Engineering Group Pty Ltd"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19B Rights Given by Registration of a Trade Mark",
@@ -169,11 +222,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-06-03",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7c70ab6dd336cba9dbed7ec92cb445744d4b9aa56ca915d450574f8cea067f9d",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 19B.5. Loss of exclusive rights",
     "images": [],
     "last_amended": "2025-06-03",

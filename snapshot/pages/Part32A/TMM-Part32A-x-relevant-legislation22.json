@@ -58,6 +58,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-relevant-legislation22#1",
       "content_hash": "sha256:5bd79438c28ca845f41d8a69ef292fd97df1e1b15a95e422aeaf6c2548568cd7",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 570,
+          "kind": "strong",
+          "start": 539,
+          "text": "Plant Breeder’s Rights Act 1994"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -218,11 +232,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9477f359765fdd17aae6fba0e42fd6b2da162395b6b8859b2ed56691b6c1f829",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32A. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

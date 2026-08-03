@@ -62,6 +62,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part39/x-relevant-legislation17#1",
       "content_hash": "sha256:93a7834e88f5df31f90a8725877144a99fe1e742a52b5b9afa4a47a59d030295",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 495,
+          "kind": "i",
+          "start": 468,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 495,
+          "kind": "strong",
+          "start": 468,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 495,
+          "kind": "u",
+          "start": 468,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 39 Registration of a Trade Mark",
@@ -155,11 +193,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-06-04",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:11ee9937ab30a69b5d291c8b82e6678ebb596b97ea0cfcaddd3d237091ca973d",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 39. Landing Page",
     "images": [],
     "last_amended": "2025-06-04",

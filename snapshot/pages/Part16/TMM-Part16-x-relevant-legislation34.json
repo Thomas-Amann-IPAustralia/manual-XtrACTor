@@ -46,6 +46,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/x-relevant-legislation34#1",
       "content_hash": "sha256:7ad65677002ab4ba49267a3ab0473bb39021ccecd18cfda163c46254b50ad207",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 157,
+          "kind": "i",
+          "start": 130,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 157,
+          "kind": "strong",
+          "start": 130,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -121,11 +153,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Part published date added. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-18",
+        "reason": "Page renamed. Part published date added. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e00a65e075dc6c02bdbbcc043ebd2f29ea74a0dd91faf88213722adc26e08aab",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-02-18",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 16. Landing Page",
     "images": [],
     "last_amended": "2025-02-18",

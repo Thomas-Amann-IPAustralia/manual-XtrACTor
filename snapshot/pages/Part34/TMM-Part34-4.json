@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/4#1",
       "content_hash": "sha256:963c7c8b2f0847f05ddbd558af7ce8da082e790689824f219b4b7c0a2f5d79ac",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -64,6 +102,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/4/4/1",
       "content_hash": "sha256:8820496ecc7ecfa9341c8602b33f4319e495154ce4d475e65240a7c88e37ee96",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -105,6 +144,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/4/4/2",
       "content_hash": "sha256:ae71273b460ab8dee831842335506888a6360c2ceb900928e55a4191090f2335",
+      "emphasis": [
+        {
+          "end": 737,
+          "kind": "strong",
+          "start": 733,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -150,11 +197,25 @@
   ],
   "page": {
     "amendment_note": "Updated 4.1 Formality requirements to remove reference to entering an endorsement for defensive marks.",
+    "amendments": [
+      {
+        "date": "2025-12-18",
+        "reason": "Updated 4.1 Formality requirements to remove reference to entering an endorsement for defensive marks."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e8a48c824ce7dd6965ffdce01e9ac40551a9bbb4bc3f406faf1a96dbc4e5a2bc",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-12-18",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 34.4. Registrability of defensive trade marks",
     "images": [],
     "last_amended": "2025-12-18",

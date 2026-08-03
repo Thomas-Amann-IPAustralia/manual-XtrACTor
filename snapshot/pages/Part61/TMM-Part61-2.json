@@ -14,6 +14,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2#1",
       "content_hash": "sha256:5ed66fd13586224f2d764002f399a105566b8768a5613e6a11736e3a83316d10",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -41,8 +42,7 @@
           "mention": "section 11C"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
           "mention": "section 217A"
         }
@@ -60,6 +60,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/1",
       "content_hash": "sha256:b5c3b57915f486371266be375a230c41ba92506bb69aeeb19c95ac4c7cc6304b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -101,6 +102,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/2",
       "content_hash": "sha256:6b9ce11668ddbd15cc355fbaba3e67cea799a6b2280027e9644c449d2bcec701",
+      "emphasis": [
+        {
+          "end": 306,
+          "kind": "i",
+          "start": 280,
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "end": 306,
+          "kind": "i",
+          "start": 280,
+          "text": "Trade Marks Act 1995 (Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -135,10 +150,14 @@
       "page_ref": "TMM/Part61/2",
       "provisions": [
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
-          "mention": "section 217A of the Trade Marks Act 1995"
+          "mention": "section 217A"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/sch9",
+          "mention": "Schedule 9"
         }
       ],
       "tables": [],
@@ -170,6 +189,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/3",
       "content_hash": "sha256:67b9ab47f643dcd89aa8751f6f3c5d3384bcbd0d1e62dcd1030a900fe6014459",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -232,6 +252,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/4",
       "content_hash": "sha256:cfe88b71cdf89fab63a9fd459902d36ffc0a2fb727d278e26f798638f2dbef5c",
+      "emphasis": [
+        {
+          "end": 37,
+          "kind": "strong",
+          "start": 0,
+          "text": "Request for internal review by agency"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -334,6 +362,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/4/1",
       "content_hash": "sha256:b81429c50a35ab58bc621b3197b372e2e36b22faff7ea400f4d10f9bdaee34e7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -436,6 +465,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/2/2/4/2",
       "content_hash": "sha256:b9c864d0987c4da9329fafa2bd256af5a935817539f444398a0ed9a62f9bcd47",
+      "emphasis": [
+        {
+          "end": 853,
+          "kind": "strong",
+          "start": 793,
+          "text": "Request for external review by Information Commissioner (IC)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -517,11 +554,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d2a0d695f9d149f332d6fcfcfd2a62ccaa3a9971804229526731107da57b3d84",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61.2. Accessing Documents",
     "images": [],
     "last_amended": "2022-04-20",

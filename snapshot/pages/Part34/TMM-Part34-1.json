@@ -22,6 +22,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/1/1/1",
       "content_hash": "sha256:7b44f7d0f5f4f947f0e52138b3d80f9f8b0553bebcd6d25b124069add4f2954b",
+      "emphasis": [
+        {
+          "end": 169,
+          "kind": "i",
+          "start": 149,
+          "text": "Trade Marks Act 1955"
+        },
+        {
+          "end": 169,
+          "kind": "i",
+          "start": 149,
+          "text": "Trade Marks Act 1955"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -59,6 +73,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/1/1/2",
       "content_hash": "sha256:14b4c2ce1b2118d38230da0e943073baed9ce9548f773cd29d1dc5a651a393e8",
+      "emphasis": [
+        {
+          "end": 31,
+          "kind": "i",
+          "start": 10,
+          "text": "Trade Marks Act 1995,"
+        },
+        {
+          "end": 31,
+          "kind": "i",
+          "start": 10,
+          "text": "Trade Marks Act 1995,"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -109,11 +137,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      },
+      {
+        "date": "2021-04-07",
+        "reason": "Minor typographical and content changes"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e4df689c86ae0f77b40d9f46a86d50657243d1ff56b61595fab29de642941485",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "34.1. Australian trademarks law and defensive trade marks",
     "images": [],
     "last_amended": "2022-04-20",

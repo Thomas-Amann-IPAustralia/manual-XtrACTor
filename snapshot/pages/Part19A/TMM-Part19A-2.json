@@ -67,6 +67,38 @@
       ],
       "chunk_ref": "TMM/Part19A/2#1~1",
       "content_hash": "sha256:94651642c65b3a60ce7c47e4a7939da1273292a293a133a26406e0a34382362c",
+      "emphasis": [
+        {
+          "end": 115,
+          "kind": "i",
+          "start": 75,
+          "text": "Coca-Cola Co v All-Fect Distributors Ltd"
+        },
+        {
+          "end": 705,
+          "kind": "i",
+          "start": 649,
+          "text": "E. & J. Gallo Winery v Lion Nathan Australia Pty Limited"
+        },
+        {
+          "end": 1488,
+          "kind": "i",
+          "start": 1426,
+          "text": "Anheuser-Busch, Inc v Budejovický Budvar, Národní Podnik & Ors"
+        },
+        {
+          "end": 1553,
+          "kind": "i",
+          "start": 1508,
+          "text": "Alcon Inc v Bausch & Lomb (Australia) Pty Ltd"
+        },
+        {
+          "end": 1620,
+          "kind": "i",
+          "start": 1575,
+          "text": "Nature's Blend Pty Ltd v Nestlé Australia Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -148,6 +180,32 @@
       ],
       "chunk_ref": "TMM/Part19A/2#1~2",
       "content_hash": "sha256:8db3f88d7d147f1da4a4b1d7a576e76adc32cbc29ba2b7cd98592479b46846ce",
+      "emphasis": [
+        {
+          "end": 774,
+          "kind": "i",
+          "start": 714,
+          "text": "Aldi Stores Ltd Partnership v Frito-Lay Trading Company GmbH"
+        },
+        {
+          "end": 1515,
+          "kind": "i",
+          "start": 1480,
+          "text": "Woolworths Limited v BP Plc (No. 2)"
+        },
+        {
+          "end": 1545,
+          "kind": "i",
+          "start": 1543,
+          "text": "BP"
+        },
+        {
+          "end": 2052,
+          "kind": "i",
+          "start": 2007,
+          "text": "Nature's Blend Pty Ltd v Nestlé Australia Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -186,6 +244,7 @@
       ],
       "chunk_ref": "TMM/Part19A/2#1~3",
       "content_hash": "sha256:41f3a83bae5dd747452ca01592532c0c3b536e9897f821e00ee90ff5dd985089",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 3
@@ -228,6 +287,26 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/1",
       "content_hash": "sha256:d278f6e3d6e160ff4eb9f4e45dab3feb163361a41f4748706a4f9d846d6e9d92",
+      "emphasis": [
+        {
+          "end": 493,
+          "kind": "i",
+          "start": 432,
+          "text": "Rakman International Pty Limited v Boss Fire & Safety Pty Ltd"
+        },
+        {
+          "end": 526,
+          "kind": "i",
+          "start": 520,
+          "text": "Rakman"
+        },
+        {
+          "end": 1551,
+          "kind": "i",
+          "start": 1528,
+          "text": "substantially identical"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -256,8 +335,7 @@
       "page_ref": "TMM/Part19A/2",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s7(2)",
           "mention": "s 7(2)"
         }
@@ -288,6 +366,14 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/2~1",
       "content_hash": "sha256:baed5d02ce7cb1ba634a2852349ccc7be9a837d6e5386d8d41b47a8a5619d1f4",
+      "emphasis": [
+        {
+          "end": 244,
+          "kind": "i",
+          "start": 198,
+          "text": "Sports Warehouse, Inc v Fry Consulting Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -357,6 +443,32 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/2~2",
       "content_hash": "sha256:0d9844bff315e9cd558bef422f85b3e13946e163b772506ad25d73850e7f2a10",
+      "emphasis": [
+        {
+          "end": 66,
+          "kind": "i",
+          "start": 3,
+          "text": "Advantage Veda Advantage Ltd v Malouf Group Enterprises Pty Ltd"
+        },
+        {
+          "end": 170,
+          "kind": "i",
+          "start": 86,
+          "text": "Complete Technology Integrations Pty Ltd v Green Energy Management Solutions Pty Ltd"
+        },
+        {
+          "end": 393,
+          "kind": "i",
+          "start": 330,
+          "text": "Accor Australia & New Zealand Hospitality Pty Ltd v Liv Pty Ltd"
+        },
+        {
+          "end": 1451,
+          "kind": "i",
+          "start": 1406,
+          "text": "Goodman Fielder Pte Ltd v Conga Foods Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -415,6 +527,14 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/2~3",
       "content_hash": "sha256:a8418d8ee83bf69b2b3b8454dad0515c69e6203c2d6de8b26c707053ec817b7b",
+      "emphasis": [
+        {
+          "end": 100,
+          "kind": "i",
+          "start": 50,
+          "text": "Henley Constructions Pty Ltd v Henley Arch Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 3
@@ -472,6 +592,20 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/3",
       "content_hash": "sha256:0b2a1633bafed8d05c5da078dec2ac646388a4498292b6ec395019987988ba7d",
+      "emphasis": [
+        {
+          "end": 526,
+          "kind": "i",
+          "start": 506,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 1024,
+          "kind": "i",
+          "start": 969,
+          "text": "Shahin Enterprises Pty Ltd v Exxonmobil Oil Corporation"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -547,6 +681,14 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/4~1",
       "content_hash": "sha256:e36cfc6588e0892954894a4b708118865b82e8291683c20029fafd9fbe65bd0b",
+      "emphasis": [
+        {
+          "end": 315,
+          "kind": "i",
+          "start": 276,
+          "text": "Global Brand Marketing Inc v YD Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -625,6 +767,14 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/4~2",
       "content_hash": "sha256:0f1843e43c52feea43d0c3202452aba30479d8bd1990ca75a19a85a4fd7ebad7",
+      "emphasis": [
+        {
+          "end": 1575,
+          "kind": "i",
+          "start": 1525,
+          "text": "Philmac Pty Limited v The Registrar of Trade Marks"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -682,6 +832,7 @@
       ],
       "chunk_ref": "TMM/Part19A/2/2/4~3",
       "content_hash": "sha256:7a0c3f633a5d06b0d4d29a97e80687822900347130bfc5d9cf6f0a3115471dd5",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 3
@@ -731,8 +882,7 @@
       "page_ref": "TMM/Part19A/2",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41",
           "mention": "s 41"
         }
@@ -750,6 +900,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/2/2/5",
       "content_hash": "sha256:bdfbf3ce97e7f2b4da1d5a425b64843a0e086669595ca3bd6914eb8ca59a2502",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -824,6 +975,20 @@
       ],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-found~1",
       "content_hash": "sha256:0145df3dbfc874b9e07d76b762ca659251a7ffa0f68211d2d78db689eb585cfe",
+      "emphasis": [
+        {
+          "end": 37,
+          "kind": "i",
+          "start": 18,
+          "text": "Self Care v Allegan"
+        },
+        {
+          "end": 1575,
+          "kind": "i",
+          "start": 1515,
+          "text": "Aldi Stores Ltd Partnership v Frito-Lay Trading Company GmbH"
+        }
+      ],
       "fragment": {
         "count": 4,
         "index": 1
@@ -904,6 +1069,14 @@
       ],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-found~2",
       "content_hash": "sha256:67995231cdc2a282468faa45259a137aed7801597718933f596087c03953e136",
+      "emphasis": [
+        {
+          "end": 567,
+          "kind": "i",
+          "start": 523,
+          "text": "Mantra Group Pty Ltd v Tailly Pty Ltd (No 2)"
+        }
+      ],
       "fragment": {
         "count": 4,
         "index": 2
@@ -967,6 +1140,26 @@
       ],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-found~3",
       "content_hash": "sha256:b0a45cb89b08b238305b104a086dd855d34d8079d03daca26ae3d583f220a7d2",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "i",
+          "start": 3,
+          "text": "BP"
+        },
+        {
+          "end": 2353,
+          "kind": "i",
+          "start": 890,
+          "text": "It is apparent that six capsules of the Quantum Product visible to the consumer through the clear window at the front of the packaging and arranged in a tessellate pattern show the red powerball centre and blue gel wave on top. They serve to provide a visual prompt to the consumer. In our respectful view, the primary judge failed to take into account that a display of the product could serve a dual function: not only to serve the descriptive function of showing the product for sale, but also serving to reinforce to the consumer that the product is the very one that comes from the supplier of FINISH products. Having found that the Quantum Product is substantially identical to the 914 mark, and after noting earlier that there is no functional basis for the placement of the components or colouring of the features of the 914 mark, they serving a purely aesthetic purpose (at [21]), in our view the primary judge ought also, having regard to the context of use in the Quantum Tablets Packaging, to have concluded that the display of the tablets reflected trade mark use. …As the High Court noted in Selfcare at [25], the existence of a descriptive element or purpose does not necessarily preclude the sign being used as a trade mark. In our view, in objective terms it may accurately be said that the display of the Quantum Product in the window serves, at least as one purpose, to distinguish the goods in the course of trade in reference to their origin."
+        },
+        {
+          "end": 1505,
+          "kind": "strong",
+          "start": 1504,
+          "text": "."
+        }
+      ],
       "fragment": {
         "count": 4,
         "index": 3
@@ -1009,6 +1202,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-found~4",
       "content_hash": "sha256:8c2655999c4b7bb836b095b0c6545f1147ad592a97c1d9078a54b30871e03abd",
+      "emphasis": [],
       "fragment": {
         "count": 4,
         "index": 4
@@ -1096,6 +1290,20 @@
       ],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-not-found~1",
       "content_hash": "sha256:dde837cc08ac0b6eda37127726e8b0c646bba166ef3688dcb3ddacf7fa171416",
+      "emphasis": [
+        {
+          "end": 12,
+          "kind": "i",
+          "start": 3,
+          "text": "Self Care"
+        },
+        {
+          "end": 612,
+          "kind": "i",
+          "start": 529,
+          "text": "Re Johnson and Johnson Australia Pty Limited v Stirling Pharmaceuticals Pty Limited"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -1183,6 +1391,20 @@
       ],
       "chunk_ref": "TMM/Part19A/2/examples-where-use-as-a-trade-mark-not-found~2",
       "content_hash": "sha256:7e76a58498b776b0aacf686cf04d23e1f50fa9a254164094a64872888909bccc",
+      "emphasis": [
+        {
+          "end": 50,
+          "kind": "i",
+          "start": 3,
+          "text": "Urban Alley Brewery Pty Ltd v La Sirene Pty Ltd"
+        },
+        {
+          "end": 502,
+          "kind": "i",
+          "start": 452,
+          "text": "Chocolaterie Guylian NV v Registrar of Trade Marks"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -1229,6 +1451,86 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/2/2/6",
       "content_hash": "sha256:2df14f7739d41c02c1a4a94e9b571da75218f29762622b0b0cad3bade47e1caf",
+      "emphasis": [
+        {
+          "end": 157,
+          "kind": "strong",
+          "start": 143,
+          "text": "Nature of sign"
+        },
+        {
+          "end": 163,
+          "kind": "i",
+          "start": 158,
+          "text": "Note:"
+        },
+        {
+          "end": 356,
+          "kind": "i",
+          "start": 245,
+          "text": "An invented sign is more likely to be perceived as a trade mark than a sign with some descriptive significance."
+        },
+        {
+          "end": 454,
+          "kind": "i",
+          "start": 357,
+          "text": "However, descriptive or laudatory terms can also be used as trade marks depending on the context."
+        },
+        {
+          "end": 469,
+          "kind": "strong",
+          "start": 455,
+          "text": "Context of use"
+        },
+        {
+          "end": 475,
+          "kind": "i",
+          "start": 470,
+          "text": "Note:"
+        },
+        {
+          "end": 904,
+          "kind": "i",
+          "start": 633,
+          "text": "A sign that is used ‘as a trade mark’ will generally perform a ‘branding function’. It may be difficult for a person to show that a sign is performing a branding function where use of the trade mark appears to be intended solely for some descriptive or laudatory purpose."
+        },
+        {
+          "end": 1128,
+          "kind": "i",
+          "start": 949,
+          "text": "Use of a sign that is not identical to the trade mark applied for can be considered if the additions or alterations do not substantially affect the identity of the trade mark (see"
+        },
+        {
+          "end": 1130,
+          "kind": "i",
+          "start": 1129,
+          "text": "7"
+        },
+        {
+          "end": 1132,
+          "kind": "i",
+          "start": 1130,
+          "text": ")."
+        },
+        {
+          "end": 1304,
+          "kind": "i",
+          "start": 1133,
+          "text": "Use of a sign that is not substantially identical to the sign applied for may also be a relevant other circumstance that can be considered under s 41(4) and/or s 44(3)(b)."
+        },
+        {
+          "end": 1795,
+          "kind": "i",
+          "start": 1427,
+          "text": "Use with other signs may indicate the sign is not being used as a trade mark in its own right. However, the use of multiple trade marks is common commercial practice and evidence should not be ignored simply because the trade mark applied for is not the only or most prominent trade mark used. The weight given to such evidence will depend on the circumstances of use."
+        },
+        {
+          "end": 1982,
+          "kind": "i",
+          "start": 1847,
+          "text": "Functional features (e.g. on a shape trade mark) make it less likely (though not impossible) that a sign is acting as a badge of origin"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -1346,11 +1648,65 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-11-12",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-11-11",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-11-06",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-03-14",
+        "reason": "New updated to reference Henkel in part 19A.2.5"
+      },
+      {
+        "date": "2023-10-16",
+        "reason": "Adding image webpart"
+      },
+      {
+        "date": "2023-10-13",
+        "reason": "Fixing images"
+      },
+      {
+        "date": "2023-10-13",
+        "reason": "Added image webpart"
+      },
+      {
+        "date": "2023-10-12",
+        "reason": "Images fixed."
+      },
+      {
+        "date": "2023-10-11",
+        "reason": "Images fixed."
+      },
+      {
+        "date": "2023-10-11",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9c59d951091253181f3b5f8d690d0bc4c0c0a0832b08542aee112baa843ce847",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-11-06",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A.2. Use 'as a trade mark'",
     "images": [
       {

@@ -42,6 +42,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/8#1",
       "content_hash": "sha256:39ff95b6f9ab0dab80ca28305380c02e5c8a38cfe58479d24657109c8c1f1b44",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -170,11 +196,33 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:61e7cfd89f0067c96d9c686e0dfecb613504f5e36b5029b36b02ccac47488770",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "35.8. Variation of rules",
     "images": [],
     "last_amended": "2026-02-11",

@@ -34,6 +34,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part13/x-relevant-legislation40#1",
       "content_hash": "sha256:95e9801db7f0edc53ca316b3b8027be7716b059adafa3ca15d90c9d0052ccc0f",
+      "emphasis": [
+        {
+          "end": 14,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part published"
+        },
+        {
+          "end": 47,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 169,
+          "kind": "i",
+          "start": 141,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 13 Application to Register a Series of Trade Marks",
@@ -85,11 +105,29 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed and content updated, including examples.",
+    "amendments": [
+      {
+        "date": "2026-06-03",
+        "reason": "Whole part reviewed and content updated, including examples."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:513a1178bfad28196a36cc0e629a9857dcba16a0e67e441d4966d5b02938192a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "13. Landing Page",
     "images": [],
     "last_amended": "2026-06-03",

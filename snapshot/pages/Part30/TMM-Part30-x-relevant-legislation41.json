@@ -30,6 +30,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part30/x-relevant-legislation41#1",
       "content_hash": "sha256:cb1428cdfe5dc2be28b9aa66302c9c6ef158326eceb5b56a22ace9a510c39ce1",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 113,
+          "kind": "strong",
+          "start": 98,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 30 Signs that are Scandalous and Use Contrary to Law",
@@ -95,11 +109,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3054adbf2c9c7c753bba1a00e4599916b235529ba93c35b01230d26a7a354863",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "30. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

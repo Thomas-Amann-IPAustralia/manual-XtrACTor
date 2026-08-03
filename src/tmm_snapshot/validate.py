@@ -256,6 +256,103 @@ def _link_failures(chunk: dict[str, Any], at: str) -> list[str]:
     return failures
 
 
+def _emphasis_failures(chunk: dict[str, Any], at: str) -> list[str]:
+    """Emphasis spans whose offsets do not name the words they claim.
+
+    `_link_failures`' contract, applied to the other field that positions
+    markup in the words, and load-bearing for the same reason: a span drifted
+    by one character emphasises the wrong words and looks perfectly
+    well-formed. The schema can say the numbers are integers and no more.
+
+    Stricter than links in one respect — an empty span is a failure rather than
+    the ordinary case. `links` keeps zero-width anchors because an anchor with
+    no words still records a place the Manual put a link; `emphasis.py` drops
+    empty elements, so one reaching a file means the extractor emitted
+    something it does not believe in.
+    """
+    failures: list[str] = []
+    spans = chunk.get("emphasis")
+    text = chunk.get("text")
+    if not isinstance(spans, list) or not isinstance(text, str):
+        return failures
+
+    for index, span in enumerate(spans):
+        if not isinstance(span, dict):
+            continue
+        start, end, words = span.get("start"), span.get("end"), span.get("text")
+        if not isinstance(start, int) or not isinstance(end, int):
+            continue
+        if not isinstance(words, str):
+            continue
+        if not 0 <= start < end <= len(text):
+            failures.append(
+                f"{at} emphasis[{index}]: [{start}, {end}) is not a non-empty "
+                f"span of a {len(text)}-character text"
+            )
+            continue
+        if text[start:end] != words:
+            failures.append(
+                f"{at} emphasis[{index}]: text[{start}:{end}] is "
+                f"{text[start:end]!r}, but the span says its words are "
+                f"{words!r}; the offsets are what put the emphasis back where "
+                "the Manual set it, and these name different words"
+            )
+
+    return failures
+
+
+def _amendment_failures(page: dict[str, Any], where: str) -> list[str]:
+    """`amendments` that has stopped agreeing with its own head.
+
+    `last_amended` and `amendment_note` are `amendments[0]`, and are fields
+    because they are what most consumers read. Two representations of one fact
+    is exactly the arrangement SCHEMA.md §What is deliberately absent warns
+    about, and it is permitted here only because `parse_page` derives one from
+    the other rather than reading the table twice. This is the check that keeps
+    that true over the whole snapshot rather than at the one call site.
+
+    Order is checked too: newest first is what makes `[0]` the head.
+    """
+    failures: list[str] = []
+    rows = page.get("amendments")
+    if not isinstance(rows, list):
+        return failures
+
+    dates = [row.get("date") for row in rows if isinstance(row, dict)]
+    for index, value in enumerate(dates):
+        try:
+            date.fromisoformat(str(value))
+        except (TypeError, ValueError):
+            failures.append(
+                f"{where}: page.amendments[{index}].date: {value!r} is not a date"
+            )
+    # ISO-8601 dates sort lexicographically, which is why this compares the
+    # strings rather than re-parsing them.
+    if dates != sorted(dates, reverse=True):
+        failures.append(
+            f"{where}: page.amendments is not newest-first, so amendments[0] "
+            "is not the row last_amended names"
+        )
+
+    head = rows[0] if rows and isinstance(rows[0], dict) else None
+    expected_date = head.get("date") if head else None
+    expected_note = head.get("reason") if head else None
+
+    if page.get("last_amended") != expected_date:
+        failures.append(
+            f"{where}: page.last_amended is {page.get('last_amended')!r} but "
+            f"amendments[0].date is {expected_date!r}; they are one fact and "
+            "one of them has drifted"
+        )
+    if page.get("amendment_note") != expected_note:
+        failures.append(
+            f"{where}: page.amendment_note is {page.get('amendment_note')!r} "
+            f"but amendments[0].reason is {expected_note!r}; they are one fact "
+            "and one of them has drifted"
+        )
+    return failures
+
+
 def _heading_failures(chunk: dict[str, Any], at: str) -> list[str]:
     """`headings` that has stopped describing `heading_path`.
 
@@ -384,6 +481,7 @@ def validate_snapshot(root: Path) -> list[str]:
 
         failures.extend(_schema_failures(page, page_validator, f"{where} page"))
         failures.extend(_date_failures(page, where))
+        failures.extend(_amendment_failures(page, where))
 
         page_ref = page.get("page_ref")
         if not isinstance(page_ref, str):
@@ -433,6 +531,7 @@ def validate_snapshot(root: Path) -> list[str]:
             failures.extend(_provision_failures(chunk, at))
             failures.extend(_block_failures(chunk, at))
             failures.extend(_link_failures(chunk, at))
+            failures.extend(_emphasis_failures(chunk, at))
             failures.extend(_heading_failures(chunk, at))
 
             references = chunk.get("internal_refs")

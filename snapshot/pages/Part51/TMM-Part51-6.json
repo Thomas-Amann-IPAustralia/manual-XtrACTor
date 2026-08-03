@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/6#1",
       "content_hash": "sha256:bf07bfa8401a3c5b2c0b88b06329a1318512a737c0ec7a9fc6444cbeb2b7cccf",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -66,6 +104,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/1",
       "content_hash": "sha256:8035be7579697f971c9ec48de5b2121628d5a0afea9619f7c3d8095ed8552789",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -120,6 +159,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/2",
       "content_hash": "sha256:54003c4b36364a80f7e18c8aa91c52f22247661fa0c437dc7323acdb3a545a05",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -211,6 +251,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/6/6/3",
       "content_hash": "sha256:d90b057bcae910bf66d5698eff6dc64a108d723d8a688c37ea35655e00fbbf66",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -303,11 +344,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:62e5e171c7b95c9f9dcdc9322d327648b0100f24b6db1bb677b79262feb4c64b",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 51.6. Dismissal or discontinuance of proceedings",
     "images": [],
     "last_amended": "2025-04-01",

@@ -14,6 +14,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/2#1",
       "content_hash": "sha256:84d713cc5af5464c55af4049d4dfe32e17e640f55edab97182fa938665b3cded",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -92,6 +93,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/2/2/1",
       "content_hash": "sha256:c26144ee2278a3325f72f8392876581075fc71a8a33497aa0ce7358be2b0a134",
+      "emphasis": [
+        {
+          "end": 272,
+          "kind": "strong",
+          "start": 269,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -305,6 +314,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/2/2/2",
       "content_hash": "sha256:0ea4f34864b31f467d6bc938957878f89da62f4fa2801ffccaedc33b32f57c32",
+      "emphasis": [
+        {
+          "end": 726,
+          "kind": "i",
+          "start": 718,
+          "text": "ex parte"
+        },
+        {
+          "end": 1221,
+          "kind": "strong",
+          "start": 1218,
+          "text": "2.3"
+        },
+        {
+          "end": 1636,
+          "kind": "strong",
+          "start": 1633,
+          "text": "2.4"
+        },
+        {
+          "end": 1731,
+          "kind": "strong",
+          "start": 1728,
+          "text": "2.5"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -399,11 +434,37 @@
   ],
   "page": {
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package",
+    "amendments": [
+      {
+        "date": "2025-12-19",
+        "reason": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package"
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:280ab8cac657bb7e2fe9cd190dc5b4c1423d75e92bb417625493e610384bc71c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "17.2. Circumstances under which deferments will be granted",
     "images": [],
     "last_amended": "2025-12-19",

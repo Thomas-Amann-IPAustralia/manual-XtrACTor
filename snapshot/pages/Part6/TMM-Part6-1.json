@@ -14,6 +14,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part6/1#1",
       "content_hash": "sha256:80a50da3b254cdae62f7acc6cee2578fdcb480667d4ce8907563a93e75cebd52",
+      "emphasis": [
+        {
+          "end": 28,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 34,
+          "kind": "strong",
+          "start": 29,
+          "text": "(Cth)"
+        },
+        {
+          "end": 34,
+          "kind": "u",
+          "start": 29,
+          "text": "(Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 6 Expedited Examination",
@@ -93,6 +125,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part6/1/1/1",
       "content_hash": "sha256:308fa7fb5895b67cf420ee9a292e96f7ea3e6f37cd4fb711f70363a12d2bac64",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 6 Expedited Examination",
@@ -172,6 +205,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part6/1/1/2",
       "content_hash": "sha256:1904b51e3b4df4288f22367bf1ece3a9fa729052783bdfee1e3aec5c89b1c802",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 6 Expedited Examination",
@@ -230,11 +264,33 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Minor content update.",
+    "amendments": [
+      {
+        "date": "2026-02-10",
+        "reason": "Links to legislation added. Minor content update."
+      },
+      {
+        "date": "2025-11-27",
+        "reason": "6.1.2.2- Updated to clarify procedure for unexamined citations against expedited applications"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f09e278f4c21837d1df501339f4205c393daa693b00a093d284aca2655a723b3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "6.1. Expedited Examination",
     "images": [],
     "last_amended": "2026-02-10",

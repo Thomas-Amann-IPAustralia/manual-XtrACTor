@@ -29,6 +29,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/4#1",
       "content_hash": "sha256:d0d908b3606ea71a8aa343eaafa3a8e70f0877dcc680b6173c508755ff0d85ef",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -99,6 +100,38 @@
       ],
       "chunk_ref": "TMM/Part15/4/4/1",
       "content_hash": "sha256:da9f442bd5c703b0c42c76b2ac2490f8faf20466fc7ff510a33af8b62675a2ec",
+      "emphasis": [
+        {
+          "end": 460,
+          "kind": "i",
+          "start": 413,
+          "text": "Genentech Inc. v Wellcome Foundation Ltd (1988)"
+        },
+        {
+          "end": 460,
+          "kind": "i",
+          "start": 413,
+          "text": "Genentech Inc. v Wellcome Foundation Ltd (1988)"
+        },
+        {
+          "end": 545,
+          "kind": "i",
+          "start": 491,
+          "text": "D'Urban Inc v. Canpio Pty Ltd (1990) AIPC 90-658 (Reg)"
+        },
+        {
+          "end": 545,
+          "kind": "i",
+          "start": 491,
+          "text": "D'Urban Inc v. Canpio Pty Ltd (1990) AIPC 90-658 (Reg)"
+        },
+        {
+          "end": 894,
+          "kind": "strong",
+          "start": 887,
+          "text": "genuine"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -132,6 +165,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/4/4/2",
       "content_hash": "sha256:b9f627e83a794de4244c37c910982b71bc49c4b33899f74ac008abde9938da60",
+      "emphasis": [
+        {
+          "end": 23,
+          "kind": "i",
+          "start": 10,
+          "text": "force majeure"
+        },
+        {
+          "end": 23,
+          "kind": "i",
+          "start": 10,
+          "text": "force majeure"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -170,6 +217,20 @@
       ],
       "chunk_ref": "TMM/Part15/4/4/2/1",
       "content_hash": "sha256:b901f4704f728bc70235279bcc9876960c75164f85fd9f4ba4e040fcd6950891",
+      "emphasis": [
+        {
+          "end": 174,
+          "kind": "i",
+          "start": 115,
+          "text": "Atomic Skifabrik Alois Rohrmoser v Registrar of Trade Marks"
+        },
+        {
+          "end": 174,
+          "kind": "i",
+          "start": 115,
+          "text": "Atomic Skifabrik Alois Rohrmoser v Registrar of Trade Marks"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -241,6 +302,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/4/4/2/2",
       "content_hash": "sha256:02d95bee4ef8e930aa73e1e923cf62370eab94d5403cb5c3e057dc35f20ec6a9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -350,6 +412,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/4/4/3",
       "content_hash": "sha256:12435d9ac746dcb7f3d2bc22b774dceca17220b1ee046d4a5098a5475b68cb8b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -378,8 +441,7 @@
       "page_ref": "TMM/Part15/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s203",
           "mention": "section 203"
         }
@@ -390,11 +452,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b8072370aebcb652e18cff9e9d9bcb236c0b362cb929bab2ca0a3487fa5ab910",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "15.4. Grounds on which the Registrar may grant an extension of time",
     "images": [],
     "last_amended": "2022-04-20",

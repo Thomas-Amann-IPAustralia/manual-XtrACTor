@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/4#1",
       "content_hash": "sha256:c913a253befa45dce013e339e8885704fbdfeffb6fa4f4716213525fc4fabd7f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -36,11 +37,25 @@
   ],
   "page": {
     "amendment_note": "Content updated and examples removed.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Content updated and examples removed."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ecf2aa9da436a62704b1f8b497ec83b89fb5745040e76dd25232edcb3a23b8d2",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.4. Trade marks considered sufficiently inherently adapted to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

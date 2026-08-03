@@ -54,6 +54,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/7#1~1",
       "content_hash": "sha256:e7ca195904f7a02d1c60735dfcd0f4d4be56bb455e1424bc8dfea0d56c82af27",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 139,
+          "kind": "u",
+          "start": 124,
+          "text": "Regulation 17.1"
+        },
+        {
+          "end": 275,
+          "kind": "u",
+          "start": 260,
+          "text": "Regulation 21.6"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -146,6 +196,26 @@
       ],
       "chunk_ref": "TMM/Part34/7#1~2",
       "content_hash": "sha256:1fff64ffd41b8557a76faaa873e39b19b4ce2b6a4cb97b6a2c2143423e38b2c3",
+      "emphasis": [
+        {
+          "end": 827,
+          "kind": "i",
+          "start": 769,
+          "text": "Allergan Australia Pty Ltd v Self Care IP Holdings Pty Ltd"
+        },
+        {
+          "end": 1035,
+          "kind": "i",
+          "start": 896,
+          "text": "s 185(1) requires connection between the goods and the registered proprietor of the mark, as opposed to “connexion in the course of trade”’"
+        },
+        {
+          "end": 1906,
+          "kind": "i",
+          "start": 1889,
+          "text": "Ferodo Ltd’s Appn"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -209,6 +279,32 @@
       ],
       "chunk_ref": "TMM/Part34/7#1~3",
       "content_hash": "sha256:0cb860af702c9b71b663a9c704f902ebf1e359fcce64e542ca39983e36d5a7a3",
+      "emphasis": [
+        {
+          "end": 26,
+          "kind": "i",
+          "start": 3,
+          "text": "AT&T Corp’s Application"
+        },
+        {
+          "end": 525,
+          "kind": "i",
+          "start": 506,
+          "text": "Pfizer Products Inc"
+        },
+        {
+          "end": 550,
+          "kind": "i",
+          "start": 543,
+          "text": "Viagra\""
+        },
+        {
+          "end": 1010,
+          "kind": "i",
+          "start": 986,
+          "text": "The Gillette Company LLC"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 3
@@ -231,11 +327,29 @@
   ],
   "page": {
     "amendment_note": "Part 34.7 reviewed and updated, including references to recent case law and hearing decisions.",
+    "amendments": [
+      {
+        "date": "2026-05-19",
+        "reason": "Part 34.7 reviewed and updated, including references to recent case law and hearing decisions."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "References to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5af44c68b760fbeb8c9a9c42564eff9cea30932ba99a3d241001f51039f96a68",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-05-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 34.7. Evidence required for defensive applications",
     "images": [],
     "last_amended": "2026-05-19",

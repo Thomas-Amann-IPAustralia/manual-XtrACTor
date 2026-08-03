@@ -26,6 +26,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3#1",
       "content_hash": "sha256:1b4eeb2c4638b30ec19409e0e0f83c635b10d7175ac733958541ba401061cbe6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 72,
+          "kind": "i",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "end": 72,
+          "kind": "strong",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -106,6 +144,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/1",
       "content_hash": "sha256:aeeec17d7c222fefa6c1732a21693a2733ee591be2d3fefe65bacce528df82fb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -173,6 +212,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/2",
       "content_hash": "sha256:ee7940b774c117540c63c10e979465778672395aab4c269d11a1687e9762d5bc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -261,6 +301,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/3",
       "content_hash": "sha256:3544dbde28a234b089d44bbedd0bb0bd9cdc06502cc01fa354005a1693597609",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -302,6 +343,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/4",
       "content_hash": "sha256:6d607a5c5890b9672c8687b53bc89facd74f22351a88e9e5de5c20c6f48a177d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -371,6 +413,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/5",
       "content_hash": "sha256:20f661e1e36741f30a5d0118a1d2b0ce1a34f1a2b2c6d967bf85eb8fe1559770",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -431,6 +474,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/6~1",
       "content_hash": "sha256:ebe02428e62b33e8cff5a2ab8ebde21e9a07f49ef13f46476eb132da3470185e",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -482,6 +526,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/6~2",
       "content_hash": "sha256:118ff1b987860d032c0b7d997d07520d045a16227135cf511d374a56d99e6e18",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -522,6 +567,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/3/2/3/7",
       "content_hash": "sha256:84fbfb6cc527e1e1aa542022478d7f1ae2d3543e94eac9a8312412ed24268380",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -568,11 +614,37 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-01-10",
+        "reason": "Hyperlinks fixed."
+      },
+      {
+        "date": "2025-01-09",
+        "reason": "2.3.6 Cocktails - Added Hyperlinks to legislation added."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6f5f145e6484cc0275ee028707a050c1f12e773b04fb71d67def300bb4f3924f",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32B.2.3 Section 41: Capacity to Distinguish",
     "images": [
       {

@@ -51,6 +51,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part45/1#1",
       "content_hash": "sha256:83a21a448d3e339720c6dd811df5c97b10655972e49f429399f12895f1a44df4",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 770,
+          "kind": "strong",
+          "start": 766,
+          "text": "Note"
+        },
+        {
+          "end": 941,
+          "kind": "i",
+          "start": 888,
+          "text": "Freedom of Information Act 1982 or under section 217A"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 45 Copies of Documents",
@@ -102,11 +152,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-25",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:a6d25e6617c87f9497ef35af6f3dd642d9267cb068b1c2ebaa410753d4abdfdb",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 45.1. Documents copied by the Office",
     "images": [],
     "last_amended": "2025-02-25",

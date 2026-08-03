@@ -20,6 +20,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/6#1",
       "content_hash": "sha256:aa2176ac99e52035cea156a030b0595ef23239ba5c0ba1176d1597d6dec5a021",
+      "emphasis": [
+        {
+          "end": 455,
+          "kind": "i",
+          "start": 452,
+          "text": "not"
+        },
+        {
+          "end": 455,
+          "kind": "strong",
+          "start": 452,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -63,11 +77,29 @@
   ],
   "page": {
     "amendment_note": "Content Updated",
+    "amendments": [
+      {
+        "date": "2024-11-21",
+        "reason": "Content Updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2b478950918a430a8674c35112ecdfb56e1458e6b2fa4ac154541b9cef43a542",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-11-21",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27.6. Removal of the conflicting trade mark",
     "images": [],
     "last_amended": "2024-11-21",

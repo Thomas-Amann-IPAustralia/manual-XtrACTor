@@ -15,6 +15,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/1",
       "content_hash": "sha256:d098c0df9fbb64c3b1234060d7bfb51643903d5cb43eb60f5eba511f04807246",
+      "emphasis": [
+        {
+          "end": 389,
+          "kind": "i",
+          "start": 369,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -107,6 +115,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/2",
       "content_hash": "sha256:44286ca69f6b5dffead74137bffc5d84f1db3826160c03434caac0574b49e151",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -159,6 +168,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/5/5/3",
       "content_hash": "sha256:894f4ceac432b05806d9ced8e192a315885f05b2fc70d24bb85d38e03db46bef",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -227,11 +237,25 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-22",
+        "reason": "Whole part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:27eda94d6995ace19ef6451632ee40e5c63be264997458c0834a5651bec52d22",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.5. Other information relevant to examining trade marks that contain a prohibited and prescribed sign",
     "images": [],
     "last_amended": "2026-07-22",

@@ -30,6 +30,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/5/2/5/1",
       "content_hash": "sha256:df55977ff486e7b398ea63d0eb92a9b9335d70f0d10e0a5332546f15aa58c89f",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 105,
+          "kind": "i",
+          "start": 78,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 105,
+          "kind": "strong",
+          "start": 78,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 188,
+          "kind": "i",
+          "start": 160,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 188,
+          "kind": "strong",
+          "start": 160,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -88,6 +126,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/5/2/5/2",
       "content_hash": "sha256:9cf67127de8144a376713bebdfc69133541eeef80d69fe893cd8d9b2247a70ae",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -152,6 +191,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/5/2/5/3",
       "content_hash": "sha256:e65132da76a7c8f609dcdf794a91e8b4ba8c1e0deb8e23c52f184690fd357842",
+      "emphasis": [
+        {
+          "end": 63,
+          "kind": "strong",
+          "start": 54,
+          "text": "basic fee"
+        },
+        {
+          "end": 172,
+          "kind": "strong",
+          "start": 155,
+          "text": "complementary fee"
+        },
+        {
+          "end": 215,
+          "kind": "strong",
+          "start": 212,
+          "text": "not"
+        },
+        {
+          "end": 264,
+          "kind": "strong",
+          "start": 250,
+          "text": "individual fee"
+        },
+        {
+          "end": 339,
+          "kind": "strong",
+          "start": 322,
+          "text": "supplementary fee"
+        },
+        {
+          "end": 834,
+          "kind": "strong",
+          "start": 830,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -192,6 +269,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/5/2/5/4",
       "content_hash": "sha256:44a509853b4558f3b169766575c3b8fff86a474215b77e577889943fb1f5cd71",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -218,11 +296,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:902638e94f4b8ef52c687351b5fe50215eadb3ef0e02666fefc841d4154bb5c7",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.2.5 Fees for International Applications",
     "images": [],
     "last_amended": "2026-04-17",

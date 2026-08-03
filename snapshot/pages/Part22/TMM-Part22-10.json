@@ -51,6 +51,56 @@
       ],
       "chunk_ref": "TMM/Part22/10#1",
       "content_hash": "sha256:513eca917e82dd296f31b4bf56bf9e94e1aca17595edeb23e0cb8e5d178c5580",
+      "emphasis": [
+        {
+          "end": 997,
+          "kind": "em",
+          "start": 958,
+          "text": "Eastman Photographic Material Co's Appn"
+        },
+        {
+          "end": 1023,
+          "kind": "em",
+          "start": 1018,
+          "text": "Solio"
+        },
+        {
+          "end": 1108,
+          "kind": "em",
+          "start": 1087,
+          "text": "Sir Titus Salt's Appn"
+        },
+        {
+          "end": 1136,
+          "kind": "em",
+          "start": 1129,
+          "text": "Eboline"
+        },
+        {
+          "end": 1194,
+          "kind": "em",
+          "start": 1148,
+          "text": "Angelides v James Stedman Henderson Sweets Ltd"
+        },
+        {
+          "end": 1221,
+          "kind": "em",
+          "start": 1214,
+          "text": "Minties"
+        },
+        {
+          "end": 1300,
+          "kind": "em",
+          "start": 1271,
+          "text": "De Cordova v Vick Chemical Co"
+        },
+        {
+          "end": 1329,
+          "kind": "em",
+          "start": 1321,
+          "text": "Vapo-Rub"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -70,11 +120,29 @@
   ],
   "page": {
     "amendment_note": "Formatting updated.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Formatting updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6cf125e2d240dc4aeeea4e54cfa629d995b3730c8e3e27e9a3b66b28de976d44",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.10. Phonetic equivalents, misspellings and combinations of known words",
     "images": [],
     "last_amended": "2022-12-19",

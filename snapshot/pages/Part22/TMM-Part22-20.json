@@ -23,6 +23,26 @@
       ],
       "chunk_ref": "TMM/Part22/20#1~1",
       "content_hash": "sha256:457bf55506b39aeb12aea639be1e9c0adf4a4ab4f852706fa2e8fde95625abda",
+      "emphasis": [
+        {
+          "end": 496,
+          "kind": "em",
+          "start": 475,
+          "text": "Jolly Swagmen Pty Ltd"
+        },
+        {
+          "end": 498,
+          "kind": "i",
+          "start": 497,
+          "text": "v"
+        },
+        {
+          "end": 504,
+          "kind": "em",
+          "start": 499,
+          "text": "Lomas"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -86,6 +106,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/20#1~2",
       "content_hash": "sha256:e0e83e63ce86bc5cf39321c6a288aad8944330589bd293864f8bf8a5f0ec6fd0",
+      "emphasis": [
+        {
+          "end": 667,
+          "kind": "b",
+          "start": 639,
+          "text": "clearly in the public domain"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -115,6 +143,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/20#1~3",
       "content_hash": "sha256:3299e12872f8aa37ce9936814047d3903c765450adf02338cc9aaf3d9d2b93c2",
+      "emphasis": [
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade mark"
+        },
+        {
+          "end": 32,
+          "kind": "strong",
+          "start": 11,
+          "text": "Section 41 objection?"
+        },
+        {
+          "end": 40,
+          "kind": "strong",
+          "start": 33,
+          "text": "Reasons"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 3
@@ -247,11 +295,37 @@
   ],
   "page": {
     "amendment_note": "Reviewed - no changes.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Reviewed - no changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-02-20",
+        "reason": "Minor correction of MATLIDA to MATILDA"
+      },
+      {
+        "date": "2021-02-17",
+        "reason": "Amend all content and examples"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:1b4105a881a78cf8068eb1d5a8eafef11d41efa8e90f5ef35476c36e092934f0",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.20. Titles of well known books, novels, stories, plays, films, stage shows, songs and musical works",
     "images": [],
     "last_amended": "2022-12-19",

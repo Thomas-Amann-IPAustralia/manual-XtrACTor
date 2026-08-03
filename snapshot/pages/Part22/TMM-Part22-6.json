@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/6#1",
       "content_hash": "sha256:69309cb19c547728f5b28691564c7ddfa4bf891222c0cab6e9a38810b4ba4d16",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -64,6 +65,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/6/6/1",
       "content_hash": "sha256:ee2c68417e69415114259b277a220f8a15008a9a754251fd8f9b9787107cffe7",
+      "emphasis": [
+        {
+          "end": 322,
+          "kind": "em",
+          "start": 132,
+          "text": "Note 1: Trade marks that are not [to any extent] inherently adapted to distinguish goods or services are mostly trade marks that consist wholly of a sign that is ordinarily used to indicate:"
+        },
+        {
+          "end": 730,
+          "kind": "em",
+          "start": 716,
+          "text": "consist wholly"
+        },
+        {
+          "end": 1093,
+          "kind": "em",
+          "start": 1060,
+          "text": "Acts Interpretation Amendment Act"
+        },
+        {
+          "end": 1098,
+          "kind": "i",
+          "start": 1094,
+          "text": "2011"
+        },
+        {
+          "end": 1504,
+          "kind": "em",
+          "start": 1487,
+          "text": "Cranberry Classic"
+        },
+        {
+          "end": 1551,
+          "kind": "em",
+          "start": 1518,
+          "text": "Acts Interpretation Amendment Act"
+        },
+        {
+          "end": 1556,
+          "kind": "i",
+          "start": 1552,
+          "text": "2011"
+        },
+        {
+          "end": 1606,
+          "kind": "em",
+          "start": 1583,
+          "text": "Acts Interpretation Act"
+        },
+        {
+          "end": 1611,
+          "kind": "i",
+          "start": 1607,
+          "text": "1901"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -103,11 +160,33 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e8c707d45d52158c7111bab926315cd16d4354e921c197b3b0792003660480f6",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.6. Trade marks having no inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

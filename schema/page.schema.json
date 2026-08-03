@@ -76,13 +76,34 @@
     "last_amended": {
       "type": ["string", "null"],
       "format": "date",
-      "description": "Most recent date in the page's 'Amended Reasons' table."
+      "description": "Most recent date in the page's 'Amended Reasons' table, and equal to amendments[0].date. Kept as a field because it is what most consumers want and what the crawler's skip logic compares; derived from the array rather than parsed a second time, so the two cannot disagree."
     },
 
     "amendment_note": {
       "type": ["string", "null"],
-      "description": "IP Australia's own words for the most recent change — 'Minor updates.', 'Update hyperlinks'. Lets a reviewer separate substantive practice change from cosmetic edits without reading the diff.",
+      "description": "IP Australia's own words for the most recent change — 'Minor updates.', 'Update hyperlinks'. Equal to amendments[0].reason. Lets a reviewer separate substantive practice change from cosmetic edits without reading the diff.",
       "examples": ["Minor updates."]
+    },
+
+    "amendments": {
+      "type": "array",
+      "description": "Every row of the page's 'Amended Reasons' table, newest first, ties in document order. The Manual publishes 2,039 of these rows across 500 pages and 493 pages carry more than one; until ingest/0.10.0 only the newest reached the snapshot. This is the publisher's own change log, per page and dated, and it is the only record of the period before this repository's first crawl — after that git history takes over, but it cannot reach back before it began. It is what makes 'what did this page say on a given date' and 'were the last five changes substantive or hyperlink maintenance' answerable at all.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "reason"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "From the row's Drupal <time datetime>, so no date-string parser is involved."
+          },
+          "reason": {
+            "type": ["string", "null"],
+            "description": "IP Australia's words for that change. null where the cell was empty, which is normal and is not a reason we failed to read — an unreadable one raises. A reason spanning several <p> elements is one reason, joined."
+          }
+        }
+      }
     },
 
     "crawled_at": { "type": "string", "format": "date-time" },

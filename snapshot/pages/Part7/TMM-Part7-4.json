@@ -48,6 +48,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part7/4#1",
       "content_hash": "sha256:90698459b2c219fbeccd5ce345f7d0e5223c46554b6750294c32ad08bca008ba",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1284,
+          "kind": "u",
+          "start": 1276,
+          "text": "reg 21.9"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 7 Withdrawal of Applications, Notices and Requests",
@@ -121,11 +165,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed Links Updated",
+    "amendments": [
+      {
+        "date": "2025-06-05",
+        "reason": "Page renamed Links Updated"
+      },
+      {
+        "date": "2024-05-17",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:20b27e448b9b3b6462761578ca6ad1787878ae6eaa2b4f6d1364b058801d1657",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-06-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 7.4. Procedure for withdrawal of an application to register a trade mark",
     "images": [],
     "last_amended": "2025-06-05",

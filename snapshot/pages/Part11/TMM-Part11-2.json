@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/2#1",
       "content_hash": "sha256:06046951292ca6b5b6cdd391c5b179cdda73a85f2d3ab78c71d25011af97d7d7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -72,6 +73,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/2/2/1",
       "content_hash": "sha256:2eb32edf08641cb9eed7a7a5d890f3092423a1f4d1e88938ed1c1c1ab98a1b72",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -105,6 +107,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/2/2/2",
       "content_hash": "sha256:04e9f1edcd30cd5362243e403ba8b92c76e51b0eae46c05fb6c8d351b9e38855",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -145,6 +148,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/2/2/3",
       "content_hash": "sha256:3dcd1aa51f6f6ff4e9e94b5032dbf0e02351146b2ecb2d97dc89e37fc1eb2399",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -178,6 +182,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/2/2/4",
       "content_hash": "sha256:1f0ac462d2fd698e98c6fd65a9c8feb7e82edc52421451ea5ea298f917eeb31b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -204,11 +209,33 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed - links removed"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9854381c99b64704c35a00da0904a4e243c66fa08fb0ef2c2e86985cd2f2ffc9",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "11.2. Making a claim for priority",
     "images": [],
     "last_amended": "2025-01-13",

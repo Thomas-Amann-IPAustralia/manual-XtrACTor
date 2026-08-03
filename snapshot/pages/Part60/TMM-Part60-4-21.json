@@ -74,6 +74,74 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/21#1",
       "content_hash": "sha256:644541cbe120cd7038e84f7d3082f414bdf814c40cf7db379cacb2a76e164edf",
+      "emphasis": [
+        {
+          "end": 27,
+          "kind": "strong",
+          "start": 0,
+          "text": "4.21.1 Relevant Legislation"
+        },
+        {
+          "end": 43,
+          "kind": "i",
+          "start": 28,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 43,
+          "kind": "strong",
+          "start": 28,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 434,
+          "kind": "i",
+          "start": 407,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 434,
+          "kind": "strong",
+          "start": 407,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 639,
+          "kind": "i",
+          "start": 619,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 639,
+          "kind": "strong",
+          "start": 619,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 723,
+          "kind": "i",
+          "start": 695,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 723,
+          "kind": "strong",
+          "start": 695,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 903,
+          "kind": "i",
+          "start": 851,
+          "text": "Trade Marks Office Manual of Practice and Procedure:"
+        },
+        {
+          "end": 903,
+          "kind": "strong",
+          "start": 851,
+          "text": "Trade Marks Office Manual of Practice and Procedure:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -215,6 +283,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/21/4/21/2",
       "content_hash": "sha256:8742c396a4b73dfbefe84945516a0d5046bc21fe08393859f9ce0bfd3443cc58",
+      "emphasis": [
+        {
+          "end": 12,
+          "kind": "strong",
+          "start": 0,
+          "text": "PLEASE NOTE:"
+        },
+        {
+          "end": 463,
+          "kind": "i",
+          "start": 443,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -327,11 +409,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:109870a43b5a009b6e0b8ac419b59a25d835e1806c8d6328346a53a4763dd568",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.21 Opposition to Cessation of Protection because of Non-Use",
     "images": [],
     "last_amended": "2026-04-17",

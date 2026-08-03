@@ -47,6 +47,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/2#1~1",
       "content_hash": "sha256:3a16ea7bc930d400f9fc0279054a7cd32baffbec841bcce63502eb1205f2fff5",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -151,6 +152,26 @@
       ],
       "chunk_ref": "TMM/Part43/2#1~2",
       "content_hash": "sha256:8e1df966707fe23286feab3fcb4feb64cecd740bf27db39356bc0d4d3c291ac6",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "strong",
+          "start": 0,
+          "text": "Note:"
+        },
+        {
+          "end": 303,
+          "kind": "i",
+          "start": 249,
+          "text": "Pham Global Pty Ltd v Insight Clinical Imaging Pty Ltd"
+        },
+        {
+          "end": 732,
+          "kind": "i",
+          "start": 336,
+          "text": "Within such a scheme, where the rights of the registered owner extend back to the filing date of the application, it is essential that the initial applicant on the filing date be the owner of the mark. Otherwise, the applicant cannot transfer ownership of the mark by an assignment in accordance with the legislative provisions on and from the filing date… when not in fact the owner of the mark."
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -173,11 +194,25 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5f19336061b3e96e6cb0ef4f6d568f4886b56c6f1ccee67bb14bf4706a0afed3",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.2. Timing for assignment",
     "images": [],
     "last_amended": "2024-05-16",

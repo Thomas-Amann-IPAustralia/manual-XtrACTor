@@ -10,6 +10,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/9#1",
       "content_hash": "sha256:dadd0713802b19563886b1f879fdd89e3f5d88a5c925c708e26f3c4ad6d14610",
+      "emphasis": [
+        {
+          "end": 513,
+          "kind": "i",
+          "start": 487,
+          "text": "Expired - renewal possible"
+        },
+        {
+          "end": 513,
+          "kind": "i",
+          "start": 487,
+          "text": "Expired - renewal possible"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -92,11 +106,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f3be73433487d491e8069fb910c16449ca296626030a1efef204cb63247c2625",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "26.9. Grounds for rejection when the citation is in its renewal period",
     "images": [],
     "last_amended": "2022-04-20",

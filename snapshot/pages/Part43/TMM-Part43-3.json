@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/3#1",
       "content_hash": "sha256:da80679e155de58480cc5d30b83c85f0d62df208fe1d69bfe56ba3e31b35bbf5",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -127,6 +128,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/3/3/1",
       "content_hash": "sha256:e42da65752c341bfb96b46353a807a264a994ccaa4a0ae7e98119ef5c7d6e41c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -283,6 +285,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/3/3/2",
       "content_hash": "sha256:0ef4bb6913720ef39e40d7602cb7c3c6d8e479f68b2cdfce2fad852c3dcab300",
+      "emphasis": [
+        {
+          "end": 478,
+          "kind": "strong",
+          "start": 458,
+          "text": "The name and address"
+        },
+        {
+          "end": 494,
+          "kind": "strong",
+          "start": 486,
+          "text": "assignee"
+        },
+        {
+          "end": 554,
+          "kind": "strong",
+          "start": 511,
+          "text": "name/signature and position of the assignor"
+        },
+        {
+          "end": 759,
+          "kind": "strong",
+          "start": 739,
+          "text": "trade mark number(s)"
+        },
+        {
+          "end": 818,
+          "kind": "strong",
+          "start": 803,
+          "text": "full or partial"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -341,6 +375,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/3/3/3",
       "content_hash": "sha256:311633614e0ffe4b0fae9339364cfd023d324cbf34426fea754b59234973b331",
+      "emphasis": [
+        {
+          "end": 977,
+          "kind": "strong",
+          "start": 973,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -391,10 +433,9 @@
           "mention": "section 28 of the Act,"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s69(3)",
-          "mention": "subsection 69(3)"
+          "mention": "subsection 69(3)."
         }
       ],
       "tables": [],
@@ -419,6 +460,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/3/3/4",
       "content_hash": "sha256:96f4c6a5299676737dc31e574bcca78697ae916597fdda3214efa65729d379dd",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -504,10 +546,9 @@
           "mention": "109(2)(b)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s174",
-          "mention": "subsection 174"
+          "mention": "subsection 174."
         },
         {
           "extraction": "href",
@@ -526,11 +567,29 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "References to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c87c56fb8a69ceafc86a254a5d47224f269ddaad1ebc498441c7d1b280951703",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.3. Application to record assignment etc",
     "images": [],
     "last_amended": "2022-04-20",

@@ -18,6 +18,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/5#1",
       "content_hash": "sha256:0844d76c717898594da741660eaabf8b3031c217bede52bb2156955ca12c2e73",
+      "emphasis": [
+        {
+          "end": 498,
+          "kind": "strong",
+          "start": 484,
+          "text": "Trade Mark No."
+        },
+        {
+          "end": 508,
+          "kind": "strong",
+          "start": 499,
+          "text": "Applicant"
+        },
+        {
+          "end": 519,
+          "kind": "strong",
+          "start": 509,
+          "text": "Date filed"
+        },
+        {
+          "end": 533,
+          "kind": "strong",
+          "start": 520,
+          "text": "Priority date"
+        },
+        {
+          "end": 645,
+          "kind": "strong",
+          "start": 643,
+          "text": "if"
+        },
+        {
+          "end": 696,
+          "kind": "strong",
+          "start": 693,
+          "text": "but"
+        },
+        {
+          "end": 816,
+          "kind": "strong",
+          "start": 814,
+          "text": "if"
+        },
+        {
+          "end": 867,
+          "kind": "strong",
+          "start": 864,
+          "text": "but"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -126,11 +176,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:08d0f644b973a52c81c4cfeb3211c29d6df977c0b5a1510950784128e6b11ed3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "5. Convention claims and divisional applications",
     "images": [],
     "last_amended": "2026-07-20",

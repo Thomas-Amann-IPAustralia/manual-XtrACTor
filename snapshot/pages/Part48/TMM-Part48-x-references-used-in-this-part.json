@@ -2,11 +2,25 @@
   "chunks": [],
   "page": {
     "amendment_note": "Not needed or in use.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Not needed or in use."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": true,
     "content_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": null,
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "48. References used in this part",
     "images": [],
     "last_amended": "2025-04-01",

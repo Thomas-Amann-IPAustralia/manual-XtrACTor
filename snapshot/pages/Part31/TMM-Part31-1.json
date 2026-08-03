@@ -14,6 +14,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/1#1",
       "content_hash": "sha256:ddc789a4768f5dd8e12018c22ae4d7a867b62682584dd2ca1c03fcf53e212b0e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 31 Prescribed and Prohibited Signs",
@@ -57,11 +58,29 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-22",
+        "reason": "Whole part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-03-11",
+        "reason": "Duplicate information removed and content renumbered"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:fd096be561f0a4b0d552e16030ea7efec317642bc79179218958364fb726404a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.1. Prohibited signs - subsection 39(1)",
     "images": [],
     "last_amended": "2026-07-22",

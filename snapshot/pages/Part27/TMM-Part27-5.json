@@ -24,6 +24,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/5#1",
       "content_hash": "sha256:199a77accc7b39f779a6c480f1f0f528dda3edda07256e220dab0675abc03193",
+      "emphasis": [
+        {
+          "end": 335,
+          "kind": "i",
+          "start": 303,
+          "text": "Tobacco Plain Packaging Act 2011"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -196,6 +204,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/5/5/1",
       "content_hash": "sha256:8c277c13b0a8cf655d489d7f43ae3f41fcf8d7d1c471f0e632aadbc490015f09",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -230,8 +239,7 @@
       "page_ref": "TMM/Part27/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r21.6",
           "mention": "Regulation 21.6"
         }
@@ -287,6 +295,32 @@
       ],
       "chunk_ref": "TMM/Part27/5/5/1/2",
       "content_hash": "sha256:88d8ced06893bafaad14c7e6283f529dd7c47e4432a6953bb65cec3d4bfb78ce",
+      "emphasis": [
+        {
+          "end": 546,
+          "kind": "strong",
+          "start": 541,
+          "text": "5.1.3"
+        },
+        {
+          "end": 558,
+          "kind": "strong",
+          "start": 547,
+          "text": "Websites as"
+        },
+        {
+          "end": 567,
+          "kind": "strong",
+          "start": 559,
+          "text": "evidence"
+        },
+        {
+          "end": 1488,
+          "kind": "i",
+          "start": 1426,
+          "text": "in Dyno Nobel Inc v Orica Explosives Technology Pty Ltd (No 2)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -332,11 +366,37 @@
   ],
   "page": {
     "amendment_note": "Update regarding substantial compliance for a declaration.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Update regarding substantial compliance for a declaration."
+      },
+      {
+        "date": "2023-10-10",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Update eservices reference to online services"
+      },
+      {
+        "date": "2021-04-21",
+        "reason": "Minor formatting change"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0fd4557a8b6ab8eb5e265da9a01efee194d6b856c236eb744d71982ac4c77773",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27.5. Filing evidence of honest concurrent use, prior use or other circumstances",
     "images": [],
     "last_amended": "2024-05-16",

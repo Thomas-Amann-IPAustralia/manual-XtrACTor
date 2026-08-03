@@ -22,6 +22,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/searching-for-goods-and-services",
       "content_hash": "sha256:bd98382afd7529186027218c5d9c4ac73a6513b032782dc654f0efbac5373424",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -82,6 +83,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/introductory-search-screen",
       "content_hash": "sha256:15d40a023387310d53d0e4635208c7fe1f80f37852d8352ecb18dc2c2135744f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -140,6 +142,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-semantic-search",
       "content_hash": "sha256:704fe5a3a6c6950c7e94cff25ee298697c99dd86483004814bf9471d3a2e01ba",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -198,6 +201,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-keyword-search",
       "content_hash": "sha256:029f83c32f2f2de21ee5ae54a8ed0b90a97804d5f01da04f7103f7bbda07308b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -256,6 +260,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/keyword-search-part-word-search",
       "content_hash": "sha256:04a6f1bf402cbd0dd1177116570170a3f8c94b2b340fa4aaee45ccb5912d4a43",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -304,6 +309,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/keyword-search-combination-of-terms",
       "content_hash": "sha256:7155ec44925d621d7d6339954a1569ab141529964e555a23833d65b525ce4cc4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -357,6 +363,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a5---using-the-trade-marks-classification-search/search-results-screen-complete-class-lists",
       "content_hash": "sha256:c0d21e65aa85b85cf0598a669646c829105ca50fe90275d878a36f0ca7e9fb8d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -383,11 +390,29 @@
   ],
   "page": {
     "amendment_note": "Updated to remove references to AU determinations, updated search tool screenshots and instructions to reflect new semantic search tool.",
+    "amendments": [
+      {
+        "date": "2024-08-19",
+        "reason": "Updated to remove references to AU determinations, updated search tool screenshots and instructions to reflect new semantic search tool."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:df80d9c2d5cc34d7ccdd00d166b9643dd6c2a1eb1e464a66f90391990ae265d1",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-08-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14. Annex A5 - Using the Trade Marks Classification Search",
     "images": [],
     "last_amended": "2024-08-19",

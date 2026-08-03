@@ -127,6 +127,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/2#1~1",
       "content_hash": "sha256:8ce810e051a8413ffc4b538d76e0b0b04cc95f8957c04e91d28a3d3d88c6b33c",
+      "emphasis": [
+        {
+          "end": 123,
+          "kind": "strong",
+          "start": 118,
+          "text": "Note:"
+        },
+        {
+          "end": 632,
+          "kind": "i",
+          "start": 364,
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "end": 433,
+          "kind": "u",
+          "start": 430,
+          "text": "not"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -204,6 +224,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/2#1~2",
       "content_hash": "sha256:a0773b6b9097590b9f5d687d555dc7bc885c06f4647fdb7814721cb2f3183041",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -317,6 +338,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/2/2/1",
       "content_hash": "sha256:187c47d76be13944f05076e6b75f4da200c5d7e4d42872e7deef5860928ed61e",
+      "emphasis": [
+        {
+          "end": 831,
+          "kind": "strong",
+          "start": 822,
+          "text": "would not"
+        },
+        {
+          "end": 1864,
+          "kind": "strong",
+          "start": 1859,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -350,11 +385,33 @@
   ],
   "page": {
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "amendments": [
+      {
+        "date": "2025-10-22",
+        "reason": "Added: Note regarding refused amendments and information to be included about the option to be heard."
+      },
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "References to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c5befe9266d75133ea49cf11518588da2cc5919e77a46be29620444e3c76bc4d",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "9.2. Amendment of an application for a registration of a trade mark - general information",
     "images": [],
     "last_amended": "2025-10-22",

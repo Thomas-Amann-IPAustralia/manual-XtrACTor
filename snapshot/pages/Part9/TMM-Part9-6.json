@@ -28,6 +28,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/6#1",
       "content_hash": "sha256:b2710af926d3f84d526295c8a350aba5c2c4c58fa7a975250467951def4eac28",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -95,6 +96,14 @@
       ],
       "chunk_ref": "TMM/Part9/6/6/1",
       "content_hash": "sha256:8cd8d70027945d1fc1d448a73655fa6840f0fb63682db06f19c0783441270088",
+      "emphasis": [
+        {
+          "end": 283,
+          "kind": "i",
+          "start": 247,
+          "text": "Vokes Ltd v Laminar Air Flow Pty Ltd"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -135,6 +144,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/6/6/2",
       "content_hash": "sha256:22958b76ac202bf926c3db313a3a4e724c79bfd643fe7c348044bb67123c9927",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -183,6 +193,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/6/6/3",
       "content_hash": "sha256:a7aa9030f5ef8a00fb0a8f38b3e9547e55329a71fb9707037b0a74e6c7644528",
+      "emphasis": [
+        {
+          "end": 355,
+          "kind": "strong",
+          "start": 337,
+          "text": "as published under"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -259,6 +277,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/6/6/4",
       "content_hash": "sha256:a5e55f8f90b2bfa522ed8123242b076469240df2fe05ba58d5a730b3fbda8fad",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -292,11 +311,25 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links, remove outdated case law references re substantial identity.",
+    "amendments": [
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links, remove outdated case law references re substantial identity."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f73a7ce8bda00b2550b83366b4d6c668f09282c53ef6cc968d0d0fd5dc13d043",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-15",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "9.6. Amendments after registration",
     "images": [],
     "last_amended": "2025-01-15",

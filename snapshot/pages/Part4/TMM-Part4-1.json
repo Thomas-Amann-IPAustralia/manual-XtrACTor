@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/1#1",
       "content_hash": "sha256:4fbf9c33afa932545dd0feb609039689a883cbdaae773b64142cf5a3053cf950",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -64,6 +102,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/1/1/1",
       "content_hash": "sha256:3b6e412e05def5d2f7ef8c0ce1e3cd12916cf2c69bcd7fd353c1309bc1fdfb40",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -114,6 +153,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/1/1/2",
       "content_hash": "sha256:b72283975661cfd2916e89a34728fb15e3fa4439fec3baf1696e0b95fee531fc",
+      "emphasis": [
+        {
+          "end": 311,
+          "kind": "strong",
+          "start": 306,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -160,6 +207,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/1/1/3",
       "content_hash": "sha256:7fbf2ed14eb01f04108de7aeebcf37e2552f28273b4193bf6734769b57acddb7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -216,6 +264,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/1/1/3/1",
       "content_hash": "sha256:499152205610f811619dab408fa9a1b1e0aac4828760262a845f53c961c83dad",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -242,11 +291,25 @@
   ],
   "page": {
     "amendment_note": "Updated Links and renamed titles",
+    "amendments": [
+      {
+        "date": "2025-05-14",
+        "reason": "Updated Links and renamed titles"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:10f59b21410ccce9aa551b4ff69ab333d0323b149d58dbd2cf621713029930fc",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 4.1. Fees - general",
     "images": [],
     "last_amended": "2025-05-14",

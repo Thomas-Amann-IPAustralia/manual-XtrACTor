@@ -66,6 +66,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/x-relevant-legislation13#1",
       "content_hash": "sha256:e28be16e118230c81355ab746b558780f068e384d1b4564d55b588cefb47ae60",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 195,
+          "kind": "strong",
+          "start": 180,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -230,11 +244,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:a10cb934cc94b93d5a955453d8470a077719e66089a9172e7869ba28d614a29a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "15. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

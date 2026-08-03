@@ -99,6 +99,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part8/2#1~1",
       "content_hash": "sha256:f33a94c4bcbd4470fd2098b424f8de2749f6c479d82245cc6d6c2287eb75ab55",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 81,
+          "kind": "strong",
+          "start": 49,
+          "text": "Section 239A Linked trade marks."
+        },
+        {
+          "end": 843,
+          "kind": "strong",
+          "start": 767,
+          "text": "Section 51A Linking series applications and 82A Linking series registrations"
+        },
+        {
+          "end": 1481,
+          "kind": "i",
+          "start": 1476,
+          "text": "filed"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -178,6 +234,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part8/2#1~2",
       "content_hash": "sha256:be9b5598f41bc57bfecc53193c73e24421a40f9a02acac626c95494c224aa18d",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -200,11 +257,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed Links updated",
+    "amendments": [
+      {
+        "date": "2025-06-05",
+        "reason": "Page renamed Links updated"
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:768a2a82ba58f2c6fd32827e7d9a2420863e4c6f9005a1512487818e3069e9da",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-06-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 8.2. Amalgamation (Linking) of Trade Marks under the Trade Marks Amendment Act 2006",
     "images": [],
     "last_amended": "2025-06-05",

@@ -33,6 +33,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/2#1",
       "content_hash": "sha256:1ccc40ab4041240f3a3d63e4f7f80b9d744ddccc90bfc04c08476f64a96584da",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -77,11 +78,21 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2024-03-25",
+        "reason": "Page republished."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e5c76a1a97c6d39280e27b9e2a8523b936829a59ef7d67fd2b259f186c5c2e99",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "2. Why file a divisional application?",
     "images": [],
     "last_amended": "2026-07-20",

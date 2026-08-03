@@ -14,6 +14,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/2#1",
       "content_hash": "sha256:39034574cd8def42891ccb745a9703ca8ec303eb686324ec20070f2a81f33fee",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -53,6 +54,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/2/2/1",
       "content_hash": "sha256:688c9dc43ead1194846f433e00ab73145607477534f8eb48a85e6792c0ef6226",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -93,6 +95,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/2/2/2",
       "content_hash": "sha256:c6bf214cf5536be84b36527d409fee0d84e352c9de6b26440c6085a49b09bb11",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -126,11 +129,29 @@
   ],
   "page": {
     "amendment_note": "No changes made from previous edits.",
+    "amendments": [
+      {
+        "date": "2025-01-24",
+        "reason": "No changes made from previous edits."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed - links removed."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f060b33ac9328646b1f74cdcf71d7dad289a7858907ea74ffdfca7a5d29457f7",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "33.2. Application of Act",
     "images": [],
     "last_amended": "2025-01-24",

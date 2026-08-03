@@ -62,6 +62,34 @@ hyperlinks"*. Paired with a hash diff this separates substantive practice change
 from cosmetic edits, which is the judgement a human reviewer needs to make on
 every crawl PR. It is the most valuable metadata on the page.
 
+**`amendments`** — *all* of that table, newest first, as
+`{"date", "reason"}`. 2,039 rows across the 500 pages, reaching back to 2021;
+493 pages carry more than one and one carries thirteen. `last_amended` and
+`amendment_note` are `amendments[0]`'s two fields and are kept because they are
+what most consumers want and what the crawler's skip logic compares — but they
+are *derived* from this array in `parse_page`, never parsed from the table a
+second time, and `validate._amendment_failures` pins the agreement over the
+whole snapshot. Two readings of one table is how the two come to disagree.
+
+This is a deliberate exception to §What is deliberately absent's rule against
+storing a derivation, and the exception is bounded: the derivation is written
+once, at the point the array is built, and checked corpus-wide.
+
+Until `ingest/0.10.0` the parser read every row and returned only the newest,
+so three quarters of the publisher's own change log stopped at the parser. Two
+things depend on the rest of it. **A time axis**: *what did this page say on a
+given date*, and *were its last five changes substantive or hyperlink
+maintenance* — the judgement the paragraph above says the field exists to
+support, which needs the history to make. And **the period before the first
+crawl**: after that `git` is the amendment log, which is the whole premise of
+this repository, but git cannot reach back before it started and this table
+can.
+
+Order is newest-first with ties in document order. Same-day rows have no other
+key to separate them, so any sort that reordered a tie would rewrite the file
+on alternate runs — rule 2. `reverse=True` on a stable sort inverts ties, which
+is why `_amendments` negates the date instead.
+
 **`archived`** — the page carries the Manual's own *"This page has been
 archived."* banner. It keeps its nav entry, its title and its whole `Amended
 Reasons` table, and has had its prose removed, so it yields no chunks: expect
@@ -363,6 +391,67 @@ same chunk, and matching them up afterwards would be a guess between the two.
 one of them is where `TMA1995/s42` on Part 32A.1 comes from — and records the
 point they sat at.
 
+**`emphasis`** — every italic, bold, underlined and superscript stretch of the
+chunk, in document order, with the offsets into `text` at which the Manual set
+it. 5,146 spans across 1,029 chunks.
+
+```json
+{ "kind": "i", "text": "Cantarella Bros Pty Ltd v Modena Trading Pty Ltd",
+  "start": 137, "end": 185 }
+```
+
+The same field the legislation half has carried since `legislation/0.1.0` as
+`provision.units[].emphasis`, and the same argument `links` makes: flattening
+to `text` is the correct verbatim reading of the words and destroys everything
+the markup asserted around them. Reading `<i>` is not a different kind of act
+from reading `<a href>` — both are the authors marking a span.
+
+What rides on it, neither of which is asserted here:
+
+- **The Manual italicises case names.** 437 of the corpus's 522 case-citation
+  positions are immediately preceded by an italic run holding the decision's
+  parties, and 332 distinct citations get exactly one such name across every
+  occurrence. Before `ingest/0.10.0` the only markup evidence for a party name
+  was a jade.io anchor whose own text contained the citation, of which there
+  are 18.
+- **It italicises instrument titles**, 695 times — the `certainty: "explicit"`
+  evidence of `citations.py`, written in markup rather than in prose.
+
+That a name sits beside a citation is an adjacency a consumer can walk.
+Asserting the two belong to each other is a merge, and merges belong
+downstream — §What is deliberately absent.
+
+`kind` is the element verbatim, and the Manual's choice between `<i>` and
+`<em>`, or `<b>` and `<strong>`, is not normalised: which one the CMS emitted
+is a fact about the markup, and this layer has nowhere to put the claim that
+the two mean the same thing. `sup` is a footnote marker — `SOURCE_NOTES.md` §26
+establishes that a superscript is never a heading number, a fact the chunker
+has always acted on and never recorded.
+
+**One record per element, never a merged weight.** 1,271 spans are co-extensive
+with another, because HTML nests where Word does not:
+`<u><i>Trade Marks Act 1995</i></u>` is one stretch of words carrying two
+assertions. The legislation side's `weight: "bold-italic"` exists only because
+a Word run carries both properties on one element. A consumer wanting the
+intersection can take it from two records; it cannot un-take it from one.
+
+Not deduplicated and not sorted, for the reasons `links` is neither — including
+the 193 spans where the CMS nested an element directly inside an identical one
+(`<i><i>x</i></i>`, `SOURCE_NOTES.md` §4) and two records therefore share a
+`kind` *and* their offsets. **A consumer counting spans should deduplicate on
+`(kind, start, end)`**, which gives 4,953 of the 5,146.
+
+Empty spans *are* dropped, which is the one place this and `links` differ: an
+anchor with no words still records a place the Manual put a link, while an
+`<i>` around nothing asserts nothing about any words.
+
+**524 spans reach no chunk**, and they are this field's gap — the same gap
+`links` has. Emphasis inside an `<h2>`–`<h4>` is inside a heading, and a
+heading's words reach the snapshot as a `heading_path` string with no structure
+to hang an offset on. Nearly all of them are the bold numbered paragraphs
+`_inferred_heading` promotes (`SOURCE_NOTES.md` §25), so the emphasis that was
+lost is the emphasis the chunker already read as structure.
+
 `href` is verbatim, root-relative for a Manual page and absolute otherwise.
 Resolving it, against the site root or against the nav, is a join the consumer
 does. **Not deduplicated:** two links to one target are two links, which is the
@@ -443,10 +532,29 @@ with a dot, the Regulations number all of theirs with one). A regex edge failing
 either is dropped at extraction. `SOURCE_NOTES.md` §§20, 32.
 
 **`extraction`** — `href` or `regex`, and the distinction is load-bearing.
-The Manual hyperlinks Act sections to AustLII, so an `href` edge is the authors
-telling you what the paragraph is about. A `regex` edge is our inference from
-seeing "section 41" in prose. Both are useful; only one is near-certain. Collapse
-them into one field and you lose the only signal separating them.
+An `href` edge is the authors telling you what the paragraph is about. A
+`regex` edge is our inference from seeing "section 41" in prose. Both are
+useful; only one is near-certain. Collapse them into one field and you lose the
+only signal separating them.
+
+**Two URL vocabularies count as `href`.** The Manual links its provisions to
+AustLII, which puts the address in the path, and to TimeBase, which puts it in
+a query string — `?id=tmact:217a` is section 217A. Until `ingest/0.11.0` only
+the first was read, so 101 anchors stating a provision outright reached the
+snapshot through the prose alone; reading them upgraded 76 edges out of
+`regex`, including one from `ambiguous`, and added 4. Nothing about what
+`extraction` *means* changed — both vocabularies are the authors' own statement
+— but what an existing filter returns did, which is why it shipped in its own
+version. `SOURCE_NOTES.md` §35.
+
+Federal Register links are deliberately **not** read. A Register id names an
+instrument and nothing narrower, and the corpus's 475 such anchors resolve to
+9 distinct URLs, two of which sit together as boilerplate naming the Act and
+the Regulations at once on nearly every Relevant Legislation page. §35 has the
+argument.
+
+A consumer that wants specifically AustLII-backed edges still can: every href
+is verbatim in `links`, and the join is one filter.
 
 **`certainty`** — for regex edges. `explicit` means the instrument was named
 adjacent. `default` means a bare "section N", assumed to be the Trade Marks Act

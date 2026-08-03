@@ -27,6 +27,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/11#1",
       "content_hash": "sha256:9b6b028006338696b5dd18cdb12a0685c066059a5ac74b26e7ea4d79c7c8e108",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 104,
+          "kind": "i",
+          "start": 84,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 539,
+          "kind": "i",
+          "start": 493,
+          "text": "Trade Marks Amendment Regulations 2001 (No. 3)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -105,11 +143,29 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:20972c18b7f30bacb9b91b40bf343a2378a6a6b897b5bf3d33a7944c50ed97f3",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "35.11. Transmission of certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",

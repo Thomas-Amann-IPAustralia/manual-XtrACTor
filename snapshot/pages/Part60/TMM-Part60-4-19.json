@@ -34,6 +34,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/19/4/19/1",
       "content_hash": "sha256:6d66879af8913346bd5bb66f507642a16b8bd60aa45072ee83d9bef6a50f3fe6",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 125,
+          "kind": "i",
+          "start": 98,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 125,
+          "kind": "strong",
+          "start": 98,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 334,
+          "kind": "i",
+          "start": 306,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 334,
+          "kind": "strong",
+          "start": 306,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -142,6 +180,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/19/4/19/2~1",
       "content_hash": "sha256:369dfc72d201dd737b9d9e5f894d133a39c777cf62ac35c85710c2da80a1a9ca",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -191,6 +230,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/19/4/19/2~2",
       "content_hash": "sha256:c19bd90406c7e67ac99df24736f509cba6f3cba631b3fe149ab3ed0654790a47",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -220,11 +260,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e0951627104a06646ee7892f9dec92d2e1f97396d0e0b6498e87f3baeb5b3dd7",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.19 Cessation or Limitation of Protection",
     "images": [],
     "last_amended": "2026-04-17",

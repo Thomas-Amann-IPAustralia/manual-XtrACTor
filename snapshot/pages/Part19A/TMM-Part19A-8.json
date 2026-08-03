@@ -55,6 +55,32 @@
       ],
       "chunk_ref": "TMM/Part19A/8#1~1",
       "content_hash": "sha256:105067f2e8ea06fe2f52088dee2619896a9694da5376f3d9041d935bdcecc02f",
+      "emphasis": [
+        {
+          "end": 468,
+          "kind": "i",
+          "start": 416,
+          "text": "Wellness Pty Ltd v Pro Bio Living Waters Pty Limited"
+        },
+        {
+          "end": 732,
+          "kind": "i",
+          "start": 687,
+          "text": "Colorado Group Ltd v Strandbags Group Pty Ltd"
+        },
+        {
+          "end": 874,
+          "kind": "i",
+          "start": 869,
+          "text": "solus"
+        },
+        {
+          "end": 934,
+          "kind": "i",
+          "start": 888,
+          "text": "Sports Warehouse, Inc v Fry Consulting Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -117,6 +143,32 @@
       ],
       "chunk_ref": "TMM/Part19A/8#1~2",
       "content_hash": "sha256:ed3fa10c3c962cad567f833b93ed813bf4521261d1119f12af0031d53270c6bc",
+      "emphasis": [
+        {
+          "end": 744,
+          "kind": "i",
+          "start": 730,
+          "text": "PopSockets LLC"
+        },
+        {
+          "end": 1079,
+          "kind": "i",
+          "start": 1035,
+          "text": "Societe De Produits Nestle Sa v Unilever Plc"
+        },
+        {
+          "end": 1647,
+          "kind": "i",
+          "start": 1597,
+          "text": "Michael Harvey v Lion-Beer, Spirits & Wine Pty Ltd"
+        },
+        {
+          "end": 2154,
+          "kind": "i",
+          "start": 2152,
+          "text": "BP"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -139,11 +191,37 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2023-10-12",
+        "reason": "Updated image"
+      },
+      {
+        "date": "2023-10-10",
+        "reason": "Formatting correction."
+      },
+      {
+        "date": "2023-10-09",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6f79cf6e2ef5297918f0acef512f9ee5ff1963749fcdf741c5506618585d0456",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A.8. Use of multiple trade marks",
     "images": [
       {

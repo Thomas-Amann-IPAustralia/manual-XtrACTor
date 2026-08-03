@@ -34,6 +34,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part6/2#1",
       "content_hash": "sha256:e553dd188d8fdedc0886e87235f6ea3293e77559f75abcd028ba38496982cb7c",
+      "emphasis": [
+        {
+          "end": 28,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 34,
+          "kind": "strong",
+          "start": 29,
+          "text": "(Cth)"
+        },
+        {
+          "end": 34,
+          "kind": "u",
+          "start": 29,
+          "text": "(Cth)"
+        },
+        {
+          "end": 402,
+          "kind": "u",
+          "start": 388,
+          "text": "paragraph 1.1."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 6 Expedited Examination",
@@ -85,11 +123,25 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Minor content update.",
+    "amendments": [
+      {
+        "date": "2026-02-10",
+        "reason": "Links to legislation added. Minor content update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4a6a148ef13d0cf863a40625b575ff1b1615515381ee9bc653d85e93835580b4",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "6.2. Expedited Examination process",
     "images": [],
     "last_amended": "2026-02-10",

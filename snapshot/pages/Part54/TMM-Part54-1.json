@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1#1",
       "content_hash": "sha256:ede16147baf9c2dc1b8c54225e1da1ba5e2b628cd0eca39c71940047a4477dd8",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -61,6 +99,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/1",
       "content_hash": "sha256:db97e03e9d221dd1edd852d03de326c360b3df9ff395003d9172376ebd6f7d40",
+      "emphasis": [
+        {
+          "end": 702,
+          "kind": "i",
+          "start": 692,
+          "text": "personally"
+        },
+        {
+          "end": 702,
+          "kind": "strong",
+          "start": 692,
+          "text": "personally"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -122,6 +174,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/2",
       "content_hash": "sha256:6f4fb080df4890bf0d6fececbb4e82c11e8df7d56af34fbf7f524987f0538e47",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -159,6 +212,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/3",
       "content_hash": "sha256:fda6672da178a3492dbdb3607e2741e2a12f99d6cf0bf3c085a96a5afc108bd0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -192,6 +246,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/4",
       "content_hash": "sha256:ef77098aac22704541f5da3d1d63d3d9bd9aa3f805b54581ff9e0bad49e17013",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -225,6 +280,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/4/1",
       "content_hash": "sha256:f4ac8bcd687b56df7ec50dc9f0c75711ba4ef4c2bf266a33ca5b935fde7141ae",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -290,6 +346,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part54/1/1/4/2",
       "content_hash": "sha256:eacd13d34f5d852908d1f2958de75585ee5e718410c101516a06b6230dfdb2e7",
+      "emphasis": [
+        {
+          "end": 1131,
+          "kind": "strong",
+          "start": 1119,
+          "text": "PLEASE NOTE:"
+        },
+        {
+          "end": 2311,
+          "kind": "strong",
+          "start": 2299,
+          "text": "PLEASE NOTE:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 54 Subpoenas, Summonses and Production of Documents",
@@ -322,11 +392,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6385d94d53aadf1df6ad25fb04622dd71084c96908a4be9556e7f14ff2e093b4",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 54.1. Subpoenas",
     "images": [],
     "last_amended": "2025-04-02",

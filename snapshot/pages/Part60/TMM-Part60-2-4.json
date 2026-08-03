@@ -26,6 +26,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/4/2/4/1",
       "content_hash": "sha256:e441f399005dcfa3ce3a4838f8bd2f89cffc84f481f8b50ab93f7e15ae6d94c8",
+      "emphasis": [
+        {
+          "end": 27,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 27,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 107,
+          "kind": "i",
+          "start": 79,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 107,
+          "kind": "strong",
+          "start": 79,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -107,6 +133,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/4/2/4/2~1",
       "content_hash": "sha256:77b831b7adfbb944e77ffbd131a1ecbd93356a6cb26944a2447748bbe94cbeb5",
+      "emphasis": [
+        {
+          "end": 962,
+          "kind": "strong",
+          "start": 958,
+          "text": "Note"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -161,6 +195,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/4/2/4/2~2",
       "content_hash": "sha256:a71ad1343a6ecd7b04fce50a47ce6ae3aa1257c12b76e2d96c4e0bc63ebfbaf1",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -241,6 +276,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/4/2/4/3~1",
       "content_hash": "sha256:733df7775946f36a0324c7055fae3069e134fd014702bab780f71cda00032556",
+      "emphasis": [
+        {
+          "end": 1099,
+          "kind": "strong",
+          "start": 1095,
+          "text": "Note"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -413,6 +456,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/4/2/4/3~2",
       "content_hash": "sha256:6878ce103fc462a596c6000c87d081cd0afeceb3dd38e9f59958179615e0772e",
+      "emphasis": [
+        {
+          "end": 23,
+          "kind": "strong",
+          "start": 0,
+          "text": "the owners are the same"
+        },
+        {
+          "end": 79,
+          "kind": "strong",
+          "start": 24,
+          "text": "the addresses are the same or the differences explained"
+        },
+        {
+          "end": 515,
+          "kind": "strong",
+          "start": 492,
+          "text": "the marks are identical"
+        },
+        {
+          "end": 1156,
+          "kind": "strong",
+          "start": 1029,
+          "text": "the goods/services claimed on the international application are the same as, or less than those covered by the basic trade mark"
+        },
+        {
+          "end": 1795,
+          "kind": "strong",
+          "start": 1690,
+          "text": "certain indications appearing on the international application may also appear on the basic trade mark(s)"
+        },
+        {
+          "end": 2076,
+          "kind": "strong",
+          "start": 2026,
+          "text": "the applicant’s entitlement to file must be stated"
+        },
+        {
+          "end": 2419,
+          "kind": "strong",
+          "start": 2416,
+          "text": "all"
+        },
+        {
+          "end": 2704,
+          "kind": "i",
+          "start": 2668,
+          "text": "Item 3 Entitlement to File continued"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -442,11 +535,41 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2023-08-22",
+        "reason": "Updated information regarding basic trade marks and eligibility for international applications."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "References to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:100968e725de3e370ff8ce0509c92f5343789821d4ac61fd61d4f01dd9acc726",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.2.4 Certifying Process",
     "images": [],
     "last_amended": "2026-04-17",

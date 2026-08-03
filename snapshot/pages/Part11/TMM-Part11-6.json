@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6#1",
       "content_hash": "sha256:d9fa674c00c8936398aae48e99e864a067daceaa9f78f4c6bd022492c59d44b5",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -57,6 +58,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/1",
       "content_hash": "sha256:d4011c1ec67bee9de0a017e2acaf3f5b82d8be578b94f4e92c798e9819071254",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -90,6 +92,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/2",
       "content_hash": "sha256:7cd3b71270972505978f77b391afdbf75be8604fedfe7b1d599927ba0d173beb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -127,6 +130,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/3",
       "content_hash": "sha256:d9d4194bc23cb6dd1853760336178e72ec3fbf38536302bda2242675e10591d7",
+      "emphasis": [
+        {
+          "end": 129,
+          "kind": "strong",
+          "start": 125,
+          "text": "each"
+        },
+        {
+          "end": 231,
+          "kind": "i",
+          "start": 146,
+          "text": "Convention priority claimed: (date), (country) in respect of (goods and/or services)."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -160,6 +177,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/4",
       "content_hash": "sha256:d29f94585a66a84825015ac3658e7661b4a90a25a5ba7cf1458e7cffa46bb6be",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -193,6 +211,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/5",
       "content_hash": "sha256:e66ad7e45630857a4208b2fc388f245b11de5515afa2aa14b4f424b974158b78",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -230,6 +249,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/6/6/6",
       "content_hash": "sha256:202aed79e2e06176cdd02ce0531c870c22e8aabd0a54dc8b87d36fbd52e62d36",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -256,11 +276,33 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:04dd8b1d66d35ef734633758f4a5def9ebb44b6b3fc004e06e1a2d27f149438c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "11.6. Recording the claim",
     "images": [],
     "last_amended": "2025-01-13",

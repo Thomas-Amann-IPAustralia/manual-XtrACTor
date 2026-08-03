@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/4#1",
       "content_hash": "sha256:047e66df5d91af7a90cc72c9ac97b5e176ec9d25cbdc433afbd7b950d3eb1f4f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -77,6 +78,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/4/4/1",
       "content_hash": "sha256:0cf690dc79d1842cb8945c8baf1e4e118593fab44413d61d3a201d32a0985324",
+      "emphasis": [
+        {
+          "end": 415,
+          "kind": "i",
+          "start": 399,
+          "text": "Indexing Comment"
+        },
+        {
+          "end": 415,
+          "kind": "i",
+          "start": 399,
+          "text": "Indexing Comment"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -103,11 +118,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:acdb237be50545ac8bea27bcabca7379699948f84cef04c1e04192e5e648dd17",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "5.4. Regulated signs",
     "images": [],
     "last_amended": "2022-04-20",

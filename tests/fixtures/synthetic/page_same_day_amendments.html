@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+  Two rows amended on one day, and a third on an earlier day, served in an
+  order that is neither newest-first nor oldest-first.
+
+  Same-day rows have no key but document order to separate them, so this is
+  the fixture that pins rule 2 for `page.amendments`: any sort that reordered
+  a tie would rewrite the file on alternate runs. `reverse=True` on a stable
+  sort inverts ties, which is why `_amendments` negates the date instead —
+  this is the case that tells the two apart.
+-->
+<html lang="en">
+<head><title>A page amended twice in one day</title></head>
+<body>
+<main>
+  <div class="block-page-title-block"><h1>1. A page amended twice in one day</h1></div>
+
+  <div class="py-3"><strong class="field-label-inline">Date Published</strong>
+    <time class="datetime" datetime="2021-01-04T12:00:00Z">04 Jan 2021</time></div>
+
+  <div class="views-element-container">
+    <div class="view view-amended-reasons view-id-amended_reasons view-display-id-block_1">
+      <div class="view-header"><h2 class="mt-3">Amended Reasons</h2></div>
+      <div class="view-content row"><div class="table-responsive col">
+        <table class="table views-table views-view-table cols-2">
+          <thead><tr>
+            <th class="views-field views-field-field-amended-reason" scope="col">Amended Reason</th>
+            <th class="views-field views-field-field-date-amended" scope="col">Date Amended</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td class="views-field views-field-field-amended-reason"><p>The older change.</p></td>
+              <td class="views-field views-field-field-date-amended"><time class="datetime" datetime="2021-01-04T12:00:00Z">04 Jan 2021</time></td>
+            </tr>
+            <tr>
+              <td class="views-field views-field-field-amended-reason"><p>First of the two same-day rows.</p></td>
+              <td class="views-field views-field-field-date-amended"><time class="datetime" datetime="2022-03-15T12:00:00Z">15 Mar 2022</time></td>
+            </tr>
+            <tr>
+              <td class="views-field views-field-field-amended-reason"><p>Second of the two same-day rows.</p></td>
+              <td class="views-field views-field-field-date-amended"><time class="datetime" datetime="2022-03-15T12:00:00Z">15 Mar 2022</time></td>
+            </tr>
+          </tbody>
+        </table>
+      </div></div>
+    </div>
+  </div>
+
+  <div class="field--name-body">
+    <p>The prose, carrying a nested <u><i>Trade Marks Act 1995</i></u> and a
+    <strong>bold run</strong> so one fixture covers both fields this page was
+    written for.</p>
+  </div>
+</main>
+</body>
+</html>

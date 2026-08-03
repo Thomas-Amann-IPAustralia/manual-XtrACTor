@@ -36,6 +36,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/3#1~1",
       "content_hash": "sha256:97a4a3991e4c5e5f0545dacd3880c57d8482771033c84a4274672f13a769570d",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -116,6 +117,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part31/3#1~2",
       "content_hash": "sha256:62fbf4f23dde10f821a76b2db479ada32b29152a4409460a4536bb04a060a300",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -145,11 +147,29 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-22",
+        "reason": "Whole part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-02-18",
+        "reason": "Removal of 3.1 and update to content."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:39753a0619d9afd0c90c5066bb9e5fe5c7c49c0557a83478b50dcbeaa07810fd",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.3. When does a ground for rejection exist under subsection 39(2)?",
     "images": [],
     "last_amended": "2026-07-22",

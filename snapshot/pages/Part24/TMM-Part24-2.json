@@ -56,6 +56,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part24/2#1~1",
       "content_hash": "sha256:c624ac287a944badb1fadd6441cf5e5689855c4251af11cac3fb046d12a9f39c",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1196,
+          "kind": "i",
+          "start": 1181,
+          "text": "the particulars"
+        },
+        {
+          "end": 1196,
+          "kind": "strong",
+          "start": 1181,
+          "text": "the particulars"
+        },
+        {
+          "end": 2405,
+          "kind": "i",
+          "start": 2257,
+          "text": "Registration of this trade mark gives no exclusive right to use or to authorise the use of the word/device... [specify part(s) of the trade mark(s)]"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -113,6 +169,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part24/2#1~2",
       "content_hash": "sha256:36a23eb63137697fc39ea50153234729640c29da922aac6c013e6b02aac3b497",
+      "emphasis": [
+        {
+          "end": 187,
+          "kind": "i",
+          "start": 120,
+          "text": "The following disclaimer has been requested under subsection 74(1):"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -142,11 +206,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-20",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:748b19b6510f161042ca495b1257f711092788b8b1b13cda2174d6dfbc3c8527",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-02-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 24.2. Request for a voluntary disclaimer",
     "images": [],
     "last_amended": "2025-02-20",

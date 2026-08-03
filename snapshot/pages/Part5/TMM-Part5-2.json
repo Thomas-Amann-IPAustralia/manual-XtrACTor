@@ -14,6 +14,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/2#1",
       "content_hash": "sha256:70821996fb9830b335fdb031585707fa08ef90baaf697451bdeea967d0b836ac",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 26,
+          "kind": "strong",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 26,
+          "kind": "u",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 55,
+          "kind": "strong",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 55,
+          "kind": "u",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 61,
+          "kind": "strong",
+          "start": 56,
+          "text": "(Cth)"
+        },
+        {
+          "end": 61,
+          "kind": "u",
+          "start": 56,
+          "text": "(Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -83,6 +145,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/2/2/1",
       "content_hash": "sha256:262857ab867a106c4a6892c8fb5f998e2a6426475ebc1c1d181b85d06b9c19cd",
+      "emphasis": [
+        {
+          "end": 650,
+          "kind": "strong",
+          "start": 645,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -254,6 +324,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/2/2/2~1",
       "content_hash": "sha256:68e875bb41af053475c128d594de12d736f03f7a3e48044c18c9ffe802f84538",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -355,6 +426,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/2/2/2~2",
       "content_hash": "sha256:f1e270517e2f72adee3aa9d813867f94b654f1ecc043af38fd0d0052153518d5",
+      "emphasis": [
+        {
+          "end": 202,
+          "kind": "i",
+          "start": 182,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 1009,
+          "kind": "strong",
+          "start": 1004,
+          "text": "Note:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -432,6 +517,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/2/2/3",
       "content_hash": "sha256:0d5ae9343caa85483062ef9f4eb309493dc0c71446c799f8d92fa1df832ac91b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -458,11 +544,33 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-13",
+        "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Reference to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9ce23924fede777203353e2459b8c9cd58b1638bc429e033fde66ad52c4f0fad",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "5.2. Data Capture",
     "images": [],
     "last_amended": "2026-04-13",

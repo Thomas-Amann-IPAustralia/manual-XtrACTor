@@ -47,6 +47,50 @@
       ],
       "chunk_ref": "TMM/Part29/4#1",
       "content_hash": "sha256:ee8650d8222dab43788198d8fd9f43ca934317a389f76728bdf40f85c97ac032",
+      "emphasis": [
+        {
+          "end": 181,
+          "kind": "strong",
+          "start": 171,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 206,
+          "kind": "strong",
+          "start": 182,
+          "text": "Goods / services claimed"
+        },
+        {
+          "end": 1267,
+          "kind": "strong",
+          "start": 1257,
+          "text": "Trade Mark"
+        },
+        {
+          "end": 1292,
+          "kind": "strong",
+          "start": 1268,
+          "text": "Goods / services claimed"
+        },
+        {
+          "end": 1631,
+          "kind": "i",
+          "start": 1563,
+          "text": "Mount Everest Mineral Water Limited v Himalayan Spring Mineral Water"
+        },
+        {
+          "end": 1820,
+          "kind": "i",
+          "start": 1785,
+          "text": "Scotch Whisky Association v De Witt"
+        },
+        {
+          "end": 2254,
+          "kind": "i",
+          "start": 1848,
+          "text": "a label indicating bourbon, bourbon whiskey and/or made in the USA clearly connote an origin of a place other than Scotland. Labels indicating ‘Tennessee Whiskey’ again connotes an origin in a place other than Scotland. For a mark to be rejected under s 43 there must be a ‘real tangible danger of deception or confusion’. That exceptionally stupid or careless consumers might be confused does not suffice."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -146,11 +190,29 @@
   ],
   "page": {
     "amendment_note": "Removed published date. Added square parentheses around para numbers.",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Removed published date. Added square parentheses around para numbers."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      },
+      {
+        "date": "2021-05-22",
+        "reason": "Tagging updated Part 29.4 to the external manual"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:21a808154fe5f68cfb68c7aa5a545a7d9600c8ea8c095efefce0e06b7cb4a64e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29.4. Descriptions of goods/services",
     "images": [],
     "last_amended": "2025-01-13",

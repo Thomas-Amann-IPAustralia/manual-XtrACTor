@@ -30,6 +30,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part42/2#1",
       "content_hash": "sha256:269272d42b01b6f189a3fb3af1ee7dac54f9be26c845f123fca979fdd1adc187",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 42 Rectification of the Register",
@@ -75,11 +113,17 @@
   ],
   "page": {
     "amendment_note": "Tagged with chapter: Part 42 Rectification of the Register",
+    "amendments": [
+      {
+        "date": "2025-05-28",
+        "reason": "Tagged with chapter: Part 42 Rectification of the Register"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c6b2892ba3f22b1f06d3b4b8e90a166af57a3b38ff6f6661d61973c6968e7622",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-05-28",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 42.2. What part does the Registrar play in rectification actions brought by a person aggrieved?",
     "images": [],
     "last_amended": "2025-05-28",

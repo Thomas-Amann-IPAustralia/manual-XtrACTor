@@ -22,6 +22,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/7#1",
       "content_hash": "sha256:1bd2edb5a4872474eb8de2a8ea11a1c93cc19b262cbe5d594fb673b3e9ad53ed",
+      "emphasis": [
+        {
+          "end": 54,
+          "kind": "i",
+          "start": 34,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 54,
+          "kind": "i",
+          "start": 34,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 330,
+          "kind": "strong",
+          "start": 324,
+          "text": "assign"
+        },
+        {
+          "end": 527,
+          "kind": "i",
+          "start": 489,
+          "text": "Trade Marks Amendment Regulations 2001"
+        },
+        {
+          "end": 527,
+          "kind": "i",
+          "start": 489,
+          "text": "Trade Marks Amendment Regulations 2001"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -94,8 +126,7 @@
           "mention": "180A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r10.1",
           "mention": "reg 10.1"
         },
@@ -111,11 +142,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2ac4632d30a883c433deb5fce1766d54a16293478cce0ae9ad03e8a6fb2594c6",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.7. Transmission of certification trade marks",
     "images": [],
     "last_amended": "2022-04-20",

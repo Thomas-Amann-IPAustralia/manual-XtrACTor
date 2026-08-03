@@ -38,6 +38,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/1#1",
       "content_hash": "sha256:c21d9dfb1e224697c42be3a1662c98ae941753d1ee350592c24c136985d16637",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 85,
+          "kind": "i",
+          "start": 65,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 1274,
+          "kind": "strong",
+          "start": 1263,
+          "text": "PLEASE NOTE"
+        },
+        {
+          "end": 1518,
+          "kind": "i",
+          "start": 1475,
+          "text": "Certification trade marks - the role of the"
+        },
+        {
+          "end": 1523,
+          "kind": "i",
+          "start": 1519,
+          "text": "ACCC"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -144,6 +182,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/1/1/5",
       "content_hash": "sha256:e7261d6a3dd834a27ca54e98ecef44da934fa86e459b71b73550bc09f835cdb9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -170,11 +209,25 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ae0a6326f10ebf02b09cce9caf70faff9119c9a626f2fa362137dc696fc08cba",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "35.1. What is a certification trade mark?",
     "images": [],
     "last_amended": "2026-02-11",

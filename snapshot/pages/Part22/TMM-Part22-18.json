@@ -10,6 +10,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/18#1",
       "content_hash": "sha256:23c2bb0fa6552173090e449abdce2e2d7f406d2764236785e40c1000867e07bf",
+      "emphasis": [
+        {
+          "end": 12,
+          "kind": "strong",
+          "start": 0,
+          "text": "Type of Name"
+        },
+        {
+          "end": 21,
+          "kind": "strong",
+          "start": 13,
+          "text": "Practice"
+        },
+        {
+          "end": 2174,
+          "kind": "i",
+          "start": 2166,
+          "text": "clothing"
+        },
+        {
+          "end": 2174,
+          "kind": "i",
+          "start": 2166,
+          "text": "clothing"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -102,11 +128,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:8f461969cb43b1c47e76f2f5d94e35d7130a4d0ade5eeca5639ddf5228134cc5",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "18. Summary of examination practice in relation to names",
     "images": [],
     "last_amended": "2022-04-20",

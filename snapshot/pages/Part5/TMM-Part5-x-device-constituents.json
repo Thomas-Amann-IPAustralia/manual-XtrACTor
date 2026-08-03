@@ -46,6 +46,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents#1",
       "content_hash": "sha256:4a40e34ca5891ef9522ae84cce2086ad8538e03280b30d3d6f5c0f72ddd8b5e4",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "strong",
+          "start": 0,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -131,6 +139,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/device-phrases",
       "content_hash": "sha256:1cef754f7d3c0e5e59a09698af0e83cd98f0b04b91153515db3040e9bfb90011",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -179,6 +188,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/conventions-used-in-device-phrases",
       "content_hash": "sha256:852788eaea8dc01ea33ee785fd1c2d37506ec2fae8d4849733e7bf0ac7f886a3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -427,6 +437,158 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/device-phrase-operators",
       "content_hash": "sha256:eaa394fb394a999164ba358603a83edd632d7bc4dcdafbc8dff28e0d1eca8d83",
+      "emphasis": [
+        {
+          "end": 83,
+          "kind": "strong",
+          "start": 77,
+          "text": "BREAKS"
+        },
+        {
+          "end": 98,
+          "kind": "strong",
+          "start": 92,
+          "text": "breaks"
+        },
+        {
+          "end": 124,
+          "kind": "strong",
+          "start": 118,
+          "text": "breaks"
+        },
+        {
+          "end": 149,
+          "kind": "strong",
+          "start": 145,
+          "text": "CUTS"
+        },
+        {
+          "end": 164,
+          "kind": "strong",
+          "start": 160,
+          "text": "cuts"
+        },
+        {
+          "end": 188,
+          "kind": "strong",
+          "start": 180,
+          "text": "OVERLAPS"
+        },
+        {
+          "end": 203,
+          "kind": "strong",
+          "start": 195,
+          "text": "overlaps"
+        },
+        {
+          "end": 233,
+          "kind": "strong",
+          "start": 226,
+          "text": "INDENTS"
+        },
+        {
+          "end": 246,
+          "kind": "strong",
+          "start": 239,
+          "text": "indents"
+        },
+        {
+          "end": 262,
+          "kind": "strong",
+          "start": 256,
+          "text": "EXTEND"
+        },
+        {
+          "end": 277,
+          "kind": "strong",
+          "start": 271,
+          "text": "extend"
+        },
+        {
+          "end": 310,
+          "kind": "strong",
+          "start": 306,
+          "text": "ATOP"
+        },
+        {
+          "end": 322,
+          "kind": "strong",
+          "start": 318,
+          "text": "atop"
+        },
+        {
+          "end": 356,
+          "kind": "strong",
+          "start": 352,
+          "text": "atop"
+        },
+        {
+          "end": 387,
+          "kind": "strong",
+          "start": 382,
+          "text": "BELOW"
+        },
+        {
+          "end": 413,
+          "kind": "strong",
+          "start": 408,
+          "text": "below"
+        },
+        {
+          "end": 454,
+          "kind": "strong",
+          "start": 449,
+          "text": "below"
+        },
+        {
+          "end": 476,
+          "kind": "strong",
+          "start": 470,
+          "text": "BESIDE"
+        },
+        {
+          "end": 488,
+          "kind": "strong",
+          "start": 482,
+          "text": "beside"
+        },
+        {
+          "end": 507,
+          "kind": "strong",
+          "start": 505,
+          "text": "IN"
+        },
+        {
+          "end": 527,
+          "kind": "strong",
+          "start": 525,
+          "text": "in"
+        },
+        {
+          "end": 551,
+          "kind": "strong",
+          "start": 549,
+          "text": "in"
+        },
+        {
+          "end": 566,
+          "kind": "strong",
+          "start": 559,
+          "text": "BETWEEN"
+        },
+        {
+          "end": 598,
+          "kind": "strong",
+          "start": 591,
+          "text": "between"
+        },
+        {
+          "end": 620,
+          "kind": "strong",
+          "start": 613,
+          "text": "between"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -474,6 +636,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/how-are-images-indexed",
       "content_hash": "sha256:2645f81aa82ed27f9048dcb4641d52f3753801543df9c93030a1e5f802b394c2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -514,6 +677,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/geometric-borders",
       "content_hash": "sha256:e1cdf6cfc2aa233a711d3395d6c2d9fde2d9860101f2c72fd2fa5f67865fcd1d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -589,6 +753,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/conventional-decorative-elements",
       "content_hash": "sha256:09e44f114bf5cbf25212b391407ccef059ef675df5a726a5d86af9e970cbdba1",
+      "emphasis": [
+        {
+          "end": 1032,
+          "kind": "strong",
+          "start": 1025,
+          "text": "Phrase:"
+        },
+        {
+          "end": 1109,
+          "kind": "strong",
+          "start": 1096,
+          "text": "Constituents:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -739,6 +917,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/types-of-terms-descriptors~1",
       "content_hash": "sha256:4e6c0cdc6a10eabfe2b397a1c6a735187b96bed1dfc8f3ec9bb7a5da33864df7",
+      "emphasis": [
+        {
+          "end": 204,
+          "kind": "strong",
+          "start": 188,
+          "text": "names of objects"
+        },
+        {
+          "end": 276,
+          "kind": "strong",
+          "start": 254,
+          "text": "qualifying descriptors"
+        },
+        {
+          "end": 828,
+          "kind": "strong",
+          "start": 812,
+          "text": "Plurals of words"
+        },
+        {
+          "end": 1280,
+          "kind": "strong",
+          "start": 1265,
+          "text": "Top Level Terms"
+        },
+        {
+          "end": 1625,
+          "kind": "strong",
+          "start": 1603,
+          "text": "Using Qualifying Terms"
+        },
+        {
+          "end": 1840,
+          "kind": "strong",
+          "start": 1836,
+          "text": "TERM"
+        },
+        {
+          "end": 1851,
+          "kind": "strong",
+          "start": 1841,
+          "text": "APPLIES TO"
+        },
+        {
+          "end": 1856,
+          "kind": "strong",
+          "start": 1852,
+          "text": "TERM"
+        },
+        {
+          "end": 1867,
+          "kind": "strong",
+          "start": 1857,
+          "text": "APPLIES TO"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -943,6 +1177,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/types-of-terms-descriptors~2",
       "content_hash": "sha256:621d39592f48a7d4f0960e85339b2eeb0fd864d4cae58b22d4facfacccd65d3a",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -1015,6 +1250,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/stylised",
       "content_hash": "sha256:e9a286d8ca7fae2738657002f2e56df737abf23c1f88ba85e85ea407f007e6d6",
+      "emphasis": [
+        {
+          "end": 925,
+          "kind": "strong",
+          "start": 912,
+          "text": "Constituents:"
+        },
+        {
+          "end": 965,
+          "kind": "strong",
+          "start": 952,
+          "text": "Constituents:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1132,6 +1381,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/cartoon",
       "content_hash": "sha256:02649c9ad19d0bac6a5d393b6efc49ab7c261d9fae2a6b48ac7b647a76be08df",
+      "emphasis": [
+        {
+          "end": 459,
+          "kind": "strong",
+          "start": 446,
+          "text": "Constituents:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1200,6 +1457,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/clothed",
       "content_hash": "sha256:d4866cc8e1f75a2059e00c4690e7144f96e7053eb5cfb560e4c6bdf1e717b564",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1255,6 +1513,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/silhouette",
       "content_hash": "sha256:b32060047beddd9caf820e2764cb4741c9eb0250717ff661a71bd09d1deff00e",
+      "emphasis": [
+        {
+          "end": 256,
+          "kind": "strong",
+          "start": 243,
+          "text": "Constituents:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1344,6 +1610,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/other-special-descriptors",
       "content_hash": "sha256:c696b2ee81ce3aa312ff68f4e1ca305b32bcc1314fac38ddc390e87d942edac1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1404,6 +1671,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/shields-crests-and-coats-of-arms",
       "content_hash": "sha256:135b1cb239f40ebfd5371ca38f995c5a8d47576f85f4df15e27b435a1c1976f9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1455,6 +1723,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/mantling-and-drapes",
       "content_hash": "sha256:be9a33b22aa13ede5fc7fdf6e748ceeee563eb741492dab2b08f21ddb6ec1358",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1506,6 +1775,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/geometric-shapes-in-marks",
       "content_hash": "sha256:ed30f918de6d20976b4a90b798083f0e8380e0000fe15557d5cd943d017657f3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -1547,6 +1817,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/circles-and-discs~1",
       "content_hash": "sha256:cc24fe895542e2afb25a3c2b20f605e70bf56cb5e0ca45090522f5238fb0f854",
+      "emphasis": [
+        {
+          "end": 182,
+          "kind": "strong",
+          "start": 154,
+          "text": "Qualifying circles and discs"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -1614,6 +1892,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/circles-and-discs~2",
       "content_hash": "sha256:785f834310fef5c8012efaeef16d5b56f57c7ac89da3ef4ea96984b45399c6f7",
+      "emphasis": [
+        {
+          "end": 1768,
+          "kind": "strong",
+          "start": 1758,
+          "text": "Note also:"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 2
@@ -1853,6 +2139,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/circles-and-discs~3",
       "content_hash": "sha256:aae2930eadce7384b53ef8ec3e7e1e7c27db245f9fd878b5f88c9cba741797fb",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 3
@@ -1940,6 +2227,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/ellipses-and-ovals",
       "content_hash": "sha256:9eb7eef654c9ce5349298dd23f7aae427c2cf3f8c08d15ce72236890a9d146dd",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2024,6 +2312,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/four-sided-figures~1",
       "content_hash": "sha256:d0c59c5a01cf50c8bd9487ad8483e439e1078758f94f9768fa328eea2571eb61",
+      "emphasis": [
+        {
+          "end": 992,
+          "kind": "strong",
+          "start": 963,
+          "text": "Qualifying four-sided figures"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -2211,6 +2507,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/four-sided-figures~2",
       "content_hash": "sha256:ba47dd319d482022bf79fd3d53550769357cb4d18589fafcc29bea11a5050a98",
+      "emphasis": [
+        {
+          "end": 1045,
+          "kind": "strong",
+          "start": 1035,
+          "text": "Note also:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -2362,6 +2666,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/triangles",
       "content_hash": "sha256:4134b2ef5231a1cabff35663942184a5610e75576614bbc0ec8a06d025c5b5b5",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2450,6 +2755,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/other-geometric-figures",
       "content_hash": "sha256:aa20c79630c923e0fc9d6116802d58659b17c69593a2d28ae7610184bb954045",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2529,6 +2835,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/stripes-lines-and-arrows",
       "content_hash": "sha256:d99698c05b03b10bb25101ce96f3902670a91ce2bc212603b85310cdc93b270f",
+      "emphasis": [
+        {
+          "end": 197,
+          "kind": "strong",
+          "start": 193,
+          "text": "Note"
+        },
+        {
+          "end": 408,
+          "kind": "strong",
+          "start": 390,
+          "text": "Qualifying stripes"
+        },
+        {
+          "end": 1799,
+          "kind": "strong",
+          "start": 1789,
+          "text": "Note also:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2681,6 +3007,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/trefoils-quatrefoils-cinquefoils",
       "content_hash": "sha256:94e1cdac302c8c8a16d060d664837b5a83618287dce04ca5015fca6aabdf465a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2736,6 +3063,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/spirals-springs-and-coils",
       "content_hash": "sha256:070f0edc508ef39d724387f3e1206cb2476312397993f42b3145f40cd93cd484",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2775,6 +3103,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/curls-and-whorls",
       "content_hash": "sha256:bb66464606a0fac37ef8a0a6bc1c3de18977a7fd48b8112b55227260bb1573c5",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2814,6 +3143,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/drops-and-flames",
       "content_hash": "sha256:1636d9c32a6c217bf1528f7e5600fa2572b4a15017b9af8b3b701d299e2f0bb0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2909,6 +3239,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/impellers-and-fans",
       "content_hash": "sha256:7f333b3aaf289f6883a8eda7c078605595818e01f4048c77ea6dd0d1c2195b93",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -2997,6 +3328,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/arrows-arrowheads-chevrons-angles",
       "content_hash": "sha256:e5f915882006649e8f584885fd4e571509bc8366230b6216f0fc17c6afd0111e",
+      "emphasis": [
+        {
+          "end": 768,
+          "kind": "strong",
+          "start": 758,
+          "text": "Note also:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3065,6 +3404,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/patterns",
       "content_hash": "sha256:fd4da7f28404a772f35b0c84c405003fba1475d43db01e80fe0b030b1acad8c7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3157,6 +3497,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/grid-mesh-graph",
       "content_hash": "sha256:ed8fdb6f647062318c8f981d355f8019aad1930035bb79b6243f6711ee965ebd",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3208,6 +3549,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/borders-frames",
       "content_hash": "sha256:237e33b3d6c756533f0fa5847c5684af8d1c6696f66bdefea63de0477757a2b9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3263,6 +3605,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/badges-medals-medallions-rosettes-and-coins",
       "content_hash": "sha256:2ad2dc27e2a41d7a66ba3ef25d23179664b8dac7cdf91bf84e6436fcbb8b07df",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3349,6 +3692,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/lions-and-other-heraldic-animals",
       "content_hash": "sha256:61e1f0ab08d5876a99cd46e5623526413ae046c3bb196336a22cbffcf7784f70",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3400,6 +3744,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/stars",
       "content_hash": "sha256:01563f247c3f6b1f10a874b5f793079ea883733d73fb0edfde131fce0321e405",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3439,6 +3784,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/balls",
       "content_hash": "sha256:1d907b38eddab64af3a3d9d5be9261b6594184fd0405ddead34240351e6d519b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3510,6 +3856,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/globes",
       "content_hash": "sha256:54184c3d62432fa3bbe05a33671762fb8dbd8ee936d77167fce523367eef4ade",
+      "emphasis": [
+        {
+          "end": 978,
+          "kind": "strong",
+          "start": 968,
+          "text": "Note also:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3581,6 +3935,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/maps-and-flags",
       "content_hash": "sha256:4f1dcf659c003056a0e5139c9e014319d35fbff544c512bb16082a40d33cbc4f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3620,6 +3975,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/crosses",
       "content_hash": "sha256:fcfc674da8e790cdb257a3c7e7fd48dbf412615cbba76afbc25bb506c6d461c6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -3728,6 +4084,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/symbols~1",
       "content_hash": "sha256:6a10d9798aba8d55c8234445acf626799833137e6c3db4566aa0dec08a31bb83",
+      "emphasis": [
+        {
+          "end": 926,
+          "kind": "strong",
+          "start": 896,
+          "text": "LETTERS AND FOREIGN CHARACTERS"
+        },
+        {
+          "end": 2195,
+          "kind": "strong",
+          "start": 2172,
+          "text": "Indexing Details - Word"
+        },
+        {
+          "end": 2208,
+          "kind": "strong",
+          "start": 2196,
+          "text": "Constituents"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -3795,6 +4171,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-device-constituents/symbols~2",
       "content_hash": "sha256:56cd949ac78c332435dcbfb24d48356f5d5c90d7d2889a9679d5852eaef61725",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -3830,11 +4207,37 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-13",
+        "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-10-24",
+        "reason": "Accessibility fix - remove empty headings"
+      },
+      {
+        "date": "2024-11-11",
+        "reason": "Removed reference to ATMOSS"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5927da590878ca6128ec210ab6a9ac311e2fd664fc9b81547d06d4987fc8b784",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Device Constituents",
     "images": [
       {

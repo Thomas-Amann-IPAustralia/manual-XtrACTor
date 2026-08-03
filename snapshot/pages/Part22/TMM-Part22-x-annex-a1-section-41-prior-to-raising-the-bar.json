@@ -63,6 +63,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar#1~1",
       "content_hash": "sha256:20f65379bbe233e9fc115006e27ade56bee4897bc3b3712581b6a2dbe943bdcf",
+      "emphasis": [
+        {
+          "end": 76,
+          "kind": "em",
+          "start": 13,
+          "text": "Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -157,6 +165,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/x-annex-a1-section-41-prior-to-raising-the-bar#1~2",
       "content_hash": "sha256:57e513dd9ffb1bb1b9f82926de5e2e498310e420ba2b0e1f8791af426a35c446",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -192,11 +201,25 @@
   ],
   "page": {
     "amendment_note": "Reviewed- no changes.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Reviewed- no changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5b27a3e8b937f3552df7a59a5e64f3bdb43a843a0b3c0574bb960dd67420394c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22. Annex A1 Section 41 prior to Raising the Bar",
     "images": [],
     "last_amended": "2022-12-19",

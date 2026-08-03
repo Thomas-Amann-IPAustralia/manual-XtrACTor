@@ -50,6 +50,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/4#1~1",
       "content_hash": "sha256:2467c10042049ddf4a49fb1f0994d37ef4ba385d613b45622dbbe8d959a9f4e5",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -137,6 +138,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/4#1~2",
       "content_hash": "sha256:f5ce439fd35049a801ede31f476320228a24dd0059b283dc1bcb2d48a2fe04e9",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -183,11 +185,29 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:1a9b430a26cf23cb55c64f7ae26a9991d5bc7577b46a41f423ba515f2ea92cc7",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.4. Process for assigning all goods and/or services (full assignment)",
     "images": [],
     "last_amended": "2024-05-16",

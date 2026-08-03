@@ -60,6 +60,32 @@
       ],
       "chunk_ref": "TMM/Part22/5#1",
       "content_hash": "sha256:bf125e5be113e36fd131ff3af0db07b769b795be88f09d5b24cacf197fb2f5b8",
+      "emphasis": [
+        {
+          "end": 418,
+          "kind": "em",
+          "start": 396,
+          "text": "J & P Coats Ltd's Appn"
+        },
+        {
+          "end": 451,
+          "kind": "em",
+          "start": 446,
+          "text": "Sheen"
+        },
+        {
+          "end": 1410,
+          "kind": "b",
+          "start": 1394,
+          "text": "will distinguish"
+        },
+        {
+          "end": 1410,
+          "kind": "i",
+          "start": 1394,
+          "text": "will distinguish"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -105,8 +131,7 @@
           "mention": "Section 41"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41(4)",
           "mention": "section 41(4)"
         },
@@ -123,11 +148,25 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e7812b01618417f22101d0fea330f4dc33d8c0deedcc8ee0b7f7c1f0c2af2221",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.5. Trade marks considered to have limited inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

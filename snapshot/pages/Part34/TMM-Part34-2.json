@@ -48,6 +48,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/2#1",
       "content_hash": "sha256:b87315a2e672ec86f02490c49779a72f9eee303cb2c73e6e5739e1832fb83cac",
+      "emphasis": [
+        {
+          "end": 39,
+          "kind": "i",
+          "start": 19,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 39,
+          "kind": "i",
+          "start": 19,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 421,
+          "kind": "strong",
+          "start": 404,
+          "text": "to such an extent"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -91,11 +111,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:960eb3f4049a04abccdec39e607053ff3d7ce7da346be708b5b366151aee7592",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "34.2. Requirements for the filing of a defensive trade mark",
     "images": [],
     "last_amended": "2022-04-20",

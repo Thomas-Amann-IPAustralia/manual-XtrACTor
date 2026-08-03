@@ -22,6 +22,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part28/1#1",
       "content_hash": "sha256:affe9f63d4f7a1e79d26c1cc5e1f541da039744aa79be009e64921d04b0eacd0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 28 Honest Concurrent Use, Prior Use or Other Circumstances",
@@ -94,11 +95,33 @@
   ],
   "page": {
     "amendment_note": "Formatting correction.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Formatting correction."
+      },
+      {
+        "date": "2023-10-10",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Reference to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:be6f8b6da182270cc06e6aebf016cb990c696e4df9a75aa3ca6ff53a367775ab",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "28.1. Introduction",
     "images": [],
     "last_amended": "2023-10-10",

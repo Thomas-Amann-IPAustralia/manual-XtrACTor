@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/3#1",
       "content_hash": "sha256:89a6c14ea66864326bb0ce2780a3c62e289c6414ba0fb5f7d2c2d814ded9f229",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -57,6 +95,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/1",
       "content_hash": "sha256:4399026bc704b20896744c1413204b06db8052a2ed4815ecba5827146aef6801",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -102,6 +141,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/2",
       "content_hash": "sha256:52ac40bbc6f63814cf3594b8a3263a6157015dc5b4e66d74853467a93448cd7f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -161,6 +201,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/3",
       "content_hash": "sha256:7790e1caa8f08f7b15a096a09614b10e666535f13805c4378147bfe1af73ea29",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -201,6 +242,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/3/2/4",
       "content_hash": "sha256:7498cb93ea329ee47a13886170c18b659a0236b2c54d7306e1551a4b0a0a7e4d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -240,11 +282,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-06-03",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4d86d0663f8b4684f57318dbf1119513958077993d1a8d39bf6af0b9f641c751",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-06-03",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 20.2. Definition of sign",
     "images": [],
     "last_amended": "2025-06-03",

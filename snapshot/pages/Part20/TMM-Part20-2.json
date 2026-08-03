@@ -10,6 +10,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/2#1",
       "content_hash": "sha256:0d7c2546a6546cb1ec46f2fc85ae97e02bcd73e040abf90c27eed78b34793d38",
+      "emphasis": [
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 35,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 35,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -46,6 +60,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/2/2/1",
       "content_hash": "sha256:72a85f22ed287c184363fe6575905cc7d723c1324bb148be9773fa3a36a3971f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -83,6 +98,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/2/2/2",
       "content_hash": "sha256:003feefe8104aa6396862d76287430540b62d07fb7068ce2c59f537f36cc619b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -109,11 +125,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f79756f1fe3e0036958d9dbe66e0f6d631cfe13074e4139ed31018d409b30208",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "20.2. Background to definition of a trade mark",
     "images": [],
     "last_amended": "2022-04-20",

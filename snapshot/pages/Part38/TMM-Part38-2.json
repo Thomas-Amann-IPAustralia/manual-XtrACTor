@@ -22,6 +22,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/2#1",
       "content_hash": "sha256:9911d35821a343053947197eb339d917725397ba980591f71b64638f5364845f",
+      "emphasis": [
+        {
+          "end": 209,
+          "kind": "i",
+          "start": 49,
+          "text": "Before a trade mark is registered, the Registrar may revoke the acceptance of the application for registration of the trade mark if he or she is satisfied that:"
+        },
+        {
+          "end": 411,
+          "kind": "i",
+          "start": 210,
+          "text": "a. the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and"
+        },
+        {
+          "end": 498,
+          "kind": "i",
+          "start": 412,
+          "text": "b. it is reasonable to revoke the acceptance, taking account of all the circumstances."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -67,6 +87,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/1",
       "content_hash": "sha256:849648462c41d01c77ec1ca5476b15b8130ccf3731d0863c5b2b172333dd9dc1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -100,6 +121,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/2",
       "content_hash": "sha256:199d84a3be9259348c535d5744293eada21e4460ca6566c265da243e290863bc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -161,6 +183,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/2/2/3",
       "content_hash": "sha256:b0acb814a476dc762c38c2566165b32d6d6f338312e6d50c37ba1125b259b8dc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -187,11 +210,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:92577b2a89fa308621722afa66ab963ab9d82c8eb127cd69cafd4be1d3713ff5",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "38.2. Reasons for revocation",
     "images": [],
     "last_amended": "2022-04-20",

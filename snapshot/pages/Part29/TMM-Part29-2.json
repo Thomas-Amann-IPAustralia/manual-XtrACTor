@@ -70,6 +70,74 @@
       ],
       "chunk_ref": "TMM/Part29/2/2/1~1",
       "content_hash": "sha256:14a837dcde1a12b578590df4144304bdc6e1066b865971b068bda35119a32802",
+      "emphasis": [
+        {
+          "end": 26,
+          "kind": "strong",
+          "start": 0,
+          "text": "Connotation is not defined"
+        },
+        {
+          "end": 54,
+          "kind": "i",
+          "start": 34,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 186,
+          "kind": "u",
+          "start": 175,
+          "text": "Connotation"
+        },
+        {
+          "end": 207,
+          "kind": "i",
+          "start": 187,
+          "text": "Macquarie Dictionary"
+        },
+        {
+          "end": 348,
+          "kind": "u",
+          "start": 337,
+          "text": "Connotation"
+        },
+        {
+          "end": 374,
+          "kind": "i",
+          "start": 349,
+          "text": "Oxford English Dictionary"
+        },
+        {
+          "end": 931,
+          "kind": "i",
+          "start": 863,
+          "text": "Mount Everest Mineral Water Limited v Himalayan Spring Mineral Water"
+        },
+        {
+          "end": 1226,
+          "kind": "i",
+          "start": 979,
+          "text": "if a trade mark consists of a direct statement that the goods will originate from a particular region or outlines the nature of the goods, and there is scope within the goods/services for that statement to be misdescriptive, confusion will result."
+        },
+        {
+          "end": 1558,
+          "kind": "i",
+          "start": 1277,
+          "text": "….potential consumers would firstly (and primarily) view the words HIMALAYAN SPRING MINERAL WATER - BOTTLED IN THE SACRED HIMALAYAS OF NEPAL TO THE VIBRATIONAL CHANTING OF TIBETAN MONKS as a trade mark that denotes a connection between the applicant and its mineral water products."
+        },
+        {
+          "end": 2111,
+          "kind": "i",
+          "start": 1559,
+          "text": "Accordingly, the denotation is firstly as a trade mark of the applicant, despite any descriptive matter contained within. The operative test is the secondary meaning which arises from the reasonable expectations of the consumer after considering the meaning in the context of the goods. It does not follow that all trade marks containing descriptive matter would attract a section 43 objection. Only if there is a real and tangible danger that the consumer’s expectations may turn out to be false and result in confusion, would section 43 be triggered."
+        },
+        {
+          "end": 2216,
+          "kind": "i",
+          "start": 2161,
+          "text": "Primary Health Care Limited v Commonwealth of Australia"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -123,6 +191,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/2/2/1~2",
       "content_hash": "sha256:e3b52c6766e8f50ae55ac6d3b85d81584cca2fdf0b78e63db3ed7e13122d073c",
+      "emphasis": [
+        {
+          "end": 201,
+          "kind": "i",
+          "start": 0,
+          "text": "plainly, if “connotation” in s 43 is to bear its ordinary meaning (and the respondents did not argue otherwise), then a distinction is to be made between the denotation of the mark and its connotation."
+        },
+        {
+          "end": 872,
+          "kind": "i",
+          "start": 202,
+          "text": "….at [163] of her reasons, the primary judge expressly approved of the approach taken by the Registrar’s delegate, that the denotation of “Primary Health Care” in this context is as a trade mark denoting a connection between the applicant and its medical centres. In my respectful opinion, subject to the qualification that “Primary Health Care” denotes a connection between the applicant and the designated services (rather than a connection between the applicant and its medical centres), her Honour was correct to do so. Her Honour went on to hold (at [164]) that the connotation in the marks is that the applicant provides “first level or first contact health care”."
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -166,6 +248,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/2/2/2",
       "content_hash": "sha256:1379f8631cf727764dfdb50bbaf252431c91e4e73945cafb375b69e38113fce7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -204,6 +287,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/2/2/3",
       "content_hash": "sha256:f77c8cbb077e1682c601fc3ba31e570dd8097297d2a240565a044a3135e70190",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -262,6 +346,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/2/2/4",
       "content_hash": "sha256:5a52a4dd52ef95b0e001380666cfbc14b907dda998e67a97a99859e9c179e298",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -312,11 +397,25 @@
   ],
   "page": {
     "amendment_note": "removed published date",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "removed published date"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:62041e2c646e76cb3ffb6da2dfe8298e5b0ea45c43c4f0c65b3185abc0b59a93",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29.2. Connotation",
     "images": [],
     "last_amended": "2025-01-13",

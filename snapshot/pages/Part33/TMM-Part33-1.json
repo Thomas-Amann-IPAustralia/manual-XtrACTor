@@ -18,6 +18,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1#1",
       "content_hash": "sha256:b745f127e9b06e29310d372e51f88719febcbe3078b5403ad5b168ab70831f80",
+      "emphasis": [
+        {
+          "end": 141,
+          "kind": "i",
+          "start": 120,
+          "text": "collective trade mark"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -61,6 +69,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1/1/1",
       "content_hash": "sha256:5bc6849712bfb0ec41743f787c529878a1586cfac7c6be43a80ce94c569bf76d",
+      "emphasis": [
+        {
+          "end": 141,
+          "kind": "i",
+          "start": 20,
+          "text": "An application for the registration of a collective trade mark must be made by the association to which the mark belongs."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -111,6 +127,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1/1/2",
       "content_hash": "sha256:97a205a3d9b77986ebec02c786d814ba2809c7575539853c9b5aa181a29c8775",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -144,6 +161,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1/1/3",
       "content_hash": "sha256:7c680640eebf3bdb5b07c2d5b2b4f56a2014a1dad35bdcffdf494fae66eea3a4",
+      "emphasis": [
+        {
+          "end": 315,
+          "kind": "i",
+          "start": 308,
+          "text": "members"
+        },
+        {
+          "end": 324,
+          "kind": "i",
+          "start": 316,
+          "text": "(plural)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -185,6 +216,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1/1/4",
       "content_hash": "sha256:f708bdb27ce5fac3ba38542987d4992b4fa56dcb4217ea952bc75ca18ff96d90",
+      "emphasis": [
+        {
+          "end": 191,
+          "kind": "i",
+          "start": 136,
+          "text": "Macquarie Dictionary (Macquarie Library, 5th ed., 2009)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -222,6 +261,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part33/1/1/5",
       "content_hash": "sha256:982e7465b948742083bc02cf4273acf3afbbcbceef7b7ff8908bc0d40a4eb3d8",
+      "emphasis": [
+        {
+          "end": 516,
+          "kind": "i",
+          "start": 481,
+          "text": "Associations Incorporation Act 2009"
+        },
+        {
+          "end": 866,
+          "kind": "i",
+          "start": 850,
+          "text": "Corporations Act"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 33 Collective Trade Marks",
@@ -248,11 +301,29 @@
   ],
   "page": {
     "amendment_note": "No changes made.",
+    "amendments": [
+      {
+        "date": "2025-01-24",
+        "reason": "No changes made."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3023882d62e8c9102442858968dab33d5a8e2519e75c85600e68aec710d74413",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-24",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "33.1. What is a collective trademark?",
     "images": [],
     "last_amended": "2025-01-24",

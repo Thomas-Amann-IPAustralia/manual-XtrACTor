@@ -54,6 +54,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/9/4/9/1",
       "content_hash": "sha256:90cca16e9a455a2cca4955c278363d7a333833bb4ef743668dbb83fa693d2577",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 160,
+          "kind": "i",
+          "start": 133,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 160,
+          "kind": "strong",
+          "start": 133,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 358,
+          "kind": "i",
+          "start": 338,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 358,
+          "kind": "strong",
+          "start": 338,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 403,
+          "kind": "i",
+          "start": 375,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 403,
+          "kind": "strong",
+          "start": 375,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -215,6 +265,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/9/4/9/2",
       "content_hash": "sha256:2a20018428eae6aac93789c9de3e6b08bfc8c7d5475caa19c4e9cf8d13b9d4d0",
+      "emphasis": [
+        {
+          "end": 229,
+          "kind": "i",
+          "start": 209,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 821,
+          "kind": "strong",
+          "start": 817,
+          "text": "must"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -265,11 +329,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2ef949c27ef85773b6c93d6cb3258c5aae65ffd2c2f9c945d33e4168773cb666",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.9 Provisional Refusal",
     "images": [],
     "last_amended": "2026-04-17",

@@ -22,6 +22,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/x-relevant-legislation49#1",
       "content_hash": "sha256:3008df6c1062c404bc1693d3eaf29b47777ffdbb4e834492909f4b01703d97a7",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 53,
+          "kind": "strong",
+          "start": 38,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -60,11 +74,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:827e529b7cd35e5d0f8bcc8b2dfa4db9d9f545fcfe4a6344511806ced69353f9",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "34. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

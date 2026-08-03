@@ -62,6 +62,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/x-relevant-legislation16/the-act",
       "content_hash": "sha256:356ee8cd4bf0c46004295fdd9a43ad75bacaaec778b2e282c4b941f2615ac287",
+      "emphasis": [
+        {
+          "end": 185,
+          "kind": "b",
+          "start": 170,
+          "text": "authorised user"
+        },
+        {
+          "end": 185,
+          "kind": "i",
+          "start": 170,
+          "text": "authorised user"
+        },
+        {
+          "end": 204,
+          "kind": "b",
+          "start": 190,
+          "text": "authorised use"
+        },
+        {
+          "end": 204,
+          "kind": "i",
+          "start": 190,
+          "text": "authorised use"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -222,11 +248,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0f8390d2a87c705fdaf5bc75a5a67059fd0c47bd4ca345512976c807a70a89f3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

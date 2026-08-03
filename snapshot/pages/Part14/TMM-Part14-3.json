@@ -22,6 +22,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/3#1~1",
       "content_hash": "sha256:cf8b4dee0d67371d792e4ef62f4950ebe99362d54a55eb2006d26747ed4f2459",
+      "emphasis": [
+        {
+          "end": 306,
+          "kind": "i",
+          "start": 286,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -108,6 +116,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/3#1~2",
       "content_hash": "sha256:1ab417074dd72f5941cdb89b71feb3fc49bf33712c689f8562be4713e319a935",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -200,11 +209,25 @@
   ],
   "page": {
     "amendment_note": "Amended post MGS implementation",
+    "amendments": [
+      {
+        "date": "2024-04-05",
+        "reason": "Amended post MGS implementation"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f0358d1ea76cb617b1ddb565f20f1dce608d2efbdc0ed2dc1f35266c8af78b06",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-04-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14.3. Requirement for a clear specification and for correct classification",
     "images": [],
     "last_amended": "2024-04-05",

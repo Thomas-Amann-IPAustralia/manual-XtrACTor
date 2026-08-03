@@ -86,6 +86,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/x-relevant-legislation4#1",
       "content_hash": "sha256:49ed754052bbd9c28cf3f0bbeb4d8982c6d0c38b51e1076c1b67aada6032e447",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 510,
+          "kind": "i",
+          "start": 483,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 510,
+          "kind": "strong",
+          "start": 483,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 510,
+          "kind": "u",
+          "start": 483,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -203,11 +247,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:447792ef0a1dd11950ddb139f4c15fccc67696b39f0dab78dea74d1d01fc87b8",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 18. Landing Page",
     "images": [],
     "last_amended": "2025-02-10",

@@ -74,6 +74,62 @@
       ],
       "chunk_ref": "TMM/Part52/4#1",
       "content_hash": "sha256:198aa0ced16c063647bcf12bbe915d39b669cb1dcd76c345fb4f1f8e0d546be6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 297,
+          "kind": "i",
+          "start": 247,
+          "text": "R v Quinn: Ex Parte Consolidated Foods Corporation"
+        },
+        {
+          "end": 862,
+          "kind": "i",
+          "start": 799,
+          "text": "T.A. Miller Ltd v The Minister for Housing and Local Government"
+        },
+        {
+          "end": 1448,
+          "kind": "sup",
+          "start": 1447,
+          "text": "5"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 52 Hearings, Decisions, Reasons and Appeals",
@@ -155,6 +211,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/4/5-the-matter-of-admissibility-of-evidence-is-discussed-further-at-15-2035-of-shanahan-s-australian-law-of-trade-marks-and-passing-off-5th-ed-davison-mark-horak-ian-2012-thomson-reuters-professional-australia-ltd-pyrmont-nsw",
       "content_hash": "sha256:cbce2820c4a0fbb0fdc9d79fd09dda0d61d35800bb9d93145d963dec5dad925d",
+      "emphasis": [
+        {
+          "end": 1,
+          "kind": "sup",
+          "start": 0,
+          "text": "5"
+        },
+        {
+          "end": 135,
+          "kind": "i",
+          "start": 89,
+          "text": "Australian Law of Trade Marks and Passing Off."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 52 Hearings, Decisions, Reasons and Appeals",
@@ -181,11 +251,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:422309bd9764979c918d42330e49b962eab1844337b4691a4ef1742c09a2269a",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "Part 52.4. Role and powers of the Registrar in hearings",
     "images": [],
     "last_amended": "2025-04-02",

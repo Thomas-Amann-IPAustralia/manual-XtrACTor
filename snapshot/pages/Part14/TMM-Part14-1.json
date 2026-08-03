@@ -22,6 +22,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/1#1~1",
       "content_hash": "sha256:65232351f99bb8e864485b8a1251114633c4fa8e62b61c0a36adcc073f256cb3",
+      "emphasis": [
+        {
+          "end": 865,
+          "kind": "u",
+          "start": 855,
+          "text": "section 44"
+        },
+        {
+          "end": 1371,
+          "kind": "i",
+          "start": 1339,
+          "text": "A clear and accurate description"
+        },
+        {
+          "end": 1371,
+          "kind": "strong",
+          "start": 1339,
+          "text": "A clear and accurate description"
+        },
+        {
+          "end": 1571,
+          "kind": "i",
+          "start": 1549,
+          "text": "Correct classification"
+        },
+        {
+          "end": 1571,
+          "kind": "strong",
+          "start": 1549,
+          "text": "Correct classification"
+        },
+        {
+          "end": 1950,
+          "kind": "strong",
+          "start": 1913,
+          "text": "The Trade Marks Classification Search"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -73,6 +111,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/1#1~2",
       "content_hash": "sha256:f6c1469a0d17ae966a8885b8a5e119cb4a2470c88a328dd7ccc3cddda7396311",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -102,11 +141,33 @@
   ],
   "page": {
     "amendment_note": "Amended post MGS implementation",
+    "amendments": [
+      {
+        "date": "2024-04-05",
+        "reason": "Amended post MGS implementation"
+      },
+      {
+        "date": "2022-10-22",
+        "reason": "Publishing page for testing purposes - full stop removed and added back in"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2e58f462b810a68b664548e26f0650600f56ed59c5a9142358b11fb90ddf9f66",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-04-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14.1. The purpose of classification",
     "images": [],
     "last_amended": "2024-04-05",

@@ -22,6 +22,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/27/4/27/1",
       "content_hash": "sha256:bba8e3ececabd8e015ebd5c6b9597647f52b51f81b16aed6a04a0caf71020638",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 112,
+          "kind": "i",
+          "start": 84,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 112,
+          "kind": "strong",
+          "start": 84,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -83,6 +109,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/27/4/27/2",
       "content_hash": "sha256:b0ad28d280066578611769d7e821c8349546c6b156e791b4c449123f0820a40a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -116,11 +143,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:eefe46e9fc8820746745a8d1ede00ae4fa5543b0d58e6e542aed029f05491e5d",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.27 Customs",
     "images": [],
     "last_amended": "2026-04-17",

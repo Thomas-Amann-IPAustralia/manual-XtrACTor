@@ -66,6 +66,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-relevant-legislation10#1",
       "content_hash": "sha256:50c03eaf0e5869023fbad1e35e3ec3381101adc23339c5d6ad9704d823ab7ae1",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 600,
+          "kind": "strong",
+          "start": 585,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -230,11 +244,25 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5bc523a7f24eca6603cd6aa83cf6722b733c297f8bad4abdb201847774e6739d",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14. Relevant Legislation",
     "images": [],
     "last_amended": "2024-05-16",

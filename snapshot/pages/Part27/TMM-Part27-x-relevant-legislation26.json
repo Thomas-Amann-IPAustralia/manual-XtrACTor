@@ -46,6 +46,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/x-relevant-legislation26#1",
       "content_hash": "sha256:5b3fc6fb1265522f331e81a78669b81c0b15824fbaf9034d40300d25bc1322fe",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 61,
+          "kind": "strong",
+          "start": 46,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -155,11 +169,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:40d66c44316a6c56e33ddb56b498a0de6b2bb67ec740155ed2418d3c8718e32d",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

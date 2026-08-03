@@ -22,6 +22,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/4#1",
       "content_hash": "sha256:c9844efdda23d57bad4e6cfe32f8b06b56bfe23d35a3e62f74d171262d443860",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 72,
+          "kind": "i",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        },
+        {
+          "end": 72,
+          "kind": "strong",
+          "start": 49,
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32B Examination of Trade Marks for Wines (in Class 33)",
@@ -86,6 +124,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/4/2/4/1~1",
       "content_hash": "sha256:65435c6b4ed6c260974f0aa796ac85298bb3d9c0cb521c1e0c5713131656286f",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -129,6 +168,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/4/2/4/1~2",
       "content_hash": "sha256:9efb4fb24340975fdca4991fde0c601512d10bf32af2d5605b6654bfc45bb386",
+      "emphasis": [
+        {
+          "end": 93,
+          "kind": "i",
+          "start": 86,
+          "text": "Tequila"
+        },
+        {
+          "end": 111,
+          "kind": "i",
+          "start": 104,
+          "text": "Whiskey"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -188,6 +241,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/4/2/4/2~1",
       "content_hash": "sha256:52b9cd38d949d228dc39e8781875f2f2c14fd237fbfa1b57510ae7fd7e6f7c02",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -236,6 +290,14 @@
       ],
       "chunk_ref": "TMM/Part32B/2/4/2/4/2~2",
       "content_hash": "sha256:411c6f3b2cd566e6d70fe43e7e037560c46ef63b9e4199f9e5fe474f18b47aaa",
+      "emphasis": [
+        {
+          "end": 531,
+          "kind": "i",
+          "start": 481,
+          "text": "Jack Daniel's Properties Inc v Warren Scott Harvey"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -447,6 +509,38 @@
       ],
       "chunk_ref": "TMM/Part32B/2/4/2/4/3~1",
       "content_hash": "sha256:edbaf1841058dc12395918b1a50f480772f094d230b91b0b20032b79820ac63c",
+      "emphasis": [
+        {
+          "end": 405,
+          "kind": "i",
+          "start": 386,
+          "text": "alcoholic beverages"
+        },
+        {
+          "end": 473,
+          "kind": "i",
+          "start": 450,
+          "text": "non-alcoholic beverages"
+        },
+        {
+          "end": 698,
+          "kind": "i",
+          "start": 644,
+          "text": "E & J Gallo Winery v Lion Nathan Australia Pty Limited"
+        },
+        {
+          "end": 1839,
+          "kind": "i",
+          "start": 1668,
+          "text": "“…it is important to bear in mind that this issue is being considered in the more general context of whether consumers might see the goods as having the same trade origin”"
+        },
+        {
+          "end": 1906,
+          "kind": "i",
+          "start": 1844,
+          "text": "Frucor Suntory New Zealand Limited v Bickfords Trading Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -503,6 +597,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part32B/2/4/2/4/3~2",
       "content_hash": "sha256:e609469a29d4982857cb6091de017af35a3acfe48507c0410bceae347eb30fcc",
+      "emphasis": [
+        {
+          "end": 253,
+          "kind": "strong",
+          "start": 245,
+          "text": "CLASS 32"
+        },
+        {
+          "end": 262,
+          "kind": "strong",
+          "start": 254,
+          "text": "CLASS 33"
+        },
+        {
+          "end": 279,
+          "kind": "strong",
+          "start": 263,
+          "text": "GOODS CONSIDERED"
+        },
+        {
+          "end": 443,
+          "kind": "strong",
+          "start": 434,
+          "text": "All goods"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -706,11 +826,33 @@
   ],
   "page": {
     "amendment_note": "Hyperlinks fixed.",
+    "amendments": [
+      {
+        "date": "2025-01-10",
+        "reason": "Hyperlinks fixed."
+      },
+      {
+        "date": "2025-01-09",
+        "reason": "Minor correction."
+      },
+      {
+        "date": "2025-01-09",
+        "reason": "Content reviewed and updated. Hyperlinks to legislation added."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:62c0b9ebad09fc6b1f925c76462443ff59a2d52ebb8ba36bf3985aa54ca0d001",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32B.2.4 Section 44: Comparison of Trade Marks",
     "images": [],
     "last_amended": "2025-01-10",

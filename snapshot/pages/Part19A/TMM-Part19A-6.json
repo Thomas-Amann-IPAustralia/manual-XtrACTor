@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/6#1",
       "content_hash": "sha256:3d77ebd8d6f422f14db5725f5b4ba4ccc0bdb77298d5b8bb59d620936d637bfc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -36,6 +37,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part19A/6/6/1",
       "content_hash": "sha256:d08004d183e24032795ee0e9168ce9b8da608852c78440908c4eea8fbe2de55a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -99,6 +101,14 @@
       ],
       "chunk_ref": "TMM/Part19A/6/6/2",
       "content_hash": "sha256:3da5040c20ff7c5f74df4c08225c2745c951bb28a89ff16a06986978d623a1a0",
+      "emphasis": [
+        {
+          "end": 590,
+          "kind": "i",
+          "start": 540,
+          "text": "Kraft Foods Group Brands LLC v Bega Cheese Limited"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -197,6 +207,26 @@
       ],
       "chunk_ref": "TMM/Part19A/6/6/3",
       "content_hash": "sha256:fcc88b687a5a786ea7a648ad8253f1324b7ed91cce9ca5f42b87e0c4e0615781",
+      "emphasis": [
+        {
+          "end": 1414,
+          "kind": "i",
+          "start": 1362,
+          "text": "Trident Seafoods Corporation v Trident Foods Pty Ltd"
+        },
+        {
+          "end": 1441,
+          "kind": "i",
+          "start": 1434,
+          "text": "Trident"
+        },
+        {
+          "end": 1455,
+          "kind": "i",
+          "start": 1448,
+          "text": "Trident"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 19A Use of a Trade Mark",
@@ -296,11 +326,25 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2023-10-09",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:30bab028c4669cbb69eaf6a16403d83ec197320b8c9fc0208361ee5fef40872b",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2023-10-09",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A.6. Use by the trade mark owner, predecessor in title or an authorised user",
     "images": [],
     "last_amended": "2023-10-09",

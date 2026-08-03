@@ -50,6 +50,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/1#1~1",
       "content_hash": "sha256:5df70de3525e8d16a4f12c342296533ecaaed281afc03f2e58bab4f442825ea7",
+      "emphasis": [
+        {
+          "end": 464,
+          "kind": "strong",
+          "start": 459,
+          "text": "Note:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -203,6 +211,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/1#1~2",
       "content_hash": "sha256:70d2a333cfdcffb7b0cbdb535490d60e83f78be736f8fa49e81a657be196e955",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -432,6 +441,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/1/1/1",
       "content_hash": "sha256:237b46033d7a4714b30ea4468131e07e48eea4c6e300f0b437e52d8bb98ecb3d",
+      "emphasis": [
+        {
+          "end": 2030,
+          "kind": "strong",
+          "start": 2025,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -477,11 +494,29 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3da8407785d6c5a1b09f9bd3f80ebdceea0ebf2445745375e2213db11a09d958",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "15.1. When the general provision applies",
     "images": [],
     "last_amended": "2024-05-16",

@@ -42,6 +42,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/x-annex-a1---citing-multiple-names#1~1",
       "content_hash": "sha256:ec2c9157aa588c1c4651346920be94440d5e1fa047984b714fc5fa2041e5de57",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -78,6 +79,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/x-annex-a1---citing-multiple-names#1~2",
       "content_hash": "sha256:bd864d803df77b9cf3835acea2143e05c5af975ebaff5f2b79a085121ee58b35",
+      "emphasis": [
+        {
+          "end": 12,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Mark 1"
+        },
+        {
+          "end": 25,
+          "kind": "strong",
+          "start": 13,
+          "text": "Trade Mark 2"
+        },
+        {
+          "end": 46,
+          "kind": "strong",
+          "start": 26,
+          "text": "Goods/services claim"
+        },
+        {
+          "end": 65,
+          "kind": "strong",
+          "start": 47,
+          "text": "Action and Reasons"
+        },
+        {
+          "end": 190,
+          "kind": "strong",
+          "start": 159,
+          "text": "Generally no need for citation."
+        },
+        {
+          "end": 636,
+          "kind": "i",
+          "start": 598,
+          "text": "e.g. manufacture of nuclear submarines"
+        },
+        {
+          "end": 670,
+          "kind": "strong",
+          "start": 637,
+          "text": "Citation likely to be appropriate"
+        },
+        {
+          "end": 1075,
+          "kind": "strong",
+          "start": 1044,
+          "text": "Generally no need for citation."
+        },
+        {
+          "end": 1529,
+          "kind": "strong",
+          "start": 1496,
+          "text": "Citation likely to be appropriate"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -199,6 +256,20 @@
       ],
       "chunk_ref": "TMM/Part26/x-annex-a1---citing-multiple-names/citations-when-one-mark-consists-of-a-given-name-and-the-other-the-name-of-a-person-incorporating-the-given-name",
       "content_hash": "sha256:553e9f969cb16db1fe41266b63b209fdf98c36d6106d61ddd18ba4f1eb45b19d",
+      "emphasis": [
+        {
+          "end": 493,
+          "kind": "i",
+          "start": 456,
+          "text": "Tiffany and Company v Tiffany C Koury"
+        },
+        {
+          "end": 1889,
+          "kind": "i",
+          "start": 1848,
+          "text": "Class 35 Retail of prepared meat products"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -268,6 +339,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/x-annex-a1---citing-multiple-names/citations-when-one-mark-consists-of-a-given-name-and-the-other-consist-of-multiple-given-names",
       "content_hash": "sha256:4697149bc637d154aeff3267cb6d5a92003e13f16884e9a499b69cfe54e4be25",
+      "emphasis": [
+        {
+          "end": 791,
+          "kind": "strong",
+          "start": 779,
+          "text": "Trade Mark 1"
+        },
+        {
+          "end": 804,
+          "kind": "strong",
+          "start": 792,
+          "text": "Trade Mark 2"
+        },
+        {
+          "end": 825,
+          "kind": "strong",
+          "start": 805,
+          "text": "Goods/services claim"
+        },
+        {
+          "end": 844,
+          "kind": "strong",
+          "start": 826,
+          "text": "Action and Reasons"
+        },
+        {
+          "end": 904,
+          "kind": "strong",
+          "start": 891,
+          "text": "No Section 44"
+        },
+        {
+          "end": 1236,
+          "kind": "strong",
+          "start": 1223,
+          "text": "No Section 44"
+        },
+        {
+          "end": 1570,
+          "kind": "strong",
+          "start": 1557,
+          "text": "No Section 44"
+        },
+        {
+          "end": 1983,
+          "kind": "strong",
+          "start": 1961,
+          "text": "Section 44 appropriate"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -380,11 +501,33 @@
   ],
   "page": {
     "amendment_note": "Content added.",
+    "amendments": [
+      {
+        "date": "2024-05-23",
+        "reason": "Content added."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:13df1b6423b2322f75cea728af0912b80e5f1a68224eefcce5573c82be5f5b9c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "26. Annex A1 - Citing multiple names",
     "images": [],
     "last_amended": "2024-05-23",

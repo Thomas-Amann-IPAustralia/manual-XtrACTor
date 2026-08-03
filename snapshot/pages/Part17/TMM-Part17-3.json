@@ -39,6 +39,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/3#1~1",
       "content_hash": "sha256:fd01155e912cd98de675159da855007892e10ad8fe801f4e461fb5533ace644d",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 1
@@ -209,6 +210,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/3#1~2",
       "content_hash": "sha256:b0311a6ab36da96fcfa62a89669097d54faaac27788c664e4fc4258c48e9faa8",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 2
@@ -317,6 +319,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/3#1~3",
       "content_hash": "sha256:dc0fd549b504847e26b9660db8b8b9f83958312ad812f2e9ef1103ffb7921953",
+      "emphasis": [
+        {
+          "end": 316,
+          "kind": "strong",
+          "start": 314,
+          "text": "or"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 3
@@ -380,11 +390,37 @@
   ],
   "page": {
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package and consolidating material from Part 17.6 (now removed)",
+    "amendments": [
+      {
+        "date": "2025-12-19",
+        "reason": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package and consolidating material from Part 17.6 (now removed)"
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:66c350fd614abc9aecf026f388846e6bae0b941d116eebdc29ae1a632dd37405",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "17.3. Period of deferment and termination",
     "images": [],
     "last_amended": "2025-12-19",

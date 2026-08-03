@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/6#1",
       "content_hash": "sha256:d249d96635c0ce884b442b0339d379ec0f9ab15dfb9fe385d83b63de23d217b6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -98,6 +99,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/6/6/1",
       "content_hash": "sha256:58f037f8a30b68d5142dab799ec6876fa00d03bd2ac58bf7f21964a139564ffd",
+      "emphasis": [
+        {
+          "end": 457,
+          "kind": "i",
+          "start": 423,
+          "text": "Applications for Extension of Time"
+        },
+        {
+          "end": 604,
+          "kind": "i",
+          "start": 597,
+          "text": "Notices"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -178,6 +193,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/6/6/2",
       "content_hash": "sha256:437ccf3afd71720b575d64901324e06e82bc0eb286b04d3d0661c1a537acc59d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -268,6 +284,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/6/6/3",
       "content_hash": "sha256:0f4e65ef8eb4c3cc63e2bde9886a66a0e257abf019895f3e448039592d0447f1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -305,6 +322,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/6/6/4",
       "content_hash": "sha256:3fc2bb1e2183e1603dc35d6cb30bba2264208b30123259405e55e0999aa50681",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -331,11 +349,25 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ea8716e061c9033daa8a5c3a1acba1dcef5f20058446b0eed3317308b5772adb",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "15.6. Extensions of time of more than three months",
     "images": [],
     "last_amended": "2024-05-16",

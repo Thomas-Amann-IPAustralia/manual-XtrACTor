@@ -34,6 +34,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/16/4/16/1",
       "content_hash": "sha256:3b0d029cc54385fa2f8edf1e10c5b4cb8981ff09fc916da41a5c4e53ce02e177",
+      "emphasis": [
+        {
+          "end": 27,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 27,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 178,
+          "kind": "i",
+          "start": 150,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 178,
+          "kind": "strong",
+          "start": 150,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 333,
+          "kind": "i",
+          "start": 283,
+          "text": "Trade Marks Office Manual of Practice and Procedur"
+        },
+        {
+          "end": 333,
+          "kind": "strong",
+          "start": 283,
+          "text": "Trade Marks Office Manual of Practice and Procedur"
+        },
+        {
+          "end": 334,
+          "kind": "strong",
+          "start": 333,
+          "text": "e"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -146,6 +190,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/16/4/16/2",
       "content_hash": "sha256:5ed4bba0e58d7a9bdeb8aba0d0a9711f162cf69fad095ba2f67581ba82e23a85",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -185,11 +230,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:90a397c4d5751d4da73ed71a6124391de43c905fe00e0d0c38a37e4ec421e6ef",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.16 Extension of Time to File Notice of Opposition to Protection",
     "images": [],
     "last_amended": "2026-04-17",

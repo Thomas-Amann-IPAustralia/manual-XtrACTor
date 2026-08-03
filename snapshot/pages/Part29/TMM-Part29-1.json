@@ -22,6 +22,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/1#1",
       "content_hash": "sha256:b6690f96b0ebc5181ac9b42c2669b0de831371538a8cc414e94d5e54796ceeff",
+      "emphasis": [
+        {
+          "end": 358,
+          "kind": "i",
+          "start": 40,
+          "text": "An application for the registration of a trade mark in respect of particular goods or services must be rejected if, because of some connotation that the trade mark or a sign contained in the trade mark has, the use of the trade mark in relation to those goods or services would be likely to deceive or cause confusion."
+        },
+        {
+          "end": 139,
+          "kind": "u",
+          "start": 135,
+          "text": "must"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -66,6 +80,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/1/1/1",
       "content_hash": "sha256:d722605499e0939d56cbb4cba1fe7f7e9572a25c81309ee58d8875242613d9b0",
+      "emphasis": [
+        {
+          "end": 85,
+          "kind": "u",
+          "start": 84,
+          "text": "P"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -121,6 +143,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/1/1/2",
       "content_hash": "sha256:8ade7c5b69b33b1eb2cb1da62aef69cf55a2b588ddcdec1e873ab03fdf792f49",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -172,11 +195,29 @@
   ],
   "page": {
     "amendment_note": "Removed publication date",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Removed publication date"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      },
+      {
+        "date": "2021-05-12",
+        "reason": "Reordering Part 29.1"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:91c20199ec23b67ca438c522964418e6aee7e942eb77079501fe4fd245b8b414",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29.1. Trade marks likely to deceive or cause confusion",
     "images": [],
     "last_amended": "2025-01-13",

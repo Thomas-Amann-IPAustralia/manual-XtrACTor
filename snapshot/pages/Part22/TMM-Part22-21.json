@@ -22,6 +22,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/21#1",
       "content_hash": "sha256:a80050cd48f89bd4dc2317f26bcc4262021581f039f4a2226cde93b3b54c7b8d",
+      "emphasis": [
+        {
+          "end": 639,
+          "kind": "strong",
+          "start": 629,
+          "text": "Trade mark"
+        },
+        {
+          "end": 650,
+          "kind": "strong",
+          "start": 640,
+          "text": "Section 41"
+        },
+        {
+          "end": 657,
+          "kind": "strong",
+          "start": 651,
+          "text": "Reason"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -112,11 +132,25 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:53e336291eb3512021d4a646e6367ea365f7526de144b8dc3607dfd9e6fe215e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.21. Titles of other books or media",
     "images": [],
     "last_amended": "2022-12-19",

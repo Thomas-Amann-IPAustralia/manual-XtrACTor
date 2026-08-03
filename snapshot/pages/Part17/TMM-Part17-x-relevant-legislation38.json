@@ -34,6 +34,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/x-relevant-legislation38#1",
       "content_hash": "sha256:1716751030db2973c64a06878d74978ebdf2c74e5cc7cadf529d85130ed58d26",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 84,
+          "kind": "i",
+          "start": 56,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 84,
+          "kind": "strong",
+          "start": 56,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -122,11 +154,29 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added.",
+    "amendments": [
+      {
+        "date": "2026-02-10",
+        "reason": "Links to legislation added."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f38c495993d310a82d6d3d7f5aa82959894a7374cf71e83ef0c6b8c7e0617bfb",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "17. Relevant Legislation",
     "images": [],
     "last_amended": "2026-02-10",
