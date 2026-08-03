@@ -303,8 +303,8 @@ and 2,611 of the Manual's 2,687 in-scope provision edges resolve against it,
 which is what the shared ref grammar was for (§8).
 
 **Done:** `pytest -q` green; `python -m frl_snapshot.validate` clean;
-`python -m frl_snapshot.crawl --from-raw --force` writes zero files on an
-unchanged corpus.
+`python -m frl_snapshot.crawl --from-raw --force --dry-run` reports zero files
+written on an unchanged corpus.
 
 ---
 

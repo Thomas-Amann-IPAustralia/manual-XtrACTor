@@ -236,6 +236,49 @@ def test_dry_run_writes_nothing(tmp_path):
     assert not root.exists() or not any(root.rglob("*.json"))
 
 
+def test_dry_run_counts_what_a_real_run_would_write(tmp_path):
+    """`--dry-run` has to report the same number as the run it stands in for.
+
+    This is the whole value of the gate in CLAUDE.md: `files written` is how you
+    find out whether a parser change moved the corpus. A dry run that returns
+    before the writers reports 0 unconditionally, which is not a smaller answer
+    than the truth — it is a different question, and it silently says 'clean'
+    about a change that rewrote everything.
+    """
+    root = tmp_path / "legislation"
+
+    # Onto an empty snapshot: every file is new, so both runs must say so.
+    predicted = {result.code: result.files_written for result in _run(root, dry_run=True)}
+    assert not any(root.rglob("*.json"))
+    assert all(count > 0 for count in predicted.values())
+
+    actual = {result.code: result.files_written for result in _run(root)}
+    assert predicted == actual
+
+    # And onto an unchanged snapshot: nothing to do, and the dry run agrees.
+    assert {r.code: r.files_written for r in _run(root, dry_run=True, force=True)} == {
+        code: 0 for code in predicted
+    }
+
+
+def test_dry_run_leaves_a_written_snapshot_byte_identical(tmp_path):
+    """Rule 2's test, pointed at the gate itself.
+
+    The reason the gate grew a `--dry-run` is that running it was leaving an
+    uncommitted `manifest.json` behind every time. `crawl.process` does not
+    write the manifest — `main` does, and only when not dry-running — so what
+    this pins is the half that is this function's business: a dry run over a
+    populated snapshot touches nothing at all, not even a timestamp.
+    """
+    root = tmp_path / "legislation"
+    _run(root)
+    before = _snapshot_bytes(root)
+
+    _run(root, from_raw=True, force=True, dry_run=True)
+
+    assert _snapshot_bytes(root) == before
+
+
 def test_a_truncated_download_is_refused(tmp_path):
     def handler(request: httpx.Request) -> httpx.Response:
         response = _handler(request)

@@ -84,8 +84,11 @@ pytest -q                        # all tests
 python -m tmm_snapshot.validate  # Manual output validates against schema/
 python -m frl_snapshot.validate  # legislation output, plus the cross-corpus join
 python -m tmm_snapshot.crawl --from-raw --force --dry-run
-python -m frl_snapshot.crawl --from-raw --force        # 2s, no network
+python -m frl_snapshot.crawl --from-raw --force --dry-run   # 2s, no network
 ```
+
+**Every one of these leaves the working tree clean.** If `git status` is dirty
+after running them, that is a bug in the gate, not something to commit around.
 
 The third one is the check that a parser change did not move the corpus, and
 **`--force` is what makes it one**. Without it the run stops at gate 2, reports
@@ -95,10 +98,19 @@ and `pages written` is the count of files your change would alter — 25 seconds
 no network, and it is how you find out whether you owe an `EXTRACTOR_VERSION`
 bump.
 
-`frl_snapshot.crawl --from-raw --force` is the same check for the legislation
-half and needs no `--dry-run`: it re-cuts both instruments from the stored
-`.docx` and reports `files written`, which is the count of files your change
-would alter. Zero means the corpus did not move.
+`frl_snapshot.crawl --from-raw --force --dry-run` is the same check for the
+legislation half: it re-cuts both instruments from the stored `.docx` and
+reports `files written`, which is the count of files your change would alter.
+Zero means the corpus did not move.
+
+`--dry-run` is not optional here, and the reason is worth knowing because the
+instruction used to be the opposite. `manifest.json` carries the run's
+timestamps and is the one file rule 2 exempts, so a real run rewrites it even
+when it rewrote nothing else — which meant the documented pre-commit gate left
+an uncommitted file behind every single time, and taught everyone to
+`git checkout --` reflexively in a snapshot repository. The dry run now walks
+the same writers and returns the same per-file answers, so it reports the same
+count and touches nothing.
 
 `tmm_snapshot.crawl --dry-run --limit 5` is a live fetch of a Commonwealth
 agency site. Run it when you have changed the fetching, not on every commit.

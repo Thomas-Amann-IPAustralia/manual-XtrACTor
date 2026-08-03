@@ -177,24 +177,38 @@ def process(
         source=source,
     )
 
-    if dry_run:
-        return result
-
+    # A dry run walks exactly the same writers and counts exactly the same
+    # answers; each one compares against disk and declines to write. Returning
+    # early here instead made `--dry-run` report `files written 0`
+    # unconditionally, which is why CLAUDE.md used to prescribe the gate
+    # *without* it — and that spelling restamps manifest.json's timestamps on
+    # every run, so following the documented pre-commit checklist always left
+    # an uncommitted file behind. Neither spelling worked. See the docstring on
+    # `writer._write_if_changed`.
+    #
+    # No EXTRACTOR_VERSION bump: this changes when bytes are written, never
+    # what they say. `--from-raw --force --dry-run` reports 0 against the
+    # corpus in this commit.
     written = 0
-    if writer.write_raw(instrument.code, version.register_id, data, root):
+    if writer.write_raw(
+        instrument.code, version.register_id, data, root, dry_run=dry_run
+    ):
         written += 1
     for provision, pieces in cut:
         record = writer.provision_document(
             provision, pieces, instrument.name, now
         )
-        if writer.write_provision(provision, record, root):
+        if writer.write_provision(provision, record, root, dry_run=dry_run):
             written += 1
     if writer.write_contents(
-        instrument.code, writer.contents_document(document), root
+        instrument.code, writer.contents_document(document), root, dry_run=dry_run
     ):
         written += 1
     if writer.write_endnotes(
-        instrument.code, writer.endnotes_document(instrument.code, sections, now), root
+        instrument.code,
+        writer.endnotes_document(instrument.code, sections, now),
+        root,
+        dry_run=dry_run,
     ):
         written += 1
     if writer.write_instrument(
@@ -208,11 +222,15 @@ def process(
             captured_at=now,
         ),
         root,
+        dry_run=dry_run,
     ):
         written += 1
 
     result.removed = writer.prune_provisions(
-        instrument.code, {provision.ref for provision, _ in cut}, root
+        instrument.code,
+        {provision.ref for provision, _ in cut},
+        root,
+        dry_run=dry_run,
     )
     result.files_written = written
     return result

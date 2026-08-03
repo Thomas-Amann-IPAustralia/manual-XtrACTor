@@ -48,12 +48,22 @@ def _serialise(document: dict[str, Any]) -> str:
     return json.dumps(document, **config.JSON_DUMP_KWARGS) + "\n"  # type: ignore[arg-type]
 
 
-def _write_if_changed(path: Path, text: str) -> bool:
+def _write_if_changed(path: Path, text: str, *, dry_run: bool = False) -> bool:
+    """Write `text` to `path` only if the bytes differ. True if they differ.
+
+    `dry_run` computes the answer and skips the write, which is what makes
+    `--from-raw --force --dry-run` a usable gate: the caller gets the true
+    count of files the change would move without the run leaving a mark. The
+    return value means the same thing either way — *these bytes differ from
+    disk* — so a dry run and a real run cannot report different numbers.
+    """
     try:
         if path.read_text(encoding="utf-8") == text:
             return False
     except (OSError, UnicodeDecodeError):
         pass
+    if dry_run:
+        return True
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
     return True
@@ -208,7 +218,7 @@ def _content_of(document: dict[str, Any]) -> dict[str, Any]:
 
 
 def write_provision(
-    provision: Provision, document: dict[str, Any], root: Path
+    provision: Provision, document: dict[str, Any], root: Path, *, dry_run: bool = False
 ) -> bool:
     """Write a provision file, carrying `captured_at` forward when unchanged.
 
@@ -221,7 +231,7 @@ def write_provision(
     stored = read_json(path)
     if stored is not None and _content_of(stored) == _content_of(document):
         document = {**document, "captured_at": stored.get("captured_at", document["captured_at"])}
-    return _write_if_changed(path, _serialise(document))
+    return _write_if_changed(path, _serialise(document), dry_run=dry_run)
 
 
 def _container_document(container: Container) -> dict[str, Any]:
@@ -362,27 +372,37 @@ def endnotes_document(
 # ---------------------------------------------------------------------------
 
 
-def write_instrument(code: str, document: dict[str, Any], root: Path) -> bool:
+def write_instrument(
+    code: str, document: dict[str, Any], root: Path, *, dry_run: bool = False
+) -> bool:
     path = root / code / INSTRUMENT_FILENAME
     stored = read_json(path)
     if stored is not None and _content_of(stored) == _content_of(document):
         document = {**document, "captured_at": stored.get("captured_at", document["captured_at"])}
-    return _write_if_changed(path, _serialise(document))
+    return _write_if_changed(path, _serialise(document), dry_run=dry_run)
 
 
-def write_contents(code: str, document: dict[str, Any], root: Path) -> bool:
-    return _write_if_changed(root / code / CONTENTS_FILENAME, _serialise(document))
+def write_contents(
+    code: str, document: dict[str, Any], root: Path, *, dry_run: bool = False
+) -> bool:
+    return _write_if_changed(
+        root / code / CONTENTS_FILENAME, _serialise(document), dry_run=dry_run
+    )
 
 
-def write_endnotes(code: str, document: dict[str, Any], root: Path) -> bool:
+def write_endnotes(
+    code: str, document: dict[str, Any], root: Path, *, dry_run: bool = False
+) -> bool:
     path = root / code / ENDNOTES_FILENAME
     stored = read_json(path)
     if stored is not None and _content_of(stored) == _content_of(document):
         document = {**document, "captured_at": stored.get("captured_at", document["captured_at"])}
-    return _write_if_changed(path, _serialise(document))
+    return _write_if_changed(path, _serialise(document), dry_run=dry_run)
 
 
-def write_raw(code: str, register_id: str, data: bytes, root: Path) -> bool:
+def write_raw(
+    code: str, register_id: str, data: bytes, root: Path, *, dry_run: bool = False
+) -> bool:
     """The compiled `.docx`, verbatim.
 
     Kept for the same two reasons the Manual keeps its raw HTML: it is the
@@ -400,6 +420,8 @@ def write_raw(code: str, register_id: str, data: bytes, root: Path) -> bool:
     path = raw_path(code, register_id, root)
     if path.exists() and path.read_bytes() == data:
         return False
+    if dry_run:
+        return True
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)
     return True
@@ -413,7 +435,9 @@ def read_raw(code: str, register_id: str, root: Path) -> bytes | None:
         return None
 
 
-def prune_provisions(code: str, live_refs: set[str], root: Path) -> list[str]:
+def prune_provisions(
+    code: str, live_refs: set[str], root: Path, *, dry_run: bool = False
+) -> list[str]:
     """Delete provision files whose refs are no longer in the instrument.
 
     A repealed section leaves the compiled document altogether — unlike a
@@ -427,8 +451,12 @@ def prune_provisions(code: str, live_refs: set[str], root: Path) -> list[str]:
         ref = (stored or {}).get("ref")
         if ref is None or ref in live_refs:
             continue
-        path.unlink()
         removed.append(str(ref))
+        if dry_run:
+            continue
+        path.unlink()
+    if dry_run:
+        return sorted(removed)
     for directory in sorted(
         (root / code / PROVISIONS_DIRNAME).glob("*"), reverse=True
     ):
