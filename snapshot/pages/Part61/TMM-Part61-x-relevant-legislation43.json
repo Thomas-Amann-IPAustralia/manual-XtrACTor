@@ -26,6 +26,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/x-relevant-legislation43#1",
       "content_hash": "sha256:c22462c7fe832603e700c19ead57f716b4e7e7838530d7771c7dcc12dd0e7e43",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 223,
+          "kind": "strong",
+          "start": 208,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -83,11 +103,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:98d6999edd226894df25651bb2b433b228b9abb1432f308859d47dc1a91b5d8f",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "61. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

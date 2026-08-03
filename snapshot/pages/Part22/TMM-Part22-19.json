@@ -31,6 +31,44 @@
       ],
       "chunk_ref": "TMM/Part22/19#1",
       "content_hash": "sha256:20278c940e5783379b06ca2fc5ac3f61dbea622851e0f6bea740455fdbd87bd2",
+      "emphasis": [
+        {
+          "end": 437,
+          "kind": "i",
+          "start": 422,
+          "text": "bakery services"
+        },
+        {
+          "end": 437,
+          "kind": "i",
+          "start": 422,
+          "text": "bakery services"
+        },
+        {
+          "end": 555,
+          "kind": "i",
+          "start": 540,
+          "text": "electric cables"
+        },
+        {
+          "end": 555,
+          "kind": "i",
+          "start": 540,
+          "text": "electric cables"
+        },
+        {
+          "end": 762,
+          "kind": "em",
+          "start": 743,
+          "text": "Avedis Zildjian Co."
+        },
+        {
+          "end": 1389,
+          "kind": "em",
+          "start": 1355,
+          "text": "Standard Camera Ltd.'s Application"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -70,11 +108,29 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:88f45c8cbe9175f41efa66ce72ee0bf8c7dc46171722b672c3613cb27feffc99",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.19. Corporate names",
     "images": [],
     "last_amended": "2022-12-19",

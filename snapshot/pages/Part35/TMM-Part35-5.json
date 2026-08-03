@@ -69,6 +69,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/5#1~1",
       "content_hash": "sha256:8737e53492033e5397bc53e717331ad38985a5a66de33c835f7771fdb1228571",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -248,6 +274,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/5#1~2",
       "content_hash": "sha256:adb6eec255e4a7b157dbed7997520a09fd1616084095fa2ff4d106fe946756ca",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -330,11 +357,29 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5f7c000c5bb4821dc608328b61c06fd5036f2297c5464336ccc389316bc38af5",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "35.5. Rights given by, and rules governing the use of, certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",

@@ -18,6 +18,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/x-relevant-legislation51#1",
       "content_hash": "sha256:ea332c1c01232f113425fdd05dcd8f704063bd8cd973a83efef521427dd72d2f",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -61,11 +69,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9bbaf890372b13774588dc2172ceea5071b6e8c0a41114e87bc567e614903244",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "38. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

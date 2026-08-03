@@ -38,6 +38,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/1",
       "content_hash": "sha256:eb931057b8cf27e34d46dff28add04fdee54dcfa3275e2f3009e4623f586c61e",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 226,
+          "kind": "i",
+          "start": 199,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 226,
+          "kind": "strong",
+          "start": 199,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 503,
+          "kind": "i",
+          "start": 475,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 503,
+          "kind": "strong",
+          "start": 475,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -112,6 +150,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/2",
       "content_hash": "sha256:02f0e1c2257acfe80d20673393b19d6c758ed976df519f2c50af3845dc1003d8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -210,6 +249,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/3",
       "content_hash": "sha256:f86927fc620e03869a75d7bccbfde0df875560f09b0130bb7dd3340bb098c42e",
+      "emphasis": [
+        {
+          "end": 147,
+          "kind": "strong",
+          "start": 105,
+          "text": "application for international registration"
+        },
+        {
+          "end": 593,
+          "kind": "strong",
+          "start": 584,
+          "text": "commenced"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -264,6 +317,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/4",
       "content_hash": "sha256:53a4ff25dd09c147f6c7e896a1a4f7f15aaaa0008c699232d5e909f7e513f865",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -323,6 +377,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/5/1",
       "content_hash": "sha256:5fe2b990aca7da49b2484acef29ee3871d79923ed676526f9c2eeab93113c07c",
+      "emphasis": [
+        {
+          "end": 718,
+          "kind": "strong",
+          "start": 713,
+          "text": "Note:"
+        },
+        {
+          "end": 1342,
+          "kind": "strong",
+          "start": 1338,
+          "text": "Note"
+        },
+        {
+          "end": 1353,
+          "kind": "strong",
+          "start": 1350,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -362,6 +436,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/3/3/5/2",
       "content_hash": "sha256:353c24d2da387d7660904c149bc73be4a6ceb631f7f99698d6e8d3bf60bd6688",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -394,11 +469,37 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-03-10",
+        "reason": "Minor update to phrasing."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:85224ee4529a0bf9b041bd9af853eebd54d1aa64e1b27a5fc901fca26c4c698f",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.3. The Basic Application or Basic Registration (Basic Trade Mark)",
     "images": [],
     "last_amended": "2026-04-17",

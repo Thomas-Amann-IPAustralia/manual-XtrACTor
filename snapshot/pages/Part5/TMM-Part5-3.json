@@ -18,6 +18,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/3#1",
       "content_hash": "sha256:2cd5d87b139655c9befa5d0bc9f08bd2ae5e57f2102c860d94f5210e595f842a",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 26,
+          "kind": "strong",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 26,
+          "kind": "u",
+          "start": 21,
+          "text": "(Cth)"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 55,
+          "kind": "strong",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 55,
+          "kind": "u",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 61,
+          "kind": "strong",
+          "start": 56,
+          "text": "(Cth)"
+        },
+        {
+          "end": 61,
+          "kind": "u",
+          "start": 56,
+          "text": "(Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -112,6 +174,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/3/3/1",
       "content_hash": "sha256:f824cf1eb39fc480bf514a507847bf16b1a4497252b6205027fd17746df6cf65",
+      "emphasis": [
+        {
+          "end": 517,
+          "kind": "i",
+          "start": 488,
+          "text": "Glossary of Image Descriptors"
+        },
+        {
+          "end": 524,
+          "kind": "strong",
+          "start": 519,
+          "text": "Note:"
+        },
+        {
+          "end": 715,
+          "kind": "strong",
+          "start": 711,
+          "text": "Note"
+        },
+        {
+          "end": 1317,
+          "kind": "strong",
+          "start": 1306,
+          "text": "Re-indexing"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -158,11 +246,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-13",
+        "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3ffad63a6d0ffa85ea04e4b7997df20ae973b5833b3af665d758603a4966de6e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "5.3. Indexing",
     "images": [],
     "last_amended": "2026-04-13",

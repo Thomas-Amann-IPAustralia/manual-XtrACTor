@@ -14,6 +14,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part42/x-annex-a1---flow-chart-of-rectification-procedure#1",
       "content_hash": "sha256:b62061458c59cc723a045b8600662a373c55d853ebaba78b64c43b16b9f6d459",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 42 Rectification of the Register",
@@ -33,11 +34,25 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-11-06",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2025-05-28",
+        "reason": "Tagged with chapter: Part 42 Rectification of the Register"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ec99f7601f395b8efca393bdb484ecd4dbdb0918d3523eb47ab5c43c12debbfe",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-11-06",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "42. Annex A1 - Flow chart of rectification procedure",
     "images": [
       {

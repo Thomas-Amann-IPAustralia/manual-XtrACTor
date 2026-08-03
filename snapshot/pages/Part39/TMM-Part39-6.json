@@ -27,6 +27,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part39/6#1",
       "content_hash": "sha256:0636b765a46342d6825e6353f4af8358215bb25080e97552252bea589ef6df18",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 39 Registration of a Trade Mark",
@@ -78,11 +116,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-06-04",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:77c101728f81734435b4a14d17a8edfb1ffe114d63bb50d74d7377057299e528",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-06-04",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 39.6. Registration fees",
     "images": [],
     "last_amended": "2025-06-04",

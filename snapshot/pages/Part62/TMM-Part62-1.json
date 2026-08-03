@@ -18,6 +18,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/1#1",
       "content_hash": "sha256:84e56977afcdff86634f32f63ab012a078ce1c257a72adebfe9c73676a21cf52",
+      "emphasis": [
+        {
+          "end": 825,
+          "kind": "i",
+          "start": 817,
+          "text": "de facto"
+        },
+        {
+          "end": 825,
+          "kind": "i",
+          "start": 817,
+          "text": "de facto"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -93,11 +107,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:79c51fc169acae1e73e15dcb83253f0f09c9f86372344a9366086934fb76f6f3",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.1. What is revocation of registration?",
     "images": [],
     "last_amended": "2022-04-20",

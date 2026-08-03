@@ -10,6 +10,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/x-annex-a2---identity-of-the-applicant#1",
       "content_hash": "sha256:0a6b8d07347f41d74e524fa0c24146f4ca91357663189710dd984c3b3ae0154b",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "strong",
+          "start": 0,
+          "text": "Owner"
+        },
+        {
+          "end": 10,
+          "kind": "strong",
+          "start": 6,
+          "text": "Name"
+        },
+        {
+          "end": 18,
+          "kind": "strong",
+          "start": 11,
+          "text": "Address"
+        },
+        {
+          "end": 30,
+          "kind": "strong",
+          "start": 19,
+          "text": "Description"
+        },
+        {
+          "end": 96,
+          "kind": "i",
+          "start": 93,
+          "text": "and"
+        },
+        {
+          "end": 458,
+          "kind": "i",
+          "start": 455,
+          "text": "and"
+        },
+        {
+          "end": 639,
+          "kind": "i",
+          "start": 637,
+          "text": "or"
+        },
+        {
+          "end": 663,
+          "kind": "i",
+          "start": 660,
+          "text": "and"
+        },
+        {
+          "end": 902,
+          "kind": "i",
+          "start": 899,
+          "text": "and"
+        },
+        {
+          "end": 1239,
+          "kind": "i",
+          "start": 1236,
+          "text": "and"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -143,11 +205,25 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date.",
+    "amendments": [
+      {
+        "date": "2025-01-21",
+        "reason": "Turn off publish date."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:10a7cb310e2c45410152dd31b8ec746273437c950d8c99439a7ec622ed5a7d7b",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10. Annex A2 - Identity of the applicant",
     "images": [],
     "last_amended": "2025-01-21",

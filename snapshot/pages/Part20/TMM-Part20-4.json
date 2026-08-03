@@ -55,6 +55,74 @@
       ],
       "chunk_ref": "TMM/Part20/4#1~1",
       "content_hash": "sha256:67daa8312e2898e336753ab4fecc9acaea819f1ea3af243af1c38300cb23e6d5",
+      "emphasis": [
+        {
+          "end": 182,
+          "kind": "u",
+          "start": 173,
+          "text": "satisfied"
+        },
+        {
+          "end": 316,
+          "kind": "strong",
+          "start": 307,
+          "text": "rejecting"
+        },
+        {
+          "end": 316,
+          "kind": "i",
+          "start": 307,
+          "text": "rejecting"
+        },
+        {
+          "end": 316,
+          "kind": "i",
+          "start": 307,
+          "text": "rejecting"
+        },
+        {
+          "end": 587,
+          "kind": "i",
+          "start": 550,
+          "text": "Blount Inc v Registrar of Trade Marks"
+        },
+        {
+          "end": 587,
+          "kind": "i",
+          "start": 550,
+          "text": "Blount Inc v Registrar of Trade Marks"
+        },
+        {
+          "end": 1100,
+          "kind": "em",
+          "start": 651,
+          "text": "Where the Act requires the Registrar to be 'satisfied' of any matter, it is to be understood as requiring that he or she be persuaded of the matter according to the balance of probabilities: Rejfek v McElroy (1965) 112 CLR 517; at 521. That is, that the Registrar be persuaded, having given proper consideration to those factors and circumstances that the Act requires him or her to give consideration to, that such matter is more probable than not."
+        },
+        {
+          "end": 1545,
+          "kind": "i",
+          "start": 1499,
+          "text": "Sports Warehouse, Inc v Fry Consulting Pty Ltd"
+        },
+        {
+          "end": 1545,
+          "kind": "i",
+          "start": 1499,
+          "text": "Sports Warehouse, Inc v Fry Consulting Pty Ltd"
+        },
+        {
+          "end": 2123,
+          "kind": "em",
+          "start": 1571,
+          "text": "26. At the acceptance stage under s 33 of the Act and on appeal from such a decision, there is said to be a presumption of registrability: see Woolworths at 372 [24] (French J). This presumption arises from s 33, pursuant to which an application must be registered, unless the Registrar is satisfied that there is a ground for rejecting it. In other words, as Sundberg J said in Chocolaterie Guylian at 67 [16], “a mark will be presumed registrable unless the Registrar is satisfied, on the balance of probabilities, that a ground to reject it exists”."
+        },
+        {
+          "end": 2356,
+          "kind": "em",
+          "start": 2124,
+          "text": "27. There is also said to be a presumption of registrability at the opposition stage and in an appeal under s 56 (as here): see Pfizer Products Inc v Karam [2006] FCA 1663; (2006) 70 IPR 599 (‘Pfizer Products’) at 602 [8] (Gyles J)."
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -103,6 +171,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/4#1~2",
       "content_hash": "sha256:4434badb3a68042ce5bdf03e2539496bb5086a8571511b10e130307941a41eb0",
+      "emphasis": [
+        {
+          "end": 32,
+          "kind": "i",
+          "start": 26,
+          "text": "Oregon"
+        },
+        {
+          "end": 32,
+          "kind": "i",
+          "start": 26,
+          "text": "Oregon"
+        },
+        {
+          "end": 53,
+          "kind": "i",
+          "start": 37,
+          "text": "Sports Warehouse"
+        },
+        {
+          "end": 53,
+          "kind": "i",
+          "start": 37,
+          "text": "Sports Warehouse"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -132,6 +226,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/4/4/1",
       "content_hash": "sha256:d038cd0a5414fad209e7c46e95f9026654f04ef93c0933ae278a51a377ece44a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -165,6 +260,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/4/4/2",
       "content_hash": "sha256:556acd898f6bd382d069d4d1ab2a59d2744e445adb6100a1d3c8fcfda71b2996",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -191,11 +287,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:8d5e5ac68b62234b72b8c5ad8546ef27628d9da615e68d7a1a9db939dfaa0eed",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "20.4. Presumption of registrability",
     "images": [],
     "last_amended": "2022-04-20",

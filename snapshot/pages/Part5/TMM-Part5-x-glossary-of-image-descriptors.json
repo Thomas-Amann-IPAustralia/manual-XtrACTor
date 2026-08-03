@@ -26,6 +26,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-glossary-of-image-descriptors#1",
       "content_hash": "sha256:6699134ab00c064898d410f0ace926c854ebe323c761cb95f1391abf6ce2a6c0",
+      "emphasis": [
+        {
+          "end": 601,
+          "kind": "strong",
+          "start": 596,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -65,6 +73,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part5/x-glossary-of-image-descriptors/a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z",
       "content_hash": "sha256:2629988cbe9658729ed49e578812f0dc562e84b709d63feb6a3edd33006acf57",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 5 Data Capture and Indexing",
@@ -248,11 +257,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:463c2ce5f91af4617bd3956609c08b2bb72f6f6039b36bb9338a0e5b13a888e0",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Glossary of Image Descriptors",
     "images": [],
     "last_amended": "2022-04-20",

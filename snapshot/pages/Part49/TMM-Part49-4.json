@@ -26,6 +26,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/4#1",
       "content_hash": "sha256:11a56bd149f712fa77bc2188fa341aad8239ea4709668516aa3a0c6222e32c91",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -78,6 +116,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/1",
       "content_hash": "sha256:bbc32f0d37a97dee2471aefa5c894521946201f50c104c97c2a30951cd94f5e4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -119,6 +158,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/2",
       "content_hash": "sha256:cded95aca6cdacf9f70d6f03f840b15a900fedcddfafc462356a3635e9a38a0f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -174,6 +214,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/4/4/3",
       "content_hash": "sha256:c66778cc3cb484b832ba6d6702fef178182d4c505fe4386a9098d8f4392075bc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -237,11 +278,33 @@
   ],
   "page": {
     "amendment_note": "Minor change in line with IRHO Regulations",
+    "amendments": [
+      {
+        "date": "2026-02-26",
+        "reason": "Minor change in line with IRHO Regulations"
+      },
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:8e7196b880b4aeec82b6862784383e4d74875370408c0f8b8911fffd9e6ba157",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-02-26",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 49.4. Notice of intention to defend",
     "images": [],
     "last_amended": "2026-02-26",

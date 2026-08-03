@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/7#1",
       "content_hash": "sha256:8df83738fced2d0a76766d76813014403a1ec93a08f94b3cd8e26a65ed9625c3",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -64,6 +102,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/7/7/1",
       "content_hash": "sha256:1bcb0c4e9ab2435adf62b614491b3201b15b6283ac3b998e6c9ce25d05e1e08e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -97,6 +136,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/7/7/2",
       "content_hash": "sha256:66c2f53ad45d646243db6f5e9ab7a8f4a7ed4856bca6bbe99d51e3040938140d",
+      "emphasis": [
+        {
+          "end": 225,
+          "kind": "i",
+          "start": 205,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -123,11 +170,33 @@
   ],
   "page": {
     "amendment_note": "Minor text edits",
+    "amendments": [
+      {
+        "date": "2026-07-15",
+        "reason": "Minor text edits"
+      },
+      {
+        "date": "2026-07-15",
+        "reason": "Outdated term updated."
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b6188d9f8d92c7f360f5576b33bf7e6a4c55a6974a0e46188684007cfc841223",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-15",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 15.7. Review of the Registrar's decision",
     "images": [],
     "last_amended": "2026-07-15",

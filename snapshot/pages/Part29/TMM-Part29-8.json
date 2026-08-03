@@ -22,6 +22,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/8#1",
       "content_hash": "sha256:8513c3a938b5cb070d2b5a389e047bd27e54209b92521e8902165e57e7cc0325",
+      "emphasis": [
+        {
+          "end": 767,
+          "kind": "i",
+          "start": 763,
+          "text": "auDA"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -75,6 +83,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/8/8/1",
       "content_hash": "sha256:3264c706f600642da5ed333d95290b16d856bad2a6b6f6170d7761522bf49c0f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -129,6 +138,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/8/8/2",
       "content_hash": "sha256:28b2041b2264b20d3625c71417f49e1bc0602a1dccf3909b8f6ea9a1e3e1076d",
+      "emphasis": [
+        {
+          "end": 116,
+          "kind": "i",
+          "start": 107,
+          "text": "something"
+        },
+        {
+          "end": 431,
+          "kind": "i",
+          "start": 428,
+          "text": "org"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -195,6 +218,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part29/8/8/3",
       "content_hash": "sha256:65247b2f3e686037e599b398b4f74f74a7e40836d32f3e2761a6a12ade582ed8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 29 Section 43 - Trade Marks likely to Deceive or Cause Confusion",
@@ -257,11 +281,29 @@
   ],
   "page": {
     "amendment_note": "Removed publication date",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Removed publication date"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      },
+      {
+        "date": "2021-05-12",
+        "reason": "Tagging new page to external TM manual"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d10f8e243a942fdcb13132c3b814191877be850429c853e9a134c2b8ae54ffe7",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "29.8. Internet Domain Names",
     "images": [],
     "last_amended": "2025-01-13",

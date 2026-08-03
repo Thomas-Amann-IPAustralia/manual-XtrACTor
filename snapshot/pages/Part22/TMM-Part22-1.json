@@ -19,6 +19,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/1#1",
       "content_hash": "sha256:7d3393caf3acdaa38d4f49d067d54d629f00257a5ea6979b95a09aceb9a573b9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -101,6 +102,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/1/1/1",
       "content_hash": "sha256:82468936d47e90d7d0e2d67ec6e4b0b9de1ea48b48652a0b5df35fc5d8629ebb",
+      "emphasis": [
+        {
+          "end": 139,
+          "kind": "i",
+          "start": 119,
+          "text": "Trade Marks Act 1955"
+        },
+        {
+          "end": 139,
+          "kind": "i",
+          "start": 119,
+          "text": "Trade Marks Act 1955"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -173,6 +188,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/1/1/2",
       "content_hash": "sha256:883e53abac91481ce865700c624b7b3f17c9d997a1d7c43f0e437534a5b065e3",
+      "emphasis": [
+        {
+          "end": 38,
+          "kind": "i",
+          "start": 18,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 38,
+          "kind": "i",
+          "start": 18,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 121,
+          "kind": "i",
+          "start": 58,
+          "text": "Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        },
+        {
+          "end": 121,
+          "kind": "i",
+          "start": 58,
+          "text": "Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        },
+        {
+          "end": 457,
+          "kind": "i",
+          "start": 429,
+          "text": "Acts Interpretation Act 1901"
+        },
+        {
+          "end": 457,
+          "kind": "i",
+          "start": 429,
+          "text": "Acts Interpretation Act 1901"
+        },
+        {
+          "end": 464,
+          "kind": "strong",
+          "start": 459,
+          "text": "Note:"
+        },
+        {
+          "end": 803,
+          "kind": "em",
+          "start": 740,
+          "text": "Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -252,11 +317,25 @@
   ],
   "page": {
     "amendment_note": "Minor updates.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:db8c36a098a91abb06c5ec1cc6d96133547ac8c9dceda0d2cee1d8668cddd15e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.1. Registrability under section 41 of the Trade Marks Act 1995",
     "images": [],
     "last_amended": "2022-12-19",

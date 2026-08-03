@@ -30,6 +30,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part1/x-1.-introduction7#1",
       "content_hash": "sha256:bfde7d2e29c1c247a2abe8ceda6e6031eb2e1350519eb8e77701deeee334c76f",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 53,
+          "kind": "i",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 53,
+          "kind": "strong",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 53,
+          "kind": "u",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 81,
+          "kind": "i",
+          "start": 54,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 81,
+          "kind": "strong",
+          "start": 54,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 81,
+          "kind": "u",
+          "start": 54,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 1 Introduction, Quality",
@@ -75,6 +119,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part1/x-1.-introduction7/disclaimer",
       "content_hash": "sha256:5d55d394cc3553950b962647f869ccba106bafa9f89b951ead629d23cdf5010e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 1 Introduction, Quality",
@@ -101,11 +146,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-25",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2023-03-28",
+        "reason": "spacing fixed"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:62caf796edb9d4c0a9ee5197bc6ed2a751f09981bc624f44adff8ed0ccbcf887",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 1.1. Introduction",
     "images": [],
     "last_amended": "2025-02-25",

@@ -39,6 +39,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part47/5#1",
       "content_hash": "sha256:3cf28bfa4ea7dd7be8f4154854fa78de0f4e119418fbc6a6d6dd3ba5f189a51f",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 47 Procedures for Opposing Registration or Protection",
@@ -125,6 +163,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/1",
       "content_hash": "sha256:fc8c5b8141c6062fb3f04995222cd8b566c7972d0f732d9042f7d8a02dc1dac1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 47 Procedures for Opposing Registration or Protection",
@@ -166,6 +205,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/2",
       "content_hash": "sha256:ca67620e56b805fc275cc51db2434e64c362811de9e679f6d7320640349afb33",
+      "emphasis": [
+        {
+          "end": 541,
+          "kind": "i",
+          "start": 521,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 47 Procedures for Opposing Registration or Protection",
@@ -227,6 +274,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part47/5/5/3",
       "content_hash": "sha256:e899b821ba7aec4a77b8892b9f5f93e529ec8a3f8282ae0c54a3d92b69442997",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 47 Procedures for Opposing Registration or Protection",
@@ -279,11 +327,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f4702ed052c7f0ca55bc35d191460ae1a35f4a471ce9ac8dc71999004a40e677",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 47.5. Making Convention documents available to opponent",
     "images": [],
     "last_amended": "2025-04-01",

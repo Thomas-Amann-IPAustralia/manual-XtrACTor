@@ -19,6 +19,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/4#1",
       "content_hash": "sha256:8de1fc279c6d417f6d9e506c6fc1d68224bd5ed122a61c763c1dffcfdd24dc1a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -51,11 +52,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ff7eae608c25c8610c377ca4cff461f4110ab641ca495f30e368fb0c8396ea84",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "4. In whose name may a divisional application be filed?",
     "images": [],
     "last_amended": "2026-07-20",

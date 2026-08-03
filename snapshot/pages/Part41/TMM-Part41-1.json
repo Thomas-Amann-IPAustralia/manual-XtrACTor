@@ -22,6 +22,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part41/1#1",
       "content_hash": "sha256:e9a0e00e3f6fb45d6d6255bb888770940e43eac98e77f55af393c1026dc99d84",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 41 Cancellation of Registration",
@@ -73,11 +111,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7bdf69495a6c4ce77d87c37ac6c39d9a404e1ebd914c06924067729da0651dc0",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 41.1. What is the effect of cancelling a registration?",
     "images": [],
     "last_amended": "2025-02-10",

@@ -50,6 +50,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part42/3#1",
       "content_hash": "sha256:5302d3f19e9995278a3b2e7307460f6920f346cc88824aa92ca71294bea39b13",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1807,
+          "kind": "strong",
+          "start": 1803,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 42 Rectification of the Register",
@@ -107,11 +151,17 @@
   ],
   "page": {
     "amendment_note": "Tagged with chapter: Part 42 Rectification of the Register",
+    "amendments": [
+      {
+        "date": "2025-05-28",
+        "reason": "Tagged with chapter: Part 42 Rectification of the Register"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6d05681f6eb21b36bb734848ba45c2b8f686f7e4a8c7d40dc3c8b18c2d19c624",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-05-28",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 42.3. Rectification procedures",
     "images": [],
     "last_amended": "2025-05-28",

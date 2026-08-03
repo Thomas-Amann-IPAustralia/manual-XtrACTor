@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5#1",
       "content_hash": "sha256:db6335b2667acd3f71b0e2095edf859f6cd896e57f447805e826495e7bea1fbf",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -70,6 +71,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/1",
       "content_hash": "sha256:ebba9d751d96b2f385ea7d3cd1300419ddb35571f15fd5035d6339743ca52f51",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -116,6 +118,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/1/1",
       "content_hash": "sha256:7c6735b25fe81cb9768619d9f958170aced572485d9663b1c75308ef800e2079",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -155,6 +158,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/1/2",
       "content_hash": "sha256:6b24b6772339bc663b6ef58ba41ce90d1af2a8efc3ba156ac14c3a6cd522fc0d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -201,6 +205,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/1/3",
       "content_hash": "sha256:5dfd63e25108c8570d12b86551308029e9659faa2eb2cd32e1057be81183f3c9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -260,6 +265,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/2",
       "content_hash": "sha256:f680152dbeaa06295bca380b19ce71a0987df4011e9917a7c1d9d4a5b2a224bc",
+      "emphasis": [
+        {
+          "end": 441,
+          "kind": "i",
+          "start": 320,
+          "text": "a. goods of the same description as that of goods (registered goods) in respect of which the trade mark is registered; or"
+        },
+        {
+          "end": 386,
+          "kind": "strong",
+          "start": 371,
+          "text": "registered good"
+        },
+        {
+          "end": 502,
+          "kind": "i",
+          "start": 442,
+          "text": "b. services that are closely related to registered goods; or"
+        },
+        {
+          "end": 633,
+          "kind": "i",
+          "start": 503,
+          "text": "c. services of the same description as that of services (registered services) in respect of which the trade mark is registered; or"
+        },
+        {
+          "end": 579,
+          "kind": "strong",
+          "start": 560,
+          "text": "registered services"
+        },
+        {
+          "end": 691,
+          "kind": "i",
+          "start": 634,
+          "text": "d. goods that are closely related to registered services."
+        },
+        {
+          "end": 813,
+          "kind": "i",
+          "start": 793,
+          "text": "Trade Marks Act 1955"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -305,6 +354,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/2/1",
       "content_hash": "sha256:04e4519ed68a5ca0c80e1bca35e2c791b702e1b7f95fddcdaeeff12e48ed0033",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -363,6 +413,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/2/2",
       "content_hash": "sha256:a1fe8b2181b99aa6f6e5594866be5d6e0962a6a9199d859146aa06b4e3546358",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -409,6 +460,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/2/3",
       "content_hash": "sha256:4b9c018cbfb3ad9b50a2a81c8e731f8b1cdedcc58b681237ac9d2fab3632ef01",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -464,6 +516,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/3",
       "content_hash": "sha256:6f5ef196f6e524679be9eec444b2f4056152df12b45d272649a7a9b08027b1f2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -514,6 +567,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/5/5/3/1",
       "content_hash": "sha256:d092f51290c5c92fb7b55bcf81a2979d45c80c3f4d2c6b079039da30d859de80",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -546,11 +600,33 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-21",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:44ffb48fda8a306946ec40c37def24decb154cc21b8e73b7ad9363bec9daa067",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10.5. Specification of goods and/or services",
     "images": [],
     "last_amended": "2025-01-21",

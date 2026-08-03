@@ -299,9 +299,24 @@ the Manual has, and it is the single most useful metadata on the page: paired
 with a content hash diff, it distinguishes a substantive practice change from a
 link tidy-up without anyone reading the diff.
 
-Capture the most recent row as `last_amended` and `amendment_note`. Note the
-third row above — reason can be blank. Handle it. A reason cell can also hold
-several `<p>`s, which is one reason spread over two sentences, not two reasons.
+**Capture every row**, as `page.amendments`, newest first. `last_amended` and
+`amendment_note` are the head of that array and are derived from it rather than
+read off the table a second time.
+
+Until `ingest/0.10.0` the instruction here was to capture the most recent row
+and nothing else, and the parser did exactly that: it walked all 2,039 rows to
+find the maximum and dropped the other 1,539. That was never argued, unlike
+every other exclusion in this repository, and it cost the two things this table
+is uniquely able to say. **493 of the 500 pages carry more than one row** — the
+histogram is 7 pages with one, 141 with three, 142 with four, and a tail out to
+thirteen — and the dates reach back to **2021-01-29**, which is four years
+before this repository's first crawl. After that crawl `git` is the amendment
+log; before it, this table is the only one there is.
+
+Note the third row above — reason can be blank. Handle it: record it as `null`,
+which says the Manual gave no reason, and is not the same as a reason that
+could not be read (which raises). A reason cell can also hold several `<p>`s,
+which is one reason spread over two sentences, not two reasons.
 
 Both dates come from a Drupal `<time>` element that carries a machine-readable
 attribute, so nothing here needs a date-string parser:
@@ -315,8 +330,15 @@ by BeautifulSoup, so match on the element and read the attribute — never on a
 literal `<time class=... datetime=...>` string.
 
 Rows are served newest-first, but that is a rendering choice and not a contract.
-Pick the most recent row by comparing dates, breaking ties on document order, so
-that a reordered table does not change the output.
+Sort by date, breaking ties on document order, so that a reordered table does
+not change the output.
+
+The tie is the rule-2 trap and it is subtle enough to be worth stating. Two
+rows amended on one day have no key but document order to separate them, and
+`sorted(rows, key=date, reverse=True)` **inverts** ties, because `reverse=True`
+reverses a stable sort's output rather than its comparison. On a page with two
+same-day rows that flips them, the file rewrites, and the next run flips them
+back. Sort on the negated date instead.
 
 The block lives in `div.view-amended-reasons`, outside the body field. Its
 wrapper carries a `js-view-dom-id-<hash>` class; ignore it, and never let it
@@ -1608,3 +1630,121 @@ across all 946 AustLII links, exactly two prefixes occur:
 snapshot uses for that Schedule, so the id is a foreign key onto a record that
 was already there. An unrecognised prefix raises, for the same reason an
 unrecognised database fragment does.
+
+---
+
+## 34. The Manual italicises its case names, and nothing was reading it
+
+The Manual sets **5,670 stretches of prose** in emphasis across 428 of its 500
+pages, and until `ingest/0.10.0` every one of them reached the snapshot as
+undifferentiated text.
+
+| Element | Spans |
+|---|---|
+| `<i>` | 2,670 |
+| `<strong>` | 2,288 |
+| `<u>` | 533 |
+| `<em>` | 130 |
+| `<sup>` | 26 |
+| `<b>` | 23 |
+
+This is §29's gap — the hyperlinks that were not in the snapshot — with a
+different element, and the same answer: `chunk.emphasis`, using the same
+`flatten_spans` machinery, with the same `text[start:end]` contract checked
+corpus-wide.
+
+### The case worth reading
+
+```html
+<i>Self Care IP Holdings Pty Ltd v Allergan Australia Pty Ltd</i> [2023] HCA 8 at [23] (‘Self Care’)
+```
+
+The chunk already carried `CASE/2023/HCA/8`. The 55 characters in front of it —
+the parties, which is how anybody actually names a decision — were in `text`
+and unfindable, and the fact that the Manual had *marked them as a name* was
+gone.
+
+**437 of the corpus's 522 case-citation positions are immediately preceded by
+an italic run**, and 332 distinct citations get exactly one such name across
+every occurrence. The comparison worth making is with what was available
+before: `exports/cases.csv` could name 18, from jade.io anchors whose own text
+happened to contain the citation. Its README said party names were *"not a gap
+this repository can close deterministically"*. That was wrong, and the reason it
+was wrong is instructive — it assumed the only markup evidence was a hyperlink.
+The Manual marks a case name far more often than it links one, because
+italicising case names is the legal-writing convention and hyperlinking them is
+not.
+
+Reading `<i>` is not a different kind of act from reading `<a href>`. Both are
+the authors marking a span; neither says what the span means.
+
+### What is recorded and what is not
+
+The pipeline records that the Manual set those words apart, and where they sit.
+It does **not** say the span is a party name, and `emphasis.py` takes no
+citation pattern as an argument — the adjacency is a traversal for a consumer,
+and asserting the two belong together is a merge that belongs downstream.
+
+The other things the field turns out to hold, none of them asserted:
+
+- **695 italic runs are instrument titles** — *Trade Marks Act 1995* — which is
+  `citations.py`'s `certainty: "explicit"` evidence written in markup rather
+  than prose.
+- **Bold marks defined terms and modal words**: *person*, *full*, *should not*,
+  *including*.
+- **Underline is usually laid over an italic title**, and on Part 10.4 marks
+  the placeholder slots of a form template: `<language>`,
+  `<WORDS IN FOREIGN LANGUAGE>`, `<TRANSLATION>`.
+- **The 85 citations with no italic name in front of them** are mostly a
+  citation printed straight after another one —
+  `[1963] HCA 66; (1963) 109 CLR 407`. A citation the authors gave no name to,
+  sitting beside one they did, is the parallel-citation signal
+  `exports/cases.csv` derives from punctuation alone. Emphasis corroborates it
+  independently.
+
+### The 524 spans that reach no chunk
+
+The same gap §29 records for anchors, and mostly the same cause. Emphasis
+inside an `<h2>`–`<h4>` is inside a heading, and a heading's words reach the
+snapshot as a `heading_path` string with no structure to hang an offset on.
+
+Nearly all of them are `<strong>`: 2,288 spans over the page bodies against
+1,808 inside chunks. Those 480 are the bold numbered paragraphs of §25, which
+`_inferred_heading` promotes to headings — so the emphasis that did not survive
+is precisely the emphasis the chunker had already read as structure, and it is
+recorded as `heading_source: "emphasis"` instead.
+
+### Nesting, and why there is no `weight`
+
+The legislation half spells a bold-italic run `weight: "bold-italic"`, and that
+is right for Word, where one run carries both properties. HTML nests instead:
+
+```html
+<u><i>Trade Marks Act 1995</i></u>
+```
+
+is one stretch of words carrying two assertions, and **1,271 of the corpus's
+spans are co-extensive with another** for this reason. They are recorded as two
+records with identical offsets. Merging them into a synthetic weight would
+invent a thing the source does not have, and a consumer wanting the
+intersection can compute it from two records and cannot recover two from one.
+
+For the same reason `<i>` is not normalised to `<em>`, nor `<b>` to `<strong>`:
+which one the CMS emitted is a fact about the markup, and this layer has
+nowhere to put the claim that the two mean the same thing.
+
+### 193 spans are an element nested inside an identical one
+
+The CMS emits `<i><i>ordinary signification</i></i>`, and §4 already records the
+related `<span><i><i>` shape. That produces two records with the same `kind` and
+the same offsets — 193 of the corpus's 5,146 spans, on 3.8% of them.
+
+They are kept. Collapsing them means asserting that `<i><i>x</i></i>` and
+`<i>x</i>` are the same assertion, which is true of how they *render* and is
+still a normalisation, and rule 1 resolves that tie towards recording what is
+there. It is also the direction that cannot lose: a consumer can collapse them
+and cannot recover them.
+
+**So a consumer counting emphasised spans should deduplicate on
+`(kind, start, end)`**, which gives 4,953. A consumer asking *did the Manual
+set these words apart* does not need to: the answer is the same either way.

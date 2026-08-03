@@ -45,6 +45,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part48/1#1",
       "content_hash": "sha256:11e9c228d44c98fde9855fadac4ead03f5a8cc4b2d5fdff6dc62b977eab5428b",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 48 Removal of a Trade Mark from the Register for Non-use",
@@ -177,11 +215,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:04c32580931b5ebaa78805ddf3ae9279f1f28d8d4386823b2654a0d6b4382ef6",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 48.1. What if a trade mark is not used?",
     "images": [],
     "last_amended": "2025-04-01",

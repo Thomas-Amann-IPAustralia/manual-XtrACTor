@@ -26,6 +26,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part28/8#1",
       "content_hash": "sha256:0331003405e657c77cc863838ce70a9a9207e11a193be65a3e844e5b8ecdaa5d",
+      "emphasis": [
+        {
+          "end": 430,
+          "kind": "i",
+          "start": 367,
+          "text": "Provisions of paragraph 44(3)(a) and/or Reg 4.15A(3)(a) applied"
+        },
+        {
+          "end": 494,
+          "kind": "i",
+          "start": 431,
+          "text": "Provisions of paragraph 44(3)(b) and/or Reg 4.15A(3)(b) applied"
+        },
+        {
+          "end": 553,
+          "kind": "i",
+          "start": 495,
+          "text": "Provisions of subsection 44(4) and/or Reg 4.15A(5) applied"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 28 Honest Concurrent Use, Prior Use or Other Circumstances",
@@ -141,11 +161,29 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6d899aaa40a38eb63be50d491bedbceff587d751fa2e1f22edce5fc01239f69a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "28.8. Endorsements where the provisions of s 44(3) or 44(4) and/or reg 4.15A are applied",
     "images": [],
     "last_amended": "2023-10-10",

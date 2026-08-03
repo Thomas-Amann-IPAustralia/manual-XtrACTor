@@ -40,6 +40,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/4#1",
       "content_hash": "sha256:44e6a75d951a92599d114b43ba50ca08feb3ad20c232f5cadd8f2bc71b15dd4e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -124,6 +125,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/4/4/1",
       "content_hash": "sha256:194764990331d61448fa4ebaaa8eb8a5b5fde12d566a88289d6a0d6367c5b548",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -194,6 +196,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/4/4/2",
       "content_hash": "sha256:6e6e68b0cdb07926b9a01cbaced9408cc1b7bbc850ece6d547b7463c075b0555",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -263,6 +266,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/4/4/3",
       "content_hash": "sha256:0fb7d099930ffce2a0740de3d8ff2e9f920c13f332e4b1f629db7b9ce66d4c17",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -308,11 +312,33 @@
   ],
   "page": {
     "amendment_note": "Minor updates to formatting and references to IP Australia groups",
+    "amendments": [
+      {
+        "date": "2025-12-19",
+        "reason": "Minor updates to formatting and references to IP Australia groups"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:381c330c5ceffb16e5b8f0a81b08a373b6bce21c909f0860bf23b0f061cd79e3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "17.4. The deferment process where the applicant requests deferment",
     "images": [],
     "last_amended": "2025-12-19",

@@ -31,6 +31,32 @@
       ],
       "chunk_ref": "TMM/Part14/7/7/1",
       "content_hash": "sha256:9cbd8d41bb52a918b69a815b952d9d5e9dc367fa5abf8db4a2e716a85a625e0b",
+      "emphasis": [
+        {
+          "end": 390,
+          "kind": "i",
+          "start": 353,
+          "text": "Nikkken Wellness Pty Ltd v van Voorst"
+        },
+        {
+          "end": 442,
+          "kind": "i",
+          "start": 419,
+          "text": "Daiquiri Rum Trade Mark"
+        },
+        {
+          "end": 1061,
+          "kind": "i",
+          "start": 1005,
+          "text": "Trident Seafoods Corporation v Trident Foods Pty Limited"
+        },
+        {
+          "end": 1152,
+          "kind": "i",
+          "start": 1090,
+          "text": "Flexopack S.A. Plastics Industry v Flexopack Australia Pty Ltd"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -68,6 +94,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/7/7/2",
       "content_hash": "sha256:de9ba0f47ae3503cd5aefe26b0b4c93601fb8332253b28b9457b8d8e7471f229",
+      "emphasis": [
+        {
+          "end": 40,
+          "kind": "i",
+          "start": 19,
+          "text": "Guidance for the User"
+        },
+        {
+          "end": 279,
+          "kind": "i",
+          "start": 166,
+          "text": "“The class headings indicate in a general manner the fields to which the goods and services in principle belong.”"
+        },
+        {
+          "end": 610,
+          "kind": "i",
+          "start": 460,
+          "text": "An application which claims a class heading covers only the goods or services actually specified in the heading, or clearly encompassed by the heading"
+        },
+        {
+          "end": 610,
+          "kind": "strong",
+          "start": 460,
+          "text": "An application which claims a class heading covers only the goods or services actually specified in the heading, or clearly encompassed by the heading"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -108,6 +160,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/7/7/3",
       "content_hash": "sha256:298400ff03f5aff79930a03d99bf1c801ba36819d37714b5ac76e0241b3d1cba",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -205,6 +258,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/7/7/3/1",
       "content_hash": "sha256:06bbe88c5834a7a949fb7d3ea88ba0392614f7ce1ec49715ee27648fa005b8c3",
+      "emphasis": [
+        {
+          "end": 116,
+          "kind": "i",
+          "start": 107,
+          "text": "Examples:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -287,6 +348,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/7/7/3/2",
       "content_hash": "sha256:0b0b93916d9001c701e7205a44ff539a89bec09fe9655fd22b397098ad9fac08",
+      "emphasis": [
+        {
+          "end": 112,
+          "kind": "i",
+          "start": 95,
+          "text": "computer software"
+        },
+        {
+          "end": 122,
+          "kind": "u",
+          "start": 113,
+          "text": "including"
+        },
+        {
+          "end": 223,
+          "kind": "i",
+          "start": 206,
+          "text": "computer software"
+        },
+        {
+          "end": 234,
+          "kind": "i",
+          "start": 225,
+          "text": "Examples:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -392,6 +479,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/7/7/3/3",
       "content_hash": "sha256:ef32dc4b1f57b87acd0763beaacc9e380197203bb60acb8f237448797e7ea0aa",
+      "emphasis": [
+        {
+          "end": 333,
+          "kind": "i",
+          "start": 284,
+          "text": "Computer software featuring architecture software"
+        },
+        {
+          "end": 311,
+          "kind": "strong",
+          "start": 302,
+          "text": "featuring"
+        },
+        {
+          "end": 361,
+          "kind": "i",
+          "start": 352,
+          "text": "featuring"
+        },
+        {
+          "end": 572,
+          "kind": "i",
+          "start": 532,
+          "text": "software featuring architecture software"
+        },
+        {
+          "end": 1212,
+          "kind": "i",
+          "start": 1203,
+          "text": "Examples:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -424,11 +543,33 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
+    "amendments": [
+      {
+        "date": "2025-10-24",
+        "reason": "Accessibility fix - remove empty headings"
+      },
+      {
+        "date": "2024-03-28",
+        "reason": "Amended post MGS implementation"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      },
+      {
+        "date": "2021-05-12",
+        "reason": "Tagging new page to external TM manual"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4dcb0f2d621842feeefb4e89ff99c26d63e340aa35d24f3df8f2102fd1fdc8ea",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "14.7. Interpretation of specifications",
     "images": [],
     "last_amended": "2025-10-24",

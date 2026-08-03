@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/5/5/1",
       "content_hash": "sha256:584a50024bf4f271da249251ca5d24b13f88239817d64c78899ebff1dda4fea2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -43,11 +44,25 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2022-07-29",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:8e2f66a8b25e585120609b2427089d16a89e34ddc4f06180606fba382b6f1cf0",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "61.5. Confidential Information in Correspondence",
     "images": [],
     "last_amended": "2022-07-29",

@@ -66,6 +66,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part47/x-relevant-legislation18#1",
       "content_hash": "sha256:88ddd0d34b2bd150bce0e3a32b6d9c432f99e61126f464c30edd3dbcbb4ccd20",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 29,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 29,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 29,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 718,
+          "kind": "i",
+          "start": 691,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 718,
+          "kind": "strong",
+          "start": 691,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 718,
+          "kind": "u",
+          "start": 691,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 47 Procedures for Opposing Registration or Protection",
@@ -141,11 +185,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:591cf0bf10491d22f8412431e011321c9c9ff36bd79985df94aff45e68834d77",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 47. Landing Page",
     "images": [],
     "last_amended": "2025-04-01",

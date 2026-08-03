@@ -22,6 +22,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/x-annex-a1---abbreviations-of-types-of-companies-recognised-as-bodies-corporate#1",
       "content_hash": "sha256:ecd1358b8f7beea73850215b4684fab3ccc664ea92e4e16a54ccbb7d0b7af354",
+      "emphasis": [
+        {
+          "end": 1654,
+          "kind": "strong",
+          "start": 1650,
+          "text": "Note"
+        },
+        {
+          "end": 1809,
+          "kind": "strong",
+          "start": 1806,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -280,11 +294,33 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date.",
+    "amendments": [
+      {
+        "date": "2025-01-17",
+        "reason": "Turn off publish date."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:a3ca1eb8ea49d56f0305ceded150d1f4b3748dc0231b348153f9c87d667742f7",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10. Annex A1 - Abbreviations of types of companies recognised as bodies corporate",
     "images": [],
     "last_amended": "2025-01-17",

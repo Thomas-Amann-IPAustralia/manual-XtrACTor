@@ -72,6 +72,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/5#1~1",
       "content_hash": "sha256:e305bf519bcc4dcdf2aa03f894210cb12e1940d68dd71436151462f69b3b56b6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -234,6 +272,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/5#1~2",
       "content_hash": "sha256:e00c2fb401329ead22a868c6f43d50d1439593a37530e8709725f9f9d2103c4f",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -269,11 +308,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Updated hyperlinks"
+      },
+      {
+        "date": "2022-09-27",
+        "reason": "Remove reference to Decision on the written record (obsolete term)."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:45a7924095ac5339f84b201f0548671803c9c41046ef5a7d9f6eac769c80b3ab",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 51.5. Hearing of the opposition",
     "images": [],
     "last_amended": "2025-04-01",

@@ -34,6 +34,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part41/x-relevant-legislation45#1",
       "content_hash": "sha256:6c1cb99d52138fca46689c43ef59d8d2c0cc627d60ab9218f5f62be1700ce617",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 28,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 220,
+          "kind": "i",
+          "start": 193,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 220,
+          "kind": "strong",
+          "start": 193,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 220,
+          "kind": "u",
+          "start": 193,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 41 Cancellation of Registration",
@@ -85,11 +129,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0b5fbe943225f6060d927507a468c7255616bec751254d67164f6f215bc36b2b",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 41. Landing Page",
     "images": [],
     "last_amended": "2025-02-10",

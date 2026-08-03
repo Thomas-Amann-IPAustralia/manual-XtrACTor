@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1#1",
       "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -57,6 +95,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1/1/1",
       "content_hash": "sha256:2f2be55cdd83aa13ccdb84eb727a1a7f176a8173346d737965a51ec0dbf34674",
+      "emphasis": [
+        {
+          "end": 540,
+          "kind": "i",
+          "start": 532,
+          "text": "ex parte"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -97,6 +143,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1/1/2",
       "content_hash": "sha256:b978e26fa761edea8a6b056578825956b646d0e7d77f1de2444ed7871647c10e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -143,6 +190,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1/1/3",
       "content_hash": "sha256:86208c6d9825bdf8cc3c6c5d2451cfed67916bf67b71c3889d61b2ae346ffe66",
+      "emphasis": [
+        {
+          "end": 41,
+          "kind": "strong",
+          "start": 37,
+          "text": "only"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -197,6 +252,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1/1/4",
       "content_hash": "sha256:9f33a7acb3efad26cc7eed6961a8ac7253160caa421aa2c059b6ec2de66cd704",
+      "emphasis": [
+        {
+          "end": 893,
+          "kind": "strong",
+          "start": 889,
+          "text": "Note"
+        },
+        {
+          "end": 1107,
+          "kind": "strong",
+          "start": 1104,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -255,6 +324,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part16/1/1/5",
       "content_hash": "sha256:cc5f06ed5fa42367373cc156bf92e1a8034da90d4a4eb017ec9dbaefb5d23ae6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 16 Time Limits for Acceptance of an Application for Registration",
@@ -300,11 +370,33 @@
   ],
   "page": {
     "amendment_note": "TM Regs Amendment Package update regarding deferment for ex parte hearing",
+    "amendments": [
+      {
+        "date": "2025-12-19",
+        "reason": "TM Regs Amendment Package update regarding deferment for ex parte hearing"
+      },
+      {
+        "date": "2025-02-18",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:805fa59af8ce8a9cca783ac3ac13f08f187e2c65a19ed2eb3042b76161381401",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 16.1. What are the time limits for acceptance of an application to register a trade mark?",
     "images": [],
     "last_amended": "2025-12-19",

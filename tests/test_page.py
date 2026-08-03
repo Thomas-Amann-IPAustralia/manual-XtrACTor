@@ -21,7 +21,7 @@ from tmm_snapshot.page import (
 )
 from tmm_snapshot.sitemap import NavPage
 
-from conftest import fixture_html, page_html, page_url
+from conftest import PAGE_SLUGS, fixture_html, page_html, page_url
 
 
 def parse(name, sitemap):
@@ -162,6 +162,70 @@ def test_the_most_recent_amendment_row_wins_regardless_of_row_order():
     assert record.last_amended == date(2021, 11, 9)
     assert record.amendment_note is None
     assert record.date_published == date(2021, 11, 9)
+
+    # And the older row is kept rather than discarded behind the newest.
+    assert record.amendments == (
+        {"date": "2021-11-09", "reason": None},
+        {"date": "2020-06-01", "reason": "An older change that does state a reason."},
+    )
+
+
+def _synthetic_nav(slug: str, nav_title: str) -> NavPage:
+    return NavPage(
+        url=f"https://manuals.ipaustralia.gov.au/trademark/{slug}",
+        page_ref="TMM/Part22/1",
+        part_id="Part22",
+        part_title="Part 22 Section 41 - Capable of Distinguishing",
+        nav_title=nav_title,
+        nav_ordinal=1,
+        kind="body",
+    )
+
+
+def test_the_whole_amendment_history_is_kept_newest_first(sitemap):
+    """The Manual publishes 2,039 of these rows and 493 pages carry more than
+    one. Until 0.10.0 the parser read every row and returned one."""
+    nav = resolve_nav(page_url("part55_2"), sitemap)
+    record, _ = parse_page(page_html("part55_2"), nav)
+
+    assert len(record.amendments) > 1
+    dates = [row["date"] for row in record.amendments]
+    assert dates == sorted(dates, reverse=True)
+    assert record.last_amended is not None
+    assert record.last_amended.isoformat() == dates[0]
+
+
+def test_same_day_rows_keep_document_order(sitemap):
+    """Rule 2's case. Two rows amended on one day have no key but document
+    order to separate them, so a sort that reordered a tie would rewrite the
+    file on alternate runs — which is what `reverse=True` on a stable sort
+    does, and why `_amendments` negates the date instead."""
+    nav = _synthetic_nav("1.-a-page-amended-twice", "1. A page amended twice in one day")
+    record, _ = parse_page(
+        fixture_html("synthetic", "page_same_day_amendments.html"), nav
+    )
+
+    assert [row["reason"] for row in record.amendments] == [
+        "First of the two same-day rows.",
+        "Second of the two same-day rows.",
+        "The older change.",
+    ]
+
+
+def test_the_head_of_the_history_is_the_amendment_fields(sitemap):
+    """`last_amended` and `amendment_note` are `amendments[0]`, derived rather
+    than parsed a second time. Two readings of one table is exactly how the two
+    come to disagree, and the validator pins this over the whole snapshot."""
+    for name in sorted(PAGE_SLUGS):
+        nav = resolve_nav(page_url(name), sitemap)
+        record, _ = parse_page(page_html(name), nav)
+        if not record.amendments:
+            assert record.last_amended is None and record.amendment_note is None
+            continue
+        head = record.amendments[0]
+        assert record.last_amended is not None
+        assert record.last_amended.isoformat() == head["date"]
+        assert record.amendment_note == head["reason"]
 
 
 # -- the cleaned body -----------------------------------------------------

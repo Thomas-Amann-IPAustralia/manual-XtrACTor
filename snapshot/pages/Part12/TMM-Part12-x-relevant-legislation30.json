@@ -38,6 +38,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/x-relevant-legislation30#1",
       "content_hash": "sha256:0f362a5ea5353aa743d303fcd42ee36b60cd411be15d30c8036a5694656d7ae3",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 236,
+          "kind": "i",
+          "start": 209,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 236,
+          "kind": "strong",
+          "start": 209,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 236,
+          "kind": "u",
+          "start": 209,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -107,11 +145,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ef8aa6eb4c01e94b66469a5be92585c736f9edf445c684b82a1c354789624ec5",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "12. Landing page",
     "images": [],
     "last_amended": "2026-07-20",

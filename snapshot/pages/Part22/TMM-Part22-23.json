@@ -26,6 +26,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/23#1",
       "content_hash": "sha256:986f60abf8bfe451c9584d3d4983730f043b227ab605593a9dd7f8cda8f3ae25",
+      "emphasis": [
+        {
+          "end": 637,
+          "kind": "strong",
+          "start": 585,
+          "text": "size, date, quantity, time, power, speed or strength"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -45,11 +53,29 @@
   ],
   "page": {
     "amendment_note": "Reviewed - no changes.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Reviewed - no changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:19bbd183d8fba57886c2131f7268c0f2037e46ccfbfaef52ab5e47084f99a7e4",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.23. Combinations of letters and numerals",
     "images": [],
     "last_amended": "2022-12-19",

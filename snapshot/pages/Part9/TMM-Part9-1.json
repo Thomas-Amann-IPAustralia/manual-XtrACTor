@@ -34,6 +34,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/1#1",
       "content_hash": "sha256:6c01cbd541778ccd23945673c94fd15dcd8cdc23a2fa3a65fa8298f3c4c255da",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -108,11 +109,25 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:014dff42b5a7a61e3945c9d9a541e629feaa51eb1378758b86549c5e9a066079",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-15",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "9.1. Introduction",
     "images": [],
     "last_amended": "2025-01-15",

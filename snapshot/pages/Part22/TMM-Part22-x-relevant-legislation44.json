@@ -26,6 +26,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/x-relevant-legislation44#1",
       "content_hash": "sha256:99f02a7c55399a7cb4631c51f79d10240c822662a6dd2ffb699e68c06e3d3803",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 36,
+          "kind": "i",
+          "start": 32,
+          "text": "sign"
+        },
+        {
+          "end": 36,
+          "kind": "i",
+          "start": 32,
+          "text": "sign"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -91,11 +111,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c2e016f9d57084a7a806783c9c8020f7a7b9ee59166e645d07b53258ac0e862b",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3#1",
       "content_hash": "sha256:bfbc40094d9f1d6e959219a4891f43593019c19b4233e27d27c754513dcad44a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -36,6 +37,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/1",
       "content_hash": "sha256:d8b43f9afeaa580f8f5367a005635790cb1dbb3f9bb92b938d3d5e3ad6b95c2e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -69,6 +71,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/2",
       "content_hash": "sha256:2ea7057a5878827ff732c2e7dd3cfa1630e1ec43ecf6e05c847d08b804f6b9d3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -102,6 +105,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/3",
       "content_hash": "sha256:8c671704ebd6380560056cfaeec6a68f315be6bdbe80becffa15865cbcfa1bd0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -135,6 +139,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/4",
       "content_hash": "sha256:d018cc0ed4ad19a20238e1aa7d9b201da6403c429b6f8f8593bfcf6ca3d38edb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -196,6 +201,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/5",
       "content_hash": "sha256:f01513bfac0b4b97b84f37ebacd1be9450ea69efb33327325843562d192ead11",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -247,6 +253,20 @@
       ],
       "chunk_ref": "TMM/Part15/3/3/6",
       "content_hash": "sha256:aaf4dbe3411dcd810c6ed146a79a12c5d1f46d3aee2fcec3140a078ecc4fcaf9",
+      "emphasis": [
+        {
+          "end": 233,
+          "kind": "i",
+          "start": 158,
+          "text": "Lyons (trading as Mitty's Authorized Newsagency) v Registrar of Trade Marks"
+        },
+        {
+          "end": 233,
+          "kind": "i",
+          "start": 158,
+          "text": "Lyons (trading as Mitty's Authorized Newsagency) v Registrar of Trade Marks"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -287,6 +307,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/7",
       "content_hash": "sha256:30f2a6cdc7ce17c2af83c167cb4d7fb9a0a552b23f2b2a8c922802f7529ca142",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -344,6 +365,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/3/3/8",
       "content_hash": "sha256:a2b9eb416fedf94abf4a39c29de90d84144edcaab15e32f349c8209cf9662de3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -383,11 +405,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3f401bbd78af7e2a6abd7c265acac1f20f5efeb556a294fb52b2a3ddce691ab5",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "15.3. Circumstances in which the Registrar must extend time",
     "images": [],
     "last_amended": "2022-04-20",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/5#1",
       "content_hash": "sha256:5f938ff3abc5669b98c72ae58ff71408aada02594321664dae70a374e4544c75",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -67,6 +68,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/5/5/1",
       "content_hash": "sha256:32928d8cb21e48d4445a733a7dbc9f183771c72bedfdc3d33059ea0dda111e4c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -124,6 +126,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/5/5/2",
       "content_hash": "sha256:f88c09dfac1573efdd3437af0412fe5906fec0a0221ee35c81e3ee7827fa2837",
+      "emphasis": [
+        {
+          "end": 547,
+          "kind": "i",
+          "start": 539,
+          "text": "ex parte"
+        },
+        {
+          "end": 967,
+          "kind": "strong",
+          "start": 925,
+          "text": "5.3 Where the applicant requests a hearing"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -164,6 +180,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/5/5/4",
       "content_hash": "sha256:cf6f4605cd7a8349a4851e1f81fd19bd44a89babbb320ff983f787ec534e988f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -197,6 +214,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part17/5/5/5",
       "content_hash": "sha256:e7884fbf47d4d3b71963dab9d8ee06844f2045176cd21e30005db07060b370e6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 17 Deferment of Acceptance",
@@ -223,11 +241,37 @@
   ],
   "page": {
     "amendment_note": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package",
+    "amendments": [
+      {
+        "date": "2025-12-22",
+        "reason": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package"
+      },
+      {
+        "date": "2025-12-19",
+        "reason": "Adding ground for deferment for ex parte hearing per TM Regs Amendment package"
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5e847a0fdc4b17cc52d34fd58ba84816db5897d968fd6ff793193cb46aaad8a5",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-12-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "17.5. The deferment process where the Registrar may grant deferment on their own initiative",
     "images": [],
     "last_amended": "2025-12-22",

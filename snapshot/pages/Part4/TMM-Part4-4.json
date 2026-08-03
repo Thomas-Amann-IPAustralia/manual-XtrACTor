@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4#1",
       "content_hash": "sha256:5ce5edbc4e1ff0b8055a9bec85477b92ad3f6d81128dd6eb9362a1d779e344c8",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -57,6 +95,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/1/1",
       "content_hash": "sha256:c0b40522fe6ddc5c4042168a713b95777daf5f5321a4913f3fae80b8029beee3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -96,6 +135,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/1/2",
       "content_hash": "sha256:c2ac7d527a36e0b574dcfca63e452dee5975ef1e804929290079c95a8f98e8a3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -135,6 +175,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/1/3",
       "content_hash": "sha256:eae0bb1dc7adebe6bb80cf20ee4229f841047b239e5adbdb272765f94f7ed7a9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -174,6 +215,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/1/4",
       "content_hash": "sha256:9c7830c375ee60c752637b55bd5a9c6a23348643ec5e3a3700b9f7089edc0be4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -226,6 +268,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/1/5",
       "content_hash": "sha256:f63314ca40e6447d6c616698780180a2cd20eb6d4303d710f1a20fc7204c3bfc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -278,6 +321,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/2/1",
       "content_hash": "sha256:22153fe27d5887a1df0f5b1a43444d9577e2826968a206f18fb2f94410178336",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -317,6 +361,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/2/2",
       "content_hash": "sha256:e2f6910130a8a435b051907160c372c2f4c2caf59b82b9b0e0a34f62185b53b3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -356,6 +401,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/4/4/2/3",
       "content_hash": "sha256:b02b9b101453a5e2b07e651182b19c8fb750f308ca2e9c4d917d417d87eb0b4f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -388,11 +434,29 @@
   ],
   "page": {
     "amendment_note": "Title and Links updated",
+    "amendments": [
+      {
+        "date": "2025-05-14",
+        "reason": "Title and Links updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c9127414d8822ebff944127579c03b0780686e5f8f8067e9b5156428e5a19cc4",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 4.4. Underpayments",
     "images": [],
     "last_amended": "2025-05-14",

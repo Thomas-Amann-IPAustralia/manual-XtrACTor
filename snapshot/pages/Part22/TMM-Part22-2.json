@@ -23,6 +23,32 @@
       ],
       "chunk_ref": "TMM/Part22/2#1",
       "content_hash": "sha256:02834afac7791e3caa1c4b6642be870819de7067fd704d18e482d173536fbc63",
+      "emphasis": [
+        {
+          "end": 132,
+          "kind": "i",
+          "start": 71,
+          "text": "Recommended Changes to the Australian Trade Marks Legislation"
+        },
+        {
+          "end": 132,
+          "kind": "i",
+          "start": 71,
+          "text": "Recommended Changes to the Australian Trade Marks Legislation"
+        },
+        {
+          "end": 457,
+          "kind": "em",
+          "start": 420,
+          "text": "Blount Inc v Registrar of Trade Marks"
+        },
+        {
+          "end": 489,
+          "kind": "em",
+          "start": 483,
+          "text": "Oregon"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -74,6 +100,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/2/2/1",
       "content_hash": "sha256:368d34c1ab1f2d2f03d6f7c71b1e4d0b60a4b51bc502521322d9662e10fe41a0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -144,6 +171,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/2/2/2",
       "content_hash": "sha256:cf54aa1db861c039de165e16afca7be1e08917a9c13e6773b7c1769c3064d004",
+      "emphasis": [
+        {
+          "end": 109,
+          "kind": "i",
+          "start": 46,
+          "text": "Intellectual Property Laws Amendment (Raising the Bar) Act 2012"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -183,11 +218,25 @@
   ],
   "page": {
     "amendment_note": "Formatting changes.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Formatting changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f2562a6e9a6a44bab6f48ca391aae7e2248af0b8b22f29ff756f462d1c08d3e4",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.2. Presumption of registrability",
     "images": [],
     "last_amended": "2022-12-19",

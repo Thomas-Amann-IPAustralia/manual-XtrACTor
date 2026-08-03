@@ -26,6 +26,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part30/x-30.-annex-a5---examples-regarding-geneva-conventions-act-1957-s-151#1~1",
       "content_hash": "sha256:a7be3fab24111834e64e3d6f18337cfcaca1663f952104ac32526e8cb7c8ea3d",
+      "emphasis": [
+        {
+          "end": 32,
+          "kind": "strong",
+          "start": 0,
+          "text": "Table 1. No ground for rejection"
+        },
+        {
+          "end": 93,
+          "kind": "strong",
+          "start": 90,
+          "text": "not"
+        },
+        {
+          "end": 165,
+          "kind": "i",
+          "start": 138,
+          "text": "Geneva Conventions Act 1957"
+        },
+        {
+          "end": 171,
+          "kind": "strong",
+          "start": 167,
+          "text": "Sign"
+        },
+        {
+          "end": 181,
+          "kind": "strong",
+          "start": 172,
+          "text": "Rationale"
+        },
+        {
+          "end": 948,
+          "kind": "strong",
+          "start": 923,
+          "text": "SHELL + DEFENCE + ULTRA +"
+        },
+        {
+          "end": 2026,
+          "kind": "strong",
+          "start": 1985,
+          "text": "Table 2. Ground for rejection appropriate"
+        },
+        {
+          "end": 2125,
+          "kind": "i",
+          "start": 2098,
+          "text": "Geneva Conventions Act 1957"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -141,6 +191,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part30/x-30.-annex-a5---examples-regarding-geneva-conventions-act-1957-s-151#1~2",
       "content_hash": "sha256:f86e6180d6e0a116dd8fdadc3eba9ff11f74e20c83fa9124f316a8b5d92603d1",
+      "emphasis": [
+        {
+          "end": 4,
+          "kind": "strong",
+          "start": 0,
+          "text": "Sign"
+        },
+        {
+          "end": 14,
+          "kind": "strong",
+          "start": 5,
+          "text": "Rationale"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -236,11 +300,21 @@
   ],
   "page": {
     "amendment_note": "Examples updated.",
+    "amendments": [
+      {
+        "date": "2026-04-08",
+        "reason": "Examples updated."
+      },
+      {
+        "date": "2025-12-08",
+        "reason": "No change. Re-publishing due to formatting issue."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d8e6e4835132e8ebb1900d0174e58848a18f50d064a04c49bdcfa102d98a2b1e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-08",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "30. Annex A5 - Examples regarding Geneva Conventions Act 1957 s 15(1)",
     "images": [
       {

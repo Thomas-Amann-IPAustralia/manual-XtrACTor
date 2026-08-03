@@ -70,6 +70,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/x-relevant-legislation21#1",
       "content_hash": "sha256:3a2395e4bd2c23e2516a820ae5f0221d2119c3e366a6d3496e3dbb5f14d1372b",
+      "emphasis": [
+        {
+          "end": 26,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published 17 Jan 2025"
+        },
+        {
+          "end": 81,
+          "kind": "strong",
+          "start": 27,
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -175,11 +189,25 @@
   ],
   "page": {
     "amendment_note": "Rename to Landing page, add published date and Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-17",
+        "reason": "Rename to Landing page, add published date and Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:713e2954eb54c06e3594a94df9d1becc3f3d6f0e71d5ecb33f6e53af0885e084",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10. Landing Page",
     "images": [],
     "last_amended": "2025-01-17",

@@ -38,6 +38,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/6/2/6/1",
       "content_hash": "sha256:996548a5f07808ac8800e4dade300092a171d8d8ffbc21eedbd5820ca3462f79",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 91,
+          "kind": "i",
+          "start": 64,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 91,
+          "kind": "strong",
+          "start": 64,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 254,
+          "kind": "i",
+          "start": 226,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 254,
+          "kind": "strong",
+          "start": 226,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -116,6 +154,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/6/2/6/2",
       "content_hash": "sha256:6ad46b241e1174b59541286123211024678120b5038744f06cd28f5679577800",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -149,6 +188,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/6/2/6/3",
       "content_hash": "sha256:b45621eb97568b6f53d162643b2302a810a2517e2d02edc09526076491a6c811",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -182,6 +222,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/6/2/6/4",
       "content_hash": "sha256:888960445bb2113d9d4883a785511d70b4c5b772fcb857cb3e5613b37046ebfc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -221,11 +262,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:399d447fc9bac8b25714db9692c1d3b3f29e4fd9bb8132e07a331eb395b6b953",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.2.6 Renewal",
     "images": [],
     "last_amended": "2026-04-17",

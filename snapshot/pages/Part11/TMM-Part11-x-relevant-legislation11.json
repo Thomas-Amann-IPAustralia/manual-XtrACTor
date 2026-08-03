@@ -78,6 +78,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/x-relevant-legislation11#1",
       "content_hash": "sha256:79ac0bf68a7c2e00189679033f0f1e68b5f7c3562a8a0ba2e4029eb85760422c",
+      "emphasis": [
+        {
+          "end": 81,
+          "kind": "strong",
+          "start": 27,
+          "text": "Federal Register of Legislation - Trade Marks Act 1995"
+        },
+        {
+          "end": 82,
+          "kind": "strong",
+          "start": 81,
+          "text": ")"
+        },
+        {
+          "end": 566,
+          "kind": "strong",
+          "start": 504,
+          "text": "Federal Register of Legislation - Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -177,11 +197,29 @@
   ],
   "page": {
     "amendment_note": "Rename to Landing Page, add publish date and links.",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Rename to Landing Page, add publish date and links."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed - Links removed"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:1f21435c4fa81b1abe18be6d1d459d88df1e99cc735e5e211302d1d5624d8ba7",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "11. Landing Page",
     "images": [],
     "last_amended": "2025-01-13",

@@ -19,6 +19,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/8#1",
       "content_hash": "sha256:0e68674693b5d6bf366378b11580646b05f1c08d98303d768bc6ffd48716ac2a",
+      "emphasis": [
+        {
+          "end": 74,
+          "kind": "i",
+          "start": 71,
+          "text": "not"
+        },
+        {
+          "end": 74,
+          "kind": "i",
+          "start": 71,
+          "text": "not"
+        },
+        {
+          "end": 1054,
+          "kind": "strong",
+          "start": 927,
+          "text": "the class number(s) listed on the earlier application need not be the same as the numbers listed on the Australian application."
+        },
+        {
+          "end": 1053,
+          "kind": "i",
+          "start": 927,
+          "text": "the class number(s) listed on the earlier application need not be the same as the numbers listed on the Australian application"
+        },
+        {
+          "end": 1053,
+          "kind": "i",
+          "start": 927,
+          "text": "the class number(s) listed on the earlier application need not be the same as the numbers listed on the Australian application"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -51,11 +83,29 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      },
+      {
+        "date": "2021-03-25",
+        "reason": "Number change for new navigation point."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:aaffc85529a65628ca6d64e81f67f8f38cf50ce530c16798d5787704225d4744",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "14.8. International Convention Documents",
     "images": [],
     "last_amended": "2022-04-20",

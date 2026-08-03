@@ -25,6 +25,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/4#1",
       "content_hash": "sha256:897bb1df834cc3d728c5325326a0d9f48335ab93574816972798244d13fc7860",
+      "emphasis": [
+        {
+          "end": 887,
+          "kind": "i",
+          "start": 867,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 887,
+          "kind": "i",
+          "start": 867,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 923,
+          "kind": "i",
+          "start": 895,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 923,
+          "kind": "i",
+          "start": 895,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -70,11 +96,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d415e78df17fd916a836be53e30bdeec0c69705044693dc57d7678ef4da2c3b8",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.4. Circumstances under which registration may be revoked",
     "images": [],
     "last_amended": "2022-04-20",

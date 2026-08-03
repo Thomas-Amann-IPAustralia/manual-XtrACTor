@@ -30,6 +30,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/5#1~1",
       "content_hash": "sha256:47980039d94e993790fca476fdf577b6537d4fb1163ca24d8476cc8c92f38285",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -103,6 +104,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/5#1~2",
       "content_hash": "sha256:29f7b3a770e75b9496c571db1d1e4622e06811cd07660efe34501e9c4fcb2937",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -138,11 +140,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5e8a6d207c56c8b32362dbfa2435687a1d759bec3a9749bf7c0f539badd8f274",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "43.5. Process for assigning only some goods and/or services (partial assignment)",
     "images": [],
     "last_amended": "2022-04-20",

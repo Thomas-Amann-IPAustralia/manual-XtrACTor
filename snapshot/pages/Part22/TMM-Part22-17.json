@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17#1",
       "content_hash": "sha256:607a3c787bf9c13a0bcfe901548cbc19880fd9cb87222a913bdbdbc14c3f6be4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -44,6 +45,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17/17/1",
       "content_hash": "sha256:d3e5eb16a7935d437c05ee456820d40c729936eb09272897e3c42c67f569b1e7",
+      "emphasis": [
+        {
+          "end": 388,
+          "kind": "i",
+          "start": 380,
+          "text": "clothing"
+        },
+        {
+          "end": 388,
+          "kind": "i",
+          "start": 380,
+          "text": "clothing"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -90,6 +105,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17/17/2",
       "content_hash": "sha256:42f3d080fcea17c346db944c3a18e50ff40a24ca8c57401455a86799ad0bd7cb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -154,6 +170,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17/17/3",
       "content_hash": "sha256:d32b9f6ba61c0661778ba34426fe3a3245f0fee84dfafb3379a758734bc78323",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -194,6 +211,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17/17/4",
       "content_hash": "sha256:1202f9e1fe54b478e0481ee92f498623f64d782399d73e2f1b1b96fee42ef7b0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -272,6 +290,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/17/17/5",
       "content_hash": "sha256:00732c03023339907c0a47ad0491c01f82a022b644d553ccb9e56e7d66d48865",
+      "emphasis": [
+        {
+          "end": 223,
+          "kind": "i",
+          "start": 170,
+          "text": "The trade mark consists of the applicant's signature."
+        },
+        {
+          "end": 311,
+          "kind": "i",
+          "start": 286,
+          "text": "not that of the applicant"
+        },
+        {
+          "end": 311,
+          "kind": "i",
+          "start": 286,
+          "text": "not that of the applicant"
+        },
+        {
+          "end": 860,
+          "kind": "i",
+          "start": 768,
+          "text": "The signature in this trade mark is that of <> who has consented to its use as a trade mark."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -317,11 +361,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:45c16d2039b533eac74e1c29310e66f8d0c47016f67b97b647595a70c1484100",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.17. Name of a person",
     "images": [],
     "last_amended": "2022-04-20",

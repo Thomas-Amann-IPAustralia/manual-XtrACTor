@@ -46,6 +46,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part20/x-relevant-legislation28#1",
       "content_hash": "sha256:86ce0e9861e41b2fcfc196e4ed1bbdac03649d505eb9d051a5124ea66fabca02",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 35,
+          "kind": "i",
+          "start": 30,
+          "text": "signs"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 20 Definition of a Trade Mark and Presumption of Registrability",
@@ -166,11 +180,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b4f721fe76cb39f58d2a9e4b04d19e66f9af54f81205ad68f427f669eb221e4e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "20. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

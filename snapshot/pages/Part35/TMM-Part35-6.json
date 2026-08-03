@@ -69,6 +69,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/6#1~1",
       "content_hash": "sha256:55c1fcc35473ce879a7ba7bf09ec60ba9ef6866cf1cbe3f8403785b655c2d3d9",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 705,
+          "kind": "i",
+          "start": 681,
+          "text": "Trade Practices Act 1974"
+        },
+        {
+          "end": 808,
+          "kind": "i",
+          "start": 784,
+          "text": "Trade Practices Act 1974"
+        },
+        {
+          "end": 943,
+          "kind": "i",
+          "start": 919,
+          "text": "Trade Practices Act 1974"
+        },
+        {
+          "end": 968,
+          "kind": "strong",
+          "start": 956,
+          "text": "PLEASE NOTE:"
+        },
+        {
+          "end": 997,
+          "kind": "i",
+          "start": 973,
+          "text": "Trade Practices Act 1974"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -223,6 +279,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/6#1~2",
       "content_hash": "sha256:3cecded9f898bcf6fa81048b718d23fbbbb6e68e93a9c9be3708da938443242e",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -319,11 +376,37 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d62b25137bfec85a37177408efb16d340e0e78edbfd00e10cf1eb1904e62bead",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "35.6. Assessment by the Australian Competition and Consumer Commission",
     "images": [],
     "last_amended": "2026-02-11",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/7#1",
       "content_hash": "sha256:d4a88064b77f1f7b4d9c5a3fd712ba9583dddd29c22274afce66cba8801135d4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -73,6 +74,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/7/7/1",
       "content_hash": "sha256:cc92b0bcc91d75b65191f73a5407324032f64b5ef1ab3f1f6fd0fc3a72470eef",
+      "emphasis": [
+        {
+          "end": 1549,
+          "kind": "i",
+          "start": 1428,
+          "text": "The trade mark is a scent mark. It consists of the smell of roses applied to plastic storage boxes for domestic purposes."
+        },
+        {
+          "end": 1646,
+          "kind": "i",
+          "start": 1550,
+          "text": "The application is a scent mark, consisting of the smell of apple blossoms applied to car tyres."
+        },
+        {
+          "end": 1730,
+          "kind": "i",
+          "start": 1647,
+          "text": "The mark comprises the strong smell of bitter beer applied to the flights of darts."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -119,6 +140,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/7/7/2",
       "content_hash": "sha256:4477c1947e5ea44cdfd829c24dbd540433b60a7c920f27fef2fab2e8389133fb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -176,6 +198,74 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/7/7/2/1~1",
       "content_hash": "sha256:9ab7a4805f920488bf6cff27b8550f6f09a674916486e2021339e614a9744939",
+      "emphasis": [
+        {
+          "end": 26,
+          "kind": "strong",
+          "start": 0,
+          "text": "Natural scent of a product"
+        },
+        {
+          "end": 26,
+          "kind": "i",
+          "start": 0,
+          "text": "Natural scent of a product"
+        },
+        {
+          "end": 26,
+          "kind": "i",
+          "start": 0,
+          "text": "Natural scent of a product"
+        },
+        {
+          "end": 26,
+          "kind": "i",
+          "start": 0,
+          "text": "Natural scent of a product"
+        },
+        {
+          "end": 26,
+          "kind": "i",
+          "start": 0,
+          "text": "Natural scent of a product"
+        },
+        {
+          "end": 644,
+          "kind": "strong",
+          "start": 630,
+          "text": "Masking scents"
+        },
+        {
+          "end": 644,
+          "kind": "i",
+          "start": 630,
+          "text": "Masking scents"
+        },
+        {
+          "end": 1275,
+          "kind": "strong",
+          "start": 1240,
+          "text": "Scents which are common to a trade."
+        },
+        {
+          "end": 1275,
+          "kind": "i",
+          "start": 1240,
+          "text": "Scents which are common to a trade."
+        },
+        {
+          "end": 2215,
+          "kind": "strong",
+          "start": 2170,
+          "text": "Scents which may be capable of distinguishing"
+        },
+        {
+          "end": 2215,
+          "kind": "i",
+          "start": 2170,
+          "text": "Scents which may be capable of distinguishing"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -218,6 +308,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/7/7/2/1~2",
       "content_hash": "sha256:b5a1d7538095b4a0e49534e512513caa2f4128fefae32d6debad3e44e1e9c33d",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -253,11 +344,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9b7092640cb4317eb8b95af3a4a0f56bcec4a6141b4c43c49299c2656ecabb83",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "21.7. Scent trade marks",
     "images": [],
     "last_amended": "2022-04-20",

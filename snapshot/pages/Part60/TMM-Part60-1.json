@@ -14,6 +14,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1#1",
       "content_hash": "sha256:70821996fb9830b335fdb031585707fa08ef90baaf697451bdeea967d0b836ac",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -77,6 +91,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/1",
       "content_hash": "sha256:23918abb0595bb552f8c1f0ae0b3241db50b86e0ba5cbe379b273d53ee20194a",
+      "emphasis": [
+        {
+          "end": 19,
+          "kind": "strong",
+          "start": 4,
+          "text": "Madrid Protocol"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -122,6 +144,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/2",
       "content_hash": "sha256:d4a9ed269a20b457b082dc6e7dca732631a7a5bb2de55ae6f1782cbba94317e7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -168,6 +191,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/3",
       "content_hash": "sha256:5bc5429584894adea28c4a56bfd1e0aa540af735f69419c5ca04c967e526fcae",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -219,6 +243,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/4",
       "content_hash": "sha256:fc239c6ee6ef9b5357364ed9f1d245983ba2444cb9346b180f08d7824513ec80",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -260,6 +285,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/5",
       "content_hash": "sha256:84258d4733e8eced8ecff27d74582ea5088b385bf376b835212a6f67b6776554",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -305,6 +331,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/6",
       "content_hash": "sha256:05696b1fd7556ba6528f043155aa2280a0c49c959fe856815b168395f9ea9e9f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -342,6 +369,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/7",
       "content_hash": "sha256:97e64d3b65d1e0ca80248eb390506cf4955c159dd24386bf501bd8010c6ef6c9",
+      "emphasis": [
+        {
+          "end": 1119,
+          "kind": "i",
+          "start": 1099,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -413,6 +448,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/8",
       "content_hash": "sha256:35b7344cbe60bde2378d81ed783e09e64e2d2619100b98b389ea1f3b7bd648cc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -450,6 +486,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/9",
       "content_hash": "sha256:ac12201fb0d8d12b99b1df48c5fe2bf861775a334a16ff7f72aece794f12d1c2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -483,6 +520,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/1/1/10",
       "content_hash": "sha256:543e9abb675834e46a1a53e24c25ed9c45a5e1945d49d66d1ff7490c1a66589e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -509,11 +547,37 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      },
+      {
+        "date": "2021-11-02",
+        "reason": "Minor typographical and content amendments"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:1ec2e26ef3d5f64c4061e89f8810510399ee28cbc667620a2402a01498107734",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.1. Introduction",
     "images": [],
     "last_amended": "2026-04-17",

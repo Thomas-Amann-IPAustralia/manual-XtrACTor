@@ -50,6 +50,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part34/3#1",
       "content_hash": "sha256:294258e6b383bcd724e4dbc3e0cf9c722a694cc7dd2659c9ce9c6d93038829b4",
+      "emphasis": [
+        {
+          "end": 41,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 41,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 34 Defensive Trade Marks",
@@ -195,11 +209,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:5cfb538fe0f1df629e29dd886cfa7a25d0af1f3f5bd657e1155deef66f66c22d",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "34.3. Section of the Act NOT applying to defensive trade marks",
     "images": [],
     "last_amended": "2022-04-20",

@@ -162,6 +162,12 @@ class PageRecord:
     #: Null on 498 of 500 pages. See `printed_page_ref` for the two it is not,
     #: and why the disagreement is recorded rather than reconciled.
     printed_page_ref: str | None = None
+    #: Every row of the page's Amended Reasons table, newest first, as
+    #: `{"date": ..., "reason": ...}`. `last_amended` and `amendment_note` are
+    #: the date and reason of `amendments[0]` and are kept as fields because
+    #: they are what most consumers want; this is the history they are the head
+    #: of. See `_amendments`.
+    amendments: tuple[dict[str, str | None], ...] = ()
 
 
 def normalise_text(text: str) -> str:
@@ -481,22 +487,42 @@ def _date_published(main: Tag) -> date | None:
     return None
 
 
-def _amendment(main: Tag) -> tuple[date | None, str | None]:
-    """The most recent row of the page's Amended Reasons table.
+def _amendments(main: Tag) -> tuple[dict[str, str | None], ...]:
+    """Every row of the page's Amended Reasons table, newest first.
 
-    Rows are served newest-first, but that is a rendering choice, so the row
-    is chosen by comparing dates rather than by trusting the order. Ties go to
-    the first row in document order, which keeps the output byte-stable.
+    The Manual publishes 2,039 of these rows across its 500 pages, reaching
+    back to 2021 — 493 pages carry more than one, and one carries thirteen.
+    Until `ingest/0.10.0` this function read all of them and returned only the
+    most recent, so three quarters of the publisher's own change log stopped at
+    the parser. That was never argued anywhere; `SOURCE_NOTES.md` §5 calls the
+    table *"as close to a change feed as the Manual has, and the single most
+    useful metadata on the page"* and then says to capture one row of it.
+
+    Keeping all of them is what makes two questions answerable that
+    `last_amended` alone cannot touch: *what did this page look like on a given
+    date*, and *were the last five changes to it substantive or hyperlink
+    maintenance*. It is also the only record of the four years before this
+    repository's first crawl — after that, `git` is the history, but it cannot
+    reach back before it started.
+
+    Rows are served newest-first, but that is a rendering choice, so they are
+    sorted by date rather than trusted. Ties keep document order, which is what
+    makes the array byte-stable: two rows amended on one day have no other key
+    to separate them, and any sort that reordered them would rewrite the file
+    on alternate runs. `sorted` is stable, so enumerating first and sorting on
+    `(-ordinal-in-reverse)` is unnecessary — reversing a stable sort by
+    ascending date would invert ties, so the key negates the date instead.
 
     The reason cell is often empty (SOURCE_NOTES.md §5) and can hold several
-    paragraphs; both are normal, neither is an error.
+    paragraphs; both are normal, neither is an error. An empty one is recorded
+    as `None`, which says the Manual gave no reason — distinct from a reason we
+    failed to read, which raises.
     """
     table = main.select_one(AMENDED_SELECTOR)
     if table is None:
-        return None, None
+        return ()
 
-    best: tuple[date, str | None] | None = None
-    rows = 0
+    found: list[tuple[date, dict[str, str | None]]] = []
     for row in table.select("tbody tr"):
         date_cell = row.select_one(AMENDED_DATE_SELECTOR)
         if date_cell is None:
@@ -504,22 +530,25 @@ def _amendment(main: Tag) -> tuple[date | None, str | None]:
         amended = _parse_time(date_cell.find("time"), "Amended Reasons")
         if amended is None:
             continue
-        rows += 1
 
         reason_cell = row.select_one(AMENDED_REASON_SELECTOR)
         reason = normalise_text(reason_cell.get_text(" ")) if reason_cell else ""
+        found.append(
+            (amended, {"date": amended.isoformat(), "reason": reason or None})
+        )
 
-        if best is None or amended > best[0]:
-            best = (amended, reason or None)
-
-    if rows == 0:
+    if not found:
         raise UnrecognisedMarkup(
             "an Amended Reasons block is present but no dated rows could be "
             "read from it"
         )
 
-    assert best is not None
-    return best
+    # Newest first, ties in document order. `sorted` is stable, so a key of
+    # `-date` preserves the order of same-day rows where `reverse=True` would
+    # flip them.
+    return tuple(
+        record for _, record in sorted(found, key=lambda pair: -pair[0].toordinal())
+    )
 
 
 def _assert_is_the_expected_page(soup: BeautifulSoup, nav: NavPage) -> None:
@@ -643,7 +672,13 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
     h1 = normalise_text(title.get_text(" ")) if title else None
 
     date_published = _date_published(main)
-    last_amended, amendment_note = _amendment(main)
+    amendments = _amendments(main)
+    # The head of the history, not a second reading of the table. Deriving them
+    # here rather than parsing twice is what stops `last_amended` and
+    # `amendments[0]["date"]` ever disagreeing — the failure mode SCHEMA.md
+    # §What is deliberately absent warns about for any stored derivation.
+    last_amended = date.fromisoformat(amendments[0]["date"]) if amendments else None
+    amendment_note = amendments[0]["reason"] if amendments else None
 
     body: Tag | None = None
     for selector in BODY_SELECTORS:
@@ -685,5 +720,6 @@ def parse_page(html: str, nav: NavPage) -> tuple[PageRecord, Tag]:
         archived=archived,
         images=extract_images(body),
         printed_page_ref=printed_page_ref(h1, nav),
+        amendments=amendments,
     )
     return record, body

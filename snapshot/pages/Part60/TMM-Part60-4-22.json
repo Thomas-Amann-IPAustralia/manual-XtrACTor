@@ -30,6 +30,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/22/4/22/1",
       "content_hash": "sha256:53ca4bc358b5d998578050a5362382334aec220463d82f89c547df1518d6a4c7",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 91,
+          "kind": "i",
+          "start": 64,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 91,
+          "kind": "strong",
+          "start": 64,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 182,
+          "kind": "i",
+          "start": 155,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 182,
+          "kind": "strong",
+          "start": 155,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -100,6 +138,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/22/4/22/2",
       "content_hash": "sha256:e95a89bd5dd9a0f93da417f0d158dcf97bd41bf9c96a2218405cac5384eac574",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -152,6 +191,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/22/4/22/3",
       "content_hash": "sha256:300a25aff0902cd0e44ba24487a80ebfea33c8ea8767674f87e81119d039da35",
+      "emphasis": [
+        {
+          "end": 188,
+          "kind": "i",
+          "start": 187,
+          "text": "."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -196,6 +243,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/22/4/22/4",
       "content_hash": "sha256:1a09a6a987404d5fec28427c414750d80f6bbc848ca053a5c47dd7e4befd319b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -222,11 +270,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:dbc26c93fb9b0ce3bc29239e27e2105413906433546d54584c497445b95930ed",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.22 Renewal",
     "images": [],
     "last_amended": "2026-04-17",

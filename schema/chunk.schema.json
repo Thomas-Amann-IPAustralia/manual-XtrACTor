@@ -241,6 +241,37 @@
       }
     },
 
+    "emphasis": {
+      "type": "array",
+      "description": "Every italic, bold, underlined and superscript stretch of this chunk, in document order, with the offsets into 'text' where the Manual set it. The same field 'provision.units[].emphasis' has always carried on the legislation side, and the same argument 'links' makes: flattening to text is the correct verbatim reading of the words and destroys what the markup asserted around them. 437 of the corpus's 522 case-citation positions are immediately preceded by an italic run holding the decision's party names — against the 18 an anchor can supply — and 695 more italics are instrument titles. Nothing here says a span is a case name or a title: that a name sits beside a citation is an adjacency a consumer can walk, and asserting the two belong together is a merge, which belongs downstream. Not deduplicated and not sorted: document order is the Manual's own order, and two spans of the same words are two spans. One record per element and never a merged weight — HTML nests where Word does not, so 1,271 spans are co-extensive with another ('<u><i>Trade Marks Act 1995</i></u>'), and collapsing them into a synthetic 'bold-italic' would invent something the source does not have.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text", "start", "end"],
+        "properties": {
+          "kind": {
+            "enum": ["b", "em", "i", "strong", "sup", "u"],
+            "description": "The element, verbatim. The Manual's own choice between '<i>' and '<em>', or '<b>' and '<strong>', is not normalised: it is a fact about the markup, and the pipeline has nowhere to put the claim that the two mean the same thing. 'sup' is a footnote marker — SOURCE_NOTES.md §26 establishes that a superscript is never a heading number, a fact the chunker has always acted on and never recorded."
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The element's own words, and equal to text[start:end]. Empty spans are dropped, unlike in 'links': an anchor with no words still records a place the Manual put a link, while an '<i>' around nothing asserts nothing about any words."
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Offset into 'text' where the emphasised words begin. Checked corpus-wide by the validator, not in a test alone: an offset drifted by one emphasises the wrong words while staying well-formed."
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Offset into 'text' just past the emphasised words."
+          }
+        }
+      }
+    },
+
     "tables": {
       "type": "array",
       "description": "The grid of every table in this chunk, in document order. 'text' renders a table as a run of cell text — the correct verbatim reading, and no use to anything that needs to know which cell sat under which column. Empty on the great majority of chunks.",

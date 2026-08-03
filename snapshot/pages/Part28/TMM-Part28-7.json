@@ -35,6 +35,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part28/7#1",
       "content_hash": "sha256:ca4545c5ad5b293312dddbb5f4f8419c808cc3ac74bda104b6f5b7f75de0086a",
+      "emphasis": [
+        {
+          "end": 1225,
+          "kind": "strong",
+          "start": 1221,
+          "text": "Note"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 28 Honest Concurrent Use, Prior Use or Other Circumstances",
@@ -67,11 +75,33 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Reference to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9ddfaabae9fd59eaa56a40fd1dda1d785d1405ce448aeee91b609aa353400117",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "28.7. Examining evidence of prior use",
     "images": [],
     "last_amended": "2023-10-10",

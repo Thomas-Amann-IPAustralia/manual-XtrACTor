@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/1",
       "content_hash": "sha256:16067382c4e64e749e2cc81589e220e2e6177a2c5b7989ba9faef077b96a4cc5",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -71,6 +72,26 @@
       ],
       "chunk_ref": "TMM/Part22/8/8/2",
       "content_hash": "sha256:057f200d26e3c58da76cdcc0dd9a38180bf7c9e64c8db91252397d3ffd12cb11",
+      "emphasis": [
+        {
+          "end": 140,
+          "kind": "strong",
+          "start": 113,
+          "text": "no descriptive significance"
+        },
+        {
+          "end": 1130,
+          "kind": "i",
+          "start": 1115,
+          "text": "I.Q. trade mark"
+        },
+        {
+          "end": 1130,
+          "kind": "i",
+          "start": 1115,
+          "text": "I.Q. trade mark"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -104,6 +125,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/3",
       "content_hash": "sha256:ee843eabdfc93538c265d6aa7c076eefb7fbbe2ad163a22ae25b579db4c177f6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -137,6 +159,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/4",
       "content_hash": "sha256:c7e9a46f213be5bceac1dc58c9803b1bc8fb581a6b28a7c71b7456e878c6e977",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -189,6 +212,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/5",
       "content_hash": "sha256:778b65bb5f01fcba8a64be9e3e05650f148da07cd9d787926492e707ae8d4629",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -249,6 +273,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/5/1",
       "content_hash": "sha256:1d0ca984f70e8f1f2cf8f7afea5c49ce03b0a429ef6b1590263e5b333dda94ee",
+      "emphasis": [
+        {
+          "end": 423,
+          "kind": "em",
+          "start": 414,
+          "text": "Diamond T"
+        },
+        {
+          "end": 1081,
+          "kind": "i",
+          "start": 1063,
+          "text": "known abbreviation"
+        },
+        {
+          "end": 1081,
+          "kind": "i",
+          "start": 1063,
+          "text": "known abbreviation"
+        },
+        {
+          "end": 1225,
+          "kind": "i",
+          "start": 1201,
+          "text": "risk evaluation services"
+        },
+        {
+          "end": 1225,
+          "kind": "i",
+          "start": 1201,
+          "text": "risk evaluation services"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -295,6 +351,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/6",
       "content_hash": "sha256:85c77e3248064b2577535bf6817edd86d00e8dd6459756a6cea7f7a819a3b46d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -333,6 +390,50 @@
       ],
       "chunk_ref": "TMM/Part22/8/8/7",
       "content_hash": "sha256:804412d842e0fb3d919edf15ec223e29db585ba6ba9f3bd747573bee04343c8b",
+      "emphasis": [
+        {
+          "end": 311,
+          "kind": "i",
+          "start": 309,
+          "text": "Re"
+        },
+        {
+          "end": 311,
+          "kind": "i",
+          "start": 309,
+          "text": "Re"
+        },
+        {
+          "end": 370,
+          "kind": "em",
+          "start": 312,
+          "text": "Appn by Waterbed Association of Retailers and Manufacturer"
+        },
+        {
+          "end": 371,
+          "kind": "i",
+          "start": 370,
+          "text": "s"
+        },
+        {
+          "end": 371,
+          "kind": "i",
+          "start": 370,
+          "text": "s"
+        },
+        {
+          "end": 400,
+          "kind": "i",
+          "start": 392,
+          "text": "W.A.R.M."
+        },
+        {
+          "end": 400,
+          "kind": "i",
+          "start": 392,
+          "text": "W.A.R.M."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -370,6 +471,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/8/8/8",
       "content_hash": "sha256:0ca771e9638671e2f8a06311ae39a00e0eb4fac508156914eb16119ac45210b4",
+      "emphasis": [
+        {
+          "end": 683,
+          "kind": "em",
+          "start": 674,
+          "text": "Diamond T"
+        },
+        {
+          "end": 684,
+          "kind": "i",
+          "start": 683,
+          "text": "."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -396,11 +511,33 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-12-19",
+        "reason": "Minor update"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ae545949eac8ddcd1e493b7ff1623588aef3ad83ac46f9b95a61d1082019f325",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22.8. Letters",
     "images": [
       {

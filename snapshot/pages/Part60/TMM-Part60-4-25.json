@@ -34,6 +34,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/1",
       "content_hash": "sha256:71f6638c2f62a958790d9c0f0e7fa38ad6c7ddccbe9b9736c35aaf9ffddae8da",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 35,
+          "kind": "sup",
+          "start": 26,
+          "text": "quinquies"
+        },
+        {
+          "end": 174,
+          "kind": "i",
+          "start": 147,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 174,
+          "kind": "strong",
+          "start": 147,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 325,
+          "kind": "i",
+          "start": 297,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 325,
+          "kind": "strong",
+          "start": 297,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -149,6 +193,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/2",
       "content_hash": "sha256:a2a9500f7a9a1e7ac886a7f21d6f126431ad1e766907398fdfa8896fa2e141e5",
+      "emphasis": [
+        {
+          "end": 1098,
+          "kind": "strong",
+          "start": 1086,
+          "text": "three months"
+        },
+        {
+          "end": 1514,
+          "kind": "strong",
+          "start": 1511,
+          "text": "Fee"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -186,6 +244,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/3",
       "content_hash": "sha256:7b8f03e2ceaa2047cb58a6c677575c8059048509c26517880173f3b3b9700892",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -285,6 +344,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/3/1",
       "content_hash": "sha256:1bf6490de94b3db874997303e0bf4b8bc8721aa2f50c64bf5724980e9f746fd4",
+      "emphasis": [
+        {
+          "end": 962,
+          "kind": "i",
+          "start": 925,
+          "text": "Original Australian trade mark number"
+        },
+        {
+          "end": 1036,
+          "kind": "i",
+          "start": 1030,
+          "text": "123456"
+        },
+        {
+          "end": 1103,
+          "kind": "i",
+          "start": 1081,
+          "text": "date of transformation"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -390,6 +469,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/3/2",
       "content_hash": "sha256:1198cd1efb896d08f3477ad46698df497843b99fc277f8a8c6917f91f60b1eef",
+      "emphasis": [
+        {
+          "end": 1129,
+          "kind": "i",
+          "start": 1098,
+          "text": "< Australian trade mark number>"
+        },
+        {
+          "end": 1193,
+          "kind": "i",
+          "start": 1185,
+          "text": "<123456>"
+        },
+        {
+          "end": 1261,
+          "kind": "i",
+          "start": 1236,
+          "text": "<date of transformation>."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -447,6 +546,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/25/4/25/4",
       "content_hash": "sha256:d3038056bc7f77f4300e005976c355dbec4af5f5c8dfd8f8f86325384df1eb03",
+      "emphasis": [
+        {
+          "end": 322,
+          "kind": "strong",
+          "start": 286,
+          "text": "4.24.5 No Request for Transformation"
+        },
+        {
+          "end": 658,
+          "kind": "strong",
+          "start": 604,
+          "text": "Partial cancellation of the International Registration"
+        },
+        {
+          "end": 859,
+          "kind": "strong",
+          "start": 808,
+          "text": "Full cancellation of the International Registration"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -473,11 +592,37 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:89c447fcb287c547b0312318a80338c51a79e1796bd655d52bbdb3f6ae4e764b",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.25 Transformation",
     "images": [],
     "last_amended": "2026-04-17",

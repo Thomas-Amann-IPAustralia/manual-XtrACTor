@@ -30,6 +30,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/2#1",
       "content_hash": "sha256:e2152e752244553be62d9b762d360aa69c17d9f800ba7678aabfea05036fccfe",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -95,6 +96,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/2/2/1",
       "content_hash": "sha256:85fa55a6905f52e6ad7803d75380017d90e193a9f20a4f1e37f1b583f8495f93",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -145,6 +147,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/2/2/2",
       "content_hash": "sha256:3eb2ff5fb0b8124928dce616029e685071ce5305d84828eae0c61e8928c05ac8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -186,6 +189,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/2/2/3",
       "content_hash": "sha256:d6e9b46c30508c9c6358d57e2761fa6c37a8e2ed93e1a039585d061ccd2a418b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -212,11 +216,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:429dae73211f3e625414069b4314841b92295bb23ad0d7626dc89fa7a26332fb",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "21.2. Representing non-traditional signs",
     "images": [],
     "last_amended": "2022-04-20",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/7#1",
       "content_hash": "sha256:0244807473eee77ad2a7b0c93b56833dd82458202475f1c0f12ccad5f1ca0ec6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -43,11 +44,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f6907e37ceb485a70ef6d40b9d00b0ec4c917db4156334f91e40e4d2f0a70506",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.7. Extension of time",
     "images": [],
     "last_amended": "2022-04-20",

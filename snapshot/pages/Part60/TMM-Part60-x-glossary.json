@@ -54,6 +54,80 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/x-glossary#1",
       "content_hash": "sha256:fd8dd8c59098281decc20b1ca00f5cae240f20ea418bfa4620ba0822d18eeb71",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 78,
+          "kind": "strong",
+          "start": 62,
+          "text": "Basic trade mark"
+        },
+        {
+          "end": 253,
+          "kind": "strong",
+          "start": 236,
+          "text": "Contracting Party"
+        },
+        {
+          "end": 361,
+          "kind": "strong",
+          "start": 343,
+          "text": "Designated country"
+        },
+        {
+          "end": 500,
+          "kind": "strong",
+          "start": 494,
+          "text": "Holder"
+        },
+        {
+          "end": 549,
+          "kind": "strong",
+          "start": 547,
+          "text": "IB"
+        },
+        {
+          "end": 586,
+          "kind": "strong",
+          "start": 582,
+          "text": "IRDA"
+        },
+        {
+          "end": 658,
+          "kind": "strong",
+          "start": 642,
+          "text": "Office of origin"
+        },
+        {
+          "end": 821,
+          "kind": "strong",
+          "start": 787,
+          "text": "Protected International Trade Mark"
+        },
+        {
+          "end": 987,
+          "kind": "strong",
+          "start": 965,
+          "text": "Subsequent Designation"
+        },
+        {
+          "end": 1138,
+          "kind": "strong",
+          "start": 1134,
+          "text": "WIPO"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -86,11 +160,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:893cd8939eac9af8e4df9552693600b8141797763aaab8d0195c5a8f87f05666",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60. Glossary",
     "images": [],
     "last_amended": "2026-04-17",

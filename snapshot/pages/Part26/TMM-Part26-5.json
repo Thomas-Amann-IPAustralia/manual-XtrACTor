@@ -10,6 +10,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/5#1",
       "content_hash": "sha256:2479f6d3af424c9cd04d60e97ba72996f6acec7fe123b6faa6f505516a2460e8",
+      "emphasis": [
+        {
+          "end": 143,
+          "kind": "i",
+          "start": 120,
+          "text": "substantially identical"
+        },
+        {
+          "end": 168,
+          "kind": "i",
+          "start": 149,
+          "text": "deceptively similar"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -92,6 +106,44 @@
       ],
       "chunk_ref": "TMM/Part26/5/5/1~1",
       "content_hash": "sha256:fd7e5978bdb5a3909402cf032e9ccec38ab9c438b2af49283da7bd8b7e3af7fd",
+      "emphasis": [
+        {
+          "end": 122,
+          "kind": "strong",
+          "start": 99,
+          "text": "substantially identical"
+        },
+        {
+          "end": 163,
+          "kind": "strong",
+          "start": 144,
+          "text": "deceptively similar"
+        },
+        {
+          "end": 469,
+          "kind": "i",
+          "start": 418,
+          "text": "Shell Co. (Aust) Ltd v Esso Standard Oil (Aust) Ltd"
+        },
+        {
+          "end": 1553,
+          "kind": "i",
+          "start": 1530,
+          "text": "substantially identical"
+        },
+        {
+          "end": 1553,
+          "kind": "strong",
+          "start": 1530,
+          "text": "substantially identical"
+        },
+        {
+          "end": 2040,
+          "kind": "i",
+          "start": 1986,
+          "text": "Pham Global Pty Ltd v Insight Clinical Imaging Pty Ltd"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -154,6 +206,38 @@
       ],
       "chunk_ref": "TMM/Part26/5/5/1~2",
       "content_hash": "sha256:c7f527867694cd63538900064bf217d5d97b11a2edeccd74517b32e787346239",
+      "emphasis": [
+        {
+          "end": 396,
+          "kind": "i",
+          "start": 330,
+          "text": "The Shell Co. of Australia Ltd v Esso Standard Oil (Australia) Ltd"
+        },
+        {
+          "end": 910,
+          "kind": "i",
+          "start": 891,
+          "text": "deceptively similar"
+        },
+        {
+          "end": 910,
+          "kind": "strong",
+          "start": 891,
+          "text": "deceptively similar"
+        },
+        {
+          "end": 1051,
+          "kind": "i",
+          "start": 1041,
+          "text": "impression"
+        },
+        {
+          "end": 1051,
+          "kind": "strong",
+          "start": 1041,
+          "text": "impression"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -183,11 +267,29 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2024-05-23",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-04-21",
+        "reason": "Minor formatting change"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:692756147da1cca32d762bdf8b6bcc0a25458f78df0d28baa1b0f33cda44d9ad",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "26.5. Similarity of trade marks",
     "images": [],
     "last_amended": "2024-05-23",

@@ -61,6 +61,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/2/1#1",
       "content_hash": "sha256:f9b043c1c73b6c46bfe36ddffed5a70476209fae52a658f73ef4cd4e24208c85",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 55,
+          "kind": "i",
+          "start": 27,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 88,
+          "kind": "strong",
+          "start": 62,
+          "text": "International applications"
+        },
+        {
+          "end": 581,
+          "kind": "strong",
+          "start": 574,
+          "text": "Firstly"
+        },
+        {
+          "end": 615,
+          "kind": "strong",
+          "start": 611,
+          "text": "must"
+        },
+        {
+          "end": 759,
+          "kind": "strong",
+          "start": 751,
+          "text": "Secondly"
+        },
+        {
+          "end": 793,
+          "kind": "strong",
+          "start": 789,
+          "text": "must"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -117,11 +161,33 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Reference to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:744d7db90ee1a29161a879a3baa570db15644a293f38801eb0c01727708b3110",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.2.1 General Description",
     "images": [],
     "last_amended": "2026-04-17",

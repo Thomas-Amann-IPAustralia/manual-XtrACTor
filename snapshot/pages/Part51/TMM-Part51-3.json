@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/3#1",
       "content_hash": "sha256:210fd89a68a39ed6a507a4c9eb14c1612a1bc6b4a13f6991d446b8a0fe847081",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -65,6 +103,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/1",
       "content_hash": "sha256:a34387d5b81acb259ecfdbafddf6c743187ed40d4cb6809eb27a8d143fa9a921",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -165,6 +204,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/2",
       "content_hash": "sha256:b5cbcc4bbde5a979b3cd1db03da5c40e3def36bbaf5539bbce9cde3d61fd2e97",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -279,6 +319,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/3/3/3",
       "content_hash": "sha256:2439354c681665c65424e1578bccb9b14e465dd2e3c3f64b1fdee5a689b83721",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -354,11 +395,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:bdee0ff0acc0e8e25c4014094f74a5c646235ac8a17206ba29a3d5f0fb13d4ce",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 51.3. Cooling-Off Period",
     "images": [],
     "last_amended": "2025-04-01",

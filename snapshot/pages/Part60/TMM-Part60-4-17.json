@@ -102,6 +102,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/17/4/17/1",
       "content_hash": "sha256:6cdfcaac258ef7f5909761f8261d71bba1b212a921aacdfb91db24897433f4a7",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 161,
+          "kind": "i",
+          "start": 134,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 161,
+          "kind": "strong",
+          "start": 134,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 466,
+          "kind": "i",
+          "start": 446,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 466,
+          "kind": "strong",
+          "start": 446,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 627,
+          "kind": "i",
+          "start": 599,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 627,
+          "kind": "strong",
+          "start": 599,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 768,
+          "kind": "i",
+          "start": 716,
+          "text": "Trade Marks Office Manual of Practice and Procedure:"
+        },
+        {
+          "end": 768,
+          "kind": "strong",
+          "start": 716,
+          "text": "Trade Marks Office Manual of Practice and Procedure:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -407,6 +469,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/17/4/17/2~1",
       "content_hash": "sha256:39e66dcbf82d66d08971e54df822f425e0d47bff812869429e97e31ab9036252",
+      "emphasis": [
+        {
+          "end": 1041,
+          "kind": "strong",
+          "start": 1012,
+          "text": "notice of intention to defend"
+        },
+        {
+          "end": 1126,
+          "kind": "strong",
+          "start": 1117,
+          "text": "one month"
+        },
+        {
+          "end": 1483,
+          "kind": "i",
+          "start": 1481,
+          "text": "IF"
+        },
+        {
+          "end": 1514,
+          "kind": "i",
+          "start": 1508,
+          "text": "before"
+        },
+        {
+          "end": 1605,
+          "kind": "i",
+          "start": 1600,
+          "text": "after"
+        },
+        {
+          "end": 1648,
+          "kind": "i",
+          "start": 1645,
+          "text": "AND"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 1
@@ -506,6 +606,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/17/4/17/2~2",
       "content_hash": "sha256:681326c5b886f57abbad8ea0908be029fd73ae3ddb1753a4f5a70da40b049eca",
+      "emphasis": [],
       "fragment": {
         "count": 3,
         "index": 2
@@ -618,6 +719,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/17/4/17/2~3",
       "content_hash": "sha256:f903f5e9794b820c18617e699a39b9be52028162ae7b95a50e618b39b70650b1",
+      "emphasis": [
+        {
+          "end": 576,
+          "kind": "strong",
+          "start": 547,
+          "text": "notice of intention to defend"
+        },
+        {
+          "end": 766,
+          "kind": "strong",
+          "start": 704,
+          "text": "together with an Australian or New Zealand address for service"
+        },
+        {
+          "end": 869,
+          "kind": "strong",
+          "start": 796,
+          "text": "take the opposition to have succeeded and refuse protection to the holder"
+        }
+      ],
       "fragment": {
         "count": 3,
         "index": 3
@@ -718,6 +839,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/17/4/17/3",
       "content_hash": "sha256:9f0f227b762a03873f22181c539be43407b1f4bc18217637a243b803e7b06ac2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -757,11 +879,37 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:767bbc2daf5dcc8ed7d4d962f18e84a3cf529a76c3167b4a5432537d06fb429e",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.17 Opposition to Protection",
     "images": [],
     "last_amended": "2026-04-17",

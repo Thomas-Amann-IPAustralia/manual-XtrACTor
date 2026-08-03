@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/8#1",
       "content_hash": "sha256:ad90c77f0c675729513ba3745bce375c49678218d81ebfd400b070804e511cc0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -44,6 +45,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/8/8/1",
       "content_hash": "sha256:a6ef15862d3e6c7990302a8a5d49fdf71c8da36db1fd2b8279d3fa1954f16af2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -77,6 +79,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part26/8/8/2",
       "content_hash": "sha256:d19d38732b579e97392e879ee35dc9890e1801ec113d65a7b6eb62a3fe968c30",
+      "emphasis": [
+        {
+          "end": 456,
+          "kind": "i",
+          "start": 453,
+          "text": "not"
+        },
+        {
+          "end": 456,
+          "kind": "strong",
+          "start": 453,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -110,11 +126,25 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2024-05-23",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d6d2e194653978ecf6ba91bb5e1b16d4d1706b59fae686a2d6f27226648196eb",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "26.8. Assignment of applications and registrations",
     "images": [],
     "last_amended": "2024-05-23",

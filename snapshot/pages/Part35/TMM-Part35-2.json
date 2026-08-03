@@ -28,6 +28,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/2#1",
       "content_hash": "sha256:fc86714a4c11d7959e30f938e4a1a7026d9d6d8e2a4a877106ad438a2c19d682",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 385,
+          "kind": "i",
+          "start": 362,
+          "text": "Wine Australia Act 2013"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -111,6 +143,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/2/2/1",
       "content_hash": "sha256:7f3fb817063f353ae861aa2ee103a693ac2227d1ce3fd7f440e7d10190e94ff2",
+      "emphasis": [
+        {
+          "end": 293,
+          "kind": "i",
+          "start": 59,
+          "text": "a sign that identifies the goods as originating in a country, or in a region or locality in that country, where a given quality, reputation or other characteristic of the goods is essentially attributable to their geographical origin."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -155,6 +195,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/2/2/2",
       "content_hash": "sha256:a986f32e9479a2ca02d4ae568407344a636d12cbdf3d728ed7308958c2c0acea",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 35 Certification Trade Marks",
@@ -181,11 +222,25 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f32b8e8b90adb3faf7b20cf229822144c07c050be2e0850915b8970b43b87f90",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "35.2. Certification trade marks and geographical indications (GIs)",
     "images": [],
     "last_amended": "2026-02-11",

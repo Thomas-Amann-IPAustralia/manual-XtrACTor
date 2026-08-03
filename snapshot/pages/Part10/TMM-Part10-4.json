@@ -34,6 +34,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/4#1",
       "content_hash": "sha256:a688820c5ebb52494a1b129aa43e0d8e22809b3fbfbf4a09661a632238a5c668",
+      "emphasis": [
+        {
+          "end": 342,
+          "kind": "strong",
+          "start": 305,
+          "text": "if required to do so by the Registrar"
+        },
+        {
+          "end": 810,
+          "kind": "strong",
+          "start": 798,
+          "text": "must provide"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -85,6 +99,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/4/4/1",
       "content_hash": "sha256:e25d529a3fc2c729efecfe11936def0a99042c9976cc17165e3bfbc2a738cb41",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -138,6 +153,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/4/4/1/1",
       "content_hash": "sha256:ff837de1397b0adc0a40de319f23e5b99c89958b405586f1e578979d920137cc",
+      "emphasis": [
+        {
+          "end": 455,
+          "kind": "i",
+          "start": 297,
+          "text": "The applicant has advised that the <language> word/s <WORDS IN FOREIGN LANGUAGE> appearing in the trade mark may be translated into English as <TRANSLATION> ."
+        },
+        {
+          "end": 342,
+          "kind": "u",
+          "start": 332,
+          "text": "<language>"
+        },
+        {
+          "end": 377,
+          "kind": "u",
+          "start": 350,
+          "text": "<WORDS IN FOREIGN LANGUAGE>"
+        },
+        {
+          "end": 453,
+          "kind": "u",
+          "start": 440,
+          "text": "<TRANSLATION>"
+        },
+        {
+          "end": 601,
+          "kind": "i",
+          "start": 469,
+          "text": "The applicant has advised that the German word UNVERSCHÄMT appearing in the trade mark may be translated into English as OUTRAGEOUS."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -209,6 +256,68 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/4/4/1/2",
       "content_hash": "sha256:c8dcdb1bac8b3c6b100098f4459c7caaa045fab402fab1f4a8158a4d8ec3a235",
+      "emphasis": [
+        {
+          "end": 551,
+          "kind": "i",
+          "start": 346,
+          "text": "The applicant has advised that the <language> characters <characters in non-Roman text> appearing in the trade mark may be transliterated as <TRANSLITERATION> and translated into English as <TRANSLATION> ."
+        },
+        {
+          "end": 391,
+          "kind": "u",
+          "start": 381,
+          "text": "<language>"
+        },
+        {
+          "end": 433,
+          "kind": "u",
+          "start": 403,
+          "text": "<characters in non-Roman text>"
+        },
+        {
+          "end": 504,
+          "kind": "u",
+          "start": 487,
+          "text": "<TRANSLITERATION>"
+        },
+        {
+          "end": 549,
+          "kind": "u",
+          "start": 536,
+          "text": "<TRANSLATION>"
+        },
+        {
+          "end": 722,
+          "kind": "i",
+          "start": 565,
+          "text": "The applicant has advised that the Chinese characters 中国 appearing in the trade mark may be transliterated as ZHONG GUO and translated into English as CHINA."
+        },
+        {
+          "end": 1057,
+          "kind": "i",
+          "start": 863,
+          "text": "The applicant has advised that the <language> characters <characters in non-roman text> appearing in the trade mark may be transliterated as <TRANSLITERATION> and there is no meaning in English."
+        },
+        {
+          "end": 908,
+          "kind": "u",
+          "start": 898,
+          "text": "<language>"
+        },
+        {
+          "end": 950,
+          "kind": "u",
+          "start": 920,
+          "text": "<characters in non-roman text>"
+        },
+        {
+          "end": 1021,
+          "kind": "u",
+          "start": 1004,
+          "text": "<TRANSLITERATION>"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -256,6 +365,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/4/4/1/3",
       "content_hash": "sha256:d8a18d2468c94ef5ae5ad2711912afa47f281c83fe3f8a004a53627ce1d76cca",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -288,11 +398,37 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-21",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2023-02-07",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2023-02-07",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2023-02-06",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:92d73013ffaf8a2fbb0c715a87775560013af67305d00fbedde5f9cc6cdd1c7a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-21",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10.4. Translation/transliteration of non-English words and non-Roman characters",
     "images": [],
     "last_amended": "2025-01-21",

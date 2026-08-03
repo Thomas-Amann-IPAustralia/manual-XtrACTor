@@ -43,6 +43,50 @@
       ],
       "chunk_ref": "TMM/Part24/4#1",
       "content_hash": "sha256:71de743d806b9dd1ecb7a291fd712290507edf58a79a2281d05b527e4ffee7e6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 1015,
+          "kind": "i",
+          "start": 942,
+          "text": "Phone Directories Company Australia Pty Ltd v Telstra Corporation Limited"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 24 Disclaimers",
@@ -88,11 +132,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-20",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2023-10-10",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:a9bbadf670f6cf39282ba8cf7cb69fd33d408c5e14a1170e0bc527083b7b3783",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 24.4. Effect of a disclaimer on examination",
     "images": [],
     "last_amended": "2025-02-20",

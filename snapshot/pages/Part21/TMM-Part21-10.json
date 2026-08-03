@@ -26,6 +26,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/10#1~1",
       "content_hash": "sha256:b34a13503959ee3063d026341ee89cb92d5c67a5ae9a31340acda0e8d8c5acbd",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -63,6 +64,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/10#1~2",
       "content_hash": "sha256:dd6a48ac9382be7db606ddc5bb84de43051ff1b9a48a70b42948fde289baa399",
+      "emphasis": [
+        {
+          "end": 108,
+          "kind": "i",
+          "start": 90,
+          "text": "In re N.V. Organon"
+        },
+        {
+          "end": 108,
+          "kind": "i",
+          "start": 90,
+          "text": "In re N.V. Organon"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -85,11 +100,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2e3006097f29ce95559f8e978f5d5402d20acaa1eede2c18515c6e4cf32edf4d",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "21.10. Other kinds of non-traditional signs",
     "images": [],
     "last_amended": "2022-04-20",

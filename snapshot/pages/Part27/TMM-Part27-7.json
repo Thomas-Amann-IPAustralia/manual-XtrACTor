@@ -23,6 +23,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/7#1",
       "content_hash": "sha256:9948eeb3b627d00c3d8fbf062ab972e50f1bb0d705bd2f09e767d21fb02fbab7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -91,11 +92,33 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      },
+      {
+        "date": "2021-06-16",
+        "reason": "Fixing of broken link to Part 12"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:79a11b9c274bdbd324744afc6f58abf27660729b357b1e09af46b7e86b6eb213",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "27.7. Dividing the application",
     "images": [],
     "last_amended": "2023-10-10",

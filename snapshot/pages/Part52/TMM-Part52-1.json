@@ -30,6 +30,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/1#1~1",
       "content_hash": "sha256:f2b22d48cf5695afb6d756fa140a8e316154f0953c2a55f07123ba2439f985d4",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 684,
+          "kind": "i",
+          "start": 665,
+          "text": "Federal Court Rules"
+        },
+        {
+          "end": 1828,
+          "kind": "sup",
+          "start": 1827,
+          "text": "1"
+        },
+        {
+          "end": 1828,
+          "kind": "u",
+          "start": 1827,
+          "text": "1"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -103,6 +159,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/1#1~2",
       "content_hash": "sha256:723ee051e2a60bb61a0318cfc85969b781e67761c44ce860393db228c2d7dfec",
+      "emphasis": [
+        {
+          "end": 1,
+          "kind": "sup",
+          "start": 0,
+          "text": "1"
+        },
+        {
+          "end": 414,
+          "kind": "i",
+          "start": 401,
+          "text": "of a delegate"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -132,11 +202,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d312e073b5a0f170f65ed75d13d2b58e4d29b6abb020d5fb1d4ff2664edd8e29",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 52.1. What is a decision?",
     "images": [],
     "last_amended": "2025-04-02",

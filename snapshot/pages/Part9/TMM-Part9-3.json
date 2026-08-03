@@ -47,6 +47,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3#1",
       "content_hash": "sha256:a918d4709cd40a2d41c3a59c89ce77e67ec05737a51128155dd2b8eab5d4571b",
+      "emphasis": [
+        {
+          "end": 123,
+          "kind": "strong",
+          "start": 118,
+          "text": "Note:"
+        },
+        {
+          "end": 632,
+          "kind": "i",
+          "start": 364,
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "end": 433,
+          "kind": "u",
+          "start": 430,
+          "text": "not"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -111,6 +131,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/1",
       "content_hash": "sha256:5b5f55f91c6be55b51c5e96573a02499ca7bb9ee6b0887e65706004128544c42",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -164,6 +185,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/2",
       "content_hash": "sha256:ee597b36729056846a945245ade3c79fc49d09c452d37c180f165f50654eac49",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -197,6 +219,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/3",
       "content_hash": "sha256:59fe35960cda4cceaa9ad8370af3e3c80da2a197aba6a17c3c6c58813c94cce1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -230,6 +253,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/4",
       "content_hash": "sha256:c0b1c67aecd066ba7da2604046e2c8a49d7decb40dcdc900d0da5549b2ec48bb",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -282,6 +306,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/5",
       "content_hash": "sha256:2341ddfad350aabb2f77c9cbb537c559b3b9e13e162d05a39ece07da13fd1125",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -315,6 +340,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/6",
       "content_hash": "sha256:8f6077a3f81c400a2c8ea6edbe84397317df9ecf41c4ec2d8a8eaa2190b09311",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -341,11 +367,33 @@
   ],
   "page": {
     "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "amendments": [
+      {
+        "date": "2025-10-22",
+        "reason": "Added: Note regarding refused amendments and information to be included about the option to be heard."
+      },
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "References to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7965af4fed3f505ee6cb28fc93ae24c2ce22b9994c7bddb81b93c6abf8a3edab",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-22",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 9.3. Amendment before particulars of an application are published (Section 64)",
     "images": [],
     "last_amended": "2025-10-22",

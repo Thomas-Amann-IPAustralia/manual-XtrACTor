@@ -66,6 +66,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/x-annex-4---an-example-of-a-pbr-letter-of-consent#1",
       "content_hash": "sha256:1b9b1800735fef5ce4f72f6acd4cd01d207b639416a9902c269c3c396cc0200b",
+      "emphasis": [
+        {
+          "end": 502,
+          "kind": "strong",
+          "start": 490,
+          "text": "Fred Y Smith"
+        },
+        {
+          "end": 502,
+          "kind": "i",
+          "start": 490,
+          "text": "Fred Y Smith"
+        },
+        {
+          "end": 502,
+          "kind": "i",
+          "start": 490,
+          "text": "Fred Y Smith"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -85,11 +105,29 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:404ea8c12ccc2655b79551107da9e33f80fe5180bbc7ca64a7abaf46ea6c1bbf",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "32A. Annex 4 - An Example of a PBR Letter of Consent",
     "images": [
       {

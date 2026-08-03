@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6#1",
       "content_hash": "sha256:a926926474111e3de82f81e5bc453369128f7760edb3705c8505859cc34eb414",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -57,6 +95,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/1/1",
       "content_hash": "sha256:268d3c79ef03513ac8a9779dccba3e2fce23dfc93e18b53333710ec5b8c88d90",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -96,6 +135,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/1/2",
       "content_hash": "sha256:fde405f7511aa27f5da4d2124f4e49c991db341b3710f6513c01cce8a008c4f8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -135,6 +175,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/2/1",
       "content_hash": "sha256:fe5adc631bda878d370a3ac13dc3fede2cca2b49ca2c11a7018bf01e5a6ee7b8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -174,6 +215,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/2/2",
       "content_hash": "sha256:2528eaadd14e51d6d54297bd5143b6ce592fd345b0c55d5970221d27251ce1ae",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -213,6 +255,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/1",
       "content_hash": "sha256:b4794fc138510ed2b0bc5f4c5161fe26b9231ac05fbe8907ba79e01baed155b8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -252,6 +295,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/2",
       "content_hash": "sha256:115d0028d05b8d65ebc2cbf6e97ee03a330135d837e71d55dcfbfb3d9f21bcc1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -304,6 +348,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/3",
       "content_hash": "sha256:fd5c49a10cbb23d79f2d2f7886752eae55efdc205a30754e1054b954a4f0295f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -356,6 +401,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/4",
       "content_hash": "sha256:43178fcd285ba8088056514ac158f3125c37f880d3eee0ce8b0eedb339103ebf",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -395,6 +441,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/5",
       "content_hash": "sha256:9dc00ad89f318364c39c50ffce8787384c7bdd915159594dcea2d81a4aeaff2e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -434,6 +481,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/3/6",
       "content_hash": "sha256:277a2a614a4fb67d90ad21a3d8115fff3c0a22b2098a1741f50b77f057bf86b7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -473,6 +521,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/6/6/4/1",
       "content_hash": "sha256:8facdbe47d11e52602fffb557538c79e8d0d1ed9f172d27238eaf1f04fcc1ae2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -505,11 +554,25 @@
   ],
   "page": {
     "amendment_note": "Title and links updated",
+    "amendments": [
+      {
+        "date": "2025-05-14",
+        "reason": "Title and links updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:31bb9481e36f698d6461bdea8018aca3a77e47166395ad36b7000bc32a9f4093",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 4.6. No fee paid",
     "images": [],
     "last_amended": "2025-05-14",

@@ -30,6 +30,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/3#1",
       "content_hash": "sha256:002752422f390d021cabcbb27b27a5fe0ba2f0a988f52f14e119ab58ce1c7087",
+      "emphasis": [
+        {
+          "end": 1303,
+          "kind": "i",
+          "start": 1256,
+          "text": "Australian Wine and Brandy Corporation Act 1980"
+        },
+        {
+          "end": 1303,
+          "kind": "i",
+          "start": 1256,
+          "text": "Australian Wine and Brandy Corporation Act 1980"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -117,11 +131,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:6d41e4c546bac55c32c51db5c36e35cd779ab11149d8ba0f42fe2fe3850e9e9c",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.3. Factors to be taken into account before deciding whether revocation of registration is reasonable",
     "images": [],
     "last_amended": "2022-04-20",

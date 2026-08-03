@@ -18,6 +18,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/1#1",
       "content_hash": "sha256:d53fedad7af97327f05e61205a9d9c80a3c50669aa35b9489d4fcd4605d58f0c",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -67,6 +105,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/1/1/1",
       "content_hash": "sha256:da39211b5e08442b18b91b7d33e8789a7de073f0ae2fcb1779153fd9cf2dee22",
+      "emphasis": [
+        {
+          "end": 31,
+          "kind": "strong",
+          "start": 23,
+          "text": "accepted"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -148,6 +194,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/1/1/2",
       "content_hash": "sha256:f60281690d3bc87ee8bfd6c4882ce672ea5b26d6b8a5f1461fbd063a8380a496",
+      "emphasis": [
+        {
+          "end": 31,
+          "kind": "strong",
+          "start": 23,
+          "text": "rejected"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -222,6 +276,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/1/1/3",
       "content_hash": "sha256:f6e225354292abdd28c42be7dfeee2fdab501ab93788e31017b673a5ac340e85",
+      "emphasis": [
+        {
+          "end": 32,
+          "kind": "strong",
+          "start": 23,
+          "text": "withdrawn"
+        },
+        {
+          "end": 596,
+          "kind": "strong",
+          "start": 587,
+          "text": "withdrawn"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -338,6 +406,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part18/1/1/4",
       "content_hash": "sha256:04b91b13ad2379b647bc3142eb3a6ff497e85885e51c17576e54715e7bfea236",
+      "emphasis": [
+        {
+          "end": 25,
+          "kind": "strong",
+          "start": 20,
+          "text": "lapse"
+        },
+        {
+          "end": 760,
+          "kind": "strong",
+          "start": 755,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 18 Finalisation of Application for Registration",
@@ -408,11 +490,41 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2025-02-10",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-10-11",
+        "reason": "Updated to reflect new legislation - Administrative Review Tribunal Act 2024: Commences 14 October 2024."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:21538ab7d53d4ef2606e58274d984d6e826fdb98b49659711c2e3917f5bf7963",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 18.1. Introduction",
     "images": [],
     "last_amended": "2025-02-10",

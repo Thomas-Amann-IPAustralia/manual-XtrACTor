@@ -38,6 +38,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/1#1",
       "content_hash": "sha256:2a87eb47583498b1c9db05dd3fb541b99fcc10242ac7a91e91562aa02ec7e3c8",
+      "emphasis": [
+        {
+          "end": 69,
+          "kind": "i",
+          "start": 49,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 69,
+          "kind": "i",
+          "start": 49,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 416,
+          "kind": "em",
+          "start": 203,
+          "text": "A trade mark is a sign used, or intended to be used, to distinguish goods or services dealt with or provided in the course of trade by a person from goods or services so dealt with or provided by any other person."
+        },
+        {
+          "end": 675,
+          "kind": "em",
+          "start": 469,
+          "text": "sign includes the following or any combination of the following, namely any letter, word, name, signature, numeral, device, brand, heading, label, ticket, aspect of packaging, shape, colour, sound or scent."
+        },
+        {
+          "end": 1561,
+          "kind": "strong",
+          "start": 1556,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -81,11 +113,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:66b537e0293d18cc140772beb883f2f2725d3aff74e913b2794cb523308de893",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "21.1. Non-traditional signs",
     "images": [],
     "last_amended": "2022-04-20",

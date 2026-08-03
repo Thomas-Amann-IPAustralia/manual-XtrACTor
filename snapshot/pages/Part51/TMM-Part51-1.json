@@ -34,6 +34,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1#1~1",
       "content_hash": "sha256:e65bd09d85fecb447b272beedee4f6f274af5bc23d810b07ffcba56d73a9629c",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 1009,
+          "kind": "i",
+          "start": 897,
+          "text": "Trade Marks (Means and Form of Filing Documents and Evidence) (Opposition and Other Proceedings) Instrument 2019"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -105,6 +149,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1#1~2",
       "content_hash": "sha256:88ba00217807c0bf75cf201606e016ca684cb607c16bd6cecb46a3ec7b64a97a",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -186,6 +231,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1/1/1",
       "content_hash": "sha256:8ffa5947935c2a840a7e93abdf8cca41c58934ad57d4ab20d997700d37a4c2eb",
+      "emphasis": [
+        {
+          "end": 196,
+          "kind": "i",
+          "start": 177,
+          "text": "evidence in support"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -260,6 +313,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1/1/2",
       "content_hash": "sha256:32861bcfb3afe740374c43c1c73c325987768cd83fd3ff73e591eae985ae41f4",
+      "emphasis": [
+        {
+          "end": 139,
+          "kind": "i",
+          "start": 121,
+          "text": "evidence in answer"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -356,6 +417,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1/1/3",
       "content_hash": "sha256:6f636aa1757ad0f33799b4bb4c869ebb130726bba74ef1caf4f578243f300921",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -422,6 +484,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/1/1/4",
       "content_hash": "sha256:096f6a3ffb3100cf063bcbc526b73b2e34284b7f0691462a0b42b06e19ae5fed",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 51 General Opposition Proceedings",
@@ -455,11 +518,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4673f6ee0aa11528783a9c87881b0b356bb4f9074478a22a089558fa3cd21f47",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 51.1. Evidence",
     "images": [],
     "last_amended": "2025-04-01",

@@ -18,6 +18,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/2#1",
       "content_hash": "sha256:8538d9518cb1d0ff0ab622a83ae19ffec5711a99dee4e5f7f85b8b6f3e60a000",
+      "emphasis": [
+        {
+          "end": 195,
+          "kind": "strong",
+          "start": 193,
+          "text": "OR"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -101,6 +109,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/2/2/2/1",
       "content_hash": "sha256:9e99bce5fab10ac89762cf6ed972535935f1b9ef46d8578c64819a4c2b11c2e4",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -140,11 +149,29 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:762f5842101e204134a436f345cac03e97f8003ed4f447d37d2c63e93ccb01f2",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "32A.2.2 Section 39: Prescribed Signs",
     "images": [
       {

@@ -14,6 +14,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/x-annex-a1---an-example-of-a-letter-of-consent#1",
       "content_hash": "sha256:7ecafd616f76cb1d4888909f9a3d60f5f5b60f7e4701c7600074ce3d8a27e37e",
+      "emphasis": [
+        {
+          "end": 446,
+          "kind": "strong",
+          "start": 434,
+          "text": "Fred Y Smith"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -47,11 +55,25 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix – alternative text for images",
+    "amendments": [
+      {
+        "date": "2025-11-06",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:169295bb1b36e3f41e007d87f152bb77285f5683a090b7329bd1d75be8ea4bc5",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-11-06",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "27. Annex A1 - An example of a letter of consent",
     "images": [
       {

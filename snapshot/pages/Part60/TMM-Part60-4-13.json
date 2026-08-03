@@ -66,6 +66,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/13/4/13/1",
       "content_hash": "sha256:97b8c9947814e2e9a25fd68681db2d8b5afea271e361a5015e2e13b0c5cff39b",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 279,
+          "kind": "i",
+          "start": 252,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 279,
+          "kind": "strong",
+          "start": 252,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 666,
+          "kind": "i",
+          "start": 638,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 666,
+          "kind": "strong",
+          "start": 638,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 810,
+          "kind": "i",
+          "start": 759,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        },
+        {
+          "end": 810,
+          "kind": "strong",
+          "start": 759,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -211,6 +261,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/13/4/13/2",
       "content_hash": "sha256:e270f2aa8e73345a66cb8a0e64994bd5e02dbd6c307e2914253f2d6c32574fb6",
+      "emphasis": [
+        {
+          "end": 246,
+          "kind": "strong",
+          "start": 239,
+          "text": "lapsing"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -257,6 +315,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/13/4/13/2/1",
       "content_hash": "sha256:3a3a7a9c2485b74772cafa90bdbecedf9aee31a34dd7744446a6ddc238ceec7f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -296,6 +355,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/13/4/13/2/2",
       "content_hash": "sha256:bf2f0319089b2ebad54627179eb7b95f75b7dc48764275cbcb4ecfe4e367d756",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -328,11 +388,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:66dda7a29bfc34c9b724c9f05c73dcfe64702329f8554a8f27043674fdf4e183",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.13 Final decision on provisional refusal based on examination",
     "images": [],
     "last_amended": "2026-04-17",

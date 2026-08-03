@@ -30,6 +30,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/5/4/5/1",
       "content_hash": "sha256:dd0d58605716d13fc079149de4e8e8bfbb9de1b7ee9a694420178334c44d599c",
+      "emphasis": [
+        {
+          "end": 28,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 202,
+          "kind": "i",
+          "start": 151,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        },
+        {
+          "end": 202,
+          "kind": "strong",
+          "start": 151,
+          "text": "Trade Marks Office Manual of Practice and Procedure"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -114,6 +140,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/5/4/5/2",
       "content_hash": "sha256:e0a3d571cd5bd3cb4fd8137a0748053263e48e85c395518d1a463dc417011f44",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -175,11 +202,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:299a77cae7ad400671d08967d2b71dd0bfbfee1ec4998428fccefd834f7252df",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.5 Expedite",
     "images": [],
     "last_amended": "2026-04-17",

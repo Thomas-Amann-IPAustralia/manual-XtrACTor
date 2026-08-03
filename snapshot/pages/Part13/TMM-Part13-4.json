@@ -68,6 +68,98 @@
       "cases": [],
       "chunk_ref": "TMM/Part13/4#1~1",
       "content_hash": "sha256:9ac5acfd3aa75773918789261da297b3505d9e44b3600f1471d0f4d80ee346e6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 297,
+          "kind": "strong",
+          "start": 293,
+          "text": "only"
+        },
+        {
+          "end": 368,
+          "kind": "strong",
+          "start": 363,
+          "text": "valid"
+        },
+        {
+          "end": 461,
+          "kind": "strong",
+          "start": 457,
+          "text": "only"
+        },
+        {
+          "end": 535,
+          "kind": "strong",
+          "start": 528,
+          "text": "invalid"
+        },
+        {
+          "end": 628,
+          "kind": "strong",
+          "start": 624,
+          "text": "only"
+        },
+        {
+          "end": 846,
+          "kind": "strong",
+          "start": 839,
+          "text": "invalid"
+        },
+        {
+          "end": 1024,
+          "kind": "strong",
+          "start": 1020,
+          "text": "only"
+        },
+        {
+          "end": 1067,
+          "kind": "strong",
+          "start": 1060,
+          "text": "invalid"
+        },
+        {
+          "end": 2280,
+          "kind": "u",
+          "start": 2248,
+          "text": "paragraphs 51(1)(a), (b) and (c)"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -145,6 +237,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part13/4#1~2",
       "content_hash": "sha256:ec8a4f63f8576d2f026015571be3c1f511e3d999d7af6eb2fc15c61e6eaefd48",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -167,11 +260,29 @@
   ],
   "page": {
     "amendment_note": "Whole part reviewed and content updated, including examples.",
+    "amendments": [
+      {
+        "date": "2026-06-03",
+        "reason": "Whole part reviewed and content updated, including examples."
+      },
+      {
+        "date": "2025-10-31",
+        "reason": "Accessibility fix – alternative text for images"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:05cf7f71ec751185ded6b900e6818a0eb60a17fef834945cbe5da86dc2caad07",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-06-03",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "13.4. Applying Requirements for Material Particulars and Provisions of Paragraphs 51(1)(a), (b) and (c)",
     "images": [
       {

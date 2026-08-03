@@ -20,6 +20,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/4/part-2-4-1-general-guidance-for-non-compliance-with-filing-requirements",
       "content_hash": "sha256:a16817abcc3e5a1d6c1d47aa6fbdcafeb5a4f39529f4663de2bf66fc66f46599",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -60,6 +61,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/4/part-2-4-2-minimum-filing-requirements-not-met",
       "content_hash": "sha256:48592766f38119458f88ce3f277385d51ae63bf4c0c822b67c1062b6cc5f2280",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -139,6 +141,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/4/part-2-4-3-fee-not-paid-or-underpaid",
       "content_hash": "sha256:ae9e922400466f9d8d1376d7a50512f7cd9f27685e37044f156054185356a56e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -190,11 +193,17 @@
   ],
   "page": {
     "amendment_note": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website.",
+    "amendments": [
+      {
+        "date": "2026-07-13",
+        "reason": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:73f23b85fe2ba1ff346bc49a0a54d4059e8d18e60e5801fbe565427958578b85",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 2.4 Non-compliance with filing requirements for filing application, notice or request",
     "images": [],
     "last_amended": "2026-07-13",

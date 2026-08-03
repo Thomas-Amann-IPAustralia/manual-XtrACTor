@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/5#1",
       "content_hash": "sha256:783911f1303146d6eaf6e2fa4962dce8049d31367765c98a658f7ba5d44a02d0",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -79,6 +80,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/5/5/1",
       "content_hash": "sha256:bb85d996dc9dfc6cc568b458384851ed6c0869061da50a173318b99df58ab182",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -112,6 +114,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part15/5/5/2",
       "content_hash": "sha256:7748191c55be79c9c10a4040f784cdbe0b2c2638900fa79ca7de294b583a4692",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 15 General Provision for Extensions of Time",
@@ -151,11 +154,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:31bebf0a0a9ea6f63b4033cf2301235e1f6e8d4579cc55b5cb4159e9a56f902c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "15.5. Form of the application",
     "images": [],
     "last_amended": "2022-04-20",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/4#1",
       "content_hash": "sha256:136738128b43600d87cdb35bc4085726b2037fa0023c14ab3d88d660ea097e19",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -49,6 +50,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/4/4/4/1",
       "content_hash": "sha256:591894d6d8e4892d8b4e5c80a1bce12472e4d65d6fd252fe1672e0a7378a231a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -88,11 +90,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:0fd77e579684ac587a019fa15c46337737b4c15c9d1ed13eb7c77052d149dae7",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.4 Indexing",
     "images": [],
     "last_amended": "2026-04-17",

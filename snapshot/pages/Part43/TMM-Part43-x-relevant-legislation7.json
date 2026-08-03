@@ -78,6 +78,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part43/x-relevant-legislation7#1",
       "content_hash": "sha256:581397e7062abc77859dfbb749df842a8509eefdc8d3966919f712428191aa9d",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 466,
+          "kind": "strong",
+          "start": 451,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 43 Assignment and Transmission",
@@ -260,11 +274,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b258ad2a07191b78a220772810a3a08019b581763be52361c1104cdc76373013",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "43. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

@@ -46,6 +46,38 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/3#1~1",
       "content_hash": "sha256:8e7786360c97a969853aa80cda0f1578ced847364c16b29bf4781627107a5962",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 91,
+          "kind": "i",
+          "start": 71,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -264,6 +296,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part35/3#1~2",
       "content_hash": "sha256:a3561686f7e111cef6f3dc71f60aefc6f9c296d5b99500fef75f8e164666d606",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -305,11 +338,29 @@
   ],
   "page": {
     "amendment_note": "Links to legislation added. Content reviewed - minor updates.",
+    "amendments": [
+      {
+        "date": "2026-02-11",
+        "reason": "Links to legislation added. Content reviewed - minor updates."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4af028de1cdb6052081b07a31f98fa3760bf3bff45216b174b3ec308cbd22b56",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-02-11",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "35.3. Sections of the Act NOT applying to certification trade marks",
     "images": [],
     "last_amended": "2026-02-11",

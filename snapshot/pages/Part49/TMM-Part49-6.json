@@ -35,6 +35,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/6#1",
       "content_hash": "sha256:6d68405c65beacfcbf57dd2b4ef2d32ce0ca7566e0c038155da926015d6634cb",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -154,6 +192,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part49/6/6/1",
       "content_hash": "sha256:369fb740c40f02298288472041b52f65f86e5e44fdfde3f4aae66bdff1b2c16b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 49 Non-use Procedures",
@@ -224,11 +263,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-01",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Updates to references to the Federal Circuit Court"
+      },
+      {
+        "date": "2024-03-14",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:b0e926e0cf64729dba8ffee1d1c3acf5086627fa0bf22f30f6dbc73624711071",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-01",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 49.6. Opposition proceedings",
     "images": [],
     "last_amended": "2025-04-01",

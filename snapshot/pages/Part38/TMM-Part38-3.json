@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/3/3/1",
       "content_hash": "sha256:388c789ca9b35cd2dd057e6fd16bb069ec966091418e0fdfb9a4bfa7b5462491",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -43,6 +44,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/3/3/2",
       "content_hash": "sha256:cc003da1861417208640af8e044619e582001bc153ede25fe36e6002f6e6b0bd",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -80,6 +82,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/3/3/3",
       "content_hash": "sha256:290a680931cf6702f244ea244bb16c4eb9dac0aa31d0113dc566148d52af4f05",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -106,11 +109,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e90f7370aef3749a9d6212c67985275ddc06e2ca464e3daa8453caf07a6fb24a",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "38.3. Revocation process",
     "images": [],
     "last_amended": "2022-04-20",

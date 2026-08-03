@@ -165,6 +165,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part30/x-annex-a4---major-sporting-events-protected-words#1",
       "content_hash": "sha256:7d9254f540d1b7494cf723f48b4f258383d13da8e3ad0ee9f810b03a838a3ec8",
+      "emphasis": [
+        {
+          "end": 28,
+          "kind": "b",
+          "start": 0,
+          "text": "ICC Men’s T20 World Cup 2022"
+        },
+        {
+          "end": 1094,
+          "kind": "i",
+          "start": 1032,
+          "text": "Major Sporting Events (Indicia and Images) Protection Act 2014"
+        },
+        {
+          "end": 1294,
+          "kind": "b",
+          "start": 1193,
+          "text": "FIFA (Fédération Internationale de Football Association) Women’s World Cup Australia New Zealand 2023"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 30 Signs that are Scandalous and Use Contrary to Law",
@@ -184,11 +204,29 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      },
+      {
+        "date": "2021-11-05",
+        "reason": "Annex A4 updated to reflect legislation change, replace ICC T20 World Cup with ICC Men's T20 World Cup 2022 and FIFA Women's World Cup Australia New Zealand."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3578a0cbcbaf1c7bdb34eb67e27feebb64764b705f7d7ba59b09150f5db0631b",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "30. Annex A4 - Major Sporting Events protected words",
     "images": [],
     "last_amended": "2022-04-20",

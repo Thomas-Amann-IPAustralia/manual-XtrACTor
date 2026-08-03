@@ -47,6 +47,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5#1",
       "content_hash": "sha256:55ff17ba7b826db7e667bccb8f3da89f4864eb772a7a7f496f7a1307b8c70313",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -86,6 +124,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/1/1",
       "content_hash": "sha256:9bb74f6222580ed00f71eb57b8034c8682909aa2fd17d5f4033874d600b19242",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -125,6 +164,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/2/1",
       "content_hash": "sha256:3ad17543c3fa565295222d23c821ef5a69810394f3276f835330c1ea35324fde",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -164,6 +204,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/3/1",
       "content_hash": "sha256:2bf7c3608f2f8104fa15a06c6163df35fd3b531a4a106ae6703c127ddb8f4e8b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -203,6 +244,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/4/1",
       "content_hash": "sha256:f0e3371b9be346f7479e5d1edeb105d579c3ab70b5c718eb24e8cce051f3f750",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -242,6 +284,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/5/1",
       "content_hash": "sha256:8cec288bd701103f580a43f3c9f617053012bbeb056062de39da392fd6739d8a",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -281,6 +324,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/6/1",
       "content_hash": "sha256:b74503e6a69f9acc143268f46e27e4a5ce4c0ec21bf1993214dad52bf0f6aa9e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -320,6 +364,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/6/2",
       "content_hash": "sha256:c41d3f8c4f139a8f75b11445ea512ee57d0c14133bdce6d53007094998bb36a9",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -359,6 +404,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/6/3",
       "content_hash": "sha256:8142adb4431657df451fd1ac40cf2528685c658e67fe9111f7d946293f9b01bc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -417,6 +463,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part4/5/5/7",
       "content_hash": "sha256:aeb8acea4a2765bfc8cb224151b36a6b53f0272e057dd914abbb60e547e0eb3c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 4 Fees",
@@ -450,11 +497,29 @@
   ],
   "page": {
     "amendment_note": "Title and links updated",
+    "amendments": [
+      {
+        "date": "2025-05-14",
+        "reason": "Title and links updated"
+      },
+      {
+        "date": "2024-11-11",
+        "reason": "Information added: 5.7 Payment not applicable"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7c9a97edb6ae57d1624e054b7a3180c896867d5811dbb5ea16002fee8799924b",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-05-14",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 4.5. Refunds and or Waivers",
     "images": [],
     "last_amended": "2025-05-14",

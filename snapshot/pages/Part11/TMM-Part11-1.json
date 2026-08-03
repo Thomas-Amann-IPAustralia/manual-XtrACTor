@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1#1",
       "content_hash": "sha256:419bc8fb737c4cbc31be5fb01efb509c02fbb9df7f38489aa053d6931184728b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -78,6 +79,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/1",
       "content_hash": "sha256:595d2f484a4dfa80810aa76ffb809d82603779aaaf2f415720813c3854fed185",
+      "emphasis": [
+        {
+          "end": 542,
+          "kind": "i",
+          "start": 296,
+          "text": "Any person who has duly filed an application for a ... trademark, in one of the countries of the Union, or his successor in title, shall enjoy for the purpose of filing in other countries, a right of priority during the periods hereinafter fixed."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -137,6 +146,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/2",
       "content_hash": "sha256:1a253922355f22a634da8bad7e6c2fc1104ed3c6c8c185f4a7c7e34d27051e4b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -202,6 +212,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/3",
       "content_hash": "sha256:7a4f611b12009f3395c5889219ac3d417091696008c17681e61f662b83a86dcc",
+      "emphasis": [
+        {
+          "end": 935,
+          "kind": "u",
+          "start": 921,
+          "text": "subreg 4.11(2)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -252,6 +270,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/4",
       "content_hash": "sha256:755f78fffb8fe495136ac30d28eb8cb15ccb61b09c6ae0778ca3fae35697f2ba",
+      "emphasis": [
+        {
+          "end": 384,
+          "kind": "i",
+          "start": 376,
+          "text": "earliest"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -317,6 +343,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/5",
       "content_hash": "sha256:0dae7e3bd87e7081ef5730acae87f28f636b0874e6368a02014c8256c3e0d179",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -350,6 +377,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part11/1/1/6",
       "content_hash": "sha256:ce9a1aa86dd298535cfe9a62fd7d2bf2e003fdeeacf33bfdeba534786732a5a2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 11 Convention Applications",
@@ -400,11 +428,33 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-13",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2025-01-08",
+        "reason": "Content reviewed - links removed"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d2eca3d2f41f89672fce4a3c112c449abb8c3b1261a9fbe045eab47557371020",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "1. Applications in Australia (convention applications) where the applicant claims a right of priority on the basis of an application in a Convention country",
     "images": [],
     "last_amended": "2025-01-13",

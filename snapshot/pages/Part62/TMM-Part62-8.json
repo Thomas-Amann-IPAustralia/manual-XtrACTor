@@ -18,6 +18,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/8#1",
       "content_hash": "sha256:90818aa05d6d03964738bc94e92c26f52abdcc4b7fa4efec32f5082ddfc19f8b",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -63,11 +64,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7731e7ecab938f4dfad8c0439fd688f77c48f2af5771ac6fddc22d4b638c735d",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.8. Amendment or cessation of protection by Registrar of Protected International Trade Marks (PITMs)",
     "images": [],
     "last_amended": "2022-04-20",

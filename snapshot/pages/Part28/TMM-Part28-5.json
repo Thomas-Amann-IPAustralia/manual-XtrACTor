@@ -26,6 +26,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part28/5#1",
       "content_hash": "sha256:621fe2d59a785be545be6240d9d4607a3f93f51fc5d05a5f1ec3d7b889744397",
+      "emphasis": [
+        {
+          "end": 1560,
+          "kind": "i",
+          "start": 1495,
+          "text": "Registration of this trade mark is limited to the State/s of < >."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 28 Honest Concurrent Use, Prior Use or Other Circumstances",
@@ -64,11 +72,29 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:98ed3fd1b9e43e8361dba952fbccc546d67d92c5e947ebb8d9a312d346bd728a",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "28.5. Conditions and limitations to applications proceeding under s 44(3)",
     "images": [],
     "last_amended": "2023-10-10",

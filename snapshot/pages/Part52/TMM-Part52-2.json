@@ -42,6 +42,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/2#1~1",
       "content_hash": "sha256:d3060d00b473a6a3b27f8a5870ab27a75388303640c894901bd78e76517f93c8",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -185,6 +223,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/2#1~2",
       "content_hash": "sha256:5150e28f5a1ad5d63ecaf00eadae2a0ccc59a56ee9e7e28c62693a1703be45bc",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -263,6 +302,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/2/2/1",
       "content_hash": "sha256:58a73780b315636a134a007afbe2e48a4e5519d700cf55ce910613d2dd077b0e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 52 Hearings, Decisions, Reasons and Appeals",
@@ -327,6 +367,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/2/2/2",
       "content_hash": "sha256:2dc1eb7443080ce56e70d373cc52f1996f3a636246a91f5732ed26f758f2e474",
+      "emphasis": [
+        {
+          "end": 106,
+          "kind": "i",
+          "start": 86,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 564,
+          "kind": "i",
+          "start": 540,
+          "text": "The Macquarie Dictionary"
+        },
+        {
+          "end": 821,
+          "kind": "sup",
+          "start": 820,
+          "text": "2"
+        },
+        {
+          "end": 1113,
+          "kind": "i",
+          "start": 1101,
+          "text": "inter partes"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 52 Hearings, Decisions, Reasons and Appeals",
@@ -498,6 +564,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part52/2/2/3",
       "content_hash": "sha256:a8f3999f3b8740a23e0d102cf9657d2cbc90518b2ff201d4eb6b7da0d50c7353",
+      "emphasis": [
+        {
+          "end": 960,
+          "kind": "sup",
+          "start": 959,
+          "text": "3"
+        },
+        {
+          "end": 960,
+          "kind": "u",
+          "start": 959,
+          "text": "3"
+        },
+        {
+          "end": 1400,
+          "kind": "sup",
+          "start": 1399,
+          "text": "2"
+        },
+        {
+          "end": 1624,
+          "kind": "sup",
+          "start": 1623,
+          "text": "3"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 52 Hearings, Decisions, Reasons and Appeals",
@@ -674,11 +766,45 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-04-08",
+        "reason": "Official notice hyperlink updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2023-01-11",
+        "reason": "Changes to oral hearing structure"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-07",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:158dd2ed7eeffb4f8770845aea132945c9244c348524566402670238ecee76ac",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 52.2.What is a hearing?",
     "images": [],
     "last_amended": "2025-04-02",

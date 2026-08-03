@@ -66,6 +66,92 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/10#1~1",
       "content_hash": "sha256:40b26fed975b7857cfa96fb3e79c7bd9fa97d0335fc990189fbce707a86e412e",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 106,
+          "kind": "strong",
+          "start": 50,
+          "text": "Scanning new SGPs for potential revocation of acceptance"
+        },
+        {
+          "end": 117,
+          "kind": "strong",
+          "start": 107,
+          "text": "Background"
+        },
+        {
+          "end": 553,
+          "kind": "strong",
+          "start": 530,
+          "text": "Responsibilities of O&H"
+        },
+        {
+          "end": 1187,
+          "kind": "i",
+          "start": 986,
+          "text": "a. the application should not have been accepted, taking account of all the circumstances that existed when the application was accepted (whether or not the Registrar knew then of their existence); and"
+        },
+        {
+          "end": 1274,
+          "kind": "i",
+          "start": 1188,
+          "text": "b. it is reasonable to revoke the acceptance, taking account of all the circumstances."
+        },
+        {
+          "end": 1323,
+          "kind": "strong",
+          "start": 1275,
+          "text": "Matters to consider for revocation of acceptance"
+        },
+        {
+          "end": 1574,
+          "kind": "i",
+          "start": 1554,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 2260,
+          "kind": "strong",
+          "start": 2236,
+          "text": "Overview of the process:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -171,6 +257,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part51/10#1~2",
       "content_hash": "sha256:4d1afd6c17ce6b6076ec92d8afd1d0861f36b78984190c8433b56f68e6d7ac10",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -193,11 +280,21 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2023-05-24",
+        "reason": "Adding chapter link to external manual"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:764cc7508de7639612975de4b32ec801b0c9dfb397c0c1b822a6948a59750a8a",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 51.10 Revocation of Acceptance",
     "images": [],
     "last_amended": "2025-04-02",

@@ -18,6 +18,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/2/4/2/1",
       "content_hash": "sha256:96fbdf420056f6f05c562c5e24fa789770bbe77d4f05a5da2d051ea35d413b6f",
+      "emphasis": [
+        {
+          "end": 28,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 28,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -94,6 +108,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/2/4/2/2",
       "content_hash": "sha256:cc63351b68088c0d4081504d66f8f35b71fc1f003fdade671d06be737e552fc3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -120,11 +135,29 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:00db881eea0044db5239ce9e2b60e34698b50ecf03b3c92f467cd3cc2818d3dd",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.2 Record of International Registrations",
     "images": [],
     "last_amended": "2026-04-17",

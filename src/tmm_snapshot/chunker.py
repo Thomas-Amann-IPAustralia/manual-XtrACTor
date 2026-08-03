@@ -28,6 +28,7 @@ from tmm_snapshot.citations import (
     extract_internal_refs,
     extract_provisions,
 )
+from tmm_snapshot.emphasis import extract_emphasis
 from tmm_snapshot.links import extract_links
 from tmm_snapshot.page import PageRecord, flatten_text, normalise_text
 from tmm_snapshot.sitemap import NavPage
@@ -141,6 +142,14 @@ class Chunk:
     #: means where the extractor can say; this records the link. 792 of the
     #: corpus's anchors reach neither of those fields. See links.py.
     links: list[dict] = field(default_factory=list)
+    #: The italic, bold, underlined and superscript stretches of `text`, with
+    #: the offsets they occupy. The same argument as `links`, applied to the
+    #: other thing the Manual's markup asserts about a span of words — and the
+    #: field `provision.units[].emphasis` has always had on the legislation
+    #: side. 437 of the corpus's 522 case-citation positions are immediately
+    #: preceded by one of these, which is where a case's party names are.
+    #: See emphasis.py.
+    emphasis: list[dict] = field(default_factory=list)
     #: How the leaf of `heading_path` was found: 'markup' for an `<h2>`-`<h4>`,
     #: 'emphasis' for a bold numbered paragraph promoted by
     #: `_inferred_heading`, None for the prose above a page's first heading.
@@ -777,6 +786,7 @@ def chunk_body(
                     tables=extract_tables(fragment),
                     blocks=extract_blocks(fragment),
                     links=links,
+                    emphasis=extract_emphasis(fragment),
                     heading_source=headings[-1].source if headings else None,
                     headings=[
                         {

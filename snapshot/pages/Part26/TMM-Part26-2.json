@@ -47,6 +47,20 @@
       ],
       "chunk_ref": "TMM/Part26/2#1",
       "content_hash": "sha256:be7ebe89c273e99bd6bdd4f0a39584903353c1236cad36f992403c53c447dcc8",
+      "emphasis": [
+        {
+          "end": 324,
+          "kind": "i",
+          "start": 279,
+          "text": "Registrar of Trade Marks v Woolworths Limited"
+        },
+        {
+          "end": 443,
+          "kind": "i",
+          "start": 384,
+          "text": "Southern Cross Refrigerating Co v Toowoomba Foundry Pty Ltd"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 26 Section 44 and Regulation 4.15A - Conflict with Other Signs",
@@ -79,11 +93,25 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2024-05-23",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:be08227c67151895625e72cb16e326dccec6cc9a315d87c89fcb3c5d53e55f22",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2024-05-23",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "26.2. Presumption of registrability and the application of section 44",
     "images": [],
     "last_amended": "2024-05-23",

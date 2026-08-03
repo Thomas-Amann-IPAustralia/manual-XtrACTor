@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/1#1",
       "content_hash": "sha256:9e165c735ebe5317e983d6154886aab73d86d98d277b0a79c4f92f4e6e029c43",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -48,6 +49,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/1/1/1",
       "content_hash": "sha256:1e68ddbb103428e50ca34aa2aa6c219108d907440b7ae310c1c038c1da2816d8",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -105,6 +107,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/1/1/2",
       "content_hash": "sha256:23b1d51e534594973ac0d5ff4ba4670ea5eba988848e0815fd064cd0f37aef33",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -147,6 +150,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/1/1/3",
       "content_hash": "sha256:6cc3b98270dba439a22e7b6765ea12f73936349b4cf5106d94a015d334fc84f6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -193,6 +197,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part38/1/1/4",
       "content_hash": "sha256:d77187a28161238dacd96582e669688ac9205e3b7d71ddf49430f2fa8de7d00c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 38 Revocation of Acceptance",
@@ -219,11 +224,25 @@
   ],
   "page": {
     "amendment_note": "Terminology updated to reflect legislative changes.",
+    "amendments": [
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9f10ea9d9b417551bd9ffab332c041e635a4b2a3bf6f6daa05e41e8a6f4ceea8",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "38.1. What is revocation of acceptance?",
     "images": [],
     "last_amended": "2024-05-16",

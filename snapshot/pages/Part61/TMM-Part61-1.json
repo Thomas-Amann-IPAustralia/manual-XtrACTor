@@ -10,6 +10,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/1#1",
       "content_hash": "sha256:ba615484a89e9436bdf9b3e03cce68861d633e41ed2f04bf7757e0297dca1767",
+      "emphasis": [
+        {
+          "end": 46,
+          "kind": "i",
+          "start": 20,
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "end": 46,
+          "kind": "i",
+          "start": 20,
+          "text": "Trade Marks Act 1995 (Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -72,6 +86,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/1/1/1",
       "content_hash": "sha256:216680dc5d64fcd6020e175dba7db2ba7a7f6582e2f9e21a6f80bddafaac04a4",
+      "emphasis": [
+        {
+          "end": 257,
+          "kind": "i",
+          "start": 247,
+          "text": "prescribed"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -116,6 +138,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/1/1/2",
       "content_hash": "sha256:9f5d5466e2bff060ee7ed180130f5d24892deb783edeb802f7b684af925e6981",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -176,6 +199,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part61/1/1/3",
       "content_hash": "sha256:c396b3f79f55905e9847279a6765a4f9f55ed62360de0728844ef28f86dc1577",
+      "emphasis": [
+        {
+          "end": 541,
+          "kind": "i",
+          "start": 515,
+          "text": "Trade Marks Act 1995 (Cth)"
+        },
+        {
+          "end": 541,
+          "kind": "i",
+          "start": 515,
+          "text": "Trade Marks Act 1995 (Cth)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 61 Availability of Documents",
@@ -209,11 +246,25 @@
   ],
   "page": {
     "amendment_note": "FOI content updated.",
+    "amendments": [
+      {
+        "date": "2022-07-29",
+        "reason": "FOI content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:837ed6b25a312263d90a0d6213ae6d677a6d91c61bf61418be14b5bd1026e0e4",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "61.1. Availability of Documents",
     "images": [],
     "last_amended": "2022-07-29",

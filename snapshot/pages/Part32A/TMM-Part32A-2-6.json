@@ -50,6 +50,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/6#1~1",
       "content_hash": "sha256:b0783c87f638c929bcfc3212413e04ef60d7003bc1b69c103b6d0372cf5a1e3b",
+      "emphasis": [
+        {
+          "end": 413,
+          "kind": "i",
+          "start": 403,
+          "text": "Cantarella"
+        },
+        {
+          "end": 1699,
+          "kind": "strong",
+          "start": 1697,
+          "text": "白虎"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -128,6 +142,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/6#1~2",
       "content_hash": "sha256:bc04150d5a39bb0b76ad4375146307e019256a93f061d13e2083b672077061a0",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -169,11 +184,29 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-14",
+        "reason": null
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      },
+      {
+        "date": "2021-06-29",
+        "reason": "New manual page - Part 32A 2.6"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:ec88248214f071ec3ed1e4855f5331ea7cc80e91ac64dba92e8eea947f8e9f57",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "32A.2.6 Non-Roman characters (NRC) and transliterations in class 31 plant examination.",
     "images": [],
     "last_amended": "2022-04-20",

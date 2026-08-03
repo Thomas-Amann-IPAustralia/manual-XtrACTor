@@ -34,6 +34,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part21/x-relevant-legislation37#1",
       "content_hash": "sha256:0112b539d3724b988cc9f2a4ab84a45b8f1f6c11be06f45f691ee1b439382d31",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "b",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 203,
+          "kind": "b",
+          "start": 188,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 21 Non-traditional Signs",
@@ -110,11 +124,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:51605c91bee10b3ec826d9914a44ab3be239616d447ab2e90aea657bd57119af",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "21. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

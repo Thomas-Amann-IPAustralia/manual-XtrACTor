@@ -44,6 +44,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part55/7#1",
       "content_hash": "sha256:92beff50190bc27164247b24b8a6126b94db3df2f2423742ddf0f031da5fde3e",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 55 Costs",
@@ -152,6 +190,20 @@
       ],
       "chunk_ref": "TMM/Part55/7/7/1~1",
       "content_hash": "sha256:5440e3ec87c8e55ec9c66985ac68cb83df2d0c90c4047b090632c77b5a55fa43",
+      "emphasis": [
+        {
+          "end": 527,
+          "kind": "i",
+          "start": 499,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 1949,
+          "kind": "i",
+          "start": 1888,
+          "text": "Guess Europe SAGL v Nick Zisimopoulis and Mary Tucceri-Cimini"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -219,6 +271,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part55/7/7/1~2",
       "content_hash": "sha256:35663013c72c950ef5385ee36cf31f7a4b41cc2327036d215473dbf09fba297a",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -263,6 +316,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part55/7/7/2",
       "content_hash": "sha256:f705431eb3ed4d81c897c01a9a32a2a30ba32790697abd2c17a86de98399e4e6",
+      "emphasis": [
+        {
+          "end": 624,
+          "kind": "i",
+          "start": 222,
+          "text": "The opponent/applicant for removal, nnnnnn shall give security for costs being the sum of $****, within two months from the date of this letter. In the event that the opponent/applicant for removal fails to provide the sum of $**** in a manner acceptable to the Registrar and within the time of two months as allowed, the opposition may be dismissed by the Registrar as section 222 of the Act provides."
+        },
+        {
+          "end": 264,
+          "kind": "strong",
+          "start": 258,
+          "text": "nnnnnn"
+        },
+        {
+          "end": 317,
+          "kind": "strong",
+          "start": 312,
+          "text": "$****"
+        },
+        {
+          "end": 453,
+          "kind": "strong",
+          "start": 448,
+          "text": "$****"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 55 Costs",
@@ -296,11 +375,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:e73029b519570d7d878b7def961a0436325f41fb6fd7e30fc6f6195feda66812",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 55.7. Security for costs",
     "images": [],
     "last_amended": "2025-04-02",

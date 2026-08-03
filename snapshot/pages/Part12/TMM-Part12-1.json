@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part12/1#1",
       "content_hash": "sha256:d095cd23621ebb182a51c6b60876ee2bdb1c4322b436883dc13a306a842d4ca2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 12 Divisional Applications",
@@ -42,11 +43,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed, content updated.",
+    "amendments": [
+      {
+        "date": "2026-07-20",
+        "reason": "Part reviewed, content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:82052bc283149bfba013da1aa7d8e0891ee11286dae0d1398fed8e76e795119c",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "12.1. Divisional applications - general",
     "images": [],
     "last_amended": "2026-07-20",

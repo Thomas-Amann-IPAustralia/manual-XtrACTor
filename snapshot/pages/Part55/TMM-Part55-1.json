@@ -35,6 +35,74 @@
       ],
       "chunk_ref": "TMM/Part55/1#1~1",
       "content_hash": "sha256:b4c738a3cc2dd064efa5c180ba03cc9c602563f5f84036a978a9ad2ac393e530",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 49,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 49,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 100,
+          "kind": "i",
+          "start": 80,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 338,
+          "kind": "i",
+          "start": 322,
+          "text": "Patents Act 1990"
+        },
+        {
+          "end": 432,
+          "kind": "i",
+          "start": 378,
+          "text": "Stack and Another v Commissioner of Patents and Others"
+        },
+        {
+          "end": 760,
+          "kind": "i",
+          "start": 717,
+          "text": "R v Quinn; Ex Parte Consolidated Foods Corp"
+        },
+        {
+          "end": 1885,
+          "kind": "sup",
+          "start": 1884,
+          "text": "1"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -115,6 +183,7 @@
       ],
       "chunk_ref": "TMM/Part55/1#1~2",
       "content_hash": "sha256:7f6471e4d0987d965ed6bd18e16c32d9d0e7c2aa73aba37e7adcba738aa9c63d",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -137,11 +206,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-04-02",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Hyperlinks updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:2615ff239edf785708f21a722ab16392241a26118a0a9604a727aa4337cdfb09",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-04-02",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 55.1. Legislative Basis",
     "images": [],
     "last_amended": "2025-04-02",

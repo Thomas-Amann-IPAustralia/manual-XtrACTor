@@ -15,6 +15,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/10#1",
       "content_hash": "sha256:322216d98e2acd4fa7b5b1e9a7132703bab3552e24978448e62e6fa9fecb3034",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -60,11 +61,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:d8ffd1bac6d2b5035a4d91913f3de8e742e19665678f4fcc1fb2d7a29f695156",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.10. Right of appeal: cessation of protection",
     "images": [],
     "last_amended": "2022-04-20",

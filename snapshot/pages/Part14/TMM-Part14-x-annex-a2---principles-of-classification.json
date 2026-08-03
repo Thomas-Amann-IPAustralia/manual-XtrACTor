@@ -14,6 +14,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a2---principles-of-classification#1",
       "content_hash": "sha256:2fc2191c2dd566b2932bc8228e8b3d13f14c84d68a9e731c2285ed96a8d4617b",
+      "emphasis": [
+        {
+          "end": 32,
+          "kind": "strong",
+          "start": 0,
+          "text": "THE PRINCIPLES OF CLASSIFICATION"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -108,6 +116,56 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a2---principles-of-classification/classification-of-goods",
       "content_hash": "sha256:7461380aa9db66bb83d82bee08314906566d4d9d8b5323f8f4c894ebebacfd1d",
+      "emphasis": [
+        {
+          "end": 244,
+          "kind": "i",
+          "start": 88,
+          "text": "(e.g. Water filters are classified in class 11 because their FUNCTION or PURPOSE is to FILTER WATER, and class 11 includes goods for WATER SUPPLY PURPOSES.)"
+        },
+        {
+          "end": 495,
+          "kind": "i",
+          "start": 427,
+          "text": "(e.g. Saveloys are classified in class 29 by ANALOGY with SAUSAGES.)"
+        },
+        {
+          "end": 794,
+          "kind": "i",
+          "start": 642,
+          "text": "(e.g. Handkerchiefs are classified in class 16 if made of paper and in class 24 if made of materials other than paper. They are classified by MATERIAL.)"
+        },
+        {
+          "end": 1135,
+          "kind": "i",
+          "start": 956,
+          "text": "(e.g. Clock radios, as COMPOSITE OBJECTS, can be classified in either class 9 or class 14.) An exception to this rule is smart watches which are exclusively classified in class 9."
+        },
+        {
+          "end": 1341,
+          "kind": "i",
+          "start": 1255,
+          "text": "(e.g. Common metals, unwrought or semi-wrought are classified by MATERIAL in class 6.)"
+        },
+        {
+          "end": 1714,
+          "kind": "i",
+          "start": 1523,
+          "text": "(e.g. Straps for wristwatches are classified in class 14 rather than class 18; Vehicle covers {shaped} are classified in class 12, but Vehicle covers {not fitted} are classified in class 22.)"
+        },
+        {
+          "end": 2099,
+          "kind": "i",
+          "start": 1950,
+          "text": "(e.g. Boxes made of metal with plastic trimmings will be classified to class 6, but if the plastic predominates they will be classified in class 20.)"
+        },
+        {
+          "end": 2311,
+          "kind": "i",
+          "start": 2234,
+          "text": "(e.g. Violin cases are classified in the same class as violins, in class 15.)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -182,6 +240,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part14/x-annex-a2---principles-of-classification/classification-of-services",
       "content_hash": "sha256:ab8d29229bdc9f996c886c10ffd79b9bc9e25e9b4fc1c785597622c5eafabc30",
+      "emphasis": [
+        {
+          "end": 407,
+          "kind": "i",
+          "start": 127,
+          "text": "(e.g. Medical insurance will be classified according to the primary activity to which it relates. Thus it will be classified in class 36 as an insurance service and NOT class 44 as a medical service. Advice or information on medical insurance will also be classified in class 36.)"
+        },
+        {
+          "end": 614,
+          "kind": "i",
+          "start": 525,
+          "text": "(e.g. Accounting services are classified by ANALOGY with BUSINESS SERVICES, in class 35.)"
+        },
+        {
+          "end": 1050,
+          "kind": "i",
+          "start": 737,
+          "text": "(e.g. (a) Rental of telephones is classified in class 38 as this is the same class in which telecommunication services appear. (b) Rental of vehicles is classified in class 39 as a transport service, however rental of road sweeping vehicles is classified in class 37 because it is regarded as a cleaning service.)"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 14 Classification of Goods and Services",
@@ -208,11 +286,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-02-05",
+        "reason": "Update to classification of services information."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:484ad9fb97fec08d513aeab7ce62a114af26144fe25564899487f9ea45d6276e",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "14. Annex A2 - Principles of classification",
     "images": [],
     "last_amended": "2022-04-20",

@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6#1",
       "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -53,6 +91,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/1",
       "content_hash": "sha256:6f971f1693491c16a69a8e6299b933226cf8aa17f173f52a5ba2c2d39d21a5b1",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -106,6 +145,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/2",
       "content_hash": "sha256:b506022ad58c04b2c777a1d76e7f92dcd40f5f7b02d3b3e10597b1e62ea2121c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -158,6 +198,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/3",
       "content_hash": "sha256:b00311bf8e9aa9c270190076e6cc5ce3b48248ca7bdcf03d137ce4794b46a92c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -203,6 +244,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/4",
       "content_hash": "sha256:2f0547ba9a820efb77e164543b519b14e74e8c1264eb73703c9d51abeec1fa43",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -240,6 +282,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/5",
       "content_hash": "sha256:883359c4c3350c506087cfe9269e09a65e447fda5945e80ed41d2938b65c21f6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -273,6 +316,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/6",
       "content_hash": "sha256:af1fae49c531f94dfb859c8f1f4fb10434dbac722b77320385f5b8f625743f8d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -306,6 +350,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/6/6/7",
       "content_hash": "sha256:27eab0fa0c1f0d153f063c64eb3c1cd02c36f5b68a4a8ebb6465f69f095c1d15",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -332,11 +377,29 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-25",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:eded18d080ed5f6011bbafae59e35f684c6453ef390d484bf7cc36c8ae8f96d0",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 44.6. Cancelling the record of a claim",
     "images": [],
     "last_amended": "2025-02-25",

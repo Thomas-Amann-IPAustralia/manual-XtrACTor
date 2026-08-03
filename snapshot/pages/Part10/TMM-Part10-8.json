@@ -34,6 +34,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/8#1",
       "content_hash": "sha256:74ec7792bbc0f12e3dc14f5b68fa78dc2f42f90f3b9242da11224594d584cbc2",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -66,11 +67,25 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      },
+      {
+        "date": "2021-06-26",
+        "reason": "Reference to eservices updated to online services"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:c5505b5737495632817e5786d777122b35c73b49e8066ba60ff3a2bf83212b18",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10.8. Complying with formality requirements",
     "images": [],
     "last_amended": "2022-04-20",

@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/5#1",
       "content_hash": "sha256:e51537a7385e4f49926c355f546eb6f0f47723a9c786f0f361fec7391effb492",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -55,11 +56,25 @@
   ],
   "page": {
     "amendment_note": "Amendment to wording",
+    "amendments": [
+      {
+        "date": "2024-02-05",
+        "reason": "Amendment to wording"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:9bdb370a43dcf3d8da74f8774eefabaa7d4afe70851152d52eab89df2cc6e594",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2024-02-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.5. Mandatory revocation",
     "images": [],
     "last_amended": "2024-02-05",

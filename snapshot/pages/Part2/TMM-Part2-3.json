@@ -18,6 +18,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/1",
       "content_hash": "sha256:121175c923e682282dee540ba63be6d002950c3df414d437a8407247d718841c",
+      "emphasis": [
+        {
+          "end": 136,
+          "kind": "strong",
+          "start": 133,
+          "text": "and"
+        },
+        {
+          "end": 615,
+          "kind": "strong",
+          "start": 610,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -114,6 +128,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/2",
       "content_hash": "sha256:ead98ad86ebc658bd8bb8ec256f6b1265c329ca7806d9126c529498d08e6bc4c",
+      "emphasis": [
+        {
+          "end": 1059,
+          "kind": "strong",
+          "start": 1054,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -256,6 +278,14 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/2/1",
       "content_hash": "sha256:457adde63b8fc921f09e991222a4c5206d72d7d791558ee01e599ab6c5d7642e",
+      "emphasis": [
+        {
+          "end": 1051,
+          "kind": "strong",
+          "start": 1046,
+          "text": "Note:"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -296,6 +326,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/2/2",
       "content_hash": "sha256:038ecbd6b4448a4c6c5680f67cdb687f430d064676b11e1d7e79f686fd018dfc",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -337,6 +368,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/3",
       "content_hash": "sha256:195c1915e1961396e9ea6344ac9161ec5ff699bd0eec6670481d4914f7963e37",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -403,6 +435,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/4",
       "content_hash": "sha256:277cbd6d5f355cce0743dac7a292b04ef7601c219b7a845620d164dfe5516f64",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -459,6 +492,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/5",
       "content_hash": "sha256:6434e3450a9a699056360c8bb28bbd7c682c111eefc4c014a510e23422a770da",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -499,6 +533,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part2/3/2/3/6",
       "content_hash": "sha256:808f2454ecefe8d048c8db8ade734ba640697388d490225fdeb497528caba871",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 2 Filing Requirements",
@@ -551,11 +586,17 @@
   ],
   "page": {
     "amendment_note": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website.",
+    "amendments": [
+      {
+        "date": "2026-07-13",
+        "reason": "The General Filing Requirements and Filing Requirements for a Trade Mark Application chapters have been consolidated into a new Part 2 Filing Requirements chapter. For more information, please see the official notices page on IP Australia’s website."
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:34469be8a4f51a59d50a7304472f0d8d9944468a189837b31cb78be334e93300",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-07-13",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 2.3 Who may apply, and filing requirements for trade mark applications, notices and requests",
     "images": [],
     "last_amended": "2026-07-13",

@@ -51,6 +51,62 @@
       "cases": [],
       "chunk_ref": "TMM/Part7/3#1~1",
       "content_hash": "sha256:5ceabc25392ae79fc7256c7100cdf94cf81598c81386586f082c63d5fed556ca",
+      "emphasis": [
+        {
+          "end": 5,
+          "kind": "strong",
+          "start": 0,
+          "text": "Note:"
+        },
+        {
+          "end": 270,
+          "kind": "i",
+          "start": 250,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 270,
+          "kind": "strong",
+          "start": 250,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 270,
+          "kind": "u",
+          "start": 250,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 298,
+          "kind": "i",
+          "start": 271,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 298,
+          "kind": "strong",
+          "start": 271,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 298,
+          "kind": "u",
+          "start": 271,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 423,
+          "kind": "strong",
+          "start": 414,
+          "text": "withdrawn"
+        },
+        {
+          "end": 1751,
+          "kind": "strong",
+          "start": 1746,
+          "text": "Note:"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -126,6 +182,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part7/3#1~2",
       "content_hash": "sha256:06c25f552d004d1f6873034a5d8efaf080212d09ca436e93169283e77fa39dbf",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -148,11 +205,33 @@
   ],
   "page": {
     "amendment_note": "links updated",
+    "amendments": [
+      {
+        "date": "2025-06-05",
+        "reason": "links updated"
+      },
+      {
+        "date": "2025-06-05",
+        "reason": "title updated"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-08",
+        "reason": null
+      },
+      {
+        "date": "2021-02-17",
+        "reason": "Amend COG to CEG"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:293a9a16ce7a1b29bd7b37815e7bf300f1e75d9eac14a35b101bc1822fd51519",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-06-05",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 7.3 Withdrawal of an application, notice or request (other than an application to register a trade mark)",
     "images": [],
     "last_amended": "2025-06-05",

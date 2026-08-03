@@ -46,6 +46,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part7/x-relevant-legislation31#1",
       "content_hash": "sha256:f2b0cbc1909636a4edc9f48bc809cbd139ba9c59a3605b9f829a20c0b8265eed",
+      "emphasis": [
+        {
+          "end": 7,
+          "kind": "strong",
+          "start": 0,
+          "text": "The Act"
+        },
+        {
+          "end": 176,
+          "kind": "strong",
+          "start": 161,
+          "text": "The Regulations"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 7 Withdrawal of Applications, Notices and Requests",
@@ -144,11 +158,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:3fcac0f34343a37efd9605f52cab66ff3a1dd1ed8efede284bc09fbad8885de3",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "7. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

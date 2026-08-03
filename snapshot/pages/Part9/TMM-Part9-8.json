@@ -50,6 +50,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part9/8#1",
       "content_hash": "sha256:ac78f85abe50c86e12bc6bf9698a458fff1248dd81806cda16692dc1f0095866",
+      "emphasis": [
+        {
+          "end": 123,
+          "kind": "strong",
+          "start": 118,
+          "text": "Note:"
+        },
+        {
+          "end": 632,
+          "kind": "i",
+          "start": 364,
+          "text": "While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee."
+        },
+        {
+          "end": 433,
+          "kind": "u",
+          "start": 430,
+          "text": "not"
+        },
+        {
+          "end": 1754,
+          "kind": "strong",
+          "start": 1750,
+          "text": "must"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 9 Amendments and Changes to Name and Address",
@@ -89,11 +115,41 @@
   ],
   "page": {
     "amendment_note": "Outdated terms updated.",
+    "amendments": [
+      {
+        "date": "2026-06-17",
+        "reason": "Outdated terms updated."
+      },
+      {
+        "date": "2025-10-22",
+        "reason": "Added: Note regarding refused amendments and information to be included about the option to be heard."
+      },
+      {
+        "date": "2025-01-15",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:4267f40b3c68ec04fa86a184e31c189d7a58408831c2fa44544d78f3cfe34a67",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 9.8. Process for amendments under subsection 63(1)",
     "images": [],
     "last_amended": "2026-06-17",

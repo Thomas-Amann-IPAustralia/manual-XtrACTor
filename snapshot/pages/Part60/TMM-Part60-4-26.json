@@ -30,6 +30,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/26/4/26/1",
       "content_hash": "sha256:c064420e16ea97ca367b49223e21d2947447e40d819b98059ee493d2add0db7b",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "i",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Madrid Protocol"
+        },
+        {
+          "end": 28,
+          "kind": "i",
+          "start": 25,
+          "text": "bis"
+        },
+        {
+          "end": 140,
+          "kind": "i",
+          "start": 113,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 140,
+          "kind": "strong",
+          "start": 113,
+          "text": "Madrid Protocol Regulations"
+        },
+        {
+          "end": 261,
+          "kind": "i",
+          "start": 233,
+          "text": "Trade Marks Regulations 1995"
+        },
+        {
+          "end": 261,
+          "kind": "strong",
+          "start": 233,
+          "text": "Trade Marks Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -106,6 +150,32 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/26/4/26/2",
       "content_hash": "sha256:19378a19d1b2f3981ebd9159c446c0ca320c4a37070a36216a287b510649c43b",
+      "emphasis": [
+        {
+          "end": 841,
+          "kind": "i",
+          "start": 824,
+          "text": "full replacement”"
+        },
+        {
+          "end": 849,
+          "kind": "i",
+          "start": 846,
+          "text": "all"
+        },
+        {
+          "end": 990,
+          "kind": "i",
+          "start": 969,
+          "text": "partial replacement”,"
+        },
+        {
+          "end": 998,
+          "kind": "i",
+          "start": 994,
+          "text": "some"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -202,6 +272,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/26/4/26/3~1",
       "content_hash": "sha256:8073ce506a837aab24dfd104ce64895678b33909a21644cb81f6697a1fe8c05e",
+      "emphasis": [
+        {
+          "end": 1954,
+          "kind": "i",
+          "start": 1951,
+          "text": "not"
+        },
+        {
+          "end": 2134,
+          "kind": "i",
+          "start": 2124,
+          "text": "other than"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 1
@@ -272,6 +356,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/26/4/26/3~2",
       "content_hash": "sha256:7a3fa956a79e7c51da431958af1306bbab084079d88e68171b06fe57b2e496dc",
+      "emphasis": [
+        {
+          "end": 270,
+          "kind": "i",
+          "start": 256,
+          "text": "day month year"
+        },
+        {
+          "end": 320,
+          "kind": "i",
+          "start": 314,
+          "text": "123456"
+        },
+        {
+          "end": 460,
+          "kind": "i",
+          "start": 437,
+          "text": "For a full replacement:"
+        },
+        {
+          "end": 603,
+          "kind": "i",
+          "start": 560,
+          "text": "protected international registration number"
+        },
+        {
+          "end": 635,
+          "kind": "i",
+          "start": 609,
+          "text": "For a partial replacement:"
+        },
+        {
+          "end": 762,
+          "kind": "i",
+          "start": 719,
+          "text": "protected international registration number"
+        }
+      ],
       "fragment": {
         "count": 2,
         "index": 2
@@ -301,11 +423,33 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2025-11-19",
+        "reason": "Correcting minor formatting issue"
+      },
+      {
+        "date": "2025-11-19",
+        "reason": "TM Regs amendment package updates"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:13333176f22137af028d5a1d725b6ff6c1246c951c4db0c7ccd169d20e65f936",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.26 Replacement",
     "images": [],
     "last_amended": "2026-04-17",

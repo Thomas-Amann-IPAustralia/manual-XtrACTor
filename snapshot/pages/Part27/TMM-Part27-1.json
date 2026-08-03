@@ -58,6 +58,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part27/1#1",
       "content_hash": "sha256:3a61229ed189ea7c63894d6d0d2da5e353f303562b87a81c8bfaee870d1ebc5f",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 27 Overcoming Grounds for Rejection under Section 44",
@@ -119,11 +120,25 @@
   ],
   "page": {
     "amendment_note": "Content updated.",
+    "amendments": [
+      {
+        "date": "2023-10-10",
+        "reason": "Content updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:f2e024e4c9c28d0c9bcb15d0b35d392c5e27ef3f39f1d5585fb206c668b07130",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "27.1. Introduction",
     "images": [],
     "last_amended": "2023-10-10",

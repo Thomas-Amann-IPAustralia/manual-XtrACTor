@@ -10,6 +10,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part62/9#1",
       "content_hash": "sha256:86299168f9cac4771d81775907806967068ce4259ab84f4d515f91bb1ad4886c",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 62 Revocation of Registration",
@@ -43,11 +44,21 @@
   ],
   "page": {
     "amendment_note": "Update hyperlinks",
+    "amendments": [
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-12",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7cce6fbd2b3737a0a41943adf65453a9c82f0f902ec6cfac1367750bd9b16dd5",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "62.9. Registrar must notify Customs if protection of a PITM is revoked",
     "images": [],
     "last_amended": "2022-04-20",

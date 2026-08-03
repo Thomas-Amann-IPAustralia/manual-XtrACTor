@@ -34,6 +34,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/15/4/15/1",
       "content_hash": "sha256:a50e997cf892449c947bf9ecadbd8f812c433915d98fc15363015125c0b70aa6",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 66,
+          "kind": "i",
+          "start": 44,
+          "text": "Trade Mark Regulations"
+        },
+        {
+          "end": 66,
+          "kind": "strong",
+          "start": 44,
+          "text": "Trade Mark Regulations"
+        },
+        {
+          "end": 160,
+          "kind": "i",
+          "start": 110,
+          "text": "Trade Marks Office Manual of Practice and Procedur"
+        },
+        {
+          "end": 160,
+          "kind": "strong",
+          "start": 110,
+          "text": "Trade Marks Office Manual of Practice and Procedur"
+        },
+        {
+          "end": 161,
+          "kind": "strong",
+          "start": 160,
+          "text": "e"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 60 The Madrid Protocol",
@@ -173,6 +217,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/15/4/15/2~1",
       "content_hash": "sha256:ea7d7bd65ebbb0b1d1bbcc28156b5d479eb9b4512f49f9c60408b59b6b66ed1c",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 1
@@ -222,6 +267,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part60/4/15/4/15/2~2",
       "content_hash": "sha256:976fa61374f82dc69d214f969806b8a7d80734290bf099fa51e6056f61af3675",
+      "emphasis": [],
       "fragment": {
         "count": 2,
         "index": 2
@@ -251,11 +297,25 @@
   ],
   "page": {
     "amendment_note": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections.",
+    "amendments": [
+      {
+        "date": "2026-04-17",
+        "reason": "Part reviewed: Minor content updates, links to legislation updated, minor typographical corrections."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:7d8c9ac7d7f364bbae6fce356e6a6063da860442588efa15fd21a52981c5892e",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "60.4.15 Revocation of Acceptance",
     "images": [],
     "last_amended": "2026-04-17",

@@ -46,6 +46,86 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/5#1",
       "content_hash": "sha256:de90b1b69a0fa75982ae87911c518a11eccd2cebe142fa13a26e7ce4f703c256",
+      "emphasis": [
+        {
+          "end": 754,
+          "kind": "strong",
+          "start": 752,
+          "text": "or"
+        },
+        {
+          "end": 793,
+          "kind": "strong",
+          "start": 787,
+          "text": "litter"
+        },
+        {
+          "end": 830,
+          "kind": "strong",
+          "start": 825,
+          "text": "mulch"
+        },
+        {
+          "end": 868,
+          "kind": "strong",
+          "start": 850,
+          "text": "litter for animals"
+        },
+        {
+          "end": 955,
+          "kind": "strong",
+          "start": 895,
+          "text": "agriculture, aquaculture, horticulture and forestry products"
+        },
+        {
+          "end": 1078,
+          "kind": "strong",
+          "start": 1067,
+          "text": "Agriculture"
+        },
+        {
+          "end": 1168,
+          "kind": "strong",
+          "start": 1160,
+          "text": "products"
+        },
+        {
+          "end": 1230,
+          "kind": "strong",
+          "start": 1219,
+          "text": "Aquaculture"
+        },
+        {
+          "end": 1302,
+          "kind": "strong",
+          "start": 1294,
+          "text": "products"
+        },
+        {
+          "end": 1366,
+          "kind": "strong",
+          "start": 1354,
+          "text": "Horticulture"
+        },
+        {
+          "end": 1437,
+          "kind": "strong",
+          "start": 1429,
+          "text": "products"
+        },
+        {
+          "end": 1486,
+          "kind": "strong",
+          "start": 1478,
+          "text": "Forestry"
+        },
+        {
+          "end": 1534,
+          "kind": "strong",
+          "start": 1526,
+          "text": "products"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -129,6 +209,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/5/2/5/1",
       "content_hash": "sha256:305e4916713d106bb8c56bf78a05e42dbbcc96d1b499bd6763de53367be6fab7",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -325,6 +406,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part32A/2/5/2/5/2",
       "content_hash": "sha256:961ee6c71997cbf303cdb80e32e49bafe47423307abf4aeeaeaedf091b18c7ff",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 32A Examination of Trade Marks for Plants (in Class 31)",
@@ -351,11 +433,29 @@
   ],
   "page": {
     "amendment_note": "Accessibility fix - remove empty headings",
+    "amendments": [
+      {
+        "date": "2025-10-24",
+        "reason": "Accessibility fix - remove empty headings"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:cf0d6be3a0cff6cb68bc8db6641dbc3bd158c93bcbd828b7a64e648cecfecef8",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-10-24",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "32A.2.5 Section 44: Comparison of Trade Marks",
     "images": [],
     "last_amended": "2025-10-24",

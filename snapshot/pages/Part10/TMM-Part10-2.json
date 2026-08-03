@@ -34,6 +34,26 @@
       "cases": [],
       "chunk_ref": "TMM/Part10/2#1",
       "content_hash": "sha256:65d632921e08514fc64b8d5dcd8d3d759d164b91599d453ec0dcb4c4879d6cfe",
+      "emphasis": [
+        {
+          "end": 1452,
+          "kind": "strong",
+          "start": 1448,
+          "text": "only"
+        },
+        {
+          "end": 1452,
+          "kind": "u",
+          "start": 1448,
+          "text": "only"
+        },
+        {
+          "end": 1991,
+          "kind": "i",
+          "start": 1971,
+          "text": "Trade Marks Act 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 10 Details of Formality Requirements",
@@ -85,11 +105,25 @@
   ],
   "page": {
     "amendment_note": "Turn off publish date, add Act/Reg links.",
+    "amendments": [
+      {
+        "date": "2025-01-17",
+        "reason": "Turn off publish date, add Act/Reg links."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-09",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:103a5207fd4cb6a8602428a0b9271966f9bd3725c22deab37b2ffd9307a53fc8",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-01-17",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "10.2. Formality requirements - Identity",
     "images": [],
     "last_amended": "2025-01-17",

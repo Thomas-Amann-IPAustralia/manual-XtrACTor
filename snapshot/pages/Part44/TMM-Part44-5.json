@@ -14,6 +14,44 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5#1",
       "content_hash": "sha256:ca8c5e7c5179883bf9a62630b49f0c5a27e5e9e34af7a82597416dd054d04569",
+      "emphasis": [
+        {
+          "end": 20,
+          "kind": "i",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "strong",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 20,
+          "kind": "u",
+          "start": 0,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 48,
+          "kind": "i",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "strong",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 48,
+          "kind": "u",
+          "start": 21,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -53,6 +91,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/1",
       "content_hash": "sha256:eec0e457b2a1453d70eb45df65d12f1652dc969639317cfcc7a5408cc6590ed3",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -95,6 +134,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/2",
       "content_hash": "sha256:423e17354dace567ce7cffe5f3109b0357dbce1771258bd7c928d9d5cc928845",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -171,6 +211,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/3",
       "content_hash": "sha256:61863c8256967397fa826e97ef7e7f3d3f1f16d7880ffc79fd94a1168b20817d",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -204,6 +245,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/4",
       "content_hash": "sha256:5a08a0a31d9f4460c160253ddafa1c76d5064ab670f7be406e5d033a8cf5ea5e",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -237,6 +279,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/5",
       "content_hash": "sha256:43091f1889f3bf254de709604f2ba7abf78445bc07d4ef72b90e1558e1066bd6",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -270,6 +313,7 @@
       "cases": [],
       "chunk_ref": "TMM/Part44/5/5/6",
       "content_hash": "sha256:27eab0fa0c1f0d153f063c64eb3c1cd02c36f5b68a4a8ebb6465f69f095c1d15",
+      "emphasis": [],
       "fragment": null,
       "heading_path": [
         "Part 44 Claim of Interest or Rights in a Trade Mark",
@@ -296,11 +340,33 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-25",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2024-05-16",
+        "reason": "Terminology updated to reflect legislative changes."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-10",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:597f7ae5ae8e70e31826f86340d83d20f1152bc74041c92070b94e7ea66abc53",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 44.5. Amending the record of a claim",
     "images": [],
     "last_amended": "2025-02-25",

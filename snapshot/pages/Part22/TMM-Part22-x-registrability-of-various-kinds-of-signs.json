@@ -35,6 +35,20 @@
       "cases": [],
       "chunk_ref": "TMM/Part22/x-registrability-of-various-kinds-of-signs#1",
       "content_hash": "sha256:c9f5e9b0c512de8ca39d5eae378e50e45ef3edfa8619a77477ecdaa6218c405b",
+      "emphasis": [
+        {
+          "end": 244,
+          "kind": "em",
+          "start": 47,
+          "text": "a sign used, or intended to be used, to distinguish goods or services dealt with or provided in the course of trade by a person from goods or services so dealt with or provided by any other person."
+        },
+        {
+          "end": 488,
+          "kind": "em",
+          "start": 295,
+          "text": "the following or any combination of the following, namely, any letter, word, name, signature, numeral, device, brand, heading, label, ticket, aspect of packaging, shape, colour, sound or scent."
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 22 Section 41 - Capable of Distinguishing",
@@ -92,11 +106,29 @@
   ],
   "page": {
     "amendment_note": "Minor update.",
+    "amendments": [
+      {
+        "date": "2022-12-19",
+        "reason": "Minor update."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:620e2e5acfec82a7abf72c90a8ac301b6d1ad8f7995dce2216764f032396e25f",
-    "crawled_at": "2026-07-29T13:31:27Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "22. Registrability of various kinds of signs",
     "images": [],
     "last_amended": "2022-12-19",

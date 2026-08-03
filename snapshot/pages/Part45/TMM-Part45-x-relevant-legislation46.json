@@ -30,6 +30,50 @@
       "cases": [],
       "chunk_ref": "TMM/Part45/x-relevant-legislation46#1",
       "content_hash": "sha256:fd27f82fba32a63b921f2c30c8780087961d024cb3c88a72c0a33092a53680ee",
+      "emphasis": [
+        {
+          "end": 15,
+          "kind": "strong",
+          "start": 0,
+          "text": "Part Published:"
+        },
+        {
+          "end": 53,
+          "kind": "i",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 53,
+          "kind": "strong",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 53,
+          "kind": "u",
+          "start": 33,
+          "text": "Trade Marks Act 1995"
+        },
+        {
+          "end": 310,
+          "kind": "i",
+          "start": 283,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 310,
+          "kind": "strong",
+          "start": 283,
+          "text": "Trade Mark Regulations 1995"
+        },
+        {
+          "end": 310,
+          "kind": "u",
+          "start": 283,
+          "text": "Trade Mark Regulations 1995"
+        }
+      ],
       "fragment": null,
       "heading_path": [
         "Part 45 Copies of Documents",
@@ -81,11 +125,25 @@
   ],
   "page": {
     "amendment_note": "Page renamed. Links updated.",
+    "amendments": [
+      {
+        "date": "2025-02-25",
+        "reason": "Page renamed. Links updated."
+      },
+      {
+        "date": "2022-04-20",
+        "reason": "Update hyperlinks"
+      },
+      {
+        "date": "2021-11-11",
+        "reason": null
+      }
+    ],
     "archived": false,
     "content_hash": "sha256:22e203d242cbb07988ae5a9d3232cab215c2cfcc2b8fd416b6fc05450021d82a",
-    "crawled_at": "2026-07-29T13:31:28Z",
+    "crawled_at": "2026-08-03T09:13:07Z",
     "date_published": "2025-02-25",
-    "extractor_version": "ingest/0.9.0",
+    "extractor_version": "ingest/0.10.0",
     "h1": "Part 45. Landing Page",
     "images": [],
     "last_amended": "2025-02-25",
