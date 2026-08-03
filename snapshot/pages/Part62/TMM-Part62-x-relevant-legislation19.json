@@ -163,74 +163,62 @@
       "page_ref": "TMM/Part62/x-relevant-legislation19",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s224(3A)",
           "mention": "Section 224(3A)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A",
           "mention": "Section 84A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84B",
           "mention": "Section 84B"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84C",
           "mention": "Section 84C"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84D",
           "mention": "Section 84D"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42A",
           "mention": "Reg 17A.42A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42B",
           "mention": "Reg 17A.42B"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42C",
           "mention": "Reg 17A.42C"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42D",
           "mention": "Reg 17A.42D"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42E",
           "mention": "Reg 17A.42E"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42F",
           "mention": "Reg 17A.42F"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r8.1A",
           "mention": "Reg 8.1A"
         }
@@ -253,9 +241,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:0bc20f5f308b47a11ffa55e3f8f28d058ae70157bcf8b085830130ce696f16b2",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

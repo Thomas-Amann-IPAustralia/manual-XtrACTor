@@ -249,6 +249,25 @@ implementing any of it, raise the scope question rather than deciding it.
 
 ## T12 — Provision hrefs that are not AustLII
 
+**Landed as `ingest/0.11.0`, half accepted and half declined.** Both scope
+questions below were settled in `SCHEMA.md` §`provisions` and
+`SOURCE_NOTES.md` §35 before `citations.py` was touched, as this task asked.
+
+**Decision 1 — TimeBase: taken.** 101 anchors, 44 distinct URLs, two
+instruments. 4 edges added, 76 upgraded out of `regex` (67 `default`, 8
+`explicit`, 1 `ambiguous`), 0 removed. Cross-corpus resolution 2,611/2,687 →
+2,615/2,691. The 13 provisions linked to both sites in one passage agree in all
+13, which is the check that the grammar is read right.
+
+**Decision 2 — Federal Register: declined**, with the counts. The 475 anchors
+resolve to 9 distinct URLs, and the two commonest name the Act and the
+Regulations *together* as boilerplate on nearly every Relevant Legislation
+page. Using them as a scope signal would put both instruments in scope every
+time, which §21 already established is not an ambiguity and is exactly the
+noise that made 39% of regex edges ambiguous before it was fixed.
+
+The original statement of the task follows.
+
 **Not started.** Opened by the 0.7.0 review so the gap is tracked rather than
 rediscovered. It is a change to what `extraction: "href"` asserts, which is why
 it was not folded into the change that found it.
@@ -279,8 +298,10 @@ not implementation details:
    on it is filtering for that. Adding a second URL vocabulary is fine; doing it
    silently is not, because it changes what an existing filter returns.
 
-**Done:** not applicable — raise the scope question first, with counts, and
-decide 1 and 2 in `SCHEMA.md` before touching `citations.py`.
+**Done:** both scope questions raised with counts and decided in `SCHEMA.md`
+and `SOURCE_NOTES.md` §35 before `citations.py` was touched; `pytest -q` green;
+both validators clean; `--from-raw --force --dry-run` reports 0 against the
+rebuilt corpus.
 
 ---
 

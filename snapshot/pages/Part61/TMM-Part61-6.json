@@ -49,14 +49,12 @@
       "page_ref": "TMM/Part61/6",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
           "mention": "Section 217A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s30",
           "mention": "section 30"
         }
@@ -79,9 +77,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:308833a3d813ebf1e7155edd6861fd3c70f9fb58088242861b3a240981cd0492",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61.6. Policy in relation to TM Headstart",
     "images": [],
     "last_amended": "2022-04-20",

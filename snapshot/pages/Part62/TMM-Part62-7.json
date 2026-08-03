@@ -32,8 +32,7 @@
       "page_ref": "TMM/Part62/7",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s224",
           "mention": "section 224"
         }
@@ -56,9 +55,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:f6907e37ceb485a70ef6d40b9d00b0ec4c917db4156334f91e40e4d2f0a70506",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.7. Extension of time",
     "images": [],
     "last_amended": "2022-04-20",

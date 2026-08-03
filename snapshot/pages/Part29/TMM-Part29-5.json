@@ -491,10 +491,9 @@
       "page_ref": "TMM/Part29/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s43",
-          "mention": "section 43"
+          "mention": "s"
         }
       ],
       "tables": [],
@@ -766,9 +765,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:0fd2a73bd04dc23a651620b7d1a353f75175c1ecfd3b4f4309cba1565a249980",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-23",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "29.5. International Non-Proprietary Names (generic names for pharmaceutical substances) and INN stems",
     "images": [],
     "last_amended": "2025-10-23",

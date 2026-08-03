@@ -42,8 +42,7 @@
           "mention": "section 11C"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
           "mention": "section 217A"
         }
@@ -151,10 +150,14 @@
       "page_ref": "TMM/Part61/2",
       "provisions": [
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
-          "mention": "section 217A of the Trade Marks Act 1995"
+          "mention": "section 217A"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/sch9",
+          "mention": "Schedule 9"
         }
       ],
       "tables": [],
@@ -567,9 +570,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:d2a0d695f9d149f332d6fcfcfd2a62ccaa3a9971804229526731107da57b3d84",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61.2. Accessing Documents",
     "images": [],
     "last_amended": "2022-04-20",

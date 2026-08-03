@@ -532,10 +532,29 @@ with a dot, the Regulations number all of theirs with one). A regex edge failing
 either is dropped at extraction. `SOURCE_NOTES.md` §§20, 32.
 
 **`extraction`** — `href` or `regex`, and the distinction is load-bearing.
-The Manual hyperlinks Act sections to AustLII, so an `href` edge is the authors
-telling you what the paragraph is about. A `regex` edge is our inference from
-seeing "section 41" in prose. Both are useful; only one is near-certain. Collapse
-them into one field and you lose the only signal separating them.
+An `href` edge is the authors telling you what the paragraph is about. A
+`regex` edge is our inference from seeing "section 41" in prose. Both are
+useful; only one is near-certain. Collapse them into one field and you lose the
+only signal separating them.
+
+**Two URL vocabularies count as `href`.** The Manual links its provisions to
+AustLII, which puts the address in the path, and to TimeBase, which puts it in
+a query string — `?id=tmact:217a` is section 217A. Until `ingest/0.11.0` only
+the first was read, so 101 anchors stating a provision outright reached the
+snapshot through the prose alone; reading them upgraded 76 edges out of
+`regex`, including one from `ambiguous`, and added 4. Nothing about what
+`extraction` *means* changed — both vocabularies are the authors' own statement
+— but what an existing filter returns did, which is why it shipped in its own
+version. `SOURCE_NOTES.md` §35.
+
+Federal Register links are deliberately **not** read. A Register id names an
+instrument and nothing narrower, and the corpus's 475 such anchors resolve to
+9 distinct URLs, two of which sit together as boilerplate naming the Act and
+the Regulations at once on nearly every Relevant Legislation page. §35 has the
+argument.
+
+A consumer that wants specifically AustLII-backed edges still can: every href
+is verbatim in `links`, and the join is one filter.
 
 **`certainty`** — for regex edges. `explicit` means the instrument was named
 adjacent. `default` means a bare "section N", assumed to be the Trade Marks Act

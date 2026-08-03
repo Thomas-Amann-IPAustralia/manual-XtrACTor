@@ -1056,7 +1056,13 @@
       ],
       "ordinal": 14,
       "page_ref": "TMM/Part28/3",
-      "provisions": [],
+      "provisions": [
+        {
+          "extraction": "href",
+          "id": "TMA1995/s44(3)(a)",
+          "mention": "para 44(3)(a)"
+        }
+      ],
       "tables": [],
       "text": "... the applicant's period of use had been very limited: about one month in the first instance and about seven months in the second ... I find it difficult to concede that any amount of use, no matter how great in monetary terms, in such a short period would be sufficient to meet the overall requirement that the use be substantial and of real commercial value. As a general guide, if an honestly adopted trade mark has been used extensively for 10 years or so before its priority date, then the provisions of para 44(3)(a) can most likely be applied. Where the likelihood of confusion is not so great, evidence of considerably shorter periods of use and lower levels of turnover will suffice."
     },
@@ -1327,9 +1333,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:5a9a92e7d8c93bd450e6d638ee9ff2085ed1604a97e04986b8c809506368b2cc",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-06-17",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "28.3. Examining evidence of honest concurrent use - the five criteria",
     "images": [],
     "last_amended": "2026-06-17",

@@ -95,32 +95,27 @@
       "page_ref": "TMM/Part62/3",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(3)",
           "mention": "Subsection 84A(3)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(3)(a)",
           "mention": "Paragraph 84A(3)(a)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(3)(b)",
           "mention": "paragraph 84A(3)(b)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(3)(c)",
           "mention": "Paragraph 84A(3)(c)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(3)(d)",
           "mention": "Paragraph 84A(3)(d)"
         }
@@ -147,9 +142,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:6d41e4c546bac55c32c51db5c36e35cd779ab11149d8ba0f42fe2fe3850e9e9c",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.3. Factors to be taken into account before deciding whether revocation of registration is reasonable",
     "images": [],
     "last_amended": "2022-04-20",

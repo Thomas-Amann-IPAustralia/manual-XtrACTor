@@ -894,3 +894,99 @@ def test_a_bare_kind_neutral_word_still_reads_as_a_section():
     assert "TMA1995/s44(3)(a)" in by_id(
         provisions("<p>Rejected under paragraph 44(3)(a).</p>")
     )
+
+
+# -- §35 provisions from TimeBase hrefs -----------------------------------
+
+
+def test_a_timebase_href_is_an_href_edge():
+    """SOURCE_NOTES.md §35. The Manual links its provisions two ways, and both
+    are the authors stating what the passage is about. The address is in the
+    query string rather than the path; nothing else differs."""
+    found = provisions(
+        '<p>See <a href="http://www.timebase.com.au/IPAust/index.cfm?id='
+        'tmact:217a">Section 217A</a> for the fee.</p>'
+    )
+
+    assert found == [
+        {"id": "TMA1995/s217A", "extraction": "href", "mention": "Section 217A"}
+    ]
+
+
+def test_a_timebase_regulation_takes_its_symbol_from_the_instrument():
+    found = provisions(
+        '<p><a href="http://www.timebase.com.au/IPAust/index.cfm?id='
+        'tmreg:21.11a">Regulation 21.11A</a></p>'
+    )
+
+    assert [record["id"] for record in found] == ["TMR1995/r21.11A"]
+
+
+def test_a_timebase_schedule_addresses_the_schedule():
+    """The same segment the AustLII `sch` prefix produces, and the same ref the
+    legislation snapshot holds — so either route is a foreign key onto it."""
+    found = provisions(
+        '<p><a href="http://www.timebase.com.au/IPAust/index.cfm?id='
+        'tmreg:sch9">Schedule 9</a></p>'
+    )
+
+    assert [record["id"] for record in found] == ["TMR1995/sch9"]
+
+
+def test_a_timebase_anchor_s_words_carry_the_subsection():
+    """`_addressed` is shared with the AustLII path, so the anchor-words rule
+    applies identically: the link carries the provision and its own words carry
+    the detail the sentence is about."""
+    found = provisions(
+        '<p><a href="http://www.timebase.com.au/IPAust/index.cfm?id='
+        'tmact:44">subsections 44(1) and 44(2)</a></p>'
+    )
+
+    assert [record["id"] for record in found] == ["TMA1995/s44(1)", "TMA1995/s44(2)"]
+
+
+def test_an_unknown_timebase_fragment_raises():
+    """The precedent `UnknownInstrument` sets for AustLII, and stricter for a
+    reason: a TimeBase fragment carries no year, so there is nothing in it to
+    derive an instrument from the way `_DB_FRAGMENT` can."""
+    with pytest.raises(UnknownInstrument):
+        provisions(
+            '<p><a href="http://www.timebase.com.au/IPAust/index.cfm?id='
+            'patact:15">section 15</a></p>'
+        )
+
+
+def test_a_timebase_link_beats_the_guess_from_the_prose(sitemap):
+    """Part 61.2 is the case SOURCE_NOTES.md §29 opened and §35 closes.
+
+    Three references to section 217A on the page, two of them hyperlinked to
+    TimeBase rather than AustLII. Every one of them used to be recorded as a
+    guess from the prose while the authors' own statement sat in an href
+    nobody was reading.
+    """
+    chunks = chunk_texts("part61_2", sitemap)
+
+    edges = [
+        edge
+        for chunk in chunks.values()
+        for edge in chunk.provisions
+        if edge["id"] == "TMA1995/s217A"
+    ]
+
+    assert edges, "Part 61.2 cites section 217A"
+    assert any(edge["extraction"] == "href" for edge in edges), (
+        "the TimeBase anchors on this page state section 217A outright"
+    )
+
+
+def test_a_federal_register_link_is_not_a_provision_edge():
+    """T12's second decision, declined. `C2004A04969` names the Trade Marks Act
+    and nothing narrower, so there is no provision in it to extract — and the
+    475 anchors in the corpus resolve to 9 distinct URLs, two of which sit
+    together as boilerplate naming the Act and the Regulations at once."""
+    found = provisions(
+        '<p>See the <a href="https://www.legislation.gov.au/C2004A04969/latest/'
+        'text">Trade Marks Act 1995 (Cth)</a>.</p>'
+    )
+
+    assert found == []

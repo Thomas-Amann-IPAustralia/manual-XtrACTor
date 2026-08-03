@@ -51,14 +51,12 @@
       "page_ref": "TMM/Part61/1",
       "provisions": [
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
-          "mention": "Section 217A of the Trade Marks Act 1995"
+          "mention": "Section 217A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r21.11A",
           "mention": "regulation 21.11A"
         },
@@ -262,9 +260,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:837ed6b25a312263d90a0d6213ae6d677a6d91c61bf61418be14b5bd1026e0e4",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-07-28",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61.1. Availability of Documents",
     "images": [],
     "last_amended": "2022-07-29",

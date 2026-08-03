@@ -77,26 +77,22 @@
       "page_ref": "TMM/Part62/1",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A",
-          "mention": "Sections 84A to 84D"
+          "mention": "Sections 84A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A(6)",
           "mention": "subsection 84A(6)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84D",
-          "mention": "Sections 84A to 84D"
+          "mention": "84D"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s86",
           "mention": "section 86"
         }
@@ -123,9 +119,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:79c51fc169acae1e73e15dcb83253f0f09c9f86372344a9366086934fb76f6f3",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.1. What is revocation of registration?",
     "images": [],
     "last_amended": "2022-04-20",

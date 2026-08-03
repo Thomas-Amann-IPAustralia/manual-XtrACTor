@@ -73,8 +73,7 @@
           "mention": "s 65 of the Act"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s65(7)",
           "mention": "subsection 65(7)"
         }
@@ -847,9 +846,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:adc2ae74e77efd5ad5f1c72c5b590430fe18d2e669343448fbf65171c83fe631",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27.3. Amending the goods and/or services of the applicant's specification",
     "images": [],
     "last_amended": "2023-10-10",

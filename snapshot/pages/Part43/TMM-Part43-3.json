@@ -433,10 +433,9 @@
           "mention": "section 28 of the Act,"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s69(3)",
-          "mention": "subsection 69(3)"
+          "mention": "subsection 69(3)."
         }
       ],
       "tables": [],
@@ -547,10 +546,9 @@
           "mention": "109(2)(b)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s174",
-          "mention": "subsection 174"
+          "mention": "subsection 174."
         },
         {
           "extraction": "href",
@@ -589,9 +587,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:c87c56fb8a69ceafc86a254a5d47224f269ddaad1ebc498441c7d1b280951703",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.3. Application to record assignment etc",
     "images": [],
     "last_amended": "2022-04-20",

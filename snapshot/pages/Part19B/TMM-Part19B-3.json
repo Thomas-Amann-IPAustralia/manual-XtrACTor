@@ -132,8 +132,7 @@
           "mention": "subsection 121(2)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s132",
           "mention": "section 132"
         },
@@ -207,9 +206,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:3cc506332cbf74852f2bdfca295a6704adc9643698295266197c106f1372ae0c",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19B.3. Rights of an authorised user of a registered trade mark",
     "images": [],
     "last_amended": "2022-04-20",

@@ -74,16 +74,14 @@
           "mention": "s 44."
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s45",
-          "mention": "ss 45 and 46"
+          "mention": "45"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s46",
-          "mention": "ss 45 and 46"
+          "mention": "46"
         }
       ],
       "tables": [],
@@ -116,9 +114,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:79a11b9c274bdbd324744afc6f58abf27660729b357b1e09af46b7e86b6eb213",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2023-10-10",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27.7. Dividing the application",
     "images": [],
     "last_amended": "2023-10-10",

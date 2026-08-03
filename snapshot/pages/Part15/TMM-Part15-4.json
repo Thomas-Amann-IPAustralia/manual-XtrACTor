@@ -441,8 +441,7 @@
       "page_ref": "TMM/Part15/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s203",
           "mention": "section 203"
         }
@@ -465,9 +464,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:b8072370aebcb652e18cff9e9d9bcb236c0b362cb929bab2ca0a3487fa5ab910",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "15.4. Grounds on which the Registrar may grant an extension of time",
     "images": [],
     "last_amended": "2022-04-20",

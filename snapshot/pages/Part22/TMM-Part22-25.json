@@ -179,8 +179,7 @@
           "mention": "s 41(3)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41(4)",
           "mention": "s 41(4)"
         }
@@ -731,9 +730,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:982d417d990abd9098ebd89d4c6d7f519beb84b58d3a3d77d7eff442999f27ac",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2025-10-31",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.25. Devices",
     "images": [
       {

@@ -131,8 +131,7 @@
           "mention": "Section 41"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41(4)",
           "mention": "section 41(4)"
         },
@@ -165,9 +164,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:e7812b01618417f22101d0fea330f4dc33d8c0deedcc8ee0b7f7c1f0c2af2221",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.5. Trade marks considered to have limited inherent adaptation to distinguish",
     "images": [],
     "last_amended": "2022-12-19",

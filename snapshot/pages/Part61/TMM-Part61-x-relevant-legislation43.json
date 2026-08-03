@@ -79,20 +79,17 @@
       "page_ref": "TMM/Part61/x-relevant-legislation43",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s217A",
           "mention": "Section 217A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s226A",
           "mention": "Section 226A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r21.11A",
           "mention": "Regulation 21.11A"
         }
@@ -119,9 +116,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:98d6999edd226894df25651bb2b433b228b9abb1432f308859d47dc1a91b5d8f",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "61. Relevant Legislation",
     "images": [],
     "last_amended": "2022-04-20",

@@ -32,8 +32,7 @@
       "page_ref": "TMM/Part62/9",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42E",
           "mention": "Regulation 17A.42E"
         }
@@ -56,9 +55,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:7cce6fbd2b3737a0a41943adf65453a9c82f0f902ec6cfac1367750bd9b16dd5",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.9. Registrar must notify Customs if protection of a PITM is revoked",
     "images": [],
     "last_amended": "2022-04-20",

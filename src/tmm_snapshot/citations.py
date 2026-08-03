@@ -55,6 +55,20 @@ AUSTLII_INSTRUMENTS: dict[str, str] = {
     "aia1901230": "AIA1901",
 }
 
+#: TimeBase database fragments, and the second URL vocabulary that counts as
+#: the Manual's authors stating a provision. `SOURCE_NOTES.md` §35.
+#:
+#: `http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a` is section 217A
+#: and `?id=tmreg:21.11a` is regulation 21.11A — the whole address is in the
+#: query string, in the same grammar `_AUSTLII_PROVISION` reads out of a path.
+#: 101 anchors, 44 distinct URLs, and the Manual links to only these two
+#: instruments this way.
+#:
+#: Unlike AustLII's fragments these carry no year, so nothing can be derived
+#: from an unseen one — which is why this is a closed map and an unknown
+#: fragment raises rather than being guessed at.
+TIMEBASE_INSTRUMENTS: dict[str, str] = {"tmact": "TMA1995", "tmreg": "TMR1995"}
+
 #: Instrument titles the extractor can attribute a reference to. Matching is on
 #: the full title including the year: 'the Act' is deliberately absent, because
 #: it is anaphoric and resolving it is what SOURCE_NOTES.md §4 forbids.
@@ -134,6 +148,15 @@ _AUSTLII_PROVISION = re.compile(
 AUSTLII_NODE_PREFIXES: dict[str, str | None] = {"s": None, "r": None, "sch": "sch"}
 
 _DB_FRAGMENT = re.compile(r"^(?P<abbr>[a-z]{2,8})(?P<year>(?:1[6-9]|20)\d{2})\d*$")
+
+#: A provision on TimeBase: the id is `<db>:<node>` in the query string.
+#: `sch9` is a Schedule and takes the same segment AustLII's `sch` prefix does,
+#: so `TMR1995/sch9` is the ref either route arrives at.
+_TIMEBASE_PROVISION = re.compile(
+    r"timebase\.com\.au/IPAust/index\.cfm\?id="
+    r"(?P<db>[a-z]+):(?P<node>(?:sch)?[0-9][0-9a-z.]*)",
+    re.IGNORECASE,
+)
 
 #: A provision address: '41', '41(3)', '44(3)(a)', '4.15', '6A', '21.11A'.
 #: A letter suffix rides on any dotted component, not only the first: the
@@ -281,51 +304,95 @@ def _canonical_address(address: str) -> str:
     return number.upper() + parenthesis + subsection
 
 
-def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
-    """(provision id, mention) from AustLII hyperlinks, in document order.
+def _addressed(instrument: str, symbol: str, node: str, mention: str) -> list[str]:
+    """The provision ids one hyperlink asserts, given its node and its words.
 
-    The link carries the section; the link's own words carry any subsection.
-    'sections 41(3) or 41(4)' hanging off /s41.html is two provisions, both
-    stated by the authors, and flattening them to `s41` would lose the detail
-    the sentence is actually about.
+    Shared by both URL vocabularies, because the reading is the same once the
+    instrument and the node are known. The link carries the section; the link's
+    own words carry any subsection. 'sections 41(3) or 41(4)' hanging off
+    /s41.html is two provisions, both stated by the authors, and flattening
+    them to `s41` would lose the detail the sentence is actually about.
+
+    A Schedule node has no subsection detail to read out of the anchor's words,
+    and its segment is the one the legislation snapshot uses for that Schedule,
+    so the id is a foreign key onto it exactly as a section id is.
+    """
+    if SCHEDULE_ADDRESS.match(node):
+        return [f"{instrument}/{node}"]
+
+    number = _canonical_address(node)
+    detailed = [
+        _canonical_address(found.group("number")) + found.group("sub")
+        for found in _ANCHOR_ADDRESS.finditer(mention)
+        if _canonical_address(found.group("number")) == number
+    ]
+    return [f"{instrument}/{symbol}{address}" for address in detailed or [number]]
+
+
+def _href_edges(fragment: Tag) -> list[tuple[str, str]]:
+    """(provision id, mention) from hyperlinks, in document order.
+
+    **Two URL vocabularies count, not one.** An `extraction: "href"` edge means
+    *the Manual's authors hyperlinked this provision*, and they do it two ways:
+    to AustLII, which puts the address in the path, and to TimeBase, which puts
+    it in a query string. Until `ingest/0.11.0` only the first was read, so 101
+    anchors stating a provision outright reached the snapshot through the prose
+    alone — 29 of them reached it not at all. `SOURCE_NOTES.md` §§29, 35.
+
+    Both are the authors' own statement of what a passage is about, which is
+    the only thing `extraction` has ever distinguished. Neither is a pattern
+    match over words.
     """
     edges: list[tuple[str, str]] = []
 
     for anchor in fragment.find_all("a", href=True):
-        match = _AUSTLII_PROVISION.search(str(anchor["href"]))
-        if match is None:
-            continue
-
-        instrument = _instrument_from_db(match.group("db"))
-        prefix = match.group("prefix").lower()
-        if prefix not in AUSTLII_NODE_PREFIXES:
-            raise UnknownInstrument(
-                f"AustLII node prefix {prefix!r} in {anchor['href']!r} is not "
-                "one this module can read; add it to AUSTLII_NODE_PREFIXES "
-                "rather than letting the citation through addressed as a "
-                "section of its instrument"
-            )
-        segment = AUSTLII_NODE_PREFIXES[prefix]
+        href = str(anchor["href"])
         mention = flatten_text(anchor)
 
-        if segment is not None:
-            # A Schedule. It has no subsection detail to read out of the
-            # anchor's words, and the segment is the one the legislation
-            # snapshot uses for the same Schedule, so the id is a foreign key
-            # onto it exactly as a section id is.
-            edges.append((f"{instrument}/{segment}{match.group('node').lower()}", mention))
+        austlii = _AUSTLII_PROVISION.search(href)
+        if austlii is not None:
+            instrument = _instrument_from_db(austlii.group("db"))
+            prefix = austlii.group("prefix").lower()
+            if prefix not in AUSTLII_NODE_PREFIXES:
+                raise UnknownInstrument(
+                    f"AustLII node prefix {prefix!r} in {href!r} is not "
+                    "one this module can read; add it to AUSTLII_NODE_PREFIXES "
+                    "rather than letting the citation through addressed as a "
+                    "section of its instrument"
+                )
+            segment = AUSTLII_NODE_PREFIXES[prefix]
+            node = austlii.group("node").lower()
+            if segment is not None:
+                node = f"{segment}{node}"
+            symbol = "s" if austlii.group("kind").lower() == "act" else "r"
+            edges.extend(
+                (identifier, mention)
+                for identifier in _addressed(instrument, symbol, node, mention)
+            )
             continue
 
-        symbol = "s" if match.group("kind").lower() == "act" else "r"
-        number = _canonical_address(match.group("node").lower())
-
-        detailed = [
-            _canonical_address(found.group("number")) + found.group("sub")
-            for found in _ANCHOR_ADDRESS.finditer(mention)
-            if _canonical_address(found.group("number")) == number
-        ]
-        for address in detailed or [number]:
-            edges.append((f"{instrument}/{symbol}{address}", mention))
+        timebase = _TIMEBASE_PROVISION.search(href)
+        if timebase is not None:
+            database = timebase.group("db").lower()
+            instrument = TIMEBASE_INSTRUMENTS.get(database)
+            if instrument is None:
+                raise UnknownInstrument(
+                    f"TimeBase database fragment {database!r} in {href!r} is "
+                    "not one this module can read; add it to "
+                    "TIMEBASE_INSTRUMENTS rather than letting the citation "
+                    "through attributed to the wrong instrument. Unlike an "
+                    "AustLII fragment it carries no year, so there is nothing "
+                    "here to derive one from"
+                )
+            edges.extend(
+                (identifier, mention)
+                for identifier in _addressed(
+                    instrument,
+                    instrument_kind(instrument),
+                    timebase.group("node").lower(),
+                    mention,
+                )
+            )
 
     return edges
 

@@ -126,8 +126,7 @@
           "mention": "180A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r10.1",
           "mention": "reg 10.1"
         },
@@ -155,9 +154,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:2ac4632d30a883c433deb5fce1766d54a16293478cce0ae9ad03e8a6fb2594c6",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "43.7. Transmission of certification trade marks",
     "images": [],
     "last_amended": "2022-04-20",

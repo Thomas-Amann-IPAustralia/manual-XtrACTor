@@ -1191,10 +1191,9 @@
           "mention": "section 15(1)(e)"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s42(b)",
-          "mention": "section 42(b) of the Trade Marks Act 1995"
+          "mention": "section 42(b)"
         }
       ],
       "tables": [],
@@ -1533,14 +1532,12 @@
           "mention": "section 39 of the Trade Marks Act 1995"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s39(2)",
-          "mention": "section 39(2) of the Trade Marks Act 1995"
+          "mention": "section 39(2)"
         },
         {
-          "certainty": "ambiguous",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s65",
           "mention": "section 65"
         },
@@ -1676,10 +1673,9 @@
       "page_ref": "TMM/Part30/3",
       "provisions": [
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s42(b)",
-          "mention": "section 42(b) of the Trade Marks Act 1995"
+          "mention": "section 42(b)"
         },
         {
           "certainty": "ambiguous",
@@ -1937,10 +1933,9 @@
           "mention": "section 42"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s42(b)",
-          "mention": "section 42(b) of the Trade Marks Act 1995"
+          "mention": "section 42(b)"
         },
         {
           "certainty": "ambiguous",
@@ -2697,10 +2692,9 @@
           "mention": "section 28(2)"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s42(b)",
-          "mention": "section 42(b) of the Trade Marks Act 1995"
+          "mention": "section 42(b)"
         },
         {
           "certainty": "default",
@@ -2971,9 +2965,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:695ecc1e422f4a765153d8cb1031f316185f0859238717ada0e5efcf0fc83969",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-21",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "30.3. Use contrary to law",
     "images": [
       {

@@ -639,8 +639,7 @@
           "mention": "section 2"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s42(a)",
           "mention": "paragraph 42(a)"
         }
@@ -933,8 +932,7 @@
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s44",
           "mention": "Section 44"
         }
@@ -993,16 +991,14 @@
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s44(1)",
-          "mention": "subsections 44(1) and 44(2)"
+          "mention": "subsections 44(1)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s44(2)",
-          "mention": "subsections 44(1) and 44(2)"
+          "mention": "44(2)"
         }
       ],
       "tables": [],
@@ -1070,8 +1066,7 @@
       "page_ref": "TMM/Part20/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s44",
           "mention": "section 44"
         }
@@ -1102,9 +1097,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:df5138cb93995c6657eae82a9e02ef1a1ab06bd1b8e44b018d5c817650e42adc",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "20.5. Grounds for rejection and the presumption of registrability",
     "images": [],
     "last_amended": "2022-04-20",

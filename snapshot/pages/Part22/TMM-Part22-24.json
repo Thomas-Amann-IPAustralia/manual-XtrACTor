@@ -166,8 +166,7 @@
       "page_ref": "TMM/Part22/24",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41",
           "mention": "section 41"
         }
@@ -202,9 +201,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:3da09d14dff60d584418e8451d9f2ec21357d826936af1d38a9ca74658e62577",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-12-19",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "22.24. Trade marks for pharmaceutical or veterinary substances",
     "images": [],
     "last_amended": "2022-12-19",

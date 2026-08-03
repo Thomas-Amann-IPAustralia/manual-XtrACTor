@@ -84,8 +84,7 @@
           "mention": "section 44"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s84A",
           "mention": "Section 84A"
         }
@@ -112,9 +111,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:d415e78df17fd916a836be53e30bdeec0c69705044693dc57d7678ef4da2c3b8",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.4. Circumstances under which registration may be revoked",
     "images": [],
     "last_amended": "2022-04-20",

@@ -1000,8 +1000,7 @@
       "page_ref": "TMM/Part21/3",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41",
           "mention": "section 41"
         },
@@ -1154,9 +1153,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:eb1131b3e1fe08f2d992092e4aaa0133be8a49b7c1a702d92ded2ad25c5ff653",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-05-13",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "21.3. Shape (three-dimensional) trade marks",
     "images": [],
     "last_amended": "2026-05-13",

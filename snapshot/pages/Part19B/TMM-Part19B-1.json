@@ -147,8 +147,7 @@
           "mention": "subsection 22(4)"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s6",
           "mention": "section 6"
         }
@@ -171,9 +170,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:cdb4518f64bbb773a20825222e122590ba994af36728da579cc63acd28f591bd",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19B.1. The trade mark as property",
     "images": [],
     "last_amended": "2022-04-20",

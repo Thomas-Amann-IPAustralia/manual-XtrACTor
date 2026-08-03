@@ -1,5 +1,28 @@
 # Review of the 0.9.0 extraction — information loss, and deterministic headroom
 
+> **All four findings acted on, in `ingest/0.10.0` and `ingest/0.11.0`, plus
+> the legislation `--dry-run` note at the end.** Findings 1 and 2 landed
+> together as `ingest/0.10.0` and Finding 3 as `ingest/0.11.0`, for the reasons
+> §Recommended order gives. The rules that replaced this document live in
+> `SOURCE_NOTES.md` §§5, 34, 35, `SCHEMA.md` §The page record and §`provisions`,
+> and the `emphasis` entries in both schemas.
+>
+> **One number in Finding 3 was wrong.** It predicted 29 new provision edges
+> and 58 upgrades. The measured result is **4 new and 76 upgraded**, 0 removed.
+> The estimate compared a TimeBase link's bare provision number against the
+> chunk's existing edges, where `_href_edges` reads the anchor's own words
+> first: an anchor reading *"subsections 44(1) and 44(2)"* over a link to
+> section 44 asserts `s44(1)` and `s44(2)`, which the prose had usually already
+> produced. So most of what the probe scored as a new edge is an upgrade of an
+> existing one — the better outcome of the two, since no edge is invented and
+> 76 rather than 58 stop being guesses. `SOURCE_NOTES.md` §35.
+>
+> Finding 4 was implemented as part of Finding 3 rather than separately: the
+> shared `_addressed` helper made the Schedule case free, and the 23
+> container-level AustLII links are still not read, because a container is not
+> a provision and `provisions[]` has nowhere to put one. That remains open and
+> is smaller than this document implied.
+
 An audit of `ingest/0.9.0` and `legislation/0.2.0` asking two questions, and
 only these two:
 

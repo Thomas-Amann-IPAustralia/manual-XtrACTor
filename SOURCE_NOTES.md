@@ -1748,3 +1748,85 @@ and cannot recover them.
 **So a consumer counting emphasised spans should deduplicate on
 `(kind, start, end)`**, which gives 4,953. A consumer asking *did the Manual
 set these words apart* does not need to: the answer is the same either way.
+
+---
+
+## 35. The Manual links its provisions to two sites, not one
+
+§29 counted the anchors that reached no field and named the worst of them:
+Part 61.2 links *section 217A* to TimeBase rather than to AustLII, so the
+citation layer never read the href and the passage recorded the reference as a
+guess from its prose. `links` made the href visible in `ingest/0.7.0`. This is
+the other half — reading it.
+
+```
+https://austlii.edu.au/.../consol_act/tma1995121/s41.html   the address is the path
+http://www.timebase.com.au/IPAust/index.cfm?id=tmact:217a   the address is the query
+```
+
+**101 anchors, 44 distinct URLs**, and only two instruments: `tmact` is the
+Trade Marks Act and `tmreg` the Regulations. `?id=tmreg:21.11a` is regulation
+21.11A and `?id=tmreg:sch9` is Schedule 9, which is the same segment AustLII's
+`sch` prefix produces and the same ref the legislation snapshot holds.
+
+### What it moved
+
+| | Edges |
+|---|---|
+| Added — a provision the corpus did not have at this passage at all | 4 |
+| `regex`/`default` → `href` | 67 |
+| `regex`/`explicit` → `href` | 8 |
+| `regex`/`ambiguous` → `href` | 1 |
+| Removed | **0** |
+
+The 13 provisions linked to *both* sites in the same passage are the check that
+the grammar is read right: the two vocabularies agree on the provision in all
+13. The one `ambiguous` upgrade is the strongest single case — a passage the
+schema says never to hydrate from, where the authors had hyperlinked the answer
+all along.
+
+Cross-corpus resolution went from 2,611/2,687 to 2,615/2,691.
+
+### Why so few new edges
+
+An earlier estimate in `REVIEW-0.9.0.md` said 29 new and 58 upgraded. The real
+split is 4 and 76, and the difference is instructive: the estimate compared a
+TimeBase link's *bare* provision number against the chunk's edges, while
+`_href_edges` reads the anchor's own words first. An anchor reading
+*"subsections 44(1) and 44(2)"* over a link to section 44 asserts `s44(1)` and
+`s44(2)`, both of which the prose had usually already produced — so what looked
+like a new edge is an upgrade of an existing one. Upgrading is the better
+outcome: no edge is invented, and 76 rather than 58 stop being guesses.
+
+### Federal Register links: 475 anchors, and deliberately not read
+
+`TASKS.md` §T12 proposed using them as evidence of *which instrument* a nearby
+reference means, lifting `default` to `explicit`. **Declined**, and the counts
+are why. The 475 anchors resolve to **9 distinct URLs**, and the two commonest
+are `C2004A04969/latest/text` (the Act) and `F1996B00084/latest/text` (the
+Regulations), which appear *together* as boilerplate on the Relevant
+Legislation page of nearly every Part. An href-derived scope signal there would
+put both instruments in scope on the same page every time — and §21 already
+settled what that means: naming the Act and the Regulations together is not an
+ambiguity, and treating it as one is what made 39% of the corpus's regex edges
+ambiguous before it was fixed. This would reintroduce the same noise through a
+different door, for a signal that is boilerplate rather than authorial.
+
+A Federal Register id also names an instrument and nothing narrower, so there
+is no provision in one to extract even where it is not boilerplate.
+
+Worth recording separately: `C2004A04969` is the `title_id` on
+`snapshot/legislation/TMA1995/instrument.json`. The two halves of this
+repository independently agree on the instrument's permanent Register
+identifier. That is a free consistency check, not an edge.
+
+### What `extraction: "href"` now means
+
+*The Manual's authors hyperlinked this provision*, via either vocabulary. That
+is what the field has always distinguished — an authorial statement from a
+pattern match over words — and both URL shapes are the first. A consumer that
+wants specifically AustLII-backed edges can still have them: every href is
+verbatim in `chunk.links`, and the join is one filter.
+
+The change is nonetheless visible to an existing filter on `extraction`, which
+is why it shipped in its own commit and its own version, `ingest/0.11.0`.

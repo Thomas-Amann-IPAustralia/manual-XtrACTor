@@ -69,10 +69,9 @@
           "mention": ")"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r4.15(a)",
-          "mention": "regulation 4.15(a)"
+          "mention": "sub regulation 4.15(a) and (b"
         }
       ],
       "tables": [],
@@ -474,10 +473,9 @@
           "mention": "Section 39"
         },
         {
-          "certainty": "explicit",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r4.15(c)",
-          "mention": "regulation 4.15(c) of the Trade Marks Regulations 1995"
+          "mention": "regulation 4.15(c)"
         }
       ],
       "tables": [],
@@ -661,8 +659,7 @@
       "page_ref": "TMM/Part31/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s39",
           "mention": "section 39"
         }
@@ -709,10 +706,9 @@
       "page_ref": "TMM/Part31/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s39(2)",
-          "mention": "subsection 39(2)"
+          "mention": "subsection 39(2)."
         }
       ],
       "tables": [],
@@ -1080,9 +1076,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:6758ff49f9d970ddbb3ff32842797b65c2ed1f786b8c7769c3abd93fb9b0f71f",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2026-07-22",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "31.4. Practice for examining trade marks containing the signs specified in reg 4.15",
     "images": [
       {

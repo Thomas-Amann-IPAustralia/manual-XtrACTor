@@ -824,8 +824,7 @@
       "page_ref": "TMM/Part32A/2/3",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s41",
           "mention": "section 41"
         }
@@ -1874,9 +1873,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:6eb15ea9e72f176c29cfcfd7e86f2501000df3093e953069dac1408490b0e738",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "32A.2.3 Section 41: Capacity to Distinguish",
     "images": [],
     "last_amended": "2022-04-20",

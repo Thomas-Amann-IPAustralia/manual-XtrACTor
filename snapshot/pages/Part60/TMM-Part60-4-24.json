@@ -226,6 +226,11 @@
           "extraction": "href",
           "id": "TMR1995/r17A.56",
           "mention": "Part 17A Division 9"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/r17A.9",
+          "mention": "Regulation 17A - Division 9"
         }
       ],
       "tables": [],
@@ -777,9 +782,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:d01c6a17e26deb4f3049830f403d9005e0ec6e9a750783cc3ac9b38b76e0e96d",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2026-04-17",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "60.4.24 Change in Ownership of an International Registration",
     "images": [],
     "last_amended": "2026-04-17",

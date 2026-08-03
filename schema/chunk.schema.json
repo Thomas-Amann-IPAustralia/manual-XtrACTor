@@ -86,7 +86,7 @@
           },
           "extraction": {
             "enum": ["href", "regex"],
-            "description": "The Manual hyperlinks Act sections to AustLII, so href edges are near-certain and regex edges are inferences. Only href edges should hydrate primary law into an answer."
+            "description": "'href' means the Manual's authors hyperlinked this provision, so the edge is near-certain; 'regex' means the extractor read it out of the prose, so it is an inference. Only href edges should hydrate primary law into an answer. TWO URL vocabularies count as href, not one: an AustLII consol_act/consol_reg node, which carries the address in its path, and a TimeBase '?id=tmact:217a', which carries it in a query string. Both are the authors stating what the passage is about, which is the only thing this field has ever distinguished. Before ingest/0.11.0 only AustLII was read and the corpus's 101 TimeBase anchors reached the snapshot through the prose alone — see SOURCE_NOTES.md §35, which also records why Federal Register links are deliberately NOT read: they name an instrument rather than a provision, and 475 of them resolve to 9 boilerplate URLs. A consumer wanting specifically AustLII-backed edges can still filter, because every href is verbatim in 'links'."
           },
           "certainty": {
             "enum": ["explicit", "default", "ambiguous"],

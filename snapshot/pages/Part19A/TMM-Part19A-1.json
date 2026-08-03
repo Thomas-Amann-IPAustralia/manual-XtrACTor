@@ -315,10 +315,9 @@
           "mention": "7"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMA1995/s8",
-          "mention": "ss 6, 7, 8, 9, 17, 27 and 228"
+          "mention": "8"
         },
         {
           "extraction": "href",
@@ -348,9 +347,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:aa33f2ab09b28eb007167a3e64728be2f0f2443827760927c56e3752227ef584",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2023-10-09",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "19A.1. Use of a trade mark generally",
     "images": [],
     "last_amended": "2023-10-09",

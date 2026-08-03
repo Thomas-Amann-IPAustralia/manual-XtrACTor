@@ -46,16 +46,14 @@
       "page_ref": "TMM/Part62/8",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42A",
-          "mention": "Regulations 17A.42A to 17A.42F"
+          "mention": "17A.42A"
         },
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r17A.42F",
-          "mention": "Regulations 17A.42A to 17A.42F"
+          "mention": "17A.42F"
         }
       ],
       "tables": [],
@@ -76,9 +74,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:7731e7ecab938f4dfad8c0439fd688f77c48f2af5771ac6fddc22d4b638c735d",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:05Z",
     "date_published": "2022-04-20",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "62.8. Amendment or cessation of protection by Registrar of Protected International Trade Marks (PITMs)",
     "images": [],
     "last_amended": "2022-04-20",

@@ -239,8 +239,7 @@
       "page_ref": "TMM/Part27/5",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r21.6",
           "mention": "Regulation 21.6"
         }
@@ -395,9 +394,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:0fd4557a8b6ab8eb5e265da9a01efee194d6b856c236eb744d71982ac4c77773",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "27.5. Filing evidence of honest concurrent use, prior use or other circumstances",
     "images": [],
     "last_amended": "2024-05-16",

@@ -1450,6 +1450,11 @@
           "extraction": "href",
           "id": "TMR1995/r4.4(5)",
           "mention": "reg 4.4(5)"
+        },
+        {
+          "extraction": "href",
+          "id": "TMR1995/sch9",
+          "mention": "Schedule 9"
         }
       ],
       "tables": [],
@@ -1560,8 +1565,7 @@
       "page_ref": "TMM/Part14/4",
       "provisions": [
         {
-          "certainty": "default",
-          "extraction": "regex",
+          "extraction": "href",
           "id": "TMR1995/r4.4(6)",
           "mention": "reg 4.4(6)"
         }
@@ -3363,9 +3367,9 @@
     ],
     "archived": false,
     "content_hash": "sha256:9716d7a22bc9fdc623de60b06e2497df8e4cefb6d03af38e11627db6aa228d02",
-    "crawled_at": "2026-08-03T09:13:07Z",
+    "crawled_at": "2026-08-03T09:26:04Z",
     "date_published": "2024-05-16",
-    "extractor_version": "ingest/0.10.0",
+    "extractor_version": "ingest/0.11.0",
     "h1": "14.4. Classification procedures in examination",
     "images": [],
     "last_amended": "2024-05-16",
