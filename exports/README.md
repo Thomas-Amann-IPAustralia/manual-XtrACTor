@@ -16,6 +16,47 @@ diff.
 
 ---
 
+## `STATS.md`
+
+The corpus, counted. One Markdown report describing how big the Manual is, how
+it is shaped, how often it links to itself, how often it cites the Act, the
+Regulations and the courts, and what its publisher's own amendment log says
+about it.
+
+```bash
+python exports/build_stats.py
+```
+
+Written to be read rather than joined — it is the only export that is prose,
+and the counterpart to `cases.csv` for someone who wants to know what is in
+this corpus before deciding what to do with it. Every number is counted off
+`snapshot/pages/` and `snapshot/legislation/`; nothing is estimated except the
+reading-time figure, which says so.
+
+Where a count is of something the extractor marked as an inference — a `regex`
+provision edge, a heading promoted from a bold paragraph — the report says so
+beside the number. The point is not to make the corpus look more certain than
+it is: several of the more interesting figures are measurements of exactly how
+much of it rests on a convention.
+
+**One caveat on reproducibility.** Token counts cannot be derived from the
+snapshot with the standard library, because a token is whatever a tokeniser
+says it is. If `tiktoken` is importable the report carries counts under two
+encodings and names them; if it is not, the report says the counts were not
+computed. That is the only line whose output depends on the environment rather
+than the snapshot, and reading the report tells you which happened.
+**`tiktoken` is not a dependency of this repository** and nothing else here
+imports it. The committed `STATS.md` was generated with it installed.
+
+### Regenerating
+
+```bash
+python exports/build_stats.py
+git diff --stat exports/STATS.md      # empty unless the snapshot moved
+```
+
+---
+
 ## `cases.csv`
 
 Every case citation in the Manual, one row per **position**.
