@@ -37,7 +37,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "The timeframe to request an amendment under section 64 is extremely limited and is likely to be only applicable in very limited situations."
+          "text": "As most applications will be published on the same day that they are filed, the timeframe to request an amendment under section 64 is extremely limited and is likely to be only applicable in very limited situations."
         },
         {
           "kind": "paragraph",
@@ -46,7 +46,7 @@
       ],
       "cases": [],
       "chunk_ref": "TMM/Part9/3#1",
-      "content_hash": "sha256:a918d4709cd40a2d41c3a59c89ce77e67ec05737a51128155dd2b8eab5d4571b",
+      "content_hash": "sha256:f5c467bc8bca12505fed00d140a914790e4d1a5a1644c4ad7d510ef5eebdd7df",
       "emphasis": [
         {
           "end": 123,
@@ -119,7 +119,7 @@
         }
       ],
       "tables": [],
-      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard. When declining an amendment request, include the following information in your report / letter: While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee. If the particulars of the application have not yet been published under section 30, it is possible to request amendment of the particulars contained in the application form under section 64 to correct a clerical error or an obvious mistake. Such an amendment could involve any particular included on the application form and may allow major changes, such as complete change of applicant’s name, trade mark, specification of goods/services or even a combination of these and other details. For an explanation of what constitutes a published application please see: Part 5.2.2.6 Checking, approval, publication and notification The timeframe to request an amendment under section 64 is extremely limited and is likely to be only applicable in very limited situations. Procedures for an amendment before publication are as follows."
+      "text": "Federal Register of Legislation - Trade Marks Regulations 1995 Federal Register of Legislation - Trade Marks Act 1995 Note: In cases where we intend to refuse to allow an amendment to a trade mark, endorsement, or goods or services, an applicant may wish to be heard. When declining an amendment request, include the following information in your report / letter: While I am not prepared to record the amendment you seek, this is not a final decision on your request for amendment. If you want a final decision or review of your requested amendment, you may ask to be heard by filing a hearing request and paying the associated fee. If the particulars of the application have not yet been published under section 30, it is possible to request amendment of the particulars contained in the application form under section 64 to correct a clerical error or an obvious mistake. Such an amendment could involve any particular included on the application form and may allow major changes, such as complete change of applicant’s name, trade mark, specification of goods/services or even a combination of these and other details. For an explanation of what constitutes a published application please see: Part 5.2.2.6 Checking, approval, publication and notification As most applications will be published on the same day that they are filed, the timeframe to request an amendment under section 64 is extremely limited and is likely to be only applicable in very limited situations. Procedures for an amendment before publication are as follows."
     },
     {
       "blocks": [
@@ -300,12 +300,12 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "If any problems arise with the amendment request, the applicant will be notified."
+          "text": "If any problems arise with the amendment request, the applicant will be notified. Once the application has been published on Australian Trade Mark Search, the amendment cannot be made under section 64, even if the request was made or considered prior to publication. The applicant will be asked to confirm whether the amendment should be considered under section 65A instead, the key difference being that the amendment must be advertised for one month for potential opposition before it can be made (see below at 9.4.7)."
         }
       ],
       "cases": [],
       "chunk_ref": "TMM/Part9/3/3/5",
-      "content_hash": "sha256:2341ddfad350aabb2f77c9cbb537c559b3b9e13e162d05a39ece07da13fd1125",
+      "content_hash": "sha256:cfb54baaaa8d2a618086f639f5a673bb6428416c1b04e2a98dee5aaaf0646627",
       "emphasis": [],
       "fragment": null,
       "heading_path": [
@@ -326,9 +326,22 @@
       "links": [],
       "ordinal": 6,
       "page_ref": "TMM/Part9/3",
-      "provisions": [],
+      "provisions": [
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s64",
+          "mention": "section 64"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
+          "id": "TMA1995/s65A",
+          "mention": "section 65A"
+        }
+      ],
       "tables": [],
-      "text": "If any problems arise with the amendment request, the applicant will be notified."
+      "text": "If any problems arise with the amendment request, the applicant will be notified. Once the application has been published on Australian Trade Mark Search, the amendment cannot be made under section 64, even if the request was made or considered prior to publication. The applicant will be asked to confirm whether the amendment should be considered under section 65A instead, the key difference being that the amendment must be advertised for one month for potential opposition before it can be made (see below at 9.4.7)."
     },
     {
       "blocks": [
@@ -366,8 +379,12 @@
     }
   ],
   "page": {
-    "amendment_note": "Added: Note regarding refused amendments and information to be included about the option to be heard.",
+    "amendment_note": "Minor updates to timing and procedure for s 64 amendments.",
     "amendments": [
+      {
+        "date": "2026-08-19",
+        "reason": "Minor updates to timing and procedure for s 64 amendments."
+      },
       {
         "date": "2025-10-22",
         "reason": "Added: Note regarding refused amendments and information to be included about the option to be heard."
@@ -390,13 +407,13 @@
       }
     ],
     "archived": false,
-    "content_hash": "sha256:7965af4fed3f505ee6cb28fc93ae24c2ce22b9994c7bddb81b93c6abf8a3edab",
-    "crawled_at": "2026-08-03T09:26:04Z",
-    "date_published": "2025-10-22",
+    "content_hash": "sha256:ffb953163ee16c25a9e80bcf9337df86a307af6148d186f7583aa682a48d5c86",
+    "crawled_at": "2026-08-23T19:26:51Z",
+    "date_published": "2026-08-19",
     "extractor_version": "ingest/0.11.0",
     "h1": "Part 9.3. Amendment before particulars of an application are published (Section 64)",
     "images": [],
-    "last_amended": "2025-10-22",
+    "last_amended": "2026-08-19",
     "nav_title": "Part 9. 3. Amendment before particulars of an application are published (Section 64)",
     "page_ref": "TMM/Part9/3",
     "part_id": "Part9",
