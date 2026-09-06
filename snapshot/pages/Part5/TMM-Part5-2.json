@@ -381,40 +381,45 @@
         {
           "depth": 1,
           "kind": "list_item",
-          "text": "Once all the application data is captured and the minimum filing requirement check is completed the applications status will be “Published”. This is an official delegation under the Trade Marks Act 1995."
+          "text": "Once all the application data is captured and the minimum filing requirement check is completed the publication process begins."
         },
         {
           "depth": 1,
           "kind": "list_item",
-          "text": "Publishing the filing details is a key action which:"
+          "text": "The publication process involves:"
         },
         {
           "depth": 2,
           "kind": "list_item",
-          "text": "generates a Notification of Filing. (The standard notice shows the information captured and the number allocated to the trade mark. It is sent to the address for service as official confirmation that the application has been filed.)"
+          "text": "generating a Notification of Filing. (The standard notice shows the information captured and the number allocated to the trade mark. It is sent to the address for service as official confirmation that the application has been filed.)"
         },
         {
           "depth": 2,
           "kind": "list_item",
-          "text": "publishes the owner's name, the class/es, the filing date and the trade mark number. The convention date and country of origin if applicable."
+          "text": "publishing the details including the trade mark representation, the owner's name, address, and the address for service, the specification of goods and/or services (including class number/s), the filing date and the trade mark number. Other details including the convention date and country of origin, translations and transliterations, and conditions or limitations will also be published if applicable."
         },
         {
           "depth": 2,
           "kind": "list_item",
-          "text": "schedules the captured data to be published in the Trade Marks Database (Australian Trade Mark Search)."
+          "text": "scheduling the captured data to be published in the Trade Marks Database (Australian Trade Mark Search)."
         },
         {
           "depth": 1,
           "kind": "list_item",
-          "text": "These actions have two important consequences for applicants. They mean that the data can no longer be amended under the provisions of s 64. They also mean that the application fee is no longer refundable."
+          "text": "The particulars of the application will be ‘published’ for the purposes of section 30 when they are visible externally in Australian Trade Mark Search. This will usually be after 11pm on the day that the publication process was initiated, but may occur at other times."
         },
         {
-          "depth": 2,
+          "depth": 1,
+          "kind": "list_item",
+          "text": "Publication has two important consequences for applicants: the data can no longer be amended under the provisions of s 64, and the application fee is no longer refundable."
+        },
+        {
+          "depth": 1,
           "kind": "list_item",
           "text": "Part 9 Amendments and Changes to Name and Address"
         },
         {
-          "depth": 2,
+          "depth": 1,
           "kind": "list_item",
           "text": "Part 4 Fees"
         },
@@ -425,18 +430,12 @@
       ],
       "cases": [],
       "chunk_ref": "TMM/Part5/2/2/2~2",
-      "content_hash": "sha256:f1e270517e2f72adee3aa9d813867f94b654f1ecc043af38fd0d0052153518d5",
+      "content_hash": "sha256:74aa8a4b58341a2ea0cf7a1d355d2f4f1794938333e585b8c0bb748160ec0486",
       "emphasis": [
         {
-          "end": 202,
-          "kind": "i",
-          "start": 182,
-          "text": "Trade Marks Act 1995"
-        },
-        {
-          "end": 1009,
+          "end": 1413,
           "kind": "strong",
-          "start": 1004,
+          "start": 1408,
           "text": "Note:"
         }
       ],
@@ -478,15 +477,15 @@
       "kind": "body",
       "links": [
         {
-          "end": 991,
+          "end": 1395,
           "href": "/trademark/1.-introduction6",
-          "start": 942,
+          "start": 1346,
           "text": "Part 9 Amendments and Changes to Name and Address"
         },
         {
-          "end": 1003,
+          "end": 1407,
           "href": "/trademark/1.-fees---general",
-          "start": 992,
+          "start": 1396,
           "text": "Part 4 Fees"
         }
       ],
@@ -496,12 +495,18 @@
         {
           "certainty": "default",
           "extraction": "regex",
+          "id": "TMA1995/s30",
+          "mention": "section 30"
+        },
+        {
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s64",
           "mention": "s 64"
         }
       ],
       "tables": [],
-      "text": "Once all the application data is captured and the minimum filing requirement check is completed the applications status will be “Published”. This is an official delegation under the Trade Marks Act 1995. Publishing the filing details is a key action which: generates a Notification of Filing. (The standard notice shows the information captured and the number allocated to the trade mark. It is sent to the address for service as official confirmation that the application has been filed.) publishes the owner's name, the class/es, the filing date and the trade mark number. The convention date and country of origin if applicable. schedules the captured data to be published in the Trade Marks Database (Australian Trade Mark Search). These actions have two important consequences for applicants. They mean that the data can no longer be amended under the provisions of s 64. They also mean that the application fee is no longer refundable. Part 9 Amendments and Changes to Name and Address Part 4 Fees Note: The Registrar will not capture information provided on an application form which is not relevant to the application."
+      "text": "Once all the application data is captured and the minimum filing requirement check is completed the publication process begins. The publication process involves: generating a Notification of Filing. (The standard notice shows the information captured and the number allocated to the trade mark. It is sent to the address for service as official confirmation that the application has been filed.) publishing the details including the trade mark representation, the owner's name, address, and the address for service, the specification of goods and/or services (including class number/s), the filing date and the trade mark number. Other details including the convention date and country of origin, translations and transliterations, and conditions or limitations will also be published if applicable. scheduling the captured data to be published in the Trade Marks Database (Australian Trade Mark Search). The particulars of the application will be ‘published’ for the purposes of section 30 when they are visible externally in Australian Trade Mark Search. This will usually be after 11pm on the day that the publication process was initiated, but may occur at other times. Publication has two important consequences for applicants: the data can no longer be amended under the provisions of s 64, and the application fee is no longer refundable. Part 9 Amendments and Changes to Name and Address Part 4 Fees Note: The Registrar will not capture information provided on an application form which is not relevant to the application."
     },
     {
       "blocks": [
@@ -543,8 +548,12 @@
     }
   ],
   "page": {
-    "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendment_note": "Updated publication and notification information.",
     "amendments": [
+      {
+        "date": "2026-08-19",
+        "reason": "Updated publication and notification information."
+      },
       {
         "date": "2026-04-13",
         "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
@@ -567,13 +576,13 @@
       }
     ],
     "archived": false,
-    "content_hash": "sha256:9ce23924fede777203353e2459b8c9cd58b1638bc429e033fde66ad52c4f0fad",
-    "crawled_at": "2026-08-03T09:26:04Z",
-    "date_published": "2026-04-13",
+    "content_hash": "sha256:c023475ef6e5a2cc1ab7e3068b4a6bba893665b7908598da2e25485d5ae9cfb2",
+    "crawled_at": "2026-09-06T21:08:37Z",
+    "date_published": "2026-08-19",
     "extractor_version": "ingest/0.11.0",
     "h1": "5.2. Data Capture",
     "images": [],
-    "last_amended": "2026-04-13",
+    "last_amended": "2026-08-19",
     "nav_title": "2. Data Capture",
     "page_ref": "TMM/Part5/2",
     "part_id": "Part5",

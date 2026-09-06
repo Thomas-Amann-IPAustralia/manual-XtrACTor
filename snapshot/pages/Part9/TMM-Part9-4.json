@@ -651,11 +651,15 @@
         },
         {
           "kind": "paragraph",
-          "text": "i. the timing of an amendment request in the life of an application (a request many months after filing would be unlikely to be allowed); and"
+          "text": "i. the timing of an amendment request in the life of an application (a request many months after filing would be unlikely to be allowed);"
         },
         {
           "kind": "paragraph",
-          "text": "ii. whether a search locates conflicting marks whose rights may be affected by the change. In this last scenario it may be necessary to notify those trade mark owners, in line with processes used for notification of owners of cited marks in section 44(3) and 44(4) acceptances."
+          "text": "ii. whether a search locates conflicting marks whose rights may be affected by the change. In this scenario it may be necessary to notify those trade mark owners, in line with processes used for notification of owners of cited marks in section 44(3) and 44(4) acceptances; and"
+        },
+        {
+          "kind": "paragraph",
+          "text": "iii. whether the examination outcome would be altered (which may require additional searches or research to establish). This will not necessarily preclude the amendment from being fair and reasonable in all the circumstances. However, it may be necessary to raise late grounds for rejection, or if the amendment is made post-acceptance, to consider revocation of acceptance."
         },
         {
           "kind": "paragraph",
@@ -664,7 +668,7 @@
       ],
       "cases": [],
       "chunk_ref": "TMM/Part9/4/4/7/2",
-      "content_hash": "sha256:fe6cb4b716ca83d5365e459b7fe3cca0fbd33d6c275ca10a4ea676839470d351",
+      "content_hash": "sha256:0b19b2b671a096cbf718a37de60a79daed3798e7192b9690934a578f237f722e",
       "emphasis": [],
       "fragment": null,
       "heading_path": [
@@ -712,7 +716,7 @@
         }
       ],
       "tables": [],
-      "text": "It will not be appropriate to limit the Registrar’s discretion under this section by comprehensively listing the kinds of amendments that may be “in” or “out” of this provision. The amendment must be to “correct a clerical error or obvious mistake”, but it must also be the Registrar’s opinion that “it is fair and reasonable in all the circumstances of the case to make the amendment”. Considerations would include: i. the timing of an amendment request in the life of an application (a request many months after filing would be unlikely to be allowed); and ii. whether a search locates conflicting marks whose rights may be affected by the change. In this last scenario it may be necessary to notify those trade mark owners, in line with processes used for notification of owners of cited marks in section 44(3) and 44(4) acceptances. Section 65A amendments might include amendments to trade marks to correct misspellings (e.g. changing GEEN FELDS to GREEN FIELDS) or amendments to the classification including the wording of goods and/or services."
+      "text": "It will not be appropriate to limit the Registrar’s discretion under this section by comprehensively listing the kinds of amendments that may be “in” or “out” of this provision. The amendment must be to “correct a clerical error or obvious mistake”, but it must also be the Registrar’s opinion that “it is fair and reasonable in all the circumstances of the case to make the amendment”. Considerations would include: i. the timing of an amendment request in the life of an application (a request many months after filing would be unlikely to be allowed); ii. whether a search locates conflicting marks whose rights may be affected by the change. In this scenario it may be necessary to notify those trade mark owners, in line with processes used for notification of owners of cited marks in section 44(3) and 44(4) acceptances; and iii. whether the examination outcome would be altered (which may require additional searches or research to establish). This will not necessarily preclude the amendment from being fair and reasonable in all the circumstances. However, it may be necessary to raise late grounds for rejection, or if the amendment is made post-acceptance, to consider revocation of acceptance. Section 65A amendments might include amendments to trade marks to correct misspellings (e.g. changing GEEN FELDS to GREEN FIELDS) or amendments to the classification including the wording of goods and/or services."
     },
     {
       "blocks": [
@@ -789,8 +793,12 @@
     }
   ],
   "page": {
-    "amendment_note": "Outdated terms updated.",
+    "amendment_note": "Minor update to Part 9.4.7.2 addressing considerations for s 65A amendments.",
     "amendments": [
+      {
+        "date": "2026-08-24",
+        "reason": "Minor update to Part 9.4.7.2 addressing considerations for s 65A amendments."
+      },
       {
         "date": "2026-06-17",
         "reason": "Outdated terms updated."
@@ -837,13 +845,13 @@
       }
     ],
     "archived": false,
-    "content_hash": "sha256:6a30f79f1bb8e0fa3197bab6a010c1f51f255c3c5570fd69d7a5a2662d2ff0d2",
-    "crawled_at": "2026-08-03T09:26:04Z",
-    "date_published": "2026-06-17",
+    "content_hash": "sha256:fd0979b725e9c62f13b01ac1be49765214b00d1a9d17cc1efef724cc1cb6b0d5",
+    "crawled_at": "2026-09-06T21:08:37Z",
+    "date_published": "2026-08-24",
     "extractor_version": "ingest/0.11.0",
     "h1": "Part 9.4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)",
     "images": [],
-    "last_amended": "2026-06-17",
+    "last_amended": "2026-08-24",
     "nav_title": "Part 9. 4. Amendment after particulars of an application have been published (Sections 63, 65 and 65A)",
     "page_ref": "TMM/Part9/4",
     "part_id": "Part9",
