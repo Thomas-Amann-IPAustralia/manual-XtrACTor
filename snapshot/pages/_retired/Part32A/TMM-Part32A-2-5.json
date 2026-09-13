@@ -143,17 +143,7 @@
           "certainty": "explicit",
           "extraction": "regex",
           "mention": "parts 2.3.1",
-          "ref": "TMM/Part32A/2/3"
-        },
-        {
-          "extraction": "href",
-          "mention": "2.3.1",
-          "ref": "TMM/Part32A/2/3/2/3/1"
-        },
-        {
-          "extraction": "href",
-          "mention": "2.3.2",
-          "ref": "TMM/Part32A/2/3/2/3/2"
+          "ref": "TMM/Part32A/2"
         }
       ],
       "kind": "body",
@@ -453,7 +443,7 @@
     ],
     "archived": false,
     "content_hash": "sha256:cf0d6be3a0cff6cb68bc8db6641dbc3bd158c93bcbd828b7a64e648cecfecef8",
-    "crawled_at": "2026-08-03T09:26:04Z",
+    "crawled_at": "2026-09-13T21:12:12Z",
     "date_published": "2025-10-24",
     "extractor_version": "ingest/0.11.0",
     "h1": "32A.2.5 Section 44: Comparison of Trade Marks",
