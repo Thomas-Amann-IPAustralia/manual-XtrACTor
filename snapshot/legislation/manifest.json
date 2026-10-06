@@ -2,30 +2,34 @@
   "corpus": {
     "instruments": 2,
     "provisions": 763,
-    "raw_bytes": 637024,
-    "units": 5813
+    "raw_bytes": 956216,
+    "units": 5821
   },
-  "crawled_at": "2026-07-29T13:36:27Z",
+  "crawled_at": "2026-10-06T00:53:40Z",
   "extractor_version": "legislation/0.2.0",
-  "finished_at": "2026-07-29T13:36:29Z",
+  "finished_at": "2026-10-06T00:53:45Z",
   "run": {
-    "amended": [],
+    "amended": [
+      "TMA1995"
+    ],
     "dry_run": false,
-    "files_written": 0,
-    "force": true,
-    "from_raw": true,
+    "files_written": 7,
+    "force": false,
+    "from_raw": false,
     "instruments": [
       "TMA1995",
       "TMR1995"
     ],
-    "provisions_cut": 763,
+    "provisions_cut": 316,
     "removed": [],
     "sources": {
-      "TMA1995": "raw",
+      "TMA1995": "api",
       "TMR1995": "raw"
     },
-    "unchanged": [],
+    "unchanged": [
+      "TMR1995"
+    ],
     "unincorporated_amendments": [],
-    "units_cut": 5813
+    "units_cut": 2615
   }
 }
