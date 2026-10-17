@@ -344,6 +344,16 @@ The block lives in `div.view-amended-reasons`, outside the body field. Its
 wrapper carries a `js-view-dom-id-<hash>` class; ignore it, and never let it
 into a hash.
 
+Nor into the decision to rewrite `snapshot/raw/`. The hash is fresh on every
+request, so a byte comparison of the served page against the stored one says
+"changed" for all ~500 pages on every crawl. Until October 2026 it did: each
+weekly pull request carried ~500 raw files whose only difference was this
+class, and a week with nothing else to report still opened one (titled "no
+changes"). `writer.same_raw` compares with the hash masked, and the stored
+file stays a verbatim earlier fetch when nothing else moved. The nav tree is
+on every page too and does change every raw file when the Manual's structure
+moves; that is real, and is still written.
+
 Separately, pages carry a `Date Published` field, in `div.py-3` labelled by a
 `strong.field-label-inline`. Different thing; capture both.
 

@@ -363,7 +363,7 @@ def _process(
         stats.archived += 1
 
     if args.dry_run:
-        if writer.read_raw(nav.page_ref, root) != html:
+        if not writer.same_raw(writer.read_raw(nav.page_ref, root), html):
             stats.raw_written += 1
     elif writer.write_raw(nav.page_ref, html, root):
         stats.raw_written += 1

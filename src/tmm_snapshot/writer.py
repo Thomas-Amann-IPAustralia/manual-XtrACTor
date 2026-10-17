@@ -11,6 +11,7 @@ the file was never touched.
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import asdict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -295,13 +296,38 @@ def rewrite_settled(path: Path, document: dict[str, Any], now: str) -> bool:
     return _write_if_changed(path, _serialise(document))
 
 
+#: The one part of a served page that differs on every request. Drupal stamps
+#: a fresh `js-view-dom-id-<64 hex>` on the Amended Reasons view each time it
+#: renders the page (SOURCE_NOTES.md §5), so comparing raw HTML byte for byte
+#: rewrote every file in `snapshot/raw/` on every crawl — 493 of them, a week
+#: apart, with nothing else different — and that alone opened a pull request
+#: titled 'no changes'.
+_VOLATILE_RAW = re.compile(r"js-view-dom-id-[0-9a-f]+")
+
+
+def same_raw(stored: str | None, html: str) -> bool:
+    """True when `html` is `stored` served again: equal but for the view id."""
+    if stored is None:
+        return False
+    return _VOLATILE_RAW.sub("js-view-dom-id-", stored) == _VOLATILE_RAW.sub(
+        "js-view-dom-id-", html
+    )
+
+
 def write_raw(page_ref: str, html: str, root: Path) -> bool:
     """Write snapshot/raw/<Part>/<page_ref>.html verbatim. True if changed.
 
     Unmodified and uncompressed: this is the audit artefact and the input to
     every re-parse. A gzipped file diffs as a binary blob.
+
+    "Changed" ignores the view id and nothing else (see `same_raw`). The file
+    on disk stays a verbatim fetch either way — of this request when anything
+    moved, of an earlier request that served the same page when nothing did.
     """
-    return _write_if_changed(raw_path(page_ref, root), html)
+    path = raw_path(page_ref, root)
+    if same_raw(read_raw(page_ref, root), html):
+        return False
+    return _write_if_changed(path, html)
 
 
 def read_raw(page_ref: str, root: Path) -> str | None:

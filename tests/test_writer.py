@@ -132,6 +132,38 @@ def test_raw_is_written_verbatim_and_only_once(tmp_path):
     assert writer.read_raw("TMM/Part22/1", tmp_path) == html
 
 
+def _reserved(html: str, view_id: str) -> str:
+    """The same page as Drupal would serve it again: a fresh view id."""
+    import re
+
+    return re.sub(r"js-view-dom-id-[0-9a-f]+", f"js-view-dom-id-{view_id}", html)
+
+
+def test_a_page_served_again_with_a_fresh_view_id_is_not_rewritten(tmp_path):
+    """Every request stamps a new `js-view-dom-id-<hash>`. A byte comparison
+    rewrote all 493 raw files a week apart with nothing else different."""
+    html = page_html("part22_1")
+    assert "js-view-dom-id-" in html
+    assert writer.write_raw("TMM/Part22/1", html, tmp_path) is True
+
+    again = _reserved(html, "0" * 64)
+    assert again != html
+    assert writer.write_raw("TMM/Part22/1", again, tmp_path) is False
+    assert writer.read_raw("TMM/Part22/1", tmp_path) == html, "the first fetch stays"
+
+
+def test_anything_else_that_moved_is_still_written(tmp_path):
+    """The nav tree is on every page and is the source of Part membership, so
+    when it moves every raw file should move with it."""
+    html = page_html("part22_1")
+    writer.write_raw("TMM/Part22/1", html, tmp_path)
+
+    moved = _reserved(html, "0" * 64).replace("Part 1. Introduction", "Part 1. Overview", 1)
+    assert moved != _reserved(html, "0" * 64)
+    assert writer.write_raw("TMM/Part22/1", moved, tmp_path) is True
+    assert writer.read_raw("TMM/Part22/1", tmp_path) == moved
+
+
 # -- serialisation ---------------------------------------------------------
 
 
