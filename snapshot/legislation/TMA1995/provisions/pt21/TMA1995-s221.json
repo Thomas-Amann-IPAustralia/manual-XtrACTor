@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt21",
     "TMA1995/pt21/div2"
   ],
-  "content_hash": "sha256:3f53e26dc8131d247987ca6aff0cb350796b8cb94bbade690fe81545e38b4f71",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:7b5f8dfdd5183ae711c8b6555beb32f9e60770e7949ae2230ce3d0906f9ec9ab",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 21—Miscellaneous",
@@ -16,11 +16,11 @@
   "kind": "section",
   "number": "221",
   "ref": "TMA1995/s221",
-  "text": "(1) The Registrar may award costs in respect of the matters, and in the amounts, provided for in the regulations against any party to proceedings brought before him or her. (2) A party desiring to obtain costs must apply to the Registrar in accordance with the regulations. (3) If a party is ordered to pay the costs of another party, the costs may be recovered in a court of competent jurisdiction as a debt due by the first party to the other party.",
+  "text": "(1) The regulations may make provision for and in relation to the awarding of costs by the Registrar against a party to proceedings brought before the Registrar. (1A) Without limiting subsection (1), the regulations may make provision for and in relation to the following: (a) the matters in respect of which the Registrar may award costs; (b) the amount of costs that may be awarded by the Registrar (including by providing that the amount of costs is in the discretion of the Registrar). (2) A party desiring to obtain costs must apply to the Registrar in accordance with the regulations. (3) If a party is ordered to pay the costs of another party, the costs may be recovered in a court of competent jurisdiction as a debt due by the first party to the other party.",
   "title": "Costs awarded by Registrar",
   "units": [
     {
-      "content_hash": "sha256:f02ca3b57ba1b2cd1fabe755a456d76e170e40520e686a112206a2c445930053",
+      "content_hash": "sha256:9a3e8266372363abafa49b9c9aabf151c358bfa0a6c45e365706699ce8b1a7fb",
       "depth": 0,
       "kind": "subsection",
       "number": "(1)",
@@ -28,14 +28,47 @@
       "parent_ref": null,
       "ref": "TMA1995/s221(1)",
       "style": "subsection",
-      "text": "(1) The Registrar may award costs in respect of the matters, and in the amounts, provided for in the regulations against any party to proceedings brought before him or her."
+      "text": "(1) The regulations may make provision for and in relation to the awarding of costs by the Registrar against a party to proceedings brought before the Registrar."
+    },
+    {
+      "content_hash": "sha256:a19ef07c705e7346cb42664bdc942b768efeacd2d1bbca7bb15a909033e422c5",
+      "depth": 0,
+      "kind": "subsection",
+      "number": "(1A)",
+      "ordinal": 2,
+      "parent_ref": null,
+      "ref": "TMA1995/s221(1A)",
+      "style": "subsection",
+      "text": "(1A) Without limiting subsection (1), the regulations may make provision for and in relation to the following:"
+    },
+    {
+      "content_hash": "sha256:4f73feb85c2c8e4c8c5bec5ada0b6917f420bb8018230e130f3b6ac3e5036910",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(a)",
+      "ordinal": 3,
+      "parent_ref": "TMA1995/s221(1A)",
+      "ref": "TMA1995/s221(1A)(a)",
+      "style": "paragraph",
+      "text": "(a) the matters in respect of which the Registrar may award costs;"
+    },
+    {
+      "content_hash": "sha256:f99ed40c6974777ae9258eca339a55a486a314d7a4f88cb1e7699c7ce05c246c",
+      "depth": 1,
+      "kind": "paragraph",
+      "number": "(b)",
+      "ordinal": 4,
+      "parent_ref": "TMA1995/s221(1A)",
+      "ref": "TMA1995/s221(1A)(b)",
+      "style": "paragraph",
+      "text": "(b) the amount of costs that may be awarded by the Registrar (including by providing that the amount of costs is in the discretion of the Registrar)."
     },
     {
       "content_hash": "sha256:a1747470a8fd36a42f21bf3d7316c02f1a257e904abad0ccfaea932060f586dd",
       "depth": 0,
       "kind": "subsection",
       "number": "(2)",
-      "ordinal": 2,
+      "ordinal": 5,
       "parent_ref": null,
       "ref": "TMA1995/s221(2)",
       "style": "subsection",
@@ -46,7 +79,7 @@
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
-      "ordinal": 3,
+      "ordinal": 6,
       "parent_ref": null,
       "ref": "TMA1995/s221(3)",
       "style": "subsection",

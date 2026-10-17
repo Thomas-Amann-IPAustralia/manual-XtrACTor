@@ -22,6 +22,15 @@ exactly the silently-wrong record rule 3 exists to prevent. The rows are
 captured verbatim, both columns, and turning them into amendment edges is a
 piece of ontology work with its own error model — the layer above this one.
 Deferred, not forgotten: LEGISLATION_NOTES.md §7.
+
+**What it does keep beside the words: the underlining.** Endnote 2's key reads
+'underlining = whole or part not commenced or to be commenced', and the
+Register uses it exactly so: in compilation 48 of the Act, the Endnote 4 rows
+for s 6, s 19, s 27 and s 189A read 'am No 87, 2026' in the same words as the
+row for s 221 — and only the underline says the first four are not yet law.
+A cell's text without it states the opposite of the document. So each table
+carries the stretches the markup underlines, as offsets into its cells, and
+what the underline means is left to the key that says so.
 """
 
 from __future__ import annotations
@@ -46,6 +55,17 @@ _ROOT_STYLE: Final[str] = "ENotesHeading1"
 
 
 @dataclass(frozen=True)
+class Underlined:
+    """One underlined stretch of one table cell: `rows[row][cell][start:end]`."""
+
+    row: int
+    cell: int
+    start: int
+    end: int
+    text: str
+
+
+@dataclass(frozen=True)
 class Endnote:
     """One numbered endnote, with its prose and its tables."""
 
@@ -54,6 +74,8 @@ class Endnote:
     title: str
     paragraphs: tuple[str, ...]
     tables: tuple[tuple[tuple[str, ...], ...], ...]
+    #: Parallel to `tables`: each table's underlined stretches, in cell order.
+    underlined: tuple[tuple[Underlined, ...], ...]
 
 
 def split_endnotes(blocks: Iterable[Block], instrument_code: str) -> list[Endnote]:
@@ -68,12 +90,13 @@ def split_endnotes(blocks: Iterable[Block], instrument_code: str) -> list[Endnot
     title = ""
     paragraphs: list[str] = []
     tables: list[tuple[tuple[str, ...], ...]] = []
+    underlined: list[tuple[Underlined, ...]] = []
     seen: set[str] = set()
 
     def close() -> None:
-        nonlocal paragraphs, tables
+        nonlocal paragraphs, tables, underlined
         if number is None and not paragraphs and not tables:
-            paragraphs, tables = [], []
+            paragraphs, tables, underlined = [], [], []
             return
         ref = _ref(instrument_code, number, title, seen)
         sections.append(
@@ -83,9 +106,10 @@ def split_endnotes(blocks: Iterable[Block], instrument_code: str) -> list[Endnot
                 title=title,
                 paragraphs=tuple(paragraphs),
                 tables=tuple(tables),
+                underlined=tuple(underlined),
             )
         )
-        paragraphs, tables = [], []
+        paragraphs, tables, underlined = [], [], []
 
     for block in blocks:
         if block.style == _ROOT_STYLE:
@@ -107,6 +131,7 @@ def split_endnotes(blocks: Iterable[Block], instrument_code: str) -> list[Endnot
 
         if block.is_table and block.table:
             tables.append(block.table)
+            underlined.append(_underlined(block))
             continue
 
         text = block.normalised()
@@ -115,6 +140,23 @@ def split_endnotes(blocks: Iterable[Block], instrument_code: str) -> list[Endnot
 
     close()
     return sections
+
+
+def _underlined(block: Block) -> tuple[Underlined, ...]:
+    marks: list[Underlined] = []
+    for row_index, row in enumerate(block.grid or ()):
+        for cell_index, cell in enumerate(row):
+            for start, end in cell["underlined"]:
+                marks.append(
+                    Underlined(
+                        row=row_index,
+                        cell=cell_index,
+                        start=start,
+                        end=end,
+                        text=cell["text"][start:end],
+                    )
+                )
+    return tuple(marks)
 
 
 def _ref(

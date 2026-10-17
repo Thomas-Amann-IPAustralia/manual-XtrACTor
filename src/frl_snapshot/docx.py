@@ -30,7 +30,7 @@ from __future__ import annotations
 import io
 import zipfile
 from dataclasses import dataclass
-from typing import Iterator
+from typing import Final, Iterator
 from xml.etree import ElementTree
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
@@ -40,6 +40,11 @@ _R = f"{W}r"
 _T = f"{W}t"
 _TAB = f"{W}tab"
 _BR = f"{W}br"
+_NO_BREAK_HYPHEN = f"{W}noBreakHyphen"
+_SYM = f"{W}sym"
+_FONT = f"{W}font"
+_CHAR = f"{W}char"
+_U = f"{W}u"
 _TBL = f"{W}tbl"
 _TR = f"{W}tr"
 _TC = f"{W}tc"
@@ -50,6 +55,30 @@ _VAL = f"{W}val"
 _GRIDSPAN = f"{W}gridSpan"
 _VMERGE = f"{W}vMerge"
 _TCPR = f"{W}tcPr"
+
+#: What `<w:noBreakHyphen/>` contributes to the text. Word draws it as a hyphen
+#: that will not break across a line, and the OPC template uses it for every
+#: hyphenated word it does not want split: 'Comptroller-General', 'cooling-off',
+#: 'non-use', and the '8-12' of an item range. Reading it as nothing — which is
+#: what a reader that only knows `w:t` does — fused all of those into
+#: 'ComptrollerGeneral'. It is written as the ASCII hyphen, the character the
+#: Manual uses for the same words, for the same reason `Block.normalised`
+#: collapses the non-breaking space: so the two corpora spell a word alike.
+NO_BREAK_HYPHEN_TEXT: Final[str] = "-"
+
+#: `<w:sym w:font=… w:char=…/>`: a glyph picked from a symbol font rather than
+#: typed. Each pair the Register's documents are known to use, and the
+#: character it stands for. A pair not listed raises — a symbol is a character
+#: of the law's text, and guessing one, or dropping it as an unknown, is the
+#: silently wrong record rule 3 exists to prevent.
+#:
+#: - Symbol F0BE is the long horizontal bar the template inserts where a
+#:   heading wants its em dash: regulation 13.3 of the Regulations is
+#:   'Notice of objection to importation—prescribed document', and every other
+#:   heading in both instruments types that dash as U+2014.
+SYMBOLS: Final[dict[tuple[str, str], str]] = {
+    ("Symbol", "F0BE"): "\u2014",
+}
 
 
 class DocumentShapeError(Exception):
@@ -83,7 +112,7 @@ class Span:
     text: str
     start: int
     end: int
-    weight: str  # 'bold' | 'italic' | 'bold-italic'
+    weight: str  # 'bold' | 'italic' | 'bold-italic' | 'underline'
 
 
 @dataclass(frozen=True)
@@ -100,6 +129,13 @@ class Block:
     style: str | None
     text: str
     spans: tuple[Span, ...] = ()
+    #: Underlined stretches of `text`, kept apart from `spans` because they
+    #: mean something different and go somewhere different. Emphasis is the
+    #: drafter's typography and rides on the units; underlining is the
+    #: compilation's own annotation — Endnote 2's key reads 'underlining =
+    #: whole or part not commenced or to be commenced' — and is read where the
+    #: Register uses it, in the endnote tables.
+    underlined: tuple[Span, ...] = ()
     table: tuple[tuple[str, ...], ...] | None = None
     grid: tuple[tuple[dict, ...], ...] | None = None
 
@@ -116,6 +152,38 @@ class Block:
         and the reason a heading reads 'Part 1' in both corpora.
         """
         return " ".join(self.text.split())
+
+
+def normalised_offsets(
+    text: str, spans: tuple[Span, ...]
+) -> list[tuple[int, int]]:
+    """Each span's (start, end) carried from `text` into `" ".join(text.split())`.
+
+    The same collapse `Block.normalised` performs, walked character by
+    character so an offset lands on the same word after it. A span's leading
+    and trailing whitespace is not part of it once the whitespace is gone: the
+    run ' (s 2(1) item 4)' is underlined from its bracket.
+    """
+    position: list[int | None] = []
+    cursor = 0
+    pending_space = False
+    for character in text:
+        if character.isspace():
+            position.append(None)
+            pending_space = cursor > 0
+            continue
+        if pending_space:
+            cursor += 1
+            pending_space = False
+        position.append(cursor)
+        cursor += 1
+
+    offsets: list[tuple[int, int]] = []
+    for span in spans:
+        inside = [p for p in position[span.start : span.end] if p is not None]
+        if inside:
+            offsets.append((inside[0], inside[-1] + 1))
+    return offsets
 
 
 def read_document(data: bytes) -> tuple[Block, ...]:
@@ -172,6 +240,7 @@ def _paragraph(element: ElementTree.Element) -> Block:
 
     pieces: list[str] = []
     spans: list[Span] = []
+    underlined: list[tuple[int, int]] = []
     cursor = 0
 
     for child in element.iter():
@@ -186,6 +255,10 @@ def _paragraph(element: ElementTree.Element) -> Block:
                     run_text.append("\t")
                 elif node.tag == _BR:
                     run_text.append(" ")
+                elif node.tag == _NO_BREAK_HYPHEN:
+                    run_text.append(NO_BREAK_HYPHEN_TEXT)
+                elif node.tag == _SYM:
+                    run_text.append(_symbol(node))
             joined = "".join(run_text)
             if not joined:
                 continue
@@ -193,8 +266,47 @@ def _paragraph(element: ElementTree.Element) -> Block:
             cursor += len(joined)
             if weight is not None and joined.strip():
                 spans.append(Span(text=joined, start=start, end=cursor, weight=weight))
+            if _underlined(child):
+                # Word splits a run wherever its editing history did, which
+                # carries no meaning, so a stretch underlined across two runs
+                # is one stretch: 'No 87, 2026' is not two annotations.
+                if underlined and underlined[-1][1] == start:
+                    underlined[-1] = (underlined[-1][0], cursor)
+                else:
+                    underlined.append((start, cursor))
 
-    return Block(style=style, text="".join(pieces), spans=tuple(spans))
+    text = "".join(pieces)
+    return Block(
+        style=style,
+        text=text,
+        spans=tuple(spans),
+        underlined=tuple(
+            Span(text=text[start:end], start=start, end=end, weight="underline")
+            for start, end in underlined
+            if text[start:end].strip()
+        ),
+    )
+
+
+def _symbol(node: ElementTree.Element) -> str:
+    key = (node.get(_FONT) or "", (node.get(_CHAR) or "").upper())
+    try:
+        return SYMBOLS[key]
+    except KeyError:
+        raise DocumentShapeError(
+            f"<w:sym w:font={key[0]!r} w:char={key[1]!r}/> is not a symbol this "
+            "reader knows; it is a character of the law's text, so add it to "
+            "docx.SYMBOLS with the character it stands for rather than drop it"
+        ) from None
+
+
+def _underlined(run: ElementTree.Element) -> bool:
+    """`<w:u w:val="single"/>` and its kin; `w:val="none"` switches it off."""
+    properties = run.find(_RPR)
+    if properties is None:
+        return False
+    node = properties.find(_U)
+    return node is not None and node.get(_VAL) != "none"
 
 
 def _weight(run: ElementTree.Element) -> str | None:
@@ -241,6 +353,8 @@ def _table(element: ElementTree.Element) -> Block:
         detailed: list[dict] = []
         for cell in row.findall(_TC):
             texts: list[str] = []
+            marks: list[tuple[int, int]] = []
+            offset = 0
             heading = False
             for paragraph in cell.iter(_P):
                 block = _paragraph(paragraph)
@@ -248,7 +362,14 @@ def _table(element: ElementTree.Element) -> Block:
                     heading = True
                 words = block.normalised()
                 if words:
+                    if texts:
+                        offset += 1  # the space the join below puts between
+                    marks.extend(
+                        (offset + start, offset + end)
+                        for start, end in normalised_offsets(block.text, block.underlined)
+                    )
                     texts.append(words)
+                    offset += len(words)
             text = " ".join(texts)
             cells.append(text)
             detailed.append(
@@ -257,6 +378,7 @@ def _table(element: ElementTree.Element) -> Block:
                     "colspan": _span(cell, _GRIDSPAN),
                     "heading": heading,
                     "continues": _continues(cell),
+                    "underlined": tuple(marks),
                 }
             )
         rows.append(tuple(cells))

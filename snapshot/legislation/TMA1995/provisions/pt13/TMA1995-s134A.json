@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:fe6905aae92a39756b8cfb35429999cfd45e104066f99d405a93534d6c75f432",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:e0540500ce6be2c38b8a4f2d8cd775e40d53280abac32aaa20d039c8092f1698",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -14,11 +14,11 @@
   "kind": "section",
   "number": "134A",
   "ref": "TMA1995/s134A",
-  "text": "(1) The ComptrollerGeneral of Customs may permit the objector or the designated owner to inspect the seized goods. Note: For designated owner, objector and seized goods see section 6. (2) If the objector gives the ComptrollerGeneral of Customs the requisite undertakings, the ComptrollerGeneral of Customs may permit the objector to remove one or more samples of the seized goods from the custody of the ComptrollerGeneral of Customs for inspection by the objector. (3) If the designated owner gives the ComptrollerGeneral of Customs the requisite undertakings, the ComptrollerGeneral of Customs may permit the designated owner to remove one or more samples of the seized goods from the custody of the ComptrollerGeneral of Customs for inspection by the designated owner. (4) The requisite undertakings are undertakings in writing that the person giving the undertaking will: (a) return the sample goods to the ComptrollerGeneral of Customs at a specified time that is satisfactory to the ComptrollerGeneral of Customs; and (b) take reasonable care to prevent damage to the sample goods. (5) If the ComptrollerGeneral of Customs permits inspection of the seized goods, or the removal of sample goods, by the objector in accordance with this section, the Commonwealth is not liable to the designated owner for any loss or damage suffered by the designated owner arising out of: (a) damage to any of the seized goods incurred during that inspection; or (b) anything done by the objector or any other person to, or in relation to, sample goods removed from the custody of the ComptrollerGeneral of Customs or any use made by the objector of such sample goods.",
+  "text": "(1) The Comptroller-General of Customs may permit the objector or the designated owner to inspect the seized goods. Note: For designated owner, objector and seized goods see section 6. (2) If the objector gives the Comptroller-General of Customs the requisite undertakings, the Comptroller-General of Customs may permit the objector to remove one or more samples of the seized goods from the custody of the Comptroller-General of Customs for inspection by the objector. (3) If the designated owner gives the Comptroller-General of Customs the requisite undertakings, the Comptroller-General of Customs may permit the designated owner to remove one or more samples of the seized goods from the custody of the Comptroller-General of Customs for inspection by the designated owner. (4) The requisite undertakings are undertakings in writing that the person giving the undertaking will: (a) return the sample goods to the Comptroller-General of Customs at a specified time that is satisfactory to the Comptroller-General of Customs; and (b) take reasonable care to prevent damage to the sample goods. (5) If the Comptroller-General of Customs permits inspection of the seized goods, or the removal of sample goods, by the objector in accordance with this section, the Commonwealth is not liable to the designated owner for any loss or damage suffered by the designated owner arising out of: (a) damage to any of the seized goods incurred during that inspection; or (b) anything done by the objector or any other person to, or in relation to, sample goods removed from the custody of the Comptroller-General of Customs or any use made by the objector of such sample goods.",
   "title": "Inspection, release etc. of seized goods",
   "units": [
     {
-      "content_hash": "sha256:b637e84efd13fce20d325bbb3f4d272a4d8fa915396e9630928e5ac6e47fd7ba",
+      "content_hash": "sha256:5e5890ca182257c2dbf34a5b8eb1ff2877d6ef92432ba405f7a427a55565903b",
       "depth": 0,
       "kind": "subsection",
       "number": "(1)",
@@ -26,7 +26,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s134A(1)",
       "style": "subsection",
-      "text": "(1) The ComptrollerGeneral of Customs may permit the objector or the designated owner to inspect the seized goods."
+      "text": "(1) The Comptroller-General of Customs may permit the objector or the designated owner to inspect the seized goods."
     },
     {
       "content_hash": "sha256:b67b3a48a504823dcafc79c58f40b21178d64ced49548736d49e5863cb5c7d20",
@@ -68,7 +68,7 @@
       "text": "Note: For designated owner, objector and seized goods see section 6."
     },
     {
-      "content_hash": "sha256:c06852a2c015317db1513da08a179aaf1f9cfd081c5fd52cdb341de61b9b5327",
+      "content_hash": "sha256:f000a9c2665b56cf975f4719455d42b00161e53e72ea732e50973e99f763e13c",
       "depth": 0,
       "kind": "subsection",
       "number": "(2)",
@@ -76,10 +76,10 @@
       "parent_ref": null,
       "ref": "TMA1995/s134A(2)",
       "style": "subsection",
-      "text": "(2) If the objector gives the ComptrollerGeneral of Customs the requisite undertakings, the ComptrollerGeneral of Customs may permit the objector to remove one or more samples of the seized goods from the custody of the ComptrollerGeneral of Customs for inspection by the objector."
+      "text": "(2) If the objector gives the Comptroller-General of Customs the requisite undertakings, the Comptroller-General of Customs may permit the objector to remove one or more samples of the seized goods from the custody of the Comptroller-General of Customs for inspection by the objector."
     },
     {
-      "content_hash": "sha256:4a569b184c651b0716d49144e25d91bdc36bb4573a128817404e894babb52b8e",
+      "content_hash": "sha256:4b215698a2994e3a5959c202a37e1dc6e88961f95598075593d3e8d0154e0db4",
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
@@ -87,7 +87,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s134A(3)",
       "style": "subsection",
-      "text": "(3) If the designated owner gives the ComptrollerGeneral of Customs the requisite undertakings, the ComptrollerGeneral of Customs may permit the designated owner to remove one or more samples of the seized goods from the custody of the ComptrollerGeneral of Customs for inspection by the designated owner."
+      "text": "(3) If the designated owner gives the Comptroller-General of Customs the requisite undertakings, the Comptroller-General of Customs may permit the designated owner to remove one or more samples of the seized goods from the custody of the Comptroller-General of Customs for inspection by the designated owner."
     },
     {
       "content_hash": "sha256:0a36924f57ed9d1f6e27a1a18341b33cdb5c9113410375d21fb55e52df9219ed",
@@ -101,7 +101,7 @@
       "text": "(4) The requisite undertakings are undertakings in writing that the person giving the undertaking will:"
     },
     {
-      "content_hash": "sha256:d01f28f420d5187d8603af0746835da1427e3c8e6247df462956447e7a610e87",
+      "content_hash": "sha256:ee50c06d812a5c8eb2bbb58ac389f8dbdabeff77c95c577e36dd171ef611a1a5",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -109,7 +109,7 @@
       "parent_ref": "TMA1995/s134A(4)",
       "ref": "TMA1995/s134A(4)(a)",
       "style": "paragraph",
-      "text": "(a) return the sample goods to the ComptrollerGeneral of Customs at a specified time that is satisfactory to the ComptrollerGeneral of Customs; and"
+      "text": "(a) return the sample goods to the Comptroller-General of Customs at a specified time that is satisfactory to the Comptroller-General of Customs; and"
     },
     {
       "content_hash": "sha256:d4f6308521caca3d6188c3b8e487080adf72143e9efebc9eebe0a65b0d5ff2bf",
@@ -123,7 +123,7 @@
       "text": "(b) take reasonable care to prevent damage to the sample goods."
     },
     {
-      "content_hash": "sha256:2fa24f4207fbbb11d6405bd0fbb776054541d5fcfa2190365d7f0a0e5e5ac86e",
+      "content_hash": "sha256:a26073b2509617e7e157031c87e4feabb14f0c97d468a52075844d1285206318",
       "depth": 0,
       "kind": "subsection",
       "number": "(5)",
@@ -131,7 +131,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s134A(5)",
       "style": "subsection",
-      "text": "(5) If the ComptrollerGeneral of Customs permits inspection of the seized goods, or the removal of sample goods, by the objector in accordance with this section, the Commonwealth is not liable to the designated owner for any loss or damage suffered by the designated owner arising out of:"
+      "text": "(5) If the Comptroller-General of Customs permits inspection of the seized goods, or the removal of sample goods, by the objector in accordance with this section, the Commonwealth is not liable to the designated owner for any loss or damage suffered by the designated owner arising out of:"
     },
     {
       "content_hash": "sha256:829e933c035f71b067f090dcf1c64cb426f3abb756c25a59ad83bac6f6ed8e4e",
@@ -145,7 +145,7 @@
       "text": "(a) damage to any of the seized goods incurred during that inspection; or"
     },
     {
-      "content_hash": "sha256:249a91cb8e19aa4fa69283eb3aee99dcae96e56901a7407942296d115c34bdcb",
+      "content_hash": "sha256:440e110d4ce692e53dd5b131546c893bd19d8cde3608fc1fd66d26b75fab8621",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -153,7 +153,7 @@
       "parent_ref": "TMA1995/s134A(5)",
       "ref": "TMA1995/s134A(5)(b)",
       "style": "paragraph",
-      "text": "(b) anything done by the objector or any other person to, or in relation to, sample goods removed from the custody of the ComptrollerGeneral of Customs or any use made by the objector of such sample goods."
+      "text": "(b) anything done by the objector or any other person to, or in relation to, sample goods removed from the custody of the Comptroller-General of Customs or any use made by the objector of such sample goods."
     }
   ]
 }

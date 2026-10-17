@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div9"
   ],
-  "content_hash": "sha256:c0a40d9c773f7ccae360f845933c0d5f8c97f5f41d595c3b58cb7a5a3fa4f23b",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:590276ebd6613658b711593ecf562a750413074f3d85d8ae667d8f6347ccd871",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -16,7 +16,7 @@
   "kind": "regulation",
   "number": "17A.59",
   "ref": "TMR1995/r17A.59",
-  "text": "(1) If a person is recorded under regulation 17A.62 as claiming an interest in, or a right in respect of, the trade mark, the Registrar must: (a) make a declaration to the International Bureau in accordance with rule 27(4) of the Madrid Regulations that, subject to subregulation (2), the change of ownership has no effect in Australia; and (b) notify the person that the change of ownership will have effect at the end of 2 months from the date of the notification unless the person serves on the Registrar an order of a prescribed court directing the Registrar not to withdraw the declaration. (2) At the end of the 2month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia.",
+  "text": "(1) If a person is recorded under regulation 17A.62 as claiming an interest in, or a right in respect of, the trade mark, the Registrar must: (a) make a declaration to the International Bureau in accordance with rule 27(4) of the Madrid Regulations that, subject to subregulation (2), the change of ownership has no effect in Australia; and (b) notify the person that the change of ownership will have effect at the end of 2 months from the date of the notification unless the person serves on the Registrar an order of a prescribed court directing the Registrar not to withdraw the declaration. (2) At the end of the 2-month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia.",
   "title": "Trade marks affected by claimed interests and rights",
   "units": [
     {
@@ -61,7 +61,7 @@
       "text": "(b) notify the person that the change of ownership will have effect at the end of 2 months from the date of the notification unless the person serves on the Registrar an order of a prescribed court directing the Registrar not to withdraw the declaration."
     },
     {
-      "content_hash": "sha256:d64b21f2484584fdaad4a40f39b8bde6a4a3706138c551b16fc3ff9551b5cbd6",
+      "content_hash": "sha256:7b2e08ebbb99bc9c5d53b8276dcd5386ce49f94fa4e811561475167b0492f179",
       "depth": 0,
       "kind": "subsection",
       "number": "(2)",
@@ -69,7 +69,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r17A.59(2)",
       "style": "subsection",
-      "text": "(2) At the end of the 2month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia."
+      "text": "(2) At the end of the 2-month period, if a court order has not been served on the Registrar as mentioned in paragraph (1)(b), the Registrar must notify the International Bureau that the change of ownership may be given effect in Australia."
     }
   ]
 }

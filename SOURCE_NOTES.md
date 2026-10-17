@@ -344,6 +344,16 @@ The block lives in `div.view-amended-reasons`, outside the body field. Its
 wrapper carries a `js-view-dom-id-<hash>` class; ignore it, and never let it
 into a hash.
 
+Nor into the decision to rewrite `snapshot/raw/`. The hash is fresh on every
+request, so a byte comparison of the served page against the stored one says
+"changed" for all ~500 pages on every crawl. Until October 2026 it did: each
+weekly pull request carried ~500 raw files whose only difference was this
+class, and a week with nothing else to report still opened one (titled "no
+changes"). `writer.same_raw` compares with the hash masked, and the stored
+file stays a verbatim earlier fetch when nothing else moved. The nav tree is
+on every page too and does change every raw file when the Manual's structure
+moves; that is real, and is still written.
+
 Separately, pages carry a `Date Published` field, in `div.py-3` labelled by a
 `strong.field-label-inline`. Different thing; capture both.
 
@@ -731,6 +741,26 @@ and a page with no body field is archived **only** if that banner is there.
 Without it, the raise stands. The distinction is the whole point: it keeps the
 "the site has changed shape" alarm working while stopping it firing on a page
 the Manual has merely emptied.
+
+**The banner changed shape in September 2026, and the alarm did its job.** The
+site moved the sentence out of its `<p>` and into the alert directly:
+
+```html
+<div class="alert alert-warning py-3 my-3" role="alert">
+  This page has been archived.
+  <p>If you would like to submit feedback, please <a href="...">contact us</a>.</p>
+</div>
+```
+
+The matcher looked only in `<p>` children, so Annex A4 became a page with no
+body field and no recognisable banner, and every scheduled crawl from 20
+September to 11 October raised on it about 205 pages in — four weeks of the
+Manual going unrecorded, loudly rather than wrongly. The banner is now matched
+in either place: a `<p>` inside the alert, or the alert's own text (its direct
+text nodes, joined and normalised). Both are still whole-string equality, so
+a callout that mentions archiving in passing still does not match. All six
+archived pages (Parts 23, 30, 48, 52 and 61) were refetched on 17 October 2026
+and parse; the new shape is a fixture beside the old one.
 
 An archived page is recorded, not skipped: `archived: true` on the page record,
 the amendment history preserved, `chunks: []`, and a `content_hash` over an

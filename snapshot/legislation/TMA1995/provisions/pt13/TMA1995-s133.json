@@ -1,21 +1,21 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:35435bbc863ff8e12ddc1ce48a463d52a307f504eba865bf7c975eb17ce8c807",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:49b1a2f822789146a9dec3c7deb429cd1d833cc12b5a5be94d4512c242d9fecb",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
-    "133  ComptrollerGeneral of Customs may seize goods infringing trade mark"
+    "133  Comptroller-General of Customs may seize goods infringing trade mark"
   ],
   "instrument": "TMA1995",
   "kind": "section",
   "number": "133",
   "ref": "TMA1995/s133",
-  "text": "(1) This section applies to goods manufactured outside Australia that: (a) are imported into Australia; and (b) are subject to customs control under the Customs Act 1901. (2) If goods to which this section applies: (a) have applied to them or in relation to them a sign that, in the opinion of the ComptrollerGeneral of Customs, is substantially identical with, or deceptively similar to, a notified trade mark; and (b) are goods in respect of which the notified trade mark is registered; the ComptrollerGeneral of Customs must seize the goods unless he or she is satisfied that there are no reasonable grounds for believing that the notified trade mark is infringed by the importation of the goods. Note 1: For applied to or in relation to goods see section 9. Note 2: For deceptively similar see section 10. Note 3: For notified trade mark see section 6. (3) Subject to subsection (3A), the ComptrollerGeneral of Customs may decide not to seize the goods unless he or she has been given by the objector (or by one or more of the objectors) a written undertaking acceptable to the ComptrollerGeneral of Customs to repay to the Commonwealth the expenses of seizing the goods. Note: For objector see section 6. (3A) The ComptrollerGeneral of Customs may decide not to seize the goods unless he or she has been given by the objector (or one or more of the objectors), instead of an undertaking, security in an amount that the ComptrollerGeneral of Customs considers sufficient to repay to the Commonwealth the expenses of seizing the goods if: (a) an amount payable under an undertaking given by the objector (or one or more of the objectors) in relation to other goods has not been paid in accordance with the undertaking; and (b) the ComptrollerGeneral of Customs considers it reasonable in all the circumstances to require the security. (3B) An undertaking may be withdrawn or varied if the ComptrollerGeneral of Customs consents in writing to a written request from the objector or objectors to do so. (4) Goods seized under this section must be kept in a secure place as directed by the ComptrollerGeneral of Customs. (5) In this section: expenses of seizing goods means the expenses that may be incurred by the Commonwealth if the goods were seized.",
-  "title": "ComptrollerGeneral of Customs may seize goods infringing trade mark",
+  "text": "(1) This section applies to goods manufactured outside Australia that: (a) are imported into Australia; and (b) are subject to customs control under the Customs Act 1901. (2) If goods to which this section applies: (a) have applied to them or in relation to them a sign that, in the opinion of the Comptroller-General of Customs, is substantially identical with, or deceptively similar to, a notified trade mark; and (b) are goods in respect of which the notified trade mark is registered; the Comptroller-General of Customs must seize the goods unless he or she is satisfied that there are no reasonable grounds for believing that the notified trade mark is infringed by the importation of the goods. Note 1: For applied to or in relation to goods see section 9. Note 2: For deceptively similar see section 10. Note 3: For notified trade mark see section 6. (3) Subject to subsection (3A), the Comptroller-General of Customs may decide not to seize the goods unless he or she has been given by the objector (or by one or more of the objectors) a written undertaking acceptable to the Comptroller-General of Customs to repay to the Commonwealth the expenses of seizing the goods. Note: For objector see section 6. (3A) The Comptroller-General of Customs may decide not to seize the goods unless he or she has been given by the objector (or one or more of the objectors), instead of an undertaking, security in an amount that the Comptroller-General of Customs considers sufficient to repay to the Commonwealth the expenses of seizing the goods if: (a) an amount payable under an undertaking given by the objector (or one or more of the objectors) in relation to other goods has not been paid in accordance with the undertaking; and (b) the Comptroller-General of Customs considers it reasonable in all the circumstances to require the security. (3B) An undertaking may be withdrawn or varied if the Comptroller-General of Customs consents in writing to a written request from the objector or objectors to do so. (4) Goods seized under this section must be kept in a secure place as directed by the Comptroller-General of Customs. (5) In this section: expenses of seizing goods means the expenses that may be incurred by the Commonwealth if the goods were seized.",
+  "title": "Comptroller-General of Customs may seize goods infringing trade mark",
   "units": [
     {
       "content_hash": "sha256:f27ec6abf17660a3fbde1d0bab1c44cb188c709f86c877c2e9bb037c6f836768",
@@ -70,7 +70,7 @@
       "text": "(2) If goods to which this section applies:"
     },
     {
-      "content_hash": "sha256:c9e9b16c31f4afd39bcc6f282e6a69823e7ed631bdc2fa91231666a385033ba7",
+      "content_hash": "sha256:6ca9d2db64f1c0788f6a59ef71bbcbf9b7b5b72ae32c076e807927736e2ffc66",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -78,7 +78,7 @@
       "parent_ref": "TMA1995/s133(2)",
       "ref": "TMA1995/s133(2)(a)",
       "style": "paragraph",
-      "text": "(a) have applied to them or in relation to them a sign that, in the opinion of the ComptrollerGeneral of Customs, is substantially identical with, or deceptively similar to, a notified trade mark; and"
+      "text": "(a) have applied to them or in relation to them a sign that, in the opinion of the Comptroller-General of Customs, is substantially identical with, or deceptively similar to, a notified trade mark; and"
     },
     {
       "content_hash": "sha256:1b19bfc8086aef33184d7e279da86a74e6ba9c2b2b6d4bf124bdcddff1ab4ddd",
@@ -92,7 +92,7 @@
       "text": "(b) are goods in respect of which the notified trade mark is registered;"
     },
     {
-      "content_hash": "sha256:2ba3dbdf08e795c634c8409c4b65dd8afc84c4e41c5b8dded844a84c5f7ce8d0",
+      "content_hash": "sha256:edaad9b56774d0d6cdee12d3afaa42a33d6e0b8a317bc43dc7edf0ddfdff8177",
       "depth": 0,
       "kind": "text",
       "number": null,
@@ -100,7 +100,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s133~1",
       "style": "subsection2",
-      "text": "the ComptrollerGeneral of Customs must seize the goods unless he or she is satisfied that there are no reasonable grounds for believing that the notified trade mark is infringed by the importation of the goods."
+      "text": "the Comptroller-General of Customs must seize the goods unless he or she is satisfied that there are no reasonable grounds for believing that the notified trade mark is infringed by the importation of the goods."
     },
     {
       "content_hash": "sha256:576f6c3e062de04d29d4d8ddf56b4e2afbbb8c3054be8f1dc61c18fc6856e2de",
@@ -184,7 +184,7 @@
       "text": "Note 3: For notified trade mark see section 6."
     },
     {
-      "content_hash": "sha256:c211d60b793f6fb3f395c806cf86141781e72118d2ad248bdf6b54da7e7c09b3",
+      "content_hash": "sha256:2c0faded6eafc7476d5f46605fd882a5167b287e1d8930ccf0e5acc945fcc0e4",
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
@@ -192,7 +192,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s133(3)",
       "style": "subsection",
-      "text": "(3) Subject to subsection (3A), the ComptrollerGeneral of Customs may decide not to seize the goods unless he or she has been given by the objector (or by one or more of the objectors) a written undertaking acceptable to the ComptrollerGeneral of Customs to repay to the Commonwealth the expenses of seizing the goods."
+      "text": "(3) Subject to subsection (3A), the Comptroller-General of Customs may decide not to seize the goods unless he or she has been given by the objector (or by one or more of the objectors) a written undertaking acceptable to the Comptroller-General of Customs to repay to the Commonwealth the expenses of seizing the goods."
     },
     {
       "content_hash": "sha256:5ae32d8745bd4718fc21c847fb9e93f921d0fb005ceb6534a203c64b659c24b0",
@@ -222,7 +222,7 @@
       "text": "Note: For objector see section 6."
     },
     {
-      "content_hash": "sha256:a3e489ee53a1882194c4853bcf9acee4af78d1484dd4eda3d2f36e137227feec",
+      "content_hash": "sha256:50beea6ffae4b56b7a28483bb423c3645ba66ee74565da2b316aaa6f17d6679f",
       "depth": 0,
       "kind": "subsection",
       "number": "(3A)",
@@ -230,7 +230,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s133(3A)",
       "style": "subsection",
-      "text": "(3A) The ComptrollerGeneral of Customs may decide not to seize the goods unless he or she has been given by the objector (or one or more of the objectors), instead of an undertaking, security in an amount that the ComptrollerGeneral of Customs considers sufficient to repay to the Commonwealth the expenses of seizing the goods if:"
+      "text": "(3A) The Comptroller-General of Customs may decide not to seize the goods unless he or she has been given by the objector (or one or more of the objectors), instead of an undertaking, security in an amount that the Comptroller-General of Customs considers sufficient to repay to the Commonwealth the expenses of seizing the goods if:"
     },
     {
       "content_hash": "sha256:de34ddfdeddb9c020b3c8a1a048ee2bf0d9fe5d096fa70b6b05f995b3595267d",
@@ -244,7 +244,7 @@
       "text": "(a) an amount payable under an undertaking given by the objector (or one or more of the objectors) in relation to other goods has not been paid in accordance with the undertaking; and"
     },
     {
-      "content_hash": "sha256:6a530202b8e726d8e3c27ba9499b08257bd6d398a8d0e7506a0563be786a8cdc",
+      "content_hash": "sha256:aa67c4109d65f30785e33e6080bb7c59dd50528b6bcea080aa5ce3ade89d2353",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -252,10 +252,10 @@
       "parent_ref": "TMA1995/s133(3A)",
       "ref": "TMA1995/s133(3A)(b)",
       "style": "paragraph",
-      "text": "(b) the ComptrollerGeneral of Customs considers it reasonable in all the circumstances to require the security."
+      "text": "(b) the Comptroller-General of Customs considers it reasonable in all the circumstances to require the security."
     },
     {
-      "content_hash": "sha256:6704d854cd43cce0d29b27e14a9773125e211a9c7d23f2fa27c20e12cef154a4",
+      "content_hash": "sha256:d8b2b080ff86fcb3a5feb6159bd3571f794b2af6ab61ca4f2a6dcd20fee1de56",
       "depth": 0,
       "kind": "subsection",
       "number": "(3B)",
@@ -263,10 +263,10 @@
       "parent_ref": null,
       "ref": "TMA1995/s133(3B)",
       "style": "subsection",
-      "text": "(3B) An undertaking may be withdrawn or varied if the ComptrollerGeneral of Customs consents in writing to a written request from the objector or objectors to do so."
+      "text": "(3B) An undertaking may be withdrawn or varied if the Comptroller-General of Customs consents in writing to a written request from the objector or objectors to do so."
     },
     {
-      "content_hash": "sha256:8533844b2758566752ac8c9d894334af016845e178f2cdc4f1a4c50241cf1da7",
+      "content_hash": "sha256:f01e5c01f0c11d7ad57d7c6069905b9f7efeab2a656f0b4c9e6760a846a2b677",
       "depth": 0,
       "kind": "subsection",
       "number": "(4)",
@@ -274,7 +274,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s133(4)",
       "style": "subsection",
-      "text": "(4) Goods seized under this section must be kept in a secure place as directed by the ComptrollerGeneral of Customs."
+      "text": "(4) Goods seized under this section must be kept in a secure place as directed by the Comptroller-General of Customs."
     },
     {
       "content_hash": "sha256:76bc2e02f875037c15ffcd30d59c49c3a4dcac13cad7eb01fe01d1ace9fc6a14",

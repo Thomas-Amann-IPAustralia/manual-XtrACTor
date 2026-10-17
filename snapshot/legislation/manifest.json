@@ -2,16 +2,16 @@
   "corpus": {
     "instruments": 2,
     "provisions": 763,
-    "raw_bytes": 637024,
-    "units": 5813
+    "raw_bytes": 956216,
+    "units": 5821
   },
-  "crawled_at": "2026-07-29T13:36:27Z",
-  "extractor_version": "legislation/0.2.0",
-  "finished_at": "2026-07-29T13:36:29Z",
+  "crawled_at": "2026-10-17T14:11:23Z",
+  "extractor_version": "legislation/0.3.0",
+  "finished_at": "2026-10-17T14:11:25Z",
   "run": {
     "amended": [],
     "dry_run": false,
-    "files_written": 0,
+    "files_written": 769,
     "force": true,
     "from_raw": true,
     "instruments": [
@@ -26,6 +26,6 @@
     },
     "unchanged": [],
     "unincorporated_amendments": [],
-    "units_cut": 5813
+    "units_cut": 5821
   }
 }

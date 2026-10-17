@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt21",
     "TMR1995/pt21/div3"
   ],
-  "content_hash": "sha256:3111831b868aba60c5a3757bcc172e65db2e2cbf4a78ee57901573401404a09d",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:1e2512dcff891382e238fd4ed9bd9be770cfe1f33cd89cb480444e5a2954dfa8",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 21—Miscellaneous",
@@ -16,11 +16,11 @@
   "kind": "regulation",
   "number": "21.21A",
   "ref": "TMR1995/r21.21A",
-  "text": "(1) If a fee is payable in respect of the doing of an act by the Registrar or the ComptrollerGeneral of Customs, the Registrar or ComptrollerGeneral of Customs must not do the act until the fee has been paid. (2) Subject to subregulation (3), if: (a) a fee is payable in respect of the doing of an act by a person other than the Registrar or the ComptrollerGeneral of Customs; or (b) a fee is payable in respect of the filing of a document; the act is taken to have been done, or the document is taken to have been filed, despite the failure to pay the fee. Note: File has the meaning given by section 6 of the Act. (3) If the Registrar or the ComptrollerGeneral of Customs notifies under regulation 21.23 the person concerned or his or her agent, that the fee has not been paid, the act is not taken to have been done, or the document is not taken to have been filed, before the day on which the fee is paid.",
+  "text": "(1) If a fee is payable in respect of the doing of an act by the Registrar or the Comptroller-General of Customs, the Registrar or Comptroller-General of Customs must not do the act until the fee has been paid. (2) Subject to subregulation (3), if: (a) a fee is payable in respect of the doing of an act by a person other than the Registrar or the Comptroller-General of Customs; or (b) a fee is payable in respect of the filing of a document; the act is taken to have been done, or the document is taken to have been filed, despite the failure to pay the fee. Note: File has the meaning given by section 6 of the Act. (3) If the Registrar or the Comptroller-General of Customs notifies under regulation 21.23 the person concerned or his or her agent, that the fee has not been paid, the act is not taken to have been done, or the document is not taken to have been filed, before the day on which the fee is paid.",
   "title": "No action permitted until fee paid",
   "units": [
     {
-      "content_hash": "sha256:d6d2aaea028c98ff4669fe9c3fc8914126d6f588141c0bd2cab144b475e398b6",
+      "content_hash": "sha256:7c451bec4f2ec6b727f30102331fc4ac0c0eb5c18c70a07c72ff6b6cca3cf232",
       "depth": 0,
       "kind": "subsection",
       "number": "(1)",
@@ -28,7 +28,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r21.21A(1)",
       "style": "subsection",
-      "text": "(1) If a fee is payable in respect of the doing of an act by the Registrar or the ComptrollerGeneral of Customs, the Registrar or ComptrollerGeneral of Customs must not do the act until the fee has been paid."
+      "text": "(1) If a fee is payable in respect of the doing of an act by the Registrar or the Comptroller-General of Customs, the Registrar or Comptroller-General of Customs must not do the act until the fee has been paid."
     },
     {
       "content_hash": "sha256:17c05544e5e0c1160aa249dd11aa1bcaa5b86c546dc3bd47f9c414925c289aea",
@@ -42,7 +42,7 @@
       "text": "(2) Subject to subregulation (3), if:"
     },
     {
-      "content_hash": "sha256:151bdd75d36fd0fc999e04934cff1c2c0dc332093650e4345bb0d96faf990a36",
+      "content_hash": "sha256:270c009282cde2df18c02857890f04d2c105dab36c45e65115600e0e183730af",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -50,7 +50,7 @@
       "parent_ref": "TMR1995/r21.21A(2)",
       "ref": "TMR1995/r21.21A(2)(a)",
       "style": "paragraph",
-      "text": "(a) a fee is payable in respect of the doing of an act by a person other than the Registrar or the ComptrollerGeneral of Customs; or"
+      "text": "(a) a fee is payable in respect of the doing of an act by a person other than the Registrar or the Comptroller-General of Customs; or"
     },
     {
       "content_hash": "sha256:dad9a5c80b53a720e7ab4f1cb624958a46d1169bb9d247e76acf924aabbf71b3",
@@ -102,7 +102,7 @@
       "text": "Note: File has the meaning given by section 6 of the Act."
     },
     {
-      "content_hash": "sha256:4850eeed8188da4f39830c8221d97b26cb24a6165b81b1f69b8f22185b42dc7f",
+      "content_hash": "sha256:a06c40f239ea7a1ec80ab8618431e93d85a389db6f29748fc84a0357c2a4f05b",
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
@@ -118,7 +118,7 @@
       ],
       "ref": "TMR1995/r21.21A(3)",
       "style": "subsection",
-      "text": "(3) If the Registrar or the ComptrollerGeneral of Customs notifies under regulation 21.23 the person concerned or his or her agent, that the fee has not been paid, the act is not taken to have been done, or the document is not taken to have been filed, before the day on which the fee is paid."
+      "text": "(3) If the Registrar or the Comptroller-General of Customs notifies under regulation 21.23 the person concerned or his or her agent, that the fee has not been paid, the act is not taken to have been done, or the document is not taken to have been filed, before the day on which the fee is paid."
     }
   ]
 }

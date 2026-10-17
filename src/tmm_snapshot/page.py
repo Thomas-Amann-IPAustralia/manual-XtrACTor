@@ -575,8 +575,17 @@ def _is_archived(main: Tag) -> bool:
 
     Structural and exact — a selector plus one string equality, no substring
     matching and no inference from the slug. See ARCHIVED_SELECTOR.
+
+    The sentence is read from either of the two places the site has put it:
+    its own `<p>` inside the alert (to September 2026), or the alert's own
+    text, directly, with only the feedback line still in a `<p>` (since).
+    Either way it is the whole of the text it stands in, so a callout that
+    merely mentions archiving still does not match. SOURCE_NOTES.md §15.
     """
     for alert in main.select(ARCHIVED_SELECTOR):
+        own_text = normalise_text(" ".join(alert.find_all(string=True, recursive=False)))
+        if own_text == ARCHIVED_STRING:
+            return True
         for paragraph in alert.find_all("p"):
             if normalise_text(paragraph.get_text(" ")) == ARCHIVED_STRING:
                 return True

@@ -102,6 +102,30 @@ def test_an_archived_page_yields_no_chunks(sitemap):
     assert chunk_body(body, record, nav, sitemap) == []
 
 
+def test_the_banner_is_read_when_it_is_the_alerts_own_text(sitemap):
+    """Since September 2026 the sentence sits directly in the alert and only
+    the feedback line keeps its <p>. Same page, same record."""
+    record, body = parse("part23_archived_2026_10", sitemap)
+    before, _ = parse("part23_archived", sitemap)
+
+    assert record.archived is True
+    assert normalise_text(body.get_text(" ")) == ""
+    assert record.content_hash == before.content_hash
+    assert record.last_amended == before.last_amended
+    assert record.amendment_note == before.amendment_note
+
+
+def test_the_alerts_own_text_is_matched_on_the_whole_string_too(sitemap):
+    html = page_html("part23_archived_2026_10").replace(
+        "This page has been archived.",
+        "Note: This page has been archived. See the successor page.",
+    )
+    nav = resolve_nav(page_url("part23_archived_2026_10"), sitemap)
+
+    with pytest.raises(UnrecognisedMarkup):
+        parse_page(html, nav)
+
+
 def test_a_live_page_is_not_archived(sitemap):
     record, _ = parse("part22_1", sitemap)
     assert record.archived is False

@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:0e72ec7a6e6b2730c010546b00d2faf7f7ef37f34dedc0f5a7cf3de8f0ae2185",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:82430ca504a636bd3dfa941a9d44e673d0b0e688992f226082d9210e96468cee",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -14,16 +14,16 @@
   "kind": "section",
   "number": "134",
   "ref": "TMA1995/s134",
-  "text": "(1) As soon as is practicable after goods are seized under section 133, the ComptrollerGeneral of Customs must give to the designated owner and the objector, by any means of communication (including by electronic means), a notice (the seizure notice) identifying the goods and stating that the identified goods have been seized. Note: For designated owner and objector see section 6. (2) The seizure notice must state that the goods will be released to the designated owner if: (a) the designated owner makes a claim for the release of the goods within the claim period; and (b) the objector has not, by the end of the action period: (i) instituted an action for infringement of the notified trade mark in respect of the goods; and (ii) given the ComptrollerGeneral of Customs written notice of that action. Note: For claim period, action period and notified trade mark see section 6. (3) The seizure notice must also: (a) set out the claim period for the goods; and (b) set out the action period for the goods and state that the action period will begin only if the designated owner makes a claim for the release of the goods; and (c) if the notice is given to the objector—state the name and the address of the place of business or residence of the designated owner (if known), unless the ComptrollerGeneral of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so; and (d) if the notice is given to the designated owner—state the name and the address of the place of business or residence of: (i) the objector; or (ii) if the objector has nominated a person to be the objector’s agent or representative for the purposes of this Division—that person; unless the ComptrollerGeneral of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so. (4) The ComptrollerGeneral of Customs may, at any time after the goods are seized, give to the objector: (a) the name and the address of the place of business or residence of any person or body (whether in or outside Australia) that made arrangements, on behalf of the designated owner of the goods, for the goods to be brought to Australia or any information that the ComptrollerGeneral of Customs has, and believes on reasonable grounds may help in identifying and locating such a person or body; and (b) any information (including personal information) that the ComptrollerGeneral of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the importer of the goods; and (c) any information (including personal information) that the ComptrollerGeneral of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the designated owner of the goods.",
+  "text": "(1) As soon as is practicable after goods are seized under section 133, the Comptroller-General of Customs must give to the designated owner and the objector, by any means of communication (including by electronic means), a notice (the seizure notice) identifying the goods and stating that the identified goods have been seized. Note: For designated owner and objector see section 6. (2) The seizure notice must state that the goods will be released to the designated owner if: (a) the designated owner makes a claim for the release of the goods within the claim period; and (b) the objector has not, by the end of the action period: (i) instituted an action for infringement of the notified trade mark in respect of the goods; and (ii) given the Comptroller-General of Customs written notice of that action. Note: For claim period, action period and notified trade mark see section 6. (3) The seizure notice must also: (a) set out the claim period for the goods; and (b) set out the action period for the goods and state that the action period will begin only if the designated owner makes a claim for the release of the goods; and (c) if the notice is given to the objector—state the name and the address of the place of business or residence of the designated owner (if known), unless the Comptroller-General of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so; and (d) if the notice is given to the designated owner—state the name and the address of the place of business or residence of: (i) the objector; or (ii) if the objector has nominated a person to be the objector’s agent or representative for the purposes of this Division—that person; unless the Comptroller-General of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so. (4) The Comptroller-General of Customs may, at any time after the goods are seized, give to the objector: (a) the name and the address of the place of business or residence of any person or body (whether in or outside Australia) that made arrangements, on behalf of the designated owner of the goods, for the goods to be brought to Australia or any information that the Comptroller-General of Customs has, and believes on reasonable grounds may help in identifying and locating such a person or body; and (b) any information (including personal information) that the Comptroller-General of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the importer of the goods; and (c) any information (including personal information) that the Comptroller-General of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the designated owner of the goods.",
   "title": "Notice of seizure",
   "units": [
     {
-      "content_hash": "sha256:6f4e8fef332430e751760cd0e90356340163241660dab7c63367298e5f0a1af3",
+      "content_hash": "sha256:bff87af0ac7a974219bee1531553af9fc624ad86c9edd778f5fe9021f25aa5b2",
       "depth": 0,
       "emphasis": [
         {
-          "end": 249,
-          "start": 235,
+          "end": 250,
+          "start": 236,
           "text": "seizure notice",
           "weight": "bold-italic"
         }
@@ -42,7 +42,7 @@
       ],
       "ref": "TMA1995/s134(1)",
       "style": "subsection",
-      "text": "(1) As soon as is practicable after goods are seized under section 133, the ComptrollerGeneral of Customs must give to the designated owner and the objector, by any means of communication (including by electronic means), a notice (the seizure notice) identifying the goods and stating that the identified goods have been seized."
+      "text": "(1) As soon as is practicable after goods are seized under section 133, the Comptroller-General of Customs must give to the designated owner and the objector, by any means of communication (including by electronic means), a notice (the seizure notice) identifying the goods and stating that the identified goods have been seized."
     },
     {
       "content_hash": "sha256:4428ca34db83a2e07ab1a1820f3b7d78b39ca6174ce127a03840095d02d4bf5a",
@@ -122,7 +122,7 @@
       "text": "(i) instituted an action for infringement of the notified trade mark in respect of the goods; and"
     },
     {
-      "content_hash": "sha256:83507a950a11ebe321381ea462fed2e481b1437f3700cbbc85c897f1d6d0dd49",
+      "content_hash": "sha256:a1b82247279a358bca459c47b66b10d7363aee6f35d9a69d90b6e8bcfe6aef05",
       "depth": 2,
       "kind": "paragraph",
       "number": "(ii)",
@@ -130,7 +130,7 @@
       "parent_ref": "TMA1995/s134(2)(b)",
       "ref": "TMA1995/s134(2)(b)(ii)",
       "style": "paragraphsub",
-      "text": "(ii) given the ComptrollerGeneral of Customs written notice of that action."
+      "text": "(ii) given the Comptroller-General of Customs written notice of that action."
     },
     {
       "content_hash": "sha256:512d7e24ae3b7a52694c55aa5ab8058483aaf4d98464c9b69e77d5d950816efe",
@@ -205,7 +205,7 @@
       "text": "(b) set out the action period for the goods and state that the action period will begin only if the designated owner makes a claim for the release of the goods; and"
     },
     {
-      "content_hash": "sha256:38fc491e9fdd91000596e3f10f04020099ad7651711f6b9723d5bc0ae4f7bb7b",
+      "content_hash": "sha256:7ce78c9d2e57a7fa510d5adbd560eb9b6b2d9b69349d1f91a78b1846ee33f014",
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
@@ -213,7 +213,7 @@
       "parent_ref": "TMA1995/s134(3)",
       "ref": "TMA1995/s134(3)(c)",
       "style": "paragraph",
-      "text": "(c) if the notice is given to the objector—state the name and the address of the place of business or residence of the designated owner (if known), unless the ComptrollerGeneral of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so; and"
+      "text": "(c) if the notice is given to the objector—state the name and the address of the place of business or residence of the designated owner (if known), unless the Comptroller-General of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so; and"
     },
     {
       "content_hash": "sha256:fc8c1f186ef32a9a743815bbd863d84bb903247006227795a5799eba220b3336",
@@ -249,7 +249,7 @@
       "text": "(ii) if the objector has nominated a person to be the objector’s agent or representative for the purposes of this Division—that person;"
     },
     {
-      "content_hash": "sha256:9c0c47c74264464875236ee6d527a312eba8cadc224650db6ea2ed6bb4037bdf",
+      "content_hash": "sha256:742c4d334ed338a4869352169acb951174c7cf4da878763415e9690bf001194b",
       "depth": 1,
       "kind": "paragraph",
       "number": null,
@@ -257,10 +257,10 @@
       "parent_ref": "TMA1995/s134(3)",
       "ref": "TMA1995/s134(3)~1",
       "style": "paragraph",
-      "text": "unless the ComptrollerGeneral of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so."
+      "text": "unless the Comptroller-General of Customs is satisfied, for reasons of confidentiality, that it is not desirable to do so."
     },
     {
-      "content_hash": "sha256:f43432dc00a10ce4c7d90415d61cf5c4f815410d01e26663f1898456b7a9f49b",
+      "content_hash": "sha256:b5ac102fef1488a3f358c283963115865012c8a81ee363dcf92da432c6eab708",
       "depth": 0,
       "kind": "subsection",
       "number": "(4)",
@@ -268,10 +268,10 @@
       "parent_ref": null,
       "ref": "TMA1995/s134(4)",
       "style": "subsection",
-      "text": "(4) The ComptrollerGeneral of Customs may, at any time after the goods are seized, give to the objector:"
+      "text": "(4) The Comptroller-General of Customs may, at any time after the goods are seized, give to the objector:"
     },
     {
-      "content_hash": "sha256:30c96c6ee76491ac5e920e7885791d7ebebd032bf14c5e325a7ef2075eb69bb5",
+      "content_hash": "sha256:92e702a4c53e84a229c0b7d4fc6258fe87240af6e7677f1c9316b5265982db04",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -279,10 +279,10 @@
       "parent_ref": "TMA1995/s134(4)",
       "ref": "TMA1995/s134(4)(a)",
       "style": "paragraph",
-      "text": "(a) the name and the address of the place of business or residence of any person or body (whether in or outside Australia) that made arrangements, on behalf of the designated owner of the goods, for the goods to be brought to Australia or any information that the ComptrollerGeneral of Customs has, and believes on reasonable grounds may help in identifying and locating such a person or body; and"
+      "text": "(a) the name and the address of the place of business or residence of any person or body (whether in or outside Australia) that made arrangements, on behalf of the designated owner of the goods, for the goods to be brought to Australia or any information that the Comptroller-General of Customs has, and believes on reasonable grounds may help in identifying and locating such a person or body; and"
     },
     {
-      "content_hash": "sha256:b8feaa50428c9f0abb813c716822c0e468070c970e625cb47b7182605ea98d43",
+      "content_hash": "sha256:c88c7cd842728ff7a600d1731afd8a5172e07df7c8684eaab7797954259646b9",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -290,10 +290,10 @@
       "parent_ref": "TMA1995/s134(4)",
       "ref": "TMA1995/s134(4)(b)",
       "style": "paragraph",
-      "text": "(b) any information (including personal information) that the ComptrollerGeneral of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the importer of the goods; and"
+      "text": "(b) any information (including personal information) that the Comptroller-General of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the importer of the goods; and"
     },
     {
-      "content_hash": "sha256:3b33d0de76bbb80b08a564959e70d39a2fdf71c549c3b5387524f147a21a2e32",
+      "content_hash": "sha256:7c84ac44333ec5917f4045c6d3c1744563ee86e3a9172c93bb940d8a83f7422e",
       "depth": 1,
       "kind": "paragraph",
       "number": "(c)",
@@ -301,7 +301,7 @@
       "parent_ref": "TMA1995/s134(4)",
       "ref": "TMA1995/s134(4)(c)",
       "style": "paragraph",
-      "text": "(c) any information (including personal information) that the ComptrollerGeneral of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the designated owner of the goods."
+      "text": "(c) any information (including personal information) that the Comptroller-General of Customs has and believes on reasonable grounds may be relevant for the purpose of identifying and locating the designated owner of the goods."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [],
-  "content_hash": "sha256:9504d2c8d8caf25e807a77754cace9b0a0b05c51b525493f9fa8d393e56a580f",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:e2acd15c152b42f9d3c3f13105d44957d990d7491a7741c11748373455b9cc38",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "TMR1995/front"
@@ -11,7 +11,7 @@
   "kind": "front-matter",
   "number": null,
   "ref": "TMR1995/front",
-  "text": "made under the Compilation No. 53 Compilation date: 18 December 2025 Includes amendments: F2025L01380 About this compilation This compilation This is a compilation of the Trade Marks Regulations 1995 that shows the text of the law as amended and in force on 18 December 2025 (the compilation date). The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law. Uncommenced amendments The effect of uncommenced amendments is not shown in the text of the compiled law. The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au). Application, saving and transitional provisions If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes. Editorial changes For more information about any editorial changes made in this compilation, see the endnotes. Presentational changes The Legislation Act 2003 provides for First Parliamentary Counsel to make presentational changes to a compilation. Presentational changes are applied to give a more consistent look and feel to legislation published on the Register, and enable the user to more easily navigate those documents. Modifications If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. Any modifications affecting the law are accessible on the Register. Selfrepealing provisions If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes. Contents",
+  "text": "made under the Compilation No. 53 Compilation date: 18 December 2025 Includes amendments: F2025L01380 About this compilation This compilation This is a compilation of the Trade Marks Regulations 1995 that shows the text of the law as amended and in force on 18 December 2025 (the compilation date). The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law. Uncommenced amendments The effect of uncommenced amendments is not shown in the text of the compiled law. The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au). Application, saving and transitional provisions If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes. Editorial changes For more information about any editorial changes made in this compilation, see the endnotes. Presentational changes The Legislation Act 2003 provides for First Parliamentary Counsel to make presentational changes to a compilation. Presentational changes are applied to give a more consistent look and feel to legislation published on the Register, and enable the user to more easily navigate those documents. Modifications If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. Any modifications affecting the law are accessible on the Register. Self-repealing provisions If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes. Contents",
   "title": null,
   "units": [
     {
@@ -329,7 +329,7 @@
       "text": "If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. Any modifications affecting the law are accessible on the Register."
     },
     {
-      "content_hash": "sha256:7bcd799bf4270e6fe65046eea7f38b946c2631d7574df1799b7164526ed6ba47",
+      "content_hash": "sha256:1e613f744362e3e4be67a361075855f6117dac5a077c2dcfb55d5a79b75518c7",
       "depth": 0,
       "emphasis": [
         {
@@ -339,8 +339,14 @@
           "weight": "bold"
         },
         {
-          "end": 24,
+          "end": 5,
           "start": 4,
+          "text": "-",
+          "weight": "bold"
+        },
+        {
+          "end": 25,
+          "start": 5,
           "text": "repealing provisions",
           "weight": "bold"
         }
@@ -351,7 +357,7 @@
       "parent_ref": null,
       "ref": "TMR1995/front~19",
       "style": null,
-      "text": "Selfrepealing provisions"
+      "text": "Self-repealing provisions"
     },
     {
       "content_hash": "sha256:cae68832bd826374dc26252d4b6061300509eb0af8441b362fa80135673f2607",

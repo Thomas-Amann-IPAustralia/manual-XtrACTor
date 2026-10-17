@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "endnotes": [
     {
       "number": 1,
@@ -48,7 +48,7 @@
             ],
             [
               "C[x] = Compilation No. x",
-              "/subsubparagraph(s)"
+              "/sub-subparagraph(s)"
             ],
             [
               "ch = Chapter(s)",
@@ -108,7 +108,7 @@
             ],
             [
               "effect",
-              "sub ch = SubChapter(s)"
+              "sub ch = Sub-Chapter(s)"
             ],
             [
               "(md not incorp) = misdescribed amendment",
@@ -130,6 +130,15 @@
               "Ord = Ordinance",
               ""
             ]
+          ],
+          "underlined": [
+            {
+              "cell": 1,
+              "end": 11,
+              "row": 21,
+              "start": 0,
+              "text": "underlining"
+            }
           ]
         }
       ],
@@ -431,19 +440,19 @@
             [
               "Intellectual Property Laws Amendment (Regulator Performance) Regulations 2024",
               "10 May 2024 (F2024L00525)",
-              "sch 1 (items 159): 17 May 2024 (s 2(1) item 1)",
+              "sch 1 (items 1-59): 17 May 2024 (s 2(1) item 1)",
               "—"
             ],
             [
               "Intellectual Property Legislation Amendment (Fee Amounts and Other Measures) Regulations 2024",
               "2 Sept 2024 (F2024L01093)",
-              "sch 1 (items 3045): 1 Oct 2024 (s 2(1) item 1)",
+              "sch 1 (items 30-45): 1 Oct 2024 (s 2(1) item 1)",
               "—"
             ],
             [
               "Administrative Review Tribunal Legislation Consequential Amendments (2024 Measures No. 1) Regulations 2024",
               "11 Oct 2024 (F2024L01299)",
-              "sch 9 (items 2337): 14 Oct 2024 (s 2(1) item 1)",
+              "sch 9 (items 23-37): 14 Oct 2024 (s 2(1) item 1)",
               "—"
             ],
             [
@@ -3370,6 +3379,6 @@
       "title": "Amendment history"
     }
   ],
-  "extractor_version": "legislation/0.2.0",
+  "extractor_version": "legislation/0.3.0",
   "instrument": "TMR1995"
 }

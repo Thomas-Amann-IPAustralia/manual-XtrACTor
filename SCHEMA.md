@@ -846,6 +846,24 @@ section 41, it is a provision cited in its own right. Each unit carries:
   hyperlinks at all. Because the ids are this corpus's own refs, these double as
   the instrument's internal cross-reference graph.
 
+### The endnotes record
+
+One per law, at `snapshot/legislation/<CODE>/endnotes.json`: the compilation's
+own endnotes, each with its `paragraphs` and its `tables`, every table cell
+verbatim as `rows`. No schema file, because nothing in it is parsed beyond the
+cell — see below for why the labels are not resolved.
+
+**`underlined`**, on a table, when any of its cells carries underlining: one
+record per stretch, `{row, cell, start, end, text}`, with
+`rows[row][cell][start:end] == text` checked in `validate`. Absent rather than
+empty, as `emphasis` is on a unit. It is kept because Endnote 2's key defines
+it — *underlining = whole or part not commenced or to be commenced* — and the
+words alone say the opposite: in compilation 48 of the Act, the Endnote 4 cells
+for s 19 and s 221 both read `am No 87, 2026`, and only s 19's is underlined.
+The record says what the markup underlines; what the underline means stays
+with the key. Runs Word split for no reason but its editing history are one
+stretch, so `No 87, 2026` is one record and not two.
+
 ### What is deliberately absent here too
 
 Everything in §What is deliberately absent applies unchanged. Two additions

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt21",
     "TMR1995/pt21/div2"
   ],
-  "content_hash": "sha256:7193ad94b8a078b8218359cf84366691a4aedec7c488602fb232e6744aceda0e",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:a4961cab551010b3bb1001c9c4ca23d44d67b07020a69ae51548225eedd2b5e1",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 21—Miscellaneous",
@@ -16,7 +16,7 @@
   "kind": "regulation",
   "number": "21.17",
   "ref": "TMR1995/r21.17",
-  "text": "(2) The Registrar may require a person who has made a declaration that is filed in any proceedings before the Registrar to attend before the Registrar to give evidence orally on oath or affirmation instead of, or in addition to, the evidence contained in the declaration. (3) The Registrar may permit a party to crossexamine a person who attends under subregulation (2). Note: Regulations 21.6 and 21.7 deal with making and filing declarations.",
+  "text": "(2) The Registrar may require a person who has made a declaration that is filed in any proceedings before the Registrar to attend before the Registrar to give evidence orally on oath or affirmation instead of, or in addition to, the evidence contained in the declaration. (3) The Registrar may permit a party to cross-examine a person who attends under subregulation (2). Note: Regulations 21.6 and 21.7 deal with making and filing declarations.",
   "title": "Giving of oral evidence",
   "units": [
     {
@@ -31,7 +31,7 @@
       "text": "(2) The Registrar may require a person who has made a declaration that is filed in any proceedings before the Registrar to attend before the Registrar to give evidence orally on oath or affirmation instead of, or in addition to, the evidence contained in the declaration."
     },
     {
-      "content_hash": "sha256:443df5d79bdf76441916427a92ddae3521262198ccb04f82c7e88d8d2694418f",
+      "content_hash": "sha256:e9af0923884da759c067214c06762927a160064cb4ad6070c75c621fc2df198c",
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
@@ -39,7 +39,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r21.17(3)",
       "style": "subsection",
-      "text": "(3) The Registrar may permit a party to crossexamine a person who attends under subregulation (2)."
+      "text": "(3) The Registrar may permit a party to cross-examine a person who attends under subregulation (2)."
     },
     {
       "content_hash": "sha256:a3a390e0dc5691f98068297879b516af20d25b5f58abea6d65fab13495ca7480",

@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt21",
     "TMR1995/pt21/div3"
   ],
-  "content_hash": "sha256:8bb8b282f6b310881d2140bbc02dd349df9881b1bc5806fa905993f4a308ebd2",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:2a144cd7970e0b2b489b58fd716f07adcc2cd604a415c45344c37458d68051cf",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 21—Miscellaneous",
@@ -16,7 +16,7 @@
   "kind": "regulation",
   "number": "21.24A",
   "ref": "TMR1995/r21.24A",
-  "text": "For subsection 223A(1) of the Act, the circumstance is that the act is done at: (a) the Trade Marks Office; or (b) a suboffice (if any) of the Trade Marks Office; that was not open for business. Note: Subsection 223A(1) provides as follows: ‘(1) If the last day of a period provided by this Act (except this section) for doing an act is a day when the Trade Marks Office, or a suboffice of the Trade Marks Office, is not open for business, the act may be done in prescribed circumstances on the next day when the office or suboffice is open for business.’.",
+  "text": "For subsection 223A(1) of the Act, the circumstance is that the act is done at: (a) the Trade Marks Office; or (b) a sub-office (if any) of the Trade Marks Office; that was not open for business. Note: Subsection 223A(1) provides as follows: ‘(1) If the last day of a period provided by this Act (except this section) for doing an act is a day when the Trade Marks Office, or a sub-office of the Trade Marks Office, is not open for business, the act may be done in prescribed circumstances on the next day when the office or sub-office is open for business.’.",
   "title": "Period for doing certain acts—office not open for business",
   "units": [
     {
@@ -50,7 +50,7 @@
       "text": "(a) the Trade Marks Office; or"
     },
     {
-      "content_hash": "sha256:f62fba52c0701cc46992de2c01dcced0298cdb8d9d0666c3b91a5d695c81f3c0",
+      "content_hash": "sha256:9b14dddd5f3c33319be3d24acd0b9e21a6b8e23c6714d0c3def6d1828970119c",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -58,7 +58,7 @@
       "parent_ref": "TMR1995/r21.24A~1",
       "ref": "TMR1995/r21.24A(b)",
       "style": "paragraph",
-      "text": "(b) a suboffice (if any) of the Trade Marks Office;"
+      "text": "(b) a sub-office (if any) of the Trade Marks Office;"
     },
     {
       "content_hash": "sha256:eb4ae138a431434e21179840d304a02608e89b9a70e333fa9719cf3cc7f5f5bb",
@@ -91,7 +91,7 @@
       "text": "Note: Subsection 223A(1) provides as follows:"
     },
     {
-      "content_hash": "sha256:0aed76ef3d0773999049f332fdf82645b6d8aec91f3e71e984e8c0e6121c1af8",
+      "content_hash": "sha256:35af6710787bf620e37035c72613a239fa8905a34e3b5e41aada505c1df2a386",
       "depth": 1,
       "kind": "note",
       "number": null,
@@ -99,7 +99,7 @@
       "parent_ref": "TMR1995/r21.24A~2",
       "ref": "TMR1995/r21.24A~2~2",
       "style": "notetext",
-      "text": "‘(1) If the last day of a period provided by this Act (except this section) for doing an act is a day when the Trade Marks Office, or a suboffice of the Trade Marks Office, is not open for business, the act may be done in prescribed circumstances on the next day when the office or suboffice is open for business.’."
+      "text": "‘(1) If the last day of a period provided by this Act (except this section) for doing an act is a day when the Trade Marks Office, or a sub-office of the Trade Marks Office, is not open for business, the act may be done in prescribed circumstances on the next day when the office or sub-office is open for business.’."
     }
   ]
 }

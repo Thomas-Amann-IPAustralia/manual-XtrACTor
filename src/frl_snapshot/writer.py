@@ -31,7 +31,7 @@ from typing import Any, Iterator
 from frl_snapshot import config
 from frl_snapshot.api import Version
 from frl_snapshot.docx import Span
-from frl_snapshot.endnotes import Endnote
+from frl_snapshot.endnotes import Endnote, Underlined
 from frl_snapshot.references import provision_key
 from frl_snapshot.structure import Container, Document, Provision
 from frl_snapshot.units import Unit
@@ -357,7 +357,8 @@ def endnotes_document(
                 "title": section.title,
                 "paragraphs": list(section.paragraphs),
                 "tables": [
-                    {"rows": [list(row) for row in table]} for table in section.tables
+                    _endnote_table(table, marks)
+                    for table, marks in zip(section.tables, section.underlined, strict=True)
                 ],
             }
             for section in sections
@@ -365,6 +366,26 @@ def endnotes_document(
         "captured_at": captured_at,
         "extractor_version": config.EXTRACTOR_VERSION,
     }
+
+
+def _endnote_table(
+    table: tuple[tuple[str, ...], ...], marks: tuple[Underlined, ...]
+) -> dict[str, Any]:
+    document: dict[str, Any] = {"rows": [list(row) for row in table]}
+    # Absent rather than empty, as `emphasis` is on a unit: most tables carry
+    # no underlining, and an empty list on each would say nothing.
+    if marks:
+        document["underlined"] = [
+            {
+                "row": mark.row,
+                "cell": mark.cell,
+                "start": mark.start,
+                "end": mark.end,
+                "text": mark.text,
+            }
+            for mark in marks
+        ]
+    return document
 
 
 # ---------------------------------------------------------------------------

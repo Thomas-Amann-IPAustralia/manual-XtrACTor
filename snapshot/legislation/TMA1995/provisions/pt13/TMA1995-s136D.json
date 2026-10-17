@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:10c5a943299284e5edfc0644f831b29e4e82f8a391ed0613614548b03844dc69",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:84d237a946a38475ede9316486217e7dba74e63191c5be13feb1d01fc303cb6c",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -14,11 +14,11 @@
   "kind": "section",
   "number": "136D",
   "ref": "TMA1995/s136D",
-  "text": "(1) The ComptrollerGeneral of Customs must release seized goods to the designated owner if: (a) the objector gives written notice to the ComptrollerGeneral of Customs stating that the objector consents to the release of the seized goods; and (b) the goods have not been disposed of under section 139. Note: For designated owner, objector and seized goods see section 6. (2) The ComptrollerGeneral of Customs may release seized goods to the designated owner at any time if: (a) the ComptrollerGeneral of Customs, having regard to information that has come to his or her knowledge after the goods were seized, is satisfied that there are no reasonable grounds for believing that the notified trade mark has been infringed by the importation of the goods; and (b) the objector has not brought an action for infringement of the notified trade mark in respect of the goods. (3) The ComptrollerGeneral of Customs must release seized goods to the designated owner if: (a) the designated owner has made a claim for the release of the goods; and (b) the objector has not, by the end of the action period: (i) instituted an action for infringement of the notified trade mark in respect of the goods; and (ii) given the ComptrollerGeneral of Customs written notice of that action. Note: For action period see section 6. (4) The ComptrollerGeneral of Customs must release seized goods to the designated owner if: (a) the designated owner has made a claim for the release of the goods; and (b) action for infringement of the notified trade mark in respect of the goods has been instituted; and (c) at the end of a period of 20 working days commencing on the day on which the action was instituted, there is not in force an order of the court in which the action was instituted preventing the release of the goods. (5) This section has effect subject to section 140.",
+  "text": "(1) The Comptroller-General of Customs must release seized goods to the designated owner if: (a) the objector gives written notice to the Comptroller-General of Customs stating that the objector consents to the release of the seized goods; and (b) the goods have not been disposed of under section 139. Note: For designated owner, objector and seized goods see section 6. (2) The Comptroller-General of Customs may release seized goods to the designated owner at any time if: (a) the Comptroller-General of Customs, having regard to information that has come to his or her knowledge after the goods were seized, is satisfied that there are no reasonable grounds for believing that the notified trade mark has been infringed by the importation of the goods; and (b) the objector has not brought an action for infringement of the notified trade mark in respect of the goods. (3) The Comptroller-General of Customs must release seized goods to the designated owner if: (a) the designated owner has made a claim for the release of the goods; and (b) the objector has not, by the end of the action period: (i) instituted an action for infringement of the notified trade mark in respect of the goods; and (ii) given the Comptroller-General of Customs written notice of that action. Note: For action period see section 6. (4) The Comptroller-General of Customs must release seized goods to the designated owner if: (a) the designated owner has made a claim for the release of the goods; and (b) action for infringement of the notified trade mark in respect of the goods has been instituted; and (c) at the end of a period of 20 working days commencing on the day on which the action was instituted, there is not in force an order of the court in which the action was instituted preventing the release of the goods. (5) This section has effect subject to section 140.",
   "title": "Release of seized goods",
   "units": [
     {
-      "content_hash": "sha256:02bb01368fbb805a956e7c0e33341318f67ee8738a0ef7365da05cfad2af3d22",
+      "content_hash": "sha256:cbf459293f6d49b889837092b450fc5aa05ae5bd6060a7c85138a581867bcadc",
       "depth": 0,
       "kind": "subsection",
       "number": "(1)",
@@ -26,10 +26,10 @@
       "parent_ref": null,
       "ref": "TMA1995/s136D(1)",
       "style": "subsection",
-      "text": "(1) The ComptrollerGeneral of Customs must release seized goods to the designated owner if:"
+      "text": "(1) The Comptroller-General of Customs must release seized goods to the designated owner if:"
     },
     {
-      "content_hash": "sha256:52c50eb3ad622188a2c352916f5c99f7797829fcd37a9c75a5c5be1ee95d4e0d",
+      "content_hash": "sha256:5cc29549a5c724b418b5c41895ed727e2b74c5e8ce6b3c2dcb457fa33e9dc88e",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -37,7 +37,7 @@
       "parent_ref": "TMA1995/s136D(1)",
       "ref": "TMA1995/s136D(1)(a)",
       "style": "paragraph",
-      "text": "(a) the objector gives written notice to the ComptrollerGeneral of Customs stating that the objector consents to the release of the seized goods; and"
+      "text": "(a) the objector gives written notice to the Comptroller-General of Customs stating that the objector consents to the release of the seized goods; and"
     },
     {
       "content_hash": "sha256:0f7728620d8a4f7680591d2d0661a3aba2a35bb784d11e576156bc884262a7c9",
@@ -98,7 +98,7 @@
       "text": "Note: For designated owner, objector and seized goods see section 6."
     },
     {
-      "content_hash": "sha256:3eb7d1a4c1c7c09c2b3da4f4363fdfbdaed0bbb39c968817a2ccbcf85d697c83",
+      "content_hash": "sha256:c8c1fb647b0a7fd78da851ecfa1cf60ccda12abce7a7c1686c2f9445c0ad4030",
       "depth": 0,
       "kind": "subsection",
       "number": "(2)",
@@ -106,10 +106,10 @@
       "parent_ref": null,
       "ref": "TMA1995/s136D(2)",
       "style": "subsection",
-      "text": "(2) The ComptrollerGeneral of Customs may release seized goods to the designated owner at any time if:"
+      "text": "(2) The Comptroller-General of Customs may release seized goods to the designated owner at any time if:"
     },
     {
-      "content_hash": "sha256:82c5fc688b1836ca4b95e40dcdea5e1c294ca89ace6d94bb9a2aa3f7fc179190",
+      "content_hash": "sha256:479925ca621df4a87db0177940e0106c2eba83a35d72f9e220e6ed8b81d6f863",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -117,7 +117,7 @@
       "parent_ref": "TMA1995/s136D(2)",
       "ref": "TMA1995/s136D(2)(a)",
       "style": "paragraph",
-      "text": "(a) the ComptrollerGeneral of Customs, having regard to information that has come to his or her knowledge after the goods were seized, is satisfied that there are no reasonable grounds for believing that the notified trade mark has been infringed by the importation of the goods; and"
+      "text": "(a) the Comptroller-General of Customs, having regard to information that has come to his or her knowledge after the goods were seized, is satisfied that there are no reasonable grounds for believing that the notified trade mark has been infringed by the importation of the goods; and"
     },
     {
       "content_hash": "sha256:a85b8be1636a42876e06fb33746ed2075fb0e7e3129c3dd725ccc629f9184407",
@@ -131,7 +131,7 @@
       "text": "(b) the objector has not brought an action for infringement of the notified trade mark in respect of the goods."
     },
     {
-      "content_hash": "sha256:7fd9f0e555c958e7a6dc78b3426af56bc4a856840e8f36b0f2a2167dda55f04c",
+      "content_hash": "sha256:ae329e92a4ac607d9e44c743934a2419127307b7c2d89de59824d5562e353ec7",
       "depth": 0,
       "kind": "subsection",
       "number": "(3)",
@@ -139,7 +139,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s136D(3)",
       "style": "subsection",
-      "text": "(3) The ComptrollerGeneral of Customs must release seized goods to the designated owner if:"
+      "text": "(3) The Comptroller-General of Customs must release seized goods to the designated owner if:"
     },
     {
       "content_hash": "sha256:94687fa60b9573b01302644b80f51f8bc1fc2721bd9dce3d5d39485f20359681",
@@ -175,7 +175,7 @@
       "text": "(i) instituted an action for infringement of the notified trade mark in respect of the goods; and"
     },
     {
-      "content_hash": "sha256:83507a950a11ebe321381ea462fed2e481b1437f3700cbbc85c897f1d6d0dd49",
+      "content_hash": "sha256:a1b82247279a358bca459c47b66b10d7363aee6f35d9a69d90b6e8bcfe6aef05",
       "depth": 2,
       "kind": "paragraph",
       "number": "(ii)",
@@ -183,7 +183,7 @@
       "parent_ref": "TMA1995/s136D(3)(b)",
       "ref": "TMA1995/s136D(3)(b)(ii)",
       "style": "paragraphsub",
-      "text": "(ii) given the ComptrollerGeneral of Customs written notice of that action."
+      "text": "(ii) given the Comptroller-General of Customs written notice of that action."
     },
     {
       "content_hash": "sha256:e053f057ebf74796d9ba41b9e260c6869a1b236bc63693ffd6f1ba272ac06a8e",
@@ -213,7 +213,7 @@
       "text": "Note: For action period see section 6."
     },
     {
-      "content_hash": "sha256:f8e084a44e31a0745de42a7b965ea8eabfebeb52c1d316903399e332732b3727",
+      "content_hash": "sha256:762c9124b25df827f2f85b95ee51844f74fa28779dc054dd37349048c8cdac91",
       "depth": 0,
       "kind": "subsection",
       "number": "(4)",
@@ -221,7 +221,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s136D(4)",
       "style": "subsection",
-      "text": "(4) The ComptrollerGeneral of Customs must release seized goods to the designated owner if:"
+      "text": "(4) The Comptroller-General of Customs must release seized goods to the designated owner if:"
     },
     {
       "content_hash": "sha256:94687fa60b9573b01302644b80f51f8bc1fc2721bd9dce3d5d39485f20359681",

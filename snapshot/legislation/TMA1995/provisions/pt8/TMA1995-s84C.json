@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt8",
     "TMA1995/pt8/div1",
     "TMA1995/pt8/div1/sdivc"
   ],
-  "content_hash": "sha256:b6ca0035b70ccdc2d514494835e573a338e71a0974a33a9968e0cb1c7b50c22f",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:f8a98e3778cfd89137c8ae81fbda17ed52cbbbd8d0deb57abd8349d61c592624",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 8—Amendment, cancellation and revocation of registration",
@@ -18,7 +18,7 @@
   "kind": "section",
   "number": "84C",
   "ref": "TMA1995/s84C",
-  "text": "(1) This section applies if the Registrar revokes the registration of a trade mark under section 84A or 84B. (2) This Act generally applies as if the registration had never occurred, but: (a) subsection 129(4) applies as if the trade mark had ceased to be registered at the time of the revocation; and (b) if the ComptrollerGeneral of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless: (i) the Registrar gives the ComptrollerGeneral of Customs written notice of the revocation; and (ii) the seizure occurs after the notice is given to the ComptrollerGeneral of Customs; and (c) Part 14 applies as if the trade mark had ceased to be registered at the time of the revocation; and (d) subsection 230(2) applies in relation to a defendant who was the registered owner of the trade mark before the revocation as if the trade mark had ceased to be registered at the time of the revocation; and (e) subsection 230(2) applies in relation to a defendant who was an authorised user of the trade mark before the revocation as if the trade mark had ceased to be registered at the time the defendant became aware of the revocation. Note: For registered owner see section 6. (3) To avoid doubt, paragraph (2)(b) does not, by itself, make the Commonwealth liable if the circumstances described in subparagraphs (2)(b)(i) and (ii) exist. (4) This Act applies as if, just after the revocation: (a) the application for registration of the trade mark reflected the particulars in the Register for the trade mark just before the revocation; and (b) the applicant for registration of the trade mark were the person in whose name the trade mark was registered just before the revocation. (5) This subsection has effect if the Registrar revokes the acceptance of the application for registration of the trade mark after revoking the registration. The Registrar may, but need not, examine the application again under section 31 before rejecting the application. This has effect despite paragraph 38(2)(b).",
+  "text": "(1) This section applies if the Registrar revokes the registration of a trade mark under section 84A or 84B. (2) This Act generally applies as if the registration had never occurred, but: (a) subsection 129(4) applies as if the trade mark had ceased to be registered at the time of the revocation; and (b) if the Comptroller-General of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless: (i) the Registrar gives the Comptroller-General of Customs written notice of the revocation; and (ii) the seizure occurs after the notice is given to the Comptroller-General of Customs; and (c) Part 14 applies as if the trade mark had ceased to be registered at the time of the revocation; and (d) subsection 230(2) applies in relation to a defendant who was the registered owner of the trade mark before the revocation as if the trade mark had ceased to be registered at the time of the revocation; and (e) subsection 230(2) applies in relation to a defendant who was an authorised user of the trade mark before the revocation as if the trade mark had ceased to be registered at the time the defendant became aware of the revocation. Note: For registered owner see section 6. (3) To avoid doubt, paragraph (2)(b) does not, by itself, make the Commonwealth liable if the circumstances described in subparagraphs (2)(b)(i) and (ii) exist. (4) This Act applies as if, just after the revocation: (a) the application for registration of the trade mark reflected the particulars in the Register for the trade mark just before the revocation; and (b) the applicant for registration of the trade mark were the person in whose name the trade mark was registered just before the revocation. (5) This subsection has effect if the Registrar revokes the acceptance of the application for registration of the trade mark after revoking the registration. The Registrar may, but need not, examine the application again under section 31 before rejecting the application. This has effect despite paragraph 38(2)(b).",
   "title": "Effect of revocation of registration",
   "units": [
     {
@@ -77,7 +77,7 @@
       "text": "(a) subsection 129(4) applies as if the trade mark had ceased to be registered at the time of the revocation; and"
     },
     {
-      "content_hash": "sha256:9ae441d97aff2a08c30db2adfe832da218bfbfcffc89e2f9dcfdaf0a2dc7a613",
+      "content_hash": "sha256:417af43ff1126a12af4e4c2715daeb94ae17f4ee0bd82ff73395441342d152e7",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -85,10 +85,10 @@
       "parent_ref": "TMA1995/s84C(2)",
       "ref": "TMA1995/s84C(2)(b)",
       "style": "paragraph",
-      "text": "(b) if the ComptrollerGeneral of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless:"
+      "text": "(b) if the Comptroller-General of Customs, purporting to act under Part 13, seizes goods in respect of which the trade mark was registered before the revocation, the Commonwealth is not liable for any loss or damage suffered because of the seizure, unless:"
     },
     {
-      "content_hash": "sha256:f6dc7c37f966b8fedbebd9b5dcb94286f35ec9760c72fd765692485eaf7c74fa",
+      "content_hash": "sha256:6a48cc59ba0d9f1c8f48b5d54c4b3a2633cabbbf48d66e6decbefbde2a66b01e",
       "depth": 2,
       "kind": "paragraph",
       "number": "(i)",
@@ -96,10 +96,10 @@
       "parent_ref": "TMA1995/s84C(2)(b)",
       "ref": "TMA1995/s84C(2)(b)(i)",
       "style": "paragraphsub",
-      "text": "(i) the Registrar gives the ComptrollerGeneral of Customs written notice of the revocation; and"
+      "text": "(i) the Registrar gives the Comptroller-General of Customs written notice of the revocation; and"
     },
     {
-      "content_hash": "sha256:e1a3360f76a85dcd167905e9ba6805eb7c15a4c49dffc2f283edcc90c0bc3a4e",
+      "content_hash": "sha256:44d06f53364fe3cce127220d6b8900e42d01caa0b8b4924017366e9c838b177e",
       "depth": 2,
       "kind": "paragraph",
       "number": "(ii)",
@@ -107,7 +107,7 @@
       "parent_ref": "TMA1995/s84C(2)(b)",
       "ref": "TMA1995/s84C(2)(b)(ii)",
       "style": "paragraphsub",
-      "text": "(ii) the seizure occurs after the notice is given to the ComptrollerGeneral of Customs; and"
+      "text": "(ii) the seizure occurs after the notice is given to the Comptroller-General of Customs; and"
     },
     {
       "content_hash": "sha256:0b388330b61abbf7bb9a3bdb66a778a12b9f84368a8bb3287988ccb6b2f4406f",

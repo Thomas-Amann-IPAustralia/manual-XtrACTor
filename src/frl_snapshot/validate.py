@@ -128,6 +128,33 @@ def _provision_failures(path: Path, document: dict[str, Any]) -> Iterator[str]:
         yield f"{path}: content_hash does not match text"
 
 
+def _endnote_failures(path: Path, document: dict[str, Any]) -> Iterator[str]:
+    """An underlined stretch must be its cell's own words.
+
+    The same check `emphasis` gets, for the same reason: an offset drifted by
+    one marks the wrong amendment as uncommenced and stays well-formed.
+    """
+    for endnote in document.get("endnotes", []):
+        for table_index, table in enumerate(endnote.get("tables", [])):
+            rows = table.get("rows", [])
+            for index, mark in enumerate(table.get("underlined", [])):
+                row, cell = mark.get("row", -1), mark.get("cell", -1)
+                if not (0 <= row < len(rows) and 0 <= cell < len(rows[row])):
+                    yield (
+                        f"{path}: {endnote.get('ref')} table {table_index} "
+                        f"underlined/{index} names row {row} cell {cell}, "
+                        "which the table does not have"
+                    )
+                    continue
+                words = rows[row][cell][mark.get("start", 0) : mark.get("end", 0)]
+                if words != mark.get("text"):
+                    yield (
+                        f"{path}: {endnote.get('ref')} table {table_index} "
+                        f"underlined/{index} covers {words!r}, not "
+                        f"{mark.get('text')!r}"
+                    )
+
+
 def validate(root: Path) -> tuple[list[str], dict[str, Any]]:
     """Every failure found, and a summary worth printing on success."""
     failures: list[str] = []
@@ -152,6 +179,11 @@ def validate(root: Path) -> tuple[list[str], dict[str, Any]]:
         failures.extend(
             _schema_failures(instrument_schema, instrument_path, instrument)
         )
+
+        endnotes_path = directory / writer.ENDNOTES_FILENAME
+        endnotes = writer.read_json(endnotes_path)
+        if endnotes is not None:
+            failures.extend(_endnote_failures(endnotes_path, endnotes))
 
         contents_path = directory / writer.CONTENTS_FILENAME
         contents = writer.read_json(contents_path) or {}
