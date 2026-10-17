@@ -9,6 +9,12 @@
 # an unmerged crawl does not swallow the next one. The report is always a diff
 # against that base, which is to say against the pull request's own diff: if
 # last week's is still open, this week's report describes both weeks, correctly.
+#
+# Which also means last week's is now contained in this week's, so a full crawl
+# closes the crawl pull requests it supersedes, with a comment pointing at the
+# new one. Left open they piled up — six by October 2026, each a superset of
+# the one before, none of them the one to read. A crawl narrowed by `limit` or
+# `part` saw only some pages and supersedes nothing, so it closes nothing.
 name: crawl
 
 on:
@@ -141,6 +147,9 @@ jobs:
 
       - name: Open a pull request
         if: steps.changed.outputs.moved == 'true' && inputs.dry_run != true
+        env:
+          LIMIT: ${{ inputs.limit }}
+          PART: ${{ inputs.part }}
         run: |
           set -euo pipefail
           branch="crawl/$(date -u +%Y-%m-%d)-r${GITHUB_RUN_NUMBER}"
@@ -157,8 +166,21 @@ jobs:
             sleep $((2 ** attempt))
           done
 
-          gh pr create \
+          url="$(gh pr create \
             --base "${GITHUB_REF_NAME}" \
             --head "$branch" \
             --title "$title" \
-            --body-file "${RUNNER_TEMP}/report.md"
+            --body-file "${RUNNER_TEMP}/report.md")"
+          echo "$url"
+
+          if [ -n "${LIMIT:-}" ] || [ -n "${PART:-}" ]; then
+            echo "Partial crawl: earlier crawl pull requests are left open."
+            exit 0
+          fi
+          gh pr list --state open --base "${GITHUB_REF_NAME}" --limit 100 \
+              --json number,headRefName \
+              --jq ".[] | select(.headRefName | startswith(\"crawl/\")) | select(.headRefName != \"$branch\") | .number" |
+            while read -r number; do
+              gh pr close "$number" --delete-branch --comment \
+                "Superseded by $url, a full crawl measured against the same base, which therefore carries every change in this one. Closed by the crawl workflow."
+            done
