@@ -44,6 +44,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check the pull request token
+        # BOT_TOKEN is a fine-grained personal access token (Contents and Pull
+        # requests, read and write, this repository only). A pull request
+        # opened with the built-in GITHUB_TOKEN gets its CI run held at
+        # "Approve workflows to run", and until October 2026 every bot pull
+        # request's CI sat there unrun until it expired as a failure. Without
+        # the secret the run falls back to GITHUB_TOKEN and says so here.
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          if [ -z "$BOT_TOKEN" ]; then
+            echo "::warning::No BOT_TOKEN secret: the pull request will be opened with GITHUB_TOKEN, and its CI will wait for someone to approve it."
+          fi
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -94,6 +108,9 @@ jobs:
         if: steps.changed.outputs.changed == 'true' && inputs.dry_run != true
         uses: peter-evans/create-pull-request@v6
         with:
+          # Pushes the branch and opens the pull request; see the token check
+          # above for why it is not GITHUB_TOKEN.
+          token: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
           branch: legislation/${{ github.run_id }}
           base: ${{ github.event.repository.default_branch }}
           title: "legislation: a compilation moved"
@@ -110,7 +127,7 @@ jobs:
         # run narrowed to one instrument supersedes nothing.
         if: steps.pr.outputs.pull-request-operation == 'created' && inputs.instrument == ''
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
           URL: ${{ steps.pr.outputs.pull-request-url }}
           BRANCH: legislation/${{ github.run_id }}
           BASE: ${{ github.event.repository.default_branch }}
