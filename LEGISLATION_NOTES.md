@@ -42,7 +42,8 @@ an approach that works from a laptop fails from a runner.
   Marks Regulations 1995. `C…A…` is an Act; `F…L…` and `F…B…` are legislative
   instruments.
 - **`registerId`** identifies one *compiled version* of that law.
-  `C2024C00545` is Compilation 47 of the Act, in force from 14 October 2024.
+  `C2026C00421` is Compilation 48 of the Act, in force from 19 September
+  2026.
 
 **A new `registerId` is the amendment signal**, and it is a better one than
 anything this repository could compute. It changes if and only if a new
@@ -51,9 +52,10 @@ re-render that changes bytes without changing law, which is exactly the failure
 mode a content hash has. `config.INSTRUMENTS` maps our codes to `titleId`s;
 `instrument.json` stores the `registerId`; `crawl.py` compares them.
 
-As of 29 July 2026: the Act is at Compilation 47 (`C2024C00545`, 14 October
-2024) and the Regulations at Compilation 53 (`F2026C00009`, 18 December 2025).
-The Regulations move considerably more often than the Act.
+As of 17 October 2026: the Act is at Compilation 48 (`C2026C00421`, 19
+September 2026) and the Regulations at Compilation 53 (`F2026C00009`, 18
+December 2025). The Regulations were expected to move more often than the Act;
+the first compilation the scheduled run caught was the Act's.
 
 ### `hasUnincorporatedAmendments` is the gate's blind spot
 
@@ -360,6 +362,31 @@ can disagree. Consecutive notes are siblings, and a `notepara` belongs to its
 note rather than to the previous `notepara` — without that rule section 41
 alone descends five levels.
 
+### 6.10 Characters that are not text
+
+Two elements put a character on the page without a `w:t`, and a reader that
+knows only `w:t`, `w:tab` and `w:br` drops them without a word. Until
+`legislation/0.3.0` this one did, in 154 files:
+
+- **`<w:noBreakHyphen/>`** — 136 in the Act, 160 in the Regulations. The
+  template uses it for every hyphenated word it does not want broken across a
+  line: 'Comptroller-General' (70 times in the Act, read as
+  'ComptrollerGeneral'), 'non-use', 'cooling-off', 'Trans-Tasman',
+  're-registration', and the ranges in Endnote 3's commencement column, where
+  compilation 48 printed `sch 1 (items 1, 2, 8-12)` and the snapshot said
+  `812`. Headings included, so it reached `title` and `heading_path`. Written
+  as the ASCII hyphen, which is how the Manual spells the same words.
+- **`<w:sym w:font="Symbol" w:char="F0BE"/>`** — twice in the Regulations,
+  the dash in regulation 13.3's heading, 'Notice of objection to
+  importation—prescribed document'. Read as the em dash every other heading
+  types. `docx.SYMBOLS` lists each font and code point known, and any other
+  raises: a symbol is a character of the law, so an unknown one is a person's
+  call, not a drop.
+
+Everything else a run holds is accounted for: `w:fldChar` and `w:instrText`
+are a field's machinery, whose displayed result is ordinary runs after them;
+`w:lastRenderedPageBreak`, `w:drawing` and `w:object` put no text on the page.
+
 ---
 
 ## 7. The endnotes are the instrument's own amendment history
@@ -383,6 +410,19 @@ handles the easy 60% and quietly mangles the rest is exactly the silently-wrong
 record rule 3 exists to prevent. Turning Endnote 4 into amendment edges is
 ontology work with its own error model — the layer above this one. Deferred,
 not forgotten; `TASKS.md` T14.
+
+**The underlining is kept beside the words.** Endnote 1 says amendments made
+but not commenced at the compilation date "are underlined in the endnotes", and
+Endnote 2's key repeats it. The Register means it: compilation 48 brought in
+the *Regulatory Reform Omnibus Act 2026*, of which items 1, 2 and 8–12
+commenced on 19 September 2026 and items 26–31 commence on 18 March 2027. The
+Endnote 4 rows for s 6, s 19, s 27 and s 189A read `am No 87, 2026` exactly as
+the row for s 221 does, and only the underline says they are not in the text
+yet — which is why those four sections did not change and s 221 did. So each
+endnote table records its underlined stretches as offsets into its cells
+(`SCHEMA.md` §The endnotes record). It is not the same thing as
+`has_unincorporated_amendments` (§2): that flag is commenced law the compilation
+does not yet show, and is `false` here.
 
 ---
 
@@ -421,10 +461,11 @@ at `certainty: "default"`, which is correct for both instruments.
 ### The coverage figure
 
 `python -m frl_snapshot.validate` reports how many of the Manual's in-scope
-provision edges resolve. At `legislation/0.2.0` and `ingest/0.9.0`: **2,611 of
-2,687** (97%), up from 2,603 of 2,776 — the numerator rose by the eight Schedule
-edges of `SOURCE_NOTES.md` §33 and the denominator fell by the 89 edges §32
-showed the pipeline could not place.
+provision edges resolve. At `legislation/0.3.0` and `ingest/0.11.0`: **2,615
+of 2,691** (97%). At `legislation/0.2.0` and `ingest/0.9.0` it was 2,611 of
+2,687, up from 2,603 of 2,776 — the numerator rose by the eight Schedule edges
+of `SOURCE_NOTES.md` §33 and the denominator fell by the 89 edges §32 showed
+the pipeline could not place.
 
 It is a report, never a failure. The 173 that do not resolve are worth
 understanding rather than fixing:

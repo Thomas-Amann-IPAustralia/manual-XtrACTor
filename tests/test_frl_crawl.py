@@ -353,6 +353,26 @@ def test_the_validator_catches_a_drifted_emphasis_offset(snapshot):
     assert any("emphasis" in failure for failure in failures)
 
 
+def test_the_validator_catches_a_drifted_underline_offset(snapshot):
+    """An underline one character out marks the wrong amendment uncommenced."""
+    path = snapshot / "TMA1995" / "endnotes.json"
+    document = json.loads(path.read_text(encoding="utf-8"))
+    table = next(
+        table
+        for endnote in document["endnotes"]
+        for table in endnote["tables"]
+        if table["rows"] and table["rows"][0] and table["rows"][0][0]
+    )
+    words = table["rows"][0][0]
+    table["underlined"] = [
+        {"row": 0, "cell": 0, "start": 1, "end": len(words), "text": words}
+    ]
+    path.write_text(json.dumps(document), encoding="utf-8")
+
+    failures, _ = validate.validate(snapshot)
+    assert any("underlined/0 covers" in failure for failure in failures)
+
+
 def test_the_validator_catches_an_inventory_disagreement(snapshot):
     path = snapshot / "TMA1995" / "provisions" / "pt4" / "TMA1995-s41.json"
     path.unlink()
