@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:c4ad525120f578a596a9100448d7cb14fcce1be06956a37642049531d1429acb",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:64bec8f2466cd1216b5cc698f812def0b28efa64333d8c8e4790c9c9d1549c5b",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -14,7 +14,7 @@
   "kind": "section",
   "number": "143",
   "ref": "TMA1995/s143",
-  "text": "(1) If: (a) goods that may be seized under this Part are imported into Australia; and (b) the ComptrollerGeneral of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent; the ComptrollerGeneral of Customs may ask the importer of the goods or an agent of the importer: (c) to produce any document in his or her possession relating to the goods; and (d) to give information about: (i) the name and address of the person by whom the goods were consigned to Australia; and (ii) the name and address of the person in Australia to whom the goods were consigned. Note 1: For applied to in relation to goods see section 9. Note 2: In obtaining information for the purposes of this subsection, the ComptrollerGeneral of Customs must comply with Australian Privacy Principles 3 and 5. (2) If the importer or his or her agent fails to comply with the request within the prescribed period, the importer or agent commits an offence punishable, on conviction, by imprisonment for a period not exceeding 6 months. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For month see section 6.",
+  "text": "(1) If: (a) goods that may be seized under this Part are imported into Australia; and (b) the Comptroller-General of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent; the Comptroller-General of Customs may ask the importer of the goods or an agent of the importer: (c) to produce any document in his or her possession relating to the goods; and (d) to give information about: (i) the name and address of the person by whom the goods were consigned to Australia; and (ii) the name and address of the person in Australia to whom the goods were consigned. Note 1: For applied to in relation to goods see section 9. Note 2: In obtaining information for the purposes of this subsection, the Comptroller-General of Customs must comply with Australian Privacy Principles 3 and 5. (2) If the importer or his or her agent fails to comply with the request within the prescribed period, the importer or agent commits an offence punishable, on conviction, by imprisonment for a period not exceeding 6 months. Note 1: The Reader’s Guide gives information about penalties (see the paragraphs under the subheading Crimes Act 1914). Note 2: For month see section 6.",
   "title": "Power to require information",
   "units": [
     {
@@ -40,7 +40,7 @@
       "text": "(a) goods that may be seized under this Part are imported into Australia; and"
     },
     {
-      "content_hash": "sha256:9ab848dbb24c8f48e801208a3a318b2747209bc20324b86a7fd5273a42db537b",
+      "content_hash": "sha256:26d04446dc43eefac827dd45431ac46c9209bed57abd57f99a5011ce2c29b051",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -48,10 +48,10 @@
       "parent_ref": "TMA1995/s143(1)",
       "ref": "TMA1995/s143(1)(b)",
       "style": "paragraph",
-      "text": "(b) the ComptrollerGeneral of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent;"
+      "text": "(b) the Comptroller-General of Customs, relying on information received, is satisfied on reasonable grounds that the use of a trade mark applied to or in relation to those goods is fraudulent;"
     },
     {
-      "content_hash": "sha256:4fd8b01de415447bcf0e65d8dae5fa57958548970053204169a80c1ded9e02d7",
+      "content_hash": "sha256:3307a9e7497f600b68e621fe7874dfef4f35ae188af4aab49f543d8517705fe9",
       "depth": 0,
       "kind": "text",
       "number": null,
@@ -59,7 +59,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s143~1",
       "style": "subsection2",
-      "text": "the ComptrollerGeneral of Customs may ask the importer of the goods or an agent of the importer:"
+      "text": "the Comptroller-General of Customs may ask the importer of the goods or an agent of the importer:"
     },
     {
       "content_hash": "sha256:524f6f419afdb1c97e7d86311861339f41c2a39558414da573f71453f471a4f2",
@@ -133,7 +133,7 @@
       "text": "Note 1: For applied to in relation to goods see section 9."
     },
     {
-      "content_hash": "sha256:edb5d7d1d5a4e049a7eeff03cd253564ecf077247427c32ec491b9dfac97e550",
+      "content_hash": "sha256:6b5589c3ff8e789c4d821967eaa20279eaa8d4d8571429d858a5f6746117cb41",
       "depth": 3,
       "kind": "note",
       "number": null,
@@ -141,7 +141,7 @@
       "parent_ref": "TMA1995/s143(d)(ii)",
       "ref": "TMA1995/s143(d)(ii)~2",
       "style": "notetext",
-      "text": "Note 2: In obtaining information for the purposes of this subsection, the ComptrollerGeneral of Customs must comply with Australian Privacy Principles 3 and 5."
+      "text": "Note 2: In obtaining information for the purposes of this subsection, the Comptroller-General of Customs must comply with Australian Privacy Principles 3 and 5."
     },
     {
       "content_hash": "sha256:c8abb1de2a406f81ee334ff4151ac48e679bbd0c75eb3df8a31b34369fc9adbf",

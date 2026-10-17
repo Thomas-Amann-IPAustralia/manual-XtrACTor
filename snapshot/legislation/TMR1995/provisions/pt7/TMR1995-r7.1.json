@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt7",
     "TMR1995/pt7/div1"
   ],
-  "content_hash": "sha256:4db8897e3c13c1c02bafd0891351afc29286d2d5ed271bf2d3fdb37945eee14d",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:dd7b6b2ed11400d8a3dc59b3818832331ba1375b645876f6fae06367756feb98",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 7—Registration of trade marks",
@@ -16,7 +16,7 @@
   "kind": "regulation",
   "number": "7.1",
   "ref": "TMR1995/r7.1",
-  "text": "(1) For the purposes of subsection 68(1) of the Act (which deals with registration), the period for the registration of a trade mark that has been accepted for registration is: (a) except if paragraph (b) applies—the period from the beginning of the day on which the acceptance is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A to the end of: (i) the day that is 6 months after that day; or (ii) if a later day is specified under subregulation (2) or (3)—the day specified in that subregulation; and (b) in the case of the death of an applicant for registration of the trade mark—within 12 months of the date of death or within such further period as the Registrar reasonably allows. (2) If: (a) proceedings in relation to the registration of the trade mark before a prescribed court or the ART are not determined or otherwise disposed of; and (b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the firstmentioned day in subparagraph (1)(a)(i). (3) If: (a) proceedings in relation to the registration of the trade mark are before the Registrar; and (b) the Registrar is reasonably satisfied that: (i) the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); and (ii) it is appropriate to do so; the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the firstmentioned day in subparagraph (1)(a)(i).",
+  "text": "(1) For the purposes of subsection 68(1) of the Act (which deals with registration), the period for the registration of a trade mark that has been accepted for registration is: (a) except if paragraph (b) applies—the period from the beginning of the day on which the acceptance is published in a computer database maintained by the Trade Marks Office in accordance with regulation 4.11A to the end of: (i) the day that is 6 months after that day; or (ii) if a later day is specified under subregulation (2) or (3)—the day specified in that subregulation; and (b) in the case of the death of an applicant for registration of the trade mark—within 12 months of the date of death or within such further period as the Registrar reasonably allows. (2) If: (a) proceedings in relation to the registration of the trade mark before a prescribed court or the ART are not determined or otherwise disposed of; and (b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the first-mentioned day in subparagraph (1)(a)(i); the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the first-mentioned day in subparagraph (1)(a)(i). (3) If: (a) proceedings in relation to the registration of the trade mark are before the Registrar; and (b) the Registrar is reasonably satisfied that: (i) the registration of the trade mark cannot take place on or before the first-mentioned day in subparagraph (1)(a)(i); and (ii) it is appropriate to do so; the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the first-mentioned day in subparagraph (1)(a)(i).",
   "title": "Period in which a trade mark can be registered",
   "units": [
     {
@@ -113,7 +113,7 @@
       "text": "(a) proceedings in relation to the registration of the trade mark before a prescribed court or the ART are not determined or otherwise disposed of; and"
     },
     {
-      "content_hash": "sha256:6ddd92886cf0c2f66d7710851291bed6b4e8728a1206f09499ea0b9d966f1f4e",
+      "content_hash": "sha256:3027cc7926fa9275f35eb01210fa4f246f8c90d633d8b9a63fb183199d586bc3",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -121,10 +121,10 @@
       "parent_ref": "TMR1995/r7.1(2)",
       "ref": "TMR1995/r7.1(2)(b)",
       "style": "paragraph",
-      "text": "(b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i);"
+      "text": "(b) the prescribed court or the ART is satisfied that the registration of the trade mark cannot take place on or before the first-mentioned day in subparagraph (1)(a)(i);"
     },
     {
-      "content_hash": "sha256:90e4626701b570fce8a1bece4fabbeb5eb44425c4ec219ec41bebd13a23720d8",
+      "content_hash": "sha256:78804bda4e3c37c015ab9d84189834f548d19eb640848e6eb57e1c8f14652ff7",
       "depth": 0,
       "kind": "text",
       "number": null,
@@ -132,7 +132,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r7.1~1",
       "style": "subsection2",
-      "text": "the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the firstmentioned day in subparagraph (1)(a)(i)."
+      "text": "the prescribed court or the ART may specify for the purposes of subparagraph (1)(a)(ii) a day that is later than the first-mentioned day in subparagraph (1)(a)(i)."
     },
     {
       "content_hash": "sha256:24e675c10bea93c07af4426fdb5f111d52d0c73a1faf42284f832d7b2f6ff252",
@@ -168,7 +168,7 @@
       "text": "(b) the Registrar is reasonably satisfied that:"
     },
     {
-      "content_hash": "sha256:725570562444ce1be25a443e91dba018bf7f0de228b55ae9549727b079e566dd",
+      "content_hash": "sha256:0a0d2db45dcbe5103393b83344d32ad788595bb8c7462d5fad03d502322691d7",
       "depth": 2,
       "kind": "paragraph",
       "number": "(i)",
@@ -176,7 +176,7 @@
       "parent_ref": "TMR1995/r7.1(3)(b)",
       "ref": "TMR1995/r7.1(3)(b)(i)",
       "style": "paragraphsub",
-      "text": "(i) the registration of the trade mark cannot take place on or before the firstmentioned day in subparagraph (1)(a)(i); and"
+      "text": "(i) the registration of the trade mark cannot take place on or before the first-mentioned day in subparagraph (1)(a)(i); and"
     },
     {
       "content_hash": "sha256:55666db6062c0619a3098b3987b0127dc2b1029dfa3a93df826f1a0444349cc4",
@@ -190,7 +190,7 @@
       "text": "(ii) it is appropriate to do so;"
     },
     {
-      "content_hash": "sha256:1d403b23070318f84c0fd74e7c277fd3678bf495a1a77735d83cedd0e858f352",
+      "content_hash": "sha256:38c9199733cdc9deace11f8ecf32e4ae0f27dd6ded2d5d52089b365972a74584",
       "depth": 0,
       "kind": "text",
       "number": null,
@@ -198,7 +198,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r7.1~2",
       "style": "subsection2",
-      "text": "the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the firstmentioned day in subparagraph (1)(a)(i)."
+      "text": "the Registrar may specify, for the purposes of subparagraph (1)(a)(ii), a day that is later than the first-mentioned day in subparagraph (1)(a)(i)."
     }
   ]
 }

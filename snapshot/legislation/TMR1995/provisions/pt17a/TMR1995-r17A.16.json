@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt17a",
     "TMR1995/pt17a/div3",
     "TMR1995/pt17a/div3/sdiv1"
   ],
-  "content_hash": "sha256:e13d8cbb91d399c85cb595159658691a0a758993bf5ebda6d087ab2b260c380d",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:f67de30cb2487bf89e3b0a0e9eaa212a1179cd109d082a8e7dfc06e0ccc2713a",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 17A—Protected international trade marks under the Madrid Protocol",
@@ -18,7 +18,7 @@
   "kind": "regulation",
   "number": "17A.16",
   "ref": "TMR1995/r17A.16",
-  "text": "(1) If, in the course of an examination of an IRDA, the Registrar reasonably believes that: (a) the IRDA is not in accordance with this Division; or (b) there are grounds under Subdivision 2 for rejecting it in whole or in part; the Registrar must send a report in accordance with rule 17 of the Madrid Regulations to the holder through the intermediary of the International Bureau. (2) Such a report is a provisional refusal for the purposes of the Protocol. (3) The report must include: (a) notice of the date by which the Registrar must notify his or her final decision on examination to the International Bureau; and (b) notice that the Registrar is not required to consider any response by the holder to the report unless the holder has notified the Registrar, in writing, of the holder’s address for service in Australia or New Zealand. Note: Under the Protocol, protection must be extended in Australia to a trade mark that is the subject of an IRDA at the end of 18 months after the International Bureau notifies the Trade Marks Office of the IRDA unless, before then, the International Bureau receives: (a) notification of a provisional or final refusal from the Trade Marks Office; or (b) notification of the possibility that oppositions may be filed after the 18month period.",
+  "text": "(1) If, in the course of an examination of an IRDA, the Registrar reasonably believes that: (a) the IRDA is not in accordance with this Division; or (b) there are grounds under Subdivision 2 for rejecting it in whole or in part; the Registrar must send a report in accordance with rule 17 of the Madrid Regulations to the holder through the intermediary of the International Bureau. (2) Such a report is a provisional refusal for the purposes of the Protocol. (3) The report must include: (a) notice of the date by which the Registrar must notify his or her final decision on examination to the International Bureau; and (b) notice that the Registrar is not required to consider any response by the holder to the report unless the holder has notified the Registrar, in writing, of the holder’s address for service in Australia or New Zealand. Note: Under the Protocol, protection must be extended in Australia to a trade mark that is the subject of an IRDA at the end of 18 months after the International Bureau notifies the Trade Marks Office of the IRDA unless, before then, the International Bureau receives: (a) notification of a provisional or final refusal from the Trade Marks Office; or (b) notification of the possibility that oppositions may be filed after the 18-month period.",
   "title": "Examination of IRDA—report to holder",
   "units": [
     {
@@ -132,7 +132,7 @@
       "text": "(a) notification of a provisional or final refusal from the Trade Marks Office; or"
     },
     {
-      "content_hash": "sha256:387a1b2d5f8e5cbc306da568ee9fde341bd37586bc845bbfc22f363f8877f4d0",
+      "content_hash": "sha256:07606bd94d722855e38c047a0e233669aa46ae896bb64a4439b352c15e1a2021",
       "depth": 3,
       "kind": "note",
       "number": null,
@@ -140,7 +140,7 @@
       "parent_ref": "TMR1995/r17A.16(3)(b)~1",
       "ref": "TMR1995/r17A.16(3)(b)~1~2",
       "style": "notepara",
-      "text": "(b) notification of the possibility that oppositions may be filed after the 18month period."
+      "text": "(b) notification of the possibility that oppositions may be filed after the 18-month period."
     }
   ]
 }

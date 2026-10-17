@@ -1,20 +1,20 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt9"
   ],
-  "content_hash": "sha256:12b04d5f9d703df611bea446ee742b14ba819e5c0229f66ba5da8b1eb36bfb19",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:fed85ae58ff7f1594b3ec44349614810d8a51675db6b0f1f90feb8c593b405f1",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
-    "Part 9—Removal of trade mark from Register for nonuse",
+    "Part 9—Removal of trade mark from Register for non-use",
     "92  Application for removal of trade mark from Register etc."
   ],
   "instrument": "TMA1995",
   "kind": "section",
   "number": "92",
   "ref": "TMA1995/s92",
-  "text": "(1) Subject to subsection (3), a person may apply to the Registrar to have a trade mark that is or may be registered removed from the Register. (2) The application: (a) must be in accordance with the regulations; and (b) may be made in respect of any or all of the goods and/or services in respect of which the trade mark may be, or is, registered. (3) An application may not be made to the Registrar under subsection (1) if an action concerning the trade mark is pending in a prescribed court, but the person may apply to the court for an order directing the Registrar to remove the trade mark from the Register. Note: For prescribed court see section 190. (4) An application under subsection (1) or (3) (nonuse application) may be made on either or both of the following grounds, and on no other grounds: (a) that, on the day on which the application for the registration of the trade mark was filed, the applicant for registration had no intention in good faith: (i) to use the trade mark in Australia; or (ii) to authorise the use of the trade mark in Australia; or (iii) to assign the trade mark to a body corporate for use by the body corporate in Australia; in relation to the goods and/or services to which the nonuse application relates and that the registered owner: (iv) has not used the trade mark in Australia; or (v) has not used the trade mark in good faith in Australia; in relation to those goods and/or services at any time before the period of one month ending on the day on which the nonuse application is filed; (b) that the trade mark has remained registered for a continuous period of 3 years ending one month before the day on which the nonuse application is filed, and, at no time during that period, the person who was then the registered owner: (i) used the trade mark in Australia; or (ii) used the trade mark in good faith in Australia; in relation to the goods and/or services to which the application relates. Note 1: For file and month see section 6. Note 2: If nonuse of a trade mark has been established in a particular place or export market, then instead of the trade mark being removed from the Register, conditions or limitations may be imposed under section 102 on the registration of the trade mark so that its registration does not extend to that place or export market. Note 3: For when the registration of a trade mark is taken to have effect, see sections 72 and 239A. (5) If the right or interest on which a person relied to make a nonuse application becomes vested in another person, the other person may, on giving notice of the relevant facts to the Registrar or the court (as the case requires), be substituted for the firstmentioned person as the applicant.",
+  "text": "(1) Subject to subsection (3), a person may apply to the Registrar to have a trade mark that is or may be registered removed from the Register. (2) The application: (a) must be in accordance with the regulations; and (b) may be made in respect of any or all of the goods and/or services in respect of which the trade mark may be, or is, registered. (3) An application may not be made to the Registrar under subsection (1) if an action concerning the trade mark is pending in a prescribed court, but the person may apply to the court for an order directing the Registrar to remove the trade mark from the Register. Note: For prescribed court see section 190. (4) An application under subsection (1) or (3) (non-use application) may be made on either or both of the following grounds, and on no other grounds: (a) that, on the day on which the application for the registration of the trade mark was filed, the applicant for registration had no intention in good faith: (i) to use the trade mark in Australia; or (ii) to authorise the use of the trade mark in Australia; or (iii) to assign the trade mark to a body corporate for use by the body corporate in Australia; in relation to the goods and/or services to which the non-use application relates and that the registered owner: (iv) has not used the trade mark in Australia; or (v) has not used the trade mark in good faith in Australia; in relation to those goods and/or services at any time before the period of one month ending on the day on which the non-use application is filed; (b) that the trade mark has remained registered for a continuous period of 3 years ending one month before the day on which the non-use application is filed, and, at no time during that period, the person who was then the registered owner: (i) used the trade mark in Australia; or (ii) used the trade mark in good faith in Australia; in relation to the goods and/or services to which the application relates. Note 1: For file and month see section 6. Note 2: If non-use of a trade mark has been established in a particular place or export market, then instead of the trade mark being removed from the Register, conditions or limitations may be imposed under section 102 on the registration of the trade mark so that its registration does not extend to that place or export market. Note 3: For when the registration of a trade mark is taken to have effect, see sections 72 and 239A. (5) If the right or interest on which a person relied to make a non-use application becomes vested in another person, the other person may, on giving notice of the relevant facts to the Registrar or the court (as the case requires), be substituted for the first-mentioned person as the applicant.",
   "title": "Application for removal of trade mark from Register etc.",
   "units": [
     {
@@ -100,7 +100,7 @@
       "text": "Note: For prescribed court see section 190."
     },
     {
-      "content_hash": "sha256:22f9d6f7a4e9156f41b3e5267aa046746c058655dfeea4a8bdcc76d2bac58f84",
+      "content_hash": "sha256:8542ead018b02a00fff8730ffd6c7df4d11837395cdebd06dffbb558ca946edf",
       "depth": 0,
       "emphasis": [
         {
@@ -110,8 +110,14 @@
           "weight": "bold-italic"
         },
         {
-          "end": 66,
+          "end": 52,
           "start": 51,
+          "text": "-",
+          "weight": "bold-italic"
+        },
+        {
+          "end": 67,
+          "start": 52,
           "text": "use application",
           "weight": "bold-italic"
         }
@@ -122,7 +128,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s92(4)",
       "style": "subsection",
-      "text": "(4) An application under subsection (1) or (3) (nonuse application) may be made on either or both of the following grounds, and on no other grounds:"
+      "text": "(4) An application under subsection (1) or (3) (non-use application) may be made on either or both of the following grounds, and on no other grounds:"
     },
     {
       "content_hash": "sha256:e1c8c0b6719934236d8533bfb45be28fc3c71ad35000123563767462d6a76cd1",
@@ -169,7 +175,7 @@
       "text": "(iii) to assign the trade mark to a body corporate for use by the body corporate in Australia;"
     },
     {
-      "content_hash": "sha256:fe36d6fba775fb325e4f2ad0865cdbb444401784f7506540aa3e0019a6cba96b",
+      "content_hash": "sha256:67bbd1335dcdcd07c56d97b5040b5846d14d0cdca18f8b76d163ddf8b03bbe91",
       "depth": 1,
       "kind": "paragraph",
       "number": null,
@@ -177,7 +183,7 @@
       "parent_ref": "TMA1995/s92(4)",
       "ref": "TMA1995/s92(4)~1",
       "style": "paragraph",
-      "text": "in relation to the goods and/or services to which the nonuse application relates and that the registered owner:"
+      "text": "in relation to the goods and/or services to which the non-use application relates and that the registered owner:"
     },
     {
       "content_hash": "sha256:061eac81d438daab3cae1288f2f31df69be115eaeae3dba2c8ca26a2d658d0fd",
@@ -202,7 +208,7 @@
       "text": "(v) has not used the trade mark in good faith in Australia;"
     },
     {
-      "content_hash": "sha256:8b0b70f57a6a87c164ec516bb1304c919aed26eb853b35825dc4973fd61feac8",
+      "content_hash": "sha256:4ed0e82c2de986df1fd4e7208a9f9e26187d76015de0eba2efc6844e6c701025",
       "depth": 1,
       "kind": "paragraph",
       "number": null,
@@ -210,10 +216,10 @@
       "parent_ref": "TMA1995/s92(4)",
       "ref": "TMA1995/s92(4)~2",
       "style": "paragraph",
-      "text": "in relation to those goods and/or services at any time before the period of one month ending on the day on which the nonuse application is filed;"
+      "text": "in relation to those goods and/or services at any time before the period of one month ending on the day on which the non-use application is filed;"
     },
     {
-      "content_hash": "sha256:2552921709a4e1ac1dfab7b2a161c787e826c359f488bcb55650176eaa702cd5",
+      "content_hash": "sha256:7d85507dd19ad34ba32edf3ca0ec33286fc82d6c0fc46ada673cc3feb7348be4",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -221,7 +227,7 @@
       "parent_ref": "TMA1995/s92(4)",
       "ref": "TMA1995/s92(4)(b)",
       "style": "paragraph",
-      "text": "(b) that the trade mark has remained registered for a continuous period of 3 years ending one month before the day on which the nonuse application is filed, and, at no time during that period, the person who was then the registered owner:"
+      "text": "(b) that the trade mark has remained registered for a continuous period of 3 years ending one month before the day on which the non-use application is filed, and, at no time during that period, the person who was then the registered owner:"
     },
     {
       "content_hash": "sha256:9011a7437a25213931d7fd305d34fc48f725afff9c1436c9d6270c4471edb005",
@@ -290,7 +296,7 @@
       "text": "Note 1: For file and month see section 6."
     },
     {
-      "content_hash": "sha256:6c8822b2a198660250144d645a436b805b0322bde4867e18b6f77720d1697ef9",
+      "content_hash": "sha256:4aebf390dffe1f1c03def5b33d0f6da3128d27ef4551e9c9602174070e0e0c64",
       "depth": 2,
       "kind": "note",
       "number": null,
@@ -306,7 +312,7 @@
       ],
       "ref": "TMA1995/s92(4)~3~2",
       "style": "notetext",
-      "text": "Note 2: If nonuse of a trade mark has been established in a particular place or export market, then instead of the trade mark being removed from the Register, conditions or limitations may be imposed under section 102 on the registration of the trade mark so that its registration does not extend to that place or export market."
+      "text": "Note 2: If non-use of a trade mark has been established in a particular place or export market, then instead of the trade mark being removed from the Register, conditions or limitations may be imposed under section 102 on the registration of the trade mark so that its registration does not extend to that place or export market."
     },
     {
       "content_hash": "sha256:e297ce16a4c64419005894e4c875ed15e60cc6134125c11ea3fa9a89b4df4aea",
@@ -334,7 +340,7 @@
       "text": "Note 3: For when the registration of a trade mark is taken to have effect, see sections 72 and 239A."
     },
     {
-      "content_hash": "sha256:c3235b6444c1c8ce1018267439e64384f0f8270ff2ba4efbbb572012d00aa271",
+      "content_hash": "sha256:e68a7b7e9e8d093bf3754d3a03a9a7172f7252185bfc280070f9c0c3cf966f52",
       "depth": 0,
       "kind": "subsection",
       "number": "(5)",
@@ -342,7 +348,7 @@
       "parent_ref": null,
       "ref": "TMA1995/s92(5)",
       "style": "subsection",
-      "text": "(5) If the right or interest on which a person relied to make a nonuse application becomes vested in another person, the other person may, on giving notice of the relevant facts to the Registrar or the court (as the case requires), be substituted for the firstmentioned person as the applicant."
+      "text": "(5) If the right or interest on which a person relied to make a non-use application becomes vested in another person, the other person may, on giving notice of the relevant facts to the Registrar or the court (as the case requires), be substituted for the first-mentioned person as the applicant."
     }
   ]
 }

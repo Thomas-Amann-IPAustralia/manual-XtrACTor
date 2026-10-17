@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt5",
     "TMR1995/pt5/div1"
   ],
-  "content_hash": "sha256:0b0acaec704f1fc634da68a180f343e24faa58525cb2fc4ec0c7d3aec063a80f",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:c594f04287cf0a69ae085331db424189f94b6399b68ca927fb02637d5ceecfb1",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 5—Opposition to registration",
@@ -16,7 +16,7 @@
   "kind": "regulation",
   "number": "5.1",
   "ref": "TMR1995/r5.1",
-  "text": "This Part sets out requirements for the following: (a) the filing of notices of opposition and associated documents; (b) the amending of filed documents; (c) the dismissal of an opposition; (d) a coolingoff period for an opposition; (e) the hearing of an opposition; (f) associated matters.",
+  "text": "This Part sets out requirements for the following: (a) the filing of notices of opposition and associated documents; (b) the amending of filed documents; (c) the dismissal of an opposition; (d) a cooling-off period for an opposition; (e) the hearing of an opposition; (f) associated matters.",
   "title": "What Part 5 is about",
   "units": [
     {
@@ -64,7 +64,7 @@
       "text": "(c) the dismissal of an opposition;"
     },
     {
-      "content_hash": "sha256:2b4f9a30329741ce4161a64e00cf3d5ce5f1645eeef29c5307d34b58217fc573",
+      "content_hash": "sha256:6937a7303138eed80f085d8e5d7510e2ac64ab05d13a5ef362c6660e9bd652b1",
       "depth": 1,
       "kind": "paragraph",
       "number": "(d)",
@@ -72,7 +72,7 @@
       "parent_ref": "TMR1995/r5.1~1",
       "ref": "TMR1995/r5.1(d)",
       "style": "paragraph",
-      "text": "(d) a coolingoff period for an opposition;"
+      "text": "(d) a cooling-off period for an opposition;"
     },
     {
       "content_hash": "sha256:15f2aafa28ca16baea3a7046eec81c874cf3d5a33cd84f9e0ccb9c158010c6dd",

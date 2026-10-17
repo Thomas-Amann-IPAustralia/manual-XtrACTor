@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt13"
   ],
-  "content_hash": "sha256:db0e7b5339c3eacb0ed8f8817cedd06e9ace42661f1d8944d47775e47b1fab52",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:c82b436fe00250ab352e493bec65486ff6738715dc5c15adf4af6fd3b78458ff",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 13—Importation of goods infringing Australian trade marks",
@@ -14,7 +14,7 @@
   "kind": "section",
   "number": "136E",
   "ref": "TMA1995/s136E",
-  "text": "Seized goods are forfeited to the Commonwealth if: (a) the goods are released by the ComptrollerGeneral of Customs to the designated owner; and (b) the designated owner does not take possession of the goods within 90 days of the release. Note: For designated owner and seized goods see section 6.",
+  "text": "Seized goods are forfeited to the Commonwealth if: (a) the goods are released by the Comptroller-General of Customs to the designated owner; and (b) the designated owner does not take possession of the goods within 90 days of the release. Note: For designated owner and seized goods see section 6.",
   "title": "Goods released but not collected are forfeited",
   "units": [
     {
@@ -29,7 +29,7 @@
       "text": "Seized goods are forfeited to the Commonwealth if:"
     },
     {
-      "content_hash": "sha256:c2e0ded04463b1cd8574d15da68509b2710235909067e982c8c2a61ac3861ab0",
+      "content_hash": "sha256:10a61cc17c3256ad5287569590ae38be4a7b5be8b2ee65f769d1998e52eacf96",
       "depth": 1,
       "kind": "paragraph",
       "number": "(a)",
@@ -37,7 +37,7 @@
       "parent_ref": "TMA1995/s136E~1",
       "ref": "TMA1995/s136E(a)",
       "style": "paragraph",
-      "text": "(a) the goods are released by the ComptrollerGeneral of Customs to the designated owner; and"
+      "text": "(a) the goods are released by the Comptroller-General of Customs to the designated owner; and"
     },
     {
       "content_hash": "sha256:675a8c1966397ff54dc2632729ebaa247d9d08513cccc5d95f599e0f924b791b",

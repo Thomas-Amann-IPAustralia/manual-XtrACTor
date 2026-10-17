@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-13T01:29:49Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "endnotes": [
     {
       "number": 1,
@@ -48,7 +48,7 @@
             ],
             [
               "C[x] = Compilation No. x",
-              "/subsubparagraph(s)"
+              "/sub-subparagraph(s)"
             ],
             [
               "ch = Chapter(s)",
@@ -108,7 +108,7 @@
             ],
             [
               "effect",
-              "sub ch = SubChapter(s)"
+              "sub ch = Sub-Chapter(s)"
             ],
             [
               "(md not incorp) = misdescribed amendment",
@@ -130,6 +130,15 @@
               "Ord = Ordinance",
               ""
             ]
+          ],
+          "underlined": [
+            {
+              "cell": 1,
+              "end": 11,
+              "row": 21,
+              "start": 0,
+              "text": "underlining"
+            }
           ]
         }
       ],
@@ -451,37 +460,46 @@
               "Statute Law Amendment (Prescribed Forms and Other Updates) Act 2023 (C2023A00074)",
               "74, 2023",
               "20 Sept 2023",
-              "sch 1 (items 126129): 20 Mar 2024 (s 2(1) item 2) sch 4 (items 76, 77): 18 Oct 2023 (s 2(1) item 3)",
+              "sch 1 (items 126-129): 20 Mar 2024 (s 2(1) item 2) sch 4 (items 76, 77): 18 Oct 2023 (s 2(1) item 3)",
               "sch 1 (item 129)"
             ],
             [
               "Intellectual Property Laws Amendment (Regulator Performance) Act 2023 (C2023A00091)",
               "91, 2023",
               "17 Nov 2023",
-              "sch 1 (items 59, 1340): 17 May 2024 (s 2(1) items 3, 5) sch 1 (items 1012): 18 Nov 2023 (s 2(1) item 4)",
+              "sch 1 (items 5-9, 13-40): 17 May 2024 (s 2(1) items 3, 5) sch 1 (items 10-12): 18 Nov 2023 (s 2(1) item 4)",
               "sch 1 (items 9, 12, 16, 40)"
             ],
             [
               "Public Health (Tobacco and Other Products) (Consequential Amendments and Transitional Provisions) Act 2023 (C2023A00119)",
               "119, 2023",
               "14 Dec 2023",
-              "sch 1 (items 2125): 1 Apr 2024 (s 2(1) item 2)",
+              "sch 1 (items 21-25): 1 Apr 2024 (s 2(1) item 2)",
               "—"
             ],
             [
               "Administrative Review Tribunal (Consequential and Transitional Provisions No. 2) Act 2024 (C2024A00039)",
               "39, 2024",
               "31 May 2024",
-              "sch 11 (items 8088): 14 Oct 2024 (s 2(1) item 2)",
+              "sch 11 (items 80-88): 14 Oct 2024 (s 2(1) item 2)",
               "—"
             ],
             [
               "Regulatory Reform Omnibus Act 2026 (C2026A00087)",
               "87, 2026",
               "18 Sept 2026",
-              "sch 1 (items 1, 2, 812): 19 Sept 2026 (s 2(1) item 2) sch 1 (items 2631): 18 Mar 2027 (s 2(1) item 4)",
+              "sch 1 (items 1, 2, 8-12): 19 Sept 2026 (s 2(1) item 2) sch 1 (items 26-31): 18 Mar 2027 (s 2(1) item 4)",
               "sch 1 (item 2)"
             ]
+          ],
+          "underlined": [
+            {
+              "cell": 3,
+              "end": 103,
+              "row": 5,
+              "start": 76,
+              "text": "18 Mar 2027 (s 2(1) item 4)"
+            }
           ]
         }
       ],
@@ -1774,12 +1792,42 @@
               "",
               "rep No 41, 2015"
             ]
+          ],
+          "underlined": [
+            {
+              "cell": 1,
+              "end": 294,
+              "row": 7,
+              "start": 283,
+              "text": "No 87, 2026"
+            },
+            {
+              "cell": 1,
+              "end": 14,
+              "row": 14,
+              "start": 3,
+              "text": "No 87, 2026"
+            },
+            {
+              "cell": 1,
+              "end": 41,
+              "row": 20,
+              "start": 30,
+              "text": "No 87, 2026"
+            },
+            {
+              "cell": 1,
+              "end": 14,
+              "row": 240,
+              "start": 3,
+              "text": "No 87, 2026"
+            }
           ]
         }
       ],
       "title": "Amendment history"
     }
   ],
-  "extractor_version": "legislation/0.2.0",
+  "extractor_version": "legislation/0.3.0",
   "instrument": "TMA1995"
 }

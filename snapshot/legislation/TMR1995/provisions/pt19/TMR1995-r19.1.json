@@ -1,24 +1,24 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt19"
   ],
-  "content_hash": "sha256:8f7b1d00259b7ef4f35a8e7790f65b666adadbaadb6800a3c9dd6478e245a65b",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:576ca543bbf9a380984a9b95c43b86cbd607987420a4797fd479b51cf2883119",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 19—Administration",
-    "19.1  Trade Marks Office and suboffices—business hours"
+    "19.1  Trade Marks Office and sub-offices—business hours"
   ],
   "instrument": "TMR1995",
   "kind": "regulation",
   "number": "19.1",
   "ref": "TMR1995/r19.1",
-  "text": "The hours of business of the Trade Marks Office and each suboffice (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than: (a) a Saturday or a Sunday; or (b) a public holiday: (i) where the Office or suboffice (if any) is located; or (ii) for the purposes of the Australian Public Service in that place.",
-  "title": "Trade Marks Office and suboffices—business hours",
+  "text": "The hours of business of the Trade Marks Office and each sub-office (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than: (a) a Saturday or a Sunday; or (b) a public holiday: (i) where the Office or sub-office (if any) is located; or (ii) for the purposes of the Australian Public Service in that place.",
+  "title": "Trade Marks Office and sub-offices—business hours",
   "units": [
     {
-      "content_hash": "sha256:b392051dde7f23452e14ab43f4cc05f3eaadf86e81d88e596bd035a197782c22",
+      "content_hash": "sha256:01ec673fcf8084f820fd38a01b8ba0b94c6b149c01d0043fdae285153efc5940",
       "depth": 0,
       "kind": "subsection",
       "number": null,
@@ -26,7 +26,7 @@
       "parent_ref": null,
       "ref": "TMR1995/r19.1~1",
       "style": "subsection",
-      "text": "The hours of business of the Trade Marks Office and each suboffice (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than:"
+      "text": "The hours of business of the Trade Marks Office and each sub-office (if any) of the Trade Marks Office are from 9 am to 5 pm on each day other than:"
     },
     {
       "content_hash": "sha256:549b80baf800568f0c056f8b28d93e5b11769255bbe7527c79e2358063d0506f",
@@ -51,7 +51,7 @@
       "text": "(b) a public holiday:"
     },
     {
-      "content_hash": "sha256:4324d851b566c628ac491d73f90915be64b958cc1d2eaaeceac0e0b54fdc29a9",
+      "content_hash": "sha256:c1bf73fd0f64e571a60933989313378888a79531c278ea6d5c0b1fd9808bfeb7",
       "depth": 2,
       "kind": "paragraph",
       "number": "(i)",
@@ -59,7 +59,7 @@
       "parent_ref": "TMR1995/r19.1(b)",
       "ref": "TMR1995/r19.1(b)(i)",
       "style": "paragraphsub",
-      "text": "(i) where the Office or suboffice (if any) is located; or"
+      "text": "(i) where the Office or sub-office (if any) is located; or"
     },
     {
       "content_hash": "sha256:650bbfa875066e8e4a5f028a21291c739bde23eb9345225f05ef8f4cc02f92ac",

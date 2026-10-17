@@ -1,10 +1,10 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMA1995/pt18"
   ],
-  "content_hash": "sha256:8d826f81201715fefba498c380d6f5d30501f002fefeb3fced1c8a319e03f4aa",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:72adbf9f138378c8f4107b358974eea7d3c3a4b358e32e247a556b33b81c20d6",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Act 1995",
     "Part 18—Jurisdiction and powers of courts",
@@ -14,7 +14,7 @@
   "kind": "section",
   "number": "197",
   "ref": "TMA1995/s197",
-  "text": "On hearing an appeal against a decision or direction of the Registrar, the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) may do any one or more of the following: (a) admit evidence orally, or on affidavit or otherwise; (b) permit the examination and crossexamination of witnesses, including witnesses who gave evidence before the Registrar; (c) order an issue of fact to be tried as it directs; (d) affirm, reverse or vary the Registrar’s decision or direction; (e) give any judgment, or make any order, that, in all the circumstances, it thinks fit; (f) order a party to pay costs to another party.",
+  "text": "On hearing an appeal against a decision or direction of the Registrar, the Federal Court or the Federal Circuit and Family Court of Australia (Division 2) may do any one or more of the following: (a) admit evidence orally, or on affidavit or otherwise; (b) permit the examination and cross-examination of witnesses, including witnesses who gave evidence before the Registrar; (c) order an issue of fact to be tried as it directs; (d) affirm, reverse or vary the Registrar’s decision or direction; (e) give any judgment, or make any order, that, in all the circumstances, it thinks fit; (f) order a party to pay costs to another party.",
   "title": "Powers of Federal Court and Federal Circuit and Family Court of Australia (Division 2) on hearing an appeal",
   "units": [
     {
@@ -40,7 +40,7 @@
       "text": "(a) admit evidence orally, or on affidavit or otherwise;"
     },
     {
-      "content_hash": "sha256:27b1ee9ff3b94142244189152264edda6ab4ad417f8bdcddaf5254f175a11cbf",
+      "content_hash": "sha256:fe303df384e7650b65cbf655ea6505049e64ddd95e5dc5c09944d4d00e4a1bd8",
       "depth": 1,
       "kind": "paragraph",
       "number": "(b)",
@@ -48,7 +48,7 @@
       "parent_ref": "TMA1995/s197~1",
       "ref": "TMA1995/s197(b)",
       "style": "paragraph",
-      "text": "(b) permit the examination and crossexamination of witnesses, including witnesses who gave evidence before the Registrar;"
+      "text": "(b) permit the examination and cross-examination of witnesses, including witnesses who gave evidence before the Registrar;"
     },
     {
       "content_hash": "sha256:650e103621f6b309b62cdbd6d422865bd7a18fce078c50da2988a6e602b374f1",

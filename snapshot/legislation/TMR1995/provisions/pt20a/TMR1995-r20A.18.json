@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-07-29T13:31:29Z",
+  "captured_at": "2026-10-17T14:11:23Z",
   "containers": [
     "TMR1995/pt20a",
     "TMR1995/pt20a/div5",
     "TMR1995/pt20a/div5/sdivb"
   ],
-  "content_hash": "sha256:a84ba591679f33638b2a5b7615cab44ec8f6f29b3fbb2c0908423ed3734f961e",
-  "extractor_version": "legislation/0.2.0",
+  "content_hash": "sha256:07f22ceb983ec906335b2b095b7be824be6f33347bb05a76d8962d2add95ac79",
+  "extractor_version": "legislation/0.3.0",
   "heading_path": [
     "Trade Marks Regulations 1995",
     "Part 20A—Incorporated trade marks attorneys",
@@ -18,7 +18,7 @@
   "kind": "regulation",
   "number": "20A.18",
   "ref": "TMR1995/r20A.18",
-  "text": "(1) After hearing an application for the cancellation or suspension of the incorporated trade marks attorney’s registration, a Panel of the Disciplinary Tribunal may: (a) cancel the attorney’s registration as an incorporated trade marks attorney; or (b) suspend the attorney’s registration as an incorporated trade marks attorney. (2) The Panel may also impose conditions on the attorney’s return to the Register of Trade Marks Attorneys after the cancellation has been lifted or the period of suspension has elapsed. (3) In making a decision under this regulation, the Panel may consider the following: (a) the professional misconduct engaged in; (b) the behaviour of the incorporated trade marks attorney’s officers and employees; (c) whether officers and employees of the incorporated trade marks attorney had complied with the Code of Conduct; (d) findings made (regardless of when the findings were made) about the conduct of the incorporated attorney in any other proceedings brought before a relevant disciplinary tribunal; (e) findings made (regardless of when the findings were made) about the conduct of the incorporated attorney’s employees and officers in any other proceedings brought before a relevant disciplinary tribunal; (f) if the incorporated trade marks attorney failed, without reasonable excuse, to provide information requested by the Board under subregulation 20A.10(2)—the incorporated trade marks attorney’s failure to provide requested information. (4) In this regulation: relevant disciplinary tribunal means any of the following: (a) the Patents and Trade Marks Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force before the commencement of this subregulation; (b) the TransTasman IP Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force on the commencement of this subregulation; (c) the Patents and Trade Marks Attorneys Disciplinary Tribunal as continued in force by subregulation 23.42(1) or 23.43(1) of the Patents Regulations 1991 or subregulation 22.16(1) or 22.17(1) of these Regulations.",
+  "text": "(1) After hearing an application for the cancellation or suspension of the incorporated trade marks attorney’s registration, a Panel of the Disciplinary Tribunal may: (a) cancel the attorney’s registration as an incorporated trade marks attorney; or (b) suspend the attorney’s registration as an incorporated trade marks attorney. (2) The Panel may also impose conditions on the attorney’s return to the Register of Trade Marks Attorneys after the cancellation has been lifted or the period of suspension has elapsed. (3) In making a decision under this regulation, the Panel may consider the following: (a) the professional misconduct engaged in; (b) the behaviour of the incorporated trade marks attorney’s officers and employees; (c) whether officers and employees of the incorporated trade marks attorney had complied with the Code of Conduct; (d) findings made (regardless of when the findings were made) about the conduct of the incorporated attorney in any other proceedings brought before a relevant disciplinary tribunal; (e) findings made (regardless of when the findings were made) about the conduct of the incorporated attorney’s employees and officers in any other proceedings brought before a relevant disciplinary tribunal; (f) if the incorporated trade marks attorney failed, without reasonable excuse, to provide information requested by the Board under subregulation 20A.10(2)—the incorporated trade marks attorney’s failure to provide requested information. (4) In this regulation: relevant disciplinary tribunal means any of the following: (a) the Patents and Trade Marks Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force before the commencement of this subregulation; (b) the Trans-Tasman IP Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force on the commencement of this subregulation; (c) the Patents and Trade Marks Attorneys Disciplinary Tribunal as continued in force by subregulation 23.42(1) or 23.43(1) of the Patents Regulations 1991 or subregulation 22.16(1) or 22.17(1) of these Regulations.",
   "title": "Decision of Panel of Disciplinary Tribunal",
   "units": [
     {
@@ -220,24 +220,24 @@
       "text": "(a) the Patents and Trade Marks Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force before the commencement of this subregulation;"
     },
     {
-      "content_hash": "sha256:65ea470cb2b59376315a77065ce368552a0549ed83469b4b77c65fe848b690d7",
+      "content_hash": "sha256:d1cc6384bb11a22c0d22bc6ee05ba83c1dc1eaf582bbd7076da032862a48e124",
       "depth": 1,
       "emphasis": [
         {
-          "end": 101,
-          "start": 94,
+          "end": 102,
+          "start": 95,
           "text": "Patents",
           "weight": "italic"
         },
         {
-          "end": 115,
-          "start": 102,
+          "end": 116,
+          "start": 103,
           "text": "Regulations 1",
           "weight": "italic"
         },
         {
-          "end": 118,
-          "start": 115,
+          "end": 119,
+          "start": 116,
           "text": "991",
           "weight": "italic"
         }
@@ -256,7 +256,7 @@
       ],
       "ref": "TMR1995/r20A.18/relevant-disciplinary-tribunal(b)",
       "style": "paragraph",
-      "text": "(b) the TransTasman IP Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force on the commencement of this subregulation;"
+      "text": "(b) the Trans-Tasman IP Attorneys Disciplinary Tribunal established by regulation 20.61 of the Patents Regulations 1991 as in force on the commencement of this subregulation;"
     },
     {
       "content_hash": "sha256:acce30e976ec2522d0dff05cb627420021873248984a310677c29c645c428968",
