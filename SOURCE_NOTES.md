@@ -732,6 +732,26 @@ Without it, the raise stands. The distinction is the whole point: it keeps the
 "the site has changed shape" alarm working while stopping it firing on a page
 the Manual has merely emptied.
 
+**The banner changed shape in September 2026, and the alarm did its job.** The
+site moved the sentence out of its `<p>` and into the alert directly:
+
+```html
+<div class="alert alert-warning py-3 my-3" role="alert">
+  This page has been archived.
+  <p>If you would like to submit feedback, please <a href="...">contact us</a>.</p>
+</div>
+```
+
+The matcher looked only in `<p>` children, so Annex A4 became a page with no
+body field and no recognisable banner, and every scheduled crawl from 20
+September to 11 October raised on it about 205 pages in — four weeks of the
+Manual going unrecorded, loudly rather than wrongly. The banner is now matched
+in either place: a `<p>` inside the alert, or the alert's own text (its direct
+text nodes, joined and normalised). Both are still whole-string equality, so
+a callout that mentions archiving in passing still does not match. All six
+archived pages (Parts 23, 30, 48, 52 and 61) were refetched on 17 October 2026
+and parse; the new shape is a fixture beside the old one.
+
 An archived page is recorded, not skipped: `archived: true` on the page record,
 the amendment history preserved, `chunks: []`, and a `content_hash` over an
 empty body. Preserving the history is the reason not to drop it — the archival

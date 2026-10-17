@@ -38,6 +38,14 @@ PAGE_SLUGS = {
         "subsection-415---for-trade-marks-with-a-filing-date-prior-to-"
         "15-april-2013"
     ),
+    # The same page, refetched 17 October 2026. The banner sentence has left
+    # its <p> and sits directly in the alert, and every scheduled crawl from
+    # 20 September died on it. SOURCE_NOTES.md §15.
+    "part23_archived_2026_10": (
+        "annex-a4---how-to-supply-evidence-of-use-of-a-trade-mark-under-"
+        "subsection-415---for-trade-marks-with-a-filing-date-prior-to-"
+        "15-april-2013"
+    ),
     # An editor left a yellow highlight around one digit of two heading
     # numbers, so `3.2.1` is `3.<span>2</span>.1` in the markup.
     # SOURCE_NOTES.md §7. Saved 28 July 2026, the day crawl #5 died on it.
@@ -68,8 +76,15 @@ def fixture_html(*parts: str) -> str:
     return FIXTURES.joinpath(*parts).read_text(encoding="utf-8")
 
 
+#: A fixture whose slug another fixture already uses, because it is the same
+#: page fetched again after the site changed it, is saved under a dated name.
+PAGE_FILES = {
+    "part23_archived_2026_10": f"{PAGE_SLUGS['part23_archived_2026_10']}.2026-10-17.html",
+}
+
+
 def page_html(name: str) -> str:
-    return fixture_html("pages", f"{PAGE_SLUGS[name]}.html")
+    return fixture_html("pages", PAGE_FILES.get(name, f"{PAGE_SLUGS[name]}.html"))
 
 
 def page_url(name: str) -> str:
