@@ -27,13 +27,13 @@
       "links": [
         {
           "end": 16,
-          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s39.html",
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/tma1995121/s39.html",
           "start": 0,
           "text": "Subsection 39(1)"
         },
         {
           "end": 178,
-          "href": "https://austlii.edu.au/cgi-bin/viewdb/au/legis/cth/consol_act/tma1995121/s18.html",
+          "href": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/num_act/tma1995121/s18.html",
           "start": 168,
           "text": "section 18"
         }
@@ -42,7 +42,8 @@
       "page_ref": "TMM/Part31/1",
       "provisions": [
         {
-          "extraction": "href",
+          "certainty": "default",
+          "extraction": "regex",
           "id": "TMA1995/s18",
           "mention": "section 18"
         },
@@ -57,8 +58,12 @@
     }
   ],
   "page": {
-    "amendment_note": "Whole part reviewed, content updated.",
+    "amendment_note": "Corrected broken links in Part 31.1",
     "amendments": [
+      {
+        "date": "2026-09-15",
+        "reason": "Corrected broken links in Part 31.1"
+      },
       {
         "date": "2026-07-22",
         "reason": "Whole part reviewed, content updated."
@@ -77,13 +82,13 @@
       }
     ],
     "archived": false,
-    "content_hash": "sha256:fd096be561f0a4b0d552e16030ea7efec317642bc79179218958364fb726404a",
-    "crawled_at": "2026-08-03T09:26:04Z",
-    "date_published": "2026-07-22",
+    "content_hash": "sha256:ca31266e5357ae88a9043988387dad017eb8c111f975561cfff8bad03355d4cf",
+    "crawled_at": "2026-10-18T21:21:48Z",
+    "date_published": "2026-09-15",
     "extractor_version": "ingest/0.11.0",
     "h1": "31.1. Prohibited signs - subsection 39(1)",
     "images": [],
-    "last_amended": "2026-07-22",
+    "last_amended": "2026-09-15",
     "nav_title": "1. Prohibited signs - subsection 39(1)",
     "page_ref": "TMM/Part31/1",
     "part_id": "Part31",
