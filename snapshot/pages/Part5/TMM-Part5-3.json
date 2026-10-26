@@ -137,7 +137,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Note: With the introduction of streamlined electronic processes, trade marks are viewable in Australian Trade Mark Search shortly after the application is filed, usually within one business day. While the indexing may not yet be finalised, the application is still deemed to be published when the lifecycle status is “Published” in relation to any amendments under s 64."
+          "text": "Note: With the introduction of streamlined electronic processes, trade marks are viewable in Australian Trade Mark Search shortly after the application is filed, usually within one business day. While the indexing may not yet be finalised, the application is still deemed to be published when the application is visible externally in Australian Trade Mark Search."
         },
         {
           "kind": "paragraph",
@@ -173,7 +173,7 @@
       ],
       "cases": [],
       "chunk_ref": "TMM/Part5/3/3/1",
-      "content_hash": "sha256:f824cf1eb39fc480bf514a507847bf16b1a4497252b6205027fd17746df6cf65",
+      "content_hash": "sha256:c7c26ab3b1826535948d497e5e3fe39d3892e0c5999dac2c4cc4d8bd17579d72",
       "emphasis": [
         {
           "end": 517,
@@ -194,9 +194,9 @@
           "text": "Note"
         },
         {
-          "end": 1317,
+          "end": 1310,
           "kind": "strong",
-          "start": 1306,
+          "start": 1299,
           "text": "Re-indexing"
         }
       ],
@@ -232,21 +232,18 @@
       ],
       "ordinal": 2,
       "page_ref": "TMM/Part5/3",
-      "provisions": [
-        {
-          "certainty": "default",
-          "extraction": "regex",
-          "id": "TMA1995/s64",
-          "mention": "s 64"
-        }
-      ],
+      "provisions": [],
       "tables": [],
-      "text": "Indexing involves identifying the elements that make up a trade mark. These elements are known as the indexing terms of the trade mark. They are recorded in the electronic database so that the trade mark can be found when a search is done. Indexing is a fairly straightforward process in the case of trade marks which consist of words. The indexing of complex pictorial trade marks is a much more difficult task. The available terms are limited to those published by the Registrar in the Glossary of Image Descriptors. Note: Applicants should note that the image descriptors used for a trade mark are purely administrative and have no effect on the nature of the trade mark nor on the applicant's rights in it. Note: With the introduction of streamlined electronic processes, trade marks are viewable in Australian Trade Mark Search shortly after the application is filed, usually within one business day. While the indexing may not yet be finalised, the application is still deemed to be published when the lifecycle status is “Published” in relation to any amendments under s 64. Indexers follow detailed instructions for determining the indexing terms, and enter these terms into the database. Once the indexing is completed, the status of the application changes to \"Published – awaiting examination\". Re-indexing The constituent particulars that are originally captured sometimes need to be changed at a later stage. This process is termed re-indexing. Re-indexing may be required if: an important particular of the trade mark has been overlooked a substitute representation of the trade mark is provided, or when a trade mark is amended"
+      "text": "Indexing involves identifying the elements that make up a trade mark. These elements are known as the indexing terms of the trade mark. They are recorded in the electronic database so that the trade mark can be found when a search is done. Indexing is a fairly straightforward process in the case of trade marks which consist of words. The indexing of complex pictorial trade marks is a much more difficult task. The available terms are limited to those published by the Registrar in the Glossary of Image Descriptors. Note: Applicants should note that the image descriptors used for a trade mark are purely administrative and have no effect on the nature of the trade mark nor on the applicant's rights in it. Note: With the introduction of streamlined electronic processes, trade marks are viewable in Australian Trade Mark Search shortly after the application is filed, usually within one business day. While the indexing may not yet be finalised, the application is still deemed to be published when the application is visible externally in Australian Trade Mark Search. Indexers follow detailed instructions for determining the indexing terms, and enter these terms into the database. Once the indexing is completed, the status of the application changes to \"Published – awaiting examination\". Re-indexing The constituent particulars that are originally captured sometimes need to be changed at a later stage. This process is termed re-indexing. Re-indexing may be required if: an important particular of the trade mark has been overlooked a substitute representation of the trade mark is provided, or when a trade mark is amended"
     }
   ],
   "page": {
-    "amendment_note": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections.",
+    "amendment_note": "Minor update to when an application is deemed to be published.",
     "amendments": [
+      {
+        "date": "2026-08-19",
+        "reason": "Minor update to when an application is deemed to be published."
+      },
       {
         "date": "2026-04-13",
         "reason": "Part reviewed: IK-related indexing terms updated, links to legislation updated, minor typographical corrections."
@@ -265,13 +262,13 @@
       }
     ],
     "archived": false,
-    "content_hash": "sha256:3ffad63a6d0ffa85ea04e4b7997df20ae973b5833b3af665d758603a4966de6e",
-    "crawled_at": "2026-08-03T09:26:04Z",
-    "date_published": "2026-04-13",
+    "content_hash": "sha256:180ef06bc98fee776540ed677acf53bb01186bf98f8a68b5e56f8b145a097d00",
+    "crawled_at": "2026-09-13T21:23:37Z",
+    "date_published": "2026-08-19",
     "extractor_version": "ingest/0.11.0",
     "h1": "5.3. Indexing",
     "images": [],
-    "last_amended": "2026-04-13",
+    "last_amended": "2026-08-19",
     "nav_title": "3. Indexing and Re-scanning",
     "page_ref": "TMM/Part5/3",
     "part_id": "Part5",
